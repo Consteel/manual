@@ -32,6 +32,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
+          includeCurrentVersion: false
         },
         blog: {
           showReadingTime: true,
