@@ -13,10 +13,6 @@ const config: Config = {
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -36,17 +32,11 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          routeBasePath: 'release-notes',
+          path: 'release-notes'
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -84,7 +74,7 @@ const config: Config = {
           type: 'localeDropdown',
           position: "right"
         },
-        {to: '/release', label: 'Release Notes', position: 'left'},
+        {to: 'release-notes', label: 'Release Notes', position: 'left'},
         {
           href: 'https://consteelsoftware.com',
           label: 'Consteel Software',
@@ -105,6 +95,10 @@ const config: Config = {
             {
               label: 'Descript',
               to: '/docs/descript/intro',
+            },
+            {
+              label: 'Release notes',
+              to: '/release',
             },
           ],
         },
@@ -134,6 +128,7 @@ const config: Config = {
       copyright: `Copyright © ${new Date().getFullYear()} Consteel Software, Ltd. Built with Docusaurus.`,
     },
     prism: {
+      additionalLanguages: ['php'],
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
