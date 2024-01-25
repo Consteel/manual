@@ -1,0 +1,22 @@
+{
+  "logo.alt": {
+    "message": "My Site Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Consteel Manual": {
+    "message": "Consteel Kézikönyv",
+    "description": "Navbar item with label Consteel Manual"
+  },
+  "item.label.Descript": {
+    "message": "Descript",
+    "description": "Navbar item with label Descript"
+  },
+  "item.label.Release Notes": {
+    "message": "Release Notes",
+    "description": "Navbar item with label Release Notes"
+  },
+  "item.label.Consteel Software": {
+    "message": "Consteel Software",
+    "description": "Navbar item with label Consteel Software"
+  }
+}

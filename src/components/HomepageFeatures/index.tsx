@@ -1,6 +1,7 @@
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
+import Translate from '@docusaurus/Translate';
 
 type FeatureItem = {
   title: string;
@@ -45,7 +46,7 @@ function Feature({title, Svg, description}: FeatureItem) {
         <Svg className={styles.featureSvg} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
+        <Heading as="h3"><Translate>{title}</Translate></Heading>
         <p>{description}</p>
       </div>
     </div>
