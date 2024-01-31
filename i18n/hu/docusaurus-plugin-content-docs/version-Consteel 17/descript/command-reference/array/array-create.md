@@ -1,3 +1,0 @@
-# ARRAY_CREATE
-
-Létrehozás

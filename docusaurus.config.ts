@@ -32,7 +32,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          includeCurrentVersion: false
+          includeCurrentVersion: true
         },
         blog: {
           showReadingTime: true,
@@ -67,10 +67,10 @@ const config: Config = {
           position: 'left',
           label: 'Descript',
         },
-        {
-          type: 'docsVersionDropdown',
-          position: 'right'
-        },
+        // {
+        //   type: 'docsVersionDropdown',
+        //   position: 'right'
+        // },
         {
           type: 'localeDropdown',
           position: "right"
