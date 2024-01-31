@@ -1,1 +1,1 @@
-# Installing and running the softawre
+# Installing and running the software
