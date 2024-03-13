@@ -1,11 +1,9 @@
 ---
-title: 'Installing and running the software'
-description: ""
-published: 2021-04-13
-redirect_from: 
-            - https://www.consteelsoftware.com/manual/general-description/installing-and-running-the-software/
-hero: ./img/wp-content-uploads-2021-04-Main-menubar-1-1024x38.png
+sidebar_position: 1
 ---
+# Installing and running the software
+
+
 <!-- wp:consteel/content-block -->
 
 <!-- /wp:consteel/content-block -->
@@ -26,29 +24,11 @@ Please ensure that the following software and hardware requirements are met in o
 
 <!-- wp:column {"verticalAlignment":"top","width":"20%"} -->
 
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
 - Processor
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
 - Memory
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
 - HDD
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
 - Video-card
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
 - Operating system
-- <!-- /wp:list-item -->
-
-<!-- /wp:list -->
 
 <!-- /wp:column -->
 
@@ -80,23 +60,11 @@ Intel Core i5 or equivalent
 
 <!-- wp:list -->
 
-- <!-- wp:list-item -->
-- Processor
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- Memory
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- Video-card
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- Operating system
-- <!-- /wp:list-item -->
 
-<!-- /wp:list -->
+- Processor
+- Memory
+- Video-card
+- Operating system
 
 <!-- /wp:column -->
 
@@ -129,7 +97,7 @@ Installation needs administrative or power user rights. Without that, the hard l
 
 <!-- wp:paragraph -->
 
-The _ConSteel_ install package can be downloaded from the _[Downloads/Install packages](https://consteelsoftware.com/downloads/)_ section of the _ConSteel_ website (<https://consteelsoftware.com/downloads/>) for registered users only.
+
 
 <!-- /wp:paragraph -->
 
@@ -151,7 +119,7 @@ The _ConSteel_ install package can be downloaded from the _[Downloads/Install pa
 
 <!-- wp:paragraph -->
 
-To create a new user account, click the **LOG IN** button in the upper right corner of the Consteel website, then click **Register **at the bottom of the pop-up window. Then enter your email address, your name, and a chosen password in the **_Create Account_ **window that appears. It is important to enter a real email address because you will receive an email to confirm it as the next step. At the bottom of the window, it is possible to subscribe to Consteel's professional newsletter and you must accept the terms of use and privacy policy. You can then click on the **_Register_** button to proceed, and another window will inform you that the registration confirmation e-mail has been sent to the specified e-mail address and the registration must be completed using the link included in the email. If you don't receive the email in a long time, you may need to check your spam and promotional folders in your email system. If the email is not found there either, you can request to send the confirmation email again if you try to login with your email address and password, then clicking on the _**Send confirmation email again**_ text. After confirming the registration, you can log in to your user account.
+To create a new user account, click the **LOG IN** button in the upper right corner of the Consteel website, then click **Register** at the bottom of the pop-up window. Then enter your email address, your name, and a chosen password in the **_Create Account_** window that appears. It is important to enter a real email address because you will receive an email to confirm it as the next step. At the bottom of the window, it is possible to subscribe to Consteel's professional newsletter and you must accept the terms of use and privacy policy. You can then click on the **_Register_** button to proceed, and another window will inform you that the registration confirmation e-mail has been sent to the specified e-mail address and the registration must be completed using the link included in the email. If you don't receive the email in a long time, you may need to check your spam and promotional folders in your email system. If the email is not found there either, you can request to send the confirmation email again if you try to login with your email address and password, then clicking on the **_Send confirmation email again_** text. After confirming the registration, you can log in to your user account.
 
 <!-- /wp:paragraph -->
 
@@ -177,7 +145,7 @@ To create a new user account, click the **LOG IN** button in the upper right cor
 
 <!-- wp:paragraph -->
 
-To install Consteel, start the downloaded installation file and follow the instructions. As a first step, the language of the setup must be set. C*onSteel* will use this language for the first time you start it, but you may switch to another language later. The installing program will copy the elements of the software into the directory you have specified (default directory: C:\\Program Files\\ConSteel xx - where xx=version number), then it will position the Menu of the program onto the selected place of the „START”-menu. Finally, the install shield will place the desktop shortcut onto the desktop. The last step of the setup is the hard lock driver installation. This has no progress signal, so you have to wait until it finishes.
+To install Consteel, start the downloaded installation file and follow the instructions. As a first step, the language of the setup must be set. *ConSteel* will use this language for the first time you start it, but you may switch to another language later. The installing program will copy the elements of the software into the directory you have specified (default directory: C:\\Program Files\\ConSteel xx - where xx=version number), then it will position the Menu of the program onto the selected place of the „START”-menu. Finally, the install shield will place the desktop shortcut onto the desktop. The last step of the setup is the hard lock driver installation. This has no progress signal, so you have to wait until it finishes.
 
 <!-- /wp:paragraph -->
 
@@ -193,7 +161,7 @@ To install Consteel, start the downloaded installation file and follow the instr
 
 <!-- wp:paragraph -->
 
-If you have purchased a network-enabled hardware key, it can be connected to any computer on the internal network with a free USB port on which the hardware key driver has been pre-installed. This driver is also part of the Consteel installation package, which is installed on the computer by default (see the previous section), but it is also possible to install it independently if you want to connect the hardware key to a server computer. To do this, start the Consteel installation package as described above, then in the _**Select Components**_ window all you have to do is select the Hardlock driver item, leave the rest blank and click _Next_ to complete the installation.
+If you have purchased a network-enabled hardware key, it can be connected to any computer on the internal network with a free USB port on which the hardware key driver has been pre-installed. This driver is also part of the Consteel installation package, which is installed on the computer by default (see the previous section), but it is also possible to install it independently if you want to connect the hardware key to a server computer. To do this, start the Consteel installation package as described above, then in the **_Select Components_** window all you have to do is select the Hardlock driver item, leave the rest blank and click _Next_ to complete the installation.
 
 <!-- /wp:paragraph -->
 
@@ -249,7 +217,7 @@ Launching the program for the first time you have to select whether you use Cons
 
 <!-- wp:paragraph -->
 
-You can save this setting as a default setting. **Do this only if you are sure about your choice! **(If you have accidentally saved the online license as default but you do not have it the solution is at the moment only reinstalling Consteel.)
+You can save this setting as a default setting. **Do this only if you are sure about your choice!** (If you have accidentally saved the online license as default but you do not have it the solution is at the moment only reinstalling Consteel.)
 
 <!-- /wp:paragraph -->
 
@@ -385,7 +353,7 @@ By clicking on the "Add user" card the license holder can type the user's email 
 
 <!-- wp:paragraph -->
 
-**(3) **After assigning users to software accesses the license holder can give online seat access to these users. By clicking on a seat's panel the panel will open and the license holder can select a user from the list of assigned users to give access to that particular user. After selecting a user the "Give access" button will be active and clickable. Users can be removed from a seat by clicking on the "X" icon. One user can be assigned to multiple seats.
+**(3)** After assigning users to software accesses the license holder can give online seat access to these users. By clicking on a seat's panel the panel will open and the license holder can select a user from the list of assigned users to give access to that particular user. After selecting a user the "Give access" button will be active and clickable. Users can be removed from a seat by clicking on the "X" icon. One user can be assigned to multiple seats.
 
 <!-- /wp:paragraph -->
 
@@ -505,7 +473,7 @@ Cloud storage provided by the Steelspace platform
 
 <!-- wp:paragraph -->
 
-When you open a model from the cloud it is always downloaded to the local device into the folder: C:\\Users{username}\\AppData\\Local\\ConSteel\\CloudModels and kept synchronized. The amount of data bandwidth is set by your subscription's membership level and it will renew every month.
+When you open a model from the cloud it is always downloaded to the local device into the folder: C:\\Users(username)\\AppData\\Local\\ConSteel\\CloudModels and kept synchronized. The amount of data bandwidth is set by your subscription's membership level and it will renew every month.
 
 <!-- /wp:paragraph -->
 
@@ -517,7 +485,7 @@ When you open a model from the cloud it is always downloaded to the local device
 
 <!-- wp:paragraph -->
 
-ConSteel can be started with hardware key protection for a purchased copy or using an online protection. Currently, the online license is only available for students, teachers, or trial users for free through a registered Consteel user account. See the link below for details on how to apply for a license: <https://consteelsoftware.com/how-licensing-works>
+ConSteel can be started with hardware key protection for a purchased copy or using an online protection. Currently, the online license is only available for students, teachers, or trial users for free through a registered Consteel user account. See the link below for details on how to apply for a license: https://consteelsoftware.com/how-licensing-works
 
 <!-- /wp:paragraph -->
 
