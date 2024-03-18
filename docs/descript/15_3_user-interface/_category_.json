@@ -1,6 +1,7 @@
 {
-  "label": "Command reference",
-  "position": 5,
+  "label": "UI",
+  "position": 3
+  ,
   "link": {
     "type": "generated-index",
     "description": " "
