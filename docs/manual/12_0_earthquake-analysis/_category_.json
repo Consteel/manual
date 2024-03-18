@@ -1,0 +1,8 @@
+{
+  "label": "Earthquake analysis",
+  "position": 12,
+  "link": {
+    "type": "generated-index",
+    "description": "ConSteels can perform earthquake analysis is based on Modal response spectrum analysis (MRSA). For more details see the next chapter."
+  }
+}
