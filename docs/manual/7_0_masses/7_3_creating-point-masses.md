@@ -3,7 +3,7 @@ sidebar_position: 3
 ---
 # Creating point masses
 
-**Point mass **(![](./img/wp-content-uploads-2021-04-cmd_mass_point.png)) objects can be placed at any point of the structure. Every placed point load will be automatically assigned to the active mass case of the mass case dropdown menu.
+**Point mass**(![](./img/wp-content-uploads-2021-04-cmd_mass_point.png)) objects can be placed at any point of the structure. Every placed point load will be automatically assigned to the active mass case of the mass case dropdown menu.
 
 <!-- /wp:paragraph -->
 
