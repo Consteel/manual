@@ -67,6 +67,12 @@ const config: Config = {
           position: 'left',
           label: 'Descript',
         },
+        {
+          type: 'docSidebar',
+          sidebarId: 'pluginsSideBar',
+          position: 'left',
+          label: 'Plugins',
+        },
         // {
         //   type: 'docsVersionDropdown',
         //   position: 'right'
