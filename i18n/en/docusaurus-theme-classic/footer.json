@@ -1,0 +1,42 @@
+{
+  "link.title.Docs": {
+    "message": "Docs",
+    "description": "The title of the footer links column with title=Docs in the footer"
+  },
+  "link.title.Community": {
+    "message": "Community",
+    "description": "The title of the footer links column with title=Community in the footer"
+  },
+  "link.title.More": {
+    "message": "More",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.Consteel Manual": {
+    "message": "Consteel Manual",
+    "description": "The label of footer link with label=Consteel Manual linking to /docs/manual/intro"
+  },
+  "link.item.label.Descript": {
+    "message": "Descript",
+    "description": "The label of footer link with label=Descript linking to /docs/descript/intro"
+  },
+  "link.item.label.Release notes": {
+    "message": "Release notes",
+    "description": "The label of footer link with label=Release notes linking to /release"
+  },
+  "link.item.label.Steelspace": {
+    "message": "Steelspace",
+    "description": "The label of footer link with label=Steelspace linking to https://steelspace.io"
+  },
+  "link.item.label.Steel Lion Award": {
+    "message": "Steel Lion Award",
+    "description": "The label of footer link with label=Steel Lion Award linking to https://steellionaward.com"
+  },
+  "link.item.label.Consteel Software": {
+    "message": "Consteel Software",
+    "description": "The label of footer link with label=Consteel Software linking to https://consteelsoftware.com"
+  },
+  "copyright": {
+    "message": "Copyright © 2024 Consteel Software, Ltd. Built with Docusaurus.",
+    "description": "The footer copyright"
+  }
+}

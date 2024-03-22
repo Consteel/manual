@@ -1,0 +1,8 @@
+{
+  "label": "Documentation",
+  "position": 14,
+  "link": {
+    "type": "generated-index",
+    "description": "In _**ConSteel**_ there is a powerful and easy-to-use documentation engine in order to create precise, easily editable static documents that meet the requirements of the structural engineers. The static documentation contains the full description of the model and also the results of the analysis and design."
+  }
+}

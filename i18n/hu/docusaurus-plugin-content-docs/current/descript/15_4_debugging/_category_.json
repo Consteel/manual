@@ -1,0 +1,8 @@
+{
+  "label": "Debugging",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Debugging functions can be used to fix bugs in Descript codes or to follow how the code is working."
+  }
+}

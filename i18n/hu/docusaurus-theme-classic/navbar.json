@@ -18,5 +18,9 @@
   "item.label.Consteel Software": {
     "message": "Consteel Software",
     "description": "Navbar item with label Consteel Software"
+  },
+  "item.label.Plugins": {
+    "message": "Plugins",
+    "description": "Navbar item with label Plugins"
   }
 }
