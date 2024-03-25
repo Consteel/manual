@@ -12,7 +12,7 @@ A _Consteel_-ben kétféle táblázattípus található: az adatbeviteli és az 
 
 <!-- wp:paragraph -->
 
-Adatbeviteli táblázatok (a ***[Teherkombinációk ](/manual/terhek/teherkombinaciok/)***és az _**[Analízis beállításai](/manual/szerkezetek-analizise/analizis-beallitasok/)**_ ablakok használják) funkciói:
+Adatbeviteli táblázatok (a **[Teherkombinációk](/manual/terhek/teherkombinaciok/)** és az _**[Analízis beállításai](/manual/szerkezetek-analizise/analizis-beallitasok/)**_ ablakok használják) funkciói:
 
 <!-- /wp:paragraph -->
 
