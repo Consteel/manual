@@ -535,7 +535,7 @@ A felhőtárhelyet a Steelspace platform biztosítja
 
 <!-- wp:paragraph -->
 
-A felhőtárhelyről megnyitott modellek minden esetben letöltésre kerülnek az alábbi mappába: C:\\Users{username}\\AppData\\Local\\ConSteel\\CloudModels, és a munka során folyamatosan szinkronizált kapcsolatban maradnak a felhőben tárolt változattal.
+A felhőtárhelyről megnyitott modellek minden esetben letöltésre kerülnek az alábbi mappába: C:\\Users\\\{username\}\\AppData\\Local\\ConSteel\\CloudModels, és a munka során folyamatosan szinkronizált kapcsolatban maradnak a felhőben tárolt változattal.
 
 <!-- /wp:paragraph -->
 
