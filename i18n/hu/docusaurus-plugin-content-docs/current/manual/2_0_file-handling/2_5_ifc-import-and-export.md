@@ -1,27 +1,35 @@
 ---
 sidebar_position: 5
 ---
-# IFC import and export
+# IFC modell import és export
 
-IFC is a global standard for data exchange in the building industries. IFC is both a common data model and an open file format. Building industry professionals can use IFC to share data regardless of what software application they use to get their job done.
+<!-- wp:paragraph -->
+
+Az IFC (Industry Foundation Classes) egy nyílt leírású, az építő ipar és létesítmény management számára, a BIM (Building Information Modeling) adat cserét lehetővé tevő nemzetközi szabvány (openBIM).
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The IFC specification is developed and maintained by **_buildingSMART In_**\_**ternational **\_as its "Data standard".
+A BuildingSMART International szervezet publikálja és fejleszti a hivatalos specifikációkat az épület modell leírásához és az adatátviteli követelményeket.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
 
-### Import of IFC files
+### IFC fájl importálása
 
 <!-- /wp:heading -->
 
+<!-- wp:image {"align":"right","id":32393,"width":425,"height":339,"sizeSlug":"full","linkDestination":"media"} -->
+
+[![](https://consteelsoftware.com/wp-content/uploads/2022/02/Fajl_imp_ifc.png)](./img/wp-content-uploads-2022-02-Fajl_imp_ifc.png)
+
+<!-- /wp:image -->
+
 <!-- wp:paragraph -->
 
-The IFC import function of ConSteel supports the importation of those ifc files, which were exported with the following format scheme:
+Az import funkció az alábbi IFC sémával létrehozott ifc fájlok beolvasását támogatja:
 
 <!-- /wp:paragraph -->
 
@@ -33,231 +41,247 @@ The IFC import function of ConSteel supports the importation of those ifc files,
 
 <!-- wp:paragraph -->
 
-The IFC import function can be initiated from the Import submenu of File menu, with the IFC button:
+Az IFC fájl importálása funkció a _**Fájl**_ menü _**Import**_ almenüjében található.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":7541,"width":281,"height":212,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:paragraph -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/3-4-IFC-menu.png)](./img/wp-content-uploads-2021-04-3-4-IFC-menu.png)
+Az _**IFC**_ funkcióra kattintva megnyílik az Import funkció ablak. Itt legelső lépésként ki kell választani az adott IFC fájlt, amelyet be szeretnénk olvasni Consteel-be. Továbbá definiálható, hogy a beolvasott modell milyen méretaránnyal kerüljön beimportálásra. Az elhelyezési pont megadható manuálisan, de ha ezt nem tesszük meg, a szoftver a globális koordináta rendszer origójához fogja igazítani az importálásra kerülő modellt. Az elhelyezés síkja szintén ezen a dialóg ablakon adható meg.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":32407,"width":323,"height":452,"sizeSlug":"full","linkDestination":"media"} -->
+
+[![](https://consteelsoftware.com/wp-content/uploads/2022/02/IFC_imp.png)](./img/wp-content-uploads-2022-02-IFC_imp.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-After selecting the IFC function, the import dialogue will appear. The path of the ifc file which should be imported can be given directly, or it can be browsed with the folders button. At the scale options, scaling of the imported model can be adjusted. Origo of the placement can be defined if it is desired, but if it is not, ConSteel will place the imported file into the global origo. For the plane of the placement the main planes, and user defined coordinate systems are also available to use.
+Az _**Import**_ gombra kattintva megjelenik a _**Szelvény konverzió**_ ablak, ahol a szelvénynevek és az anyagnevek megfeleltetése végezhető el. A beimportált profilok és anyagminőségek elnevezései eltérhetnek a _Consteel_-ben használt elnevezésektől, ezért szükség lehet ezek egymással való megfeleltetésére. A _**Szelvény konverzió**_ ablakban feltüntetésre kerül az egyes elemek import neve, anyagminősége és a Consteel által megfeleltetett új neve. A megfeleltetés kétféle módon történhet: a konverziós fájlok alapján, vagy manuálisan.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":7547,"width":258,"height":362,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"id":32100,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/3-4-IFC-dialog.png)](./img/wp-content-uploads-2021-04-3-4-IFC-dialog.png)
+[![](./img/wp-content-uploads-2022-02-Tekla_imp_convert-1024x482.png)](https://consteelsoftware.com/wp-content/uploads/2022/02/Tekla_imp_convert.png)
 
 <!-- /wp:image -->
 
-<!-- wp:paragraph -->
+<!-- wp:list -->
 
-After clicking on the import button, the section conversion dialogue will appear, where section and material data from the ifc file can be assigned to ConSteel sections and materials. ConSteel will automatically try to assign sections to all members, using the section and material conversion table (located in the installation folder of ConSteel), but manual assignment is also possivle. In the left column of the conversion table, section names from the ifc file can be seen, followed by the material names coming from the ifc file. The next column stands for the assigned ConSteel sections and materials.
+- _Egyértelmű megfeleltetés_
 
-<!-- /wp:paragraph -->
+  - A konverziós file alapján egyértelműen megfeleltethető az importálásra kerülő szelvény a szabványos szelvénykönyvtárban szereplő Consteel szelvénynek.
 
-<!-- wp:image {"id":7553,"sizeSlug":"large","linkDestination":"none"} -->
+- Részben egyértelmű megfeleltetés
 
-![](./img/wp-content-uploads-2021-04-3-4-IFC-conv-1024x485.png)
+  - „_Szabványos makró” szelvények esetén_: a beolvasásra kerülő szelvényekhez nem lehet egyértelműen hozzárendelni egyetlen szelvényt sem a Consteel saját szelvénykönyvtárából. Többnyire szabványos makró szelvények esetén történhet így a megfeleltetés (pl.: hegesztett I szelvények). Ilyenkor az _Új név_ oszlopban található cellák üresen maradnak, és a felhasználó két opció közül választhat:
 
-<!-- /wp:image -->
+    - a legördülő menüből kiválaszt és hozzárendel egy, a beimportált szelvénynek megfelelő szelvényt a betöltött szelvények közül,
+    - a hárompontos (![](./img/wp-content-uploads-2022-02-3dot_section_conv.png)) ikonra kattintva betölt egy új szelvényt a szelvénykonverziós dialógra, amit aztán hozzárendel a beimportált szelvényhez.
 
-<!-- wp:paragraph -->
+  - _Makró szelvények megfeleltetése_: a beolvasásra kerülő szelvényekhez nem lehet egyértelműen hozzárendelni egyetlen szelvényt sem a Consteel saját szelvénykönyvtárából, viszont ebben az esetben megjelenik egy kis ábra a szelvénykonverziós ablak jobb oldalán, mely a beimportált szelvény keresztmetszetét illusztrálja. Az _Új név_ oszlopban található cellák üresen maradnak, és a megfeleltetés az előző esethez hasonlóan, kétféle képen történhet:
 
-There is two possible for the assignment of sections:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:list {"className":"is-style-arrow"} -->
-
-- _Straightforward assignment_: In this case, the sections in the IFC file can be found in the conversion tables, and ConSteel will automatically assign the correct section
-
-- _Partially straightforward assignment_:
-
-  - _„Standard macro sections” case_: If the section in the IFC file can not be found in the section conversion table, but the parameters of it fit a standard type of section (IPE for example), ConSteel will create a so-called „standard macro section”, and assign it to the section from the IFC file.  
-    If ConSteel is not able to assign any standard macro section to a section, using the (…) button, sections can be loaded from the section library at any time
-  - Macro section assignment: In case of sections, where the assignment can not be performed, ConSteel will draw the shape of the section at the properties side of the dialogue, providing some guidance about the type of the section, so the correct macro section can be loaded from the section administrator, using the (…) button.
+    - legördülő menüből
+    - hárompontos ikonnal, új szelvény betöltésével
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
-After the assignments of the sections are performed, the table can be saved into a user conversion file with the (![](./img/wp-content-uploads-2021-04-3-2-tekla-save-to-file.png)) button and can be used later at any time. By pressing the Continue button, the import process will be performed.
+Változtatás esetén az adatok a mentés (![](./img/wp-content-uploads-2022-02-import_konvert_mentes.png)) gomb segítségével elmenthetők későbbi felhasználás céljából. A _**Tulajdonság**_ ablakban megjelennek az importált elemek jellemzői: név és anyagminőség. A _**Tovább**_ gomb megnyomása után megtörténik az importálás.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
 
-#### Available objects for the import process
+#### Importálható objektumok
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-**Steel members**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:list {"ordered":true,"type":"I","className":"is-style-arrow"} -->
-
-1. I profiles:
-
-   1. Members in general positions, straight or curved, hot rolled sections with constant flange thickness symmetric I sections
-   2. Members in general positions, straight or curved, welded sections with constant flange thickness symmetric I sections
-   3. Members in general positions, straight or curved, welded sections with constant flange thickness asymmetric I sections
-   4. Members in general positions, straight or curved, hot rolled sections with sloped flange symmetric I sections
-
-2. H profiles:
-
-   1. Members in general positions, straight or curved, hot rolled sections with constant flange thickness H sections
-   2. Members in general positions, straight or curved, welded sections with constant flange thickness H sections
-
-3. T profiles:
-
-   1. Members in general positions, straight or curved hot rolled T sections
-   2. Members in general positions, straight or curved welded T sections
-
-4. U profiles:
-
-   1. Members in general positions, straight or curved hot rolled U sections
-   2. Members in general positions, straight or curved welded U sections
-   3. Members in general positions, straight or curved hot rolled, sloped flange U sections
-
-5. Hot rolled hollow sections:
-
-   1. Members in general positions, straight or curved hot rolled hollow sections
-
-6. Cold-formed hollow sections:
-
-   1. Members in general positions, straight or curved cold-formed hollow sections
-
-7. Hot rolled tube sections:
-
-   1. Members in general positions, straight or curved hot rolled tube sections
-
-8. Cold-formed tube sections:
-
-   1. Members in general positions, straight or curved cold-formed tube sections
-
-9. Hot rolled L profiles:
-
-   1. Members in general positions, straight or curved hot rolled, equal or unequal flange length L sections
-
-10. Cold-formed L profiles:
-
-    1. Members in general positions, straight or curved cold-formed, equal or unequal flange length L sections
-
-11. Cold-formed C profiles:
-
-    1. Members in general position, straight or curved cold-formed C sections with edge
-    2. Members in general position, straight or curved cold-formed C sections without edge
-    3. Members in general position, straight or curved cold-formed C sections with edge and sloped flanges
-
-12. Lindab C profiles:
-
-    1. Members in general position, straight or curved cold-formed asymmetric C sections with edge
-
-13. Welded C profiles:
-
-    1. Members in general position, straight or curved welded C sections without edge
-
-14. Cold-formed J profiles:
-
-    1. Members in general position, straight or curved, cold-formed J sections
-
-15. Cold-formed U profiles:
-
-    1. Members in general position, straight or curved, cold-formed U sections
-
-16. Cold-formed Z profiles:
-
-    1. Members in general position, straight or curved cold-formed Z sections with edge
-    2. Members in general position, straight or curved cold-formed Z sections without edge
-    3. Members in general position, straight or curved cold-formed Z sections with edge and sloped flanges
-
-17. Plate profiles:
-
-    1. Members in general position, straight or curved plate sections
-
-18. Box profiles:
-
-    1. Members in general position, straight or curved welded box sections
-
-19. Maltese/Half maltese cross profiles:
-
-    1. Members in general position, straight or curved welded Maltese/half Maltese cross-sections
-
-20. WQ profiles:
-
-    1. Members on general position, straight or curved, welded WQ sections
-
-<!-- /wp:list -->
-
-<!-- wp:paragraph -->
-
-**Reinforced concrete members**
+**_Acél rúdelemek_**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"className":"is-style-arrow"} -->
 
-- Members in general position, straight, T shaped sections
-- Members in general position, straight, circle-shaped sections
-- Members in general position, straight, hollow circle-shaped sections
-- Members in general position, straight, rectangle-shaped sections
-- Members in general position, straight, hollow rectangle shaped sections
-- Members in general position, straight, trapezoid-shaped sections
-- Members in general position, straight, I shaped sections
+- I profilok:
+
+  - Általános helyzetű, melegen hengerelt, állandó övvastagságú egyenes és íves szimmetrikus I szelvényű rúdelemek
+  - Általános helyzetű, hegesztett, állandó övvastagságú egyenes és íves szimmetrikus I szelvényű rúdelemek
+  - Általános helyzetű, hegesztett, állandó övvastagságú egyenes és íves aszimmetrikus I szelvényű rúdelemek
+  - Általános helyzetű, melegen hengerelt, lejtős övű egyenes és íves I szelvényű rúdelemek
+
+- H profilok:
+
+  - Általános helyzetű, melegen hengerelt, állandó övvastagságú egyenes és íves H szelvényű rúdelemek
+  - Általános helyzetű hegesztett, állandó övvastagságú egyenes és íves H szelvényű rúdelemek
+
+- T profilok:
+
+  - Általános helyzetű, melegen hengerelt egyenes és íves T szelvényű rúdelemek
+  - Általános helyzetű, hegesztett egyenes és íves T szelvényű rúdelemek
+
+- U profilok:
+
+  - Általános helyzetű, melegen hengerelt állandó övvastagságú egyenes és íves U szelvényű rúdelemek
+  - Általános helyzetű, melegen hengerelt lejtős övű egyenes és íves U szelvényű rúdelemek
+
+- Melegen hengerelt zártszelvények:
+
+  - Általános helyzetű, melegen hengerelt egyenes és íves zártszelvényű rúdelemek
+
+- Hidegen alakított zártszelvények:
+
+  - Általános helyzetű, hidegen alakított egyenes és íves zártszelvényű rúdelemek
+
+- Melegen hengerelt csőszelvények:
+
+  - Általános helyzetű, melegen hengerelt egyenes és íves csőszelvényű rúdelemek
+
+- Hidegen alakított csőszelvények:
+
+  - Általános helyzetű, hidegen alakított egyenes és íves csőszelvényű rúdelemek
+
+- Melegen hengerelt L profilok:
+
+  - Melegen hengerelt, egyenlő és nem egyenlő szárú L szelvényű rúdelemek
+
+- Hidegen alakított L profilok:
+
+  - Hidegen alakított, egyenlő és nem egyenlő szárú L szelvényű egyenes és íves rúdelemek
+
+- Hidegen alakított C profilok:
+
+  - Hidegen alakított, általános helyzetű, peremmel rendelkező, egyenes és íves C szelvényű rúdelemek
+
+  - Hidegen alakított, általános helyzetű, peremmel rendelkező, ferde övű, egyenes és íves C szelvényű rúdelemek
+
+  - Hidegen alakított, általános helyzetű, visszahajtott peremmel rendelkező, egyenes és íves C szelvényű rúdelemek
+  - Hidegen alakított, általános helyzetű, perem nélküli, egyenes és íves C szelvényű rúdelemek
+
+- Lindab C profilok:
+
+  - Hidegen alakított, általános helyzetű peremmel rendelkező, aszimmetrikus C szelvényű egyenes és íves rúdelemek
+
+- Hegesztett C profilok:
+
+  - Hegesztett, általános helyzetű, perem nélküli, szimmetrikus C szelvényű, egyenes és íves rúdelemek
+
+- Hidegen alakított J profilok:
+
+  - Hidegen alakított, általános helyzetű, J szelvényű, egyenes és íves rúdelemek
+
+- Hidegen alakított U profilok:
+
+  - Hidegen alakított, általános helyzetű, U szelvényű, egyenes és íves rúdelemek
+
+- Hidegen alakított Z profilok:
+
+  - Hidegen alakított, általános helyzetű, peremmel rendelkező, Z szelvényű, egyenes és íves rúdelemek
+  - Hidegen alakított, általános helyzetű, ferde peremmel rendelkező, Z szelvényű, egyenes és íves rúdelemek
+  - Hidegen alakított, általános helyzetű, perem nélküli, Z szelvényű, egyenes és íves rúdelemek
+
+- Laposacélok:
+
+  - Általános helyzetű laposacél szelvényű egyenes és íves rúdelemek
+
+- Négyzetacélok:
+
+  - Általános helyzetű négyzetacél szelvényű egyenes és íves rúdelemek
+
+- Doboz szelvények:
+
+  - Általános helyzetű, hegesztett doboz szelvényű egyenes és íves rúdelemek
+
+- Máltai kereszt profil:
+
+  - Általános helyzetű, hegesztett máltai kereszt szelvényű egyenes és íves rúdelemek
+
+- Fél máltai kereszt profil:
+
+  - Általános helyzetű, hegesztett fél máltai kereszt szelvényű egyenes és íves rúdelemek
+
+- PI szelvény:
+
+  - Általános helyzetű, hegesztett PI szelvényű egyenes és íves rúdelemek
+
+- WQ szelvény:
+
+  - Általános helyzetű, hegesztett WQ szelvényű egyenes és íves rúdelemek
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
-**Plates**
+**_Vasbeton rúdelemek_**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"className":"is-style-arrow"} -->
 
-- Horizontally positioned rectangle plates without holes, with or without chamfer or rounding
-- Horizontally positioned polygonal shaped plates without holes, with or without chamfer or rounding
-- Horizontally positioned circle-shaped plates without holes, with or without chamfer or rounding
-- Horizontally positioned rectangle plates with general (inside the plate) holes, with or without chamfer or rounding
-- Horizontally positioned polygonal shaped plates with general (inside the plate) holes, with or without chamfer or rounding
-- Horizontally positioned circle-shaped plates with general (inside the plate) holes, with or without chamfer or rounding
+- Általános helyzetű, T szelvényű, egyenes vasbeton rúdelemek
+- Általános helyzetű, kör szelvényű, egyenes vasbeton rúdelemek
+- Általános helyzetű, téglalap szelvényű, egyenes vasbeton rúdelemek
+- Általános helyzetű, I szelvényű, egyenes vasbeton rúdelemek
+- Általános helyzetű, üreges téglalap szelvényű, egyenes vasbeton rúdelemek
+- Általános helyzetű, trapéz szelvényű, egyenes vasbeton rúdelemek
+- Általános helyzetű, üreges kör szelvényű, egyenes vasbeton rúdelemek
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
-**Wall plates**
+**_Lemezelemek_**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"className":"is-style-arrow"} -->
 
-- Vertically positioned plates without holes, with or without chamfer or rounding
+- Általános áttöréssel rendelkező vagy áttörés nélküli, vízszintes helyzetű, szabályos alaprajzú lemezek lekerekítéssel, letöréssel vagy lekerekítés és letörés nélkül
+- Általános áttöréssel rendelkező vagy áttörés nélküli, vízszintes helyzetű, poligon alaprajzú lemezek lekerekítéssel, letöréssel vagy lekerekítés és letörés nélkül
+- Általános áttöréssel rendelkező vagy áttörés nélküli, vízszintes helyzetű, kör alaprajzú lemezek
+- Általános áttöréssel rendelkező vagy áttörés nélküli, általános helyzetű, szabályos alaprajzú lemezek lekerekítéssel, letöréssel vagy lekerekítés és letörés nélkül
+- Általános áttöréssel rendelkező vagy áttörés nélküli, általános helyzetű, poligon alaprajzú lemezek lekerekítéssel, letöréssel vagy lekerekítés és letörés nélkül
+- Általános áttöréssel rendelkező vagy áttörés nélküli, általános helyzetű, kör alaprajzú lemezek
+
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+
+**_Tárcsaelemek_**
+
+<!-- /wp:paragraph -->
+
+<!-- wp:list {"className":"is-style-arrow"} -->
+
+- Áttöréssel rendelkező vagy áttörés nélküli függőleges helyzetű tárcsák, letöréssel, lekerekítéssel vagy lekerekítés és letörés nélkül
 
 <!-- /wp:list -->
 
 <!-- wp:heading {"level":3} -->
 
-### Export of IFC files
+### IFC Export
 
 <!-- /wp:heading -->
 
+<!-- wp:image {"align":"right","id":32386,"width":455,"height":324,"sizeSlug":"full","linkDestination":"media"} -->
+
+[![](https://consteelsoftware.com/wp-content/uploads/2022/02/Fajl_exp_ifc.png)](./img/wp-content-uploads-2022-02-Fajl_exp_ifc.png)
+
+<!-- /wp:image -->
+
 <!-- wp:paragraph -->
 
-Members from ConSteel can be exported from into ifc format, too. The export process uses the following file format:
+Az export funkció az alábbi IFC séma írását támogatja.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:list {"type":"I","className":"is-style-arrow"} -->
+<!-- wp:list -->
 
 - IFC 2x3
 
@@ -265,179 +289,186 @@ Members from ConSteel can be exported from into ifc format, too. The export proc
 
 <!-- wp:paragraph -->
 
-To export a model to IFC format, press the IFC button in the Export submenu of File menu.
+Exportáláshoz válaszuk a _**Fájl**_ menü _**Export**_ almenüjében található _**IFC**_ opciót.
 
 <!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":7561,"width":215,"height":134,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/3-4-IFC-export-menu.png)](./img/wp-content-uploads-2021-04-3-4-IFC-export-menu.png)
-
-<!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-After pressing the Export button, the IFC Export dialogue will appear, where the path of the saved file can be set, besides the scaling parameters and the planes of the exported model.  
-Pressing the Export button again, will initiate the process, and the whole model will be exported.
+A megjelenő IFC export ablakban, legelső lépésben meg kell adnunk az IFC fájl kimenti elérési útját és fájlnevét. Ez alatt a modell méretarányát és a beillesztési pontot kell megadni. Utóbbi megadható kézzel egy tetszőleges pontot kijelölve is, e nélkül a modell globális origója lesz a beillesztési pont. Legvégül az elhelyezés síkját kell megadni, majd az _**Export**_ gombra kattintva az exportálás megtörténik. Az exportálás egyik korlátja, hogy nincs lehetőség a szerkezetnek csak egyes kijelölt elemeit exportálni IFC fájlba, hanem mindig a teljes modell kiírásra kerül.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":7567,"width":258,"height":362,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":32400,"width":323,"height":452,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/3-4-IFC-export-dialog.png)](./img/wp-content-uploads-2021-04-3-4-IFC-export-dialog.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/02/IFC_exp.png)](./img/wp-content-uploads-2022-02-IFC_exp.png)
 
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":4} -->
 
-#### Available objects for the export process
+#### Exportálható objektumok
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-**Steel members**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:list {"type":"I","className":"is-style-arrow"} -->
-
-- I profiles:
-
-  - Members in general positions, straight or curved, hot rolled sections with constant flange thickness symmetric I sections
-  - Members in general positions, straight or curved, welded sections with constant flange thickness symmetric I sections
-  - Members in general positions, straight or curved, welded sections with constant flange thickness asymmetric I sections
-  - Members in general positions, straight or curved, hot rolled sections with sloped flange symmetric I sections
-
-- H profiles:
-
-  - Members in general positions, straight or curved, hot rolled sections with constant flange thickness H sections
-  - Members in general positions, straight or curved, welded sections with constant flange thickness H sections
-
-- T profiles:
-
-  - Members in general positions, straight or curved hot rolled T sections
-  - Members in general positions, straight or curved welded T sections
-
-- U profiles:
-
-  - Members in general positions, straight or curved hot rolled U sections
-  - Members in general positions, straight or curved welded U sections
-  - Members in general positions, straight or curved hot rolled, sloped flange U sections
-
-- Hot rolled hollow sections:
-
-  - Members in general positions, straight or curved hot rolled hollow sections
-
-- Cold-formed hollow sections:
-
-  - Members in general positions, straight or curved cold-formed hollow sections
-
-- Hot rolled tube sections:
-
-  - Members in general positions, straight or curved hot rolled tube sections
-
-- Cold-formed tube sections:
-
-  - Members in general positions, straight or curved cold formed tube sections
-
-- Hot rolled L profiles:
-
-  - Members in general positions, straight or curved hot rolled, equal or unequal flange length L sections
-
-- Cold-formed L profiles:
-
-  - Members in general positions, straight or curved cold-formed, equal or unequal flange length L sections
-
-- Cold-formed C profiles:
-
-  - Members in general position, straight or curved cold-formed C sections with edge
-  - Members in general position, straight or curved cold-formed C sections without edge
-  - Members in general position, straight or curved cold-formed C sections with edge and sloped flanges
-
-- Lindab C profiles:
-
-  - Members in general position, straight or curved cold-formed asymmetric C sections with edge
-
-- Welded C profiles:
-
-  - Members in general position, straight or curved welded C sections without edge
-
-- Cold-formed J profiles:
-
-  - Members in general position, straight or curved, cold-formed J sections
-
-- Cold-formed U profiles:
-
-  - Members in general position, straight or curved, cold-formed U sections
-
-- Cold-formed Z profiles:
-
-  - Members in general position, straight or curved cold-formed Z sections with edge
-  - Members in general position, straight or curved cold-formed Z sections without edge
-  - Members in general position, straight or curved cold-formed Z sections with edge and sloped flanges
-
-- Plate profiles:
-
-  - Members in general position, straight or curved plate sections
-
-- Box profiles:
-
-  - Members in general position, straight or curved welded box sections
-
-- Maltese/Half maltese cross profiles:
-
-  - Members in general position, straight or curved welded Maltese/half Maltese cross-sections
-
-- WQ profiles:
-
-  - Members on general position, straight or curved, welded WQ sections
-
-<!-- /wp:list -->
-
-<!-- wp:paragraph -->
-
-**Reinforced concrete members**
+**_Acél rúdelemek_**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"className":"is-style-arrow"} -->
 
-- Members in general position, straight, T shaped sections
-- Members in general position, straight, circle-shaped sections
-- Members in general position, straight, hollow circle-shaped sections
-- Members in general position, straight, rectangle-shaped sections
-- Members in general position, straight, hollow rectangle shaped sections
-- Members in general position, straight, trapezoid-shaped sections
-- Members in general position, straight, I shaped sections
+- I profilok:
+
+  - Általános helyzetű, melegen hengerelt, állandó övvastagságú, egyenes és íves szimmetrikus I szelvényű rúdelemek
+  - Általános helyzetű, melegen hengerelt, lejtős övű, egyenes és íves I szelvényű rúdelemek
+  - Általános helyzetű, hegesztett, állandó övvastagságú, egyenes és íves, szimmetrikus I szelvényű rúdelemek
+  - Általános helyzetű, hegesztett, állandó övvastagságú, egyenes és íves, aszimmetrikus I szelvényű rúdelemek
+
+- H profilok:
+
+  - Általános helyzetű, melegen hengerelt, állandó övvastagságú, egyenes és íves H szelvényű rúdelemek
+  - Általános helyzetű, hegesztett, állandó övvastagságú, egyenes és íves H szelvényű rúdelemek
+
+- T profilok:
+
+  - Általános helyzetű, melegen hengerelt, egyenes és íves T szelvényű rúdelemek
+  - Általános helyzetű, hegesztett, egyenes és íves T szelvényű rúdelemek
+
+- U profilok:
+
+  - Általános helyzetű, melegen hengerelt, állandó övvastagságú, egyenes és íves U szelvényű rúdelemek
+  - Általános helyzetű, melegen hengerelt, lejtős övű, egyenes és íves U szelvényű rúdelemek
+
+- Melegen hengerelt zártszelvények:
+
+  - Általános helyzetű, melegen hengerelt, egyenes és íves zártszelvényű rúdelemek
+
+- Hidegen alakított zártszelvények:
+
+  - Általános helyzetű, hidegen alakított egyenes és íves zártszelvényű rúdelemek
+
+- Melegen hengerelt csőszelvények:
+
+  - Általános helyzetű, melegen hengerelt egyenes és íves csőszelvényű rúdelemek
+
+- Hidegen alakított csőszelvények:
+
+  - Általános helyzetű, hidegen alakított egyenes és íves csőszelvényű rúdelemek
+
+- Melegen hengerelt L profilok:
+
+  - Melegen hengerelt, egyenlő és nem egyenlő szárú L szelvényű rúdelemek
+
+- Hidegen alakított L profilok:
+
+  - Hidegen alakított, egyenlő és nem egyenlő szárú L szelvényű egyenes és íves rúdelemek
+
+- Hidegen alakított C profilok:
+
+  - Hidegen alakított, általános helyzetű, peremmel rendelkező, egyenes és íves C szelvényű rúdelemek
+
+  - Hidegen alakított, általános helyzetű, peremmel rendelkező, ferde övű, egyenes és íves C szelvényű rúdelemek
+
+  - Hidegen alakított, általános helyzetű, visszahajtott peremmel rendelkező, egyenes és íves C szelvényű rúdelemek
+  - Hidegen alakított, általános helyzetű, perem nélküli, egyenes és íves C szelvényű rúdelemek
+
+- Lindab C profilok:
+
+  - Hidegen alakított, általános helyzetű peremmel rendelkező, aszimmetrikus C szelvényű egyenes és íves rúdelemek
+
+- Hegesztett C profilok:
+
+  - Hegesztett, általános helyzetű perem nélküli, szimmetrikus C szelvényű egyenes és íves rúdelemek
+
+- Hidegen alakított J profilok:
+
+  - Hidegen alakított, általános helyzetű J szelvényű egyenes és íves rúdelemek
+
+- Hidegen alakított U profilok:
+
+  - Hidegen alakított, általános helyzetű U szelvényű egyenes és íves rúdelemek
+
+- Hidegen alakított Z profilok:
+
+  - Hidegen alakított, általános helyzetű peremmel rendelkező Z szelvényű egyenes és íves rúdelemek
+  - Hidegen alakított, általános helyzetű ferde peremmel rendelkező Z szelvényű egyenes és íves rúdelemek
+  - Hidegen alakított, általános helyzetű perem nélküli Z szelvényű egyenes és íves rúdelemek
+
+- Laposacélok:
+
+  - Általános helyzetű laposacél szelvényű egyenes és íves rúdelemek
+
+- Négyzetacélok:
+
+  - Általános helyzetű négyzetacél szelvényű egyenes és íves rúdelemek
+
+- Doboz szelvények:
+
+  - Általános helyzetű, hegesztett doboz szelvényű egyenes és íves rúdelemek
+
+- Máltai kereszt profil:
+
+  - Általános helyzetű, hegesztett máltai keresztszelvényű egyenes és íves rúdelemek
+
+- Fél máltai kereszt profil:
+
+  - Általános helyzetű, hegesztett fél máltai keresztszelvényű egyenes és íves rúdelemek
+
+- PI szelvény:
+
+  - Általános helyzetű, hegesztett PI szelvényű egyenes és íves rúdelemek
+
+- WQ szelvény:
+
+  - Általános helyzetű, hegesztett WQ szelvényű egyenes és íves rúdelemek
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
-**Plates**
+**_Vasbeton rúdelemek_**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"className":"is-style-arrow"} -->
 
-- Horizontally positioned rectangle plates without holes, with or without chamfer or rounding
-- Horizontally positioned polygonal shaped plates without holes, with or without chamfer or rounding
-- Horizontally positioned circle-shaped plates without holes, with or without chamfer or rounding
-- Horizontally positioned rectangle plates with general (inside the plate) holes, with or without chamfer or rounding
-- Horizontally positioned polygonal shaped plates with general (inside the plate) holes, with or without chamfer or rounding
-- Horizontally positioned circle-shaped plates with general (inside the plate) holes, with or without chamfer or rounding
+- Általános helyzetű, T szelvényű, egyenes vasbeton rúdelemek
+- Általános helyzetű, kör szelvényű, egyenes vasbeton rúdelemek
+- Általános helyzetű, téglalap szelvényű, egyenes vasbeton rúdelemek
+- Általános helyzetű, I szelvényű, egyenes vasbeton rúdelemek
+- Általános helyzetű, üreges téglalap szelvényű, egyenes vasbeton rúdelemek
+- Általános helyzetű, trapéz szelvényű, egyenes vasbeton rúdelemek
+- Általános helyzetű, üreges kör szelvényű, egyenes vasbeton rúdelemek
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
-**Wall plates**
+**_Lemezelemek_**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"className":"is-style-arrow"} -->
 
-- Vertically positioned plates without holes, with or without chamfer or rounding
+- Általános áttöréssel rendelkező vagy áttörés nélküli, vízszintes helyzetű, szabályos alaprajzú lemezek lekerekítéssel, letöréssel vagy lekerekítés és letörés nélkül
+- Általános áttöréssel rendelkező vagy áttörés nélküli, vízszintes helyzetű, poligon alaprajzú lemezek lekerekítéssel, letöréssel vagy lekerekítés és letörés nélkül
+- Általános áttöréssel rendelkező vagy áttörés nélküli, vízszintes helyzetű, kör alaprajzú lemezek
+- Általános áttöréssel rendelkező vagy áttörés nélküli, általános helyzetű, szabályos alaprajzú lemezek lekerekítéssel, letöréssel vagy lekerekítés és letörés nélkül
+- Általános áttöréssel rendelkező vagy áttörés nélküli, általános helyzetű, poligon alaprajzú lemezek lekerekítéssel, letöréssel vagy lekerekítés és letörés nélkül
+- Általános áttöréssel rendelkező vagy áttörés nélküli, általános helyzetű, kör alaprajzú lemezek
+
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+
+**_Tárcsaelemek_**
+
+<!-- /wp:paragraph -->
+
+<!-- wp:list {"className":"is-style-arrow"} -->
+
+- Áttöréssel rendelkező vagy áttörés nélküli függőleges helyzetű tárcsák, letöréssel, lekerekítéssel vagy lekerekítés és letörés nélkül
 
 <!-- /wp:list -->

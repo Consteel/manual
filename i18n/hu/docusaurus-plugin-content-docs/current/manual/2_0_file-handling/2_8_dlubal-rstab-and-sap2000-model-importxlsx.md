@@ -1,81 +1,95 @@
 ---
 sidebar_position: 8
 ---
-# DLUBAL Rstab and SAP2000 model import(.xlsx)
+# Dlubal rstab és SAP2000 modell beolvasás (xlsx)
 
+<!-- wp:paragraph -->
 
-ConSteel is able to import model data, contained in an Excel (.xlsx) file, where different model data is stored on different worksheets. These table files can be exported from the softwares above.
+A Consteel képes modell adatok beolvasására Excel formátumú fájlokból, ahol a különböző modell adatok különböző munkalapokon vannak tárolva. Ezek a táblázat fájlok a fenti szoftverekkel létrehozhatóak.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-To import the model data, click on the File menu, Import tools. Choose DLUBAL(xlsx) or SAP2000(xlsx) from the available import functions. Import settings for the two software work the same. After selecting the import function, the Import dialog will appear:
+A modell adatok importálásához a _**Fájl**_ menü _**Import**_ opciójára kell kattintani. A legördülő menüből kiválasztható, a _**DLUBAL (xlsx)**_ vagy _**SAP2000 (xlsx)**_ opció. Az adatok importálása mindkét szoftverben ugyanúgy működik. A megfelelő import funkció kiválasztása után az alábbi _**Import**_ dialóg jelenik meg:
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":7616,"width":268,"height":374,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":32461,"width":326,"height":465,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/3-7-Dlubal-1.png)](./img/wp-content-uploads-2021-04-3-7-Dlubal-1.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/02/dlubal_import.png)](./img/wp-content-uploads-2022-02-dlubal_import.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-For the import process, the following settings has to be made:
+Az importálás folyamat az alábbi:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 
-- The path of the file on the users coordinate has to be set by clicking on the ![](./img/wp-content-uploads-2021-04-3-7-Dlubal-open.png) button
+- A beolvasni kívánt fájl elérési útját a \_Fájlnév \_mező utáni (![](./img/wp-content-uploads-2021-04-3-7-Dlubal-open.png)) ikonra kattintva adhatjuk meg
 
-- Unit of the original model file in the other software has to be set (mm/cm/m)
+- Alatta a modell mértékegységét (mm/cm/m) kell megadni
 
-- The direction of the model Z-axis has to be set, since it may be different in the other software
+- A modell Z tengelyének iránya lehet +Z vagy -Z
 
-- The following model data can be imported
+- Végül a következő modell adatok importálhatók:
 
-  - Cross-sections (cross-section parameters, rotation, eccentricities)
-
-  - Nodal supports(rotation, eccentricities)
-
-  - Loadcases
-
-  - Nodal forces
-
-  - Concentrated forces on members
-
-  - Member forces
+  - Keresztmetszetek (keresztmetszeti paraméterek, forgatás, excentricitás)
+  - Csomóponti támaszok (forgatás, excentricitás)
+  - Terhelési esetek
+  - Csomóponti terhek
+  - Koncentrált terhek szerkezeti elemeken
+  - Vonalmenti terhek
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
-It is important to know for the proper import process, that only those checkboxes should be checked in, which data is available in the xlsx file, or in other words, the model includes it.
+Fontos tudni, hogy csak azon adatokat jelöljük be a fenti módon, melyeknek megfelelő adatok az xls fájlban elérhetők, vagyis amely adatokat a modell tartalmazza.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-After the settings are made and clicked on the OK button, the import process will be initiated, and the Section import manager will be shown. It is possible to change the conversion file for grades and for sections or edit the section name and grade manually.
+A beállítások elvégzése után a _**Rendben**_ gombra kattintva az importálási folyamat az _**Import szelvénykezelő**_ ablakának megjelenésével folytatódik. Az ablak felső két sorában a szelvény és az anyagminőség konverziós fájljait lehet megnyitni és akár módosítani, alatta pedig manuálisan módosíthatók az xls fájlból beolvasott anyagminőségek és keresztmetszetek.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":7622,"width":505,"height":545,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":32468,"width":458,"height":502,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/3-7-Dlubal-2.png)](./img/wp-content-uploads-2021-04-3-7-Dlubal-2.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/02/dlubal_import_konv.png)](./img/wp-content-uploads-2022-02-dlubal_import_konv.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-If manual changes have been made the list can be saved (![](./img/wp-content-uploads-2021-04-Icon-save.png)) and can be used as a conversion file in future imports. After clicking the OK button the model will be exported.
+Változtatás esetén az adatok a mentés (![](./img/wp-content-uploads-2021-04-Icon-save.png)) gomb segítségével elmenthetők későbbi felhasználás céljából. A _**Rendben**_ gomb megnyomásával az importált modell megjelenik a modell ablakban.
 
 <!-- /wp:paragraph -->
+
+<!-- wp:columns -->
+
+<!-- wp:column {"verticalAlignment":"center","width":"10%"} -->
+
+<!-- wp:image {"align":"right","id":21420,"width":91,"height":97,"sizeSlug":"full","linkDestination":"none"} -->
+
+![](./img/wp-content-uploads-2021-04-warning_croc.png)
+
+<!-- /wp:image -->
+
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"center","width":"90%"} -->
 
 <!-- wp:paragraph -->
 
-After clicking OK on the section import tab, the model will appear in the modeling area. It is also important to know, that the xlsx model export file has to be created using the English language, otherwise, the import process will not work.
+Fontos tudni, hogy csak az angol nyelven létrehozott xlsx modell export fájlokkal működik a beolvasás.
 
 <!-- /wp:paragraph -->
+
+<!-- /wp:column -->
+
+<!-- /wp:columns -->

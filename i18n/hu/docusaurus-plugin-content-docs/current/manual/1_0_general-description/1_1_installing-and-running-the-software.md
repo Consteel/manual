@@ -136,8 +136,8 @@ A Consteel szoftver telepítő csomagja elérhető a Consteel honlap _Letöltés
 
 <!-- wp:paragraph -->
 
-Új felhasználói fiók létrehozásához a weboldal jobb felső sarkában található **Belépés **gombra, majd a megjelenő ablak alján a **Regisztrálj **feliratra kell kattintani.  
-A **_Fiók létrehozása_** ablakban meg kell adni a felhasználó e-mail címét, nevét és egy választott jelszót. Fontos, hogy valós email címet adjunk meg, mert ezután egy automatikusan kiküldött email üzenetben meg kell erősíteni az e-mail címünket. Az ablak alján lehetőség van feliratkozni a Consteel szakmai hírlevelére, valamint el kell fogadni a felhasználási és adatvédelmi feltételeket, végül a **Regisztrálok **gombra kattintva lehet a regisztrációt befejezni. Ezután egy újabb ablak jelenik meg, mely arról tájékoztat, hogy a rendszer a regisztrációs visszaigazoló emailt elküldte a megadott email címre, és az abban található link segítségével kell a regisztrációt befejezni. Ha hosszabb idő eltelte után sem érkezik meg a visszaigazoló email, érdemes ellenőrizni a levélszemét és promóciós mappákat is levelező rendszerünkben. Ha ott sem található meg az email, akkor az előbbi tájékoztató ablakban kérhető a **megerősítő email újbóli kiküldése**. (Ha már bezártuk a regisztrációs ablakot, akkor újból a belépésre kattintva adjuk meg ismét az email címünket és választott jelszavunkat, hogy megjelenjen az üzenet újbóli kiküldése parancs.) A regisztráció megerősítése után már be lehet lépni a felhasználói fiókba.
+Új felhasználói fiók létrehozásához a weboldal jobb felső sarkában található **Belépés** gombra, majd a megjelenő ablak alján a **Regisztrálj** feliratra kell kattintani.  
+A **_Fiók létrehozása_** ablakban meg kell adni a felhasználó e-mail címét, nevét és egy választott jelszót. Fontos, hogy valós email címet adjunk meg, mert ezután egy automatikusan kiküldött email üzenetben meg kell erősíteni az e-mail címünket. Az ablak alján lehetőség van feliratkozni a Consteel szakmai hírlevelére, valamint el kell fogadni a felhasználási és adatvédelmi feltételeket, végül a **Regisztrálok** gombra kattintva lehet a regisztrációt befejezni. Ezután egy újabb ablak jelenik meg, mely arról tájékoztat, hogy a rendszer a regisztrációs visszaigazoló emailt elküldte a megadott email címre, és az abban található link segítségével kell a regisztrációt befejezni. Ha hosszabb idő eltelte után sem érkezik meg a visszaigazoló email, érdemes ellenőrizni a levélszemét és promóciós mappákat is levelező rendszerünkben. Ha ott sem található meg az email, akkor az előbbi tájékoztató ablakban kérhető a **megerősítő email újbóli kiküldése**. (Ha már bezártuk a regisztrációs ablakot, akkor újból a belépésre kattintva adjuk meg ismét az email címünket és választott jelszavunkat, hogy megjelenjen az üzenet újbóli kiküldése parancs.) A regisztráció megerősítése után már be lehet lépni a felhasználói fiókba.
 
 <!-- /wp:paragraph -->
 
@@ -399,7 +399,7 @@ Már hozzárendelt felhasználó kártyáján a 3 pont ikonra kattintva át lehe
 
 <!-- wp:paragraph -->
 
-**(3) **Ahhoz, hogy a felhasználó használni tudja a szoftvert, a következő szakaszban a szoftver-hozzáférést kapott felhasználókat még hozzá kell rendelni egy vagy több szoftver-helyhez (Seat) is. Az elérhető szoftver-helyek (seat) listáján valamely hely kártyájára kattintva megjelennek az adott helyhez rendelt szoftver-hozzáférések. Új felhasználót a legördülő menüből lehet kiválasztani, majd a "Hozzáférés adása" gombra kattintva rendelhető hozzá az adott szoftver-helyhez. Felhasználókat eltávolítani a sor végén található "x" gombbal lehet. Egy felhasználót egyszerre több szoftver-helyhez is hozzá lehet rendelni.
+**(3)** Ahhoz, hogy a felhasználó használni tudja a szoftvert, a következő szakaszban a szoftver-hozzáférést kapott felhasználókat még hozzá kell rendelni egy vagy több szoftver-helyhez (Seat) is. Az elérhető szoftver-helyek (seat) listáján valamely hely kártyájára kattintva megjelennek az adott helyhez rendelt szoftver-hozzáférések. Új felhasználót a legördülő menüből lehet kiválasztani, majd a "Hozzáférés adása" gombra kattintva rendelhető hozzá az adott szoftver-helyhez. Felhasználókat eltávolítani a sor végén található "x" gombbal lehet. Egy felhasználót egyszerre több szoftver-helyhez is hozzá lehet rendelni.
 
 <!-- /wp:paragraph -->
 
@@ -431,7 +431,7 @@ A Projekt Központ egyesíti magában a modell- és a felhasználói fiókkezel�
 
 <!-- wp:paragraph -->
 
-A bal oldali menüsávban lehetőség nyílik a Kezdőlapon kívül oktatási anyagokat felfedezni vagy modellfájlokat megnyitni számítógépről vagy a felhőből **(1)**. A Home nézetben lehetőség van (**2**) **új modell** létrehozására, (**4**) **korábbi modellek** megnyitására, valamint (**5**)** hírek** és friss információk megjelenítésére. A **(3)** **Licence **gombbal a használt licensz információi jeleníthetők meg, a jobb felső sarokban pedig a **felhasználói fiók**ba történő belépés lehetséges és itt érhető el az offline használatra váltás is. A bal alsó sarokban a szoftver támogatási rendszerünk érhető el közvetlenül **(6)**. Ha van elérhető frissítés a programhoz vagy a hozzáférés hamarosan lejár, az is a Projekt Központ ablak felső sorában jelenik meg.
+A bal oldali menüsávban lehetőség nyílik a Kezdőlapon kívül oktatási anyagokat felfedezni vagy modellfájlokat megnyitni számítógépről vagy a felhőből **(1)**. A Home nézetben lehetőség van (**2**) **új modell** létrehozására, (**4**) **korábbi modellek** megnyitására, valamint (**5**) **hírek** és friss információk megjelenítésére. A **(3)** **Licence** gombbal a használt licensz információi jeleníthetők meg, a jobb felső sarokban pedig a **felhasználói fiók**ba történő belépés lehetséges és itt érhető el az offline használatra váltás is. A bal alsó sarokban a szoftver támogatási rendszerünk érhető el közvetlenül **(6)**. Ha van elérhető frissítés a programhoz vagy a hozzáférés hamarosan lejár, az is a Projekt Központ ablak felső sorában jelenik meg.
 
 <!-- /wp:paragraph -->
 
@@ -465,7 +465,7 @@ Licensz beállítás
 
 <!-- wp:paragraph -->
 
-A második menüpontból az online [_**Tudásbázis **_](https://consteelsoftware.com/hu/knowledgebase/)különböző cikkei és példa modelljei érhetők el.
+A második menüpontból az online [_**Tudásbázis**_](https://consteelsoftware.com/hu/knowledgebase/) különböző cikkei és példa modelljei érhetők el.
 
 <!-- /wp:paragraph -->
 
@@ -515,7 +515,7 @@ A jobb felső menüben **(2)** található parancsokkal balról jobbra haladva �
 
 <!-- wp:paragraph -->
 
-A kiválasztott modell vagy mappa részletes tulajdonság panelje **(3) **a képernyő jobb szélén jelenik meg, ha be van kapcsolva.
+A kiválasztott modell vagy mappa részletes tulajdonság panelje **(3)** a képernyő jobb szélén jelenik meg, ha be van kapcsolva.
 
 <!-- /wp:paragraph -->
 

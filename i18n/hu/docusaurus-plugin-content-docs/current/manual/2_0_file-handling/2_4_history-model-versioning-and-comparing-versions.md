@@ -1,27 +1,35 @@
 ---
 sidebar_position: 4
 ---
-# History (model versioning) and comparing versions
+# Modell verzióelőzmények és verziók összehasonlítása
 
-In Consteel 16, you can create, view, download, edit and restore previous versions of your models as a new cloud-based service supported by Steelspace. An online connection is required to use the History function as it only works with cloud-saved models. All versioning-related actions cost bandwidth therefore using this service is only limited by the monthly storage limit of your Consteel Community Membership. **So don’t forget to save your model regularly as creating a history item and saving to the cloud are not the same!** The purpose of the History function is to preserve different states of a model that can be important for future modifications or model review.
+<!-- wp:paragraph -->
+
+A Consteel 16-ban a Steelspace által támogatott új felhőalapú szolgáltatásként lehetőség van létrehozni, megtekinteni, letölteni, szerkeszteni modellekhez verziókat vagy akár visszaállítani a korábbi verziókat. Az Verzióelőzmények funkció csak a felhőbe mentett modellekkel működik így használatához online kapcsolat szükséges. Ennek a szolgáltatásnak a használatát csak a Consteel közösségi tagsághoz tartozó havi tárhelyméret korlátozza, mivel minden verziózással kapcsolatos művelet sávszélességbe kerül.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+**Az előzményelemek létrehozása és a felhőbe mentése nem ugyanaz, ezért ne felejtsd el rendszeresen menteni a modelljeidet!** A Verzióelőzmények funkció célja, hogy megőrizze a modell különböző állapotait, amelyek fontosak lehetnek a jövőbeni módosításokhoz vagy a modell felülvizsgálatához.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
 
-### **Model history in Consteel**
+### **Verzióelőzmények Consteel**ben
 
 <!-- /wp:heading -->
 
 <!-- wp:heading {"level":4} -->
 
-#### **Creating a history item**
+#### **Előzményelem létrehozása**
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-You can find the feature as an icon when hovering the Save icon or in the File menu or by clicking the Ctrl + H keyboard shortcut combination.
+A funkció megtalálható ikonként, ha a Mentés ikonra felett tartod az egér kurzorát, vagy a Fájl menüben a Megosztás parancs alatt, vagy a Ctrl + H billentyűkombinációval előhívva.
 
 <!-- /wp:paragraph -->
 
@@ -29,11 +37,11 @@ You can find the feature as an icon when hovering the Save icon or in the File m
 
 <!-- wp:column -->
 
-<!-- wp:image {"align":"center","id":44033,"sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:image {"align":"center","id":76046,"width":"296px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2022-12-history_menu.jpg)
+![](./img/wp-content-uploads-2024-03-Fajl.png)
 
-History command within the File menu
+Verzióelőzmények parancs a Fájl menüben
 
 <!-- /wp:image -->
 
@@ -41,11 +49,11 @@ History command within the File menu
 
 <!-- wp:column -->
 
-<!-- wp:image {"align":"center","id":44040,"width":255,"height":264,"sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:image {"align":"center","id":76056,"width":"262px","height":"auto","aspectRatio":"0.9659090909090909","sizeSlug":"full","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2022-12-history_icon.jpg)
+![](./img/wp-content-uploads-2024-03-Verzioelozmeny.png)
 
-Hover with the cursor above the Save icon to reveal the History icon
+Az Verzióelőzmények ikon megjelenítéséhez vidd az egérmutatót a Mentés ikon fölé
 
 <!-- /wp:image -->
 
@@ -55,25 +63,25 @@ Hover with the cursor above the Save icon to reveal the History icon
 
 <!-- wp:paragraph -->
 
-When you start the function for a model for the first time the software will ask you whether you would like to turn on model versioning and you can first save your model as a cloud model and then create your first history item of your model.
+A funkció első indításakor a szoftver megkérdezi, hogy szeretnéd-e bekapcsolni a modellverziózást, amihez először a felhőbe kell menteni a modellt, ezután már létrehozható a modell első előzményeleme.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":44047,"sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:image {"align":"center","id":76067,"width":"455px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2022-12-history_first.jpg)
+![](./img/wp-content-uploads-2024-03-szeretned-bekapcsolni.png)
 
-_Pop up notice when History is used for the first time_
+_Felugró ablak megjelenése, amikor először használják a Verzióelőzményeket_
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-You can name the history item and add a description of the version if it’s needed. The name of the model will not be changed to the History record name.
+Az előzményelemnek nevet és leírást is lehet adni, ha szükséges. Az előzményelem neve nem fogja befolyásolni a modell nevét.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":44054,"width":313,"height":557,"sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:image {"align":"center","id":44057,"width":313,"height":557,"sizeSlug":"full","linkDestination":"none"} -->
 
 ![](./img/wp-content-uploads-2022-12-history_item.jpg)
 
@@ -83,69 +91,75 @@ _Creating new history item with name and description_
 
 <!-- wp:paragraph -->
 
-The history item also includes the name of the model, the number of the history version, the date when it was created, the build number of the Consteel version in which the model was created, and a snapshot of your model screen.
+A verzióelőzmény elem tartalmazza a modell nevét, a verzió számát, a létrehozás dátumát, a szoftverbuild számát amiben készült, és egy pillanatképet is a modellképernyőről.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-To create another history item just click on the „+ Create history item” button. The latest model version will be always at the top of the timeline.
+Új verzió létrehozásához csak kattints a Verzió létrehozása gombra. Az aktuális verzió mindig az idővonal tetején lesz megtalálható.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":44061,"width":385,"height":690,"sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:paragraph -->
+
+Consteel 17-től kezdve, a Modell Verzióelőzmény frissítésre került. Az összes csapattag menthet új verziót a modell előzményébe a jogosultsági szintjeiknek megfelelően. Az információk a modellverziót létrehozó személyről, valamint a mentés pontos dátumáról és időpontjáról megjelennek a verzió neve alatt.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":44064,"width":385,"height":690,"sizeSlug":"full","linkDestination":"none"} -->
 
 ![](./img/wp-content-uploads-2022-12-history_item2.jpg)
 
-_Click the „+ Create history item” button to create a new one_
+_Új verzióelőzmény elem létrehozásához kattints a Verzió létrehozása gombra_
 
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":4} -->
 
-#### **Downloading a version of a model**
+#### **Modellverzió letöltése**
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-When you open the History function click on the Download icon at the desired model history item and it will download it to your computer.
+A Verzióelőzmények funkció megnyitásakor kattints a Letöltés ikonra a kívánt modellverzió elemnél és a modellfájl le fog töltődni a számítógépre.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
 
-#### **Editing a history item**
+#### **Verzióelőzmény elem módosítása**
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-When you open the History function click on the Edit icon at the desired model history item and you can edit the name and the description field of the selected history item.
+A Verzióelőzmények funkció megnyitásakor kattints a Szerkesztés ikonra a kívánt modellverzió elemnél és szerkesztheted a verzió nevét és leírását.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
 
-#### **Viewing a version of a model**
+#### **Modellverzió megtekintése**
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-When you open the History function and click on the View icon at the desired model history item it will open the desired model version in Steelspace.
+A Verzióelőzmények funkció megnyitásakor kattints a Megtekintés ikonra a kívánt modellverzió elemnél és megtekintheted a Steelspace-en az adott verziót.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
 
-#### **Restore a previous version of a model**
+#### **Modell visszaállítása korábbi verzióra**
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-The restore function is limited to cloud services not to cause conflict in an already opened model. In Consteel, first, you have to start Consteel again and click on the „Open from Cloud” button in the Project Center or in the File/Open from Cloud command to view your models in the cloud. Select the desired model and then click on the i icon on the right side of the screen and click on the „History” tab to access the version history of that model. Choose the history version you like and click on the Restore icon.
+A visszaállítás funkció csak a felhőszolgáltatásokban érhető el, hogy ne okozzon hibát egy már megnyitott modellben. Ehhez először újra meg kell nyitni a Consteelt és a Projekt Centerben a Megnyitás felhőből gombra vagy a Fájl/Megnyitás felhőből parancsra kell kattintani, hogy hozzáférj a felhőben tárolt modelljeidhez. A kívánt modellnél jobb felül kattints az "i" ikonra és a Verzióelőzmények fülre, hogy hozzáférj az adott modell verzióelőzményeihez. Válaszd ki a számodra szimpatikus verziót és kattints a Visszaállítás ikonra.
 
 <!-- /wp:paragraph -->
 
@@ -153,21 +167,21 @@ The restore function is limited to cloud services not to cause conflict in an al
 
 ![](./img/wp-content-uploads-2022-12-history_restore-1024x630.jpg)
 
-_The Restore icon can be only found when you open a file from the cloud_
+_A Visszaállítás ikon csak akkor látható ha a felhőből nyitnál meg egy modellt._
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-A warning message will appear not to restore a version by accident. After restoring, the selected version will be the latest state of that model.
+Visszaállításkor egy figyelmeztető üzenet fog megjelenni, hogy nehogy véletlenül történjen a visszaállítás. A visszaállítás után a választott verzió lesz az aktuális verziója a modellnek.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":44075,"sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:image {"align":"center","id":44078,"sizeSlug":"full","linkDestination":"none"} -->
 
 ![](./img/wp-content-uploads-2022-12-history_restore_warning.jpg)
 
-_Warning message about restoring to an earlier version_
+_Figyelmeztető üzenet visszaállítás esetén_
 
 <!-- /wp:image -->
 
@@ -177,31 +191,31 @@ _Warning message about restoring to an earlier version_
 
 <!-- wp:heading {"level":3} -->
 
-### **Model history in Steelspace**
+### **Verzióelőzmények a Steelspaceben**
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-As you can see the History function is fully integrated into Steelspace. You just need to log in to Steelspace at steelspace.io and you can access your models' version history even when you don’t open Consteel.
+Mint láthatod, a Verzióelőzmények teljesen integrálódtak a Steelspace felületébe is. Csak jelenkezz be a Steelspacere a steelspace.io oldalon és hozzáférhetsz a modelljeid verzióelőzményéhez anélkül, hogy meg kellene nyitnod a Consteelt.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
 
-#### **Creating a history item**
+#### **Előzményelem létrehozása**
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-You can only create a history item if the latest cloud saved state is not identical to the last history item state.
+Csak akkor hozhatsz létre verzióelőzményt ha az utolsó felhőbe mentésed nem egyezik az utolsó verzióelőzmény elem állapotával.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Select the desired model in the Document selector screen and then click on the „i” icon on the right side of the screen and click on the „History” tab to access the version history of that model.
+Ilyen esetben válaszd ki a kívánt modellt a Dokumentum választó felületen és jobb felül kattints az "i" ikonra, majd a History fülre hogy hozzáférj az adott modell verzióihoz.
 
 <!-- /wp:paragraph -->
 
@@ -209,25 +223,19 @@ Select the desired model in the Document selector screen and then click on the �
 
 ![](./img/wp-content-uploads-2022-12-steelspace_history_manual-1024x515.jpg)
 
-_Click on the „i” icon on the right side of the screen to access the version history of a model_
+_Kattints az "i" ikonra jobb felül, hogy hozzáférj az adott modell verzióelőzményeihez_
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-If you opened your model, click on the History tab on the right side of the Model viewer screen.
+Modell megnyitásakor kattints a History fülre bal oldalt a Model megtekintő képernyőn.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-To create the latest history item just click on the „+ Create history item” button on the first card in the timeline.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-Starting from** Consteel 17**, the Model Version History was upgraded. All team members can save new versions to the model history according to their permission levels. Information regarding the person who created the model version, along with the date and exact time of saving, will appear underneath the name of the history.
+Ilyenkor a legfrissebb verzióelem létrehozásához kattints az idővonal legfelső kártyáján a „+ Create history item” gombra.
 
 <!-- /wp:paragraph -->
 
@@ -235,99 +243,103 @@ Starting from** Consteel 17**, the Model Version History was upgraded. All team 
 
 ![](./img/wp-content-uploads-2022-12-Screenshot_7-1024x513.jpg)
 
-_Click on the History tab on the right side in the Model viewer screen to access the version history of a model_
+Kattints a **History** fülre a Modell megtekintő képernyő bal oldalán hogy hozzáférj az adott modell verzióelőzményeihez*
 
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":4} -->
 
-#### **Downloading a version of a model**
+#### **Modellverzió letöltése**
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-Click on the Download icon at the desired model history item in the Document selector or in the Model viewer and it will download it to your computer with the name of the history item.
+A Dokumentum választó felületen vagy a Modell megtekintőben kattints a kívánt modell verzióelpzménykártyáján a Download ikonra és a verzió letöltődik a számítógépedre.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
 
-#### **Editing a history item**
+#### **Verzióelőzmény elem módosítása**
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-Click on the Edit icon at the desired model history item in the Document selector or in the Model viewer and it you can edit the name and the description field of the selected history item.
+A Dokumentum választó felületen vagy a Modell megtekintőben kattints a kívánt modell verzióelpzménykártyáján az Edit ikonra és módosíthatod az adott verzióelem nevét és leírását.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
 
-#### **Viewing a version of a model**
+#### **Modellverzió megtekintése**
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-In the Document selector just click twice on the card of the model or click on the View icon at the desired model history item and it will open the model version in the Model viewer.
+A Dokumentum választó felületen kattints kétszer a választott modell kártyájára vagy a kártyán lévő View ikonra hogy egy adott verziót nyiss meg a Modell megtekintőben.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
 
-#### **Restore a previous version of a model**
+#### **Modell visszaállítása korábbi verzióra**
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-Choose the history version you like and click on the Restore icon. A warning message will appear not to restore a version by accident. After restoring, the selected version will be the latest state of that model. You can also do it in the Model viewer.
+A kívánt modellnél jobb felül kattints az "i" ikonra és a Verzióelőzmények fülre, hogy hozzáférj az adott modell verzióelőzményeihez. Válaszd ki a számodra szimpatikus verziót és kattints a Visszaállítás ikonra. Visszaállításkor egy figyelmeztető üzenet fog megjelenni, hogy nehogy véletlenül történjen a visszaállítás. A visszaállítás után a választott verzió lesz az aktuális verziója a modellnek.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
 
-#### **Deleting a history item**
+#### **Verzióelőzmény elem törlése**
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-Click on the Delete icon at the desired model history item in the Document selector or in the Model viewer and it will delete the selected history item permanently. A warning message will appear not to delete a version by accident.
+A Dokumentum választó felületen vagy a Modell megtekintőben kattints a választott modell verzióinak a kártyáján a Delete ikonra a törléshez. Törlés esetén egy figyelmeztető üzenet fog megjelenni, hogy nehogy véletlenül történjen az eltávolítás.
 
 <!-- /wp:paragraph -->
+
+<!-- wp:spacer {"height":"36px"} -->
+
+<!-- /wp:spacer -->
 
 <!-- wp:heading {"level":3} -->
 
-### **Compare model versions**
+### **Modellverziók összehasonlítása**
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-As an addition to the model history function, we have introduced the compare feature, which allows comparing two versions of the same model. Comparing takes place in Steelspace where you can select easily which versions would you like to compare.
+A Verzióelőzmények kiegészítő funkciójaként bevezetjük a Modellverziók összehasonlításának lehetőségét, ami lehetővé teszi egy adott modell két különböző állapotú verziójának összehasonlítását egymással. Az összehasonlítás Steelspace felületén történik ahol könnyen kiválaszthatod, hogy melyik verziókat szeretnéd összehasonlítani.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-When opening a model in Steelspace you can find the „Compare version” button at the top within the History tab. Clicking the button will start the compare feature and the opened model version becomes automatically one of the selected versions, a hint will appear and you just have to select another version to compare with.
+Egy modell megnyitásakor a History fül tetején találod a Compare version gombot. Kattintáskor bekapcsol a funkció és automatikusan az adott kiválasztott verzió lesz kiválasztva egyik modellverzióként az összehasonlításhoz. Emellett egy magyarázó szöveg is megjelenik a gomb alatt, hogy csak válassz ki egy másik verziót az összehasonlítás másik elemének.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":44101,"width":402,"height":397,"sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:image {"align":"center","id":44104,"width":402,"height":397,"sizeSlug":"full","linkDestination":"none"} -->
 
 ![](./img/wp-content-uploads-2022-12-steelspace_comparemessage.jpg)
 
-_When starting the compare function, a hint will appear under the Compare version button_
+_Az összehasonlítás funkció bekapcsolásakor egy segítő szöveg jelenik meg a Compare version gomb alatt._
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-After clicking, a dialog will appear where you can change what model versions you would like to compare then hit the compare button.
+Kattintás után az összehasonlítás véglegesítéséhez szükséges dialóg jelenik meg, ahol még lehetőség van a verziók kiválasztásának a módosítására. Kattints a Compare gombra az összehasonlításhoz.
 
 <!-- /wp:paragraph -->
 
@@ -335,55 +347,55 @@ After clicking, a dialog will appear where you can change what model versions yo
 
 ![](./img/wp-content-uploads-2022-12-steelspace_compare_dialog-1024x518.jpg)
 
-_Dialog for selecting which versions to compare_
+_Verziók kiválasztását segítő dialóg_
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-Starting from the new version, criteria for comparison can be set. Users can select, with the help of dropdown menus, the objects to display status changes on, and the selected objects will be colored in the following manner:
+A legújabb verziótól kezdve összehasonlítási szempontokat lehet beállítani. A felhasználók legördülő menük segítségével kiválaszthatják, mely objektumok állapotváltozásait szeretnék megjeleníteni. A kiválasztott objektumokat az alábbi módon színezi:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-\- Green for the objects that have been added to the model
+\- Zöld szín jelöli azokat az objektumokat, amelyeket hozzáadtak a modellhez
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-\- Red for objects that are deleted
+\- Piros szín jelöli azokat az objektumokat, amelyeket töröltek
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-\- Yellow for the changed objects.
+\- Sárga szín jelöli azokat az objektumokat, amelyeken változás történt.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Additionally, more detailed selection can be performed on all the selected objects with the following checkboxes. Here, users can set the criteria after which the comparison has to be done.
+Továbbá, a kiválasztott összes objektumon részletesebb kiválasztás is elvégezhető az alábbi jelölőnégyzetek segítségével. Itt a felhasználók beállíthatják azokat a szempontokat, amelyek alapján az összehasonlítást kívánják végezni.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":75975,"width":"748px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:image {"align":"center","id":76077,"width":"577px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2024-03-Compare-version-1.png)
+![](./img/wp-content-uploads-2024-03-Compare-version-1-1.png)
 
 <!-- /wp:image -->
 
-<!-- wp:image {"align":"center","id":75985,"width":"748px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:image {"align":"center","id":76087,"width":"573px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2024-03-Compare-version-2.png)
+![](./img/wp-content-uploads-2024-03-Compare-version-2-1.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-The screen will switch from the Model screen to the Compare screen where a slider will appear. Using the slider you can change which model version you would like to inspect. Within the History tab, light blue and yellow dots are showing which versions are being compared.
+A képernyő automatikusan Modell nézetről a Compare nézetre vált, ahol egy csúszka segítségével választhatod ki, hogy melyik verziót szeretnéd megtekinteni. A History fülön belül egy világoskék és egy sárga színezés jelzi az éppen összehasonlításra kiválasztott verziókat.
 
 <!-- /wp:paragraph -->
 
@@ -391,90 +403,90 @@ The screen will switch from the Model screen to the Compare screen where a slide
 
 ![](./img/wp-content-uploads-2022-12-steelspace_compared-1024x513.jpg)
 
-_Using the slider you can change which model version you would like to inspect_
+_A csúszkát használva kiválaszthatod, hogy melyik modellverziót szeretnéd megtekinteni_
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-You can start a new comparison by clicking on the New compare button at the top of the History tab.
+Új összehasonlítást a New compare gombra kattintva indíthatsz el.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-If you switch back to the Model screen, your comparison will be lost and you will need to start a new one.
+A Modell nézetre visszaváltás esetén elvész az előzőleg kiválasztott modellösszehasonlítás és új összehasonlítás indítására lesz szükséged.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
 
-### **Selection**
+### **Kiválasztás (Selection)**
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-To enhance understanding of the model, users can select objects based on their sections or materials. Selected objects will blink with a magenta color. Selection is made by clicking on the name of the section or material. Users can use the dropdown arrows to select members by their names, and selecting multiple sections is possible.
+A modell megértésének elősegítése érdekében a felhasználók kijelölhetik az objektumokat szelvények vagy anyagok alapján. A kijelölt objektumok magenta színnel villognak. A kijelölés a szelvény vagy anyag nevére kattintással történik. Lehetőség van a rúdnevek alapján egyéni rudak kiválasztására, vagy akár egyszerre több objektum kiválasztására is.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":75995,"width":"670px","height":"auto","sizeSlug":"large","linkDestination":"none"} -->
+<!-- wp:image {"align":"center","id":76097,"width":"749px","height":"auto","sizeSlug":"large","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2024-03-Selection-1-1024x630.png)
-
-<!-- /wp:image -->
-
-<!-- wp:image {"align":"right","id":76005,"width":"340px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2024-03-Selection-2.png)
+![](./img/wp-content-uploads-2024-03-Selection-1-1-1024x630.png)
 
 <!-- /wp:image -->
 
-<!-- wp:image {"align":"center","id":76015,"width":"271px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:image {"align":"center","id":76117,"width":"264px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2024-03-Selection-3.png)
+![](./img/wp-content-uploads-2024-03-Selection-3-1.png)
+
+<!-- /wp:image -->
+
+<!-- wp:image {"align":"center","id":76107,"width":"264px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+
+![](./img/wp-content-uploads-2024-03-Selection-2-1.png)
 
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
 
-### **Loads**
+### **Terhek (Loads)**
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-The next button in the taskbar is the Loads button. It helps users identify the load groups and the load cases applied within each load group on the structure.
+Az oldalsávon a következő gomb a Terhek. Segít a felhasználóknak azonosítani a tehereseteket és tehercsoportokat. A teheresetek nevére kattintásakor vizuálisan is megjelenik az adott tehereset a modellen.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"id":76025,"width":"300px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:image {"align":"center","id":76127,"width":"273px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2024-03-loads.png)
+![](./img/wp-content-uploads-2024-03-loads-1.png)
 
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
 
-### **Display**
+### **Megjelenítés (Display)**
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-In the Display section, Steelspace offers users various visibility options. Users can adjust the dimensions of Loads, Supports, and Labels using sliders.
+A Megjelenítés ablakon a Steelspace különféle láthatósági lehetőségeket kínál a felhasználóknak. A felhasználók csúszkákkal állíthatják be a Terhelések, Támaszok és Feliratok méretét.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Additionally, the Clip Plane checkbox allows users to gain a better perspective of the model by using a clip plane from the X, Y, or Z direction. The position of the clip plane can be adjusted with sliders. Furthermore, multiple clip planes can be applied simultaneously to the model.
+Ezenkívül a ,,Clip plane” jelölőnégyzet egy metszősíkot hoz létre a modellben X, Y vagy Z irányból. A pozíció csúszkákkal állítható be. Továbbá, egyidejűleg több metszősík is alkalmazható.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"id":76035,"width":"345px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:image {"align":"center","id":76137,"width":"285px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2024-03-Display.png)
+![](./img/wp-content-uploads-2024-03-Display-1.png)
 
 <!-- /wp:image -->

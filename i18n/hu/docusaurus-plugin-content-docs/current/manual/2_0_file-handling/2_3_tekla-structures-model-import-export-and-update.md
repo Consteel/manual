@@ -1,15 +1,17 @@
 ---
 sidebar_position: 3
 ---
-# Tekla Structures model import, export and update
+# Tekla Structures modellek importálása, exportálása és frissítése
 
-The smooth and quick transition from the structural model to the detailing model can save significant time and cost. Therefore, _ConSteel_ has a high-level interface module to _Tekla Structures 64-bit_. Besides the export of the global structural model (ie. beams, columns, slabs, walls) also the joint models of _ConSteel_ have the corresponding _Tekla_ component. The designed structural model with the placed joint models can be converted into one detailed model without additional modeling efforts for the joints. This unique interface can save significant detailing time and therefore reduce appreciably the project costs.
+<!-- wp:paragraph -->
+
+A statikai és a szerkesztői modell közötti zökkenőmentes és gyors átmenettel jelentős időt és pénzt lehet megspórolni. Ennek elősegítésére a _Consteel_ magas fokú kapcsolattal rendelkezik a _Tekla Structures_ program 64 bites változataival. A globális szerkezeti modell (gerendák, oszlopok, födémek, falak) exportálása mellett a Consteel csomóponti modelljei rendelkeznek a megfelelő Tekla komponenssel. Így a megtervezett szerkezeti modell az elhelyezett kapcsolatokkal további modellezési munka nélkül is egyetlen részletes szerkezeti modellé alakítható.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-_ConSteel_ uses _Tekla_ Open API (Application Programming Interface), also known as the .NET API. This provides an interface for third-party applications to interact with the model in _Tekla Structures_. Therefore, both applications need to have to be installed and running at the same time in order to export a model from _ConSteel_ to _Tekla Structures_.
+A _Consteel_ a _Tekla _.NET API technológiáját használja az import és export folyamatok során. Ez lehetővé teszi a _Tekla_ modellek külső programokból történő közvetlen elérését. Ennek megfelelően a kapcsolathoz mind a _Consteel_, mind a _Tekla_ szoftvereknek ugyan azon a számítógépen kell futnia.
 
 <!-- /wp:paragraph -->
 
@@ -19,13 +21,13 @@ _ConSteel_ uses _Tekla_ Open API (Application Programming Interface), also known
 
 <!-- wp:heading {"level":3} -->
 
-### Import structural modell from Tekla Structures
+### Rúdelemek importálása Tekla Structures-ből
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-During the process, we have the possibility to import the structural members defined in Tekla Structures to ConSteel. From the structural parts of Tekla Structures, 1D members can be imported (beams, columns, curved members).
+Az import során lehetőségünk van a _Tekla Structures_ programban definiált szerkezeti elemek beolvasására. A konstrukciós szoftverben elérhető elemek közül a rúdszerkezeteket (gerendák, oszlopok, íves rudak) lehet importálni.
 
 <!-- /wp:paragraph -->
 
@@ -53,9 +55,15 @@ During the process, we have the possibility to import the structural members def
 
 <!-- /wp:columns -->
 
+<!-- wp:image {"align":"right","id":32079,"width":284,"height":226,"sizeSlug":"full","linkDestination":"media"} -->
+
+[![](./img/wp-content-uploads-2022-02-Fajl_import_Tekla.png)](./img/wp-content-uploads-2022-02-Fajl_import_Tekla.png)
+
+<!-- /wp:image -->
+
 <!-- wp:paragraph -->
 
-Import function is compatible with the following versions of Tekla Structures:
+Az import funkció a következő _Tekla Structures_ verziókkal kompatibilis.
 
 <!-- /wp:paragraph -->
 
@@ -74,164 +82,168 @@ Import function is compatible with the following versions of Tekla Structures:
 
 <!-- wp:paragraph -->
 
-For the import process from Tekla Structures, it is indispensable to run Tekla and ConSteel in parallel. In Tekla Structure the model that is desired to be exported has to be opened, alongside an empty model opened in ConSteel. For the proper importation process, it is recommended to use the Default environment of Tekla Structures. To start the import procedure, open the **File **menu, select the **Import **tools and click on **Tekla Structures**.
+A _Tekla Structures_ modellek importálásához feltétlenül szükséges, hogy párhuzamosan mind a két program fusson, továbbá az, hogy a _Tekla Structures_-ben nyitva legyen az importálandó szerkezeti modell, valamint a _Consteel_-ben egy üres vagy már használt modell. A helyes import folyamathoz javasoljuk, hogy a _Tekla Structures_ Default környezettel induljon el. Ezt követően válasszuk a _**Fájl**_ menü **Import** almenüjében található **Tekla Structures** opciót.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":7450,"width":281,"height":212,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:paragraph -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/3-2-tekla-3.png)](./img/wp-content-uploads-2021-04-3-2-tekla-3.png)
+Ezután megnyílik az Importálás funkció ablak, ahol az "Importált elemek" részben lehetőségünk van kiválasztani, hogy mely elemeket kerüljenek beimportálásra:
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"left","id":32093,"width":298,"height":304,"sizeSlug":"full","linkDestination":"media"} -->
+
+[![](https://consteelsoftware.com/wp-content/uploads/2022/02/Tekla_imp_1.png)](./img/wp-content-uploads-2022-02-Tekla_imp_1.png)
 
 <!-- /wp:image -->
 
-<!-- wp:paragraph -->
+<!-- wp:list {"className":"is-style-default"} -->
 
-On the opened import dialogue, you have the possibility to choose whether the whole model or just the selected parts are desired to be imported to ConSteel from the parallelly running Tekla Structures model. If only the selected model parts would be imported, these parts have to be already selected in the Tekla model.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-Furthermore, you have to decide the layer handling of the imported model. By default, the imported model will use the layers defined by the classes in Tekla Structures, but optionally it is possible to use any of the ConSteel layers instead. In the first case, members of a Tekla Structure class will be imported to a new layer in ConSteel, which will get the colors of the corresponding class.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-With the import button, the process can be initiated.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":7456,"width":248,"height":254,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/3-2-tekla-import-dialog.png)](./img/wp-content-uploads-2021-04-3-2-tekla-import-dialog.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-In the next step, the reference point has to be clicked in Tekla Structures. It is important to check the alignment of the coordinate system in Tekla Structures. After selecting the reference point in _Tekla_ the **Section conversion** window appears. It is possible to change the conversion file for grades and for sections or edit the section name and grade manually.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":7462,"width":723,"height":343,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/3-2-tekla-conv.png)](./img/wp-content-uploads-2021-04-3-2-tekla-conv.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-The two main cases of the conversion:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:list {"type":"A","className":"is-style-arrow"} -->
-
-- Automatic conversion:
-
-  - Standard section library based conversion: Based on the conversion files, sections coming from Tekla structures can automatically be assigned to a section from the Standard section library of ConSteel
-  - Standard macro-based conversion: For those sections, which can not be converted directly to a standard library section, ConSteel will try to align a so-called „Standard macro” section based on the parameters of the imported section.
-
-- Manual conversion: If based on the conversion file, ConSteel is not able to align any standard library section for the imported section, and the parameters do not fit any of the standard library cross sections, section conversion has to be performed manually. This can be done by either selecting a previously loaded cross-section from the dropdown menu or by clicking on the (…) button and selecting a proper section from the library. These automatically unconvertible sections are represented with their shapes at the properties part of the conversion dialogue.
+- Minden elem
+- Kijelölt elemek
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
-If manual changes have been made the list can be saved and can be used as a conversion file in future exports. After clicking OK button the model will be exported.
+Amennyiben csak a kijelölt elemeket szeretnénk beolvasni, a kijelölést a művelet megkezdése előtt el kell végezni a _Tekla Structures_-ben. Emellett lehetőségünk van a raszter hálót is importálni a Tekla-ból.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+Az ablak alsó részében, a "Fóliák" alatt kiválaszthatjuk, hogy az importálandó elemeket egy előre létrehozott fóliára hívjuk be a Consteel-be, vagy a _Tekla Structures_-ben, az osztályok által megadott fóliarendszert használjuk. Az utóbbi esetben a külön osztályon lévő elemeket külön fóliára tölthetjük be, melyek színei követik a _Tekla Structures_ osztályokban definiált színeket.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+Ezután az _**Import**_ gombra kattintva elindíthatjuk a folyamatot.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:spacer {"height":"1px","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false},"editorskit_typography":{"name":"","family":"","weight":""},"extUtilities":[]} -->
+
+<!-- /wp:spacer -->
+
+<!-- wp:paragraph -->
+
+Következő lépésben adjuk meg a beillesztés referencia pontját a _Tekla Structures_-ben. Felhívjuk a figyelmet, hogy célszerű ellenőrizni a _Tekla Structures_ koordináta rendszerének irányát a helyes importáláshoz. A referencia pont megadása után megjelenik a _**Szelvény konverzió**_ ablak, ahol a szelvénynevek és az anyagnevek megfeleltetése végezhető el. A _Tekla Structures_-ben alkalmazott profilok és anyagminőségek elnevezései eltérhetnek a _Consteel_-ban használt elnevezésektől. A megfeleltetés kétféle módon történhet: a konverziós fájlok alapján, vagy manuálisan.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":32100,"width":768,"height":362,"sizeSlug":"large","linkDestination":"media"} -->
+
+[![](./img/wp-content-uploads-2022-02-Tekla_imp_convert-1024x482.png)](https://consteelsoftware.com/wp-content/uploads/2022/02/Tekla_imp_convert.png)
+
+<!-- /wp:image -->
+
+<!-- wp:list -->
+
+- _Automatikus megfeleltetés_:
+
+  - A konverziós file alapján egyértelműen megfeleltethető a Tekla-ból importálásra kerülő szelvény a szabványos szelvénykönyvtárban szereplő Consteel szelvénynek.
+  - _Automatikus, „szabványos makró szelvény”_: A Consteel szabványos szelvénytárában név szerint nem szereplő, de paramétereit tekintve szabványos szelvénynek megfeleltethető szelvény. A szelvény hozzárendelés ebben az esetben is automatikusan történik
+
+- _Manuális megfeleltetés_: A konverziós file alapján egyértelműen nem feleltethető meg a Tekla-ból érkező szelvény a Consteel szabványos szelvénytárában található egyik szelvénynek sem. _Manuálisan megfeleltetett makró szelvény_: Ha a Consteel szabványos makró szelvényt nem tud társítani az importált keresztmetszethez, a hozzá rendelés a _**(…)**_ ikonra kattintva (vagy a már betöltött szelvények közül választva) manuálisan elvégezhető. Ebben az esetben az automatikusan meg nem feleltethető szelvény kontúrja a konverziós ablak _**Tulajdonságok**_ részén kirajzolásra kerül.
+
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+
+Változtatás esetén az adatok a mentés (![](./img/wp-content-uploads-2022-02-import_konvert_mentes.png)) gomb segítségével elmenthetők egy új konverziós fájlba későbbi felhasználás céljából. A **Tulajdonság** ablakban megjelennek az importált elemek jellemzői: név és anyagminőség. A **Tovább** gomb megnyomása után utolsó lépésként adjuk meg a beillesztési pontot a Consteel modelltérben, ami után az importált modell megjelenik.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
 
-### Limitations of the import of bar members
+### Rúdelemek importálásának korlátai
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-**Bar members**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:list {"type":"I"} -->
-
-- I and H profiles:
-
-  - Hot rolled
-  - Symmetric welded section with constant and variable height
-  - Not-symmetric welded section with constant and variable height
-
-- L profiles:
-
-  - Hot rolled, with equal and unequal plates
-  - Cold formed, with equal and unequal plates
-
-- U profiles:
-
-  - Hot rolled
-
-- T profiles:
-
-  - Hot rolled
-
-- Box sections:
-
-  - Symmetric welded section with constant height
-  - Not-symmetric welded sections with constant height (section will be defined with the thicker flange thickness)
-  - WQ section can not be imported
-
-- Round bars:
-
-  - Constant height
-  - Sections with different diameter in the main and sub axes are not possible
-
-- Hollow sections:
-
-  - Hot-rolled square and rectangular, constant height
-  - In the case of a tapered member, parameters have to be set manually
-
-- Tube sections:
-
-  - Hot rolled sections with constant and variable height
-  - Ellipse shaped section can not be imported
-
-- Z profiles
-
-  - Cold-formed, folded edges
-  - Cold-formed sections without folded edges can not be imported
-
-- C profiles
-
-  - Cold-formed, folded edges
-  - Cold-formed sections without folded edges can not be imported
-
-- Multi-line,continuous beam can not be imported
-
-<!-- /wp:list -->
-
-<!-- wp:paragraph -->
-
-**Plates**
+_**Rúdelemek – importálható szelvények**_
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 
-- Contour plates can not be imported
+- I és H profilok:
+
+  - Melegen hengerelt
+  - Hegesztett szimmetrikus, állandó és változó magasságú hegesztett
+  - Hegesztett nem szimmetrikus, állandó és változó magasságú hegesztett
+
+- L profilok:
+
+  - Melegen hengerelt, egyenlő és nem egyenlő szárú
+  - Hidegen hajlított, egyenlő és nem egyenlő szárú
+
+- U profilok:
+
+  - Melegen hengerelt
+
+- T profilok:
+
+  - Melegen hengerelt
+
+- C profilok:
+
+  - Hidegen alakított szimmetrikus szelvények
+  - Hidegen alakított aszimmetrikus szelvények
+
+- Doboz szelvények:
+
+  - Szimmetrikus, állandó magasságú hegesztett
+  - Nem szimmetrikus, állandó magasságú hegesztett doboz szelvényeknél a kisebb övszélességgel jön létre a szelvény
+
+- Köracél profilok:
+
+  - Állandó magasságú
+  - Változó fő- és mellék tengelyhosszú profil nem importálható
+
+- Zártszelvények:
+
+  - Melegen hengerelt négyzet és téglalap alakú, állandó magasságú
+  - Változó magasságú zártszelvény esetén a változó km-i beállításokat kézzel kell megadni
+
+- Csőszelvények:
+
+  - Melegen hengerelt, állandó és változó magasságú
+
+- Z profilok
+
+  - Hidegen alakított szimmetrikus
+  - Hidegen alakított aszimmetrikus szelvények
+
+- Törtvonalú, folytatólagos gerenda nem importálható
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
-**Connections**
+_**Lemezelemek**_
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 
-- Macros defined in Tekla Structures can not be imported
+- Kör alaprajzú lemez
+- Téglalap alaprajzú lemez
+
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+
+_**Kapcsolatok**_
+
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+
+- Tekla Structures-ben definiált makrók elemei nem importálhatóak
 
 <!-- /wp:list -->
 
@@ -241,13 +253,13 @@ If manual changes have been made the list can be saved and can be used as a conv
 
 <!-- wp:heading {"level":3} -->
 
-### Complete model export into Tekla structures
+### Rúdelemek és komplett modell exportálása Tekla Structures szoftverbe
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-Besides the export of the global structural model (ie. beams, columns, slabs, walls) all the joint models of _ConSteel_ have the corresponding _Tekla_ component. The designed structural model with the placed joint models can be converted into one detailed model without additional modeling efforts for the joints. This unique interface can save significant detailing time and therefore reduce appreciably the project costs.
+A szerkezeti modell (pl.: gerendák, oszlopok, födémek, falak) exportálásán túl, a _Consteel_ kapcsolatoknak is megvannak a megfelelő _Tekla_ komponensei, így lehetőség van egy lépésben a teljes szerkezeti modell (vázszerkezet és csomópontok) szerkesztői modellé konvertálására is.
 
 <!-- /wp:paragraph -->
 
@@ -259,196 +271,196 @@ Besides the export of the global structural model (ie. beams, columns, slabs, wa
 
 <!-- wp:paragraph -->
 
-The _ConSteel_ export to _Tekla Structures_ can be used from version 19 onward.
+Az exportáláshoz a _Tekla Structures_ 19.0 vagy újabb verziója szükséges!
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-To export a model from ConSteel it is important to run both programs at the same time and to have a model opened in _Tekla Structures_. Then click on the File menu and select Export then select Tekla Structures.
+A _Consteel \_modell \_Tekla Structures_-be való exportálásához elengedhetetlen, hogy egyszerre fusson mind a két program ugyan azon a számítógépen, és meg legyen nyitva egy üres modell a _Tekla Structures_-ben. Exportáláshoz válaszuk a **Fájl** menü **Export** almenüjében található **Tekla Structures** opciót.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":7474,"width":335,"height":199,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":32079,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/3-2-tekla-export.png)](./img/wp-content-uploads-2021-04-3-2-tekla-export.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/02/Fajl_import_Tekla.png)](https://consteelsoftware.com/wp-content/uploads/2022/02/Fajl_import_Tekla.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-A dialog window opens asking for selecting model parts to be exported. Keep in mind that only those joints will be exported which are placed in the model and selected before exporting. Exportation of the model grid is also possible if the checkbox is checked. The next step is to select a reference point in Consteel and to click on the Export button.
+A funkció elindításával megnyílik az exportálás ablaka. Az "Exportált elemek" alatt választható, hogy a teljes modell, vagy csak a felhasználó által kiválasztott elemek kerüljenek exportálásra. Ezen kívül hozzáadhatjuk az exportálandó elemekhez a raszterhálót és a kapcsolatokat is. Fontos tudni, hogy a kapcsolatok közül csak a _Consteel_ modellben elhelyezettek kerülnek exportálásra!
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":7480,"width":273,"height":254,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"left","id":32086,"width":329,"height":307,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/3-2-tekla-export-dialog.png)](./img/wp-content-uploads-2021-04-3-2-tekla-export-dialog.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/02/Tekla_export.png)](./img/wp-content-uploads-2022-02-Tekla_export.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-After selecting the reference point in \_Consteel \_the **Section conversion** dialogue appears. It is possible to change the conversion file for grades and for sections or edit the section name and grade manually.
+Az "Export beállítások" alatt választható, hogy az exportált elemek a Tekla modell felülírásával exportálódjanak, vagy egy meglévő modell mellé kerüljenek.
 
 <!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":7486,"width":723,"height":343,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/3-2-tekla-exp-conv.png)](./img/wp-content-uploads-2021-04-3-2-tekla-exp-conv.png)
-
-<!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-If manual changes have been made the list can be saved (![](./img/wp-content-uploads-2021-04-3-2-tekla-save-to-file.png)) and can be used as a conversion file in future exports. At the Properties part of the dialogue, the parameters of the selected member are shown. After clicking the OK button you have to select the insertion point in Tekla Structures, and the model will be exported.
+Következő lépésként ki kell választani a modellbeillesztés referencia pontját a Consteel-ben, majd az _**Export**_ gombra kattintva elindíthatjuk a funkciót.
 
 <!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+Következő lépésként a _Tekla Structures_-ben is meg kell adni a beillesztés referencia pontját. A referencia pont megadása után megjelenik a _**Szelvény konverzió**_ ablaka. Mivel a _Tekla_ elnevezései eltérhetnek a _Consteel_-ben használt elnevezésektől, ebben az ablakban végezhető el a szelvénynevek és az anyagnevek megfeleltetése. A megfeleltetés történhet manuálisan, vagy az előre elkészített konverziós fájlok alapján.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:spacer {"height":"1px","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false},"editorskit_typography":{"name":"","family":"","weight":""},"extUtilities":[]} -->
+
+<!-- /wp:spacer -->
+
+<!-- wp:paragraph -->
+
+Változtatás esetén az adatok a mentés (![](./img/wp-content-uploads-2022-02-import_konvert_mentes.png)) gomb segítségével elmenthetők későbbi felhasználás céljából. A **Tulajdonság** ablakban megjelennek az importált elemek jellemzői: név és anyagminőség. Az **Tovább** gomb megnyomásával megtörténik a modell exportálása.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":32111,"width":512,"height":241,"sizeSlug":"large","linkDestination":"media"} -->
+
+[![](./img/wp-content-uploads-2022-02-Tekla_imp_convert-1-1024x482.png)](https://consteelsoftware.com/wp-content/uploads/2022/02/Tekla_imp_convert-1.png)
+
+<!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
 
-### Limitations of the export of Joints and bar members
+### Rúdelemek és kapcsolatok exportálásának korlátai
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-_Bar members_
+_**Rúdelemek – exportálható szelvények**_
 
 <!-- /wp:paragraph -->
 
-<!-- wp:list {"type":"A","className":"is-style-arrow"} -->
+<!-- wp:list -->
 
-- Curved members are not exported
-- Compound sections are not exported
+- Standard szelvények
+
+- Makró szelvények
+
+  - Hegesztett I állandó magasságú
+  - Hegesztett I változó magasságú
+  - Hegesztett szekrény keresztmetszet
+  - Hegesztett C szelvények
+  - Hidegen alakított Z szelvények
+  - Máltai kereszt szelvény
+  - Hegesztett kalap szelvény
+  - Hegesztett WQ szelvény
+  - Hegesztett T szelvény
+
+- Lemezek
+
+  - Kör alaprajzú lemez
+  - Téglalap alaprajzú lemez
+
+- Íves elemek nem exportálhatók
+
+- Összetett szelvények nem exportálhatók
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
-_Semi rigid or pinned base plate ► Base Plate (1042)_
+_**Talplemez (félmerev vagy csuklós) (1042)**_
 
 <!-- /wp:paragraph -->
 
-<!-- wp:list {"className":"is-style-arrow"} -->
+<!-- wp:list -->
 
-- No haunch can be exported
-- Anchor rod type must be set manually in Tekla (ConSteel settings has no effect on the export)
-- Anchor rod properties that have an effect on the export are the followings: diameter, grade
-- Foundation will not be exported
-- Upper and lower flange weld thickness would be the same in the _Tekla_ model(different _ConSteel_ settings has no effect on the export)
+- A kiékelés nem kerül exportálásra
+- A lehorgonyzó csavarok típusát kézzel kell beállítani a _Tekla_-ban (_Consteel_ beállításnak nincs hatása az exportra)
+- A lehorgonyzó csavaroknak csak a következő tulajdonságai kerülnek átvitelre: átmérő, anyagminőség
+- Az alaptestek nem kerülnek exportálásra
+- A felső és alsó övek varrata azonos lesz a _Tekla_-ban (_Consteel_ beállításnak nincs hatása az exportra)
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
-*Beam to column, moment end plate with haunch *►* Haunch (40)*
+**_Oszlop-gerenda nyomatékbíró homloklemezes kapcsolata kiékeléssel (40)_**
 
 <!-- /wp:paragraph -->
 
-<!-- wp:list {"className":"is-style-arrow"} -->
+<!-- wp:list -->
 
-- Upper and lower haunch dimensions are the same (upper haunch dimensions come from the lower)
-- No shear stiffeners are exported into _Tekla_ only supplementary web plate
-- Flange stiffeners are not exported into _Tekla_
+- Alsó és felső kiékelések méretei azonosak lesznek a _Tekla_-ban (a felső kiékelés az alsó adatai alapján kerül felvételre)
+- Nyírási merevítők nem kerülnek exportálásra, csak a gerinchizlaló lemezek
+- Övmerevítők nem kerülnek exportálásra
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
-_Beam to column, simple end plate ► Haunch (144)_
+**_Oszlop-gerenda egyszerű homloklemezes kapcsolata kiékeléssel (144)_**
 
 <!-- /wp:paragraph -->
 
-<!-- wp:list {"className":"is-style-arrow"} -->
+<!-- wp:list -->
 
-- Column top height modification must be set manually
+- Az oszlop felső túlnyúlását manuálisan kell megadni Tekla-ban
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
-Beam to column, simple end plate ► Haunch (146)
+**_Gerendák nyomatékbíró vagy egyszerű homloklemezes kapcsolata szögben (tetőgerinc) kiékelés nélkül (40)_**
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
+<!-- wp:list -->
 
-Beam splice connected with a pitch, simple or moment end plate without haunch ► Haunch (40)
-
-<!-- /wp:paragraph -->
-
-<!-- wp:list {"className":"is-style-arrow"} -->
-
-- Left and right sided macros are exported separately, explosion of components and redefinition of bolt parts are needed in Tekla
+- A bal és a jobb oldal külön makróban kerül exportálásra. A makrókat fel kell robbantani és a csavarokat újra kell definiálni a Tekla-ban
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
-Beam splice connected in line, simple or moment end plate without haunch ► Joining plates (14)
+**_Gerendák nyomatékbíró toldása kiékeléssel (106)_**
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
+<!-- wp:list -->
 
-Beam splice, moment end plate with haunch ► Apex haunch (106)
-
-<!-- /wp:paragraph -->
-
-<!-- wp:list {"className":"is-style-arrow"} -->
-
-- No upper haunch
+- Nincs felső kiékelés
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
-Beam splice plate ► Splice connection (77)
+_**Taréjcsomóponti kiékelés (106)**_
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
+<!-- wp:list -->
 
-Bolted circular flange plate ► Round joining plates (124)
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-Stiffened end plate (27)
-
-<!-- /wp:paragraph -->
-
-<!-- wp:list {"className":"is-style-arrow"} -->
-
-- There is no web stiffener plate in _Tekla_
+- Felső kiékelés exportálása nem lehetséges
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
-Beam to beam, simple end plate ► End plate (144)
+_**Merevített homloklemez (27)**_
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
+<!-- wp:list -->
 
-Beam to beam, web fin plate ► Fin plate (146)
+- A _Tekla_-ban nincs gerincmerevítő lemez
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-Gusset plate for hollow and tube brace sections ► Tube gusset (20)
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-Bolted gusset plate for angle brace ► Bolted gusset (11)
-
-<!-- /wp:paragraph -->
+<!-- /wp:list -->
 
 <!-- wp:spacer -->
 
@@ -456,65 +468,77 @@ Bolted gusset plate for angle brace ► Bolted gusset (11)
 
 <!-- wp:heading {"level":3} -->
 
-### Change management between Tekla and ConSteel: Tekla update
+### Consteel és Tekla Structures modellek változás követése: Tekla update
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-Besides the import and export functions _ConSteel_ can check and update _Tekla Structures_ models during the detailing. Update of _Tekla Structures_ model is always based on _ConSteel_ model with the following attributes:
+Az import és export funkciók mellett lehetőségünk nyílik a statikai és a szerkezeti modellek változásainak követésére. A Consteel változáskövetés funkciójának segítségével, a Consteel és a Tekla Structures modell összehasonlításával, egyszerűen és vizuálisan ellenőrizhetők a módosított, törölt és újonnan létrehozott elemek.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+A Tekla modell frissítése mindig az aktuális Consteel modell alapján valósul meg. Az elemek összehasonlítása az alábbi attribútumok szerint történik:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 
-- Element name
-- Material name
-- Section name
-- Section parameters
-- Element geometry and position
+- Elem név
+- Anyagnév
+- Keresztmetszet név
+- Keresztmetszeti jellemzők
+- Elem geometria és pozíció
 
 <!-- /wp:list -->
 
-<!-- wp:paragraph -->
+<!-- wp:image {"align":"right","id":32119,"width":411,"height":103,"sizeSlug":"full","linkDestination":"media"} -->
 
-Before doing model update a complete model import (or export) process is necessary.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-To update the Tekla model it is important to have running both software at the same time and to have the model opened in _Tekla Structures_. Then click on the **File **menu and select **Update **then select **Tekla Structures**.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":7521,"width":273,"height":179,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/3-3-tekla-update-1.png)](./img/wp-content-uploads-2021-04-3-3-tekla-update-1.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/02/Fajl_update_Tekla.png)](./img/wp-content-uploads-2022-02-Fajl_update_Tekla.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-A dialog window opens, and you have the possibility to choose whether the whole model or only the selected parts of the model is desired to be updated. Then click on the Continue button.
+A változáskövetés működéséhez szükség van egy komplett modell [import ](#tekla-import)vagy [export ](#tekla-export)végrehajtására (ld. előző pontok).
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-During the process _Tekla Structures_ model and parts will be updated. In case of conflict the following dialog will be appeared, and users can make the decision and applied which model parts will be used.
+Tekla modell változáskövetéséhez fontos, hogy mindkét program fusson ugyan azon a számítógépen, és a modell legyen megnyitva Tekla Structures-ben. Ezután a _**File**_ menü _**Export**_ fül _**TEKLA Structures frissítés**_ funkcióra kattintva a következő dialógablak jelenik meg:
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":7527,"width":705,"height":304,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":32126,"width":345,"height":225,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/3-3-tekla-update-dialog.png)](./img/wp-content-uploads-2021-04-3-3-tekla-update-dialog.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/02/Tekla_update.png)](./img/wp-content-uploads-2022-02-Tekla_update.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-Clicking on Update button the whole process will be finished. New elements created in _ConSteel_ will be automatically exported to _Tekla Structures_. The next table consists the merge cases.
+A dialógon eldönthetjük, hogy a teljes modellt, vagy annak csak egy részét szeretnénk frissíteni. A megfelelő beállítások után a _**Tovább**_ gombra kattintva haladhatunk tovább.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+A modellek frissítésekor a párhuzamosan futó Consteel és Tekla modellek összehasonlításra kerülnek. Azon elemek esetében, amelyek frissítése nem egyértelmű a felhasználó dönthet, melyik változatot kívánja használni. Ezt az alábbi ablakban lehet megtenni, mely ilyen esetben automatikusan megjelenik:
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":32134,"width":768,"height":341,"sizeSlug":"large","linkDestination":"media"} -->
+
+[![](./img/wp-content-uploads-2022-02-Tekla_update_dialog-1024x454.png)](https://consteelsoftware.com/wp-content/uploads/2022/02/Tekla_update_dialog.png)
+
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+
+Az utolsó oszlopban lehet kiválasztani, hogy az adott elem mely modellbeli állapota legyen megtartva. A _**Frissítés**_ gombra való kattintással a változtatások alkalmazásra kerülnek. A Consteel-ben újonnan létrehozott elemek automatikusan exportálásra kerülnek a Tekla Structures-be. A következő táblázat tartalmazza az összehasonlítás és az egyesítés (Merge) eseteit:
 
 <!-- /wp:paragraph -->
 

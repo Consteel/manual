@@ -1,7 +1,7 @@
 ---
 sidebar_position: 7
 ---
-# Export of reinforcement into DXF
+# Vasmennyiség exportálása DXF fájlba
 
 <!-- wp:image {"align":"center","id":7589,"width":599,"height":351,"sizeSlug":"full","linkDestination":"media"} -->
 
@@ -11,80 +11,84 @@ sidebar_position: 7
 
 <!-- wp:paragraph -->
 
-With the export function, contour surface of the required reinforcements with the corresponding colur palette can easily be exported into dxf file format.
+Vasbeton felületszerkezetek szükséges vasmennyiség számítási eredményei egyszerűen exportálhatóak AutoCAD dxf formátumban, ráadásul nem csak a grafikus eredménynézet, de a megfelelő színpaletta is exportálása kerül.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-During the export, reinforcements contour surfaces for different directions (+x, -x, +y, -y) and their corresponding colour palettes will be placed on different layers
+Az exportálás során külön fóliára kerülnek a különböző irányokban számolt vashányad értékek (a megfelelő végeselem pontokon feliratozva), a színpaletták, valamint a vashányad kontúrok is. Amennyiben nem áll rendelkezésre megfelelő eredmény, figyelmeztetni fog bennünket a szoftver, hogy futtassunk szükséges vasmennyiség számítást.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
+<!-- wp:image {"align":"right","id":32443,"width":304,"height":215,"sizeSlug":"full","linkDestination":"media"} -->
 
-Objects, which will be exported with the funcion:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-
-- Grid: Line, dashed line, or dotted line with the corresponding captions
-- Plates with their contour lines
-- FE division
-- Labels such as name, plate thickness, material grade, if the visibility is turned on
-- Color palettes
-
-<!-- /wp:list -->
-
-<!-- wp:paragraph -->
-
-The function can be initiated from the File menu’s Export functions:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":7607,"width":525,"height":341,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/3-6-export-DXF-dialog-1.png)](./img/wp-content-uploads-2021-04-3-6-export-DXF-dialog-1.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/02/Fajl_export_dxf.png)](./img/wp-content-uploads-2022-02-Fajl_export_dxf.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-On the right (#2) side of the dialogue, the model portions are shown, while on the left (#1) side, export related adjustable settings are listed, such as:
+Elemek, melyek a funkció segítségével exportálásra kerülhetnek:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 
-- Export settings:
-
-  - Export to one file
-
-  - Export portions separately, into individual dxf files
-
-- Coordinate system:
-
-  - Global
-
-  - User-defined
-
-- The unit setting for the dxf file \[mm, cm, m]
-
-- Unit of the reinforcement color palette \[cm2/m, mm2/m]
-
-- The scale of the dxf model by ratio
+- Raszter: vonal, szaggatott vonal vagy pont-vonal a sorszám és betűjel feltüntetésével.
+- Lemezek, héjelemek: kontúrvonalakkal
+- Végeselem felosztás: folytonos vonallal
+- Elemek feliratai: név, lemez vastagság, anyagminőség - ha az adott felirat láthatósága be van kapcsolva
+- Színpaletta
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
-At the Considered model portions (#2) field, those portions can be selected which should be exported.
+A funkció a _**Fájl**_ menü _**Export**_ fül lehetőségei között található. A _**Vashányad DXF exportra**_ parancsra kattintva felugrik a dialógablak, melyen a szükséges exportálási beállítások megadhatók.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-After clicking on the export button, the save dialogue will appear, where path of the dxf file has to be given.
+Az ablak jobb oldalán láthatók a modell részletek panel, bal oldalán pedig a vezérlőpanel, ahol a következő paramétereket és opciókat lehet beállítani:
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"right","id":32450,"width":503,"height":323,"sizeSlug":"full","linkDestination":"media"} -->
+
+[![](https://consteelsoftware.com/wp-content/uploads/2022/02/dxf_export.png)](./img/wp-content-uploads-2022-02-dxf_export.png)
+
+<!-- /wp:image -->
+
+<!-- wp:list -->
+
+- Exportálási mód
+
+  - 1 fájlba - minden részlet egy fájlba kerül
+  - Külön fájlokba - az egyes részletmodellek eredményei külön fájlokba kerülnek
+
+- Koordináta rendszer
+
+  - Globális koordináta rendszer (XY, XZ, YZ)
+  - Felhasználói koordináta rendszer
+
+- Vasbetonpaletta mértékegysége (cm2/m vagy mm2/m)
+
+- DXF modell mértékegysége (m, cm vagy mm)
+
+- DXF model skálázása (szorzótényező)
+
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+
+A modell részleteknél (jobb oldal) kiválaszthatjuk, hogy mely részlet(ek)re számított vasmennyiségeket szeretnénk exportálni.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+A beállításokat elvégezve, majd az _**Exportálás**_ gombra kattintva megjelenik a _Mentés_ dialóg, ahol a DXF fájl nevét és mentési helyét kell megadni. A _**Mentés**_ gombra kattintva a dxf fájl(ok) létrejön(nek) a megadott mappában. A _**Mégsem**_ gomb megnyomása esetén kilépünk a funkcióból.
 
 <!-- /wp:paragraph -->

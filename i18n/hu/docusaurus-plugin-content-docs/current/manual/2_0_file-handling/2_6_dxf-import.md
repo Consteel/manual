@@ -1,57 +1,50 @@
 ---
 sidebar_position: 6
 ---
-# DXF import
+# Dxf fájl importálása
 
+<!-- wp:paragraph -->
 
-To import a dxf drawing file, click on File menu, import tools. Choose DXF from the available import functions.
+Dxf kiterjesztésű fájlok importálásához a _**Fájl**_ menü _**Import**_ opciójára, majd a _**Dxf**_ menüpontra kell kattintani.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":7574,"width":285,"height":182,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":32427,"width":284,"height":228,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/3-5-DXF-import-menu.png)](./img/wp-content-uploads-2021-04-3-5-DXF-import-menu.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/02/Fajl_import_dxf.png)](./img/wp-content-uploads-2022-02-Fajl_import_dxf.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-A windows file opening dialog will pop-up, where the dxf file has to be selected on the computer. After clicking OK, the drawing file will appear in the modeling area of _ConSteel_, and dxf import dialog will be opened automatically.
+Ekkor megjelenik a _**DXF beolvasás**_ ablaka, és egyúttal egy „File megnyitás” dialóg is, ahol ki kell választani az importálandó dxf fájlt. A fájl kiválasztása és megnyitása után a rajz megjelenik a modell térben, de még nem kerül véglegesen elhelyezésre. A Dxf beolvasás dialógon lehet a szükséges paraméterek megadás után a beolvasást véglegesíteni.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":7580,"width":269,"height":375,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":32434,"width":325,"height":464,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/3-5-DXF-import-dialog.png)](./img/wp-content-uploads-2021-04-3-5-DXF-import-dialog.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/02/dxf_import.png)](./img/wp-content-uploads-2022-02-dxf_import.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-On the DXF import dialog the following modifications can be made:
+A dialógablakon az alábbi paramétereket lehet beállítani:
 
 <!-- /wp:paragraph -->
 
-<!-- wp:list {"className":"is-style-default"} -->
+<!-- wp:list -->
 
-- Unit of dxf model (mm/cm/m)
-
-- DXF model scale with scale factor
-
-- Move placement origo (origo of the dxf file)
-
-- Plane of placement
-
-  - X-Y, X-Z, Y-Z of the global coordinate system, or User-defined coordinate system)
-
-- Layer handling
-
-  - Layers of the dxf drawing can be imported to ConSteel with its properties, or the whole dxf can be imported to an already existing ConSteel layer
+- DXF modell mértékegységének megadása (mm/cm/m)
+- DXF modell skálázása (szorzófaktor)
+- Beillesztési pont áthelyezése (alapértelmezésben a globális origóba kerül a modell)
+- Elhelyezés alapsíkjának megadása, ami lehet valamely fősík, vagy egy felhasználói koordináta rendszer
+- Elhelyezés fóliája: beolvasható és használható a dxf fájl saját fóliarendszere, vagy használható egy meglévő Consteel fólia is. (Megjegyzés: Consteel fólia választása esetén a teljes rajz a kiválasztott fóliára kerül betöltésre függetlenül az eredeti modell fóliáitól).
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
-With the OK button, the modifications can be applied, and the dxf drawing will be placed in the modeling area.
+A dialógón végzett módosítások azonnal láthatók a modelltérben is, majd az _**OK**_ gomb megnyomásával a dxf modell beolvasása véglegesíthető.
 
 <!-- /wp:paragraph -->

@@ -1,9 +1,17 @@
 ---
 sidebar_position: 9
 ---
-# Exporting model data from Dlubal Rstab in xlsx format
+# Dlubal Rstab modellek exportálása xlsx formátumba
 
-In order to export model data to an .xslx file, the following steps are necessary in Dlubal Rstab. Click on the File menu, Export tools, and choose Microsoft Excel (\*xlsx) format from the available options:
+<!-- wp:paragraph -->
+
+Az xlsx formátumú exportáláshoz az alábbi lépésekre van szükség Dlubal Rstab szoftverben.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+Kattintson a **Fájl** menü **Export** funkciójára, és válassza a **Microsoft excel (xlsx)**, formátumot az alábbi dialóg szerint:
 
 <!-- /wp:paragraph -->
 
@@ -15,7 +23,7 @@ In order to export model data to an .xslx file, the following steps are necessar
 
 <!-- wp:paragraph -->
 
-After clicking the OK button, the export setting dialog will appear. On the Export of Tables part, data for the export has to be chosen. At Tables, the “With table headers” and “Only filled rows” has to be checked in. At the Export Type, “rewrite existing worksheet” is suggested to checked in.
+Az **OK** gomb megnyomása után az **Export beállítások** dialóg jelenik meg. Itt ki lehet választani az exportálni kívánt adatokat. A dialógon be kell jelölni a „With table headers” és az „Only filled rows” opciókat. Az exportálás típusánál pedig a „Rewrite existing worksheet” opciót kell választani.
 
 <!-- /wp:paragraph -->
 
@@ -27,13 +35,13 @@ After clicking the OK button, the export setting dialog will appear. On the Expo
 
 <!-- wp:paragraph -->
 
-After clicking on the Export button, the Excel (xlsx) file will be generated, and opened. It is important to know, that if loads are desired to be exported too, the excel file should not be closed yet.
+Az export gomb megnyomásával létrejön és megnyílik egy Excel (xlsx) fájl. **Nagyon fontos**, hogy ha terheket is akarunk exportálni, akkor ezt a fájlt még ne zárjuk be!
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-To export loads from a model, loadcases has to be exported one-by-one manually to the existing excel file. Export of Nodal loads and member loads can be performed on the bottom part of Dlublab main window:
+A terhek exportálása manuálisan lehetséges a megnyitott Excel fájlba. A csomóponti és rúdterhek exportálása Dlubalban az alábbiak szerint lehetséges:
 
 <!-- /wp:paragraph -->
 
@@ -45,7 +53,7 @@ To export loads from a model, loadcases has to be exported one-by-one manually t
 
 <!-- wp:paragraph -->
 
-By chosing a loadcase at Nodal loads or Member loads, and clicking on the export to excel (![](./img/wp-content-uploads-2021-04-3-8-Dlubal-export-dialog-4.png)) button, the window below will appear:
+Az exportálni kívánt terhek kiválasztása után az exportálás Excel formátumba gombra (![](./img/wp-content-uploads-2021-04-3-8-Dlubal-export-dialog-4.png)) kattintva az alábbi dialóg jelenik meg:
 
 <!-- /wp:paragraph -->
 
@@ -57,12 +65,12 @@ By chosing a loadcase at Nodal loads or Member loads, and clicking on the export
 
 <!-- wp:paragraph -->
 
-On the Export table dialogue “Microsoft Excel” format has to be choosen. Also, “Export table to active workbook” has to be checked in, so the data will be exported to the already opened model data. At Table parameters, the “With table headers” and “Only filled rows” has to be checked in.
+A dialógon ki kell választani az export funkciót (_Table export_), és a _Microsoft Excel_ formátumot. Ezek után be kell jelölni az „Export table to active workbook” a „Rewrite existing worksheet”, az „Export table header” és az „Only filled rows” opciókat.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-After clicking on the OK button, the xlsx file can be imported to ConSteel.
+A dialógon a fenti beállításokat alkalmazva, majd az _**OK**_ gombra kattintva egy fájlba történik meg a modell adatainak exportálása. A fájl mentése után a modellfájl már _**[beolvasható](http://yxcyxc)**_ Consteel-be.
 
 <!-- /wp:paragraph -->
