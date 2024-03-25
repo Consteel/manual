@@ -1,76 +1,86 @@
 ---
 sidebar_position: 7
 ---
-# Model grid
+# Modell raszter
+<!-- wp:paragraph -->
 
-On the geometry tab, it is possible to create a custom model grid.
+A _**geometria**_ fülön található _**Modell raszter**_ parancs segítségével lehetőség van általános _modell raszter_ létrehozására.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":8003,"width":522,"height":58,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":33061,"width":628,"height":80,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/4-8-grid-tab.png)](./img/wp-content-uploads-2021-04-4-8-grid-tab.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/02/modell_raszter.png)](./img/wp-content-uploads-2022-02-modell_raszter.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-By clicking on the command button, the Structural grid dialogue will be opened.
+A parancsikonra kattintva az alábbi **Raszterkezelés** című dialógablak nyílik meg.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":8009,"width":865,"height":451,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":33065,"width":768,"height":401,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/4-8-grid-dialog.png)](./img/wp-content-uploads-2021-04-4-8-grid-dialog.png)
+[![](./img/wp-content-uploads-2022-02-dial_raszter-1024x534.png)](https://consteelsoftware.com/wp-content/uploads/2022/02/dial_raszter.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-Grid manager functions:
+A **Raszterkezelés** dialóg funkciói az alábbiak:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 
-- Create a new structural grid with the button ![](./img/wp-content-uploads-2021-04-4-8-grid-plus.png)
-- Accept grid properties and finalize grid with the button ![](./img/wp-content-uploads-2021-04-4-8-grid-check.png)
-- Delete previously created grid with the button ![](./img/wp-content-uploads-2021-04-4-8-grid-cancel.png)
+- Új raszter létrehozása ![](./img/wp-content-uploads-2021-04-4-8-grid-plus.png)
+- A raszter tulajdonságok elfogadása és véglegesítése ![](./img/wp-content-uploads-2021-04-4-8-grid-check.png)
+- A korábban létrehozott raszter törlése ![](./img/wp-content-uploads-2021-04-4-8-grid-cancel.png)
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
-Model grid properties:
+Modell raszter tulajdonságai:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 
-- Division of the grid in X and Y direction has to be set.
+- A _Hálóbeállítás_ részben a raszter felosztás definiálása végezhető el X és Y irányban:
 
-  - A new row for the division can be created with the ![](./img/wp-content-uploads-2021-04-ico-new.png) button.
+  - Raszter új sorának létrehozása a ![](./img/wp-content-uploads-2021-04-ico-new.png) parancsikonnal lehetséges. A raszterháló távolságok megadhatók egy egyszerű számértékkel (pl. 6000) vagy több azonos távolság esetén egy szorzószám és egy távolság érték szorzataként (pl. 2\*3000)
 
-  - Defined rows can be deleted with the ![](./img/wp-content-uploads-2021-04-ico-delete.png) button.
+  - Meglévő sor törölhető a ![](./img/wp-content-uploads-2021-04-ico-delete.png) parancsikonnal.
 
-  - The sequence can be modified with the arrows ![](./img/wp-content-uploads-2021-04-ico-up-down-arrow.png) button. Values can be defined with single values (1500) or as multiplicated values (2\*2000)
+  - A raszter értékek sorrendje a ![](./img/wp-content-uploads-2021-04-ico-up-down-arrow.png) parancsikonokkal módosítható.
 
-- Caption properties can be set both for X and Y directions.
+<!-- /wp:list -->
 
-  - It is possible to choose from capital letters, lowercase letters, decimal numbers, and roman numbers too.
+<!-- wp:list -->
 
-  - Initial values can be set from the dropdown menu.
+- A _Feliratok beállítása_ részben a tengelyfeliratokat lehet definiálni:
 
-  - The prefix of the captions can be set manually.
+  - Megadható, hogy a tengelyfelirat a tengely mely végein jelenjen meg
+  - Feliratként lehetőség van nagy és kisbetű, egész és római szám használatára is
 
-  - Captions can be chosen if they desired to be in ascending or descending order both for X and Y directions
+  - A kezdőérték a legördülő menüből választható ki
 
-- Grid position can be set at the bottom of the dialogue.
+  - Egyedi előtagot is lehet definiálni tetszőleges karakter megadásával
+  - Megadhatjuk a megjelenített tengelyvonalak túlnyúlását
+  - Lehetőség van változtatni a feliratok sorrendjén, mely lehet növekvő vagy csökkenő X és Y irányban egyaránt.
 
-  - Coordinates of the insertion point can be set manually according to the global coordinate system (X0,Y0,Z0), or with a graphical selection on the screen using the arrow ![](./img/wp-content-uploads-2021-04-ico-pointer.png) button
+<!-- /wp:list -->
 
-  - Rotation of the grid can be set with the definition of the alpha value, according to the global X-axis
+<!-- wp:list -->
 
-  - It can also be chosen if the grid is desired to be shown on the lowest visible storey of the model (previously defined storeys are necessary)
+- A raszter modellbeli pozícióját a dialóg alsó részén található _Raszter helyzete_ részben lehet megadni:
+
+  - A beillesztési pont megadható a globális koordináta rendszerben (X0, Y0, Z0), vagy kijelölhető a ![](./img/wp-content-uploads-2021-04-ico-pointer.png) ikonra kattintva
+
+  - A raszter elforgatása definiálható egy alfa szögérték megadásával. Az érték a globális + X tengelytől értelmezett
+
+  - Megadható, hogy a raszter a megadott Z érték helyett a legalsó látható szinten jelenjen meg. (Ha még nincsenek _[definiált szintek](/manual/reszlet-kezelo/#szintek)_ a modellben, akkor a raszter a globális 0 szinten fog megjelenni.)
 
 <!-- /wp:list -->

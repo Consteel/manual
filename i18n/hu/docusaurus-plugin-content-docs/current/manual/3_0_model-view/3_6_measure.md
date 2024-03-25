@@ -1,116 +1,139 @@
 ---
 sidebar_position: 6
 ---
-# Measure
+# Kótázás
+<!-- wp:paragraph -->
 
-During modeling it is helpful to measure distances and angles. The Measure tool is found at the end of the Geometry tab.
+A modell dokumentálásakor lényeges, hogy a szerkezet méretei dokumentálhatók legyenek. A méretezés eszköztára a _**Geometria**_ fülön érhető el.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":7939,"width":430,"height":77,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":32802,"width":647,"height":79,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/4-7-measure-tab.png)](./img/wp-content-uploads-2021-04-4-7-measure-tab.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/02/func_meretvonal_elhelyezes.png)](./img/wp-content-uploads-2022-02-func_meretvonal_elhelyezes.png)
+
+<!-- /wp:image -->
+
+<!-- wp:image {"align":"right","id":32809,"width":359,"height":152,"sizeSlug":"full","linkDestination":"media"} -->
+
+[![](https://consteelsoftware.com/wp-content/uploads/2022/02/meretvonal_vetuleti.png)](./img/wp-content-uploads-2022-02-meretvonal_vetuleti.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-The following window offers the measuring functions:
+Az eszköztáron számos méretezési mód áll rendelkezésre:
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":7945,"width":399,"height":196,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:list -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/4-7-measure-dialog.png)](./img/wp-content-uploads-2021-04-4-7-measure-dialog.png)
+- **Vetületi méretvonal elhelyezése** ![](./img/wp-content-uploads-2021-04-4-6-Dim-projected-icon.png)- a kiválasztott vonal elem globális X, Y, vagy Z tengelyre vetített méretének elhelyezésé.
+
+<!-- /wp:list -->
+
+<!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+
+_Lehetőségek_:
+
+<!-- /wp:paragraph -->
+
+<!-- wp:list {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+
+- Auto: az egér mozgatása közben a rendszer érzékeli a kívánt viszonyítási tengelyt.
+- Globális X tengely szerint: X tengelyre vetített méret kótázása.
+- Globális Y tengely szerint: Y tengelyre vetített méret kótázása.
+- Globális Z tengely szerint: Z tengelyre vetített méret kótázása.
+
+<!-- /wp:list -->
+
+<!-- wp:image {"align":"center","id":7862,"width":535,"height":417,"sizeSlug":"full","linkDestination":"media"} -->
+
+[![](https://consteelsoftware.com/wp-content/uploads/2021/04/4-6-Dim-proj-pic.png)](./img/wp-content-uploads-2021-04-4-6-Dim-proj-pic.png)
 
 <!-- /wp:image -->
 
 <!-- wp:list -->
 
-- **Measure distance**![](./img/wp-content-uploads-2021-04-4-7-measure-dist-ico.png)**: **Shows on the screen the measured distance between two picked points in meter or in millimeter, selected from the “unit of length” list box.
+- **Hosszanti méretvonal elhelyezése** ![](./img/wp-content-uploads-2021-04-4-6-Dim-length-icon.png)- lineáris elem hosszméretének elhelyezése, az objektum középvonala és a globális koordináta rendszer X,Y síkja által meghatározott síkban, vagy az előbbire merőleges síkban, ami tartalmazza az elem középvonalát. Az egérkurzor mozgatása közben a rendszer érzékeli a kívánt síkot.
 
 <!-- /wp:list -->
 
-<!-- wp:columns -->
+<!-- wp:image {"align":"center","id":7874,"width":425,"height":350,"sizeSlug":"full","linkDestination":"media"} -->
 
-<!-- wp:column -->
-
-<!-- wp:image {"align":"center","id":7957,"width":395,"height":196,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/4-7-measure-dist-dial.png)](./img/wp-content-uploads-2021-04-4-7-measure-dist-dial.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2021/04/4-6-Dim-length-pic.jpg)](./img/wp-content-uploads-2021-04-4-6-Dim-length-pic.jpg)
 
 <!-- /wp:image -->
-
-<!-- /wp:column -->
-
-<!-- wp:column -->
-
-<!-- wp:image {"align":"center","id":7963,"width":331,"height":284,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/4-7-measure-dist-pic.jpg)](./img/wp-content-uploads-2021-04-4-7-measure-dist-pic.jpg)
-
-<!-- /wp:image -->
-
-<!-- /wp:column -->
-
-<!-- /wp:columns -->
 
 <!-- wp:list -->
 
-- **Measure angle**![](./img/wp-content-uploads-2021-04-4-7-measure-angle-ico.png)**: **The function measures the angle between two lines defined by clicking three snap points in the 3D space in the plane of the two lines in degree or in radian.
+- **Vetületi méretvonal elhelyezése két pont között** ![](./img/wp-content-uploads-2021-04-4-6-Dim-proj-point-icon.png) Két pont közötti távolság globális koordináta-rendszer X,Y vagy Z tengelyére vetített méretének elhelyezése.
 
 <!-- /wp:list -->
 
-<!-- wp:columns -->
+<!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-<!-- wp:column -->
+_Lehetőségek_:
 
-<!-- wp:image {"align":"center","id":7975,"width":295,"height":146,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- /wp:paragraph -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/4-7-measure-angle-dialog.png)](./img/wp-content-uploads-2021-04-4-7-measure-angle-dialog.png)
+<!-- wp:list {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+
+- Auto: az egér mozgatása közben a rendszer érzékeli a kívánt viszonyítási tengelyt.
+- Globális X tengely szerint: X tengelyre vetített méret kótázása a két kiválasztott pont között.
+- Globális Y tengely szerint: Y tengelyre vetített méret kótázása a két kiválasztott pont között.
+- Globális Z tengely szerint: Z tengelyre vetített méret kótázása a két kiválasztott pont között.
+
+<!-- /wp:list -->
+
+<!-- wp:list {"type":"A","className":"is-style-default"} -->
+
+- **Hosszanti méretvonal elhelyezése két pont között** ![](./img/wp-content-uploads-2021-04-4-6-Dim-length-point-icon.png)- a két pont közötti távolság méretvonala az alábbi síkokban helyezhető el:
+
+<!-- /wp:list -->
+
+<!-- wp:list {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+
+- Az objektum középvonalát tartalmazó és a globális X,Y síkra merőleges síkban
+- A fenti síkra merőleges, az objektum középvonalát tartalmazó síkban.
+
+<!-- /wp:list -->
+
+<!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+
+Az egérkurzor mozgatása közben a rendszer érzékeli a kívánt síkot.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:list {"type":"A"} -->
+
+- **Méretvonal elhelyezése kör átmérőjére** ![](./img/wp-content-uploads-2021-04-4-6-Dim-diam.png)
+- **Méretvonal elhelyezése kör sugarára** ![](./img/wp-content-uploads-2021-04-4-6-Dim-rad.png)
+- **Két vonal között szögkóta elhelyezése** ![](./img/wp-content-uploads-2021-04-4-6-Dim-angle.png) A két egyenest kiválasztását követően bármely szög méretvonala elhelyezhető.
+- **Magassági méretvonal elhelyezése** ![](./img/wp-content-uploads-2021-04-4-6-Dim-height.png) A funkció egy szerkezet kijelölt pontjainak a megadott magassági alapvonaltól mért Globális Z irányba eső relatív magassági méretei adhatóak meg.
+
+<!-- /wp:list -->
+
+<!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+
+Az **Alapvonal** paraméterrel a modell globális Z=0 síkjának a magassági értékét adhatjuk meg. Minden megjelölt pont magassági értéke ehhez a szinthez lesz viszonyítva.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":32816,"width":512,"height":359,"sizeSlug":"large","linkDestination":"media"} -->
+
+[![](./img/wp-content-uploads-2022-02-meretvonal_magassag-1024x717.png)](https://consteelsoftware.com/wp-content/uploads/2022/02/meretvonal_magassag.png)
 
 <!-- /wp:image -->
-
-<!-- /wp:column -->
-
-<!-- wp:column -->
-
-<!-- wp:image {"align":"center","id":7981,"width":457,"height":242,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/4-7-measure-angle-pic.png)](./img/wp-content-uploads-2021-04-4-7-measure-angle-pic.png)
-
-<!-- /wp:image -->
-
-<!-- /wp:column -->
-
-<!-- /wp:columns -->
 
 <!-- wp:list -->
 
-- **Data of structural member**![](./img/wp-content-uploads-2021-04-4-7-measure-data.png)**: **The function shows on the screen the length, the surface and the weight of the selected structural member.
+- **Szövegdoboz elhelyezése egy adott vonalhoz** **![](./img/wp-content-uploads-2021-04-4-6-Dim-text.png)**- a szöveges mezőben megadott szöveg (pl.: A3) elhelyezhető a modellen.
 
 <!-- /wp:list -->
 
-<!-- wp:columns -->
+<!-- wp:image {"align":"center","id":32825,"width":493,"height":371,"sizeSlug":"full","linkDestination":"media"} -->
 
-<!-- wp:column -->
-
-<!-- wp:image {"align":"center","id":7993,"width":397,"height":194,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/4-7-measure-data-dialog.png)](./img/wp-content-uploads-2021-04-4-7-measure-data-dialog.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/02/meretvonal_szoveg.png)](./img/wp-content-uploads-2022-02-meretvonal_szoveg.png)
 
 <!-- /wp:image -->
-
-<!-- /wp:column -->
-
-<!-- wp:column -->
-
-<!-- wp:image {"align":"center","id":7933,"width":376,"height":226,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/4-7-measure-data-pic.png)](./img/wp-content-uploads-2021-04-4-7-measure-data-pic.png)
-
-<!-- /wp:image -->
-
-<!-- /wp:column -->
-
-<!-- /wp:columns -->

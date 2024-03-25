@@ -1,74 +1,75 @@
 ---
 sidebar_position: 4
 ---
-# Object names and Renumbering
+# Objektum átnevezés és újraszámozás
 
+<!-- wp:paragraph -->
 
-Names and labels are used for a better organization of the different objects in the model and for better transparency of the documentation. The names and numbers of the objects are generated automatically while modeling. The user has the opportunity to change these generated names.
+A különböző objektumok áttekinthetősége és a dokumentálhatóság érdekében neveket és címkéket használ a program az objektumok megkülönböztetésére. A legtöbb objektum nevét és számát a program automatikusan adja a modellezés folyamán. Néhány esetben azonban (pl. kapcsolatok létrehozásakor) a felhasználó adhat nevet az új objektumnak.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The following name and renumbering options are available:
+Objektum átnevezésére és újraszámozására a következő funkciók érhetőek el:
 
 <!-- /wp:paragraph -->
 
-<!-- wp:list {"className":"is-style-arrow"} -->
+<!-- wp:list {"className":"is-style-default"} -->
 
-- **numbering of finite element points **– generated fully automatically, the user can’t influence the process. These numbers are only visible on the \_Finite element \_and the \_Analysis \_tabs.
-- **names of structural members**– these are generated automatically while the user creates or copies structural objects (beam, column, plate, wall). Names consist of a prefix and a number (for instance: “B1” for a bar member). These names appear in the **Object properties** window on the right side of the screen. The names can be modified manually or with the help of the **Renumber selected objects** tool (see below).
-- **names of structural supports, releases, and links** – these names show the type of the placed support, release or link objects (for instance: “Fixed” or “yy,zz,w”)
-- **names of joints** – these names show the user-defined names of a placed joint (for instance: “Beam-to-column 01”)
+- **Végeselem pontok számozása**– teljesen automatikusan történik, a felhasználó nem tudja befolyásolni a számozást. Ezek a számok csak a *Végeselem* és \_Analízis \_füleken láthatók.
+- **Szerkezeti elemek nevei** – a szerkezeti objektumok (oszlopok, gerendák, lemezek) elhelyezésekor, másolásakor az elemnevek automatikusan létrejönnek. A nevek egy előtagból és egy számból állnak (például „B1” egy rúdelemnél). Ezek az elemnevek megjelennek a képernyő jobb oldalán található _[Objektumfában ](/manual/altalanos-ismertetes/a-fokepernyo/#oldalpanel)_ és az _[Objektum tulajdonságok](/manual/altalanos-ismertetes/a-fokepernyo/#Object-properties-window)_ ablakban is. A nevek módosítása történhet egyesével a név átírásával az objektum tulajdonságok között, vagy az automatikus újraszámozás funkció (ld. lejjebb) segítségével.
+- **Szerkezeti támaszok, elemvég folytonosságok és kapcsolati elemek nevei** – a nevek mutatják a támaszok, elemvég folytonosságok és kapcsolati elemek típusait (például: “Merev” „Folytonos” vagy “yy, zz, w”).
+- **Kapcsolatok nevei**– a nevek az elhelyezett csomópontok felhasználó által megadott neveit mutatja (például: „Oszlop-gerenda 01”)
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
-**Renumbering the objects**
+**_Objektumok újraszámozása_**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-To renumbering the objects first select the relevant objects, then click on the **Renumber selected objects** icon on the Structural members tab.
+Az újraszámozáshoz először ki kell választani az újraszámozandó objektumokat, majd a _**Szerkezeti elemek**_ fülön található _**Kiválasztott elemek újraszámozása**_ ![](./img/wp-content-uploads-2022-02-ico_renum.png) gombra kell kattintani.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":7830,"width":737,"height":608,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":32789,"width":768,"height":449,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/4-5-renumberung.png)](./img/wp-content-uploads-2021-04-4-5-renumberung.png)
+[![](./img/wp-content-uploads-2022-02-dia_ujraszamoz-1024x598.png)](https://consteelsoftware.com/wp-content/uploads/2022/02/dia_ujraszamoz.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-The _Renumber selected object_ window will appear, showing the selected objects grouped by object type. For renumbering, the following functions can be used :
+A funkció elindításával a _**Kiválasztott elemek újraszámozása**_ ablak jelenik meg, ami már tartalmazza az előzőleg kiválasztott objektumtípusokat. A kiválasztott objektumtípusok neve előtt lévő kijelölő négyzettel állítható be, hogy az újraszámozás melyik objektum típusokra történjen.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:list {"className":"is-style-arrow","editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+<!-- wp:list {"className":"is-style-checked"} -->
 
-- The prefix of the name can be defined
-- Start number can be defined
-- Priority of the renumbering can be set in the 3 main directions (X, Y Z)
+- Megadható a név előtagja
+- Megadható a számozás kezdősorszáma
+- Az újraszámozás iránya beállítható a három főtengely irányába (X, Y Z)
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
-After clicking on the **Apply **button, only checked object types will be renumbered. The new names of the objects will be built up from the given prefix and the new serial number.
+Az Alkalmaz gombra kattintva a bejelölt elem típusok új neveket kapnak a megadott előtag és kezdő sorszám, illetve a rendezési elv alapján.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-**Label’s visibility**
+**_Feliratok láthatósága_**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The visibility of the labels can be set on the bottom status bar as it was described in [Chapter 1.2.6 - Status bar](/manual/how-to-open-consteel/the-main-window/#status-bar).
+A feliratok láthatóságát az alsó állapotsoron lehet beállítani. Részletes leírást ld. a _**[Főképernyő - Állapotsor](/manual/altalanos-ismertetes/a-fokepernyo/#allapotsor)**_ fejezetében!
 
 <!-- /wp:paragraph -->

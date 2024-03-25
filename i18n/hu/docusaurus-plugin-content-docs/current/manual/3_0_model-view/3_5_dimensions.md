@@ -1,156 +1,117 @@
 ---
 sidebar_position: 5
 ---
-# Dimensions
+# Mérés
+<!-- wp:paragraph -->
 
-For the documentation of the calculated structural model, it is very important to be aware of the exact dimensions of the model. The dimensioning tool can be found on the Geometry tab.
+Modellezés közben szükséges lehet távolságok, szögek megmérése. A _**Mérés**_ funkció a _**Geometria**_ fülön található.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":7844,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":32937,"width":566,"height":73,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/4-6-Dim-tab.png)](./img/wp-content-uploads-2021-04-4-6-Dim-tab.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/02/func_meres.png)](./img/wp-content-uploads-2022-02-func_meres.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-This provides a great number of different dimensioning options:
+A mérési funkciók a az alábbi, felugró ablakon érhetőek el:
 
 <!-- /wp:paragraph -->
 
-<!-- wp:list -->
+<!-- wp:image {"align":"center","id":32952,"width":359,"height":177,"sizeSlug":"full","linkDestination":"media"} -->
 
-- **Projected dimension of a linear object**![](./img/wp-content-uploads-2021-04-4-6-Dim-projected-icon.png)**: **The projected length of the selected linear object onto the global X or Y or Z axis will be dimensioned.
-
-<!-- /wp:list -->
-
-<!-- wp:image {"align":"center","id":7856,"width":408,"height":182,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/4-6-Dim-proj-dialog.png)](./img/wp-content-uploads-2021-04-4-6-Dim-proj-dialog.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-_Parameters:_
-
-<!-- /wp:paragraph -->
-
-<!-- wp:list {"type":"A","className":"is-style-arrow","editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-- Auto: moving the mouse, the system detects the desired reference axis.
-- According to global axis X: the X-axis projection of the length of the linear object.
-- According to global axis Y: the Y-axis projection of the length of the linear object.
-- According to global axis Z: the Z-axis projection of the length of the linear object.
-
-<!-- /wp:list -->
-
-<!-- wp:image {"align":"center","id":7862,"width":535,"height":417,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/4-6-Dim-proj-pic.png)](./img/wp-content-uploads-2021-04-4-6-Dim-proj-pic.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/02/meres.png)](./img/wp-content-uploads-2022-02-meres.png)
 
 <!-- /wp:image -->
 
 <!-- wp:list -->
 
-- **Lengthwise dimension of a linear object**![](./img/wp-content-uploads-2021-04-4-6-Dim-length-icon.png): The length of the selected linear object can be placed in one of the planes which is defined by the centerline of the object and the global coordinate system X,Y plane, and a plane perpendicular to this plane and containing the centerline of the object.
+- **Távolságmérés** ![](./img/wp-content-uploads-2021-04-4-7-measure-dist-ico.png)- két kiválasztott pont közötti távolságot lehet megmérni milliméterben vagy méterben. A mértékegység a legördülő menüből választható.
 
 <!-- /wp:list -->
 
-<!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+<!-- wp:columns -->
 
-_Parameters:_
+<!-- wp:column -->
 
-<!-- /wp:paragraph -->
+<!-- wp:image {"align":"center","id":32966,"width":359,"height":178,"sizeSlug":"full","linkDestination":"media"} -->
 
-<!-- wp:list {"type":"A","className":"is-style-arrow","editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-- Auto: moving the mouse, the system is detects the desired plane.
-
-<!-- /wp:list -->
-
-<!-- wp:image {"align":"center","id":7874,"width":425,"height":350,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/4-6-Dim-length-pic.jpg)](./img/wp-content-uploads-2021-04-4-6-Dim-length-pic.jpg)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/02/meres_tav.png)](./img/wp-content-uploads-2022-02-meres_tav.png)
 
 <!-- /wp:image -->
+
+<!-- /wp:column -->
+
+<!-- wp:column -->
+
+<!-- wp:image {"align":"center","id":32982,"width":338,"height":171,"sizeSlug":"full","linkDestination":"media"} -->
+
+[![](https://consteelsoftware.com/wp-content/uploads/2022/02/meres_tav_pl.png)](./img/wp-content-uploads-2022-02-meres_tav_pl.png)
+
+<!-- /wp:image -->
+
+<!-- /wp:column -->
+
+<!-- /wp:columns -->
 
 <!-- wp:list -->
 
-- **Projected dimension of the distance between two selected points **![](./img/wp-content-uploads-2021-04-4-6-Dim-proj-point-icon.png)**: **The length of the distance between two selected points will be projected onto the global X or Y or Z axis.
+- **Szögmérés** ![](./img/wp-content-uploads-2021-04-4-7-measure-angle-ico.png)- három pont által meghatározott, két vonal által bezárt szöget lehet megmérni fokban vagy radiánban.
 
 <!-- /wp:list -->
 
-<!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+<!-- wp:columns -->
 
-_Parameters:_
+<!-- wp:column -->
 
-<!-- /wp:paragraph -->
+<!-- wp:image {"align":"center","id":32990,"width":358,"height":177,"sizeSlug":"full","linkDestination":"media"} -->
 
-<!-- wp:list {"type":"A","className":"is-style-arrow","editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-- Auto: moving the mouse, the system detects the desired reference axis.
-- According to global axis X: the X axis projection of the distance between two selected points.
-- According to global axis Y: the Y axis projection of the distance between two selected points.
-- According to global axis Z: the Z axis projection of the distance between two selected points.
-
-<!-- /wp:list -->
-
-<!-- wp:list {"type":"A","className":"is-style-default"} -->
-
-- **Lengthwise dimension between two points ![](./img/wp-content-uploads-2021-04-4-6-Dim-length-point-icon.png):** The distance between the selected two points could be placed in one of the following planes.
-
-<!-- /wp:list -->
-
-<!-- wp:list {"type":"A","className":"is-style-arrow","editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-- Plane defined by the centerline of the object and the X,Y plane global coordinate system
-- The plane perpendicular to the above plane and containing the centerline of the object.
-
-<!-- /wp:list -->
-
-<!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-_Parameters:_
-
-<!-- /wp:paragraph -->
-
-<!-- wp:list {"type":"A","className":"is-style-arrow","editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-- Auto: moving the mouse, the system detects the desired reference axis.
-
-<!-- /wp:list -->
-
-<!-- wp:list {"type":"A"} -->
-
-- **Diameter of a circle** ![](./img/wp-content-uploads-2021-04-4-6-Dim-diam.png)
-- **Radius of a circle** ![](./img/wp-content-uploads-2021-04-4-6-Dim-rad.png)\*\*\*\*
-- **Angle of two lines** ![](./img/wp-content-uploads-2021-04-4-6-Dim-angle.png)**: **After selecting two lines any of the four angles could be dimensioned.
-- **Height dimension** ![](./img/wp-content-uploads-2021-04-4-6-Dim-height.png)**: **This function helps for quick dimensioning the height positions of selected points relative to global Z direction related to the given value in _Basic line_ filed.
-
-<!-- /wp:list -->
-
-<!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-The content of the **Basic line** field means the height of the zero level in the global Z-direction. All the picked points will be measured from this value as a 0.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":7916,"width":767,"height":431,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/4-6-Dim-height-pic.png)](./img/wp-content-uploads-2021-04-4-6-Dim-height-pic.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/02/meres_szog.png)](./img/wp-content-uploads-2022-02-meres_szog.png)
 
 <!-- /wp:image -->
+
+<!-- /wp:column -->
+
+<!-- wp:column -->
+
+<!-- wp:image {"align":"center","id":32997,"width":311,"height":190,"sizeSlug":"full","linkDestination":"media"} -->
+
+[![](https://consteelsoftware.com/wp-content/uploads/2022/02/meres_szog_pl.png)](./img/wp-content-uploads-2022-02-meres_szog_pl.png)
+
+<!-- /wp:image -->
+
+<!-- /wp:column -->
+
+<!-- /wp:columns -->
 
 <!-- wp:list -->
 
-- **Textbox to a given line **![](./img/wp-content-uploads-2021-04-4-6-Dim-text.png)**: **The given text (A-2) in the script field can be placed into the model.
+- **Szerkezeti elem adatainak lekérdezése** ![](./img/wp-content-uploads-2021-04-4-7-measure-data.png)- kijelzi a képernyőn a kiválasztott szerkezeti elem hosszát, felületét és tömegét.
 
 <!-- /wp:list -->
 
-<!-- wp:image {"align":"center","id":7838,"width":511,"height":361,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:columns -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/4-6-Dim-text-pic.png)](./img/wp-content-uploads-2021-04-4-6-Dim-text-pic.png)
+<!-- wp:column -->
+
+<!-- wp:image {"align":"center","id":33014,"width":359,"height":176,"sizeSlug":"full","linkDestination":"media"} -->
+
+[![](https://consteelsoftware.com/wp-content/uploads/2022/02/meres_info.png)](./img/wp-content-uploads-2022-02-meres_info.png)
 
 <!-- /wp:image -->
+
+<!-- /wp:column -->
+
+<!-- wp:column -->
+
+<!-- wp:image {"align":"center","id":33021,"width":348,"height":176,"sizeSlug":"full","linkDestination":"media"} -->
+
+[![](https://consteelsoftware.com/wp-content/uploads/2022/02/meres_info_pl.png)](./img/wp-content-uploads-2022-02-meres_info_pl.png)
+
+<!-- /wp:image -->
+
+<!-- /wp:column -->
+
+<!-- /wp:columns -->
