@@ -1,131 +1,128 @@
 ---
 sidebar_position: 2
 ---
-# What's new in Consteel 17?
+# A Consteel 17 újdonságai
+<!-- wp:paragraph -->
 
-The primary focus of the year was to make the program easy to use. The new functions increase usability across the software, enhancing model manipulation, modification, and information clarity in Consteel, Descript, and Steelspace.
+2023-ban elsődlegesen egy központi témakörre, a szoftver használatának megkönnyítésére összpontosítottunk. Az újdonságok között olyan praktikus funkciókat találunk, melyek a hatékony modell használatot, könnyű módosíthatóságot és világos adatszolgáltatást segítik elő mind a Consteel-ben, mind Descript-ben és felhőalapú platformunkon, a Steelspace-en is.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
 
-## **Automatic model portions**
+## **Automata részletmodellek**
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-To meet our customers' needs, we created a collection of commonly used portion categories and developed a new automatic model portion function beside the existing manual model portion feature. This new functionality automatically generates model portions by grouping members based on the following categories: cross-section, material, placement, utilization for bar members; thickness, material, and placement for plate elements. The [auto portions](https://www.consteelsoftware.com/manual/model-view/portions-manager/) are updated according to the model's status and can also be used in conjunction with manually created custom portions.
+Az ügyfeleink igényeinek kielégítése érdekében létrehoztunk egy gyűjteményt a gyakran használt részlet kategóriákból és kifejlesztettünk egy új automata részletmodell funkciót a meglévő funkció mellé. Az [automata részletmodell](https://www.consteelsoftware.com/hu/manual/modell-nezet/reszlet-kezelo/) automatikusan generál részleteket az alábbi kategóriák alapján csoportosítva: szelvényük, anyagminőségük, térbeli elhelyezkedésük és legnagyobb kihasználtságuk alapján rúdelemek, valamint vastagságuk, anyagminőségük és elhelyezkedésük alapján lemezelemek esetén. Az automata részletek mindig frissülnek a modell állapotának megfelelően és a kézi részletekkel együtt is használhatóak.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
 
-## **X Bracing members**
+## **Húzott rúd (X Brace)**
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-To address potential challenges in handling non-linear tension-only members in linear calculations, a new development has been introduced. With the latest update, users can now designate the finite element type of these members as [X Brace](https://www.consteelsoftware.com/manual/structural-modelling/line-members#Xbrace). It is intended to be used for individual members of bracing systems arranged in pairs and always one of them working in tension. This option will linearize the behaviour of such members.
+A húzott rúd elemek speciális nemlineáris viselkedése problémákat okozhat a lineáris számításokban. Ezen kihívások kezelésére bevezettünk egy új fejlesztést. A legújabb frissítéssel a felhasználó most már a [Húzott rúd](https://www.consteelsoftware.com/hu/manual/szerkezetmodellezes/rudelemek#Xbrace) (pótátlós merevítés) végeselem típust állíthat be ezeknek az elemeknek. Az így megjelölt elemek a rugalmas sajátérték számításhoz szükséges linearizálás miatt, mint húzott-nyomott elemek lesznek figyelembevéve, 50%-ra csökkentett keresztmetszeti jellemzőkkel.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
 
-## **Load transfer surface improvements**
+## **Teherátadó felületek továbbfejlesztése**
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-To enhance the automatic distribution methodology, users now have the capability to edit the properties of the generated line loads after detaching them from [surface loads](https://www.consteelsoftware.com/manual/structural-loads/load-types/#CS17-LTS). Additionally, users can control the regeneration of the line loads function according to their preferences.
+A teherátadó [felületi teher](https://www.consteelsoftware.com/hu/manual/terhek/tehertipusok/#TAF) szétosztásának javítása érdekében most már a felhasználók képesek szerkeszteni a keletkező vonalmenti terhek tulajdonságait azoknak a felületi teherről való leválasztása után. Ezenkívül a felhasználók szabályozhatják a vonalmenti terhek újragenerálását.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
 
-## **Extended and unified design results**
+## **Kiterjesztett és egyesített tervezési eredmények**
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-The visualization and presentation of design results have been reworked to better suit user preferences. Ultimate Limit State (ULS) and Serviceability Limit State (SLS) [design checks](https://www.consteelsoftware.com/manual/standard-design/steel-design#results) have been unified in terms of execution and result display. Users can now access all significant results on the Global checks tab regardless of the limit state. Additionally, all utilizations from various load combinations are saved and displayed, allowing a more detailed investigation of structural adequacy.
+A [tervezési eredmények](https://www.consteelsoftware.com/hu/manual/szabvanyos-tervezes/acelszerkezet-tervezes/#Eredmenyek) megjelenítését és kezelését módosítottuk a felhasználói igényeknek megfelelően. Összevontuk az ULS és az SLS vizsgálatok végrehajtását és az eredmények megjelenítését. Ennek megfelelően a mértékadó tervezési eredmények közvetlenül elérhetőek az összes határállapot figyelembevételével. Ezenkívül minden teherkombinációból az összes kihasználtság mentésre került és megjeleníthető, lehetővé téve a szerkezet megfelelőségének részletesebb vizsgálatát.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
 
-## **New environment for software interactions**
+## **Szoftver interakciók új környezetben**
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-Interaction capabilities between software have been achieved through the implementation of an SDK-based environment. Translation to a general format (.smadsteel) compatible with Consteel and Steelspace has been facilitated. Additionally, a [plugin for AXISVM](https://www.consteelsoftware.com/manual/converter_for_axisvm/) structural analysis has been developed. With this approach, AXISVM models can now be converted into .smadsteel format, allowing them to be opened in Consteel. The conversion process has been developed to include mechanical objects (such as supports and releases), loads, and load combinations, in addition to geometry and sectional properties. The environment also provides tools for cross-section and material conversion at various levels, along with a comprehensive import report that includes visualization of problematic objects in the model.
+A szoftverek közötti interakciók lehetőségeinek bővülése egy SDK alapú környezet bevezetésével valósult meg, melynek segítségével mind a Consteellel, mind a Steelspace-szel kompatibilis általános formátumba (.smadsteel) való konverzió vált lehetővé. Az új környezetben először az [AXISVM](https://www.consteelsoftware.com/hu/manual/axisvm-konverter-2/) szerkezeti analízis szoftverhez került kifejlesztésre egy plugin. Ezzel a megközelítéssel az AXISVM modellek most már konvertálhatók .smadsteel formátumba, lehetővé téve azok megnyitását a Consteelben. A konverzió nem csak geometriai és szelvény adatokra, hanem mechanikai objektumokra (támaszok, kényszerek stb.), terhekre és teherkombinációkra is kiterjed. A környezet továbbá lehetőséget teremt különböző szintű szelvény és anyag konverzióra, valamint az folyamat sikerességéről szóló átfogó dokumentáció elkészítésére, mely magában foglalja a problémás modellobjektumok vizualizációját is.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
 
-## **Descript language developments**
+## [**Descript**](https://www.consteelsoftware.com/hu/knowledgebase/mydescript-your-personal-scripting-environment-in-consteel/?search=) **fejlesztések**
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-As more people use our [script system](https://www.consteelsoftware.com/manual/descript-cspi/), we keep receiving new requests for different kinds of programs. To address these needs, we're adding new features and improving the language. For example, we've enhanced object creation (CREATE), manipulation (SET, FILTER), and querying (GET). Additionally, users can now create custom cold-formed cross-sections.
+Ahogy egyre nagyobb népszerűségnek örvend a szkriptnyelvünk, egyre több kérést kapunk. Ezekre a szükségletekre válaszul új funkciókat adtunk hozzá és fejlesztettük a nyelvet. Az újdonságok között vannak új parancsok, például egyedi hidegen alakított keresztmetszet létrehozása vagy objektumhivatkozási lekérdezések; valamint az objektum létrehozás, kezelés és lekérdezés kiterjesztett lehetőségei.
+
+
+## **Hatékony modellezést segítő fejlesztések (felhasználói kérések)**
+
+
+A felhasználóink kéréseire válaszul ez a verzió több fejlesztést tartalmaz, mely könnyíti a Consteel használatát:
+
+- kiválasztott elemek [elrejtése](https://www.consteelsoftware.com/hu/manual/modell-nezet/modell-nezetek/#elrejtes)
+
+- [másolás és mozgatás](https://www.consteelsoftware.com/hu/manual/altalanos-ismertetes/#oldalsav) funkció szétválasztása
+
+- [anyagminőség](https://www.consteelsoftware.com/hu/manual/szerkezetmodellezes/szelvenykezelo/) módosítása egyszerre több acélszelvényre
+
+- [rúdelemeken](https://www.consteelsoftware.com/hu/manual/altalanos-ismertetes/a-fokepernyo/#obtul) színezett kezdő és végpontok
+
+- gyors [kiválasztás](https://www.consteelsoftware.com/hu/manual/modell-nezet/kijeloles/) tulajdonság alapján duplaklikkel az objektum tulajdonság ablakban
+
+- szerkezeti elem kijelölése analízis vagy szabványos tervezési [eredmény táblázatból](https://www.consteelsoftware.com/hu/manual/szabvanyos-tervezes/acelszerkezet-tervezes/#Eredmenyek)
+
+## **Részletes modellösszehasonlítás**
+
+
+A felhasználók összehasonlíthatják a mentett mérföldköveket és modellezési fázisokat a Steelspace-ben bevezetett új funkcióval. Az összehasonlítás testre szabható a felhasználók számára releváns objektumokra és attribútumokra összpontosítva. Az összehasonlítási eredmények látványosan mutatják a paraméter különbségeket, melyek látványosan ki vannak emelve. A felhasználói felület elemei közül a kiválasztás fül és az objektumtulajdonságok megjelenítője átdolgozásra kerültek annak érdekében, hogy az összehasonlításkor a két verzióban található adatok különbségei könnyen hozzáférhetővé váljanak.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
 
-## **Improvements for efficient modelling (user requests)**
+## **Elérhető a Metszősík funkció a **[**Steelspace**](https://steelspace.io/)**-ben!**
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-In response to our customers' requests, this version incorporates several improvements to make Consteel even more user-friendly:
-
-- [hiding](https://www.consteelsoftware.com/manual/model-view/model-views#HIDE) of selected objects
-- [separation](https://www.consteelsoftware.com/manual/general-description#CopyMove) of copy and move functions
-- bulk material [modification](https://www.consteelsoftware.com/manual/structural-modelling/section-administration#Bulkmaterial) for steel cross-sections
-- [highlighted](https://www.consteelsoftware.com/manual/general-description/the-main-window#Object-properties-window) start and end points for structural members
-- quick select by property directly from the [property tree](https://www.consteelsoftware.com/manual/model-view/selection#opselection) by double-click
-- structural member selection from analysis and [design result](https://www.consteelsoftware.com/manual/model-view/selection#drselection) tables
-
-## **Detailed model comparison in Steelspace**
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-Users can compare saved milestones and stages of modelling with the new function implemented in Steelspace. The comparison can be customized by users focusing solely on relevant objects and attributes. From the comparison, users can identify parameter differences since designated objects and attributes are highlighted. Some elements of the user interface, such as the selection tab and object properties, have been redesigned to facilitate easier access.
+A jobb láthatóság érdekében bevezettük a metszősík funkciót a Steelspace-be. Ez az eszköz lehetővé teszi a felhasználók számára, hogy létrehozzanak egy metszősík objektumot, ami egy síkot képvisel, és levágja az adott nézetablakban található geometriai elemeket.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
 
-## **Clipping Plane feature in Steelspace**
+## **Továbbfejlesztett együttműködési lehetőségek**
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-For improved visibility, we've introduced the clipping plane feature in Steelspace. This tool enables users to create a clipping plane object, which selectively hides parts of geometry from view within a specific viewpoint in the model.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-
-## **Improved collaboration management**
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-With the implementation of Model Version History, our customers can now grant access, customized with different permission levels, to their models for multiple engineers or team members. Using this method, more people can save new versions into the model history of the same project, with each version now including the creator's information.
+A modell verzióelőzmények bevezetésével ügyfeleink mostantól különböző jogosultsági szintekkel testre szabott hozzáférést biztosíthatnak modelljeikhez több mérnök vagy csapattag számára. Ennek a módszernek a segítségével több ember menthet új verziókat ugyanazon projekt verzióelőzményébe, minden verzió tartalmazza a létrehozó adatait.
 
 <!-- /wp:paragraph -->
