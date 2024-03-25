@@ -1,11 +1,8 @@
 ---
-title: 'A szoftver telepítése és futtatása'
-description: ""
-published: 2022-01-24
-redirect_from: 
-            - https://www.consteelsoftware.com/hu/manual/altalanos-ismertetes/a-szoftver-telepitese-es-futtatasa/
-hero: ./img/wp-content-uploads-2022-01-honlap_menu-1024x38.png
+sidebar_position: 1
 ---
+# A szoftver telepítése és futtatása
+
 <!-- wp:consteel/content-block -->
 
 <!-- /wp:consteel/content-block -->
@@ -127,6 +124,7 @@ A Consteel szoftver telepítő csomagja elérhető a Consteel honlap _Letöltés
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":30803,"sizeSlug":"large","linkDestination":"none"} -->
+
 
 ![](./img/wp-content-uploads-2022-01-honlap_menu-1024x38.png)
 

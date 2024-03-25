@@ -1,11 +1,9 @@
 ---
-title: 'Táblázatok általános funkciói'
-description: ""
-published: 2022-02-07
-redirect_from: 
-            - https://www.consteelsoftware.com/hu/manual/altalanos-ismertetes/tablazatok-altalanos-funkcioi/
-hero: ./img/wp-content-uploads-2022-01-tablazat_tobbes_kivalasztas.png
+sidebar_position: 4
+
 ---
+# Táblázatok általános funkciói
+
 <!-- wp:paragraph -->
 
 A _Consteel_-ben kétféle táblázattípus található: az adatbeviteli és az eredmény táblázat. A táblázatok általában nagy mennyiségű adatokat tartalmaznak. Ezen adatok kezelésének kényelmesebbé tételét a következő funkciók segítik.

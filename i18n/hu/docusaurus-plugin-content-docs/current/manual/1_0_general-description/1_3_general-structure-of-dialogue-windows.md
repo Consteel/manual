@@ -1,11 +1,8 @@
 ---
-title: 'Ablakok általános felépítése'
-description: ""
-published: 2022-02-07
-redirect_from: 
-            - https://www.consteelsoftware.com/hu/manual/altalanos-ismertetes/ablakok-altalanos-felepitese/
-hero: ./img/wp-content-uploads-2022-01-ablak_felepites.png
+sidebar_position: 3
 ---
+# Ablakok általános felépítése
+
 <!-- wp:paragraph -->
 
 A funkciók és eszközök közötti könnyebb eligazodás érdekében, a legtöbb párbeszédablaknak – különösen a legfontosabb _**Szerkezeti elemek**_ és _**Terhek**_ fül funkciói esetén – megegyezik a szerkezete. Ezen ablakok általános részei a következőek:
