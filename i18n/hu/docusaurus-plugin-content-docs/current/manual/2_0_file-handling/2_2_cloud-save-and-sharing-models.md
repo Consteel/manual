@@ -17,7 +17,7 @@ A modellek felhőtárhelyre történő mentése, onnan való megnyitása és meg
 
 <!-- wp:paragraph -->
 
-A felhőbe mentett modellek folyamatosan szinkronizált példánya a számítógép _C:\\Users{felhasználónév}\\AppData\\Local\\ConSteel\\CloudModels_ mappájában találhatók. A modellszinkronizálás a felhasználó előfizetési csomagjában meghatározott havi adatmennyiség-korlát terhére történik. A modellszinkronizálás az első felhőmentés, modellmegosztás vagy a modell bezárása során történik, az összes többi művelet a modellt csak a helyi mappába menti, az adatforgalom csökkentése érdekében. Szinkronizálási probléma esetén( amikor a helyi és a felhőben tárolt modell nem azonos, és nem egyértelmű, hogy melyik a megfelelő), a felhasználó választhatja ki, hogy melyik modellverzióval szeretné folytatni.
+A felhőbe mentett modellek folyamatosan szinkronizált példánya a számítógép _C:\Users\\AppData\\Local\\ConSteel\\CloudModels_ mappájában találhatók. A modellszinkronizálás a felhasználó előfizetési csomagjában meghatározott havi adatmennyiség-korlát terhére történik. A modellszinkronizálás az első felhőmentés, modellmegosztás vagy a modell bezárása során történik, az összes többi művelet a modellt csak a helyi mappába menti, az adatforgalom csökkentése érdekében. Szinkronizálási probléma esetén( amikor a helyi és a felhőben tárolt modell nem azonos, és nem egyértelmű, hogy melyik a megfelelő), a felhasználó választhatja ki, hogy melyik modellverzióval szeretné folytatni.
 
 <!-- /wp:paragraph -->
 
