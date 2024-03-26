@@ -1,183 +1,187 @@
 ---
 sidebar_position: 1
 ---
-# Load cases and load groups
+# Teheresetek és tehercsoportok
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-2-Loadcase.png)](./img/wp-content-uploads-2021-04-7-2-Loadcase.png)
+<!-- wp:image {"align":"left","id":35694,"width":229,"height":50,"sizeSlug":"full","linkDestination":"media"} -->
 
-<!-- /wp:image -->
-
-<!-- wp:image {"align":"right","id":22807,"width":375,"height":412,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/dial_LG_Var.png)](./img/wp-content-uploads-2021-04-dial_LG_Var.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/05/tab_terhek_teheresetek.png)](./img/wp-content-uploads-2022-05-tab_terhek_teheresetek.png)
 
 <!-- /wp:image -->
 
-<!-- wp:paragraph {"align":"justify"} -->
+<!-- wp:spacer {"height":"10px"} -->
 
-Before placing any loads in the model, load cases and load groups must be defined. As a default, one load group and one load case have been defined in ConSteel for quick calculations. Clicking on the **Create load cases and load groups** command (![](./img/wp-content-uploads-2021-04-cmd_loadgroups.png)) on the Loads tab the Load cases and load groups dialogue window appears.
+<!-- /wp:spacer -->
 
-<!-- /wp:paragraph -->
+<!-- wp:image {"align":"right","id":35702,"width":360,"height":390,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-<!-- wp:paragraph -->
-
-The created load groups and load cases are listed on the left side of the dialogue. The right side is divided into two parts: the top part is for creating load groups and the bottom part is for creating load cases.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-In a load group, several load cases can be defined. Properly specified load groups are needed to automatically generate load combinations.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"align":"justify"} -->
-
-There are 9 different load group types in _Consteel_: Permanent, Variable, Meteorological, Wind, Snow, Crane, Accidental, Accidental snow, Fire, Seismic.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-
-### Create new load group
-
-<!-- /wp:heading -->
-
-<!-- wp:image {"align":"right","id":19569,"width":260,"height":207,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-2-Load-cases-and-load-groups-e1626273431984.png)](./img/wp-content-uploads-2021-04-7-2-Load-cases-and-load-groups-e1626273431984.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-By clicking on the **New load group** button, the list of available load group types will appear. The list depends on the chosen _[design standard](/manual/how-to-open-consteel/the-main-window/#Standards-menu)_. Selecting one of the names, the new load group is created.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-The name of the load group will be automatically given according to the type. It can be changed on the top of the dialog.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"align":"justify"} -->
-
-For each load group, safety factors are taken from the actually chosen standard. This value cannot be changed in this dialog. If you want to specify different safety factors, create a user-defined design standard in the _[dialog of design standards](/manual/how-to-open-consteel/the-main-window/#Standards-menu)_.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"right","id":9934,"width":276,"height":194,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-2-Multipliers-of-representative-values.png)](./img/wp-content-uploads-2021-04-7-2-Multipliers-of-representative-values.png)
-
-<!-- /wp:image -->
-
-<!-- wp:image {"align":"right","id":22816,"width":215,"height":172,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/dial_LG_Var_LG.png)](./img/wp-content-uploads-2021-04-dial_LG_Var_LG.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_teher-csoportok.png)](./img/wp-content-uploads-2022-05-dial_teher-csoportok.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-For variable type load groups (Variable, Meteorological, Crane) combination factors must be given as well. The combination factors can be edited manually or can be selected by clicking on the **Standard values of factors **dialog button. On the dialog that opens, typical cases can be selected which are provided by the Eurocode and the Spanish EAE standard. Factor values are dependent on the selected NA. The desired values can be selected with the checkbox at the beginning of the line.
+Teherelhelyezés előtt létre kell hozni a tehereseteket és tehercsoportokat a **_Terhek _**fülön található **_Teheresetek és tehercsoportok megadása_** (![](./img/wp-content-uploads-2021-04-cmd_loadgroups.png)) funkció segítségével. Minden új modell megnyitásakor alapértelmezetten létrejön egy tehercsoport és egy tehereset.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":3} -->
+<!-- wp:image {"align":"right","id":35772,"width":88,"height":165,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-### Creating new load case
-
-<!-- /wp:heading -->
-
-<!-- wp:image {"align":"right","id":22823,"width":214,"height":160,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/07/dial_LG_create-_LC.png)](./img/wp-content-uploads-2021-07-dial_LG_create-_LC.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/05/terhek_tehercsoport_tipusok.png)](./img/wp-content-uploads-2022-05-terhek_tehercsoport_tipusok.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-New load cases can be created by clicking on the** New load case** button on the bottom right panel of the dialog. There are three edit boxes on the top of this panel that are common for all load group types:
+Egy tehercsoport több teheresetet tartalmazhat. A teherkombinációk automatikus generálásához megfelelően létrehozott tehercsoportok szükségesek!
 
 <!-- /wp:paragraph -->
-
-<!-- wp:list {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-- Name: name of the load case
-- Load group: the load group to which the load case belongs can be changed here. By changing the load group, the load case will be moved also in the tree of load cases.
-- Color: the color with which the load case is represented in the model can be changed here.
-
-<!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
-For other options see below.
+9 különböző tehercsoport található a _Consteel_-ban: Állandó, Esetleges, Meteorológiai, Szél, Hó, Daru, Rendkívüli, Rendkívüli hó és Szeizmikus.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"right","id":22869,"width":307,"height":47,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:paragraph -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/07/image-2.png)](./img/wp-content-uploads-2021-07-image-2.png)
+A létrehozott tehercsoportok és teheresetek a párbeszédpanel bal oldalán találhatók. A jobb oldal két részre van osztva: a felső rész a tehercsoportok létrehozására, az alsó rész pedig a teheresetek létrehozására szolgál.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:spacer {"height":"10px"} -->
+
+<!-- /wp:spacer -->
+
+<!-- wp:image {"align":"right","id":35780,"width":337,"height":281,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_kombinacios_tenyezok.png)](./img/wp-content-uploads-2022-05-dial_kombinacios_tenyezok.png)
 
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
 
-### Self weight
+### Új tehercsoport létrehozása
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-_ConSteel_ can add the structure’s self-weight to one of the load cases if necessary. To do so, please select the appropriate load case at the bottom right corner of the dialog.
+Az **_Új \_\_tehercsoport _**gomb megnyomásával láthatóvá válnak a szabványos tehercsoportok. A lista a választott [tervezési szabványtól](/manual/altalanos-ismertetes/a-fokepernyo/#Standards-menu) függ. A tehercsoport kiválasztásával létrehozható az új csoport.
 
 <!-- /wp:paragraph -->
 
+<!-- wp:paragraph -->
+
+A tehercsoport automatikusan kap egy, a típusának megfelelő nevet, ami ezután a párbeszédpanel felső részén módosítható.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"justify"} -->
+
+A biztonsági tényezők minden tehercsoportnál a kiválasztott szabványnak megfelelőek, és itt nem változtathatók meg. Ha eltérő biztonsági tényezőket szeretne megadni, akkor létre kell hoznia egy felhasználói tervezési szabványt a _[tervezési szabványok párbeszédpanelen](/manual/altalanos-ismertetes/a-fokepernyo/#Standards-menu)_.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"right","id":35788,"width":310,"height":254,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_csoport.png)](./img/wp-content-uploads-2022-05-dial_teher_csoport.png)
+
+<!-- /wp:image -->
+
+<!-- wp:paragraph {"align":"justify"} -->
+
+Az esetleges tehercsoportok (esetleges, meteorológiai, daru) esetében a kombinációs tényezőket is meg kell adni. A kombinációs tényezők megadhatók manuálisan, vagy kiválaszthatók a **_Tényezők szabványos értékei_** gombra kattintva. A megjelenő párbeszédablakban az Eurocode és a spanyol EAE szabvány által megadott tipikus esetek választhatók ki. A tényezők értékei a kiválasztott Nemzeti melléklettől függenek. A kívánt értékek a sor elején található jelölőnégyzettel választhatók ki.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:spacer {"height":"1px"} -->
+
+<!-- /wp:spacer -->
+
+<!-- wp:image {"align":"right","id":35796,"width":315,"height":293,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_eset.png)](./img/wp-content-uploads-2022-05-dial_teher_eset.png)
+
+<!-- /wp:image -->
+
 <!-- wp:heading {"level":3} -->
 
-### Options for controlling the automatic combination generation
+### Új tehereset létrehozása
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-The automatic combination generation (see _**[Load combinations](/manual/structural-loads/load-combination/)**_ chapter) works according to the rules of the chosen design standard and the settings of the load groups and load cases. These settings affect the values of the combination factors. To have appropriate load combinations, the controllers for each load case have to be set correctly. These options are as follows:
+Új tehereseteket a párbeszédpanel jobb alsó részén található **Új tehereset** gombra kattintva lehet létrehozni. A panel tetején három szerkesztőmező található, amelyek minden tehereset-típusnál közösek:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 
-- "_The load case can be applied along with each other_" - only for \_Variable \_and \_Meteorological \_load group types and applies uniformly to all load cases in the load group.
-
-  - unchecked (default) - load cases in this load group will be included in the combinations only separated.
-  - checked - load cases in this load group may be included in the combinations at the same time.
-
-- "_The action can be favorable in the combination_" - for all load group types except accidental ones. It can be specified per load case.
-
-  - unchecked (default)
-
-    - permanent load group - only the unfavorable safety factor will be used
-    - variable load group - default safety factor for the load group type will be used
-
-  - checked
-
-    - permanent load group - favorable and unfavorable safety factor will be used as well
-    - variable load group - safety factor may be zero in the combination
-
-- "_Can't be the main in permanent and variable combination_"
-
-  - unchecked (default) - the load case can be the leading action in permanent and transient design situations
-  - checked - the load case can only be accompanying action in permanent and transient design situations
-
-- "_Can't be the main in accidental combination_"
-
-  - uncheked (default) - the load case can be the leading action in accidental design situations
-  - checked - the load case can only be accompanying action in accidental design situations
+- Név: a tehereset neve
+- Tehercsoport: meg lehet változtatni a tehereset tehercsoportját. Egyúttal a teheresetek fáján is a megfelelő csoportba kerül át a tehereset.
+- Szín: meg lehet változtatni azt a színt, amellyel a tehereset a modellben megjelenik.
 
 <!-- /wp:list -->
 
-<!-- wp:paragraph {"align":"justify"} -->
+<!-- wp:paragraph -->
+
+Egyéb lehetőségeket lásd alább.
 
 <!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+
+### Önsúly
+
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+
+A \_Consteel \_szükség esetén hozzáadhatja a szerkezet önsúlyát az egyik teheresethez. Ehhez válassza ki a megfelelő terhelési esetet a párbeszédpanel jobb alsó sarkában.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+
+### Az automatikus kombinációgenerálás beállítási lehetőségei
+
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+
+Az automatikus kombinációgenerálás (lásd a **_[Teherkombinációk](/manual/terhek/teherkombinaciok/)_** fejezetet) a kiválasztott tervezési szabvány szabályai, valamint a tehercsoportok és teheresetek beállításai szerint működik, melyek befolyásolják a kombinációs tényezők értékeit. A megfelelő kombinációkhoz az egyes teheresetekhez tartozó szabályozókat helyesen kell beállítani. Ezek a beállítások a következők:
+
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+
+- "_A teheresetek egymással egyidejűleg is szerepelhetnek_" - csak az esetleges és a meteorológiai tehercsoport-típusok esetében jelenik meg, és egységesen vonatkozik a tehercsoport összes teheresetére.
+
+  - nincs bejelölve (alapértelmezés) - ebből a tehercsoportból csak egy tehereset szerepelhet bármely kombinációban.
+  - bejelölve - egy kombinációban ennek a tehercsoportnak akár több teheresete is szerepelhet.
+
+- "_A terhek hatása kedvező is lehet egy kombinációban_" - a rendkívüli tehercsoportok kivételével bármely teheresethez megadható.
+
+  - nincs bejelölve (alapértelmezés)
+
+    - állandó tehereset - csak a kedvezőtlen biztonsági tényező lesz alkalmazva
+    - esetleges tehereset - az alapértelmezett biztonsági tényező lesz alkalmazva
+
+  - bejelölve
+
+    - állandó tehereset - kedvező és kedvezőtlen biztonsági tényezők egyaránt alkalmazva lesznek.
+    - esetleges tehereset - a biztonsági tényező nulla is lehet a kombinációkban
+
+- "_Nem lehet kiemelt tartós és ideiglenes kombinációban_"
+
+  - nincs bejelölve (alapértelmezés) - a tehereset lehet kiemelt hatás tartós és ideiglenes tervezési kombinációkban is
+  - bejelölve - a tehereset sosem lehet kiemelt hatás tartós és ideiglenes kombinációban
+
+- "_Nem lehet kiemelt rendkívüli kombinációkban_"
+
+  - nincs bejelölve (alapértelmezés) - a tehereset lehet kiemelt hatás rendkívüli kombinációkban
+  - bejelölve - a tehereset sosem lehet kiemelt hatás rendkívüli kombinációkban
+
+<!-- /wp:list -->

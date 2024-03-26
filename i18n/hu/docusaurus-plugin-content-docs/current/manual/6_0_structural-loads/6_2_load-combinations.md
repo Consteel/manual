@@ -1,255 +1,167 @@
 ---
 sidebar_position: 2
 ---
-# Load combinations
+# Teherkombinációk
 
-### **Limit states**
 
-<!-- /wp:heading -->
+### Határállapotok
 
-<!-- wp:paragraph -->
 
 **Consteel 16**
 
+
+Az EN 1990 szabvány alapján a szerkezeteket teherbírási (ULS), vagy használhatósági határállapotban (SLS) kell ellenőrizni. Ezek a határállapotok különböző tervezési állapotokhoz kapcsolódnak.
+
+
+Teherbírási határállapotok:
+- EQU (alapozás helyzeti állékonyságának elvesztése)
+
+- STR (tartószerkezetek ellenőrzése)
+
+- GEO (geotechnikai tervezéshez), stb.
+
+
+Használhatósági határállapotok:
+
+- karakterisztikus
+
+- gyakori
+
+- kvázi állandó
+
+
+Tervezési állapotok:
+
+- tartós és ideiglenes (P/T)
+
+- rendkívüli (Acc)
+
+- szeizmikus
+
+
+A Consteelben bevezetett határállapotok az Eurocode-ban meghatározott határállapotok és tervezési állapotok kombinációi.
+
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
+<!-- wp:image {"align":"center","id":50981,"width":512,"height":262,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-According to EN 1990, structural verifications should be executed in either ultimate (ULS) or serviceability limit states (SLS). Limit states shall be related to design situations.
+[![Határállapot koncepció](https://www.consteelsoftware.com/wp-content/uploads/2023/07/Hatarallapot-koncepcio-1024x523.png)](./img/wp-content-uploads-2023-07-Hatarallapot-koncepcio-1024x523.png)
 
-<!-- /wp:paragraph -->
+Határállapot koncepció
 
-<!-- wp:paragraph -->
-
-Ultimate limit states: EQU (for loss of equilibrium of the foundation), STR (for structural design), GEO (for geotechnical design), etc.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-Serviceability limit states: characteristic, frequent, quasi-permanent
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-Design situations: persistent and transient (P/T), accidental (Acc), seismic
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-Limit states introduced in Consteel are combination of limit states and design situations defined in the Eurocode.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":43868,"width":669,"height":326,"sizeSlug":"full","linkDestination":"none","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-![](./img/wp-content-uploads-2022-12-image-1.png)
-
-<!-- /wp:image -->
-
-<!-- wp:columns -->
-
-<!-- wp:column {"width":"100%"} -->
-
-<!-- wp:group {"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-<!-- wp:group {"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
 - ULS STR P/T
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
+
 - ULS GEO P/T
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- ULS STR/GEO P/T (this is a combined limit state for cases when STR and GEO combinations would be the same)
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
+
+- ULS STR/GEO P/T (ez egy kombinált határállapot olyan esetekre, amikor az STR és GEO kombinációk azonosak lennének.)
+
 - ULS EQU P/T
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
+
 - ULS Acc
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
+
 - ULS Seismic
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
+
 - ULS Other
 - <!-- /wp:list-item -->
 
 <!-- /wp:list -->
 
-<!-- /wp:group -->
-
-<!-- /wp:group -->
-
-<!-- /wp:column -->
-
-<!-- /wp:columns -->
-
 <!-- wp:list -->
 
-- <!-- wp:list-item -->
 - SLS Char
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
+
 - SLS Freq
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
+
 - SLS Q-p
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
+
 - SLS Seismic
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
+
 - SLS Other
-- <!-- /wp:list-item -->
 
-<!-- /wp:list -->
 
-<!-- wp:paragraph -->
+A nem szigorúan az Eurocode hatálya alá tartozó esetek számára, és a korábbi verziók fájljainak problémamentes átvétele érdekében az ULS és SLS határállapotok esetében is rendelkezésre áll egy "Egyéb" elnevezésű határállapot is.
 
-In order to cover cases not strictly under EC scope, and make sure of smooth transition of old files, there is an ‘Other’ limit state for ULS and SLS too.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-When opening models saved in previous Consteel versions, the limit states will be converted as follows:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
+A korábbi Consteel verziókban mentett modellek megnyitásakor a határállapotok az alábbiak szerint módosulnak:
 - ULS -> ULS Other
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
+
 - SLS -> SLS Other
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- ULS EQ (Seismic generated) -> ULS Seismic
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- SLS EQ (Seismic generated) -> SLS Seismic
-- <!-- /wp:list-item -->
 
-<!-- /wp:list -->
+- ULS EQ (generált szeizmikus) -> ULS Seismic
 
-<!-- wp:paragraph -->
+- SLS EQ (generált szeizmikus) -> SLS Seismic
 
-For manually defined load combinations, the limit states can be selected. Seismic combinations can not be defined manually, they can be created only by automatic generation. Load combinations in ULS GEO P/T and ULS EQU P/T limit states are used only for foundation design. Consequently, global design checks will not be performed in these limit states and analysis results are not transferred for connection design (except for spread footing).
 
-<!-- /wp:paragraph -->
+A manuálisan létrehozott teherkombinációkhoz kézzel kell valamely határállapotot hozzárendelni. Szeizmikus kombinációkat nem lehet manuálisan létrehozni, azok csak automatikus generálás útján jöhetnek létre. Az ULS GEO P/T és ULS EQU P/T határállapotokban szereplő teherkombinációk csak alapozás tervezéshez használhatók. Következésképpen ezekben a határállapotokban a globális méretezési vizsgálatok nem kerülnek elvégzésre, és az analízis eredményei nem adódnak át a csomóponttervezéshez (kivéve a pontalap csomópontot).
 
-<!-- wp:heading {"level":3,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+## Teherkombinációk
 
-### **Load combinations**
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 **Consteel 16**
+
+
+A kiválasztott _[tervezési szabványnak](/manual/altalanos-ismertetes/a-fokepernyo/#Standards-menu)_ megfelelően a teherkombinációk (TK) a [teheresetekből ](/manual/terhek/teheresetek-es-tehercsoportok/)állíthatók elő. A teherkombinációk (![](./img/wp-content-uploads-2021-04-cmd_loadcombi-1.png)) létrehozhatók manuálisan, a biztonsági és kombinációs tényezők teheresetenkénti megadásával, vagy a _Consteel_ **Teherkombinációk automatikus létrehozása** (![](./img/wp-content-uploads-2021-04-cmd_LCC_auto.png)) funkciójának segítségével.
+
+
+A teherkombinációkat a teherkombinációk táblázatában lehet kezelni, amelyet a Terhek fülön a Teherkombináció (![](./img/wp-content-uploads-2021-04-cmd_loadcombi-1.png)) parancsra kattintva lehet megnyitni.
+
+
+[![Teherkombinációk táblázata v16](https://www.consteelsoftware.com/wp-content/uploads/2023/07/Teherkombi_tablazat-1024x575.png)](./img/wp-content-uploads-2023-07-Teherkombi_tablazat-1024x575.png)
+
+Teherkombinációk táblázata
+
+
+Az ablak tetején a kombinációk létrehozására és módosítására szolgáló parancsikonok találhatók. A parancsok alatt található maga a táblázat. Az első oszlop a teherkombináció neve. A név egy alapértelmezett névből és egy növekvő sorszámból épül fel. A név csak egyesével módosítható.
+
+
+A második oszlop határozza meg, hogy a teherkombináció melyik határállapothoz tartozik. Fontos a határállapot helyes beállítása, mivel a tervezési ellenőrzések csak a teherbírási (ULS) kombinációkra, míg a használhatósági vizsgálatok csak a használhatósági (SLS) kombinációkra kerülnek végrehajtásra.
+
+
+A további oszlopokban az egyes teheresetekre vonatkozó kombinációs tényezők szerepelnek. Egyszerre több tényező szerkesztése is lehetséges: ehhez válaszd ki a kívánt tényezőket, kattints rájuk a jobb egérgombbal, majd add meg a kívánt értéket a felugró ablakban. Több cella kijelölése történhet a **Ctrl** vagy **Shift** gombok használatával, vagy az egér bal gombjának lenyomva tartásával és a kurzornak a cellák fölött történő mozgatásával. A cellák tartalma másolható és beilleszthető is a **Ctrl+C** / **Ctrl+V** billentyűkombinációkkal. A cellák tartalma az MS Excel vagy más táblázatkezelő alkalmazásokba/-ból is másolható.
+
+
+A teherkombináció táblázat sárga sorai az automatikusan generált kombinációk. A fehér sorok a kézzel létrehozott vagy kézzel szerkesztett kombinációk.
+
+
+![](./img/wp-content-uploads-2021-04-cmd_LCC_new.png) **Új teherkombináció létrehozása** - új sort hoz létre a teherkombinációk táblázatában. A kombinációs tényezőket kézzel kell kitölteni.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+![](./img/wp-content-uploads-2021-04-cmd_LCC_copy.png) **Teherkombináció másolása**- Másolatot készít a korábban kijelölt sorokról. Az új teherkombinációk sorszámokat és fehér hátteret kapnak.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+![](./img/wp-content-uploads-2021-04-cmd_LCC_del.png) **Teherkombináció** törlése- Törli a korábban kijelölt sorokat.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+![](./img/wp-content-uploads-2021-04-cmd_LCC_renum.png) **Teherkombináci** ók újraszámozása - A táblázat összes teherkombinációjának nevét az eredetire változtatja.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"right","id":50990,"width":512,"height":389,"sizeSlug":"large","linkDestination":"media"} -->
+
+[![Teherkombinációk automatikus generálása_v16](https://www.consteelsoftware.com/wp-content/uploads/2023/07/Teherkombi_automata_generalas-1024x777.png)](./img/wp-content-uploads-2023-07-Teherkombi_automata_generalas-1024x777.png)
+
+Teherkombinációk automatikus létrehozása
+
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+
+![](./img/wp-content-uploads-2021-04-cmd_LCC_new.png) **Teherkombináci**ók automatikus létrehozása - a tervezési szabványnak és a _[tehercsoportok és teheresetek beállításainak](/manual/terhek/teheresetek-es-tehercsoportok/#LCC-options)_ megfelelően. Megjelenik egy új ablak, ahol a kívánt kombinációs képletet ki lehet választani. Az ULS és SLS kombinációk két külön fülön helyezkednek el. A kívánt képlet szerinti kombinációk létrehozásához jelölje be az előtte lévő jelölőnégyzetet. A kombinálandó teheresetek a jobb oldali fa struktúrából választhatók ki. Végül, a kombinációk létrehozásához nyomja meg az **Alkalmaz** gombot.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-According to the actual _[structural design code](/manual/how-to-open-consteel/the-main-window/#Standards-menu)_, load case combinations must be created from the _[load cases](/manual/structural-loads/load-cases-and-load-groups/)_. Load combinations can be created manually by defining the combination factors manually for each load case or can be created automatically by using the **Automatic load combination generation** function of _ConSteel_.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-The load combinations can be managed in the table of load combinations which can be opened by clicking on the **Load combination** (![](./img/wp-content-uploads-2021-04-cmd_loadcombi-1.png)) command on the Loads tab.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"right","id":43854,"sizeSlug":"full","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2022/12/Kep1.png)](./img/wp-content-uploads-2022-12-Kep1.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-At the top of the window there are commands for creating and modifying combinations. Below the commands, the table itself can be found. The first column is the name of the load combination. The name is built up from a default name and an ascending sequence number. This can be changed only one-by-one.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-The second column defines in which limit state the load combination is working. Design checks are performed only on ultimate limit state (_ULS_) load combinations, while serviceability checks are only performed on serviceability (_SLS_) combinations.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-In the further columns, there are the combination factors for each load case. It is possible to edit multiple safety factors at the same time: select safety factors and right-click over them, then enter the desired value in the pop-up window. Multiple cells can be selected using Ctrl or Shift buttons or holding down the left mouse button and moving the cursor over the cells. Cell contents can also be copied and pasted. On the table, select the cells that you want to copy and press **Ctrl+C**. Select the upper-left cell of the paste area and press **Ctrl+V**. Cell contents can be copied from MS Excel and other spreadsheet applications also.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-The yellow rows in the load combination table are the automatically generated combinations. The white ones are the ones created or edited manually.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-![](./img/wp-content-uploads-2021-04-cmd_LCC_new.png) **Create new load combination** - creates a new line in the table of load combinations. The combination factors have to be filled in manually.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-![](./img/wp-content-uploads-2021-04-cmd_LCC_copy.png) **Copy load combination** - Creates a copy of the previously selected rows. The new load combinations will have sequence numbers and white background.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-![](./img/wp-content-uploads-2021-04-cmd_LCC_del.png) **Delete load combination** - Deletes the previously selected rows.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-![](./img/wp-content-uploads-2021-04-cmd_LCC_renum.png) **Renumber load combination** - Change the names of all load combinations in the table to the original.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-![](./img/wp-content-uploads-2021-04-cmd_LCC_new.png)**Automatic generation of load combination** - according to the design standard and the _[settings of load groups and load cases](/manual/structural-loads/load-cases-and-load-groups/#LCC-options)_. A new window will appear where the desired combination creating formulas can be selected. The ULS and SLS combinations are placed on two separate tabs. To create combinations according to the desired formula, select the checkbox before it. The load cases to be combined can be selected from the tree structure on the right. Press **Apply **to create the combinations.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":43861,"sizeSlug":"full","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2022/12/Kep2.png)](./img/wp-content-uploads-2022-12-Kep2.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
+A teherkombinációk generálása után a számítási idő minimalizálása érdekében lehetőség van a nem releváns sorok törlésére is.
 
 <!-- /wp:paragraph -->
 
@@ -259,804 +171,726 @@ The yellow rows in the load combination table are the automatically generated co
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"align":"justify"} -->
+<!-- wp:paragraph -->
 
-According to the actual _[structural design code](/manual/how-to-open-consteel/the-main-window/#Standards-menu)_, load case combinations must be created from the _[load cases](/manual/structural-loads/load-cases-and-load-groups/)_. Load combinations can be created manually by defining the combination factors manually for each load case or can be created automatically by using the **Automatic load combination generation** function of _ConSteel_.
+A kiválasztott _[tervezési szabványnak](/manual/altalanos-ismertetes/a-fokepernyo/#Standards-menu)_ megfelelően a teherkombinációk (TK) a [teheresetekből ](/manual/terhek/teheresetek-es-tehercsoportok/)állíthatók elő. A teherkombinációk (![](./img/wp-content-uploads-2021-04-cmd_loadcombi-1.png)) létrehozhatók manuálisan, a biztonsági és kombinációs tényezők teheresetenkénti megadásával, vagy a _Consteel_ **Teherkombinációk automatikus létrehozása** (![](./img/wp-content-uploads-2021-04-cmd_LCC_auto.png)) funkciójának segítségével.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The load combinations can be managed in the table of load combinations which can be opened by clicking on the **Load combination** (![](./img/wp-content-uploads-2021-04-cmd_loadcombi-1.png)) command on the Loads tab.
+A teherkombinációkat a teherkombinációk táblázatában lehet kezelni, amelyet a Terhek fülön a Teherkombináció (![](./img/wp-content-uploads-2021-04-cmd_loadcombi-1.png)) parancsra kattintva lehet megnyitni.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"right","id":9943,"width":510,"height":320,"sizeSlug":"full","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+<!-- wp:image {"align":"right","id":35820,"width":512,"height":295,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-3-Load-combinations.png)](./img/wp-content-uploads-2021-04-7-3-Load-combinations.png)
+[![](./img/wp-content-uploads-2022-05-dial_teherkombinaciok-1024x589.png)](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_teherkombinaciok.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-At the top of the window there are commands for creating and modifying combinations. Below the commands, the table itself can be found. The first column is the name of the load combination. The name is built up from a default name and an ascending sequence number. This can be changed only one-by-one.
+Az ablak tetején a kombinációk létrehozására és módosítására szolgáló parancsikonok találhatók. A parancsok alatt található maga a táblázat. Az első oszlop a teherkombináció neve. A név egy alapértelmezett névből és egy növekvő sorszámból épül fel. A név csak egyesével módosítható.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The second column defines in which limit state the load combination is working. It is important to set the limit state correctly because design checks are performed only on ultimate limit state (_ULS_) load combinations, while serviceability checks are only performed on serviceability (_SLS_) combinations.
+A második oszlop határozza meg, hogy a teherkombináció melyik határállapothoz tartozik. Fontos a határállapot helyes beállítása, mivel a tervezési ellenőrzések csak a teherbírási (ULS) kombinációkra, míg a használhatósági vizsgálatok csak a használhatósági (SLS) kombinációkra kerülnek végrehajtásra.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-In the further columns, there are the combination factors for each load case. It is possible to edit multiple safety factors at the same time: select safety factors and right-click over them, then enter the desired value in the pop-up window. Multiple cells can be selected using Ctrl or Shift buttons or holding down the left mouse button and moving the cursor over the cells. Cell contents can also be copied and pasted. On the table, select the cells that you want to copy and press **Ctrl+C**. Select the upper-left cell of the paste area and press **Ctrl+V**. Cell contents can be copied from MS Excel and other spreadsheet applications also.
+A további oszlopokban az egyes teheresetekre vonatkozó kombinációs tényezők szerepelnek. Egyszerre több tényező szerkesztése is lehetséges: ehhez válaszd ki a kívánt tényezőket, kattints rájuk a jobb egérgombbal, majd add meg a kívánt értéket a felugró ablakban. Több cella kijelölése történhet a **Ctrl **vagy **Shift** gombok használatával, vagy az egér bal gombjának lenyomva tartásával és a kurzornak a cellák fölött történő mozgatásával. A cellák tartalma másolható és beilleszthető is a **Ctrl+C** / **Ctrl+V** billentyűkombinációkkal. A cellák tartalma az MS Excel vagy más táblázatkezelő alkalmazásokba/-ból is másolható.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The yellow rows in the load combination table are the automatically generated combinations. The white ones are the ones created or edited manually.
+A teherkombináció táblázat sárga sorai az automatikusan generált kombinációk. A fehér sorok a kézzel létrehozott vagy kézzel szerkesztett kombinációk.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2021-04-cmd_LCC_new.png) **Create new load combination** - creates a new line in the table of load combinations. The combination factors have to be filled in manually.
+![](./img/wp-content-uploads-2021-04-cmd_LCC_new.png) **Új teherkombináció létrehozása** - új sort hoz létre a teherkombinációk táblázatában. A kombinációs tényezőket kézzel kell kitölteni.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2021-04-cmd_LCC_copy.png) **Copy load combination** - Creates a copy of the previously selected rows. The new load combinations will have sequence numbers and white background.
+![](./img/wp-content-uploads-2021-04-cmd_LCC_copy.png) **Teherkombináció másolása** - Másolatot készít a korábban kijelölt sorokról. Az új teherkombinációk sorszámokat és fehér hátteret kapnak.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2021-04-cmd_LCC_del.png) **Delete load combination** - Deletes the previously selected rows.
+![](./img/wp-content-uploads-2021-04-cmd_LCC_del.png) **Teherkombináció** törlése - Törli a korábban kijelölt sorokat.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2021-04-cmd_LCC_renum.png) **Renumber load combination** - Change the names of all load combinations in the table to the original.
+![](./img/wp-content-uploads-2021-04-cmd_LCC_renum.png) **Teherkombináci**ók újraszámozása - A táblázat összes teherkombinációjának nevét az eredetire változtatja.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"right","id":9950,"width":432,"height":326,"sizeSlug":"full","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+<!-- wp:image {"align":"right","id":35828,"width":512,"height":389,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-3-Automatic-generation-of-load-combinations.png)](./img/wp-content-uploads-2021-04-7-3-Automatic-generation-of-load-combinations.png)
+[![](./img/wp-content-uploads-2022-05-dial_teher_kombinacio_automatikus-1024x777.png)](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_kombinacio_automatikus.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2021-04-cmd_LCC_new.png)**Automatic generation of load combination** - according to the design standard and the _[settings of load groups and load cases](/manual/structural-loads/load-cases-and-load-groups/#LCC-options)_. A new window will appear where the desired combination creating formulas can be selected. The ULS and SLS combinations are placed on two separate tabs. To create combinations according to the desired formula, select the checkbox before it. The load cases to be combined can be selected from the tree structure on the right. Press **Apply **to create the combinations.
+![](./img/wp-content-uploads-2021-04-cmd_LCC_new.png) **Teherkombináci**ók automatikus létrehozása - a tervezési szabványnak és a _[tehercsoportok és teheresetek beállításainak](/manual/terhek/teheresetek-es-tehercsoportok/#LCC-options)_ megfelelően. Megjelenik egy új ablak, ahol a kívánt kombinációs képletet ki lehet választani. Az ULS és SLS kombinációk két külön fülön helyezkednek el. A kívánt képlet szerinti kombinációk létrehozásához jelölje be az előtte lévő jelölőnégyzetet. A kombinálandó teheresetek a jobb oldali fa struktúrából választhatók ki. Végül, a kombinációk létrehozásához nyomja meg az **Alkalmaz** gombot.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-A huge number of load combinations needs a long period of time to be calculated in the analysis. So it is good to keep the number of the load combinations to the minimum. If the automatic load combination feature is used, it is advisable to filter the unnecessary load cases before the generation. A ticked checkbox means, that the load case will be used for the load combination generation.
+Nagyszámú teherkombináció kiszámítása hosszú időt vesz igénybe az analízis során, ezért célszerű a teherkombinációk számát a lehető legkisebbre csökkenteni. Az automatikus teherkombináció létrehozása funkció használata esetén célszerű a generálás előtt kiszűrni a felesleges tehereseteket. A bejelölt jelölőnégyzet azt jelenti, hogy az adott tehereset(-csoport) felhasználásra kerül a teherkombinációk generálásához. A nem kívánt teheresetek kihagyásával jelentősen csökkenthető a generált kombinációk száma.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-After the generation of load combinations, deletion of those rows that cannot be relevant is also possible to minimize calculation time.
+A teherkombinációk generálása után a számítási idő minimalizálása érdekében lehetőség van a nem releváns sorok törlésére is.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
+<!-- wp:heading -->
 
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-### Load combination sets
+## Teherkombináció csomagok
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-From Consteel 16, it is possible to create load combination sets for different purposes like preliminary design, structural design, connection design etc. A load combination set is a list of load combinations selected in any way. The goal is to reduce the number of load combinations by selecting the most relevant ones for the actual design phase. Calculating only the relevant load combinations will also efficiently reduce calculation time. The **Load combination sets** (![](./img/wp-content-uploads-2021-04-LCset_icon.png)) function is available either from the main window **Load combination sets** tab or from **Analysis parameters** (…).
+A Consteel 16 (vagy újabb verzió) használatával már teherkombináció csomagok is létrehozhatók különböző célokra, például előzetes, szerkezeti vagy kapcsolati tervezéshez, stb. Egy teherkombináció csomag a tetszőlegesen kiválasztott teherkombinációk listáját jelenti. A cél egy adott tervezési fázisban a kiszámítandó teherkombinációk számának csökkentése a legrelevánsabbak kiválasztásával. Ez a szükséges számítási időt is hatékonyan csökkenti.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"textColor":"consteel-blue"} -->
+<!-- wp:paragraph -->
 
-To use the load combination set for the analysis, select it from the drop-down menu on **Analysis parameters - [Subpage of load combinations](https://consteelsoftware.com/manual/structural-analysis/analysis-settings/#subpage-of-load-combinations)**.
+A **Teherkombináció csomagok** (![](./img/wp-content-uploads-2021-04-LCset_icon.png)) párbeszédablak a főablak **Teherkombináció csomagok** füléről érhető el.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":47176,"width":378,"height":76,"sizeSlug":"full","linkDestination":"none","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+<!-- wp:image {"id":51134,"width":341,"height":54,"sizeSlug":"full","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2023-04-image.png)
-
-<!-- /wp:image -->
-
-<!-- wp:image {"align":"center","id":47184,"width":583,"height":240,"sizeSlug":"full","linkDestination":"none","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-![](./img/wp-content-uploads-2023-04-image-1.png)
+![Teherkombinációs csomagok menüje](./img/wp-content-uploads-2023-07-Teherkombi_csomagok_menu.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-When starting the function for the first time, an empty table appears.
+Az analízishez használni kívánt teherkombináció csomagot az **Analízis paraméterei** ablak **[Teherkombinációk](/hu/manual/szerkezetek-analizise/analizis-beallitasok/#subpage-of-load-combinations)** aloldalán lehet kiválasztani a legördülő menüből. A Teherkombináció csomagok ablaka innen is elérhető a legördülő menü jobb oldalán található ![](./img/wp-content-uploads-2021-04-3dots-button.png) ikonnal.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":47192,"sizeSlug":"full","linkDestination":"none","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+<!-- wp:image {"align":"center","id":50999,"width":341,"height":141,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-![](./img/wp-content-uploads-2023-04-image-2.png)
+[![Analízis beállításai - teherkombinációs csomag kiválasztása](https://www.consteelsoftware.com/wp-content/uploads/2023/07/Teherkombi_csomag_kivalasztas_analizis.png)](./img/wp-content-uploads-2023-07-Teherkombi_csomag_kivalasztas_analizis.png)
+
+Teherkombináció csomag kiválasztása analízishez
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-When there are already sets created, the table summarizes them. Sets are listed with their most relevant information (number of load combinations, applied rules and included limit states). Rows can be edited or deleted one-by-one with the pencil and trash bin icon at the end of the row. Double-clicking on the row will also open the edit dialog.
+A funkció első indításakor egy üres táblázat jelenik meg:
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":47200,"sizeSlug":"full","linkDestination":"none","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+<!-- wp:image {"align":"center","id":51008,"width":512,"height":219,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-![](./img/wp-content-uploads-2023-04-image-3.png)
+[![Teherkombinációs csomagok - üres lista](https://www.consteelsoftware.com/wp-content/uploads/2023/07/Teherkombi_csomag_letrehozas-1024x438.png)](./img/wp-content-uploads-2023-07-Teherkombi_csomag_letrehozas-1024x438.png)
+
+Teherkombináció csomagok táblázata
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-Click on + Create new to define a new set. It will open the **Load combination set definition** dialog.
+Később, a már létrehozott csomagok ebben a táblázatban lesznek láthatók a legfontosabb jellemzőikkel (teherkombinációk száma, az alkalmazott szabályok és a használt határállapotok) együtt. A csomagok egyenként szerkeszthetők vagy törölhetők a sor végén található ceruza ![](./img/wp-content-uploads-2021-04-Pencil.png) és szemetes kuka ![Trash bin](./img/wp-content-uploads-2021-04-Bin.png) ikon segítségével. A sorra való dupla kattintással szintén megnyitható a csomag szerkesztési párbeszédpanelje.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
+<!-- wp:image {"align":"center","id":51089,"width":512,"height":219,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-With Create from selected, a new set can be created based on the selected one. For the new set, a different name must be given.
+[![Teherkombinációs csomagok listája](https://www.consteelsoftware.com/wp-content/uploads/2023/07/Teherkombi_csomag_lista-1024x438.png)](./img/wp-content-uploads-2023-07-Teherkombi_csomag_lista-1024x438.png)
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-**Load combination set definition**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-All existing load combinations are listed here. The goal is to create reduced lists aka sets of load combinations for different design purposes. The load combinations which are checked in are selected for the actual set. Selection can be done in several different ways: filter by limit states, filter by load cases, applying predefined rules and by manual selection.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":47208,"sizeSlug":"full","linkDestination":"none","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-![](./img/wp-content-uploads-2023-04-image-4.png)
+Teherkombináció csomagok táblázata
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-\#1 Set name: name of the set can be defined here. Default name is automatically filled.
+Új csomagot a **+ Új létrehozása** gomb megnyomásával lehet definiálni a megnyíló **Teherkombináció csomag megadása** dialóg segítségével.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-\#2 Filtering options: by limit states or by load cases. The buttons are also dynamic indicators of the selected load combinations.
+Az **+ Új létrehozása meglévőből** gomb megnyomásával új teherkombináció csomagot lehet létrehozni a kiválasztott csomag alapján. A létrejövő új csomagnak új nevet kell adni mielőtt el lehetne menteni azt.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-\#3 Apply rules: Load combination filter rule definition dialog can be opened here by clicking on the Rules button. Previously applied rules are also listed in a non-editable textbox.
+**Teherkombináció csomag megadása**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-\#4 Table of load combinations: all the load combinations are listed here with the representation of limit state and the description of the combination. The load combinations cannot be edited here.
+Az ablakban az összes létrehozott teherkombináció látható. A cél az, hogy megfelelően szűrt (szűkített) listákat, azaz teherkombináció csomagokat hozzunk létre a különböző tervezési feladatokhoz. Az aktuális csomagba kerülő teherkombinációk kiválasztása sokféleképpen történhet: határállapotok szerinti szűréssel, teheresetek szerinti szűréssel, előre meghatározott szabályok alkalmazásával vagy kézi kiválasztással.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
+<!-- wp:image {"align":"center","id":51080,"width":512,"height":412,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-\-In the first column of the table, the checkboxes show if the load combination is selected.
+[![Teherkombinációs csomag létrehozása](https://www.consteelsoftware.com/wp-content/uploads/2023/07/Teherkombi_csomag_letrehozas_uj_csomag_szamokkal-1024x824.png)](./img/wp-content-uploads-2023-07-Teherkombi_csomag_letrehozas_uj_csomag_szamokkal-1024x824.png)
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-\-The second column contains the name of the load combinations, and the header indicates the number of selected combinations over the number of all.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-\-Third column contains the limit states of the load combinations, and the header indicates the number of limit states whose combinations are all selected.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-\-Fourth column shows the description of the load combinations for information. If the description is too long, horizontal scroll bar appears in the row.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-\-In the upper right corner of the table, the eye-shaped icon regulates the visibility of the load combinations. The two options are: show all and show only selected
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-\#5 Cancel, Save as, Save buttons:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-\-Save button saves the list of the load combinations which are selected with the name written in the Set name cell. The set will appear in the table on the Load combination sets dialog.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-\-Save as button is to be used when creating a new set from an existing one. A name which has not been used before is to be given. The set will appear in the table on the **Load combination sets** dialog.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-\-Cancel closes the dialog without saving.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-**Filter by limit states**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-All the limit states, which have any load combinations assigned, are listed here. The checkboxes have 3 states:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-![](./img/wp-content-uploads-2021-04-checked.png)checked: all load combinations with the given limit state are checked in.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-![](./img/wp-content-uploads-2021-04-middle.png)middle: at least one of the load combinations with the given limit state are checked in but not all. Not possible to set directly.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-![](./img/wp-content-uploads-2021-04-unchekced.png)unchecked: no load combinations with the given limit state are checked in
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-The checkboxes are indicators of the content of the list below and also the tool to edit the content.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":47240,"width":821,"height":660,"sizeSlug":"full","linkDestination":"none","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-![](./img/wp-content-uploads-2023-04-image-5.png)
+Teherkombináció csomag megadása
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-**Filter by load cases**
+\#1 Csomag neve: a program automatikusan megad egy alapértelmezett nevet, ami átírható egy tetszőleges névre. Az új névnek különböznie kell a már létrehozott csomagok nevétől.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-All the load cases, which are used in any load combination, are listed here. The checkboxes have 3 states:
+\#2 Szűrés: határállapotok vagy teheresetek szerint. A gombok alatt megjelenő fastruktúrában dinamikusan láthatók a kiválasztott kombinációknak megfelelő határállapotok vagy teheresetek.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2021-04-checked.png)checked: all load combinations containing the given load case are checked in
+\#3 Szabályok alkalmazása: a [**Szabályok** ](/manual/terhek/teherkombinaciok/#Szabalyok)gombra kattintva a **Teherkombináció szűrési szabályok megadása** párbeszédpanel nyitható meg. Az előzőleg alkalmazott szabályok a gomb alatt láthatók egy nem szerkeszthető szövegdobozban.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2021-04-middle.png)middle: at least one of the load combinations containing the given load case are checked in but not all. Not possible to set directly.
+\#4 Teherkombinációk táblázata: itt megtalálható az összes teherkombináció a határállapot feltüntetésével és a kombináció leírásával együtt. A teherkombinációkat itt nem lehet szerkeszteni.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"editorskit":{"indent":20,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+
+\- A táblázat első oszlopában található jelölőnégyzetek mutatják, hogy az adott kombináció ki van-e választva.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"editorskit":{"indent":20,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+
+\- A második oszlopban a teherkombináció neve látható, a fejléc pedig jelzi a kiválasztott kombinációk számát.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"editorskit":{"indent":20,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+
+\- A harmadik oszlopban a határállapot neve látható, melyhez az adott kombináció tartozik, a fejléc pedig jelzi azon határállapotok számát, amelyek kombinációi mind ki vannak választva.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"editorskit":{"indent":20,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+
+\- A negyedik oszlop a tájékoztatás céljából a teherkombinációk leírását tartalmazza. Ha a leírás túl hosszú, vízszintes görgetősáv jelenik meg a sorban.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"editorskit":{"indent":20,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+
+\- A táblázat jobb felső sarkában található szem ikon segítségével szabályozhatjuk, hogy az összes, vagy csak a kiválasztott kombinációk legyenek láthatók a táblázatban.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2021-04-unchekced.png)unchecked: no load combinations containing the given load case are checked in
+\#5 Mégse, Mentés másként, Mentés gombok:
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"editorskit":{"indent":20,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+
+\- A **Mentés** gomb elmenti a kiválasztott teherkombinációk listáját a _Csomag neve_ mezőben megadott névvel. A csomag ezután megjelenik a **Teherkombináció csomagok** párbeszédpanel táblázatában.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"editorskit":{"indent":20,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+
+\- A **Mentés másként** gombbal új csomagot lehet létrehozni egy meglévőből. Ehhez egy korábban még nem használt nevet kell megadni. A csomag ezután megjelenik a **Teherkombináció csomagok** párbeszédpanel táblázatában.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"editorskit":{"indent":20,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+
+\- A **Mégse** gomb megnyomásával a párbeszédpanel mentés nélkül bezárul.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The checkboxes are indicators of the content of the list below and also the tool to edit the content.
+**Szűrés határállapotok alapján**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-**Filter by rules**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"textColor":"consteel-blue"} -->
-
-For definition of the rules, see **_Chapter [Rules](#rules)_**.
+Minden olyan határállapot szerepel itt, amelyhez legalább egy teherkombináció hozzá van rendelve. A jelölőnégyzeteknek 3 állapota van:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Filter by rules is a selection of the load combinations based on analysis and design results.
+![](./img/wp-content-uploads-2021-04-checked.png) kijelölt: az adott határállapothoz tartozó összes teherkombináció ki van választva.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":47248,"sizeSlug":"full","linkDestination":"none","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+<!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2023-04-image-6.png)
+![](./img/wp-content-uploads-2021-04-middle.png) részben kijelölt: az adott határállapothoz tartozó teherkombinációk közül legalább egy ki van választva, de nem az összes. Közvetlenül nem állítható be.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+![](./img/wp-content-uploads-2021-04-unchekced.png) kijelöletlen: az adott határállapothoz tartozó teherkombinációk közül egy sincs kiválasztva.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+A jelölnégyzetek jelzik a teherkombinációk listájának állapotát a fentiek szerint, de a segítségükkel közvetlenül is módosítható a kombinációk kiválasztása.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"left","id":51026,"width":512,"height":412,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![Teherkombinációs csomag létrehozása](https://www.consteelsoftware.com/wp-content/uploads/2023/07/Teherkombi_csomag_letrehozas_uj_csomag_hatarallapotok-1024x824.png)](./img/wp-content-uploads-2023-07-Teherkombi_csomag_letrehozas_uj_csomag_hatarallapotok-1024x824.png)
+
+Teherkombinációk szűrése határállapotuk alapján
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-Rules can be applied by checking in the checkbox in the first column of the summary table, selecting the model portion to be examined and clicking Apply. The filter will be applied based on the actual results and on the selected load combinations. It is a one-time operation which results a list of load combinations. This list can be saved on the **Load combination set definition** dialog. The list of combinations will not be automatically updated when the calculation results change.
+**Szűrés teheresetek alapján**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-**Rules can only be applied on calculation results. If the result necessary for the applied rule is not existent in some load combinations, then those load combinations will be turned off.**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"align":"justify"} -->
-
-When a rule is applied, all the load combinations which are selected on the \***\*Load combination set definition\*\*** dialog are examined at every position the rule indicates, then the load combinations which corresponds to the rule are selected (remain checked) and those which do not, become unchecked. Consequently, the number of selected load combinations before filtering by rules is always greater than or equal to the number after filter. Filter by rules will never select a load combination which was not selected on the **Load combination set definition** dialog before the filter.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"align":"justify"} -->
-
-Rules can be applied to model portions. It means that only the results of the nodes which are included in the selected model portion are examined against the rule’s limitations.
+Minden olyan tehereset látható itt, amely legalább egy teherkombinációban szerepel. A jelölőnégyzeteknek 3 állapota van:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-When applying more than one rules together, the lists of selected combinations is the sum of the lists that would have been created separately.
+![](./img/wp-content-uploads-2021-04-checked.png) kijelölt: az adott teheresetet tartalmazó összes teherkombinációt ki van választva.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"left","id":47266,"width":156,"height":166,"sizeSlug":"full","linkDestination":"none","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+<!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2023-04-image-8.png)
+![](./img/wp-content-uploads-2021-04-middle.png) részben kijelölt: az adott teheresetet tartalmazó teherkombinációk közül legalább egy ki van választva, de nem az összes. Közvetlenül nem állítható be.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+![](./img/wp-content-uploads-2021-04-unchekced.png) kijelöletlen: az adott teheresetet tartalmazó teherkombinációk közül egy sincs kiválasztva
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+A jelölnégyzetek jelzik a teherkombinációk listájának állapotát a fentiek szerint, de a segítségükkel közvetlenül is módosítható a kombinációk kiválasztása.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+**Szűrés szabályok alapján**
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+A szabályok definiálását lásd a [Szabályok ](/manual/terhek/teherkombinaciok/#Szabalyok)fejezetben.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+A szabályok segítségével lehetséges a kombinációk szűrése az analízis és/vagy a méretezési eredmények alapján.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":51098,"width":512,"height":219,"sizeSlug":"large","linkDestination":"media"} -->
+
+[![Szabályok listája](./img/wp-content-uploads-2023-07-Teherkombi_csomag_szabalyok-1024x438.png)](./img/wp-content-uploads-2023-07-Teherkombi_csomag_szabalyok-1024x438.png)
+
+Teherkombináció szűrési szabályok táblázata
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-The result of filtering by two rules will differ when applying the rules at the same time or one after another because the list of combinations that the filters are applied on are different.
+A meglévő szabályokat az összefoglaló táblázat első oszlopában található jelölőnégyzet bejelölésével, az utolsó oszlopban a vizsgálandó részletmodell kiválasztásával és az **Alkalmaz** gombra kattintással lehet alkalmazni. A szűrés a tényleges eredmények és a kiválasztott teherkombinációk alapján történik. A szűrés eredményeképpen keletkező teherkombináció lista a **_[Teherkombináció csomag megadása](/manual/terhek/teherkombinaciok/#Teherkombinacio-csomag-megadasa)_** párbeszédpanelen, a korábbiakhoz hasonlóan elmenthető. A számítási eredmények megváltozásával a kombinációk listája automatikusan nem frissül.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-If there are more than one load combinations with the exact same calculation result and this result is the basis of the filter, then all load combinations will be selected. Therefore, elements loaded only with self-weight can prevent effective filtering. Using portions excluding these elements for the filter can be a solution for this.
+**A szabályok csak akkor alkalmazhatók, ha a megfelelő számítási eredmények rendelkezésre állnak. Azon teherkombinációk, melyekben az alkalmazott szabályhoz szükséges eredmény nem áll rendelkezésre, ki lesznek kapcsolva.**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-**Manual selection**
+Egy szabály alkalmazásakor a program, a **[Teherkombináció csomag megadása](/manual/terhek/teherkombinaciok/#Teherkombinacio-csomag-megadasa)** párbeszédpanelen kiválasztott összes teherkombinációt megvizsgálja a szabály által megjelölt minden egyes helyen, majd kiválasztja a szabálynak megfelelő teherkombinációkat (vagyis azok kijelölve maradnak), míg a nem megfelelőek kijelölése megszűnik. Következésképpen a szabályok szerinti szűrés előtt kiválasztott teherkombinációk száma mindig nagyobb vagy egyenlő a szűrés utáni számmal. A szabályok szerinti szűrés soha nem választ ki olyan teherkombinációt, amely a szűrés előtt nem volt kijelölve a **[Teherkombináció csomag megadása](/manual/terhek/teherkombinaciok/#Teherkombinacio-csomag-megadasa)** párbeszédpanelen.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Manual selection of the load combinations is possible by clicking on the checkbox of the combination in the first column of the table.
+A szabályok alkalmazhatók részletmodellekre is. Ez azt jelenti, hogy csak a kiválasztott részletmodellben szereplő csomópontok eredményeit vizsgáljuk a szabály alapján.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-**Interaction of the filters**
+Több szabály együttes alkalmazásakor a kiválasztott kombinációk listája a külön-külön előálló listák összesítése lesz.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
+<!-- wp:image {"align":"left","id":21420,"sizeSlug":"full","linkDestination":"none"} -->
 
-Filtering by limit states and by load cases are handled together. The 3-state checkboxes affect each other as they are not only used for selection but also for indication of the content. They can be manually set only to checked or unchecked. Middle state will only appear when adjusting the other filter.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-See this example below:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-First, all combinations are checked in. All checkboxes are set to Checked.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:columns -->
-
-<!-- wp:column -->
-
-<!-- wp:image {"id":47275,"sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2023-04-image-9.png)
-
-<!-- /wp:image -->
-
-<!-- /wp:column -->
-
-<!-- wp:column -->
-
-<!-- wp:image {"id":47283,"sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2023-04-image-10.png)
-
-<!-- /wp:image -->
-
-<!-- /wp:column -->
-
-<!-- /wp:columns -->
-
-<!-- wp:paragraph -->
-
-If ULS Acc limit state is set to Unchecked,
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":47291,"width":500,"height":306,"sizeSlug":"full","linkDestination":"none","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-![](./img/wp-content-uploads-2023-04-image-11.png)
+![](./img/wp-content-uploads-2021-04-warning_croc.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-the AccSnow1 load case gets unchecked. Dead load and Wind1, 2 load cases are changed to middle state as they are present in the accidental load combinations, which are turned off, but other load combinations also contain these load cases.
+Két szabály szerinti szűrés eredménye különböző lesz attól függően, hogy a szabályokat egyszerre vagy egymás után alkalmazzuk, hiszen különbözőek a kombinációs listák is, melyekre a szűrőket alkalmazzuk.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":47299,"width":524,"height":317,"sizeSlug":"full","linkDestination":"none","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+<!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2023-04-image-12.png)
+Ha egynél több olyan teherkombináció van, melyeknek a szűrés alapját képező eredmény komponense pontosan megegyezik, akkor az összes teherkombináció kiválasztásra kerül. Ezért a csak önsúllyal terhelt elemek megakadályozhatják a hatékony szűrés végrehajtását. Erre az esetre megoldást jelenthet az ilyen elemeket kizáró részletmodellek használata a szűrőhöz.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+**Kézi kiválasztás**
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+A terheléskombinációk kézi kiválasztása a táblázat első oszlopában található jelölőnégyzetekre kattintva lehetséges.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+**A szűrők kölcsönhatása**
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+A határállapotok és a teheresetek szerinti szűrés egymással összhangban történik. A három-állású jelölőnégyzetek hatással vannak egymásra, mivel azok nem csak a kiválasztásra, hanem a listában kiválasztott elemek jelzésére is szolgálnak. Kézzel csak kijelölt vagy nem kijelölt állapotba állíthatók. A köztes (részben kijelölt) állapot csak akkor jelenhet meg, ha a lista további szűrés hatására változik.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+Lásd az alábbi példát:
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+Először is, minden egyes kombináció ki van jelölve. A szűrők jelölőnégyzetei is mind kipipálva vannak:
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"left","id":51035,"width":512,"height":412,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![Teherkombinációs csomag létrehozása példa 1](https://www.consteelsoftware.com/wp-content/uploads/2023/07/Teherkombi_csomag_letrehozas_uj_csomag_pelda_1-1024x823.png)](./img/wp-content-uploads-2023-07-Teherkombi_csomag_letrehozas_uj_csomag_pelda_1-1024x823.png)
+
+Szűrők kölcsönhatása - példa 1
+
+<!-- /wp:image -->
+
+<!-- wp:image {"align":"right","id":51044,"width":512,"height":412,"sizeSlug":"large","linkDestination":"media"} -->
+
+[![Teherkombinációs csomag létrehozása példa 2](https://www.consteelsoftware.com/wp-content/uploads/2023/07/Teherkombi_csomag_letrehozas_uj_csomag_pelda_2-1024x823.png)](./img/wp-content-uploads-2023-07-Teherkombi_csomag_letrehozas_uj_csomag_pelda_2-1024x823.png)
+
+Szűrők kölcsönhatása - példa 2
+
+<!-- /wp:image -->
+
+<!-- wp:spacer {"height":"1px"} -->
+
+<!-- /wp:spacer -->
+
+<!-- wp:paragraph -->
+
+Ha a Határállapotok közül az _ULS Acc_ csoportot kikapcsoljuk,
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":51053,"width":512,"height":412,"sizeSlug":"large","linkDestination":"media"} -->
+
+[![Teherkombinációs csomag létrehozása példa 3](https://www.consteelsoftware.com/wp-content/uploads/2023/07/Teherkombi_csomag_letrehozas_uj_csomag_pelda_3-1024x823.png)](./img/wp-content-uploads-2023-07-Teherkombi_csomag_letrehozas_uj_csomag_pelda_3-1024x823.png)
+
+Szűrők kölcsönhatása - példa 3
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-Manual selection is possible in addition to the above mentioned and it always affects the 3-state checkboxes:
+akkor a *Rendkívüli hó* tehereset is kikapcsolódik. Ezzel együtt az *állandó* és a *Szél 1* ás *Szél 2* teheresetek részben kijelölt állapotúra változnak, mivel szerepelnek a kikapcsolt rendkívüli teherkombinációkban, de más teherkombinációkban is.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
+<!-- wp:image {"id":51062,"width":512,"height":412,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-Following the example above, Lc-10 is selected manually, ULS Acc limit state is set to middle state.
+[![Teherkombinációs csomag létrehozása példa 4](https://www.consteelsoftware.com/wp-content/uploads/2023/07/Teherkombi_csomag_letrehozas_uj_csomag_pelda_4-1024x823.png)](./img/wp-content-uploads-2023-07-Teherkombi_csomag_letrehozas_uj_csomag_pelda_4-1024x823.png)
 
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":47307,"width":556,"height":290,"sizeSlug":"full","linkDestination":"none","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-![](./img/wp-content-uploads-2023-04-image-13.png)
+Szűrők kölcsönhatása - példa 4
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-Filtering by limit states, by load cases and manual selection are preselection for filter by rules. Rules will only be applied on load combinations which are checked in and have the necessary calculation results.
+A fenti lehetőségeken felül a kézi kiválasztás továbbra is lehetséges, és ez mindig hatással van a 3 állású jelölőnégyzetekre is.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Manual selection can also be done after the other filters. Selecting and deseclecting items is both possible.
+A fenti példánál maradva, a Tk-25 teheresetet kézzel kiválasztva, az ULS Acc határállapot részben kijelölt állapotúra módosul:
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":51071,"width":512,"height":412,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![Teherkombinációs csomag létrehozása példa 1](https://www.consteelsoftware.com/wp-content/uploads/2023/07/Teherkombi_csomag_letrehozas_uj_csomag_pelda_5-1024x823.png)](./img/wp-content-uploads-2023-07-Teherkombi_csomag_letrehozas_uj_csomag_pelda_5-1024x823.png)
+
+Szűrők kölcsönhatása - példa 5
+
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+
+A határállapotok vagy a teheresetek szerinti szűrés, valamint a kézi kiválasztás a szabályok szerinti szűrés előtti előszűrésre is alkalmas, hiszen a szabályok csak azokra a teherkombinációkra kerülnek alkalmazásra, amelyek kijelölt állapotúak és rendelkeznek a szükséges számítási eredményekkel.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
+A kézi kiválasztás más szűrők használata után is lehetséges. Az elemek kijelölése és kijelölés megszüntetése egyaránt lehetséges.
+
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":3,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+<!-- wp:heading {"level":3} -->
 
-### Rules
+### Szabályok
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-Rules can be edited and applied through **Rule definition for load combination filter** dialog. The dialog is available only from the **Load combination set definition** dialog by clicking on the **Rules** button.
+Szabályokat létrehozni, szerkeszteni és alkalmazni a **Teherkombináció szűrési szabályok megadása** című párbeszédablakban lehetséges. Ezt az ablakot a **_[Teherkombináció csomag megadása](/manual/terhek/teherkombinaciok/#Teherkombinacio-csomag-megadasa)_** dialóg **Szabályok** gombjára kattintva lehet megnyitni.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-There are 3 types of rules: analysis, buckling and design rules. They appear different tabs of the dialog.
+Háromféle szabály létezik: _[analízis](/manual/terhek/teherkombinaciok/#analizis-szabalyok)_, [kihajlási ](/manual/terhek/teherkombinaciok/#Kihajlasi-szabalyok)és _[kihasználtsági](/manual/terhek/teherkombinaciok/#Kihasznaltsagi-szabalyok)_ szabályok, melyek a párbeszédpanel különböző lapjain jelennek meg.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":47317,"sizeSlug":"full","linkDestination":"none","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+<!-- wp:image {"align":"center","id":51098,"width":512,"height":219,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-![](./img/wp-content-uploads-2023-04-image-14.png)
+[![Szabályok listája](https://www.consteelsoftware.com/wp-content/uploads/2023/07/Teherkombi_csomag_szabalyok-1024x438.png)](https://www.consteelsoftware.com/wp-content/uploads/2023/07/Teherkombi_csomag_szabalyok-1024x438.png)
+
+Teherkombináció szűrési szabályok táblázata
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-In new models, there are default rules to help getting started. Models saved in previous versions do not contain the default rules.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"align":"justify"} -->
-
-New rules can be created with the + Create new button or if a rule is selected, with the +Create from selected button. The rule to be created always corresponds to the tab the button was clicked on. E.g. an analysis rule can only be created on the Analysis rules tab of the dialog.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"align":"justify"} -->
-
-Rows can be edited or deleted one-by-one with the pencil and trash bin icon at the end of the row. Double-clicking on the row will also open the rule definition dialog.
+Minden új modell tartalmaz néhány, a használatot elősegítő alapértelmezett szabályt. A korábbi verziókban mentett modellekben ezek a szabályok nem találhatók meg.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Common functions for all rule definition dialogs
+Új szabályokat az **+ Új létrehozása** gombbal lehet létrehozni, vagy ha egy szabály ki van jelölve, akkor a **+Új létrehozása meglévőből** gombbal. Új szabályt létrehozni mindig azon a fülön lehetséges, amelyik épp ki van választva. Pl. egy analízisszabály csak a párbeszédpanel **Analízis szabályok** lapján hozható létre.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-\-Save button saves the rule with the name written in the Rule name cell. The rule will appear in the table on the **Rule definition for load combination filter** dialog.
+A szabályok szerkeszthetők vagy törölhetők egyenként a sor végén található ![](./img/wp-content-uploads-2021-04-Pencil.png)és ![Trash bin](./img/wp-content-uploads-2021-04-Bin.png)parancsok segítségével. A szabálydefiníciós párbeszédpanel megnyitható a sorra való dupla kattintással is.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-\-Save as button is to be used when creating a new set from an existing one. A name which has not been used before is to be given. The rule will appear in the table on the **Rule definition for load combination filter** dialog.
+A szabálydefiníciós párbeszédpanelek általános funkciói
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"editorskit":{"indent":20,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+
+\- A **Mentés** gomb elmenti a szabályt a Szabály neve cellába írt névvel. A szabály megjelenik a **Teherkombináció szűrési szabályok megadása** párbeszédpanel táblázatában.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"editorskit":{"indent":20,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+
+\- A **Mentés másként** gombbal egy új szabály hozható létre egy meglévőből. Az új szabály nevének a többitől eltérőnek kell lennie. A szabály megjelenik a **Teherkombináció szűrési szabályok megadása** párbeszédpanel táblázatában.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"editorskit":{"indent":20,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+
+\- A **Mégse** gomb megnyomásával a párbeszédpanel mentés nélkül bezárul.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"editorskit":{"indent":20,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+
+\- **Mentés helye**: a szabályt a modellbe vagy a számítógépre lehet menteni. Ha a számítógépre mentjük, akkor más modellekhez is felhasználható lesz, de nem lesz látható, ha a modellt egy másik számítógépen nyitjuk meg.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-\-Cancel closes the dialog without saving.
+**Analízis szabályok**
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"right","id":51107,"width":314,"height":313,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![Új analízis szabály](https://www.consteelsoftware.com/wp-content/uploads/2023/07/Teherkombi_csomag_szabalyok_analizis.png)](./img/wp-content-uploads-2023-07-Teherkombi_csomag_szabalyok_analizis.png)
+
+Analízis szabály megadása
+
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+
+Az analízis szabályok segítségével a teherkombinációk szűrése a deformációk vagy az igénybevételek alapján történik. A program a deformációkat csak az SLS kombinációkban, a belső erőket csak az ULS kombinációkban vizsgálja.
+
+
+\- _Pozíció_: az eredmények vizsgálatának helyét lehet itt megadni, mely lehet _Minden pont_, vagy _Csak elemvégek_ (jellemzően csomóponti tervezéshez használatos)
+
+
+\- _Korlát:_
+
+- **_Maximum:_** azon kombinációk kiválasztásához, amelyek az összes pontban a legnagyobb alakváltozást vagy igénybevételt okozzák (amelyik az _Eredmény típus_ mezőben meg van adva).
+
+- **_Több mint a legnagyobb érték %-a:_** a '"Maximum" szerinti és azon kombinációk kiválasztása, amelyek a legnagyobb érték megadott százalékánál nagyobb deformációt vagy igénybevételt okoznak. Pl., ha egy bizonyos ponton az My,max=50 kNm, a _Korlát_ pedig 90%, akkor ez a szabály kiválasztja az összes olyan teherkombinációt, amely az adott pontban My=0,9\*50=45 kNm-t vagy ennél nagyobbat eredményez.
+
+
+<!-- wp:image {"align":"right","id":51116,"width":314,"height":234,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![Új kihajlási szabály](https://www.consteelsoftware.com/wp-content/uploads/2023/07/Teherkombi_csomag_szabalyok_kihajlas.png)](./img/wp-content-uploads-2023-07-Teherkombi_csomag_szabalyok_kihajlas.png)
+
+Kihajlási szabály megadása
+
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+
+**Kihajlási szabályok**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-\-Save location: The rule can be saved either in the model or to the computer. When saved to the computer, it can be used for other models too, but it will not be visible in case the model is opened on another computer.
+_- Kihajlási szabályok_: kiválaszthatók azok az ULS teherkombinációk, amelyeknél a rugalmas kritikus teherszorzó (első kihajlási sajátérték) kisebb, mint a megadott érték.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-**Analysis rule**
+**Kihasználtsági szabályok**
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"left","id":51125,"width":314,"height":234,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![Új kihasználtsági szabály](https://www.consteelsoftware.com/wp-content/uploads/2023/07/Teherkombi_csomag_szabalyok_kihasznaltsag.png)](./img/wp-content-uploads-2023-07-Teherkombi_csomag_szabalyok_kihasznaltsag.png)
+
+Kihasználtsági szabály megadása
+
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+
+A kihasználtsági szabályok segítségével a teherkombinációkat a kihasználtság alapján lehet kiválasztani. A figyelembe vett kihasználtság többféle méretezési ellenőrzésből származhat: mértékadó eredmények vagy az acél elemek részletes ellenőrzései, mint például az általános rugalmas szilárdsági ellenállás, a tiszta igénybevételi ellenállások, az interakciós ellenállások és a globális stabilitásvizsgálat. Kihasználtsági szabályokkal csak ULS kombinációkat lehet szűrni.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-With analysis rules, load combinations can be selected based on deformations or internal forces. Deformations are checked in SLS combinations, internal forces are checked in ULS combinations only.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:columns -->
-
-<!-- wp:column {"width":"60%"} -->
-
-<!-- wp:paragraph -->
-
-\-_Position_: defines the position where the analysis results should be considered, every node or only at member ends (typically for connection design)
+A kihasználtsági szabályok ellenőrzése a részlet modell minden egyes végeselem pontját érinti.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-\-_Limitations for analysis rules:_
+\- _Kihasználtság típus:_
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 
-- <!-- wp:list-item -->
-- **_Maximum:_** to select the combinations which cause the maximum deformation or internal force (whichever is chosen at Result type) at all of the positions.
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- **_More than % of maximum:_** to select the combinations as ’Maximum’ plus those which cause deformation or internal force that is more than the given percentage of the maximum. E.g. at a certain point Mymax=50kNm, Limitation= More than 90% of maximum. This rule will select all the load combinations which cause My=45-50kNm.
-- <!-- /wp:list-item -->
+- **_Mértékadó eredmények maximuma_:** minden egyes ponton csak egy domináns teherkombináció kihasználtságát tartalmazza, ugyanúgy, mint a Globális vizsgálatok fülön található domináns eredménytábla. Következésképpen csak egyféle korlát adható meg: a "Több mint" a megadott kihasználtsági érték (%-ban).
 
-<!-- /wp:list -->
+ - **_Acél – Mértékadó vizsgálat_**: minden pontban, minden teherkombinációban tartalmazza a domináns vizsgálat kihasználtsági értékeit. Korlátok:
 
-<!-- /wp:column -->
+  - **_Maximum_**: minden pontban a legnagyobb kihasználtságot eredményező kombinációk kiválasztása. Megegyezhet a mértékadó eredmények maximumával, kivéve, ha vannak olyan kombinációk, amelyeknél a kihasználtság azonos, és ez maximális.
+ 
+  - **_Több mint a legnagyobb érték %-a_:** a '"Maximum" szerinti és azon kombinációk kiválasztása, amelyek minden keresztmetszetben az ott kiszámolt legnagyobb érték megadott százalékánál nagyobb kihasználtságot adnak. Például, ha egy adott pontban a legnagyobb kihasználtság 80%, a korlát pedig 90%, akkor ez a szabály kiválaszt minden olyan kombinációt, melynél a kihasználtság az adott pontban nagyobb vagy egyenlő mint 0,9\*80=72%.
+ 
+  - **_Több mint_**: azon kombinációk kiválasztása, amelyek bármely ponton a megadott értéknél nagyobb kihasználtságot eredményeznek.
+ 
 
-<!-- wp:column -->
+- **Acél – Általános rugalmas szilárdsági ellenállás, tiszta igénybevételi ellenállások....Globális stabilitási ellenállás:** az egyes ellenőrzések kihasználtságait tartalmazzák minden egyes teherkombinációban, minden egyes pontban.
 
-<!-- wp:image {"align":"right","id":47468,"width":393,"height":388,"sizeSlug":"full","linkDestination":"none","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-![](./img/wp-content-uploads-2023-04-Analysis-rule-1.png)
+<!-- wp:image {"align":"left","id":21420,"width":191,"height":203,"sizeSlug":"full","linkDestination":"none"} -->
 
-<!-- /wp:image -->
-
-<!-- /wp:column -->
-
-<!-- /wp:columns -->
-
-<!-- wp:paragraph -->
-
-**Buckling rule**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:columns -->
-
-<!-- wp:column {"width":"60%"} -->
-
-<!-- wp:paragraph -->
-
-_-Buckling rules_: It is possible to select those ULS load combinations where the elastic critical load factor (first buckling eigenvalue) is less than the given value.
-
-<!-- /wp:paragraph -->
-
-<!-- /wp:column -->
-
-<!-- wp:column -->
-
-<!-- wp:image {"align":"right","id":47452,"width":393,"height":318,"sizeSlug":"full","linkDestination":"none","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-![](./img/wp-content-uploads-2023-04-Buckling-rule.png)
+![](./img/wp-content-uploads-2021-04-warning_croc.png)
 
 <!-- /wp:image -->
 
-<!-- /wp:column -->
-
-<!-- /wp:columns -->
-
 <!-- wp:paragraph -->
 
-**Design rule**
+Az **Acél – Mértékadó vizsgálat** eredménye azonos a **Globális vizsgálatok** fül táblázatának eredményeivel, az azonos legnagyobb értékek kezelését kivéve. Míg a globális vizsgálatoknál csak egy legnagyobb értéket adó kombináció jelenik meg, ebben a szűrőben az összes.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-With design rules, load combinations can be selected based on utility ratios. Utilizations are available from several design checks: dominant results and detailed verifications for steel elements such as general elastic cross-section check, pure resistances, interactions and global stability. Only ULS combinations can be filtered with design rules.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:columns -->
-
-<!-- wp:column {"width":"60%"} -->
-
-<!-- wp:paragraph -->
-
-Design rules are checked for every FE point of the model portion.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-\- _Utilization type:_
-
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
-
-- **_Maximum of dominant results_: **it contains utility ratios of only one dominant load combination at every point, exactly the same as the dominant result table on Global checks tab. Consequently, there is only one option for limitation, ’More than’ the given utility ratio (%).
-
-- <!-- /wp:list-item -->
-
--
-
-* <!-- wp:list-item -->
-
-* **_Steel – Dominant results_**: it contains utility ratios of the dominant check at every point, in all load combinations. Limitations:
-
-  <!-- wp:list -->
-
-  - <!-- wp:list-item -->
-  - **_Maximum_**: to select the combinations which cause the maximum utilization. It can be the same as Maximum of dominant results, except if there are combinations where the utilization is the same and it is maximal.
-  - <!-- /wp:list-item -->
-  -
-  - <!-- wp:list-item -->
-  - **_More than % of maximum_:** to select the combinations as in ’Maximum’ plus those which cause utilization that is more than the given percentage of the maximum. E.g. at a certain point max utility ratio is 80%, Limitation= More than 90% of maximum. This rule will select all the load combinations which cause utility ratios between 0,9\*80=72% and 80%.
-  - <!-- /wp:list-item -->
-  -
-  - <!-- wp:list-item -->
-  - **_More than_**: to select the combinations which cause utilization more than the defined value at any point.
-  - <!-- /wp:list-item -->
-
-  <!-- /wp:list -->
-
-* <!-- /wp:list-item -->
-
-*
-
-- <!-- wp:list-item -->
-
-- **_Steel – General elastic cross-section resistance, Pure resistances….Global stability resistance: _**they contain the ratios of the concrete checks in every load combination at every point.
-
-- <!-- /wp:list-item -->
-
-<!-- /wp:list -->
-
-<!-- /wp:column -->
-
-<!-- wp:column -->
-
-<!-- wp:image {"align":"right","id":47460,"width":393,"height":291,"sizeSlug":"full","linkDestination":"none","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-![](./img/wp-content-uploads-2023-04-Design-rule.png)
-
-<!-- /wp:image -->
-
-<!-- /wp:column -->
-
-<!-- /wp:columns -->
-
-<!-- wp:paragraph -->
-
-<!-- /wp:paragraph -->
-
-<!-- wp:columns -->
-
-<!-- wp:column -->
-
-<!-- wp:image {"id":47368,"sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2023-04-image-20.png)
-
-<!-- /wp:image -->
-
-<!-- /wp:column -->
-
-<!-- wp:column {"width":"75%"} -->
-
-<!-- wp:paragraph -->
-
-**_Steel – Dominant results_** are produced the same way as it is done on **Global checks** tab. Except the handling of the equal maximal ratios. On **Global checks** only one maximal is shown, in the filter all is selected.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-The dominant check is not always the check which gives the maximal ratio: e.g. if plastic interaction formulas are valid, those results will be dominant over general elastic cross-section check results, although the latter are higher. If there are only cross-section check results available, the **_Steel – Dominant results_** will consider only those.
-
-<!-- /wp:paragraph -->
-
-<!-- /wp:column -->
-
-<!-- /wp:columns -->
+Nem mindig a mértékadó vizsgálat az, amelyik a legnagyobb kihasználtságot adja: ha például a képlékeny interakciós formulák érvényesek, akkor ezek eredményei dominálnak az általános rugalmas keresztmetszet-ellenőrzés eredményeivel szemben, annak ellenére, hogy az utóbbiak értékei nagyobbak. Ha csak keresztmetszeti ellenőrzési eredmények állnak rendelkezésre, akkor az Acél - mértékadó eredményekben is csak ezek fognak szerepelni.
+ 

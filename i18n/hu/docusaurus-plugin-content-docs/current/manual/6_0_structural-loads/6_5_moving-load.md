@@ -1,508 +1,512 @@
 ---
 sidebar_position: 5
 ---
-# Moving Load
+# Mozgó teher
+<!-- wp:paragraph -->
 
-EuroCode based or user defined crane and train load can be created and placed on the model manually or by the loading of an influence graph.
+A funkció segítségével, EuroCode alapú vagy teljesen felhasználó által definiált daru és vonatteher hozható létre és helyezhető a modellen kézzel, tetszőleges helyre, vagy hatásábra leterhelésével a mértékadó pozícióba.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","sizeSlug":"large","linkDestination":"media","className":"caption-align-center","captionAlignment":"center"} -->
+<!-- wp:image {"align":"center","id":36170,"sizeSlug":"full","linkDestination":"media","className":"caption-align-center is-style-editorskit-rounded","captionAlignment":"center"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-6.1-01-Train-Load.png)](./img/wp-content-uploads-2021-04-6-6.1-01-Train-Load.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/05/tab_terhek_mozgo.png)](./img/wp-content-uploads-2022-05-tab_terhek_mozgo.png)
 
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
-
-### Influence line (![](./img/wp-content-uploads-2021-04-cmd_load_path.png))
+### Hatásvonal (![](./img/wp-content-uploads-2021-04-cmd_load_path.png))
 
 <!-- /wp:heading -->
 
-<!-- wp:image {"align":"right","id":10270,"width":426,"height":223,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"right","id":36162,"width":383,"height":203,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-6.1-Moving-load-path-1.png)](./img/wp-content-uploads-2021-04-6-6.1-Moving-load-path-1.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_mozgo_hatasvonal.png)](./img/wp-content-uploads-2022-05-dial_teher_mozgo_hatasvonal.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-To place a moving load on the model or to calculate an influence graph, as a first step it is necessary to create **Influence lines **on those members where the load will be placed or moved.
+Mozgóteher elhelyezéséhez, vagy hatásábra számításához először létre kell hozni Hatásvonalat, azokon a szerkezeti elemeken, ahova a terhet szeretnénk elhelyezni, vagy az egységteher fog mozogni.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Members have to be in one straight line and have to be connected.
+Azon szerkezeti elemeken helyezhető el hatásábra, amelyek egy vonalban fekszenek és kapcsolódnak egymáshoz.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Influence line can be defined with **selection **(![](./img/wp-content-uploads-2021-04-ico-pointer.png)) or **drawing **(![](./img/wp-content-uploads-2021-04-cmd_draw.png)).
+Hatásvonal létrehozható a kiválasztással\*\* **(![](./img/wp-content-uploads-2021-04-ico-pointer.png)) vagy rajzolással** \*\*(![](./img/wp-content-uploads-2021-04-cmd_draw.png)).
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-In the first case, the **_Influence line_** will be applied onto all of the members selected with the left mouse button. The selection has to be closed with the click of the right mouse button.
+Kiválasztás esetén az összes szerkezeti elemet ki kell választani a bal egérgombbal való kattintással, amire el szeretnénk helyezni a Hatásvonalat. A kiválasztás végén a jobb egérgombbal való kattintással fejezhető be a művelet.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-In the case of drawing, the start and the endpoint of the line must be picked. The **Influence line** will be applied to all of the members which are lying under the drawing line.
+Rajzolás esetén a Hatásvonal kezdő és végpontját kell lebökni a modellben. A Hatásvonal létrehozásra kerül az összes olyan szerkezeti elemen, amely a rajzolt vonal alá esik.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Double **Influence line** can be created by selecting the check-box in the above dialogue window.
+Kettős hatásvonal is létrehozható a jelölőnégyzet bekattintásával.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
 
-### Influence graph (![](./img/wp-content-uploads-2021-04-cmd_load_influ.png))
+### Hatásábra (![](./img/wp-content-uploads-2021-04-cmd_load_influ.png))
 
 <!-- /wp:heading -->
 
-<!-- wp:image {"align":"right","id":10277,"width":353,"height":588,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"right","id":36154,"width":284,"height":471,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-6-2-Influence-Graph.jpg)](./img/wp-content-uploads-2021-04-6-6-2-Influence-Graph.jpg)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_mozgo_hatasabra.png)](./img/wp-content-uploads-2022-05-dial_teher_mozgo_hatasabra.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-To run _Influence graph_ analysis, it is necessary to set the **Influence graph** parameters.
+Hatásábra analízis futtatásához, először meg kell adni az Hatásábra paramétereket.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-(#1) As the first step, one of the previously created **Influence lines** has to be selected from the dropdown menu. New Influence line can be created also here with the three-dot button (![](./img/wp-content-uploads-2021-04-3dots-button.png)).
+(#1) A megjelenő dialógon első lépésként ki kell választani a legördülő menüből egy előzőleg létrehozott hatásvonal. Ha még nincs létrehozva hatásvonal, vagy egy ujjat szeretnénk létrehozni, akkor a három pontos (![](./img/wp-content-uploads-2021-04-3dots-button.png)) ikonra kattintva ez megtehető.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-(#2) The next step is to determine a point as the place of the investigation with the black arrow button (![](./img/wp-content-uploads-2021-04-ico-pointer.png)). This point can be anywhere in the model even outside of the influence line. _(In the current version of Consteel, the \_only\_\_ \_possibility is to select any cross-section of the model as a place of the investigation. The other two options shown light grey require further development.)_
+(#2) Következő lépésként a vizsgálat helyét kell kiválasztani a modellen kiválasztó (![](./img/wp-content-uploads-2021-04-ico-pointer.png)) funkció segítségével. (_A Consteel aktuális verziójában jelenleg még csak a modell egy tetszőleges keresztmetszete választható ki vizsgálati helynek, a másik két opció még további fejlesztést igénylenek._)
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Three types of influence graph can be analyzed (#3):
+(#3) Három fajta hatásábra választható:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 
-- Displacement
+- Elmozdulás
 
-  - Displacement in local x, y and z axis
+  - Lokális x, y és z tengely irányú elmozdulás
 
-  - Rotation around local x, y and z axis
+  - Lokális x, y és z tengelyek körüli elfordulás
 
-- Internal force
+- Igénybevétel
 
-  - Major (My) and minor (Mz) axis bending moment
+  - Erős (My) és gyenge (Mz) tengely körüli hajlítás
 
-  - Normal force (N)
+  - Normálerő (N)
 
-  - Major (Vy) and minor (Vz) axis shear
+  - Erős (Vy) és gyenge (Vz) tengely irányú nyírás
 
-  - Torsion (T)
+  - Csavarás (T)
 
   - Bimoment (B)
 
-- Reaction force
+- Reakcióerő
 
-  - Reaction force in the global X, Y and Z axis
+  - Globális X, Y és Z tengely irányú reakcióerő
 
-  - Reaction moment around the global X, Y and Z axis
+  - Globális X, Y és Z tengely körüli reakció nyomaték
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
-As a last step the direction of the unit load has to be chosen. Simultaneously more direction can be chosen, but separate graph will belong to for each directions.
+Utolsó lépésként az egységerő irányát kell kiválasztani. Egyszerre több irány is megadható, de minden irányhoz külön hatásábra fog tartozni.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-By clicking on the **Apply **button, the influence graph setting is created.
+Az **Alkalmaz** gombra kattintva a beállítások elmentődnek.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-With the **New **button another influence graph setting can be created.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4} -->
-
-#### Managing influence graphs
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-Previously created influence graphs can be managed in the table part of the dialog (#4). All of the previously created influence graphs can be seen and selected.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-After the selection, all parameters can be modified with the **Apply **button.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-The selected influence graph(s) can be deleted by pressing **Delete **button.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-With the checkboxes in the _Calculation_ column, influence graph(s) can be switched on/off for calculation.
+Az **Új** gombra kattintva létrehozható másik hatásábra is.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
 
-#### Analyze influence graph
+#### Hatásábrák kezelése
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-To run Influence graph analysis see **[Chapter 8 Structural analysis](https://consteelsoftware.com/manual/structural-analysis/)**!
+A létrehozott hatásábra beállításokat a dialóg felső, táblázatos (#4) részében lehet megtekinteni és módosítani.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+A kiválasztott hatásábra bármely paramétere változtatható és az **Alkalmaz** gombbal elmenthető.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+A **Töröl** gomb megnyomásával a kiválasztott hatásábra beállítás eltávolítható.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+A _Számítás_ oszlopban található jelölőnégyzetek segítésével hatásábra ki- és bekapcsolható az analízis számára.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":4} -->
+
+#### Hatásábrák számítása
+
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+
+Hatásábra analízis futtatását lásd a _**[8.3 Analízis beállítások](/manual/szerkezetek-analizise/analizis-beallitasok/)**_ fejezetben
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
 
-### Crane load (![](./img/wp-content-uploads-2021-04-cmd_load_crane.png))
+### Daruteher (![](./img/wp-content-uploads-2021-04-cmd_load_crane.png))
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-Three types of overhead traveling crane load can be defined:
+Három típusú fel híddaru definiálható a programban:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 
-- Standard: fully EN 1991-3 based
-- Standard load based: EN 1991-3 standard defined wheel loads have to set. Group of loads are created by _ConSteel_
-- User defined: direct wheel loads have to be set for each wheel.
+- Szabványos: teljesen EuroCode EN 1991-3 alapú
+- Szabványos teher alapú: EN 1991-3 szabvány által definiált kerékterheket kell megadni. A szükséges tehercsoportokat a Consteel előállítja
+- Egyéni: közvetlen kerékterheléseket kell megadni minden egyes kerék esetében
 
 <!-- /wp:list -->
 
-<!-- wp:image {"align":"center","id":10289,"sizeSlug":"large","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":36179,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-6-3-Crane-Load-1.png)](./img/wp-content-uploads-2021-04-6-6-3-Crane-Load-1.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_mozgo_daru3.png)](./img/wp-content-uploads-2022-05-dial_teher_mozgo_daru3.png)
 
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":4} -->
 
-#### Standard crane load
+#### Szabványos
 
 <!-- /wp:heading -->
 
-<!-- wp:image {"align":"right","id":10295,"width":410,"height":592,"sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:image {"align":"right","id":36146,"width":306,"height":448,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-![](./img/wp-content-uploads-2021-04-6-6-4-Standard.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_mozgo_daru.png)](./img/wp-content-uploads-2022-05-dial_teher_mozgo_daru.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-For the fully EN 1993-3 based standard crane load, the geometrical parameters (#1), loadings (#2), and the driving properties (#3) have to be set. The wheel loads are automatically calculated.
+A teljesen EuroCode EN 1991-3 alapú daruteherhez a geometriai paramétereket (#1), a terhelést (#2) és a meghajtási adatokat (#3) kell megadni. A paraméterek megadása után a kerékterhelések automatikusan számítódnak.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The following _geometrical properties_ can be set in the topmost part of the dialogue window (#1):
+Az alábbi geometriai paraméterek (#1) megadása szükséges:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 
-- Crane span – L \[m]: span of the crane bridge
-- Minimal distance of the trolley – emin \[m]: minimum distance between the trolley and the crane girder
-- Number of axes: Numbers of the axes of the crane bridge have to be set from the dropdown menu. The minimum number of the axis is 2, maximum is 10. Distances between the axes also have to be set.
+- Daruhíd fesztávolsága – L \[m]
+- Minimum futómacska távolság – emin \[m]: futómacska és a darupálya tartó közötti lehetséges legkisebb távolság
+- Tengelyek száma: a daruhíd tengelyeinek a száma választható ki a legördülő menüből. A tengelyek száma 2 és 10 között lehetnek. A tengelyek közötti távolságot a táblázat módosításával lehet megadni
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
-In the part of _loading properties_ (#2), the self-weight of the crane bridge (Qc1) and the trolley (Qc2) and the elevated weight (Qh) have to be set. By pressing the Dynamic factors button, the default value of the factors can be seen. Factors can be modified manually.
+A terhelési adatoknál (#2) meg kell adni a daruhíd önsúlyt (Qc1), a futómacska önsúlyt (Qc2) és az emelt súlyt (Qh) is. A Dinamikus tényezők gomb megnyomásával a dinamikus tényezők alapértékei megtekinthetők és módosíthatók.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The _driving properties_ have to be set in the next part(#3) :
+A fenti paramétereken túl még meg kell adni a meghajtási adatokat (#3) is:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 
-- Wheel drive: number of the driven wheels and the system of the wheel drive (central or individual)
-- Crane system: to select the proper EuroCode care system, please see the definition of the crane systems in the relevant part of the EN 1991-3
-- Friction factor: friction factor between the rail and the wheels
-- Guiding device: two types of guiding devices can be chosen, flanged wheels and guide pins. According to the selection, the necessary geometrical parameters of the guiding device have to be set
+- Kerék meghajtás: meg kell adni a meghajtott kerekek számát és a kerékmeghajtás típusát (központi vagy egyedi)
+- Daru rendszer: a legördítő menüből ki kell választani a megfelelő EuroCode-os darurendszert. A darurendszerek definícióját lásd az EN 1991-3 szabvány megfelelő fejezetében
+- Súrlódási tényező: meg kell adni a sín és a daru kereke közötti súrlódási tényezőt
+- Megvezető eszköz: kétfajta megvezető eszköz közül lehet választani: karimás kerék és megvezető csap. A választott eszköznek megfelelően meg kell adni a szükséges geometriai paramétereket
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
-The automatically calculated wheel loads for each load case can be seen in the table (#4). The load cases can be changed with the dropdown menu.
+Az automatikusan előállított kerékterhelések a dialóg alján található táblázatban (#4) megtekinthetők. A tehereset a legördülő menü segítségével változtatható.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"right","id":10301,"width":443,"height":608,"sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:image {"align":"right","id":36138,"width":324,"height":443,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-![](./img/wp-content-uploads-2021-04-6-6-3-Satndard-load-based.jpg)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_mozgo_daru2.png)](./img/wp-content-uploads-2022-05-dial_teher_mozgo_daru2.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-In the name of the wheels, the first prefix means the number of the axis; the second means the number of the wheel.
+A kerekek nevében az első tag a tengely számát, míg a második a kerék számát jelöli.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
 
-#### Standard load based crane load
+#### Szabványos teher alapú
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-For the standard load-based crane load, the numbers of the axis and the standard wheel loads have to be set.
+A szabványos teher alapú daruteher esetén a daru tengelyeinek a számát és az egyes szabványos kerékterheket kell megadni.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-In the _geometrical properties_ field (#1) the number of the axes of the crane bridge has to be set from the dropdown menu. The minimum number of the axis is 2, maximum is 10. Distances between the axes also have to be set.
+A geometriai adatok (#1) mezőben a daruhíd tengelyeinek a száma választható ki a legördülő menüből. A tengelyek száma 2 és 10 között lehetnek. A tengelyek közötti távolságot a táblázat módosításával lehet megadni.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-In the _Wheel loads_ field (#2) the Eurocode-based wheel loads have to be set for each wheel. By pressing the **Dynamic factors** button, the default value of the factors can be seen. Factors can be modified manually.
+A második mezőben (#2) az EuroCode alapú kerék terheket kell megadni minden egyes kerék esetén. A Dinamikus tényezők gomb megnyomásával a dinamikus tényezők alapértékei megtekinthetők és módosíthatók.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The automatically calculated wheel loads for each load case can be seen in the lowest table (#3). The load cases can be changed with the dropdown menu.
+Az automatikusan előállított kerékterhelések a dialóg alján található táblázatban (#3) megtekinthetők. A tehereset a legördülő menü segítségével változtatható.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-In the name of the wheels, the first prefix means the number of the axis; the second means the number of the wheel.
+A kerekek nevében az első tag a tengely számát, míg a második a kerék számát jelöli.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
 
-#### User defined crane load
+#### Egyéni daruteher
 
 <!-- /wp:heading -->
 
-<!-- wp:paragraph -->
+<!-- wp:image {"align":"right","id":36187,"width":297,"height":238,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-For the user defined crane load the following parameters have to be set:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"right","id":10307,"width":297,"height":238,"sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2021-04-6-6-3-User-defined.jpg)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_mozgo_daru_egyeni.png)](./img/wp-content-uploads-2022-05-dial_teher_mozgo_daru_egyeni.png)
 
 <!-- /wp:image -->
+
+<!-- wp:paragraph -->
+
+Egyéni daruteher esetén az alábbi paraméterek megadása szükséges:
+
+<!-- /wp:paragraph -->
 
 <!-- wp:list -->
 
-- The numbers of the axes of the crane bridge have to be set from the dropdown menu. The minimum number of the axis is 2, maximum is 10. Distances between the axes also have to be set.
-- Three directions (Fx, Fy, and Fz) of the wheel loads have to be set for each wheel
+- Tengelyek száma: a daruhíd tengelyeinek a száma választható ki a legördülő menüből. A tengelyek száma 2 és 10 között lehetnek. A tengelyek közötti távolságot a táblázat módosításával lehet megadni
+- Kerékterhelések három irányú (Fx, Fy és Fz) komponense minden egyes kerék esetében
 
 <!-- /wp:list -->
 
 <!-- wp:heading {"level":4} -->
 
-#### Placing the crane load
+#### Daruteher elhelyezése
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-There is two ways to place crane load on the model, but before placing the defined crane load has to be saved with the **Apply **button.
+Daruteher kétféle képen helyezhető el a modellen, de mindenekelőtt az **Alkalmaz** gombra kattintva a létrehozott daruterhet el kell menteni.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"style":{"typography":{"fontSize":18}}} -->
+<!-- wp:image {"align":"right","id":36195,"width":768,"height":388,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-**Placing crane load manually**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-By pressing the **Place load** button on the bottom of the **Crane load** dialog, the selected load case can be placed manually on the model. _(The Crane load dialogue window has to be closed manually after clicking on the Place load button!)_
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":10313,"width":604,"height":376,"sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2021-04-6-6-4-Placing-crane-load.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-First an influence line need to be chosen with the left mouse button. Then the loads have to be placed along selected influence line by pressing the left mouse button.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-Direction of the placement, position of the maximal wheel load and the snap point of the positioning can be selected from the dropdown menus.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"right","id":10319,"width":551,"height":328,"sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2021-04-6-6-3-Placing-Crane-load.png)
+[![](./img/wp-content-uploads-2022-05-scr_teher_mozgo_daru_egyeni-1024x517.png)](https://consteelsoftware.com/wp-content/uploads/2022/05/scr_teher_mozgo_daru_egyeni.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontSize":18}}} -->
 
-**Placing crane load by loading influence graph**
+**Kézi daruteher elhelyezés**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Crane load can be placed on the model by loading an influence graph.
+A Daruteher dialóg alján található Teher elhelyezése gomb segítségével a kiválasztott daru tehereset kézzel elhelyezhető a modellen.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-To analyze an influence graph please see Chapter 6.6.2 and Chapter 8.
+Első lépésként ki kell választani a bal egérgombbal a hatásvonalat, amire a terhet el szeretnénk helyezni. A kiválasztás után a bal egérgombbal lehelyezhető a daruteher a hatásvonal mentén.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-To place a crane load by loading an influence graph, please select the _Influence graph_ analysis type from the first dropdown menu on the **Analysis **tab and click with the right mouse button on the graphical area and select** Load influence** line from the appeared menu.
+Az elhelyezés iránya, a maximális kerékterhelés pozíciója és az elhelyezés fogópontja kiválasztható a legördülő menük segítségével.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"left","id":10325,"width":327,"height":325,"sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:spacer {"height":"1px"} -->
 
-![](./img/wp-content-uploads-2021-04-6-6-3-4-Placing-Crane-Load.jpg)
+<!-- /wp:spacer -->
+
+<!-- wp:image {"align":"right","id":36204,"width":490,"height":294,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![](https://consteelsoftware.com/wp-content/uploads/2022/05/scr_teher_mozgo_hatasabraleterheles.png)](./img/wp-content-uploads-2022-05-scr_teher_mozgo_hatasabraleterheles.png)
+
+<!-- /wp:image -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":18}}} -->
+
+**Daruteher elhelyezése hatásábra leterhelésével**
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+Daruteher hatásábra leterhelésével is elhelyezhető a modellen.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+Hatásábra analízis futtatását lásd a 6.6.2 és a 8. fejezetben!
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+Hatásábra leterhelésével való daruteher elhelyezéshez, az **Analízis** fülön a _Hatásábra analízis_ típust kell választani. A leterhelendő hatásábra kiválasztása után a grafikus felületre jobb egérgombbal kell kattintani és megjelenő menüből a **Hatásábra leterhelése** menüpontot kell kiválasztani.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"left","id":36212,"width":317,"height":317,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_mozgo_hatasabraleterheles.png)](./img/wp-content-uploads-2022-05-dial_teher_mozgo_hatasabraleterheles.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-In the _Moving load_ field (#1) the loading properties can be set:
+A _Mozgóteher_ mezőben (#1) a terhelés tulajdonságait lehet beállítani:
 
 <!-- /wp:paragraph -->
 
-<!-- wp:list {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+<!-- wp:list {"type":"A"} -->
 
-- From the first dropdown menu, one of the previously created crane load can be selected to place
-- Load group: in the case of standard or standard load base crane, Eurocode load groups are automatically created. Influence graph can be loaded by the selected load groups or by the dominant if the _Automatic_ function is selected from the dropdown menu
-- Position of maximal wheel load: vertical wheel loads depend on the position of the trolley. Maximum vertical wheel load could be on the left or the right path, or the dominant position can be automatically detected if the Automatic function is selected from the dropdown menu
+- Az első legördülő menüből lehet kiválasztani az elhelyezni kívánt daruterhet
+- Tehercsoport: szabványos és szabványos teher alapú daruteher esetén, a tehercsoportok automatikusan előállítódnak. Hatásábra leterhelhető valamelyik kiválasztott tehercsoporttal, vagy az _Automatikus_ funkció használatával a mértékadó esettel
+- Maximális kerékterhelés pozíciója: függőleges kerékterhelés függ a futómacska pozíciójától. A maximális függőleges kerékterhelés lehet a jobb vagy a balpályán, vagy az _Automatikus_ funkció használatával a mértékadó állásban
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
-With the **Positive zone **and **Negative zone** buttons in the _Loading field_ (#2), the influence graph can be loaded. If the **Positive zone **button is used then the loading gives the maximum positive value in the section, if the Negative zone button is used then the loading gives the maximum negative value in the section. The position of the load and the current value in the section appear.
+A _Leterhelés mezőben_ (#2) található **Pozitív tartomány** és **Negatív tartomány** gombok segítségével a hatásábra leterhelhető. **Pozitív tartomány** használata esetén a leterhelés a maximális pozitív értéket fogja adni a keresztmetszetben, **Negatív tartomány** használata esetén a maximális negatívot. A terhelés pozíciója megjelenik a grafikus felületen, a leterhelés okozta maximális érték pedig a dialógon.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The placed load can be saved to a load case by the function of the Save loading field (#3). With the dropdown menu, one of the previously created load cases can be selected to save, or with the three-dot button, a new one can be created. With the Save button, the placed load can be saved to the selected load case.
+Az elhelyezett teher elmenthető valamelyik teheresetbe, a _Teherállás mentése_ (#3) mező funkciónak a segítségével. A legördülő menüből kiválasztható valamelyik már létrehozott tehereset, vagy a három pontos ikonra kattintva létrehozható egy új eset. A **Mentés** gombra kattintva az elhelyezett teher elmenthető a kiválasztott teheresetbe.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"right","id":10331,"width":446,"height":596,"sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:image {"align":"right","id":36221,"width":360,"height":494,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-![](./img/wp-content-uploads-2021-04-6-6-4-Train-Load.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_mozgo_vonat.png)](./img/wp-content-uploads-2022-05-dial_teher_mozgo_vonat.png)
 
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
 
-### Train load (![](./img/wp-content-uploads-2021-04-cmd_load_train.png))
+### Vonatteher (![](./img/wp-content-uploads-2021-04-cmd_load_train.png))
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-Two types of train load can be created and placed on the model.
+Két fajta vonatteher hozható létre.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontSize":18}}} -->
 
-**Standard train load**
+**Szabványos vonatteher**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-From the dropdown menu, three types of Eurocode-defined train load can be selected. In the tables, the properties of the selected one can be seen.
+A legördülő menüből kiválasztható három, előre definiált EuroCode szabvány szerinti vonatteher. A teher paraméterei megtekinthetők a lenti táblázatokban.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontSize":18}}} -->
 
-**User defined train load**
+**Egyéni vonatteher**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-In the case of _User defined_ train load, the tables of concentrated and member forces are editable. With the plus (![](./img/wp-content-uploads-2021-04-cmd_plus.png)) and minus (![](./img/wp-content-uploads-2021-04-cmd_minus.png)) buttons a new row can be added to the table and the selected row can be removed from the table.
+_Egyéni_ esetben a koncentrált és a megoszló terhek táblázata szerkeszthető. A ![](./img/wp-content-uploads-2021-04-cmd_plus.png)és a![](./img/wp-content-uploads-2021-04-cmd_minus.png)gombok segítségével egy új sor adható hozzá, illetve vonható ki a táblázatokból.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-In the case of concentrate load the three directions and the position of the load can be set.
+Koncentrált teher esetén a teher három komponensét és a pozícióját kell megadni.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-In the case of line load, the intensity of load can be set on the start and the endpoint in the three directions, and the position of the endpoints can be set.
+Megoszló teher esetén a kezdő és végponti intenzitás három komponensét, illetve a kezdő és a végpont pozícióját kell megadni.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The placing of the train load is the same as for the crane load. Please see Chapter 6.6.3.4.
+Vonatteher elhelyezése megegyezik a daruteher darutehernél bemutatottakkal (lásd 6.6.3.4 fejezetet).
 
 <!-- /wp:paragraph -->

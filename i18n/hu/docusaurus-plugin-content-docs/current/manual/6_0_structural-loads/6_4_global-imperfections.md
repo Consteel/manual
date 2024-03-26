@@ -1,351 +1,324 @@
 ---
 sidebar_position: 4
 ---
-# Global imperfections
+# Globális imperfekciók
+<!-- wp:image {"align":"center","id":36054,"width":552,"height":82,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-5-Global-imperfections.png)](./img/wp-content-uploads-2021-04-7-5-Global-imperfections.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-Three types of global imperfection can be applied on the model with the **_Global imperfection_** (![](./img/wp-content-uploads-2021-04-cmd_load_imp.png)) function. Several numbers of imperfections can be created, but only one can be used for the analysis at the same time. Used imperfection can be set for the analysis at the Analysis tab’s Set analysis parameters dialog (chapter 8.4).
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"right","id":14074,"width":239,"height":354,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/dia_imp_notional.png)](./img/wp-content-uploads-2021-04-dia_imp_notional.png)
-
-<!-- /wp:image -->
-
-<!-- wp:heading {"level":3} -->
-
-### Notional Load
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-Initial imperfections can be taken into account by the application of notional loads.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"align":"justify"} -->
-
-On the basis of the selected load groups, the notional loads will be generated automatically in the selected load combinations. Direction of the notional loads can be defined automatically or can be set for every load combinations.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"align":"justify"} -->
-
-_Multiplication factor for magnitude of notional load (Ni)_ can be selected from the dropdown menu, or can be type manually. This factor means how much percentage of the selected loads will be act as a notional load. Value can be between 0 and 1.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"right","id":14080,"width":239,"height":354,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/dia_imp_sway.png)](./img/wp-content-uploads-2021-04-dia_imp_sway.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/05/tab_terhek_imperf.png)](./img/wp-content-uploads-2022-05-tab_terhek_imperf.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-Pressing the **Apply **or the **OK **button the notional load will be created.
+Három fajta globális imperfekció alkalmazható a modellen a **Globális imperfekciók** (![](./img/wp-content-uploads-2021-04-cmd_load_imp.png)) funkció segítségével. Számos globális imperfekció hozható létre, de egyszerre csak egy használható. A használt imperfekció az Analízis fül **_[Analízis paraméterek](/manual/szerkezetek-analizise/analizis-beallitasok/)_** dialógján választható ki ([lásd 8.4 fejezet](/manual/szerkezetek-analizise/analizis-beallitasok/)).
 
 <!-- /wp:paragraph -->
 
+<!-- wp:image {"align":"right","id":36062,"width":288,"height":438,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_terhek_imperf_helyettesito.png)](./img/wp-content-uploads-2022-05-dial_terhek_imperf_helyettesito.png)
+
+<!-- /wp:image -->
+
 <!-- wp:heading {"level":3} -->
 
-### Initial sway
+### Vízszintes helyettesítő erőrendszer
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-Initial sway can be set for the whole model.
+Kezdeti ferdeség felvehető vízszintes helyettesítő erőrendszer használatával is.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"justify"} -->
+
+A kiválasztott tehercsoportok alapján a vízszintes helyettesítő erőrendszer automatikusan előállításra kerül a kiválasztott teherkombinációkban. Az erőrendszer iránya meghatározható automatikusan a _Consteel_ által, vagy megadható minden egyes teherkombináció esetén.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"justify"} -->
+
+_Szorzó tényező a helyettesítő terhek meghatározásához (Ni)_ kiválasztható a legördülő menüből, vagy megadható kézzel is.\_ A szorzótényező adja meg, hogy a kiválasztott terhek hány százaléka működjön, mint vízszintes helyettesítő erőrendszer. A tényező értéke 0 és 1 között változhat.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-With the **New **button several initial sway can be created or can be deleted by the **Delete **button.
+Az **Alkalmaz** vagy a **Rendben** gomb megnyomásával létrehozható a definiált erőrendszer.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
+<!-- wp:spacer {"height":"1px"} -->
 
-To create an initial sway, the direction, height of base level and the extent of initial sway (1/Fi) have to be given.
+<!-- /wp:spacer -->
 
-<!-- /wp:paragraph -->
+<!-- wp:image {"align":"right","id":36070,"width":288,"height":438,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-<!-- wp:paragraph -->
+[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_terhek_imperf_kezdetiferdeseg.png)](./img/wp-content-uploads-2022-05-dial_terhek_imperf_kezdetiferdeseg.png)
 
-Pressing the **Apply **or the **OK **button the initial sway will be created.
-
-<!-- /wp:paragraph -->
+<!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
 
-### Application of eigenshape
+### Kezdeti ferdeség
+
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+
+Kezdeti ferdeség a teljes modellre adható meg.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+Az **Új** gomb megnyomásával tetszőleges számú kezdeti ferdeség hozható létre. Előzőleg létrehozott kezdeti ferdeség a **Töröl** gomb megnyomásával törölhető.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+Kezdeti ferdeség létrehozásához meg kell adni a ferdeség irányát, alapszint magasságát és a kezdeti ferdeség mértékét (1/Fi).
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+Az **Alkalmaz** vagy a **Rendben **gomb megnyomásával létrehozható a definiált kezdeti ferdeség.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:spacer {"height":"1px"} -->
+
+<!-- /wp:spacer -->
+
+<!-- wp:image {"align":"right","id":36078,"width":530,"height":354,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![](https://consteelsoftware.com/wp-content/uploads/2022/05/scr_sajatalak_alkalmazasa.png)](./img/wp-content-uploads-2022-05-scr_sajatalak_alkalmazasa.png)
+
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":3} -->
+
+### Sajátalak applikáció
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Previously calculated buckling modes can be applied universally as a geometric imperfection for all of the load combinations. Even more buckling modes, as an imperfection case, can be easily superposed as one imperfection.
+Előzőleg már leszámolt kihajlási alakok is felvehetők, mint geometriai imperfekció. Egyszerre több kihajlási alak is egymásra halmozható és alkalmazható, mint egy imperfekció.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
 
-#### Apply eigenshapes
+#### Kihajlási sajátalak alkalmazása
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-Previously performed buckling analysis is needed to apply an eigenshape as an imperfection.
+Kihajlási sajátalak alkalmazásához előzőleg le kell futtatni a stabilitás számítást.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-On the **Analysis **tab’s Buckling result view either calculated buckling mode can set as imperfection.
+Az **Analízis** fül Kihajlás eredménynézet bármelyik meghatározott kihajlási alakja alkalmazható imperfekcióként.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-After selecting the proper eigenshape, and by clicking in the graphical area with right mouse button and choosing the _Apply eigenshapes as an imperfection_ option, the parameters of the imperfection can set.
+A használni kívánt kihajlási alak kiválasztása után a grafikus felületen jobb egérgombbal kell kattintani, majd a megjelenő menün a _Sajátalak alkalmazása imperfekcióként_ menüpontot kell kiválasztani.
 
 <!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":10200,"width":725,"height":344,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-5-Apply-eigenshape-as-imperfection.png)](./img/wp-content-uploads-2021-04-7-5-Apply-eigenshape-as-imperfection.png)
-
-<!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-On the setting dialog the following parameters can be set:
+A megjelenő ablakban az alábbi paramétereket lehet megadni:
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"right","id":14086,"width":233,"height":416,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"right","id":36086,"width":233,"height":416,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/dia_imp_shape.png)](./img/wp-content-uploads-2021-04-dia_imp_shape.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_sajatalak_alkalmazasa.png)](./img/wp-content-uploads-2022-05-dial_sajatalak_alkalmazasa.png)
 
 <!-- /wp:image -->
 
 <!-- wp:list {"type":"I","className":"is-style-default"} -->
 
-- _Imperfection group_: any eigenshape will belong to an imperfection group, which can be selected from the list. One imperfection group can contain more than one eigenshapes. If more than one eigenshapes are in an imperfection group, the effects of the eigenshapes will be added up during the application. With the **New group **button, a new group can be created.
-
-- _Name of imperfection case:_ unique name can be added for the imperfection
-
-- _Type of imperfection:_
-
-  - Overall: the imperfection case will be used for all of the load combinations
-  - Local: the imperfection will only be used in the load combination that caused the selected buckling shape used
+- _Imperfekciós csoport_: minden kiválasztott sajátalak egy imperfekciós csoportba fog kerülni, ami a legördítő menüből választható ki. Egy csoport tartalmazhat több sajátalakot is. Ebben az esetben a sajátalakok hatása összeadódik az analízis során. Az **Új csoport **gomb segítségével létrehozható új imperfekciós csoport is.
+- _Imperfekció eset neve:_ egyedi név adható meg az imperfekciós esetnek
 
 <!-- /wp:list -->
 
-<!-- wp:list -->
+<!-- wp:list {"type":"I","className":"is-style-default"} -->
 
-- _Modelling of imperfection:_
+- _Imperfekció típusa:_
 
-  - Complete: buckling mode will be applied on the model with all of the freedom (node displacement, rotation, warping)
+  - Teljes: imperfekció az össze teherkombinációban használva lesz
+  - Lokális: az imperfekció csak abban a teherkombinációban lesz használva, amely a felhasznált kihajlási alakot okozta
 
-  - Nodal disp.: only the nodal displacement will be applied as imperfection
+- _Imperfekció modellezése:_
 
-- _Sign of amplitude:_
+  - Teljes: kihajlási alak minden elmozdulási komponense alkalmazásra kerül a modellen (csomóponti eltolódás, elfordulás és öblösödés)
+  - Csak eltolódás: csak a csomóponti elmozdulások kerülnek alkalmazásra
 
-  - Automatic: direction of the imperfection will be set properly for each of the load combinations; in case of normal way selection, for local imperfection type, only the manual option is available
+- _Amplitúdó előjele:_
 
-  - Manual: direction of the imperfection will be accordingly to the sign of the given amplitude value
+  - Automatikus: imperfekció iránya minden egyes teherkombinációban a többi tehernek megfelelően kerül meghatározásra
+  - Kézi: az imperfekció iránya a megadott amplitúdó előjelének megfelelően kerül meghatározásra
 
-- _Type of amplitude_:
+- _Amplitúdó típusa_:
 
-  - _mm value:_ maximum displacement value of the eigenshape can be given in mm. The other displacement values will be commensurable to the given amplitude.
+  - _mm érték_: a kihajlási alak maximális elmozdulásának értéke adható meg mm-ben. A többi elmozdulási érték a megadott értékből kerül meghatározásra arányosítással
+  - _szorzófaktor_: a számított elmozdulási értékek a megadott értékkel kerülnek felszorzásra
 
-  - _multiplication factor:_ the calculated displacement values can be multiplied with this factor
-
-- _Value of amplitude_: value of the previously selected amplitude type has to be given
+- _Amplitúdó értéke_: az előzőleg kiválasztott amplitúdó típusának értéke adható meg
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
-Pressing the **OK **button the eigenshape is applied as an imperfection with the set parameters.
+A Rendben gomb megnyomásával a kiválasztott sajátalak kiválasztásra kerül imperfekcióként.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
 
-#### Automatic amplitude calculation
+#### Automatikus sajátalak amplitúdó meghatározás
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-Applying any imperfection, it is always a problem how to define the proper amplitude to have safe but economic results. The Eurocode EN 1993-1-1 gives some limited guidance for certain cases, based on these guidelines and self-developed procedures, ConSteel can automatically determine the amplitude of imperfection using three different methods.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-Click the three-dot icon (![](./img/wp-content-uploads-2021-04-3dots-button.png)) next to the \_Value of \_Amplitudefield in the dialog shown above. A new dialog box will appear where you can choose from the three possible amplitude calculation methods.
+Imperfekció alkalmazása esetén állandó probléma a megfelelő (biztonságos, de egyben gazdaságos megoldást adó) amplitúdó meghatározása. EuroCode EN 1993-1-1 szabványban található néhány korlátozottan használható iránymutatás. Ezen iránymutatások, illetve saját fejlesztésű eljárások alapján a _Consteel_ automatikusan meg tudja határozni az imperfekció amplitúdóját. Erre három különböző módszer áll rendelkezésre. Az automatikus amplitúdó meghatározáshoz az _Amplitúdó értéke_ mező mellett található három pontos ikonra kell kattintani (![](./img/wp-content-uploads-2021-04-3dots-button.png)), az előzőekben már bemutatott dialógon. Ekkor egy új párbeszédablak jelenik meg a három lehetséges amplitúdó számítási módszer használatához.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 
-- _Equivalent initial bow imperfection_
+- _Ekvivalens kezdeti görbeség_
 
 <!-- /wp:list -->
 
-<!-- wp:image {"align":"right","id":14092,"width":424,"height":263,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"right","id":36094,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/dia_imp_ampl_EC.png)](./img/wp-content-uploads-2021-04-dia_imp_ampl_EC.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_sajatalak_amplitudo_ekvi_kezdeti_gorbeseg.png)](./img/wp-content-uploads-2022-05-dial_sajatalak_amplitudo_ekvi_kezdeti_gorbeseg.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-This option is based on table EN 1993-1-1 5.3.2 (3)b where initial bow amplitude ratios are defined depending on the corresponding buckling curve of the selected member. In order to evaluate the proper amplitude, the equivalent member length should also be specified (which is not necessarily equal to the system length of the selected member…) and the calculated value is displayed in mm. For the lateral-torsional buckling problem, an additional multiplication factor (k) can be defined for the amplitude. It is important to note that these values are officially valid only for simply supported straight, prismatic members with uniform compression (or bending), for other situations the user has to consider the special support, geometry, or loading effects when defining the initial bow. Finally, the calculated value (e0) is accepted by the **OK **button which automatically gets into the _Value of amplitude_ input field.
+Ennek az eljárásnak az EuroCode 1993-1-1 szabvány 5.3.2 (3)b táblázata az alapja, amelyben a kezdeti lokális görbeség tervezési értékei vannak meghatározva, kihajlási görbék szerint. Az amplitúdó meghatározásához meg kell adni az ekvivalens szerkezeti elemhosszt (ami nem feltétlenül egyenlő a szerkezeti elem tényleges hosszával). Ezek után a számított érték megjelenik a dialógon. Kifordulás esetén egy plusz tényezőt (k) is meg kell adni. Fontos megjegyezni, hogy ezek az értékek hivatalosan csak csuklósan megtámasztott, egyenes, állandó keresztmetszetű és egyenletes normálerővel vagy nyomatékkal terhelt szerkezeti elemre igaz. Más esetben a felhasználónak kell figyelembe vennie a kezdeti görbeség meghatározása során a speciális megtámasztás, geometria, illetve terhelés hatását. Végezetül a számított értéket (e0) a **Rendben** gomb megnyomásával lehet elfogadni, ami automatikusan beíródik az _Amplitúdó mértéke_ mezőbe.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 
-- _Equivalent imperfection based on the elastic critical buckling shape_
+- **Ekvivalens imperfekció a rugalmas stabilitásvesztési alak alapján**
 
 <!-- /wp:list -->
 
-<!-- wp:image {"align":"right","id":14098,"width":374,"height":275,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"right","id":36119,"width":311,"height":306,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/scr_imp_apply_shape.png)](./img/wp-content-uploads-2021-04-scr_imp_apply_shape.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_sajatalak_amplitudo_sajatalak_2.png)](./img/wp-content-uploads-2022-05-dial_sajatalak_amplitudo_sajatalak_2.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-This option is based on the rules of EN 1993-1-1 5.3.2 (11). Since these rules are strongly connected to member parameters (cross-section type, shape, properties, buckling curve, etc.) the first task is the selection of a reference member which would be the suitable base for the amplitude calculations. This can be done by right click on the selected member and then choose the Apply eigenshape as imperfection where, as feedback, the name of the selected member is also appearing (e.g. B3). The selected member should be the dominant one in the certain buckling mode.
+Ez az eljárás az EuroCode 5.3.2 (11) pontjában található előírásokon alapszik. Mivel ezek az iránymutatások erősen kötődnek a szerkezeti elem paramétereihez (keresztmetszet típusa, alakja, tulajdonságai, kihajlási görbéje stb.), ezért első lépésként ki kell jelölni a referencia elemet, amely alkalmas lehet az amplitúdó meghatározásához. Ehhez a _Sajátalak alkalmazása imperfekcióként_ parancsot az alkalmasnak talált referencia elemen történő jobb egér gomb kattintással kell kiválasztani a megjelenő menüből. A funkció neve mögött ilyenkor zárójelben megjelenik a kiválasztott elem neve is. A kiválasztott elemnek dominánsnak kell lennie a kihajlási sajátalakban.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-This method calculates fully automatically the amplitude value based on the selected axis of buckling with the following steps:
+Az eljárás teljesen automatikusan számítja az amplitúdó értékét a kiválasztott kihajlási tengely alapján, az alábbi lépések szerint:
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+<!-- wp:image {"align":"right","id":36111,"width":312,"height":203,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-1\. Calculation of the internal forces at the FE nodes of the member from the deformed shape equal to the selected buckling mode
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-2\. Determination of the critical position where the relevant bending moment (My or Mz calculated in 1.) is the highest
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-3\. Read the following information at the critical position:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-i. Normal force value \[NEd] from the first order analysis (without imperfection) – this value must be compression
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-ii. Relevant bending moment \[My or Mz later displayed as MII denoted as EIhcr,max in the standard] I
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-iii. Cross section properties \[class for compression, yield stress, area, relevant section modulus (Wy or Wz), relevant buckling curve]
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"right","id":10207,"width":283,"height":477,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-5-Equivalent-amplitude-for-buckling-mode.png)](./img/wp-content-uploads-2021-04-7-5-Equivalent-amplitude-for-buckling-mode.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_sajatalak_amplitudo_sajatalak.png)](./img/wp-content-uploads-2022-05-dial_sajatalak_amplitudo_sajatalak.png)
 
 <!-- /wp:image -->
 
+<!-- wp:list {"ordered":true,"type":"1","className":"is-style-default"} -->
+
+1. Igénybevételek meghatározása a szerkezeti elem végeselem pontjaiban a kiválasztott kihajlási alakkal megegyező deformált alakból
+
+2. Kritikus hely meghatározása, ahol a legnagyobb a megfelelő hajlító (1. pontban meghatározott My vagy Mz) nyomaték
+
+3. Az alábbi információk kiolvasása a kritikus pontból:
+
+   - Normálerő értéke \[NEd] elsőrendű analízis alapján (imperfekciók nélkül) – normálerőnek nyomásnak kell lennie
+   - Megfelelő hajlító nyomaték értéke \[My vagy Mz, továbbiakban MII-vel jelöli a szoftver. A szabványban EIhcr,max -nel jelölik]
+   - Keresztmetszet tulajdonságai \[nyomás szerinti osztályozás, folyási határfeszültség, megfelelő keresztmetszeti modulus (Wy vagy Wz), megfelelő kihajlási görbe]
+
+<!-- /wp:list -->
+
 <!-- wp:paragraph {"align":"justify"} -->
 
-Finally the calculated value (hinit,max) is accepted by the **OK **button which automatically gets into the ‘Value of amplitude’ input field. This calculation is only applicable to buckling problems of a dominantly compressed member but with arbitrary support condition.
+Végezetül a számított értéket (hinit,max) a **Rendben** gomb megnyomásával lehet elfogadni, ami automatikusan beíródik az _Amplitúdó mértéke_ mezőbe. Fontos megjegyezni, hogy ez az előjárás csak nyomott szerkezeti elemek (tetszőleges megtámasztással) kihajlási problémájára ad megoldást.
 
 <!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"right","id":36103,"width":283,"height":477,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_sajatalak_amplitudo_OIM.png)](./img/wp-content-uploads-2022-05-dial_sajatalak_amplitudo_OIM.png)
+
+<!-- /wp:image -->
 
 <!-- wp:list -->
 
-- _Overall Imperfection Method (OIM)_
+- _Egyenértékű tökéletlenség módszere (Overall Imperfection Method, OIM)_
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Consteel's new, self-developed method for automatically determining the amplitude of imperfection, in full compliance with Eurocode regulations. A second-order analysis based imperfection scaled by this method and a cross-section design give the same utilization result as the conventional reduction factor method. This new method developed at Consteel is a fully generalized solution for the case of a simply-supported prismatic column loaded with centric concentrated force, which can be used for any non-uniformly or eccentrically loaded, arbitrarily supported member even with variable cross-section, and is fully compatible with EC. For example, for the above-mentioned simple case, the result is 100% equal to the result of the conventional reduction factor method.
+A Consteel új, saját fejlesztésű módszere az imperfekció amplitúdójának automatikus meghatározására, teljes összhangban az Eurocode előírásaival. A módszer által meghatározott amplitúdóval skálázott imperfekciós másodrendű analízis és keresztmetszet méretezés ugyan azt a kihasználtság eredményt adja, mint a hagyományos teherbírási csökkentő tényezős méretezés. A Consteel-ben kifejlesztett új módszer a koncentrált erővel terhelt, prizmatikus, csuklós nyomott rúd egyszerű esetének a teljesen általánosított megoldása, amely bármilyen, nem egyenletes terhelésű, akár változó keresztmetszetű, külpontosan terhelt, és tetszőleges megtámasztású elemekre is használható, és teljesen összhangban van a szabvánnyal. Az egyszerű nyomott oszlop estében például az eredmény 100%-ban megegyezik a csökkentő tényezős módszer eredményével.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
+<!-- wp:spacer {"height":"1px"} -->
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-<!-- /wp:paragraph -->
+<!-- /wp:spacer -->
 
 <!-- wp:heading {"level":4} -->
 
-#### Managing eigenshapes
+#### Sajátalakok kezelése
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Previously created imperfection groups and imperfection cases (applied eigenshapes) can be managed on the **Global Imperfections** dialog’s **Application of eigenshape** tab.
+A már létrehozott imperfekciós csoportok és az azokban lévő, alkalmazott sajátalakok a **Globális imperfekciók** dialóg **Sajátalak applikáció** fülén tekinthetők meg és szerkeszthetők.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-By the first dropdown menu, imperfection groups can be switched, and whole imperfection group can be deleted with the Delete button.
+A felső legördítő menüből választható ki az imperfekciós csoport. A **Töröl** gombbal az egész csoport törölhető, beleértve az alkalmazott sajátalakokat is.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-In the middle part of the dialog can be seen the imperfection cases (applied eigenshapes) in the selected imperfection group. With the checkboxes in the first column each imperfection cases can be turn off and on. In the following columns, all of the previously setted parameters can checked and modified.
+A dialóg középső részén látható(ak) a kiválasztott imperfekciós csoportban lévő imperfekciós esetek (alkalmazott sajátalakok). Az első oszlopban található jelölő négyzetekkel minden egyes imperfekció eset ki- és bekapcsolhatók. A táblázat többi oszlopában a beállított paraméterek láthatók és módosíthatók.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-With the **Delete row** button the selected imperfection cases can be deleted from the imperfection group.
+A **Sor törlése** gomb segítségével a kijelölt imperfekciós esetek törölhetők.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":10213,"width":662,"height":527,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":36128,"width":512,"height":407,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-5-Global-imperfections_delete-row.png)](./img/wp-content-uploads-2021-04-7-5-Global-imperfections_delete-row.png)
-
-<!-- /wp:image -->
+[![](./img/wp-content-uploads-2022-05-tabl_imperfekciok-1024x813.png)](https://consteelsoftware.com/wp-content/uploads/2022/05/tabl_imperfekciok.png)

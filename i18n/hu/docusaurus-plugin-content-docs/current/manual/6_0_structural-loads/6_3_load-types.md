@@ -1,417 +1,322 @@
 ---
 sidebar_position: 3
 ---
-# Load types
+# Tehertípusok
+<!-- wp:paragraph -->
 
-Any placed load will belong to the load case selected from the list.
+A terhek modellezése a Terhek fülön elhelyezett funkciókkal történik. Minden elhelyezésre kerülő teher a legördülő menüből kiválasztott teheresethez fog tartozni.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":9958,"width":556,"height":71,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":35840,"width":489,"height":65,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Load-types.png)](./img/wp-content-uploads-2021-04-7-4-Load-types.png)
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/05/tab_terhek_teheresetek_kivalaszt.png)](./img/wp-content-uploads-2022-05-tab_terhek_teheresetek_kivalaszt.png)
+
+<!-- /wp:image -->
+
+<!-- wp:image {"align":"right","id":35848,"width":358,"height":257,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_koncentralt.png)](./img/wp-content-uploads-2022-05-dial_teher_koncentralt.png)
 
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
 
-### Point load (![](./img/wp-content-uploads-2021-04-cmd_load_point.png))
+### Koncentrált teher (![](./img/wp-content-uploads-2021-04-cmd_load_point.png))
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Point loads can be placed on any part of a line member or surface member (predefined points are not needed; end points or snap points can be used).
+Koncentrált teher vonal és felület elemen bárhol elhelyezhető (előre definiált pontokra nincs szükség; végpontok és fogópontok egyaránt használhatók a terhek elhelyezésére).
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Point loads can be placed according to the **Global (**![](./img/wp-content-uploads-2021-04-create_coord_gcs.png)**)**, **Local (**![](./img/wp-content-uploads-2021-04-create_coord_loc.png)**)** or the **User coordinate system (**![](./img/wp-content-uploads-2021-04-create_coord_ucs.png)**).**
+Koncentrált teher elhelyezhető **Globális (**![](./img/wp-content-uploads-2021-04-create_coord_gcs.png)**)**, \***\*Lokális\*\*** **(**![](./img/wp-content-uploads-2021-04-create_coord_loc.png)**)** vagy **Felhasználói (**![](./img/wp-content-uploads-2021-04-create_coord_ucs.png)) koordinátarendszerek szerint.
 
 <!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":9965,"width":299,"height":212,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Point-load.png)](./img/wp-content-uploads-2021-04-7-4-Point-load.png)
-
-<!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Eccentricity can be applied on the point load also. The effect of the selected coordinate system, the applied local eccentricity type and values are the same as point support (see chapter 5.9.1).
+A koncentrált teher esetében is alkalmazható külpontosság. A kiválasztott koordináta rendszer és az alkalmazott külpontosság hatása megegyezik a pontszerű támaszoknál bemutatottakkal (lásd 5.9.1 fejezet).
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":9971,"width":300,"height":244,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":35856,"width":360,"height":304,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Point-load-types.png)](./img/wp-content-uploads-2021-04-7-4-Point-load-types.png)
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_koncentralt_kulpontossag.png)](./img/wp-content-uploads-2022-05-dial_teher_koncentralt_kulpontossag.png)
+
+<!-- /wp:image -->
+
+<!-- wp:spacer {"height":"1px"} -->
+
+<!-- /wp:spacer -->
+
+<!-- wp:image {"align":"right","id":35864,"width":271,"height":376,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_vonal.png)](./img/wp-content-uploads-2022-05-dial_teher_vonal.png)
 
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
 
-### Line load (![](./img/wp-content-uploads-2021-04-cmd_load_line.png))
+### Vonalmenti megoszló teher (![](./img/wp-content-uploads-2021-04-cmd_load_line.png))
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-Line loads can be assigned to existing lines (line members or edge of surface members) or to lines drawn for the loads only (for instance on a surface).
+Vonalmenti megoszló teher elhelyezhető egy meglévő vonalra (vonal elemen vagy felületi elem élén) vagy vonal rajzolásával (például egy felület elemen).
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Line loads can be placed according to the **Global (**![](./img/wp-content-uploads-2021-04-create_coord_gcs.png)**)**, **Local (**![](./img/wp-content-uploads-2021-04-create_coord_loc.png)**), User coordinate system (**![](./img/wp-content-uploads-2021-04-create_coord_ucs.png)**), **and** Global projection system (**![](./img/wp-content-uploads-2021-04-ico_coord_globproj.png)**) **which is commonly used when modeling the snow load.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":9977,"width":342,"height":334,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Line-load.png)](./img/wp-content-uploads-2021-04-7-4-Line-load.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph {"align":"justify"} -->
-
-In order to place a line load click on the member using the select function (![](./img/wp-content-uploads-2021-04-ico-pointer.png)). Line load can be applied to multiple members at the same time by using the** Place loads** icon (![](./img/wp-content-uploads-2021-04-cmd_placeload_apply.png)). In this case the members must be selected before clicking on the Line load icon on the Loads tab.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-If just a partial line load need to be applied along the member then there are two ways to apply:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:list {"ordered":true} -->
-
-1. <!-- wp:list-item -->
-2. The first way is to use the draw function (![](./img/wp-content-uploads-2021-04-cmd_draw.png)) and set the start point and the endpoint of the line load. This function can be used both for linear and curved members in accordance with the selected drawing function.
-3. <!-- /wp:list-item -->
-
-<!-- /wp:list -->
-
-<!-- wp:image {"align":"center","id":9985,"width":590,"height":299,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Line-load-1_1.jpg)](./img/wp-content-uploads-2021-04-7-4-Line-load-1_1.jpg)
-
-<!-- /wp:image -->
-
-<!-- wp:image {"align":"center","id":9991,"width":326,"height":453,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Line-load-1_2.png)](./img/wp-content-uploads-2021-04-7-4-Line-load-1_2.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph {"align":"justify"} -->
-
-2\. The second way is to give the exact distances of the start and end points of the line load from the member’s end points. Using the setting of Position of q1, q2, there are 2x3 = 6 possible options to define a partial line load. The “Position of q1” set to “From end A” has 3 options, and setting it to “From end B” has also 3 options:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:columns -->
-
-<!-- wp:column -->
-
-<!-- wp:image {"align":"right","id":9997,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Line-load-2_1.png)](./img/wp-content-uploads-2021-04-7-4-Line-load-2_1.png)
-
-<!-- /wp:image -->
-
-<!-- /wp:column -->
-
-<!-- wp:column -->
-
-<!-- wp:image {"align":"left","id":10003,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Line-load-2_2.png)](./img/wp-content-uploads-2021-04-7-4-Line-load-2_2.png)
-
-<!-- /wp:image -->
-
-<!-- /wp:column -->
-
-<!-- /wp:columns -->
-
-<!-- wp:image {"align":"center","id":10016,"sizeSlug":"full","linkDestination":"media","className":"caption-align-default"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Line-load-2_3-1.png)](./img/wp-content-uploads-2021-04-7-4-Line-load-2_3-1.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-This is a flexible way for numerical input the line load positions.
+Vonalmenti megoszló teher elhelyezhető **Globális (**![](./img/wp-content-uploads-2021-04-create_coord_gcs.png)**)**, **(), **Lokális** (**![](./img/wp-content-uploads-2021-04-create_coord_loc.png)**), **Felhasználói** (**![](./img/wp-content-uploads-2021-04-create_coord_ucs.png)**), **vagy **Globális vetületi rendszer** **(**![](./img/wp-content-uploads-2021-04-ico_coord_globproj.png)**)** koordinátarendszerek szerint.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Eccentricity can be applied on the line load also. The effect of the selected coordinate system, the applied local eccentricity type and values are the same as point support (see chapter 5.9.1).
+Vonalmenti teher elhelyezhető a kiválasztás funkció (![](./img/wp-content-uploads-2021-04-ico-pointer.png)) segítségével, a szerkezeti elemre kattintva, illetve egyidejűleg több rúdelemre is. Ehhez a Vonalmenti megoszló teher dialóg megnyitása előtt ki kell választani az elemeket, majd a Terhek elhelyezése (![](./img/wp-content-uploads-2021-04-cmd_placeload_apply.png)) gombra kattintva elhelyezésre kerülnek a megadott terhek.
 
-<!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":13983,"width":323,"sizeSlug":"full","linkDestination":"media"} -->
+Az objektumok nem teljes hossza mentén ható, **részleges vonalmenti teher** felvételnek két módja van:
+
+1. Az első lehetőség a rajzolás funkció. A rajzolás (![](./img/wp-content-uploads-2021-04-cmd_draw.png)) ikonra kattintva a szerkezeti elemen megadható a vonalmenti teher kezdő és végpontja. A funkció használható egyenes és íves rudak esetén is a megfelelő rajzolási funkció kiválasztásával ![](./img/wp-content-uploads-2022-05-cmd_teher_vonalmenti_rajzolas.png)
+
+
+[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/7-4-Line-load-1_1.jpg)](./img/wp-content-uploads-2021-04-7-4-Line-load-1_1.jpg)
+
+
+[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/7-4-Line-load-1_2.png)](./img/wp-content-uploads-2021-04-7-4-Line-load-1_2.png)
+
+
+2\. A második lehetőség, a vonalmenti teher kezdő- és végpontja közti távolságának megadása a rúdelem végpontjaitól. A q1, q2 pozíciója beállítási lehetőség használatával a részleges vonalmenti teher 6 féle képen adható meg teljesen analóg módon a nyírási mezőnél megismertekkel. Például a q1 pozíciója megadható a rúd A és a B végétől is 3-3 féle képen:
+
+
+[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/7-4-Line-load-2_1.png)](./img/wp-content-uploads-2021-04-7-4-Line-load-2_1.png)
+
+
+[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/7-4-Line-load-2_2.png)](./img/wp-content-uploads-2021-04-7-4-Line-load-2_2.png)
+
+
+[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/7-4-Line-load-2_3-1.png)](./img/wp-content-uploads-2021-04-7-4-Line-load-2_3-1.png)
+
+
+A vonalmenti teher esetében is alkalmazható külpontosság. A kiválasztott koordináta rendszer és az alkalmazott külpontosság hatása megegyezik a pontszerű támasznál bemutatottakkal (lásd 5.9.1 fejezet).
+
 
 [![](./img/wp-content-uploads-2021-05-7-4-Line-load-types-edited.png)](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Line-load-types.png)
 
+
+Egy előzőleg már elhelyezett teher tulajdonságai beolvashatók a tulajdonságok funkció ![](./img/wp-content-uploads-2021-04-cmd_draw_get.png) kiválasztása után, a beolvasandó teherre kattintva.
+
+
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_vonal_szel.png)](./img/wp-content-uploads-2022-05-dial_teher_vonal_szel.png)
+
+
+#### Vonalmenti szélteher
+
+
+Vonalmenti szélteher funkció, egy hatékony eszköz, amivel egyszerűen helyezhető el szélteher rúdelemeken. Szélteher egyszerűen felvehető az alapadatok megadásával. A hárompontos ikonok segítségével könnyen meghatározhatók a szükséges paraméterek.
+
+
+A Vonalmenti megoszló teher elhelyezése funkció kiválasztása előtt, első lépésként ki kell választani azt a szerkezeti elemet, elemeket, amelyre a szélterhet szeretnénk elhelyezni.
+
+
+A vonalmenti szélteherhez kapcsolódó funkciók a Vonalmenti megoszló teher dialóg Szélteher fülén találhatók.
+
+
+Első lépésként a _Torlónyomás_ értékét kell megadni, vagy a három pontos ikonra (![](./img/wp-content-uploads-2021-04-3dots-button.png)) kattintva egy előzőleg létrehozott torlónyomás függvény is kiválasztható a legördülő menü segítségével, vagy a legördülő menü mellett található hárompontos ikonra (![](./img/wp-content-uploads-2021-04-3dots-button.png)) kattintva új torlónyomás függvény is létrehozható. A kiválasztott torlónyomás függvény felhasználásával kerül meghatározásra a megfelelő torlónyomás érték.
+
+
+[![](./img/wp-content-uploads-2022-05-dial_teher_vonal_szel_torlonyom-1024x379.png)](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_vonal_szel_torlonyom.png)
+
+
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_vonal_szel_kulsonyomas.png)](./img/wp-content-uploads-2022-05-dial_teher_vonal_szel_kulsonyomas.png)
+
+
+A jelölő négyzet bekapcsolásával a _Belső nyomás_ is figyelembe vehető. A belső nyomási tényező (cpi) megadható kézzel, vagy használható a Belső nyomás számítása funkció is, a három pontos ikonra kattintva (![](./img/wp-content-uploads-2021-04-3dots-button.png)).
+
+
+_Külső nyomás_ a hárompontos ikonra\_ (![](./img/wp-content-uploads-2021-04-3dots-button.png)) kattintva adható meg.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"justify"} -->
+
+A _Belső nyomási tényezők_ számításához meg kell adni a teljes épület méreteit. Az épült méretei a _Globális szél paraméterek_ dialógon adhatók meg.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"justify"} -->
+
+Az épület méretei mellett ezen a dialógon adható meg a fő szélirány iránya is, illetve itt adható meg a talajszint is, ha a modell legalsó pontja a valóságban nem a talaj szintjén lesz.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"justify"} -->
+
+Következő lépésként ki kell választani valamelyik szabványos _Felület típust_ (fal, lapostető, nyeregtető stb.). A felület kiválasztása után a szükséges paraméterek betöltődnek a kiválasztott elem(ek)ről és az aktuális cpe értékek meghatározásra kerülnek.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+A vonalmenti szélteher meghatározáshoz meg kell adni a keret épületen belüli elhelyezkedését _A keret pozíciója_ megadásával, illetve a _Keretállás távolságot_.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"justify"} -->
+
+Utolsó lépésként, ha szükséges ki kell választani a megfelelő vonalmenti szélteher esetet a Külső nyomási tényező dialóg alján található legördülő menüből.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+Az Rendben gomb megnyomásával létrejönnek a vonalmenti szélterhek.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+A Vonalmenti megoszló teher dialógon található Terhek elhelyezése (![](./img/wp-content-uploads-2021-04-cmd_placeload_apply.png)) gomb megnyomásával a vonalmenti szélterhek elhelyezésre kerülnek az előzőleg kiválasztott szerkezeti elem(ek)re.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"right","id":35904,"width":319,"height":170,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_vonal_szel_geom.png)](./img/wp-content-uploads-2022-05-dial_teher_vonal_szel_geom.png)
+
+<!-- /wp:image -->
+
+<!-- wp:image {"align":"center","id":35912,"sizeSlug":"large","linkDestination":"media"} -->
+
+[![](./img/wp-content-uploads-2022-05-scr_teher_vonal_szel-1024x519.png)](https://consteelsoftware.com/wp-content/uploads/2022/05/scr_teher_vonal_szel.png)
+
+<!-- /wp:image -->
+
+<!-- wp:image {"align":"left","id":21420,"width":93,"height":99,"sizeSlug":"full","linkDestination":"none"} -->
+
+![](./img/wp-content-uploads-2021-04-warning_croc.png)
+
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-By clicking the ![](./img/wp-content-uploads-2021-04-cmd_draw_get.png) icon, the attributes of the selected line load fill out the parameters of the line load window, even if it was set by the draw function.
+**FONTOS**: A megfelelő vonalmenti szélteher elhelyezéshez a használt lokális koordináta tengelyeknek (z tengely vagy y tengely) kifele kell mutatniuk az épületből
 
 <!-- /wp:paragraph -->
 
+<!-- wp:spacer {"height":"10px"} -->
+
+<!-- /wp:spacer -->
+
+<!-- wp:image {"align":"right","id":35921,"width":271,"height":363,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_vonal_ho.png)](./img/wp-content-uploads-2022-05-dial_teher_vonal_ho.png)
+
+<!-- /wp:image -->
+
 <!-- wp:heading {"level":4} -->
 
-#### Line wind load
+#### Vonalmenti hóteher
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Line wind load is a great tool to apply wind load to members easily. It saves time because only the basic data must be added and _ConSteel_ automatically calculates the appropriate wind load.
+Vonalmenti hóteher funkció, egy hatékony eszköz, amivel egyszerűen helyezhető el hóteher rúdelemeken. Hóteher egyszerűen felvehető az alapadatok megadásával.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Before clicking on the Line Load icon, as a first step the member(s) has to be selected where the line wind load will be placed.
+A Vonalmenti megoszló teher elhelyezése funkció kiválasztása előtt, első lépésként ki kell választani azt a szerkezeti elemet, elemeket, amelyre a hóterhet szeretnénk elhelyezni.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The line wind load related functions can be found on the Wind load tab of Line Load dialog.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":10030,"width":342,"height":430,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Line-load-wind-action.png)](./img/wp-content-uploads-2021-04-7-4-Line-load-wind-action.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph {"align":"justify"} -->
-
-As a first parameter, the _Velocity pressure_ has to be added, or by clicking on the three dots button (![](./img/wp-content-uploads-2021-04-3dots-button.png)), previously created Velocity pressure functions can be selected from the dropdown menu, or by clicking on the three dots button (![](./img/wp-content-uploads-2021-04-3dots-button.png)) a new Eurocode Velocity pressure function can be created according to the selected National Annex to use to calculate the proper _Velocity pressure_.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":10037,"width":754,"height":280,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Velocity-pressure.png)](./img/wp-content-uploads-2021-04-7-4-Velocity-pressure.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph {"align":"justify"} -->
-
-_Internal pressure_ can be taken into account by check in the check-box. Cpi value can be set manually or by clicking on the three dots button (![](./img/wp-content-uploads-2021-04-3dots-button.png)) and use the Internal pressure calculator function. To calculate the value, two Eurocode methods can be used.
+A vonalmenti hóteherhez kapcsolódó funkciók a Vonalmenti megoszló teher dialóg Hóteher fülén találhatók.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-_External pressure_ can be set by clicking on the three dots button (![](./img/wp-content-uploads-2021-04-3dots-button.png)).
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":10043,"width":224,"height":445,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-External-pressure-coefficients.png)](./img/wp-content-uploads-2021-04-7-4-External-pressure-coefficients.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph {"align":"justify"} -->
-
-To calculate the correct _External Pressure_ values it is necessary to give geometrical parameters of the whole building. Geometrical parameters can be set on the _Global wind parameters_ dialog.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":10050,"width":392,"height":208,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Windload-generation-geometric-parameters.png)](./img/wp-content-uploads-2021-04-7-4-Windload-generation-geometric-parameters.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph {"align":"justify"} -->
-
-Besides the building dimensions, the direction of the basic wind in global coordinate system has to be selected from the dropdown menu and the ground level can be set if the lowest point of the model will not be on the ground.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"align":"justify"} -->
-
-As a next step one of the standard _Surface type_ (wall, flat roof, duopitch roof, etc.) has to be selected from the dropdown menu. If the proper surface is selected, then all of the necessary parameters from the previously selected member(s) are loaded and the actual cpe values are calculated.
+A hóteher paraméterek automatikusan betöltődnek az előzőleg kiválasztott EuroCode nemzeti mellékeltből, de az összes paraméter módosítható.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-To create line wind load it is necessary to set the _Position of the frame in the building_ and to set the _Frame distance_.
+Első lépésként az _Alaki tényezőt_ kell beállítani a hárompontos ikonra kattintva (![](./img/wp-content-uploads-2021-04-3dots-button.png)).
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-As a last step the proper wind load cases has to be selected from the dropdown menu, on the bottom of the External pressure coefficients dialog.
+Az alaki tényező meghatározásához a legördülő menüből ki kell választani a _Felület típusát_ (lapos tető, nyeregtető stb.) A felület kiválasztása után a szükséges paraméterek betöltődnek a kiválasztott elem(ek)ről és az aktuális alaki tényező meghatározásra kerül.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
+<!-- wp:image {"align":"right","id":35929,"width":134,"height":228,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-By clicking on the OK button the line wind loads are created.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-Pressing the Place loads icon (![](./img/wp-content-uploads-2021-04-cmd_placeload_apply.png)) on the Line load dialog the created line wind loads are placed on the selected member(s).
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":10057,"width":828,"height":445,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Created-line-wind-load.png)](./img/wp-content-uploads-2021-04-7-4-Created-line-wind-load.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph {"align":"justify"} -->
-
-**IMPORTANT**: For the correct line wind load placement, it is necessary to set the direction of the used local coordinate axis (Axis z, or y) to point out from the building.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4} -->
-
-#### Line Snow load
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph {"align":"justify"} -->
-
-Line snow load is a great tool to apply snow load to members easily. It saves time because only the basic data must be added and _ConSteel_ automatically calculates the appropriate snow load.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":13989,"width":342,"height":430,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/dia_load_line_snow.png)](./img/wp-content-uploads-2021-04-dia_load_line_snow.png)
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_vonal_ho_alaki.png)](./img/wp-content-uploads-2022-05-dial_teher_vonal_ho_alaki.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-Before clicking on the Line Load icon, as a first step the member(s) has to be selected where the line snow load will be placed.
+Utolsó lépésként, ha szükséges ki kell választani a megfelelő vonalmenti hóteher esetet a Hóteher dialóg alján található legördülő menüből.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The line snow load related functions can be found on the Snow load tab of Line Load dialog.
+Az Rendben gomb megnyomásával létrejönnek a vonalmenti hóterhek.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The snow load parameters are automatically loaded from the selected NA, but all of these can be modified manually.
+A Vonalmenti megoszló teher dialógon található Terhek elhelyezése (![](./img/wp-content-uploads-2021-04-cmd_placeload_apply.png)) gomb megnyomásával a vonalmenti hóterhek elhelyezésre kerülnek az előzőleg kiválasztott szerkezeti elem(ek)re.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
+<!-- wp:spacer {"height":"1px"} -->
 
-As a first step the _Shape factor_ has to be set, by clicking on the three dots button (![](./img/wp-content-uploads-2021-04-3dots-button.png)).
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":10064,"width":334,"height":553,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Snow-load.png)](./img/wp-content-uploads-2021-04-7-4-Snow-load.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph {"align":"justify"} -->
-
-To define the shape factor it is necessary to select the _Surface type_ (flat roof, duopitch roof, etc.) from the dropdown menu. If the _Surface_ type is selected, then the parameters of the previously selected member(s) are automatically loaded and the shape factor is calculated.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-As a last step the proper snow load cases has to be selected from the dropdown menu, on the bottom of the Snow load dialog.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-By clicking on the OK button the line snow loads are created.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-Pressing the Place loads icon (![](./img/wp-content-uploads-2021-04-cmd_placeload_apply.png)) on the Line load dialog the created line snow loads are placed on the selected member(s).
-
-<!-- /wp:paragraph -->
+<!-- /wp:spacer -->
 
 <!-- wp:heading {"level":3} -->
 
-### Surface load (![](./img/wp-content-uploads-2021-04-cmd_load_surf.png))
+### Felület teher (![](./img/wp-content-uploads-2021-04-cmd_load_surf.png))
 
-<!-- /wp:heading -->
 
-<!-- wp:paragraph -->
+Felület terhet háromféle módon lehet definiálni. Felületi nyomaték nem hozható létre.
 
-Surface load can be defined in three ways. No surface moment loads can be placed.
+1. **Egyenletes**en megoszló felület teher
 
-<!-- /wp:paragraph -->
+6. **Lineáris**an változó felület teher
 
-<!-- wp:list -->
+10. **Szélteher**
 
-- <!-- wp:list-item -->
-- **Uniform** surface load
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- **Linear**lyvaryingsurface load
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- **Wind** load
-- <!-- /wp:list-item -->
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_felulet.png)](./img/wp-content-uploads-2022-05-dial_teher_felulet.png)
 
-<!-- /wp:list -->
+#### Egyenletesen megoszló felület teher megadása
 
-<!-- wp:image {"align":"right","id":14003,"width":396,"height":395,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/dia_load_surf_unif.png)](./img/wp-content-uploads-2021-04-dia_load_surf_unif.png)
+A teher megadása a vonalmenti teher megadásához hasonlóan, kétféleképpen történhet.
 
-<!-- /wp:image -->
 
-<!-- wp:heading {"level":4} -->
+A dialógon meg kell adni a teher intenzitását, majd a kiválasztás funkció (![](./img/wp-content-uploads-2021-04-ico-pointer.png)) segítségével, a szerkezeti elem(ek)re kattintva a teher rákerül a kiválasztott felület(ek) egészére.
 
-#### Uniform surface load
 
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-The load can be defined in two ways, similarly to the definition of line load.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"align":"justify"} -->
-
-Using the selection function (![](./img/wp-content-uploads-2021-04-ico-pointer.png)) the intensity of the load must be entered in the dialog, then the load can be applied to the entire surface(s) by clicking on them.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"align":"justify"} -->
-
-For partially surface loads the drawing (![](./img/wp-content-uploads-2021-04-cmd_draw.png)) function must be selected. The last 3 shortcuts will then be active, with which it is possible to draw rectangular, circular or polygonal surfaces.
+A felületet csak részlegesen terhelő teher esetében a rajzolás (![](./img/wp-content-uploads-2021-04-cmd_draw.png)) funkciót kell választani. Ekkor aktívvá válik az utolsó 3 parancsikon, melyekkel négyszögletes, kör vagy poligon felületek rajzolása lehetséges.
 
 <!-- /wp:paragraph -->
 
@@ -421,7 +326,7 @@ For partially surface loads the drawing (![](./img/wp-content-uploads-2021-04-cm
 
 <!-- wp:image {"align":"right","id":10071,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Uniform-surface-load_1.png)](./img/wp-content-uploads-2021-04-7-4-Uniform-surface-load_1.png)
+[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/7-4-Uniform-surface-load_1.png)](./img/wp-content-uploads-2021-04-7-4-Uniform-surface-load_1.png)
 
 <!-- /wp:image -->
 
@@ -431,7 +336,7 @@ For partially surface loads the drawing (![](./img/wp-content-uploads-2021-04-cm
 
 <!-- wp:image {"align":"center","id":10077,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Uniform-surface-load_2.png)](./img/wp-content-uploads-2021-04-7-4-Uniform-surface-load_2.png)
+[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/7-4-Uniform-surface-load_2.png)](./img/wp-content-uploads-2021-04-7-4-Uniform-surface-load_2.png)
 
 <!-- /wp:image -->
 
@@ -441,7 +346,7 @@ For partially surface loads the drawing (![](./img/wp-content-uploads-2021-04-cm
 
 <!-- wp:image {"align":"left","id":10083,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Uniform-surface-load_3.png)](./img/wp-content-uploads-2021-04-7-4-Uniform-surface-load_3.png)
+[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/7-4-Uniform-surface-load_3.png)](./img/wp-content-uploads-2021-04-7-4-Uniform-surface-load_3.png)
 
 <!-- /wp:image -->
 
@@ -451,159 +356,115 @@ For partially surface loads the drawing (![](./img/wp-content-uploads-2021-04-cm
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-To place the load, first select the surface to be loaded and then draw the boundary edges of the load according to the instructions in the information field of the dialog. In the case of a polygon load, after entering the last corner point, you can use the right mouse button to complete the load definition.
+A teher megadásához először ki kell jelölni a terhelendő felületet, majd a dialóg információs mezőjében adott instrukciók szerint, meg kell rajzolni a teher határoló éleit. Poligon teher esetében az utolsó sarokpont megadása után a jobb egérgombbal lehet befejezni a tehermegadást.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
 
-#### Linearly varying surface load
+#### Lineárisan változó felület teher megadása
 
-<!-- /wp:heading -->
 
-<!-- wp:image {"align":"right","id":13997,"width":396,"height":395,"sizeSlug":"full","linkDestination":"media"} -->
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_felulet_linearis.png)](./img/wp-content-uploads-2022-05-dial_teher_felulet_linearis.png)
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/dia_load_surf_linear.jpg)](./img/wp-content-uploads-2021-04-dia_load_surf_linear.jpg)
 
-<!-- /wp:image -->
+Lineárisan változó felület teher definiálásához először a teher irányát kell megadni a dialóg legfelső sorában.
 
-<!-- wp:paragraph -->
 
-To define a linearly varying surface load, you must first specify the direction of the load in the top line of the dialog.
+A teherintenzitás változásának megadása (tehereloszlás típusa) háromféle lehet:
 
-<!-- /wp:paragraph -->
+- **Általános**: a teher intenzitását a felület 3 tetszőleges pontjában megadott intenzitás értékkel határozzuk meg, melyeket a dialógablak alsó részén (q1, q2, q3) kell megadni.
 
-<!-- wp:paragraph -->
+- **Lokális x-ben**: két pontot, és az azokhoz tartozó intenzitás értékeket kell megadni. A teher értéke a felület lokális x-tengelyével párhuzamosan változik.
 
-There are three ways to specify the change in load intensity (load distribution type):
+- **Lokális y-ban**: az előzőhöz hasonlóan, de a lokális y-tengely mentén változó teher jön létre.
 
-<!-- /wp:paragraph -->
 
-<!-- wp:list -->
+Az adatok beadása után a teher elhelyezéséhez először ki kell választani a felületet, majd a tehereloszlás típusától függően meg kell adni 2 vagy 3 pontot a felület tetszőleges helyén, mely pontokban érvényesek a korábban megadott intenzitás értékek.
 
-- <!-- wp:list-item -->
-- **General**: the intensity of the load is determined by the intensity values given at 3 arbitrary points on the surface, which must be entered at the bottom of the dialog box (q1, q2, q3).
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- **In local x**: two points and their corresponding intensity values must be entered. The value of the load changes parallel to the local x-axis of the surface.
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- **In local y**: similar to the previous one, but along the local y-axis.
-- <!-- /wp:list-item -->
 
-<!-- /wp:list -->
+Rajzolt (![](./img/wp-content-uploads-2021-04-cmd_draw.png)) tehermegadás esetén, a felület kiválasztása után, először az előző pontban ismertetett módon meg kell rajzolni a felület terhelt részét, majd ezután kell megadni az intenzitás meghatározó pontokat.
 
-<!-- wp:paragraph {"align":"justify"} -->
 
-After entering the data, the surface must first be selected to place the load onto, and then, depending on the type of load distribution, 2 or 3 points must be clicked on the surface, at which points the previously given intensity values apply.
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_felulet_szel.png)](./img/wp-content-uploads-2022-05-dial_teher_felulet_szel.png)
 
-<!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"editorskit":{"indent":20,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-In the case of a drawn (![](./img/wp-content-uploads-2021-04-cmd_draw.png)) load specification, after selecting the surface, first, draw the loaded part of the surface as described in the previous point, and then enter the intensity determining points.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"right","id":10090,"width":396,"height":395,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Create-surface-load.png)](./img/wp-content-uploads-2021-04-7-4-Create-surface-load.png)
-
-<!-- /wp:image -->
-
-<!-- wp:heading {"level":4} -->
-
-#### Wind load
+#### Felületi szélteher megadása
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-At present, surface wind load can only be defined for Load transfer surface (see section 6.4.4).
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"align":"justify"} -->
-
-The definition of the surface wind load should begin by specifying the velocity pressure and the external and internal shape coefficients. For a description of the dialogs (![](./img/wp-content-uploads-2021-04-3dots-button.png)) for each parameter, see the line wind load section (see section 6.4.2.1). After setting the parameters, the load can be placed on the surface by clicking on it.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
+Felületi szélterhet jelenleg csak teherátadó felületre (ld. 6.4.4 fejezet) lehet definiálni. A felület szélteher definiálását a torlónyomás, valamint a külső és belső alaki tényezők megadásával kell kezdeni. Az egyes paraméterek dialógablakainak (![](./img/wp-content-uploads-2021-04-3dots-button.png)) leírását ld. a vonalmenti széltehernél (ld. 6.4.2.1 fejezet). A paraméterek beállítása után a terhet a kívánt felületet kijelölve lehet elhelyezni az adott felületen.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
 
-### Load transfer surface (![](./img/wp-content-uploads-2021-04-cmd_load_LTS.png))
+### Teherátadó felület (![](./img/wp-content-uploads-2021-04-cmd_load_LTS.png))
 
-<!-- /wp:heading -->
 
-<!-- wp:paragraph {"align":"justify"} -->
-
-Load transfer surface (LTS) is a special surface that distributes surface loads to members as line loads. This is very useful in those cases when surface load needs to be distributed to members, like floor loads, snow and wind load, etc.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"right","id":14012,"width":399,"height":333,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/dia_LTS.png)](./img/wp-content-uploads-2021-04-dia_LTS.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-After clicking on the **_Load transfer surface_** (![](./img/wp-content-uploads-2021-04-cmd_load_LTS.png)) icon on the **Loads** tab a dialog window appears.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"align":"justify"} -->
-
-Just like in the two-dimensional figure drawing there are different possibilities to draw the surface: draw a rectangle, draw a leaning rectangle, draw a circle, or draw a polygon. After drawing the surface it is possible to select the members to which the surface distributes the load. There are two options: distribute the load to the selected members or distribute the load to all members covered by the surface in the surface plane. If the second option is clicked then the appropriate members will be highlighted. If none of the options is clicked, then the second one will be applied as a default.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":10103,"width":713,"height":395,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Edit-load-transfer-surface_2.jpg)](./img/wp-content-uploads-2021-04-7-4-Edit-load-transfer-surface_2.jpg)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph {"align":"justify"} -->
-
-It is possible to choose the first option and select members for carrying the surface load or remove members from the selection using the SHIFT + Left click. After the corresponding members have been selected and _**OK**_ is clicked then the surface is created.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"align":"justify"} -->
-
-It is also possible to use the **_Multiple placement of load transfer surfaces_** by clicking on the (![](./img/wp-content-uploads-2021-04-cmd_LTS_multi.png)) icon. This function is used to define multiple load transfer surfaces with a simple selection (rectangle selection, or by clicking the border edges). Edges of a load transfer surface have to be in the same plane.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":10109,"width":888,"height":585,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Edit-load-transfer-surface_3.png)](./img/wp-content-uploads-2021-04-7-4-Edit-load-transfer-surface_3.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph {"align":"justify"} -->
-
-**It is important to know**, that the maximum number of edges that can be selected in one step, is currently limited to 200. If the selected edges exceed the limit of 200, a notification will be shown on the Edit load transfer surface dialog.
+Teherátadó felület egy speciális felület, ami a rajta elhelyezett felületi terheket osztja szét rudakra vonalmenti terhekként. Azokban az esetekben, ahol felületi terhet kell szétosztani rudakra, mint például hasznos teher vagy hóteher igen hatékonyan használható ez a funkció.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Surface load can be placed by using the method described in chapter 6.4.3.
+A Terhek fülön található Teher átadó felület (![](./img/wp-content-uploads-2021-04-cmd_load_LTS.png)) ikonra kattintva az alábbi ablak jelenik meg:
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"right","id":35963,"width":366,"height":305,"sizeSlug":"full","linkDestination":"media"} -->
+
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_teheratado-felulet.png)](./img/wp-content-uploads-2022-05-dial_teher_teheratado-felulet.png)
+
+<!-- /wp:image -->
+
+<!-- wp:paragraph {"align":"justify"} -->
+
+Teherátadó felület rajzolási funkciói megegyeznek a síkidomok rajzolási funkcióival (téglalap, döntött téglalap, kör és zárt poligon rajzolása). A felület megrajzolása után megadható, hogy mely rudakra ossza szét a felület a felületi terhet. A felületi teher szétosztható csak a kijelölt elemekre, vagy az összes elemre, ami a teherátadó felület síkjában fekszik. Utóbbi esetben a megfelelő elemek kijelölésre kerülnek a modellben.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":36351,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![](./img/wp-content-uploads-2022-05-scr_teher_teheratado-felulet-1-1024x575.png)](https://consteelsoftware.com/wp-content/uploads/2022/05/scr_teher_teheratado-felulet-1.png)
+
+<!-- /wp:image -->
+
+<!-- wp:paragraph {"align":"justify"} -->
+
+Az első opció kiválasztása esetén ki kell jelölni a modellben a felületi teher hordására szolgáló elemeket (a SHIFT + bal kattintással lehet elemeket eltávolítani a kijelölésből). A megfelelő elemek kiválasztása, majd a **Rendben **gomb megnyomása után létrejön a teherátadó felület.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"justify"} -->
+
+Lehetőség van **teherátadó felületek csoportos elhelyezésé**re (![](./img/wp-content-uploads-2021-04-cmd_LTS_multi.png)) is. Ekkor nem kell egyenként síkidom rajzolási funkcióval definiálni a felületeket. A kattintás után ki kell választani a megszokott ablakos kijelöléssel (balról jobbra vagy jobbról balra) mely rudakra akar teherátadó felületet definiálni. Fontos megjegyezni, hogy az egyedi teherátadó felületeket csak egy síkban lévő rúdelemek esetén lehet létrehozni (például 3 rúdelem által meghatározott háromszög).
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":35979,"width":768,"height":368,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![](./img/wp-content-uploads-2022-05-scr_teher_teheratado-felulet_csoportos-1024x491.png)](https://consteelsoftware.com/wp-content/uploads/2022/05/scr_teher_teheratado-felulet_csoportos.png)
+
+<!-- /wp:image -->
+
+<!-- wp:paragraph {"align":"justify"} -->
+
+A funkció nagy számítási igénye miatt egyszerre maximum 200 rúdelem kijelölése lehetséges (több rúdelem kijelölése esetén nem kerülnek létrehozásra a teherátadó felületek). Terhelendő rudak kiválasztásához vagy a kiválasztásból való kivételhez a rudakat a SHIFT billentyű lenyomása mellet kell kiválasztani a bal egérgombbal. A terhelendő rudak kiválasztása és az OK gomb megnyomása után a felület létrehozásra kerül.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-There are two visibility options: view the surface load or view the distributed load.
+Felületi teher a teherátadó felületen a 6.4.3 fejezetben leírtak szerint helyezhető el.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+Teherátadó felületre elhelyezett terheknek két megjelenítési opciója van: felületi teher nézet és a szétosztott felületi teher nézet.
 
 <!-- /wp:paragraph -->
 
@@ -613,7 +474,7 @@ There are two visibility options: view the surface load or view the distributed 
 
 <!-- wp:image {"align":"center","id":10115,"width":479,"height":278,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Visibility-options_1.jpg)](./img/wp-content-uploads-2021-04-7-4-Visibility-options_1.jpg)
+[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/7-4-Visibility-options_1.jpg)](./img/wp-content-uploads-2021-04-7-4-Visibility-options_1.jpg)
 
 <!-- /wp:image -->
 
@@ -623,7 +484,7 @@ There are two visibility options: view the surface load or view the distributed 
 
 <!-- wp:image {"align":"center","id":10121,"width":501,"height":278,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Visibility-options_2.jpg)](./img/wp-content-uploads-2021-04-7-4-Visibility-options_2.jpg)
+[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/7-4-Visibility-options_2.jpg)](./img/wp-content-uploads-2021-04-7-4-Visibility-options_2.jpg)
 
 <!-- /wp:image -->
 
@@ -633,295 +494,265 @@ There are two visibility options: view the surface load or view the distributed 
 
 <!-- wp:paragraph -->
 
-Changing the views is possible by clicking on the dedicated icon which can be found among the visibility of graphics symbols setting.
+A nézetek között a grafikus szimbólumok láthatósága opció Szétosztott felületi teher gombjával lehet váltani.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":10127,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Visibility-settings.png)](./img/wp-content-uploads-2021-04-7-4-Visibility-settings.png)
+[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/7-4-Visibility-settings.png)](./img/wp-content-uploads-2021-04-7-4-Visibility-settings.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-There are two possible methods to convert surface load to the selected members:
+Felületi teher szétosztása két módszer szerint történhet:
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"right","id":14021,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"right","id":35987,"width":329,"height":131,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/dial_LTS_dist_method.png)](./img/wp-content-uploads-2021-04-dial_LTS_dist_method.png)
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_teheratado_szetosztas.png)](./img/wp-content-uploads-2022-05-dial_teher_teheratado_szetosztas.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-(1) Converting surface loads to uniform line loads is performed by a meeting the following requirements:
+(1) Felületi teher szétosztása egyenletes vonalmenti teherré módszer az alábbiak figyelembevételével osztja szét a terhet:
 
-<!-- /wp:paragraph -->
+- a vonalmenti terhek eredője megegyezik az eredeti felületi teher eredőjével
 
-<!-- wp:list {"className":"is-style-arrow"} -->
+- a vonalmenti terhek állandóak az összes terhelt rúdelemen
 
-- <!-- wp:list-item -->
-- the resultant force of all the line loads is the same as for the surface load
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- the line loads are _constant_ on all the selected members
-- <!-- /wp:list-item -->
 
-<!-- /wp:list -->
+(2) Felületi teher szétosztása szerkezeti pontok alapján módszer az alábbiak szerint osztja szét a terhet:
 
-<!-- wp:paragraph -->
+1. első lépésként a felületi teher a kiválasztott szerkezeti pontokba kerül koncentrálásra a Delaunay háromszögelési módszer használatával
 
-(2) Converting the surface load to line loads based on structural points has the following background:
+6. következő lépésként a koncentrált terhek vonalmenti terhekké alakítása a kiválasztott elemekre a következő eljárások alapján:
 
-<!-- /wp:paragraph -->
+- a vonalmenti terhek eredője megegyezik az eredeti felületi teher eredőjével
 
-<!-- wp:list {"ordered":true,"className":"is-style-default"} -->
+- a vonalmenti terhek lineárisan változók az összes terhelt rúdelemen
 
-1. <!-- wp:list-item -->
-2. the surface load is first converted to concentrated point loads acting on the selected structural points using the Delaunay triangulation technique
-3. <!-- /wp:list-item -->
-4.
-5. <!-- wp:list-item -->
-6. the concentrated loads are then converted to line loads on the selected members meeting with the following requirements:
-7. <!-- /wp:list-item -->
+- a kiválasztott elemek metszéspontjaiban, a vonalmenti terhek végein, a teherintenzitások megegyeznek
 
-<!-- /wp:list -->
 
-<!-- wp:list {"className":"is-style-arrow"} -->
+A teherátadó felület működés módja a következő:
 
-- <!-- wp:list-item -->
-- the resultant force of all the line loads is the same as for the surface load
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- the line loads are _linear_ on all the selected members
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- the end value of the line loads on the selected structural points for all the selected members are equal
-- <!-- /wp:list-item -->
 
-<!-- /wp:list -->
+Első lépésként létre kell hozni a teherátadó felületet, majd ki kell választani a terhelendő elemeket. A terhelendő elemek kiválaszthatók egyénileg vagy az alapbeállítást változatlanul hagyva a szétosztás megtörténik az összes elemre, ami a teherátadó felület síkjában fekszik. Következő lépésként a felületi terhet kell elhelyezni a teherátadó felületen, ahol szükséges.
 
-<!-- wp:paragraph -->
 
-The basic working method is the following:  
-First create the load transfer surface. Select the members which it distributes load to, or accept the default setting which is distribute loads to all planar members. Apply surface loads to the surface at every load case where it is necessary.
+**Consteel 17-től** kezdve a felületi terhek elosztása a kiválasztott rúdelemekre még mindig automatikusan történik, de a létrehozott Szétosztott vonalmenti terheket egyenként ki lehet választani. Kiválasztva, a tulajdonságok (érték, külpontosság stb.) láthatóak, de nem szerkeszthetőek. Az összes Szétosztott vonalmenti teher kapcsolódik ahhoz a felületi teherhez, amelyből létrejött. A felhasználók szerkeszthetik a vonalmenti megoszló terhek tulajdonságait, miután leválasztották azokat a felületi teherből.
 
-<!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
+Ha kézzel helyezett felületi teherről van szó, felrobbantáshoz válassza ki a terhet, majd menjen az Objektum tulajdonságok ablakra → Vonalmenti teher→ Kapcsolódó felületi teher→ kattintson a piros X gombra. ![](./img/wp-content-uploads-2024-02-6.3.4-explode.png).
 
-Starting from **Consteel 17 **the distribution of the surface loads to the selected bar members is still done automatically but the created Distributed Line loads can be individually selected**. **When selected, the attributes (value, eccentricities, etc.) are visible but not editable. All Distributed Line Loads are linked to the surface load it is crated from. \*\*\*\*Users can edit the properties of the distributed line loads once exploded from the surface load.
 
-<!-- /wp:paragraph -->
+![](./img/wp-content-uploads-2024-02-HU-6.3.4-surface-load-placing-1.png)
 
-<!-- wp:paragraph -->
 
-In case of manually placed surface load to explode, select the load go to the Object properties window→ Distributed line load →Linked surface load →click on the red X button ![](./img/wp-content-uploads-2024-02-6.3.4-explode.png).
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":72984,"width":"162px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2024-02-6.3.4-surface-load-placing-1.png)
+![](./img/wp-content-uploads-2024-02-HU-6.3.4-distributed-line-load-2.png)
 
 <!-- /wp:image -->
 
-<!-- wp:image {"id":72994,"width":"332px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:image {"id":73263,"width":"618px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2024-02-6.3.4-distributed-line-load-1.png)
-
-<!-- /wp:image -->
-
-<!-- wp:image {"id":73004,"width":"464px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2024-02-6.3.4-load-transfer-surface-explode-1.png)
+![](./img/wp-content-uploads-2024-02-HU-6.3.4-load-transfer-surface-explode-1.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-After exploding the surface load, the following warning will appear:
+A felületi teher felbontása után a következő figyelmeztetés jelenik meg:
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"id":73014,"width":"360px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:image {"id":73273,"width":"382px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2024-02-6.3.4-load-transfer-surface-explode-WARNING-1.png)
+![](./img/wp-content-uploads-2024-02-HU-6.3.4-load-transfer-surface-explode-WARNING-1.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-In the case of generated meteorological surface loads, to explode the surface load after selecting it, the visibility must be changed to Distributed surface load option. Following that, proceed in the same manner as in the previous situation.
+Az generált meteorológiai felületi terhek esetén a felületi teher felbontásához, miután kiválasztották, a láthatóságoknál a "Szétosztott felületi teher" opciót kell választani. Ezután ugyanúgy járjon el, mint az előző esetben.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"id":73024,"width":"466px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:image {"id":73283,"width":"563px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2024-02-6.3.4-load-transfer-wind-load-surface-explode-1-1.png)
+![](./img/wp-content-uploads-2024-02-HU-6.3.4-load-transfer-wind-load-surface-explode-1-1.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-In this case, the following waring message will appear:
+Ebben az esetben a következő figyelmeztetés jelenik meg:
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"id":73034,"width":"347px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:image {"id":73293,"width":"381px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2024-02-6.3.4-load-transfer-surface-wind-explode-WARNING-1.png)
+![](./img/wp-content-uploads-2024-02-HU-6.3.4-load-transfer-surface-wind-explode-WARNING-1.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-Please note that the surface load explosion cannot be reversed.
+A felületi terhek felbontása nem visszafordítható.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The automatic redistribution of the surface loads can be switched off temporarily to speed up the modelling. For more information, go to the **[Options menu.](https://www.consteelsoftware.com/manual/general-description/the-main-window/#optionsmenu)**
+A felületi terhek automatikus szétosztása ideiglenesen kikapcsolható a modellezés felgyorsítása érdekében. További információkért látogasson el az "Opciók" menübe.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
 
-#### Modifying load transfer surface
+#### Teherátadó felület módosítása
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Load transfer surface can be modified by selecting it and changing the properties in the property bar. Member selection can be easily modified from the planar members to selected members. It is possible to highlight the previously selected members by clicking on the blue thick.
+A teherátadó felületek kijelölésével a beállítási paraméterek az Objektum tulajdonságok ablakban megváltoztathatók. A szétosztás módja könnyen átállítható síkbeli rudakról kijelölt rudakra. A kék pipa megnyomásával kiemelésre kerülnek a teherátadó felülethez hozzárendelt rudak.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":10148,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":35995,"width":230,"height":91,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Load-transfer-surface.png)](./img/wp-content-uploads-2021-04-7-4-Load-transfer-surface.png)
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/05/obj_tul_teheratado.png)](./img/wp-content-uploads-2022-05-obj_tul_teheratado.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-If selected members option is chosen and then the black arrow is clicked then previously selected members can be removed from the selection or new members can be added.
+Ha hozzárendelésnél a kijelölt rudak van kiválasztva, akkor a fekete nyíl megnyomásával megtekinthetjük és módosíthatjuk (hozzáadhatunk és kivonhatunk) a hozzárendelt rudakat.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
 
-### Temperature load (![](./img/wp-content-uploads-2021-04-cmd_load_temp_line.png)![](./img/wp-content-uploads-2021-04-cmd_load_temp_surf.png))
+### Hőteher (![](./img/wp-content-uploads-2021-04-cmd_load_temp_line.png)![](./img/wp-content-uploads-2021-04-cmd_load_temp_surf.png))
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-Temperature loads can be defined to members (![](./img/wp-content-uploads-2021-04-cmd_load_temp_line.png)) or to surfaces (![](./img/wp-content-uploads-2021-04-cmd_load_temp_surf.png)).
+Hőteher definiálható rudakon (![](./img/wp-content-uploads-2021-04-cmd_load_temp_line.png)) és felületeken (![](./img/wp-content-uploads-2021-04-cmd_load_temp_surf.png)) egyaránt.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-First choose the type of the temperature load: the temperature can change along the cross section’s height or the width. Then add the construction temperature (reference temperature) and the upper and lower temperature of the cross section. The last step is to select the member where you would like to apply the load.
+Első lépésként ki kell választani a hőteher típusát: a keresztmetszet magassága vagy a szélessége mentén változó hőteher. A típus kiválasztása után meg kell adni a hőmérsékleti paramétereket: építési hőmérséklet (referencia), valamint az alsó és a felső szál hőmérsékletét. A paraméterek megadása után, a hőteher elhelyezhető a rudakon vagy a felületeken, mint egy hagyományos teher.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:columns -->
+<!-- wp:image {"align":"left","id":36019,"width":390,"height":300,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-<!-- wp:column -->
-
-<!-- wp:image {"align":"right","id":10154,"width":324,"height":245,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Temperature-load-on-bar_1.png)](./img/wp-content-uploads-2021-04-7-4-Temperature-load-on-bar_1.png)
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_ho_rud_magassag.png)](./img/wp-content-uploads-2022-05-dial_teher_ho_rud_magassag.png)
 
 <!-- /wp:image -->
 
-<!-- /wp:column -->
+<!-- wp:image {"align":"right","id":36011,"width":390,"height":299,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-<!-- wp:column -->
-
-<!-- wp:image {"align":"left","id":10160,"width":325,"height":245,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Temperature-load-on-bar_2.png)](./img/wp-content-uploads-2021-04-7-4-Temperature-load-on-bar_2.png)
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_ho_rud_szelesseg.png)](./img/wp-content-uploads-2022-05-dial_teher_ho_rud_szelesseg.png)
 
 <!-- /wp:image -->
 
-<!-- wp:paragraph -->
+<!-- wp:spacer {"height":"10px"} -->
 
-<!-- /wp:paragraph -->
+<!-- /wp:spacer -->
 
-<!-- /wp:column -->
+<!-- wp:image {"align":"center","id":36003,"width":365,"height":220,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-<!-- /wp:columns -->
-
-<!-- wp:image {"align":"center","id":10166,"width":305,"height":182,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Temperature-load-on-surface.png)](./img/wp-content-uploads-2021-04-7-4-Temperature-load-on-surface.png)
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_ho_felulet.png)](./img/wp-content-uploads-2022-05-dial_teher_ho_felulet.png)
 
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
 
-### Prescribed displacement (![](./img/wp-content-uploads-2021-04-cmd_load_displ.png))
+### Előírt elmozdulás (![](./img/wp-content-uploads-2021-04-cmd_load_displ.png))
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-Prescribed displacement can be applied for point supports.
+Pont támaszokra megadható előírt elmozdulás, ami elhelyezhető a **Globális (**![](./img/wp-content-uploads-2021-04-create_coord_gcs.png)**)**, vagy **Felhasználói (**![](./img/wp-content-uploads-2021-04-create_coord_ucs.png)) **koordinátarendszerek** szerint. Az elmozdulás megadható komponensekkel vagy vektorosan.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
+<!-- wp:image {"align":"center","id":36036,"width":371,"height":158,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-It can be placed according to the **Global (**![](./img/wp-content-uploads-2021-04-create_coord_gcs.png)**)**, or the **User coordinate system (**![](./img/wp-content-uploads-2021-04-create_coord_ucs.png)**) **and can be given with components or by vector.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":10173,"width":292,"height":193,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Prescribed-displacement.png)](./img/wp-content-uploads-2021-04-7-4-Prescribed-displacement.png)
+[![](./img/wp-content-uploads-2022-05-dial_teher_hosszvaltozas.png)](./img/wp-content-uploads-2022-05-dial_teher_hosszvaltozas.png)
 
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
 
-### Change in length (![](./img/wp-content-uploads-2021-04-cmd_load_dL.png)), tension force (![](./img/wp-content-uploads-2021-04-cmd_load_tensi.png))
+### Hosszváltozás (![](./img/wp-content-uploads-2021-04-cmd_load_dL.png)), feszítőerő (![](./img/wp-content-uploads-2021-04-cmd_load_tensi.png))
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-The change of the original member system length can be set and applied as a load on bar members with the **Change in length** (![](./img/wp-content-uploads-2021-04-cmd_load_dL.png)) function. With this function prestress effect can be modeling.
+Szerkezeti elem eredeti hálózati hosszának változása, illetve kezdeti feszítőerő is megadható és elhelyezhető, mint teher.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":10180,"width":292,"height":125,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"left","id":21420,"width":48,"height":51,"sizeSlug":"full","linkDestination":"none"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Change-in-length-of-bar.png)](./img/wp-content-uploads-2021-04-7-4-Change-in-length-of-bar.png)
+![](./img/wp-content-uploads-2021-04-warning_croc.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-Tension force can be applied on bar members as a load with the **Tension force** (![](./img/wp-content-uploads-2021-04-cmd_load_tensi.png)) function.
+Fontos tudni, hogy a ténylegesen kialakuló elmozdulás és feszítőerő mindkét esetben a csatlakozó szerkezet aktuális merevségétől függ!
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":10186,"width":299,"height":137,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:spacer {"height":"1px"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Tension-force-on-bar.png)](./img/wp-content-uploads-2021-04-7-4-Tension-force-on-bar.png)
+<!-- /wp:spacer -->
+
+<!-- wp:paragraph -->
+
+A Hosszváltozás (![](./img/wp-content-uploads-2021-04-cmd_load_dL.png)) funkció segítségével modellezhetjük az előfeszítés hatását. A megjelenő párbeszédablakban meg kell adni a kívánt hosszváltozás értékét, majd a modellen rákattintani azokra a rudakra, amelyeken ezt alkalmazni szeretnénk.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":36036,"width":371,"height":158,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_hosszvaltozas.png)](https://www.consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_hosszvaltozas.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
+
+A rúd végeihez csatlakozó szerkezeti részek merevségétől függ, hogy ez a hosszváltozás ténylegesen létre tud-e jönni, és mekkora mértékben. A legtöbb esetben a tényleges hosszváltozás nem a teher megadáskor beírt érték lesz, hanem annál kisebb. Szélső esetben, ha a csatlakozó részek „végtelen” merevek, akkor a tényleges elmozdulás „végtelen” kicsi lesz, és a rúdban nagy normálerő ébred. A másik szélső helyzetben pedig, ha a rúd végei szinte szabadon el tudnak mozdulni, a tényleges hosszváltozás a megadott érték lesz, és a rúdban zérus(hoz közelítő) normálerő keletkezik.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+A Feszítőerő (![](./img/wp-content-uploads-2021-04-cmd_load_tensi.png)) funkció segítségével rúdelemekre teherként megadható feszítőerő is. A megjelenő párbeszédablakban meg kell adni a kívánt feszítőerő értékét, majd a modellen rákattintani azokra a rudakra, amelyeken ezt alkalmazni szeretnénk.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":36028,"width":359,"height":164,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_feszites.png)](./img/wp-content-uploads-2022-05-dial_teher_feszites.png)
+
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+
+A Consteel, a megadott feszítőerőt a rúd merevségének megfelelő elmozdulás értékre számítja át, és ezt az elmozdulást vezeti át a modellre. A rúd végeihez csatlakozó szerkezeti részek merevségétől függ, hogy ez az elmozdulás ténylegesen létre tud-e jönni, és mekkora mértékben. Ettől függ, hogy a rúdban, a számítás lefuttatása után, mekkora lesz a tényleges normálerő, ami a legtöbb esetben nem a teher megadáskor beírt feszítőerő lesz, hanem annál kisebb. Szélső esetben, ha a csatlakozó részek „végtelen” merevek, akkor a tényleges elmozdulás „végtelen” kicsi lesz, és a rúdban ki tud alakulni a megadott feszítő erő. A másik szélső helyzetben pedig, ha a rúd végei szinte szabadon el tudnak mozdulni, a rúdban a tényleges feszítő erő a nullához közelít.
 
 <!-- /wp:paragraph -->
