@@ -1,228 +1,218 @@
 ---
 sidebar_position: 13
 ---
-# Purlins
+# Szelemensor
+---
+<!-- wp:paragraph -->
 
-The functions related to the calculation of the purlins are separated into 3 large units
+Szelemen méretezéssel kapcsolatos funkciók 3 nagy egységre különülnek el:
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":9159,"width":837,"height":59,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":35175,"width":768,"height":47,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-12-Purlins.png)](./img/wp-content-uploads-2021-04-6-12-Purlins.png)
+[![](./img/wp-content-uploads-2022-04-tab_szelemensor-1024x62.png)](https://consteelsoftware.com/wp-content/uploads/2022/04/tab_szelemensor.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-\#1 - [Place purlin line](#Place-purlin-line): to specify the purlin line object.
+\#1 - _**[Szelemensor elhelyezése](#Place-purlin-line)**_: szelemensor definiálásának dialógja, a panelen találhatóak a megtámasztási viszonyokkal kapcsolatos beállítások
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-\#2 - [Place support zone](#Support-zone): to specify the geometry of the support zone of the purlins
+\#2 - _**[Feltámaszkodási szakasz](#Support-zone)**_: feltámaszkodási szakasz és a támasz környezetének geometriai viszonyai adhatók meg
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-\#3 - [Place purlin overlap](#Purlin-overlap-zone): to specify the overlap zone of the purlins
+\#3 - _**[Szelemen átfedéses toldás](#Purlin-overlap-zone)**_ elhelyezés: szelemen toldási szakaszára vonatkozó geometriai paraméterek adhatók meg a panelen
 
 <!-- /wp:paragraph -->
 
-<!-- wp:spacer -->
+<!-- wp:spacer {"height":"15px"} -->
 
 <!-- /wp:spacer -->
 
 <!-- wp:heading {"level":3} -->
 
-### Place purlin line
+### Szelemensor
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-Four additional dialog panels are directly linked to the main dialog window of the purlin line object, which will be described later.
+A szelemensor fő dialóg ablakához további négy dialóg panel kapcsolódik közvetlenül, melyek a későbbiekben ismertetésre kerülnek.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":9165,"width":733,"height":513,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"right","id":35183,"width":512,"height":358,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-12-Purlin-line.png)](./img/wp-content-uploads-2021-04-6-12-Purlin-line.png)
+[![](./img/wp-content-uploads-2022-04-dial_szelemensor-1024x716.png)](https://consteelsoftware.com/wp-content/uploads/2022/04/dial_szelemensor.png)
 
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":4} -->
 
-#### Functions
+#### Funkciók
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-\#1 - Specify the name of a purlin line object: The name of the object in the edit box can be specified as text and number characters
+\#1 - Szelemensor objektum nevének megadása: az objektum neve a szerkesztő dobozban szöveg és szám karakter formájában adható meg
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-\#2 - Explanatory drawing: figure for the interpretation of notations and parameters
+\#2 - Magyarázó ábra: jelölések és paraméterek értelmezésére szolgáló rajz
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-\#3 - Specification of the supports: for providing stiffens of the supporting sheeting
+\#3 - Támasz merevségének megadása: lehetőségek a burkolat megtámasztó hatásának megadására.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-\#4 - Command line:
+\#4 - Parancssor:
 
 <!-- /wp:paragraph -->
 
-<!-- wp:list {"className":"is-style-arrow","editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+<!-- wp:list -->
 
-- Create **New **purlin line object
-- **Delete **the existing purlin line object
-- **Place **the actual purlin line object into the model
-- **Apply **the actual settings
+- **Új szelemen** objektum létrehozása
+- meglévő, aktuálisan kiválasztott szelemen objektum törlése a **Töröl** parancs segítségével
+- meglévő, aktuálisan kiválasztott szelemen objektum elhelyezése az **Elhelyez** parancs segítségével
+- a beállítások elfogadása az **Alkalmaz** parancs segítségével
 
 <!-- /wp:list -->
 
-<!-- wp:paragraph -->
+<!-- wp:image {"align":"right","id":35191,"width":381,"height":296,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-The Place command opens the following dialog window:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":9171,"width":491,"height":382,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-12-Place-purlin-line.png)](./img/wp-content-uploads-2021-04-6-12-Place-purlin-line.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/04/dial_szelemensor_elhelyezes.png)](./img/wp-content-uploads-2022-04-dial_szelemensor_elhelyezes.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-\#1 - Choose the type of the placing: select object or draw
+Az **Elhelyez** parancsra kattintva megnyílik a szelemensor elhelyezésének paramétereit rögzítő dialóg ablak
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-\#2 - Select the purlin line object from the drop-down list
+\#1 - Megadási opciók: elem kijelöléssel, vonal rajzolással történő megadás
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-\#3 - Sheeting eccentricity: set the eccentricity in the Z direction manually or automatically:
+\#2 - Szelemensor objektum kiválasztása: legördülő menüből
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+\#3 - Burkolat külpontossága: megadható manuálisan z irányú külpontosság, illetve automatikusan:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"className":"is-style-arrow","editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-- By selecting from the drop-down list:
+- Legördülő menüből kiválasztva
 
-  - Top middle
+  - Közép – fent
 
-  - Bottom middle
+  - Közép – lent
 
-- Graphically by clicking on (![](./img/wp-content-uploads-2021-04-3dots-button.png)) icon
+- a (![](./img/wp-content-uploads-2021-04-3dots-button.png)) ikonra kattintva grafikusan ([](https://consteelsoftware.com/hu/manual/szerkezetmodellezes/nyirasi-mezo/#Shear-field-stiffness-calculation)[Lásd _**5.11.3.1**_](https://consteelsoftware.com/hu/manual/szerkezetmodellezes/nyirasi-mezo/#Shear-field-stiffness-calculation))
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
-Clicking the **End placement** command stops the command and closes the dialog.
+Az **Elhelyez befejezés** parancsra kattintva elfogadhatók a beállítások
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-\#4 - Enter position: at a given distance from endpoint A or B (in mm)
+\#4 - Pozíció megadása: A vagy B végponttól adott távolságra mm egységben értelmezve
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-\#5 - Info panel: to display instructions
+\#5 - Információs panel: utasítások megjelenítését szolgáló panel
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
 
-#### The role of the springs
+#### Rugók szerepe
 
 <!-- /wp:heading -->
 
-<!-- wp:columns -->
-
-<!-- wp:column {"width":"65%","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-<!-- wp:paragraph {"align":"justify","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-The support effect of the cover can be very significant in the bearing capacity of the purlins. This effect can be derived from the stiffness of the elements attached to the purlins and is modeled in the form of springs. There are two types of springs to consider:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:list {"className":"is-style-arrow"} -->
-
-- Translational (shear) spring: Derived from the shear stiffness of the trapezoidal sheet (S)
-- Rotational spring: derived from connection stiffness and distortion of the profile (CD)
-
-<!-- /wp:list -->
-
-<!-- /wp:column -->
-
-<!-- wp:column {"verticalAlignment":"center","width":"35%"} -->
-
-<!-- wp:image {"align":"center","id":13682,"sizeSlug":"large","linkDestination":"none"} -->
+<!-- wp:image {"align":"right","id":21114,"sizeSlug":"full","linkDestination":"none"} -->
 
 ![](./img/wp-content-uploads-2021-04-img_shearfield_springs.png)
 
 <!-- /wp:image -->
 
-<!-- /wp:column -->
+<!-- wp:paragraph -->
 
-<!-- /wp:columns -->
+A szelemenek teherbírásában a burkolat megtámasztó hatása nagyon jelentős lehet. Ezt a hatást a szelemenhez csatlakozó elemek merevségéből lehet származtatni, modellezésük rugók formájában történik. Kétféle rugó típust lehet figyelembe venni:
+
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+
+- Eltolódási (nyírási) rugó: a burkolat nyírási merevségéből származtatható (S)
+- Elfordulási rugó: kapcsolati merevségből és a szelemen szelvény torzulásból származtatható (CD)
+
+<!-- /wp:list -->
 
 <!-- wp:heading {"level":4} -->
 
-#### Translational spring
+#### Eltolódási rugó
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-The translational spring is optional. Before you enter, you need to choose the type of cover put on the purlins, which can be of two types:
+Az eltolódási rugó megadása nem kötelező. Megadása előtt ki kell választani a szelemenre kerülő burkolat típusát, ami kétféle lehet:
 
 <!-- /wp:paragraph -->
 
-<!-- wp:list {"className":"is-style-arrow"} -->
+<!-- wp:list -->
 
-- Trapezoidal sheeting
-- Sandwich panel
+- Trapézlemez
+- Szendvicspanel
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
-The contents of the dialog box change according to the selection.
+A kiválasztásnak megfelelően változik a szelemensor dialógablak tartalma.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-If trapezoidal sheeting is selected, the shear stiffness can be entered manually along with the effective width, or automatically by clicking (![](./img/wp-content-uploads-2021-04-3dots-button.png)) and using the shear box dialog shown above (see Section [5.11).](#_5.11_Shear_field)
+Trapézlemezes héjalás választása esetén a nyírási merevség megadható kézzel az effektív szélességgel együtt, illetve a ![](./img/wp-content-uploads-2021-04-3dots-button.png) gombra kattintva, a korábban bemutatott nyírási mező dialógablak segítségével, automatikusan is (ld.: [](#_5.11_Nyírási_mező)[](https://consteelsoftware.com/hu/manual/szerkezetmodellezes/nyirasi-mezo/#Shear-field-stiffness-calculation)[Lásd _**5.11.3.1**_](https://consteelsoftware.com/hu/manual/szerkezetmodellezes/nyirasi-mezo/#Shear-field-stiffness-calculation) pont).
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-For sandwich panel cover, shear stiffness can only be entered manually.
+Szendvicspanel héjalás esetén a nyírási merevség csak kézzel adható meg.
 
 <!-- /wp:paragraph -->
 
@@ -230,9 +220,9 @@ For sandwich panel cover, shear stiffness can only be entered manually.
 
 <!-- wp:column -->
 
-<!-- wp:image {"align":"right","id":9179,"width":316,"height":171,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"right","id":35207,"width":253,"height":134,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-12-Trapezoidal-sheeting.png)](./img/wp-content-uploads-2021-04-6-12-Trapezoidal-sheeting.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/04/dial_szelemensor_merevseg_traplem.png)](./img/wp-content-uploads-2022-04-dial_szelemensor_merevseg_traplem.png)
 
 <!-- /wp:image -->
 
@@ -240,9 +230,9 @@ For sandwich panel cover, shear stiffness can only be entered manually.
 
 <!-- wp:column -->
 
-<!-- wp:image {"align":"left","id":9185,"width":311,"height":171,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"left","id":35199,"width":254,"height":136,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-12-Sandwich-panel.png)](./img/wp-content-uploads-2021-04-6-12-Sandwich-panel.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/04/dial_szelemensor_merevseg_szendvics.png)](./img/wp-content-uploads-2022-04-dial_szelemensor_merevseg_szendvics.png)
 
 <!-- /wp:image -->
 
@@ -252,342 +242,350 @@ For sandwich panel cover, shear stiffness can only be entered manually.
 
 <!-- wp:heading {"level":4} -->
 
-#### Rotational spring
+#### Elfordulási rugó
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-As with the translational spring, the rotational spring is also optional. The rotational spring consists of two components (connection stiffness and profile distortion). In the final spring stiffness, the reciprocal of the components is summarized. In the case of zero stiffness or inactive checkboxes, the stiffness of a given component is reset to zero.
+Hasonlóan az eltolódási rugóhoz, az elfordulási rugó megadása is opcionális. Az elfordulási rugó két komponensből (kapcsolati merevség és szelvény torzulás) tevődik össze. A végleges rugómerevségben a komponensek reciproka kerül összegzésre. Zérus merevség, illetve inaktív jelölőnégyzetek esetén az adott komponens merevsége nullázódik.
 
 <!-- /wp:paragraph -->
 
+<!-- wp:image {"align":"center","id":35215,"width":376,"height":241,"sizeSlug":"full","linkDestination":"none","className":"is-style-editorskit-rounded"} -->
+
+![](./img/wp-content-uploads-2022-04-dial_szelemensor_rugok.png)
+
+<!-- /wp:image -->
+
+<!-- wp:image {"align":"right","id":35224,"width":451,"height":145,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![](https://consteelsoftware.com/wp-content/uploads/2022/04/dial_szelemensor_rugok_kapcs_merevseg.png)](./img/wp-content-uploads-2022-04-dial_szelemensor_rugok_kapcs_merevseg.png)
+
+<!-- /wp:image -->
+
 <!-- wp:list {"ordered":true,"type":"1"} -->
 
-1. Connection stiffness:
+1. Kapcsolati merevség
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
-In the case of trapezoidal sheeting, and selecting automatic calculation, clicking on (![](./img/wp-content-uploads-2021-04-3dots-button.png)), the connection stiffness is calculated using the simplified method of Eurocode. In the pop-up window, you only need to specify the number of fasteners per meter:
+Automatikus számítást választva, trapézlemez fedés esetén a ![](./img/wp-content-uploads-2021-04-3dots-button.png) gombra kattintva, az Eurocode egyszerűsített számítási módszere szerint történik a kapcsolati merevség meghatározása. A felugró ablakban mindössze a folyóméterenkénti rögzítőelemek számát kell megadni:
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":9192,"width":362,"height":116,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:spacer {"height":"1px"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-12-Calculation-of-connection-stiffness.png)](./img/wp-content-uploads-2021-04-6-12-Calculation-of-connection-stiffness.png)
+<!-- /wp:spacer -->
+
+<!-- wp:image {"align":"right","id":35232,"width":385,"height":201,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![](https://consteelsoftware.com/wp-content/uploads/2022/04/dial_szelemensor_rugok_kapcs_merevseg_szendvics.png)](./img/wp-content-uploads-2022-04-dial_szelemensor_rugok_kapcs_merevseg_szendvics.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-When selecting a sandwich panel covering, more data is required to automatically calculate connection stiffness:
+Szendvicspanel fedést választva, a kapcsolati merevség automatikus számításához több adatot kell megadni:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"className":"is-style-default"} -->
 
-- External steel shield shape:
+- A külső acélpajzs alakja:
 
-  - Plain sheets
-  - Trapezoidal sheet
+  - Síklemez
+  - Trapézlemez
 
-- Type of insulating material:
+- Szigetelőanyag típusa:
 
-  - PUR
+  - PUR kitöltés
 
-  - Mineral wool
+  - Ásványgyapot kitöltés
 
-- Elastic modulus of insulating material in MPa
+- Szigetelőanyag rugalmassági modulusa MPa-ban
 
 <!-- /wp:list -->
 
-<!-- wp:image {"align":"center","id":9198,"width":309,"height":162,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:paragraph -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-12-Calculation-of-connection-stiffness_2.png)](./img/wp-content-uploads-2021-04-6-12-Calculation-of-connection-stiffness_2.png)
+Kézi megadás esetén a rugómerevségeket be kell írni a külső teher által, a kapcsolatokban okozott húzó-, illetve nyomóerő esetére is.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"right","id":35241,"width":314,"height":269,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![](https://consteelsoftware.com/wp-content/uploads/2022/04/dial_szelemensor_rugok_kapcs_elcsavarodas.png)](./img/wp-content-uploads-2022-04-dial_szelemensor_rugok_kapcs_elcsavarodas.png)
 
 <!-- /wp:image -->
 
+<!-- wp:list {"ordered":true,"start":2} -->
+
+2. Szelemen szelvény torzulás
+
+<!-- /wp:list -->
+
 <!-- wp:paragraph -->
 
-In case of manual input, the spring stiffeners must be entered in the case of the tensile or compressive forces exerted on the connections.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-2\. Profile distortion
-
-<!-- /wp:paragraph -->
-
-<!-- wp:columns -->
-
-<!-- wp:column {"verticalAlignment":"top","width":"50%","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-<!-- wp:paragraph {"align":"justify","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-The stiffness is defined in the same way as connection stiffness. For the automatic calculation,![](./img/wp-content-uploads-2021-04-3dots-button.png) in the pop-up window, one has to only enter the distance between the fastener and the rib-to-belt connection in mm. The calculation is in accordance with EN 1993 - 1- 3 10.1.5, as noted on the panel.
+A rugómerevség megadása a kapcsolati merevség megadásához hasonlóan történik. Automatikus számításhoz a ![](./img/wp-content-uploads-2021-04-3dots-button.png) gombra kattintás után a felugró ablakban, a rögzítő elem és a gerinc – öv csatlakozási pont közötti távolságot kell megadni mm-ben. A számítás az EN 1993 - 1- 3 10.1.5 szerint történik, ahogy erre a panelen lévő megjegyzés is felhívja a figyelmet.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-For manual input, it is necessary to specify the value of the stiffness component due to distortion in the following two cases:
+Kézi megadás esetén az alábbi két esethez szükséges megadni a torzulásból származó merevség komponens értékét:
 
 <!-- /wp:paragraph -->
-
-<!-- /wp:column -->
-
-<!-- wp:column {"width":"40%"} -->
-
-<!-- wp:image {"align":"center","id":13750,"width":254,"height":219,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/dial_shearfield_profiledistortion.png)](./img/wp-content-uploads-2021-04-dial_shearfield_profiledistortion.png)
-
-<!-- /wp:image -->
-
-<!-- /wp:column -->
-
-<!-- /wp:columns -->
 
 <!-- wp:list {"type":"A"} -->
 
-- After deformation, the purlin contacts with sheeting at the web
-- After the deformation, the purlin contacts with sheeting at the flange edge
+- A szelemen a torzulást követően a szelvény gerincénél érintkezik a burkolattal
+- A szelemen a torzulást követően a szelvény övének szélső pontjánál érintkezik a burkolattal
 
 <!-- /wp:list -->
 
-<!-- wp:paragraph {"align":"justify"} -->
+<!-- wp:spacer {"height":"1px"} -->
 
-**Attention!** The purlin design only works with Z and C type profiles. It is not possible to put puline line object to other type of cold-formed factory profiles or not Z or C type user profiles.
+<!-- /wp:spacer -->
+
+<!-- wp:image {"align":"left","id":21420,"width":79,"height":84,"sizeSlug":"full","linkDestination":"none"} -->
+
+![](./img/wp-content-uploads-2021-04-warning_croc.png)
+
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+
+**Figyelem!** A szelemen tervezés funkció csak Z és C típusú profilokra alkalmazható. Egyéb, hidegen alakított gyártói szelvényekre, illetve nem Z vagy C típusú felhasználói szelvényekre nem helyezhető el szelemensor objektum.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:spacer -->
+<!-- wp:spacer {"height":"10px"} -->
 
 <!-- /wp:spacer -->
 
 <!-- wp:heading {"level":3} -->
 
-### Support zone
+### Feltámaszkodási zóna
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-The Support zone is a function for specifying geometrical parameters for the support point of a purlin.
+A feltámaszkodási zóna, mint ahogyan az a nevében is megjelenik, a szelemen megtámasztási pontjára vonatkozó geometriai paraméterek megadására szolgáló funkció.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":9205,"width":594,"height":370,"sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:image {"align":"right","id":35251,"width":379,"height":236,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-![](./img/wp-content-uploads-2021-04-6-12-Support-zone.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/04/dial_szelemensor_feltam_zona.png)](./img/wp-content-uploads-2022-04-dial_szelemensor_feltam_zona.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-\#1 - Specify the name of the support zone: the name of the object can be specified as text and number characters
+\#1 - Feltámaszkodási zóna nevének megadása: az objektum neve szöveg és szám karakter formájában adható meg
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-\#2 - Explanatory drawing: figure for the interpretation of notations and parameters
+\#2 - Magyarázó ábra: jelölések és paraméterek értelmezésére szolgáló rajz
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-\#3 - Specify the geometry and bearing capacity of the support zone:
+\#3 - Feltámaszkodási hossz geometriai és teherbírási adatainak megadása:
 
 <!-- /wp:paragraph -->
 
-<!-- wp:list {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+<!-- wp:list -->
 
-- Support width in mm
+- Feltámaszkodási hossz mm-ben
 
-- Selection of load capacity used in the calculation:
+- Számítás során használt teherbírás érték kiválasztása:
 
-  - Use design shear resistance value of the web
+  - Gerinc nyírási teherbírásának alkalmazása a számítás során
 
-  - Specify local transverse resistance value of the web
+  - Gerinc keresztirányú teherbírásának alkalmazása a számítás során
 
-    - Resistance of profile A \[kN]
-
-    - Resistance of profile B \[kN]
+    - A szelvény keresztirányú teherbírása \[kN]
+    - B szelvény keresztirányú teherbírása \[kN]
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-The local transverse resistance shall be determined manually in accordance with EC 1993 - 1 - 3 Section 6.1.7.
+A keresztirányú teherbírást (lokális erőbevezetéssel szembeni ellenállást) kézzel kell megadni az EC 1993-1-3 6.1.7 fejezete alapján.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-\#4 - Command line:
+\#4 - Parancssor:
 
 <!-- /wp:paragraph -->
 
-<!-- wp:list {"className":"is-style-arrow","editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+<!-- wp:list -->
 
-- Create **New **support zone object
-- **Delete **the existing support zone object
-- **Place **the actual support zone object into the model
-- **Apply **the actual settings
+- **Új** eltámaszkodási zóna objektum létrehozása
+- meglévő, aktuálisan kiválasztott feltámaszkodási zóna objektum törlése a **Töröl** parancs segítségével
+- meglévő, aktuálisan kiválasztott feltámaszkodási zóna objektum elhelyezése az **Elhelyez** parancs segítségével
+- a beállítások elfogadása az **Alkalmaz** parancs segítségével
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
-The **Place **command opens the following dialog window
+Az**Elhelyez** parancsra kattintva megnyílik a feltámaszkodási szakasz elhelyezésének paramétereit rögzítő dialóg ablak:
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":9211,"width":446,"height":164,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"right","id":35259,"width":428,"height":152,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-12-Place-purlin-support-zone.png)](./img/wp-content-uploads-2021-04-6-12-Place-purlin-support-zone.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/04/dial_szelemensor_feltam_zona_elhelyez.png)](./img/wp-content-uploads-2022-04-dial_szelemensor_feltam_zona_elhelyez.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-\#1 - Type of placing: selecting object
+\#1 - Megadási opciók: elem kijelöléssel
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-\#2 - Select the support zone object from the drop-down list
+\#2 - Szelemen feltámaszkodási zóna objektum kiválasztása: legördülő menüből
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Clicking the **End placement** command stops the command and closes the dialog
+Az **Elhelyezés befejezése** parancsra kattintva a dialógablak bezáródik, és visszatér a feltámaszkodási zóna beállítási párbeszédablaka.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-\#3 - Info panel: to display instructions
+\#3 - Információs panel: utasítások megjelenítését szolgáló panel
 
 <!-- /wp:paragraph -->
 
-<!-- wp:spacer -->
+<!-- wp:spacer {"height":"10px"} -->
 
 <!-- /wp:spacer -->
 
 <!-- wp:heading {"level":3} -->
 
-### Purlin overlap zone
+### Szelemenek átfedéses toldása
 
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"align":"justify"} -->
+<!-- wp:paragraph -->
 
-The standard distinguishes between two main types of overlap joints. For both types of joints, there are unique formulas for the calculation of load-bearing capacity required for design.
+A szabvány két fő toldás típust különböztet meg. Mindkét toldás típushoz egyedi, a tervezéshez és az ellenőrzéshez szükséges, teherbírás számítási formulák tartoznak:
 
 <!-- /wp:paragraph -->
 
-<!-- wp:list {"className":"is-style-arrow"} -->
+<!-- wp:list -->
 
-- Purlin overlap joint
-- Joint with coupling element
+- Szelemen átfedéses/átlapolásos toldás
+- Szelemen toldóelemes toldás
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
-Currently, only overlap joint is available in the program. A dialog is directly connected to the dialog.
+Jelenleg a programban csak átfedéses/átlapolásos toldás elérhető el. A dialógablak felépítése az alábbi:
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":9218,"width":576,"height":496,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"right","id":35268,"width":396,"height":341,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-12-Purlin-overlap.png)](./img/wp-content-uploads-2021-04-6-12-Purlin-overlap.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/04/dial_szelemensor_atfedes.png)](./img/wp-content-uploads-2022-04-dial_szelemensor_atfedes.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-\#1 - Specify the name of the overlap zone: the name of the object can be specified as text and number characters
+\#1 - Szelemen átfedéses toldás objektum nevének megadása: az objektum neve a szerkesztő dobozban szöveg és szám karakter formájában adható meg
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-\#2 - Explanatory drawing: figure for the interpretation of notations and parameters
+\#2 - Magyarázó ábra: jelölések és paraméterek értelmezésére szolgáló rajz
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-\#3 - Specify the length of the overlap: Specify the length of the overlapping section of each rod element, either as a distance value (in mm) or as a percentage of the rod length (%).
+\#3 - Átfedés hosszának megadása: mindkét rúdelem túlnyúló szakaszának megadása távolság értékkel (mm-ben), vagy a rúdhossz százalékában (%).
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-\#4 - Distribution of stiffness of the combined gross section between the two members.
+\#4 - Az együttes szelvény merevségének megoszlása a két rúd között.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-\#5 - Support zone: it is possible to define a support zone at the same time as the overlap as described above.
+\#5 - Feltámaszkodási zóna: lehetőség van az átfedéssel egyidejűleg egy feltámaszkodási szakasz megadására is a korábban ismertetett módon.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-\#6 - Command line:
+\#6 - Parancssor:
 
 <!-- /wp:paragraph -->
 
-<!-- wp:list {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+<!-- wp:list -->
 
-- Create **New **purlin overlap object
-- **Delete **the existing purlin overlap object
-- **Place **the actual purlin overlap object into the model
-- **Apply **the actual settings
+- **Új** szelemen átfedéses toldás objektum létrehozása
+- meglévő, aktuálisan kiválasztott szelemen átfedéses toldás objektum törlése a **Töröl** parancs segítségével
+- meglévő, aktuálisan kiválasztott szelemen átfedéses toldás objektum elhelyezése az **Elhelyez** parancs segítségével
+- a beállítások elfogadása az **Alkalmaz** parancs segítségével
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
-The **Place **command opens the following dialog window
+Az **Elhelyez** parancs hatására megnyílik a **Szelemen átlapolás elhelyezése** című párbeszédablak:
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":9224,"width":445,"height":163,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"right","id":35276,"width":413,"height":148,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-12-Place-purlin-overlap.png)](./img/wp-content-uploads-2021-04-6-12-Place-purlin-overlap.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/04/dial_szelemensor_atfedes_elhelyez.png)](./img/wp-content-uploads-2022-04-dial_szelemensor_atfedes_elhelyez.png)
 
 <!-- /wp:image -->
 
-<!-- wp:list {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+<!-- wp:paragraph -->
 
-- \#1 - Type of placing: selecting object
-- \#2 - Select the support zone object from the drop-down list
-
-<!-- /wp:list -->
-
-<!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-Clicking the **End placement **command stops the command and closes the dialog
+\#1 - Megadási opciók: elem kijelöléssel
 
 <!-- /wp:paragraph -->
 
-<!-- wp:list {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+<!-- wp:paragraph -->
 
-- \#3 - Info panel: to display instructions
+\#2 - Szelemen átfedéses toldás objektum kiválasztása: legördülő menüből
 
-<!-- /wp:list -->
+<!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
+
+AZ **Elhelyezés befejezése** parancsra kattintva a dialógablak bezáródik, és visszatér a **Szelemenek átfedéses toldása** dialógablak.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+\#3 - Információs panel: utasítások megjelenítését szolgáló panel
 
 <!-- /wp:paragraph -->

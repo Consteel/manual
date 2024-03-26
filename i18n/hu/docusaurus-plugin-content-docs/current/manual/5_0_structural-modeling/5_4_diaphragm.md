@@ -1,38 +1,50 @@
 ---
 sidebar_position: 4
 ---
-# Diaphragm
+# Diafragma
+---
+<!-- wp:image {"align":"right","id":34017,"width":396,"height":332,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-With the help of the Diaphragm element, an in-plane rigid element can be defined in the model. The structural elements added to the diaphragm maintain their distance from each other in the plane of the diaphragm. With the diaphragm elements, in-plane rigid structural elements like slabs or trapezoid sheets can be easily modeled.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-After clicking on the Diaphragm (![](./img/wp-content-uploads-2021-04-cmd_create_diaphrag.png)) icon on the Structural members tab a dialog window appears.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":8800,"width":308,"height":271,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-4-Diaphragm.png)](./img/wp-content-uploads-2021-04-6-4-Diaphragm.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/03/dial_diafragma.png)](./img/wp-content-uploads-2022-03-dial_diafragma.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Just like in the two-dimensional figure drawing there are different possibilities to draw the surface: draw a rectangle (![](./img/wp-content-uploads-2021-04-cmd_draw_rect.png)), draw leaning rectangle (![](./img/wp-content-uploads-2021-04-cmd_draw_rect_leaning.png)), draw circle (![](./img/wp-content-uploads-2021-04-cmd_draw_cirlce.png)), draw polygon (![](./img/wp-content-uploads-2021-04-cmd_draw_polygon.png)). With the select function (![](./img/wp-content-uploads-2021-04-cmd_draw_select.png)) previously created Load transfer surface can be select to use as a diaphragm also.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"align":"justify"} -->
-
-After drawing the surface it is possible to select the members which are added to the diaphragm or all of the planer members can add.
+A diafragma elem segítségével síkjában végtelen merev, tetszőleges síkú felületi elem hozható létre. A diafragmához hozzáadott szerkezeti elemek megtartják az egymástól mért távolságukat a diafragma síkjában. Diafragma elem segítségével síkjukban merev szerkezeti elemek, például födémek, trapézlemezes burkolatok modellezhetők egyszerűen.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Diaphragm element can be used also as a **_[Load transfer surface](/manual/structural-loads/load-types/#LTS)_** and surface loads can be placed on it.
+A _**Szerkezeti elemek**_ fülön található _**Diafragma szerkesztése**_ ![](./img/wp-content-uploads-2021-04-cmd_create_diaphrag.png) ikonra kattintva a _**Diafragma szerkesztő**_ párbeszédpanel nyílik meg.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+Az első fülön (_Felület megadása_) lehet a diafragma geometriáját definiálni. A síkidom rajzolásához hasonlóan, diafragma esetén is számos funkció használható a felület megrajzolására: téglalap rajzolása ![](./img/wp-content-uploads-2021-04-cmd_draw_rect.png), döntött téglalap rajzolása ![](./img/wp-content-uploads-2021-04-cmd_draw_rect_leaning.png), kör rajzolása ![](./img/wp-content-uploads-2021-04-cmd_draw_cirlce.png), illetve poligon rajzolása ![](./img/wp-content-uploads-2021-04-cmd_draw_polygon.png). A kiválasztás funkcióval ![](./img/wp-content-uploads-2021-04-cmd_draw_select.png) előzőleg létrehozott _**Teher átadó felület(ek)**_ alakíthatók át diafragmává.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:spacer {"height":"1px"} -->
+
+<!-- /wp:spacer -->
+
+<!-- wp:image {"align":"right","id":34024,"width":398,"height":332,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![](https://consteelsoftware.com/wp-content/uploads/2022/03/dial_diafragma_rudak-megadasa.png)](./img/wp-content-uploads-2022-03-dial_diafragma_rudak-megadasa.png)
+
+<!-- /wp:image -->
+
+<!-- wp:paragraph {"align":"justify"} -->
+
+A felület megrajzolása után a dialóg tovább lép a második, a _Rudak megadása_ fülre, melyen megadható, hogy mely rudak legyenek hozzáadva a diafragma elemhez. Alapértelmezés szerint minden, a felület síkjában lévő rúd hozzáadódik a diafragmához, de _A kijelölt rudak összekötése_ opciót választva kézzel is megadhatók a szükséges rudak.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+A _**Diafragma**_ elem egyben _**[Teher átadó felületként](/manual/terhek/tehertipusok/#LTS)**_ is funkcionál, azaz felületi terhek elhelyezhetők rajta.
 
 <!-- /wp:paragraph -->

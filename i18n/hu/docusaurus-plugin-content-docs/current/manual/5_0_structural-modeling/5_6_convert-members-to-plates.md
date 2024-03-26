@@ -1,41 +1,49 @@
 ---
 sidebar_position: 6
 ---
-# Convert members to plates
+# Rúdelemek konvertálása lemezekké
+---
+<!-- wp:paragraph -->
 
-Members can be converted to plates with **_Convert members to plates_** function (![](./img/wp-content-uploads-2021-04-cmd_explode_to_shell.png)). This is a non-reversible conversion (however, the undo function is still available) unlike the automatic conversion used during finite element generation of a beam changed to shell element type (**_[Superbeam function](/manual/structural-modelling/superbeam/)_**).
+Kiválasztott szerkezeti elemek konvertálhatók automatikusan lemezelemekké, a _**Szerkezeti elemek**_ fülön található _**Rúdelemek konvertálása lemezekké**_ (![](./img/wp-content-uploads-2021-04-cmd_explode_to_shell.png))funkció segítségével.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"id":8817,"width":600,"height":330,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:paragraph -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-6-Convert-members-to-plates.png)](./img/wp-content-uploads-2021-04-6-6-Convert-members-to-plates.png)
+Ez a művelet végleges konvertálást eredményez (természetesen a _Visszavonás_ parancs továbbra is elérhető), ellentétben a héj végeselem típusra módosított rúdelemnek a végeselem generálás során történő automatikus felületelemmé konvertálásával (ld. **_[Superbeam](/manual/szerkezetmodellezes/superbeam/)_**).
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":34749,"width":512,"height":300,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![](./img/wp-content-uploads-2022-04-scr_konvert_lemez-1024x599.png)](https://consteelsoftware.com/wp-content/uploads/2022/04/scr_konvert_lemez.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-The following members with section can be converted to plates:
+Az alábbi keresztmetszetű rudak konvertálása lehetséges:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 
-- Hot-rolled I, H and tube section
-- Cold formed C, Z and tube section
-- Welded I, H and box section
+- Melegen hengerelt I, H és csőszelvény
+- Hidegen hajlított C, Z és csőszelvény
+- Hegesztett I, H és doboz szelvény
 
 <!-- /wp:list -->
 
-<!-- wp:paragraph {"align":"justify"} -->
+<!-- wp:paragraph -->
 
-In the case of hot-rolled sections, not only the flanges and web are converted to plates but also the neck area with a suitable additional plate element. Therefore the section properties of the original member and the converted are the same.
+Melegen hengerelt szelvényű rúdelemek esetén, nem csak a szelvény övei és gerinc kerül átalakításra, hanem a nyakrész is, egy megfelelő méretű lemezelemmel helyettesítve. Ennek köszönhetően az eredeti és a már átkonvertált keresztmetszetek tulajdonságai megegyeznek.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"align":"justify"} -->
+<!-- wp:paragraph -->
 
-By clicking on the **Apply **button the selected members will be converted to plates. During the conversion, the given eccentricities are considered, therefore, the eccentric loads and supports will be in the same position after the conversion. Attaching nodes of the connecting members, haunches, and tapered members are automatically converted. At the ends of the member, if it is not a free end, a rigid body with constraint elements will be automatically created that connects the endpoints of the converted plate elements to other model parts.
+Az _**Alkalmaz**_ gombra kattintva a _Consteel_ lemezelemekké alakítja a kiválasztott rúdelemeket. A konvertálás figyelembe veszi az esetlegesen megadott külpontosságokat is, azaz a külpontosan felvett terhek és támaszok a konvertálás után az eredeti pozíciójukban maradnak. A bekötő elemek kapcsolódási pontjai, az elhelyezett kiékelés és a változó keresztmetszetű elem is automatikusan konvertálásra kerül. Az elem végein, ha nem szabad végről van szó, automatikusan létrejön egy merev test a megfelelő kényszerelemekkel, amely az átalakított lemezelemek végpontjait köti össze más modellrészekkel.
 
 <!-- /wp:paragraph -->
 
@@ -43,11 +51,11 @@ By clicking on the **Apply **button the selected members will be converted to pl
 
 <!-- wp:column -->
 
-<!-- wp:image {"align":"center","id":22011,"height":500,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":22014,"height":500,"sizeSlug":"full","linkDestination":"media"} -->
 
 [![](https://consteelsoftware.com/wp-content/uploads/2021/04/scr_endsupp_member.png)](./img/wp-content-uploads-2021-04-scr_endsupp_member.png)
 
-Support at the end of a member
+Támasz a rúdelem végén
 
 <!-- /wp:image -->
 
@@ -55,11 +63,11 @@ Support at the end of a member
 
 <!-- wp:column -->
 
-<!-- wp:image {"align":"center","id":21999,"height":500,"sizeSlug":"large","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":22002,"height":500,"sizeSlug":"large","linkDestination":"media"} -->
 
 [![](https://consteelsoftware.com/wp-content/uploads/2021/04/scr_endsupp_dualmember.png)](./img/wp-content-uploads-2021-04-scr_endsupp_dualmember.png)
 
-Converted from 7DOF beam element type member
+7SZF rúdelem a konvertálás után
 
 <!-- /wp:image -->
 
@@ -67,11 +75,11 @@ Converted from 7DOF beam element type member
 
 <!-- wp:column -->
 
-<!-- wp:image {"align":"center","id":22005,"height":500,"sizeSlug":"large","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":22008,"height":500,"sizeSlug":"large","linkDestination":"media"} -->
 
 [![](https://consteelsoftware.com/wp-content/uploads/2021/04/scr_endsupp_dualshell.png)](./img/wp-content-uploads-2021-04-scr_endsupp_dualshell.png)
 
-Converted from Shell element type member
+Héj végeselem típusú rúdelem a konvertálás után
 
 <!-- /wp:image -->
 
@@ -81,17 +89,19 @@ Converted from Shell element type member
 
 <!-- wp:paragraph -->
 
-A rigid body is placed on the edge of each plates whith hinged connections between them. This allows transferring also the warping defromations. The endpoints of these rigid bodies are connected with constraint elements that transfer the deformations between the two model part (bar member and shell). The constaraint can be two types:
+Héj végeselem típusú rudak konvertálása után az egyes lemezek peremére egy-egy merev teste kerül, amelyek között csuklós kapcsolatok jönnek létre. E merev testek végpontjai kényszerelemekkel vannak összekötve, amelyek átadják a két modellrész (rúdelem és héj) közötti deformációkat. Ez a megoldás lehetővé teszi az öblösödési deformációk átvitelét is a kétféle végeselem típus között.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+A kényszerelemek kétfélék lehetnek, attól függően, hogy mely típusú deformációkat tudják közvetíteni:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 
-- translational
-- translational and rotational
+- eltolódás
+- eltolódás ás elfordulás
 
 <!-- /wp:list -->
-
-<!-- wp:paragraph -->
-
-<!-- /wp:paragraph -->

@@ -1,121 +1,62 @@
 ---
 sidebar_position: 1
 ---
-# Section administration
-
-
-Sections must be loaded into the model database in order to use them in the model. This can be done in the Section administration dialogue. The Section dialogue can be opened by clicking the ![](./img/wp-content-uploads-2021-04-cmd_section_admin.png) command on the **Structural members** tab. The dialogue can also be reached from the member creating dialogues (Beam and Column) with the ![](./img/wp-content-uploads-2021-04-3dots-button.png) command besides the section drop-down menu. In this dialogue window, you can see all the previously loaded sections and new sections can be loaded or created by clicking the appropriate buttons on the right.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":21905,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/dial_section_admin.png)](./img/wp-content-uploads-2021-04-dial_section_admin.png)
-
-<!-- /wp:image -->
-
+# Szelvénykezelő
+---
 <!-- wp:paragraph -->
 
-The main part of the window is the table of sections that contains the following columns:
+Ahhoz, hogy szelvényeket használhassunk a modellben, előbb be kell azokat tölteni a modelladatbázisba. A szelvények betöltését a **Szelvénykezelő** párbeszédpanelen lehet elvégezni. A **Szelvénykezelő** párbeszédpanel a **Szerkezeti elemek** fülön található ![](./img/wp-content-uploads-2021-04-cmd_section_admin.png) parancsra kattintva nyitható meg. A párbeszédablak a rúdelemek dialógablakból (gerenda és oszlop) is elérhető a _Szelvény_ legördülő menüje melletti ![](./img/wp-content-uploads-2021-04-3dots-button.png) paranccsal. Ebben a párbeszédablakban látható az összes korábban betöltött szelvény, és a jobb oldalon található megfelelő gombokra kattintva új szelvények tölthetők be, illetve hozhatók létre.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:list -->
+<!-- wp:image {"align":"center","id":33574,"width":734,"height":440,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-- <!-- wp:list-item -->
-- Name of the section
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- Color of the section: each section gets a color automatically after creating it which can be changed by clicking on the colored square
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- Parameters: the main dimensions of the section are shown here
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- Material
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- Type
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- Source: it can be some standard section (like e.g. European), manufacturer section, macro or drawn section.
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- State: can be _Used \_or \_Not used_ depending on whether it is used in the model or not.
-- <!-- /wp:list-item -->
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/02/dial_szelvenykezelo.png)](./img/wp-content-uploads-2022-02-dial_szelvenykezelo.png)
 
-<!-- /wp:list -->
+Az ablak legnagyobb részét a szelvények táblázata foglalja el a bal oldalon, amely a következő oszlopokat tartalmazza:
 
-<!-- wp:paragraph -->
+- Név - szelvény neve
 
-Starting from **Consteel 17,** within the Section Administration panel, the material of the steel sections can be modified by right-clicking on them. This modification can be applied to individual sections or multiple sections at once.
+- Szín - minden szelvény a létrehozása után automatikusan kap egy színt, amely a színpalettára kattintva módosítható
 
-<!-- /wp:paragraph -->
+- Paraméterek - itt láthatók a szelvény fő méretei
 
-<!-- wp:image {"id":73728,"width":"602px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+- Anyag
 
-![](./img/wp-content-uploads-2024-02-5.2-modify-steel-section-1.png)
+- Típus
 
-<!-- /wp:image -->
+- Forrás - lehet valamilyen szabványos szelvény (pl. európai), gyártói, makró vagy rajzolt szelvény
 
-<!-- wp:paragraph -->
+- Állapot - _Használt_ vagy _Nem használt_ attól függően, hogy van-e elhelyezett szerkezeti elem az adott szelvényből
 
-The right part of the window contains the command buttons for managing sections. The first three buttons that are grouped under the name "_Load section_" are for creating or loading sections to the section database. These functions are described in **_[Chapter 5.1 Line members](/manual/structural-modelling/line-members/)_**.
 
-<!-- /wp:paragraph -->
+Az ablak jobb oldalán találhatók a szelvények kezeléséhez szükséges parancsgombok. Az első három gomb, amelyek a "Szelvény felvétel" név alatt vannak csoportosítva, a szelvények létrehozására és a szelvény adatbázisba történő betöltésére szolgál. Ezeket a funkciókat az **_[5.2 Rúdelemek](/manual/szerkezetmodellezes/rudelemek/)_** fejezet írja le.
 
-<!-- wp:paragraph -->
 
-The next group of commands is for modifying the sections.
+Ez alatt a szelvények módosítására szolgáló parancsok találhatók:
 
-<!-- /wp:paragraph -->
+- Módosítás - a szelvények paramétereinek módosítására szolgál
 
-<!-- wp:list -->
+- Eltávolít - csak olyan szelvények törölhetők, melyek _Nem használt_ állapotúak, azaz nincsenek a modellben felhasználva
 
-- <!-- wp:list-item -->
-- Modify: section parameters can be changed
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- Remove: only sections that are not used in the model can be removed
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- Copy: the section will be copied with a - Copy suffix added to the name.
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- Export section list: the list will be exported to a .csv file that can be opened by Excel or other editors.
-- <!-- /wp:list-item -->
+- Másol - szelvények másolása. Az új szelvény neve az eredeti névből és a "_Másolat_" utótagból jön létre.
 
-<!-- /wp:list -->
+- Szelvény lista export - a lista egy .csv fájlba kerül exportálásra, amely Excel vagy ezzel kompatibilis programban nyitható meg.
 
-<!-- wp:paragraph -->
 
-Properties...
+Tulajdonságok...
 
-<!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+Megnyitja a kiválasztott szelvényt a **[Keresztmetszet modulban](/manual/keresztmetszet-modul/)**.
 
-The Section module can be opened with this button. See the next chapter (_**10.2 Section modeling**_) for more information.
 
-<!-- /wp:paragraph -->
+**Fontos tudni**, hogy az anyagminőség a szelvényhez tartozó paraméter, nem a rúdelemhez. Ezért azt mindig a szelvény betöltésekor (létrehozásakor) kell megadni!
 
-<!-- wp:paragraph -->
 
-It is very important to know that the material grade is a property of the section, not the member. Therefore, it must be chosen when the section is loaded into the database.
+A szelvények betöltésével és létrehozásával kapcsolatos részleteket lásd a **_[Rúdelemek](/manual/szerkezetmodellezes/rudelemek/)_** című fejezetben!
 
-<!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
+**Consteel 17**-től kezdve a Szelvénykezelő panelen belül az acélszelvények anyaga megváltoztatható jobb kattintással és az „Anyagminőség módosítása” funkciót választva. Ez a módosítás alkalmazható egyedi szelvényekre vagy egyszerre több szelvényre is.
 
-See Chapter **_[Line members](/manual/line-members/) _**for details on loading and creating cross-sections.
 
-<!-- /wp:paragraph -->
+![](./img/wp-content-uploads-2024-02-5.2-modify-steel-section-HU-1.png)

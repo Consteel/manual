@@ -1,44 +1,76 @@
 ---
 sidebar_position: 3
 ---
-# Surface members
+# Felületi elemek
+---
+<!-- wp:image {"align":"right","id":33994,"width":264,"height":153,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-Plane surface members with uniform thickness can be modelled. Two options are available for surface member modelling: the arbitrary shaped and positioned _plate member (_![](./img/wp-content-uploads-2021-04-cmd_create_plate.png)_)_; and the vertical and square _wall member (_![](./img/wp-content-uploads-2021-04-cmd_create_wall.png)_)_. The latter one is a modelling aid for the frequently used definition of walls since only the reference base line and the two height values should be defined.
+[![](https://consteelsoftware.com/wp-content/uploads/2022/03/dial_fal.png)](./img/wp-content-uploads-2022-03-dial_fal.png)
+
+<!-- /wp:image -->
+
+<!-- wp:image {"align":"right","id":34001,"width":263,"height":155,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![](https://consteelsoftware.com/wp-content/uploads/2022/03/dial_lemez-1.png)](./img/wp-content-uploads-2022-03-dial_lemez-1.png)
+
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+
+Állandó vastagságú felületi elemek modellezhetők _Consteel_-ban. Felületelemek modellezésére két lehetőség áll rendelkezésre: tetszőleges alakú és helyzetű _lemez elemek _![](./img/wp-content-uploads-2021-04-cmd_create_plate.png), és függőleges helyzetű ás téglalap lakú _fal elemek _![](./img/wp-content-uploads-2021-04-cmd_create_wall.png). Ez utóbbi a falak gyakran használt modellezéséhez nyújt segítséget, mivel csak a referencia alapvonalat és két magassági értéket kell meghatározni.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":8779,"width":318,"height":188,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-3-Plate.png)](./img/wp-content-uploads-2021-04-6-3-Plate.png)
-
-<!-- /wp:image -->
-
-<!-- wp:image {"align":"center","id":8785,"width":328,"height":189,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-3-Wall.png)](./img/wp-content-uploads-2021-04-6-3-Wall.png)
-
-<!-- /wp:image -->
-
 <!-- wp:paragraph {"align":"justify"} -->
 
-In the **_Plate_** and **_Wall_** definition panels the drawing functions are collected in order to create the plate with the desired shape. Arbitrarily shaped holes can be defined in existing plate members. Three parameters can be set: the thickness, the material and the finite element size of the surface member. The finite element size is an approximate target maximum size for the finite element mesh used for the calculation of surface members.
+A _**Lemez szerkesztő**_ és _**Fal szerkesztő**_ dialógókon a rajzolási funkciók a felső sorban találhatók. Meglévő lemez elemen tetszőleges formájú lyuk helyezhető el. Mind a két elemtípus esetén három paraméter adható meg: vastagság, anyagminőség és végeselem méret. A végeselem méret a végeselem generálás során alkalmazható maximális méretet jelenti.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
 
-### Plate reinforcement
+### Lemez vasalás
 
 <!-- /wp:heading -->
 
+<!-- wp:image {"align":"right","id":34008,"width":344,"height":304,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![](https://consteelsoftware.com/wp-content/uploads/2022/03/dial_lemez_vasalas.png)](./img/wp-content-uploads-2022-03-dial_lemez_vasalas.png)
+
+<!-- /wp:image -->
+
 <!-- wp:paragraph {"align":"justify"} -->
 
-In case of concrete **_Plates_**, reinforcements can be added to the model at the reinforcement dropdown menu, or by clicking on the (…) button. Diameters, covering and material can be set on the **_Reinforcement_** dialogue:
+Vasbeton anyagú lemez elemet választva az elemhez vasalás is megadható. Az ehhez szükséges paraméterek a _Vasalás_ legördülő menüből választhatók ki (ha már van korábban definiált vasalás), vagy a ![](./img/wp-content-uploads-2021-04-3dots-button.png) ikonra kattintva megadhatók új lemezvasalás paraméterek.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"id":8792,"sizeSlug":"large","linkDestination":"media"} -->
+<!-- wp:paragraph -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-3-Reinforcement.png)](./img/wp-content-uploads-2021-04-6-3-Reinforcement.png)
+Az **Új** parancsra kattintva létrehozható egy új vasalási beállítás, a **Töröl** parancsra kattintva törölhetjük a beállításokat, a **Bezár** gombbal bezárható az ablak, végül az **Alkalmaz** parancsra kattintva pedig elfogadásra kerülnek a beállított paraméterek, melyek automatikusan betöltődnek a modellbe.
 
-<!-- /wp:image -->
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+A párbeszédpanel mezőinek leírása:
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+**Név:** a vasalási objektum egyedi neve
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+**Betonvasak:** az alsó és felső, X és Y irányú vasalás átmérőjének megadása, illetve a betonacél anyagminősége adható meg ebben a szakaszban.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+**Elsődleges vasalás iránya:** megadható a fővasalás iránya, illetve az alsó és felső oldali betonfedés.
+
+<!-- /wp:paragraph -->

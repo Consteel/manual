@@ -1,97 +1,99 @@
 ---
 sidebar_position: 11
 ---
-# Link elements
+# Kapcsolati elemek
+---
+<!-- wp:paragraph -->
 
-Link elements connecting elements that are not directly connected to each other. Three types of link elements can be used in Consteel:
+A kapcsolati elem azoknak az elemeknek az összekötésére szolgál, amelyek referenciavonalai nem kapcsolódnak közvetlenül egymáshoz. A Consteelben háromféle kapcsolati elem használható:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 
-- [Link](#link)
-- [Smart link](#smart-link)
-- [Constraints](#constraints)
+- [Kapcsolati elem (hagyományos)](#Kapcsolati_elem)
+- [Okos kapcsolati elem](#smart-link)
+- [Kényszer elem](#constraints)
 
 <!-- /wp:list -->
 
 <!-- wp:heading {"level":3} -->
 
-### Link
+### Kapcsolati elem (hagyományos típus)
 
 <!-- /wp:heading -->
 
+<!-- wp:image {"id":35085,"width":324,"height":77,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![](https://consteelsoftware.com/wp-content/uploads/2022/04/tab_kapcsolati_elem.png)](./img/wp-content-uploads-2022-04-tab_kapcsolati_elem.png)
+
+<!-- /wp:image -->
+
 <!-- wp:paragraph -->
 
-Link element (![](./img/wp-content-uploads-2021-04-cmd_link.png)) can be used to connect elements that are not directly connected to each other.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-Parameters of the link element can be defined in the middle part of the dialog:
+A kapcsolati elemek alapvető tulajdonságai az alábbiak:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 
-- \_Position of connection: \_this parameter defines the place where the continuity acts in the percentage of the length of the link element. Value can be between 0 and 1
-- Rotation: rotation value defines the angle of the link element in degrees
-- Release: predefined releases can be assigned to the specified position. If a new release type is needed the **_Release_** dialogue can be called by pressing the button next to the combo
+- Kapcsolódás pozíciója: itt lehet megadni azt a pontot a kapcsolati elem hosszának a százalékában, ahol a megadott folytonosságot értelmezni kell. Az érték 0 és 1 között lehet
+- Elfordulás: a megadott szöggel el lehet forgatni a kapcsolati elemet
+- Folytonosság: előre definiált folytonosságokat lehet rendelni a definiált pozícióhoz. Ha új folytonossági típus szükséges, akkor az a hárompontos ![](./img/wp-content-uploads-2021-04-3dots-button.png) ikonra kattintva létrehozható.
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-There are two different types of link element.
+A kapcsolati elemeknek két típusa van a Consteelben. Az egyikkel két szerkezeti pontot, a másikkal két élt lehet összekapcsolni.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
 
-#### Connect two structural points (![](./img/wp-content-uploads-2021-04-cmd_link_point.png))
+#### Két szerkezeti pont összekötése (![](./img/wp-content-uploads-2021-04-cmd_link_point.png))
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-This type of link element can be used to connect two structural points.
+Két szerkezeti pont köthető össze ezzel a típusú kapcsolati elemmel. A paraméterek megadása után a kapcsolati elem elhelyezéséhez ki kell jelölni azt a két szerkezeti pontot, amiket ez az elem össze fog kapcsolni. Az elsőnek kijelölt pont lesz a kapcsolati elem kezdőpontja.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":9034,"width":299,"height":161,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":35093,"width":358,"height":193,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-10-Link-elements.png)](./img/wp-content-uploads-2021-04-6-10-Link-elements.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/04/dial_kapcs_pont.png)](./img/wp-content-uploads-2022-04-dial_kapcs_pont.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-For example, if there is a cantilever on a relatively high tapered column (see image below) it is advisable to connect it not directly to the reference line of the column but with the link element. If it is connected this way the analysis and design results are more accurate and the modeling is more exact.
+Például, ha egy jelentős magasságú oszlophoz egy konzol kapcsolódik, akkor ajánlatos a konzolt nem az oszlop referenciavonalába bekötni, hanem csak az oszlopövig modellezni és ezt a végpontot egy kapcsolóelemmel az oszlop referenciavonalába bekötni. Ily módon modellezett szerkezet számítása pontosabb, a valós helyzethez közelebb álló eredményt ad.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":9040,"width":699,"height":386,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":35101,"width":461,"height":261,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-10-Connection-element.png)](./img/wp-content-uploads-2021-04-6-10-Connection-element.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/04/scr_kapcs_pelda.png)](./img/wp-content-uploads-2022-04-scr_kapcs_pelda.png)
 
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":4} -->
 
-#### Connect two structural edges that are equal length and parallel (![](./img/wp-content-uploads-2021-04-cmd_link_line.png))
+#### Két egyenlő hosszúságú, párhuzamos él összekötése (![](./img/wp-content-uploads-2021-04-cmd_link_line.png))
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-Equal length and parallel edges and members can be connected with this kind of link element.
+Egyenlő hosszúságú és párhuzamos élek és rúdelemek köthetők össze ezzel a típusú kapcsolati elemmel. A megadása a pont-pont kapcsolati elemmel analóg módon történik.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-This type of link element can be used for example when connecting a slab eccentrically to a beam.
+Felhasználható például egy külpontos födém és egy gerenda összekapcsolására
 
 <!-- /wp:paragraph -->
 
@@ -109,110 +111,120 @@ This type of link element can be used for example when connecting a slab eccentr
 
 <!-- wp:heading {"level":3} -->
 
-### Smart Link (![](./img/wp-content-uploads-2021-04-cmd_smartlink.png))
+### Okos kapcsolati elem megadása (![](./img/wp-content-uploads-2021-04-cmd_smartlink.png))
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-This type of link element makes it easier to handle geometric changes between connected members. The element follows the geometric changes (movement, rotation, section change) of the member on which it is placed (Main section). In addition, the other member connected to it (Connecting section) also follows the changes of the link element and thus the main section.
+Az új típusú okos kapcsolati elem lehetővé teszi a geometriai változások egyszerűbb kezelését az összekapcsolt elemek között. Az elem követi annak a rúdelemnek a geometriai változásait (mozgatás, forgatás, szelvény változás), amelyre el lett helyezve (_**Főszelvény**_). Ezen kívül a hozzá kapcsolódó másik rúdelem (_**Kapcsolódó szelvény**_) is követi a kapcsolati elem és ezáltal a főszelvény változásait.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-A typical application is a connection between the main beam and the purlin. With this object, we can place link elements at specific points on the main beam, to the endpoint of which we can easily connect members at a later time, based on the predefined eccentricity parameters. In the case of any change in geometry or profile, the smart link element follows the modification of the main beam, together with the member attached to it.
+Tipikus felhasználási lehetősége ennek az elemnek a főtartó-szelemen kapcsolata. Ezzel az objektummal a főtartó adott pontjaiban olyan kapcsolati elemeket tudunk elhelyezni, melyeknek végpontjához később egyszerűen tudunk szelemeneket kapcsolni, a köztük lévő külpontosság előre definiált paraméterei alapján. Bármilyen geometriai vagy szelvény változás esetén a kapcsolati elem követi a főtartó módosulását, a hozzá kapcsolt szelemennel együtt.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-After starting the command, the Edit smart link dialog box appears:
+A parancs elindítása után megjelenik az _**Okos kapcsolati elem szerkesztése**_ párbeszédablak:
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":13567,"width":578,"height":475,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":35109,"width":625,"height":518,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-10-Edit-smart-link-1.png)](./img/wp-content-uploads-2021-04-6-10-Edit-smart-link-1.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/04/dial_okos_kapcs.png)](./img/wp-content-uploads-2022-04-dial_okos_kapcs.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-\# 1 In the Main Section (A) field has to be specified the local eccentricity of the link element relative to a notable point on the main section.
+\#1 A _Főszelvény_ (A) mezőben lehet megadni a kapcsolati elem lokális külpontosságát a főszelvény valamely nevezetes pontjához képest.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-\# 2 In the _Release_ field has to be set the continuity of the connection element by choosing from existing types or creating a new type. The connection point between the two members can be specified manually by selecting the "Setting position manually" checkbox or automatically by leaving it blank. In this case, the position will always be at the edge of the profile of the main section.
+\#2 A _Folytonosság_ mezőben a kapcsolati elem folytonosságát lehet kiválasztani a már meglévő típusok közül választva, vagy új típust létrehozva. A két rúdelem közötti kapcsolódási pontot megadhatjuk kézzel a „Pozíció megadása manuálisan” jelölőnégyzet bejelölésével, vagy ennek üresen hagyásával automatikusan is. Ekkor a kapcsolódás pozíciója mindig a főszelvény profiljának a peremén lesz.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-\# 3 In the _Connecting section_ (B) field, you can specify an eccentricity increment for the link element by specifying the connecting section. The program determines the length of the link element, taking into account the height of the section specified here and the section reference point.
+\#3 A _Kapcsolódó szelvény_ (B) mezőben megadhatunk a kapcsolati elem számára egy külpontosság növekményt a kapcsolódó szelvény megadása által. Az itt megadott szelvény magasságát és a szelvény viszonyítási pontját figyelembe véve határozza meg a program a kapcsolati elem hosszát.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-There are two options for placing the smart link element(s).
+A kapcsolati elem(ek) elhelyezésére két lehetőség van.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-![](./img/wp-content-uploads-2021-04-5-3-draw-ico-11.png) With this function, the link elements can be placed one by one by clicking on a specific point on the member. The placed smart link element is always parallel to the Z axis of the member.
+![](./img/wp-content-uploads-2021-04-5-3-draw-ico-11.png) Ebben a funkcióban a kapcsolati elemek egyesével helyezhetők el a rúdelem adott pontjára kattintással. Az elhelyezett okos kapcsolati elem mindig párhuzamos a rúd Z tengelyével.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-![](./img/wp-content-uploads-2021-04-cmd_multi_place.png) For group placement, you must first enter the placement distances measured from the start point of the member at the bottom of the dialog box (#4) and then click on a member to place it. If that cannot be placed on that particular member (e.g. because the member is not long enough), the program will not perform the operation and a warning message of "_A smart link cannot be defined with these settings of the Main section!_" will inform you.
+![](./img/wp-content-uploads-2021-04-cmd_multi_place.png) Csoportos elhelyezésnél először a párbeszédablak alsó részén meg kell adni az elhelyezési távolságokat a rúd kezdőpontjától mérve, majd az elhelyezéshez egy rúdelemre kell kattintani. Ha olyan kiosztás van megadva, amely nem helyezhető el az adott rúdon (mert a rúd nem elég hosszú ahhoz), akkor a program nem hajtja végre a műveletet, és a „Főszelvény megadott paramétereivel nem hozható létre okos kapcsolati elem!” figyelmeztető üzenettel tájékoztat erről.
 
 <!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"left","id":21420,"width":67,"height":71,"sizeSlug":"full","linkDestination":"none"} -->
+
+![](./img/wp-content-uploads-2021-04-warning_croc.png)
+
+<!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-**It is important to know** that the smart link elements cannot be copied together with the members currently. When copying a member containing smart links already placed on it, the smart links will not be copied together, but they have to be selected and copied separately.
+Fontos tudni, hogy jelenleg a kapcsolati elemek nem másolhatók a rúdelemekkel együtt. Már elhelyezett okos kapcsolati elemeket tartalmazó rúd másolása esetén a rajta elhelyezett okos kapcsolati elemek nem másolódnak együtt, hanem azokat külön kijelölve egy újabb művelettel lehet másolni.
 
 <!-- /wp:paragraph -->
+
+<!-- wp:spacer {"height":"10px"} -->
+
+<!-- /wp:spacer -->
 
 <!-- wp:heading {"level":3} -->
 
-### Constraints
+### Kényszer elemek
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-These types of link elements are special since these cannot be created manually, therefore there is no command icon on the menu bar. Constraints are generated automatically during the finite element generation if the following objects are present in the model:
+Az ilyen típusú kapcsolati elemek különlegesek, mivel kézzel nem hozhatók létre, így külön parancsikon sem tartozik ezekhez a menüsoron. A kényszer elemek automatikusan jönnek létre a végeselem-generálás során, ha a következő objektumok jelen vannak a modellben:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 
-- Frame corners with the help of the [**_Frame corner wizard_**](/manual/structural-modelling/frame-corner-wizard/)
-- If any bar member is set to shell FE representation (see **_[Superbeam](https://consteelsoftware.com/manual/structural-modelling/superbeam/)_** for more info)
+- Keret sarkok a [**_Keret sarok varázsló_**](/manual/szerkezetmodellezes/keretsarok-varazslo/) segítségével
+- Héj végeselem típusra módosított rúdelem (ld. a **_[Superbeam](/manual/szerkezetmodellezes/superbeam/)_** fejezetet további információért)
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
-Constraint elements are represented with thick orange lines in the Finite element view of the model. Constraints transfer all or just some of the 7DOF beam element-like deformations from one node to another or from the beam to its shell element-based representation.
+A kényszer elemek vastag narancssárga vonalakkal jelennek meg a modell véges elem nézetében. A kényszerek a 7 szabadságfokú rúdelem alakváltozások egészét, vagy csak egy részét viszik át egyik csomópontból a másikba, vagy a rúdból a héjelem alapú megjelenítésébe.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-**Frame corners**
+**Keretsarkok**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Constraints created in the frame corners transferring only the warping deformations between the beam and the column according to the type of the frame corner object. More information about the frame corner types: [**_Frame corner wizard_**](/manual/structural-modelling/frame-corner-wizard/)
+A keretsarkokban létrehozott kényszerek, amelyek csak a gerenda és az oszlop közötti öblösödési deformációkat adják át a keretsarok objektum típusának megfelelően. A keret sarok típusokról további információkat ld: [**_Keretsarok varázsló_**](/manual/szerkezetmodellezes/keretsarok-varazslo/)
 
 <!-- /wp:paragraph -->
 
@@ -222,26 +234,26 @@ Constraints created in the frame corners transferring only the warping deformati
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"right","id":29490,"width":368,"height":105,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"right","id":35125,"width":316,"height":91,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/12/combo_constr_type.png)](./img/wp-content-uploads-2021-12-combo_constr_type.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/04/obj_tul_kenyszer_superbeam.png)](./img/wp-content-uploads-2022-04-obj_tul_kenyszer_superbeam.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-The definition of which type of deformations are transferred depends on the value of the combobox in the property tree. The default value for constraints is _Translational_. The properties of the constraint elements can be accessed either by selecting the beam or selecting the constraint element itself on the Finite Elements view of the model.
+Az átvitt alakváltozások típusa az objektumtulajdonságok ablakban elérhető legördülő menüből választható ki. Az alapértelemezett típus az _Eltolódás_. A kényszer elemek tulajdonságait megadhatjuk egyformán az egész gerendára vonatkozóan, vagy az egyes kényszere elemekre egyenként is.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-In the first case constraints at both ends of the member can only be modified together, in the second case the constraint elements can be modified separately (only if the superbeam member is already converted to plates) .
+Az első esetben a tulajdonságok a rúd mindkét végén csak együtt módosíthatók. Ehhez magát a rudat kell kijelölni a normál modelltérben. A második esetben a kényszerelemek tulajdonságai egyenként is megadhatók, a szuperbeam elem lemezekké történő átalakítása után a végeselemes nézetben.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-The setting „Translational” results in coupling of displacements in all 3 global directions where the warping deformations of the 7DOF beam elements are also considered. The setting „Translational and rotational” will result in coupling additionally the rotations in all 3 global directions.
+Az „_Eltolódás_” beállítás az elmozdulások átvitelét eredményezi mind a 3 globális irányban, beleértve a 7SZF gerendaelemek öblösödési deformációit is. Az „_Eltolódás és elfordulás_” beállítás az előbbiekhez hozzáveszi az elfordulásokat is mind a 3 globális irányban.
 
 <!-- /wp:paragraph -->

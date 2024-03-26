@@ -1,116 +1,128 @@
 ---
 sidebar_position: 7
 ---
-# Frame corner wizard
+# Keretsarok varázsló
+---
+<!-- wp:image {"align":"center","id":34769,"width":447,"height":71,"sizeSlug":"full","linkDestination":"media","className":"is-style-default"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-7-Frame-corner-wizard.png)](./img/wp-content-uploads-2021-04-6-7-Frame-corner-wizard.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph {"align":"justify"} -->
-
-The **_Frame corner wizard_** is an optional function for modeling and calculation of the corner regions of structural models more realistically considering the overlapping of connected members. The function automatically identifies the corner zones and applies special treatment for the geometrical modeling, buckling analysis, plastic analysis, and global checks.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"align":"justify"} -->
-
-The main mechanical background is that these – generally stiffened – corner zones have usually significantly different behavior than the connected beam members. Since these zones are very short the behavior is influenced dominantly by the shear effect while the connected members have beam-column behavior with a dominant bending effect.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-Functions of the frame corner wizard dialogue:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":8831,"sizeSlug":"large","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-7-Frame-corner-wizard-dialogue.png)](./img/wp-content-uploads-2021-04-6-7-Frame-corner-wizard-dialogue.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/04/tab_keretsarok_varazslo.png)](./img/wp-content-uploads-2022-04-tab_keretsarok_varazslo.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-\#1 - With the button frame corner recognition can be turned on, and off.: By turning on frame corner recognition, frame corner definition can be started. Already defined frame corners can be turned off by clicking the button, and turned on again if it is desired.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"align":"justify"} -->
-
-\#2 - With the more about the function button, a new panel will open, where detailed information about the function is available.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"align":"justify"} -->
-
-\#3 - Displays the model portion tree, in which it can be decided that what type of frame corner should be applied on which portion. It is important to note, that special frame corners (#5, #6, #7) can only be placed on model portions. The default frame corner type can be applied to the whole model. To place a special frame corner, it is necessary to select a model portion, and then with a click on a type of frame corner and on the **Apply button**,\*\* \*\*the frame corner will be placed on the model.
+A Keretsarok varázsló egy hasznos kiegészítő funkció, amelynek segítségével még realisztikusabban modellezhető és számítható a keretsarok tartomány. A funkció automatikusan felismeri a keretsarok tartományt és a tartományban speciális eljárásokat alkalmaz a keretsarok modellezésére, a kihajlás számítására, illetve a képlékeny analízis és a szabványos ellenőrzés során.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-\#4 - Default frame corner: 7. DOF displacements of end nodes of neighboring elements are transferred independently of the topology of the joint
+A mechanikai háttere a funkciónak az, hogy a – az általában merevített – keretsarok tartomány általában teljesen eltérő viselkedéssel rendelkezik, mint a keretsarokba bekötő rúdelemek. Mivel ezek a keretsarok tartományok relatíve rövidek, azért a viselkedését leginkább a nyírás befolyásolja, míg a bekötő oszlop, illetve gerenda elemek viselkedését a hajlítás.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"align":"justify"} -->
+<!-- wp:paragraph -->
 
-\#5 - Box-type stiffened bolted or welded joint: Placement of a constraint element between neighboring elements, resulting in displacements with opposite sign of 7. DOF of their nodes located at the boundary of the corner zones.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"align":"justify"} -->
-
-\#6 - Bolted or welded joint with diagonal endplate: Placement of a constraint element between neighboring elements, resulting in equal displacements of 7. DOF of their nodes located at the boundary of the corner zones.
+A Keretsarok varázsló funkciói:
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"align":"justify"} -->
+<!-- wp:image {"align":"left","id":34777,"width":347,"height":298,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-\#7 - Box-type stiffened bolted or welded joint with additional 1 or 2 diagonal stiffener(s): Placement of a constraint element between neighboring elements, resulting in no displacements of 7. DOF of their nodes located at the boundary of the corner zones.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":8837,"width":990,"height":490,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-7-Frame-corner-zones.png)](./img/wp-content-uploads-2021-04-6-7-Frame-corner-zones.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/04/dial_keretsarok.png)](./img/wp-content-uploads-2022-04-dial_keretsarok.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-After clicking on the **Apply **button the program detects the overlapping zones of the members in the identified connection nodes including occurrent eccentricities, haunches, or tapered members.
+\#1 - Keretsarok felismerés bekapcsolása. Bekapcsolás után lehet a megkezdeni a paraméterek beállítását. A korábban definiált keretsarkok is ki- vagy bekapcsolhatók ennek segítségével.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"justify"} -->
+
+\#2 - További információk: a keretsarok varázsló információs panele hívható elő, mely a funkció bővebb leírását tartalmazza.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The member segments inside the overlapping zones are separated and handled specifically:
+Vezérlőpult
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"justify"} -->
+
+\#3 - Részletkezelő fa megjelenítő felülete, melyben beállíthatjuk, mely részletre mely keretsarok típus legyen elhelyezve. Fontos megjegyezni, hogy a speciális keretsarkok (#5, #6, #7) csak részletmodelleken helyezhetők el, egységesen a teljes modellre csak az alapértelmezett (default (#4)) keretsarkot lehet elhelyezni. Az elhelyezéshez először be kell pipálni ahhoz a részlethez tartozó jelölőnégyzetet, melyre el szeretnénk helyezni a speciális keretsarkot, majd rá is kell kattintani a részletmodell nevére csak ezután helyezhető el a keretsarok a részletmodellen.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+\#4 - Alapértelmezett keretsarok: a szomszédos elemek végső csomópontjainak 7. szabadságfokú elmozdulásai a kapcsolat kialakításától függetlenül kerülnek átvitelre.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"justify"} -->
+
+\#5 - Teljes és közvetett keretsarok: doboz kialakítású csavarozott vagy hegesztett kapcsolat. Szomszédos elemek között definiált kényszerelemek elhelyezése, melynek hatására a kapcsolat zónájának határán a csomópontok 7. szabadságfokú elmozdulásai egymás ellentettjei lesznek.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"justify"} -->
+
+\#6 - Teljes és közvetlen keretsarok: egy diagonális merevítőbordán keresztül csavarozott vagy egy diagonális merevítőbordával rendelkező hegesztett kapcsolat. Szomszédos elemek között definiált kényszerelemek elhelyezése, melynek hatására a kapcsolat zónájának határán a csomópontok 7. szabadságfokú elmozdulásai egymással azonosak lesznek.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"justify"} -->
+
+\#7 - Torzulás ellen merev keretsarok: doboz kialakítása csavarozott vagy hegesztett kapcsolat egy vagy két diagonális merevítőbordával megerősítve. Szomszédos elemek között definiált kényszerelemek elhelyezése, melynek hatására a kapcsolat zónájának határán a csomópontok 7. szabadságfokú elmozdulásai zérus értékűek lesznek.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":34785,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![](./img/wp-content-uploads-2022-04-dial_keretsarok_info-1024x507.png)](https://consteelsoftware.com/wp-content/uploads/2022/04/dial_keretsarok_info.png)
+
+<!-- /wp:image -->
+
+<!-- wp:paragraph {"align":"justify"} -->
+
+Az **Alkalmaz** gombra kattintás után a program észleli az azonosított csomópontokban lévő rúdelemek átfedő zónáit, beleértve az előforduló külpontosságokat, kiékeléseket vagy változó keresztmetszeteket, és létrehozza a keretsarok objektumokat, melyeket a beállított típusnak megfelelő áttetsző színű "dobozzal" ábrázol a modellben.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+A bekötő szerkezeti elemek keretsarok tartományon belüli részei elkülönítésre kerülnek és speciálisan kezelődnek:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 
-- _Geometry_: the haunch is started at the end of the truncated member (at the end of the overlapping member segment). In this way, the real dimensions and position of the haunch are modeled.
+- _Geometria_: az esetleges kiékelés a keretsarok tartomány széltől kezdődik. Így a kiékelés a valóságos mérettel és pozícióval kerül modellezésre
 
 <!-- /wp:list -->
 
-<!-- wp:image {"align":"center","id":8844,"width":464,"height":300,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":34793,"width":341,"height":264,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-7-Geometry.png)](./img/wp-content-uploads-2021-04-6-7-Geometry.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/04/scr_keretsarok_kiekeles.png)](./img/wp-content-uploads-2022-04-scr_keretsarok_kiekeles.png)
 
 <!-- /wp:image -->
 
 <!-- wp:list -->
 
-- _Buckling analysis_: the finite elements belonging to the beam segments inside the overlapping nodes are left out from the buckling analysis (as it would be an unselected model portion). The reason is that in this zone member buckling cannot occur, and the effective buckling lengths of the members actually start outside of this zone
-- Plastic analysis: the plastic hinges cannot be formed inside the corner zone. Accordingly, the plastic hinges are formed at the theoretically exact positions (for instance on the column below the haunch) and not in the connection node where the “virtual” bending moment is the highest
+- **Stabilitás számítás**:
+
+  - Alapértelmezett keretsarok esetén a bekötő szerkezeti elemek keretsarok tartományon belüli részei kihagyásra kerülnek a stabilitás számításból.
+  - Speciális keretsarok objektumok esetén a bekötő szerkezeti elemek keretsarok tartományon belüli részei is figyelembe vannak véve a stabilitásszámítás során.
+
+- _Képlékeny analízis_: képlékeny csuklók nem alakulhatnak ki a keretsarok tartományon belül. Ennek megfelelően a képlékeny csuklók a pontos pozíciókban alakulnak ki (például az oszlopon a kiékelés alatt) és nem rúdelemek kapcsolódás pontjában, ahol a legnagyobb a hajlító nyomaték
 
 <!-- /wp:list -->
 
-<!-- wp:image {"align":"center","id":8850,"width":515,"height":360,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":8850,"width":344,"height":240,"sizeSlug":"full","linkDestination":"media"} -->
 
 [![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-7-Plasic-analysis.png)](./img/wp-content-uploads-2021-04-6-7-Plasic-analysis.png)
 
@@ -118,7 +130,7 @@ The member segments inside the overlapping zones are separated and handled speci
 
 <!-- wp:list -->
 
-- _Global checks_: the global checks (including section and stability checks) are performed only for the member parts outside of the corner zone. In this way, the “virtual” peaks of the bending moments at the connection nodes inside the corner zones (which has no real mechanical meaning) are left out from the design checks and members are checked for the real, considerably bending moment (and the corresponding other internal force) values.
+- **Szabványos ellenőrzés**: alapértelmezett és speciális keretsarok esetén is a szabványos ellenőrzés a bekötő szerkezeti elemeknek csak a keretsarok tartományon kívüli részén kerülnek elvégzésre. Így a hajlító nyomaték virtuális csúcsa a rúdelemek keretsarok tartományon belüli kapcsolódás pontjában (aminek valójában nincs valóságos mechanikai jelentése) kikerül a szabványos ellenőrzésből. A bekötő szerkezeti elemek szabványos ellenőrzése csak a valóságos és tényleges hajlító nyomatékra (és az egyidejű további igénybevételekre) kerül elvégzésre
 
 <!-- /wp:list -->
 
@@ -130,10 +142,6 @@ The member segments inside the overlapping zones are separated and handled speci
 
 <!-- wp:list -->
 
-- _Connection design_: similarly to the earlier point the design bending moment and shear force values for the connection design are taken from the end of the truncated members where a beam-to-column connection is applied to the connection node where corner zone is defined
+- _Csomópont tervezés_: hasonlóan az előző pontokhoz, a csomópont tervezéshez használt tervezési hajlító nyomaték és a nyíróerő a keretsarok tartomány szélén kerül meghatározásra, ott, ahol az oszlop-gerenda kapcsolat ténylegesen található
 
 <!-- /wp:list -->
-
-<!-- wp:paragraph -->
-
-<!-- /wp:paragraph -->

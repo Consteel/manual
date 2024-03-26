@@ -1,151 +1,161 @@
 ---
 sidebar_position: 10
 ---
-# Spread footing
-
-From Consteel 16 it is possible to define foundation as a consistent part of the structural model. **_Spread footing_** function is available on **_Structural members_** tab. It is a targeted function only for shallow spread foundations of separate columns.
+# Pontalap
+---
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"24px"}}} -->
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":44437,"sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2023-01-image-2.png)
+A Consteel 16 verzió óta a szerkezeti modell konzisztens részeként **Pontalapok** is definiálhatók. Ez a funkció a **Szerkezeti elemek** fülön található, és kifejezetten a különálló oszlopok kis mélységű pontalapozásának számítására szolgál.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":51777,"sizeSlug":"full","linkDestination":"none","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+
+![Pontalap parancsikon - Szerkezeti elemek fül](./img/wp-content-uploads-2023-07-Pontalap_menu_parancs.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-The spread footing is a compound object which consists of a bar member, a support and a Joint model. The support is always located at the geometrical center of the foundation bottom, no matter the eccentricities. The reference line of the spread footing is always parallel to global Z axis.
+A Pontalap egy összetett objektum, amely egy rúdelemből, egy támaszból és egy Joint-modellből áll. A támasz mindig az alapozás aljának geometriai középpontjában helyezkedik el, függetlenül az excentricitásoktól. A Pontalap referenciavonala mindig párhuzamos a globális Z tengellyel.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":44444,"sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:image {"align":"center","id":44444,"sizeSlug":"full","linkDestination":"none","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
 ![](./img/wp-content-uploads-2023-01-image-3.png)
 
 <!-- /wp:image -->
 
-<!-- wp:heading {"level":3} -->
+<!-- wp:heading {"level":3,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-### Definition
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-When clicking on the function icon, the **_Spread footing_** dialog appears. If there is no foundation-type Joint object created yet, the upper drop-down menu is empty.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":44451,"width":476,"height":260,"sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2023-01-image-4.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-It is possible to create one by clicking on the … and then on ![](./img/wp-content-uploads-2022-12-JointCreateIcon.png) button on the appearing **_Joints_** dialog. Only spread footing Joint can be created here.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":44465,"width":857,"height":149,"sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2023-01-image-5.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-It is sufficient to define the dimensions, material and eccentricities in the **_Geometry and material_** dialog in Consteel Joint.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":44472,"width":615,"height":530,"sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2023-01-image-6.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-After the foundation joint is created, and the support is selected, the spread footing can be placed one-by-one ![](./img/wp-content-uploads-2022-12-Pencil_icon.png) or multiple placement is available with ![](./img/wp-content-uploads-2022-12-Arrow_icon.png).
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":44493,"width":473,"height":258,"sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2023-01-image-7.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-Spread footing can be placed at any point of the model. The reference point of the placement is the is the upper end of the object’s reference line.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-When the spread footing is placed at the end of a bar member (practically a column), it inherits the eccentricities (directions y and z and rotation) of the bar member. Transformation between local coordinate-systems is handled automatically. If there are more than one member connected to that point, it is necessary to select from which to inherit the properties. Once the footing is placed, the modification of the member eccentricities has no longer any effect on the spread footing.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-
-### Eccentricities
+### **Pontalap definiálása**
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-Eccentricities can be set for the spread footing at two places but the finite element model differs in case of the two definitions.
+A funkció ikonjára kattintva megjelenik a **Pontalap** párbeszédpanel. Ha még nincs létrehozott alapozás típusú Joint csomópont, a felső legördülő menü üres.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
+<!-- wp:image {"align":"center","id":51768,"sizeSlug":"full","linkDestination":"none","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-\#1 – Property tree: to adjust the spread footing under the column
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-It is based on the assumption that in general cases the footing should be physically under the column (not under the reference line of the column). Unlike other objects in Consteel, the reference line of the spread footing moves when eccentricity is defined.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-In case the object inherits the eccentricities, it will be visible here too.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-Spread footing placed under eccentric column:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":44500,"width":1028,"height":330,"sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2023-01-image-8.png)
+![Pontalap lerakás - üres menü](./img/wp-content-uploads-2023-07-Pontalap_lerakas_ures.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-\#2 – Consteel Joint: to define if the column is placed eccentrically on the spread footing.
+A ![](./img/wp-content-uploads-2021-04-3dots-button.png) gombra, majd a megjelenő **Consteel Joint** párbeszédpanelen a ![](./img/wp-content-uploads-2022-12-JointCreateIcon.png) gombra kattintva lehet létrehozni egy új csomópontot. Itt csak pontalap típusú Joint csomópont hozható létre.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":44507,"width":1031,"height":303,"sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:image {"align":"center","id":51786,"sizeSlug":"large","linkDestination":"none","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-![](./img/wp-content-uploads-2023-01-image-9.png)
+![Csomópont szerkesztő - új csomópont ikon](./img/wp-content-uploads-2023-07-Pontalap_csomopont_letrehozas-1024x135.png)
 
 <!-- /wp:image -->
 
-<!-- wp:image {"align":"left","id":44536,"width":138,"height":147,"sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:paragraph -->
+
+Elegendő megadni a méreteket, az anyagminőséget és az excentricitásokat a Consteel Joint **Geometria és anyag** párbeszédpanelén.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":51723,"sizeSlug":"full","linkDestination":"none","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+
+![](./img/wp-content-uploads-2023-07-Pontalap_csomopont_letrehozas_geometria.png)
+
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+
+Az alapozási csomópont létrehozása és a támasz típusának kiválasztása után a pontalap egyenként ![](./img/wp-content-uploads-2022-12-Pencil_icon.png) vagy többszörös elhelyezéssel ![](./img/wp-content-uploads-2022-12-Arrow_icon.png) helyezhető el.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":51732,"sizeSlug":"full","linkDestination":"none","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+
+![Pontalap lerakása](./img/wp-content-uploads-2023-07-Pontalap_lerakas.png)
+
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+
+Pontalap a modell bármely pontján elhelyezhető. Az elhelyezés referenciapontja az objektum referenciavonalának felső vége.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+Amikor a pontalap egy rúdelem ( praktikusan egy oszlop ) végére kerül, akkor átveszi a rúdelem excentricitásait (y és z irányok és a forgatás). A lokális koordináta-rendszerek közötti transzformáció automatikusan történik. Ha az adott ponthoz egynél több rúd csatlakozik, ki kell jelölni, hogy melyiktől örökölje a tulajdonságokat. A pontalap elhelyezése után a rúdelemek excentricitásainak módosítása már nincs hatással a pontalapra.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+
+### **Külpontosságok**
+
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+
+A pontalap külpontosságát két helyen is be lehet állítani, de a kétféle meghatározás különböző végeselemes modellt eredményez. Ez a kétféle megadás az alábbi lehet:
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+\#1 – Objektum tulajdonságok panelen: az oszlop alatt elhelyezett pontalap beállításához.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+Azon a feltételezésen alapul, hogy általános esetben a pontalapnak fizikailag az oszlop alatt kell lennie (nem az oszlop referenciavonala alatt). A Consteel más objektumaitól eltérően a pontalap referenciavonala elmozdul, ha excentricitást határozunk meg.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+Ha az objektum örökölte az excentricitást, az itt is látható lesz.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+Külpontos oszlop alá helyezett pontalap:
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":52101,"sizeSlug":"full","linkDestination":"none","className":"is-style-editorskit-rounded","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+
+![Pontalap_kulponotssag_pelda_1](./img/wp-content-uploads-2023-01-Pontalap_kulponotssag_pelda_1.png)
+
+Pontalap külpontosságának beállítása az Objektum tulajdonságok panelen
+
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+
+\#2 – Consteel Joint segítségével: arra az esetre, ha az oszlop külpontosan helyezkedik el a pontalapon.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":52110,"sizeSlug":"full","linkDestination":"none","className":"is-style-editorskit-rounded","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+
+![Pontalap_kulponotssag_pelda_2](./img/wp-content-uploads-2023-07-Pontalap_kulponotssag_pelda_2.png)
+
+Pontalap külpontosságának beállítása a Consteel Joint modulban
+
+<!-- /wp:image -->
+
+<!-- wp:image {"align":"left","id":44536,"width":138,"height":147,"sizeSlug":"full","linkDestination":"none","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
 ![](./img/wp-content-uploads-2023-01-image-13.png)
 
@@ -157,13 +167,13 @@ Spread footing placed under eccentric column:
 
 <!-- wp:paragraph {"align":"left"} -->
 
-The visualization of the spread footing can be the same or very similar with two different eccentricity definitions (combination of eccentricity types), but the finite element models can still be different. It is important to make sure about the correctness of the structural model.
+A pontalap grafikus ábrázolása két különböző külpontosság-megadás esetén is lehet azonos vagy nagyon hasonló (az excentricitás-típusok kombinációja), ám a végeselem-modellek mégis különbözhetnek egymástól. Fontos meggyőződni a szerkezeti modell helyességéről.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Punching shear verification considers the eccentricities defined in Consteel Joint when calculating the perimeters.
+Az átszúródás vizsgálatban a nyírási kerület kiszámításakor a Consteel Jointban megadott külpontosságok a mérvadók.
 
 <!-- /wp:paragraph -->
 
@@ -171,27 +181,27 @@ Punching shear verification considers the eccentricities defined in Consteel Joi
 
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":3} -->
+<!-- wp:heading {"level":3,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-### Analysis
+### **Analízis**
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-Spread footing is modelled as a bar member with a fictive reinforced concrete section which is created automatically in the background when defining the object’s dimensions in Consteel Joint.
+A pontalap egy fiktív vasbeton szelvénnyel rendelkező rúdelemként van modellezve, mely a háttérben automatikusan létrejön a Consteel Jointban meghatározott méretek szerint.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Rigid bodies for handling eccentricities are created also automatically during the creation of finite element model.
+A külpontosságok kezelésére szolgáló merev testek szintén automatikusan jönnek létre a végeselemes modell létrehozása során.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Self-weight of the spread footing is not considered in the analysis, it is calculated and added to the design loads in Consteel Joint whenever necessary. When there is a spread footing object in the model, calculation of the reaction forces is performed for SLS combinations for settlement check.
+A szerkezeti analízis nem veszi figyelembe a pontalap önsúlyát, de a Consteel Joint kiszámítja azt, és szükség esetén hozzáadja a tervezési terhekhez. Ha a modellben van pontalap objektum, akkor az SLS-kombinációkra a reakcióerők számítása is elvégzésre kerül a süllyedés ellenőrzéséhez.
 
 <!-- /wp:paragraph -->
 
@@ -199,7 +209,7 @@ Self-weight of the spread footing is not considered in the analysis, it is calcu
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"left","id":44544,"width":144,"height":153,"sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:image {"align":"left","id":44544,"width":144,"height":153,"sizeSlug":"full","linkDestination":"none","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
 ![](./img/wp-content-uploads-2023-01-image-14.png)
 
@@ -207,98 +217,53 @@ Self-weight of the spread footing is not considered in the analysis, it is calcu
 
 <!-- wp:paragraph -->
 
-It is important to take care of the end releases of the column the spread footing is connected to.
+Fontos ügyelni a pontalaphoz csatlakozó oszlop csatlakozó végének folytonosságára.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-When geotechnical design is not executed in Consteel, it is recommended to generate the reaction forces from the model without the spread footing objects.
+Ha az alaptesteket nem a Consteel programban tervezi, ajánlott az alapozás tervezéshez szükséges reakcióerőket egy pontalapok nélküli modellből generálni.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
+<!-- wp:spacer -->
 
-<!-- /wp:paragraph -->
+<!-- /wp:spacer -->
 
-<!-- wp:paragraph -->
+<!-- wp:heading {"level":3,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-<!-- /wp:paragraph -->
+### **Pontalapok tervezése**
 
-<!-- wp:paragraph -->
 
-<!-- /wp:paragraph -->
+A pontalapok tervezése a Consteel Joint programban történik.
 
-<!-- wp:paragraph -->
 
-<!-- /wp:paragraph -->
+A terhek megadhatók kézzel vagy betölthetők a Consteel modellből. A tervezési terheket általában az alapozás alján fellépő terhekből kell kiszámítani, kivéve az átszúródást, mely esetben az alapozás tetején fellépő terheket kell figyelembe venni.
 
-<!-- wp:heading {"level":3} -->
 
-### Design of spread footing
+Különböző ellenőrzések kerülnek elvégzésre a megfelelő határállapotokban.
 
-<!-- /wp:heading -->
+1. Külpontosság ellenőrzése: EN 1997-1 6.5.4.
 
-<!-- wp:paragraph -->
+6. A talaj teherbírásának ellenőrzése: EN 1997-1 Annex D
 
-The design of spread footings is executed in Consteel Joint.
+10. Elcsúszás ellenőrzése: EN 1997-1 6.5.3.
 
-<!-- /wp:paragraph -->
+14. A felborulás ellenőrzése: EN 1990 6.4.2. Eq. (6.7)
 
-<!-- wp:paragraph -->
+18. A vasalás ellenőrzése hajlításra: EN 1992-1-1 A vasalásra ható tervezési nyomaték kiszámításához lineáris feszültségeloszlást feltételezünk az alapozás alatt, ezért az eredő erőnek a "belső mag" területén belül kell lennie (az x és y irányú összegzett külpontosságnak kisebbnek kell lennie, mint ab/6, illetve bb/6). A vasalás ellenőrzése x és y irányban külön-külön történik.
 
-Loads can be either defined manually or loaded from Consteel model. Design loads are calculated in general from loads at the bottom of the foundation, except for punching shear, where loads on the top of the foundation are considered.
+22. Átszúródásvizsgálat nyírási vasalás figyelembevétele nélkül: EN 1992-1-1 6.4.4. (2)
 
-<!-- /wp:paragraph -->
+26. Süllyedés ellenőrzése: EN 1997-1 6.6.2.
 
-<!-- wp:paragraph -->
 
-Different verifications are performed in the corresponding limit states.
+![Pontalap_vizsgalatok_tablazata](./img/wp-content-uploads-2023-07-Pontalap_vizsgalatok_tablazata-1024x183.png)
 
-<!-- /wp:paragraph -->
-
-<!-- wp:list {"ordered":true,"type":"1"} -->
-
-1. Eccentricity check: EN 1997-1 6.5.4.
-2. Soil bearing verification: EN 1997-1 Annex D
-3. Sliding verification: EN 1997-1 6.5.3.
-4. Check of overturning: EN 1990 6.4.2. Eq. (6.7)
-5. Bending verification of the reinforcement: EN 1992-1-1 For calculation of the design moment on the reinforcement, linear stress distribution is assumed under the foundation, therefore the resultant force should be inside the “middle-third” area (sum eccentricity in x and y direction should be less than ab/6 or bb/6 respectively). Reinforcement is checked separately in x and y direction.
-6. Punching shear verification without shear reinforcement: EN 1992-1-1 6.4.4. (2)
-7. Settlement verification: EN 1997-1 6.6.2.
-
-<!-- /wp:list -->
-
-<!-- wp:paragraph -->
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":44551,"sizeSlug":"large","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2023-01-image-15-1024x187.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"left","id":44558,"width":142,"height":151,"sizeSlug":"full","linkDestination":"none"} -->
 
 ![](./img/wp-content-uploads-2023-01-image-16.png)
 
-<!-- /wp:image -->
 
-<!-- wp:paragraph -->
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-When adjusting the dimensions of the foundation (height, ex, ey) during the design process, the loads become obsolete. It is necessary to run a new analysis in Consteel to get the correct foundation loads
-
-<!-- /wp:paragraph -->
+Ha a tervezési folyamat során módosítjuk a pontalap méreteit (magasság, ex, ey), a terhek elavulttá válnak. A megfelelő alapozási terhekhez új analízist kell futtatni a Consteelben.

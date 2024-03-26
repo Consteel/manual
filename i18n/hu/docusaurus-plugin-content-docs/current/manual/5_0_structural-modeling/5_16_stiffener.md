@@ -1,9 +1,11 @@
 ---
 sidebar_position: 16
 ---
-# Stiffener
+# Merevítők
+---
+<!-- wp:paragraph {"align":"justify"} -->
 
-The modeling of various web stiffeners is currently available for welded I- or H-type cross-sections. Other types of sections will be available later. The effect of the stiffeners is only taken into account during analysis and design if the finite element of the member is shell, where the stiffeners will be automatically included in the mesh during the finite element division. Analyzing with the normal 7DOF beam finite element, these objects are neglected. The only exception is, that the warping stiffness of the perpendicular stiffeners can be considered also in the beam representation of the member if requested.
+A gerinc merevítők modellezése jelenleg hegesztett I vagy H típusú keresztmetszetekhez áll rendelkezésre, de a későbbiekben elérhető lesz majd más típusú keresztmetszetekhez is. A merevítők hatása csak akkor lesz figyelembe véve az analízis és a méretezés során, ha a rúd végeseleme héj típusú. A normál 7SZF végeselemmel történő analízis ezeket az objektumokat nem veszi figyelembe. Egyetlen kivételként a merőleges merevítők öblösödési merevsége figyelembe vehető a rúd gerenda modelljében is, igény esetén.
 
 <!-- /wp:paragraph -->
 
@@ -33,13 +35,13 @@ The modeling of various web stiffeners is currently available for welded I- or H
 
 <!-- wp:heading {"level":3} -->
 
-### Creating stiffeners ![](./img/wp-content-uploads-2021-05-cmd_stiffener.png)
+### Gerinc merevítők létrehozása ![](./img/wp-content-uploads-2021-05-cmd_stiffener.png)
 
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"align":"justify"} -->
+<!-- wp:paragraph -->
 
-Stiffeners can be placed on the webs of welded I or H sections, regardless of the finite element type of the member. The command can be found on the **Structural members **tab. Executing the command, the dialog window shown below will appear where three types of stiffeners can be defined and placed as described below.
+Gerinc merevítők hegesztett I vagy H keresztmetszetű rudakon definiálhatók, függetlenül attól, hogy a rúd végeselem típusa 7SZF rúd vagy héj. A parancs elindítása után megjelenő párbeszédablakban három típusú merevítőt lehet definiálni:
 
 <!-- /wp:paragraph -->
 
@@ -47,19 +49,9 @@ Stiffeners can be placed on the webs of welded I or H sections, regardless of th
 
 <!-- wp:column -->
 
-<!-- wp:image {"align":"right","id":11480,"width":237,"height":260,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"right","id":39465,"width":294,"height":385,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/05/dial_dual_stiff_perp.png)](./img/wp-content-uploads-2021-05-dial_dual_stiff_perp.png)
-
-<!-- /wp:image -->
-
-<!-- /wp:column -->
-
-<!-- wp:column -->
-
-<!-- wp:image {"align":"center","id":11474,"width":237,"height":260,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/05/dial_dual_stiff_paral.png)](./img/wp-content-uploads-2021-05-dial_dual_stiff_paral.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_superbeam_merevito_lemez.png)](./img/wp-content-uploads-2022-05-dial_superbeam_merevito_lemez.png)
 
 <!-- /wp:image -->
 
@@ -67,9 +59,19 @@ Stiffeners can be placed on the webs of welded I or H sections, regardless of th
 
 <!-- wp:column -->
 
-<!-- wp:image {"align":"left","id":11468,"width":237,"height":260,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":39457,"width":294,"height":385,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/05/dial_dual_stiff_section.png)](./img/wp-content-uploads-2021-05-dial_dual_stiff_section.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_superbeam_merevito_lemez_parh.png)](./img/wp-content-uploads-2022-05-dial_superbeam_merevito_lemez_parh.png)
+
+<!-- /wp:image -->
+
+<!-- /wp:column -->
+
+<!-- wp:column -->
+
+<!-- wp:image {"align":"left","id":39448,"width":294,"height":385,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_superbeam_merevito_lemez_szelveny.png)](./img/wp-content-uploads-2022-05-dial_superbeam_merevito_lemez_szelveny.png)
 
 <!-- /wp:image -->
 
@@ -79,21 +81,21 @@ Stiffeners can be placed on the webs of welded I or H sections, regardless of th
 
 <!-- wp:paragraph -->
 
-The usual placement options are available at the top of the dialog window:
+A párbeszédablak legfelső részén a szokásos elhelyezési módok ikonjai találhatók:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 
-- ![](./img/wp-content-uploads-2021-04-5-3-draw-ico-11.png) the stiffeners can be placed **individually **by clicking on the reference line of the member,
-- ![](./img/wp-content-uploads-2021-04-cmd_multi_place.png) or by **multiple placement** with relative distances interpreted in the member local coordinate system.
-- ![](./img/wp-content-uploads-2021-04-cmd_draw_get.png) The properties of other stiffeners can get and used for new definitions as well.
+- ![](./img/wp-content-uploads-2021-04-5-3-draw-ico-11.png) a merevítők elhelyezhetők **egyenként **a rúd referencia vonalán történő kattintással,
+- ![](./img/wp-content-uploads-2021-04-cmd_multi_place.png) vagy **többszörös** elhelyezéssel a rúd helyi koordinátarendszerében értelmezett relatív távolságokkal megadva.
+- ![](./img/wp-content-uploads-2021-04-cmd_draw_get.png) Meglévő merevítők tulajdonságainak átvétele új definíciókhoz.
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
-In the _Parameters \_section, the reference object of the stiffener can be defined on the left side of the window (\_Fit to_). The figure below the drop-down box shows the chosen selection. The location of the stiffener can be specified relative to the:
+A párbeszédablak \_Paraméterek \_szakaszában a merevítő pozícióját és méreteit kell megadni. Az elhelyezéshez választani kell egy referenciavonalat az ablak bal oldalán található legördülő mezőben (Illesztés). A kiválasztott referenciavonal a mező alatti ábrán látható. A referenciavonal lehet:
 
 <!-- /wp:paragraph -->
 
@@ -103,10 +105,10 @@ In the _Parameters \_section, the reference object of the stiffener can be defin
 
 <!-- wp:list {"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-- reference line of the member,
-- middle line of the web,
-- top flange,
-- bottom flange.
+- a rúd referencia vonala,
+- a gerinc középvonala,
+- a felső öv,
+- az alsó öv.
 
 <!-- /wp:list -->
 
@@ -114,19 +116,9 @@ In the _Parameters \_section, the reference object of the stiffener can be defin
 
 <!-- wp:column {"width":"19%","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-<!-- wp:image {"align":"center","id":11506,"width":128,"height":132,"sizeSlug":"full","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+<!-- wp:image {"align":"center","id":39440,"width":159,"height":159,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/05/dial_dual_stiff_fit_refline.png)](./img/wp-content-uploads-2021-05-dial_dual_stiff_fit_refline.png)
-
-<!-- /wp:image -->
-
-<!-- /wp:column -->
-
-<!-- wp:column {"width":"19%","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-<!-- wp:image {"align":"center","id":11500,"width":129,"height":131,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/05/dial_dual_stiff_fit_webmid.png)](./img/wp-content-uploads-2021-05-dial_dual_stiff_fit_webmid.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_superbeam_merevito_illesztes_ref.png)](./img/wp-content-uploads-2022-05-dial_superbeam_merevito_illesztes_ref.png)
 
 <!-- /wp:image -->
 
@@ -134,9 +126,19 @@ In the _Parameters \_section, the reference object of the stiffener can be defin
 
 <!-- wp:column {"width":"19%","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-<!-- wp:image {"align":"center","id":11494,"width":129,"height":130,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":39432,"width":159,"height":158,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/05/dial_dual_stiff_fit_top.png)](./img/wp-content-uploads-2021-05-dial_dual_stiff_fit_top.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_superbeam_merevito_illesztes_gerinc.png)](./img/wp-content-uploads-2022-05-dial_superbeam_merevito_illesztes_gerinc.png)
+
+<!-- /wp:image -->
+
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"19%","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+
+<!-- wp:image {"align":"center","id":39424,"width":159,"height":159,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_superbeam_merevito_illesztes_felso.png)](./img/wp-content-uploads-2022-05-dial_superbeam_merevito_illesztes_felso.png)
 
 <!-- /wp:image -->
 
@@ -144,9 +146,9 @@ In the _Parameters \_section, the reference object of the stiffener can be defin
 
 <!-- wp:column {"width":"19%"} -->
 
-<!-- wp:image {"align":"center","id":11512,"width":128,"height":130,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":39416,"width":156,"height":158,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/05/dial_dual_stiff_fit_bottom.png)](./img/wp-content-uploads-2021-05-dial_dual_stiff_fit_bottom.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_superbeam_merevito_illesztes_also.png)](./img/wp-content-uploads-2022-05-dial_superbeam_merevito_illesztes_also.png)
 
 <!-- /wp:image -->
 
@@ -156,7 +158,7 @@ In the _Parameters \_section, the reference object of the stiffener can be defin
 
 <!-- wp:paragraph -->
 
-The selected option not only defines the stiffener reference object but also determines the stiffener axis. It is always placed perpendicular to the selected reference object.
+A választott referenciavonal nem csak a merevítő pozícionálását határozza meg, hanem annak tengelyét is, mivel az mindig merőleges lesz a választott referencia vonalra.
 
 <!-- /wp:paragraph -->
 
@@ -168,71 +170,71 @@ The selected option not only defines the stiffener reference object but also det
 
 <!-- wp:paragraph -->
 
-On the right side of the dialog window, the parameters can be entered according to the chosen geometry. Some parameters are common in all cases. These are:
+A párbeszédablak jobb oldalán a kiválasztott geometriának megfelelő paraméterek adhatók meg. Az alábbi paraméterek minden típus esetén rendelkezésre állnak:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 
-- **eccentricity **from the given reference object,
-- **side **on which the stiffener is placed can be both, left or right side.
+- referencia vonaltól mért **külpontosság**,
+- merevítő elhelyezése a gerinc bal, jobb vagy mindkét **odal**án
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
-Other parameters are different for the various stiffener types:
+A többi paraméter merevítő típustól függően változó:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 
-- **Perpendicular plate**: a plate stiffener will be placed perpendicular to the flanges. The thickness and the plate size (width and height) can be defined. The geometry can be automatic or manual. Choosing the automatic option the plate will adapt to the geometry of the section fitting between the flanges.
-- **Parallel plate**: a plate stiffener will be placed parallel to the flanges. The thickness, the plate size (width and length), and the insertion point (start, middle, or end of the plate) can be defined. The geometry can be automatic or manual. Choosing the automatic option the plate width will adapt to the width of the section.
-- **Perpendicular section**: a profile stiffener will be placed perpendicular to the flanges. The section and the height can be defined. L, U, and T type macro or library profiles can be used here. Drawn sections, compound or cold-formed sections, and not steel profiles cannot be used. The geometry can be automatic or manual. Choosing the automatic option the profile stiffener will adapt to the geometry of the section fitting between the flanges.
+- **Merőleges lemez**: az övekre merőlegesen elhelyezett lemez merevítő. A lemez vastagságát minden esetben meg kell adni. A többi méret megadása lehet kézi vagy automatikus. Automatikus választás esetén a lemez kitölti az övek közötti teret (szélességben és magasságban egyaránt), míg kézi esetben a lemez szélességét és hosszát is meg kell adni.
+- **Párhuzamos lemez**: az övekkel párhuzamosan elhelyezett lemez merevítő. A lemez vastagságát és hosszát minden esetben meg kell adni. A lemez szélességének megadása lehet kézi vagy automatikus. Automatikus választás esetén a lemez szélessége megegyezik a szelvény szélességével. Meg kell adni továbbá a lemez beillesztési pontját is, mely lehet a lemez eleje, közepe vagy vége.
+- **Merőleges szelvény**: az övekre merőlegesen elhelyezett szelvény, mely L, U vagy T típusú makró vagy könyvtári szelvény lehet. Rajzolt, összetett vagy hidegen alakított szelvények és acéltól eltérő anyagú szelvények nem használhatók ebben az esetben. A szelvény hosszának megadása lehet kézi vagy automatikus. Automatikus választás esetén a szelvény kitölti az övek közötti távolságot.
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
-After specifying all the parameters the stiffener can be placed on the members:
+Az összes paraméter megadása után a merevítő elhelyezhető a rudakon:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 
-- one-by-one clicking on the member's reference line, or
-- specifying a set of stiffeners at the bottom of the dialog window, all the objects can be placed with one mouse click on the reference line of the member.
+- egyenként a rúd referenciavonalára kattintva, vagy
+- a párbeszédablak alján egy sorozat elhelyezés megadásával az összes objektum egy egérkattintással elhelyezhető a rúd referenciavonalán.
 
 <!-- /wp:list -->
 
 <!-- wp:heading {"level":3} -->
 
-### Analysis and design
+### Analízis és méretezés
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-**Analysis**
+**Analízis**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-The effect of the stiffeners is only taken into account during analysis if the finite element model of the member is set to shell, where the stiffeners will be automatically included in the mesh during the finite element division. Analyzing with the normal 7DOF beam finite element, these objects are neglected.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"align":"justify"} -->
-
-If the "Consider warping stiffness in beam representation" option is checked, a warping support with automatically calculated stiffness will be placed on the member during the finite element division, which is considered in the analysis and thus has an indirect effect on LTB resistance.
+A program a merevítők hatását csak akkor veszi figyelembe az analízis során, ha a rúd végeselemtípusa héj. (A merevítők automatikusan bekerülnek a hálóba a végeselemes osztás során.) Normál 7SZF gerenda végeselemmel futtatva az analízist, ezek az objektumok nem lesznek figyelembe véve.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The option can only be checked in case of perpendicular plate or section stiffener with automatic geometry.
+Ha a "Öblösödési merevség figyelembevétele a rúdmodellen" opció be van jelölve, akkor a végeselemes osztás során egy automatikusan kiszámított merevségű öblösödési támasz kerül elhelyezésre a merevítő helyén, amelyet az analízis figyelembe vesz, és így a merevtő közvetett hatással lesz az kifordulási ellenállásra.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+Ez az opció csak az automatikus geometriájú (ld. fentebb), merőleges lemez- vagy szelvénymerevítő esetén elérhető.
 
 <!-- /wp:paragraph -->
 
@@ -240,11 +242,11 @@ The option can only be checked in case of perpendicular plate or section stiffen
 
 <!-- wp:column -->
 
-<!-- wp:image {"align":"right","id":25494,"width":197,"height":130,"sizeSlug":"full","linkDestination":"none","className":"is-style-editorskit-shadow"} -->
+<!-- wp:image {"align":"right","id":25497,"width":197,"height":130,"sizeSlug":"full","linkDestination":"none","className":"is-style-editorskit-shadow"} -->
 
 ![](./img/wp-content-uploads-2021-10-scr_dual_stiff_warp_stru.png)
 
-stiffener on the beam
+merevítő a rúdon elhelyezve
 
 <!-- /wp:image -->
 
@@ -252,11 +254,11 @@ stiffener on the beam
 
 <!-- wp:column -->
 
-<!-- wp:image {"align":"left","id":25500,"height":130,"sizeSlug":"full","linkDestination":"none","className":"is-style-editorskit-shadow"} -->
+<!-- wp:image {"align":"left","id":25503,"height":130,"sizeSlug":"full","linkDestination":"none","className":"is-style-editorskit-shadow"} -->
 
 ![](./img/wp-content-uploads-2021-10-scr_dual_stiff_warp_FE.png)
 
-warping support in the FE model
+helyettesítő öblösödési támasz a végeselemes modellen
 
 <!-- /wp:image -->
 
@@ -266,29 +268,29 @@ warping support in the FE model
 
 <!-- wp:paragraph -->
 
-For the calculation method used in Consteel for calculating the warping stiffness of warping supports see the following page: **_[Discrete warping restraint](/knowledgebase/discrete-warping-restraint/)_**
+A Consteelben, az öblösödési merevség számításához használt módszerről bővebben a következő oldalon olvashat (angolul): **_[Discrete warping restraint](/knowledgebase/discrete-warping-restraint/)_**.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-**Design**
+**Méretezés**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Stiffeners are not considered in the design verifications at the moment.
+A merevítők a méretezésben jelenleg nincsenek figyelembe véve.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:spacer {"height":11} -->
+<!-- wp:spacer {"height":"11px","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false},"editorskit_typography":{"name":"","family":"","weight":""},"extUtilities":[]} -->
 
 <!-- /wp:spacer -->
 
 <!-- wp:heading {"level":3} -->
 
-### Feature preview
+### Bemutató videó
 
 <!-- /wp:heading -->
 

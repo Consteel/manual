@@ -1,21 +1,23 @@
 ---
 sidebar_position: 9
 ---
-# Supports
+# Támaszok
+---
+<!-- wp:paragraph {"align":"justify"} -->
 
-There are three types of supports in _ConSteel_: point support, line support, and surface support.
+_Consteel_-ben háromfajta támasz használatára van lehetőség: pontbeli, vonalmenti és felületi támasz.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":8891,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":34847,"width":418,"height":80,"sizeSlug":"full","linkDestination":"media","className":"is-style-default"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-9-Types-of-supports.png)](./img/wp-content-uploads-2021-04-6-9-Types-of-supports.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/04/tab_tamasz_pont.png)](./img/wp-content-uploads-2022-04-tab_tamasz_pont.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Supports can be placed according to the Point loads can be placed according to the **Global (**![](./img/wp-content-uploads-2021-04-create_coord_gcs.png)**)**, **Local (**![](./img/wp-content-uploads-2021-04-create_coord_loc.png)**),** or the **User coordinate system (**![](./img/wp-content-uploads-2021-04-create_coord_ucs.png)**).** Placing supports according to the member local coordinate system is a very useful feature when working with sloping members. The visibility of the local coordinate system can be turned on with the _Visibility of the coordinate systems_ option and also the name of the axes can be shown on the screen using the appropriate options of the _Visibility of labels_ functions.
+Támaszok elhelyezhetők **globális (**![](./img/wp-content-uploads-2021-04-create_coord_gcs.png)**)**, **lokális (**![](./img/wp-content-uploads-2021-04-create_coord_loc.png)**),** vagy **felhasználói(**![](./img/wp-content-uploads-2021-04-create_coord_ucs.png)) koordináta-rendszerek szerint. A támasz elhelyezés lokális koordináta-rendszer szerint funkció nagyon hasznos lehet ferde rúdelemekből álló szerkezet esetén. A lokális koordinátarendszer láthatósága bekapcsolható a _„Lokális koordináta rendszerek láthatósága”_ menüben. A lokális koordináta rendszerek tengelyeinek betűjelei bekapcsolhatóak a _„Feliratok láthatósága”_ menüben.
 
 <!-- /wp:paragraph -->
 
@@ -27,25 +29,25 @@ Supports can be placed according to the Point loads can be placed according to t
 
 <!-- wp:heading {"level":3} -->
 
-### Point support (![](./img/wp-content-uploads-2021-04-cmd_supp_point.png))
+### Pont támasz elhelyezése (![](./img/wp-content-uploads-2021-04-cmd_supp_point.png))
 
 <!-- /wp:heading -->
 
-<!-- wp:image {"align":"center","id":13372,"width":360,"height":276,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":34855,"width":359,"height":275,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/dial_supp_point.png)](./img/wp-content-uploads-2021-04-dial_supp_point.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/04/dial_tamasz_pont.png)](./img/wp-content-uploads-2022-04-dial_tamasz_pont.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-Point supports can be placed on any part of a line member or surface member (predefined points are not needed; endpoints or snap points can be used). With the black arrow button (![](./img/wp-content-uploads-2021-04-ico-pointer.png)) multiple placing is possible with window selection.
+Pontbeli támasz vonal és felület elemen bárhol elhelyezhető (előre definiált pontokra nincs szükség; végpontok és fogópontok egyaránt használhatóak a támaszok elhelyezésére). Egyszerre több rúdelem végpontján is elhelyezhető a kiválasztott támasz a kijelölő funkció (![](./img/wp-content-uploads-2021-04-ico-pointer.png)) használatával. A rúdelemek végpontjait ablakos kijelöléssel lehet kiválasztani.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-With the **_Multiple support_** placement function (![](./img/wp-content-uploads-2021-04-cmd_place_multi.png)), more supports can be placed along a bar member at once by defining the relative distances between the support points. Support placement starts from the start point (End A) of the member. If there is an applied frame corner on the member, the first distance will be measured from the edge of the corner zone.
+A **többszörös támasz** funkcióval (![](./img/wp-content-uploads-2021-04-cmd_place_multi.png)), egyszerre több támasz helyezhető el a kiválasztott rúdon, a támaszok közötti relatív távolságok megadásával. A támaszok kiosztása mindig a rúd kezdőpontjától (A vég) értelmezett. Ha az elem végén keretsarok objektum található, akkor az első távolságot a sarokzóna szélétől mérjük.
 
 <!-- /wp:paragraph -->
 
@@ -57,25 +59,25 @@ With the **_Multiple support_** placement function (![](./img/wp-content-uploads
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Supports placed with multiple support function will act like one object. Relative distances can be edited later at any time at the object properties by selecting the multiple support.
+A többszörös támaszként elhelyezett támaszok egy objektumként vannak kezelve. A támaszok közötti távolság a támaszt kijelölve az objektum paramétereinél bármikor módosítható.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":13316,"width":307,"height":223,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":34889,"width":287,"height":227,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/grid_prop_supp_point.png)](./img/wp-content-uploads-2021-04-grid_prop_supp_point.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/04/obj_tul_tamasz_tobbszoros.png)](./img/wp-content-uploads-2022-04-obj_tul_tamasz_tobbszoros.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-After selecting the coordinate system, the type of support has to be selected from the list box. There are several points supports types predefined.
+Az elhelyezés koordinátarendszerének kiválasztását követően, a legördülő menüből ki kell választani a megfelelő támaszt típust. A listában számos előre definiált típus található.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-By positioning, the used coordinate system determines the orientation of constraints of the support. Using the **Global (**![](./img/wp-content-uploads-2021-04-create_coord_gcs.png)**)**, **Local (**![](./img/wp-content-uploads-2021-04-create_coord_loc.png)**),** or the **User coordinate system (**![](./img/wp-content-uploads-2021-04-create_coord_ucs.png)) the orientations of the constraints represented by the support will be different:
+Elhelyezéskor a kiválasztott koordináta rendszer határozza meg az irányok értelmezését. A különböző - **Globális** (![](./img/wp-content-uploads-2021-04-create_coord_gcs.png)), **Lokális **(![](./img/wp-content-uploads-2021-04-create_coord_loc.png)**),** **Felhasználói**(![](./img/wp-content-uploads-2021-04-create_coord_ucs.png)) - koordináta rendszerek szerinti támaszelhelyezést mutatja az alábbi példa:
 
 <!-- /wp:paragraph -->
 
@@ -87,235 +89,217 @@ By positioning, the used coordinate system determines the orientation of constra
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-By changing the eccentricity of the supported object, the support will keep the orientation to the coordinate system which was used by placing the support.
+A megtámasztott objektum külpontosságának megváltoztatása esetén a támasz megtartja az elhelyezéskor alkalmazott koordinátarendszerhez viszonyított irányítottságát.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-If any special supports are needed during the modeling process different from the predefined support types then click on the support definition button (![](./img/wp-content-uploads-2021-04-3dots-button.png)). With the **New **button, a new type of point support can be defined. 7 DOFs (Degrees of Freedom) can be set to free, fix, or semi-rigid. For semi-rigid DOF the stiffness must also be set in kN/mm, or kNm/rad.
+Ha a modellezés során olyan új, speciális támasz alkalmazása válik szükségessé, amelynek tulajdonságai eltérnek az előre definiált és rendelkezésre álló támaszokétól, akkor a támasz típusa melletti három pontos ikonra (![](./img/wp-content-uploads-2021-04-3dots-button.png)) kattintva létrehozható új típusú támasz. A támasz definiálásához a szabadságfokok a következők szerint állíthatók: szabad, fix vagy félmerev. A félmerev szabadságfok esetén a merevség értéke kN/mm, kNmm/rad vagy kNm2/(rad/m) mértékegységekben adhatók meg.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":13381,"width":389,"height":319,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":34904,"width":386,"height":317,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/dial_supp_point_set.png)](./img/wp-content-uploads-2021-04-dial_supp_point_set.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/04/dial_tamasz_merevsegek.png)](./img/wp-content-uploads-2022-04-dial_tamasz_merevsegek.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-The support type names can be clearly understood. For instance “x,y,z, xx” means any movement is fixed in x, y, and z-direction, and the rotation around the x axis is also fixed. All the rest DOFs are free.
+A támaszok előre definiált elnevezései könnyen értelmezhetőek. Például „x,y,z,xx” támasz név jelentése a következő: minden elmozdulás gátolt az x, y és z irányokban, illetve az xx tengely körül gátolt az elfordulás is. A többi szabadságfok szabad.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Local eccentricity can also be defined for the supports:
+Lokális külpontosság is definiálható a támaszokon:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-_(This feature can be used for example for modeling_ the support effect of the bracing which is not connected to the reference line of the member but supports* the flange of the beam.)*
+**(Ez a funkció használható, olyan merevítések megtámasztó hatásának a modellezésére, amelyek nem a megtámasztott rúd középvonalába, hanem például a felső övekhez kapcsolódnak.)**
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":13409,"width":362,"height":276,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":34929,"width":357,"height":274,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/dial_supp_point_extr_select.png)](./img/wp-content-uploads-2021-04-dial_supp_point_extr_select.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/04/dial_tamasz_lokal_exc.png)](./img/wp-content-uploads-2022-04-dial_tamasz_lokal_exc.png)
+
+<!-- /wp:image -->
+
+<!-- wp:image {"align":"right","id":34947,"width":168,"height":218,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![](https://consteelsoftware.com/wp-content/uploads/2022/04/dial_tamasz_szelvpontkival.png)](./img/wp-content-uploads-2022-04-dial_tamasz_szelvpontkival.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-The eccentricity of the support can be defined **relative to the reference line** of a section, or **relative to the section geometry**. The “0 - Reference line” local eccentricity type can be selected only from this list box.
+A támasz külpontosság megadható a **szelvény középvonalától**, vagy a **szelvény geometriáján**. A „0 – referencia vonal” lokális külpontosság típus csak a legördülő menüből választható.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Support eccentricity **relative to the section geometry** can be specified in two ways. The first way is: select one of the typical points of the section geometry (1-9) from the list, the second way is to select one of the typical points (1-9) of the section's relative position of the support by clicking the position on the graphical imitation of a section (click the ![](./img/wp-content-uploads-2021-04-3dots-button.png) button left to the list):
+A lokális külpontosság a **szelvény geometriáján** két módon adható meg. Egyik lehetséges mód, hogy a legördülő menüből kerül kiválasztásra a szelvény geometriájának egyik tipikus pontja (1-9), vagy a három pontos ikonra ![](./img/wp-content-uploads-2021-04-3dots-button.png) kattintva a megjelenő ábrán kerül kiválasztásra az egyik tipikus szelvény pont (1-9).
 
 <!-- /wp:paragraph -->
-
-<!-- wp:columns -->
-
-<!-- wp:column -->
-
-<!-- wp:image {"align":"center","id":13400,"width":362,"height":72,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/dial_supp_point_extr_select_drop.png)](./img/wp-content-uploads-2021-04-dial_supp_point_extr_select_drop.png)
-
-<!-- /wp:image -->
-
-<!-- /wp:column -->
-
-<!-- wp:column -->
-
-<!-- wp:image {"align":"center","id":13394,"width":255,"height":330,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/dial_supp_point_extr_select_pic.png)](./img/wp-content-uploads-2021-04-dial_supp_point_extr_select_pic.png)
-
-<!-- /wp:image -->
-
-<!-- /wp:column -->
-
-<!-- /wp:columns -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Giving value for the y or z parameters for local eccentricity these values will be added to the above selected position.
+Az y és z mezőkben megadható lokális külpontosság értékek a fent beállított külpontosságokhoz adódnak hozzá.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":8954,"width":631,"height":557,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":34979,"width":497,"height":471,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-9-Point-supportEccentricity-Type-Selection.jpg)](./img/wp-content-uploads-2021-04-6-9-Point-supportEccentricity-Type-Selection.jpg)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/04/scr_tamasz_kulp.png)](./img/wp-content-uploads-2022-04-scr_tamasz_kulp.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-Changing the eccentricity of the supported object the new position of the support will be calculated accordingly.
+Ha a megtámasztott szelvény külpontossága megváltozik, akkor a támasz szelvényhez viszonyított fentiekben meghatározott külpontosságát megtartja.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Depending on the type of the selected local eccentricity used by placing the support the transformation rules are the following:
+Attól függően, hogy a támasz külpontosságát a szelvény referencia vonalához vagy a szelvény geometriájához adtuk meg, a szelvény külpontosság változása esetén a támasz helyzete az alábbiak szerint változik:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-By selecting the “0 – Reference line” eccentricity type:
+A “0 – Referencia vonal” külpontosság típus használata esetén:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify","editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-Placing support with this eccentricity type, for example, changing the “y” eccentricity of the supported object, the support will keep its position relative to the reference line, not to the section. By changing the “Rotation angle” attribute of the supported object, the reference line also rotates, and the position of the support will rotate too.
+A szelvény “y” vagy „z” külpontosságának módosítása estén, mivel a támasz a szelvény referenciavonalához tartja meg a relatív helyzetét és nem a szelvényhez, a támasz helye nem változik. A szelvény “Forgatás” szögnek módosítása esetén, a referenciavonal is elfordul, ezért a támasz is elfordul.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-By selecting the 1 -9 eccentricity type:
+Ha a támasz helyzetét a szelvény geometriához (az 1-9 szelvénypozíciók valamelyikéhez) adjuk meg:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify","editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-Placing support with any of these eccentricity types, for example, changing the “y” eccentricity of the supported object, the support will keep its position relative to the section. By changing the “Rotation angle” attribute of the supported object, the position of the support will rotate too.
+A szelvény “y” vagy „z” külpontosságának módosítása esetén, mivel a támasz a szelvény egy tipikus pontjához viszonyított relatív helyzetét tartja meg, ezért a támasz helyzete a szelvénnyel együtt változik. A szelvény “Forgatás” szögnek módosítása esetén, a referenciavonal is elfordul, ezért a támasz is elfordul.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-**Example for the different types of eccentricity:**
+**Példák a különböző típusú külpontosságokra:**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify","editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-\_1. Example: \_Both supports were placed with -150mm eccentricity in the y-direction, but the left one was defined relative to the reference line of the section and the right one was defined relative to the middle-middle point of the section geometry.
+_1. Példa:_ Mind a két támasz -150mm-es y irányú külpontossággal lett elhelyezve, de a bal oldali esetben a külpontosság a szelvény referencia vonalától, míg a jobb oldali esetben a szelvény geometria közép-közép pontjától lett megadva.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":8961,"width":528,"height":417,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":35049,"width":469,"height":289,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-9-1.-example_1.png)](./img/wp-content-uploads-2021-04-6-9-1.-example_1.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/04/scr_tamasz_kulp_pelda1.png)](./img/wp-content-uploads-2022-04-scr_tamasz_kulp_pelda1.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-If the eccentricity of the columns is changed to y= 100mm, the new position of the supports is as follows:
+Ha megváltoztatjuk mindkét oszlop külpontosságát y=100mm-re, akkor az elhelyezett támaszok új pozíciója az alábbi lesz:
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":8968,"width":629,"height":470,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":35041,"width":471,"height":278,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-9-1.example_2.png)](./img/wp-content-uploads-2021-04-6-9-1.example_2.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/04/scr_tamasz_kulp_pelda1-2.png)](./img/wp-content-uploads-2022-04-scr_tamasz_kulp_pelda1-2.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"justify","editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-In the case of the left column, the position of the support did not change, because the position of the reference line of the column also did not change, but in the case of the right column, the support was moved with the points of the section of the column.
+A baloldali esetben az elhelyezett támasz pozíciója nem változott, hiszen az oszlop referencia vonalának pozíciója sem változott, míg a jobboldali esetben a támasz együtt mozdult az oszloppal.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify","editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-\_2. Example: \_The support is placed according to the global coordinate system; the eccentricity is 300 mm in the z-direction of the local coordinate system of the supported column from the reference line.
+_2. Példa:_ Támasz a globális koordináta rendszer szerint kerül elhelyezésre, külpontossága 150mm a megtámasztott oszlop lokális koordináta rendszerének z irányában. Támasz lokális külpontosság típusa: „0 – Referencia vonal”.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":8975,"width":363,"height":372,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":35033,"width":366,"height":313,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-9-2.example_1.png)](./img/wp-content-uploads-2021-04-6-9-2.example_1.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/04/scr_tamasz_kulp_pelda2.png)](./img/wp-content-uploads-2022-04-scr_tamasz_kulp_pelda2.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-If the column is moved with 300mm in the y direction in the local coordinate system, then the position of the support will no change.
+Ha az oszlop külpontosságát y=300mm-re változtatjuk, akkor a támasz pozíciója nem változik.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":8981,"width":407,"height":458,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":35025,"width":512,"height":240,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-9-2.example_2.png)](./img/wp-content-uploads-2021-04-6-9-2.example_2.png)
+[![](./img/wp-content-uploads-2022-04-scr_tamasz_kulp_pelda2-2-1024x480.png)](https://consteelsoftware.com/wp-content/uploads/2022/04/scr_tamasz_kulp_pelda2-2.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-The support keeps its original relative position to the centerline of the column.
+A támasz megtartotta a relatív pozícióját az oszlop referencia vonalától.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify","editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-If the column is rotated with 45 degrees, the support is also rotated accordingly, but it keeps the directions of its local axis parallel to the axis of the global coordinate system, which was selected for positioning the support.
+Ha elforgatjuk az oszlopot 45 fokkal, akkor a támasz is ennek megfelelően elfordul, mivel forgatáskor az elem referencia vonala is fordul. Viszont a támasz megtartja irányultságát, ami a továbbiakban is az elhelyezéskor kiválasztott globális koordináta rendszer szerint van értelmezve.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":8987,"width":394,"height":464,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":35017,"width":512,"height":217,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-9-2.example_3.png)](./img/wp-content-uploads-2021-04-6-9-2.example_3.png)
+[![](./img/wp-content-uploads-2022-04-scr_tamasz_kulp_pelda2-3-1024x433.png)](https://consteelsoftware.com/wp-content/uploads/2022/04/scr_tamasz_kulp_pelda2-3.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"justify","editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-\_3. Example: \_The support is placed according to the global coordinate system, the eccentricity is 300mm in the z-direction of the local coordinate system of the supported column relative to the middle-middle point of the section geometry.
+_3. Példa:_ Támasz a globális koordináta rendszer szerint került elhelyezésre, külpontossága 150mm a megtámasztott oszlop lokális koordináta rendszerének z irányában. Támasz lokális külpontosság típusa: „5 – Közép - Közép”.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":8994,"width":377,"height":356,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":35009,"width":503,"height":366,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-9-3.example_1.png)](./img/wp-content-uploads-2021-04-6-9-3.example_1.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/04/scr_tamasz_kulp_pelda3.png)](./img/wp-content-uploads-2022-04-scr_tamasz_kulp_pelda3.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-If the column is moved with 300mm in the y direction in the local coordinate system, then the support moves with the column.
+Ha az oszlop külpontosságát y=300mm-re változtatjuk, akkor a támasz együtt mozdul az oszloppal.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":9000,"width":403,"height":446,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":35001,"width":512,"height":276,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-9-3.example_2.png)](./img/wp-content-uploads-2021-04-6-9-3.example_2.png)
+[![](./img/wp-content-uploads-2022-04-scr_tamasz_kulp_pelda3-1-1024x551.png)](https://consteelsoftware.com/wp-content/uploads/2022/04/scr_tamasz_kulp_pelda3-1.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-If the column is rotated with 45 degree, then the support moves together with the column.
+Ha elforgatjuk az oszlopot 45 fokkal, akkor a támasz is ennek megfelelően elfordul, mivel forgatáskor az elem referencia vonala is fordul. Viszont a támasz megtartja irányultságát, ami a továbbiakban is az elhelyezéskor kiválasztott globális koordináta rendszer szerint van értelmezve.
 
 <!-- /wp:paragraph -->
 
@@ -327,106 +311,112 @@ If the column is rotated with 45 degree, then the support moves together with th
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Selecting any of the above eccentricity types for positioning support, changing the eccentricity of the supported object, the support will keep the originally given relative position from the new position of the supported object, and will keep the orientation defined by the applied coordinate system for placing this support.
+Bármelyik külpontossági típust is válasszuk a támasz elhelyezéséhez, a támasz megtartja kiválasztott referencia ponttól mért relatív külpontosságát, a megtámasztott elem külpontosságának módosítása esetén is, illetve megtartja irányultságát az elhelyezéskor választott koordináta rendszernek megfelelően.
 
 <!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"left","id":21420,"width":96,"height":102,"sizeSlug":"full","linkDestination":"none"} -->
+
+![](./img/wp-content-uploads-2021-04-warning_croc.png)
+
+<!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-**Warning!** Be aware that since the finite element for the steel beams and columns has 7 DOFs the point support also has 7 DOFs, the 7th DOF represents the warping of the cross-section. Accordingly, if a cross-section on a certain place is considered to be fixed for warping (for instance in heavily stiffened joints) the 7th DOF should also be fixed. In joints consisting of several members (especially when member eccentricities are present), it is recommended to apply for warping support!
+**Figyelmeztetés!** Vegyük figyelembe, hogy az acél rúdelemek végeselemei 7 szabadságfokúak, ezért a pont támaszok is 7 szabadságfokkal rendelkeznek, ahol a 7. szabadságfok a szelvény öblösödését jelenti. Ezért, ha egy adott keresztmetszetnél az öblösödés kizárható (például egy merev kapcsolatnál), akkor ezen a helyen az öblösödést meg kell akadályozni. Több rúdelem találkozásánál, ahol a rudak külpontosak, ajánlott az öblösödést megakadályozó támasz alkalmazása!
 
 <!-- /wp:paragraph -->
 
+<!-- wp:spacer {"height":"1px"} -->
+
+<!-- /wp:spacer -->
+
 <!-- wp:heading {"level":3} -->
 
-### Line support (![](./img/wp-content-uploads-2021-04-cmd_supp_line.png))
+### Vonalmenti támasz elhelyezése (![](./img/wp-content-uploads-2021-04-cmd_supp_line.png))
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Line supports can be assigned to existing lines (line members or edge of surface members) or to lines drawn for the support only (for instance on a surface).
+Vonalmenti támasz elhelyezhető egy meglévő vonalra (vonal elemen vagy felületi elem élén) vagy vonal rajzolásával (például egy felület elemen).
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":13454,"width":361,"height":232,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":35059,"width":357,"height":230,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/dial_supp_line.png)](./img/wp-content-uploads-2021-04-dial_supp_line.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/04/dial_tamasz_vonal.png)](./img/wp-content-uploads-2022-04-dial_tamasz_vonal.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-There are three default types for line supports the Fixed, the Pinned, and y,xx. With the ![](./img/wp-content-uploads-2021-04-3dots-button.png) button, it is also possible to define a new line support by giving the attributes of constrains as it is needed.
+A vonaltámaszoknak két előre definiált típusa van, a Fix és a Csuklós. A hárompontos ![](./img/wp-content-uploads-2021-04-3dots-button.png) ikonra kattintva új vonalmenti támasz típus vehető fel az új támasz nevének, és kényszereinek megadásával.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":9019,"width":314,"height":260,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":35067,"width":394,"height":315,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-9-Line-supports.png)](./img/wp-content-uploads-2021-04-6-9-Line-supports.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/04/dial_tamasz_vonal_uj.png)](./img/wp-content-uploads-2022-04-dial_tamasz_vonal_uj.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-By positioning a line support the effect of the applied coordinate system and local eccentricity type are the same as for the point support.
+Vonalmenti támasz elhelyezése esetén a különböző koordinátarendszerek és külpontosságok hatása megegyezik a pontbeli támasz elhelyezésénél leírtakkal.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The select function (![](./img/wp-content-uploads-2021-04-5-3-draw-ico-20.png)):
+![](./img/wp-content-uploads-2021-04-5-3-draw-ico-20.png) Kiválasztás funkció
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The line support will be placed to the selected edge of a surface (an edge of boundary or an edge of a hole), or to an axis of a beam.
+A vonalmenti támasz elhelyezhető egy felületi elem élének (amely lehet külső kerületen vagy belső áttörésen) vagy egy rúdelem tengelyének kiválasztásával.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The draw function: ![](./img/wp-content-uploads-2021-04-5-3-draw-ico-11.png)
+![](./img/wp-content-uploads-2021-04-5-3-draw-ico-11.png) Rajzolás funkció
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-The line support will be placed between the first and the second point defined by the draw function on the surface or on an axis of a beam.
+Vonalmenti támasz elhelyezése rajzolással egy rúdelemen vagy felületi elemen kiválasztott két pontja között.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
 
-### Surface support (![](./img/wp-content-uploads-2021-04-cmd_supp_surf.png))
+### Felületi támasz elhelyezése (![](./img/wp-content-uploads-2021-04-cmd_supp_surf.png))
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-Surface supports can be assigned to existing surfaces.
+Felületi támasz meglévő felület elemre helyezhető el.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-There are no predefined supports for supporting surfaces. By pressing the ![](./img/wp-content-uploads-2021-04-3dots-button.png) button, the user can create new surface support types for specifying 3 constrains.
+Alaphelyzetben nincs előre definiált felületi támasz. A három pontos ![](./img/wp-content-uploads-2021-04-3dots-button.png) ikonra kattintva, a felhasználó felvehet felületi támaszokat. Három szabadságfokot lehet beállítani támaszonként.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":9026,"width":664,"height":442,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":35075,"width":664,"height":442,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-9-Surface-support.png)](./img/wp-content-uploads-2021-04-6-9-Surface-support.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/04/dial_tamasz_felulet.png)](./img/wp-content-uploads-2022-04-dial_tamasz_felulet.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-By clicking on a plate object, the whole surface of this object will be supported.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
+Egy felületi elemre kattintva a lemez teljes felületén elhelyezésre kerül a felületi támasz.
 
 <!-- /wp:paragraph -->
