@@ -1,252 +1,268 @@
 ---
 sidebar_position: 3
 ---
-# Modifying
+# Módosítás
+<!-- wp:paragraph -->
 
-**_The four most used modifying functions are placed on the left sidebar:_**
+**A négy leggyakrabban használt módosítási funkció a bal oldali sávon található:**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2021-04-5-4-mod-point-ioc.png) **Move point and edge.** Select the point and (or) edge to be moved. Set the new position of the point (edge). This function is used to change the position of any of the endpoints of a linear or circular element, or to change the position of an edge or a corner point of a polygon, or of a hole in a polygon.
+![](./img/wp-content-uploads-2021-04-5-4-mod-point-ioc.png) **Pont és él mozgatása.** Pont vagy él kijelölése, majd új helyzet megadása. A funkcióval módosíthatók az egyenesek vagy ívek végpontjainak helyzetei, és a síkidomok, illetve síkidomokban definiált lyukak sarokpontjainak és éleinek helyzetei.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"right","id":21967,"width":385,"height":212,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"right","id":33433,"width":359,"height":197,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/06/dia_move-copy.png)](./img/wp-content-uploads-2021-06-dia_move-copy.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/02/dial_eltolas.png)](./img/wp-content-uploads-2022-02-dial_eltolas.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2021-04-5-4-mod-copy-ico.png) **Move selected objects.** The selected object(s) can be _**moved **\_or _**copied**\_
+![](./img/wp-content-uploads-2021-04-5-4-mod-copy-ico.png) **Kijelölt objektumok eltolása.** A kiválasztott objektumok mozgathatók vagy másolhatók. Első lépésként a módosítandó elemeket kell kiválasztani, majd a **Kijelölt objektumok eltolása** ikonra kell kattintani.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Select the object(s) you want to copy or move and click on the **Move selected objects** command. Select the desired transformation (Move or Copy) in the upper left corner of the dialogue window. The copy function is the default. The number of copies can be selected below.
+A dialógblak bal oldali választó gombjaival kiválasztható a módosítás módja (másolás vagy mozgatás). Másolás választása esetén megadható a másolatok száma is.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The function can also be started without any selected object. In this case, the first step is to select one (by left click) or more (by window selection) objects.
+A mozgatás/másolás két pont megadásával történik a modelltérben. A funkció elindítható előzetes elemkiválasztás nélkül is. Ebben az esetben első lépésként a másolandó/mozgatandó eleme(ke)t kell kiválasztani.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Next, click on the start point of the vector of moving or copying then set the endpoint with another click.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-The selected members, loads, and supports will be moved or copied to the position which is defined by the given vector accordingly to the selected options. The Move/Copy function is independent of the actual _UCS_.
+A kiválasztott elemek, terhek és támaszok mozgatásra/másolásra kerülnek a két ponttal meghatározott vektor alapján, illetve a beállított opciók szerint. A mozgatás/másolás funkció független az aktuális _FKR_-től.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-**Effect of the options:**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-There are several options that affect the outcome of the operation. These are as follows:
+**A funkció működését befolyásoló opciók:**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"className":"is-style-default","editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-- _Copy structural members_
+- **Szerkezeti elemek másolása:**
 
-  - Checked (default): structural members will be copied or moved.
-  - Unchecked: use when only the loads and/or the supports of the structural member need to be copied or moved.
+  - _Jelölve_ (alapértelmezetten): a szerkezeti elemek mozgatásra/másolásra kerülnek.
 
-- _Copy loads_: this options has any effect only if \_Copy \_is the selected operation. If loads are already defined on the selected members they can also be included in the operation. If \_Move \_is the selected operation the loads will be moved anyway.
+  - _Jelöletlen_: a szerkezeti elemeken elhelyezett terhek és/vagy támaszok mozgatása/másolása a szerkezeti elem mozgatása/másolása nélkül.
 
-  - Checked (default): the loads will be copied with the selected structural members. If only loads were selected (without any members or other type of object) the options below become also active:
+- **Terhek másolása** (csak a másolás esetén van hatása): amennyiben az adott szerkezeti elemen van elhelyezett teher, ezt az opciót használva a terhek is másolva lesznek. Ha a mozgatás az aktív funkció, a terhek automatikusan az elemmel együtt mozdulnak el.
 
-    - \_Original loadcase: \_the selected load(s) will be copied in the set number of copies within its(their) own loadcase.
-    - _New loadcase:_ the selected load(s) will be copied in the set number of copies to new loadcase(s). As many new loadcase will be created as the number of copies specified. The new loadcases will get its original name with an "-x" suffix at the end, where the "x" is the serial number of the copies.
+  - _Jelölve_ (alapértelmezetten): a terhek a szerkezeti elemmel együtt kerülnek másolásra. Amennyiben kizárólag terhek vannak kijelölve, úgy az alábbi opciók is aktívvá válnak:
 
-  - Unchecked: the loads will not be copied with the selected structural members.
+    - _Eredeti tehereset:_ a kiválasztott terhek másolatai az eredeti teheresetben maradnak.
+    - _Új tehereset:_ a terhek másolatai mind külön teheresetekbe kerülnek. Annyi új tehereset jön létre, ahány példányban történik a másolás. Az új teheresetek nevei az eredeti névből és egy "-x" utótagból állnak össze, ahol az "x" egy növekvő egész szám.
 
-- _Copy supports_
+  - _Jelöletlen_: a terhek nem kerülnek másolásra.
 
-  - Checked (default): the supports of the selected structural members will be copied. (In case of the selection set does not contain at least one selected member then the selected supports will not be copied.)
-  - Unchecked: the supports of the selected structural members will not be copied.
+- **Támaszok másolása**
 
-- \_Join point_s
+  - _Jelölve_ (alapértelmezetten): a kiválasztott szerkezeti elemek a hozzájuk tartozó támaszokkal együtt kerülnek másolásra.
 
-  - Checked: the end points of the copied objects will be connected with lines.
-  - Unchecked (default): the end points of the copied objects will not be connected with lines.
+  - _Jelöletlen_: a kiválasztott szerkezeti elemek a hozzájuk tartozó támaszok nélkül kerülnek másolásra.
+
+- **Pontok összekötése:**
+
+  - _Jelölve_: a másolt elemek és az eredeti elemek végpontjai egyenesekkel összekötésre kerülnek.
+
+  - _Jelöletlen_ (alapértelmezetten): a másolt elemek és az eredeti elemek végpontjai nem kerülnek összekötésre.
 
 <!-- /wp:list -->
 
-<!-- wp:paragraph -->
+<!-- wp:image {"align":"right","id":33449,"width":359,"height":197,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-![](./img/wp-content-uploads-2021-04-5-4-mod-mirror-ico.png) **Mirror selected objects. **The two given points represent the mirroring axis that will be projected into the actual _UCS_ system and the mirroring will be performed in the actual _UCS_ symmetrically to the axis of mirroring.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-As the first step select the UCS for mirroring (if it is needed), select objects to be mirrored, and click on the Mirror selected objects icon.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":9261,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/5-4-mod-mir-dial.png)](./img/wp-content-uploads-2021-04-5-4-mod-mir-dial.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/02/dial_tukrozes.png)](./img/wp-content-uploads-2022-02-dial_tukrozes.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-Selecting the mirror line by picking two points for the mirror axis, the selected objects will be moved or copied to the mirrored position.
+![](./img/wp-content-uploads-2021-04-5-4-mod-mirror-ico.png) **Kijelölt objektumok tükrözése.** Kijelölt elemek tükrözés két pont által meghatározott tengely körül. A tükrözés síkja mindig merőleges lesz az aktuális _FKR_-re.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The effects of the options are the same as described above.
+Első lépésként a tükrözendő elemeket kell kiválasztani, majd a _**Kijelölt objektumok tükrözése**_ ikonra kell kattintani.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2021-04-5-4-mod-rot-ico.png) **Rotate selected objects. **Select the objects for rotation.
+A tükrözés tengelye két ponttal adható meg. A tengely megadása után a kiválasztott elemek másolásra vagy mozgatásra kerülnek az új pozícióba.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":9273,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:paragraph -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/5-4-mod-rot-dial.png)](./img/wp-content-uploads-2021-04-5-4-mod-rot-dial.png)
+A dialógon található opciók hatásai megegyeznek a mozgatás funkciónál leírtakkal (ld. fentebb).
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"right","id":33442,"width":359,"height":196,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![](https://consteelsoftware.com/wp-content/uploads/2022/02/dial_forgatas.png)](./img/wp-content-uploads-2022-02-dial_forgatas.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-Select the Move or Copy option for the transformation. The number of copies can be selected. Set the center of rotation. Set reference point of rotation. Set the direction point or type in the rotation angle and click on the Apply button.
+![](./img/wp-content-uploads-2021-04-5-4-mod-rot-ico.png) **Kijelölt objektumok forgatása.**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The effects of the options are the same as described above.
+Első lépésként a forgatandó elemeket kell kiválasztani, majd a _**Kijelölt objektumok forgatása**_ ikonra kell kattintani.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-**_The further modifying functions are on the \_Geometry_ \__tab:_**
+A forgatáshoz meg kell adni a forgatás középpontját, majd a forgatás referencia pontját, végül a forgatás iránypontját. A forgatás szögének megadása történhet pontfogással a modelltérben, vagy a szög értékének megadásával a dialógon. Másolás esetén megadható a másolatok száma.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2021-04-5-4-mod-size.png)** Sizing of the selected objects. **Select objects for sizing. Set the sizing center, the sizing reference point, and the sizing multiplier point (the distances of the sizing reference point and the sizing multiplier point to the sizing origin point determines the sizing factor). The sizing will be performed. The length (and depending on the sizing origin maybe the position) of the objects will be changed. The length of the line-loads will be changed proportionally.
+A dialógon található opciók hatásai megegyeznek az eltolás funkciónál leírtakkal (ld. fentebb).
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2021-04-5-4-mod-refract.png) **Refract the selected line element.** Select the edge to refract and the insert point along the axis of the selected object. Set the new position of the selected point. The original object will be broken into two parts.
+**A további módosítási funkciók a** _Geometria_ fülön találhatók:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The coordinates of the new position of the selected point also can be given manually according to the selected coordinate system.
+![](./img/wp-content-uploads-2021-04-5-4-mod-size.png) **Kijelölt objektumok átméretezése**. Átméretezéshez először ki kell választani az átméretezendő objektumokat, majd meg kell adni egy referencia pontot és egy nagyító pontot (a referencia pont és a nagyító pont közötti távolság határozza meg az átméretezés mértékét). Az utolsó pont megadása után megtörténik az átméretezés. Az objektumok hosszai az átméretezésnek megfelelően fognak megváltozni. Az átméretezett objektumokon lévő vonalmenti terhek hosszai is megváltoznak az átméretezésnek megfelelően.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2021-04-5-4-mod-curve.png) **Curve selected line element.** Select the edge for bending. Set the insert point.
+![](./img/wp-content-uploads-2021-04-5-4-mod-refract.png) **Kijelölt vonalelem megtörése.** Megtöréshez ki kell választani a vonalelemet és egy törési pontot a vonalelem tengelye mentén, majd meg kell adni a kiválasztott pont új pozícióját. Az eredeti vonalelem két elemre kerül felbontásra.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2021-04-5-4-mod-straight.png) **Straighten selected arc. **The selected arc segment of a plane element will be deleted and substituted by a straight edge.
+A kiválasztott pont új pozíciójának koordinátái megadhatók begépeléssel is az aktuális koordinátarendszer szerint.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2021-04-5-4-mod-divide.png) **Divide selected objects.** Lines and bars can be divided into equal or unequal parts.
+![](./img/wp-content-uploads-2021-04-5-4-mod-curve.png) **Kijelölt vonalelem görbítése**. Görbítéshez ki kell választani a görbítendő vonalelemet, majd meg kell adni a beillesztési pontot.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-By selecting the **To equal parts** option the number of the segments or the length of the segments can be set.
+![](./img/wp-content-uploads-2021-04-5-4-mod-straight.png) **Kijelölt körív kiegyenesítése.** Kiegyenesítéshez ki kell választani a kiegyenesítendő ívet, amit a program letöröl, a kezdő- és végpontját pedig egyenes szakasszal köti össze.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":9309,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:paragraph -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/5-4-mod-divide-dial.png)](./img/wp-content-uploads-2021-04-5-4-mod-divide-dial.png)
+![](./img/wp-content-uploads-2021-04-5-4-mod-divide.png) **Kijelölt objektum felosztása.** Vonalak és rudak adott darabszámú, vagy adott hosszúságú részekre osztása.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+Az **Egyenlő részekre** opció választása esetén megadhatók a szakaszok száma vagy a szakaszok hosszai állíthatók be.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+A **Változó hosszúságú részekre** opció választása esetén a szakaszok relatív vagy abszolút hosszai adhatók meg A vagy B végpontoktól.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:columns -->
+
+<!-- wp:column -->
+
+<!-- wp:image {"align":"right","id":33457,"width":357,"height":236,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![](https://consteelsoftware.com/wp-content/uploads/2022/02/dial_felosztas.png)](./img/wp-content-uploads-2022-02-dial_felosztas.png)
+
+<!-- /wp:image -->
+
+<!-- /wp:column -->
+
+<!-- wp:column -->
+
+<!-- wp:image {"align":"left","id":33464,"width":358,"height":238,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![](https://consteelsoftware.com/wp-content/uploads/2022/02/dial_felosztas_valtozo.png)](./img/wp-content-uploads-2022-02-dial_felosztas_valtozo.png)
+
+<!-- /wp:image -->
+
+<!-- /wp:column -->
+
+<!-- /wp:columns -->
+
+<!-- wp:paragraph -->
+
+![](./img/wp-content-uploads-2021-04-5-4-mod-break.png) **Kijelölt objektumok darabolása metszéspontok mentén.** Daraboláshoz ki kell választani a két metsző objektumot. Mind a két objektum feldarabolásra kerül a metszéspontban. Működik egyenes és íves elemekkel, valamint síkidomokkal is.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+![](./img/wp-content-uploads-2021-04-5-4-mod-trim.png) **Kijelölt vonalelem vagy síkidom vágása vágóéllel vagy vágósíkkal**. Vágáshoz először ki kell jelölni a vágóélt vagy -síkot, majd meg kell adni a vágandó vonalelem vagy síkidom eldobandó részét. Működik egyenes és íves elemekkel, valamint síkidomokkal is.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+![](./img/wp-content-uploads-2021-04-5-4-mod-extend.png) **Kijelölt vonalelem vagy síkidom határvonalakhoz vagy határsíkhoz igazítása.** Igazításhoz először ki kell jelölni a határvonalat vagy -síkot, majd a meghosszabbítandó elemet. Síkidomok esetében a parancs akkor végrehajtható, ha a síkidom élei a nyújtás során nem metsződnek egymásba.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+![](./img/wp-content-uploads-2021-04-5-4-mod-div-trim.png) **Kijelölt szakasz adott részének kivágása.** Kivágáshoz először ki kell jelölni az objektumot, majd a kivágandó szakasz kezdő és végpontját.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+![](./img/wp-content-uploads-2021-04-5-4-mod-chamf.png) **Két kijelölt vonalelem letörése.** Letöréshez először ki kell választani a két egyenes elemet. A letörés a kiválasztás sorrendjében fog történni.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":33479,"width":323,"height":146,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![](https://consteelsoftware.com/wp-content/uploads/2022/02/dial_letores.png)](./img/wp-content-uploads-2022-02-dial_letores.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-By selecting the two unequal parts option a series of relative or absolute lengths can be defined, measured from the A or B endpoint of the object.
+![](./img/wp-content-uploads-2021-04-5-4-mod-fillet.png) **Két kijelölt vonalelem metszéspontjában az élek lekerekítése.** Lekerekítéshez először ki kell választani a két egyenes elemet, majd meg kell adni a lekerekítés sugarát.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":9315,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":33472,"width":359,"height":116,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/5-4-mod-divide-dial-2.png)](./img/wp-content-uploads-2021-04-5-4-mod-divide-dial-2.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/02/dial_lekerekites.png)](./img/wp-content-uploads-2022-02-dial_lekerekites.png)
 
 <!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-![](./img/wp-content-uploads-2021-04-5-4-mod-break.png) **Break two selected objects.** Select the two intersected objects to break. Both objects will be broken by the intersection point. It works with linear and curved objects, also with plate elements.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-![](./img/wp-content-uploads-2021-04-5-4-mod-trim.png)**Trim selected line or plate element by cutting edge or plate.** Select cutting edge or plate. Select the part to be trimmed. It works both with linear and curved objects, also with plate elements.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-![](./img/wp-content-uploads-2021-04-5-4-mod-extend.png) **Extend selected line or plate elements to limit line or plate. **Select the limit line or plate and click on the linear or plate object to be extended to the limit line or plate. It works with plate elements only if the edges of the extended plate element do not cross each other.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-![](./img/wp-content-uploads-2021-04-5-4-mod-div-trim.png) **Divide by trim.** Cut out a part of the selected element. Select the object for cut-out. Select the start point and the endpoint of the segment of the cut-out.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-![](./img/wp-content-uploads-2021-04-5-4-mod-chamf.png) **Chamfer of two selected linear elements.** Select the first and the second linear element. The chamfer will be applied according to the order of selection.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":9351,"width":361,"height":165,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/5-4-mod-chamfer-dial.png)](./img/wp-content-uploads-2021-04-5-4-mod-chamfer-dial.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-![](./img/wp-content-uploads-2021-04-5-4-mod-fillet.png) **Filleting of the edge of the section of two line-element.** Select the first and the second linear element. Chose a fillet radius
-
-<!-- /wp:paragraph -->

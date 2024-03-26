@@ -1,45 +1,20 @@
 ---
 sidebar_position: 4
 ---
-# Layers
+# Fóliák
 
-All CAD systems have a layer concept of some sort. Objects are placed on appropriate layers as a practical way of managing the objects within the model.
+Minden CAD alapú modellező rendszer rendelkezik valamilyen fóliakoncepcióval a modellen belüli objektumok kezelésének könnyebbé tétele érdekében. Ha az objektumokat különböző fóliákra helyezzük el, azok színek és vonaltípusok szerint jól elkülöníthetők, illetve egyes fóliák ki- vagy bekapcsolhatók, valamint lezárhatók a véletlen módosítások elkerülésére.
 
-<!-- /wp:paragraph -->
+[![](https://consteelsoftware.com/wp-content/uploads/2022/02/dial_folia.png)](./img/wp-content-uploads-2022-02-dial_folia.png)
 
-<!-- wp:image {"align":"center","id":32727,"width":521,"height":237,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/02/Dlg.jpg)](./img/wp-content-uploads-2022-02-Dlg.jpg)
+![](./img/wp-content-uploads-2021-04-5-5-layers-ico.png) A fólia kezelő dialógon az alábbi funkciók találhatóak:
 
-<!-- /wp:image -->
 
-<!-- wp:paragraph -->
-
-![](./img/wp-content-uploads-2021-04-5-5-layers-ico.png) The layers dialog window can be used to:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:list {"className":"is-style-arrow"} -->
-
-- Create new layers
-
-- Copy existing layer-definition to a new layer
-
-- Delete layers
-
-- Edit properties of existing layers (_Color_, _Line \_style, \_Thickness_, and _Transparency_)
-
-  - _Thickness_: the value sets the line thickness of the objects.
-  - _Transparency_: a number between 0 and 1 defines the transparency of objects where 0 means a solid, and 1 means a completely transparent representation.
-
-- Turn the \_Visibility \_on and off
-
-- \_Freeze \_layers from activity whilst keeping them visible
-
-- Turn on and off the own style of the objects. If _Layer style_ checkbox is turned ON, then all the objects on the layer use the color, line style, thickness, etc defined in this dialog. If it is turned OFF (default setting) then all the objects use the global style. Object color by section is not possible when _Layer style_ is checked ON.
-
-<!-- /wp:list -->
-
-<!-- wp:paragraph -->
-
-<!-- /wp:paragraph -->
+- Új fólia létrehozása
+- Meglévő fólia tulajdonságainak lemásolásával új fólia létrehozása
+- Fóliák törlése
+- Fóliák tulajdonságainak megváltoztatása (szín, vonaltípus, vonalvastagság és átlátszóság)
+- Láthatóság ki-be kapcsolása
+- Zárolás ki-be kapcsolása (látható, de nem módosíthatók a rajta lévő elemek, új elemeket sem lehet elhelyezni a fóliára)
+- Saját stílus ki-be kapcsolása. Alapértelmezettként ez az opció be van kapcsolva. Ilyenkor az összes objektum a globálisan beállított stílust használja. Ha ezt kikapcsoljuk, akkor a fólián szereplő objektumok a fólia színét, vonaltípusát és -vastagságát veszik fel.
