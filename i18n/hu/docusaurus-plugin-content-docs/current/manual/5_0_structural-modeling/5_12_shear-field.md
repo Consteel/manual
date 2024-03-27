@@ -311,13 +311,13 @@ A Fischer trapézlemez gyártó cég a nyírási merevség meghatározásához a
 
 <!-- wp:paragraph -->
 
-**K1\***: trapézlemez szelvénytől függő paraméter \[10-4\*1/kN]
+**K1**: trapézlemez szelvénytől függő paraméter \[10-4\*1/kN]
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-**K2\***: trapézlemez szelvénytől függő paraméter \[10-4\*m2/kN]
+**K2**: trapézlemez szelvénytől függő paraméter \[10-4\*m2/kN]
 
 <!-- /wp:paragraph -->
 
@@ -377,13 +377,13 @@ Az Arcelor trapézlemez gyártó cég a következő képletet (3) (Bryan/Davies 
 
 <!-- wp:paragraph -->
 
-**K1\***: trapézlemez szelvénytől függő paraméter \[1/kN]
+**K1**: trapézlemez szelvénytől függő paraméter \[1/kN]
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-**K2\***: trapézlemez szelvénytől függő paraméter \[m2/kN]
+**K2**: trapézlemez szelvénytől függő paraméter \[m2/kN]
 
 <!-- /wp:paragraph -->
 
@@ -608,7 +608,7 @@ A ![](./img/wp-content-uploads-2021-04-3dots-button.png) ikonra kattintva felugr
 
 <!-- wp:paragraph -->
 
-Az ablak bal alsó sarkában az \_**Új **\_gombra kattintva létrehozhatunk egy új nyírási mező definíciót. A legfelső mezőben lehet megadni az új definíció nevét. Első lépésként ki kell választanunk a trapézlemez szelvényét. A (![](./img/wp-content-uploads-2021-04-3dots-button.png)) ikonra kattintva nyitható meg a szelvényválasztó ablak. A dialóg ablak felépítése az alábbi:
+Az ablak bal alsó sarkában az **Új** gombra kattintva létrehozhatunk egy új nyírási mező definíciót. A legfelső mezőben lehet megadni az új definíció nevét. Első lépésként ki kell választanunk a trapézlemez szelvényét. A (![](./img/wp-content-uploads-2021-04-3dots-button.png)) ikonra kattintva nyitható meg a szelvényválasztó ablak. A dialóg ablak felépítése az alábbi:
 
 <!-- /wp:paragraph -->
 
@@ -632,19 +632,19 @@ Az ablak bal alsó sarkában az \_**Új **\_gombra kattintva létrehozhatunk egy
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-\#3 - Betöltött szelvények: azon szelvények kerülnek a panelre, melyek előzőleg betöltésre kerültek. A művelet \_**Betölt **\_parancsra kattintva végezhető el. Egyszerre több szelvény is betölthetünk a katalógusból, melyek a panelen automatikusan sorba rendeződnek.
+\#3 - Betöltött szelvények: azon szelvények kerülnek a panelre, melyek előzőleg betöltésre kerültek. A művelet **Betölt** parancsra kattintva végezhető el. Egyszerre több szelvény is betölthetünk a katalógusból, melyek a panelen automatikusan sorba rendeződnek.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-A \_**Törlés **\_parancsra kattintva törölhetőek a kiválasztott trapézszelvények.
+A **Törlés** parancsra kattintva törölhetőek a kiválasztott trapézszelvények.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Lehetőségünk van akár manuálisan is szelvényt definiálni. A funkció az \_**Új **\_parancsra kattintással érhető el. A felugró ablakon megadhatjuk a betöltésre kerülő trapézlemezünk geometriáját. Emellett megadható a gyártó is, illetve nevet is adhatunk a kézzel definiált trapézlemezünknek.
+Lehetőségünk van akár manuálisan is szelvényt definiálni. A funkció az **Új** parancsra kattintással érhető el. A felugró ablakon megadhatjuk a betöltésre kerülő trapézlemezünk geometriáját. Emellett megadható a gyártó is, illetve nevet is adhatunk a kézzel definiált trapézlemezünknek.
 
 <!-- /wp:paragraph -->
 
