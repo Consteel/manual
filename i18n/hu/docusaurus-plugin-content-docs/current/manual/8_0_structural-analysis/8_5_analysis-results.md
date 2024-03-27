@@ -105,9 +105,9 @@ A két különböző típusú (rúd és héj) végeselemhez az alábbi analízis
     - vyz – a szelvényen ható helyi „y” tengelyre merőleges lemez nyíróerő
     - vRz – eredő lemez nyíróerő
     - Ɑn – tárcsa erők fő irányai  
-      ![alt text](image.png)
+     ![alt text](img/alphan2.png)
     - Ɑm – tárcsa erők fő irányai  
-    ![alt text](image-1.png)
+     ![alt text](img/alpham.png)
 
   - Felületi feszültségek – a héj végeselemek felső, középső, és alsó síkjaiban, végeselem pontokban, lokális koordinátarendszerben
 
@@ -115,13 +115,13 @@ A két különböző típusú (rúd és héj) végeselemhez az alábbi analízis
     - $\sigma_y$ – “y” irányú normálfeszültség
     - $\sigma\_{xy}$ – nyírófeszültség
     - $\sigma_1$ – főfeszültségek maximuma  
-     ![alt text](image-3.png)
+     ![alt text](img/sigma1.png)
     - $\sigma_2$ – főfeszültségek minimuma  
-      ![alt text](image-2.png)
+     ![alt text](img/sigma1min.png)
     - $\sigma\_{HMH}$ – Huber-Mises-Hencky feszültség  
-     ![alt text](image-4.png)
+     ![alt text](img/sigmahmh.png)
     - $\alpha\_{\sigma}$ – feszültségek főirányai  
-      ![alt text](image-5.png)
+     ![alt text](img/alphasigma1.png)
 
   - Reakciók – megtámasztott csomópontokban, globális koordinátarendszerben
 

@@ -35,7 +35,7 @@ Az elsőrendű analízis a szerkezete kezdeti merevsége alapján számítja ki 
 
 <!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-![alt text](image.png)
+![alt text](img/KSU.png)
 
 <!-- /wp:paragraph -->
 
