@@ -1,290 +1,342 @@
 ---
 sidebar_position: 3
 ---
-# Composite design
+# Öszvérszerkezet tervezés
+---
+<!-- wp:paragraph -->
 
-Composite column design related functions can be found on the Global checks tab, beam design related function can be found on the Member checks tab.
+Az öszvér oszlopok tervezéséhez tartozó funkciók a Globális vizsgálatok fülön, míg az öszvér gerendákhoz tartozók az Elem vizsgálatok fülön találhatóak.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
 
-### Composite column design
+### Öszvér oszlop tervezése
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-Cross-section of the composite columns can be evaluated on the global checks tab by clicking on the blue arrow. On the Design... dialog the _Composite column design_ settings has to be chosen by the check box. Checks can be performed according to the first or the second order analysis and for the whole or a previously created portion model.
+Öszvér oszlop keresztmetszeti vizsgálata a **Globális vizsgálatok** fülön található kék nyíl segítségével végezhető el. A **Tervezés… **dialógon az _Öszvér oszlop tervezése_ jelölő négyzetet kell kiválasztani. A vizsgálat elvégezhető teljes vagy részletmodellre is. A **Tervezés… **dialóg felső részén kiválasztható, hogy mely eredmény típus (első vagy másodrendű analízis) alapján történjen a vizsgálatok elvégzése, illetve a táblázatban kiválasztható, hogy mely teherkombinációk esetében.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":10887,"width":466,"height":410,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":37184,"width":466,"height":410,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/10-3-1-comp-col-dial.png)](./img/wp-content-uploads-2021-04-10-3-1-comp-col-dial.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/06/dial_oszver_szelveny.png)](./img/wp-content-uploads-2022-06-dial_oszver_szelveny.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-If the initial sways in the y and z directions were applied on the checked cross-section then the stability check of the composite columns can be neglected. Cross-section checks are enough.
+Ha a vizsgált keresztmetszet létrehozásakor ki lett választva a _Kezdeti görbeség hozzárendelése_ opció az y és z irányokban is, akkor az oszlop stabilitásvizsgálata elhanyagolható. Elegendő csak a keresztmetszeti vizsgálatok elvégzése.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
 
-#### Results
+#### Eredmények
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-The results of the performed checks are demonstrated with graphical visualization and result tables (for the general functionality of tables used in _ConSteel_ see section 1.4 General functions for tables).
+Az elvégzett ellenőrzések eredményei megtekinthetők grafikus formában, vagy táblázatosan (a táblázatok általános kezelési funkcióit lásd a **_[Táblázatok általános funkciói ](/manual/altalanos-ismertetes/tablazatok-altalanos-funkcioi/)_**c. fejezetben).
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The shown results can be changed in the drop down menu.
+Az aktuálisan megjelenített eredménytípus a legördülő menüből választható.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":10893,"width":527,"height":391,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":37176,"width":573,"height":355,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/10-3-1-comp-col-res.png)](./img/wp-content-uploads-2021-04-10-3-1-comp-col-res.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_tervezes_oszver_eredmenyek.png)](./img/wp-content-uploads-2022-06-scr_tervezes_oszver_eredmenyek.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-When moving the mouse along the structural elements the result markers continuously appear showing the actual utilization.
+Szerkezeti elemeken történő egér mozgatás esetén, az eredmény jelölő folyamatosan megjelenik, mutatva az aktuális kihasználtságot.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The detail of the results can be seen in the Section module (see Chapter 10 Section module). Section module can be opened directly from the Global checks tab to click on the proper cross section on the model area or in the result table with right click and select the Calculate section menu.
+A számítás részletei megtekinthetők a keresztmetszeti modulban (lásd a**_[ Keresztmetszeti modul ](/manual/keresztmetszet-modul/)_**fejezetben). A keresztmetszeti modul megnyitható közvetlenül a **Globális vizsgálatok** fülről is, a megfelelő keresztmetszet grafikus felületen vagy táblázatban történő jobb egérgombos kiválasztásával.
 
 <!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"left","id":37051,"width":302,"height":213,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_tervezes_globalis_szelvenyvizsgalat.png)](./img/wp-content-uploads-2022-06-scr_tervezes_globalis_szelvenyvizsgalat.png)
+
+<!-- /wp:image -->
+
+<!-- wp:image {"align":"right","id":37043,"width":427,"height":207,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_tervezes_globalis_szelvenyvizsgalat_tablazat.png)](./img/wp-content-uploads-2022-06-scr_tervezes_globalis_szelvenyvizsgalat_tablazat.png)
+
+<!-- /wp:image -->
+
+<!-- wp:spacer {"height":"10px"} -->
+
+<!-- /wp:spacer -->
 
 <!-- wp:heading {"level":3} -->
 
-### Composite beam design
+### Öszvér gerenda tervezése
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-To run composite beam design go to Member checks tab and select Composite beam tab in the table at the bottom of the screen. Then select the composite beams and click on Add button. Now the selected beams are added to the table. Select the beam(s) from the list which you would like to design and click on Select (Select+) button. You can select which load combinations and first or second order results to use for the design. Then click on the Check button and the design will be performed.
+Öszvér gerendák tervezése az **Elem vizsgálat** fülön található funkciók segítségével végezhetők el. Az oldal alján található táblázatban az **Öszvér gerenda** fület kell megnyitni, majd ki kell választani a vizsgálandó öszvér gerendá(ka)t és a **Hozzáad **gombra kattintva hozzá kell adni a vizsgálandó gerendák táblázatához. A vizsgálandó gerendák táblázatából a **Kiválaszt (Kiválaszt +) **gomb segítségével lehet egy elemet tervezésre kiválasztani. Megadható, hogy első- vagy másodrendű analízis eredmények alapján történjen a tervezés, és ehhez kiválasztható a megfelelő teherkombináció is. Az **Ellenőrzés **gombra kattintva indítható a vizsgálat.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Composite beam design in _ConSteel_ is carried out according to EN 1994-1-1:2010 standard.
+Öszvér keresztmetszetű gerendák ellenőrzése az EN 1994-1-1:2010 szabvány alapján történik.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The design bending resistance is determined using plastic theory according to 6.2.1.2 or 6.2.1.3 where the cross-section is in Class 1 or 2. The section class is determined acc. to 5.5.2. Class 3 and 4 cross-sections are not covered by _ConSteel_ composite beam design. The composite beam is checked for plastic bending, vertical shear, and shear buckling, crushing of the concrete flange and longitudinal shear at all the critical cross-sections. The critical cross sections are determined according to 6.1.1. (4). The following methods are not included in _ConSteel_: non-linear resistance to bending (6.2.1.4.) and elastic resistance to bending (6.2.1.5.). The profiled steel decking is assumed not to contribute to the resistance.
+A tervezési hajlítási ellenállás meghatározását képlékeny elmélet alapján végzi el a program, a 6.2.1.2 vagy a 6.2.1.3 EuroCode fejezeteknek megfelelően, 1. és 2. keresztmetszeti osztályok esetén. A keresztmetszeti osztályok meghatározása az 5.5.2 fejezet alapján történik. 3. és 4. keresztmetszeti osztályú kompozit gerendák tervezése jelenleg még nem végezhető el a _Consteel_ segítségével. Öszvér gerendák ellenőrzése a következő vizsgálatokra történik az összes kritikus keresztmetszetben:
+
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+
+- képlékeny hajlítás,
+- függőleges nyírás,
+- nyírási horpadás,
+- betonöv morzsolódása,
+- hosszirányú nyírás.
+
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+
+A kritikus keresztmetszeti helyek meghatározása a 6.1.1. (4) bekezdés alapján történik. A következő vizsgálatok nem kerülnek elvégzésre: nemlineáris hajlítási ellenállás (6.2.1.4) és rugalmas hajlítási ellenállás (6.2.1.5). Az esetleges trapézlemez ellenállása elhanyagolásra kerül.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
 
-#### Analysis model
+#### Analízis modell
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-In the **analysis model** the calculation of the effective width of concrete flange is based on the method defined in a previous chapter (in the dependence of the span and the distance between the shear studs in the cross section). Based on practice experiences, composite beams are usually created as two-pinned one span beams. ConSteel can design composite beams with one span formation. In case of multi span beams, and where the tension is in the concrete flange, design can not be performed.
+Az **analízis modellben** a betonöv effektív szélességét (beff) a _Consteel_ a korábbi fejezetben található eljárás alapján határozza meg (a támaszköz és az egy keresztmetszetben lévő nyírási csapok egymástól való távolságának a függvényében). A gyakorlati tapasztalatok alapján az öszvér gerendák legtöbbször kéttámaszú „csuklós-csuklós” tartóként kerülnek kialakításra, emiatt a Consteel csak ebben az esetben végzi el az öszvérgerenda ellenőrzését. Többtámaszú kialakítás, illetve húzott betonzóna esetén a felhasználó hibaüzenet kap, és nem tudja elvégezni az ellenőrzést.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-In the Analysis tab the analysis model is displayed.
+Az analízis modell megtekinthető az **Analízis **fülön.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
 
-#### Design of shear studs
+#### Nyírócsapok tervezése
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-The allocation of the studs is plastic based, where the studs has to be distributed uniformly in both directions from the dominant cross section. The dominant cross section, where the bending is maximal, is located automatically.
+A nyírócsapok kiosztását képlékeny alapon végezzük el, mely alapján a csapokat egyenletesen kell kiosztani a mértékadó keresztmetszettől balra és jobbra eső szakaszon. A mértékadó keresztmetszet meghatározását a program automatikusan elvégzi. (Mértékadó keresztmetszet: az öszvér gerendában keletkező maximális hajlítónyomaték helye.) Ennek a keresztmetszetnek az ismeretében már lehet tőle balra, illetve jobbra eső szakaszról beszélni.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-If the number of shear studs is desired to be calculated automatically, ConSteel willcalculate the bending resistance of the beam with the minimal required number of studs. ConSteel will increase than the number of shear studs, until the bending resistance exceeds the acting bending on the beam.
+Nyírócsapok automatikus számítása opció választása esetén a program a minimális nyírócsap pozícióból számolt nyírócsap darabszámmal elvégzi a nyomatéki ellenállás számítását. A keletkező igénybevétel függvényében addig növeli a nyírócsapok számát, amíg a hajlítási ellenállás meghaladja a hajlítási igénybevételt.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The green section on the schematic figure below shows, where the optimal distribution of shear studs is calculated. The following parameters are evaluated for the examined part of the beam:
+A gerenda alábbi sematikus ábráján a zöld szakasz mutatja azt a szakaszt, amely mentén meghatározásra került az optimális nyírócsap pozíció és a kiosztás. Az alábbi paraméterek kerülnek meghatározásra az öszvér gerendák vizsgált szakaszaira:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-nopt: optimal number of shear stud positions along the dominant phase of the beam
+nopt: a nyírócsapok pozíciójának optimális száma a rúd mértékadó szakaszán
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-nact: number of shear stud positions along the examined member
+nact: a nyírócsapok pozíciójának száma a vizsgált rúdon
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-sL: shear stud distribution in the left direction from the dominant cross section \[mm]
+sL: a nyírócsapok kiosztása a keresztmetszettől balra eső szakaszon \[mm]
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-nact,L:number of shear stud positions in the left direction from the dominant cross section
+nact,L: a nyírócsapok pozíciójának száma a keresztmetszettől balra eső szakaszon
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-sR: shear stud distribution in the right direction from the dominant cross section \[mm]
+sR: a nyírócsapok kiosztása a keresztmetszettől jobbra eső szakaszon \[mm]
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-nact,R: number of shear stud positions in the right direction from the dominant cross section
+nact,R: a nyírócsapok pozíciójának száma a keresztmetszettől jobbra eső szakaszon
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":10899,"width":622,"height":376,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:paragraph -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/10-3-2-comp-beam-pic.jpg)](./img/wp-content-uploads-2021-04-10-3-2-comp-beam-pic.jpg)
+nstud: az egy keresztmetszetben lévő nyírócsapok száma
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+nmin: a minimális nyírócsap pozíciók száma a vizsgált rúdon
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+nmin,L: a minimális nyírócsap pozíciók száma a keresztmetszettől balra eső szakaszon
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+nmin,R: a minimális nyírócsap pozíciók száma a keresztmetszettől jobbra eső szakaszon
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":37168,"width":768,"height":464,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![](./img/wp-content-uploads-2022-06-pic_tervezes_oszver_nyirocsapok-1024x619.png)](https://consteelsoftware.com/wp-content/uploads/2022/06/pic_tervezes_oszver_nyirocsapok.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-nstud: number of shear studs in one cross section
+Az automata kiosztás helyett megadható a nyírócsap pozíciók pontos száma is. Ebben az esetben a program ellenőrzi, hogy megfelel-e a kiosztás a szabványos előírásoknak, illetve minimális és maximális távolsági követelményeknek. A nyírócsap pozíciók számát a teljes gerendára kell megadni. Az ellenőrzés során a _Consteel_ a megadott nyírócsap pozíciót egyenletesen szétosztja a gerenda hossza mentén (az automata kiosztás esetén a keletkező igénybevétel függvényében előfordulhat nem egyenletes csapkiosztás is a mértékadó keresztmetszettől balra és jobbra eső szakaszon).
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-nmin: minimum number of shear stud positions along the member
+A nyírócsapok kihasználtságának a számítása a következőek szerint történik: alkalmazott nyírócsap szám osztva az optimális nyírócsap számmal (nact / nopt).
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
+<!-- wp:image {"align":"center","id":37160,"width":768,"height":399,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-nmin,L: minimal number of shear stud positions in the left direction from the dominant cross section
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-nmin,R: minimal number of shear stud positions in the left direction from the dominant cross section
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-Instead of using the automatic evaluation of the number of the shear studs, manual definition of the number of studs is available too. In this case, the software checks, if the distribution fits to the detailing rules, such as the minimal and the maximal distance between the studs. The number of the studs has to be given for the whole length of the beam. During the check of the beam, ConSteel will uniformly distribute the studs along the member (In case of automatic evaluation of required shear stud numbers, non-uniform distribution is also possible).
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-Calculation of the utilizations of the shear studs are evaluated by the dividing the applied number of shear studs with the optimal number of shear studs (nact / nopt)
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":10881,"width":880,"height":458,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/10-3-2-comp-beam-res.png)](./img/wp-content-uploads-2021-04-10-3-2-comp-beam-res.png)
+[![](./img/wp-content-uploads-2022-06-scr_tervezes_oszver_eredmenyek_2-1024x532.png)](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_tervezes_oszver_eredmenyek_2.png)
 
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":4} -->
 
-#### Shear buckling resistance of composite beams
+#### Öszvérszerkezetek nyírási horpadási ellenállás
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-The shear buckling resistance of the web is determined in accordance with section 5 and Appendix A of EN 1993-1-5:2006. The shear resistance contribution of the flanges is ignored.
+A nyírási horpadási ellenállás meghatározása az EN 1993-1-5:2006 szabvány 5 szakasza, illetve az '_A_' melléklete alapján történik. Az övek nyírási ellenállása elhanyagolásra került.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
 
-#### Bending and vertical shear resistance
+#### Öszvérszerkezetek hajlítási és függőleges nyírási ellenállása
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-The influence of vertical shear on the bending resistance is ignored if the vertical shear force is less than the half of the shear resistance.
+A függőleges nyírás hajlítási ellenállásra gyakorolt hatása elhanyagolásra kerül, ha a függőleges nyíróerő kevesebb, mint a keresztmetszet nyírási ellenállásának a fele.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-For Class 1 or 2 cross-sections, if the vertical shear force exceeds the half of the shear resistance, the reduced design steel strength is used to calculated the bending strength of the member as defined in 6.2.2.4 (2)
+Első és második keresztmetszeti osztály esetén, ha a függőleges nyíróerő nagyobb, mint a keresztmetszet nyírási ellenállásának fele, akkor a hajlítás ellenállás meghatározásához csökkentett tervezési acél határfeszültség kerül használatra, a 6.2.2.4 (2) fejezet szerint.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
 
-#### Lateral-torsional buckling resistance of composite beams
+#### Öszvér gerenda kifordulása
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-Lateral-torsional buckling of composite beams is not included.
+Öszvér gerenda kifordulása nincs vizsgálva.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
 
-#### Sheeting with ribs parallel to the supporting beam
+#### Öszvér tartó alátámasztó gerendájával párhuzamos trapézlemez bordázás
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-The design shear resistance of studs is taken as the resistance of the studs in solid slab multiplied by the reduction factor as defined in 6.6.4.1 (2).
+A nyírócsapok tervezési ellenállása az állandó vastagságú betonlemezes öszvérgerenda esetén meghatározott nyírócsap ellenállás és a 6.6.4.1 (2) fejezetben megadott csökkentő tényező szorzataként kerül meghatározásra.
 
 <!-- /wp:paragraph -->
 
+<!-- wp:list -->
+
+- \-kl egy gerendával párhuzamos acél profillemez fejes csapja ellenállásának csökkentő tényezője
+
+<!-- /wp:list -->
+
 <!-- wp:paragraph -->
 
-If the sheeting is discontinuous ConSteel assumes that it is welded to the flange of the beam but the distance between two ribs (‘a’ parameter) can be set.
+Nem folytonos trapézlemez esetén, a Consteel azt feltételezi, hogy a trapézlemez a gerenda övére van hegesztve, de a távolság a két trapézlemez között nem adható meg (’a’ paraméter).
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
 
-#### Sheeting with ribs perpendicular to the supporting beam
+#### Öszvér tartó alátámasztó gerendájára merőleges trapézlemez bordázás
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-The design shear resistance of studs is taken as the resistance of the stud in the solid slab multiplied by the reduction factor as defined in equation 6.23, limited to the maximum value as defined in Table 6.2. While calculating the resistance of studs in solid slabs the stud ultimate tensile strength is limited to 450 N/mm2.
+A nyírócsapok tervezési ellenállása az állandó vastagságú betonlemezes öszvérgerenda esetén meghatározott nyírócsap ellenállás, és a 6.23 képlet szerinti csökkentő tényező (maximum érték a 6.2 táblázat szerint) szorzataként kerül meghatározásra.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+
+- \- kt egy gerendára merőlegesen elhelyezett acél profillemez fejes csapja ellenállásának csökkentő tényezője
+
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+
+Állandó vastagságú betonlemezes öszvérgerenda esetén számított nyírócsap ellenállás során a szakadási feszültség maximalizálva van (450 N/mm2).
 
 <!-- /wp:paragraph -->

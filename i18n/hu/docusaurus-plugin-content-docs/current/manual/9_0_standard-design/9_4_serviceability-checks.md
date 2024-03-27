@@ -1,279 +1,262 @@
 ---
 sidebar_position: 4
 ---
-# Serviceability checks
+# Használhatósági vizsgálatok
+<!-- wp:paragraph -->
 
-**Consteel 17**
+**Cosnteel 17**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Starting from Consteel 17 all standard-based verifications are collected in the **Global checks** tab including the **serviceability limit state checks**.
+Consteel 17-től kezdve az összes szabványalapú ellenőrzés összegyűjtve a **Globális vizsgálatok** fülön található, ideértve a **Használhatósági határállapot vizsgálatokat** is.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"id":72338,"width":"388px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:image {"id":72232,"width":"503px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2024-02-9.4.-SLS-Global-ckecks-tab-1.png)
+![](./img/wp-content-uploads-2024-02-HU-9.4.-SLS-Global-ckecks-tab.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-By clicking on the green arrow icon ![](./img/wp-content-uploads-2024-02-9.4.-SLS-icon-1.png), a new dialog appears. The previously defined serviceability checks can be found, and it is also possible to open or delete the selected checks.
+A zöld nyíl ikonra ![](./img/wp-content-uploads-2024-02-9.4.-SLS-icon-1.png) kattintva megjelenik egy új párbeszédpanel. Itt a korábban meghatározott használhatósági határállapot vizsgálatok jelennek meg és lehetőség van a kiválasztott vizsgálatok **megnyitására** vagy **törlésére**.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-In order to create a new serviceability check, the **New check** button is to be clicked. The following checks can be performed:
+Az **Új vizsgálat létrehozása** gombra kattintva a következő vizsgálatokból lehet választani:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 
 - <!-- wp:list-item -->
-- Horizontal displacement check
+- Vízszintes elmozdulás vizsgálata
 - <!-- /wp:list-item -->
 -
 - <!-- wp:list-item -->
-- Global vertical displacement check
+- Globális függőleges elmozdulás vizsgálata
 - <!-- /wp:list-item -->
 -
 - <!-- wp:list-item -->
-- Vertical displacement check between member ends
+- Rúd végpontok közötti függőleges elmozdulás vizsgálata
 - <!-- /wp:list-item -->
 -
 - <!-- wp:list-item -->
-- Relative displacement check for 2 points
+- Két pont relatív elmozdulásának vizsgálata
 - <!-- /wp:list-item -->
 -
 - <!-- wp:list-item -->
-- Seismic interstorey drift verification
+- Földrengés- szintek közötti elmozdulás ellenőrzése
 - <!-- /wp:list-item -->
 
 <!-- /wp:list -->
 
-<!-- wp:image {"id":72388,"width":"296px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:image {"id":72499,"width":"350px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2024-02-9.4.-SLS-new-ckeck-1.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-Each serviceability check dialog box begins with selecting the **load combinations** intended for examination. All the relevant load combinations are automatically listed. Users have the option to choose between calculation with first order or the highest available order analysis results.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":72378,"width":"584px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2024-02-9.4.-SLS-Load-combinations-to-check-1.png)
+![](./img/wp-content-uploads-2024-02-HU-9.4.-SLS-new-ckeck-1.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-In the case of the first three checks, the dialog box has a common bottom section.
+Minden használhatósági határállapot vizsgálat párbeszédpanel az **vizsgálandó teherkombinációk** kiválasztásával kezdődik. Az összes releváns teherkombináció automatikusan fel van sorolva. A felhasználónak lehetősége van választani az elsőrendű vagy a rendelkezésre álló legmagasabb rendű vizsgálati eredmények között.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
+<!-- wp:image {"id":72587,"width":"658px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
-In the **parameters** box, users can set the displacement limits for both total and live loads. These limits are expressed as a fraction of the reference length or height (for horizontal displacement checks). The denominator is user-defined.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":72398,"width":"584px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2024-02-9.4.-SLS-parameters-1.png)
+![](./img/wp-content-uploads-2022-06-HU-9.4.-SLS-Load-combinations-to-check.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-In the **Model portion **button, the user can specify whether the calculation should cover the entire model or only custom-defined sections. It is recommended to opt for calculations exclusively on custom components, as it minimizes calculation time and allows for obtaining desired results for each element type individually.
+Az első három vizsgálat esetében a párbeszédpanel megegyező részeket is tartalmaz.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The **Check** button facilitates a swift calculation, enabling users to confirm dominant results such as the dominant load combination, bar name, finite element point, dominant displacement, displacement limit, and utilization. The calculation can be performed even without using this quick check.
+A felhasználónak be kell állítania az elmozdulás** határértékeit** mind a teljes teherből, mind az esetleges terhekből. Ezeket a korlátokat a referencia hossz vagy magasság (Vízszintes elmozdulás vizsgálat esetén) hányadosaként adhatóak meg. A nevezőt a felhasználó szabványok alapján határozza meg, vagy használja a program által alapértelmezett értéket.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
+<!-- wp:image {"id":72547,"width":"667px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
-To save the settings of the serviceability check, it is essential to click the **OK** button.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":72308,"width":"525px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2024-02-9.4.-SLS-general-parts-1-1.png)
+![](./img/wp-content-uploads-2022-06-HU-9.4.-SLS-parameters.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-After selecting and checking all the checkboxes for the verifications that the user chooses to perform, by pressing the **calculation **button, the checks can be executed.
+A **figyelembe vett részletmodell** gomb segítségével a felhasználó meghatározhatja, hogy a számításnak a teljes modellt, vagy csak egy, már korábban létrehozott, egyedi részletet kell lefednie. Javasolt egyedi részleten végrehajtani a számítást, mivel ez lerövidíti a számítási időt és lehetővé teszi a kívánt eredmények elérését az egyes elemtípusokra vonatkozóan.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"id":72328,"width":"343px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2024-02-9.4.-SLS-Global-ckecks-tab-calculation-1.png)
+Az **ellenőrzés** gomb gyors számítást hajt végre. Ennek eredményeként, a felhasználó meg tudja tekinteni a mértékadó eredményeket a + ikonra kattintva. Láthatóvá válnak a mértékadó teherkombinációk, a szerkezeti elem jele, végeselem pont indexe, mértékadó elmozdulások és a kihasználtsági érték.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+Az ellenőrzés gomb opcionális, számítás nélküle is végezhető. Ez valóban csak egy gyors ellenőrzés. A kiválasztott vizsgálat elmentése érdekében a **Rendben **gombra kell kattintani. Így majd a számítás elvégzése után nem csak a mértékadó eredményhez lehet majd hozzáférni, hanem az összes többi pont eredményéhez is.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":72557,"width":"744px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+
+![](./img/wp-content-uploads-2022-06-HU-9.4.-SLS-general-parts-.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-The results from the serviceability limit state checks, aligned with their dominant utilization and combinations, will be showcased in the lower section of the global checks window. Furthermore, the ultimate limit state check results will be visible if the verification was conducted.
+Miután minden elvégzendő vizsgálatot sikerült kiválasztani a **Számítás** gombra kattintva indítható el a vizsgálat.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"id":72318,"width":"627px","height":"auto","sizeSlug":"large","linkDestination":"none"} -->
+<!-- wp:image {"id":72577,"width":"320px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2024-02-9.4.-SLS-Global-ckecks-tab-calculation-result-1-1024x633.png)
+![](./img/wp-content-uploads-2022-06-HU-9.4.-SLS-Global-ckecks-tab-calculation.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-**Horizontal displacement check**
+A használhatósági határállapot vizsgálat eredményei a kihasználtság, vizsgalat neve, határállapot es teherkombinációk alapján megtekinthetőek a **Globális vizsgálatok** ablak alsó táblázatában es a modellen színek formájában.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
+<!-- wp:image {"id":72567,"width":"791px","height":"auto","sizeSlug":"large","linkDestination":"none"} -->
 
-The horizontal displacement check assesses the horizontal displacement of each node, comparing it against the specified limit based on the node's actual height.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-Users can choose to calculate every combination with first order results or with the highest order available.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-To enable the software to calculate the height (H) of every node, it's necessary to define the global Z coordinate of the reference level. Nodes with a global Z coordinate below the specified reference level are excluded from consideration.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-Displacement limits are applied to the load combinations based on their limit state.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-The verification process can be conducted either for the entire model or for a specified custom portion that has been predefined.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":72358,"width":"582px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2024-02-9.4.-SLS-horizontal-displacement-check-1.png)
+![](./img/wp-content-uploads-2022-06-HU-9.4.-SLS-Global-ckecks-tab-calculation-result-1024x628.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-**Global vertical displacement check**
+**Vízszintes elmozdulás vizsgálata**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The global vertical displacement check calculates the dominant vertical displacement and compares it to the displacement limit based on the provided reference length. The reference length needs to be established, which can be done either manually or by selecting two points in the model.
+A **vízszintes elmozdulás vizsgálata** minden csomópont vízszintes elmozdulását értékeli, és összehasonlítja azt a csomópont tényleges magasságának megfelelően meghatározott határértékkel.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"id":72348,"width":"603px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2024-02-9.4.-SLS-global-vertical-displacement-check-1.png)
+Ahhoz, hogy a szoftver képes legyen minden csomópont magasságát (H) kiszámolni, szükséges a vízszintes referenciaszint globális Z koordinátájának meghatározása. Azokat a csomópontokat, amelyeknek a globális Z koordinátája a meghatározott referencia szint alatt van, kizárják a vizsgálatból.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":72598,"width":"635px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+
+![](./img/wp-content-uploads-2024-02-HU-9.4.-SLS-horizontal-displacement-check-2.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-**Vertical displacement check between member ends**
+**Globális függőleges elmozdulás vizsgálata**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The vertical displacement check between member ends involves evaluating the local displacement across all beams in the model. This check calculates all nodes in the portion, but it has more practical significance for horizontal beams, meaning members situated in the XY plane.
+A **globális függőleges elmozdulás** vizsgálata kiszámítja a domináns függőleges elmozdulást, majd összehasonlítja ezt az elmozdulás határértékével, amelyet a megadott viszonyítási hossz alapján határoz meg. A **viszonyítási hossz** meghatározását kézzel vagy a modellben két pont kiválasztásával lehet elvégezni.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
+<!-- wp:image {"id":72679,"width":"617px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
-Local displacement check between member ends may not be sufficient for cantilever beams; it's more appropriate for beams supported by two other beams or supports on both ends.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":72438,"width":"608px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2024-02-9.4.-SLS-vertical-displacement-check-between-member-ends-1.png)
+![](./img/wp-content-uploads-2024-02-HU-9.4.-SLS-global-vertical-displacement-check-2.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-**Relative displacement check for 2 points**
+**Rúd végpontok közötti függőleges elmozdulás vizsgálata**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-A relative displacement check for two points can be initiated by clicking on those two points. Users have the option to choose between relative horizontal or vertical deflection checks, and these checks can be executed after setting the deflection limits for each direction.
+A **rúd végpontok közötti függőleges elmozdulás** **vizsgálata** magában foglalja az összes gerenda helyi elmozdulásának értékelését a modellben. Ez az ellenőrzés minden pontot kiszámít a megadott részmodellen belül, de gyakorlati szempontból nagyobb jelentőséggel bír a vízszintes gerendák esetében, azaz az XY síkban elhelyezkedő elemek esetében.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"id":72408,"sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2024-02-9.4.-SLS-relative-diplacement-check-for-two-points-1.png)
+A **rúd végpontok közötti függőleges elmozdulás** **vizsgálata** nem feltétlenül megfelelő konzolok esetében.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":72628,"width":"658px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+
+![](./img/wp-content-uploads-2024-02-HU-9.4.-SLS-vertical-displacement-check-between-member-ends-2.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-**Seismic interstorey drift verification**
+**Két pont relatív elmozdulásának vizsgálata**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The prerequisite for performing the check is the existence of the storeys defined in the model and the completion of the seismic analysis. The reduction factor must be given, and the displacement limit selected according to the structure by the users.
+A **két pont relatív elmozdulásának vizsgálata** elvégezhető a két pontra kattintva. A felhasználóknak lehetőségük van választani a relatív vízszintes vagy függőleges eltolódás vizsgálata között, és ezek az ellenőrzések végrehajthatók az eltolódás határértékeinek beállítása után mindkét irányban.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"id":72418,"width":"370px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:image {"id":72638,"width":"697px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2024-02-9.4.-SLS-Seism-story-drift-LIMIT-1.png)
+![](./img/wp-content-uploads-2024-02-HU-9.4.-SLS-relative-diplacement-check-for-two-points-3.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-After the check is performed, it calculates horizontal displacements in both directions among all adjacent levels and showcases the maximum displacement. Furthermore, it provides information on the dominant load combination and utilization.
+**Földrengés- Szintek közötti elmozdulás ellenőrzésé**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-This check button operates similarly to the previous ones. While the quick check is optional, to capture and store the results for each investigated point, we must save the settings using the OK button. Then, we need to calculate along with all the selected checks.
+Az ellenőrzés végrehajtásának előfeltétele a modellben meghatározott szintek létezése és a szeizmikus analízis elvégzése. A csökkentő tényezőt meg kell adni és elmozdulás határértéket kell választani.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"id":72428,"width":"575px","height":"auto","sizeSlug":"large","linkDestination":"none"} -->
+<!-- wp:image {"id":72658,"width":"412px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2024-02-9.4.-SLS-seismic-interstory-drift-verification-1-945x1024.png)
+![](./img/wp-content-uploads-2024-02-HU-9.4.-SLS-Seism-story-drift-LIMIT-2.png)
+
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+
+Miután az ellenőrzés megtörtént, kiszámolja a vízszintes elmozdulásokat mindkét irányban az összes szomszédos szint között, és megjeleníti a mértékadó elmozdulást. Továbbá, információt nyújt a mértékadó terheléskombinációról és a kihasználtságról.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+A párbeszéd ablak hasonlóan működik az előzőkhöz. A gyors **ellenőrzés** opcionális, annak érdekében, hogy rögzítsük és tároljuk az összes vizsgált pont eredményeit, el kell mentenünk a beállításokat az **OK **gomb használatával. Ezután az összes kiválasztott ellenőrzés mellett lévő számítás gomb segítségével tudunk pontos eredményekhez jutni.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":72668,"width":"501px","height":"auto","sizeSlug":"large","linkDestination":"none"} -->
+
+![](./img/wp-content-uploads-2024-02-HU-9.4.-SLS-seismic-interstory-drift-verification-3-954x1024.png)
 
 <!-- /wp:image -->
 
@@ -285,45 +268,61 @@ This check button operates similarly to the previous ones. While the quick check
 
 <!-- wp:heading {"level":3} -->
 
-### Basics
+### Alapok
 
 <!-- /wp:heading -->
 
+<!-- wp:image {"align":"right","id":37287,"width":409,"height":385,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/dial_tervezes_hasznalhatosag_vizsgalatok-1.png)](./img/wp-content-uploads-2022-06-dial_tervezes_hasznalhatosag_vizsgalatok-1.png)
+
+<!-- /wp:image -->
+
 <!-- wp:paragraph -->
 
-All serviceability-related functions can be found on the Serviceability tab. By clicking on the blue arrow icon a new dialog appears. The previously defined serviceability checks can be found and it is also possible to open or delete the selected checks.
+Az összes használhatósági határállapothoz kapcsolódó funkció a Használhatósági vizsgálatok fülön találhatók. A kék nyílra kattintva megjelenő ablakban, az előzőleg létrehozott használhatósági ellenőrzések találhatók, amelyek megnyithatók és törölhetők is.
 
-![](./img/wp-content-uploads-2021-04-9-5-SERVICEABILITY-CHECKS.png)
+<!-- /wp:paragraph -->
 
-In order to create a new serviceability check, the **New check** button is clicked. The following checks can be performed:
+<!-- wp:paragraph -->
+
+Új használhatósági vizsgálat az **Új vizsgálat létrehozása** gomb megnyomásával hozható létre. Az alábbi vizsgálatok végezhetők el.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 
 - <!-- wp:list-item -->
-- Global horizontal deflection check
+- Globális vízszintes eltolódás vizsgálat
 - <!-- /wp:list-item -->
 -
 - <!-- wp:list-item -->
-- Global vertical deflection check
+- Globális függőleges lehajlás vizsgálat
 - <!-- /wp:list-item -->
 -
 - <!-- wp:list-item -->
-- Local deflection check by members
+- Rudankénti lokális függőleges lehajlás vizsgálat
 - <!-- /wp:list-item -->
 -
 - <!-- wp:list-item -->
-- Relative deflection check for 2 points
+- Két pont relatív elmozdulásának vizsgálata
+- <!-- /wp:list-item -->
+-
+- <!-- wp:list-item -->
+- Földrengés - szintek közötti elmozdulás ellenőrzése
 - <!-- /wp:list-item -->
 
 <!-- /wp:list -->
 
-<!-- wp:image {"id":37309,"width":"354px","height":"212px","sizeSlug":"full","linkDestination":"none","className":"is-style-editorskit-rounded"} -->
+<!-- wp:image {"align":"right","id":37271,"width":353,"height":212,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-![](./img/wp-content-uploads-2021-04-dial_design_service_check_types.png)
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/dial_tervezes_hasznalhatosag_vizsgalat_tipusok.png)](./img/wp-content-uploads-2022-06-dial_tervezes_hasznalhatosag_vizsgalat_tipusok.png)
 
 <!-- /wp:image -->
+
+<!-- wp:spacer {"height":"1px"} -->
+
+<!-- /wp:spacer -->
 
 <!-- wp:columns -->
 
@@ -331,19 +330,19 @@ In order to create a new serviceability check, the **New check** button is click
 
 <!-- wp:heading {"level":3} -->
 
-### Global horizontal deflection check
+### Globális vízszintes eltolódás vizsgálat
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-A global horizontal deflection check can be used to check the biggest horizontal deflection in the model. First- or Second-order analysis can be selected just like the serviceability load combinations that need to be considered.
+A globális vízszintes eltolódás vizsgálat segítségével ellenőrizhető a teljes szerkezet legnagyobb vízszintes eltolódása. Első vagy másodrendű analízis eredményei használhatók. A teherkombinációk közül, csak a használhatósági határállapothoz tartozó teherkombinációk választhatók.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Reference height can be typed in or two points can be selected, and the program calculates the height distance between them. Check is done after clicking the Calculation button. The dominant member is automatically selected in the model space to make the interpretation easier.
+A viszonyítási magassági érték megadható manuálisan begépelve, vagy a modellen történő két pont lebökésével, amely alapján a program automatikusan számítja az értéket. A Számítás gomb megnyomásával az ellenőrzés elvégzésre kerül. A mértékadó rúd automatikusan kiválasztásra kerül a modelltérben.
 
 <!-- /wp:paragraph -->
 
@@ -351,39 +350,9 @@ Reference height can be typed in or two points can be selected, and the program 
 
 <!-- wp:column -->
 
-<!-- wp:image {"align":"center","id":10952,"sizeSlug":"large","linkDestination":"custom"} -->
+<!-- wp:image {"align":"center","id":37263,"width":406,"height":743,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-![](./img/wp-content-uploads-2021-04-9-5-2-GLOBAL-HORIZONTAL-DEFLECTION-CHECK.png)
-
-<!-- /wp:image -->
-
-<!-- /wp:column -->
-
-<!-- /wp:columns -->
-
-<!-- wp:columns -->
-
-<!-- wp:column -->
-
-<!-- wp:heading {"level":3} -->
-
-### Global vertical deflection check
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-The global vertical deflection check works similarly to the global horizontal deflection check. There is just a minor difference which is the following: reference length has to be set instead of reference height. This can be set manually or by clicking two points on the model.
-
-<!-- /wp:paragraph -->
-
-<!-- /wp:column -->
-
-<!-- wp:column -->
-
-<!-- wp:image {"align":"center","id":10958,"sizeSlug":"large","linkDestination":"custom"} -->
-
-![](./img/wp-content-uploads-2021-04-9-5-3-GLOBAL-VERTICAL-DEFLECTION-CHECK.png)
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/dial_tervezes_hasznalhatosag_globalis_vizszintes.png)](./img/wp-content-uploads-2022-06-dial_tervezes_hasznalhatosag_globalis_vizszintes.png)
 
 <!-- /wp:image -->
 
@@ -397,19 +366,13 @@ The global vertical deflection check works similarly to the global horizontal de
 
 <!-- wp:heading {"level":3} -->
 
-### Local deflection check by members
+### Globális függőleges lehajlás vizsgálat
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-Local deflection check by members goes through all the beams in the model, checks the local deflection, and then selects the maximum. This check is suitable only for horizontal beams i.e. members in the XY plane.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-Local deflection check by members is not adequate for cantilever beams just for beams supported by two other beams or supports on both ends.
+A globális függőleges lehajlás vizsgálat működése hasonló a globális vízszintes eltolódás vizsgálatéhoz. A különbség a következő: referencia magasság helyett itt referencia hosszt kell megadni, amit itt is megadhatunk manuálisan, vagy a modellen történő két pont kijelölésével.
 
 <!-- /wp:paragraph -->
 
@@ -417,9 +380,45 @@ Local deflection check by members is not adequate for cantilever beams just for 
 
 <!-- wp:column -->
 
-<!-- wp:image {"align":"center","id":10965,"sizeSlug":"large","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":37255,"width":406,"height":743,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-![](https://consteelsoftware.com/wp-content/uploads/2021/04/9-5-4-LOCAL-DEFLECTION-CHECK-BY-MEMBERS.png)(./img/wp-content-uploads-2021-04-9-5-4-LOCAL-DEFLECTION-CHECK-BY-MEMBERS.png)
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/dial_tervezes_hasznalhatosag_globalis_fuggoleges.png)](./img/wp-content-uploads-2022-06-dial_tervezes_hasznalhatosag_globalis_fuggoleges.png)
+
+<!-- /wp:image -->
+
+<!-- /wp:column -->
+
+<!-- /wp:columns -->
+
+<!-- wp:columns -->
+
+<!-- wp:column -->
+
+<!-- wp:heading {"level":3} -->
+
+### Rudankénti lokális függőleges lehajlás vizsgálat
+
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+
+A rudankénti lokális lehajlás vizsgálat egyesével ellenőrzi az összes rúd lehajlását és kiválasztja ezek közül a legnagyobbat. A vizsgálat csak vízszintes, az XY síkban fekvő rudakra alkalmazható.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+A rudankénti lokális lehajlás vizsgálat nem alkalmazható konzolok ellenőrzésére, csak olyan rudakra használható, amelyek mindkét végpontja megtámasztott (ez lehet támasszal vagy kapcsolódó rúd).
+
+<!-- /wp:paragraph -->
+
+<!-- /wp:column -->
+
+<!-- wp:column -->
+
+<!-- wp:image {"align":"center","id":37247,"width":406,"height":743,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/dial_tervezes_hasznalhatosag_rudankent_lokalis.png)](./img/wp-content-uploads-2022-06-dial_tervezes_hasznalhatosag_rudankent_lokalis.png)
 
 <!-- /wp:image -->
 
@@ -433,13 +432,13 @@ Local deflection check by members is not adequate for cantilever beams just for 
 
 <!-- wp:heading -->
 
-## Relative deflection check for 2 points
+## Két pont relatív elmozdulásának vizsgálata
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-A relative deflection check for 2 points can be used for two clicked points. The relative horizontal or vertical check can be selected and performed.
+Két pont relatív elmozdulásának vizsgálatával bármely két kiválasztott pont egymáshoz képesti relatív vízszintes és függőleges eltolódása ellenőrizhető.
 
 <!-- /wp:paragraph -->
 
@@ -447,9 +446,9 @@ A relative deflection check for 2 points can be used for two clicked points. The
 
 <!-- wp:column -->
 
-<!-- wp:image {"align":"center","id":10971,"sizeSlug":"large","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":37239,"width":390,"height":715,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-![](https://consteelsoftware.com/wp-content/uploads/2021/04/9-5-5-RELATIVE-DEFLECTION-CHECK-FOR-2-POINTS.png)(./img/wp-content-uploads-2021-04-9-5-5-RELATIVE-DEFLECTION-CHECK-FOR-2-POINTS.png)
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/dial_tervezes_hasznalhatosag_pont_relativ.png)](./img/wp-content-uploads-2022-06-dial_tervezes_hasznalhatosag_pont_relativ.png)
 
 <!-- /wp:image -->
 
@@ -463,13 +462,13 @@ A relative deflection check for 2 points can be used for two clicked points. The
 
 <!-- wp:heading -->
 
-## Seismic interstorey drift verification
+## Földrengés - szintek közötti elmozdulás ellenőrzése
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-The prerequisite for performing the check is the existence of the levels defined in the model and the completion of the seismic analysis. The check calculates the horizontal displacements in both directions between all the established adjacent levels and displays the maximum of these displacements, together with the dominant load combination and the names of the levels.
+A vizsgálat elvégzésének előfeltétele a modellben definiált szintek megléte, illetve a földrengés vizsgálat elvégzése. A vizsgálat kiszámolja az összes létrehozott, szomszédos szintek közötti, mindkét irányú vízszintes eltolódásokat, és eredményként ezek maximumát mutatja meg, az ehhez tartozó mértékadó kombináció számával, és a mértékadó szintek nevével együtt.
 
 <!-- /wp:paragraph -->
 
@@ -477,12 +476,16 @@ The prerequisite for performing the check is the existence of the levels defined
 
 <!-- wp:column -->
 
-<!-- wp:image {"align":"center","id":37300,"width":406,"height":744,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+<!-- wp:image {"align":"center","id":37231,"width":406,"height":743,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-![](https://consteelsoftware.com/wp-content/uploads/2021/04/dial_design_service_seismic.png)(./img/wp-content-uploads-2021-04-dial_design_service_seismic.png)
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/dial_tervezes_hasznalhatosag_szeizmikus.png)](./img/wp-content-uploads-2022-06-dial_tervezes_hasznalhatosag_szeizmikus.png)
 
 <!-- /wp:image -->
 
 <!-- /wp:column -->
 
 <!-- /wp:columns -->
+
+<!-- wp:paragraph -->
+
+<!-- /wp:paragraph -->

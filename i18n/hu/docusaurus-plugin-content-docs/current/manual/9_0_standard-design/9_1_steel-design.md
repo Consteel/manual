@@ -1,25 +1,23 @@
 ---
 sidebar_position: 1
 ---
-# Steel design
+# Acélszerkezet tervezés
+---
+<!-- wp:paragraph -->
 
-Steel design related functions can be found on the Global checks and the Member checks tabs.
+Az acélszerkezet tervezéshez szükséges funkciók a **Globális vizsgálatok** és az **Elem vizsgálatok** fülön találhatók.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:spacer -->
-
-<!-- /wp:spacer -->
-
 <!-- wp:heading {"level":3} -->
 
-### Global checks
+### **Globális vizsgálatok**
 
 <!-- /wp:heading -->
 
 <!-- wp:heading {"level":4} -->
 
-#### Basics
+#### Alapok
 
 <!-- /wp:heading -->
 
@@ -29,21 +27,21 @@ Steel design related functions can be found on the Global checks and the Member 
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"id":72908,"width":"877px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:image {"id":73060,"width":"1022px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2024-02-9.1.-STEEL-Global-checks-1.png)
+![](./img/wp-content-uploads-2024-02-9.1.-STEEL-Global-checks-HU.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-Starting from Consteel 17, the Serviceability Limit State Checks ![](./img/wp-content-uploads-2024-02-9.1.-SLS-Check-icon.png) are also included in the Global Check tab beside the Ultimate Limit State checks ![](./img/wp-content-uploads-2024-02-9.1.-ULS-Check-icon.png).
+Consteel 17-től kezdve a Használhatósági határállapot vizsgálatok ![](./img/wp-content-uploads-2024-02-9.1.-SLS-Check-icon.png) is szerepelnek a Globális vizsgálatok fülön a Teherbírási határállapot vizsgálatok ![](./img/wp-content-uploads-2024-02-9.1.-ULS-Check-icon.png) mellett.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The global checks run button ![](./img/wp-content-uploads-2024-02-9.1.-global-checks-run-icon.png) initiates all the checks with the previously applied settings. This button is meant to be used when we don’t change the settings for the analysis and the load combinations, just in case of repeating calculations, for example when we change the section for an element.
+A már előzőleg kiválasztott beállításokkal a **Globális vizsgálatok** a ![](./img/wp-content-uploads-2024-02-9.1.-global-checks-run-icon.png) gombbal indítható el. Ezt a gombot csak abban az esteben ajánlott használni, amikor az Analízis, Terhek illetve a kombinációk nem változnak, csak a vizsgálatot ismételjük. Például, ha csak a rúd szelvényen esik módosítás.
 
 <!-- /wp:paragraph -->
 
@@ -53,45 +51,33 @@ The global checks run button ![](./img/wp-content-uploads-2024-02-9.1.-global-ch
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"left","id":46154,"width":"861px","height":"auto","sizeSlug":"large","linkDestination":"none"} -->
+<!-- wp:image {"id":46190,"sizeSlug":"large","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2023-03-image-1024x59.png)
+![](./img/wp-content-uploads-2023-03-image-2-1024x63.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
+Keresztmetszet ellenőrzés és a globális stabilitás vizsgálat (EN 1993-1-1 6.3.4 fejezet (Általános módszer) szerint) végezhetők el a Globális vizsgálatok fülön. Ezek a vizsgálatok teljesen függetlenek mindenféle speciális szerkezeti elem paramétertől (pl.: kihajlási hossz stb.), ezért teljesen automatikusan elvégezhetők az egész szerkezetre.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Cross-section and global buckling checks (according to the Section 6.3.4 (General method) of EN 1993-1-1) which are independent of any specific member parameter can be fully automatically evaluated on the global checks tab.
+A tervezési beállítások a ![](./img/wp-content-uploads-2021-04-DesignSettingsIcon-1.jpg) ikonra való kattintással (vagy F7-tel) érhetők el.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Design settings are available by clicking on the ![](./img/wp-content-uploads-2021-04-DesignSettingsIcon-1.jpg) icon (or F7).
+A ![](./img/wp-content-uploads-2021-04-Design_Icon.jpg) ikon (vagy F8) választásával a szabványos tervezés az előzőleg mentett beállításokkal fut le.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-When selecting the ![](./img/wp-content-uploads-2021-04-Design_Icon.jpg) icon (or F8), the global checks will run with the previously saved settings.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-As basic settings the analysis result type (first or second order) should be selected and the load combinations which should be evaluated.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
+A dialóg felső részén kiválasztható, hogy mely eredmény típus (első vagy másodrendű analízis) alapján történjen a vizsgálatok elvégzése, illetve a táblázatban kiválasztható, hogy mely teherkombinációk esetén.
 
 <!-- /wp:paragraph -->
 
@@ -101,89 +87,89 @@ As basic settings the analysis result type (first or second order) should be sel
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":10523,"width":698,"height":50,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":36989,"width":763,"height":47,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/10-2-Glob-design-tab.png)](./img/wp-content-uploads-2021-04-10-2-Glob-design-tab.png)
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/tab_tervezes.png)](./img/wp-content-uploads-2022-06-tab_tervezes.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-Cross-section and global buckling checks (according to the Section 6.3.4 (General method) of EN 1993-1-1) which are independent of any specific member parameter can be fully automatically evaluated on the global checks tab.
+Keresztmetszet ellenőrzés és a globális stabilitás vizsgálat (EN 1993-1-1 6.3.4 fejezet (Általános módszer) szerint) végezhetők el a Globális vizsgálatok fülön. Ezek a vizsgálatok teljesen függetlenek mindenféle speciális szerkezeti elem paramétertől (pl.: kihajlási hossz stb.), ezért teljesen automatikusan elvégezhetők az egész szerkezetre.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-As basic settings the analysis result type (first or second order) should be selected and the load combinations which should be evaluated.
+A dialóg felső részén kiválasztható, hogy mely eredmény típus (első vagy másodrendű analízis) alapján történjen a vizsgálatok elvégzése, illetve a táblázatban kiválasztható, hogy mely teherkombinációk esetén.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
 
-#### Cross section check
+#### Keresztmetszet vizsgálat
 
 <!-- /wp:heading -->
 
-<!-- wp:image {"align":"center","id":10529,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":37005,"width":509,"height":76,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/10-2-section-check.png)](./img/wp-content-uploads-2021-04-10-2-section-check.png)
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/dial_tervezes_globalis_beallitas_keresztmetszet.png)](./img/wp-content-uploads-2022-06-dial_tervezes_globalis_beallitas_keresztmetszet.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-Cross-section check can be done according to the EN 1993-1-1 6.2 or EN 1993-1-2 4.2 (if the combination contains fire effect).
+Keresztmetszet ellenőrzés elvégezhető az EN 1993-1-1 6.2 vagy EN 1993-1-2 4.2 (ha az adott teherkombináció tartalmaz tűzhatást) szabványok szerint.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Check can be performed for the whole model or partial model.
+Az ellenőrzés elvégezhető teljes vagy részletmodellre is.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Used safety factor can be selected. If it is necessary γM1 can be used instead of γM0 by clicking on the checkbox.
+Kiválasztható a méretezés során használandó biztonsági tényező is. Ha szükséges, a jelölő négyzet kiválasztásával a γM0 helyett, a γM1 is használható.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-If the model also includes cold-formed sections, their cross-sectional dimensioning according to EN 1993-1-3 can be performed only, if the check box on the Set Design parameters window is checked.
+Amennyiben a modell hidegen-alakított szelvényeket is tartalmaz, ezek keresztmetszeti méretezése az EN 1993-1-3 szerint akkor végezhető el, ha az ezek elvégzésére utasító kapcsoló bekapcsolt állapotban van.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":10535,"width":685,"height":54,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":36997,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/10-2-1993-1-3.png)](./img/wp-content-uploads-2021-04-10-2-1993-1-3.png)
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/dial_tervezes_globalis_beallitas_1993-1-3.png)](./img/wp-content-uploads-2022-06-dial_tervezes_globalis_beallitas_1993-1-3.png)
 
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":4} -->
 
-#### Stable length check
+#### Stabil hossz ellenőrzés
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-According to the Eurocode (1993-1-1 BB3), stable length check can be defined using the results of a plastic hinge analysis. During the calculation, the distance between the plastic hinge and the nearest lateral (Lub) or torsional restraint (Lm, Ls) is being compared with the calculated stable length of the corresponding plastic segment. If the stable length of a plastic segment is bigger than the distance between the plastic hinge and the lateral/torsional restraint, lateral torsional buckling of the member can be neglected.
+Képlékeny csuklókat tartalmazó szerkezet esetén az EuroCode (1993-1-1 BB3) szerinti stabil hossz számítása elvégezhető. A számítás során a képlékeny csukló és az oldalirányú(Lub) elmozdulás, illetve elcsavarodás elleni támaszok közötti képlékeny szakasz hosszak(Lt), valamint az ezekre a szakaszokra számolt stabil hosszak(Lm,Ls) kerülnek összehasonlításra. Ha az adott szakaszra meghatározott stabil hossz nagyobb, mint a rúdelemen kialakult képlékeny csukló és az oldalirányú/elcsavarodás elleni támasz közötti képlékeny szakasz hossza, a kifordulás ellenőrzésétől el lehet tekinteni.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-During the stable length check, the following checks are performed by ConSteel:
+Stabil hossz ellenállás meghatározásánál a program a következő lépéseket hajtja végre:
 
 <!-- /wp:paragraph -->
 
-<!-- wp:list {"ordered":true,"className":"is-style-default"} -->
+<!-- wp:list {"ordered":true} -->
 
 1. <!-- wp:list-item -->
 
-2. Automatic recognition of the plastic hinges on the structure
+2. Automatikusan felismeri a képlékeny csuklók helyeit a szerkezeten
 
 3. <!-- /wp:list-item -->
 
@@ -191,16 +177,16 @@ During the stable length check, the following checks are performed by ConSteel:
 
 5) <!-- wp:list-item -->
 
-6) Searching for the nearest supports of each plastic hinges
+6) Képlékeny csukló szomszédos támaszainak felkeresése
 
    <!-- wp:list -->
 
    - <!-- wp:list-item -->
-   - Lateral restraint
+   - Oldalirányú eltolódás elleni támasz
    - <!-- /wp:list-item -->
    -
    - <!-- wp:list-item -->
-   - Torsional restraint
+   - Elcsavarodás elleni támasz
    - <!-- /wp:list-item -->
 
    <!-- /wp:list -->
@@ -211,7 +197,7 @@ During the stable length check, the following checks are performed by ConSteel:
 
 9. <!-- wp:list-item -->
 
-10. Defining the distance between the plastic hinge and the nearest supports
+10. Képlékeny csukló és szomszédos támaszok közötti képlékeny szakaszok hosszának meghatározása
 
 11. <!-- /wp:list-item -->
 
@@ -219,7 +205,7 @@ During the stable length check, the following checks are performed by ConSteel:
 
 13) <!-- wp:list-item -->
 
-14) Calculating the stable length (depending on the type of the support) for the plastic segments, between the plastic hinge and the nearest supports
+14) Képlékeny csukló és szomszédos támaszok közötti szakaszok stabil hosszának számítása a megfelelő módszerrel
 
 15) <!-- /wp:list-item -->
 
@@ -227,103 +213,93 @@ During the stable length check, the following checks are performed by ConSteel:
 
 <!-- wp:paragraph -->
 
-On the elastic segments global stability resistance will be evaluated according to the General method of Eurocode.
+A Rugalmas szakaszokon az Eurocode általános módszere szerint kerül meghatározásra a stabilitási ellenállás.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
 
-#### Buckling check
+#### Stabilitás vizsgálat síkra merőlegesen
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-Buckling check can be evaluated for steel structures according to the EN 1993-1-1 6.3.4.
+A síkra merőleges stabilitásvizsgálat elvégezhető az EuroCode általános módszere szerint (EN 1993-1-1 6.3.4).
 
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":10541,"width":"109px","height":"50px","sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/10-2-buckling-formula.png)](./img/wp-content-uploads-2021-04-10-2-buckling-formula.png)
+[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/10-2-buckling-formula.png)](./img/wp-content-uploads-2021-04-10-2-buckling-formula.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-To run the buckling check, it is required to have buckling analysis results.
+A stabilitás vizsgálat elvégzésének előfeltétele a stabilitás-analízis futtatása.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":10547,"width":462,"height":214,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":37013,"width":602,"height":245,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/10-2-buckling-check.png)](./img/wp-content-uploads-2021-04-10-2-buckling-check.png)
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/dial_tervezes_globalis_beallitas_stabilitas.png)](./img/wp-content-uploads-2022-06-dial_tervezes_globalis_beallitas_stabilitas.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-For the buckling check the following parameters can be set:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
-- Elastic critical load factor acr,op: eigenvalue of the buckling analysis. It can be the first or the selected eigenvalue according to the design situation or can be automatically selected for each members based on the results of the sensitivity analysis.
-- <!-- /wp:list-item -->
-
-<!-- /wp:list -->
-
-<!-- wp:paragraph -->
-
-Eigenvalue can be selected on the Analysis tab to click in the model area with right click.
+Stabilitás vizsgálat esetén, az alábbi paraméterek állíthatók be:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 
 - <!-- wp:list-item -->
-- Ultimate resistance factor ault,k: reciprocal of utilization calculated with characteristic resistances of axial force and strong axial bending dominant in terms of loss of stability. Value of the utilization can be considered by members or by the model portion.
+- Rugalmas kritikus teherfaktor acr,op: a minimális teherszorzó, kihajlási analízis sajátértéke. Használható az első kihajlási sajátérték, a tervezési szituációnak megfelelően kézzel kiválasztott sajátérték, illetve érzékenység vizsgálat lefuttatása esetén automatikusan is kiválasztható a szerkezeti elemeknek legmegfelelőbb kritikus teherfaktor is. Kézi kiválasztás esetén, az **Analízis **fül **Kihajlás** eredményeinél minden kombinációhoz kiválasztható a megfelelő sajátérték a modell területre való jobb egérgombbal való kattintással, és a "Sajátérték kiválasztása a tervezéshez" menüpontot választva.  
+  ![](./img/wp-content-uploads-2022-06-scr_tervezes_globalis_sajatertek_kivalasztasa.png)
 - <!-- /wp:list-item -->
 
 <!-- /wp:list -->
 
-<!-- wp:image {"id":10553,"sizeSlug":"large","linkDestination":"media"} -->
+<!-- wp:list -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/10-2-lambda-op.png)](./img/wp-content-uploads-2021-04-10-2-lambda-op.png)
+- <!-- wp:list-item -->
+- Keresztmetszeti teherbírási szorzótényező ault,k: a stabilitásvesztés szempontjából domináns normálerőből és erős tengelyű hajlításból, karakterisztikus ellenállásokkal számolt kihasználtság reciproka. A kihasználtsági érték figyelembe vehető külön-külön rudanként, vagy részmodellenként a legkisebb érték.  
+  ![](./img/wp-content-uploads-2021-04-10-2-lambda-op.png)
+- <!-- /wp:list-item -->
 
-<!-- /wp:image -->
+<!-- /wp:list -->
 
 <!-- wp:list -->
 
 - <!-- wp:list-item -->
-- Reduction factor cop: reduction factor for the lop slenderness. It can be determined from the minimum of (c,cLT) or from the interpolated value of (c,cLT).
+- Csökkentő tényező cop: a λop karcsúságból megállapított csökkentő tényező. Csökkentő tényező meghatározására két módszert ad az EuroCode. c,cLT értékek közül a kisebb, vagy e kettő érték interpoláltjaként.
 - <!-- /wp:list-item -->
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
-Check can be performed for the whole model or partial model.
+Az ellenőrzés elvégezhető a teljes, vagy részlet modellre.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
 
-#### Results
+#### Eredmények
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-The results of the performed checks are demonstrated with graphical visualization and result tables (for the general functionality of tables used in _ConSteel_ see section 1.4 General functions for tables).
+Az elvégzett ellenőrzések eredményei megtekinthetők grafikus formában, vagy táblázatosan (a táblázatok általános kezelési funkcióit lásd a **_[Táblázatok általános funkciói](/manual/altalanos-ismertetes/tablazatok-altalanos-funkcioi/)_** c. fejezetben).
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The shown results can be changed in the drop down menu.
+Az aktuálisan megjelenített eredménytípus a legördülő menüből választható ki.
 
 <!-- /wp:paragraph -->
 
@@ -333,193 +309,193 @@ Consteel 17
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"id":72928,"width":"199px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:image {"id":73131,"width":"214px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2024-02-9.1.-Design-results-and-predesign-parameters-2.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-In the first dropdown menu, users can choose between Design results and Predesign parameters.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-**Design results**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-Under the dominant calculations, there are two subcategories: Ultimate Limit State (ULS) and Serviceability Limit State (SLS) design.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-The ULS results are further subcategorized based on the materials and calculations used.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-For the steel materials, not only the dominant results but also results from every load combination are saved and can be visualized with the help of the last dropdown menu:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":72938,"width":"182px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2024-02-9.1.-Design-results-steel-combinations-1.png)
+![](./img/wp-content-uploads-2024-02-9.1.-Design-results-and-predesign-parameters-HU.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-The SLS checks are only listed by the selected check criteria. Each criterion has results for all the combinations, as well as dominant calculation.
+Az első legördülő menüben a felhasználók választhatnak a Tervezési eredmények és Tervezési paraméterek között.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"id":72948,"width":"678px","height":"auto","sizeSlug":"large","linkDestination":"none"} -->
+<!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2024-02-9.1.-Design-results-1-1024x502.png)
+**Tervezési eredmények:**
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+A **Mértékadó vizsgálat** alatt két alkategória található: Teherbírási Határállapot (ULS) és Használhatósági Határállapot (SLS) tervezés.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+Az ULS eredmények további alkategóriákra vannak bontva az alkalmazott anyagok és vizsgálatok alapján.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+Az acél anyagok esetében nem csak a mértékadó eredmények, hanem az összes terheléskombináció eredményei is el vannak mentve, és a legutolsó legördülő menü segítségével megjeleníthetők:
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":73141,"width":"230px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+
+![](./img/wp-content-uploads-2024-02-9.1.-Design-results-steel-combinations-HU.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-The Predesign Parameters can be seen according to the 4 categories: Sensitivity, Fire, Secon- order concrete column internal forces and Slab reinforcement area.
+A Használhatósági Határállapot (SLS) vizsgálatok a kiválasztott vizsgálati szempontok szerint vannak felsorolva. Minden szempontnak vannak eredményei az összes kombinációra, valamint a mértékadó eredmények is megtekinthetőek.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"id":72958,"width":"434px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:image {"id":73151,"width":"595px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2024-02-9.1.-Predesign-parameters-1.png)
+![](./img/wp-content-uploads-2024-02-9.1.-Design-results-HU.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-For parameters that are combination-related, such as sensitivity and second-order concrete column internal forces, the third dropdown menu is also available to choose the load combination to be investigated.
+A **Tervezési paraméterek** megtekinthetők négy kategória szerint: Érzékenység, Tűz, Másodrendű igénybevételek vasbeton oszlop és Lemez vasmennyiség.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"id":72968,"width":"203px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:image {"id":73161,"width":"563px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2024-02-9.1.-parameters-combinations-1.png)
+![](./img/wp-content-uploads-2024-02-9.1.-Predesign-parameters-HU.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-At the bottom part of the window, a table with the results will appear. It will display the relevant information according to the selected calculation criteria above.
+A kombinációkkal kapcsolatos paraméterek esetében, például az érzékenység és a másodrendű igénybevételek vasbeton oszlop esetében, elérhető a harmadik legördülő menü is, kiválasztható a vizsgálandó terheléskombináció.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
+<!-- wp:image {"id":73171,"width":"207px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
-For the Ultimate Limit State (ULS) calculations, information is displayed regarding the Bar, Element, Node, Load combination, Limit State, Examination, and Utilization. However, for the Serviceability Limit State (SLS) checks, the Bar and the Element are irrelevant.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-By clicking on any cell in the table, a blue arrow will appear pointing to the element with the selected properties.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":73656,"width":"733px","height":"auto","sizeSlug":"large","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2024-02-9.1-Results-table-1-1024x630.png)
+![](./img/wp-content-uploads-2024-02-9.1.-parameters-combinations-HU.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-Users can calculate the section or select the whole member by right-clicking on a cell.
+Az ablak alsó részén egy táblázat jelenik meg az eredményekkel. Az előzőleg kiválasztott számítási kritériumoknak megfelelő releváns információkat foglalja magába.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"id":73676,"width":"737px","height":"auto","sizeSlug":"large","linkDestination":"none"} -->
+<!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2024-02-9.1.-Design-results-selection-1-1024x157.png)
+A Teherbírási határállapot (ULS) vizsgálatoknál a következő információk jelennek meg: Rúd, Elem, Pont, Teherkombináció, Határállapot, Vizsgálat és Kihasználtság. Azonban a Használhatósági határállapot (SLS) vizsgálatoknál a Rúd és az Elem nem releváns.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+A táblázat bármely cellájára kattintva egy kék nyíl jelenik meg, amely a kiválasztott tulajdonsággal rendelkező pontra mutat.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":73840,"width":"750px","height":"auto","sizeSlug":"large","linkDestination":"none"} -->
+
+![](./img/wp-content-uploads-2024-02-9.1-Results-table-HU-1-1024x618.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-The **‘Calculate section’** brings automatically to the Section module.
+A felhasználók jobb kattintással elindíthatják a Szelvény vizsgálatot, illetve kijelölhetik a Rudat.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
+<!-- wp:image {"id":73850,"width":"697px","height":"auto","sizeSlug":"large","linkDestination":"none"} -->
 
-It is possible to select all the chosen members by selecting multiple cells, even if they are not in the same column.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":73686,"width":"736px","height":"auto","sizeSlug":"large","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2024-02-9.1.-Design-results-select-memeber-2-1024x101.png)
+![](./img/wp-content-uploads-2024-02-9.1.-Design-results-selection-HU-1-1024x159.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-For more detailed information about the selection process, please visit the **[Selection](https://www.consteelsoftware.com/manual/model-view/selection/)** page.
+A "Szelvény vizsgálata" funkció automatikusan átvált a Keresztmetszet modulba, ahol részletesebb információkat találhatunk a kijelölt keresztmetszetről.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-With a right-click on a load combination, an additional option appears: "Select only these load combinations for the Analysis" allowing users to repeat the analysis only with those combinations that require further investigation.
+Akár több rudat is ki tudunk jelölni egyszerre, több cellát választva, még akkor is, ha más tulajdonságok alapján választjuk ki őket (más-más oszlopokban vannak).
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"id":73696,"width":"504px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:image {"id":73860,"width":"703px","height":"auto","sizeSlug":"large","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2024-02-9.1.-Load-combination-1.png)
+![](./img/wp-content-uploads-2024-02-9.1.-Design-results-select-memeber-HU-1-1024x163.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-For some of the predesign parameters also exist result table:
+További információkért, kérem látogasson el a **Kijelölés **oldalunkra.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+A teherkombinációk oszlopában jobb kattintással egy újabb lehetőséggel találkozunk: "Csak ezekre a teherkombinációkra fusson az Analízis", olyan esetekre, amikor néhány kombináció további vizsgálatot igényel.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":73870,"width":"712px","height":"auto","sizeSlug":"large","linkDestination":"none"} -->
+
+![](./img/wp-content-uploads-2024-02-9.1.-Load-combination-HU-1-1024x228.png)
+
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+
+Az Eredmény táblázat néhány tervezési paramétert is megjelenít:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 
 - <!-- wp:list-item -->
-- Sensitivity
+- Érzékenység
 - <!-- /wp:list-item -->
 
 <!-- /wp:list -->
 
-<!-- wp:image {"id":73706,"width":"327px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:image {"id":73880,"width":"333px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2024-02-9.1.-Sensitivity-1.png)
+![](./img/wp-content-uploads-2024-02-9.1.-Sensitivity-HU-1.png)
 
 <!-- /wp:image -->
 
 <!-- wp:list -->
 
 - <!-- wp:list-item -->
-- Fire
+- Tűz
 - <!-- /wp:list-item -->
 
 <!-- /wp:list -->
 
-<!-- wp:image {"id":73716,"width":"457px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:image {"id":73890,"width":"567px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2024-02-9.1.-Fire-1.png)
+![](./img/wp-content-uploads-2024-02-9.1.-Fire-HU-1.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-The right-click function on the cells operates similarly to the design results table.
+A cellákba való jobb kattintás hasonlóan működik, mint a fentebb leírt tervezési eredmények esetében.
 
 <!-- /wp:paragraph -->
 
@@ -529,23 +505,35 @@ Consteel 16
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":10559,"width":444,"height":536,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":37021,"width":447,"height":532,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/10-2-buckl-result-pic.png)](./img/wp-content-uploads-2021-04-10-2-buckl-result-pic.png)
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/scr_tervezes_globalis_eredmenyek.png)](./img/wp-content-uploads-2022-06-scr_tervezes_globalis_eredmenyek.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-When moving the mouse along the structural elements the result markers continuously appear showing the actual utilization.
+Szerkezeti elemeken történő egér mozgatás esetén, az eredmény jelölő folyamatosan megjelenik, mutatva az aktuális kihasználtságot.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The detail of the results can be seen in the Section module (see section 10 Section module). Section module can be opened directly from the Global checks tab to click on the proper cross section on the model area or in the result table with right click.
+A számítás részletei megtekinthetők a keresztmetszeti modulban (lásd a **_[Keresztmetszeti modul](/manual/keresztmetszet-modul/)_** c. fejezetben). A keresztmetszeti modul megnyitható közvetlenül a **Globális vizsgálatok** fülről is, a megfelelő keresztmetszet grafikus felületen vagy táblázatban történő jobb egérgombos kiválasztásával.
 
 <!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"left","id":37051,"width":227,"height":160,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/scr_tervezes_globalis_szelvenyvizsgalat.png)](./img/wp-content-uploads-2022-06-scr_tervezes_globalis_szelvenyvizsgalat.png)
+
+<!-- /wp:image -->
+
+<!-- wp:image {"align":"right","id":37043,"width":320,"height":155,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/scr_tervezes_globalis_szelvenyvizsgalat_tablazat.png)](./img/wp-content-uploads-2022-06-scr_tervezes_globalis_szelvenyvizsgalat_tablazat.png)
+
+<!-- /wp:image -->
 
 <!-- wp:spacer -->
 
@@ -553,234 +541,234 @@ The detail of the results can be seen in the Section module (see section 10 Sect
 
 <!-- wp:heading {"level":3} -->
 
-### Member checks
+### Elem vizsgálatok
 
 <!-- /wp:heading -->
 
 <!-- wp:heading {"level":4} -->
 
-#### Basics
+#### Alapok
 
 <!-- /wp:heading -->
 
-<!-- wp:image {"align":"center","id":10565,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":37139,"width":695,"height":46,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/10-2-2-member-check-tab.png)](./img/wp-content-uploads-2021-04-10-2-2-member-check-tab.png)
+[![](./img/wp-content-uploads-2022-06-tab_elemvizsgalat.png)](./img/wp-content-uploads-2022-06-tab_elemvizsgalat.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-All steel member design related functions can be found on the Member design tab.
+Acélszerkezetek elemszintű vizsgálataihoz tartozó funkciók találhatók az **Elem vizsgálatok** fülön.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The following parts of the Eurocode 3 (EN 1993-1-1) can be evaluated:
+Az EuroCode 3 (EN 1993-1-1) következő fejezetei szerinti vizsgálatok végezhetők el:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-6.3.1 Uniform members in compression
+6.3.1 Állandó keresztmetszetű nyomott rúdelemek
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-6.3.2 Uniform members in bending
+6.3.2 Állandó keresztmetszetű hajlított rúdelemek
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-6.3.3 Uniform members in bending and axial compression
+6.3.3 Állandó keresztmetszetű hajlított és nyomott rúdelemek
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
 
-#### Individual Member Design
+#### Egyedi elemtervezés
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-To run steel member design go to Member checks tab and select Steel tab in the table at the bottom of the screen. First the members have to be selected and then added to the list. It can be performed by clicking on the Add button. After that one member has to be chosen and Select button is clicked.
+Elemtervezés elvégzéséhez először ki kell választani és hozzá kell adni a képernyő alján található listához a vizsgálandó elemeket. A hozzáadást a táblázat **Acél **fülét kiválasztva, a **Hozzáad **gomb segítségével lehet elvégezni. A hozzáadás után a listából egy elem a **Kiválaszt **gomb megnyomásával választható ki tervezésre.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":10571,"width":700,"height":94,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":37131,"width":768,"height":104,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/10-2-2-member-select.png)](./img/wp-content-uploads-2021-04-10-2-2-member-select.png)
+[![](./img/wp-content-uploads-2022-06-tabl_elemvizsgalatok-1024x139.png)](https://consteelsoftware.com/wp-content/uploads/2022/06/tabl_elemvizsgalatok.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-If a member is selected, the corresponding row highlighted with green and analysis results are automatically loaded. Member design can be run if there is analysis result (first and second order) and cross check for the member. Same like in the analysis the type of the result view can be set by three drop down menus.
+A kiválasztott elem sora a táblázatban zöld színűre változik és az analízis eredményei automatikusan betöltődnek. Az elemtervezés elvégezhető, ha a szükséges analízis (első és másodrendű számítás) és keresztmetszet vizsgálati eredmények rendelkezésre állnak. Az analízis eredmények megtekintése, az **Analízis **fülnek megfelelően, a három legördülő menü segítségével történik:
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":10577,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":37139,"width":695,"height":46,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/image-3519.png)](./img/wp-content-uploads-2021-04-image-3519.png)
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/tab_elemvizsgalat.png)](https://www.consteelsoftware.com/wp-content/uploads/2022/06/tab_elemvizsgalat.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-Special analysis can be run by clicking on the second icon (#1). Only one load combination can be selected at the same time. Buckling and lateral torsional buckling analysis is performed just for the selected member. If the normal force is negligible then no buckling analysis can be run. On the basis of these special analysis, _ConSteel_ can determine the factors (effective length factors, warping factor etc.) for the buckling and the lateral-torsion buckling design.
+A második gomb (![](./img/wp-content-uploads-2021-04-cmd_anal_set.png)) megnyomásával egy speciális analízis indítható. Egyszerre csak egy teherkombinációra végezhető el a számítás. A kihajlási és kifordulási analízis csak a kiválasztott elemre kerül elvégzésre. Ha a normálerő elhanyagolható, akkor a kihajlás analízis nem futtatható le. A speciális kihajlási és kifordulási analízis elvégzése esetén, a _Consteel_ meg tudja határozni a kihajlási és kifordulási tényezőket.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":10583,"width":487,"height":299,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":37123,"width":479,"height":299,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/10-2-2-memb-check-comb.png)](./img/wp-content-uploads-2021-04-10-2-2-memb-check-comb.png)
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/tabl_elemvizsgalatok_beallitas.png)](./img/wp-content-uploads-2022-06-tabl_elemvizsgalatok_beallitas.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-The next step is to choose the load combination and design type from the options: pure cases (strong axis buckling, weak axis buckling, lateral-torsional buckling) and interaction stability (interaction of buckling and lateral torsional buckling, interaction of buckling and bending, interaction of lateral-torsional buckling and bending). The dominant load combination is automatically selected and marked with a \* symbol.
+A következő lépés a teherkombináció és az ellenőrzés módjának kiválasztása a következő lehetőségek közül: tiszta esetek (kihajlás erős tengely körül, kihajlás gyenge tengely körül, kifordulás) és interaktív stabilitás (kihajlás és kifordulás interakciója, kihajlás és hajlítás interakciója, kifordulás és hajlítás interakciója). A mértékadó teherkombinációt a program automatikusan kiválassza és \*-al megjelöli.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":10589,"width":350,"height":419,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":37115,"width":346,"height":434,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/10-2-2-memb-check-des-type.png)](./img/wp-content-uploads-2021-04-10-2-2-memb-check-des-type.png)
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/tabl_elemvizsgalatok_parameterek.png)](./img/wp-content-uploads-2022-06-tabl_elemvizsgalatok_parameterek.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-Depending on the member not all checks can be performed. If the normal force is negligible then strong or weak axis buckling design cannot be run.
+A végrehajtható ellenőrzések az egyes rudak terhelési állapotától függenek. Ha normálerő elhanyagolható, akkor az erős és gyenge tengely körüli kihajlás ellenőrzése nem hajtható végre.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-If **strong or weak axis buckling option** is selected then first the design parameters has to be set. The program automatically identifies the supports which could have effect on the buckling check.
+**Kihajlás (erős és gyenge tengely körül**) vizsgálat esetén meg kell adni a tervezési paramétereket. A program automatikusan érzékeli a kihajlást befolyásoló támaszokat.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":10595,"width":605,"height":414,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":37107,"width":673,"height":338,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/10-2-2-memb-check-segments-1.png)](./img/wp-content-uploads-2021-04-10-2-2-memb-check-segments-1.png)
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/tabl_elemvizsgalatok_parameterek_szakaszok.png)](./img/wp-content-uploads-2022-06-tabl_elemvizsgalatok_parameterek_szakaszok.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-Among the supports the member is divided to segments. Segments can also be turned off in order not to calculate them during the analysis. The design parameters can be individually set for each segment by clicking on the three dots icon.
+A rúd a támaszoknak megfelelően fölbontásra kerül. Az egyes szegmensek kikapcsolhatók, ha ellenőrzéskor figyelembevételük nem szükséges. A tervezési paraméterek szegmensenként adhatók meg a hárompontos ikonra kattintva.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":10601,"width":377,"height":275,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":37099,"width":695,"height":289,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/10-2-2-memb-check-segments-2.png)](./img/wp-content-uploads-2021-04-10-2-2-memb-check-segments-2.png)
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/tabl_elemvizsgalatok_parameterek_szakaszok_parameter.png)](./img/wp-content-uploads-2022-06-tabl_elemvizsgalatok_parameterek_szakaszok_parameter.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-The actual segment is highlighted with green. There are two options to set the design parameters: set the effective length factor manually by typing in the appropriate value or by choosing the right critical load multiplier. The second option is possible if the special analysis has already been run. In both cases the elastic critical axial force is automatically calculated.
+A számított szegmens zölddel jelölt. Két módon adhatók meg a tervezési paraméterek: a kihajlási hossz értékének manuális megadásával, vagy a megfelelő kritikus teherszorzó kiválasztásával. Erre csak akkor van lehetőség, ha a speciális analízist lefuttattuk. A rugalmas kritikus normálerőt a program mind a két esetben automatikusan számítja.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-If all the design parameters has been properly set then design check can be performed by clicking on the Check button. Results will be displayed.
+Ha valamennyi tervezési paramétert beállításra került, akkor az ellenőrzés az **Ellenőrzés **gomb megnyomásával végrehajtható. Az ellenőrzés végrehajtása után a program megjeleníti a számítás részletes eredményeit.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":10607,"width":347,"height":511,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":37091,"width":426,"height":590,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/10-2-2-memb-check-results.png)](./img/wp-content-uploads-2021-04-10-2-2-memb-check-results.png)
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/tabl_elemvizsgalatok_eredmenyek.png)](./img/wp-content-uploads-2022-06-tabl_elemvizsgalatok_eredmenyek.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-There are three drop down menus in order to view different results. The first one can be used to change member, the second one is to change load combinations and the third one is to change the buckling case. The corresponding case is highlighted with green in the image. A short explanation can be read in the bottom when any of the rows is selected.
+A különböző eredmények megtekintésére három legördülő menü áll rendelkezésre. Az elsővel a szerkezeti elemet lehet kiválasztani, a másodikkal a teherkombinációt, a harmadikkal pedig a kihajlási esetet. A beállításoknak megfelelő szegmenset az ábra zöld színnel jelzi. A kiválasztásnak megfelelő rövid összefoglalás található az eredménynézet felső részén.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-**Lateral torsional buckling design** is more or less the same as the buckling design in _ConSteel_ usage, there are only small differences. New cases can be defined and unnecessary cases can be deleted. For each segment start and end node can be set.
+A **Kifordulás ellenőrzés** többé-kevésbé a kihajlás vizsgálathoz hasonló módon történik. Új szegmensek definiálhatók és nem szükséges szegmensek törölhetők. Minden szegmensre beállítható szakaszkezdet és szakaszvég.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":10613,"width":532,"height":440,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":37083,"width":440,"height":486,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/10-2-2-memb-check-LTB.png)](./img/wp-content-uploads-2021-04-10-2-2-memb-check-LTB.png)
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/tabl_elemvizsgalatok_kifordulas_parameterek.png)](./img/wp-content-uploads-2022-06-tabl_elemvizsgalatok_kifordulas_parameterek.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-By clicking on the three dots button the design parameters can be altered. The elastic critical bending moment can be calculated from the analytic formula or from the critical load multiplier. When the first method is used the factors can be typed in or a special automatic C factor calculator can be used by clicking on the AutoC button. The second option is to choose the corresponding critical load multiplier from the list.
+A tervezési paraméterek szegmensenként adhatók meg a hárompontos ikonra kattintva. A rugalmas kritikus nyomaték számítható analitikus képletből, vagy a kritikus teherfaktor segítségével. Az első esetben a szükséges tényezők manuálisan megadhatók, vagy az **AutoC **gomb segítségével a C tényezőket a program automatikusan meghatározza. A második esetben a megfelelő kritikus teherfaktor kiválasztásával kerül meghatározva a kritikus nyomaték.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":10619,"width":345,"height":352,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":37075,"width":440,"height":444,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/10-2-2-memb-check-AutoC.png)](./img/wp-content-uploads-2021-04-10-2-2-memb-check-AutoC.png)
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/tabl_elemvizsgalatok_kifordulas_parameterek_C.png)](./img/wp-content-uploads-2022-06-tabl_elemvizsgalatok_kifordulas_parameterek_C.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-**Interaction stability** **design** goes through the steps of the pure cases.
+Az **interakciós stabilitástervezés** a tiszta eseteket veszi alapul.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-After the check is made the state of the member in the list at the bottom changes to ‘Examined’ from ‘Unexamined’.
+Miután egy elem ellenőrzésre került, a listában az elem állapota „Nem vizsgált”-ról „Vizsgált” –ra változik.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
 
-#### Member Group Design
+#### Csoportos elemtervezés
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-By using the Select (+) button it is possible to select more members for the member design. Select (-) can be used for remove members from the selection. Member group design works nearly the same as individual member design there are just minor differences. No special analysis can be run in member group design therefore the critical load factor cannot be selected.
+A **Kiválaszt (+) **gomb használatával lehetőség van több elem egyszerre történő kiválasztására elemtervezéshez. A **Kiválaszt (-)** gomb segítségével a kiválasztásból lehet eltávolítani a kijelölt elemeket. A csoportos elemtervezés hasonlóan működik, mint az egyedi elemtervezés. A különbség, hogy nem futtatható speciális analízis, ezért a kritikus teherszorzó alapján történő kritikus normálerő és nyomaték meghatározása nem elérhető.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-If the members are selected then the next step is to select the design type and set the design parameters, then click Check button similar to the individual member design.
+Az elemek kiválasztása után, a következő lépés, az egyedi elemtervezéshez hasonlóan az ellenőrzés módjának kiválasztása és a tervezési paraméterek megadása után, az **Ellenőrzés **gomb megnyomásával az ellenőrzés elvégzése.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":10625,"width":346,"height":503,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":37151,"width":346,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/10-2-2-memb-group.png)](./img/wp-content-uploads-2021-04-10-2-2-memb-group.png)
+[![](./img/wp-content-uploads-2022-06-tabl_elemvizsgalatok_csoportos-edited.png)](https://consteelsoftware.com/wp-content/uploads/2022/06/tabl_elemvizsgalatok_csoportos.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-For each load combination member design can be turned off. It is important to know that not all the design options can be run for all members in load combinations. It depends on the analysis result.
+Az elemtervezési teherkombinációnként kikapcsolható. Fontos tudni, hogy nem minden ellenőrzési mód futtatható az összes elemre az összes teherkombinációban. Az elvégezhető vizsgálatok az analízis eredményeitől függenek.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-In the results tab the dominant member is automatically shown. The number next to the member number shows the capacity.
+Az eredmények fülön a mértékadó elem automatikusan kiválasztásra és megmutatásra kerül. Az elemszám mellett látható százalékos érték az elem kihasználtságát mutatja.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":10517,"width":354,"height":734,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":37059,"width":355,"height":443,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/10-2-2-memb-group-res.png)](./img/wp-content-uploads-2021-04-10-2-2-memb-group-res.png)
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/tabl_elemvizsgalatok_csoportos_eredmenyek.png)](./img/wp-content-uploads-2022-06-tabl_elemvizsgalatok_csoportos_eredmenyek.png)
 
 <!-- /wp:image -->
