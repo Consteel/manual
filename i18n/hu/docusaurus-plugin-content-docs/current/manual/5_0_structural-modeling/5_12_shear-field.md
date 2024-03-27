@@ -35,7 +35,7 @@ A nyírási mező objektummal figyelembe vehető a trapézlemez megtámasztó ha
 
 Az 1. ábrán a nyírási merevség értelmezése látható. A nyírási diafragma elmozdulása e \[mm] egy adott F \[kN] nyíróerő hatására \[1]. A nyírási rugalmasság definíció szerint:
 
-![alt text](image.png)
+![alt text](img/c_e_F.png)
 
 
 <!-- /wp:paragraph -->
@@ -44,7 +44,7 @@ Az 1. ábrán a nyírási merevség értelmezése látható. A nyírási diafrag
 
 A nyírási rugalmasság reciproka a nyírási merevség, melyet S-el jelöl a szakirodalom:
 
-![alt text](image-1.png)
+![alt text](img/S_F_e.png)
 
 <!-- /wp:paragraph -->
 
@@ -203,7 +203,7 @@ A Hoesch panelek esetén a nyírási merevség meghatározásához a következő
 
 <!-- wp:paragraph -->
 
-![alt text](image-2.png)
+![alt text](img/S.png)
 
 <!-- /wp:paragraph -->
 
@@ -281,13 +281,13 @@ A **K1** és **K2** értékeket a trapézlemez gyártók egyedileg határozzák 
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-A Fischer trapézlemez gyártó cég a nyírási merevség meghatározásához az általa gyártott trapézlemezekre a következő képletet ajánlja (fejlesztett Schardt/Strehl eljárás) (2). Bekerült a képletbe 3 db új változó, a **K\*\***1\***\*\***, a **K\*\***2\***\*\*** és az **e\*\***L\*\*, melyek segítségével figyelembe lehet venni a trapézlemezek rögzítésének a hatását is. Ezen kívül a 104 pedig bekerült a nevezőben lévő K tényezőkbe.
+A Fischer trapézlemez gyártó cég a nyírási merevség meghatározásához az általa gyártott trapézlemezekre a következő képletet ajánlja (fejlesztett Schardt/Strehl eljárás) (2). Bekerült a képletbe 3 db új változó, a **K** 1, a **K** 2 és az **e** L, melyek segítségével figyelembe lehet venni a trapézlemezek rögzítésének a hatását is. Ezen kívül a 104 pedig bekerült a nevezőben lévő K tényezőkbe.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-![alt text](image-3.png)
+![!\[alt text\](image-3.png)](img/S_2.png)
 
 <!-- /wp:paragraph -->
 
@@ -353,7 +353,7 @@ Az Arcelor trapézlemez gyártó cég a következő képletet (3) (Bryan/Davies 
 
 <!-- wp:paragraph -->
 
-![alt text](image-4.png)
+![alt text](img/S_3.png)
 
 <!-- /wp:paragraph -->
 
@@ -437,7 +437,7 @@ Az Eurocode \[7] is ad egy ajánlást a trapézlemezek nyírási merevségének 
 
 <!-- wp:paragraph -->
 
-![alt text](image-5.png)
+![alt text](img/s_xa.png)
 
 <!-- /wp:paragraph -->
 
