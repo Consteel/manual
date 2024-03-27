@@ -1,27 +1,29 @@
 ---
 sidebar_position: 3
 ---
-# Creating point masses
+# Pontszerű tömeg elhelyezése
 
-**Point mass**(![](./img/wp-content-uploads-2021-04-cmd_mass_point.png)) objects can be placed at any point of the structure. Every placed point load will be automatically assigned to the active mass case of the mass case dropdown menu.
+<!-- wp:paragraph -->
+
+**Pontszerű tömeg**(![](./img/wp-content-uploads-2021-04-cmd_mass_point.png)) tetszőleges pozícióban elhelyezhető a szerkezeten. Minden elhelyezésre kerülő tömeg a legördülő menüből kiválasztott kézi tömegesethez fog tartozni.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":10454,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":36412,"width":259,"height":62,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-CREATING-POINT-MASSES.png)](./img/wp-content-uploads-2021-04-7-4-CREATING-POINT-MASSES.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/05/tab_tomegek_legordulo.png)](./img/wp-content-uploads-2022-05-tab_tomegek_legordulo.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-Point mass can be placed on any point of any bar member, snap points, start- and endpoints and intermediate points are all available. After giving the value of the mass in kg dimension, it can be placed with a simple click on the desired member.
+Pontszerű tömeg vonal elemen bárhol elhelyezhető (előre definiált pontokra nincs szükség; végpontok és fogópontok egyaránt használhatók a tömegek elhelyezésére). A tömeg értékének megadása után, a szerkezet valamely pontjára való kattintással, a pontszerű tömeg elhelyezésre kerül.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":10461,"width":289,"height":208,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":36420,"width":358,"height":257,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-CREATING-POINT-MASSES.2.png)](./img/wp-content-uploads-2021-04-7-4-CREATING-POINT-MASSES.2.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_tomeg_pont.png)](./img/wp-content-uploads-2022-05-dial_tomeg_pont.png)
 
 <!-- /wp:image -->
 

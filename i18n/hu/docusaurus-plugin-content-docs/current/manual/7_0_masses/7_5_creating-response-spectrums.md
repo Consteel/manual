@@ -1,110 +1,124 @@
 ---
 sidebar_position: 5
 ---
-# Creating response spectrums
+# Válaszspektrum felvétele
 
-With the **Create response spectrum **(![](./img/wp-content-uploads-2021-04-cmd_response_spectrum.png)) function, two types of response spectrums can be defined:
+<!-- wp:paragraph -->
+
+A Válaszspektrum felvétele (![](./img/wp-content-uploads-2021-04-cmd_response_spectrum.png)) funkció segítségével az alábbi kétfajta spektrum felvételére van lehetőség:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 
-- Standard elastic spectrum: Response spectrum definition according to the selected standard and national annex. Parameters for the definition may vary in different annexes.
-- User-defined response spectrum: Response spectrum definition by defining the points of the spectrum manually
+- Szabványos rugalmas válaszspektrum: a kiválasztott szabvány, illetve nemzeti mellékletnek megfelelő szabványos rugalmas válaszspektrum felvétele. A megadáshoz szükséges paraméterek szabványonként, illetve nemzeti mellékletenként eltérőek lehetnek
+- Egyedi válaszspektrum: egyedi válaszspektrum felvétele, a spektrum pontjainak táblázatos megadásával
 
 <!-- /wp:list -->
 
-<!-- wp:image {"align":"center","id":10470,"sizeSlug":"large","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":36433,"width":548,"height":186,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-6-CREATING-RESPONSE-SPECTRUMS.png)](./img/wp-content-uploads-2021-04-7-6-CREATING-RESPONSE-SPECTRUMS.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_tomeg_valaszspektrum_tipusa.png)](./img/wp-content-uploads-2022-05-dial_tomeg_valaszspektrum_tipusa.png)
 
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
 
-### New standard elastic response spectrum
+### Új szabványos rugalmas válaszspektrum
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-By choosing the **New Standard elastic spectrum** option, the spectrum can be created according to the active national which can be used later for response spectrum analysis, and earthquake calculations.
+Az **Új Szabványos rugalmas válaszspektrum** létrehozása opció választása esetén, az előzetesen kiválasztott szabvány, illetve nemzeti mellékletnek megfelelő szabványos rugalmas válaszspektrum hozható létre válaszspektrum analízis, illetve földrengésszámítás számára.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"right","id":10476,"width":296,"height":377,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"right","id":36441,"width":245,"height":313,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-6-1-NEW-STANDARD-ELASTIC-RESPONSE-SPECTRUM.png)](./img/wp-content-uploads-2021-04-7-6-1-NEW-STANDARD-ELASTIC-RESPONSE-SPECTRUM.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_tomeg_valaszspektrum_altalaj.png)](./img/wp-content-uploads-2022-05-dial_tomeg_valaszspektrum_altalaj.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-According to the recommended values of _EuroCode_, the following parameters are necessary for the definition of an elastic response spectrum:
+Az _EuroCode_ szerint, a szabványos rugalmas válaszspektrumhoz az alábbi paraméterek megadása szükséges:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 
-- \_Type of spectrum: \_the dropdown menu is filled up with the possible types of the active annex
-- _Importance class:_ with the dropdown menu, the importance class of the structure can be selected. Value for each selected class is written into the edit box, next to the dropdown menu, according to the selected annex
-- _Ground type_: with the (![](./img/wp-content-uploads-2021-04-3dots-button.png)) button, the type of ground below the structure can be selected. At the bottom of the pop-up dialogue, all of the parameters are represented with their values, according to the active annex.
-- _Ground acceleration - agR \[m/s2]:_ can be defined manually through the edit box, or by clicking on the (![](./img/wp-content-uploads-2021-04-3dots-button.png)) button, it can be chosen by clicking on a region on the built-in maps:
+- _T_
 
 <!-- /wp:list -->
 
-<!-- wp:image {"align":"center","id":10482,"width":437,"height":330,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:list -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-6-1.2-NEW-STANDARD-ELASTIC-RESPONSE-SPECTRUM.png)](./img/wp-content-uploads-2021-04-7-6-1.2-NEW-STANDARD-ELASTIC-RESPONSE-SPECTRUM.png)
+- _Spektrum típusa:_ a legördítő menüből kiválasztható az aktuális szabvány szerint használható spektrum típus
+- _Fontossági osztály:_ a legördítő menüből kiválasztható a létesítménynek megfelelő fontossági osztály. A fontossági osztály mellet megjelenik az aktuális szabvány szerinti tényező
+- _Altalaj típusa_: a három pontos (![](./img/wp-content-uploads-2021-04-3dots-button.png)) gombra kattintva kiválasztható a létesítmény helyszínén lévő altalaj típus. A dialóg alján megjelennek a kiválasztott altalaj típushoz tartozó szabványos spektrum paraméterek.
+- _Talajgyorsulás – agR \[m/s2]: a beviteli mezőben megadható a létesítmény helyszínén érvényes talajgyorsulás értéke m/s2 mértékegységben, vagy a három pontos_ (![](./img/wp-content-uploads-2021-04-3dots-button.png)) gombra kattintva, valamely beépített földrengés térképen a megfelelő helyszínre kattintva, a talajgyorsulás értéke betöltődik:
+
+<!-- /wp:list -->
+
+<!-- wp:image {"align":"right","id":36449,"width":154,"height":235,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_tomeg_valaszspektrum_orszagok.png)](./img/wp-content-uploads-2022-05-dial_tomeg_valaszspektrum_orszagok.png)
+
+<!-- /wp:image -->
+
+<!-- wp:image {"align":"center","id":36457,"width":512,"height":315,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![](./img/wp-content-uploads-2022-05-dial_tomeg_valaszspektrum_terkep-1024x629.png)](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_tomeg_valaszspektrum_terkep.png)
 
 <!-- /wp:image -->
 
 <!-- wp:list -->
 
-- _Vertical acceleration - avg/ag: can not be edited, it is for informative purposes. It shows the actual used value according to the active annex._
+- _Függőleges gyorsulás_ _avg/ag_: nem módosítható, csak tájékoztató információ. A mező megmutatja az aktuálisan kiválasztott szabvány által használt értéket. Felhasználó szabvány létrehozásával módosítható (lásd 1.2.3 fejezet)
 
 <!-- /wp:list -->
 
-<!-- wp:image {"align":"center","id":10488,"width":440,"height":484,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":36466,"width":365,"height":403,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-6-1.3-NEW-STANDARD-ELASTIC-RESPONSE-SPECTRUM.png)](./img/wp-content-uploads-2021-04-7-6-1.3-NEW-STANDARD-ELASTIC-RESPONSE-SPECTRUM.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_tomeg_valaszspektrum_megadas.png)](./img/wp-content-uploads-2022-05-dial_tomeg_valaszspektrum_megadas.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-On the bottom of the Elastic response spectrum dialogue, the defined spectrum is given graphically too. By hovering the cursor above the graph, the value of each point can be obtained. Switching between vertical/horizontal spectrums can be performed using the dropdown menu.
+A dialóg Válaszspektrum mezőjében grafikusan megjelenik a megadott paraméterek szerinti szabványos rugalmas válaszspektrum. Az egér mutatóval megtekinthető a spektrum minden egyes pontjában a függvény értéke. A függőleges és vízszintes spektrumok között a legördítő menüvel lehet váltani.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":10494,"width":408,"height":200,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":36474,"width":353,"height":177,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-6-1.4-NEW-STANDARD-ELASTIC-RESPONSE-SPECTRUM.png)](./img/wp-content-uploads-2021-04-7-6-1.4-NEW-STANDARD-ELASTIC-RESPONSE-SPECTRUM.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_tomeg_valaszspektrum_megadas_vizszintes.png)](./img/wp-content-uploads-2022-05-dial_tomeg_valaszspektrum_megadas_vizszintes.png)
 
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
 
-### New user defined response spectrum
+### Új Egyedi válaszspektrum
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-ConSteel provides two ways for the definition of **new user defined response spectrums**:
+**Új Egyedi válaszspektrum** létrehozására két lehetőséget nyújt a _Consteel_.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":10500,"width":582,"height":194,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":36482,"width":548,"height":185,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7.6.2.-NEW-USER-DEFINED-RESPONSE-SPECTRUM.png)](./img/wp-content-uploads-2021-04-7.6.2.-NEW-USER-DEFINED-RESPONSE-SPECTRUM.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_tomeg_valaszspektrum_tipusa_egyedi.png)](./img/wp-content-uploads-2022-05-dial_tomeg_valaszspektrum_tipusa_egyedi.png)
 
 <!-- /wp:image -->
 
 <!-- wp:list {"ordered":true,"type":"1"} -->
 
-1. Response spectrum can be created manually from scratch, by simply clicking on the **Create **button
-2. Response spectrum creation based on an existing standard spectrum, by cloning and modifying it. If the _Clone an existing response spectrum_ checkbox is checked in, the dropdown menu of the previously defined spectrums will become active. By choosing a standard response spectrum, and clicking on the **Create **button, modification of the selected spectrum can be started.
+1. Válaszspektrum _létrehozható kézzel_ a függvény pontjainak megadásával, ebben az esetben az Új Egyedi válaszspektrum opció kiválasztása után a **Létrehozás** gombra kell kattintani. Ebben az esetben a létrehozó dialóg teljesen üresen jelenik meg
+2. Válaszspektrum létrehozása, egy már *meglévő spektrum másolataként*. Az Új Egyedi válaszspektrum opció kiválasztása után be kell pipálni a _Létező válaszspektrum másolataként_ opció jelölőnégyzetét és a legördülő menüből ki kell választani valamelyik már előzőleg létrehozott spektrumot, majd a **Létrehozás** gombra kell kattintani. A létrehozó dialóg feltöltődik a másolatként használt spektrum értékeivel, amelyek ezután kézzel módosíthatók
 
 <!-- /wp:list -->
 
@@ -114,80 +128,86 @@ ConSteel provides two ways for the definition of **new user defined response spe
 
 <!-- wp:heading {"level":4} -->
 
-#### Manual definition of response spectrum
+#### Egyedi válaszspektrum kézi felvétele
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-After selecting the New User defined response spectrum option, and clicking on the create button, the creation dialogue will appear.
+Az **Új Egyedi válaszspektrum** opció kiválasztása után a **Létrehozás** gombra kattintva megjelenik a létrehozó dialóg.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"right","id":10506,"width":467,"height":512,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"right","id":36555,"width":389,"height":429,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7.6.2.1-MANUAL-DEFINITION-OF-RESPONSE-SPECTRUM.png)](./img/wp-content-uploads-2021-04-7.6.2.1-MANUAL-DEFINITION-OF-RESPONSE-SPECTRUM.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_tomeg_valaszspektrum_letrehozas_kezzel.png)](./img/wp-content-uploads-2022-05-dial_tomeg_valaszspektrum_letrehozas_kezzel.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-On the _Response spectrum parameters_ part (#1), the following parameters has to be set:
+A _Válaszspektrum paraméterek_ (#1) mezőben az alábbi paramétereket kell megadni:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 
-- _Ground acceleration -_ \_a \[m/s2]: \_can be defined manually through the editbox, or by clicking on the (![](./img/wp-content-uploads-2021-04-3dots-button.png)) button, it can be chosen by clicking on a region on the built-in maps.
-- Vertical acceleration _av/a: ratio of the vertical/horizontal acceleration can be set in the editbox_
-- _Type of the response spectrum:_ Design or Elastic response spectrum can be chosen. Design response spectrum will be used in design situations, while elastic response spectrum will be used in case of serviceability situations
+- _Talajgyorsulás_– a \[m/s2]: a beviteli mezőben megadható a létesítmény helyszínén érvényes talajgyorsulás értéke m/s2 mértékegységben, vagy a három pontos_ (![](./img/wp-content-uploads-2021-04-3dots-button.png)) gombra kattintva, valamely beépített földrengés térképeken a megfelelő helyszínre kattintva, a talajgyorsulás értéke betöltődik.
+- _Függőleges gyorsulás av/a_: a beviteli mezőben megadható a függőleges és a vízszintes gyorsulás aránya
+- *Válaszspektrum fajtája:* egyedi válaszspektrum lehet Tervezési vagy Rugalmas válaszspektrum. A megadott beállításnak megfelelően fogja a spektrumot a Consteel kezelni. Tervezési válaszspektrum tervezési szituációban, míg a rugalmas válaszspektrum használhatósági szituációban használható
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
-In the \_Edit spectrum points \_part of the dialogue, the graph of the response spectrum can be defined, by giving the time parameter in seconds, and the corresponding spectrum value divided by the acceleration.
+A válaszspektrum függvény, a _Válaszspektrum pontjainak szerkesztése_ mezőben adható meg táblázatosan, megadva az időértéket másodperc mértékegységben, illetve a hozzá tartozó gyorsulással leosztott spektrum értéket (mértékegység nélküli szám).
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Any number of columns can be added to the spectrum definition grid. By pressing the ![](./img/wp-content-uploads-2021-04-spectr_add_col.png), new columns can be added. Using the ![](./img/wp-content-uploads-2021-04-spectr_remove_col.png), columns can be deleted.
+A spektrum megadó tábláz oszlopainak a száma tetszőlegesen változtatható. Új oszlop a ![](./img/wp-content-uploads-2021-04-spectr_add_col.png), (#5) gombbal adható hozzá, míg oszlopot törölni a ![](./img/wp-content-uploads-2021-04-spectr_remove_col.png), (#4) gombbal lehet.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-A newly defined user response spectrum is the same in all (X,Y,Z) directions. If it is necessary, different spectrums can be defined for each direction, using the dropdown menu on the dialogue.
+Az egyedi válaszspektrum alap esetben mind a három (X, Y és Z) irányban megegyezik. Ha szükséges, a (#3) legördülő menü segítségével megadható eltérő spektrum a függőleges, illetve mind a három irányhoz. Viszont ezekben az esetekben a táblázatos spektrum megadást kétszer, illetve háromszor kell elvégezni a különböző irányokban. Az éppen szerkesztett irányhoz tartozó spektrum a (#2) legördülő menü segítségével választható ki.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The data of the spectrum can be saved in \*.csv and \*.txt format, using the ![](./img/wp-content-uploads-2021-04-cmd_save.png) button.
+A megadott spektrum elmenthető \*.csv és \*.txt formátumokba, a ![](./img/wp-content-uploads-2021-04-cmd_save.png) (#4) gomb segítségével, illetve egy már elmentett spektrum megnyitható a ![](./img/wp-content-uploads-2021-04-cmd_open.png) (#4) gomb segítségével.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Previously created and saved spectrums can be imported using the ![](./img/wp-content-uploads-2021-04-cmd_open.png) button
+A _Válaszspektrum_ mezőben, az aktuálisan szerkesztett válaszspektrum függvénye jelenik meg. Az egér mutatóval megtekinthető a spektrum minden egyes pontjában a függvény értéke.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
 
-#### Manual definition of response spectrum, based on a cloned standard spectrum
+#### Egyedi válaszspektrum felvétele, egy meglévő spektrum másolataként
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-After selecting the **New user defined response spectrum** by cloning an existing response spectrum, and pressing the **Create **button, the modification of the selected standard spectrum can be started. All points of the standard design spectrum will automatically be loaded into the table of the definition dialogue, where any point and parameter is free for to edit.
+Az **Új Egyedi válaszspektrum** opció kiválasztása és a _Létező válaszspektrum másolataként_ opció jelölőnégyzetét bepipálása és a legördülő menü segítségével, valamely már előzőleg létrehozott spektrum kiválasztása után, a **Létrehozás** gombra kattintva, megjelenik a létrehozó dialóg, feltöltve a másolatként használt spektrum paramétereivel.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-All of the modification options are the same as it is written in chapter **_[Manual definition of response spectrum, Chapter 7.6.2.1](#Manual-definition-of-response-spectrum)_**
+A spektrum betöltése után már a spektrum bármely paramétere módosítható és átírható.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+A funkciók használata megegyezik a fenti **_[Egyedi válaszspektrum kézi felvétele (7.5.2.1)](/manual/tomegek/valaszspektrum-felvetele/#Manual-definition-of-response-spectrum)_** alfejezetben leírtakkal.
 
 <!-- /wp:paragraph -->

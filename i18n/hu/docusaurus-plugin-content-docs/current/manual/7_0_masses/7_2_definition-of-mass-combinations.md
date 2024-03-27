@@ -1,32 +1,28 @@
 ---
 sidebar_position: 2
 ---
-# Definition of mass combinations
+# Tömegkombinációk megadása
 
-Definition of **mass combinations** works like the** load combination** definition (Chapter 6.3), but without the possibility to generate mass combinations automatically. Factors for each mass case have to be set manually to create a mass combination.
+<!-- wp:paragraph -->
+
+Tömegkombinációk megadása funkció (![](./img/wp-content-uploads-2021-04-cmd_masscombi.png)) teljesen analóg módon működik a **_[Teherkombinációk (6.2 fejezet)](/manual/terhek/teherkombinaciok/)_** megadásánál leírtakkal, annyi különbséggel, hogy tömegkombinációk megadásánál nincs lehetőség automatikusan generált kombinációk létrehozására, így minden egyes kombinációt kézzel kell definiálni. A **Tömegkombinációk** panel 2 nagyobb egységből tevődik össze:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The grid of the mass combinations dialogue can be separated into two parts:
+\#1 – Terhekből konvertált tömegesetek táblázata
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-\#1 – List of mass cases converted from loads
+\#2 –.Kézzel definiált tömegesetek táblázata
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
+<!-- wp:image {"align":"center","id":36402,"width":768,"height":446,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-\#2 –.List of mass cases defined manually
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":10447,"width":562,"height":379,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-3-DEFINITION-OF-MASS-COMBINATIONS.png)](./img/wp-content-uploads-2021-04-7-3-DEFINITION-OF-MASS-COMBINATIONS.png)
+[![](./img/wp-content-uploads-2022-05-dial_tomegkombinaciok-1024x595.png)](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_tomegkombinaciok.png)
 
 <!-- /wp:image -->

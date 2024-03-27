@@ -1,92 +1,100 @@
 ---
 sidebar_position: 1
 ---
-# Mass cases and mass groups
+# Tömegesetek és tömegcsoportok
 
-Masses on the structure, just like in the case of loads, has to be grouped together in mass cases and mass groups. Before defining masses on the structure, groups and cases should be defined with using the **Create mass cases and mass groups** (![](./img/wp-content-uploads-2021-04-cmd_masscases-1.png)) function.
+<!-- wp:paragraph -->
+
+A szerkezeten ható tömegeket, mint a terhelés esetében, tömegcsoportokba és tömegesetekbe kell rendezni. Ennek megfelelően, mielőtt tömeget helyeznénk el a szerkezeten, létre kell hozni a szükséges tömegeseteket és csoportokat a Tömeg fülön lévő **Tömegesetek és tömegcsoportok megadása** (![](./img/wp-content-uploads-2021-04-cmd_masscases-1.png)) funkció segítségével.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":10427,"sizeSlug":"large","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":36376,"width":299,"height":68,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-2-Mass-Cases-and-mass-groups.png)](./img/wp-content-uploads-2021-04-7-2-Mass-Cases-and-mass-groups.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/05/tab_tomegek_tomegesetek.png)](./img/wp-content-uploads-2022-05-tab_tomegek_tomegesetek.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-The dialogue can be separated into two main parts:
+A megjelenő dialóg két jól elkülöníthető funkciócsoportra osztható.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-On the left side of the dialogue (#1), loadcases that were defined on the **Loads **tab can be converted automatically into masses for the dynamic calculations. On the right side of the dialogue (#2), mass groups and cases can be defined manually.
+A dialóg bal oldalán (#1) található funkciók segítségével a **Teher** fülön már létrehozott terhek alakíthatók át automatikusa tömeggé, a dinamikai számítás számára. A dialóg jobb oldalán (#2) található funkciók segítségével pedig a kézzel elhelyezni kívánt tömegek számára hozhatók létre tömegesetek és csoportok.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":10434,"width":620,"height":469,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":36384,"width":597,"height":448,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-2-Mass-Cases-and-mass-groups.2.png)](./img/wp-content-uploads-2021-04-7-2-Mass-Cases-and-mass-groups.2.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_tomegesetek.png)](./img/wp-content-uploads-2022-05-dial_tomegesetek.png)
 
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
 
-### Converting loads into masses
+### Teher tömeggé alakítása
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-Loads placed on the Loads tab can be converted into masses on the left side of the Mass cases and mass groups dialogue. The tree panel will automatically be filled up with the previously created permanent, variable, and snow load groups and their corresponding loadcases. If a checkbox of a load case is clicked, it will be converted into mass, after pressing the **OK **or **Apply **button on the dialogue
+A **Teher** fülön már elhelyezett terhek, a **Tömegesetek és tömegcsoportok** dialóg baloldalán található _Teheresetek átalakítása_ mező segítségével átalakíthatók tömegekké. A _Teheresetek átalakítása_ mezőbe betöltődnek a Teher fülön előzőleg felvett tehercsoportok és teheresetek. A csoportok és esetek nevei előtt található jelölő négyzetek bepipálásával, a teheresetekben elhelyezett összes teher automatikusan átalakításra kerül tömeggé a dinamikai számítás számára.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"right","id":10440,"width":667,"height":503,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:paragraph -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-3-Manual-definition-of-Mass-Cases-and-mass-groups.png)](./img/wp-content-uploads-2021-04-7-3-Manual-definition-of-Mass-Cases-and-mass-groups.png)
+Tehercsoport kiválasztása esetén, az összes, a csoportban található teheresetben lévő teher átalakításra kerül.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"right","id":36392,"width":593,"height":448,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_tomegesetek_kezi.png)](./img/wp-content-uploads-2022-05-dial_tomegesetek_kezi.png)
 
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
 
-### Manual definition of mass groups and mass cases
+### Kézi tömegesetek és tömegcsoportok létrehozása
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-**Mass cases and mass groups** can be created manually, on the right side of the dialogue, just like in the cases of load cases and load groups.
+A **Tömegesetek és tömegcsoportok** dialóg jobb oldalán található funkciók segítségével, a teheresetek és csoportok létrehozásával analóg módon, lehetőség van manuálisan is létrehozni tömegeseteket és csoportokat, a manuálisan elhelyezendő tömegek számára.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-With the **New **button on the _Mass groups_ (#2) part of the dialogue, new mass groups can be added to the _Manually defined_ tree panel. Permanent, Variable, and Snow mass groups can be created. After choosing the correct type, a new element will be added to the tree panel (#1), as a mass group.
+A _Tömegcsoport_ mezőben lévő **Új** gomb megnyomásával, láthatóvá válnak a létrehozható tömegcsoportok: _Állandó, Esetleges_ és _Hó_. A megfelelő tehercsoport kiválasztásával létrejön az új csoport. A _Név_ mezőben átírható a létrehozott csoport neve.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-With the **New mass case** button on the Mass case panel (#3), cases can be added to a previously selected mass group in the tree panel. Any number of mass cases can be added to a mass group. The color of each mass case can be set manually with the color palette, which will be used for the graphical object representation in the modeling area.
+A _Tömegeset mezőben_ (#3) lévő **Új tömegeset** gomb segítségével új tömegeset hozható létre a _Kézi tömegesetek_ (#1) fában kiválasztott tömegcsoportban. Egy tömegcsoportban tetszőleges számú tömegeset hozható létre. A létrehozott tömegesetnek a _Név_ mezőben módosíthatók a nevei, illetve a színre kattintva, az elhelyezendő tömegobjektum(ok) színe.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Each mass case can be moved from a mass group to another, using the drag-and-drop feature of the tree panel (#1).
+A létrehozott tömegesetek a _Kézi tömegesetek_ fában (#1) való kiválasztása után, a _Tömegeset_ mezőben lévő _Tömegcsoport legördítő_ menü segítségével, vagy a fában (#1), drag-and-drop funkció segítségével átmozgathatók.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
 
-### Considered direction of masses
+### Tömegirány figyelembevételének megadása
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-Both for masses converted from loadcases, and for masses defined manually, the direction in which they will be taken into consideration during the dynamic calculations can be set, on the bottom of the **Mass cases and mass groups dialogue** using the checkboxes, after the selection of a mass case in the tree. In case of seismic analysis, only the global Z direction can be turned off, while in the case of vibration analysis, any direction is free to switch on or off (X,Y,Z).
+A szerkezeten manuálisan elhelyezett tömegek és a teherből átalakított tömegek esetében is megadható, hogy mely irányokban működnek, a _Tömegirány figyelembevétele_ mező funkciói segítségével. A _Teheresetek átalakítása_ fában vagy a _Tömegesetek fában_ történt tömegeset kiválasztása után, lehetőség van megadni, hogy a kiválasztott esetben lévő tömegek mely irányokba működjenek. Földrengés számítás esetén csak a globális _Z_ irány kapcsolható ki/be a jelölő négyzet segítségével, míg rezgésvizsgálat esetén mind a három globális irány (_X_, _Y_ és _Z_) külön-külön is ki/bekapcsolható.
 
 <!-- /wp:paragraph -->

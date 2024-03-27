@@ -1,6 +1,10 @@
 ---
 sidebar_position: 4
 ---
-# Seismic effect
+# Földrengés hatás
 
-To see the detailed description of the usage of the **Seismic effect**, please go to _**[Chapter 12 Earthquake analysis](/manual/seismic-analysis/)**_!
+<!-- wp:paragraph -->
+
+A földrengéshatás használatának részletes leírását lásd a _**[Földrengés hatás (12. fejezet)](/manual/foldrenges-analizis/)**_ fejezetben.
+
+<!-- /wp:paragraph -->
