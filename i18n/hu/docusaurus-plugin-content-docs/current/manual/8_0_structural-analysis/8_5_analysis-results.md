@@ -1,236 +1,176 @@
 ---
 sidebar_position: 5
 ---
-# Analysis results
+# Analízis eredmények
+<!-- wp:heading {"level":3} -->
 
-### Result types
+### Eredmény típusok
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-For the two types of finite elements (line and surface elements) the following analysis results are available:
+A két különböző típusú (rúd és héj) végeselemhez az alábbi analízis eredmények állnak rendelkezésre:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true,"type":"1"} -->
 
-1. **Line elements**
+1. **Rúd elemek**
 
-<!-- /wp:list -->
 
-<!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-**Elastic and plastic analysis**
+**Rugalmas és képlékeny analízis**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-- First and second-order calculations:
+- Első és másodrendű számítás:
 
-  - Deformations – on the finite element nodes in the global coordinate system
+  - Deformációk – a végeselem pontokban, globális koordinátarendszerben
 
-    - XYZ – all components
+    - XYZ – összes elmozdulás komponens
+    - X – "X” irányú elmozdulás
+    - Y – "Y” irányú elmozdulás
+    - Z –"Z” irányú elmozdulás
+    - Rx –"X” tengely körüli elfordulás
+    - Ry –"Y” tengely körüli elfordulás
+    - Rz – „Z” tengely körüli elfordulás
+    - W– öblösödés \[1/rad]
+    - Rxx – LOKÁLIS “x” tengely körüli elfordulás
 
-    - X –displacements in the "X” direction
+  - Igénybevételek – lokális koordinátarendszerben, a végeselemek végpontjaiban
 
-    - Y –displacements in the "Y” direction
-
-    - Z –displacements in the "Z” direction
-
-    - Rx –rotation around “X” axis
-
-    - Ry –rotation around “Y” axis
-
-    - Rz –rotation around “Z” axis
-
-    - W–warping of the member \[1/rad]
-
-    - Rxx –rotation around the local “x” axis of the member \[degree]
-
-  - Internal forces – on the end nodes of each finite element in the local coordinate system
-
-    - N – axial force
-
-    - Vy – shear force in the local “y” direction
-
-    - Vz – shear force in the local “z” direction
-
-    - T – torsional moment
-
-    - My – bending moment about the local “y” axis
-
-    - Mz – bending moment about the local “z” axis
-
+    - N – normálerő
+    - Vy – lokális koordinátarendszer “y” irányú nyíróerő
+    - Vz – lokális koordinátarendszer “z” irányú nyíróerő
+    - T – csavaró nyomaték
+    - My – lokális koordinátarendszer „y” körüli hajlító nyomaték
+    - Mz – lokális koordinátarendszer „z” körüli hajlító nyomaték
     - B – bimoment
 
-  - Reactions – on the support nodes in the local coordinate system of the support
+  - Reakcióerők – a támaszok lokális koordinátarendszerében, a támaszokon
 
-    - R – all the reaction forces and moments
+    - R – összes reakcióerő és reakciónyomaték komponens
+    - RR – összes reakcióerő komponens
+    - RRR – összes reakciónyomatékok komponens
+    - Rx – globális “X” irányú reakcióerő
+    - Ry – globális “Y” irányú reakcióerő
+    - Rz – globális “Z” irányú reakcióerő
+    - Rxx – globális “X” irányú reakciónyomaték
+    - Ryy – globális “Y” irányú reakciónyomaték
+    - Rzz – globális “Z” irányú reakciónyomaték
 
-    - RR – all the reaction forces
+- Statikai sajátértékek és megfelelő sajátalakok – a végeselemek csomópontjaiban, globális koordinátarendszerben, **csak rugalmas analízis esetén**
 
-    - RRR – all the reaction moments
+- Dinamikus sajátértékek és megfelelő saját rezgésalakok – a végeselemek csomópontjaiban, globális koordinátarendszerben, **csak rugalmas analízis esetén**
 
-    - Rx – reaction force in the global “X” direction
-
-    - Ry – reaction force in the global “Y” direction
-
-    - Rz – reaction force in the global “Z” direction
-
-    - Rxx – reaction moment about the global “X” direction
-
-    - Ryy – reaction moment about the global “Y” direction
-
-    - Rzz – reaction moment about the global “Z” direction
-
-- Static eigenvalues and corresponding eigenshapes – on the finite element nodes in the global coordinate system. **Only elastic analysis**
-
-- Dynamic eigenvalues and corresponding eigenshapes – on the finite element nodes in the global coordinate system. **Only elastic analysis**
-
-- Plastic hinges – plastic hinge history with the positions of the plastic hinges on the proper finite element ends and the corresponding stages by load factors
+- Képlékeny csukló – képlékeny csuklók kialakulásának állapotai. Állapotonként a képlékeny csuklók megjelennek a megfelelő végeselem végeken és megjelenítésre kerülnek a teherfaktorok is
 
 <!-- /wp:list -->
 
 <!-- wp:list {"ordered":true,"start":2,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-2. **Surface elements**
+2. **Héj elemek**
 
 <!-- /wp:list -->
 
 <!-- wp:list {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-- First- and second-order calculations:
+- Első és másodrendű számítás:
 
-  - Deformations – on the finite element nodes in the global coordinate system
+  - Deformációk – a végeselem pontokban, globális koordinátarendszerben
 
-    - XYZ – all components
+    - XYZ – összes elmozdulás komponens
+    - X – "X” irányú elmozdulás
+    - Y – "Y” irányú elmozdulás
+    - Z – "Z” irányú elmozdulás
+    - Rx – végeselempont lokális “x” tengelye körüli elfordulása
+    - Ry – végeselempont lokális “y” tengelye körüli elfordulása
+    - Rz – végeselempont lokális “z” tengelye körüli elfordulása
+    - W– öblösödés \[1/rad]
+    - Rxx –elfordulása lokális “x” tengely körül
 
-    - X – only displacements in the "X” direction
+  - Egyensúly – a csomóponti belső erők, és a megfelelő külső erő és reakció komponensek előjeles összegzése, amelynek minden pontban nullával kell egyenlőnek lennie. Ez a feltétele annak, hogy a modell a számított deformált helyzetben egyensúlyban van.
 
-    - Y – only displacements in the "Y” direction
+  - Felületi igénybevételek – erők és nyomatékok hosszegységre vetítve végeselem pontokban, lokális koordinátarendszerben
 
-    - Z – only displacements in the "Z” direction
+    - mx – szelvényen ható helyi „x” tengelyre merőleges hajlító nyomaték
+    - my – szelvényen ható helyi „y” tengelyre merőleges hajlító nyomaték
+    - mxy – csavaró nyomaték
+    - nx – helyi “x” irányú normálerő
+    - ny – helyi “y” irányú normálerő
+    - nxy – tárcsa nyíróerő
+    - vxz – a szelvényen ható helyi „x” tengelyre merőleges lemez nyíróerő
+    - vyz – a szelvényen ható helyi „y” tengelyre merőleges lemez nyíróerő
+    - vRz – eredő lemez nyíróerő
+    - Ɑn – tárcsa erők fő irányai  
+      ![alt text](image.png)
+    - Ɑm – tárcsa erők fő irányai  
+    ![alt text](image-1.png)
 
-    - Rx – only rotation around the local “x” axis of the member
+  - Felületi feszültségek – a héj végeselemek felső, középső, és alsó síkjaiban, végeselem pontokban, lokális koordinátarendszerben
 
-    - Ry – only rotation around the local “x” axis of the member
+    - $\sigma_x$ – “x” irányú normálfeszültség
+    - $\sigma_y$ – “y” irányú normálfeszültség
+    - $\sigma\_{xy}$ – nyírófeszültség
+    - $\sigma_1$ – főfeszültségek maximuma  
+     ![alt text](image-3.png)
+    - $\sigma_2$ – főfeszültségek minimuma  
+      ![alt text](image-2.png)
+    - $\sigma\_{HMH}$ – Huber-Mises-Hencky feszültség  
+     ![alt text](image-4.png)
+    - $\alpha\_{\sigma}$ – feszültségek főirányai  
+      ![alt text](image-5.png)
 
-    - Rz – only rotation around the local “x” axis of the member
+  - Reakciók – megtámasztott csomópontokban, globális koordinátarendszerben
 
-    - W– only warping of the member \[1/rad]
+    - R – összes reakcióerő és reakciónyomaték komponens
+    - RR – összes reakcióerő komponens
+    - RRR – összes reakciónyomaték komponens
+    - Rx – globális “X” irányú reakcióerő
+    - Ry – globális “Y” irányú reakcióerő
+    - Rz – globális “Z” irányú reakcióerő
+    - Rxx – globális “X” irányú reakciónyomaték
+    - Ryy – globális “Y” irányú reakciónyomaték
+    - Rzz – globális “Z” irányú reakciónyomaték
 
-    - Rxx – only rotation of the member \[degree]
+- Statikai sajátértékek és megfelelő sajátalakok – a végeselemek csomópontjaiban, globális koordinátarendszerben
 
-  - Equilibrium – signed summation of the internal nodal force components and the appropriate external force and reaction components, all the values should be zero which means the model is in equilibrium in the calculated deformed state
-
-  - Internal forces of the surface – edge forces and moments per unit length on the end nodes of each finite element in the local coordinate system
-
-    - mx – bending moment on the section perpendicular to the local “x” axis
-
-    - my – bending moment on the section perpendicular to the local “y” axis
-
-    - mxy – torsional moment
-
-    - nx – normal force in the local “x” direction
-
-    - ny – normal force in the local “y” direction
-
-    - nxy – membrane shear force
-
-    - vxz – plate shear force on the section perpendicular to the local “x” axis
-
-    - vyz – plate shear force on the section perpendicular to the local “y” axis
-
-    - vRz – resultant plate shear force
-
-    - Ɑn – principal directions of the membrane forces  
-      $\\alpha_n=\\frac{1}{2}arctan\\left \[ \\frac{2n\_{xy}}{n_x-n_y} \\right ]\\; \\; -90^{\\circ}&lt; \\alpha_n\\leq +90^{\\circ}$
-    - Ɑm – principal directions of the plate moments  
-      $\\alpha_m=\\frac{1}{2}arctan\\left \[ \\frac{2m\_{xy}}{m_x-m_y} \\right ]\\; \\; -90^{\\circ}&lt; \\alpha_m\\leq +90^{\\circ}$
-
-  - Stresses on the surface – on the upper, middle and lower plane of the surface on the end nodes of each finite element in the local coordinate system
-
-    - $\\sigma_x$ – normal stress in the local “x” direction
-    - $\\sigma_y$ – normal stress in the local “y” direction
-    - $\\sigma\_{xy}$ – shear stress
-    - $\\sigma_1$ – maximum principal stress  
-      $\\sigma_1= \\frac{\\sigma_x+\\sigma_y}{2}+\\sqrt{{\\left \[ \\frac{\\sigma_x-\\sigma_y}{2} \\right ]}^2+\\sigma\_{xy}^2}$
-    - $\\sigma_2$ – minimum principal stress  
-      $\\sigma_1= \\frac{\\sigma_x+\\sigma_y}{2}-\\sqrt{{\\left \[ \\frac{\\sigma_x-\\sigma_y}{2} \\right ]}^2+\\sigma\_{xy}^2}$
-    - $\\sigma\_{HMH}$ – Huber-Mises-Hencky stress  
-      $\\sigma\_{HMH}=\\sqrt{\\sigma_x^2+\\sigma_y^2-\\sigma_x\\sigma_y+3\\sigma\_{xy}^2}$
-    - $\\alpha\_{\\sigma}$ – principal directions of the stresses  
-      $\\alpha\_{\\sigma}=\\frac{1}{2}arctan\\left \[ \\frac{2\\sigma\_{xy}}{\\sigma_x-\\sigma_y} \\right ]\\; \\; -90^{\\circ}&lt; \\alpha\_{\\sigma}\\leq +90^{\\circ}$
-
-  - Reactions – on the support nodes in the global coordinate system
-
-    - R – all the reaction forces and moments
-    - RR – all the reaction forces
-    - RRR – all the reaction moments
-    - Rx – reaction force in the global “X” direction
-    - Ry – reaction force in the global “Y” direction
-    - Rz – reaction force in the global “Z” direction
-    - Rxx – reaction moment about the global “X” direction
-    - Ryy – reaction moment about the global “Y” direction
-    - Rzz – reaction moment about the global “Z” direction
-
-- Static eigenvalues and corresponding eigenshapes – on the finite element nodes in the global coordinate system
-
-- Dynamic eigenvalues and corresponding eigenshapes – on the finite element nodes in the global coordinate system
+- Dinamikus sajátértékek és megfelelő saját rezgésalakok – a végeselemek csomópontjaiban, globális koordinátarendszerben
 
 <!-- /wp:list -->
 
 <!-- wp:heading {"level":3} -->
 
-### Visualization options
+### Eredmények megjelenítése
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-Effective management of the huge amount of data generated during the analysis is of great importance. It should be possible to review both general and accurate, detailed data for a given type of result. There are two main options for reviewing the analysis results: the graphical view and the result tables (for the general functionality of tables used in _ConSteel_ see section **_[1.4 General functions for tables](https://consteelsoftware.com/manual/how-to-open-consteel/general-functions-for-tables/)_**).
+Az analízis során keletkező óriási adatmennyiség hatékony kezelése kiemelt fontosságú. Lehetőséget kell biztosítani az eredmények adott típusának általános, és a pontos, részletes adatok áttekintésére. Az analízis eredmények áttekintésére két fő lehetőség van: a _grafikus nézet_, és az _eredmény táblázatok_ (A _Consteel_-ben alkalmazott táblázatok kezelési funkcióit lásd a **_[Táblázatok általános funkciói](/manual/altalanos-ismertetes/tablazatok-altalanos-funkcioi/)_** c. fejezetben). A kétféle megjelenítés természetesen szorosan összefüggésben állnak egymással, és az Analízis fül felső részén található funkciókkal módosíthatók. A négy legördülő menü (balról jobbra) a következő beállítási lehetőségeket nyújtja.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
+<!-- wp:image {"align":"center","id":36833,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-The results of the performed analysis are usually a huge amount of data so the efficient handling of it has great importance. There should be opportunities for a global overview and for obtaining accurate, detailed information about a certain part or problem. There are two main possibilities for the demonstration of the analysis results:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-
-- **graphical visualization**
-- **result tables**\_ _(for the general functionality of tables used in \_ConSteel_ see section **_[1.4 General functions for tables](/manual/how-to-open-consteel/general-functions-for-tables/)_**).
-
-<!-- /wp:list -->
-
-<!-- wp:paragraph -->
-
-The two visualization options are obviously in strong connection and can be manipulated by the functions placed on the upper part of the Analysis tab. The four combos contain the following selection options (from left to right):
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":22265,"width":938,"height":147,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/06/drop_anal_visual.png)](./img/wp-content-uploads-2021-06-drop_anal_visual.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_anal_visualization.png)](./img/wp-content-uploads-2022-06-scr_anal_visualization.png)
 
 <!-- /wp:image -->
 
-<!-- wp:list -->
+<!-- wp:list {"type":"a"} -->
 
-- selection of analysis type (first order, second order, buckling, etc. described in section** _[8.4 Analysis types](/manual/structural-analysis/analysis-types/)_**)
-- selection of load combination, load case, or envelope figures
-- selection of result type (described in section **_[8.5.1 Result types](#Result-types)_**)
-- selection of display mode (finite element/diagram/colored diagram/deformation/contour surface)
+- analízis típusa (lásd. az **_[Analízis típusok](/manual/szerkezetek-analizise/analizis-tipusok/)_** fejezet)
+- teherkombináció és teheresetek kiválasztása
+- eredmény típus kiválasztása (lásd. az **_[Eredmény típusok](#Result-types)_** alfejezetet)
+- megjelenítési mód kiválasztása (végeselem/diagram/szintvonal/diszkrét színek/szintfelület)
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
-The available options for visualization modes depend on the result type. The following options are available:
+A megjelenítési módok rendelkezésre álló lehetőségei az eredménytípustól függenek. A következő opciók állnak rendelkezésre:
 
 <!-- /wp:paragraph -->
 
@@ -238,11 +178,11 @@ The available options for visualization modes depend on the result type. The fol
 
 <!-- wp:column {"width":"25%","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-<!-- wp:image {"id":22621,"width":198,"height":246,"sizeSlug":"large","linkDestination":"none"} -->
+<!-- wp:image {"id":22624,"width":198,"height":246,"sizeSlug":"large","linkDestination":"none"} -->
 
 ![](./img/wp-content-uploads-2021-04-scr_resuts_FE.png)
 
-Finite element
+Végeselem
 
 <!-- /wp:image -->
 
@@ -250,7 +190,7 @@ Finite element
 
 <!-- wp:column {"width":"25%","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-<!-- wp:image {"id":22615,"width":220,"height":248,"sizeSlug":"large","linkDestination":"none"} -->
+<!-- wp:image {"id":22618,"width":220,"height":248,"sizeSlug":"large","linkDestination":"none"} -->
 
 ![](./img/wp-content-uploads-2021-04-scr_results_diagram.png)
 
@@ -262,11 +202,11 @@ Diagram
 
 <!-- wp:column {"width":"25%","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-<!-- wp:image {"id":22603,"sizeSlug":"large","linkDestination":"none"} -->
+<!-- wp:image {"id":22606,"sizeSlug":"large","linkDestination":"none"} -->
 
 ![](./img/wp-content-uploads-2021-04-scr_results_colordiagr.png)
 
-Colored diagram
+Színezett diagram
 
 <!-- /wp:image -->
 
@@ -274,11 +214,11 @@ Colored diagram
 
 <!-- wp:column {"width":"25%","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-<!-- wp:image {"id":22639,"width":200,"height":248,"sizeSlug":"large","linkDestination":"none"} -->
+<!-- wp:image {"id":22642,"width":200,"height":248,"sizeSlug":"large","linkDestination":"none"} -->
 
 ![](./img/wp-content-uploads-2021-07-scr_results_deform-edited-1.png)
 
-Deformation
+Deformáció
 
 <!-- /wp:image -->
 
@@ -288,11 +228,11 @@ Deformation
 
 <!-- wp:list -->
 
-- Finite element: only the finite element model is shown without any results
-- Diagram: the results are shown with single line diagram
-- Colored diagram: the color of the diagram lines depend on the sign of the value. Negative values are shown in blue and positive values in red.
-- Deformation: (only for deformation results) the deformed structure is shown
-- Contour surface: the results are displayed by coloring of the structural members according to the color palette shown in the top right corner of the window. The palette can be customized on the **Transient palette settings **dialog opens by right-clicking on it.
+- Végeselem: csak a végeselemes modell látható, eredmények nélkül.
+- Diagram: az eredmények egyvonalas diagrammal jelennek meg.
+- Színezett diagram: a diagram vonalak színe az érték előjelétől függ. A negatív értékek kékkel, a pozitív értékek pedig pirossal jelennek meg.
+- Deformáció: (csak a deformációs eredmények esetében) a deformált szerkezet jelenik meg.
+- Szintfelület: az eredmények a szerkezeti elemek színezésével jelennek meg az ablak jobb felső sarkában látható színpaletta szerint. A paletta testre szabható a palettán jobb egérgombbal történő kattintásra megnyíló **Színátmenetes skála beállításai** párbeszédpanelen.
 
 <!-- /wp:list -->
 
@@ -300,11 +240,11 @@ Deformation
 
 <!-- wp:column {"width":"50%"} -->
 
-<!-- wp:image {"align":"center","id":22609,"width":310,"height":348,"sizeSlug":"large","linkDestination":"none"} -->
+<!-- wp:image {"align":"center","id":22612,"width":310,"height":348,"sizeSlug":"large","linkDestination":"none"} -->
 
 ![](./img/wp-content-uploads-2021-04-scr_results_contour.png)
 
-Contour surface
+Szintfelület
 
 <!-- /wp:image -->
 
@@ -312,11 +252,11 @@ Contour surface
 
 <!-- wp:column {"width":"50%"} -->
 
-<!-- wp:image {"align":"center","id":22645,"width":299,"height":341,"sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:image {"align":"center","id":36872,"width":300,"height":341,"sizeSlug":"full","linkDestination":"none","className":"is-style-editorskit-rounded"} -->
 
-![](./img/wp-content-uploads-2021-04-dia_palettesetting.png)
+![](./img/wp-content-uploads-2022-06-dial_analizis_paletta.png)
 
-Palette settings
+Paletta testreszabása
 
 <!-- /wp:image -->
 
@@ -326,69 +266,69 @@ Palette settings
 
 <!-- wp:paragraph -->
 
-All the model view options discussed in section _[**3.1 Model views**](/manual/model-view/model-views/)_ are applicable to the result graphics. Moving the slider ![](./img/wp-content-uploads-2021-04-cmd_analysis_slide.png) beside the combos the scaling of the results can be adjusted on the graphics. In the case of partial or submodel view the graphics and the tables show only the results of the actual model part.
+A **_[Modell nézetek](/manual/modell-nezet/modell-nezetek/)_** fejezetben bemutatott modell nézeti lehetőségek az eredmények grafikai megjelenítésénél is használhatók. A legördülő menük után található csúszka ![](./img/wp-content-uploads-2021-04-cmd_analysis_slide.png) segítségével az eredmények grafikai megjelenítésének mértéke módosítható.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The analysis results are displayed in table format below the graphical view. (The table can also be moved by clicking and holding on the left-side border of the table with the left mouse button.) Three types of result tables can be viewed:
+Részletmodell vagy részmodell esetén a grafikai megjelenítés és az eredmény táblázat csak a kiválasztott modell rész eredményeit mutatja. Az eredmény táblázatnak három féle megjelenítése nézete van:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2021-04-but_anal_table_extrbymemb.png) Extreme values by members: select the maximum and minimum values for each structural member
+![](./img/wp-content-uploads-2021-04-but_anal_table_extrbymemb.png) Szélső értékek elemenként: kiválasztja rudanként a szélsőértékeket.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2021-04-cmd_analysis_table_markers.png) User defined values: show the values belonging to the markers defined by the user (discussed more deeply in section _[**Result markers**](#Result-markers)_, see below)
+![](./img/wp-content-uploads-2021-04-cmd_analysis_table_markers.png) Felhasználói értékek: a felhasználó által elhelyezett jelölők helyein mutatja az értékeket (megjelölést lásd lentebb, a **_[Jelölt eredmények](#Result-markers)_** fejezetben)
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2021-04-cmd_analysis_table_all.png) All values.
+![](./img/wp-content-uploads-2021-04-cmd_analysis_table_all.png) Minden érték: az összes érték megjelenítése végeselem pontonként.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The result tables arrange the values according to the current result type:
+Az eredménytáblázatok az értékeket a megjelenített eredménytípusoknak megfelelően rendezik:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 
-- displacement type results (first or second order deformations, static or dynamic eigenshapes): finite element node number, displacement components
-- force type results (internal forces, forces or stresses on surface): finite element node number, finite element number, force components
-- reaction type results (reactions, equilibrium): finite element node number, reaction components.
+- elmozdulás típusú eredmények (első- másodrendű deformációk, statikus és dinamikus sajátalakok): végeselem pontok száma, elmozdulás komponensek
+- erő típusú eredmények (igénybevételek, felületi erők és feszültségek): végeselem pontok száma, végeselemek száma, erőkomponensek
+- reakció típusú eredmények (reakciók, egyensúly): végeselem pontok száma, reakció komponensek
 
 <!-- /wp:list -->
 
 <!-- wp:heading {"level":3} -->
 
-### Result markers
+### Jelölt eredmények
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-On the graphical interpretation of the results markers can be placed in order to show certain significant values. When moving the mouse along the structural elements (or more correctly the finite elements) the result markers continuously appear showing the actual values. These markers can be fixed by clicking on the right mouse button and choosing the ‘Marker’ option.
+Az eredmények grafikus megjelenítésén jelölők helyezhetők el, amelyekkel megmutathatók az értékek. Szerkezeti elemeken történő egér mozgatás esetén, az eredmény jelölő folyamatosan megjelenik, mutatva az aktuális értékeket. Ezek a jelölők rögzíthetők a jobb egér gombbal történő kattintással és a „Megjelölés” opció választásával.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The fixed markers will appear on every result views where it has interpretable value:
+Az elhelyezett jelölők minden eredménynézetben láthatók, ahol van értelmezhető eredmény:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 
-- Deformation
+- Alakváltozás
 
 <!-- /wp:list -->
 
@@ -400,7 +340,7 @@ The fixed markers will appear on every result views where it has interpretable v
 
 <!-- wp:paragraph -->
 
-Normal force
+Normál erők
 
 <!-- /wp:paragraph -->
 
@@ -412,7 +352,7 @@ Normal force
 
 <!-- wp:paragraph -->
 
-Bending moment
+Hajlító nyomaték
 
 <!-- /wp:paragraph -->
 
@@ -430,247 +370,240 @@ Bending moment
 
 <!-- wp:paragraph -->
 
-When there are fixed markers on the model the ‘User defined values’ table contains the appropriate (view dependent) values of the marked points. In this table the markers can be switched to disabled by uncheck the proper row.
+Elhelyezett jelölők esetén a „Felhasználói értékek” táblázat tartalmazza a megfelelő értékeket a jelölt pontokban. A táblázatban a jelölök ki/bekapcsolhatók a sorok előtti jelölőnégyzetekkel.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":10806,"sizeSlug":"large","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":36882,"width":768,"height":74,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2021-04-8-6-4-ENVELOPE-FIGURES.3-1024x76.png)](https://consteelsoftware.com/wp-content/uploads/2021/04/8-6-4-ENVELOPE-FIGURES.3.png)
+[![](./img/wp-content-uploads-2022-06-scr_anal_tablazat-1024x99.png)](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_anal_tablazat.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-The markers can be deleted by:
+A jelölők az alábbi módokon törölhetők:
 
 <!-- /wp:paragraph -->
 
-<!-- wp:list -->
+<!-- wp:list {"type":"a"} -->
 
-- click on the proper row in the table by the right mouse button
-- click on the marked point on the graphics by the right mouse button and chose ‘Remove marker’
+- a táblázat megfelelő sorainak kijelölését követően jobb egérgombbal kattintva és a „Kijelölt sorok törlése” opció választásával
+- a grafikus megjelenítésen a jelölt pontra jobb egérgombbal kattintva a „Megjelölés törlése” opció választásával
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
-Extreme values can automatically marked by the check boxes on the ‘Extreme values’ table rows.
+A szélső értékek automatikusan megjelölhetők a „Szélső értékek elemenként” táblázat sorai előtt található jelölőnégyzet segítségével.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
 
-### Envelope figures
+### Burkoló ábrák
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-In ConSteel, _min. max and min-max_ envelope figures are available both for _bar members_, and _shell models_ too. Envelope visualization of results can be accessed through the** load combination** dropdown menu of the **Analysis **tab, after a successful calculation. Envelope figures are available both for first, and second order results. By default, there are two envelope figures to choose from, one for all of the calculated ULS and one for all of the calculated SLS combinations. It is possible to create custom envelope figures, which are explained in detail in the chapter _[**User defined envelope figures**](#User-defined-envelope-figures)_.
+Consteelben mind rúdelemekre, mind pedig héjfelületekre elérhető az eredmények burkolóábrán való megjelenítési módja. A burkolóábrák az **Analízis **fülön a **teherkombinációk és teheresetek** legördülő menüjéből érhetők el, ha rendelkezésre állnak első és/vagy másodrendű analízis eredmények. Alapértelmezésként két féle burkoló ábra érhető el, egy az összes teherbírási (ULS) egy pedig az összes használhatósági (SLS) kombinációkból származó eredményekhez. Ezek mellett lehetőség van létrehozni saját, egyedi adatok alapján összeállított burkoló ábrákat, erről részletes leírás az **_[Egyénileg összeállított burkoló ábrák](#User-defined-envelope-figures)_** c. fejezetben érhető el!
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":10812,"sizeSlug":"large","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":36890,"width":369,"height":238,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/8-6-4-ENVELOPE-FIGURES.png)](./img/wp-content-uploads-2021-04-8-6-4-ENVELOPE-FIGURES.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_anal_eredmenyek.png)](./img/wp-content-uploads-2022-06-scr_anal_eredmenyek.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-The following result types can be displayed through envelope figures (detailed explanation on Result types can be found in Chapter 8.6.1):
+A következő eredmény típusok ábrázolhatók burkoló ábrás megjelenítési módban (ld. még az **_[Eredmény típusok](#Result-types)_** alfejezetben található részletes leírást):
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true,"type":"I"} -->
 
-1. Internal forces for bar members
-2. Forces on shell
-3. Stresses on shell
+1. Igénybevételek rudakra
+2. Felületi igénybevételek héj elemeken
+3. Felületi feszültségek héj elemeken
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
-There is a colour scheme for the envelope figures. Minimal values represented with blue, while maximal values with a red diagram. When hovering the cursor above a point of an envelope, (either min or max), the value, and the load combination from which it is coming from, is displayed in a flag.
+A burkolóábrás megjelenítési mód a következő színsémával kerül megjelenítésre. A minimum értékekhez tartozó ábra pontjai kék színnel, míg a maximum értékekhez tartozó pontok piros színnel kerülnek megjelenítésre. A burkolóábra pontjai fölé mozgatva a kurzort, a megjelenő zászlón a burkoló érték mellett a teherkombináció is megjelenítésre kerül.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":10818,"sizeSlug":"large","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":36898,"width":768,"height":426,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2021-04-8-6-4-ENVELOPE-FIGURES.2-1024x476.jpg)](https://consteelsoftware.com/wp-content/uploads/2021/04/8-6-4-ENVELOPE-FIGURES.2.jpg)
+[![](./img/wp-content-uploads-2022-06-scr_anal_burkolo-1024x568.png)](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_anal_burkolo.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-Placing flags on the envelope figures values is also possible. In this case, the table on the bottom of the main window will contain every envelope information about the flagged point.
+A burkolóábrákon jobb egérgombbal a zászlók pozíciója a rögzíthető, ilyenkor az analízis eredmény megjelenítő táblázatban felhasználói értékek részénél kerülnek megjelenítésre a burkoló értékek.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":10824,"sizeSlug":"large","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":36906,"width":768,"height":73,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2021-04-8-6-4-ENVELOPE-FIGURES.3-1-1024x76.png)](https://consteelsoftware.com/wp-content/uploads/2021/04/8-6-4-ENVELOPE-FIGURES.3-1.png)
+[![](./img/wp-content-uploads-2022-06-scr_anal_tablazat_2-1024x97.png)](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_anal_tablazat_2.png)
 
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":4} -->
 
-#### User defined envelope figures
+#### Egyénileg összeállított burkoló ábrák
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-Besides the default, built-in envelope options (all ULS and SLS combinations), it is possible to create user-defined envelope figures. This means, that the results, from which the envelope function can build up the figure, can be specified, and saved as a new **User-defined envelope figure**. A definition can be initiated from the **Load combination** dropdown menu’s **Define envelope figure…** option, after a successful first and/or second-order analysis calculation.
+Az alapértelmezésként elérhető beépített burkolóábrákon (összes ULS és SLS kombináció alapján létrehozott ábrák) túl, lehetőség van egyénileg meghatározott adatok alapján létrehozott burkolóábrák használatára. Egyéni burkolóábrák létrehozására az **analízis** fül teheresetek és teherkombinációk legördülő menüjének **Egyénileg összeállított burkolóábrák** alatti **Összeállítások definiálása…** funkcióra kattintva van lehetőség.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":10830,"sizeSlug":"large","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":36914,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/8-6-4-1-USER-DEFINED-ENVELOPE-FIGURES.png)](./img/wp-content-uploads-2021-04-8-6-4-1-USER-DEFINED-ENVELOPE-FIGURES.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_anal_eredmenyek_egyeni.png)](./img/wp-content-uploads-2022-06-scr_anal_eredmenyek_egyeni.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-After clicking on the function, the **User-defined envelope **dialogue will appear. On this dialogue, any number of custom envelope figures can be created, using the **New **button.
+A megjelenő **egyénileg összeállított burkoló ábrák** dialógon az **Új** gomb megnyomásával hozhatók létre új burkolóábrák. Annak függvényében, hogy a Paraméterek panelon a teher kombinációk vagy a teher esetek van kijelölve, a **teherkombinációk és teheresetek** legördülő menü tartalma változik.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":10836,"width":700,"height":702,"sizeSlug":"large","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":36922,"width":478,"height":364,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2021-04-8-6-4-1-USER-DEFINED-ENVELOPE-FIGURES-1024x780.jpg)](https://consteelsoftware.com/wp-content/uploads/2021/04/8-6-4-1-USER-DEFINED-ENVELOPE-FIGURES.jpg)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_anal_eredmenyek_uj_burkolo.png)](./img/wp-content-uploads-2022-06-scr_anal_eredmenyek_uj_burkolo.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-If the Load combinations is selected at the **Parameters **part of the dialogue, the elements of the dropdown menu below **Load combinations or Load cases**, and the table below will be different.
+Ha a paraméterek panelon a teherkombinációk opció van kijelölve, a legördülő menüből a következő lehetőségek érhetők el:
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
+<!-- wp:list -->
 
-If the Load combinations is selected at the parameters, the options of the dropdown menu (#1) are:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:list {"type":"A"} -->
-
-- All load combinations: All of the calculated load combinations will be used for the envelope figure
-- Selected load combinations: Calculated load combinations can be selected with checkboxes to be taken into account for the envelope figure
-- Load combinations based on selected load cases: Only those load combinations will be taken into account, which are generated based on the selected loadcases, using the checkboxes
+- Összes teherkombináció: Minden leszámolt teherkombináció figyelembevétele a burkolóábra létrehozásához
+- Kiválasztott teherkombinációk: A jelölőnégyzetekkel kiválasztott teherkombinációk figyelembevétele a burkolóábra létrehozásához
+- Kiválasztott tehereseteket tartalmazó teherkombinációk: Azon teherkombinációk figyelembevétele a burkolóábra létrehozásához, melyek tartalmazzák a jelölőnégyzetekkel kiválasztott tehereseteket
 
 <!-- /wp:list -->
 
-<!-- wp:image {"align":"center","id":10842,"sizeSlug":"large","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":36930,"width":457,"height":207,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/8-6-4-1-USER-DEFINED-ENVELOPE-FIGURES-2.png)](./img/wp-content-uploads-2021-04-8-6-4-1-USER-DEFINED-ENVELOPE-FIGURES-2.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_anal_eredmenyek_uj_burkolo_kombinaciok.png)](./img/wp-content-uploads-2022-06-scr_anal_eredmenyek_uj_burkolo_kombinaciok.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-If the Load case is selected at the parameters, the options of the dropdown menu (#1) are:
+Ha a paraméterek panelon a teheresetek opció van kijelölve, a legördülő menüből a következő lehetőségek érhetők el:
 
 <!-- /wp:paragraph -->
 
-<!-- wp:list {"ordered":true,"type":"A"} -->
+<!-- wp:list -->
 
-1. All loadcases: All of the loadcases will be used for the envelope figure
-2. Selected loadcases: Only the selected loadcases will be used for the envelope figures
+- Összes tehereset: Minden leszámolt tehereset figyelembevétele a burkoló ábra előállításához
+- Kiválasztott teheresetek: Csak a jelölőnégyzetek segítségével kiválasztott teheresetek figyelembevétele a burkoló ábra előállításához
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
-After the user-defined envelopes are created, they will be listed at the** load combinations **dropdown menu of the **analysis tab, **and will be listed at the **User-defined** **envelope **part:
+Az egyéni burkolóábrák összeállítása után és a dialóg bezárása után azok a teheresetek és teherkombinációk legördülő menüben kerülnek listázásra, az **egyénileg összeállított burkolóábrák** rész alatt:
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":10848,"sizeSlug":"large","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":36940,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/8-6-4-1-USER-DEFINED-ENVELOPE-FIGURES.4.png)](./img/wp-content-uploads-2021-04-8-6-4-1-USER-DEFINED-ENVELOPE-FIGURES.4.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_anal_eredmenyek_egyeni_burkolo.png)](./img/wp-content-uploads-2022-06-scr_anal_eredmenyek_egyeni_burkolo.png)
 
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
 
-### Show original shape of structure
+### A szerkezet eredeti alakjának megtekintése
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-The **show original shape of structure **function ![](./img/wp-content-uploads-2021-06-cmd_anal_showorigshape.png) will show the original and the deformed shape of the structure at the same time:
+A szerkezet eredeti alakjának megtekintés funkció ![](./img/wp-content-uploads-2021-06-cmd_anal_showorigshape.png) megjeleníti a szerkezet eredeti és deformált alakját egy időben:
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":10854,"width":700,"height":481,"sizeSlug":"large","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":36948,"width":512,"height":262,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/8-6-4-SHOW-ORIGINAL-SHAPE-OF-STRUCTURE.png)](./img/wp-content-uploads-2021-04-8-6-4-SHOW-ORIGINAL-SHAPE-OF-STRUCTURE.png)
+[![](./img/wp-content-uploads-2022-06-scr_anal_eredeti_alak-1024x524.png)](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_anal_eredeti_alak.png)
 
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
 
-### Table of dominant values
+### Mértékadó értékek táblázata
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2021-04-cmd_anal_dominantvalue-1.png) The last icon on the Analysis tab activates the table of dominant values. The table is view sensitive which means that the dominant values are always selected from the current result type. Only the values at the ends of structural members are displayed. The functionality of the table is as follows:
+Az Analízis fül utolsó ikonja ![](./img/wp-content-uploads-2021-04-cmd_anal_dominantvalue-1.png) segítségével előállítható mértékadó értékek táblázata. A táblázat nézet érzékeny, ami azt jelenti, hogy mindig az aktuálisan nézett eredmény típus kerül dominánsként megjelölésre a táblázatban. A táblázatban csak a szerkezeti elemek végein lévő értékek kerülnek megjelenítésre. A táblázaton az alábbi lehetőségek találhatók:
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":10860,"width":700,"sizeSlug":"large","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":36960,"width":715,"height":507,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/8-6-5-TABLE-OF-DOMINANT-VALUES.png)](./img/wp-content-uploads-2021-04-8-6-5-TABLE-OF-DOMINANT-VALUES.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/06/tabl_analizis_mertekado.png)](./img/wp-content-uploads-2022-06-tabl_analizis_mertekado.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-
-**Limit state**: selection of appropriate load combinations belonging to resistance or serviceability limit states (the deformations are automatically appear for the serviceability limit state, while the internal forces and reactions for the resistance limit state)
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-**Extreme values: **setting the type of extreme values
+***Határállapot**: kiválasztható a vizsgált határállapot (a teherbírási határállapothoz a belső erők és a reakciók, míg a használhatósági határállapothoz a deformációk automatikusan megjelennek)
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-**Sort:** sorting the values for bars (structural members), bar groups or cross sections
+**Szélső értékek**: szélsőérték típusának kiválasztása
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-**Bar end: **handle the ends of the members separately (A, B ends) or together (Both ends)
+**Leválogatás**: az értékek megjelenítése rudanként, rúdcsoportonként vagy szelvényenként
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Single or multiple component selection is possible, the dominant values are always highlighted by colored cells, the ‘Dominant’ column contains the dominant components.
+**Rúdvég**: a rúdvégi eredmények megjeleníthetők külön-külön (A,B külön), vagy együtt is (Mindkét vég)
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":10866,"width":700,"sizeSlug":"large","linkDestination":"media"} -->
+<!-- wp:paragraph -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/8-6-5-TABLE-OF-DOMINANT-VALUES.2.png)](./img/wp-content-uploads-2021-04-8-6-5-TABLE-OF-DOMINANT-VALUES.2.png)
+Az önálló és a többszörös komponens kiválasztás is lehetséges. A kiválasztott mértékadó értékek cellái színezéssel kiemelésre kerülnek. A mértékadónak jelölt oszlop tartalmazza a mértékadó komponenseket.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":36968,"width":713,"height":505,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![](https://consteelsoftware.com/wp-content/uploads/2022/06/tabl_analizis_mertekado_2.png)](./img/wp-content-uploads-2022-06-tabl_analizis_mertekado_2.png)
 
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
 
-### Animation of dynamic shapes
+### Rezgésalakok animációja
 
 <!-- /wp:heading -->
 
@@ -680,7 +613,7 @@ Single or multiple component selection is possible, the dominant values are alwa
 
 <!-- wp:paragraph -->
 
-In the case of vibration analysis, the animation of the dynamic shapes can be reached to click on the ![](./img/wp-content-uploads-2021-04-cmd_anal_animation.png) icon. Animation speed can be increased and decreased with the slide bar.
+Dinamikai vizsgálat esetén elérhető a rezgés alakok animációja az ![](./img/wp-content-uploads-2021-04-cmd_anal_animation.png) ikonra kattintva. Az animáció sebessége a csúszka mozgatásával növelhető és csökkenthető.
 
 <!-- /wp:paragraph -->
 

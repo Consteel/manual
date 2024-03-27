@@ -1,67 +1,68 @@
 ---
 sidebar_position: 2
 ---
-# Model Check (Diagnostics)
+# Modell ellenőrzés (diagnosztika)
+<!-- wp:paragraph {"align":"justify"} -->
 
-In _ConSteel_ there is a possibility to perform a model check previous to executing any calculations. This function automatically runs before starting the finite element mesh generation or analysis but can be initiated any time (switching on the “Diagnostics” in the **View **menu and run) examining the recent state of the model. The checks performed when intiating diagnostics automatically and by the user are not exactly the same.
+A számítások futtatása előtt elvégezhető egy modell ellenőrzés. Az ellenőrzés automatikusan lefut minden végeselem modell generálás és analízis futtatása előtt, de elindítható függetlenül is a modellezés bármelyik fázisában ( a **[Nézet ](/manual/altalanos-ismertetes/a-fokepernyo/#View-menu)** menü „_Diagnosztika…_” funkciójával lehet megjeleníteni a [Diagnosztika ablakot](/manual/altalanos-ismertetes/a-fokepernyo/#Diagnostic-window), ahol a Diagnosztika gombbal indítható). Az automatikusan futó és a felhasználó által indított diagnosztika vizsgálatok nem teljesen egyeznek meg egymással.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-There are two kinds of diagnostics messages:
+Két típusú diagnosztika üzenet lehetséges:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 
-- **Error**: the errors make the calculations impossible or meaningless to execute so the detected errors stop further calculations
-- **Warning**: the warnings allow the calculations but notice the possible errors
+- **Hiba**: a hibák lehetetlenné teszik a modell számítását vagy értelmetlenné teszi az elvégzését. Hiba esetén számításokat nem lehet végrehajtani
+- **Figyelmeztetés**: a figyelmeztetés mellett elvégezhetők a számítások, de felhívja a figyelmet a lehetséges hibákra
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
-One part of the model checks are performed on the structural model (basic check), where basic requirements for the normal performance of a model are controlled; the other part is performed on the generated finite element model (pre-calculation check).
+Az ellenőrzés első lépéseként a szoftver a felhasználói modellt ellenőrzi (alapellenőrzés). Második lépésként a generált végeselemes modellt ellenőrzi a program (számítás előtti ellenőrzés).
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The following basic checks are performed:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-
-- existence of load on the structure
-- existence of support on the structure
-- length of bars, line loads and line supports
-- value for the thickness and finite element size for surface members
-- overlap, length and compatibility of haunches
-- multiple supports on the same place
-- compatibility of tension bars
-
-<!-- /wp:list -->
-
-<!-- wp:paragraph -->
-
-The following pre-calculation checks are performed:
+Az alábbi alapellenőrzések kerülnek elvégzésre:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 
-- overhang of line loads and line supports
-- point loads and point supports are not on the model
-- overlap of surface members
-- overlap of bar members
-- very small distance (&lt; 5 mm) between points or lines of surfaces, bars, loads or supports (the limit distance can be set in the **Options **menu)
+- van e teher a szerkezeten
+- van e támasz a szerkezeten
+- rudak, vonalmenti és erők és támaszok hosszának ellenőrzése
+- felületi elemek lemezvastagságainak és végeselem méreteinek ellenőrzése
+- átlapolás, kiékelés hosszának és elhelyezésének ellenőrzése
+- többszörös támasz elhelyezésének ellenőrzése
+- húzott elemek megfelelősségének ellenőrzése (nem lehet íves elem)
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
-The object in which the errors or warnings are detected can be selected and deleted from the diagnostics results table (in the middle of the right tables).
+Az alábbi számítás előtti ellenőrzések kerülnek elvégzésre:
+
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+
+- van-e túllógó vonalmenti erő és teher
+- pontbeli terhek és támaszok a szerkezeten vannak e
+- felületi elemek átlapolása
+- rúdelemek átlapolása
+- nagyon kis távolság (&lt;5 mm) a felületek, rudak, terhek, támaszok pontjai és vonalai között (a határtávolságok az _[Opciók](/manual/altalanos-ismertetes/a-fokepernyo/#Options-menu)_ menüben állíthatók)
+
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+
+A figyelmeztetéssel vagy hibával megjelölt objektumok kiválaszthatók és kitörölhetők a diagnosztika eredmény ablakon.
 
 <!-- /wp:paragraph -->

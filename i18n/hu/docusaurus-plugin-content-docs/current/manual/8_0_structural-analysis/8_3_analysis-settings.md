@@ -1,644 +1,350 @@
 ---
 sidebar_position: 3
 ---
-# Analysis Settings
-
-The required analysis types can be chosen and configured on the **Set Analysis parameters** dialogue, which can be open from the **Analysis tab** with the ![](./img/wp-content-uploads-2021-04-cmd_anal_set.png) command. This dialogue window consists of an overview page and four subpages. The three main parts of the **[Overview page](#overview-page)** are:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
-- Global settings (with the [**Subpage of global settings**](#subpage-of-global-settings))
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- Statical Analysis (with the **[Subpage of load cases](#subpage-of-load-cases)**, and the **[Subpage of load combinations](#subpage-of-load-combinations)**.)
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- Dynamic analysis (with the **[Subpage of dynamic](#subpage-of-dynamic-analysis)** analysis.)
-- <!-- /wp:list-item -->
-
-<!-- /wp:list -->
-
-<!-- wp:spacer -->
-
-<!-- /wp:spacer -->
-
-<!-- wp:heading {"level":3,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-### Overview page
-
-<!-- /wp:heading -->
-
+# Analízis beállítások
 <!-- wp:paragraph -->
 
-On the Overview page, the settings of the various analysis types are ordered into three separated groups as shown in the picture below.
+A végrehajtandó analízis típusok az Analízis beállításai ![](./img/wp-content-uploads-2021-04-cmd_anal_set.png) dialógon állíthatóak be. A beállítási lehetőségek könnyebb átláthatósága érdekében a dialóg [**összegző oldala**](#overview-page) három fő csoportra került szétosztásra, melyekről összesen további négy, részletes beállításokat tartalmazó aloldal nyitható meg. Ezek az aloldalak a következők:
 
-<!-- /wp:paragraph -->
+- Globális beállítások _(_**[_Globális beállítások részletezése aloldal_](#subpage-of-global-settings)**_)_
 
-<!-- wp:image {"align":"right","id":19929,"width":428,"height":422,"sizeSlug":"full","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+- Statikai számítások _(_**[_Teheresetek beállításainak részletezése_](#subpage-of-load-cases)**_, és _**[_Teherkombinációk beállításainak részletezése_](#subpage-of-load-combinations)**_ aloldal)_
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/8-4-1-OVERVIEW-PAGE.jpg)](./img/wp-content-uploads-2021-04-8-4-1-OVERVIEW-PAGE.jpg)
+- Dinamikai számítások _(_**[_Dinamikai számítások beállításainak részletezése aloldal_](#subpage-of-dynamic-analysis)**_)_
+
+
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/05/dial_analizis_beallitasok_globalis.png)](./img/wp-content-uploads-2022-05-dial_analizis_beallitasok_globalis.png)
 
 <!-- /wp:image -->
 
-<!-- wp:paragraph -->
-
-Settings of the **Global settings** group (#1) are applied for the whole model:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
-- With the **Global imperfection** dropdown menu, previously created Global imperfection (see. chapter 6.4) can be set for the model. Only one global imperfection group can be applied at the same time
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- **Include connection stiffness**: with this checkbox, the previously created and placed joints’ stiffness can be used during the calculation. By turning on the checkbox, connection stiffnesses will be applied to all of the load combinations in the model, as a default. For further settings, the **[Subpage of global settings](#Subpage-of-global-settings)** can be opened with the ![](./img/wp-content-uploads-2021-04-cmd_subpage.png) button.
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- By activating the **Cold formed purlin design mode**, all the purlins related objects can be taken into account, such as **Purlin line**, **Purlin overlap**, and **Purlin support zone**. In this mode, the buckling analysis and the global design will be performed only for a submodel that consists of the members containing Purlin line objects. In case there are purlin related objects in the model but the **Cold formed purlin design mode** is not active, the structural elements to which the purlin line objects are assigned will not be included in the second-order stiffness matrix and so their effect is not considered during linear buckling or second-order analysis.
-- <!-- /wp:list-item -->
-
-<!-- /wp:list -->
-
-<!-- wp:paragraph -->
-
-Settings of the **Statical analysis** group (#2):
-
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
-
-- Load cases group
-
-  <!-- wp:list -->
-
-  - <!-- wp:list-item -->
-  - **Elastic analysis of load cases**: as a default, Consteel produces results only for the load combinations. With this checkbox selected, the analysis results can be viewed by load cases as well. It is only valid for elastic calculations. By default, the results of all load cases will be calculated, but by opening the **[Subpage of Load cases](#Subpage-of-load-cases)** with the ![](./img/wp-content-uploads-2021-04-cmd_subpage.png) button, load cases can be selected manually.
-  - <!-- /wp:list-item -->
-  -
-  - <!-- wp:list-item -->
-  - **Second order analysis of buckling mode based imperfection load cases**: the results of the buckling mode based imperfection loads can be viewed separately for each imperfection in the imperfection group if this checkbox is selected. By default, all imperfection load cases will be selected, but by opening the **[Subpage of Load cases](#Subpage-of-load-cases)**, the selection can be changed.
-  - <!-- /wp:list-item -->
-  -
-  - <!-- wp:list-item -->
-  - **Elastic analysis of basic values of reactions for foundation checks**: for the special load combinations necessary for the foundation design in csJoint, the third checkbox should be checked.
-  - <!-- /wp:list-item -->
-
-  <!-- /wp:list -->
-
-- <!-- /wp:list-item -->
-
--
-
-* <!-- wp:list-item -->
-
-* In the Load combination group,
-
-  <!-- wp:list -->
-
-  - <!-- wp:list-item -->
-
-  - the type of analysis can be selected from the dropdown menu. Basically, two types of analysis can be performed:
-
-    <!-- wp:list -->
-
-    - <!-- wp:list-item -->
-    - **elastic**: all the elements have linear elastic material following the Hook-law,
-    - <!-- /wp:list-item -->
-    -
-    - <!-- wp:list-item -->
-    - **plastic**: plastic hinge analysis considering the concentrated plastification of special cross-sections due to bending moment. A detailed description is in chapter 8.4.2.
-    - <!-- /wp:list-item -->
-
-    <!-- /wp:list -->
-
-  - <!-- /wp:list-item -->
-
-  -
-
-  * <!-- wp:list-item -->
-
-  * **First- or second-order analysis** types can be selected separately for the ULS and the SLS load combinations.
-
-  * <!-- /wp:list-item -->
-
-  *
-
-  - <!-- wp:list-item -->
-
-  - With the **Buckling analysis** checkboxes, the buckling analysis can be selected. By default, 10 eigenshapes will be calculated for each load combination. This number can be modified in the **[Subpage of Load combinations](#Subpage-of-load-combinations)**.
-
-  - <!-- /wp:list-item -->
-
-  -
-
-  * <!-- wp:list-item -->
-
-  * **Buckling sensitivity** analysis is needed for the automatic selection of buckling shapes used in the global design of steel sections.
-
-  * <!-- /wp:list-item -->
-
-  *
-
-  - <!-- wp:list-item -->
-
-  - With the last checkbox, the **Imperfection sensitivity** analysis can be selected that is necessary for the automatic calculation of the amplitude of the buckling shape-based global imperfections.
-
-  - <!-- /wp:list-item -->
-
-  -
-
-  * <!-- wp:list-item -->
-
-  * Further options of the above analysis types and individual selection of the load combinations see the**\_ \_[Subpage of Load combinations](#Subpage-of-load-combinations)** with the ![](./img/wp-content-uploads-2021-04-cmd_subpage.png) button.
-
-  * <!-- /wp:list-item -->
-
-  <!-- /wp:list -->
-
-* <!-- /wp:list-item -->
-
-<!-- /wp:list -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
-- In the **Influence graphs** group, the calculation of the defined influence graphs can be selected.
-- <!-- /wp:list-item -->
-
-<!-- /wp:list -->
-
-<!-- wp:paragraph -->
-
-Settings of the **Dynamic analysis** group (#3:)
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-In the Dynamic analysis group, the parameters of the dynamic analysis can be set. Free vibration analysis and Modal Response Spectrum Analysis _(Seismic MRSA)_ can be calculated.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-For further settings, the **[Subpage of Dynamic analysis](#Subpage-of-dynamic-analysis)** can be opened with the ![](./img/wp-content-uploads-2021-04-cmd_subpage.png) button.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:spacer -->
-
-<!-- /wp:spacer -->
-
 <!-- wp:heading {"level":3,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-### Subpage of global settings
+### Összegző oldal
 
-<!-- /wp:heading -->
 
-<!-- wp:paragraph -->
 
-On this subpage, previously created and placed joints’ stiffnesses can be applied in the calculation in the selected load combinations. With the checkboxes in the second column, secant stiffness can be used instead of initial stiffness.
+A Beállítások összegzése fülön beállított analízis típusok az összes teherkombinációra le fognak futni. A jobb áttekinthetőség kedvéért a beállítások különböző csoportokba kerültek elhelyezésre.
 
-<!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":19935,"sizeSlug":"large","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+A **Globális beállítások** csoportban (#1) lévő beállítások az egész modellre érvényesek:
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/8-4-2-SUBPAGE-OF-GLOBAL-SETTINGS.png)](./img/wp-content-uploads-2021-04-8-4-2-SUBPAGE-OF-GLOBAL-SETTINGS.png)
+- A **_Globális imperfekció_** legördülő menü segítségével előzőleg létrehozott [_**Globális imperfekció**_](/manual/terhek/globalis-imperfekciok/) (lásd _[6.4 fejezet](/manual/terhek/globalis-imperfekciok/)_) helyezhető el a modellen. Egyszerre csak egy globális imperfekció csoport használható.
 
-<!-- /wp:image -->
+- A **_Kapcsolati merevség figyelembevétele_** jelölőnégyzet segítségével előzőleg létrehozott és elhelyezett szerkezeti csomópontok merevsége is figyelembe vehetők a számítás során. A jelölőnégyzet bekapcsolásával a kapcsolati merevségek alapértelmezés szerint a modellben lévő összes terhelési kombinációra alkalmazásra kerülnek. A kombinációk kézi kiválasztását a ![](./img/wp-content-uploads-2021-04-cmd_subpage.png) gombbal megnyitható [oldalon ](#Subpage-of-global-settings)lehet elvégezni.
 
-<!-- wp:spacer -->
+- **_Szelemen tervezés_** funkció bekapcsolásával figyelembe vehető minden olyan paraméter az analízis során, melyek korábban **[_szelemen tervező funkciók_](/manual/szerkezetmodellezes/szelemensor/)** segítségével definiálásra kerültek, mint például burkolat nyújtotta oldalirányú megtámasztás, átlapolásos toldás esetén a toldási szakasz merevsége. Ebben az üzemmódban a stabilitás vizsgálat és a szabványos méretezés csak a [_**Szelemensor objektumokat**_](/manual/szerkezetmodellezes/szelemensor/#Place-purlin-line) tartalmazó elemekből álló részmodellre lesz elvégezve. Ha a modellben vannak Szelemensorhoz kapcsolódó objektumok, de a Szelemen tervezés mód nem aktív, akkor azok a szerkezeti elemek, amelyekhez Szelemensor objektumok tartoznak, nem kerülnek be a másodrendű merevségi mátrixba, és így hatásuk nem kerül figyelembevételre a kihajlásvizsgálat vagy a másodrendű analízis során.
 
-<!-- /wp:spacer -->
 
-<!-- wp:heading {"level":3,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+A **Statikai számítások** (#2) csoport beállításai:
 
-### Subpage of load cases
 
-<!-- /wp:heading -->
 
-<!-- wp:image {"align":"right","id":21844,"width":490,"height":486,"sizeSlug":"full","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+- Teheresetek csoport
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/dia_anal_sub_LC.png)](./img/wp-content-uploads-2021-04-dia_anal_sub_LC.png)
+  - **_Teheresetek számítása rugalmas elven_**: alapértelmezés szerint a Consteel csak a teherkombinációkra ad eredményeket. Ha ez a jelölőnégyzet be van jelölve, az analízis eredményei (csak a rugalmas számítások esetében) terhelési esetek szerint is megtekinthetők. Alapértelmezés szerint az összes tehereset eredményei kiszámításra kerülnek, de a [**Teheresetek** ](#Subpage-of-load-cases)aloldalának a ![](./img/wp-content-uploads-2021-04-cmd_subpage.png) gombbal történő megnyitásával a terhelési esetek manuálisan is kiválaszthatók.
 
-<!-- /wp:image -->
+  - **_Stabilitási alakon alapuló imperfekciós teheresetek másodrendű számítása_** opció választása esetén a kiválasztott imperfekció csoport egyes elemeinek elkülönített, másodrendű eredményeinek a megjelenítésére is lehetőség van. Alapértelmezés szerint az összes imperfekciós tehereset ki lesz választva, de a **[Teheresetek](#Subpage-of-load-cases)** aloldal ![](./img/wp-content-uploads-2021-04-cmd_subpage.png) megnyitásával a kiválasztás megváltoztatható.
+  
+  - **_Reakcióerők alapértékeinek meghatározása…_** jelölőnégyzet szükséges egyes alapozás számításokhoz a csJoint programban.
+  
+  - A további beállítások a gombbal megnyíló Teheresetek beállításainak részletezése aloldalon 8.4.3 érhetők el.
+  
 
-<!-- wp:paragraph -->
+- A teherkombinációk csoport
 
-This subpage has three main parts:
+  - alatt két különböző számítási típus választható a legördülő menüből:
 
-<!-- /wp:paragraph -->
+    - **rugalmas**: az összes szerkezeti elem lineárisan rugalmas anyagtulajdonsággal rendelkezik (Hook törvény),
+    - **képlékeny**: a képlékeny csukló analízis figyelembe veszi a speciális keresztmetszetek hajlító nyomaték okozta koncentrált képlékenyedését, részleteket lásd a 8.5.2 fejezetben.
 
-<!-- wp:paragraph -->
+  - A jelölőnégyzetekkel a szükséges analízis (**első-, illetve másodrendű**) típusok kapcsolhatóak be, külön-külön a teherbírási és használhatósági határállapotokhoz tartozó teherkombinációk esetén.
 
-The load cases table (#1)
+  - **Stabilitási számítás**. A stabilitás számítások bekapcsolásakor alapesetben 10 sajátalak kerül leszámolásra minden egyes teherkombinációban. (A sajátalakok száma a csoporthoz tartozó [aloldalon](#Subpage-of-load-combinations) módosítható) A jelölőnégyzeteket be-, illetve kikapcsolva az adott számítási típus az összes teherkombinációra alkalmazásra kerül.
 
-<!-- /wp:paragraph -->
+  - **Stabilitási érzékenység vizsgálat**ra az acélszelvények szabványos méretezéséhez használt sajátalakok automatikus kiválasztásához van szükség.
 
-<!-- wp:paragraph {"align":"justify"} -->
+  - Az **imperfekciós érzékenység vizsgálat** bekapcsolása szükséges, ha a _[6.4.3.2 pontban](/manual/terhek/globalis-imperfekciok/#Automatic-amplitude-calculation)_ leírt, egyenértékű tökéletlenség módszerével (OIM) skálázott, sajátalak alapú imperfekciós terhet szeretnénk alkalmazni a szerkezeten.
 
-In this table, all of the loadcases are listed. With the checkboxes, it can be decided which of them should be calculated during the analysis. Results for load cases will be calculated according to the settings in the result tree (#2)
+  - Az egyes vizsgálatokhoz tartozó további beállítások, teherkombinációk egyedi kiválasztása a ![](./img/wp-content-uploads-2021-04-cmd_subpage.png) gombbal megnyíló **[Teherkombinációk beállításainak részletezése aloldalon](#Subpage-of-load-combinations)** érhetők el..
 
-<!-- /wp:paragraph -->
+- **Hatásábra** számítása, az előzőleg kiválasztott hatásvonalon a jelölőnégyzet bekapcsolásával elvégezhető.
 
-<!-- wp:paragraph -->
 
-The result tree (#2)
+A Dinamikai számítások csoport (#3) beállításai:
 
-<!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"align":"justify"} -->
+A dinamikai számítások csoport alatti két jelölőnégyzet segítségével számítható a szabadrezgés, és válaszspektrum analízis
 
-In the result tree, it can be decided which result type should be calculated for the load cases. Calculated results can be a common setting for all of the load cases if the Use common settings checkbox is clicked. If it is unclicked, calculated results can be set differently for each loadcases by clicking on the name of a loadcase, and selecting the proper result types.
 
-<!-- /wp:paragraph -->
+A további beállítások a![](./img/wp-content-uploads-2021-04-cmd_subpage.png) gombbal megnyíló _**[Dinamikai számítások beállításainak részletezése aloldalon](#Subpage-of-dynamic-analysis)**_ érhetők el.
 
-<!-- wp:paragraph -->
 
-The imperfection load cases table (#3)
+### Globális analízis beállításainak részletezése aloldal
 
-<!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
+Az aloldalon a második oszlopban található jelölőnégyzetek segítségével előzőleg létrehozott és elhelyezett szerkezeti csomópontok merevsége vehető figyelembe a számítás során. A harmadik oszlopban lévő jelölőnégyzetek használatával a szekáns merevség választható a kezdeti merevség helyett.
 
-Imperfection load cases can be selected for the second order analysis results of buckling mode based imperfection load cases.
 
-<!-- /wp:paragraph -->
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/05/dial_analizis_beallitasok_globalis_aloldal.png)](./img/wp-content-uploads-2022-05-dial_analizis_beallitasok_globalis_aloldal.png)
 
-<!-- wp:spacer -->
 
-<!-- /wp:spacer -->
+### Teheresetek analízis beállításainak részletezése aloldal
 
-<!-- wp:heading {"level":3,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-### Subpage of load combinations
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/05/dial_analizis_beallitasok_aloldal_teheresetek-2.png)](./img/wp-content-uploads-2022-05-dial_analizis_beallitasok_aloldal_teheresetek-2.png)
 
-<!-- /wp:heading -->
 
-<!-- wp:paragraph {"fontSize":"medium"} -->
+Az aloldal három fő része:
+
+
+Teheresetek táblázat (#1)
+
+
+A táblázatban a modellben létrehozott teheresetek kerülnek listázásra. A jelölőnégyzetek segítségével eldönthető, hogy mely tehereseteket szeretnénk leszámolni az analízis során. Az eredmények a jobb oldalon lévő eredménytípusok fa (#2) beállításainak megfelelően kerülnek leszámolásra.
+
+
+Eredménytípusok fa (#2)
+
+
+A fában a jelölőnégyzetek segítségével teheresetenként beállítható, hogy mely típusú eredményeket szeretnénk leszámítani az analízis során. A közös beállítások használata jelölőnégyzettel a fa beállításai az összes teheresetre alkalmazásra kerülnek. Ha ez nincs bejelölve, a számított eredmények az egyes tehereseteknél különbözőképpen állíthatók be. Ehhez a teheresetek nevére kattintva egyenként kell a megfelelő eredménytípusokat kiválasztani.
+
+
+Imperfekciós teheresetek tábla (#3)
+
+
+Imperfekciós teheresetek kiválasztása másodrendű számításokhoz. Eredmények csak az itt kiválasztott esetekre lesznek elérhetők.
+
+
+### Teherkombinációk analízis beállításainak részletezése aloldal
+
 
 **Consteel 16**
 
-<!-- /wp:paragraph -->
 
-<!-- wp:columns -->
+Az aloldal négy részből áll:
 
-<!-- wp:column -->
 
-<!-- wp:paragraph -->
+![Analízis beállítás kombinációk aloldal](./img/wp-content-uploads-2023-07-Analizis_beallitas_aloldal_kombinaciok_szamokkal.png)
 
-This subpage has four main parts:
 
-<!-- /wp:paragraph -->
+Figyelembe vett részletmodellek, és kihajlási alakok felső határértéke (#1)
 
-<!-- wp:paragraph -->
 
-Portion and relevant buckling eigenvalues settings (#1)
+Mind a másodrendű, mind pedig a stabilitási számítások elvégezhetők külön részletmodellekre.
 
-<!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"align":"justify"} -->
-
-In the dropdown menu, the previously created model portions or the whole model can be selected for the second-order and the buckling analysis. The analysis will be performed just for the selected portion. Here can be set also the upper limit of the relevant buckling eigenvalues. The first eigenvalue which is greater than the limit will be shown for information among the analysis results. All other eigenvalues which are higher than the limit will be skipped.
+Másodrendű számításnál figyelembe vett részletmodell segítségével olyan instabil modellrészletek hagyhatók ki a másodrendű számításokból, amelyek megakadályoznák a számítások futását.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The load combinations sets (#2)
+Stabilitás számítást részletmodellre futtatva a részletmodellben nem szereplő elemekre stabilitási számítások nem lesznek elvégezve. Ezek az elemek merevségükkel, mint megtámasztó hatás lesznek figyelembe véve a számítás során.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The previously defined load combination sets can be selected for analysis from the drop-down menu. When **_No set selected_** is shown, all the combinations existent in the current model are visible.
+Itt lehet megadni a releváns kihajlási sajátérték felső határát is. Az összes olyan sajátalak, amelynek a sajátértéke nagyobb, mint a megadott érték, ki lesz hagyva. Emiatt a leszámolt sajátalakok száma lehet kevesebb, mint a beállított.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-To see how to create load combination sets, see ****[Load combination sets.](https://consteelsoftware.com/manual/structural-loads/load-combination/#load-combination-sets)****
-
-<!-- /wp:paragraph -->
-
-<!-- /wp:column -->
-
-<!-- wp:column -->
-
-<!-- wp:image {"id":47510,"sizeSlug":"large","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2023-04-Analysis-settings-1-1024x1015.png)
-
-<!-- /wp:image -->
-
-<!-- /wp:column -->
-
-<!-- /wp:columns -->
-
-<!-- wp:paragraph -->
-
-The load combinations table (#3)
+Teherkombináció csomag megadása (#2)
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-In this table, all of the load combinations which are included the selected load combination set are listed. With the checkboxes in the columns, the analysis types and parameters can be set for each combination separately. The columns are as follows:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
-- To calculate: it can be decided which of the load combinations should be included in the analysis.
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- Name of the load combination.
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- Limit state of the load combination.
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- First-order analysis and
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- second-order analysis can be turned on or off.
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- The number of buckling eigenshapes can be given for each combination individually.
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- Buckling sensitivity calculation and
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- Imperfection sensitivity calculation can be turned on or off.
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- Effective section property: using only the reduced effective cross-sectional properties for the selected SLS combinations
-- <!-- /wp:list-item -->
-
-<!-- /wp:list -->
-
-<!-- wp:paragraph -->
-
-To see how to edit multiple rows of the table at a time go to **_[Chapter 1.4 General functions of tables](/manual/how-to-open-consteel/general-functions-for-tables/)_**.
+Az analízishez a legördülő menüből kiválasztható egy korábban definiált teherkombinációs csomag. A „Nincs kiválasztott csomag” opció esetén az összes kombináció látható, amely az aktuális modellben létezik.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The result tree (#4)
+A teherkombinációs csomagok létrehozásának módját lásd a [**Teherkombinációs csomagok**](/manual/terhek/teherkombinaciok/#Teherkombinacios-csomagok) oldalon.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Result types to be calculated can be selected for the load combinations. Calculated results can be a general setting for all of the load combinations if the _Use common settings_ checkbox is clicked. If it is unclicked, calculated results can be set differently for each load combination by clicking on the name of a load combination, and by selecting the proper result types.
+Teherkombinációk táblázat (#3)
 
 <!-- /wp:paragraph -->
 
-<!-- wp:spacer -->
+<!-- wp:paragraph -->
 
-<!-- /wp:spacer -->
+Ebben a táblázatban megtalálható a modellben létrehozott összes teherkombináció. Az oszlopokban lévő jelölőnégyzetekkel az egyes kombinációkhoz külön-külön beállíthatók az analízis típusai és a kihajlási alakok kívánt száma is. Az oszlopok a következők:
 
-<!-- wp:paragraph {"fontSize":"medium"} -->
+- Számítandó: eldönthető, hogy mely teherkombinációkat kell figyelembe venni az analízis során.
+
+- A teherkombináció neve
+
+- A teherkombináció határállapota
+
+- Elsőrendű és
+
+- másodrendű analízis be- vagy kikapcsolható.
+
+- Minden egyes kombinációhoz külön-külön megadható a kihajlási sajátalakok száma.
+
+- Kihajlás érzékenység vizsgálat és
+
+- Imperfekció érzékenység vizsgálat be- vagy kikapcsolható.
+
+- Hatékony keresztmetszeti jellemzők: a kiválasztott SLS-kombinációkhoz a csökkentett effektív keresztmetszeti jellemzők használata.
+
+
+A táblázatok szerkesztését ld. az **_[1.4. A táblázatok általános funkciói című fejezetben](/manual/altalanos-ismertetes/tablazatok-altalanos-funkcioi/)_** olvashatja.
+
+
+Eredménytípusok fa (#4)
+
+
+A fában a jelölőnégyzetek segítségével teheresetenként beállítható, hogy mely típusú eredményeket szeretnénk leszámítani az analízis során. A közös beállítások használata gombbal a fa beállításai az összes teherkombinációra alkalmazásra kerülnek. Ha ez nincs bejelölve, a számított eredmények az egyes kombinációknál különbözőképpen állíthatók be. Ehhez a kombinációk nevére kattintva egyenként kell a megfelelő eredménytípusokat kiválasztani.
+
 
 **Consteel 15**
 
+
+Az aloldal három fő része:
+
+
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/dial_analizis_beallitasok_aloldal_kombinaciok.png)](./img/wp-content-uploads-2022-06-dial_analizis_beallitasok_aloldal_kombinaciok.png)
+
+
+Figyelembe vett részletmodellek, és kihajlási alakok felső határértéke (#1)
+
+
+Mind a másodrendű, mind pedig a stabilitási számítások elvégezhetők külön részletmodellekre.
+
+
+Másodrendű számításnál figyelembe vett részletmodell segítségével olyan instabil modellrészletek hagyhatók ki a másodrendű számításokból, amelyek megakadályoznák a számítások futását.
+
+
+Stabilitás számítást részletmodellre futtatva a részletmodellben nem szereplő elemekre stabilitási számítások nem lesznek elvégezve. Ezek az elemek merevségükkel, mint megtámasztó hatás lesznek figyelembe véve a számítás során.
+
+Itt lehet megadni a releváns kihajlási sajátérték felső határát is. Az összes olyan sajátalak, amelynek a sajátértéke nagyobb, mint a megadott érték, ki lesz hagyva. Emiatt a leszámolt sajátalakok száma lehet kevesebb, mint a beállított.
+
+
+Teherkombinációk táblázat (#2)
+
+
+Ebben a táblázatban megtalálható a modellben létrehozott összes teherkombináció. Az oszlopokban lévő jelölőnégyzetekkel az egyes kombinációkhoz külön-külön beállíthatók az analízis típusai és a kihajlási alakok kívánt száma is. Az oszlopok a következők:
+
+- Számítandó: eldönthető, hogy mely teherkombinációkat kell figyelembe venni az analízis során.
+
+- A teherkombináció neve.
+
+- Elsőrendű és
+
+- másodrendű analízis be- vagy kikapcsolható.
+
+- Minden egyes kombinációhoz külön-külön megadható a kihajlási sajátalakok száma.
+
+- Kihajlás érzékenység vizsgálat és
+
+- Imperfekció érzékenység vizsgálat be- vagy kikapcsolható.
+
+- Hatékony keresztmetszeti jellemzők: a kiválasztott SLS-kombinációkhoz a csökkentett effektív keresztmetszeti jellemzők használata.
+
+
+A táblázatok szerkesztését ld. az **[1.4. A táblázatok általános funkciói című fejezetben](/manual/altalanos-ismertetes/tablazatok-altalanos-funkcioi/)** olvashatja.
+
+
+Eredménytípusok fa (#3)
+
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"right","id":21851,"width":490,"height":487,"sizeSlug":"full","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+<!-- wp:paragraph -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/dia_anal_sub_LCC.png)](./img/wp-content-uploads-2021-04-dia_anal_sub_LCC.png)
+A fában a jelölőnégyzetek segítségével teheresetenként beállítható, hogy mely típusú eredményeket szeretnénk leszámítani az analízis során. A közös beállítások használata gombbal a fa beállításai az összes teherkombinációra alkalmazásra kerülnek. Ha ez nincs bejelölve, a számított eredmények az egyes kombinációknál különbözőképpen állíthatók be. Ehhez a kombinációk nevére kattintva egyenként kell a megfelelő eredménytípusokat kiválasztani.
+
+
+### Dinamikai számítások analízis beállításainak részletezése aloldal
+
+
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/dial_analizis_beallitasok_aloldal_dinamika.png)](./img/wp-content-uploads-2022-06-dial_analizis_beallitasok_aloldal_dinamika.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-This subpage has three main parts:
+Az aloldal három fő része:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Portion and relevant buckling eigenvalues settings (#1)
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-In the dropdown menu, the previously created model portions or the whole model can be selected for the second-order and the buckling analysis. The analysis will be performed just for the selected portion. Here can be set also the upper limit of the relevant buckling eigenvalues. All the eigenvalues which are higher than the limit will be skipped. As a result, the final number of the calculated eigenshapes could be less than required.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-The load combinations table (#2)
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-In this table, all of the load combinations are listed. With the checkboxes in the columns, the analysis types and parameters can be set for each combination separately. The columns are as follows:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
-- To calculate: it can be decided which of the load combinations should be included in the analysis.
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- Name of the load combination.
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- First-order analysis and
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- second-order analysis can be turned on or off.
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- The number of buckling eigenshapes can be given for each combination individually.
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- Buckling sensitivity calculation and
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- Imperfection sensitivity calculation can be turned on or off.
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- Effective section property: using only the reduced effective cross-sectional properties for the selected SLS combinations
-- <!-- /wp:list-item -->
-
-<!-- /wp:list -->
-
-<!-- wp:paragraph -->
-
-To see how to edit multiple rows of the table at a time go to **_[Chapter 1.4 General functions of tables](/manual/how-to-open-consteel/general-functions-for-tables/)_**.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-The result tree (#3)
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-Result types to be calculated can be selected for the load combinations. Calculated results can be a general setting for all of the load combinations if the _Use common settings_ checkbox is clicked. If it is unclicked, calculated results can be set differently for each load combination by clicking on the name of a load combination, and by selecting the proper result types.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:spacer -->
-
-<!-- /wp:spacer -->
-
-<!-- wp:heading {"level":3,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-### Subpage of dynamic analysis
-
-<!-- /wp:heading -->
-
-<!-- wp:image {"align":"right","id":21862,"width":490,"height":547,"sizeSlug":"full","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/dia_anal_sub_dyn.png)](./img/wp-content-uploads-2021-04-dia_anal_sub_dyn.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-This subpage has three main parts:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-The dynamic calculation settings table (#1)
+A dinamikai számítások beállításainak táblázata (#1)
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-At the top of the table, it can be decided, if the first, or the second-order stiffness matrix should be used for the dynamic calculations. In case if the second-order stiffness checkbox is checked, an additional Load combination column will appear in the table below, where it has to be decided which load combination’s second-order stiffness should be used for each seismic or dynamic calculation.
+A táblázat felett kiválasztható, hogy a dinamikai számításokhoz az első vagy másodrendű merevségi mátrix kerüljön figyelembevételre. Másodrendű merevséget választva a táblázatban megjelenik egy Teherkombináció oszlop, ahol a dinamikai számításhoz használt tömegkombinációkhoz külön definiálandó, hogy azokhoz mely teherkombináció másodrendű mátrixai legyenek figyelembe véve.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-In the table, the previously defined seismic effect, and all of the mass combinations are being listed as individual rows. Number of dynamic eigenshapes can be defined for each effect and mass combination, the default value is 10.
+A táblázatban előzőleg az definiált földrengés hatás mellett az összes tömegkombináció listázásra kerül. A dinamikai számításokhoz alapesetben 10 sajátalak kerül leszámolásra minden egyes tömegkombinációra, ami tetszés szerint módosítható.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The rows of the table can be separated into two groups:
+A táblázat sorai két csoportra oszthatók:
 
-<!-- /wp:paragraph -->
 
-<!-- wp:list -->
+- **A,** Első sor: modális válaszspektrum analízis beállításai
 
-- <!-- wp:list-item -->
-- A, Row for Modal Response Spectrum Analysis (MRSA)
-- <!-- /wp:list-item -->
 
-<!-- /wp:list -->
+A táblázat első sora (amennyiben van definiált földrengés hatás) minden esetben a modális válaszspektrum analízisnek van fenntartva.
 
-<!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+- **B,** Szabadrezgés, és válaszspektrum analízis
 
-For seismic MRSA calculation, it is necessary to have at least one **Seismic effect** defined and assigned to the seismic load group in the model. For the definition of seismic effects, please see **[Chapter 12 Earthquake analysis](https://consteelsite.codecache.hu/manual/seismic-analysis/)**.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
-- B, Rows for dynamic and response spectrum analysis
-- <!-- /wp:list-item -->
-
-<!-- /wp:list -->
-
-<!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-Each defined **mass combination** is listed as an individual row in the table.
+A modális válaszspektrum analízis sora után a modellben definiált tömegesetek felsorolása követi. Minden tömegesetre elvégezhető a szabad rezgés analízis, ami kiegészíthető válaszspektrum analízissel.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-According to the settings on the analysis Overview page in chapter **8.4.1**, free vibration and response spectrum analysis can be performed.
+Abban az esetben, ha a „Számítandó” oszlopban egy adott tömegkombináció bekapcsolt, a „Válaszspektrum analízis” pedig kikapcsolt állapotban van, a számítás gombra kattintva a szabad rezgés analízis fog lefutni. Ha a „válaszspektrum analízis” is bekapcsolt állapotban van (és a modellben van definiált válaszspektrum), a szabadrezgés számítás válaszspektrum analízissel is kiegészül.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-In the case if the check box of “To calculate” is turned on, and “Response spectrum analysis” is turned off for a mass combination, only a **free vibration analysis **will be performed.
+Válaszspektrum analízis beállítások (#2)
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-In the case if both the “To calculate” and “Response spectrum analysis” checkboxes are turned on for a mass combination, **response spectrum analysis** will be added to the free vibration calculation. This requires a predefined response spectrum in the model.
+A relatív modális csillapítási tényezőnek és a rezgésalakok különböző irányokba való figyelembevételének beállítási lehetőségét takarja.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The Response spectrum analysis settings (#2)
+Itt két paramétert lehet meghatározni:
 
-<!-- /wp:paragraph -->
+- Relatív modális csillapítási tényező
 
-<!-- wp:paragraph -->
+- A rezgésalakok különböző irányokba való figyelembevételének beállításai. Alapértelmezés szerint az összes modális alakot figyelembe veszi. Ez megváltoztatható a legördülő menü segítségével, megadva az egyes irányok minimális effektív modális tömegeinek az értékét. Ebben az esetben azok az alakok, amelyek nem tartalmazzák a beállított minimális modális tömeget, nem lesznek figyelembe véve a számításban.
 
-Two parameters can be defined here:
 
-<!-- /wp:paragraph -->
+Ebben a mezőben lehet meghatározni a hiányzó tömegek figyelembevételének módját is. Itt kétféle beállítás közül lehet választani:
 
-<!-- wp:list -->
+- Alapértelmezésben csak a meghatározott rezgésalakokban szereplő tömegek lesznek figyelembe véve,
 
-- <!-- wp:list-item -->
-- Relative modal damping factor
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- Consideration of modal shapes in the analysis. By default, all of the modal shapes will be considered. That can be changed using the dropdown menu and setting the minimum value of effective modal masses in each directions. In this case, shapes that do not contain the set minimal modal mass will not be considered in the calculation.
-- <!-- /wp:list-item -->
+- de választható a hiányzó tömegek hozzáadása is meghatározott gyorsulási értékkel.
 
-<!-- /wp:list -->
 
-<!-- wp:paragraph -->
+Eredménytípusok fa (#3)
 
-The result tree (#3)
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-In the result tree, it can be decided, which result type should be calculated for the mass combinations. Calculated results can be a general setting for all of the mass combinations if the **Use common settings** checkbox is clicked. If it is unclicked, calculated results can be set differently for each mass combinations by clicking on the name of a mass combination, and by selecting the proper result types.
-
-<!-- /wp:paragraph -->
+A fában a jelölőnégyzetek segítségével teheresetenként beállítható, hogy mely típusú eredményeket szeretnénk leszámítani az analízis során. A közös beállítások használata gombbal a fa beállításai az összes teherkombinációra alkalmazásra kerülnek. Ha ez nincs bejelölve, a számított eredmények az egyes tömeg kombinációknál különbözőképpen állíthatók be. Ehhez a kombinációk nevére kattintva egyenként kell a megfelelő eredménytípusokat kiválasztani.

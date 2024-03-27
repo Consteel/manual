@@ -1,46 +1,47 @@
 ---
 sidebar_position: 4
 ---
-# Analysis types
+# Analízis típusok
+<!-- wp:heading {"level":3} -->
 
-### Elastic analysis
+### Rugalmas analízis
 
 <!-- /wp:heading -->
 
 <!-- wp:heading {"level":4} -->
 
-#### First order
+#### Elsőrendű analízis
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-The first order analysis calculates the structural response considering the initial stiffness of the model. It is advisable to run a first order analysis in order to check the model performance before executing more costly calculations (for instance eigenvalue analysis). The steps of the first order analysis are the following:
+Az elsőrendű analízis a szerkezete kezdeti merevsége alapján számítja ki a szerkezet alakváltozásait, igénybevételeit. A modell elkészülte után ajánlatos először elsőrendű analízist futtatni és ez alapján leellenőrizni a szerkezet viselkedését, mielőtt időigényesebb számítást futtatnánk (például sajátérték számítás). Az elsőrendű számítás végrehajtásának lépései a következők:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true,"type":"1"} -->
 
-1. Calculation of first order (initial) stiffness matrices ($K_s^{el}$) of the finite elements in their local coordinate system
-2. Compiling the global stiffness matrix ($K_s$) and nodal force vector ($P$) of the whole model by transforming the element stiffness matrices into the global coordinate system
-3. Modifying the global stiffness matrix and nodal force vector considering the special boundary conditions (supports, continuity releases between the elements, prescribed displacements, temperature loads etc.)
-4. Solution of the basic linear system of equations which writes the relationship between the applied nodal forces – known variables generated from the loads – and the nodal displacements – unknown variables ($U$) – in the global coordinate system for the global model (see section 8.2 Finite elements for the interpretation of nodal displacements and forces):
+1. A végeselem elsőrendű (kezdeti) merevségi mátrixának számítása lokális koordináta rendszerben
+2. A teljes szerkezet globális merevségi mátrixának ($K_s$) és erővektorának ($P$) előállítása, az elem merevségi mátrixok globális koordináta rendszerbe történő transzformálásával
+3. A globális merevségi mátrix és az erővektor módosítása a peremfeltételek figyelembevételével (támaszok, rúdvégi folytonosság, előírt elmozdulás, hőmérsékletteher stb.)
+4. Az alkalmazott csomóponti erők – a terhekből előállított ismert változó – és a csomóponti elmozdulások – ismeretlen változó ($U$) – közötti kapcsolatot leíró lineáris egyenletrendszer megoldása a szerkezet globális koordináta rendszerében a globális modellre (a csomóponti elmozdulások és erők értelmezését lásd. **_[8.1 Végeselemek](/manual/szerkezetek-analizise/vegeselemek/)_** fejezetben):
 
 <!-- /wp:list -->
 
 <!-- wp:columns -->
 
-<!-- wp:column {"width":50,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+<!-- wp:column {"width":"50%","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false},"editorskit_typography":{"name":"","family":"","weight":""},"extUtilities":[]} -->
 
 <!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-$K_sU=P \\rightarrow U=K\_{s}^{-1}P$
+![alt text](image.png)
 
 <!-- /wp:paragraph -->
 
 <!-- /wp:column -->
 
-<!-- wp:column {"width":50} -->
+<!-- wp:column {"width":"50%","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false},"editorskit_typography":{"name":"","family":"","weight":""},"extUtilities":[]} -->
 
 <!-- wp:paragraph {"align":"right"} -->
 
@@ -54,13 +55,13 @@ $K_sU=P \\rightarrow U=K\_{s}^{-1}P$
 
 <!-- wp:list {"ordered":true,"start":5,"className":"is-style-default"} -->
 
-5. Calculation of the internal forces (and stresses) of the elements ($f^{el}$) in their local coordinate system by transforming the global nodal displacements of the element into local system ($u^{el}$) using their local stiffness matrices:
+5. Az elemek igénybevételeinek (és feszültségeinek) ($f^{el}$) számítása a lokális koordináta rendszerekben, az elemek globális csomóponti elmozdulásainak lokális merevségi mátrixszal lokális koordináta rendszerekbe ($u^{el}$) való transzformálásával:
 
 <!-- /wp:list -->
 
 <!-- wp:columns -->
 
-<!-- wp:column {"width":50,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+<!-- wp:column {"width":"50%","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false},"editorskit_typography":{"name":"","family":"","weight":""},"extUtilities":[]} -->
 
 <!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
@@ -70,7 +71,7 @@ $f^{el}=K_s^{el}u^{el}$
 
 <!-- /wp:column -->
 
-<!-- wp:column {"width":50} -->
+<!-- wp:column {"width":"50%","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false},"editorskit_typography":{"name":"","family":"","weight":""},"extUtilities":[]} -->
 
 <!-- wp:paragraph {"align":"right"} -->
 
@@ -84,39 +85,39 @@ $f^{el}=K_s^{el}u^{el}$
 
 <!-- wp:heading {"level":4} -->
 
-#### Second order
+#### Másodrendű számítás
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-The second order calculations take into account that the loaded and deformed structure can behave differently than the initial configuration. This effect can be considered as if the initial stiffness was changing during the loading history. The steps of the second order analysis are the following:
+A másodrendű számítás figyelembe veszi, hogy a terhelt és deformált szerkezet a terhelés hatására eltérően viselkedik, mint az elsőrendű számításnál. Ez a hatás a kezdeti merevség terhelés hatására létrejövő változásaként vehető figyelembe. A másodrendű számítás lépései:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true,"type":"1"} -->
 
-1. Performing the whole first\*\* \*\*order analysis as described in the previous section
-2. Calculation of geometric stiffness matrices ($K_g^{el}$) of the finite elements in their local coordinate system by the internal forces of the elements ($f^{el}$)
-3. Compiling the second-order global stiffness matrix ($K_s+K_g$) and nodal force vector ($P$) of the whole model by transforming the element stiffness matrices into the global coordinate system
-4. Modifying the second-order global stiffness matrix and nodal force vector considering the special boundary conditions (supports, continuity releases between the elements, prescribed displacements, temperature loads etc.)
-5. Solution of the basic linear system of equations which writes the relationship between the applied nodal forces – known variables generated from the loads – and the nodal displacements – unknown variables ($U$) – in the global coordinate system for the loaded and deformed global model (see section 8.2 Finite elements for the interpretation of nodal displacements and forces):
+1. Az elsőrendű számítás fentiekben leírtak szerinti végrehajtása
+2. A végeselemek geometriai merevségi mátrixának ($K_g^{el}$) saját koordinátarendszerben történő meghatározása az egyes elemek igénybevételeinek ($f^{el}$) figyelembevételével
+3. A másodrendű globális merevségi mátrix ($K_s+K_g$) és a teljes modell erővektorának ($P$) előállítása, az elem merevségi mátrixok globális koordináta rendszerbe történő transzformálásával
+4. A globális másodrendű merevségi mátrix és az erővektor módosítása a peremfeltételek figyelembevételével (támaszok, rúdvégi folytonosság, előírt elmozdulás, hőmérsékletteher stb.)
+5. Az alkalmazott csomóponti erők – a terhekből előállított ismert változó – és a csomóponti elmozdulások – ismeretlen változó ($U$) – közötti kapcsolatot leíró lineáris egyenletrendszer megoldása a szerkezet globális koordináta rendszerében a terhelt és deformált globális modellre (a csomóponti elmozdulások és erők értelmezését lásd. **_[8.1 Végeselemek](/manual/szerkezetek-analizise/vegeselemek/)_** fejezetben):
 
 <!-- /wp:list -->
 
 <!-- wp:columns -->
 
-<!-- wp:column {"width":50,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+<!-- wp:column {"width":"50%","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false},"editorskit_typography":{"name":"","family":"","weight":""},"extUtilities":[]} -->
 
 <!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-$(K_s+K_g)U=P \\rightarrow U=(K_s+K_g)^{-1}P$
+$(K_s+K_g)U=P \rightarrow U=(K_s+K_g)^{-1}P$
 
 <!-- /wp:paragraph -->
 
 <!-- /wp:column -->
 
-<!-- wp:column {"width":50} -->
+<!-- wp:column {"width":"50%","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false},"editorskit_typography":{"name":"","family":"","weight":""},"extUtilities":[]} -->
 
 <!-- wp:paragraph {"align":"right"} -->
 
@@ -130,37 +131,37 @@ $(K_s+K_g)U=P \\rightarrow U=(K_s+K_g)^{-1}P$
 
 <!-- wp:list {"ordered":true,"start":6} -->
 
-6. Calculation of the internal forces (and stresses) of the elements ($f^{el}$) in their local coordinate system by transforming the global nodal displacements of the element into the local system ($u^{el}$) using their local stiffness matrices:  
+6. Az elemek igénybevételeinek (és feszültségeinek) ($f^{el}$) számítása a lokális koordináta rendszerekben, az elemek globális csomóponti elmozdulásainak lokális merevségi mátrixszal lokális koordináta rendszerekbe ($u^{el}$) való transzformálásával:  
    $f^{el}=K_s^{el}u^{el}$
-7. If the difference between the new nodal displacements and the ones obtained earlier exceeds a certain limit repeat the calculations from step 2
+7. Ha egy csomóponti korábbi helyzethez viszonyított elmozdulása egy határértéket túllép, akkor a számítás a második lépéstől ismétlődik.
 
 <!-- /wp:list -->
 
 <!-- wp:heading {"level":4} -->
 
-#### Static eigenvalue – buckling analysis
+#### Statikai sajátérték – kihajlás analízis
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-In a mechanical interpretation the eigenvalue analysis approximates the elastic critical load levels where the structure is subjected to some modes of loss of stability. Mathematically it means that the second order equation of (3) has no unique solution because the second order stiffness matrix is singular. In _ConSteel_ linear eigenvalue analysis is performed considering one parameter, conservative loading and that the geometric stiffness matrix depends linearly on the load factor (λ):
+A sajátértékszámítás mechanikai értelmezése egy olyan rugalmas kritikus terhelési szint, amelynél a szerkezet valamilyen módon elveszíti a stabilitását. Matematikailag ez azt jelenti, hogy a másodfokú egyenletnek (3) nincs megoldása, mert a másodrendű merevségi mátrix szinguláris. A _Consteel_ programban a lineáris sajátérték számítás egy paramétert vesz figyelembe, a konzervatív terhelés és a geometriai merevségi mátrix a teherfaktortól (λ) lineárisan függ:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:columns -->
 
-<!-- wp:column {"width":50,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+<!-- wp:column {"width":"50%","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false},"editorskit_typography":{"name":"","family":"","weight":""},"extUtilities":[]} -->
 
 <!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-$K_g(\\lambda f)=\\lambda K_g(f)$
+$K_g(\lambda f)=\lambda K_g(f)$
 
 <!-- /wp:paragraph -->
 
 <!-- /wp:column -->
 
-<!-- wp:column {"width":50} -->
+<!-- wp:column {"width":"50%","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false},"editorskit_typography":{"name":"","family":"","weight":""},"extUtilities":[]} -->
 
 <!-- wp:paragraph {"align":"right"} -->
 
@@ -174,23 +175,23 @@ $K_g(\\lambda f)=\\lambda K_g(f)$
 
 <!-- wp:paragraph -->
 
-In this case the eigenvalue analysis can be written in the following form:
+Ebben az esetben a sajátérték számítás az alábbi formában írható fel:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:columns -->
 
-<!-- wp:column {"width":50,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+<!-- wp:column {"width":"50%","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false},"editorskit_typography":{"name":"","family":"","weight":""},"extUtilities":[]} -->
 
 <!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-$(K_s+\\lambda K_g)U=0$
+$(K_s+\lambda K_g)U=0$
 
 <!-- /wp:paragraph -->
 
 <!-- /wp:column -->
 
-<!-- wp:column {"width":50} -->
+<!-- wp:column {"width":"50%","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false},"editorskit_typography":{"name":"","family":"","weight":""},"extUtilities":[]} -->
 
 <!-- wp:paragraph {"align":"right"} -->
 
@@ -204,71 +205,71 @@ $(K_s+\\lambda K_g)U=0$
 
 <!-- wp:paragraph -->
 
-The solutions are certain critical load factors (buckling loads factor $\\lambda \_{cr}^i$) which make the second-order stiffness matrix singular and corresponding displacements (buckling shapes $U^i$).
+Az egyenletnek a megoldásai a kritikus teherfaktorok (kihajlási teher faktor $\lambda \_{cr}^i$) amelyek a másodrendű merevségi mátrixokat szingulárissá teszik és az elmozdulások (kihajlási alakok $U^i$).
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The possible buckling shapes which can be calculated by this eigenvalue analysis are basically influenced by the considered second-order effects which are determined by the applied finite element. In the case of beam-column structures, the 7 DOF finite elements have the capability to consider all modes of global buckling shapes: flexural buckling, torsional buckling, lateral-torsional buckling, and any interactions of these.
+A sajátérték analízis elvégzésével kapott lehetséges kihajlási alakokat alapvetően befolyásolja a figyelembe vett másodrendű hatás, amit az alkalmazott végeselem típus határoz meg. Például 7 SZF oszlop-gerenda végeselem esetén figyelembe vehető az összes globális kihajlási alak: kihajlás, elcsavarodó kihajlás, kifordulás és ezek interakciója.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
 
-#### Buckling sensitivity
+#### Kihajlási érzékenységi vizsgálat
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-With the help of this function we get a summarized view of the buckling shapes of the structure, and for each member it gives which buckling shape of which combination is the most relevant for the stability analysis. Based on this, the program can automatically select the appropriate critical load factor for each member. See 9.1.1 Global checks
+Ezen funkció segítségével összefoglaló képet kapunk a szerkezet kihajlási alakjairól, illetve rudanként megadja, hogy az adott rúd stabilitás vizsgálatához melyik teherkombináció melyik kihajlási alakja a legrelevánsabb, azaz melyiket érdemes alkalmazni. A későbbi globális méretezés (ld. **_[9.2.1 Globális vizsgálatok](/manual/szabvanyos-tervezes/acelszerkezet-tervezes/#Global-checks)_**) során ez alapján a program automatikusan ki tudja választani a megfelelő kritikus teherfaktort.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":10729,"sizeSlug":"large","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":36820,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/8-5-1-4-BUCKLING-SENSITIVITY.png)](./img/wp-content-uploads-2021-04-8-5-1-4-BUCKLING-SENSITIVITY.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_anal_kihajlas.png)](./img/wp-content-uploads-2022-06-scr_anal_kihajlas.png)
 
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":4} -->
 
-#### Imperfection sensitivity
+#### Imperfekciós érzékenységi vizsgálat
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-This analysis determines the critical member and critical section for each of the eigenshapes. With the help of this analysis, the appropriate amplitude of the buckling shape-based imperfection can be calculated. The graph shows the stress-based utilization from the internal forces obtained by applying the eigenshape as an imperfection displacement load, where the cross-section corresponding to the highest utilization is given the value 100%. See more in chapter 6.5.3.2.
+Az imperfekciós érzékenységi vizsgálat segítségével minden stabilitásvesztési alakhoz meghatározható a kritikus rúdelem és kritikus pont (ekvivalens pont), ami alapján az imperfekciós alak amplitúdója számolható. A grafikus ábrán a stabilitásvesztési alakot imperfekciós elmozdulás-teherként alkalmazva kapott igénybevételekből, feszültség alapon számított kihasználtságok láthatók minden, ahol a legnagyobb kihasználtsághoz tartozó keresztmetszet kapja a 100% értéket. ld. még a **_[6.4.3.2 fejezetet](/manual/terhek/globalis-imperfekciok/#Automatic-amplitude-calculation)_**.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
 
-#### Dynamic eigenvalue – vibration analysis
+#### Dinamikai sajátérték – rezgésanalízis
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-In a mechanical interpretation, the dynamic eigenvalue analysis approximates the eigenfrequencies where the structure is subjected to some modes of free vibration. In _ConSteel_, linear eigenvalue analysis is performed considering the second-order stiffness matrix and the consistent mass matrix (**M**)
+A dinamikus sajátérték számítás mechanikai értelmezése a szerkezet sajátfrekvenciáinak meghatározása. A lineáris sajátérték analízis elvégzése során a _Consteel_ a másodrendű merevségi mátrixot és a konzisztens tömeg mátrixot (**M**) veszi figyelembe.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:columns -->
 
-<!-- wp:column {"width":50,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+<!-- wp:column {"width":"50%","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false},"editorskit_typography":{"name":"","family":"","weight":""},"extUtilities":[]} -->
 
 <!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-$((K_s+K_g)+\\omega^{2}M)U=0$
+$((K_s+K_g)+\omega^{2}M)U=0$
 
 <!-- /wp:paragraph -->
 
 <!-- /wp:column -->
 
-<!-- wp:column {"width":50} -->
+<!-- wp:column {"width":"50%","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false},"editorskit_typography":{"name":"","family":"","weight":""},"extUtilities":[]} -->
 
 <!-- wp:paragraph {"align":"right"} -->
 
@@ -282,115 +283,115 @@ $((K_s+K_g)+\\omega^{2}M)U=0$
 
 <!-- wp:paragraph -->
 
-The solutions of the equation are the eigenfrequencies (_$\\omega^i$_) and the corresponding displacements (free vibration shapes $U^i$).
+Az egyenletnek a megoldásai a sajátfrekvenciák (_$\\omega^i$_) és az elmozdulások (szabad rezgési alakok $U^i$).
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The possible vibration shapes obtained from this analysis are fundamentally influenced by the stiffness and mass matrix considered, which in turn is determined by the type of finite element used. For example, in the case of a 7DOF column-beam finite element, all global vibrational shapes can be considered: buckling, torsional buckling, twist, and their interaction.
+A sajátérték analízis elvégzésével kapott lehetséges rezgési alakokat alapvetően befolyásolja a figyelembe vett merevség és tömeg mátrix, amit az alkalmazott végeselem típus határoz meg. Például 7 SZF oszlop-gerenda végeselem esetén figyelembe vehető az összes globális rezgési alak: kihajlás, elcsavarodó kihajlás, kifordulás és ezek interakciója.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
 
-### Plastic analysis
+### Képlékeny analízis
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-To start a plastic analysis go to the** Analysis Settings **window of the **Analysis **tab. This requires the selection of the **Plastic **option of the **Calculation Type** drop-down menu.
+Képlékeny analízis indítására az **Analízis** fül **Analízis beállításai** ablakon van lehetőség. Ehhez a **Számítás típusa** legördülő menü, **Képlékeny** opció kiválasztására van szükség.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
 
-#### Basics
+#### Alapok
 
 <!-- /wp:heading -->
 
-<!-- wp:image {"align":"right","id":10738,"width":390,"height":388,"sizeSlug":"large","linkDestination":"media"} -->
+<!-- wp:image {"align":"right","id":39539,"width":400,"height":397,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/8-5-2-PLASTIC-ANALYSIS.png)](./img/wp-content-uploads-2021-04-8-5-2-PLASTIC-ANALYSIS.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-When plastic analysis is selected a plastic hinge analysis is performed considering planar hinges which may develop about the local _y_ axis of the cross sections due solely to the major axis bending moment (My) – no other effects (like shear, normal force or minor axis bending) influence the formation of the hinge. The basic settings for the plastic analysis are available by pressing the three dots (![](./img/wp-content-uploads-2021-04-3dots-button.png)) button next to the _Type of calculation_ combo on the **Set analysis parameters** dialogue.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-In the first group, the conditions for the development of the plastic hinges can be set. The analysis can be set to look for plastic hinges in the whole model or only in a selected model portion (sub-model). Two options are available for the cross-section where hinges may develop: limited to at least singly symmetric (about the local ‘z’ axis) and to compact (AISC) or class 1 (EC) sections. According to the usual standard specifications, these last two conditions must be met in order to perform a plastic hinge analysis. The accuracy of the calculation can also be set as a percentage of the plastic bending resistance (Mpl).
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"right","id":22214,"width":392,"height":388,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/dia_anal_sub_plast.png)](./img/wp-content-uploads-2021-04-dia_anal_sub_plast.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/06/dial_analizis_beallitasok_keplekeny-e1656515363348.png)](./img/wp-content-uploads-2022-06-dial_analizis_beallitasok_keplekeny-e1656515363348.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-In the second group, the mechanical behavior of the plastic hinges after formation can be set. Since the planar hinges are part of a spatial model (the term “planar” refers only to the formation of the hinges), their spatial mechanical behavior after formation should be defined (spatial hinges). Accordingly, the formed hinges can rotate around the major axis (in the original plane of source bending moment My), or around the minor axis together with free warping deformation. With the help of the latter two options, it can be realistically taken into account that a full-yielded flange in an I-shaped section practically allows the minor axis rotation and warping behavior. These options influence the out-of-plane behavior of the model only (for example, in the case where the buckling of a structural member develops next to a plastic hinge perpendicular to the plane of the hinge).
+Képlékeny analízis választása esetén, képlékeny csukló analízis fut le, amely figyelembe veszi a kizárólag erőstengely körül nyomaték (My) hatására, a keresztmetszet _y_ lokális tengelye kerül kialakuló síkbeli képlékeny csuklókat – más hatásnak (nyírás, normálerő vagy gyengetengely körüli hajlítás) nincs hatása a csuklók kialakulására. Az analízis beállításai elérhetők az **_[Analízis beállításai](/manual/szerkezetek-analizise/analizis-beallitasok/)_** dialógon, a _Számítás típusa_ legördítő menü mellett található három pontos (![](./img/wp-content-uploads-2021-04-3dots-button.png)) ikonra kattintva.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The third group of options offers warning displays. These warnings are displayed if the development of plastic hinges is significantly affected by effects other than the major axis bending moment (My) during the whole hinge history.
+Az első csoportban a képlékeny csuklók kialakulásának feltételei állíthatók be. A legördülő menü segítségével kiválasztható részmodell is. Ebben az esetben az analízis a képlékeny csuklókat csak a kiválasztott részmodellben fogja keresni. Keresztmetszetek tekintetében két opció érhető el, ahol a képlékeny csuklók kialakulhatnak: keresztmetszetek minimum egyszeresen szimmetrikusak (a lokális z tengely körül) és kompakt (AISC szabvány esetén) vagy első osztályú (EuroCode szabvány esetén). A szokásos szabványos előírásoknak megfelelően ennek a két feltételnek szükséges teljesülnie képlékeny analízis végrehajtásához. A képlékeny csukló analízis pontossága is megadható a képlékeny nyomatéki ellenállás százalékában (Mpl).
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"right","id":39547,"width":400,"height":397,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![](https://consteelsoftware.com/wp-content/uploads/2022/06/dial_analizis_beallitasok_keplekeny_aloldal-e1656515332804.png)](./img/wp-content-uploads-2022-06-dial_analizis_beallitasok_keplekeny_aloldal-e1656515332804.png)
+
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+
+A második csoportban a képlékeny csuklók kialakulása utáni mechanikai viselkedése állítható be. Mivel a síkbeli (síkbeli kifejezés csak a csukló kialakulására vonatkozik) csuklók részei egy térbeli modellnek, ezért meg kell határozni a kialakulás utáni térbeli mechanikai viselkedésüket (térbeli csukló). Ennek megfelelően a kialakult csuklók el tudnak fordulni az erős tengely körül, illetve a gyenge tengely körül a szabad öblösödési deformációval együtt. A két utóbbi opció segítségével realisztikusan figyelembe vehető, hogy a képlékeny csuklók okozta teljes övmegfolyások egy I szelvény esetén gyakorlatilag kistengely körüli és öblösödési csukló viselkedést tesznek lehetővé. Ezek az opciók befolyásolják a síkra merőleges viselkedését a modellnek (például abban az esetben, ha egy szerkezeti elem kihajlása a képlékeny csukló mellett alakul ki a csukló síkjára merőlegesen).
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-In the fourth group of options, the important results can be selected which have to be saved and displayed for all the stages. In the case of larger models and the possibility of a large number of hinges, the number of results can increase significantly so it is advisable to carefully choose the really important ones.
+A harmadik csoportban található beállítási lehetőségek segítségével különböző figyelmeztetéseket megjelenítésére van lehetőség az analízis során. A figyelmeztetések abban az estben jelennek meg, ha a képlékeny csuklók kialakulására jelentős hatással bír a nagytengely körüli hajlításon kívül más igénybevétel is.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+A negyedik csoportban adható meg, hogy mely analízis eredmények kerüljenek elmentésre és megjelenítésre minden egyes státuszban. Nagy modell és jelentősszámú képlékeny csukló esetén az eredmény mérete jelentős lehet, ezért tanácsos csak azokat az eredmény típusokat kiválasztani, amelyekre ténylegesen szükség van.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
 
-#### First order
+#### Elsőrendű analízis
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-Mathematically, it is done similarly as described for elastic calculation, but with the big difference that it not only analyzes the specified load but it also changes (increases or decreases) the specified load step by step until the structure becomes unstable due to the plastic hinges.
+Matematikailag a rugalmas számításnál leírtakhoz hasonlóan történik, de azzal a nagy különbséggel, hogy nem csak a megadott terhelésre végez analízist, hanem a megadott terhelést lépésenként addig változtatja (növeli vagy csökkenti), amíg a szerkezet instabillá nem válik a kialakuló képlékeny csuklók miatt.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The solution process is as follows:
+A megoldás folyamata a következő:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-1: A first-order elastic analysis is performed according to the load combination specified by the user, and then the obtained bending moment values My about the strong axis are compared with the plastic moment resistance of the section of every finite element according to the criteria in the first group.
+1: A felhasználó által megadott teherkombinációnak megfelelően lefut egy elsőrendű rugalmas analízis, majd a kapott erős tengely körüli My hajlítónyomaték értékek az első csoportban szereplő szempontok szerint összehasonlításra kerülnek a végeselemhez rendelt szelvény képlékeny nyomatéki ellenállásával.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-2a: If the stresses calculated at the load level specified by the user do not meet the conditions for the formation of the plastic hinge(s) at any point of the elements selected for plastic analysis, ConSteel raises the load level in steps until the first plastic hinge is formed.
+2a: Amennyiben a képlékeny analízisre kijelölt elemek egyetlen pontjában sem érik el a felhasználó által megadott teherszinten számolt igénybevételek a képlékeny csukló(k) kialakulásának feltételeit, a Consteel a teherszintet lépésekben emeli mindaddig, amíg az első képlékeny csukló ki nem alakul.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-2b: If there is a point at the user-specified load level where the plastic hinge would form, ConSteel reduces the load level in steps until the load level is found when the first plastic hinge is formed.
+2b: Amennyiben a felhasználó által megadott teherszinten van olyan pont, ahol a képlékeny csukló kialakulna, a Consteel a teherszintet lépésekben csökkenti addig a teherszintnek a megtalálásáig, amikor az első képlékeny csukló kialakulna.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-3: At the found load level $(\\alpha \*M\_{yEd})$ Consteel places hinges on all current finite element points where the conditions for the formation of the plastic hinges are given according to the parameters of “Behavior of plastic hinges”, which is used in the analysis for additional load steps. Due to the placement of the hinges, the global stiffness matrix of the structure is updated and another level of calculation is started. The placed joints are shown on the structure and the next calculation step starts.
+3: A megtalált $(\alpha *MyEd)$ teherszinten az aktuális összes olyan végeselempontra, ahol a képlékeny csukló kialakulásának a feltételei adottak, a Consteel csuklót helyez el a „Képlékeny csuklók viselkedése” paramétereknek megfelelően, amely a további teherlépcsőkre elvégzett analízisnél kerül alkalmazásra. Az csuklók elhelyezése miatt a szerkezet globális merevségi mátrixa aktualizálásra kerül és egy újabb számítási szint indul. Az elhelyezett csuklók grafikusan ábrázolásra kerülnek majd következő számítási lépés indul.
 
 <!-- /wp:paragraph -->
 
@@ -402,60 +403,60 @@ The solution process is as follows:
 
 <!-- wp:paragraph -->
 
-4: ConSteel further increases the load through the -_α-_ load factor using the changed stiffness matrix until the load level for the formation of the next plastic hinge is reached.
+4: A Consteel tovább növeli a terhelést az α teherszorzón keresztül, a megváltoztatott merevségi mátrix használatával mindaddig, amíg a következő képlékeny csukló kialakulásának a teherszintjét el nem éri.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-5: As in point 3, place joints on the newly found nodes, update the stiffness matrix, and continue the iteration according to point 4.
+5: A 3. ponthoz hasonlóan elhelyez csuklókat az újonnan megtalált csomópontokra, aktualizálja a merevségi mátrixot és folytatja az iterációt a 4. pont szerint.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The plastic analysis ends when the resulting structure including the plastic hinges becomes unstable as a result. If the value of the final load factor thus obtained is less than 1.00, the structure is unstable, and the first-order calculation ends without result. A message alerts the user.
+A képlékeny analízis akkor ér véget, amikor a kialakuló képlékeny csuklók eredményeképpen a szerkezet instabillá változik. Amennyiben az így kapott végső teherszorzó értéke 1.00 alatti, a szerkezet instabil és az elsőrendű számítás eredmény nélkül záródik. Erre üzenet figyelmezteti a felhasználót.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-During the iteration, when the program reaches the load factor value of 1.00, the current internal force values are saved because the global design must be performed at this level, i.e. at the specified load level. These internal forces will be the basis for the buckling analysis to be performed in the next step.
+Az iteráció során, amikor a program eléri az 1.00 teherszorzó értéket, az aktuális igénybevétel értékek elmentődnek, mert a teherbírás vizsgálatokat ezen a szinten – azaz a megadott terhelések szintjén – kell elvégezni. Ezek az igénybevételek lesznek az alapjai a további lépésben elvégzendő sajátérték-kihajlás analízisnek.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-You can view the history of each load level step, its associated load factors, and the plastic hinges formed during the steps by selecting the “Plastic hinges” option from the Analysis Types drop-down menu.
+Az egyes teherszint-növelési lépések, a hozzá tartozó teherszorzók és a lépés során kialakult képlékeny csuklók története végig nézhető az analízis típusok legördülő menüben megjelenő „Képlékeny csuklók” opció választásával.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":10756,"sizeSlug":"large","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":39559,"width":286,"height":122,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/8-5-2-2-FIRST-ORDER.2.png)](./img/wp-content-uploads-2021-04-8-5-2-2-FIRST-ORDER.2.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_anal_keplekenycsuklok.png)](./img/wp-content-uploads-2022-06-scr_anal_keplekenycsuklok.png)
 
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":4} -->
 
-#### Second order
+#### Másodrendű analízis
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-Coming soon!
+Hamarosan!
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
 
-#### Static eigenvalue – buckling analysis
+#### Statikai sajátérték – kihajlás analízis
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-The iteration described for the first-order analysis is performed up to a load factor of 1.00, which corresponds to the specified load level. Using the first-order Ks corresponding to the static model valid at this load level and the Kg matrices calculated for the corresponding internal force distribution, the calculation is performed as described in the elastic analysis.
+Az elsőrendű analízisnél leírt iterációt végzi a program az 1,00 teherszorzó értékig, ami a megadott teherszintnek felel meg. Az ezen a teherszinten érvényes statikai váznak megfelelő elsőrendű Ks és az ehhez tartozó igénybevételeloszláshoz számolt Kg mátrixok használatával a rugalmas számításnál leírtak szerint történik a számítás.
 
 <!-- /wp:paragraph -->
