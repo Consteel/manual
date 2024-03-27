@@ -17,7 +17,7 @@ Az öszvér oszlopok tervezéséhez tartozó funkciók a Globális vizsgálatok 
 
 <!-- wp:paragraph -->
 
-Öszvér oszlop keresztmetszeti vizsgálata a **Globális vizsgálatok** fülön található kék nyíl segítségével végezhető el. A **Tervezés… **dialógon az _Öszvér oszlop tervezése_ jelölő négyzetet kell kiválasztani. A vizsgálat elvégezhető teljes vagy részletmodellre is. A **Tervezés… **dialóg felső részén kiválasztható, hogy mely eredmény típus (első vagy másodrendű analízis) alapján történjen a vizsgálatok elvégzése, illetve a táblázatban kiválasztható, hogy mely teherkombinációk esetében.
+Öszvér oszlop keresztmetszeti vizsgálata a **Globális vizsgálatok** fülön található kék nyíl segítségével végezhető el. A **Tervezés…** dialógon az _Öszvér oszlop tervezése_ jelölő négyzetet kell kiválasztani. A vizsgálat elvégezhető teljes vagy részletmodellre is. A **Tervezés…** dialóg felső részén kiválasztható, hogy mely eredmény típus (első vagy másodrendű analízis) alapján történjen a vizsgálatok elvégzése, illetve a táblázatban kiválasztható, hogy mely teherkombinációk esetében.
 
 <!-- /wp:paragraph -->
 
@@ -41,7 +41,7 @@ Ha a vizsgált keresztmetszet létrehozásakor ki lett választva a _Kezdeti gö
 
 <!-- wp:paragraph -->
 
-Az elvégzett ellenőrzések eredményei megtekinthetők grafikus formában, vagy táblázatosan (a táblázatok általános kezelési funkcióit lásd a **_[Táblázatok általános funkciói ](/manual/altalanos-ismertetes/tablazatok-altalanos-funkcioi/)_**c. fejezetben).
+Az elvégzett ellenőrzések eredményei megtekinthetők grafikus formában, vagy táblázatosan (a táblázatok általános kezelési funkcióit lásd a _[Táblázatok általános funkciói ](/manual/altalanos-ismertetes/tablazatok-altalanos-funkcioi/)_c. fejezetben).
 
 <!-- /wp:paragraph -->
 
@@ -65,7 +65,7 @@ Szerkezeti elemeken történő egér mozgatás esetén, az eredmény jelölő fo
 
 <!-- wp:paragraph -->
 
-A számítás részletei megtekinthetők a keresztmetszeti modulban (lásd a**_[ Keresztmetszeti modul ](/manual/keresztmetszet-modul/)_**fejezetben). A keresztmetszeti modul megnyitható közvetlenül a **Globális vizsgálatok** fülről is, a megfelelő keresztmetszet grafikus felületen vagy táblázatban történő jobb egérgombos kiválasztásával.
+A számítás részletei megtekinthetők a keresztmetszeti modulban (lásd a[ Keresztmetszeti modul ](/manual/keresztmetszet-modul/)fejezetben). A keresztmetszeti modul megnyitható közvetlenül a **Globális vizsgálatok** fülről is, a megfelelő keresztmetszet grafikus felületen vagy táblázatban történő jobb egérgombos kiválasztásával.
 
 <!-- /wp:paragraph -->
 
@@ -93,7 +93,7 @@ A számítás részletei megtekinthetők a keresztmetszeti modulban (lásd a**_[
 
 <!-- wp:paragraph -->
 
-Öszvér gerendák tervezése az **Elem vizsgálat** fülön található funkciók segítségével végezhetők el. Az oldal alján található táblázatban az **Öszvér gerenda** fület kell megnyitni, majd ki kell választani a vizsgálandó öszvér gerendá(ka)t és a **Hozzáad **gombra kattintva hozzá kell adni a vizsgálandó gerendák táblázatához. A vizsgálandó gerendák táblázatából a **Kiválaszt (Kiválaszt +) **gomb segítségével lehet egy elemet tervezésre kiválasztani. Megadható, hogy első- vagy másodrendű analízis eredmények alapján történjen a tervezés, és ehhez kiválasztható a megfelelő teherkombináció is. Az **Ellenőrzés **gombra kattintva indítható a vizsgálat.
+Öszvér gerendák tervezése az **Elem vizsgálat** fülön található funkciók segítségével végezhetők el. Az oldal alján található táblázatban az **Öszvér gerenda** fület kell megnyitni, majd ki kell választani a vizsgálandó öszvér gerendá(ka)t és a **Hozzáad** gombra kattintva hozzá kell adni a vizsgálandó gerendák táblázatához. A vizsgálandó gerendák táblázatából a **Kiválaszt (Kiválaszt +)** gomb segítségével lehet egy elemet tervezésre kiválasztani. Megadható, hogy első- vagy másodrendű analízis eredmények alapján történjen a tervezés, és ehhez kiválasztható a megfelelő teherkombináció is. Az **Ellenőrzés** gombra kattintva indítható a vizsgálat.
 
 <!-- /wp:paragraph -->
 
@@ -139,7 +139,7 @@ Az **analízis modellben** a betonöv effektív szélességét (beff) a _Constee
 
 <!-- wp:paragraph -->
 
-Az analízis modell megtekinthető az **Analízis **fülön.
+Az analízis modell megtekinthető az **Analízis** fülön.
 
 <!-- /wp:paragraph -->
 
@@ -331,7 +331,7 @@ A nyírócsapok tervezési ellenállása az állandó vastagságú betonlemezes 
 
 <!-- wp:list -->
 
-- \- kt egy gerendára merőlegesen elhelyezett acél profillemez fejes csapja ellenállásának csökkentő tényezője
+-  kt egy gerendára merőlegesen elhelyezett acél profillemez fejes csapja ellenállásának csökkentő tényezője
 
 <!-- /wp:list -->
 

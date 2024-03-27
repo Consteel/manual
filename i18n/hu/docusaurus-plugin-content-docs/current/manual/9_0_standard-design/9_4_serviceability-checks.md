@@ -24,39 +24,18 @@ Consteel 17-től kezdve az összes szabványalapú ellenőrzés összegyűjtve a
 
 A zöld nyíl ikonra ![](./img/wp-content-uploads-2024-02-9.4.-SLS-icon-1.png) kattintva megjelenik egy új párbeszédpanel. Itt a korábban meghatározott használhatósági határállapot vizsgálatok jelennek meg és lehetőség van a kiválasztott vizsgálatok **megnyitására** vagy **törlésére**.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
 Az **Új vizsgálat létrehozása** gombra kattintva a következő vizsgálatokból lehet választani:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
 - Vízszintes elmozdulás vizsgálata
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
+
 - Globális függőleges elmozdulás vizsgálata
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
+
 - Rúd végpontok közötti függőleges elmozdulás vizsgálata
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
+
 - Két pont relatív elmozdulásának vizsgálata
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
+
 - Földrengés- szintek közötti elmozdulás ellenőrzése
-- <!-- /wp:list-item -->
 
-<!-- /wp:list -->
-
-<!-- wp:image {"id":72499,"width":"350px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
 ![](./img/wp-content-uploads-2024-02-HU-9.4.-SLS-new-ckeck-1.png)
 
@@ -82,7 +61,7 @@ Az első három vizsgálat esetében a párbeszédpanel megegyező részeket is 
 
 <!-- wp:paragraph -->
 
-A felhasználónak be kell állítania az elmozdulás** határértékeit** mind a teljes teherből, mind az esetleges terhekből. Ezeket a korlátokat a referencia hossz vagy magasság (Vízszintes elmozdulás vizsgálat esetén) hányadosaként adhatóak meg. A nevezőt a felhasználó szabványok alapján határozza meg, vagy használja a program által alapértelmezett értéket.
+A felhasználónak be kell állítania az elmozdulás **határértékeit** mind a teljes teherből, mind az esetleges terhekből. Ezeket a korlátokat a referencia hossz vagy magasság (Vízszintes elmozdulás vizsgálat esetén) hányadosaként adhatóak meg. A nevezőt a felhasználó szabványok alapján határozza meg, vagy használja a program által alapértelmezett értéket.
 
 <!-- /wp:paragraph -->
 
@@ -106,7 +85,7 @@ Az **ellenőrzés** gomb gyors számítást hajt végre. Ennek eredményeként, 
 
 <!-- wp:paragraph -->
 
-Az ellenőrzés gomb opcionális, számítás nélküle is végezhető. Ez valóban csak egy gyors ellenőrzés. A kiválasztott vizsgálat elmentése érdekében a **Rendben **gombra kell kattintani. Így majd a számítás elvégzése után nem csak a mértékadó eredményhez lehet majd hozzáférni, hanem az összes többi pont eredményéhez is.
+Az ellenőrzés gomb opcionális, számítás nélküle is végezhető. Ez valóban csak egy gyors ellenőrzés. A kiválasztott vizsgálat elmentése érdekében a **Rendben** gombra kell kattintani. Így majd a számítás elvégzése után nem csak a mértékadó eredményhez lehet majd hozzáférni, hanem az összes többi pont eredményéhez is.
 
 <!-- /wp:paragraph -->
 
@@ -202,7 +181,7 @@ A **rúd végpontok közötti függőleges elmozdulás** **vizsgálata** nem fel
 
 <!-- wp:image {"id":72628,"width":"658px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2024-02-HU-9.4.-SLS-vertical-displacement-check-between-member-ends-2.png)
+
 
 <!-- /wp:image -->
 
@@ -250,7 +229,7 @@ Miután az ellenőrzés megtörtént, kiszámolja a vízszintes elmozdulásokat 
 
 <!-- wp:paragraph -->
 
-A párbeszéd ablak hasonlóan működik az előzőkhöz. A gyors **ellenőrzés** opcionális, annak érdekében, hogy rögzítsük és tároljuk az összes vizsgált pont eredményeit, el kell mentenünk a beállításokat az **OK **gomb használatával. Ezután az összes kiválasztott ellenőrzés mellett lévő számítás gomb segítségével tudunk pontos eredményekhez jutni.
+A párbeszéd ablak hasonlóan működik az előzőkhöz. A gyors **ellenőrzés** opcionális, annak érdekében, hogy rögzítsük és tároljuk az összes vizsgált pont eredményeit, el kell mentenünk a beállításokat az **OK** gomb használatával. Ezután az összes kiválasztott ellenőrzés mellett lévő számítás gomb segítségével tudunk pontos eredményekhez jutni.
 
 <!-- /wp:paragraph -->
 
@@ -288,33 +267,16 @@ Az összes használhatósági határállapothoz kapcsolódó funkció a Használ
 
 Új használhatósági vizsgálat az **Új vizsgálat létrehozása** gomb megnyomásával hozható létre. Az alábbi vizsgálatok végezhetők el.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
 - Globális vízszintes eltolódás vizsgálat
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
+
 - Globális függőleges lehajlás vizsgálat
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
+
 - Rudankénti lokális függőleges lehajlás vizsgálat
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
+
 - Két pont relatív elmozdulásának vizsgálata
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
+
 - Földrengés - szintek közötti elmozdulás ellenőrzése
-- <!-- /wp:list-item -->
 
-<!-- /wp:list -->
-
-<!-- wp:image {"align":"right","id":37271,"width":353,"height":212,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
 [![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/dial_tervezes_hasznalhatosag_vizsgalat_tipusok.png)](./img/wp-content-uploads-2022-06-dial_tervezes_hasznalhatosag_vizsgalat_tipusok.png)
 

@@ -163,55 +163,22 @@ Képlékeny csuklókat tartalmazó szerkezet esetén az EuroCode (1993-1-1 BB3) 
 
 Stabil hossz ellenállás meghatározásánál a program a következő lépéseket hajtja végre:
 
-<!-- /wp:paragraph -->
 
-<!-- wp:list {"ordered":true} -->
+1. Automatikusan felismeri a képlékeny csuklók helyeit a szerkezeten
 
-1. <!-- wp:list-item -->
+6. Képlékeny csukló szomszédos támaszainak felkeresése
 
-2. Automatikusan felismeri a képlékeny csuklók helyeit a szerkezeten
 
-3. <!-- /wp:list-item -->
-
-4.
-
-5) <!-- wp:list-item -->
-
-6) Képlékeny csukló szomszédos támaszainak felkeresése
-
-   <!-- wp:list -->
-
-   - <!-- wp:list-item -->
    - Oldalirányú eltolódás elleni támasz
-   - <!-- /wp:list-item -->
-   -
-   - <!-- wp:list-item -->
+  
    - Elcsavarodás elleni támasz
-   - <!-- /wp:list-item -->
 
-   <!-- /wp:list -->
-
-7) <!-- /wp:list-item -->
-
-8)
-
-9. <!-- wp:list-item -->
 
 10. Képlékeny csukló és szomszédos támaszok közötti képlékeny szakaszok hosszának meghatározása
 
-11. <!-- /wp:list-item -->
 
-12.
+14. Képlékeny csukló és szomszédos támaszok közötti szakaszok stabil hosszának számítása a megfelelő módszerrel
 
-13) <!-- wp:list-item -->
-
-14) Képlékeny csukló és szomszédos támaszok közötti szakaszok stabil hosszának számítása a megfelelő módszerrel
-
-15) <!-- /wp:list-item -->
-
-<!-- /wp:list -->
-
-<!-- wp:paragraph -->
 
 A Rugalmas szakaszokon az Eurocode általános módszere szerint kerül meghatározásra a stabilitási ellenállás.
 
@@ -251,47 +218,20 @@ A stabilitás vizsgálat elvégzésének előfeltétele a stabilitás-analízis 
 
 Stabilitás vizsgálat esetén, az alábbi paraméterek állíthatók be:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
-- Rugalmas kritikus teherfaktor acr,op: a minimális teherszorzó, kihajlási analízis sajátértéke. Használható az első kihajlási sajátérték, a tervezési szituációnak megfelelően kézzel kiválasztott sajátérték, illetve érzékenység vizsgálat lefuttatása esetén automatikusan is kiválasztható a szerkezeti elemeknek legmegfelelőbb kritikus teherfaktor is. Kézi kiválasztás esetén, az **Analízis **fül **Kihajlás** eredményeinél minden kombinációhoz kiválasztható a megfelelő sajátérték a modell területre való jobb egérgombbal való kattintással, és a "Sajátérték kiválasztása a tervezéshez" menüpontot választva.  
+- Rugalmas kritikus teherfaktor acr,op: a minimális teherszorzó, kihajlási analízis sajátértéke. Használható az első kihajlási sajátérték, a tervezési szituációnak megfelelően kézzel kiválasztott sajátérték, illetve érzékenység vizsgálat lefuttatása esetén automatikusan is kiválasztható a szerkezeti elemeknek legmegfelelőbb kritikus teherfaktor is. Kézi kiválasztás esetén, az **Analízis** fül **Kihajlás** eredményeinél minden kombinációhoz kiválasztható a megfelelő sajátérték a modell területre való jobb egérgombbal való kattintással, és a "Sajátérték kiválasztása a tervezéshez" menüpontot választva.  
   ![](./img/wp-content-uploads-2022-06-scr_tervezes_globalis_sajatertek_kivalasztasa.png)
-- <!-- /wp:list-item -->
 
-<!-- /wp:list -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
 - Keresztmetszeti teherbírási szorzótényező ault,k: a stabilitásvesztés szempontjából domináns normálerőből és erős tengelyű hajlításból, karakterisztikus ellenállásokkal számolt kihasználtság reciproka. A kihasználtsági érték figyelembe vehető külön-külön rudanként, vagy részmodellenként a legkisebb érték.  
   ![](./img/wp-content-uploads-2021-04-10-2-lambda-op.png)
-- <!-- /wp:list-item -->
 
-<!-- /wp:list -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
 - Csökkentő tényező cop: a λop karcsúságból megállapított csökkentő tényező. Csökkentő tényező meghatározására két módszert ad az EuroCode. c,cLT értékek közül a kisebb, vagy e kettő érték interpoláltjaként.
-- <!-- /wp:list-item -->
 
-<!-- /wp:list -->
-
-<!-- wp:paragraph -->
 
 Az ellenőrzés elvégezhető a teljes, vagy részlet modellre.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4} -->
 
 #### Eredmények
 
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Az elvégzett ellenőrzések eredményei megtekinthetők grafikus formában, vagy táblázatosan (a táblázatok általános kezelési funkcióit lásd a **_[Táblázatok általános funkciói](/manual/altalanos-ismertetes/tablazatok-altalanos-funkcioi/)_** c. fejezetben).
 
@@ -443,7 +383,7 @@ Akár több rudat is ki tudunk jelölni egyszerre, több cellát választva, mé
 
 <!-- wp:paragraph -->
 
-További információkért, kérem látogasson el a **Kijelölés **oldalunkra.
+További információkért, kérem látogasson el a **Kijelölés** oldalunkra.
 
 <!-- /wp:paragraph -->
 
@@ -463,61 +403,30 @@ A teherkombinációk oszlopában jobb kattintással egy újabb lehetőséggel ta
 
 Az Eredmény táblázat néhány tervezési paramétert is megjelenít:
 
-<!-- /wp:paragraph -->
 
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
 - Érzékenység
-- <!-- /wp:list-item -->
 
-<!-- /wp:list -->
-
-<!-- wp:image {"id":73880,"width":"333px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
 ![](./img/wp-content-uploads-2024-02-9.1.-Sensitivity-HU-1.png)
 
-<!-- /wp:image -->
 
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
 - Tűz
-- <!-- /wp:list-item -->
 
-<!-- /wp:list -->
-
-<!-- wp:image {"id":73890,"width":"567px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
 ![](./img/wp-content-uploads-2024-02-9.1.-Fire-HU-1.png)
 
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
 
 A cellákba való jobb kattintás hasonlóan működik, mint a fentebb leírt tervezési eredmények esetében.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
 
 Consteel 16
 
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":37021,"width":447,"height":532,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
 [![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/scr_tervezes_globalis_eredmenyek.png)](./img/wp-content-uploads-2022-06-scr_tervezes_globalis_eredmenyek.png)
 
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
 
 Szerkezeti elemeken történő egér mozgatás esetén, az eredmény jelölő folyamatosan megjelenik, mutatva az aktuális kihasználtságot.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
 
 A számítás részletei megtekinthetők a keresztmetszeti modulban (lásd a **_[Keresztmetszeti modul](/manual/keresztmetszet-modul/)_** c. fejezetben). A keresztmetszeti modul megnyitható közvetlenül a **Globális vizsgálatok** fülről is, a megfelelő keresztmetszet grafikus felületen vagy táblázatban történő jobb egérgombos kiválasztásával.
 
@@ -679,7 +588,7 @@ A számított szegmens zölddel jelölt. Két módon adhatók meg a tervezési p
 
 <!-- wp:paragraph -->
 
-Ha valamennyi tervezési paramétert beállításra került, akkor az ellenőrzés az **Ellenőrzés **gomb megnyomásával végrehajtható. Az ellenőrzés végrehajtása után a program megjeleníti a számítás részletes eredményeit.
+Ha valamennyi tervezési paramétert beállításra került, akkor az ellenőrzés az **Ellenőrzés** gomb megnyomásával végrehajtható. Az ellenőrzés végrehajtása után a program megjeleníti a számítás részletes eredményeit.
 
 <!-- /wp:paragraph -->
 
@@ -709,7 +618,7 @@ A **Kifordulás ellenőrzés** többé-kevésbé a kihajlás vizsgálathoz hason
 
 <!-- wp:paragraph -->
 
-A tervezési paraméterek szegmensenként adhatók meg a hárompontos ikonra kattintva. A rugalmas kritikus nyomaték számítható analitikus képletből, vagy a kritikus teherfaktor segítségével. Az első esetben a szükséges tényezők manuálisan megadhatók, vagy az **AutoC **gomb segítségével a C tényezőket a program automatikusan meghatározza. A második esetben a megfelelő kritikus teherfaktor kiválasztásával kerül meghatározva a kritikus nyomaték.
+A tervezési paraméterek szegmensenként adhatók meg a hárompontos ikonra kattintva. A rugalmas kritikus nyomaték számítható analitikus képletből, vagy a kritikus teherfaktor segítségével. Az első esetben a szükséges tényezők manuálisan megadhatók, vagy az **AutoC** gomb segítségével a C tényezőket a program automatikusan meghatározza. A második esetben a megfelelő kritikus teherfaktor kiválasztásával kerül meghatározva a kritikus nyomaték.
 
 <!-- /wp:paragraph -->
 
@@ -739,13 +648,13 @@ Miután egy elem ellenőrzésre került, a listában az elem állapota „Nem vi
 
 <!-- wp:paragraph -->
 
-A **Kiválaszt (+) **gomb használatával lehetőség van több elem egyszerre történő kiválasztására elemtervezéshez. A **Kiválaszt (-)** gomb segítségével a kiválasztásból lehet eltávolítani a kijelölt elemeket. A csoportos elemtervezés hasonlóan működik, mint az egyedi elemtervezés. A különbség, hogy nem futtatható speciális analízis, ezért a kritikus teherszorzó alapján történő kritikus normálerő és nyomaték meghatározása nem elérhető.
+A **Kiválaszt (+)** gomb használatával lehetőség van több elem egyszerre történő kiválasztására elemtervezéshez. A **Kiválaszt (-)** gomb segítségével a kiválasztásból lehet eltávolítani a kijelölt elemeket. A csoportos elemtervezés hasonlóan működik, mint az egyedi elemtervezés. A különbség, hogy nem futtatható speciális analízis, ezért a kritikus teherszorzó alapján történő kritikus normálerő és nyomaték meghatározása nem elérhető.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Az elemek kiválasztása után, a következő lépés, az egyedi elemtervezéshez hasonlóan az ellenőrzés módjának kiválasztása és a tervezési paraméterek megadása után, az **Ellenőrzés **gomb megnyomásával az ellenőrzés elvégzése.
+Az elemek kiválasztása után, a következő lépés, az egyedi elemtervezéshez hasonlóan az ellenőrzés módjának kiválasztása és a tervezési paraméterek megadása után, az **Ellenőrzés** gomb megnyomásával az ellenőrzés elvégzése.
 
 <!-- /wp:paragraph -->
 
