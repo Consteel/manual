@@ -1,10 +1,7 @@
 ---
-title: 'Dokumentáció'
-description: ""
-published: 2022-06-08
-redirect_from: 
-            - https://www.consteelsoftware.com/hu/manual/keresztmetszet-modul/dokumentacio/
-hero: ./img/wp-content-uploads-2022-06-scr_szelveny_doku-1-1024x530.png
+sidebar_position: 3
+---
+# Dokumentáció
 ---
 <!-- wp:paragraph {"align":"justify"} -->
 

@@ -1,10 +1,7 @@
 ---
-title: 'Szelvénymodellezés'
-description: ""
-published: 2022-06-08
-redirect_from: 
-            - https://www.consteelsoftware.com/hu/manual/keresztmetszet-modul/szelvenymodellezes/
-hero: ./img/wp-content-uploads-2022-06-cmd_szelveny_parancs_EPS.png
+sidebar_position: 1
+---
+# Szelvénymodellezés
 ---
 <!-- wp:heading {"level":3} -->
 

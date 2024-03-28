@@ -1,10 +1,7 @@
 ---
-title: 'Szelvény eszközök'
-description: ""
-published: 2022-06-08
-redirect_from: 
-            - https://www.consteelsoftware.com/hu/manual/keresztmetszet-modul/section-module/
-hero: ./img/wp-content-uploads-2021-04-section_new_load_combination_icon.png
+sidebar_position: 2
+---
+# Szelvény eszközök
 ---
 <!-- wp:heading {"level":3} -->
 
