@@ -1,11 +1,7 @@
 ---
-title: 'Csomópont típusok'
-description: ""
-published: 2022-06-20
-redirect_from: 
-            - https://www.consteelsoftware.com/hu/manual/csomopont-modul/csomopont-tipusok/
-hero: ./img/wp-content-uploads-2022-06-scr_csomop_tipusok_1-1024x485.png
+sidebar_position: 1
 ---
+# Csomópont típusok
 <!-- wp:paragraph -->
 
 A csomópont típusok különböző logikai csoportokba vannak gyűjtve a modulon belül. A modul, a legtöbb csomóponthoz sok megerősítési lehetőséget is kínál, mint például alsó vagy felső kiékelés, gerinc, vagy övmerevítők, nyírási bordák (gerinchizlaló, Morrison merevítő, egyszerű vagy dupla ferde merevítő). Jelenleg az alábbi kapcsolatok érhetők el a csJoint modulban:

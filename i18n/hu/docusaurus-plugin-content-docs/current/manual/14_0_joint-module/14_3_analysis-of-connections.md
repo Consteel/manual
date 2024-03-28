@@ -1,11 +1,7 @@
 ---
-title: 'Csomópontok számítása'
-description: ""
-published: 2022-06-20
-redirect_from: 
-            - https://www.consteelsoftware.com/hu/manual/csomopont-modul/csomopontok-szamitasa/
-hero: ../../../defaultHero.jpg
+sidebar_position: 3
 ---
+# Csomópontok számítása
 <!-- wp:paragraph -->
 
 A csJoint modulban elvégzett valamennyi vizsgálat az Eurocode 1993-1-8 szabványos eljárásain alapul, ezeket az eljárásokat a modul szinte teljes mértékben lefedi. A különböző típusú kapcsolatok esetében a modul a következő vizsgálatokat végzi el:

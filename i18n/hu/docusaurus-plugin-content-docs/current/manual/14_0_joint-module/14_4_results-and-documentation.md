@@ -1,11 +1,7 @@
 ---
-title: 'Eredmények és dokumentáció'
-description: ""
-published: 2022-06-20
-redirect_from: 
-            - https://www.consteelsoftware.com/hu/manual/csomopont-modul/results-and-documentation/
-hero: ./img/wp-content-uploads-2022-06-dial_csomop_eredmeny_mertekado.png
+sidebar_position: 4
 ---
+# Eredmények és dokumentáció
 <!-- wp:image {"align":"right","id":38268,"width":324,"height":267,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
 [![](https://consteelsoftware.com/wp-content/uploads/2022/06/dial_csomop_eredmeny_mertekado.png)](./img/wp-content-uploads-2022-06-dial_csomop_eredmeny_mertekado.png)
@@ -56,7 +52,7 @@ Csomóponti dokumentáció két fél képen állítható elő:
 
 <!-- wp:list {"ordered":true,"type":"A"} -->
 
-1. A **Csomópontok **dialógon a **Dokumentálás **![](./img/wp-content-uploads-2022-06-dial_csomop_szerk_dokumental.png) ikon segítségével. A dokumentálás megkezdése előtt, a dokumentálni kívánt csomópontot ki kell választani a fastruktúrából.
+1. A **Csomópontok** dialógon a **Dokumentálás** ![](./img/wp-content-uploads-2022-06-dial_csomop_szerk_dokumental.png) ikon segítségével. A dokumentálás megkezdése előtt, a dokumentálni kívánt csomópontot ki kell választani a fastruktúrából.
 2. Szerkesztésre megnyitott csomópont esetén, közvetlenül a **Csomópont részletezése** dialóg alján található **Dokumentálás…** gomb megnyomásával
 
 <!-- /wp:list -->
@@ -69,6 +65,6 @@ A dokumentálás elindítása után a _Csomópont dokumentáció létrehozása_ 
 
 <!-- wp:paragraph -->
 
-A dokumentáció módosításának módja megegyezik a teljes szerkezet dokumentálásának módjával. További információért ld. a [_**13. Dokumentálás **_](/hu/manual/dokumentacio/)c. fejezetet!
+A dokumentáció módosításának módja megegyezik a teljes szerkezet dokumentálásának módjával. További információért ld. a [_**13. Dokumentálás**_](/hu/manual/dokumentacio/) c. fejezetet!
 
 <!-- /wp:paragraph -->

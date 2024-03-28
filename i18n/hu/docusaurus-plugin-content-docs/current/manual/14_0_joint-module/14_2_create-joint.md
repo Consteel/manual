@@ -1,11 +1,7 @@
 ---
-title: 'Csomópont létrehozása'
-description: ""
-published: 2022-06-20
-redirect_from: 
-            - https://www.consteelsoftware.com/hu/manual/csomopont-modul/csomopont-letrehozasa/
-hero: ./img/wp-content-uploads-2022-06-tab_csomop-1-1024x79.png
+sidebar_position: 2
 ---
+# Csomópont létrehozása
 <!-- wp:spacer -->
 
 <!-- /wp:spacer -->
@@ -36,7 +32,7 @@ Szerkezeti csomópont a Csomópont szerkesztő funkcióval történő létrehoz�
 
 <!-- wp:list -->
 
-- \***\*Első lépés – Csomópont azonosítása\*\***
+- **Első lépés – Csomópont azonosítása**
 
 <!-- /wp:list -->
 
@@ -48,7 +44,7 @@ Szerkezeti csomópont a Csomópont szerkesztő funkcióval történő létrehoz�
 
 <!-- wp:paragraph -->
 
-Új csomópont a csomópont kezelő bal felső sarkában található **Létrehozás **(![](./img/wp-content-uploads-2021-04-14-3-create-button.png)) gombbal hozható létre. A csomópont azonosítása során megadható a csomópont neve, valamint egy rövid megjegyzés is fűzhető hozzá. Végül, a harmadik, legördülő mezőben megadhatók korábban elmentett **[alapértelmezett beállítások](#Default-joint-settings)** is. Az adatok megadása után a **Tovább> **gombbal lehet továbblépni.
+Új csomópont a csomópont kezelő bal felső sarkában található **Létrehozás**(![](./img/wp-content-uploads-2021-04-14-3-create-button.png)) gombbal hozható létre. A csomópont azonosítása során megadható a csomópont neve, valamint egy rövid megjegyzés is fűzhető hozzá. Végül, a harmadik, legördülő mezőben megadhatók korábban elmentett **[alapértelmezett beállítások](#Default-joint-settings)** is. Az adatok megadása után a **Tovább>** gombbal lehet továbblépni.
 
 <!-- /wp:paragraph -->
 
@@ -58,13 +54,13 @@ Szerkezeti csomópont a Csomópont szerkesztő funkcióval történő létrehoz�
 
 <!-- wp:list -->
 
-- \***\*Második lépés – Csomópont típusának kiválasztása\*\***
+- **Második lépés – Csomópont típusának kiválasztása**
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
-Második lépésként ki kell választani a csomópont típusát. A _csJoint_ modul a csomópontok széles skáláját tudja kezelni, ami lefedi szinte a teljes Eurocode 1993-1-8 szabványt (az elérhető csomópontok listáját lásd a **_[Csomópont típusok](/manual/csomopont-modul/csomopont-tipusok/)_** fejezetben). A megfelelő típus kiválasztása után a **Tovább> **gombbal lehet továbblépni.
+Második lépésként ki kell választani a csomópont típusát. A _csJoint_ modul a csomópontok széles skáláját tudja kezelni, ami lefedi szinte a teljes Eurocode 1993-1-8 szabványt (az elérhető csomópontok listáját lásd a **_[Csomópont típusok](/manual/csomopont-modul/csomopont-tipusok/)_** fejezetben). A megfelelő típus kiválasztása után a **Tovább>** gombbal lehet továbblépni.
 
 <!-- /wp:paragraph -->
 
@@ -80,7 +76,7 @@ Második lépésként ki kell választani a csomópont típusát. A _csJoint_ mo
 
 <!-- wp:list -->
 
-- \***\*Harmadik lépés – Kapcsolatok beállítása\*\***
+- **Harmadik lépés – Kapcsolatok beállítása**
 
 <!-- /wp:list -->
 
@@ -124,7 +120,7 @@ Az oszlop valamelyik oldalára kattintva definiálható a bekötő kapcsolat tí
 
 <!-- wp:paragraph -->
 
-Miután a bekötő szerkezeti elemek kapcsolatai beállításra kerültek a csomópont a **Létrehozás **gombra kattintva létrehozható a kiválasztott **[alapértelmezett csomóponti beállításoknak](#Default-joint-settings)** megfelelően. A létrehozás után megjelenik a csJoint modul fő képernyője. Ezen a képernyőn végezhetők el a kapcsolatok módosításai, optimalizálásai (ld. lentebb).
+Miután a bekötő szerkezeti elemek kapcsolatai beállításra kerültek a csomópont a **Létrehozás** gombra kattintva létrehozható a kiválasztott **[alapértelmezett csomóponti beállításoknak](#Default-joint-settings)** megfelelően. A létrehozás után megjelenik a csJoint modul fő képernyője. Ezen a képernyőn végezhetők el a kapcsolatok módosításai, optimalizálásai (ld. lentebb).
 
 <!-- /wp:paragraph -->
 
@@ -226,7 +222,7 @@ A második lehetőség a **Szerkezeti elemek** fülön található **Csomópont 
 
 <!-- wp:paragraph {"placeholder":"Content…"} -->
 
-**Fontos **azzal tisztában lenni, hogy csJoint modulban végzett módosítások (keresztmetszet vagy anyagminőség változtatás) nem befolyásolja a 3D szerkezeti modellt. Ezek csak csJoint számítás eredményeire vannak hatással. A felhasználónak kell a modellt a csJoint-ban végzett módosításokkal szinkronban tartania: ha megváltoztatunk valami a kapcsolatban, a 3d modellt is meg kell változtatni annak megfelelően. Ezután a számítást újra kell futtatni, és a kapcsolatot újra ellenőrizni kell.
+**Fontos** azzal tisztában lenni, hogy csJoint modulban végzett módosítások (keresztmetszet vagy anyagminőség változtatás) nem befolyásolja a 3D szerkezeti modellt. Ezek csak csJoint számítás eredményeire vannak hatással. A felhasználónak kell a modellt a csJoint-ban végzett módosításokkal szinkronban tartania: ha megváltoztatunk valami a kapcsolatban, a 3d modellt is meg kell változtatni annak megfelelően. Ezután a számítást újra kell futtatni, és a kapcsolatot újra ellenőrizni kell.
 
 <!-- /wp:paragraph -->
 
@@ -250,7 +246,7 @@ Akár modell alapján (_Consteel_), vagy modell nélkül (_csJoint_) lett létre
 
 <!-- wp:paragraph -->
 
-Csomópont módosításához először ki kell választani a módosítandó csomópontot a **Szerkezeti elemek** fül **Csomópont szerkesztő** ![](./img/wp-content-uploads-2022-06-tab_csomop_cmd_szerkeszt.png) ikonjára kattintva megjelenő **Csomópontok **dialógon. A dialóg baloldali fastruktúrájában láthatók a létrehozott csomópontok. A fában kiválasztott csomópont megnyitható a Módosítás ![](./img/wp-content-uploads-2022-06-dial_csomop_szerk_modosit.png) gombra kattintva, vagy a csomópont nevére, illetve a csomópont 3D grafikájára történő dupla kattintással.
+Csomópont módosításához először ki kell választani a módosítandó csomópontot a **Szerkezeti elemek** fül **Csomópont szerkesztő** ![](./img/wp-content-uploads-2022-06-tab_csomop_cmd_szerkeszt.png) ikonjára kattintva megjelenő **Csomópontok** dialógon. A dialóg baloldali fastruktúrájában láthatók a létrehozott csomópontok. A fában kiválasztott csomópont megnyitható a Módosítás ![](./img/wp-content-uploads-2022-06-dial_csomop_szerk_modosit.png) gombra kattintva, vagy a csomópont nevére, illetve a csomópont 3D grafikájára történő dupla kattintással.
 
 <!-- /wp:paragraph -->
 
@@ -288,7 +284,7 @@ A csomópont létrehozása vagy egy meglévő szerkesztésre történő megnyit�
 
 <!-- wp:list -->
 
-- (#4) A negyedik rész a csomóponti számítások eredményeit mutatja. A számítások minden, a csomóponton történt módosítás után automatikusan lefutnak, ha az _Automatikus számítás_ jelölőnégyzet a dialóg alján ki van választva. Ha nincsen, akkor a **Számítás **gombra kattintva futtatható le a csomópont számítása. A legördülő menüben kiválasztható az eredménymegjelenítés módja:
+- (#4) A negyedik rész a csomóponti számítások eredményeit mutatja. A számítások minden, a csomóponton történt módosítás után automatikusan lefutnak, ha az _Automatikus számítás_ jelölőnégyzet a dialóg alján ki van választva. Ha nincsen, akkor a **Számítás** gombra kattintva futtatható le a csomópont számítása. A legördülő menüben kiválasztható az eredménymegjelenítés módja:
 
   - Csomópont eredményeinek összegzése
 
@@ -306,7 +302,7 @@ A csomópont létrehozása vagy egy meglévő szerkesztésre történő megnyit�
 
 <!-- wp:paragraph -->
 
-Csomóponti dokumentáció a dialóg bal alsó sarkában található **Dokumentálás… **gombra kattintva hozható létre.
+Csomóponti dokumentáció a dialóg bal alsó sarkában található **Dokumentálás…** gombra kattintva hozható létre.
 
 <!-- /wp:paragraph -->
 
@@ -318,7 +314,7 @@ Csomóponti dokumentáció a dialóg bal alsó sarkában található **Dokument�
 
 <!-- wp:paragraph -->
 
-\***\*Oszlop\*\***
+**Oszlop**
 
 <!-- /wp:paragraph -->
 
@@ -358,7 +354,7 @@ A _Referencia sík_ helyzete (#3) mezőben adható meg a referencia sík oszlop 
 
 <!-- wp:paragraph -->
 
-\***\*Merevítők\*\***
+**Merevítők**
 
 <!-- /wp:paragraph -->
 
@@ -382,7 +378,7 @@ A _Gerincmerevítők_ (#1) mezőben keresztbordák elhelyezésére van lehetős�
 
 <!-- wp:paragraph -->
 
-Az _Övmerevítők_ (#2) mezőben tetszőleges helyzetű és geometriájú övmerevítők helyezhetők el. A **Hozzáad… **gomb segítségével adható hozzá új övmerevítő. A megjelenő dialógon kiválasztható a merevítő típusa (keresztborda vagy övhizlaló), merevítő helyzete (jobb vagy bal öv), megadható az alkalmazandó varrat mérete és a merevítő geometriai paraméterei. A merevítő pozíciója megadható több referenciaponttól is, ami a legördülő menüből választható ki. Létrehozott merevítők a táblázatban tekinthetők meg. A _Típus_ oszlopban található jelölőnégyzet segítségével bármelyik létrehozott borda kikapcsolható. A táblázatban kiválasztott borda a **Törlés **gombbal törölhető, illetve a **Szerkesztés… **gombbal módosítható.
+Az _Övmerevítők_ (#2) mezőben tetszőleges helyzetű és geometriájú övmerevítők helyezhetők el. A **Hozzáad…** gomb segítségével adható hozzá új övmerevítő. A megjelenő dialógon kiválasztható a merevítő típusa (keresztborda vagy övhizlaló), merevítő helyzete (jobb vagy bal öv), megadható az alkalmazandó varrat mérete és a merevítő geometriai paraméterei. A merevítő pozíciója megadható több referenciaponttól is, ami a legördülő menüből választható ki. Létrehozott merevítők a táblázatban tekinthetők meg. A _Típus_ oszlopban található jelölőnégyzet segítségével bármelyik létrehozott borda kikapcsolható. A táblázatban kiválasztott borda a **Törlés** gombbal törölhető, illetve a **Szerkesztés…** gombbal módosítható.
 
 <!-- /wp:paragraph -->
 
@@ -398,7 +394,7 @@ A _Nyírási merevítők_ (#3) mezőben nyírási merevítő helyezhető el az o
 
 <!-- wp:paragraph -->
 
-\***\*Csomóponti terhek\*\***
+**Csomóponti terhek**
 
 <!-- /wp:paragraph -->
 
@@ -434,7 +430,7 @@ Kézi megadás esetén a ![](./img/wp-content-uploads-2022-06-dial_csomop_reszle
 
 <!-- wp:paragraph -->
 
-Itt a **Minta táblázat** gombra kattintva megjelenik egy minta adatsor, amely segítséget ad a táblázatunk adatokkal való feltöltéséhez. A dialóg alsó részén tudjuk dönteni, hogy az aktuális teheresetek milyen nevet kapjanak. Lehetőségünk van a táblázatban lévő név használatára, vagy automatikus generálást is alkalmazhatunk A megnyitás ikonra ![](./img/wp-content-uploads-2021-04-cmd_open.png) kattintva tudjuk kiválasztani a terheket tartalmazó fájlt. A **Rendben **gombra kattintva a táblázatunkban lévő értékek fognak szerepelni a (#2) mezőben.
+Itt a **Minta táblázat** gombra kattintva megjelenik egy minta adatsor, amely segítséget ad a táblázatunk adatokkal való feltöltéséhez. A dialóg alsó részén tudjuk dönteni, hogy az aktuális teheresetek milyen nevet kapjanak. Lehetőségünk van a táblázatban lévő név használatára, vagy automatikus generálást is alkalmazhatunk A megnyitás ikonra ![](./img/wp-content-uploads-2021-04-cmd_open.png) kattintva tudjuk kiválasztani a terheket tartalmazó fájlt. A **Rendben** gombra kattintva a táblázatunkban lévő értékek fognak szerepelni a (#2) mezőben.
 
 <!-- /wp:paragraph -->
 
@@ -450,7 +446,7 @@ A _Csomóponti terhek adatai_ (#2) mezőben adhatók meg a különböző erő ko
 
 <!-- wp:paragraph -->
 
-\***\*Gerenda\*\***
+**Gerenda**
 
 <!-- /wp:paragraph -->
 
@@ -496,7 +492,7 @@ A _Gerenda fesztáv_ (#4) mezőben a gerenda fesztávja adható meg. Erre az ér
 
 <!-- wp:paragraph -->
 
-\***\*Homloklemez\*\***
+**Homloklemez**
 
 <!-- /wp:paragraph -->
 
@@ -508,7 +504,7 @@ A _Gerenda fesztáv_ (#4) mezőben a gerenda fesztávja adható meg. Erre az ér
 
 <!-- wp:paragraph -->
 
-A csomóponti fa \_Homloklemez \_elemének kiválasztása után, a homloklemezre és a csavarokra vonatkozó tulajdonságok módosíthatók.
+A csomóponti fa _Homloklemez_ elemének kiválasztása után, a homloklemezre és a csavarokra vonatkozó tulajdonságok módosíthatók.
 
 <!-- /wp:paragraph -->
 
@@ -530,7 +526,7 @@ A _Csavar_ (#2) mezőben adhatók meg a csavarok anyagminősége, átmérője é
 
 <!-- wp:paragraph -->
 
-\***\*Varratok\*\***
+**Varratok**
 
 <!-- /wp:paragraph -->
 
@@ -564,7 +560,7 @@ _A gerincvarrat hossza mentén lineáris feszültségeloszlás_ funkció haszná
 
 <!-- wp:paragraph -->
 
-Minden csomóponton történt változtatás automatikusan megjelenik a számítási eredményekben az Enter billentyű lenyomása, vagy más módosítható mezőbe való kattintással, illetve - ha az _Automatikus számítás_ funkció ki van kapcsolva, akkor- a **Számítás **gombra kattintás után.
+Minden csomóponton történt változtatás automatikusan megjelenik a számítási eredményekben az Enter billentyű lenyomása, vagy más módosítható mezőbe való kattintással, illetve - ha az _Automatikus számítás_ funkció ki van kapcsolva, akkor- a **Számítás** gombra kattintás után.
 
 <!-- /wp:paragraph -->
 
@@ -600,7 +596,7 @@ Alapértelmezett csomóponti beállítások, mint varratméret, csavarátmérő 
 
 <!-- wp:paragraph -->
 
-_Alapértelmezett csomóponti beállítás_ a **Csomópontok **dialóg **Alapértelmezett csomóponti beállítás** (![](./img/wp-content-uploads-2021-04-15-3-def-butt.png)) ikonra kattintva módosítható vagy hozható létre. Az alapértelmezett csomóponti beállítások fájl (UserConfig.xml) a Dokumentumok\\Consteel mappába kerül elmentésre.
+_Alapértelmezett csomóponti beállítás_ a **Csomópontok** dialóg **Alapértelmezett csomóponti beállítás** (![](./img/wp-content-uploads-2021-04-15-3-def-butt.png)) ikonra kattintva módosítható vagy hozható létre. Az alapértelmezett csomóponti beállítások fájl (UserConfig.xml) a Dokumentumok\\Consteel mappába kerül elmentésre.
 
 <!-- /wp:paragraph -->
 

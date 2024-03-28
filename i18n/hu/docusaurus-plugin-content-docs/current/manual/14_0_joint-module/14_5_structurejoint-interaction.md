@@ -1,11 +1,7 @@
 ---
-title: 'A szerkezet és a csomópontok kölcsönhatása'
-description: ""
-published: 2022-06-20
-redirect_from: 
-            - https://www.consteelsoftware.com/hu/manual/csomopont-modul/a-szerkezet-es-a-csomopontok-kolcsonhatasa/
-hero: ./img/wp-content-uploads-2021-04-15-6-place-butt.png
+sidebar_position: 5
 ---
+# A szerkezet és a csomópontok kölcsönhatása
 <!-- wp:paragraph -->
 
 A legújabb tervezési eljárások képesek figyelembe venni a globális szerkezeti modell és a szerkezeti kapcsolatok közötti kölcsönhatásokat (merev, fél-merev vagy csuklós), amelynek következtében az eredmény valósághűbb és gazdaságosabb. Ennek feltétele a korábbiaknál élethűbb modell felépítés, amely a mérnöktől komolyabb erőfeszítést kíván a modellezés során. _Consteel_-ban a csomópontokat manuálisan, vagy a modell geometria felhasználásával hozhatunk létre a csomópont felismerése funkció segítségével, amely megvizsgálja kapcsolódó szerkezeti elemek helyzetét és a szelvényeket, és felajánlja az adott elrendezéshez létrehozható csomóponttípusokat. A csomópont létrehozását követően a csomópontokat elhelyezhetjük a modellen és a csomóponti merevségek automatikusan felhasználhatók a globális szerkezet analíziséhez. Az elhelyezett kapcsolatok ellenőrzése az újabb analíziseredmények esetén újra megtörténik.
@@ -20,7 +16,7 @@ A csomópontok elhelyezése a **Szerkezeti elemek** fülön található **[Csom�
 
 <!-- wp:paragraph -->
 
-Ha csak bizonyos kombinációban van erre szükség, akkor a **Globális beállítások** szakasz [_aloldalát _](/manual/szerkezetek-analizise/analizis-beallitasok/#subpage-of-global-settings)kell megnyitni a ![](./img/wp-content-uploads-2021-04-cmd_subpage.png) ikon segítségével, ahol egyenként bejelölhetők azok a kombinációk, amelyeknél szükség van a merevségek átvitelére.
+Ha csak bizonyos kombinációban van erre szükség, akkor a **Globális beállítások** szakasz [_aloldalát_](/manual/szerkezetek-analizise/analizis-beallitasok/#subpage-of-global-settings) kell megnyitni a ![](./img/wp-content-uploads-2021-04-cmd_subpage.png) ikon segítségével, ahol egyenként bejelölhetők azok a kombinációk, amelyeknél szükség van a merevségek átvitelére.
 
 <!-- /wp:paragraph -->
 
