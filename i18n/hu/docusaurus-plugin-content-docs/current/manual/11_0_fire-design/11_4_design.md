@@ -1,10 +1,7 @@
 ---
-title: 'Analízis'
-description: ""
-published: 2022-06-08
-redirect_from: 
-            - https://www.consteelsoftware.com/hu/manual/tuzhatas-tervezes/analizis/
-hero: ./img/wp-content-uploads-2021-04-12-3-analysis.png
+sidebar_position: 2
+---
+# Analízis
 ---
 <!-- wp:paragraph {"align":"justify"} -->
 

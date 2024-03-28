@@ -1,10 +1,7 @@
 ---
-title: 'Tűzhatás és tűzvédelem megadása'
-description: ""
-published: 2022-06-08
-redirect_from: 
-            - https://www.consteelsoftware.com/hu/manual/tuzhatas-tervezes/tuzhatas-es-tuzvedelem-megadasa/
-hero: ./img/wp-content-uploads-2022-06-tab_tuz.png
+sidebar_position: 2
+---
+# Tűzhatás és tűzvédelem megadása
 ---
 <!-- wp:image {"align":"center","id":37644,"width":837,"height":48,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
@@ -50,7 +47,7 @@ Második lépésként meg kell adni az elvárt tűzállósági időt, amelye 15 
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Harmadik lépésként a \_Tűzvédelem \_mező mellett található hárompontos ![](./img/wp-content-uploads-2021-04-3dots-button.png) gombra kattintva, különböző tűzvédelem felvételére van lehetőség. A megjelenő dialógon, ha még nincs létrehozva tűzvédelem típus, először az **Új **gombra kattintva lehet egy új védelmet definiálni. Legfelül lehet nevet adni az új definíciónak.
+Harmadik lépésként a _Tűzvédelem_ mező mellett található hárompontos ![](./img/wp-content-uploads-2021-04-3dots-button.png) gombra kattintva, különböző tűzvédelem felvételére van lehetőség. A megjelenő dialógon, ha még nincs létrehozva tűzvédelem típus, először az **Új** gombra kattintva lehet egy új védelmet definiálni. Legfelül lehet nevet adni az új definíciónak.
 
 <!-- /wp:paragraph -->
 
@@ -60,7 +57,7 @@ Harmadik lépésként a \_Tűzvédelem \_mező mellett található hárompontos 
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Ezután ki kell választani a védelem típusát, amely lehet _védetlen \_vagy \_védett_. Védett típus választása esetén a védelem lehet _passzív \_vagy \_reaktív_.
+Ezután ki kell választani a védelem típusát, amely lehet _védetlen_ vagy _védett_. Védett típus választása esetén a védelem lehet _passzív_ vagy _reaktív_.
 
 <!-- /wp:paragraph -->
 
@@ -90,7 +87,7 @@ Ezután ki kell választani a védelem típusát, amely lehet _védetlen \_vagy 
 
 <!-- wp:paragraph -->
 
-**Figyelem! **Kritikus hőmérséklet számítást csak olyan elemekre lehet kérni, amelyek reaktív védelemmel vannak ellátva!
+**Figyelem!** Kritikus hőmérséklet számítást csak olyan elemekre lehet kérni, amelyek reaktív védelemmel vannak ellátva!
 
 <!-- /wp:paragraph -->
 
@@ -112,7 +109,7 @@ Végezetül a párbeszédablak legalsó legördülő mezőjében, bármilyen vé
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Az **Alkalmaz **gombra kattintva a tűzvédelmi beállítások elmentésre kerülnek. A **Törlés** gombbal törölhető a kiválasztott tűzvédelem. Az **Új **gomb segítségével több egyéb védelem is létrehozható.
+Az **Alkalmaz** gombra kattintva a tűzvédelmi beállítások elmentésre kerülnek. A **Törlés** gombbal törölhető a kiválasztott tűzvédelem. Az **Új** gomb segítségével több egyéb védelem is létrehozható.
 
 <!-- /wp:paragraph -->
 

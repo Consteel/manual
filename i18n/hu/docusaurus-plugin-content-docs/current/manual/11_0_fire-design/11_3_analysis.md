@@ -1,10 +1,7 @@
 ---
-title: 'Tervezés'
-description: ""
-published: 2022-06-08
-redirect_from: 
-            - https://www.consteelsoftware.com/hu/manual/tuzhatas-tervezes/tervezes/
-hero: ./img/wp-content-uploads-2022-06-dial_tuz_meretezes_kritikus_homerseklet-e1654708245383.png
+sidebar_position: 3
+---
+# Tervezés
 ---
 <!-- wp:heading {"level":3} -->
 
@@ -20,7 +17,7 @@ Emelt hőmérsékleti analízis esetén a Consteel az EuroCode 3 szabvány vonat
 
 <!-- wp:paragraph -->
 
-\***\*Keresztmetszet osztályozása (EN 1993-1-2 4.2.2)\*\***
+**Keresztmetszet osztályozása (EN 1993-1-2 4.2.2)**
 
 <!-- /wp:paragraph -->
 
@@ -32,13 +29,13 @@ A keresztmetszetek osztályba sorolása a normál tervezési eljárásoknál alk
 
 <!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-$\\varepsilon = 0,85 \\left \[\\dfrac {235} {f_y} \\right ] ^{0,5}$
+$\varepsilon = 0,85 \left [\dfrac {235} {f_y} \right ] ^{0,5}$
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-\***\*Húzás (EN 1993-1-2 4.2.3.1)\*\***
+**Húzás (EN 1993-1-2 4.2.3.1)**
 
 <!-- /wp:paragraph -->
 
@@ -50,7 +47,10 @@ $\\varepsilon = 0,85 \\left \[\\dfrac {235} {f_y} \\right ] ^{0,5}$
 
 <!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-$N\_{t,fi,\\Theta,Rd} = k\_{y,\\Theta}\\cdot \\left \[\\dfrac {\\gamma\_{M,0}} {\\gamma\_{M,fi}} \\right ]\\cdot N\_{pl,Rd}\\qquad \\qquad$ (1-4. osztály)
+
+$N_{t,fi,\Theta,Rd} = k_{y,\Theta} \cdot \left[\dfrac{\gamma_{M,0}}{\gamma_{M,fi}}\right] \cdot N_{pl,Rd}$
+
+(1-4. osztály)
 
 Ahol
 
@@ -58,8 +58,10 @@ Ahol
 
 <!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-$k\_{y,\\Theta}\\qquad \\qquad$ értékeit a 3.1 táblázat tartalmazza  
-$N\_{pl,Rd}\\qquad \\qquad$ tűzhatás nélküli esetben
+$k_{y,\Theta}$  értékeit a 3.1 táblázat tartalmazza 
+
+$N_{pl,Rd}$  tűzhatás nélküli esetben
+
 
 <!-- /wp:paragraph -->
 
@@ -71,13 +73,14 @@ Változó hőmérséklet ((2))
 
 <!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-$N\_{t,fi,t,Rd} = A\_{non,t}\\cdot \\dfrac {f_y} {\\gamma\_{M,fi}}\\qquad \\qquad$ (1-4. osztály)
+$N_{t,fi,t,Rd} = A_{non,t} \cdot \dfrac {f_y} {\gamma_{M,fi}}$
+   (1-4. osztály)
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-\***\*Nyomás (1-3. osztály: EN 1993-1-2 4.2.3.2, 4. osztály: + E.2 melléklet)\*\***
+**Nyomás (1-3. osztály: EN 1993-1-2 4.2.3.2, 4. osztály: + E.2 melléklet)**
 
 <!-- /wp:paragraph -->
 
@@ -89,12 +92,14 @@ $N\_{t,fi,t,Rd} = A\_{non,t}\\cdot \\dfrac {f_y} {\\gamma\_{M,fi}}\\qquad \\qqua
 
 <!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-$N\_{c,fi,t,Rd} = A\\cdot \\dfrac {k\_{y,\\Theta}\\cdot f_y} {\\gamma\_{M,fi}}\\qquad \\qquad$ (1-3. osztály)
+$N_{c,fi,t,Rd} = A \cdot \dfrac {k_{y,\Theta} \cdot f_y} {\gamma_{M,fi}}$ (1-3. osztály)
 
-$N\_{c,fi,t,Rd} = A\_{eff}\\cdot \\dfrac {k\_{p0,2,\\Theta}\\cdot f_y} {\\gamma\_{M,fi}}\\qquad \\qquad$ (4. osztály)
+$N_{c,fi,t,Rd} = A_{eff} \cdot \dfrac {k_{p0,2,\Theta} \cdot f_y} {\gamma_{M,fi}}$ (4. osztály)
 
 Ahol  
-$k\_{p0,2,\\Theta}\\qquad \\qquad$ értékeit a 3.1 táblázat tartalmazza
+ 
+$k_{p0,2,\Theta}$ értékeit a 3.1 táblázat tartalmazza
+
 
 <!-- /wp:paragraph -->
 
@@ -106,13 +111,14 @@ Változó hőmérséklet ((6))
 
 <!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-Konzervatív módszer, (1) eset, ahol $\\Theta_a = \\Theta\_{a,max}$
+Konzervatív módszer, (1) eset, ahol $\Theta_a = \Theta_{a,max}$
+
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-\***\*Hajlítás (EN 1993-1-2 1-2. osztály: 4.2.3.3; 3. osztály: 4.2.3.4; 4. osztály: + E.2 melléklet)\*\***
+**Hajlítás (EN 1993-1-2 1-2. osztály: 4.2.3.3; 3. osztály: 4.2.3.4; 4. osztály: + E.2 melléklet)**
 
 <!-- /wp:paragraph -->
 
@@ -124,13 +130,14 @@ Konzervatív módszer, (1) eset, ahol $\\Theta_a = \\Theta\_{a,max}$
 
 <!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-$M\_{fi,\\Theta ,Rd} = k\_{y,\\Theta}\\cdot \\dfrac {\\gamma\_{M,0}} {\\gamma\_{M,fi}}\\cdot M\_{Rd}\\qquad $
+$M_{fi,\Theta ,Rd} = k_{y,\Theta} \cdot \dfrac {\gamma_{M,0}} {\gamma_{M,fi}} \cdot M_{Rd}$
 
 Ahol  
-$M\_{Rd}=M\_{pl.Rd}\\qquad $ , nyírás esetén: $M\_{Rd}=M\_{V.Rd}\\qquad \\qquad $ (1-2. osztály)  
-$M\_{Rd}=M\_{el.Rd}\\qquad $ , nyírás esetén: $M\_{Rd}=M\_{V.Rd}\\qquad \\qquad $ (3. osztály)  
-$M\_{Rd}=M\_{eff.Rd}\\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad \\qquad $ (4. osztály)  
-$k\_{y,\\Theta}\\qquad \\qquad \\qquad \\qquad $ értékeit a 3.1 táblázat tartalmazza
+$M_{Rd}=M_{pl.Rd}$ , nyírás esetén: $M_{Rd}=M_{V.Rd}$  (1-2. osztály)  
+$M_{Rd}=M_{el.Rd}$ , nyírás esetén: $M_{Rd}=M_{V.Rd}$  (3. osztály)  
+$M_{Rd}=M_{eff.Rd}$  (4. osztály)  
+$k_{y,\Theta}$  értékeit a 3.1 táblázat tartalmazza
+
 
 <!-- /wp:paragraph -->
 
@@ -142,15 +149,16 @@ Változó hőmérséklet ((2))
 
 <!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-$M\_{fi,t,Rd} = W\_{pl,non,t}\\cdot \\dfrac {f_y} {\\gamma\_{M,fi}}\\qquad \\qquad \\qquad \\qquad $ (1-2. osztály)  
-$M\_{fi,t,Rd} = k\_{y,\\Theta ,max}\\cdot \\dfrac {\\gamma\_{M,0}} {\\gamma\_{M,fi}}\\cdot \\dfrac {1} {\\kappa_1\\cdot \\kappa_2}\\qquad \\qquad \\qquad $ (3. osztály)  
-$M\_{fi,t,Rd} = k\_{p0,2,\\Theta ,max}\\cdot \\dfrac {\\gamma\_{M,0}} {\\gamma\_{M,fi}}\\cdot \\dfrac {1} {\\kappa_1\\cdot \\kappa_2}\\cdot M\_{eff,Rd}\\qquad \\qquad $ (4. osztály)
+$M_{fi,t,Rd} = W_{pl,non,t} \cdot \dfrac {f_y} {\gamma_{M,fi}}$  (1-2. osztály)  
+$M_{fi,t,Rd} = k_{y,\Theta,max} \cdot \dfrac {\gamma_{M,0}} {\gamma_{M,fi}} \cdot \dfrac {1} {\kappa_1 \cdot \kappa_2}$  (3. osztály)  
+$M_{fi,t,Rd} = k_{p0,2,\Theta,max} \cdot \dfrac {\gamma_{M,0}} {\gamma_{M,fi}} \cdot \dfrac {1} {\kappa_1 \cdot \kappa_2} \cdot M_{eff,Rd}$  (4. osztály)
+
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-\***\*Nyírás (EN 1993-1-2 1-2. osztály: 4.2.3.3(6); 3. osztály: 4.2.3.4(4); 4. osztály: + E.2 melléklet)\*\***
+**Nyírás (EN 1993-1-2 1-2. osztály: 4.2.3.3(6); 3. osztály: 4.2.3.4(4); 4. osztály: + E.2 melléklet)**
 
 <!-- /wp:paragraph -->
 
@@ -162,7 +170,8 @@ $M\_{fi,t,Rd} = k\_{p0,2,\\Theta ,max}\\cdot \\dfrac {\\gamma\_{M,0}} {\\gamma\_
 
 <!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-$V\_{fi,t,Rd} = k\_{y,\\Theta ,web}\\cdot \\dfrac {\\gamma\_{M,0}} {\\gamma\_{M,fi}}\\cdot V\_{Rd}\\qquad \\qquad $ (1-4. osztályokra)
+$V_{fi,t,Rd} = k_{y,\Theta ,web} \cdot \dfrac {\gamma_{M,0}} {\gamma_{M,fi}} \cdot V_{Rd}$  (1-4. osztályokra)
+
 
 <!-- /wp:paragraph -->
 
@@ -174,25 +183,26 @@ Változó hőmérséklet
 
 <!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-$k\_{y,\\Theta ,web}\\qquad \\qquad $ az öv legmelegebb pontja
+$k_{y,\Theta ,web}$  az öv legmelegebb pontja
+
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-\***\*Összetett belső erők esetén a _Consteel_ a konzervatív interakciós képletet használja, és a nyírást figyelmen kívül hagyja:\*\***
+**Összetett belső erők esetén a _Consteel_ a konzervatív interakciós képletet használja, és a nyírást figyelmen kívül hagyja:**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-$\\dfrac {N\_{fi,Ed}} {N\_{fi,\\Theta ,Ed}}+\\dfrac {M\_{y,fi,Ed}} {M\_{y,fi,\\Theta ,Ed}}+\\dfrac {M\_{z,fi,Ed}} {M\_{z,fi,\\Theta ,Ed}}\\leq 1\\qquad \\qquad $
+![alt text](img/valamikissebbmint1.png)
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-\***\*Globális stabilitási ellenállás:\*\***
+**Globális stabilitási ellenállás:**
 
 <!-- /wp:paragraph -->
 
@@ -210,7 +220,7 @@ Nyomás
 
 <!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-$\\chi \_{fi}=\\dfrac {1}{\\varphi\_{\\Theta}+\\sqrt{\\varphi\_{\\Theta}^2-\\bar{\\lambda}\_{\\Theta}^2}}$
+![alt text](img/hajlítás.png)
 
 <!-- /wp:paragraph -->
 
@@ -222,7 +232,7 @@ Hajlítás
 
 <!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-$\\chi \_{LT,fi}=\\dfrac {1}{\\phi\_{LT,\\Theta ,com}+\\sqrt{\\phi\_{LT,\\Theta ,com}^2-\\bar{\\lambda}\_{LT,\\Theta ,com}^2}}$
+![alt text](img/hajlítás.png)
 
 <!-- /wp:paragraph -->
 

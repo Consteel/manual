@@ -1,10 +1,7 @@
 ---
-title: 'Tűz tehercsoport'
-description: ""
-published: 2022-06-08
-redirect_from: 
-            - https://www.consteelsoftware.com/hu/manual/tuzhatas-tervezes/tuz-tehercsoport/
-hero: ./img/wp-content-uploads-2022-06-scr_tehercsoport_tuz.png
+sidebar_position: 1
+---
+# Tűz tehercsoport
 ---
 <!-- wp:image {"align":"right","id":37602,"sizeSlug":"full","linkDestination":"media"} -->
 
