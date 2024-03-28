@@ -1,10 +1,7 @@
 ---
-title: 'Földrengés analízis lépései'
-description: ""
-published: 2022-06-09
-redirect_from: 
-            - https://www.consteelsoftware.com/hu/manual/foldrenges-analizis/foldrenges-analizis-lepesei/
-hero: ../../../defaultHero.jpg
+sidebar_position: 2
+---
+# Földrengés analízis lépései
 ---
 <!-- wp:paragraph -->
 

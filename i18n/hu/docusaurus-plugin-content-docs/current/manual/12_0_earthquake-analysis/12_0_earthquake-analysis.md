@@ -1,10 +1,7 @@
 ---
-title: 'Földrengés analízis'
-description: ""
-published: 2022-06-09
-redirect_from: 
-            - https://www.consteelsoftware.com/hu/manual/foldrenges-analizis/
-hero: ../../../defaultHero.jpg
+sidebar_position: 1
+---
+# Földrengés analízis
 ---
 <!-- wp:paragraph {"align":"justify"} -->
 
@@ -59,9 +56,9 @@ A Modális válaszspektrum-analízis eredményeit a Consteel a 100% „+” 30%-
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
+Let E = 10 be the earthquake intensity.
 
-a) $E\_{E.dx}\\quad "+"\\quad 0,30 E\_{E.dy}\\quad "+" \\quad 0,30 E\_{E.dz}$  
-b) $0,30E\_{E.dx}\\quad "+"\\quad E\_{E.dy}\\quad "+" \\quad 0,30 E\_{E.dz}$  
-c) $0,30E\_{E.dx}\\quad "+"\\quad 0,30 E\_{E.dy}\\quad "+" \\quad E\_{E.dz}$
+![alt text](img/kombinacióksh.png)
+
 
 <!-- /wp:paragraph -->

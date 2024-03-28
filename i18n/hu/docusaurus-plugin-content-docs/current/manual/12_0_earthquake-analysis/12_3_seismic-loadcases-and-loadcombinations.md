@@ -1,10 +1,7 @@
 ---
-title: 'Szeizmikus tehercsoportok és teherkombinációk'
-description: ""
-published: 2022-06-09
-redirect_from: 
-            - https://www.consteelsoftware.com/hu/manual/foldrenges-analizis/szeizmikus-tehercsoportok-es-teherkombinaciok/
-hero: ./img/wp-content-uploads-2022-06-dial_foldrenges_tehercsoport.png
+sidebar_position: 4
+---
+# Szeizmikus tehercsoportok és teherkombinációk
 ---
 <!-- wp:heading {"level":3} -->
 
@@ -14,7 +11,7 @@ hero: ./img/wp-content-uploads-2022-06-dial_foldrenges_tehercsoport.png
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Visszalépve a **Teheresetek és tehercsoportok** dialógra, megadható a földrengés tehercsoport és tehereset. Az ablakon kiválasztva a **Szeizmikus **tehercsoportot, automatikusan betöltődik teheresetként az előzőleg létrehozott szeizmikus hatás.
+Visszalépve a **Teheresetek és tehercsoportok** dialógra, megadható a földrengés tehercsoport és tehereset. Az ablakon kiválasztva a **Szeizmikus** tehercsoportot, automatikusan betöltődik teheresetként az előzőleg létrehozott szeizmikus hatás.
 
 <!-- /wp:paragraph -->
 
@@ -26,7 +23,7 @@ Visszalépve a **Teheresetek és tehercsoportok** dialógra, megadható a földr
 
 <!-- wp:paragraph -->
 
-Abban az esetben, ha a számítási eljárás során a **Kiválasztott modális alakok lineáris összegzését** választjuk, megjelenik a **Teheresetek és tehercsoportok** dialógon egy új parancs, mely a **Modális hatások lineáris kombinációja **(#1) nevet kapta. A parancsra kattintva megnyílik a táblázat, mely tartalmazza az egyes kiszámolt rezgésalakokhoz tartozó irányonkénti tömegrészesedést. A kombinációs faktorok manuális megadásával megadhatjuk, hogy egy adott rezgésalak adott irányába mekkora tömegrészesedést veszünk figyelembe a számított tömegrészesedésből.  
+Abban az esetben, ha a számítási eljárás során a **Kiválasztott modális alakok lineáris összegzését** választjuk, megjelenik a **Teheresetek és tehercsoportok** dialógon egy új parancs, mely a **Modális hatások lineáris kombinációja** (#1) nevet kapta. A parancsra kattintva megnyílik a táblázat, mely tartalmazza az egyes kiszámolt rezgésalakokhoz tartozó irányonkénti tömegrészesedést. A kombinációs faktorok manuális megadásával megadhatjuk, hogy egy adott rezgésalak adott irányába mekkora tömegrészesedést veszünk figyelembe a számított tömegrészesedésből.  
 Itt fontos megjegyezni azt, hogy alapértelmezett állapotban mind a 3 irányhoz tartozó kombinációs faktor oszlopaihoz tartozó cellák üresen állnak. Abban az esetben, ha a cellákat üresen hagyjuk, tehát nem adjuk meg manuálisan, hogy a számított tömegrészesdésekből mennyit veszünk figyelembe a számítás során, akkor a szoftver a **Domináns modális alak** eljárás alapján számítja a földrengés hatást.
 
 <!-- /wp:paragraph -->

@@ -1,10 +1,7 @@
 ---
-title: 'Földrengés hatás'
-description: ""
-published: 2022-06-09
-redirect_from: 
-            - https://www.consteelsoftware.com/hu/manual/foldrenges-analizis/foldrenges-hatas/
-hero: ./img/wp-content-uploads-2021-04-13-3-Seismic-effect.png
+sidebar_position: 3
+---
+# Földrengés hatás
 ---
 <!-- wp:paragraph {"align":"justify"} -->
 
@@ -14,13 +11,13 @@ A Tömegek fülön található **Földrengés hatás** (![](./img/wp-content-upl
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Földregés hatás definiálásához már létrehozott tömegkombináció és válaszspektrum szükséges (lásd **\_[7. ](/manual/tomegek/)**_[Tömegek](/manual/tomegek/)_**\_** c. fejezetet)!
+Földregés hatás definiálásához már létrehozott tömegkombináció és válaszspektrum szükséges (lásd **[7. ](/manual/tomegek/)**_[Tömegek](/manual/tomegek c. fejezetet_)!
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Új földrengés hatás az **Új **gomb megnyomásával hozható létre. Egyszerre több földrengés hatás is definiálható. Az egyes hatások között a legfelső **_Név_ **mezőben található legördülő menü segítségével válthatók.
+Új földrengés hatás az **Új** gomb megnyomásával hozható létre. Egyszerre több földrengés hatás is definiálható. Az egyes hatások között a legfelső **Név** mezőben található legördülő menü segítségével válthatók.
 
 <!-- /wp:paragraph -->
 
@@ -51,9 +48,9 @@ A _Beállítások_ (#1) mezőben lehet megadni az földrengés analízis legfőb
 
 <!-- wp:list -->
 
-- \_Tömegkombináció: \_meg kell adni, hogy a Modális válaszspektrum-analízishez szükséges dinamikai alakok számításához melyik tömegkombinációt használja a program. A legördülő menüből bármely, előzőleg már definiált tömeg kombináció kiválasztható.  
+- _Tömegkombináció:_ meg kell adni, hogy a Modális válaszspektrum-analízishez szükséges dinamikai alakok számításához melyik tömegkombinációt használja a program. A legördülő menüből bármely, előzőleg már definiált tömeg kombináció kiválasztható.  
   **A földrengés analízis csak erre a kiválasztott tömegkombinációra fog futni!**
-- _Számítási mód:_ a legördülő menü segítségével kiválasztható a használni kívánt számítási mód. A számítási módok leírását és összehasonlítását lásd a \_**[Földrengés analízis lépései](/manual/foldrenges-analizis/foldrenges-analizis-lepesei/)** \_c. fejezetben!
+- _Számítási mód:_ a legördülő menü segítségével kiválasztható a használni kívánt számítási mód. A számítási módok leírását és összehasonlítását lásd a **[Földrengés analízis lépései](/manual/foldrenges-analizis/foldrenges-analizis-lepesei/)** c. fejezetben!
 - _Szerkezet fő teherviselési iránya az X tengelytől:_ a szerkezet fő teherviselési iránya megadható a fekete nyíl gomb (![](./img/wp-content-uploads-2021-04-ico-pointer.png)) megnyomásával a modelltérben egy irányvektorral, vagy a globális X tengelytől fokban. A megadott irányba lesz értelmez a földrengés hatás 1-es iránya, a q1 tényező, illetve erre merőlegesen a földrengés hatás 2-es iránya és a q2 tényező
 
 <!-- /wp:list -->
@@ -118,8 +115,8 @@ A megadható viselkedési tényezők az alkalmazott válaszspektrum(ok) típusá
 
 |                                                                           | **Viselkedési tényező (q)**                                                                                  | **Elmozdulási viselkedési tényező (qd)** |
 | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ---------------------------------------- |
-| \***\*ULS tervezési spektrum és qd faktor alkalmazása\*\***               | Szabványos spektrum esetén megadható Egyéni tervezési spektrum esetén a spektrum tartalmazza; nem adható meg | Megadható                                |
-| \***\*Külön válaszspektrum alkalmazása ULS és SLS határállapotokhoz\*\*** | Szabványos spektrum esetén megadható Egyéni tervezési spektrum esetén a spektrum tartalmazza; nem adható meg | Nem adható meg                           |
+| **ULS tervezési spektrum és qd faktor alkalmazása**               | Szabványos spektrum esetén megadható Egyéni tervezési spektrum esetén a spektrum tartalmazza; nem adható meg | Megadható                                |
+| **Külön válaszspektrum alkalmazása ULS és SLS határállapotokhoz** | Szabványos spektrum esetén megadható Egyéni tervezési spektrum esetén a spektrum tartalmazza; nem adható meg | Nem adható meg                           |
 
 <!-- /wp:table -->
 
@@ -131,13 +128,13 @@ A spektrum típusán túl, a megadható viselkedési tényezők az alábbi opci�
 
 <!-- wp:list -->
 
-- \__Függőleges földrengés hatás figyelembevétele:_ \_az opció segítségével megadható, hogy a számítás során figyelembevételre kerüljön-e a függőleges földrengéshatás. Az opció bekapcsolása esetén a függőleges viselkedési tényezőket is meg adni
+- _Függőleges földrengés hatás figyelembevétele:_ az opció segítségével megadható, hogy a számítás során figyelembevételre kerüljön-e a függőleges földrengéshatás. Az opció bekapcsolása esetén a függőleges viselkedési tényezőket is meg adni
 
 <!-- /wp:list -->
 
 <!-- wp:list -->
 
-- \__Megegyező viselkedési tényező a vízszintes irányokban:_ \_az opció bekapcsolása esetén, a vízszintes irányokban (1 és 2 földrengési főirányok) elegendő egy tényezőt megadni
+- _Megegyező viselkedési tényező a vízszintes irányokban:_ az opció bekapcsolása esetén, a vízszintes irányokban (1 és 2 földrengési főirányok) elegendő egy tényezőt megadni
 
 <!-- /wp:list -->
 
