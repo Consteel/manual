@@ -49,7 +49,7 @@ Ha a keresztmetszet modul közvetlenül a modellből kerül megnyitásra, akkor 
 
 <!-- wp:paragraph -->
 
-A **csSection **modul modellből közvetlenül az **Analízis **vagy a **Globális vizsgálatok** fülről érhető el, ha le lett futtatva első vagy másodrendű analízis vagy szabványos vizsgálat. **csSection **modul két féle képen nyitható meg.
+A **csSection** modul modellből közvetlenül az **Analízis** vagy a **Globális vizsgálatok** fülről érhető el, ha le lett futtatva első vagy másodrendű analízis vagy szabványos vizsgálat. **csSection** modul két féle képen nyitható meg.
 
 <!-- /wp:paragraph -->
 
@@ -251,7 +251,7 @@ Az alábbi tervezési eljárások kerülnek kiszámításra:
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Vasalási opcióval nem rendelkező vasbeton keresztmetszet esetén a **csSection **modul csak a teherbírási felületet tudja előállítani. A teherbírási vonal megtekinthető a három koordináta tengely mentén és tetszőleges metszet is készíthető.
+Vasalási opcióval nem rendelkező vasbeton keresztmetszet esetén a **csSection** modul csak a teherbírási felületet tudja előállítani. A teherbírási vonal megtekinthető a három koordináta tengely mentén és tetszőleges metszet is készíthető.
 
 <!-- /wp:paragraph -->
 
@@ -288,9 +288,3 @@ A tervezési eredmények összefoglalója a jobb oldalon található. A mérték
 <!-- wp:image {"align":"center","id":37488,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
 [![](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_szelvenyvizsgalat_eredmeny_tabl.png)](./img/wp-content-uploads-2022-06-scr_szelvenyvizsgalat_eredmeny_tabl.png)
-
-<!-- /wp:image -->
-
-<!-- wp:spacer -->
-
-<!-- /wp:spacer -->
