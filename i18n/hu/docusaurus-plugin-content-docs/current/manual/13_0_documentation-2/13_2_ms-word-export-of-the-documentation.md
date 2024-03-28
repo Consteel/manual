@@ -1,11 +1,18 @@
 ---
-sidebar_position: 2
+title: 'Dokumentáció exportálása MS Word számára'
+description: ""
+published: 2022-06-10
+redirect_from: 
+            - https://www.consteelsoftware.com/hu/manual/dokumentacio/dokumentacio-exportalasa-ms-word-szamara/
+hero: ./img/wp-content-uploads-2022-06-scr_dokument_export.png
 ---
-# MS Word export of the documentation
+<!-- wp:columns -->
+
+<!-- wp:column -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Documentations can be exported into an editable _.docx_ format Word file. The export itself is a complete process, which means every table, picture, and appendices will be exported. The Microsoft Word export function can be found in the documentation module’s Document menu, under the Export submenu.
+A Consteelben készített dokumentációk _.docx_ formátumú, szerkeszthető Word fájlba exportálhatók. Az exportálás teljes körű, így a Consteel dokumentáció összes eleme ( táblázatok, képek, grafikonok, mellékletek) exportálásra kerül. A funkció a Dokumentáció modulon belül a **Dokumentum **menüpont **Export**, majd a **Microsoft Word** parancsából érhető el.
 
 <!-- /wp:paragraph -->
 
@@ -13,9 +20,9 @@ Documentations can be exported into an editable _.docx_ format Word file. The ex
 
 <!-- wp:column -->
 
-<!-- wp:image {"align":"center","id":9695,"width":339,"height":202,"sizeSlug":"large","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":37834,"width":344,"height":203,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/14-3-msword.png)](./img/wp-content-uploads-2021-04-14-3-msword.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_dokument_export.png)](./img/wp-content-uploads-2022-06-scr_dokument_export.png)
 
 <!-- /wp:image -->
 
@@ -25,19 +32,19 @@ Documentations can be exported into an editable _.docx_ format Word file. The ex
 
 <!-- wp:paragraph -->
 
-After pressing the Microsoft Word button, the Documentation export dialogue will appear:
+A **Microsoft Word** funkció kiválasztása után a **Dokumentáció exportálása** dialógablak jelenik meg:
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":9703,"sizeSlug":"large","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":37826,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/14-3-documentexport.png)](./img/wp-content-uploads-2021-04-14-3-documentexport.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_dokument_export_2.png)](./img/wp-content-uploads-2022-06-scr_dokument_export_2.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-On the dialogue, the path of the exported file has to be given, by browsing it with the ![](./img/wp-content-uploads-2021-04-3dots-button.png) button. It is available (and required) to choose a Template for the exported document. Templates are a collection of styling settings, which will be applied to the exported Word file. By default, a ConSteel template is provided in the installation package, and it contains the same styling settings as the main ConSteel documentation. By selecting the **Use ConSteel template**, and pressing the **OK** button, ConSteel will generate a Word file of your documentation, which is the same in content and is as close as it can be in styling as the original one. Custom templates can also be used, please check chapter **[Create custom templates](#custom-templates)** to know more!
+A dialógon, az exportálandó fájl elérési útvonalát a ![](./img/wp-content-uploads-2021-04-3dots-button.png) gomb segítségével kell megadni. Szükséges megadni továbbá egy, az export folyamán alkalmazandó sablont is. A sablonok formázási beállításokat tartalmazó fájlok, amely beállítások az exportált dokumentumon kerülnek alkalmazásra. A Consteel telepítő csomagjában mellékelve alapértelmezettként megtalálható egy sablon, ami az eredeti Consteel dokumentáció stílusbeli formázási beállításait tartalmazza. A **Consteel sablon használata** pontot bejelölve, majd a **Rendben** gombot megnyomva ez a sablon kerül alkalmazásra az exportált dokumentumon, amely így tartalmát tekintve teljes egészében, stílusbeli beállításait tekintve pedig a lehető legközelebb fog állni az eredeti Consteel dokumentumhoz. Természetesen egyedi stílusbeállításokkal rendelkező sablonok is létrehozhatók és használhatók, erről bővebb leírás lentebb, az [_**Egyéni sablon létrehozása MS Word exportáláshoz**_](#custom-templates) c. fejezetben olvasható.
 
 <!-- /wp:paragraph -->
 
@@ -47,7 +54,7 @@ On the dialogue, the path of the exported file has to be given, by browsing it w
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-When opening an exported documentation in Word for the first time, the table of content has to be refreshed, by right clicking on the heading of the table and selecting the _Update field_ command:
+Az exportált dokumentum első alkalommal való megnyitásakor a tartalomjegyzék frissítése szükséges, melyet a tartalomjegyzéken jobb egér gombot kattintva, majd a frissítés opciót választva lehet megtenni:
 
 <!-- /wp:paragraph -->
 
@@ -55,9 +62,9 @@ When opening an exported documentation in Word for the first time, the table of 
 
 <!-- wp:column -->
 
-<!-- wp:image {"align":"center","id":9710,"sizeSlug":"large","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":37818,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/14-3-updatefield.png)](./img/wp-content-uploads-2021-04-14-3-updatefield.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_dokument_export_3.png)](./img/wp-content-uploads-2022-06-scr_dokument_export_3.png)
 
 <!-- /wp:image -->
 
@@ -71,7 +78,7 @@ When opening an exported documentation in Word for the first time, the table of 
 
 <!-- wp:heading {"level":3} -->
 
-### Creating custom templates for MS Word Export
+### Egyéni sablon létrehozása MS Word exportáláshoz
 
 <!-- /wp:heading -->
 
@@ -79,21 +86,27 @@ When opening an exported documentation in Word for the first time, the table of 
 
 <!-- wp:column -->
 
-<!-- wp:paragraph {"align":"justify"} -->
+<!-- wp:paragraph -->
 
-As it was mentioned in the previous chapter, the installation package of ConSteel contains a default template, which is filled up with the same styling settings, as the main documentation. This template can be found in the installation folder of ConSteel, which is _“C:\\Program Files\\ConSteel 13\\Data\\Export\\**ConSteel.dotx**”_ by default.
+A Consteel dokumentáció exportálásához egyedi stílus sablon is használható. Egyedi sablont a telepítő csomaghoz mellékelt, és alapértelmezésként a Consteel telepítő mappájában található **Consteel.dotx** nevű fájl másolatát kell módosítani. A fájl alapértelmezésben az alábbi elérési útvonalon található:
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+_“C:\\Program Files\\Consteel xx\\Data\\Export\\**Consteel.dotx**”_ (xx=verzió szám)
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-If a new template, with customized styling settings is desired to be created, the **_ConSteel.dotx_** file should be copied first. After opening the copied file, the change in stylings can be performed in the Styles dialogue of MS Word:
+A másolt fájlt megnyitva, a Word stílusok ablakában az összes tartalomjegyzéki elem stílusa külön-külön módosítható.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-After the settings are made, the file should be saved in **.dotx** format (as the original was), and it can be used for word exports in the future.
+A módosítások elvégzése után a **Fájl – Mentés másként** opciót használva a fájlt, a kiinduló formátumnak megfelelően **_.dotx_** fájlként kell elmenteni. Ezután a **Dokumentáció exportálása** dialógon, a **_Saját sablon használata_** opciót választva, az alatta található sor végén, a ![](./img/wp-content-uploads-2021-04-3dots-button.png) gombbal lehet az egyedi sablon fájlt megadni.
 
 <!-- /wp:paragraph -->
 
@@ -101,9 +114,9 @@ After the settings are made, the file should be saved in **.dotx** format (as th
 
 <!-- wp:column -->
 
-<!-- wp:image {"align":"center","id":9716,"sizeSlug":"large","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":37810,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/14-3-styles.png)](./img/wp-content-uploads-2021-04-14-3-styles.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_dokument_export_word_sablon.png)](./img/wp-content-uploads-2022-06-scr_dokument_export_word_sablon.png)
 
 <!-- /wp:image -->
 

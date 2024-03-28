@@ -1,30 +1,26 @@
 ---
-sidebar_position: 1
+title: 'Szelvénymodellezés'
+description: ""
+published: 2022-06-08
+redirect_from: 
+            - https://www.consteelsoftware.com/hu/manual/keresztmetszet-modul/szelvenymodellezes/
+hero: ./img/wp-content-uploads-2022-06-cmd_szelveny_parancs_EPS.png
 ---
-# Section modelling
+<!-- wp:heading {"level":3} -->
 
-**Section module** can be launched with the ![](./img/wp-content-uploads-2021-04-cmd_sectionmodule.png) command on the **Structural members** tab.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-New sections can be loaded or created with **Section administration **command ![](./img/wp-content-uploads-2021-04-cmd_section_admin.png) on the **Structural members** tab. For more information about section administration see _**[chapter 5.1.](/manual/structural-modelling/section-administration/)**_
-
-<!-- /wp:paragraph -->
-### The EPS Model
+### EPS (Vékonyfalú szelvény) modell
 
 <!-- /wp:heading -->
 
-<!-- wp:image {"align":"center","id":8465,"sizeSlug":"large","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":37462,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/11-3-eps-model1.png)](./img/wp-content-uploads-2021-04-11-3-eps-model1.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/06/cmd_szelveny_parancs_EPS.png)](./img/wp-content-uploads-2022-06-cmd_szelveny_parancs_EPS.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-The _**Elastic Plate Segment (EPS)**_ model is a thin-walled simplification of the usual steel profiles from welded, hot-rolled or cold-formed sections. The model is very easy and fast to calculate and has accurate results for thin-walled sections compared with the GSS model, which can be used and run for the same section side by side. The model yields the same general, torsional, and shear properties and stresses and moreover, it calculates the static moments and sectional classes according to the EuroCode. The EPS model is also very suitable for the evaluation of all of the standard design formulas in a very sophisticated way. In the case of Class 4 profile, the effective cross-section is automatically generated based on the proper sectional forces, and the standard procedures can be evaluated on this effective section. In ConSteel version 13, it is new that the program automatically takes into account the effect of distortional buckling when calculating the effective cross-sections of cold-formed thin-wall sections.
+A _**Vékonyfalú Szelvénymodell** (Elastic Plate Segment - **EPS**)_ egy vékony lemezszegmensekből előállított egyszerűsítése a szokásos acél szelvényeknek (hegesztett, hengerelt és hidegen hajlított). A modell számításokhoz nagyon egyszerűen és gyorsan használható, illetve vékonyfalú szelvények esetén pontos eredményt ad, a vele párhuzamosan futtatható és használható GSS szelvénymodellel összehasonlítva. A modell által adott általános, csavarási és nyírási tulajdonságok, illetve feszültségek megegyeznek, és ezeken túlmenően megadja a számított statikai nyomatékokat és az EuroCode szerinti szelvényosztályt. Az EPS modell rendkívül alkalmas az összes szabványos tervezési képlet megoldására. 4. keresztmetszeti osztály esetén, pedig a hatékony keresztmetszet automatikusan előállítható az igénybevételek alapján, illetve a szabványos vizsgálatok elvégezhetők az előállított hatékony keresztmetszettel. A Consteel, a hidegen alakított vékonyfalú szelvények esetében, a hatékony keresztmetszet számításánál a torzulásos horpadás (distortional buckling) hatását is automatikusan figyelembe veszi.
 
 <!-- /wp:paragraph -->
 
@@ -62,9 +58,9 @@ The _**Elastic Plate Segment (EPS)**_ model is a thin-walled simplification of t
 
 <!-- /wp:columns -->
 
-<!-- wp:image {"id":8495,"sizeSlug":"large","linkDestination":"media"} -->
+<!-- wp:image {"id":37478,"width":1024,"height":561,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2021-04-11-3-eps-model5-1024x561.jpg)](https://consteelsoftware.com/wp-content/uploads/2021/04/11-3-eps-model5.jpg)
+[![](./img/wp-content-uploads-2022-06-scr_szelveny_EPS_feszultseg-1024x561.png)](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_szelveny_EPS_feszultseg.png)
 
 <!-- /wp:image -->
 
@@ -74,13 +70,13 @@ The _**Elastic Plate Segment (EPS)**_ model is a thin-walled simplification of t
 
 <!-- wp:heading {"level":3} -->
 
-### The GSS (General Solid Section) model
+### GSS (Általános szelvény) Modell
 
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":8509,"sizeSlug":"large","linkDestination":"media"} -->
+<!-- wp:image {"id":37470,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/11-3-2-gss-model1.png)](./img/wp-content-uploads-2021-04-11-3-2-gss-model1.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/06/cmd_szelveny_parancs_GSS.png)](./img/wp-content-uploads-2022-06-cmd_szelveny_parancs_GSS.png)
 
 <!-- /wp:image -->
 
@@ -90,7 +86,7 @@ The _**Elastic Plate Segment (EPS)**_ model is a thin-walled simplification of t
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-The _**General Solid Section (GSS)**_ was created in order to model any kind of cross-sections as accurate as possible. The model dissolves the section with arbitrary shapes into triangle elements and calculates the sectional properties by the finite element method. The section can be assembled with any number of different materials and the automatic finite element mesh generates separate triangles for the certain materials controlling the mesh size according to the elastic properties of the material. Beyond the usual properties (sectional area, second moment of inertia, etc.) the GSS model precisely calculates the torsional and shear properties like St. Venant and warping moment of inertia, shear areas, and factors, etc., and these accurate properties are used in the global analysis. The elastic normal, torsional, and shear stresses can be also calculated on this model using a spectacular colored view
+Az _**Általános Szelvénymodell** (General Solid Section_ - _**GSS**)_ tetszőleges szelvények a lehető legpontosabb modellezésére szolgál. A modell a szelvényt háromszögekre bontja és a keresztmetszeti jellemzőket végeselemes módszerrel határozza meg. A szelvény akárhány különböző anyagból összeállítható. A végeselem generálás során a háromszögekre bontás anyagonként elkülönülve történik, a végeselemek mérete pedig az anyagok rugalmas tulajdonságai alapján kerülnek meghatározásra. A szokásos tulajdonságok (keresztmetszeti terület, inercianyomatékok stb.) mellett, a GSS modell pontosan számítja a nyírási és csavarási tulajdonságokat, mint St. Venant, illetve gátolt csavarási inerciát, a nyírási területe stb. Az itt kiszámolt tulajdonságok kerülnek felhasználásra a globális analízisek során. A rugalmas normál, csavarási és nyírási feszültségek ugyancsak számíthatók és megtekinthetők színskálás ábrázolással.
 
 <!-- /wp:paragraph -->
 

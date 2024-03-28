@@ -1,20 +1,31 @@
 ---
-sidebar_position: 5
+title: 'A szerkezet és a csomópontok kölcsönhatása'
+description: ""
+published: 2022-06-20
+redirect_from: 
+            - https://www.consteelsoftware.com/hu/manual/csomopont-modul/a-szerkezet-es-a-csomopontok-kolcsonhatasa/
+hero: ./img/wp-content-uploads-2021-04-15-6-place-butt.png
 ---
-# Structure-Joint interaction
+<!-- wp:paragraph -->
 
-The most up-to-date structural design procedures take into account the mechanical interaction between the global structural model and its connections (rigid, semi-rigid or pinned) which generally makes the results more economic and realistic. However this approach requires a more complicated relationship between the joints and the structure and accordingly more serious modelling effort from the engineer. In the _ConSteel_ all the joint types can be defined freely or based on the global model geometry using the automatic identification tool, which examines the position of the connected members and the proper cross-sections and offer the possible joint types. After defining the joint it can place back to the global model and the appropriate connection stiffness can be automatically used in the global analysis, and a placed joint is always rechecked based on the current analysis results.
+A legújabb tervezési eljárások képesek figyelembe venni a globális szerkezeti modell és a szerkezeti kapcsolatok közötti kölcsönhatásokat (merev, fél-merev vagy csuklós), amelynek következtében az eredmény valósághűbb és gazdaságosabb. Ennek feltétele a korábbiaknál élethűbb modell felépítés, amely a mérnöktől komolyabb erőfeszítést kíván a modellezés során. _Consteel_-ban a csomópontokat manuálisan, vagy a modell geometria felhasználásával hozhatunk létre a csomópont felismerése funkció segítségével, amely megvizsgálja kapcsolódó szerkezeti elemek helyzetét és a szelvényeket, és felajánlja az adott elrendezéshez létrehozható csomóponttípusokat. A csomópont létrehozását követően a csomópontokat elhelyezhetjük a modellen és a csomóponti merevségek automatikusan felhasználhatók a globális szerkezet analíziséhez. Az elhelyezett kapcsolatok ellenőrzése az újabb analíziseredmények esetén újra megtörténik.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-In order to place a joint to the global model click on the Place Joint (![](./img/wp-content-uploads-2021-04-15-6-place-butt.png)) icon on the Structural members tab. One joint can be placed to several places in the model if these meet the geometrical requirements. The stiffness of the connection can also be taking into account during the analysis if desired. In order to do so click on the analysis parameters and put a tick to Apply connection stiffness. Rerun the analysis to the changes take place.
+A csomópontok elhelyezése a **Szerkezeti elemek** fülön található **[Csomópont elhelyezése](/manual/csomopont-modul/csomopont-letrehozasa/#Place-joint-in-the-global-model)** ![](./img/wp-content-uploads-2021-04-15-6-place-butt.png) ikonra kattintva megjelenő ablak segítségével lehetséges. Egy csomópont az összes olyan helyre elhelyezhető, ahol a geometria megegyezik a csomóponti geometriával. Az így elhelyezett csomópontok kapcsolati merevsége már figyelembe vehető a szerkezetek analízise során. A kapcsolati merevség figyelembevételéhez be kell jelölni az **Analízis beállításai** ablak, **Globális beállítások** szakaszában található _Kapcsolati merevség figyelembe vétele_ jelölőnégyzetet, melynek hatására az összes elhelyezett csomópont merevsége az összes kombinációban figyelembe lesz véve.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":9830,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:paragraph -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/15-6-appl-stiff.png)](./img/wp-content-uploads-2021-04-15-6-appl-stiff.png)
+Ha csak bizonyos kombinációban van erre szükség, akkor a **Globális beállítások** szakasz [_aloldalát _](/manual/szerkezetek-analizise/analizis-beallitasok/#subpage-of-global-settings)kell megnyitni a ![](./img/wp-content-uploads-2021-04-cmd_subpage.png) ikon segítségével, ahol egyenként bejelölhetők azok a kombinációk, amelyeknél szükség van a merevségek átvitelére.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":38675,"width":490,"height":226,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![](https://consteelsoftware.com/wp-content/uploads/2022/06/dial_analizis_kapcsolati-merevseg.png)](./img/wp-content-uploads-2022-06-dial_analizis_kapcsolati-merevseg.png)
 
 <!-- /wp:image -->

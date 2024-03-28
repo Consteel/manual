@@ -1,101 +1,104 @@
 ---
-sidebar_position: 1
+title: 'Dokumentálás fül'
+description: ""
+published: 2022-06-10
+redirect_from: 
+            - https://www.consteelsoftware.com/hu/manual/dokumentacio/dokumentalas-ful/
+hero: ./img/wp-content-uploads-2024-01-13.1-Document-tab-HU-CS17.png
 ---
-# The Document tab
+<!-- wp:paragraph {"align":"center"} -->
 
 **Consteel 17**
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"id":71708,"width":"151px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:image {"align":"center","id":72015,"width":"170px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2021-04-13.1-Document-tab-CS17-2.png)
+![](./img/wp-content-uploads-2024-01-13.1-Document-tab-HU-CS17.png)
 
 <!-- /wp:image -->
 
-<!-- wp:paragraph -->
+<!-- wp:paragraph {"align":"center"} -->
 
 **Consteel 16**
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"left","id":9612,"sizeSlug":"large","linkDestination":"media"} -->
+<!-- wp:paragraph -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/14-1-documentation1.png)](./img/wp-content-uploads-2021-04-14-1-documentation1.png)
+[](./img/wp-content-uploads-2022-06-tab_dokumentalas.png)
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":37946,"width":167,"height":50,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/tab_dokumentalas.png)](https://www.consteelsoftware.com/wp-content/uploads/2022/06/tab_dokumentalas.png)
 
 <!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-<!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
 
-### Create document
+### Dokumentáció létrehozása
 
 <!-- /wp:heading -->
 
-<!-- wp:image {"align":"right","id":22333,"width":468,"height":352,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"right","id":37938,"width":333,"height":249,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/06/dial_doc_new_3_1.png)](./img/wp-content-uploads-2021-06-dial_doc_new_3_1.png)
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/dial_dokument_uj_1.png)](./img/wp-content-uploads-2022-06-dial_dokument_uj_1.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-All commands related to the documentation are placed in the Document tab. The documentation can be generated if the first command ![](./img/wp-content-uploads-2021-04-cmd_doc_new.png) is clicked. The documentation wizard guides you through the documentation generating process. In the first window, the name of the documentation can be set. The name appears on every page of the documentation. Other fields like the name of the project, the name of the engineers, and the date of the creation can also be set but would appear only on the front page.
+A dokumentáció készítés összes ikonja a **Dokumentálás **fülön található. Az első parancsikonnal ![](./img/wp-content-uploads-2021-04-cmd_doc_new.png) hozható létre új dokumentáció. A dokumentációvarázsló végigvezeti a felhasználót a dokumentációkészítés folyamatán. Az első ablakban meg kell adni a dokumentáció nevét. Ez a név a dokumentáció minden oldalán megjelenik. A többi mező tartalma, mint a projekt neve, tervező neve, készítés dátuma csak a dokumentáció előlapján jelenik meg. Itt adható meg a dokumentálás nyelve is, ami a későbbiekben bármikor megváltoztatható.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The header and the footer pictures of the document can be customized so your own company logo can be added. In order to do so, the default header and footer images need to be replaced. These files can be found in the software’s installation directory; the default path is the following: C:\\Program Files\\ConSteelversion\\Pic. The “Header_pic.png” and the “Footer_pic.png” need to be replaced by your own images.
+A dokumentáció fejlécében és láblécében található képek testre szabhatók, ezáltal saját céglogó is elhelyezhető. Ehhez a fejlécben és láblécben található képeket kell kicserélni a saját logóra. Ezek a fájlok a _Consteel_ telepítési mappájában találhatók; alapesetben az alábbi helyen: C:\\Program Files\\Consteelversion\\Pic. A fejléc “Header_pic.png”, illetve a lábléc “Footer_pic.png” képeket lehet lecserélni a saját logóra. Ügyelni kell, hogy az új képek formátuma \***.png** legyen!
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"right","id":22345,"width":259,"height":429,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"right","id":37922,"width":337,"height":563,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/06/dial_doc_new_3_3.png)](./img/wp-content-uploads-2021-06-dial_doc_new_3_3.png)
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/dial_dokument_uj_3.png)](./img/wp-content-uploads-2022-06-dial_dokument_uj_3.png)
 
 <!-- /wp:image -->
 
-<!-- wp:image {"align":"right","id":22339,"width":194,"height":145,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"right","id":37930,"width":198,"height":148,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/06/dial_doc_new_3_2.png)](./img/wp-content-uploads-2021-06-dial_doc_new_3_2.png)
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/dial_dokument_uj_2.png)](./img/wp-content-uploads-2022-06-dial_dokument_uj_2.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-The second step is to choose which of the analysis results need to be included in the documentation. Any of the analysis results can be chosen if had been calculated previously.
+A második lépés a dokumentálandó analízis típusának kiválasztása. Bármely lefuttatott analízistípus eredményei dokumentálhatók.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-The third window of the wizard includes the name of the chapters which can be added to or can be removed from the documentation.
+A harmadik lépés a dokumentációs fejezetek hozzáadása vagy eltávolítása.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-To document the ULS design, a utilization limit can be set at the bottom of the dialog. Structural elements whose utilization is at least the specified utilization value are included in the document. The utilization limit value can be specified separately for the summary and for the detailed documentation.
+Tervezési határállapot dokumentálásához kihasználtsági határérték adható meg a dialóg alján. Ezáltal csak azon szerkezeti elemek kerülnek bele a dokumentumba, amelyek kihasználtsága legalább a megadott kihasználtsági értéket eléri. Külön-külön adható meg kihasználtsági érték az összefoglaló és a részletes dokumentációkhoz.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Documentation templates can be created with the **Save** button. Most used documentation structures can be saved as templates. Based on the templates, documentation can be created with one click.
+A dokumentáció készítőben létrehozhatók dokumentáció sablonok is a **Mentés **gomb segítségével. Sablonként elmenthetők a legtöbbet használt dokumentációs struktúrák, amelyeknek köszönhetően a jövőben egy kattintással hozhatjuk létre ugyanazokat a dokumentációkat.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-If you click on the **Create** button the program will generate the documentation.
+A **Létrehozás **gombra kattintva a program elkészíti a dokumentációt.
 
 <!-- /wp:paragraph -->
 
@@ -103,33 +106,33 @@ If you click on the **Create** button the program will generate the documentatio
 
 <!-- /wp:spacer -->
 
-<!-- wp:heading {"level":4} -->
+<!-- wp:heading {"level":4,"className":""} -->
 
-#### Documentation module
+#### Dokumentáció modul
 
 <!-- /wp:heading -->
 
-<!-- wp:image {"align":"right","id":9646,"width":290,"height":270,"sizeSlug":"large","linkDestination":"media"} -->
+<!-- wp:image {"align":"right","id":37914,"width":313,"height":295,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/14-1-documentation_module.png)](./img/wp-content-uploads-2021-04-14-1-documentation_module.png)
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/scr_dokument_szerkesztes_1.png)](./img/wp-content-uploads-2022-06-scr_dokument_szerkesztes_1.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-After creating the documentation it will be opened in a new window. At the top right of the window, the chapters can be seen. The chapters can be moved up or down by the drag-and-drop function. It is also possible to delete content from the document by clicking the third icon (#2).
+Az elkészült dokumentáció egy új ablakban nyílik meg. Az ablak jobb felső részében láthatók a fejezetek. A fejezetek a drag-and-drop funkcióval felfelé vagy lefelé mozgathatók. A harmadik ikonra (#2) kattintva lehetőség van tartalmak törlésére is a dokumentumból.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Text can be inserted anywhere in the document if you click on the fourth icon (#3) and type in the desired text into the window. It is also possible to insert headings by clicking on the fifth icon (#4). You can also insert page breaks anywhere in the document using the sixth icon (#5). The last three icons can be used for the following purposes: Edit heading and increase or decrease the level of heading.
+A negyedik ikon (#3) segítségével tetszőleges szöveget lehet beilleszteni a dokumentum bármely pontjára. Lehetőség van címsorok beszúrására is az ötödik ikonra (#4) kattintva, a hatodik ikonnal (#5) pedig oldaltörések is beilleszthetők bárhová a dokumentumban. Az utolsó három ikonnal a következő műveleteket lehet elvégezni: címsor átnevezése, címsor szintjének növelése vagy csökkentése.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-The last two icons on the right are different if you click on a chapter or in a paragraph. If you click on a chapter then the icons are as described above. If a paragraph is clicked where there is a table the last icon ![](./img/wp-content-uploads-2021-04-14-2-1-1-delete-column-from-the-table.png) can be used to delete any column from the table. If you click on a paragraph that contains text then the last two icons on the right can be used to edit the paragraph content and the alignment.
+Az utolsó kettő ikon annak megfelelően változik, hogy címsor, vagy táblázat, vagy szöveget tartalmazó paragrafus került-e kiválasztásra. Táblázatot tartalmazó paragrafus választása esetén, a megjelenő ikon ![](./img/wp-content-uploads-2021-04-14-2-1-1-delete-column-from-the-table.png) segítségével oszlopok törölhetők ki a táblázatból. Szöveget tartalmazó paragrafus választása esetén, pedig a megjelenő két ikon segítségével a szöveg tartalma és igazítása adható meg.
 
 <!-- /wp:paragraph -->
 
@@ -139,7 +142,7 @@ The last two icons on the right are different if you click on a chapter or in a 
 
 <!-- wp:paragraph -->
 
-With the first two icons (#1) the fitting of the pages can be set. Pages can be fit with width (![](./img/wp-content-uploads-2021-04-14-1-width.png)) or with height(![](./img/wp-content-uploads-2021-04-14-1-height.png)).
+Az első két ikonnal (#1) a lap megjelenítése állítható be. A dokumentáció lapja igazítható a szélessége![](./img/wp-content-uploads-2021-04-14-1-width.png) vagy a magassága ![](./img/wp-content-uploads-2021-04-14-1-height.png) szerint.
 
 <!-- /wp:paragraph -->
 
@@ -147,9 +150,9 @@ With the first two icons (#1) the fitting of the pages can be set. Pages can be 
 
 <!-- wp:column -->
 
-<!-- wp:image {"align":"center","id":9653,"sizeSlug":"large","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":37906,"width":263,"height":313,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/14-2-total.png)](./img/wp-content-uploads-2021-04-14-2-total.png)
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/scr_dokument_szerkesztes_2.png)](./img/wp-content-uploads-2022-06-scr_dokument_szerkesztes_2.png)
 
 <!-- /wp:image -->
 
@@ -163,7 +166,7 @@ With the first two icons (#1) the fitting of the pages can be set. Pages can be 
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-By clicking the **Pictures** tab the image handling icons can be seen. Any of the taken _[snapshots](#Creating-snapshots)_ can be inserted into the documentation or can be deleted. The image will be inserted below the selected paragraph.
+A **Képek** fülre kattintva megjelennek a képkezelő ikonok. Segítségükkel a korábban készített [_pillanatképek_ ](/manual/dokumentacio/dokumentalas-ful/#Creating-snapshots)bármelyike beilleszthető a dokumentumba, vagy törölhető onnan. A kép a kiválasztott paragrafus után kerül elhelyezésre.
 
 <!-- /wp:paragraph -->
 
@@ -171,9 +174,9 @@ By clicking the **Pictures** tab the image handling icons can be seen. Any of th
 
 <!-- wp:column -->
 
-<!-- wp:image {"align":"center","id":9659,"sizeSlug":"large","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":37898,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/14-2-pictures.png)](./img/wp-content-uploads-2021-04-14-2-pictures.png)
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/scr_dokument_szerkesztes_3_kepek.png)](./img/wp-content-uploads-2022-06-scr_dokument_szerkesztes_3_kepek.png)
 
 <!-- /wp:image -->
 
@@ -183,17 +186,17 @@ By clicking the **Pictures** tab the image handling icons can be seen. Any of th
 
 <!-- wp:paragraph -->
 
-The third tab is the **Tables**. There are a lot of possibilities in _ConSteel_ where tables can be saved. Anywhere in the analysis and design process where the ![](./img/wp-content-uploads-2021-04-14-1-save.png) icon appears in a table, that table can be saved. These saved tables can be inserted into the documentation or can be deleted from the model database. The table will be inserted below the selected paragraph.
+A harmadik fül a **Táblázatok** fül. A _Consteel_ programban számos táblázattípus menthető a dokumentumba való beillesztés céljából. Az analízis és a tervezés folyamán az eredménytáblázatok mellet megjelenő ![](./img/wp-content-uploads-2021-04-14-1-save.png) ikon segítségével a táblázatok elmenthetők a dokumentáláshoz. Minden dokumentálás céljából előzetesen elmentett táblázat beszúrható a dokumentációba, vagy törölhető a modell adatbázisából. A táblázat a kiválasztott paragrafus után kerül elhelyezésre.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The last tab is the **Appendices**. If any joint or section documentation had been generated previously, these can be found here and can be added to the end of the documentation. The appendices can also be deleted from the database.
+Az utolsó fül a **Mellékletek** fül. Ha van már létrehozott csomóponti vagy keresztmetszeti dokumentáció a modellben, akkor ezek a dokumentációk mellékletként beszúrhatók a statikai dokumentáció végére. Melléklet szintén törölhető a modell adatbázisából.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"left","id":21417,"width":76,"height":81,"sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:image {"align":"left","id":21420,"width":76,"height":81,"sizeSlug":"full","linkDestination":"none"} -->
 
 ![](./img/wp-content-uploads-2021-04-warning_croc.png)
 
@@ -201,7 +204,7 @@ The last tab is the **Appendices**. If any joint or section documentation had be
 
 <!-- wp:paragraph -->
 
-It should be bear in mind that the documentation needs to be regenerated to be up to date after any changes have been made to the model. If there are snapshots in the documentation these snapshots should be taken again and need to be added to the documentation.
+A modellben történt változtatások esetén, a dokumentációkat újra kell generálni. Ha pillanatképeket is tartalmazott a dokumentáció, akkor változás esetén ezeket a képeket is újra el kell készíteni, és az új dokumentációba ismét be kell illeszteni.
 
 <!-- /wp:paragraph -->
 
@@ -211,43 +214,43 @@ It should be bear in mind that the documentation needs to be regenerated to be u
 
 <!-- wp:heading {"level":3} -->
 
-### Creating snapshots
+### Pillanatkép készítése
 
 <!-- /wp:heading -->
 
-<!-- wp:image {"align":"right","id":22388,"width":133,"height":227,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"right","id":37890,"width":128,"height":221,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/dia_snapshot.png)](./img/wp-content-uploads-2021-04-dia_snapshot.png)
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/scr_dokument_pillanatkep.png)](./img/wp-content-uploads-2022-06-scr_dokument_pillanatkep.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2021-04-cmd_doc_snap.png)The second command on the Document tab can be used to take a snapshot of the model. The snapshots can be easily added to the desired part of the documentation (see chapter _[Documentation module](#Documentation-module)_ for detailed information).
+A **Dokumentálás **fül második ikonja ![](./img/wp-content-uploads-2021-04-cmd_doc_snap.png) segítségével a modellről pillanatképek rögzíthetők. Ezeket a képeket egyszerűen hozzáadhatjuk a dokumentáció megfelelő részéhez (lásd a **_[Dokumentáció modul](/manual/dokumentacio/dokumentalas-ful/#Documentation-module)_** c. fejezetben). A Nyomtatás segítségével az aktuális képernyőnézet kinyomtatható.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The size of the snapshot can be set and a dashed rectangle shows which part of the model would appear on the picture. The model can be moved or rotated to fit into the dashed rectangle.
+A pillanatkép méretének beállítása után, egy szaggatott vonalú négyszög mutatja a modell fényképezendő részét. Mozgatással és forgatással hozzáilleszthetjük a modellt a négyszöghöz.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-With the **Print** button, the actual view of the model can be printed directly from the dialog.
+A **Nyomtatás **gomb segítségével a modell aktuális nézete közvetlenül ebből a párbeszédablakból is kinyomtatható.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":9674,"sizeSlug":"large","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":37882,"width":768,"height":408,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2021-04-14-2-snapshot_print-1024x509.png)](https://consteelsoftware.com/wp-content/uploads/2021/04/14-2-snapshot_print.png)
+[![](./img/wp-content-uploads-2022-06-scr_dokument_pillanatkep_2-1024x544.png)](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_dokument_pillanatkep_2.png)
 
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
 
-### Snapshot manager
+### Ábrák kezelése
 
 <!-- /wp:heading -->
 
@@ -257,7 +260,7 @@ With the **Print** button, the actual view of the model can be printed directly 
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-The third icon on the documentation tab is the **Snapshot manager** ![](./img/wp-content-uploads-2021-04-14-1-snapshot-manager.png) where the taken snapshots can be exported to a file or can be deleted from the model (except if the picture was inserted into the documentation) in order to reduce model file size. Multiple selected pictures can be saved and deleted at the same time. The name of the images can also be edited by double clicking the name of the image.
+A harmadik ikon ![](./img/wp-content-uploads-2021-04-14-1-snapshot-manager.png) az ábrák kezelését teszi lehetővé. A készített felvételeket fájlba exportálhatjuk, vagy törölhetjük a modellből a modellméret csökkentése érdekében (kivéve, ha a képet már tartalmazza a dokumentáció). Együttes kijelöléssel lehetséges több kép együttes fájlba mentése és törlése. A kép nevére való dupla kattintással módosítható a kép neve.
 
 <!-- /wp:paragraph -->
 
@@ -265,9 +268,9 @@ The third icon on the documentation tab is the **Snapshot manager** ![](./img/wp
 
 <!-- wp:column -->
 
-<!-- wp:image {"align":"center","id":9681,"sizeSlug":"large","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":37874,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/14-2-snapshotmanager.png)](./img/wp-content-uploads-2021-04-14-2-snapshotmanager.png)
+[![](./img/wp-content-uploads-2022-06-dial_dokument_kepkezelo-1024x549.png)](https://consteelsoftware.com/wp-content/uploads/2022/06/dial_dokument_kepkezelo.png)
 
 <!-- /wp:image -->
 
@@ -277,19 +280,19 @@ The third icon on the documentation tab is the **Snapshot manager** ![](./img/wp
 
 <!-- wp:heading {"level":3} -->
 
-### Import log
+### **Import Log**
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-Starting from **Consteel 17**, the **Import log** ![](./img/wp-content-uploads-2021-04-13.1-Document-tab-CS17-Import-log.png)is implemented. It contains all the objects with their attributes, and it is highlighted if some characteristics are set as default or if any problems occurred during the import process.
+**Consteel 17** verziótól kezdve az **Import log**![](./img/wp-content-uploads-2021-04-13.1-Document-tab-CS17-Import-log.png)bevezetésre került. Ez tartalmazza az összes importált objektumot azok attribútumaival, és kiemeli, ha néhány jellemzőt alapértelmezettnek állítottak be, vagy ha bármilyen probléma merült fel az importálás során.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
 
-### Model information
+### Modell információs adatlap
 
 <!-- /wp:heading -->
 
@@ -299,7 +302,7 @@ Starting from **Consteel 17**, the **Import log** ![](./img/wp-content-uploads-2
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-By using the fourth icon ![](./img/wp-content-uploads-2021-04-cmd_modelinfo.png) on the Document tab the model information can be viewed or can be exported to a file. The model information window shows the most important features of the model like the Number of bars, Number of supports, Total weight of the structure, etc. The mass, surface, and length can be viewed for each section in the model. The model information can be shown based on the full model or on the current view.
+A Dokumentáció fül negyedik ikonjának ![](./img/wp-content-uploads-2021-04-cmd_modelinfo.png) segítségével a modell információk tekinthetők meg és exportálhatók ki fájlba. A modell információk ablak a legfontosabb információkat tartalmazza, úgymint a rudak és támaszok számát, szerkezet súlyát stb. A tömeg, felület és a hossz megtekinthető szelvénytípusonként is. A modell információk megtekinthetők akár részmodellre is.
 
 <!-- /wp:paragraph -->
 
@@ -307,12 +310,108 @@ By using the fourth icon ![](./img/wp-content-uploads-2021-04-cmd_modelinfo.png)
 
 <!-- wp:column -->
 
-<!-- wp:image {"align":"center","id":9688,"sizeSlug":"large","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":37866,"width":491,"height":476,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/14-2-model-information.png)](./img/wp-content-uploads-2021-04-14-2-model-information.png)
+[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/dial_dokument_modell_informacio.png)](./img/wp-content-uploads-2022-06-dial_dokument_modell_informacio.png)
 
 <!-- /wp:image -->
 
 <!-- /wp:column -->
 
 <!-- /wp:columns -->
+
+<!-- wp:heading {"level":3} -->
+
+### Anyaghatékonyság
+
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+
+A Dokumentáció fülön található ötödik parancsikon ![](./img/wp-content-uploads-2022-06-ico_material_efficiency.png) segítségével lekérhetjük a modellünk anyagfelhasználásával kapcsolatos információkat. A megjelenő párbeszédablakban átlátható, könnyen értelmezhető és szemléletes grafikonok segítségével kerül megjelenítésre az anyagfelhasználás hatékonysága. A funkció csak globális vizsgálat (méretezés) futtatása után képes megjeleníteni az információkat.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":38048,"width":"768px","height":"395px","sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![](./img/wp-content-uploads-2022-06-dial_dokument_anyaghatekonysag_1-1-1024x527.png)](https://consteelsoftware.com/wp-content/uploads/2022/06/dial_dokument_anyaghatekonysag_1-1.png)
+
+<!-- /wp:image -->
+
+<!-- wp:image {"align":"right","id":38047,"width":187,"height":344,"sizeSlug":"full","linkDestination":"none","className":"is-style-editorskit-rounded"} -->
+
+![](./img/wp-content-uploads-2022-06-dial_dokument_anyaghatekonysag_2-1.png)
+
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+
+\#1 - **_Enviromental Exposure Efficiency_**: A szerkezet teljes beépített tömegének hatékonyan kihasznált részét megadó mérőszám (továbbiakban EEE). Az épület egyszerűsített “ökológiai lábnyoma”, a végeselem szintű kihasználtságok kiértékelése alapján:
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+$EEE=\\frac{\\sum{\\left( v.e.szakasz kihasználtság\*v.e.szakasz tömeg \\right)}}{\\sum{\\left( v.e.szakasz tömeg \\right)}}$
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+\#2 - **_Structural Element Efficiency_**: Hatékonyan kihasznált szerkezeti elemek tömegének arányát megadó mérőszám (továbbiakban SEE). Anyagfelhasználások hatékonysága a rúdelem szintű kihasználtságok kiértékelése alapján.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+$SEE=\\frac{\\sum{\\left( rúd max kihasználtság\*rúd tömeg \\right)}}{\\sum{\\left( rúd tömeg \\right)}}$
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+\#3 - **_Structural Solution Efficiency_**: A szerkezeti elemek anyagfelhasználásának hatékonysági mérőszáma, melyet az előzőekben definiált 2 érték hányadosaként kapunk (továbbiakban SSE). A szerkezet hatékonysága anyagfelhasználás és környezettudatos tervezés szempontjából.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+$SSE=\\frac{EEE}{SEE}$
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+\#4 - A teljes globális szerkezeti szintre vonatkoztatott mérőszámok grafikonon való ábrázolása, mely az egyes szerkezeti elemekre (rúdelemekre) meghatározott mérőszámok átlagából kerül meghatározásra a teljes modellre.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"right","id":38046,"width":189,"height":368,"sizeSlug":"full","linkDestination":"none","className":"is-style-editorskit-rounded"} -->
+
+![](./img/wp-content-uploads-2022-06-dial_dokument_anyaghatekonysag_3-1.png)
+
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+
+\#5 - Szelvény csoport szintre vonatkoztatott mérőszámok grafikonon való ábrázolása. Lehetőségünk van a jelölőnégyzetek ki és bekapcsolásával megadni, mely rúdelem(ek) szerepeljenek a grafikonon. A megjelölt rúdelemekre számított mérőszámok átlagából határozza meg a program a grafikonon látható diagram értékeket.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+\#6 - Részletmodell szintre vonatkoztatott mérőszámok grafikonon való ábrázolása. Lehetőségünk van a jelölőnégyzetek ki és bekapcsolásával megadni, mely részletmodell(ek) szerepeljenek a grafikonon. Az egyes részletmodellekre meghatározott mérőszámok átlaga alapján határozza meg a szoftver a grafikonon látható diagram értékeket.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+A táblázatban vagy a fa struktúrában valamely elem(ek) kijelölése után a **Kijelöl **gombra kattintva, az elemek a modellben is kiválasztásra kerülnek.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+A párbeszédablak bezárása a **Bezár **gombbal lehetséges.
+
+<!-- /wp:paragraph -->

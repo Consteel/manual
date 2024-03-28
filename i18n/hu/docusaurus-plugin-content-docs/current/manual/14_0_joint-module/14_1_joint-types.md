@@ -1,86 +1,61 @@
 ---
-sidebar_position: 1
+title: 'Csomópont típusok'
+description: ""
+published: 2022-06-20
+redirect_from: 
+            - https://www.consteelsoftware.com/hu/manual/csomopont-modul/csomopont-tipusok/
+hero: ./img/wp-content-uploads-2022-06-scr_csomop_tipusok_1-1024x485.png
 ---
-# Joint types
+<!-- wp:paragraph -->
 
-The design options cover the entire joint standard, Eurocode EN 1993-1-8. A joint can be created based on the structural model using the automatic joint recognition, or independently, of the structural model. The created joints can be placed in all the necessary places on the structure. The placed joints are automatically recalculated based on the current analysis results, and the connection stiffness can also be taken into account when calculating the structure.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:columns -->
-
-<!-- wp:column {"width":"10%"} -->
-
-<!-- wp:image {"id":9493,"sizeSlug":"large","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2021-04-14-1-icons.png)
-
-<!-- /wp:image -->
-
-<!-- /wp:column -->
-
-<!-- wp:column {"width":"90%","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-<!-- wp:paragraph {"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-All the joint related commands can be found on the Structural members tab. These are the following:
+A csomópont típusok különböző logikai csoportokba vannak gyűjtve a modulon belül. A modul, a legtöbb csomóponthoz sok megerősítési lehetőséget is kínál, mint például alsó vagy felső kiékelés, gerinc, vagy övmerevítők, nyírási bordák (gerinchizlaló, Morrison merevítő, egyszerű vagy dupla ferde merevítő). Jelenleg az alábbi kapcsolatok érhetők el a csJoint modulban:
 
 <!-- /wp:paragraph -->
 
-<!-- wp:list -->
+<!-- wp:image {"align":"center","id":38192,"width":768,"height":364,"sizeSlug":"large","linkDestination":"media"} -->
 
-- [Edit joint](/manual/joint-module/create-joint/)
-- [Create joint by model](/manual/joint-module/#Create-joint-by-model)
-- [Place joint](/manual/joint-module/#Place-joint-in-the-global-model)
-
-The module offers a number of strengthening possibilities such as: lower or/and upper haunch with or without flange, transverse web stiffeners, flange stiffeners and flange backing plates, shear stiffeners (supplementary web plate, Morrison stiffener, single or double skew plate stiffener) etc. At the moment the csJoint module has the following joint and connection types:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":9511,"width":1066,"height":512,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/14-2-types-1.jpg)](./img/wp-content-uploads-2021-04-14-2-types-1.jpg)
+[![](./img/wp-content-uploads-2022-06-scr_csomop_tipusok_1-1024x485.png)](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_csomop_tipusok_1.png)
 
 <!-- /wp:image -->
 
-<!-- wp:image {"align":"center","id":9517,"width":412,"height":522,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":38200,"width":313,"height":391,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/14-2-types-2.jpg)](./img/wp-content-uploads-2021-04-14-2-types-2.jpg)
-
-<!-- /wp:image -->
-
-<!-- wp:image {"align":"center","id":9523,"width":484,"height":534,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/14-2-types-3.jpg)](./img/wp-content-uploads-2021-04-14-2-types-3.jpg)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_csomop_tipusok_2.png)](./img/wp-content-uploads-2022-06-scr_csomop_tipusok_2.png)
 
 <!-- /wp:image -->
 
-<!-- wp:image {"align":"center","id":9529,"width":763,"height":601,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":38208,"width":325,"height":356,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/14-2-types-4.jpg)](./img/wp-content-uploads-2021-04-14-2-types-4.jpg)
-
-<!-- /wp:image -->
-
-<!-- wp:image {"align":"center","id":9535,"width":271,"height":409,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/14-2-types-5.jpg)](./img/wp-content-uploads-2021-04-14-2-types-5.jpg)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_csomop_tipusok_3.png)](./img/wp-content-uploads-2022-06-scr_csomop_tipusok_3.png)
 
 <!-- /wp:image -->
 
-<!-- wp:image {"align":"center","id":9541,"width":357,"height":404,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":38216,"width":803,"height":623,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/14-2-types-6.jpg)](./img/wp-content-uploads-2021-04-14-2-types-6.jpg)
-
-<!-- /wp:image -->
-
-<!-- wp:image {"align":"center","id":9547,"width":965,"height":569,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/14-2-types-7.png)](./img/wp-content-uploads-2021-04-14-2-types-7.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_csomop_tipusok_4.png)](./img/wp-content-uploads-2022-06-scr_csomop_tipusok_4.png)
 
 <!-- /wp:image -->
 
-<!-- wp:image {"align":"center","id":9553,"width":568,"height":422,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":38232,"width":272,"height":401,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/14-2-types-8.png)](./img/wp-content-uploads-2021-04-14-2-types-8.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_csomop_tipusok_6.png)](./img/wp-content-uploads-2022-06-scr_csomop_tipusok_6.png)
+
+<!-- /wp:image -->
+
+<!-- wp:image {"align":"center","id":38224,"width":357,"height":407,"sizeSlug":"full","linkDestination":"media"} -->
+
+[![](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_csomop_tipusok_5.png)](./img/wp-content-uploads-2022-06-scr_csomop_tipusok_5.png)
+
+<!-- /wp:image -->
+
+<!-- wp:image {"align":"center","id":38240,"width":960,"height":464,"sizeSlug":"full","linkDestination":"media"} -->
+
+[![](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_csomop_tipusok_7.png)](./img/wp-content-uploads-2022-06-scr_csomop_tipusok_7.png)
+
+<!-- /wp:image -->
+
+<!-- wp:image {"align":"center","id":38248,"width":655,"height":483,"sizeSlug":"full","linkDestination":"media"} -->
+
+[![](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_csomop_tipusok_8.png)](./img/wp-content-uploads-2022-06-scr_csomop_tipusok_8.png)
 
 <!-- /wp:image -->

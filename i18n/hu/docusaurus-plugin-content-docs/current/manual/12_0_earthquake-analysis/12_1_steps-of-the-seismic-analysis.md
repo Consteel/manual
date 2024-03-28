@@ -1,39 +1,44 @@
 ---
-sidebar_position: 2
+title: 'Földrengés analízis lépései'
+description: ""
+published: 2022-06-09
+redirect_from: 
+            - https://www.consteelsoftware.com/hu/manual/foldrenges-analizis/foldrenges-analizis-lepesei/
+hero: ../../../defaultHero.jpg
 ---
-# Steps of the seismic analysis
+<!-- wp:paragraph -->
 
-Modal response spectrum based seismic analysis can be performed with the following steps in ConSteel:
+A Modális válaszspektrum-analízis alapú földrengés analízist a Consteel szoftverben az alábbi lépések elvégzésével lehet elvégezni:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true,"type":"1"} -->
 
-1. Definition of modal loads/Mass tab
+1. Modális tömegek definiálása / Tömegek fül
 
-   - Definition of mass cases and mass groups
-   - Mass defintion manually on the structure, or by converting existing load cases
-   - Mass combination definitions
+   - Tömegesetek és tömeg csoportok definiálása
+   - Tömegek felvétel a szerkezet kézzel vagy meglévő teheresetek tömeggé alakításával
+   - Tömegkombinációk felvétele
 
-2. Seismic effect definition/Masses tab
+2. Földrengés hatás definiálása / Tömegek fül
 
-   - Definition of Standard or User defined response spectrum
-   - Definition of Seismic effect
-   - Setting the analysis method
+   - Szabványos vagy egyedi válaszspektrum definiálása
+   - Földrengés hatás definiálása
+   - Analízismód definiálása
 
-3. Seismic loadgroup and load combination definition / Loads tab
+3. Földrengés tehercsoport és kombinációk felvétele / Terhek fül
 
-   - Seismic loadgroup and loadcase creation
-   - Assignment of seismic effect to seismic loadcase
-   - Definition of considered shapes for the analysis – Only in the case of _Selected modes, linear summation_ analysis method!
+   - Szeizmikus tehercsoport felvétele
+   - Földrengés hatás hozzárendelése
+   - Szeizmikus hatás esetek definiálása – Csak _Kiválasztott modális alakok, lineáris összegzéssel_ analízismód használata esetén!
 
-4. Analysis / Analysis tab
+4. Analízis / Analízis fül
 
-   - Setting the statical calculation parameters; For the comparision of available analysis types, please check at the _[chapter 8.4 Analysis types](/manual/structural-analysis/analysis-types/)_
-   - Setting the parameters for Dynamic calculations
+   - Statikai számítások beállítása; elérhető analízis típusokat lásd a **_[8.5 fejezetben](/manual/szerkezetek-analizise/analizis-tipusok/)_**
+   - Dinamikai számítások beállítása
 
-5. Design / Global checks and Member checks tab
+5. Tervezés / Globális vizsgálatok, illetve Elemtervező fül
 
-   - For the available design checks, please go to the comparision of different types at\_ _the_ [chapter \_\_](/manual/standard-design/)\_[9. Standard design.](https://consteelsoftware.com/manual/documentation/)\_\_
+   - Elérhető szabványos vizsgálatokat lásd a **_[9. fejezetben](/manual/szabvanyos-tervezes/)_**
 
 <!-- /wp:list -->

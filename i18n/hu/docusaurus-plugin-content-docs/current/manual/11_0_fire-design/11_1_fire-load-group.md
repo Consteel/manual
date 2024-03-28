@@ -1,44 +1,49 @@
 ---
-sidebar_position: 1
+title: 'Tűz tehercsoport'
+description: ""
+published: 2022-06-08
+redirect_from: 
+            - https://www.consteelsoftware.com/hu/manual/tuzhatas-tervezes/tuz-tehercsoport/
+hero: ./img/wp-content-uploads-2022-06-scr_tehercsoport_tuz.png
 ---
-# Fire load group
+<!-- wp:image {"align":"right","id":37602,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/12-1-fire-load-group-1.png)](./img/wp-content-uploads-2021-04-12-1-fire-load-group-1.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_tehercsoport_tuz.png)](./img/wp-content-uploads-2022-06-scr_tehercsoport_tuz.png)
 
-<!-- /wp:image -->
 
-<!-- wp:paragraph {"align":"justify"} -->
 
-For fire design situation, a dedicated _Fire load_ group was created that handle the specialties of fire effect. Before specifying the fire effect, a fire load group and at least one fire load case must be defined.
+A tűzhatás megadása előtt definiálni kell legalább egy rendkívüli tehercsoportot és egy rendkívüli teheresetet. A tűzhatás specialitásainak kezelésére egy önálló _Tűz tehercsoport_ került létrehozásra.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Fire load group has more options:
+A tűz tehercsoportoknak több beállítási opciója van:
 
 <!-- /wp:paragraph -->
 
-<!-- wp:list -->
+<!-- wp:list {"type":"A","className":"is-style-default"} -->
 
-- Analysis with room temperature material properties - this calculation method must be chosen to check the structure with reactive protection (intumescent paint).
+- Analízis szobahőmérsékleti anyagjellemzőkkel – a reaktív védelemmel (tűzvédő festék) ellátott szerkezet vizsgálatához ezt a számítási módot kell választani.
 
-- Analysis with elevated temperature material properties - for the check of structures with passive protection (e.g. gypsum insulation) or without any protection. The stresses and displacements are determined based on the required fire resistance time.
+- Analízis emelt hőmérsékleti anyagjellemzőkkel – a védetlen vagy passzív védelemmel (pl. gipszkarton) ellátott szerkezetek vizsgálatához. Az igénybevételeket és elmozdulásokat a megkívánt tűzállósági idő alapján határozzuk meg.  
+  Ennél a módnál aktívvá válik egy további lehetőség:
 
-  - Consider indirect actions caused by thermal expansion: By default ConSteel neglect the effect of thermal expansion during the analysis, but by clicking on the checkbox there is the possibility to take it into account.
+  - Hőtágulásból származó indirekt hatások figyelembevétele – alap esetben a Consteel az analízis során nem veszi figyelembe a hőtágulás hatását, de a jelölőnégyzet bepipálásával lehet kérni ennek figyelembevételét.
 
-- Value of variable factor for main variable load: By default, ConSteel applies the Ψ2,1 but switching the radio button Ψ1,1 also can be used for load combination generation.
+- A kiemelt esetleges hatás egyidejűségi tényezője:  
+  Alap esetben a Consteel a Ψ2,1 egyidejűségi tényezőt alkalmazza, de lehetőség van a Ψ1,1 tényező használatára is kombinációk generálása során
 
 <!-- /wp:list -->
 
-<!-- wp:image {"align":"right","id":16725,"width":375,"height":412,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"right","id":37610,"width":563,"height":618,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/12-1-fire-load-settings.png)](./img/wp-content-uploads-2021-04-12-1-fire-load-settings.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/06/dial_terhek_tuz.png)](./img/wp-content-uploads-2022-06-dial_terhek_tuz.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-At least one load case must be added to the fire load group to place the fire effect on the model.
+A tűzhatás szerkezeten való elhelyezéséhez legalább egy tűz teheresetet létre kell hozni a tűz tehercsoportban.
 
 <!-- /wp:paragraph -->

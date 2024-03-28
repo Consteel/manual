@@ -1,181 +1,189 @@
 ---
-sidebar_position: 3
+title: 'Földrengés hatás'
+description: ""
+published: 2022-06-09
+redirect_from: 
+            - https://www.consteelsoftware.com/hu/manual/foldrenges-analizis/foldrenges-hatas/
+hero: ./img/wp-content-uploads-2021-04-13-3-Seismic-effect.png
 ---
-# Seismic effect
+<!-- wp:paragraph {"align":"justify"} -->
 
-Seismic effects can be created with the **Seismic effect** (![](./img/wp-content-uploads-2021-04-13-3-Seismic-effect.png)) function which can be found on the **Mass** tab. On the Seismic effect dialogue, all parameters can be set, which are required for the seismic analysis.
+A Tömegek fülön található **Földrengés hatás** (![](./img/wp-content-uploads-2021-04-13-3-Seismic-effect.png)) funkció segítségével hozható létre új földrengés hatás. A megjelenő hatás dialógon lehet megadni minden olyan paramétert és beállítást, amely a földrengés analízishez szükséges.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-For the seismic effect creation, the existence of at least one pre-created mass combination and a response spectrum is required. To see how to define these, please go to Chapter [Masses](/manual/masses/)!
+Földregés hatás definiálásához már létrehozott tömegkombináció és válaszspektrum szükséges (lásd **\_[7. ](/manual/tomegek/)**_[Tömegek](/manual/tomegek/)_**\_** c. fejezetet)!
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-A new seismic effect can be created by pressing the **New** button. More seismic effects can be created and saved. Change between different saved seismic effects is possible with the _**Name**_ dropdown menu.
+Új földrengés hatás az **Új **gomb megnyomásával hozható létre. Egyszerre több földrengés hatás is definiálható. Az egyes hatások között a legfelső **_Név_ **mezőben található legördülő menü segítségével válthatók.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Options of the **Seismic effect** dialogue have been separated into two tabs:
+A megjelenő **Földrengés hatás** dialóg beállításai az alábbi két fülre kerültek szétosztásra:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 
-- Seismic settings
-- Additional effects
+- Földrengés beállítások
+- További hatások
 
 <!-- /wp:list -->
 
 <!-- wp:heading {"level":3} -->
 
-### Seismic settings
+### Földrengés beállítások
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-In the _Settings_ (#1) panel, the main parameters of the seismic analysis can be set
+A _Beállítások_ (#1) mezőben lehet megadni az földrengés analízis legfőbb paramétereit.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 
-- _Mass combination:_ Choice of the used mass combination for the dynamic shape evaluation during the modal response spectrum analysis has to be done. The dropdown menu is automatically filled up with the pre-defined mass combinations. **The seismic analysis will only be performed for the mass combination which is selected here!**
-- _Calculation method:_ Choice of the calculation method to be used for the seismic analysis. To see the differences between each calculation method, please see the _**[introductory part](/manual/seismic-analysis/)**_ of this chapter!
-- Main direction of the structure from X: The main direction of the structure can be seen using the black arrow (![](./img/wp-content-uploads-2021-04-ico-pointer.png)) tool, by clicking the start and end point of a vector in the modeling area. The other option is to set the angle between the main direction and the X-axis manually in the edit box with direct input. The direction, which is given will be the „1” direction, perpendicularly to this will be the „2” direction of the effect. The q1 and q2 factors correspond with these directions too.
+- \_Tömegkombináció: \_meg kell adni, hogy a Modális válaszspektrum-analízishez szükséges dinamikai alakok számításához melyik tömegkombinációt használja a program. A legördülő menüből bármely, előzőleg már definiált tömeg kombináció kiválasztható.  
+  **A földrengés analízis csak erre a kiválasztott tömegkombinációra fog futni!**
+- _Számítási mód:_ a legördülő menü segítségével kiválasztható a használni kívánt számítási mód. A számítási módok leírását és összehasonlítását lásd a \_**[Földrengés analízis lépései](/manual/foldrenges-analizis/foldrenges-analizis-lepesei/)** \_c. fejezetben!
+- _Szerkezet fő teherviselési iránya az X tengelytől:_ a szerkezet fő teherviselési iránya megadható a fekete nyíl gomb (![](./img/wp-content-uploads-2021-04-ico-pointer.png)) megnyomásával a modelltérben egy irányvektorral, vagy a globális X tengelytől fokban. A megadott irányba lesz értelmez a földrengés hatás 1-es iránya, a q1 tényező, illetve erre merőlegesen a földrengés hatás 2-es iránya és a q2 tényező
 
 <!-- /wp:list -->
 
-<!-- wp:image {"align":"center","id":9431,"width":464,"height":594,"sizeSlug":"large","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":37729,"width":470,"height":597,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/13-3-seismic.png)](./img/wp-content-uploads-2021-04-13-3-seismic.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/06/dial_foldrenges_foldr_hatas.png)](./img/wp-content-uploads-2022-06-dial_foldrenges_foldr_hatas.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-On the response spectrums panel (#2), the response spectrum can be selected which will be used for the seismic analysis.
+A _Válaszspektrum_ (#2) mezőben lehet kiválasztani a földrengés analízis során használni kívánt válaszspektrumot, válaszspektrumokat.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":9438,"sizeSlug":"large","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":37737,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/13-3-seismic2.png)](./img/wp-content-uploads-2021-04-13-3-seismic2.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/06/dial_foldrenges_foldr_hatas_spektrum.png)](./img/wp-content-uploads-2022-06-dial_foldrenges_foldr_hatas_spektrum.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Handling of the response spectrums in ultimate and serviceability limit states can be the following:
+A válaszspektrumok kezelése a tervezési és a használhatósági határállapotban az alábbiak szerint történhet:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 
-- ULS response spectrum and use of qd factors: In this case choice of response spectrum (standard or user-defined) is possible only for the ULS checks. Deformations, which are necessary for the SLS checks are evaluated from the ULS results, using the qd displacement behavior factors
+- ULS válaszspektrum és qd faktorok alkalmazása  
+  Ebben az esetben csak az ULS vizsgálathoz választható szabványos vagy tervezési egyedi válaszspektrum. Az SLS vizsgálatokhoz szükséges elmozdulást a program a megadott qd elmozdulási viselkedési tényező segítségével állítja elő a program az ULS eredményekből.
 
 <!-- /wp:list -->
 
 <!-- wp:list -->
 
-- Response spectrum for ULS and SLS limit state: Choosing the _Elastic response spectrum for SLS_ option, different response spectrums can be set for ULS and SLS limit states. For ULS limit state, only standard or user-defined design spectrum, while for SLS limit state only standard or user-defined elastic response spectrum can be chosen from the dropdown menu
+- Külön válaszspektrum alkalmazása ULS és SLS határállapotokhoz  
+  A _Rugalmas válaszspektrum SLS vizsgálatokhoz_ opció használata esetén, külön válaszspektrum adható meg ULS és külön spektrum SLS határállapotokhoz. ULS határállapothoz csak szabványos vagy egyedi tervezési válaszspektrum, míg SLS határállapothoz csak szabványos vagy egyedi rugalmas válaszspektrum választható ki a legördítő menü segítségével
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Clicking on the (![](./img/wp-content-uploads-2021-04-13-3-1-3buttons.png)) button will bring up the spectrum definition dialogue, where parameters of a spectrum can be checked, or even new ones can be created (see Chapter [Creating response spectrums](/manual/masses/creating-response-spectrums/))
+A három pontos (![](./img/wp-content-uploads-2021-04-13-3-1-3buttons.png)) gombra kattintva megnyitható és megtekinthető a kiválasztott válaszspektrum, vagy _[új spektrum hozható létre.](/hu/manual/tomegek/valaszspektrum-felvetele/)_
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-In the Behaviour factors (#3) panel, behavior and displacement behavior factors can be set for the main directions (1,2,z).
+A _Viselkedési tényező_ (#3) mezőben megadhatók az egyes földrengési főirányhoz tartozó viselkedési és elmozdulási viselkedési tényezők.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The number of adjustable behavior factors are depending on the type of the applied response spectrum(s):
+A megadható viselkedési tényezők az alkalmazott válaszspektrum(ok) típusától függe(nek):
 
 <!-- /wp:paragraph -->
 
 <!-- wp:table {"className":"is-style-stripes"} -->
 
-|                                                               | Behavior factor (q)                                                                                                                    | Displacement behavior factor (qd) |
-| ------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
-| **ULS design spectrum and qd factors for SLS**                | Adjustable in case of standard response spectrum. In the case of user-defined spectrum, the spectrum containing it, cannot be adjusted | Adjustable                        |
-| **Different response spectrums for ULS and SLS limit states** | Adjustable in case of standard response spectrum. In the case of user-defined spectrum, the spectrum containing it, cannot be adjusted | Cannot be adjusted                |
+|                                                                           | **Viselkedési tényező (q)**                                                                                  | **Elmozdulási viselkedési tényező (qd)** |
+| ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ---------------------------------------- |
+| \***\*ULS tervezési spektrum és qd faktor alkalmazása\*\***               | Szabványos spektrum esetén megadható Egyéni tervezési spektrum esetén a spektrum tartalmazza; nem adható meg | Megadható                                |
+| \***\*Külön válaszspektrum alkalmazása ULS és SLS határállapotokhoz\*\*** | Szabványos spektrum esetén megadható Egyéni tervezési spektrum esetén a spektrum tartalmazza; nem adható meg | Nem adható meg                           |
 
 <!-- /wp:table -->
 
 <!-- wp:paragraph -->
 
-Behavior factors besides the type of the spectrum, are dependent on the following options:
+A spektrum típusán túl, a megadható viselkedési tényezők az alábbi opcióktól is függenek:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 
-- _Consider vertical seismic effect:_ If the option is turned on, vertical behavior factors can be set, and vertical seismic effects will be taken into consideration for the seismic analysis
+- \__Függőleges földrengés hatás figyelembevétele:_ \_az opció segítségével megadható, hogy a számítás során figyelembevételre kerüljön-e a függőleges földrengéshatás. Az opció bekapcsolása esetén a függőleges viselkedési tényezőket is meg adni
 
 <!-- /wp:list -->
 
 <!-- wp:list -->
 
-- \_Same behavior in Horizontal XY directions: \_If the option is turned on, it is enough to define only one behavior parameter, it will be applied for both X and Y directions
+- \__Megegyező viselkedési tényező a vízszintes irányokban:_ \_az opció bekapcsolása esetén, a vízszintes irányokban (1 és 2 földrengési főirányok) elegendő egy tényezőt megadni
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
-At the bottom of the dialogue, in the Shown response spectrum panel (#4) the selected response spectrum _–design or elastic-_ of the dropdown menu can be seen. By hovering the mouse over the points of the graph, its value will be displayed graphically.
+A _Megjelenített válaszspektrum_ (#4) mezőben megtekinthető, a földrengés hatáshoz hozzárendelt és a legördülő menü segítségével kiválasztott tervezési vagy elasztikus válaszspektrum. A grafikonon történő mozgással megtekinthetők a spektrum függvény értékei.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
 
-### Additional effects
+### További hatások
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-On the **Additional Effects** tab of the **_Seismic Effect_** dialogue, the following settings can be adjusted:
+A **További hatások** fülön lehet megadni az alábbi, földrengés hatáshoz kapcsolódó hatások paramétereit:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 
-- Accidental torsional effects: In the case of spatial 3D models, effects of the uncertainties of load placements causing torsional effects also have to be taken into account. ConSteel calculates the effect automatically. For the calculation, storeys have to be defined, where the torsion effect is acting, and the eccentricity value, with which the mass points will be shifted.
+- Rendkívüli csavaró hatás: Térbeli modellek esetén figyelembe kell venni a tömegek elhelyezkedéséből és a szeizmikus hatás térbeli változásaiból eredő bizonytalanság okozta rendkívüli csavaró hatást. A hatást a Consteel automatikusan számítja. A számításhoz épület szinteken kell megadni, ahol a csavaró hatás működik, illetve egy véletlen külpontosság értéket, amellyel a tömegpontok kimozdításra kerülnek.
 
 <!-- /wp:list -->
 
 <!-- wp:list -->
 
-- \_Second-order effect: \_Second-order effects have to be taken into account if the coefficient of the shift difference (θ) between the storeys is greater than 0,1. Consteel automatically calculates it and takes it into account. Storeys have to be pre-defined.
+- _Másodrendűségi hatás_: a másodrendű hatásokat akkor kell figyelembe venni, ha a szintek közötti eltolódás különbség együtthatója (θ) nagyobb, mint 0,1. Ezt a Consteel automatikusan számítja és figyelembe veszi. A számításhoz szükséges épület szinteket megadni
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Considered storeys have to be chosen in the \_Considered storeys \_for accidental torsional and second-order effects (#1) panel. If there are storeys defined in the model (see Chapter [Portion Manager](/manual/model-view/portions-manager/)), they will be automatically loaded into the table. If the checkbox is turned on next to a storey, it will be taken into consideration during the seismic analysis.
+A _Csavaró és másodrendű hatásoknál figyelembe vett szintek_ (#1) mezőben kell megadni, hogy a Consteel mely szinteket vegye figyelembe, mint épület szintek a számítás során.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-ConSteel 13 User Manual
+A táblázat a _**[Részlet kezelőben](/hu/manual/modell-nezet/reszlet-kezelo/)**_ már előzőleg létrehozott szinteket tartalmazza. A szintek nevei előtt található jelölő négyzetek bepipálásával lehet kiválasztani, a számítás során figyelembe veendő épület szinteket.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"left","id":21417,"width":76,"height":81,"sizeSlug":"large","linkDestination":"none"} -->
+<!-- wp:image {"align":"left","id":21420,"width":76,"height":81,"sizeSlug":"large","linkDestination":"none"} -->
 
 ![](./img/wp-content-uploads-2021-04-warning_croc.png)
 
@@ -183,31 +191,31 @@ ConSteel 13 User Manual
 
 <!-- wp:paragraph -->
 
-When specifying the levels, it is important to know that consteel takes the weights of the structure below the lowest level all of them to the lowest level by the torsional and second-order effects. This can be avoided by establishing a level 0 in the plane of the supports, so the weight distribution between the support and the first level will also be performed.
+A szintek megadásával kapcsolatban fontos tudni, hogy a Consteel a legalsó beadott szint alatti szerkezet tömegeit mind a legalsó szinthez tartozónak veszi figyelembe a csavaró és másodrendű hatásoknál. Ez elkerülhető azzal, ha létrehozunk egy 0 szintet a támaszok síkján, így a támasz és az első szint között is megtörténik a tömegek szétosztása.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":9451,"width":381,"height":487,"sizeSlug":"large","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":37745,"width":428,"height":550,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/13-3-additional-effects.png)](./img/wp-content-uploads-2021-04-13-3-additional-effects.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/06/dial_foldrenges_foldr_tovabbi_hatas.png)](./img/wp-content-uploads-2022-06-dial_foldrenges_foldr_tovabbi_hatas.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-At the _Accidental torsional effects_ (#2), consideration of the effect can be turned on or off. The following combinations can be chosen for the shift of the mass points:
+A _Rendkívüli csavaróhatás_ (#2) mezőben, a legördítő menü segítségével lehet bekapcsolni a csavaróhatás figyelembevételét, illetve, hogy milyen kombinációkat vegyen figyelembe a program a tömegpontok elmozdításánál:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 
-- \+eaX+eaY, - eaX-eaY: Mass points will be shifted both for positive and negative directions in the global X and Y directions with the given value, but not mixed. It is a simplification, and it is reducing the number of seismic combinations
-- \+eaX+eaY, +eaX-eaY, -eaX+eaY, - eaX-eaY: Mass points will be shifted both for positive and negative directions in the global X and Y directions, including mixed signs too, with the given value. It is the recommended way by Eurocode, but it increases the number of seismic combinations.
+- \+eaX+eaY, - eaX-eaY: az opció használata esetén, a Consteel a tömegpontokat, mind a globális X és Y vízszintes pozitív és negatív irányokban kimozdítja a megadott mértékben. Egyszerűsítő eljárás. Csökkenti a szükséges földrengéses kombinációk számát
+- \+eaX+eaY, +eaX-eaY, -eaX+eaY, - eaX-eaY: az opció használata esetén, a Consteel a tömegpontokat a globális X és Y vízszintes irányokban egyező és ellentétes előjellel is kimozdítja a megadott mértékben. EuroCode által megadott eljárás, viszont jelentősen növeli a földrengéses kombinációk számát
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
-The value of the shift of the mass points can be given in the edit box with a percentage.
+A tömegpontok elmozdításának értékét a szerkesztőmezőben százalékos értékkel lehet megadni.
 
 <!-- /wp:paragraph -->

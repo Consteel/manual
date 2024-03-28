@@ -1,67 +1,88 @@
 ---
-sidebar_position: 2
+title: 'Tűzhatás és tűzvédelem megadása'
+description: ""
+published: 2022-06-08
+redirect_from: 
+            - https://www.consteelsoftware.com/hu/manual/tuzhatas-tervezes/tuzhatas-es-tuzvedelem-megadasa/
+hero: ./img/wp-content-uploads-2022-06-tab_tuz.png
 ---
-# Fire effect and protection
+<!-- wp:image {"align":"center","id":37644,"width":837,"height":48,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-The fire effect and protection can be defined by clicking the **Define fire effect and fire protection** (![](./img/wp-content-uploads-2021-04-12-2-fire.png)) icon on the **Loads** tab.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":8584,"sizeSlug":"large","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/12-2-fire-effect-and-protection.png)](./img/wp-content-uploads-2021-04-12-2-fire-effect-and-protection.png)
-
-<!-- /wp:image -->
-
-<!-- wp:image {"align":"center","id":8590,"width":267,"height":328,"sizeSlug":"large","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/12-2-define-fire-effect.png)](./img/wp-content-uploads-2021-04-12-2-define-fire-effect.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/06/tab_tuz.png)](./img/wp-content-uploads-2022-06-tab_tuz.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-The first option is to set the nominal fire curve. Three EuroCode defined fire curves are implemented and can be used to define fire effect: Standard, External, and Hydrocarbon.
+A tűzhatás és tűzvédelem megadása a **Terhek **fülön lévő T**űzhatás és tűzvédelem megadása** (![](./img/wp-content-uploads-2021-04-12-2-fire.png)) ikon segítségével történik, amely az alábbi párbeszédablakot nyitja meg:
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":37652,"width":320,"height":457,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![](https://consteelsoftware.com/wp-content/uploads/2022/06/dial_tuz_megadas.png)](./img/wp-content-uploads-2022-06-dial_tuz_megadas.png)
+
+<!-- /wp:image -->
+
+<!-- wp:image {"align":"right","id":37636,"width":111,"height":61,"sizeSlug":"full","linkDestination":"none","className":"is-style-editorskit-rounded"} -->
+
+![](./img/wp-content-uploads-2022-06-scr_tuz_tipusok.png)
+
+<!-- /wp:image -->
+
+<!-- wp:paragraph {"align":"justify"} -->
+
+Első lépésként be kell állítani a használt névleges tűzgörbét. Három Eurocode által javasolt tűzgörbe került beépítésre: Szabványos, Külső és Szénhidrogén.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The second one is to set the fire resistance time that can be varied between 15-200 min.
+Második lépésként meg kell adni az elvárt tűzállósági időt, amelye 15 perc és 200 perc között változhat.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"align":"justify"} -->
+<!-- wp:image {"align":"right","id":37660,"width":643,"height":321,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-By clicking on the three-dot button next to the _Fire protection data_ label, different fire protection can be created.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"right","id":8596,"width":456,"height":228,"sizeSlug":"large","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/12-2-passive-protection.png)](./img/wp-content-uploads-2021-04-12-2-passive-protection.png)
+[![](https://consteelsoftware.com/wp-content/uploads/2022/06/dial_tuz_vedelem.png)](./img/wp-content-uploads-2022-06-dial_tuz_vedelem.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Fire protection can be _Unprotected_ and _Protected_. If Protected is chosen, the protection can be passive or reactive.
+Harmadik lépésként a \_Tűzvédelem \_mező mellett található hárompontos ![](./img/wp-content-uploads-2021-04-3dots-button.png) gombra kattintva, különböző tűzvédelem felvételére van lehetőség. A megjelenő dialógon, ha még nincs létrehozva tűzvédelem típus, először az **Új **gombra kattintva lehet egy új védelmet definiálni. Legfelül lehet nevet adni az új definíciónak.
 
 <!-- /wp:paragraph -->
 
+<!-- wp:spacer {"height":"10px"} -->
+
+<!-- /wp:spacer -->
+
+<!-- wp:paragraph {"align":"justify"} -->
+
+Ezután ki kell választani a védelem típusát, amely lehet _védetlen \_vagy \_védett_. Védett típus választása esetén a védelem lehet _passzív \_vagy \_reaktív_.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"right","id":37676,"width":238,"height":163,"sizeSlug":"full","linkDestination":"none","className":"is-style-editorskit-rounded"} -->
+
+![](./img/wp-content-uploads-2022-06-dial_tuz_vedelem_passziv.png)
+
+<!-- /wp:image -->
+
 <!-- wp:list -->
 
-- **Passive protection**: in this case, the type of fire protection material and the thickness of the insulation must be specified. There are several predefined materials in the drop-down list, or you can define new materials with the ![](./img/wp-content-uploads-2021-04-3dots-button.png)button.
+- **Passzív védelem**: ebben az esetben meg kell adni a tűzvédő anyag típusát és a szigetelés vastagságát. A típushoz van több előre definiált anyag, illetve a legördülő menü melletti ![](./img/wp-content-uploads-2021-04-3dots-button.png) ikonnal új anyagot is definiálhatunk.
 
 <!-- /wp:list -->
 
 <!-- wp:list -->
 
-- **Reactive protection**: this should be selected if the fire protection of the given structure (part) will be provided by an intumescent paint coating and the critical temperature calculation is required to select the paint.
+- **Reaktív védelem**: ezt kell választani, ha az adott szerkezet(rész) tűzvédelmét tűzvédő festékbevonat fogja biztosítani, és a festék kiválasztásához a kritikus hőmérséklet kiszámítására van szükség.
 
 <!-- /wp:list -->
 
-<!-- wp:image {"align":"left","id":21417,"width":68,"height":72,"sizeSlug":"large","linkDestination":"none"} -->
+<!-- wp:image {"align":"left","id":21420,"width":68,"height":72,"sizeSlug":"large","linkDestination":"none"} -->
 
 ![](./img/wp-content-uploads-2021-04-warning_croc.png)
 
@@ -69,34 +90,40 @@ Fire protection can be _Unprotected_ and _Protected_. If Protected is chosen, th
 
 <!-- wp:paragraph -->
 
-Attention! Critical temperature calculation can only be requested for members that have reactive protection!
+**Figyelem! **Kritikus hőmérséklet számítást csak olyan elemekre lehet kérni, amelyek reaktív védelemmel vannak ellátva!
 
 <!-- /wp:paragraph -->
 
-<!-- wp:spacer {"height":16} -->
+<!-- wp:spacer {"height":"16px","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false},"editorskit_typography":{"name":"","family":"","weight":""},"extUtilities":[]} -->
 
 <!-- /wp:spacer -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Finally, in the lowest drop-down menu of the dialog box, for any protected or unprotected type, the section grading of the structural element acc. to EN 1993-1-2 - 4.2.5. / 4.2 and 4.3. should be specified.
+Végezetül a párbeszédablak legalsó legördülő mezőjében, bármilyen védett vagy nem védett típushoz meg kell adni a szerkezeti elem EN 1993-1-2 - 4.2.5. / 4.2 és 4.3 táblázat szerinti keresztmetszet besorolását.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":37668,"width":625,"height":98,"sizeSlug":"full","linkDestination":"none","className":"is-style-editorskit-rounded"} -->
+
+![](./img/wp-content-uploads-2022-06-dial_tuz_vedelem_besorolas.png)
+
+<!-- /wp:image -->
+
+<!-- wp:paragraph {"align":"justify"} -->
+
+Az **Alkalmaz **gombra kattintva a tűzvédelmi beállítások elmentésre kerülnek. A **Törlés** gombbal törölhető a kiválasztott tűzvédelem. Az **Új **gomb segítségével több egyéb védelem is létrehozható.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-By clicking on the **_Apply_** button, fire protection will be saved. With the **_New _**button, several other protections can be created. With _**Delete**_ button, the selected and created protection can be deleted.
+A tűzhatás intenzitása a keresztmetszet mentén változhat a Ψ1 es Ψ2 szorzótényezők módosításával. Változó intenzitás esetén az EN 1993-1-2 4.2.3.3 (7)-(8) szabvány szerinti tervezési paraméterek is megadhatók.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-The fire effect can be set to a different intensity at the top and the bottom of the member by modifying Ψ1 and Ψ2 multiplication factors. In case of varying intensity, the design parameters acc. to the EN 1993-1-2 4.2.3.3 (7)-(8) also can be set.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"align":"justify"} -->
-
-Created fire effect can be placed on the members with a simple click on the model. It is possible to apply fire effect to more members at the same time. In this case the members should be selected before clicking the fire icon.
+A tűzhatás egyszerű kattintással elhelyezhető a tűzhatásra tervezni kívánt szerkezeti elemeken. Az elhelyezés történhet több rúdra is egyszerre. Ebben az esetben az elemeket előbb ki kell jelölni, és csak a kijelölés után kell megnyitni a **Tűzhatás és tűzvédelem megadása** ablakot.
 
 <!-- /wp:paragraph -->

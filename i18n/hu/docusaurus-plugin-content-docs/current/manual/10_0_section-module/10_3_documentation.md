@@ -1,20 +1,25 @@
 ---
-sidebar_position: 3
+title: 'Dokumentáció'
+description: ""
+published: 2022-06-08
+redirect_from: 
+            - https://www.consteelsoftware.com/hu/manual/keresztmetszet-modul/dokumentacio/
+hero: ./img/wp-content-uploads-2022-06-scr_szelveny_doku-1-1024x530.png
 ---
-# Documentation
+<!-- wp:paragraph {"align":"justify"} -->
 
-Each analyzed cross-section can be separately documented in detail for both section design including the shape parameters, geometrical, mechanical, and design results, and the generated documents can be attached to the main documentation of the global structure.
+Az ellenőrzött keresztmetszetek egyedileg dokumentálhatók. A dokumentáció részletei kiterjedhetnek a szelvény paraméterekre, valamint a geometriai, mechanikai és tervezési eredményekre. Az egyes szelvénydokumentációk a szerkezet fő dokumentációjához csatolhatók.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-After clicking the Documentation option on the menu bar, the way for creating documentation is the same as in Consteel main module (see **_[CHAPTER 14 DOCUMENTATION](/manual/documentation/)_** for more detailed instructions).
+A dokumentáció előállítása a **Dokumentálás** menüparanccsal indítható. A dokumentáció előállításának módja megegyezik a globális szerkezet dokumentálásának módjával (ld. a **_[13. fejezetben](/manual/documentation/)_**).
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":6742,"width":714,"height":453,"sizeSlug":"large","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":37572,"width":768,"height":398,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2021-04-section_documentation-1024x651.png)](https://consteelsoftware.com/wp-content/uploads/2021/04/section_documentation.png)
+[![](./img/wp-content-uploads-2022-06-scr_szelveny_doku-1-1024x530.png)](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_szelveny_doku-1.png)
 
 <!-- /wp:image -->
