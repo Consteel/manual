@@ -1,11 +1,8 @@
 ---
-title: 'Dokumentálás fül'
-description: ""
-published: 2022-06-10
-redirect_from: 
-            - https://www.consteelsoftware.com/hu/manual/dokumentacio/dokumentalas-ful/
-hero: ./img/wp-content-uploads-2024-01-13.1-Document-tab-HU-CS17.png
+sidebar_position: 1
 ---
+# Dokumentálás fül
+
 <!-- wp:paragraph {"align":"center"} -->
 
 **Consteel 17**
@@ -50,13 +47,13 @@ hero: ./img/wp-content-uploads-2024-01-13.1-Document-tab-HU-CS17.png
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-A dokumentáció készítés összes ikonja a **Dokumentálás **fülön található. Az első parancsikonnal ![](./img/wp-content-uploads-2021-04-cmd_doc_new.png) hozható létre új dokumentáció. A dokumentációvarázsló végigvezeti a felhasználót a dokumentációkészítés folyamatán. Az első ablakban meg kell adni a dokumentáció nevét. Ez a név a dokumentáció minden oldalán megjelenik. A többi mező tartalma, mint a projekt neve, tervező neve, készítés dátuma csak a dokumentáció előlapján jelenik meg. Itt adható meg a dokumentálás nyelve is, ami a későbbiekben bármikor megváltoztatható.
+A dokumentáció készítés összes ikonja a **Dokumentálás** fülön található. Az első parancsikonnal ![](./img/wp-content-uploads-2021-04-cmd_doc_new.png) hozható létre új dokumentáció. A dokumentációvarázsló végigvezeti a felhasználót a dokumentációkészítés folyamatán. Az első ablakban meg kell adni a dokumentáció nevét. Ez a név a dokumentáció minden oldalán megjelenik. A többi mező tartalma, mint a projekt neve, tervező neve, készítés dátuma csak a dokumentáció előlapján jelenik meg. Itt adható meg a dokumentálás nyelve is, ami a későbbiekben bármikor megváltoztatható.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-A dokumentáció fejlécében és láblécében található képek testre szabhatók, ezáltal saját céglogó is elhelyezhető. Ehhez a fejlécben és láblécben található képeket kell kicserélni a saját logóra. Ezek a fájlok a _Consteel_ telepítési mappájában találhatók; alapesetben az alábbi helyen: C:\\Program Files\\Consteelversion\\Pic. A fejléc “Header_pic.png”, illetve a lábléc “Footer_pic.png” képeket lehet lecserélni a saját logóra. Ügyelni kell, hogy az új képek formátuma \***.png** legyen!
+A dokumentáció fejlécében és láblécében található képek testre szabhatók, ezáltal saját céglogó is elhelyezhető. Ehhez a fejlécben és láblécben található képeket kell kicserélni a saját logóra. Ezek a fájlok a _Consteel_ telepítési mappájában találhatók; alapesetben az alábbi helyen: C:\\Program Files\\Consteelversion\\Pic. A fejléc “Header_pic.png”, illetve a lábléc “Footer_pic.png” képeket lehet lecserélni a saját logóra. Ügyelni kell, hogy az új képek formátuma **.png** legyen!
 
 <!-- /wp:paragraph -->
 
@@ -92,13 +89,13 @@ Tervezési határállapot dokumentálásához kihasználtsági határérték adh
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-A dokumentáció készítőben létrehozhatók dokumentáció sablonok is a **Mentés **gomb segítségével. Sablonként elmenthetők a legtöbbet használt dokumentációs struktúrák, amelyeknek köszönhetően a jövőben egy kattintással hozhatjuk létre ugyanazokat a dokumentációkat.
+A dokumentáció készítőben létrehozhatók dokumentáció sablonok is a **Mentés** gomb segítségével. Sablonként elmenthetők a legtöbbet használt dokumentációs struktúrák, amelyeknek köszönhetően a jövőben egy kattintással hozhatjuk létre ugyanazokat a dokumentációkat.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-A **Létrehozás **gombra kattintva a program elkészíti a dokumentációt.
+A **Létrehozás** gombra kattintva a program elkészíti a dokumentációt.
 
 <!-- /wp:paragraph -->
 
@@ -226,7 +223,7 @@ A modellben történt változtatások esetén, a dokumentációkat újra kell ge
 
 <!-- wp:paragraph -->
 
-A **Dokumentálás **fül második ikonja ![](./img/wp-content-uploads-2021-04-cmd_doc_snap.png) segítségével a modellről pillanatképek rögzíthetők. Ezeket a képeket egyszerűen hozzáadhatjuk a dokumentáció megfelelő részéhez (lásd a **_[Dokumentáció modul](/manual/dokumentacio/dokumentalas-ful/#Documentation-module)_** c. fejezetben). A Nyomtatás segítségével az aktuális képernyőnézet kinyomtatható.
+A **Dokumentálás** fül második ikonja ![](./img/wp-content-uploads-2021-04-cmd_doc_snap.png) segítségével a modellről pillanatképek rögzíthetők. Ezeket a képeket egyszerűen hozzáadhatjuk a dokumentáció megfelelő részéhez (lásd a **_[Dokumentáció modul](/manual/dokumentacio/dokumentalas-ful/#Documentation-module)_** c. fejezetben). A Nyomtatás segítségével az aktuális képernyőnézet kinyomtatható.
 
 <!-- /wp:paragraph -->
 
@@ -238,7 +235,7 @@ A pillanatkép méretének beállítása után, egy szaggatott vonalú négyszö
 
 <!-- wp:paragraph -->
 
-A **Nyomtatás **gomb segítségével a modell aktuális nézete közvetlenül ebből a párbeszédablakból is kinyomtatható.
+A **Nyomtatás** gomb segítségével a modell aktuális nézete közvetlenül ebből a párbeszédablakból is kinyomtatható.
 
 <!-- /wp:paragraph -->
 
@@ -352,7 +349,7 @@ A Dokumentáció fülön található ötödik parancsikon ![](./img/wp-content-u
 
 <!-- wp:paragraph -->
 
-$EEE=\\frac{\\sum{\\left( v.e.szakasz kihasználtság\*v.e.szakasz tömeg \\right)}}{\\sum{\\left( v.e.szakasz tömeg \\right)}}$
+![alt text](img/EEE.png)
 
 <!-- /wp:paragraph -->
 
@@ -364,7 +361,7 @@ $EEE=\\frac{\\sum{\\left( v.e.szakasz kihasználtság\*v.e.szakasz tömeg \\righ
 
 <!-- wp:paragraph -->
 
-$SEE=\\frac{\\sum{\\left( rúd max kihasználtság\*rúd tömeg \\right)}}{\\sum{\\left( rúd tömeg \\right)}}$
+![!\[alt text\](image-1.png)](img/SEE.png)
 
 <!-- /wp:paragraph -->
 
@@ -376,7 +373,7 @@ $SEE=\\frac{\\sum{\\left( rúd max kihasználtság\*rúd tömeg \\right)}}{\\sum
 
 <!-- wp:paragraph -->
 
-$SSE=\\frac{EEE}{SEE}$
+$SSE=\frac{EEE}{SEE}$
 
 <!-- /wp:paragraph -->
 
@@ -406,12 +403,12 @@ $SSE=\\frac{EEE}{SEE}$
 
 <!-- wp:paragraph -->
 
-A táblázatban vagy a fa struktúrában valamely elem(ek) kijelölése után a **Kijelöl **gombra kattintva, az elemek a modellben is kiválasztásra kerülnek.
+A táblázatban vagy a fa struktúrában valamely elem(ek) kijelölése után a **Kijelöl** gombra kattintva, az elemek a modellben is kiválasztásra kerülnek.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-A párbeszédablak bezárása a **Bezár **gombbal lehetséges.
+A párbeszédablak bezárása a **Bezár** gombbal lehetséges.
 
 <!-- /wp:paragraph -->

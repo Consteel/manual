@@ -1,11 +1,7 @@
 ---
-title: 'Dokumentáció exportálása MS Word számára'
-description: ""
-published: 2022-06-10
-redirect_from: 
-            - https://www.consteelsoftware.com/hu/manual/dokumentacio/dokumentacio-exportalasa-ms-word-szamara/
-hero: ./img/wp-content-uploads-2022-06-scr_dokument_export.png
+sidebar_position: 2
 ---
+# Dokumentáció exportálása MS Word számára
 <!-- wp:columns -->
 
 <!-- wp:column -->
