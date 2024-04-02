@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 # Analízis
----
+
 <!-- wp:paragraph {"align":"justify"} -->
 
 Amennyiben az emelt hőmérséklethez tartozó anyagjellemzőkkel végezzük a számítást, a végeselem generálás során a _Consteel_ meghatározza az acél hőmérsékletet a megkívánt tűzállósági időtartam végén, és ennek megfelelően csökkenti az anyag rugalmassági modulusát. Az értékek megtekinthetők a Végeselem fülön, a megfelelő terhelési eset kiválasztásával.

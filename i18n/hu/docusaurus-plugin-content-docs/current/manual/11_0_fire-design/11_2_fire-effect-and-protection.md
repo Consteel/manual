@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 # Tűzhatás és tűzvédelem megadása
----
+
 <!-- wp:image {"align":"center","id":37644,"width":837,"height":48,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
 [![](https://consteelsoftware.com/wp-content/uploads/2022/06/tab_tuz.png)](./img/wp-content-uploads-2022-06-tab_tuz.png)

@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 # Tervezés
----
+
 <!-- wp:heading {"level":3} -->
 
 ### Tervezés emelt hőmérsékleti anyagjellemzők mellett

@@ -2,7 +2,7 @@
 sidebar_position: 16
 ---
 # Merevítők
----
+
 <!-- wp:paragraph {"align":"justify"} -->
 
 A gerinc merevítők modellezése jelenleg hegesztett I vagy H típusú keresztmetszetekhez áll rendelkezésre, de a későbbiekben elérhető lesz majd más típusú keresztmetszetekhez is. A merevítők hatása csak akkor lesz figyelembe véve az analízis és a méretezés során, ha a rúd végeseleme héj típusú. A normál 7SZF végeselemmel történő analízis ezeket az objektumokat nem veszi figyelembe. Egyetlen kivételként a merőleges merevítők öblösödési merevsége figyelembe vehető a rúd gerenda modelljében is, igény esetén.

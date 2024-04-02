@@ -2,7 +2,7 @@
 sidebar_position: 8
 ---
 # Anyagminőségek
----
+
 <!-- wp:paragraph {"align":"justify"} -->
 
 Három féle alapanyag típus található a _Consteel_-ban: acél, beton és betonacél. Mind a három alapanyagtípushoz hozhatunk létre új anyagminőséget.

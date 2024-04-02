@@ -2,7 +2,7 @@
 sidebar_position: 7
 ---
 # Keretsarok varázsló
----
+
 <!-- wp:image {"align":"center","id":34769,"width":447,"height":71,"sizeSlug":"full","linkDestination":"media","className":"is-style-default"} -->
 
 [![](https://consteelsoftware.com/wp-content/uploads/2022/04/tab_keretsarok_varazslo.png)](./img/wp-content-uploads-2022-04-tab_keretsarok_varazslo.png)

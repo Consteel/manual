@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 # Szelvény eszközök
----
+
 <!-- wp:heading {"level":3} -->
 
 ### Geometriai számítások

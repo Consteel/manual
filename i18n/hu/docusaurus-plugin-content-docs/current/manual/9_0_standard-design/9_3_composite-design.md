@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 # Öszvérszerkezet tervezés
----
+
 <!-- wp:paragraph -->
 
 Az öszvér oszlopok tervezéséhez tartozó funkciók a Globális vizsgálatok fülön, míg az öszvér gerendákhoz tartozók az Elem vizsgálatok fülön találhatóak.

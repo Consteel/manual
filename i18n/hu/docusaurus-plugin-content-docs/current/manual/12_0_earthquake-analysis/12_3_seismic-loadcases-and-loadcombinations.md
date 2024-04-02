@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 # Szeizmikus tehercsoportok és teherkombinációk
----
+
 <!-- wp:heading {"level":3} -->
 
 ### Szeizmikus tehercsoportok és teheresetek

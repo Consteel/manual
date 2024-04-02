@@ -2,7 +2,7 @@
 sidebar_position: 14
 ---
 # Superbeam
----
+
 <!-- wp:image {"align":"center","id":11637,"width":798,"height":350,"sizeSlug":"full","linkDestination":"media"} -->
 
 [![](https://consteelsoftware.com/wp-content/uploads/2021/05/scr_dualbeam_demo_res.png)](./img/wp-content-uploads-2021-05-scr_dualbeam_demo_res.png)

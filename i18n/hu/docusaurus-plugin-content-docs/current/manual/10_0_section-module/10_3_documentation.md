@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 # Dokumentáció
----
+
 <!-- wp:paragraph {"align":"justify"} -->
 
 Az ellenőrzött keresztmetszetek egyedileg dokumentálhatók. A dokumentáció részletei kiterjedhetnek a szelvény paraméterekre, valamint a geometriai, mechanikai és tervezési eredményekre. Az egyes szelvénydokumentációk a szerkezet fő dokumentációjához csatolhatók.

@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 # Földrengés analízis
----
+
 <!-- wp:paragraph {"align":"justify"} -->
 
 A Consteel, a földrengés analízist **Modális válaszspektrum-analízis** (_Modal response spectrum analysis_, MRSA) eljárás alapon végzi el, az alábbi három analízismód támogatásával:

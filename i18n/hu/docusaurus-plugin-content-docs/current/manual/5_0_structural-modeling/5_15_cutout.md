@@ -2,7 +2,7 @@
 sidebar_position: 15
 ---
 # Gerinc kivágás
----
+
 <!-- wp:paragraph {"align":"justify"} -->
 
 A gerinckivágások modellezése jelenleg hegesztett I vagy H típusú keresztmetszetekhez áll rendelkezésre, de a későbbiekben más típusú keresztmetszetekhez is elérhető lesz majd. A kivágás hatása csak akkor lesz figyelembe véve az analízis és a méretezés során, ha a rúd végeseleme héj típusú. A normál 7SZF végeselemmel történő analízis ezeket az objektumokat nem veszi figyelembe.

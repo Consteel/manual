@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 # Acélszerkezet tervezés
----
+
 <!-- wp:paragraph -->
 
 Az acélszerkezet tervezéshez szükséges funkciók a **Globális vizsgálatok** és az **Elem vizsgálatok** fülön találhatók.

@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 # Földrengés hatás
----
+
 <!-- wp:paragraph {"align":"justify"} -->
 
 A Tömegek fülön található **Földrengés hatás** (![](./img/wp-content-uploads-2021-04-13-3-Seismic-effect.png)) funkció segítségével hozható létre új földrengés hatás. A megjelenő hatás dialógon lehet megadni minden olyan paramétert és beállítást, amely a földrengés analízishez szükséges.

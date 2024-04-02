@@ -2,7 +2,7 @@
 sidebar_position: 11
 ---
 # Kapcsolati elemek
----
+
 <!-- wp:paragraph -->
 
 A kapcsolati elem azoknak az elemeknek az összekötésére szolgál, amelyek referenciavonalai nem kapcsolódnak közvetlenül egymáshoz. A Consteelben háromféle kapcsolati elem használható:

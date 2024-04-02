@@ -2,7 +2,7 @@
 sidebar_position: 12
 ---
 # Nyírási mező
----
+
 <!-- wp:paragraph -->
 
 A nyírási mező objektummal figyelembe vehető a trapézlemez megtámasztó hatása a kihajlás számításban. A nyírási merevséget csak a 7 szabadságfokú rúdelemeket használó végeselem szoftverek képesek kezelni.

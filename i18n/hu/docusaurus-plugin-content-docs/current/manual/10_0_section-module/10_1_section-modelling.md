@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 # Szelvénymodellezés
----
+
 <!-- wp:heading {"level":3} -->
 
 ### EPS (Vékonyfalú szelvény) modell

@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 # Diafragma
----
+
 <!-- wp:image {"align":"right","id":34017,"width":396,"height":332,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
 [![](https://consteelsoftware.com/wp-content/uploads/2022/03/dial_diafragma.png)](./img/wp-content-uploads-2022-03-dial_diafragma.png)

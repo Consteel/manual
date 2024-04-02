@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 # Rúdelemek
----
+
 <!-- wp:paragraph -->
 
 Rúdelemek a következő keresztmetszeti típusokkal modellezhetők: vékony-falú acél, vasbeton és kompozit. Elhelyezéstől függően a szerkezeti elemek lehetnek oszlopok és gerendák. Az oszlop egy speciális helyzetű rúdelem, amely mindig függőleges, emiatt az elhelyezésük egyszerűbb, mert csak a magasságát kell definiálni.

@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 # Földrengés analízis lépései
----
+
 <!-- wp:paragraph -->
 
 A Modális válaszspektrum-analízis alapú földrengés analízist a Consteel szoftverben az alábbi lépések elvégzésével lehet elvégezni:

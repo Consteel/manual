@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 # Tűz tehercsoport
----
+
 <!-- wp:image {"align":"right","id":37602,"sizeSlug":"full","linkDestination":"media"} -->
 
 [![](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_tehercsoport_tuz.png)](./img/wp-content-uploads-2022-06-scr_tehercsoport_tuz.png)

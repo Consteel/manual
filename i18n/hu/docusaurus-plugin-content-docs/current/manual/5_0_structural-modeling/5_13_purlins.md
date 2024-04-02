@@ -2,7 +2,7 @@
 sidebar_position: 13
 ---
 # Szelemensor
----
+
 <!-- wp:paragraph -->
 
 Szelemen méretezéssel kapcsolatos funkciók 3 nagy egységre különülnek el:

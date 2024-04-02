@@ -2,7 +2,7 @@
 sidebar_position: 9
 ---
 # Támaszok
----
+
 <!-- wp:paragraph {"align":"justify"} -->
 
 _Consteel_-ben háromfajta támasz használatára van lehetőség: pontbeli, vonalmenti és felületi támasz.

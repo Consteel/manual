@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 # Felületi elemek
----
+
 <!-- wp:image {"align":"right","id":33994,"width":264,"height":153,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
 [![](https://consteelsoftware.com/wp-content/uploads/2022/03/dial_fal.png)](./img/wp-content-uploads-2022-03-dial_fal.png)

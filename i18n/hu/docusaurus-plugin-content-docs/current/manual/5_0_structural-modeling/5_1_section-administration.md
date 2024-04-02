@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 # Szelvénykezelő
----
+
 <!-- wp:paragraph -->
 
 Ahhoz, hogy szelvényeket használhassunk a modellben, előbb be kell azokat tölteni a modelladatbázisba. A szelvények betöltését a **Szelvénykezelő** párbeszédpanelen lehet elvégezni. A **Szelvénykezelő** párbeszédpanel a **Szerkezeti elemek** fülön található ![](./img/wp-content-uploads-2021-04-cmd_section_admin.png) parancsra kattintva nyitható meg. A párbeszédablak a rúdelemek dialógablakból (gerenda és oszlop) is elérhető a _Szelvény_ legördülő menüje melletti ![](./img/wp-content-uploads-2021-04-3dots-button.png) paranccsal. Ebben a párbeszédablakban látható az összes korábban betöltött szelvény, és a jobb oldalon található megfelelő gombokra kattintva új szelvények tölthetők be, illetve hozhatók létre.
