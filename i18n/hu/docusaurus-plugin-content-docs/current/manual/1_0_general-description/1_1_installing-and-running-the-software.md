@@ -113,7 +113,7 @@ A telepítéshez rendszergazdai jogosultság szükséges. Rendszergazdai jogok n
 
 <!-- wp:paragraph -->
 
-A Consteel szoftver telepítő csomagja elérhető a Consteel honlap _Letöltések_ (_Downloads_) menüpontjából ([https://Consteelsoftware.com/hu/letoltesek/](https://consteelsoftware.com/hu/letoltesek/)) regisztrált felhasználók számára.
+A Consteel szoftver telepítő csomagja elérhető a Consteel honlap [_Letöltések_](https://Consteelsoftware.com/hu/letoltesek) (_Downloads_) menüpontjából   regisztrált felhasználók számára.
 
 <!-- /wp:paragraph -->
 
@@ -217,15 +217,6 @@ A Consteel 15 Update 6 verzió kiadásával a hardverkulcs illesztőprogramot el
 
 **A program indítása**
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-A Consteel 14 és 15 verziók eltérő módon indíthatók, ezért a következőkben megadjuk a leírást mindkét verzióra külön-külön. Ha a 14-es verzió indítása érdekel, [kattints ide](#cs14start).
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
 
 **Consteel 15** **indítása**
 

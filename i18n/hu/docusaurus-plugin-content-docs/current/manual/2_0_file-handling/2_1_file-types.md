@@ -23,7 +23,7 @@ A **Consteel 15** által kezelt fájltípusok:
 
 <!-- wp:paragraph -->
 
-**.csm**: az automatikus mentés által létrehozott modellfájl. Az automatikus mentés időintervalluma az [_**Opciók**_ ](/manual/altalanos-ismertetes/a-fokepernyo/#Options-menu)menüben állítható.
+**.csm**: az automatikus mentés által létrehozott modellfájl. Az automatikus mentés időintervalluma az [_**Opciók**_ ](../1_0_general-description/1_2_the-main-window)menüben állítható.
 
 <!-- /wp:paragraph -->
 
