@@ -1,8 +1,8 @@
 {
-  "label": "General description",
+  "label": "Általános ismertetés",
   "position": 3,
   "link": {
     "type": "generated-index",
-    "description": "General description of the user interface of Consteel software"
+    "description": ""
   }
 }
