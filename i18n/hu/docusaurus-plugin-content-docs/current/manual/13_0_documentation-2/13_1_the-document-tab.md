@@ -349,7 +349,7 @@ A Dokumentáció fülön található ötödik parancsikon ![](./img/wp-content-u
 
 <!-- wp:paragraph -->
 
-![alt text](img/EEE.png)
+$EEE=\frac{\sum{\left( v.e.szakasz kihasználtság*v.e.szakasz tömeg \right)}}{\sum{\left( v.e.szakasz tömeg \right)}}$
 
 <!-- /wp:paragraph -->
 
@@ -361,7 +361,7 @@ A Dokumentáció fülön található ötödik parancsikon ![](./img/wp-content-u
 
 <!-- wp:paragraph -->
 
-![!\[alt text\](image-1.png)](img/SEE.png)
+$SEE=\frac{\sum{\left( rúd max kihasználtság*rúd tömeg \right)}}{\sum{\left( rúd tömeg \right)}}$
 
 <!-- /wp:paragraph -->
 
