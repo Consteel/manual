@@ -58,7 +58,11 @@ A Modális válaszspektrum-analízis eredményeit a Consteel a 100% „+” 30%-
 <!-- wp:paragraph -->
 Let E = 10 be the earthquake intensity.
 
-![alt text](img/kombinacióksh.png)
+a) $E_{E.dx}\quad "+"\quad 0,30 E_{E.dy}\quad "+" \quad 0,30 E_{E.dz}$
+
+b) $0,30E_{E.dx}\quad "+"\quad E_{E.dy}\quad "+" \quad 0,30 E_{E.dz}$
+
+c) $0,30E_{E.dx}\quad "+"\quad 0,30 E_{E.dy}\quad "+" \quad E_{E.dz}$
 
 
 <!-- /wp:paragraph -->

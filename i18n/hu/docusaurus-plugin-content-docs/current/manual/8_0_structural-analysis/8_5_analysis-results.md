@@ -105,9 +105,9 @@ A két különböző típusú (rúd és héj) végeselemhez az alábbi analízis
     - vyz – a szelvényen ható helyi „y” tengelyre merőleges lemez nyíróerő
     - vRz – eredő lemez nyíróerő
     - Ɑn – tárcsa erők fő irányai  
-     ![alt text](img/alphan2.png)
+     $\alpha_n=\frac{1}{2}arctan\left [ \frac{2n_{xy}}{n_x-n_y} \right ]\; \; -90^{\circ}< \alpha_n\leq +90^{\circ}$
     - Ɑm – tárcsa erők fő irányai  
-     ![alt text](img/alpham.png)
+     $\alpha_m=\frac{1}{2}arctan\left [ \frac{2m_{xy}}{m_x-m_y} \right ]\; \; -90^{\circ}< \alpha_m\leq +90^{\circ}$
 
   - Felületi feszültségek – a héj végeselemek felső, középső, és alsó síkjaiban, végeselem pontokban, lokális koordinátarendszerben
 
@@ -115,13 +115,13 @@ A két különböző típusú (rúd és héj) végeselemhez az alábbi analízis
     - $\sigma_y$ – “y” irányú normálfeszültség
     - $\sigma\_{xy}$ – nyírófeszültség
     - $\sigma_1$ – főfeszültségek maximuma  
-     ![alt text](img/sigma1.png)
+     $\sigma_1= \frac{\sigma_x+\sigma_y}{2}+\sqrt{{\left [ \frac{\sigma_x-\sigma_y}{2} \right ]}^2+\sigma_{xy}^2}$
     - $\sigma_2$ – főfeszültségek minimuma  
-     ![alt text](img/sigma1min.png)
-    - $\sigma\_{HMH}$ – Huber-Mises-Hencky feszültség  
-     ![alt text](img/sigmahmh.png)
+     $\sigma_1= \frac{\sigma_x+\sigma_y}{2}-\sqrt{{\left [ \frac{\sigma_x-\sigma_y}{2} \right ]}^2+\sigma_{xy}^2}$
+    - $\sigma_{HMH}$ – Huber-Mises-Hencky feszültség  
+     $\sigma_{HMH}=\sqrt{\sigma_x^2+\sigma_y^2-\sigma_x\sigma_y+3\sigma_{xy}^2}$
     - $\alpha\_{\sigma}$ – feszültségek főirányai  
-     ![alt text](img/alphasigma1.png)
+     $\alpha_{\sigma}=\frac{1}{2}arctan\left [ \frac{2\sigma_{xy}}{\sigma_x-\sigma_y} \right ]\; \; -90^{\circ}< \alpha_{\sigma}\leq +90^{\circ}$
 
   - Reakciók – megtámasztott csomópontokban, globális koordinátarendszerben
 

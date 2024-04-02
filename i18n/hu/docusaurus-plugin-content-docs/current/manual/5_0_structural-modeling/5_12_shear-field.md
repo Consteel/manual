@@ -35,7 +35,7 @@ A nyírási mező objektummal figyelembe vehető a trapézlemez megtámasztó ha
 
 Az 1. ábrán a nyírási merevség értelmezése látható. A nyírási diafragma elmozdulása e \[mm] egy adott F \[kN] nyíróerő hatására \[1]. A nyírási rugalmasság definíció szerint:
 
-![alt text](img/c_e_F.png)
+$$c=\dfrac{e}{F} \quad  [mm/kN]$$
 
 
 <!-- /wp:paragraph -->
@@ -44,7 +44,7 @@ Az 1. ábrán a nyírási merevség értelmezése látható. A nyírási diafrag
 
 A nyírási rugalmasság reciproka a nyírási merevség, melyet S-el jelöl a szakirodalom:
 
-![alt text](img/S_F_e.png)
+$$S=\dfrac{F}{e} \quad [kN/mm]$$
 
 <!-- /wp:paragraph -->
 
@@ -203,7 +203,7 @@ A Hoesch panelek esetén a nyírási merevség meghatározásához a következő
 
 <!-- wp:paragraph -->
 
-![alt text](img/S.png)
+$$S=\dfrac{10^{4}}{K_1+\dfrac{K_2}{L}}*a \quad  (1)$$
 
 <!-- /wp:paragraph -->
 
@@ -287,7 +287,7 @@ A Fischer trapézlemez gyártó cég a nyírási merevség meghatározásához a
 
 <!-- wp:paragraph -->
 
-![!\[alt text\](image-3.png)](img/S_2.png)
+$$S=\cfrac{1}{(K_1+K_1^{*}e_L)+\cfrac{K_2+K_2^{}}{L}}a \quad  (2)$$
 
 <!-- /wp:paragraph -->
 
@@ -353,7 +353,7 @@ Az Arcelor trapézlemez gyártó cég a következő képletet (3) (Bryan/Davies 
 
 <!-- wp:paragraph -->
 
-![alt text](img/S_3.png)
+$$S=\cfrac{10^{4}}{[(K_1^{'}*a_2+K_1^{}e_L)+\cfrac{K_2^{'}*a_1a_4+K_2^{}a_3}{L_S}}a \quad  (3)$$
 
 <!-- /wp:paragraph -->
 
@@ -437,7 +437,7 @@ Az Eurocode \[7] is ad egy ajánlást a trapézlemezek nyírási merevségének 
 
 <!-- wp:paragraph -->
 
-![alt text](img/s_xa.png)
+$$S=(1000*\sqrt{t^{3}}(50+10\sqrt[3]{b_{roof}})\frac{1}{h_w})a$$
 
 <!-- /wp:paragraph -->
 
