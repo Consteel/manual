@@ -182,10 +182,10 @@ Az alábbi módszerek lettek beépítve a programba:
 
 <!-- wp:list -->
 
-- [Hoesch](#Hoesch)
-- [Fischer](#Fischer)
-- [Arcelor](#Arcelor)
-- [EuroCode](#Eurocode-shear-stiffness)
+- [Hoesch](#hoesch-panelek-nyírási-merevségének-meghatározása)
+- [Fischer](#fischer-panelek-nyírási-merevségének-meghatározása)
+- [Arcelor](#arcelor-panelek-nyírási-merevségének-meghatározása)
+- [EuroCode](#eurocode-által-megadott-képlet-nyírási-merevség-számításához)
 
 <!-- /wp:list -->
 
@@ -503,7 +503,7 @@ A nyírási mező beállításait részletező dialóg az alábbi ikonnal ![](./
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-\#1 - Itt adható meg a _**nyírási merevség**_ értéke. A merevséget definiálhatjuk kézzel, de a (![](./img/wp-content-uploads-2021-04-3dots-button.png)) ikonra kattintva lehetőségünk van bizonyos paraméterek megadásával automatikus merevséget is számítani ([Lásd _**5.11.3.1**_](#Shear-field-stiffness-calculation)).
+\#1 - Itt adható meg a _**nyírási merevség**_ értéke. A merevséget definiálhatjuk kézzel, de a (![](./img/wp-content-uploads-2021-04-3dots-button.png)) ikonra kattintva lehetőségünk van bizonyos paraméterek megadásával automatikus merevséget is számítani.
 
 <!-- /wp:paragraph -->
 

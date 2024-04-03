@@ -45,6 +45,6 @@ A felület megrajzolása után a dialóg tovább lép a második, a _Rudak megad
 
 <!-- wp:paragraph -->
 
-A _**Diafragma**_ elem egyben _**[Teher átadó felületként](/manual/terhek/tehertipusok/#LTS)**_ is funkcionál, azaz felületi terhek elhelyezhetők rajta.
+A _**Diafragma**_ elem egyben _**[Teher átadó felületként](../6_0_structural-loads/6_3_load-types.md#teherátadó-felület)**_ is funkcionál, azaz felületi terhek elhelyezhetők rajta.
 
 <!-- /wp:paragraph -->

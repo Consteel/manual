@@ -115,7 +115,7 @@ Az elérhető típusok a kiválasztott szelvénytől függenek.
 
   * **Héjelem**: a rúdelem az analízis során a keresztmetszetének megfelelő héjelemmé alakul át. Az alkalmazott terhek, támaszok, merevítő bordák és nyílások is átalakításra kerülnek. Az elem megtartja 1D jellemzőit is, így ez az átalakítás nem végérvényes. Az ilyen elemek bármikor visszaalakíthatók normál rúdelemekké. Ezekre az elemekre a szabványos méretezés jelenleg nem lehetséges.
 
-    - ![](./img/wp-content-uploads-2021-04-cmd_draw_get.png) Ez a típus nem választható ezen a párbeszédpanelen. Csak a modellben elhelyezett rudakat lehet az **_[Objektum tulajdonságok ablakban](/manual/altalanos-ismertetes/a-fokepernyo/#Object-properties-window)_** héjelemmé módosítani. További információ erről a **_[Superbeam fejezetben található.](/manual/szerkezetmodellezes/superbeam/)_**
+    - ![](./img/wp-content-uploads-2021-04-cmd_draw_get.png) Ez a típus nem választható ezen a párbeszédpanelen. Csak a modellben elhelyezett rudakat lehet az **_[Objektum tulajdonságok ablakban](../1_0_general-description/1_2_the-main-window.md#objektum-tulajdonságok-ablak)_** héjelemmé módosítani. További információ erről a **_[Superbeam fejezetben található.](../5_0_structural-modeling/5_14_superbeam.md)_**
    
 
   - **Húzott rúd**: tengelyirányú nyomást nem tud felvenni. Ha az analízis során nyomás lép fel egy ilyen elemben, a program figyelmen kívül hagyja az elemet.
@@ -158,7 +158,7 @@ Szükséges megjegyezni, hogy nem csak a külpontos normálerőknek van hatása 
 ### Acél rúdelemek
 
 
-Első lépésként a keresztmetszet betöltést kell elvégezni. Ez elvégezhető mind a _**[szelvénykezelőből](/manual/szerkezetmodellezes/szelvenykezelo/)**_(![](./img/wp-content-uploads-2021-04-cmd_section_admin.png))közvetlenül, mind pedig a _**rúd szerkesztő**_ dialógról is. Acél keresztmetszetek betöltéséhez a Consteel, a szabványos szelvénytárban megtalálható szelvényeken és a makró szelvényeken túl, rajzolt (egyedi) szelvények betöltésére is lehetőséget ad.
+Első lépésként a keresztmetszet betöltést kell elvégezni. Ez elvégezhető mind a [**szelvénykezelőből**](../5_0_structural-modeling/5_1_section-administration.md) (![](./img/wp-content-uploads-2021-04-cmd_section_admin.png))közvetlenül, mind pedig a **rúd szerkesztő** dialógról is. Acél keresztmetszetek betöltéséhez a Consteel, a szabványos szelvénytárban megtalálható szelvényeken és a makró szelvényeken túl, rajzolt (egyedi) szelvények betöltésére is lehetőséget ad.
 
 [![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/exclam.png)](./img/wp-content-uploads-2021-04-exclam.png)
 
@@ -344,7 +344,7 @@ Fontos, hogy ha a tervező nem az adatbázisban szereplő bevonatos anyagok köz
 
 
 
-A harmadik lehetőség szelvény létrehozására a szelvény rajzolás a _**Keresztmetszet létrehozó**_ modulban. A funkciót a _**[Szelvénykezelő](/manual/szerkezetmodellezes/szelvenykezelo/)**_ dialógablak _**Szelvény rajzolása**_ nyomógombjával lehet elindítani.
+A harmadik lehetőség szelvény létrehozására a szelvény rajzolás a _**Keresztmetszet létrehozó**_ modulban. A funkciót a _**[Szelvénykezelő](../5_0_structural-modeling/5_1_section-administration.md)**_ dialógablak _**Szelvény rajzolása**_ nyomógombjával lehet elindítani.
 
 
 
@@ -508,7 +508,7 @@ Ahhoz, hogy a megrajzolt merevítők ténylegesen szabványos merevítőként sz
 Z vagy C szelvényt választva, a számítás, az övek megtámasztásában figyelembe veszi a másik öv feszültségi állapotát, és a gerinc merevségét is. Ehhez természetesen meg kell adni, hogy a szelvény mely részei alkotják az alsó és felső övet, illetve a gerincet, és meg kell adni a gerinc hosszát is. Általános szelvényt választva az élmerevítők számítása egymástól függetlenül történik.
 
 
-További lényeges különbség, hogy csak a Z-C típusú szelvénnyel létrehozott rúdelemre lehet a későbbiekben [_**Szelemensor**_](/manual/szerkezetmodellezes/szelemensor/#place-purlin-line), [**Feltámaszkodási zóna**](/manual/szerkezetmodellezes/szelemensor/#support-zone) vagy [**Átfedéses szakasz**](/manual/szerkezetmodellezes/szelemensor/#purlin-overlap-zone) objektumokat elhelyezni. ([**Lásd az 5.12 fejezetet!*](/manual/szerkezetmodellezes/szelemensor))
+További lényeges különbség, hogy csak a Z-C típusú szelvénnyel létrehozott rúdelemre lehet a későbbiekben [**Szelemensor**](../5_0_structural-modeling/5_13_purlins.md#szelemensor), [**Feltámaszkodási zóna**](../5_0_structural-modeling/5_13_purlins.md#feltámaszkodási-zóna) vagy [**Átfedéses szakasz**](../5_0_structural-modeling/5_13_purlins.md#szelemenek-átfedéses-toldása) objektumokat elhelyezni. ([**Lásd az 5.12 fejezetet!**](../5_0_structural-modeling/5_12_shear-field.md))
 
 
 
@@ -524,7 +524,7 @@ A merevítők megadását a bal felső parancssoron található parancsikonokkal
 ![](./img/wp-content-uploads-2021-04-sectdraw_CF_create_stiffeners_nonstiff.png) **Merevítetlen öv kiválasztása:** csak Z vagy C típusú szelvényeknél használható. Amennyiben valamelyik öv merevítetlen, ezzel a paranccsal lehet ezt az övet definiálni. Keretezéssel vagy rákattintással ki kell jelölni a merevítetlen övhöz tartozó lemezszegmenseket, majd a bevitelt az **ENTER **gomb, vagy az ENTER billentyű megnyomásával befejezni.
 
 
-![](./img/wp-content-uploads-2021-04-sectdraw_CF_create_stiffeners_edge.png) _**Élmerevítő **_és_** kettős élmerevítő kiválasztása:** a felugró ablakban lévő súgó utasításait követve, 4 lépésben lehet a merevítőket definiálni. Az első lépésben keretezéssel vagy rákattintással ki kell jelölni az(oka)t a lemezszegmens(eke)t, amely(ek) a merevítőt alkotják, majd a bevitelt az **ENTER** gomb, vagy az ENTER billentyű megnyomásával befejezni. Ezután a merevített lemezt kell kijelölni, és ismét az ENTER-rel befejezni a műveletet. A következő lépésben a gerincet alkotó lemezt kell megadni, legvégül két ponttal meg kell határozni a gerinc hosszát. Minden lépést ugyan úgy az ENTER-rel kell lezárni. A folyamat lépésit a jobb oldali panelen lehet követni, ahol helyes bevitel esetén mind a három sorban OK felirat lesz olvasható.
+![](./img/wp-content-uploads-2021-04-sectdraw_CF_create_stiffeners_edge.png) **Élmerevítő **_és_** kettős élmerevítő kiválasztása:** a felugró ablakban lévő súgó utasításait követve, 4 lépésben lehet a merevítőket definiálni. Az első lépésben keretezéssel vagy rákattintással ki kell jelölni az(oka)t a lemezszegmens(eke)t, amely(ek) a merevítőt alkotják, majd a bevitelt az **ENTER** gomb, vagy az ENTER billentyű megnyomásával befejezni. Ezután a merevített lemezt kell kijelölni, és ismét az ENTER-rel befejezni a műveletet. A következő lépésben a gerincet alkotó lemezt kell megadni, legvégül két ponttal meg kell határozni a gerinc hosszát. Minden lépést ugyan úgy az ENTER-rel kell lezárni. A folyamat lépésit a jobb oldali panelen lehet követni, ahol helyes bevitel esetén mind a három sorban OK felirat lesz olvasható.
 
 
 [![](https://www.consteelsoftware.com/wp-content/uploads/2022/03/szelveny_rajzolo_CFS_elmerevito-megadasa.png)](./img/wp-content-uploads-2022-03-szelveny_rajzolo_CFS_elmerevito-megadasa.png)
@@ -570,7 +570,7 @@ Ennél a szelvénytípusnál kevesebb parancs áll rendelkezésre a szerkesztés
 **(1)** Geometria rajzolása ![](./img/wp-content-uploads-2022-03-szelveny_rajzolo_GTS_folyamat_1.png)
 
 
-![](./img/wp-content-uploads-2021-04-sectdraw_TW_cmd_draw.png) A _**Sokszögvonal rajzolása**_ parancs során használható dialóg megegyezik a hidegen alakított szelvény hasonló párbeszédablakával, részletesen ld. az előző [előző ](#Draw-Polyline)alfejezetet.
+![](./img/wp-content-uploads-2021-04-sectdraw_TW_cmd_draw.png) A _**Sokszögvonal rajzolása**_ parancs során használható dialóg megegyezik a hidegen alakított szelvény hasonló párbeszédablakával, részletesen ld. az előző alfejezetet.
 
 
 A szerkesztés annyiban eltér az előzőtől, hogy itt a szelvény jellegéből adódóan, minden szegmensnek eltérő vastagságot lehet adni, és zárt szelvény is létrehozható. A rajzolás során egy végpontról egy már megrajzolt lemez közbenső pontjára kattintva a vonalrajzolás „átugrik” arra a pontra, és a szerkesztés arról a pontról folytatható. A szelvénymodellezés számára szükséges ún. „dummy” elemek is létrejönnek, melyek a képernyőn barna, szaggatott, íves vonallal ábrázolódnak.
@@ -588,7 +588,7 @@ A szerkesztés annyiban eltér az előzőtől, hogy itt a szelvény jellegéből
 ![](./img/wp-content-uploads-2021-04-sectdraw_TW_cmd_import.png) A _**Szelvény importálása**_ parancs működése megegyezik az [előző fejezetben](#Drawing-of-Cold-Formed-Sections) leírttal.
 
 
-![](./img/wp-content-uploads-2021-04-sectdraw_TW_cmd_dim.png) A _**Méretvonal elhelyezés**_ parancs működése megegyezik az [előző fejezetben](#Drawing-of-Cold-Formed-Sections) leírttal.
+![](./img/wp-content-uploads-2021-04-sectdraw_TW_cmd_dim.png) A _**Méretvonal elhelyezés**_ parancs működése megegyezik az [előző fejezetben](#hidegen-alakított-szelvények-rajzolása) leírttal.
 
 
 **(2)** Tervezési paraméterek megadása![](./img/wp-content-uploads-2022-03-szelveny_rajzolo_GTS_folyamat_2.png)
@@ -752,15 +752,15 @@ A _**Vasalás szerkesztő**_ ![](./img/wp-content-uploads-2021-04-cmd_rebaredito
 [![](https://www.consteelsoftware.com/wp-content/uploads/2022/03/dial_vasalas_szerkeszto_hozzaadas.png)](https://www.consteelsoftware.com/wp-content/uploads/2022/03/dial_vasalas_szerkeszto_hozzaadas.png)
 
 
-- **Grafikus megjelenítő**: A megjelenítőben, miután az **_Elhelyezés _**gombbal a vasobjektum elhelyezésre került egy rúdelemen, megjelenik a gerenda hossza. Amennyiben rendelkezésre állnak analízis eredmények, úgy a teherkombinációkból származó nyomatéki igénybevételi ábrák is megjelenítésre kerülnek, melyekből a felső legördülő menük segítségével burkoló igénybevételi ábrák is kérhetők. Ha a baloldali felső legördülő menüben a Nyírási vasalás opció van kiválasztva, akkor a grafikus megjelenítőn a nyírási és nyírási burkoló ábrák kerülnek megjelenítésre. A nyomatéki, vagy burkoló nyomatéki ábrák minimális és maximális értékei is feltüntetésre kerülnek a grafikán.  
+- **Grafikus megjelenítő**: A megjelenítőben, miután az **Elhelyezés** gombbal a vasobjektum elhelyezésre került egy rúdelemen, megjelenik a gerenda hossza. Amennyiben rendelkezésre állnak analízis eredmények, úgy a teherkombinációkból származó nyomatéki igénybevételi ábrák is megjelenítésre kerülnek, melyekből a felső legördülő menük segítségével burkoló igénybevételi ábrák is kérhetők. Ha a baloldali felső legördülő menüben a Nyírási vasalás opció van kiválasztva, akkor a grafikus megjelenítőn a nyírási és nyírási burkoló ábrák kerülnek megjelenítésre. A nyomatéki, vagy burkoló nyomatéki ábrák minimális és maximális értékei is feltüntetésre kerülnek a grafikán.  
   Definiált hossz- vagy nyírási vasalás megléte esetén, a grafikus megjelenítőn megjelenítésre kerül az abból számolt Mrd ill. Vrd nyomatéki és nyírási ellenállás is, illetve a beton keresztmetszet Vrd,c és a maximális Vrd,max értéke is. A kapcsolódó szerkesztési szabályok a panel alján kerülnek megjelenítésre.
 
-  - Hosszirányú vas felvétele a baloldali felső legördülő menü _**Hosszvasalás**_ opciójának kiválasztása után a ![](./img/wp-content-uploads-2021-04-sect_rc_rebaredit_add.png) gombbal végezhető el. A megjelenő _**Betonacél hozzáadása**_ dialógon a vas pozíciója, a szálak mennyisége, átmérője, és a rúdelem kezdő-végpontjától való pozicionálása állítható be. A _**Hozzáadás**_ gombra kattintva a hosszvasalás megjelenik a grafikus megjelenítőn. Egy vasalási objektum törlése a ![](./img/wp-content-uploads-2021-04-sect_rc_rebaredit_del.png) megnyomása után az egyes vasak mellett megjelenő ![](./img/wp-content-uploads-2021-04-sect_rc_rebaredit_erase.png) jelre kattintva végezhető el.
+  - Hosszirányú vas felvétele a baloldali felső legördülő menü **Hosszvasalás** opciójának kiválasztása után a ![](./img/wp-content-uploads-2021-04-sect_rc_rebaredit_add.png) gombbal végezhető el. A megjelenő **Betonacél hozzáadása** dialógon a vas pozíciója, a szálak mennyisége, átmérője, és a rúdelem kezdő-végpontjától való pozicionálása állítható be. A **Hozzáadás** gombra kattintva a hosszvasalás megjelenik a grafikus megjelenítőn. Egy vasalási objektum törlése a ![](./img/wp-content-uploads-2021-04-sect_rc_rebaredit_del.png) megnyomása után az egyes vasak mellett megjelenő ![](./img/wp-content-uploads-2021-04-sect_rc_rebaredit_erase.png) jelre kattintva végezhető el.
  
-  - _**Nyírási vasalás**_ a baloldali felső legördülő menü megfelelő opcióját választva definiálható, szintén a ![](./img/wp-content-uploads-2021-04-sect_rc_rebaredit_add.png) gomb lenyomása után. A megjelenő Betonacél hozzáadása dialógon a kengyeltávolság, illetve a kezdő-végpozíció megadása után a Hozzáadás gombra kattintva a grafikus megjelenítőn megjelenik az alkalmazott kengyelkiosztás. Egy vasalási objektum törlése a ![](./img/wp-content-uploads-2021-04-sect_rc_rebaredit_del.png) megnyomása után az egyes vasak mellett megjelenő ![](./img/wp-content-uploads-2021-04-sect_rc_rebaredit_erase.png) jelre kattintva végezhető el.
+  - **Nyírási vasalás** a baloldali felső legördülő menü megfelelő opcióját választva definiálható, szintén a ![](./img/wp-content-uploads-2021-04-sect_rc_rebaredit_add.png) gomb lenyomása után. A megjelenő Betonacél hozzáadása dialógon a kengyeltávolság, illetve a kezdő-végpozíció megadása után a Hozzáadás gombra kattintva a grafikus megjelenítőn megjelenik az alkalmazott kengyelkiosztás. Egy vasalási objektum törlése a ![](./img/wp-content-uploads-2021-04-sect_rc_rebaredit_del.png) megnyomása után az egyes vasak mellett megjelenő ![](./img/wp-content-uploads-2021-04-sect_rc_rebaredit_erase.png) jelre kattintva végezhető el.
  
 
-Egy vasobjektum az _**Elhelyezés**_ gomb segítségével több, azonos paraméterekkel (hossz és keresztmetszet) rendelkező rúdelemre is elhelyezhető.
+Egy vasobjektum az **Elhelyezés** gomb segítségével több, azonos paraméterekkel (hossz és keresztmetszet) rendelkező rúdelemre is elhelyezhető.
 
 
 Amennyiben több, változó hosszal rendelkező rúdelemre kerül elhelyezésre a vasobjektum, a Consteel automatikusan létrehoz egy másolatot a vasobjektumról, amihez a megfelelő rúdhosszat rendeli hozzá.
@@ -832,7 +832,7 @@ A _**Vasalás szerkesztő**_ dialóg bal oldali panelján (**#1**) az oszlop vas
 
 - **#5** – A dialóg középső részén a #3 résznél kiválasztott keresztmetszet kerül kirajzolásra, melyen a #4 résznél beállított fővasak és kengyel átmérők is az aktuális beállításoknak megfelelően megjelenítésre kerülnek. A fővasak mellé y és z irányban kiegészítő vasak felvételére is van lehetőség, ez a megfelelő oldalhoz tartozó jelölőnégyzet bekapcsolása után a vas paraméterek megadásával végezhető el
 
-- **#6** – Annak érdekében, hogy a **_[_**9.4 vasbeton szerkezetek tervezése fejezetben**_](/manual/szabvanyos-tervezes/vasbeton-szerkezetek-tervezese/)_** taglalt vizsgálatok elvégezhetők legyenek, az oszlopok vasalás objektumához kiegészítő tervezési paraméterek felvétele szükséges. Ennek felvételére a ![](./img/wp-content-uploads-2021-04-3dots-button.png) ikonra kattintva a megjelenő tervezési paraméterek dialógon van lehetőség. A már létrehozott, elmentett és vasalási objektumhoz alkalmazni kívánt tervezési paramétereket a legördülő menüből van lehetőség kiválasztani. Új tervezési paraméter definiálásánál a kihajlási paramétereket, görbeségi paramétereket és a nyírási paramétereket szükséges megadni.
+- **#6** – Annak érdekében, hogy a [ vasbeton szerkezetek tervezése fejezetben](../9_0_standard-design/9_2_reinforced-concrete-design.md) taglalt vizsgálatok elvégezhetők legyenek, az oszlopok vasalás objektumához kiegészítő tervezési paraméterek felvétele szükséges. Ennek felvételére a ![](./img/wp-content-uploads-2021-04-3dots-button.png) ikonra kattintva a megjelenő tervezési paraméterek dialógon van lehetőség. A már létrehozott, elmentett és vasalási objektumhoz alkalmazni kívánt tervezési paramétereket a legördülő menüből van lehetőség kiválasztani. Új tervezési paraméter definiálásánál a kihajlási paramétereket, görbeségi paramétereket és a nyírási paramétereket szükséges megadni.
 
 
 [![](https://www.consteelsoftware.com/wp-content/uploads/2022/03/dial_vasalas_szerkeszto_tervezesi-parameterek.png)](./img/wp-content-uploads-2022-03-dial_vasalas_szerkeszto_tervezesi-parameterek.png)
@@ -842,7 +842,7 @@ A _**Vasalás szerkesztő**_ dialóg bal oldali panelján (**#1**) az oszlop vas
 
 **Consteel 16**
 
-Az ezzel a típussal létrehozott rúdelemek vasbeton tervezésre és vasbetétek ellenőrzésére nem alkalmasak, az ilyen keresztmetszetből felépített rúdelemek analízis eredményeket (lásd **_[_**Eredmények megjelenítése**_](/manual/szerkezetek-analizise/analizis-eredmenyek/)_**), illetve teherbírási görbéket (lásd _[**Öszvér és vasbeton keresztmetszet**](/manual/keresztmetszet-modul/#resistance-surface-diagram)_) tudnak szolgáltatni (az alkalmazott vasalásnak, és egyéb keresztmetszeti beállításoknak megfelelő merevséggel számolva).
+Az ezzel a típussal létrehozott rúdelemek vasbeton tervezésre és vasbetétek ellenőrzésére nem alkalmasak, az ilyen keresztmetszetből felépített rúdelemek analízis eredményeket (lásd **[_**Eredmények megjelenítése**_](../8_0_structural-analysis/8_5_analysis-results.md)**), illetve teherbírási görbéket (lásd _[**Öszvér és vasbeton keresztmetszet**](../10_0_section-module/10_2_section-module.md#öszvér-és-vasbeton-keresztmetszet)_) tudnak szolgáltatni (az alkalmazott vasalásnak, és egyéb keresztmetszeti beállításoknak megfelelő merevséggel számolva).
 
 A rendelkezésre álló oszlopszelvények a következők:
 
@@ -884,7 +884,7 @@ Ezeknek az elavult szelvényeknek a funkcióit a Consteel 16-tól kezdődően te
 **Consteel 15**
 
 
-Az ezzel a típussal létrehozott rúdelemek vasbeton tervezésre és vasbetétek ellenőrzésére nem alkalmasak, az ilyen keresztmetszetből felépített rúdelemek analízis eredményeket (lásd **_[_\*\*****\***\*_](/manual/szerkezetek-analizise/analizis-eredmenyek/)_\*\***_[_**Eredmények megjelenítése**_](/manual/szerkezetek-analizise/analizis-eredmenyek/)_\*\*\*\*****), illetve teherbírási görbéket (lásd \_**[_\*\*_\***\*\_**\_](/manual/keresztmetszet-modul/#resistance-surface-diagram)_\*\*_**[\_**Öszvér és vasbeton keresztmetszet**\_](/manual/keresztmetszet-modul/#resistance-surface-diagram)**_\*\*_\*\*\_) tudnak szolgáltatni (az alkalmazott vasalásnak, és egyéb keresztmetszeti beállításoknak megfelelő merevséggel számolva).
+Az ezzel a típussal létrehozott rúdelemek vasbeton tervezésre és vasbetétek ellenőrzésére nem alkalmasak, az ilyen keresztmetszetből felépített rúdelemek analízis eredményeket (lásd [**Eredmények megjelenítése**](../8_0_structural-analysis/8_5_analysis-results.md#eredmények-megjelenítése/)), illetve teherbírási görbéket (lásd [**Öszvér és vasbeton keresztmetszet**](../10_0_section-module/10_2_section-module.md#öszvér-és-vasbeton-keresztmetszet)) tudnak szolgáltatni (az alkalmazott vasalásnak, és egyéb keresztmetszeti beállításoknak megfelelő merevséggel számolva).
 
 
 [![](https://www.consteelsoftware.com/wp-content/uploads/2022/03/dial_makro_vb_nem_meretezesi.png)](./img/wp-content-uploads-2022-03-dial_makro_vb_nem_meretezesi.png)

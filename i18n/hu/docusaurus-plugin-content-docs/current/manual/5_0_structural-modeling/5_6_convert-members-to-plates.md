@@ -11,7 +11,7 @@ Kiválasztott szerkezeti elemek konvertálhatók automatikusan lemezelemekké, a
 
 <!-- wp:paragraph -->
 
-Ez a művelet végleges konvertálást eredményez (természetesen a _Visszavonás_ parancs továbbra is elérhető), ellentétben a héj végeselem típusra módosított rúdelemnek a végeselem generálás során történő automatikus felületelemmé konvertálásával (ld. **_[Superbeam](/manual/szerkezetmodellezes/superbeam/)_**).
+Ez a művelet végleges konvertálást eredményez (természetesen a _Visszavonás_ parancs továbbra is elérhető), ellentétben a héj végeselem típusra módosított rúdelemnek a végeselem generálás során történő automatikus felületelemmé konvertálásával (ld. [**Superbeam**](../5_0_structural-modeling/5_14_superbeam.md)).
 
 <!-- /wp:paragraph -->
 

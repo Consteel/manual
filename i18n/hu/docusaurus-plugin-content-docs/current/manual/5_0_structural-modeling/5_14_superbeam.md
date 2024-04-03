@@ -100,13 +100,13 @@ A Superbeam funkció lehetővé teszi további szerkezeti részletek modellezés
 
 <!-- wp:paragraph -->
 
-**_[Merevítők](/manual/szerkezetmodellezes/merevitok/)_**
+**_[Merevítők](./5_16_stiffener.md)_**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-_**[Gerinc kivágások](/manual/szerkezetmodellezes/gerinc-kivagas/)**_
+_**[Gerinc kivágások](./5_15_cutout.md)**_
 
 <!-- /wp:paragraph -->
 
@@ -144,7 +144,7 @@ Ahhoz, hogy egy rúdelemen használni lehessen a héjmodell nyújtotta lehetős�
 
 <!-- wp:paragraph -->
 
-A legördülő listában elérhető végeselem-típusok a keresztmetszet típusától függenek (lásd a _**[Rúdelemek](/manual/szerkezetmodellezes/rudelemek/)**_ fejezetet is). Jelenleg csak hegesztett I vagy H típusú keresztmetszeteket lehet héjelemre módosítani. A későbbiekben más típusú keresztmetszetek is rendelkezésre fognak állni. Egy adott rúd végeselem modelljének héjelemre történő módosítását egy kis szimbólum is jelzi a modelltérben a rúd referenciavonalán.
+A legördülő listában elérhető végeselem-típusok a keresztmetszet típusától függenek (lásd a _**[Rúdelemek](./5_2_line-members.md)**_ fejezetet is). Jelenleg csak hegesztett I vagy H típusú keresztmetszeteket lehet héjelemre módosítani. A későbbiekben más típusú keresztmetszetek is rendelkezésre fognak állni. Egy adott rúd végeselem modelljének héjelemre történő módosítását egy kis szimbólum is jelzi a modelltérben a rúd referenciavonalán.
 
 <!-- /wp:paragraph -->
 
@@ -228,7 +228,7 @@ A következő sorban a **kényszerelemek** típusa választható ki, mely lehet
 
 <!-- wp:paragraph -->
 
-A **kényszerek** olyan speciális modellelemek, amelyek a rúdból héjjá alakítás során automatikusan generálódnak, és a héjmodell csomópontjait kötik össze a modell más részével, például egy folytonosan csatlakozó rúdelemmel. A kényszerelemek narancssárga vonalakkal rajzolódnak ki a modell végeselemes nézetében (lásd az ábrát). További részleteket ld.: [**_Kényszer elemek_**](/manual/szerkezetmodellezes/kapcsolati-elemek/#constraints)
+A **kényszerek** olyan speciális modellelemek, amelyek a rúdból héjjá alakítás során automatikusan generálódnak, és a héjmodell csomópontjait kötik össze a modell más részével, például egy folytonosan csatlakozó rúdelemmel. A kényszerelemek narancssárga vonalakkal rajzolódnak ki a modell végeselemes nézetében (lásd az ábrát). További részleteket ld.: [**_Kényszer elemek_**](./5_11_link-elements.md#kapcsolati-elemek)
 
 <!-- /wp:paragraph -->
 
@@ -270,7 +270,7 @@ Jelenleg a Superbeam héjmodell használata nem kompatibilis az alábbi Consteel
 
 <!-- wp:paragraph -->
 
-A Consteel jól definiált konvertálási elveket használ a rúdelemek héjelemekké történő automatikus átalakításához, hogy a külpontosan elhelyezett objektumok (terhek, támaszok, stb.) a konvertálás után is használhatók legyenek. Ha azonban az automatikus konverzió váratlan vagy nem kívánt megoldást eredményez, a felhasználó "felrobbanthatja" a konvertált rudat, és a külpontos objektumokat a szokásos módon közvetlenül a héj modellre helyezheti el. A "felrobbantás" végleges konverziót jelent, ellentétben az ebben a fejeztben leírt automatikus konverzióval. Ennek módját lásd az _**[5.6. Rúdelemek konvertálása lemezekké](/manual/szerkezetmodellezes/rudelemek-konvertalasa-lemezekke/)**_ c. fejezetben.
+A Consteel jól definiált konvertálási elveket használ a rúdelemek héjelemekké történő automatikus átalakításához, hogy a külpontosan elhelyezett objektumok (terhek, támaszok, stb.) a konvertálás után is használhatók legyenek. Ha azonban az automatikus konverzió váratlan vagy nem kívánt megoldást eredményez, a felhasználó "felrobbanthatja" a konvertált rudat, és a külpontos objektumokat a szokásos módon közvetlenül a héj modellre helyezheti el. A "felrobbantás" végleges konverziót jelent, ellentétben az ebben a fejeztben leírt automatikus konverzióval. Ennek módját lásd az _**[ Rúdelemek konvertálása lemezekké](./5_6_convert-members-to-plates.md)**_ c. fejezetben.
 
 <!-- /wp:paragraph -->
 

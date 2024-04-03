@@ -23,7 +23,7 @@ Első lépésként ki kell jelölni azokat a vonalakat, szerkezeti elemeket, ill
 
 <!-- wp:paragraph -->
 
-Egy, már létrehozott merev test módosításához először ki kell jelölni a merev testet a modellben, majd az _**[Objektum tulajdonságok](/manual/altalanos-ismertetes/a-fokepernyo/#Object-properties-window)**_ ablakban található fekete nyíl segítségével, az előzőleg kiválasztott elemek kivonhatók a merevtestből, vagy új elemek adhatók hozzá.
+Egy, már létrehozott merev test módosításához először ki kell jelölni a merev testet a modellben, majd az _**[Objektum tulajdonságok](../1_0_general-description/1_2_the-main-window.md#objektumfa-objektum-tulajdonságok-és-diagnosztika-ablakok)**_ ablakban található fekete nyíl segítségével, az előzőleg kiválasztott elemek kivonhatók a merevtestből, vagy új elemek adhatók hozzá.
 
 <!-- /wp:paragraph -->
 

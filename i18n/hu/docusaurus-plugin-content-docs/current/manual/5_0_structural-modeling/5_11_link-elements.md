@@ -11,9 +11,9 @@ A kapcsolati elem azoknak az elemeknek az összekötésére szolgál, amelyek re
 
 <!-- wp:list -->
 
-- [Kapcsolati elem (hagyományos)](#Kapcsolati_elem)
-- [Okos kapcsolati elem](#smart-link)
-- [Kényszer elem](#constraints)
+- [Kapcsolati elem (hagyományos)](#kapcsolati-elem-hagyományos-típus)
+- [Okos kapcsolati elem](#okos-kapcsolati-elem-megadása)
+- [Kényszer elem](#kényszer-elemek)
 
 <!-- /wp:list -->
 
@@ -205,8 +205,8 @@ Az ilyen típusú kapcsolati elemek különlegesek, mivel kézzel nem hozhatók 
 
 <!-- wp:list -->
 
-- Keret sarkok a [**_Keret sarok varázsló_**](/manual/szerkezetmodellezes/keretsarok-varazslo/) segítségével
-- Héj végeselem típusra módosított rúdelem (ld. a **_[Superbeam](/manual/szerkezetmodellezes/superbeam/)_** fejezetet további információért)
+- Keret sarkok a [**_Keret sarok varázsló_**](../5_0_structural-modeling/5_7_frame-corner-wizard.md) segítségével
+- Héj végeselem típusra módosított rúdelem (ld. a **_[Superbeam](../5_0_structural-modeling/5_14_superbeam.md)_** fejezetet további információért)
 
 <!-- /wp:list -->
 
@@ -224,7 +224,7 @@ A kényszer elemek vastag narancssárga vonalakkal jelennek meg a modell véges 
 
 <!-- wp:paragraph -->
 
-A keretsarkokban létrehozott kényszerek, amelyek csak a gerenda és az oszlop közötti öblösödési deformációkat adják át a keretsarok objektum típusának megfelelően. A keret sarok típusokról további információkat ld: [**_Keretsarok varázsló_**](/manual/szerkezetmodellezes/keretsarok-varazslo/)
+A keretsarkokban létrehozott kényszerek, amelyek csak a gerenda és az oszlop közötti öblösödési deformációkat adják át a keretsarok objektum típusának megfelelően. A keret sarok típusokról további információkat ld: [**_Keretsarok varázsló_**](../5_0_structural-modeling/5_7_frame-corner-wizard.md)
 
 <!-- /wp:paragraph -->
 
