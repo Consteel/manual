@@ -236,7 +236,7 @@ A felhőbe mentett modellek megoszthatók más Consteel-felhasználókkal, akik 
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-Az Import menü számos modell importálási lehetőséget tartalmaz, a legegyszerűbb DXF formátumú drótváz importálásától, a széles körben használt IFC-n keresztül egészen a teljes, terhelést is magában foglaló Dlubal és SAP2000 modellek importálásáig. További infó: _[Fájlkezelés](../2_0_file-handling/2_0_Fájlkezelés.md)_.
+Az Import menü számos modell importálási lehetőséget tartalmaz, a legegyszerűbb DXF formátumú drótváz importálásától, a széles körben használt IFC-n keresztül egészen a teljes, terhelést is magában foglaló Dlubal és SAP2000 modellek importálásáig. További infó: _[Fájlkezelés](../../category/file-handling)_.
 
 <!-- /wp:paragraph -->
 
@@ -724,17 +724,16 @@ A képernyőn megjelenik az ikon neve, ha az egér mutatója az ikon fölött á
 [![](https://www.consteelsoftware.com/wp-content/uploads/2022/01/tab_geom_hu.png)](./img/wp-content-uploads-2022-01-tab_geom_hu.png)
 
 
-A szerkesztéshez szükséges rajzolási, módosítási, méretezési és mérési funkciókat tartalmazza. A funkciók részletes bemutatását ld. a [_Geometria rajzolása_](../4_0_drawing-geometry/4_1_coordinate-systems.md) c. fejezetben!
+A szerkesztéshez szükséges rajzolási, módosítási, méretezési és mérési funkciókat tartalmazza. A funkciók részletes bemutatását ld. a [_Geometria rajzolása_](../../category/general-description) c. fejezetben!
 
 
 
 #### Szerkezeti elemek fül
 
-
 [![](https://www.consteelsoftware.com/wp-content/uploads/2022/01/tab_stru_hu.png)](./img/wp-content-uploads-2022-01-tab_stru_hu.png)
 
 
-A keresztmetszetek kiválasztásával, definiálásával, szerkezeti oszlopok, gerendák, födémek, falak, illetve a támaszok és a kapcsolatok létrehozásához szükséges funkciók találhatóak a fülön. A fenti funkciók mellett, ezen a fülön kaptak helyet további modellezési funkciók is, úgymint a diafragma és merevtest szerkesztő funkciók, keretsarok varázsló, nyírási mező, szelemensor, kivágás és borda, illetve a rúdelemeket lemezelemekké konvertáló funkció is. Az utolsó három parancs a kapcsolatok létrehozására és elhelyezésére szolgál. A funkciók részletes bemutatását ld. a [_Szerkezet modellezése_](../5_0_structural-modeling/5_1_section-administration.md) c. fejezetben!
+A keresztmetszetek kiválasztásával, definiálásával, szerkezeti oszlopok, gerendák, födémek, falak, illetve a támaszok és a kapcsolatok létrehozásához szükséges funkciók találhatóak a fülön. A fenti funkciók mellett, ezen a fülön kaptak helyet további modellezési funkciók is, úgymint a diafragma és merevtest szerkesztő funkciók, keretsarok varázsló, nyírási mező, szelemensor, kivágás és borda, illetve a rúdelemeket lemezelemekké konvertáló funkció is. Az utolsó három parancs a kapcsolatok létrehozására és elhelyezésére szolgál. A funkciók részletes bemutatását ld. a [_Szerkezet modellezése_](../../category/structural-modeling) c. fejezetben!
 
 #### Terhek fül
 
@@ -769,7 +768,7 @@ A végeselem generálás létrehozásához és módosításához szükséges fun
 [![](https://www.consteelsoftware.com/wp-content/uploads/2022/01/tab_anal_hu.png)](./img/wp-content-uploads-2022-01-tab_anal_hu.png)
 
 
-A különböző szerkezeti analízis típusok beállítása és végrehajtása végezhető el. A számítás eredményei megtekinthetőek és feliratozhatóak számos megjelenítési mód alapján. A funkciók részletes bemutatását ld. a [_Szerkezetek analízise_](../8_0_structural-analysis/8_1_finite-elements.md) c. fejezetben!
+A különböző szerkezeti analízis típusok beállítása és végrehajtása végezhető el. A számítás eredményei megtekinthetőek és feliratozhatóak számos megjelenítési mód alapján. A funkciók részletes bemutatását ld. a [_Szerkezetek analízise_](../../category/structural-analysis) c. fejezetben!
 
 
 #### Globális vizsgálatok fül
@@ -784,14 +783,14 @@ Consteel 17
 A Consteel 17-től kezdve a használhatósági határállapotok vizsgálata, valamint a teherbírási határállapotok vizsgálata is be van építve a Globális vizsgálatok fülbe.
 
 
-Mindkét ellenőrzést külön-külön el lehet végezni, azok megfelelő nyilainak (a kék és a zöld) lenyomásával, illetve együttesen ![](./img/wp-content-uploads-2021-04-1.2.-Global-check-ikon-CS17.png) ikonra kattintva. További részletes információkért látogasson el a [_Standard design_](../9_0_standard-design/9_1_steel-design.md) _(Szabványos tervezés)_ fejezetbe.
+Mindkét ellenőrzést külön-külön el lehet végezni, azok megfelelő nyilainak (a kék és a zöld) lenyomásával, illetve együttesen ![](./img/wp-content-uploads-2021-04-1.2.-Global-check-ikon-CS17.png) ikonra kattintva. További részletes információkért látogasson el a [_Standard design_](../../category/standard-design) _(Szabványos tervezés)_ fejezetbe.
 
 
 [![](https://www.consteelsoftware.com/wp-content/uploads/2022/01/tab_glob_hu.png)](./img/wp-content-uploads-2022-01-tab_glob_hu.png)
 
 
 
-A Globális vizsgálatok fül tartalmazza a stabilitás és keresztmetszeti vizsgálat eredményeit, öszvér oszlop ellenőrzéséből kapott eredményeket, illetve vasbeton elemek esetén végeselemes tartományokra vonatkoztatott szükséges vasmennyiség értékét. A funkciók részletes bemutatását ld. a [_Szabványos tervezés_](../9_0_standard-design) c. fejezetben!
+A Globális vizsgálatok fül tartalmazza a stabilitás és keresztmetszeti vizsgálat eredményeit, öszvér oszlop ellenőrzéséből kapott eredményeket, illetve vasbeton elemek esetén végeselemes tartományokra vonatkoztatott szükséges vasmennyiség értékét. A funkciók részletes bemutatását ld. a [_Szabványos tervezés_](../../category/standard-design) c. fejezetben!
 
 
 #### Elem vizsgálatok fül
