@@ -283,13 +283,13 @@ A gyorsbillentyűk megjelennek a funkciók neve mellett a menüben és az ikonok
 
 - **ALT+jobb egérgomb: modell nagyítása/kicsinyítése**
 
-- ↑**: képernyő mozgatása fel**
+- ↑ **: képernyő mozgatása fel**
 
-- ↓**: le**
+- ↓ **: le**
 
-- →**: jobbra**
+- → **: jobbra**
 
-- ←**: balra**
+- ← **: balra**
 
 - **középső egérgomb tekerése: modell nagyítása/kicsinyítése**
 

@@ -12,7 +12,7 @@ A _Consteel_-ben kétféle táblázattípus található: az adatbeviteli és az 
 
 <!-- wp:paragraph -->
 
-Adatbeviteli táblázatok (a **[Teherkombinációk](/manual/terhek/teherkombinaciok/)** és az _**[Analízis beállításai](/manual/szerkezetek-analizise/analizis-beallitasok/)**_ ablakok használják) funkciói:
+Adatbeviteli táblázatok (a **[Teherkombinációk](../6_0_structural-loads/6_2_load-combinations.md)** és az _**[Analízis beállításai](../8_0_structural-analysis/8_3_analysis-settings.md)**_ ablakok használják) funkciói:
 
 <!-- /wp:paragraph -->
 
@@ -49,7 +49,7 @@ Adatbeviteli táblázatok (a **[Teherkombinációk](/manual/terhek/teherkombinac
 
 <!-- wp:paragraph -->
 
-Az eredmény táblázatoknál (_**Analízis**_ és _**Globális vizsgálatok**_ fülek és a _**Mértékadó értékek**_ és a \_**Modell információs adatlap **\_ablakok használják) a következő lehetőségek érhetőek el:
+Az eredmény táblázatoknál (**Analízis** és **Globális vizsgálatok** fülek és a **Mértékadó értékek** és a **Modell információs adatlap**ablakok használják) a következő lehetőségek érhetőek el:
 
 <!-- /wp:paragraph -->
 
@@ -57,6 +57,6 @@ Az eredmény táblázatoknál (_**Analízis**_ és _**Globális vizsgálatok**_ 
 
 - az oszlopok fejlécére kattintva a sorok rendezhetőek növekvő, csökkenő és ABC sorrendbe
 - az aktuális táblázat Excel fájlba menthető
-- az aktuális táblázat elmenthető a dokumentációba való beillesztés céljából (lásd [_**Dokumentálás**_ ](/hu/manual/dokumentacio/)fejezet)
+- az aktuális táblázat elmenthető a dokumentációba való beillesztés céljából (lásd [_**Dokumentálás**_ ](../13_0_documentation-2/13_1_the-document-tab.md)fejezet)
 
 <!-- /wp:list -->
