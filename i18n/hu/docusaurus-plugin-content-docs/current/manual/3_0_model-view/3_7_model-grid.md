@@ -81,6 +81,6 @@ Modell raszter tulajdonságai:
 
   - A raszter elforgatása definiálható egy alfa szögérték megadásával. Az érték a globális + X tengelytől értelmezett
 
-  - Megadható, hogy a raszter a megadott Z érték helyett a legalsó látható szinten jelenjen meg. (Ha még nincsenek _[definiált szintek](/manual/reszlet-kezelo/#szintek)_ a modellben, akkor a raszter a globális 0 szinten fog megjelenni.)
+  - Megadható, hogy a raszter a megadott Z érték helyett a legalsó látható szinten jelenjen meg. (Ha még nincsenek _[definiált szintek](../3_0_model-view/3_3_portions-manager.md)_ a modellben, akkor a raszter a globális 0 szinten fog megjelenni.)
 
 <!-- /wp:list -->
