@@ -280,7 +280,7 @@ Online license
 
 <!-- wp:paragraph -->
 
-A program indítása előtt a hardverkulcsot (USB dongle) be kell dugni a számítógép egy üres USB portjába, vagy hálózati kulcs esetén a kulcsnak elérhetőnek kell lennie a helyi hálózaton lévő valamelyik számítógépen. A megfelelő hardverkulcs felismerés után a Consteel elindul. A továbbiakat ld. a _[Projekt Központ fejezetben](#cs15projectcenter)_!
+A program indítása előtt a hardverkulcsot (USB dongle) be kell dugni a számítógép egy üres USB portjába, vagy hálózati kulcs esetén a kulcsnak elérhetőnek kell lennie a helyi hálózaton lévő valamelyik számítógépen. A megfelelő hardverkulcs felismerés után a Consteel elindul. A továbbiakat ld. a _Projekt Központ fejezetben_!
 
 <!-- /wp:paragraph -->
 
@@ -298,13 +298,13 @@ Ha az indítás után a Consteel nem találja a számítógéphez (vagy a háló
 
 <!-- wp:paragraph -->
 
-A Consteel online védelemmel való használatához be kell jelentkezned online fiókoddal. Ha személyes előfizetéssel (**Personal plan**) rendelkezel, a szabad hely kiválasztása után azonnal indítható a Consteelt. Csapat előfizetésben (**Team plan**) minden _**szoftver helyhez**_ (_**seat**_) alapértelmezés szerint két szoftver **_hozzáférés_** (_**access**_) tartozik, de igény esetén további hozzáférés is kérhető felár ellenében. Csapat előfizetés használatakor ezért különböző szoftver helyek közül választhatsz, attól függően, hogy a licensz tulajdonosa hány helyhez adott hozzáférést. Előfizetési csomagokkal és tagsági szintekkel kapcsolatos fogalmak magyarázata az **_[Ajánlatok és csomagok](https://consteelsoftware.com/hu/termekek/ajanlatok-csomagok/#ccm)_** oldalon olvashatók. Hozzáférések adminisztrációjával kapcsolatos további információkért [kattints ide](#endusermanagement_hu).
+A Consteel online védelemmel való használatához be kell jelentkezned online fiókoddal. Ha személyes előfizetéssel (**Personal plan**) rendelkezel, a szabad hely kiválasztása után azonnal indítható a Consteelt. Csapat előfizetésben (**Team plan**) minden _**szoftver helyhez**_ (_**seat**_) alapértelmezés szerint két szoftver **_hozzáférés_** (_**access**_) tartozik, de igény esetén további hozzáférés is kérhető felár ellenében. Csapat előfizetés használatakor ezért különböző szoftver helyek közül választhatsz, attól függően, hogy a licensz tulajdonosa hány helyhez adott hozzáférést. Előfizetési csomagokkal és tagsági szintekkel kapcsolatos fogalmak magyarázata az **_[Ajánlatok és csomagok](https://consteelsoftware.com/hu/termekek/ajanlatok-csomagok/#ccm)_** oldalon olvashatók. Hozzáférések adminisztrációjával kapcsolatos további információkért [kattints ide](#csomag-és-felhasználó-menedzsment).
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Pro vagy Premium tagság esetén a választott szoftver helyet offline használatra is ki lehet venni. Ehhez a kiválasztás sorában el kell helyezni a pipát a jelölőnégyzetben, majd a megjelenő óra ikonra kattintva az offline használat hosszát kell megadni. (Ezt később, a program futása során is meg lehet tenni a [főmenü Licence menüpontja segítségével.](http://x))
+Pro vagy Premium tagság esetén a választott szoftver helyet offline használatra is ki lehet venni. Ehhez a kiválasztás sorában el kell helyezni a pipát a jelölőnégyzetben, majd a megjelenő óra ikonra kattintva az offline használat hosszát kell megadni. (Ezt később, a program futása során is meg lehet tenni a _főmenü Licence menüpontja segítségével_.)
 
 <!-- /wp:paragraph -->
 
@@ -316,7 +316,7 @@ Pro vagy Premium tagság esetén a választott szoftver helyet offline használa
 
 <!-- wp:paragraph -->
 
-A megfelelő szoftverhely kiválasztása után a _**[Projekt Központ](#cs15projectcenter)**_ ablaka jelenik meg.
+A megfelelő szoftverhely kiválasztása után a _**[Projekt Központ](#home)**_ ablaka jelenik meg.
 
 <!-- /wp:paragraph -->
 
@@ -342,13 +342,13 @@ Seat selection
 
 <!-- wp:paragraph -->
 
-**Csomag és felhasználó menedzsment**
+#### **Csomag és felhasználó menedzsment**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-A felhasználói fiók _Előfizetés \_menüpontjából elérhető \_Csomag és felhasználó menedzsment_ eszköz segítségével a licensz tulajdonosa bármely szoftver hozzáférést (access) hozzárendelhet bármely, a licenszen belül elérhető szoftver helyhez (seat).
+A felhasználói fiók _Előfizetés_ menüpontjából elérhető _Csomag és felhasználó menedzsment_ eszköz segítségével a licensz tulajdonosa bármely szoftver hozzáférést (access) hozzárendelhet bármely, a licenszen belül elérhető szoftver helyhez (seat).
 
 <!-- /wp:paragraph -->
 
@@ -416,7 +416,7 @@ A Projekt Központ egyesíti magában a modell- és a felhasználói fiókkezel�
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
 
-**Home**
+#### **Home**
 
 <!-- /wp:paragraph -->
 
