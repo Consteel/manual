@@ -77,4 +77,4 @@ A teljes modell újbóli láthatóvá tételéhez kattintsunk a **_Részlet keze
 
 
 
-További információt ld. a **_[3.3. Részlet kezelő](/manual/modell-nezet/reszlet-kezelo/)_** fejezetben!
+További információt ld. a **_[3.3. Részlet kezelő](../3_0_model-view/3_3_portions-manager.md)_** fejezetben!

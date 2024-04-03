@@ -51,7 +51,7 @@ Az alapvető kijelölési módok és azok működése a következő:
 [![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/4-3-selection-3.png)](./img/wp-content-uploads-2021-04-4-3-selection-3.png)
 
  <!-- wp:list-item -->
-- **Kijelölés az objektumfáról**: kijelölni kívánt elemek kijelölése az _**[Objektumfán ](/manual/altalanos-ismertetes/a-fokepernyo/#oldalpanel)**\_látható elemek nevére való kattintással. A _**Ctrl**_ vagy a _**Shift**_ billentyű lenyomása mellett a többszörös elemkijelölés is elvégezhető. A kiválasztás megszüntethető a modellfán kijelölt objektumnévre a _**Ctrl**\_ billentyű egyidejű lenyomásával történő újbóli kattintással.
+- **Kijelölés az objektumfáról**: kijelölni kívánt elemek kijelölése az [_**Objektumfán**_](../1_0_general-description/1_2_the-main-window.md#objektumfa-objektum-tulajdonságok-és-diagnosztika-ablakok) látható elemek nevére való kattintással. A _**Ctrl**_ vagy a _**Shift**_ billentyű lenyomása mellett a többszörös elemkijelölés is elvégezhető. A kiválasztás megszüntethető a modellfán kijelölt objektumnévre a _**Ctrl**_ billentyű egyidejű lenyomásával történő újbóli kattintással.
 
 - **Kijelölés az Objektum tulajdonságokból:** egy elemet kiválasztva, annak objektum tulajdonságait megtekinthetik a főablak jobb alsó részén. **Consteel 17-** től kezdve, a modellben több elem is kijelölhető, melyek azonos tulajdonságokkal rendelkeznek. Ezeket az elemeket a tulajdonságukra (például anyag) való dupla kattintással választhatják ki.
 
@@ -71,4 +71,4 @@ Az alapvető kijelölési módok és azok működése a következő:
 - Figyelem, a Globális vizsgálatok fülön az elemek színei azok kihasználtságát jelzik. A kiválasztott elemek megtekintéséhez váltson a Globális vizsgálatok fülről valamelyikre az első négy közül: Geometria, Szerkezeti elemek, Terhek vagy Tömegek.
 
 
-További általános kiválasztási funkció (mindet kijelöl, kijelölés törlése, kijelölés megfordítása) található az **_[Oldalsávon](/manual/altalanos-ismertetes/a-fokepernyo/#oldalsav)_**, vagy elérhetőek a képernyőre történő jobb egérgombos kattintással, illetve _[Gyorsbillentyűk ](/manual/altalanos-ismertetes/gyorsbillentyuk/)_ segítségével is.
+További általános kiválasztási funkció (mindet kijelöl, kijelölés törlése, kijelölés megfordítása) található az **_[Oldalsávon](../1_0_general-description/1_2_the-main-window.md#oldalsáv)_**, vagy elérhetőek a képernyőre történő jobb egérgombos kattintással, illetve _[**Gyorsbillentyűk**](../1_0_general-description/1_5_hot-keys.md)_ segítségével is.

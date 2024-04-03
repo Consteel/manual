@@ -18,7 +18,7 @@ Objektum átnevezésére és újraszámozására a következő funkciók érhet�
 <!-- wp:list {"className":"is-style-default"} -->
 
 - **Végeselem pontok számozása**– teljesen automatikusan történik, a felhasználó nem tudja befolyásolni a számozást. Ezek a számok csak a *Végeselem* és \_Analízis \_füleken láthatók.
-- **Szerkezeti elemek nevei** – a szerkezeti objektumok (oszlopok, gerendák, lemezek) elhelyezésekor, másolásakor az elemnevek automatikusan létrejönnek. A nevek egy előtagból és egy számból állnak (például „B1” egy rúdelemnél). Ezek az elemnevek megjelennek a képernyő jobb oldalán található _[Objektumfában ](/manual/altalanos-ismertetes/a-fokepernyo/#oldalpanel)_ és az _[Objektum tulajdonságok](/manual/altalanos-ismertetes/a-fokepernyo/#Object-properties-window)_ ablakban is. A nevek módosítása történhet egyesével a név átírásával az objektum tulajdonságok között, vagy az automatikus újraszámozás funkció (ld. lejjebb) segítségével.
+- **Szerkezeti elemek nevei** – a szerkezeti objektumok (oszlopok, gerendák, lemezek) elhelyezésekor, másolásakor az elemnevek automatikusan létrejönnek. A nevek egy előtagból és egy számból állnak (például „B1” egy rúdelemnél). Ezek az elemnevek megjelennek a képernyő jobb oldalán található _[Objektumfában ](../1_0_general-description/1_2_the-main-window.md#objektumfa-objektum-tulajdonságok-és-diagnosztika-ablakok)_ és az _[Objektum tulajdonságok](../1_0_general-description/1_2_the-main-window.md#objektum-tulajdonságok-ablak)_ ablakban is. A nevek módosítása történhet egyesével a név átírásával az objektum tulajdonságok között, vagy az automatikus újraszámozás funkció (ld. lejjebb) segítségével.
 - **Szerkezeti támaszok, elemvég folytonosságok és kapcsolati elemek nevei** – a nevek mutatják a támaszok, elemvég folytonosságok és kapcsolati elemek típusait (például: “Merev” „Folytonos” vagy “yy, zz, w”).
 - **Kapcsolatok nevei**– a nevek az elhelyezett csomópontok felhasználó által megadott neveit mutatja (például: „Oszlop-gerenda 01”)
 
@@ -70,6 +70,6 @@ Az Alkalmaz gombra kattintva a bejelölt elem típusok új neveket kapnak a mega
 
 <!-- wp:paragraph -->
 
-A feliratok láthatóságát az alsó állapotsoron lehet beállítani. Részletes leírást ld. a _**[Főképernyő - Állapotsor](/manual/altalanos-ismertetes/a-fokepernyo/#allapotsor)**_ fejezetében!
+A feliratok láthatóságát az alsó állapotsoron lehet beállítani. Részletes leírást ld. a _**[Főképernyő - Állapotsor](../1_0_general-description/1_2_the-main-window.md#állapotsor)**_ fejezetében!
 
 <!-- /wp:paragraph -->
