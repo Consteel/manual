@@ -77,13 +77,13 @@ A rajzolás funkciói a _**Geometria**_ fülön találhatóak.
 
 <!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2021-04-5-3-draw-ico-05.png) Kör rajzolása a középpont és egy kerületi pont megadásával. A kör síkja párhuzamos a [_FKR_ ](/manual/geometria-rajzolasa/koordinata-rendszerek/#felhasznaloi-koordinatarendszer-lokalis-koordinata-rendszer)síkjával és a megadott középponton megy át.
+![](./img/wp-content-uploads-2021-04-5-3-draw-ico-05.png) Kör rajzolása a középpont és egy kerületi pont megadásával. A kör síkja párhuzamos a [_FKR_ ](../4_0_drawing-geometry/4_1_coordinate-systems.md#felhasználói-koordinátarendszer-lokális-koordináta-rendszer)síkjával és a megadott középponton megy át.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2021-04-5-3-draw-ico-06.png) Kör rajzolása a kör két pontjának megadásával. A kör létrehozható az [FKR ](/manual/geometria-rajzolasa/koordinata-rendszerek/#felhasznaloi-koordinatarendszer-lokalis-koordinata-rendszer)síkján kívül is.
+![](./img/wp-content-uploads-2021-04-5-3-draw-ico-06.png) Kör rajzolása a kör két pontjának megadásával. A kör létrehozható az [FKR ](../4_0_drawing-geometry/4_1_coordinate-systems.md#felhasználói-koordinátarendszer-lokális-koordináta-rendszer)síkján kívül is.
 
 <!-- /wp:paragraph -->
 
