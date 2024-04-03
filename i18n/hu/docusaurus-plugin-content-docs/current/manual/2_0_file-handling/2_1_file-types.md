@@ -23,13 +23,13 @@ A **Consteel 15** által kezelt fájltípusok:
 
 <!-- wp:paragraph -->
 
-**.csm**: az automatikus mentés által létrehozott modellfájl. Az automatikus mentés időintervalluma az [_**Opciók**_ ](../1_0_general-description/1_2_the-main-window)menüben állítható.
+**.csm**: az automatikus mentés által létrehozott modellfájl. Az automatikus mentés időintervalluma az [_**Opciók**_ ](../1_0_general-description/1_2_the-main-window#opciók-menü)menüben állítható.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-**.csm.bak**: a biztonsági mentés által létrehozott fájl. A biztonsági mentés az [_**Opciók**_ ](/manual/altalanos-ismertetes/a-fokepernyo/#Options-menu)menüben állítható be. Biztonsági mentés minden manuális mentésnél létrejön és tárolja az előzőleg mentett modell állapotot. Szükség esetén a **.bak** kiterjesztés törölhető, ezáltal a fájl, mint modellfájl betölthető a programba.
+**.csm.bak**: a biztonsági mentés által létrehozott fájl. A biztonsági mentés az [_**Opciók**_ ](../1_0_general-description/1_2_the-main-window.md#opciók-menü)menüben állítható be. Biztonsági mentés minden manuális mentésnél létrejön és tárolja az előzőleg mentett modell állapotot. Szükség esetén a **.bak** kiterjesztés törölhető, ezáltal a fájl, mint modellfájl betölthető a programba.
 
 <!-- /wp:paragraph -->
 
@@ -41,7 +41,7 @@ A **Consteel 15** által kezelt fájltípusok:
 
 <!-- wp:paragraph -->
 
-**.smadsteel**: az online [felhőtárhely](/manual/fajlkezeles/felhotarhely-szolgaltatasok/), a Steelspace formátuma. A felhőtárhelyről letöltött smadsteel fájl a Consteel-ben megnyitható és normál .csm modellként vagy ismét .smadsteel formátumban elmenthető.
+**.smadsteel**: az online [felhőtárhely](../2_0_file-handling/2_2_cloud-save-and-sharing-models.md#felhőtárhely-szolgáltatások), a Steelspace formátuma. A felhőtárhelyről letöltött smadsteel fájl a Consteel-ben megnyitható és normál .csm modellként vagy ismét .smadsteel formátumban elmenthető.
 
 <!-- /wp:paragraph -->
 
@@ -53,7 +53,7 @@ A **Consteel 15** által kezelt fájltípusok:
 
 <!-- wp:paragraph -->
 
-**.xlsx**: excel formátumú [_SAF _](https://www.saf.guide/en/stable/getting-started/what-is-saf.html)modell. Pillanatnyilag csak a megnyitás lehetséges.
+**.xlsx**: excel formátumú [_SAF_](https://www.saf.guide/en/stable/getting-started/what-is-saf.html) modell. Pillanatnyilag csak a megnyitás lehetséges.
 
 <!-- /wp:paragraph -->
 
@@ -87,7 +87,7 @@ A **Consteel 14** vagy korábbi verziók által kezelt fájltípusok:
 
 <!-- wp:paragraph -->
 
-.csm.bak: **a biztonsági mentés által létrehozott fájl. A biztonsági mentés az [**Opciók** ](/manual/altalanos-ismertetes/a-fokepernyo/#Options-menu)** menüben állítható be. Biztonsági mentés minden manuális mentésnél létrejön és tárolja az előzőleg mentett modell állapotot. Szükség esetén a .bak kiterjesztés törölhető, ezáltal a fájl, mint modellfájl betölthető a programba.
+.csm.bak: a biztonsági mentés által létrehozott fájl. A biztonsági mentés az [**Opciók** ](../1_0_general-description/1_2_the-main-window.md#opciók-menü) menüben állítható be. Biztonsági mentés minden manuális mentésnél létrejön és tárolja az előzőleg mentett modell állapotot. Szükség esetén a .bak kiterjesztés törölhető, ezáltal a fájl, mint modellfájl betölthető a programba.
 
 <!-- /wp:paragraph -->
 
