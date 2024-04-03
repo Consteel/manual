@@ -146,7 +146,7 @@ Következő lépésben adjuk meg a beillesztés referencia pontját a _Tekla Str
   - A konverziós file alapján egyértelműen megfeleltethető a Tekla-ból importálásra kerülő szelvény a szabványos szelvénykönyvtárban szereplő Consteel szelvénynek.
   - _Automatikus, „szabványos makró szelvény”_: A Consteel szabványos szelvénytárában név szerint nem szereplő, de paramétereit tekintve szabványos szelvénynek megfeleltethető szelvény. A szelvény hozzárendelés ebben az esetben is automatikusan történik
 
-- _Manuális megfeleltetés_: A konverziós file alapján egyértelműen nem feleltethető meg a Tekla-ból érkező szelvény a Consteel szabványos szelvénytárában található egyik szelvénynek sem. _Manuálisan megfeleltetett makró szelvény_: Ha a Consteel szabványos makró szelvényt nem tud társítani az importált keresztmetszethez, a hozzá rendelés a _**(…)**_ ikonra kattintva (vagy a már betöltött szelvények közül választva) manuálisan elvégezhető. Ebben az esetben az automatikusan meg nem feleltethető szelvény kontúrja a konverziós ablak _**Tulajdonságok**_ részén kirajzolásra kerül.
+- _Manuális megfeleltetés_: A konverziós file alapján egyértelműen nem feleltethető meg a Tekla-ból érkező szelvény a Consteel szabványos szelvénytárában található egyik szelvénynek sem. _Manuálisan megfeleltetett makró szelvény_: Ha a Consteel szabványos makró szelvényt nem tud társítani az importált keresztmetszethez, a hozzá rendelés a **_(…)_** ikonra kattintva (vagy a már betöltött szelvények közül választva) manuálisan elvégezhető. Ebben az esetben az automatikusan meg nem feleltethető szelvény kontúrja a konverziós ablak _**Tulajdonságok**_ részén kirajzolásra kerül.
 
 <!-- /wp:list -->
 
@@ -277,7 +277,7 @@ Az exportáláshoz a _Tekla Structures_ 19.0 vagy újabb verziója szükséges!
 
 <!-- wp:paragraph -->
 
-A _Consteel \_modell \_Tekla Structures_-be való exportálásához elengedhetetlen, hogy egyszerre fusson mind a két program ugyan azon a számítógépen, és meg legyen nyitva egy üres modell a _Tekla Structures_-ben. Exportáláshoz válaszuk a **Fájl** menü **Export** almenüjében található **Tekla Structures** opciót.
+A _Consteel _modell_ Tekla Structures_-be való exportálásához elengedhetetlen, hogy egyszerre fusson mind a két program ugyan azon a számítógépen, és meg legyen nyitva egy üres modell a _Tekla Structures_-ben. Exportáláshoz válaszuk a **Fájl** menü **Export** almenüjében található **Tekla Structures** opciót.
 
 <!-- /wp:paragraph -->
 
@@ -502,7 +502,7 @@ A Tekla modell frissítése mindig az aktuális Consteel modell alapján valósu
 
 <!-- wp:paragraph -->
 
-A változáskövetés működéséhez szükség van egy komplett modell [import ](#tekla-import)vagy [export ](#tekla-export)végrehajtására (ld. előző pontok).
+A változáskövetés működéséhez szükség van egy komplett modell [import ](#rúdelemek-importálása-tekla-structures-ből) vagy [export](#rúdelemek-és-komplett-modell-exportálása-tekla-structures-szoftverbe)végrehajtására (ld. előző pontok).
 
 <!-- /wp:paragraph -->
 

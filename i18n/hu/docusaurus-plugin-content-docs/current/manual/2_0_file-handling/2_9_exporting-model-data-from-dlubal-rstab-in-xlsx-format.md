@@ -71,6 +71,6 @@ A dialógon ki kell választani az export funkciót (_Table export_), és a _Mic
 
 <!-- wp:paragraph -->
 
-A dialógon a fenti beállításokat alkalmazva, majd az _**OK**_ gombra kattintva egy fájlba történik meg a modell adatainak exportálása. A fájl mentése után a modellfájl már _**[beolvasható](http://yxcyxc)**_ Consteel-be.
+A dialógon a fenti beállításokat alkalmazva, majd az _**OK**_ gombra kattintva egy fájlba történik meg a modell adatainak exportálása. A fájl mentése után a modellfájl már _**beolvasható**_ Consteel-be.
 
 <!-- /wp:paragraph -->

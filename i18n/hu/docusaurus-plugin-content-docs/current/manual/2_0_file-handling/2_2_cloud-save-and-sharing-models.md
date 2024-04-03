@@ -17,7 +17,7 @@ A modellek felhőtárhelyre történő mentése, onnan való megnyitása és meg
 
 <!-- wp:paragraph -->
 
-A felhőbe mentett modellek folyamatosan szinkronizált példánya a számítógép _C:\Users\\AppData\\Local\\ConSteel\\CloudModels_ mappájában találhatók. A modellszinkronizálás a felhasználó előfizetési csomagjában meghatározott havi adatmennyiség-korlát terhére történik. A modellszinkronizálás az első felhőmentés, modellmegosztás vagy a modell bezárása során történik, az összes többi művelet a modellt csak a helyi mappába menti, az adatforgalom csökkentése érdekében. Szinkronizálási probléma esetén( amikor a helyi és a felhőben tárolt modell nem azonos, és nem egyértelmű, hogy melyik a megfelelő), a felhasználó választhatja ki, hogy melyik modellverzióval szeretné folytatni.
+A felhőbe mentett modellek folyamatosan szinkronizált példánya a számítógép _C:\Users\AppData\Local\ConSteel\CloudModels_ mappájában találhatók. A modellszinkronizálás a felhasználó előfizetési csomagjában meghatározott havi adatmennyiség-korlát terhére történik. A modellszinkronizálás az első felhőmentés, modellmegosztás vagy a modell bezárása során történik, az összes többi művelet a modellt csak a helyi mappába menti, az adatforgalom csökkentése érdekében. Szinkronizálási probléma esetén( amikor a helyi és a felhőben tárolt modell nem azonos, és nem egyértelmű, hogy melyik a megfelelő), a felhasználó választhatja ki, hogy melyik modellverzióval szeretné folytatni.
 
 <!-- /wp:paragraph -->
 
@@ -53,7 +53,7 @@ A jobb oldal felső mezőjében kell megadni a modell nevét, valamint lehetős�
 
 <!-- wp:paragraph -->
 
-Alatta a már felhőben tárolt modelleken és mappákon elérhető parancsok ikonjai láthatók. Balról jobbra haladva: _Áthelyezés _(move), _Új mappa létrehozása_ (Create new folder), _Modell megosztása_ (Share model), _Törlés _(Delete), _Keresés _(Search), _Rendezés _(Sort by name or date), _Lista vagy kártya nézet_ (List or card view), végül a modell \_Részletes információ_s paneljének ki- vagy bekapcsolása **(3)**.
+Alatta a már felhőben tárolt modelleken és mappákon elérhető parancsok ikonjai láthatók. Balról jobbra haladva: _Áthelyezés_ (move), _Új mappa létrehozása_ (Create new folder), _Modell megosztása_ (Share model), _Törlés_ (Delete), _Keresés_ (Search), _Rendezés_ (Sort by name or date), _Lista vagy kártya nézet_ (List or card view), végül a modell _Részletes információs_ paneljének ki- vagy bekapcsolása **(3)**.
 
 <!-- /wp:paragraph -->
 
@@ -91,7 +91,7 @@ https://www.youtube.com/watch?v=8UHqT7wl5dI
 
 <!-- wp:paragraph -->
 
-Kattints a Fájl menüben vagy a Projekt Centerben a "Megnyitás felhőből" parancsra és hozzáférhetsz a felhőben tárolt modelleidhez. Csak válaszd ki a modellt amit megszeretnél nyitni és kattints a Megnyitás gombra. További információért látogass el a [fájlmegnyitással kapcsolatos leírásunkhoz](https://consteelsoftware.com/manual/general-description/installing-and-running-the-software/#cloudopen).
+Kattints a Fájl menüben vagy a Projekt Centerben a "Megnyitás felhőből" parancsra és hozzáférhetsz a felhőben tárolt modelleidhez. Csak válaszd ki a modellt amit megszeretnél nyitni és kattints a Megnyitás gombra. További információért látogass el a [fájlmegnyitással kapcsolatos leírásunkhoz](../1_0_general-description/1_1_installing-and-running-the-software.md)
 
 <!-- /wp:paragraph -->
 
