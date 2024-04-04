@@ -10,7 +10,7 @@ sidebar_position: 4
 
 <!-- wp:paragraph -->
 
-Három fajta globális imperfekció alkalmazható a modellen a **Globális imperfekciók** (![](./img/wp-content-uploads-2021-04-cmd_load_imp.png)) funkció segítségével. Számos globális imperfekció hozható létre, de egyszerre csak egy használható. A használt imperfekció az Analízis fül **_[Analízis paraméterek](/manual/szerkezetek-analizise/analizis-beallitasok/)_** dialógján választható ki ([lásd 8.4 fejezet](/manual/szerkezetek-analizise/analizis-beallitasok/)).
+Három fajta globális imperfekció alkalmazható a modellen a **Globális imperfekciók** (![](./img/wp-content-uploads-2021-04-cmd_load_imp.png)) funkció segítségével. Számos globális imperfekció hozható létre, de egyszerre csak egy használható. A használt imperfekció az Analízis fül **_[Analízis paraméterek](../8_0_structural-analysis/8_3_analysis-settings.md#analízis-beállítások)_** dialógján választható ki.
 
 <!-- /wp:paragraph -->
 
@@ -86,7 +86,7 @@ Kezdeti ferdeség létrehozásához meg kell adni a ferdeség irányát, alapszi
 
 <!-- wp:paragraph -->
 
-Az **Alkalmaz** vagy a **Rendben **gomb megnyomásával létrehozható a definiált kezdeti ferdeség.
+Az **Alkalmaz** vagy a **Rendben** gomb megnyomásával létrehozható a definiált kezdeti ferdeség.
 
 <!-- /wp:paragraph -->
 
@@ -150,7 +150,7 @@ A megjelenő ablakban az alábbi paramétereket lehet megadni:
 
 <!-- wp:list {"type":"I","className":"is-style-default"} -->
 
-- _Imperfekciós csoport_: minden kiválasztott sajátalak egy imperfekciós csoportba fog kerülni, ami a legördítő menüből választható ki. Egy csoport tartalmazhat több sajátalakot is. Ebben az esetben a sajátalakok hatása összeadódik az analízis során. Az **Új csoport **gomb segítségével létrehozható új imperfekciós csoport is.
+- _Imperfekciós csoport_: minden kiválasztott sajátalak egy imperfekciós csoportba fog kerülni, ami a legördítő menüből választható ki. Egy csoport tartalmazhat több sajátalakot is. Ebben az esetben a sajátalakok hatása összeadódik az analízis során. Az **Új csoport** gomb segítségével létrehozható új imperfekciós csoport is.
 - _Imperfekció eset neve:_ egyedi név adható meg az imperfekciós esetnek
 
 <!-- /wp:list -->

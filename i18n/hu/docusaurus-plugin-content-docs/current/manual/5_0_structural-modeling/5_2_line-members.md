@@ -90,7 +90,7 @@ Rúdelem paramétereinek megadása a dialóg középső részén történik:
 
 Az egyes adatmezők értelmezése fentről lefelé haladva az alábbi:
 
-- **Szelvény:** gerenda vagy oszlop létrehozása előtt a legördülő menüből ki kell választani a megfelelő szelvényt. A legördülő menü a betöltött szelvényeket tartalmazza. Ha nincs szelvény betöltve, akkor a legördülő menü mellett található ![](./img/wp-content-uploads-2021-04-3dots-button.png) gombra kattintva megnyíló [ _**Szelvénykezelő**_ ](/manual/szerkezetmodellezes/szelvenykezelo/)dialógon betölthetők a szükséges szelvények. További információk a szelvények betöltéséről és kezeléséről a következő alfejezetekben találhatók. A Consteel-ben használt szelvénymodellekről és szabványos vizsgálatokról részletes információk találhatók a **_[Szelvénymodul](/manual/keresztmetszet-modul/)_** fejezetben.
+- **Szelvény:** gerenda vagy oszlop létrehozása előtt a legördülő menüből ki kell választani a megfelelő szelvényt. A legördülő menü a betöltött szelvényeket tartalmazza. Ha nincs szelvény betöltve, akkor a legördülő menü mellett található ![](./img/wp-content-uploads-2021-04-3dots-button.png) gombra kattintva megnyíló [ _**Szelvénykezelő**_ ](./5_1_section-administration.md)dialógon betölthetők a szükséges szelvények. További információk a szelvények betöltéséről és kezeléséről a következő alfejezetekben találhatók. A Consteel-ben használt szelvénymodellekről és szabványos vizsgálatokról részletes információk találhatók a **_[Szelvénymodul](../../category/section-module)_** fejezetben.
 
 
 - _Folytonosság (kezdő, vég)_: előre definiált csukló típusok választhatók ki a rúdelem végeihez. A ![](./img/wp-content-uploads-2021-04-3dots-button.png) gombra kattintva új csukló típusokat is létrehozhatunk.

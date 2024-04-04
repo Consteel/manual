@@ -21,7 +21,7 @@ sidebar_position: 1
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Teherelhelyezés előtt létre kell hozni a tehereseteket és tehercsoportokat a **_Terhek _**fülön található **_Teheresetek és tehercsoportok megadása_** (![](./img/wp-content-uploads-2021-04-cmd_loadgroups.png)) funkció segítségével. Minden új modell megnyitásakor alapértelmezetten létrejön egy tehercsoport és egy tehereset.
+Teherelhelyezés előtt létre kell hozni a tehereseteket és tehercsoportokat a **_Terhek_** fülön található **_Teheresetek és tehercsoportok megadása_** (![](./img/wp-content-uploads-2021-04-cmd_loadgroups.png)) funkció segítségével. Minden új modell megnyitásakor alapértelmezetten létrejön egy tehercsoport és egy tehereset.
 
 <!-- /wp:paragraph -->
 
@@ -67,7 +67,7 @@ A létrehozott tehercsoportok és teheresetek a párbeszédpanel bal oldalán ta
 
 <!-- wp:paragraph -->
 
-Az **_Új \_\_tehercsoport _**gomb megnyomásával láthatóvá válnak a szabványos tehercsoportok. A lista a választott [tervezési szabványtól](/manual/altalanos-ismertetes/a-fokepernyo/#Standards-menu) függ. A tehercsoport kiválasztásával létrehozható az új csoport.
+Az **_Új tehercsoport_** gomb megnyomásával láthatóvá válnak a szabványos tehercsoportok. A lista a választott [tervezési szabványtól](/manual/altalanos-ismertetes/a-fokepernyo/#Standards-menu) függ. A tehercsoport kiválasztásával létrehozható az új csoport.
 
 <!-- /wp:paragraph -->
 
@@ -79,7 +79,7 @@ A tehercsoport automatikusan kap egy, a típusának megfelelő nevet, ami ezutá
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-A biztonsági tényezők minden tehercsoportnál a kiválasztott szabványnak megfelelőek, és itt nem változtathatók meg. Ha eltérő biztonsági tényezőket szeretne megadni, akkor létre kell hoznia egy felhasználói tervezési szabványt a _[tervezési szabványok párbeszédpanelen](/manual/altalanos-ismertetes/a-fokepernyo/#Standards-menu)_.
+A biztonsági tényezők minden tehercsoportnál a kiválasztott szabványnak megfelelőek, és itt nem változtathatók meg. Ha eltérő biztonsági tényezőket szeretne megadni, akkor létre kell hoznia egy felhasználói tervezési szabványt a [tervezési szabványok párbeszédpanelen](../1_0_general-description/1_2_the-main-window.md#a-menü).
 
 <!-- /wp:paragraph -->
 
@@ -139,7 +139,7 @@ Egyéb lehetőségeket lásd alább.
 
 <!-- wp:paragraph -->
 
-A \_Consteel \_szükség esetén hozzáadhatja a szerkezet önsúlyát az egyik teheresethez. Ehhez válassza ki a megfelelő terhelési esetet a párbeszédpanel jobb alsó sarkában.
+A _Consteel_ szükség esetén hozzáadhatja a szerkezet önsúlyát az egyik teheresethez. Ehhez válassza ki a megfelelő terhelési esetet a párbeszédpanel jobb alsó sarkában.
 
 <!-- /wp:paragraph -->
 
@@ -151,7 +151,7 @@ A \_Consteel \_szükség esetén hozzáadhatja a szerkezet önsúlyát az egyik 
 
 <!-- wp:paragraph -->
 
-Az automatikus kombinációgenerálás (lásd a **_[Teherkombinációk](/manual/terhek/teherkombinaciok/)_** fejezetet) a kiválasztott tervezési szabvány szabályai, valamint a tehercsoportok és teheresetek beállításai szerint működik, melyek befolyásolják a kombinációs tényezők értékeit. A megfelelő kombinációkhoz az egyes teheresetekhez tartozó szabályozókat helyesen kell beállítani. Ezek a beállítások a következők:
+Az automatikus kombinációgenerálás lásd a [**_Teherkombinációk_**](../6_0_structural-loads/6_2_load-combinations.md) a kiválasztott tervezési szabvány szabályai, valamint a tehercsoportok és teheresetek beállításai szerint működik, melyek befolyásolják a kombinációs tényezők értékeit. A megfelelő kombinációkhoz az egyes teheresetekhez tartozó szabályozókat helyesen kell beállítani. Ezek a beállítások a következők:
 
 <!-- /wp:paragraph -->
 

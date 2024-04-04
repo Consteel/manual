@@ -47,7 +47,7 @@ Ez alatt a szelvények módosítására szolgáló parancsok találhatók:
 Tulajdonságok...
 
 
-Megnyitja a kiválasztott szelvényt a **[Keresztmetszet modulban](../../category/10_0_section-module)**.
+Megnyitja a kiválasztott szelvényt a **[Keresztmetszet modulban](../../category/section-module)**.
 
 
 **Fontos tudni**, hogy az anyagminőség a szelvényhez tartozó paraméter, nem a rúdelemhez. Ezért azt mindig a szelvény betöltésekor (létrehozásakor) kell megadni!

@@ -34,7 +34,7 @@ Koncentrált teher vonal és felület elemen bárhol elhelyezhető (előre defin
 
 <!-- wp:paragraph -->
 
-Koncentrált teher elhelyezhető **Globális (**![](./img/wp-content-uploads-2021-04-create_coord_gcs.png)**)**, \***\*Lokális\*\*** **(**![](./img/wp-content-uploads-2021-04-create_coord_loc.png)**)** vagy **Felhasználói (**![](./img/wp-content-uploads-2021-04-create_coord_ucs.png)) koordinátarendszerek szerint.
+Koncentrált teher elhelyezhető **Globális (**![](./img/wp-content-uploads-2021-04-create_coord_gcs.png)**)**, **Lokális** **(**![](./img/wp-content-uploads-2021-04-create_coord_loc.png)**)** vagy **Felhasználói (**![](./img/wp-content-uploads-2021-04-create_coord_ucs.png)) koordinátarendszerek szerint.
 
 <!-- /wp:paragraph -->
 

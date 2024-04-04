@@ -39,7 +39,7 @@ Azon szerkezeti elemeken helyezhető el hatásábra, amelyek egy vonalban feksze
 
 <!-- wp:paragraph -->
 
-Hatásvonal létrehozható a kiválasztással\*\* **(![](./img/wp-content-uploads-2021-04-ico-pointer.png)) vagy rajzolással** \*\*(![](./img/wp-content-uploads-2021-04-cmd_draw.png)).
+Hatásvonal létrehozható a **kiválasztással** (![](./img/wp-content-uploads-2021-04-ico-pointer.png)) vagy **rajzolással** (![](./img/wp-content-uploads-2021-04-cmd_draw.png)).
 
 <!-- /wp:paragraph -->
 
@@ -181,7 +181,7 @@ A _Számítás_ oszlopban található jelölőnégyzetek segítésével hatásá
 
 <!-- wp:paragraph -->
 
-Hatásábra analízis futtatását lásd a _**[8.3 Analízis beállítások](/manual/szerkezetek-analizise/analizis-beallitasok/)**_ fejezetben
+Hatásábra analízis futtatását lásd a _**[8.3 Analízis beállítások](../8_0_structural-analysis/8_3_analysis-settings.md)**_ fejezetben
 
 <!-- /wp:paragraph -->
 

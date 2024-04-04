@@ -4,7 +4,7 @@ sidebar_position: 5
 # Meteorológiai teher generálás
 <!-- wp:paragraph -->
 
-Az összes meteorológiai teher generálásához kapcsolódó funkció (**[Meteorológiai felület](#Meteorological-surfaces)** ![](./img/wp-content-uploads-2021-04-cmd_load_met_surf.png), **[Meteorológiai teher létrehozása](#Meteorological-load-generator)** ![](./img/wp-content-uploads-2021-04-cmd_load_met_gen.png)) a Terhek fülön találhatók.
+Az összes meteorológiai teher generálásához kapcsolódó funkció (**[Meteorológiai felület](#meteorológiai-felület)** ![](./img/wp-content-uploads-2021-04-cmd_load_met_surf.png), **[Meteorológiai teher létrehozása](#meteorológiai-teher-létrehozása)** ![](./img/wp-content-uploads-2021-04-cmd_load_met_gen.png)) a Terhek fülön találhatók.
 
 <!-- /wp:paragraph -->
 

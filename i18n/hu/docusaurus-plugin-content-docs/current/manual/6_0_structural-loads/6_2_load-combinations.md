@@ -100,7 +100,7 @@ A manuálisan létrehozott teherkombinációkhoz kézzel kell valamely határál
 **Consteel 16**
 
 
-A kiválasztott _[tervezési szabványnak](/manual/altalanos-ismertetes/a-fokepernyo/#Standards-menu)_ megfelelően a teherkombinációk (TK) a [teheresetekből ](/manual/terhek/teheresetek-es-tehercsoportok/)állíthatók elő. A teherkombinációk (![](./img/wp-content-uploads-2021-04-cmd_loadcombi-1.png)) létrehozhatók manuálisan, a biztonsági és kombinációs tényezők teheresetenkénti megadásával, vagy a _Consteel_ **Teherkombinációk automatikus létrehozása** (![](./img/wp-content-uploads-2021-04-cmd_LCC_auto.png)) funkciójának segítségével.
+A kiválasztott _[tervezési szabványnak](../1_0_general-description/1_2_the-main-window.md#a-menü)_ megfelelően a teherkombinációk (TK) a [teheresetekből ](./6_1_load-cases-and-load-groups.md)állíthatók elő. A teherkombinációk (![](./img/wp-content-uploads-2021-04-cmd_loadcombi-1.png)) létrehozhatók manuálisan, a biztonsági és kombinációs tényezők teheresetenkénti megadásával, vagy a _Consteel_ **Teherkombinációk automatikus létrehozása** (![](./img/wp-content-uploads-2021-04-cmd_LCC_auto.png)) funkciójának segítségével.
 
 
 A teherkombinációkat a teherkombinációk táblázatában lehet kezelni, amelyet a Terhek fülön a Teherkombináció (![](./img/wp-content-uploads-2021-04-cmd_loadcombi-1.png)) parancsra kattintva lehet megnyitni.
@@ -155,7 +155,7 @@ Teherkombinációk automatikus létrehozása
 
 <!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2021-04-cmd_LCC_new.png) **Teherkombináci**ók automatikus létrehozása - a tervezési szabványnak és a _[tehercsoportok és teheresetek beállításainak](/manual/terhek/teheresetek-es-tehercsoportok/#LCC-options)_ megfelelően. Megjelenik egy új ablak, ahol a kívánt kombinációs képletet ki lehet választani. Az ULS és SLS kombinációk két külön fülön helyezkednek el. A kívánt képlet szerinti kombinációk létrehozásához jelölje be az előtte lévő jelölőnégyzetet. A kombinálandó teheresetek a jobb oldali fa struktúrából választhatók ki. Végül, a kombinációk létrehozásához nyomja meg az **Alkalmaz** gombot.
+![](./img/wp-content-uploads-2021-04-cmd_LCC_new.png) **Teherkombináci**ók automatikus létrehozása - a tervezési szabványnak és a _[tehercsoportok és teheresetek beállításainak](./6_1_load-cases-and-load-groups.md#az-automatikus-kombinációgenerálás-beállítási-lehetőségei)_ megfelelően. Megjelenik egy új ablak, ahol a kívánt kombinációs képletet ki lehet választani. Az ULS és SLS kombinációk két külön fülön helyezkednek el. A kívánt képlet szerinti kombinációk létrehozásához jelölje be az előtte lévő jelölőnégyzetet. A kombinálandó teheresetek a jobb oldali fa struktúrából választhatók ki. Végül, a kombinációk létrehozásához nyomja meg az **Alkalmaz** gombot.
 
 <!-- /wp:paragraph -->
 
@@ -173,7 +173,7 @@ A teherkombinációk generálása után a számítási idő minimalizálása ér
 
 <!-- wp:paragraph -->
 
-A kiválasztott _[tervezési szabványnak](/manual/altalanos-ismertetes/a-fokepernyo/#Standards-menu)_ megfelelően a teherkombinációk (TK) a [teheresetekből ](/manual/terhek/teheresetek-es-tehercsoportok/)állíthatók elő. A teherkombinációk (![](./img/wp-content-uploads-2021-04-cmd_loadcombi-1.png)) létrehozhatók manuálisan, a biztonsági és kombinációs tényezők teheresetenkénti megadásával, vagy a _Consteel_ **Teherkombinációk automatikus létrehozása** (![](./img/wp-content-uploads-2021-04-cmd_LCC_auto.png)) funkciójának segítségével.
+A kiválasztott _[tervezési szabványnak](../1_0_general-description/1_2_the-main-window.md)_ megfelelően a teherkombinációk (TK) a [teheresetekből ](./6_1_load-cases-and-load-groups.md#teheresetek-és-tehercsoportok)állíthatók elő. A teherkombinációk (![](./img/wp-content-uploads-2021-04-cmd_loadcombi-1.png)) létrehozhatók manuálisan, a biztonsági és kombinációs tényezők teheresetenkénti megadásával, vagy a _Consteel_ **Teherkombinációk automatikus létrehozása** (![](./img/wp-content-uploads-2021-04-cmd_LCC_auto.png)) funkciójának segítségével.
 
 <!-- /wp:paragraph -->
 
@@ -203,7 +203,7 @@ A második oszlop határozza meg, hogy a teherkombináció melyik határállapot
 
 <!-- wp:paragraph -->
 
-A további oszlopokban az egyes teheresetekre vonatkozó kombinációs tényezők szerepelnek. Egyszerre több tényező szerkesztése is lehetséges: ehhez válaszd ki a kívánt tényezőket, kattints rájuk a jobb egérgombbal, majd add meg a kívánt értéket a felugró ablakban. Több cella kijelölése történhet a **Ctrl **vagy **Shift** gombok használatával, vagy az egér bal gombjának lenyomva tartásával és a kurzornak a cellák fölött történő mozgatásával. A cellák tartalma másolható és beilleszthető is a **Ctrl+C** / **Ctrl+V** billentyűkombinációkkal. A cellák tartalma az MS Excel vagy más táblázatkezelő alkalmazásokba/-ból is másolható.
+A további oszlopokban az egyes teheresetekre vonatkozó kombinációs tényezők szerepelnek. Egyszerre több tényező szerkesztése is lehetséges: ehhez válaszd ki a kívánt tényezőket, kattints rájuk a jobb egérgombbal, majd add meg a kívánt értéket a felugró ablakban. Több cella kijelölése történhet a **Ctrl** vagy **Shift** gombok használatával, vagy az egér bal gombjának lenyomva tartásával és a kurzornak a cellák fölött történő mozgatásával. A cellák tartalma másolható és beilleszthető is a **Ctrl+C** / **Ctrl+V** billentyűkombinációkkal. A cellák tartalma az MS Excel vagy más táblázatkezelő alkalmazásokba/-ból is másolható.
 
 <!-- /wp:paragraph -->
 
@@ -245,7 +245,7 @@ A teherkombináció táblázat sárga sorai az automatikusan generált kombinác
 
 <!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2021-04-cmd_LCC_new.png) **Teherkombináci**ók automatikus létrehozása - a tervezési szabványnak és a _[tehercsoportok és teheresetek beállításainak](/manual/terhek/teheresetek-es-tehercsoportok/#LCC-options)_ megfelelően. Megjelenik egy új ablak, ahol a kívánt kombinációs képletet ki lehet választani. Az ULS és SLS kombinációk két külön fülön helyezkednek el. A kívánt képlet szerinti kombinációk létrehozásához jelölje be az előtte lévő jelölőnégyzetet. A kombinálandó teheresetek a jobb oldali fa struktúrából választhatók ki. Végül, a kombinációk létrehozásához nyomja meg az **Alkalmaz** gombot.
+![](./img/wp-content-uploads-2021-04-cmd_LCC_new.png) **Teherkombináci**ók automatikus létrehozása - a tervezési szabványnak és a _[tehercsoportok és teheresetek beállításainak](./6_1_load-cases-and-load-groups.md#teheresetek-és-tehercsoportok)_ megfelelően. Megjelenik egy új ablak, ahol a kívánt kombinációs képletet ki lehet választani. Az ULS és SLS kombinációk két külön fülön helyezkednek el. A kívánt képlet szerinti kombinációk létrehozásához jelölje be az előtte lévő jelölőnégyzetet. A kombinálandó teheresetek a jobb oldali fa struktúrából választhatók ki. Végül, a kombinációk létrehozásához nyomja meg az **Alkalmaz** gombot.
 
 <!-- /wp:paragraph -->
 
@@ -287,7 +287,7 @@ A **Teherkombináció csomagok** (![](./img/wp-content-uploads-2021-04-LCset_ico
 
 <!-- wp:paragraph -->
 
-Az analízishez használni kívánt teherkombináció csomagot az **Analízis paraméterei** ablak **[Teherkombinációk](/hu/manual/szerkezetek-analizise/analizis-beallitasok/#subpage-of-load-combinations)** aloldalán lehet kiválasztani a legördülő menüből. A Teherkombináció csomagok ablaka innen is elérhető a legördülő menü jobb oldalán található ![](./img/wp-content-uploads-2021-04-3dots-button.png) ikonnal.
+Az analízishez használni kívánt teherkombináció csomagot az **Analízis paraméterei** ablak **[Teherkombinációk](../8_0_structural-analysis/8_3_analysis-settings.md#teherkombinációk-analízis-beállításainak-részletezése-aloldal)** aloldalán lehet kiválasztani a legördülő menüből. A Teherkombináció csomagok ablaka innen is elérhető a legördülő menü jobb oldalán található ![](./img/wp-content-uploads-2021-04-3dots-button.png) ikonnal.
 
 <!-- /wp:paragraph -->
 
@@ -341,7 +341,7 @@ Az **+ Új létrehozása meglévőből** gomb megnyomásával új teherkombinác
 
 <!-- wp:paragraph -->
 
-**Teherkombináció csomag megadása**
+#### **Teherkombináció csomag megadása**
 
 <!-- /wp:paragraph -->
 
@@ -373,7 +373,7 @@ Teherkombináció csomag megadása
 
 <!-- wp:paragraph -->
 
-\#3 Szabályok alkalmazása: a [**Szabályok** ](/manual/terhek/teherkombinaciok/#Szabalyok)gombra kattintva a **Teherkombináció szűrési szabályok megadása** párbeszédpanel nyitható meg. Az előzőleg alkalmazott szabályok a gomb alatt láthatók egy nem szerkeszthető szövegdobozban.
+\#3 Szabályok alkalmazása: a [**Szabályok** ](./6_2_load-combinations.md#szabályok)gombra kattintva a **Teherkombináció szűrési szabályok megadása** párbeszédpanel nyitható meg. Az előzőleg alkalmazott szabályok a gomb alatt láthatók egy nem szerkeszthető szövegdobozban.
 
 <!-- /wp:paragraph -->
 
@@ -439,7 +439,7 @@ Teherkombináció csomag megadása
 
 <!-- wp:paragraph -->
 
-**Szűrés határállapotok alapján**
+#### **Szűrés határállapotok alapján**
 
 <!-- /wp:paragraph -->
 
@@ -483,7 +483,7 @@ Teherkombinációk szűrése határállapotuk alapján
 
 <!-- wp:paragraph -->
 
-**Szűrés teheresetek alapján**
+#### **Szűrés teheresetek alapján**
 
 <!-- /wp:paragraph -->
 
@@ -519,13 +519,13 @@ A jelölnégyzetek jelzik a teherkombinációk listájának állapotát a fentie
 
 <!-- wp:paragraph -->
 
-**Szűrés szabályok alapján**
+#### **Szűrés szabályok alapján**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-A szabályok definiálását lásd a [Szabályok ](/manual/terhek/teherkombinaciok/#Szabalyok)fejezetben.
+A szabályok definiálását lásd a [Szabályok ](./6_2_load-combinations.md#szabályok)fejezetben.
 
 <!-- /wp:paragraph -->
 
@@ -545,7 +545,7 @@ Teherkombináció szűrési szabályok táblázata
 
 <!-- wp:paragraph -->
 
-A meglévő szabályokat az összefoglaló táblázat első oszlopában található jelölőnégyzet bejelölésével, az utolsó oszlopban a vizsgálandó részletmodell kiválasztásával és az **Alkalmaz** gombra kattintással lehet alkalmazni. A szűrés a tényleges eredmények és a kiválasztott teherkombinációk alapján történik. A szűrés eredményeképpen keletkező teherkombináció lista a **_[Teherkombináció csomag megadása](/manual/terhek/teherkombinaciok/#Teherkombinacio-csomag-megadasa)_** párbeszédpanelen, a korábbiakhoz hasonlóan elmenthető. A számítási eredmények megváltozásával a kombinációk listája automatikusan nem frissül.
+A meglévő szabályokat az összefoglaló táblázat első oszlopában található jelölőnégyzet bejelölésével, az utolsó oszlopban a vizsgálandó részletmodell kiválasztásával és az **Alkalmaz** gombra kattintással lehet alkalmazni. A szűrés a tényleges eredmények és a kiválasztott teherkombinációk alapján történik. A szűrés eredményeképpen keletkező teherkombináció lista a **_[Teherkombináció csomag megadása](./6_2_load-combinations.md#teherkombináció-csomag-megadása)_** párbeszédpanelen, a korábbiakhoz hasonlóan elmenthető. A számítási eredmények megváltozásával a kombinációk listája automatikusan nem frissül.
 
 <!-- /wp:paragraph -->
 
@@ -557,7 +557,7 @@ A meglévő szabályokat az összefoglaló táblázat első oszlopában találha
 
 <!-- wp:paragraph -->
 
-Egy szabály alkalmazásakor a program, a **[Teherkombináció csomag megadása](/manual/terhek/teherkombinaciok/#Teherkombinacio-csomag-megadasa)** párbeszédpanelen kiválasztott összes teherkombinációt megvizsgálja a szabály által megjelölt minden egyes helyen, majd kiválasztja a szabálynak megfelelő teherkombinációkat (vagyis azok kijelölve maradnak), míg a nem megfelelőek kijelölése megszűnik. Következésképpen a szabályok szerinti szűrés előtt kiválasztott teherkombinációk száma mindig nagyobb vagy egyenlő a szűrés utáni számmal. A szabályok szerinti szűrés soha nem választ ki olyan teherkombinációt, amely a szűrés előtt nem volt kijelölve a **[Teherkombináció csomag megadása](/manual/terhek/teherkombinaciok/#Teherkombinacio-csomag-megadasa)** párbeszédpanelen.
+Egy szabály alkalmazásakor a program, a **[Teherkombináció csomag megadása](./6_2_load-combinations.md#teherkombináció-csomag-megadása)** párbeszédpanelen kiválasztott összes teherkombinációt megvizsgálja a szabály által megjelölt minden egyes helyen, majd kiválasztja a szabálynak megfelelő teherkombinációkat (vagyis azok kijelölve maradnak), míg a nem megfelelőek kijelölése megszűnik. Következésképpen a szabályok szerinti szűrés előtt kiválasztott teherkombinációk száma mindig nagyobb vagy egyenlő a szűrés utáni számmal. A szabályok szerinti szűrés soha nem választ ki olyan teherkombinációt, amely a szűrés előtt nem volt kijelölve a **[Teherkombináció csomag megadása](./6_2_load-combinations.md#teherkombináció-csomag-megadása)** párbeszédpanelen.
 
 <!-- /wp:paragraph -->
 
@@ -715,13 +715,13 @@ A kézi kiválasztás más szűrők használata után is lehetséges. Az elemek 
 
 <!-- wp:paragraph -->
 
-Szabályokat létrehozni, szerkeszteni és alkalmazni a **Teherkombináció szűrési szabályok megadása** című párbeszédablakban lehetséges. Ezt az ablakot a **_[Teherkombináció csomag megadása](/manual/terhek/teherkombinaciok/#Teherkombinacio-csomag-megadasa)_** dialóg **Szabályok** gombjára kattintva lehet megnyitni.
+Szabályokat létrehozni, szerkeszteni és alkalmazni a **Teherkombináció szűrési szabályok megadása** című párbeszédablakban lehetséges. Ezt az ablakot a **_[Teherkombináció csomag megadása](./6_2_load-combinations.md#teherkombináció-csomag-megadása)_** dialóg **Szabályok** gombjára kattintva lehet megnyitni.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Háromféle szabály létezik: _[analízis](/manual/terhek/teherkombinaciok/#analizis-szabalyok)_, [kihajlási ](/manual/terhek/teherkombinaciok/#Kihajlasi-szabalyok)és _[kihasználtsági](/manual/terhek/teherkombinaciok/#Kihasznaltsagi-szabalyok)_ szabályok, melyek a párbeszédpanel különböző lapjain jelennek meg.
+Háromféle szabály létezik: _[analízis](#analízis-szabályok)_, [_kihajlási_ ](#kihajlási-szabályok)és _[kihasználtsági](#kihasználtsági-szabályok)_ szabályok, melyek a párbeszédpanel különböző lapjain jelennek meg.
 
 <!-- /wp:paragraph -->
 
@@ -783,7 +783,7 @@ A szabálydefiníciós párbeszédpanelek általános funkciói
 
 <!-- wp:paragraph -->
 
-**Analízis szabályok**
+#### **Analízis szabályok**
 
 <!-- /wp:paragraph -->
 
@@ -820,7 +820,7 @@ Kihajlási szabály megadása
 
 <!-- wp:paragraph -->
 
-**Kihajlási szabályok**
+#### **Kihajlási szabályok**
 
 <!-- /wp:paragraph -->
 
@@ -832,7 +832,7 @@ _- Kihajlási szabályok_: kiválaszthatók azok az ULS teherkombinációk, amel
 
 <!-- wp:paragraph -->
 
-**Kihasználtsági szabályok**
+#### **Kihasználtsági szabályok**
 
 <!-- /wp:paragraph -->
 
