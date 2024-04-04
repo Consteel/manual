@@ -24,36 +24,36 @@ Tervezési beállítások - vasbeton szerkezetek
 
 <!-- wp:paragraph -->
 
-A vasbeton tervezéshez a szükséges bemenő paraméterek a következők (részletesen lásd a **_[Vasbeton keresztmetszetek](https://consteelsoftware.com/hu/manual/szerkezetmodellezes/rudelemek/#reinforced-concrete-members)_** fejezetben):
+A vasbeton tervezéshez a szükséges bemenő paraméterek a következők (részletesen lásd a **_[Vasbeton keresztmetszetek](../5_0_structural-modeling/5_2_line-members.md#vasbeton-keresztmetszetek)_** fejezetben):
 
 
 - Vasbeton gerendák esetében:
 
-  - _[Méretezési opcióval rendelkező vasbeton keresztmetszet](/manual/szerkezetmodellezes/rudelemek/#reinforced-concrete-cross-sections-with-design-option)_
+  - _[Méretezési opcióval rendelkező vasbeton keresztmetszet](../5_0_structural-modeling/5_2_line-members.md#méretezési-opcióval-nem-rendelkező-vasbeton-keresztmetszetek-2)_
   
-  - _[Vasbeton gerendához rendelt gerendavasalási objektum](/manual/szerkezetmodellezes/rudelemek/#beam-reinforcement-definition)_
+  - _[Vasbeton gerendához rendelt gerendavasalási objektum](../5_0_structural-modeling/5_2_line-members.md#gerenda-vasalás-definiálása)_
 
-  - _[Első vagy másodrendű analízis eredmények](/manual/szerkezetek-analizise/analizis-eredmenyek/#Result-types)_
+  - _[Első vagy másodrendű analízis eredmények](../8_0_structural-analysis/8_5_analysis-results.md#eredmény-típusok)_
 
 
 * Vasbeton oszlopok esetében:
 
-  - _[Méretezési opcióval rendelkező vasbeton keresztmetszet](/manual/szerkezetmodellezes/rudelemek/#reinforced-concrete-cross-sections-with-design-option)_
+  - _[Méretezési opcióval rendelkező vasbeton keresztmetszet](../5_0_structural-modeling/5_2_line-members.md#méretezési-opcióval-rendelkező-vasbeton-keresztmetszetek-1)_
  
-  - _[Vasbeton oszlophoz rendelt oszlopvasalási objektum](/manual/szerkezetmodellezes/rudelemek/#column-reinforcement-definition)_
+  - _[Vasbeton oszlophoz rendelt oszlopvasalási objektum](../5_0_structural-modeling/5_2_line-members.md#oszlop-vasalás-definiálása)_
   
-  - A vasbeton oszlophoz rendelt tervezési paraméter (lásd _[lejjebb](#Vasbeton-oszlopok-tervezesi-parameterei)_)
+  - A vasbeton oszlophoz rendelt tervezési paraméter (lásd _[lejjebb](#vasbeton-oszlopok-tervezési-paraméterei)_)
  
-  - _[Globális imperfekciók](/manual/terhek/globalis-imperfekciok/)_ (szükség esetén)
+  - _[Globális imperfekciók](../6_0_structural-loads/6_4_global-imperfections.md)_ (szükség esetén)
   
-  - _[Első vagy másodrendű analízis eredmények](https://www.consteelsoftware.com/manual/szerkezetek-analizise/analizis-eredmenyek/#Result-types)_
+  - _[Első vagy másodrendű analízis eredmények](../8_0_structural-analysis/8_5_analysis-results.md#eredmény-típusok)_
   
 
 - Vasbeton lemezek esetében:
 
-  - _[Egyes főirányokhoz tartozó vasalási paraméterek](https://www.consteelsoftware.com/manual/szerkezetmodellezes/feluleti-elemek/#Plate-reinforcement)_
+  - _[Egyes főirányokhoz tartozó vasalási paraméterek](../5_0_structural-modeling/5_3_surface-members.md#felületi-elemek)_
 
-  - _[Első vagy másodrendű héj elem analízis eredmények](/manual/szerkezetek-analizise/analizis-eredmenyek/)_
+  - _[Első vagy másodrendű héj elem analízis eredmények](../8_0_structural-analysis/8_5_analysis-results.md)_
 
 
 Amennyiben a vasbeton tervezéshez szükséges bemenő adatok rendelkezésre állnak, a számítás gombra kattintva a szabványos ellenőrzéseket a Consteel minden keresztmetszetre automatikusan elvégzi. A keresztmetszetekhez tartozó mértékadó kihasználtságokat eredményező vizsgálatokat a Consteel, a **Mértékadó kihasználtságok** táblázatban automatikusan kigyűjti, a modell grafikán pedig színkódos ábrázolással megjeleníti.
@@ -95,22 +95,22 @@ A vasbeton szerkezetek tervezése a globális vizsgálatok fülről érhető el.
 [![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/dial_tervezes_vb.png)](./img/wp-content-uploads-2022-06-dial_tervezes_vb.png)
 
 
-A vasbeton tervezéshez a szükséges bemenő paraméterek a következők (részletesen lásd a **_[Vasbeton keresztmetszetek](https://consteelsoftware.com/hu/manual/szerkezetmodellezes/rudelemek/#reinforced-concrete-members)_** fejezetben):
+A vasbeton tervezéshez a szükséges bemenő paraméterek a következők (részletesen lásd a **_[Vasbeton keresztmetszetek](../5_0_structural-modeling/5_2_line-members.md#vasbeton-keresztmetszetek)_** fejezetben):
 
 
 - Vasbeton gerendák és oszlopok esetében:
 
-  - Méretezési opcióval rendelkező vasbeton keresztmetszet (lásd **_[5.2.2.1](https://consteelsoftware.com/hu/manual/szerkezetmodellezes/rudelemek/#reinforced-concrete-cross-sections-with-design-option)_**)
+  - [Méretezési opcióval rendelkező vasbeton keresztmetszet](../5_0_structural-modeling/5_2_line-members.md#méretezési-opcióval-rendelkező-vasbeton-keresztmetszetek-1)
 
-  - Vasbeton rúdelemhez rendelt vasalási objektum (lásd **_[5.2.2.2](https://consteelsoftware.com/hu/manual/szerkezetmodellezes/rudelemek/#beam-reinforcement-definition)_** és **_[5.2.2.3](https://consteelsoftware.com/hu/manual/szerkezetmodellezes/rudelemek/#column-reinforcement-definition)_**)
+  - [Vasbeton rúdelemhez rendelt vasalási objektum](../5_0_structural-modeling/5_2_line-members.md#gerenda-vasalás-definiálása)
   
-  - Első vagy másodrendű analízis eredmények (lásd **_[8.5.1](/manual/szerkezetek-analizise/analizis-eredmenyek/#Result-types)_**)
+  - [Első vagy másodrendű analízis eredmények](../8_0_structural-analysis/8_5_analysis-results.md#eredmény-típusok)
 
 * Vasbeton lemezek esetében:
 
-  - Egyes főirányokhoz tartozó vasalási paraméterek (lásd **_[5.3.1 fejezet](https://consteelsoftware.com/hu/manual/szerkezetmodellezes/feluleti-elemek/#Plate-reinforcement)_**)
+  - [Egyes főirányokhoz tartozó vasalási paraméterek](../5_0_structural-modeling/5_3_surface-members.md#felületi-elemek)
 
-  - Első vagy másodrendű héj elem analízis eredmények (lásd **_[8.5 fejezet](/manual/szerkezetek-analizise/analizis-eredmenyek/)_**)
+  - [Első vagy másodrendű héj elem analízis eredmények](../8_0_structural-analysis/8_5_analysis-results.md)
  
 
 Amennyiben a vasbeton tervezéshez szükséges bemenő adatok rendelkezésre állnak, a számítás gombra kattintva a szabványos ellenőrzéseket a Consteel minden keresztmetszetre automatikusan elvégzi. A keresztmetszetekhez tartozó mértékadó kihasználtságokat eredményező vizsgálatokat a Consteel, a **Mértékadó kihasználtságok** táblázatban automatikusan kigyűjti, a modell grafikán pedig színkódos ábrázolással megjeleníti.
@@ -210,7 +210,7 @@ A választott módszer, valamint a szükséges vagy választható paraméterek a
 ![](./img/wp-content-uploads-2021-04-warning_croc.png)
 
 
-A névleges merevségen alapuló módszer alkalmazásához és a névleges görbületen alapuló módszer automatikus opciójához a megfelelő globális imperfekciók definiálására lehet szükség. (lásd **_[6.4. Globális imperfekciók](/manual/terhek/globalis-imperfekciok/)_**)
+A névleges merevségen alapuló módszer alkalmazásához és a névleges görbületen alapuló módszer automatikus opciójához a megfelelő globális imperfekciók definiálására lehet szükség. (lásd **_[6.4. Globális imperfekciók](../6_0_structural-loads/6_4_global-imperfections.md_**)
 
 
 A vasbeton oszlop tervezés az **Eurocode 1992-1-1** következő vizsgálatait hajtja végre:
@@ -359,7 +359,7 @@ A bevitt értékeket a felhasználónak kell meghatároznia. Közvetlen merevsé
 
 <!-- wp:paragraph -->
 
-Az _[oszloptervezési paraméterekhez](/manual/szabvanyos-tervezes/vasbeton-szerkezetek-tervezese/#Vasbeton-oszlopok-tervezési-paraméterei)_ hasonlóan egy Consteel modell több vasbeton gerenda tervezési paramétert tartalmazhat, melyek a tulajdonságfán a vasbeton gerenda elemekhez rendelhetők. A **Paraméter csomagok vasbeton gerenda tervezéshez** párbeszédpanel a vasbeton gerenda keresztmetszetű rúdelem tulajdonságfájában, a Tervezési paraméterek sorban, a ![](./img/wp-content-uploads-2021-04-3dots-button.png) gombra kattintva nyitható meg. A létrehozott paramétereket az összefoglaló képernyő mutatja be:
+Az _[oszloptervezési paraméterekhez](../9_0_standard-design/9_2_reinforced-concrete-design.md#vasbeton-oszlopok-tervezési-paraméterei)_ hasonlóan egy Consteel modell több vasbeton gerenda tervezési paramétert tartalmazhat, melyek a tulajdonságfán a vasbeton gerenda elemekhez rendelhetők. A **Paraméter csomagok vasbeton gerenda tervezéshez** párbeszédpanel a vasbeton gerenda keresztmetszetű rúdelem tulajdonságfájában, a Tervezési paraméterek sorban, a ![](./img/wp-content-uploads-2021-04-3dots-button.png) gombra kattintva nyitható meg. A létrehozott paramétereket az összefoglaló képernyő mutatja be:
 
 <!-- /wp:paragraph -->
 
@@ -391,7 +391,7 @@ Egy csomagot a soron való dupla kattintással vagy a ![](./img/wp-content-uploa
 
 <!-- wp:paragraph -->
 
-A párbeszédpanel hasonló az _[oszlopokéhoz](/manual/szabvanyos-tervezes/vasbeton-szerkezetek-tervezese/#Vasbeton-oszlopok-tervezési-paraméterei)_, de csak a merevségcsökkentő paraméterek meghatározásával kapcsolatos részt tartalmazza.
+A párbeszédpanel hasonló az _[oszlopokéhoz](../9_0_standard-design/9_2_reinforced-concrete-design.md#vasbeton-oszlopok-tervezési-paraméterei)_, de csak a merevségcsökkentő paraméterek meghatározásával kapcsolatos részt tartalmazza.
 
 <!-- /wp:paragraph -->
 
@@ -479,14 +479,14 @@ A vasbeton oszlop tervezés az **Eurocode 1992-1-1** következő vizsgálatait h
   - EN 1992-1-1 6.2.3. (3) (6.8) és (6.9) formula, Nyírási teherbírás tervezési értéke nyírási vasalással
 
 
-Vasbeton oszlopoknál megjeleníthető a **[teherbírási felület](https://consteelsoftware.com/hu/manual/keresztmetszet-modul/section-module/#resistance-surface)** is.
+Vasbeton oszlopoknál megjeleníthető a **[teherbírási felület](../10_0_section-module/10_2_section-module.md)** is.
 
 
 
 ### Vasbeton lemezek tervezése
 
 
-Amennyiben a modellben létrehozott vasbeton lemezhez az **_[5.3.1 fejezetben](https://consteelsoftware.com/hu/manual/szerkezetmodellezes/feluleti-elemek/#Plate-reinforcement)_** részletesen bemutatott módon megadásra kerültek x és y irányban az alsó és felső vasalási paraméterek, úgy a **Globális vizsgálatok** fül **Tervezés… **dialógján a vasbeton lemezek minimális vashányad számítása opció aktív, és a jelölőnégyzet bekapcsolásával a számítás elvégezhető.
+Amennyiben a modellben létrehozott vasbeton lemezhez az **_[5.3.1 fejezetben](../5_0_structural-modeling/5_3_surface-members.md#felületi-elemek)_** részletesen bemutatott módon megadásra kerültek x és y irányban az alsó és felső vasalási paraméterek, úgy a **Globális vizsgálatok** fül **Tervezés…** dialógján a vasbeton lemezek minimális vashányad számítása opció aktív, és a jelölőnégyzet bekapcsolásával a számítás elvégezhető.
 
 
 A számítás eredménye a lemez igénybevételei alapján számolt szükséges vasmennyiségek \[mm2/m] a főirányokban, alsó és felső pozícióra külön-külön meghatározva. A főirányok között a legördülő menü segítségével van lehetőség váltani, az eredmények kijelzése pedig szintfelületes ábrázolással történik:
@@ -510,6 +510,6 @@ A jobb oldalon található színpalettán jobb egérgombot kattintva annak tulaj
 
 <!-- wp:paragraph -->
 
-A főirányokhoz tartozó szükséges vasmennyiség ábrák dxf formátumba exportálhatók, a **_[2.6 fejezetben](/manual/fajlkezeles/vasmennyiseg-exportalasa-dxf-fajlba/)_** bemutatott módon.
+A főirányokhoz tartozó szükséges vasmennyiség ábrák dxf formátumba exportálhatók, a **_[2.6 fejezetben](../2_0_file-handling/2_6_dxf-import.md)_** bemutatott módon.
 
 <!-- /wp:paragraph -->

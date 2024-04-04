@@ -41,7 +41,7 @@ Ha a vizsgált keresztmetszet létrehozásakor ki lett választva a _Kezdeti gö
 
 <!-- wp:paragraph -->
 
-Az elvégzett ellenőrzések eredményei megtekinthetők grafikus formában, vagy táblázatosan (a táblázatok általános kezelési funkcióit lásd a _[Táblázatok általános funkciói ](/manual/altalanos-ismertetes/tablazatok-altalanos-funkcioi/)_c. fejezetben).
+Az elvégzett ellenőrzések eredményei megtekinthetők grafikus formában, vagy táblázatosan (a táblázatok általános kezelési funkcióit lásd a _[Táblázatok általános funkciói](../1_0_general-description/1_4_general-functions-for-tables.md)_ c. fejezetben).
 
 <!-- /wp:paragraph -->
 
@@ -65,7 +65,7 @@ Szerkezeti elemeken történő egér mozgatás esetén, az eredmény jelölő fo
 
 <!-- wp:paragraph -->
 
-A számítás részletei megtekinthetők a keresztmetszeti modulban (lásd a[ Keresztmetszeti modul ](/manual/keresztmetszet-modul/)fejezetben). A keresztmetszeti modul megnyitható közvetlenül a **Globális vizsgálatok** fülről is, a megfelelő keresztmetszet grafikus felületen vagy táblázatban történő jobb egérgombos kiválasztásával.
+A számítás részletei megtekinthetők a keresztmetszeti modulban (lásd a[ Keresztmetszeti modul](../../category/section-module) fejezetben). A keresztmetszeti modul megnyitható közvetlenül a **Globális vizsgálatok** fülről is, a megfelelő keresztmetszet grafikus felületen vagy táblázatban történő jobb egérgombos kiválasztásával.
 
 <!-- /wp:paragraph -->
 

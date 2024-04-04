@@ -233,7 +233,7 @@ Az ellenőrzés elvégezhető a teljes, vagy részlet modellre.
 #### Eredmények
 
 
-Az elvégzett ellenőrzések eredményei megtekinthetők grafikus formában, vagy táblázatosan (a táblázatok általános kezelési funkcióit lásd a **_[Táblázatok általános funkciói](/manual/altalanos-ismertetes/tablazatok-altalanos-funkcioi/)_** c. fejezetben).
+Az elvégzett ellenőrzések eredményei megtekinthetők grafikus formában, vagy táblázatosan (a táblázatok általános kezelési funkcióit lásd a **_[Táblázatok általános funkciói](../1_0_general-description/1_4_general-functions-for-tables.md)_** c. fejezetben).
 
 <!-- /wp:paragraph -->
 
@@ -428,7 +428,7 @@ Consteel 16
 Szerkezeti elemeken történő egér mozgatás esetén, az eredmény jelölő folyamatosan megjelenik, mutatva az aktuális kihasználtságot.
 
 
-A számítás részletei megtekinthetők a keresztmetszeti modulban (lásd a **_[Keresztmetszeti modul](/manual/keresztmetszet-modul/)_** c. fejezetben). A keresztmetszeti modul megnyitható közvetlenül a **Globális vizsgálatok** fülről is, a megfelelő keresztmetszet grafikus felületen vagy táblázatban történő jobb egérgombos kiválasztásával.
+A számítás részletei megtekinthetők a keresztmetszeti modulban (lásd a **_[Keresztmetszeti modul](../../category/section-module)_** c. fejezetben). A keresztmetszeti modul megnyitható közvetlenül a **Globális vizsgálatok** fülről is, a megfelelő keresztmetszet grafikus felületen vagy táblázatban történő jobb egérgombos kiválasztásával.
 
 <!-- /wp:paragraph -->
 
@@ -504,7 +504,7 @@ Az EuroCode 3 (EN 1993-1-1) következő fejezetei szerinti vizsgálatok végezhe
 
 <!-- wp:paragraph -->
 
-Elemtervezés elvégzéséhez először ki kell választani és hozzá kell adni a képernyő alján található listához a vizsgálandó elemeket. A hozzáadást a táblázat **Acél **fülét kiválasztva, a **Hozzáad **gomb segítségével lehet elvégezni. A hozzáadás után a listából egy elem a **Kiválaszt **gomb megnyomásával választható ki tervezésre.
+Elemtervezés elvégzéséhez először ki kell választani és hozzá kell adni a képernyő alján található listához a vizsgálandó elemeket. A hozzáadást a táblázat **Acél** fülét kiválasztva, a **Hozzáad** gomb segítségével lehet elvégezni. A hozzáadás után a listából egy elem a **Kiválaszt** gomb megnyomásával választható ki tervezésre.
 
 <!-- /wp:paragraph -->
 
@@ -516,7 +516,7 @@ Elemtervezés elvégzéséhez először ki kell választani és hozzá kell adni
 
 <!-- wp:paragraph -->
 
-A kiválasztott elem sora a táblázatban zöld színűre változik és az analízis eredményei automatikusan betöltődnek. Az elemtervezés elvégezhető, ha a szükséges analízis (első és másodrendű számítás) és keresztmetszet vizsgálati eredmények rendelkezésre állnak. Az analízis eredmények megtekintése, az **Analízis **fülnek megfelelően, a három legördülő menü segítségével történik:
+A kiválasztott elem sora a táblázatban zöld színűre változik és az analízis eredményei automatikusan betöltődnek. Az elemtervezés elvégezhető, ha a szükséges analízis (első és másodrendű számítás) és keresztmetszet vizsgálati eredmények rendelkezésre állnak. Az analízis eredmények megtekintése, az **Analízis** fülnek megfelelően, a három legördülő menü segítségével történik:
 
 <!-- /wp:paragraph -->
 
