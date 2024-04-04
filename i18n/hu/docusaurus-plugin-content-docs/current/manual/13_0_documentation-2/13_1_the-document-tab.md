@@ -163,7 +163,7 @@ Az első két ikonnal (#1) a lap megjelenítése állítható be. A dokumentáci
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-A **Képek** fülre kattintva megjelennek a képkezelő ikonok. Segítségükkel a korábban készített [_pillanatképek_ ](/manual/dokumentacio/dokumentalas-ful/#Creating-snapshots)bármelyike beilleszthető a dokumentumba, vagy törölhető onnan. A kép a kiválasztott paragrafus után kerül elhelyezésre.
+A **Képek** fülre kattintva megjelennek a képkezelő ikonok. Segítségükkel a korábban készített [_pillanatképek_ ](../13_0_documentation-2/13_1_the-document-tab.md#pillanatkép-készítése)bármelyike beilleszthető a dokumentumba, vagy törölhető onnan. A kép a kiválasztott paragrafus után kerül elhelyezésre.
 
 <!-- /wp:paragraph -->
 
@@ -223,7 +223,7 @@ A modellben történt változtatások esetén, a dokumentációkat újra kell ge
 
 <!-- wp:paragraph -->
 
-A **Dokumentálás** fül második ikonja ![](./img/wp-content-uploads-2021-04-cmd_doc_snap.png) segítségével a modellről pillanatképek rögzíthetők. Ezeket a képeket egyszerűen hozzáadhatjuk a dokumentáció megfelelő részéhez (lásd a **_[Dokumentáció modul](/manual/dokumentacio/dokumentalas-ful/#Documentation-module)_** c. fejezetben). A Nyomtatás segítségével az aktuális képernyőnézet kinyomtatható.
+A **Dokumentálás** fül második ikonja ![](./img/wp-content-uploads-2021-04-cmd_doc_snap.png) segítségével a modellről pillanatképek rögzíthetők. Ezeket a képeket egyszerűen hozzáadhatjuk a dokumentáció megfelelő részéhez (lásd a **_[Dokumentáció modul](./13_1_the-document-tab.md#dokumentáció-modul)_** c. fejezetben). A Nyomtatás segítségével az aktuális képernyőnézet kinyomtatható.
 
 <!-- /wp:paragraph -->
 
