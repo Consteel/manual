@@ -65,6 +65,6 @@ A dokumentálás elindítása után a _Csomópont dokumentáció létrehozása_ 
 
 <!-- wp:paragraph -->
 
-A dokumentáció módosításának módja megegyezik a teljes szerkezet dokumentálásának módjával. További információért ld. a [_**13. Dokumentálás**_](/hu/manual/dokumentacio/) c. fejezetet!
+A dokumentáció módosításának módja megegyezik a teljes szerkezet dokumentálásának módjával. További információért ld. a [_**13. Dokumentálás**_](../category/documentation-2) c. fejezetet!
 
 <!-- /wp:paragraph -->

@@ -10,13 +10,13 @@ A legújabb tervezési eljárások képesek figyelembe venni a globális szerkez
 
 <!-- wp:paragraph -->
 
-A csomópontok elhelyezése a **Szerkezeti elemek** fülön található **[Csomópont elhelyezése](/manual/csomopont-modul/csomopont-letrehozasa/#Place-joint-in-the-global-model)** ![](./img/wp-content-uploads-2021-04-15-6-place-butt.png) ikonra kattintva megjelenő ablak segítségével lehetséges. Egy csomópont az összes olyan helyre elhelyezhető, ahol a geometria megegyezik a csomóponti geometriával. Az így elhelyezett csomópontok kapcsolati merevsége már figyelembe vehető a szerkezetek analízise során. A kapcsolati merevség figyelembevételéhez be kell jelölni az **Analízis beállításai** ablak, **Globális beállítások** szakaszában található _Kapcsolati merevség figyelembe vétele_ jelölőnégyzetet, melynek hatására az összes elhelyezett csomópont merevsége az összes kombinációban figyelembe lesz véve.
+A csomópontok elhelyezése a **Szerkezeti elemek** fülön található **[Csomópont elhelyezése](./14_2_create-joint.md#csomópont-elhelyezése-consteel-modellen)** ![](./img/wp-content-uploads-2021-04-15-6-place-butt.png) ikonra kattintva megjelenő ablak segítségével lehetséges. Egy csomópont az összes olyan helyre elhelyezhető, ahol a geometria megegyezik a csomóponti geometriával. Az így elhelyezett csomópontok kapcsolati merevsége már figyelembe vehető a szerkezetek analízise során. A kapcsolati merevség figyelembevételéhez be kell jelölni az **Analízis beállításai** ablak, **Globális beállítások** szakaszában található _Kapcsolati merevség figyelembe vétele_ jelölőnégyzetet, melynek hatására az összes elhelyezett csomópont merevsége az összes kombinációban figyelembe lesz véve.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Ha csak bizonyos kombinációban van erre szükség, akkor a **Globális beállítások** szakasz [_aloldalát_](/manual/szerkezetek-analizise/analizis-beallitasok/#subpage-of-global-settings) kell megnyitni a ![](./img/wp-content-uploads-2021-04-cmd_subpage.png) ikon segítségével, ahol egyenként bejelölhetők azok a kombinációk, amelyeknél szükség van a merevségek átvitelére.
+Ha csak bizonyos kombinációban van erre szükség, akkor a **Globális beállítások** szakasz [_aloldalát_](../8_0_structural-analysis/8_3_analysis-settings.md#globális-analízis-beállításainak-részletezése-aloldal) kell megnyitni a ![](./img/wp-content-uploads-2021-04-cmd_subpage.png) ikon segítségével, ahol egyenként bejelölhetők azok a kombinációk, amelyeknél szükség van a merevségek átvitelére.
 
 <!-- /wp:paragraph -->
 

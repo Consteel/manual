@@ -44,7 +44,7 @@ Szerkezeti csomópont a Csomópont szerkesztő funkcióval történő létrehoz�
 
 <!-- wp:paragraph -->
 
-Új csomópont a csomópont kezelő bal felső sarkában található **Létrehozás**(![](./img/wp-content-uploads-2021-04-14-3-create-button.png)) gombbal hozható létre. A csomópont azonosítása során megadható a csomópont neve, valamint egy rövid megjegyzés is fűzhető hozzá. Végül, a harmadik, legördülő mezőben megadhatók korábban elmentett **[alapértelmezett beállítások](#Default-joint-settings)** is. Az adatok megadása után a **Tovább>** gombbal lehet továbblépni.
+Új csomópont a csomópont kezelő bal felső sarkában található **Létrehozás**(![](./img/wp-content-uploads-2021-04-14-3-create-button.png)) gombbal hozható létre. A csomópont azonosítása során megadható a csomópont neve, valamint egy rövid megjegyzés is fűzhető hozzá. Végül, a harmadik, legördülő mezőben megadhatók korábban elmentett **[alapértelmezett beállítások](#alapértelmezett-csomóponti-beállítások)** is. Az adatok megadása után a **Tovább>** gombbal lehet továbblépni.
 
 <!-- /wp:paragraph -->
 
@@ -60,7 +60,7 @@ Szerkezeti csomópont a Csomópont szerkesztő funkcióval történő létrehoz�
 
 <!-- wp:paragraph -->
 
-Második lépésként ki kell választani a csomópont típusát. A _csJoint_ modul a csomópontok széles skáláját tudja kezelni, ami lefedi szinte a teljes Eurocode 1993-1-8 szabványt (az elérhető csomópontok listáját lásd a **_[Csomópont típusok](/manual/csomopont-modul/csomopont-tipusok/)_** fejezetben). A megfelelő típus kiválasztása után a **Tovább>** gombbal lehet továbblépni.
+Második lépésként ki kell választani a csomópont típusát. A _csJoint_ modul a csomópontok széles skáláját tudja kezelni, ami lefedi szinte a teljes Eurocode 1993-1-8 szabványt (az elérhető csomópontok listáját lásd a **_[Csomópont típusok](./14_1_joint-types.md)_** fejezetben). A megfelelő típus kiválasztása után a **Tovább>** gombbal lehet továbblépni.
 
 <!-- /wp:paragraph -->
 
@@ -120,7 +120,7 @@ Az oszlop valamelyik oldalára kattintva definiálható a bekötő kapcsolat tí
 
 <!-- wp:paragraph -->
 
-Miután a bekötő szerkezeti elemek kapcsolatai beállításra kerültek a csomópont a **Létrehozás** gombra kattintva létrehozható a kiválasztott **[alapértelmezett csomóponti beállításoknak](#Default-joint-settings)** megfelelően. A létrehozás után megjelenik a csJoint modul fő képernyője. Ezen a képernyőn végezhetők el a kapcsolatok módosításai, optimalizálásai (ld. lentebb).
+Miután a bekötő szerkezeti elemek kapcsolatai beállításra kerültek a csomópont a **Létrehozás** gombra kattintva létrehozható a kiválasztott **[alapértelmezett csomóponti beállításoknak](#alapértelmezett-csomóponti-beállítások)** megfelelően. A létrehozás után megjelenik a csJoint modul fő képernyője. Ezen a képernyőn végezhetők el a kapcsolatok módosításai, optimalizálásai (ld. lentebb).
 
 <!-- /wp:paragraph -->
 
@@ -132,7 +132,7 @@ Miután a bekötő szerkezeti elemek kapcsolatai beállításra kerültek a csom
 
 <!-- wp:paragraph -->
 
-A csomópontok módosítását lásd a [**_Csomópontok módosítása_**](#Manipulating-joints) fejezetben.
+A csomópontok módosítását lásd a [**_Csomópontok módosítása_**](#csomópont-módosítása) fejezetben.
 
 <!-- /wp:paragraph -->
 
@@ -412,7 +412,7 @@ A csomóponti fa _Csomóponti terhek_ elemének kiválasztása után megadhatók
 
 <!-- wp:paragraph -->
 
-A _Csomóponti terhek megadásának módja_ (#1) című mezőben választható ki, hogy a terheket kézzel, vagy a modellből importálva visszük-e be a csomópontba. Importálás csak abban az esetben lehetséges, ha a csomópont legalább egy helyen _**[el van helyezve](#Place-joint-in-the-global-model)**_ a 3D modellben, és az analízis eredményei rendelkezésre állnak.
+A _Csomóponti terhek megadásának módja_ (#1) című mezőben választható ki, hogy a terheket kézzel, vagy a modellből importálva visszük-e be a csomópontba. Importálás csak abban az esetben lehetséges, ha a csomópont legalább egy helyen _**[el van helyezve](#csomópont-elhelyezése-consteel-modellen)**_ a 3D modellben, és az analízis eredményei rendelkezésre állnak.
 
 <!-- /wp:paragraph -->
 

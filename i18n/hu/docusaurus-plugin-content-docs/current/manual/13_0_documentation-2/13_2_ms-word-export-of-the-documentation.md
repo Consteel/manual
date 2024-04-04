@@ -8,7 +8,7 @@ sidebar_position: 2
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-A Consteelben készített dokumentációk _.docx_ formátumú, szerkeszthető Word fájlba exportálhatók. Az exportálás teljes körű, így a Consteel dokumentáció összes eleme ( táblázatok, képek, grafikonok, mellékletek) exportálásra kerül. A funkció a Dokumentáció modulon belül a **Dokumentum **menüpont **Export**, majd a **Microsoft Word** parancsából érhető el.
+A Consteelben készített dokumentációk _.docx_ formátumú, szerkeszthető Word fájlba exportálhatók. Az exportálás teljes körű, így a Consteel dokumentáció összes eleme ( táblázatok, képek, grafikonok, mellékletek) exportálásra kerül. A funkció a Dokumentáció modulon belül a **Dokumentum** menüpont **Export**, majd a **Microsoft Word** parancsából érhető el.
 
 <!-- /wp:paragraph -->
 
