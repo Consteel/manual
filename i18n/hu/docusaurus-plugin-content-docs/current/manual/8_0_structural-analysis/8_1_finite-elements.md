@@ -60,7 +60,7 @@ A 7SZF elem speciálisan olyan vékonyfalú rudakhoz került kifejlesztésre, ah
 
 <!-- wp:paragraph -->
 
-Az első 6 SZF a hagyományos elmozdulásokat (Ux, Uy, Uz) és elfordulásokat (Fx, Fy, Fz) tartalmazza, a rúd helyi koordinátarendszerében (lásd _[**4.2** **Koordináta rendszerek**](/manual/geometria-rajzolasa/koordinata-rendszerek/)_). A hetedik szabadságfok több magyarázatot igényel. Ez szabadságfok a hossztengely menti elfordulás első deriváltját (F'x) jelenti matematikailag, mechanikailag a szelvény öblösödését jelenti, amely egyenes következménye a vékonyfalú szelvény torzulásának. Az alábbi ábra az öblösödést igyekszik bemutatni. Az öv kilép a szelvény eredeti síkjából.
+Az első 6 SZF a hagyományos elmozdulásokat (Ux, Uy, Uz) és elfordulásokat (Fx, Fy, Fz) tartalmazza, a rúd helyi koordinátarendszerében (lásd _[**Koordináta rendszerek**](../4_0_drawing-geometry/4_1_coordinate-systems.md)_). A hetedik szabadságfok több magyarázatot igényel. Ez szabadságfok a hossztengely menti elfordulás első deriváltját (F'x) jelenti matematikailag, mechanikailag a szelvény öblösödését jelenti, amely egyenes következménye a vékonyfalú szelvény torzulásának. Az alábbi ábra az öblösödést igyekszik bemutatni. Az öv kilép a szelvény eredeti síkjából.
 
 <!-- /wp:paragraph -->
 
@@ -84,7 +84,7 @@ A 7 szabadságfokú rúdelemnek egy speciális továbbfejlesztett változatát h
 
 <!-- wp:paragraph -->
 
-Mivel az acél szelvényű rudak általában karcsúak, ezért globális stabilitásvesztésüknek számos változata fordulhat elő: kihajlás, elcsavarodó kihajlás, kifordulás, és ezek együttes hatása. A 7 SZF végeselemeknek köszönhetően mindezen módok számíthatók. Ilyen rudak stabilitásszámításakor ez egy fontos és előnyös lehetőség, de mivel a komplex elcsavarodások pontos számítása nagyban függ a 7. öblösödési szabadságfoktól, ennek hatását már a modell felépítésénél figyelembe kell venni (lásd a _[**Szerkezet modellezése**](/manual/szerkezetmodellezes/)_ fejezet figyelmeztetéseit).
+Mivel az acél szelvényű rudak általában karcsúak, ezért globális stabilitásvesztésüknek számos változata fordulhat elő: kihajlás, elcsavarodó kihajlás, kifordulás, és ezek együttes hatása. A 7 SZF végeselemeknek köszönhetően mindezen módok számíthatók. Ilyen rudak stabilitásszámításakor ez egy fontos és előnyös lehetőség, de mivel a komplex elcsavarodások pontos számítása nagyban függ a 7. öblösödési szabadságfoktól, ennek hatását már a modell felépítésénél figyelembe kell venni (lásd a _[**Szerkezet modellezése**](../../category/structural-modeling)_ fejezet figyelmeztetéseit).
 
 <!-- /wp:paragraph -->
 

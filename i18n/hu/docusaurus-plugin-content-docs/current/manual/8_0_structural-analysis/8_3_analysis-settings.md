@@ -4,13 +4,13 @@ sidebar_position: 3
 # Analízis beállítások
 <!-- wp:paragraph -->
 
-A végrehajtandó analízis típusok az Analízis beállításai ![](./img/wp-content-uploads-2021-04-cmd_anal_set.png) dialógon állíthatóak be. A beállítási lehetőségek könnyebb átláthatósága érdekében a dialóg [**összegző oldala**](#overview-page) három fő csoportra került szétosztásra, melyekről összesen további négy, részletes beállításokat tartalmazó aloldal nyitható meg. Ezek az aloldalak a következők:
+A végrehajtandó analízis típusok az Analízis beállításai ![](./img/wp-content-uploads-2021-04-cmd_anal_set.png) dialógon állíthatóak be. A beállítási lehetőségek könnyebb átláthatósága érdekében a dialóg [**összegző oldala**](#összegző-oldal) három fő csoportra került szétosztásra, melyekről összesen további négy, részletes beállításokat tartalmazó aloldal nyitható meg. Ezek az aloldalak a következők:
 
-- Globális beállítások _(_**[_Globális beállítások részletezése aloldal_](#subpage-of-global-settings)**_)_
+- Globális beállítások _(_**[_Globális beállítások részletezése aloldal_](#globális-analízis-beállításainak-részletezése-aloldal)**_)_
 
-- Statikai számítások _(_**[_Teheresetek beállításainak részletezése_](#subpage-of-load-cases)**_, és _**[_Teherkombinációk beállításainak részletezése_](#subpage-of-load-combinations)**_ aloldal)_
+- Statikai számítások _(_**[_Teheresetek beállításainak részletezése_](#teheresetek-analízis-beállításainak-részletezése-aloldal)**, és _[_**Teherkombinációk beállításainak részletezése**_](#teherkombinációk-analízis-beállításainak-részletezése-aloldal)_
 
-- Dinamikai számítások _(_**[_Dinamikai számítások beállításainak részletezése aloldal_](#subpage-of-dynamic-analysis)**_)_
+- Dinamikai számítások _(_**[_Dinamikai számítások beállításainak részletezése aloldal_](#dinamikai-számítások-analízis-beállításainak-részletezése-aloldal)**_)_
 
 
 [![](https://www.consteelsoftware.com/wp-content/uploads/2022/05/dial_analizis_beallitasok_globalis.png)](./img/wp-content-uploads-2022-05-dial_analizis_beallitasok_globalis.png)
@@ -28,11 +28,11 @@ A Beállítások összegzése fülön beállított analízis típusok az összes
 
 A **Globális beállítások** csoportban (#1) lévő beállítások az egész modellre érvényesek:
 
-- A **_Globális imperfekció_** legördülő menü segítségével előzőleg létrehozott [_**Globális imperfekció**_](/manual/terhek/globalis-imperfekciok/) (lásd _[6.4 fejezet](/manual/terhek/globalis-imperfekciok/)_) helyezhető el a modellen. Egyszerre csak egy globális imperfekció csoport használható.
+- A **_Globális imperfekció_** legördülő menü segítségével előzőleg létrehozott [_**Globális imperfekció**_](../6_0_structural-loads/6_4_global-imperfections.md) helyezhető el a modellen. Egyszerre csak egy globális imperfekció csoport használható.
 
-- A **_Kapcsolati merevség figyelembevétele_** jelölőnégyzet segítségével előzőleg létrehozott és elhelyezett szerkezeti csomópontok merevsége is figyelembe vehetők a számítás során. A jelölőnégyzet bekapcsolásával a kapcsolati merevségek alapértelmezés szerint a modellben lévő összes terhelési kombinációra alkalmazásra kerülnek. A kombinációk kézi kiválasztását a ![](./img/wp-content-uploads-2021-04-cmd_subpage.png) gombbal megnyitható [oldalon ](#Subpage-of-global-settings)lehet elvégezni.
+- A **_Kapcsolati merevség figyelembevétele_** jelölőnégyzet segítségével előzőleg létrehozott és elhelyezett szerkezeti csomópontok merevsége is figyelembe vehetők a számítás során. A jelölőnégyzet bekapcsolásával a kapcsolati merevségek alapértelmezés szerint a modellben lévő összes terhelési kombinációra alkalmazásra kerülnek. A kombinációk kézi kiválasztását a ![](./img/wp-content-uploads-2021-04-cmd_subpage.png) gombbal megnyitható [**oldalon** ](#globális-analízis-beállításainak-részletezése-aloldal)lehet elvégezni.
 
-- **_Szelemen tervezés_** funkció bekapcsolásával figyelembe vehető minden olyan paraméter az analízis során, melyek korábban **[_szelemen tervező funkciók_](/manual/szerkezetmodellezes/szelemensor/)** segítségével definiálásra kerültek, mint például burkolat nyújtotta oldalirányú megtámasztás, átlapolásos toldás esetén a toldási szakasz merevsége. Ebben az üzemmódban a stabilitás vizsgálat és a szabványos méretezés csak a [_**Szelemensor objektumokat**_](/manual/szerkezetmodellezes/szelemensor/#Place-purlin-line) tartalmazó elemekből álló részmodellre lesz elvégezve. Ha a modellben vannak Szelemensorhoz kapcsolódó objektumok, de a Szelemen tervezés mód nem aktív, akkor azok a szerkezeti elemek, amelyekhez Szelemensor objektumok tartoznak, nem kerülnek be a másodrendű merevségi mátrixba, és így hatásuk nem kerül figyelembevételre a kihajlásvizsgálat vagy a másodrendű analízis során.
+- **_Szelemen tervezés_** funkció bekapcsolásával figyelembe vehető minden olyan paraméter az analízis során, melyek korábban **[_szelemen tervező funkciók_](../5_0_structural-modeling/5_13_purlins.md#szelemensor)** segítségével definiálásra kerültek, mint például burkolat nyújtotta oldalirányú megtámasztás, átlapolásos toldás esetén a toldási szakasz merevsége. Ebben az üzemmódban a stabilitás vizsgálat és a szabványos méretezés csak a [_**Szelemensor objektumokat**_](../5_0_structural-modeling/5_13_purlins.md#szelemensor) tartalmazó elemekből álló részmodellre lesz elvégezve. Ha a modellben vannak Szelemensorhoz kapcsolódó objektumok, de a Szelemen tervezés mód nem aktív, akkor azok a szerkezeti elemek, amelyekhez Szelemensor objektumok tartoznak, nem kerülnek be a másodrendű merevségi mátrixba, és így hatásuk nem kerül figyelembevételre a kihajlásvizsgálat vagy a másodrendű analízis során.
 
 
 A **Statikai számítások** (#2) csoport beállításai:
@@ -41,7 +41,7 @@ A **Statikai számítások** (#2) csoport beállításai:
 
 - Teheresetek csoport
 
-  - **_Teheresetek számítása rugalmas elven_**: alapértelmezés szerint a Consteel csak a teherkombinációkra ad eredményeket. Ha ez a jelölőnégyzet be van jelölve, az analízis eredményei (csak a rugalmas számítások esetében) terhelési esetek szerint is megtekinthetők. Alapértelmezés szerint az összes tehereset eredményei kiszámításra kerülnek, de a [**Teheresetek** ](#Subpage-of-load-cases)aloldalának a ![](./img/wp-content-uploads-2021-04-cmd_subpage.png) gombbal történő megnyitásával a terhelési esetek manuálisan is kiválaszthatók.
+  - **_Teheresetek számítása rugalmas elven_**: alapértelmezés szerint a Consteel csak a teherkombinációkra ad eredményeket. Ha ez a jelölőnégyzet be van jelölve, az analízis eredményei (csak a rugalmas számítások esetében) terhelési esetek szerint is megtekinthetők. Alapértelmezés szerint az összes tehereset eredményei kiszámításra kerülnek, de a [**Teheresetek** ](#teheresetek-analízis-beállításainak-részletezése-aloldal)aloldalának a ![](./img/wp-content-uploads-2021-04-cmd_subpage.png) gombbal történő megnyitásával a terhelési esetek manuálisan is kiválaszthatók.
 
   - **_Stabilitási alakon alapuló imperfekciós teheresetek másodrendű számítása_** opció választása esetén a kiválasztott imperfekció csoport egyes elemeinek elkülönített, másodrendű eredményeinek a megjelenítésére is lehetőség van. Alapértelmezés szerint az összes imperfekciós tehereset ki lesz választva, de a **[Teheresetek](#Subpage-of-load-cases)** aloldal ![](./img/wp-content-uploads-2021-04-cmd_subpage.png) megnyitásával a kiválasztás megváltoztatható.
   
@@ -59,13 +59,13 @@ A **Statikai számítások** (#2) csoport beállításai:
 
   - A jelölőnégyzetekkel a szükséges analízis (**első-, illetve másodrendű**) típusok kapcsolhatóak be, külön-külön a teherbírási és használhatósági határállapotokhoz tartozó teherkombinációk esetén.
 
-  - **Stabilitási számítás**. A stabilitás számítások bekapcsolásakor alapesetben 10 sajátalak kerül leszámolásra minden egyes teherkombinációban. (A sajátalakok száma a csoporthoz tartozó [aloldalon](#Subpage-of-load-combinations) módosítható) A jelölőnégyzeteket be-, illetve kikapcsolva az adott számítási típus az összes teherkombinációra alkalmazásra kerül.
+  - **Stabilitási számítás**. A stabilitás számítások bekapcsolásakor alapesetben 10 sajátalak kerül leszámolásra minden egyes teherkombinációban. (A sajátalakok száma a csoporthoz tartozó [aloldalon](#teherkombinációk-analízis-beállításainak-részletezése-aloldal) módosítható) A jelölőnégyzeteket be-, illetve kikapcsolva az adott számítási típus az összes teherkombinációra alkalmazásra kerül.
 
   - **Stabilitási érzékenység vizsgálat**ra az acélszelvények szabványos méretezéséhez használt sajátalakok automatikus kiválasztásához van szükség.
 
-  - Az **imperfekciós érzékenység vizsgálat** bekapcsolása szükséges, ha a _[6.4.3.2 pontban](/manual/terhek/globalis-imperfekciok/#Automatic-amplitude-calculation)_ leírt, egyenértékű tökéletlenség módszerével (OIM) skálázott, sajátalak alapú imperfekciós terhet szeretnénk alkalmazni a szerkezeten.
+  - Az **imperfekciós érzékenység vizsgálat** bekapcsolása szükséges, ha a _[6.4.3.2 pontban](../6_0_structural-loads/6_4_global-imperfections.md#automatikus-sajátalak-amplitúdó-meghatározás)_ leírt, egyenértékű tökéletlenség módszerével (OIM) skálázott, sajátalak alapú imperfekciós terhet szeretnénk alkalmazni a szerkezeten.
 
-  - Az egyes vizsgálatokhoz tartozó további beállítások, teherkombinációk egyedi kiválasztása a ![](./img/wp-content-uploads-2021-04-cmd_subpage.png) gombbal megnyíló **[Teherkombinációk beállításainak részletezése aloldalon](#Subpage-of-load-combinations)** érhetők el..
+  - Az egyes vizsgálatokhoz tartozó további beállítások, teherkombinációk egyedi kiválasztása a ![](./img/wp-content-uploads-2021-04-cmd_subpage.png) gombbal megnyíló **[Teherkombinációk beállításainak részletezése aloldalon](#teherkombinációk-analízis-beállításainak-részletezése-aloldal)** érhetők el..
 
 - **Hatásábra** számítása, az előzőleg kiválasztott hatásvonalon a jelölőnégyzet bekapcsolásával elvégezhető.
 
@@ -76,7 +76,7 @@ A Dinamikai számítások csoport (#3) beállításai:
 A dinamikai számítások csoport alatti két jelölőnégyzet segítségével számítható a szabadrezgés, és válaszspektrum analízis
 
 
-A további beállítások a![](./img/wp-content-uploads-2021-04-cmd_subpage.png) gombbal megnyíló _**[Dinamikai számítások beállításainak részletezése aloldalon](#Subpage-of-dynamic-analysis)**_ érhetők el.
+A további beállítások a![](./img/wp-content-uploads-2021-04-cmd_subpage.png) gombbal megnyíló _**[Dinamikai számítások beállításainak részletezése aloldalon](#dinamikai-számítások-analízis-beállításainak-részletezése-aloldal)**_ érhetők el.
 
 
 ### Globális analízis beállításainak részletezése aloldal
@@ -163,7 +163,7 @@ Az analízishez a legördülő menüből kiválasztható egy korábban definiál
 
 <!-- wp:paragraph -->
 
-A teherkombinációs csomagok létrehozásának módját lásd a [**Teherkombinációs csomagok**](/manual/terhek/teherkombinaciok/#Teherkombinacios-csomagok) oldalon.
+A teherkombinációs csomagok létrehozásának módját lásd a [**Teherkombinációs csomagok**](../6_0_structural-loads/6_2_load-combinations.md#teherkombináció-csomagok) oldalon.
 
 <!-- /wp:paragraph -->
 
@@ -196,7 +196,7 @@ Ebben a táblázatban megtalálható a modellben létrehozott összes teherkombi
 - Hatékony keresztmetszeti jellemzők: a kiválasztott SLS-kombinációkhoz a csökkentett effektív keresztmetszeti jellemzők használata.
 
 
-A táblázatok szerkesztését ld. az **_[1.4. A táblázatok általános funkciói című fejezetben](/manual/altalanos-ismertetes/tablazatok-altalanos-funkcioi/)_** olvashatja.
+A táblázatok szerkesztését ld. az **_[1.4. A táblázatok általános funkciói című fejezetben](../1_0_general-description/1_4_general-functions-for-tables.md)_** olvashatja.
 
 
 Eredménytípusok fa (#4)
@@ -250,7 +250,7 @@ Ebben a táblázatban megtalálható a modellben létrehozott összes teherkombi
 - Hatékony keresztmetszeti jellemzők: a kiválasztott SLS-kombinációkhoz a csökkentett effektív keresztmetszeti jellemzők használata.
 
 
-A táblázatok szerkesztését ld. az **[1.4. A táblázatok általános funkciói című fejezetben](/manual/altalanos-ismertetes/tablazatok-altalanos-funkcioi/)** olvashatja.
+A táblázatok szerkesztését ld. az **[1.4. A táblázatok általános funkciói című fejezetben](../1_0_general-description/1_4_general-functions-for-tables.md)** olvashatja.
 
 
 Eredménytípusok fa (#3)

@@ -25,7 +25,7 @@ Az elsőrendű analízis a szerkezete kezdeti merevsége alapján számítja ki 
 1. A végeselem elsőrendű (kezdeti) merevségi mátrixának számítása lokális koordináta rendszerben
 2. A teljes szerkezet globális merevségi mátrixának ($K_s$) és erővektorának ($P$) előállítása, az elem merevségi mátrixok globális koordináta rendszerbe történő transzformálásával
 3. A globális merevségi mátrix és az erővektor módosítása a peremfeltételek figyelembevételével (támaszok, rúdvégi folytonosság, előírt elmozdulás, hőmérsékletteher stb.)
-4. Az alkalmazott csomóponti erők – a terhekből előállított ismert változó – és a csomóponti elmozdulások – ismeretlen változó ($U$) – közötti kapcsolatot leíró lineáris egyenletrendszer megoldása a szerkezet globális koordináta rendszerében a globális modellre (a csomóponti elmozdulások és erők értelmezését lásd. **_[8.1 Végeselemek](/manual/szerkezetek-analizise/vegeselemek/)_** fejezetben):
+4. Az alkalmazott csomóponti erők – a terhekből előállított ismert változó – és a csomóponti elmozdulások – ismeretlen változó ($U$) – közötti kapcsolatot leíró lineáris egyenletrendszer megoldása a szerkezet globális koordináta rendszerében a globális modellre (a csomóponti elmozdulások és erők értelmezését, lásd **_[Végeselemek](../8_0_structural-analysis/8_1_finite-elements.md)_** fejezetben.):
 
 <!-- /wp:list -->
 
@@ -101,7 +101,7 @@ A másodrendű számítás figyelembe veszi, hogy a terhelt és deformált szerk
 2. A végeselemek geometriai merevségi mátrixának ($K_g^{el}$) saját koordinátarendszerben történő meghatározása az egyes elemek igénybevételeinek ($f^{el}$) figyelembevételével
 3. A másodrendű globális merevségi mátrix ($K_s+K_g$) és a teljes modell erővektorának ($P$) előállítása, az elem merevségi mátrixok globális koordináta rendszerbe történő transzformálásával
 4. A globális másodrendű merevségi mátrix és az erővektor módosítása a peremfeltételek figyelembevételével (támaszok, rúdvégi folytonosság, előírt elmozdulás, hőmérsékletteher stb.)
-5. Az alkalmazott csomóponti erők – a terhekből előállított ismert változó – és a csomóponti elmozdulások – ismeretlen változó ($U$) – közötti kapcsolatot leíró lineáris egyenletrendszer megoldása a szerkezet globális koordináta rendszerében a terhelt és deformált globális modellre (a csomóponti elmozdulások és erők értelmezését lásd. **_[8.1 Végeselemek](/manual/szerkezetek-analizise/vegeselemek/)_** fejezetben):
+5. Az alkalmazott csomóponti erők – a terhekből előállított ismert változó – és a csomóponti elmozdulások – ismeretlen változó ($U$) – közötti kapcsolatot leíró lineáris egyenletrendszer megoldása a szerkezet globális koordináta rendszerében a terhelt és deformált globális modellre (a csomóponti elmozdulások és erők értelmezését lásd, a **_[ Végeselemek](../8_0_structural-analysis/8_1_finite-elements.md)_** fejezetben):
 
 <!-- /wp:list -->
 
@@ -223,7 +223,7 @@ A sajátérték analízis elvégzésével kapott lehetséges kihajlási alakokat
 
 <!-- wp:paragraph -->
 
-Ezen funkció segítségével összefoglaló képet kapunk a szerkezet kihajlási alakjairól, illetve rudanként megadja, hogy az adott rúd stabilitás vizsgálatához melyik teherkombináció melyik kihajlási alakja a legrelevánsabb, azaz melyiket érdemes alkalmazni. A későbbi globális méretezés (ld. **_[9.2.1 Globális vizsgálatok](/manual/szabvanyos-tervezes/acelszerkezet-tervezes/#Global-checks)_**) során ez alapján a program automatikusan ki tudja választani a megfelelő kritikus teherfaktort.
+Ezen funkció segítségével összefoglaló képet kapunk a szerkezet kihajlási alakjairól, illetve rudanként megadja, hogy az adott rúd stabilitás vizsgálatához melyik teherkombináció melyik kihajlási alakja a legrelevánsabb, azaz melyiket érdemes alkalmazni. A későbbi globális méretezés (ld. **_[ Globális vizsgálatok](../9_0_standard-design/9_1_steel-design.md#globális-vizsgálatok)_**) során ez alapján a program automatikusan ki tudja választani a megfelelő kritikus teherfaktort.
 
 <!-- /wp:paragraph -->
 
@@ -241,7 +241,7 @@ Ezen funkció segítségével összefoglaló képet kapunk a szerkezet kihajlás
 
 <!-- wp:paragraph -->
 
-Az imperfekciós érzékenységi vizsgálat segítségével minden stabilitásvesztési alakhoz meghatározható a kritikus rúdelem és kritikus pont (ekvivalens pont), ami alapján az imperfekciós alak amplitúdója számolható. A grafikus ábrán a stabilitásvesztési alakot imperfekciós elmozdulás-teherként alkalmazva kapott igénybevételekből, feszültség alapon számított kihasználtságok láthatók minden, ahol a legnagyobb kihasználtsághoz tartozó keresztmetszet kapja a 100% értéket. ld. még a **_[6.4.3.2 fejezetet](/manual/terhek/globalis-imperfekciok/#Automatic-amplitude-calculation)_**.
+Az imperfekciós érzékenységi vizsgálat segítségével minden stabilitásvesztési alakhoz meghatározható a kritikus rúdelem és kritikus pont (ekvivalens pont), ami alapján az imperfekciós alak amplitúdója számolható. A grafikus ábrán a stabilitásvesztési alakot imperfekciós elmozdulás-teherként alkalmazva kapott igénybevételekből, feszültség alapon számított kihasználtságok láthatók minden, ahol a legnagyobb kihasználtsághoz tartozó keresztmetszet kapja a 100% értéket. ld. még a **_[6.4.3.2 fejezetet](../6_0_structural-loads/6_4_global-imperfections.md#automatikus-sajátalak-amplitúdó-meghatározás)_**.
 
 <!-- /wp:paragraph -->
 
@@ -319,7 +319,7 @@ Képlékeny analízis indítására az **Analízis** fül **Analízis beállít�
 
 <!-- wp:paragraph -->
 
-Képlékeny analízis választása esetén, képlékeny csukló analízis fut le, amely figyelembe veszi a kizárólag erőstengely körül nyomaték (My) hatására, a keresztmetszet _y_ lokális tengelye kerül kialakuló síkbeli képlékeny csuklókat – más hatásnak (nyírás, normálerő vagy gyengetengely körüli hajlítás) nincs hatása a csuklók kialakulására. Az analízis beállításai elérhetők az **_[Analízis beállításai](/manual/szerkezetek-analizise/analizis-beallitasok/)_** dialógon, a _Számítás típusa_ legördítő menü mellett található három pontos (![](./img/wp-content-uploads-2021-04-3dots-button.png)) ikonra kattintva.
+Képlékeny analízis választása esetén, képlékeny csukló analízis fut le, amely figyelembe veszi a kizárólag erőstengely körül nyomaték (My) hatására, a keresztmetszet _y_ lokális tengelye kerül kialakuló síkbeli képlékeny csuklókat – más hatásnak (nyírás, normálerő vagy gyengetengely körüli hajlítás) nincs hatása a csuklók kialakulására. Az analízis beállításai elérhetők az **_[Analízis beállításai](../8_0_structural-analysis/8_3_analysis-settings.md)_** dialógon, a _Számítás típusa_ legördítő menü mellett található három pontos (![](./img/wp-content-uploads-2021-04-3dots-button.png)) ikonra kattintva.
 
 <!-- /wp:paragraph -->
 

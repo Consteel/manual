@@ -149,7 +149,7 @@ A két különböző típusú (rúd és héj) végeselemhez az alábbi analízis
 
 <!-- wp:paragraph -->
 
-Az analízis során keletkező óriási adatmennyiség hatékony kezelése kiemelt fontosságú. Lehetőséget kell biztosítani az eredmények adott típusának általános, és a pontos, részletes adatok áttekintésére. Az analízis eredmények áttekintésére két fő lehetőség van: a _grafikus nézet_, és az _eredmény táblázatok_ (A _Consteel_-ben alkalmazott táblázatok kezelési funkcióit lásd a **_[Táblázatok általános funkciói](/manual/altalanos-ismertetes/tablazatok-altalanos-funkcioi/)_** c. fejezetben). A kétféle megjelenítés természetesen szorosan összefüggésben állnak egymással, és az Analízis fül felső részén található funkciókkal módosíthatók. A négy legördülő menü (balról jobbra) a következő beállítási lehetőségeket nyújtja.
+Az analízis során keletkező óriási adatmennyiség hatékony kezelése kiemelt fontosságú. Lehetőséget kell biztosítani az eredmények adott típusának általános, és a pontos, részletes adatok áttekintésére. Az analízis eredmények áttekintésére két fő lehetőség van: a _grafikus nézet_, és az _eredmény táblázatok_ (A _Consteel_-ben alkalmazott táblázatok kezelési funkcióit lásd a **_[Táblázatok általános funkciói](../1_0_general-description/1_4_general-functions-for-tables.md)_** c. fejezetben). A kétféle megjelenítés természetesen szorosan összefüggésben állnak egymással, és az Analízis fül felső részén található funkciókkal módosíthatók. A négy legördülő menü (balról jobbra) a következő beállítási lehetőségeket nyújtja.
 
 <!-- /wp:paragraph -->
 
@@ -161,9 +161,9 @@ Az analízis során keletkező óriási adatmennyiség hatékony kezelése kieme
 
 <!-- wp:list {"type":"a"} -->
 
-- analízis típusa (lásd. az **_[Analízis típusok](/manual/szerkezetek-analizise/analizis-tipusok/)_** fejezet)
+- analízis típusa (lásd. az **_[Analízis típusok](./8_4_analysis-types.md)_** fejezet)
 - teherkombináció és teheresetek kiválasztása
-- eredmény típus kiválasztása (lásd. az **_[Eredmény típusok](#Result-types)_** alfejezetet)
+- eredmény típus kiválasztása (lásd. az **_[Eredmény típusok](#eredmény-típusok)_** alfejezetet)
 - megjelenítési mód kiválasztása (végeselem/diagram/szintvonal/diszkrét színek/szintfelület)
 
 <!-- /wp:list -->
@@ -266,7 +266,7 @@ Paletta testreszabása
 
 <!-- wp:paragraph -->
 
-A **_[Modell nézetek](/manual/modell-nezet/modell-nezetek/)_** fejezetben bemutatott modell nézeti lehetőségek az eredmények grafikai megjelenítésénél is használhatók. A legördülő menük után található csúszka ![](./img/wp-content-uploads-2021-04-cmd_analysis_slide.png) segítségével az eredmények grafikai megjelenítésének mértéke módosítható.
+A **_[Modell nézetek](../3_0_model-view/3_1_model-views.md)_** fejezetben bemutatott modell nézeti lehetőségek az eredmények grafikai megjelenítésénél is használhatók. A legördülő menük után található csúszka ![](./img/wp-content-uploads-2021-04-cmd_analysis_slide.png) segítségével az eredmények grafikai megjelenítésének mértéke módosítható.
 
 <!-- /wp:paragraph -->
 
@@ -284,7 +284,7 @@ Részletmodell vagy részmodell esetén a grafikai megjelenítés és az eredmé
 
 <!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2021-04-cmd_analysis_table_markers.png) Felhasználói értékek: a felhasználó által elhelyezett jelölők helyein mutatja az értékeket (megjelölést lásd lentebb, a **_[Jelölt eredmények](#Result-markers)_** fejezetben)
+![](./img/wp-content-uploads-2021-04-cmd_analysis_table_markers.png) Felhasználói értékek: a felhasználó által elhelyezett jelölők helyein mutatja az értékeket (megjelölést lásd lentebb, a **_[Jelölt eredmények](#jelölt-eredmények)_** fejezetben)
 
 <!-- /wp:paragraph -->
 
@@ -407,7 +407,7 @@ A szélső értékek automatikusan megjelölhetők a „Szélső értékek eleme
 
 <!-- wp:paragraph -->
 
-Consteelben mind rúdelemekre, mind pedig héjfelületekre elérhető az eredmények burkolóábrán való megjelenítési módja. A burkolóábrák az **Analízis **fülön a **teherkombinációk és teheresetek** legördülő menüjéből érhetők el, ha rendelkezésre állnak első és/vagy másodrendű analízis eredmények. Alapértelmezésként két féle burkoló ábra érhető el, egy az összes teherbírási (ULS) egy pedig az összes használhatósági (SLS) kombinációkból származó eredményekhez. Ezek mellett lehetőség van létrehozni saját, egyedi adatok alapján összeállított burkoló ábrákat, erről részletes leírás az **_[Egyénileg összeállított burkoló ábrák](#User-defined-envelope-figures)_** c. fejezetben érhető el!
+Consteelben mind rúdelemekre, mind pedig héjfelületekre elérhető az eredmények burkolóábrán való megjelenítési módja. A burkolóábrák az **Analízis** fülön a **teherkombinációk és teheresetek** legördülő menüjéből érhetők el, ha rendelkezésre állnak első és/vagy másodrendű analízis eredmények. Alapértelmezésként két féle burkoló ábra érhető el, egy az összes teherbírási (ULS) egy pedig az összes használhatósági (SLS) kombinációkból származó eredményekhez. Ezek mellett lehetőség van létrehozni saját, egyedi adatok alapján összeállított burkoló ábrákat, erről részletes leírás az **_[Egyénileg összeállított burkoló ábrák](#egyénileg-összeállított-burkoló-ábrák)_** c. fejezetben érhető el!
 
 <!-- /wp:paragraph -->
 
@@ -419,7 +419,7 @@ Consteelben mind rúdelemekre, mind pedig héjfelületekre elérhető az eredmé
 
 <!-- wp:paragraph -->
 
-A következő eredmény típusok ábrázolhatók burkoló ábrás megjelenítési módban (ld. még az **_[Eredmény típusok](#Result-types)_** alfejezetben található részletes leírást):
+A következő eredmény típusok ábrázolhatók burkoló ábrás megjelenítési módban (ld. még az **_[Eredmény típusok](#eredmény-típusok)_** alfejezetben található részletes leírást):
 
 <!-- /wp:paragraph -->
 

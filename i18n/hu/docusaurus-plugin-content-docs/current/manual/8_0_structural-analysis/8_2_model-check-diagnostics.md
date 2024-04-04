@@ -4,7 +4,7 @@ sidebar_position: 2
 # Modell ellenőrzés (diagnosztika)
 <!-- wp:paragraph {"align":"justify"} -->
 
-A számítások futtatása előtt elvégezhető egy modell ellenőrzés. Az ellenőrzés automatikusan lefut minden végeselem modell generálás és analízis futtatása előtt, de elindítható függetlenül is a modellezés bármelyik fázisában ( a **[Nézet ](/manual/altalanos-ismertetes/a-fokepernyo/#View-menu)** menü „_Diagnosztika…_” funkciójával lehet megjeleníteni a [Diagnosztika ablakot](/manual/altalanos-ismertetes/a-fokepernyo/#Diagnostic-window), ahol a Diagnosztika gombbal indítható). Az automatikusan futó és a felhasználó által indított diagnosztika vizsgálatok nem teljesen egyeznek meg egymással.
+A számítások futtatása előtt elvégezhető egy modell ellenőrzés. Az ellenőrzés automatikusan lefut minden végeselem modell generálás és analízis futtatása előtt, de elindítható függetlenül is a modellezés bármelyik fázisában ( a **[Nézet ](../1_0_general-description/1_2_the-main-window.md#nézet-menü)** menü „_Diagnosztika…_” funkciójával lehet megjeleníteni a [Diagnosztika ablakot](../1_0_general-description/1_2_the-main-window.md#diagnosztika-ablak), ahol a Diagnosztika gombbal indítható). Az automatikusan futó és a felhasználó által indított diagnosztika vizsgálatok nem teljesen egyeznek meg egymással.
 
 <!-- /wp:paragraph -->
 
@@ -57,7 +57,7 @@ Az alábbi számítás előtti ellenőrzések kerülnek elvégzésre:
 - pontbeli terhek és támaszok a szerkezeten vannak e
 - felületi elemek átlapolása
 - rúdelemek átlapolása
-- nagyon kis távolság (&lt;5 mm) a felületek, rudak, terhek, támaszok pontjai és vonalai között (a határtávolságok az _[Opciók](/manual/altalanos-ismertetes/a-fokepernyo/#Options-menu)_ menüben állíthatók)
+- nagyon kis távolság (&lt;5 mm) a felületek, rudak, terhek, támaszok pontjai és vonalai között (a határtávolságok az _[Opciók](../1_0_general-description/1_2_the-main-window.md#opciók-menü)_ menüben állíthatók)
 
 <!-- /wp:list -->
 
