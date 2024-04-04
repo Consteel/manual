@@ -394,7 +394,7 @@ A _Nyírási merevítők_ (#3) mezőben nyírási merevítő helyezhető el az o
 
 <!-- wp:paragraph -->
 
-**Csomóponti terhek**
+#### **Csomóponti terhek**
 
 <!-- /wp:paragraph -->
 
@@ -412,7 +412,7 @@ A csomóponti fa _Csomóponti terhek_ elemének kiválasztása után megadhatók
 
 <!-- wp:paragraph -->
 
-A _Csomóponti terhek megadásának módja_ (#1) című mezőben választható ki, hogy a terheket kézzel, vagy a modellből importálva visszük-e be a csomópontba. Importálás csak abban az esetben lehetséges, ha a csomópont legalább egy helyen _**[el van helyezve](#csomópont-elhelyezése-consteel-modellen)**_ a 3D modellben, és az analízis eredményei rendelkezésre állnak.
+A _Csomóponti terhek megadásának módja_ (#1) című mezőben választható ki, hogy a terheket kézzel, vagy a modellből importálva visszük-e be a csomópontba. Importálás csak abban az esetben lehetséges, ha a csomópont legalább egy helyen _**[el van helyezve](#csomóponti-terhek)**_ a 3D modellben, és az analízis eredményei rendelkezésre állnak.
 
 <!-- /wp:paragraph -->
 

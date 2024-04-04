@@ -210,7 +210,7 @@ A választott módszer, valamint a szükséges vagy választható paraméterek a
 ![](./img/wp-content-uploads-2021-04-warning_croc.png)
 
 
-A névleges merevségen alapuló módszer alkalmazásához és a névleges görbületen alapuló módszer automatikus opciójához a megfelelő globális imperfekciók definiálására lehet szükség. (lásd **_[6.4. Globális imperfekciók](../6_0_structural-loads/6_4_global-imperfections.md_**)
+A névleges merevségen alapuló módszer alkalmazásához és a névleges görbületen alapuló módszer automatikus opciójához a megfelelő globális imperfekciók definiálására lehet szükség, lásd [**6.4. Globális imperfekciók**](../6_0_structural-loads/6_4_global-imperfections.md**).
 
 
 A vasbeton oszlop tervezés az **Eurocode 1992-1-1** következő vizsgálatait hajtja végre:
