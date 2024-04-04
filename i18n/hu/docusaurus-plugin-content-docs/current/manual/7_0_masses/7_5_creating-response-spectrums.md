@@ -208,6 +208,6 @@ A spektrum betöltése után már a spektrum bármely paramétere módosítható
 
 <!-- wp:paragraph -->
 
-A funkciók használata megegyezik a fenti **_[Egyedi válaszspektrum kézi felvétele (7.5.2.1)](/manual/tomegek/valaszspektrum-felvetele/#Manual-definition-of-response-spectrum)_** alfejezetben leírtakkal.
+A funkciók használata megegyezik a fenti **_[Egyedi válaszspektrum kézi felvétele ](#egyedi-válaszspektrum-kézi-felvétele)_** alfejezetben leírtakkal.
 
 <!-- /wp:paragraph -->

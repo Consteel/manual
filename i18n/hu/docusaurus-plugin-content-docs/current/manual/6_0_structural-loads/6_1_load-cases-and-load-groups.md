@@ -67,7 +67,7 @@ A létrehozott tehercsoportok és teheresetek a párbeszédpanel bal oldalán ta
 
 <!-- wp:paragraph -->
 
-Az **_Új tehercsoport_** gomb megnyomásával láthatóvá válnak a szabványos tehercsoportok. A lista a választott [tervezési szabványtól](/manual/altalanos-ismertetes/a-fokepernyo/#Standards-menu) függ. A tehercsoport kiválasztásával létrehozható az új csoport.
+Az **_Új tehercsoport_** gomb megnyomásával láthatóvá válnak a szabványos tehercsoportok. A lista a választott [tervezési szabványtól](../1_0_general-description/1_2_the-main-window.md#a-menü) függ. A tehercsoport kiválasztásával létrehozható az új csoport.
 
 <!-- /wp:paragraph -->
 

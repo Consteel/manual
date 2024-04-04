@@ -5,7 +5,7 @@ sidebar_position: 2
 
 <!-- wp:paragraph -->
 
-Tömegkombinációk megadása funkció (![](./img/wp-content-uploads-2021-04-cmd_masscombi.png)) teljesen analóg módon működik a **_[Teherkombinációk (6.2 fejezet)](/manual/terhek/teherkombinaciok/)_** megadásánál leírtakkal, annyi különbséggel, hogy tömegkombinációk megadásánál nincs lehetőség automatikusan generált kombinációk létrehozására, így minden egyes kombinációt kézzel kell definiálni. A **Tömegkombinációk** panel 2 nagyobb egységből tevődik össze:
+Tömegkombinációk megadása funkció (![](./img/wp-content-uploads-2021-04-cmd_masscombi.png)) teljesen analóg módon működik a **_[Teherkombinációk](../6_0_structural-loads/6_2_load-combinations.md)_** megadásánál leírtakkal, annyi különbséggel, hogy tömegkombinációk megadásánál nincs lehetőség automatikusan generált kombinációk létrehozására, így minden egyes kombinációt kézzel kell definiálni. A **Tömegkombinációk** panel 2 nagyobb egységből tevődik össze:
 
 <!-- /wp:paragraph -->
 
