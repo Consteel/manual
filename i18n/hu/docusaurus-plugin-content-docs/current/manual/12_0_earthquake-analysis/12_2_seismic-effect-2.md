@@ -11,7 +11,7 @@ A Tömegek fülön található **Földrengés hatás** (![](./img/wp-content-upl
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Földregés hatás definiálásához már létrehozott tömegkombináció és válaszspektrum szükséges (lásd **[7. ](/manual/tomegek/)**_[Tömegek](/manual/tomegek c. fejezetet_)!
+Földregés hatás definiálásához már létrehozott tömegkombináció és válaszspektrum szükséges ( lásd [**Tömegek**](../../category/masses) c. fejezetet)!
 
 <!-- /wp:paragraph -->
 
@@ -50,7 +50,7 @@ A _Beállítások_ (#1) mezőben lehet megadni az földrengés analízis legfőb
 
 - _Tömegkombináció:_ meg kell adni, hogy a Modális válaszspektrum-analízishez szükséges dinamikai alakok számításához melyik tömegkombinációt használja a program. A legördülő menüből bármely, előzőleg már definiált tömeg kombináció kiválasztható.  
   **A földrengés analízis csak erre a kiválasztott tömegkombinációra fog futni!**
-- _Számítási mód:_ a legördülő menü segítségével kiválasztható a használni kívánt számítási mód. A számítási módok leírását és összehasonlítását lásd a **[Földrengés analízis lépései](/manual/foldrenges-analizis/foldrenges-analizis-lepesei/)** c. fejezetben!
+- _Számítási mód:_ a legördülő menü segítségével kiválasztható a használni kívánt számítási mód. A számítási módok leírását és összehasonlítását lásd a **[Földrengés analízis lépései](./12_1_steps-of-the-seismic-analysis.md)** c. fejezetben!
 - _Szerkezet fő teherviselési iránya az X tengelytől:_ a szerkezet fő teherviselési iránya megadható a fekete nyíl gomb (![](./img/wp-content-uploads-2021-04-ico-pointer.png)) megnyomásával a modelltérben egy irányvektorral, vagy a globális X tengelytől fokban. A megadott irányba lesz értelmez a földrengés hatás 1-es iránya, a q1 tényező, illetve erre merőlegesen a földrengés hatás 2-es iránya és a q2 tényező
 
 <!-- /wp:list -->
@@ -95,7 +95,7 @@ A válaszspektrumok kezelése a tervezési és a használhatósági határállap
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-A három pontos (![](./img/wp-content-uploads-2021-04-13-3-1-3buttons.png)) gombra kattintva megnyitható és megtekinthető a kiválasztott válaszspektrum, vagy _[új spektrum hozható létre.](/hu/manual/tomegek/valaszspektrum-felvetele/)_
+A három pontos (![](./img/wp-content-uploads-2021-04-13-3-1-3buttons.png)) gombra kattintva megnyitható és megtekinthető a kiválasztott válaszspektrum, vagy _[új spektrum hozható létre.](../7_0_masses/7_5_creating-response-spectrums.md)_
 
 <!-- /wp:paragraph -->
 
@@ -176,7 +176,7 @@ A _Csavaró és másodrendű hatásoknál figyelembe vett szintek_ (#1) mezőben
 
 <!-- wp:paragraph -->
 
-A táblázat a _**[Részlet kezelőben](/hu/manual/modell-nezet/reszlet-kezelo/)**_ már előzőleg létrehozott szinteket tartalmazza. A szintek nevei előtt található jelölő négyzetek bepipálásával lehet kiválasztani, a számítás során figyelembe veendő épület szinteket.
+A táblázat a _**[Részlet kezelőben](../3_0_model-view/3_3_portions-manager.md)**_ már előzőleg létrehozott szinteket tartalmazza. A szintek nevei előtt található jelölő négyzetek bepipálásával lehet kiválasztani, a számítás során figyelembe veendő épület szinteket.
 
 <!-- /wp:paragraph -->
 
