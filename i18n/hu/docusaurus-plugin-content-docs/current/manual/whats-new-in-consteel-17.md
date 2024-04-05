@@ -16,7 +16,7 @@ sidebar_position: 2
 
 <!-- wp:paragraph -->
 
-Az ügyfeleink igényeinek kielégítése érdekében létrehoztunk egy gyűjteményt a gyakran használt részlet kategóriákból és kifejlesztettünk egy új automata részletmodell funkciót a meglévő funkció mellé. Az [automata részletmodell](https://www.consteelsoftware.com/hu/manual/modell-nezet/reszlet-kezelo/) automatikusan generál részleteket az alábbi kategóriák alapján csoportosítva: szelvényük, anyagminőségük, térbeli elhelyezkedésük és legnagyobb kihasználtságuk alapján rúdelemek, valamint vastagságuk, anyagminőségük és elhelyezkedésük alapján lemezelemek esetén. Az automata részletek mindig frissülnek a modell állapotának megfelelően és a kézi részletekkel együtt is használhatóak.
+Az ügyfeleink igényeinek kielégítése érdekében létrehoztunk egy gyűjteményt a gyakran használt részlet kategóriákból és kifejlesztettünk egy új automata részletmodell funkciót a meglévő funkció mellé. Az [automata részletmodell](../manual/3_0_model-view/3_3_portions-manager.md) automatikusan generál részleteket az alábbi kategóriák alapján csoportosítva: szelvényük, anyagminőségük, térbeli elhelyezkedésük és legnagyobb kihasználtságuk alapján rúdelemek, valamint vastagságuk, anyagminőségük és elhelyezkedésük alapján lemezelemek esetén. Az automata részletek mindig frissülnek a modell állapotának megfelelően és a kézi részletekkel együtt is használhatóak.
 
 <!-- /wp:paragraph -->
 
@@ -28,7 +28,7 @@ Az ügyfeleink igényeinek kielégítése érdekében létrehoztunk egy gyűjtem
 
 <!-- wp:paragraph -->
 
-A húzott rúd elemek speciális nemlineáris viselkedése problémákat okozhat a lineáris számításokban. Ezen kihívások kezelésére bevezettünk egy új fejlesztést. A legújabb frissítéssel a felhasználó most már a [Húzott rúd](https://www.consteelsoftware.com/hu/manual/szerkezetmodellezes/rudelemek#Xbrace) (pótátlós merevítés) végeselem típust állíthat be ezeknek az elemeknek. Az így megjelölt elemek a rugalmas sajátérték számításhoz szükséges linearizálás miatt, mint húzott-nyomott elemek lesznek figyelembevéve, 50%-ra csökkentett keresztmetszeti jellemzőkkel.
+A húzott rúd elemek speciális nemlineáris viselkedése problémákat okozhat a lineáris számításokban. Ezen kihívások kezelésére bevezettünk egy új fejlesztést. A legújabb frissítéssel a felhasználó most már a [Húzott rúd](../manual/5_0_structural-modeling/5_2_line-members.md#rúdelemek) (pótátlós merevítés) végeselem típust állíthat be ezeknek az elemeknek. Az így megjelölt elemek a rugalmas sajátérték számításhoz szükséges linearizálás miatt, mint húzott-nyomott elemek lesznek figyelembevéve, 50%-ra csökkentett keresztmetszeti jellemzőkkel.
 
 <!-- /wp:paragraph -->
 
@@ -40,7 +40,7 @@ A húzott rúd elemek speciális nemlineáris viselkedése problémákat okozhat
 
 <!-- wp:paragraph -->
 
-A teherátadó [felületi teher](https://www.consteelsoftware.com/hu/manual/terhek/tehertipusok/#TAF) szétosztásának javítása érdekében most már a felhasználók képesek szerkeszteni a keletkező vonalmenti terhek tulajdonságait azoknak a felületi teherről való leválasztása után. Ezenkívül a felhasználók szabályozhatják a vonalmenti terhek újragenerálását.
+A teherátadó [felületi teher](../manual/6_0_structural-loads/6_3_load-types.md#felület-teher) szétosztásának javítása érdekében most már a felhasználók képesek szerkeszteni a keletkező vonalmenti terhek tulajdonságait azoknak a felületi teherről való leválasztása után. Ezenkívül a felhasználók szabályozhatják a vonalmenti terhek újragenerálását.
 
 <!-- /wp:paragraph -->
 
@@ -52,7 +52,7 @@ A teherátadó [felületi teher](https://www.consteelsoftware.com/hu/manual/terh
 
 <!-- wp:paragraph -->
 
-A [tervezési eredmények](https://www.consteelsoftware.com/hu/manual/szabvanyos-tervezes/acelszerkezet-tervezes/#Eredmenyek) megjelenítését és kezelését módosítottuk a felhasználói igényeknek megfelelően. Összevontuk az ULS és az SLS vizsgálatok végrehajtását és az eredmények megjelenítését. Ennek megfelelően a mértékadó tervezési eredmények közvetlenül elérhetőek az összes határállapot figyelembevételével. Ezenkívül minden teherkombinációból az összes kihasználtság mentésre került és megjeleníthető, lehetővé téve a szerkezet megfelelőségének részletesebb vizsgálatát.
+A [tervezési eredmények](../manual/9_0_standard-design/9_1_steel-design.md#eredmények) megjelenítését és kezelését módosítottuk a felhasználói igényeknek megfelelően. Összevontuk az ULS és az SLS vizsgálatok végrehajtását és az eredmények megjelenítését. Ennek megfelelően a mértékadó tervezési eredmények közvetlenül elérhetőek az összes határállapot figyelembevételével. Ezenkívül minden teherkombinációból az összes kihasználtság mentésre került és megjeleníthető, lehetővé téve a szerkezet megfelelőségének részletesebb vizsgálatát.
 
 <!-- /wp:paragraph -->
 
@@ -64,7 +64,7 @@ A [tervezési eredmények](https://www.consteelsoftware.com/hu/manual/szabvanyos
 
 <!-- wp:paragraph -->
 
-A szoftverek közötti interakciók lehetőségeinek bővülése egy SDK alapú környezet bevezetésével valósult meg, melynek segítségével mind a Consteellel, mind a Steelspace-szel kompatibilis általános formátumba (.smadsteel) való konverzió vált lehetővé. Az új környezetben először az [AXISVM](https://www.consteelsoftware.com/hu/manual/axisvm-konverter-2/) szerkezeti analízis szoftverhez került kifejlesztésre egy plugin. Ezzel a megközelítéssel az AXISVM modellek most már konvertálhatók .smadsteel formátumba, lehetővé téve azok megnyitását a Consteelben. A konverzió nem csak geometriai és szelvény adatokra, hanem mechanikai objektumokra (támaszok, kényszerek stb.), terhekre és teherkombinációkra is kiterjed. A környezet továbbá lehetőséget teremt különböző szintű szelvény és anyag konverzióra, valamint az folyamat sikerességéről szóló átfogó dokumentáció elkészítésére, mely magában foglalja a problémás modellobjektumok vizualizációját is.
+A szoftverek közötti interakciók lehetőségeinek bővülése egy SDK alapú környezet bevezetésével valósult meg, melynek segítségével mind a Consteellel, mind a Steelspace-szel kompatibilis általános formátumba (.smadsteel) való konverzió vált lehetővé. Az új környezetben először az [AXISVM](../plugins/axis/axisvm-plugin.md) szerkezeti analízis szoftverhez került kifejlesztésre egy plugin. Ezzel a megközelítéssel az AXISVM modellek most már konvertálhatók .smadsteel formátumba, lehetővé téve azok megnyitását a Consteelben. A konverzió nem csak geometriai és szelvény adatokra, hanem mechanikai objektumokra (támaszok, kényszerek stb.), terhekre és teherkombinációkra is kiterjed. A környezet továbbá lehetőséget teremt különböző szintű szelvény és anyag konverzióra, valamint az folyamat sikerességéről szóló átfogó dokumentáció elkészítésére, mely magában foglalja a problémás modellobjektumok vizualizációját is.
 
 <!-- /wp:paragraph -->
 
@@ -84,17 +84,17 @@ Ahogy egyre nagyobb népszerűségnek örvend a szkriptnyelvünk, egyre több k�
 
 A felhasználóink kéréseire válaszul ez a verzió több fejlesztést tartalmaz, mely könnyíti a Consteel használatát:
 
-- kiválasztott elemek [elrejtése](https://www.consteelsoftware.com/hu/manual/modell-nezet/modell-nezetek/#elrejtes)
+- kiválasztott elemek [elrejtése](../manual/3_0_model-view/3_1_model-views.md#modell-nézetek))
 
-- [másolás és mozgatás](https://www.consteelsoftware.com/hu/manual/altalanos-ismertetes/#oldalsav) funkció szétválasztása
+- [másolás és mozgatás](../manual/1_0_general-description/1_2_the-main-window.md#oldalsáv) funkció szétválasztása
 
-- [anyagminőség](https://www.consteelsoftware.com/hu/manual/szerkezetmodellezes/szelvenykezelo/) módosítása egyszerre több acélszelvényre
+- [anyagminőség](../manual/5_0_structural-modeling/5_1_section-administration.md#szelvénykezelő) módosítása egyszerre több acélszelvényre
 
-- [rúdelemeken](https://www.consteelsoftware.com/hu/manual/altalanos-ismertetes/a-fokepernyo/#obtul) színezett kezdő és végpontok
+- [rúdelemeken](../manual/1_0_general-description/1_2_the-main-window.md#fülek) színezett kezdő és végpontok
 
-- gyors [kiválasztás](https://www.consteelsoftware.com/hu/manual/modell-nezet/kijeloles/) tulajdonság alapján duplaklikkel az objektum tulajdonság ablakban
+- gyors [kiválasztás](../manual/3_0_model-view/3_1_model-views.md) tulajdonság alapján duplaklikkel az objektum tulajdonság ablakban
 
-- szerkezeti elem kijelölése analízis vagy szabványos tervezési [eredmény táblázatból](https://www.consteelsoftware.com/hu/manual/szabvanyos-tervezes/acelszerkezet-tervezes/#Eredmenyek)
+- szerkezeti elem kijelölése analízis vagy szabványos tervezési [eredmény táblázatból](../manual/9_0_standard-design/9_1_steel-design.md#eredmények)
 
 ## **Részletes modellösszehasonlítás**
 
