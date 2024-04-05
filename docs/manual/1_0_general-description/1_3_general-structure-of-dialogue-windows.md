@@ -3,7 +3,7 @@ sidebar_position: 3
 ---
 # General structure of dialogue windows
 
-Several dialogue windows – especially the most important ones on the **Structural members** and **Loads **tabs – show the same structure in order to make the orientation in the labyrinth of tools and functions easy. The usual parts of these dialogues are described below:
+Several dialogue windows – especially the most important ones on the **Structural members** and **Loads** tabs – show the same structure in order to make the orientation in the labyrinth of tools and functions easy. The usual parts of these dialogues are described below:
 
 <!-- /wp:paragraph -->
 

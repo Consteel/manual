@@ -91,7 +91,7 @@ Installation needs administrative or power user rights. Without that, the hard l
 
 <!-- wp:paragraph -->
 
-**Downloading the install package**
+#### **Downloading the install package**
 
 <!-- /wp:paragraph -->
 
@@ -151,7 +151,7 @@ To install Consteel, start the downloaded installation file and follow the instr
 
 <!-- wp:paragraph -->
 
-**Network operation**
+#### **Network operation**
 
 <!-- /wp:paragraph -->
 
@@ -193,13 +193,13 @@ After Consteel 15 Update 6 release, the hardlock driver is removed from the inst
 
 <!-- wp:paragraph -->
 
-**Starting the program**
+#### **Starting the program**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-There are differences between in starting Consteel 14 and Consteel 15, therefore we describe the two versions separately. To see the Consteel 14 version description, [click here](#cs14start).
+There are differences between in starting Consteel 14 and Consteel 15, therefore we describe the two versions separately. To see the Consteel 14 version description, [click here](#starting-consteel-14).
 
 <!-- /wp:paragraph -->
 
@@ -261,7 +261,7 @@ Online license
 
 <!-- wp:paragraph -->
 
-**Selecting USB Dongle**
+#### **Selecting USB Dongle**
 
 <!-- /wp:paragraph -->
 
@@ -273,13 +273,13 @@ Before starting the program, you must plug the hardware key (dongle) into an emp
 
 <!-- wp:paragraph -->
 
-**Selecting Online**
+#### **Selecting Online**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-You will need to log in with your online account to use Consteel with your online protection. If you are on a Personal plan you can choose the available seat then start Consteel. In the Team plan, each software seat comes with two software accesses by default, but more software accesses can be requested for an additional fee if required. Therefore, if you are on a Team plan, you can select from different seats if your license holder has been given access to multiple seats. For more information about how to give access to seats: read [here](#endusermanagement).
+You will need to log in with your online account to use Consteel with your online protection. If you are on a Personal plan you can choose the available seat then start Consteel. In the Team plan, each software seat comes with two software accesses by default, but more software accesses can be requested for an additional fee if required. Therefore, if you are on a Team plan, you can select from different seats if your license holder has been given access to multiple seats. For more information about how to give access to seats: read [here](#end-user-management-tool-for-teams).
 
 <!-- /wp:paragraph -->
 
@@ -317,7 +317,7 @@ Seat selection
 
 <!-- wp:paragraph -->
 
-**End-user management tool for teams**
+#### **End-user management tool for teams**
 
 <!-- /wp:paragraph -->
 
@@ -367,7 +367,7 @@ Subscription plan information and end-user management
 
 <!-- wp:paragraph -->
 
-**Project Center**
+#### **Project Center**
 
 <!-- /wp:paragraph -->
 
@@ -417,7 +417,7 @@ Learning Center
 
 <!-- wp:paragraph -->
 
-**Opening models**
+#### **Opening models**
 
 <!-- /wp:paragraph -->
 
@@ -429,7 +429,7 @@ To access your models from your computer just click the "Open from Computer" but
 
 <!-- wp:paragraph -->
 
-**Cloud open**
+#### **Cloud open**
 
 <!-- /wp:paragraph -->
 
@@ -479,7 +479,7 @@ When you open a model from the cloud it is always downloaded to the local device
 
 <!-- wp:paragraph -->
 
-**Starting Consteel 14**
+#### **Starting Consteel 14**
 
 <!-- /wp:paragraph -->
 

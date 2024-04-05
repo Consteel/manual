@@ -32,10 +32,10 @@ The Consteel window consists of seven separate parts containing different functi
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-The structural model appears always in the graphical window. There are no other window opening options; however, there are lots of viewing possibilities in this single window. The graphical window supports the modeling by the global coordinate system (_GCS_) and a moveable, rotatable, and size adjustable grid. The [_**coordinate system**_](/manual/drawing-geometry/coordinate-systems/) at the left bottom corner denotes always the unchangeable _GCS_; the origin of the [_**user coordinate system (UCS)**_](/manual/drawing-geometry/coordinate-systems/#User-coordinate-system) takes place at the middle point of the grid which is always the plane “XY” of the _UCS_. The following moving possibilities and quick view settings can be used during the structural model manipulation:
+The structural model appears always in the graphical window. There are no other window opening options; however, there are lots of viewing possibilities in this single window. The graphical window supports the modeling by the global coordinate system (_GCS_) and a moveable, rotatable, and size adjustable grid. The [_**coordinate system**_](../4_0_drawing-geometry/4_1_coordinate-systems.md) at the left bottom corner denotes always the unchangeable _GCS_; the origin of the [_**user coordinate system (UCS)**_](../4_0_drawing-geometry/4_1_coordinate-systems.md#user-coordinate-system) takes place at the middle point of the grid which is always the plane “XY” of the _UCS_. The following moving possibilities and quick view settings can be used during the structural model manipulation:
 
 - **Move**: push and hold down the middle mouse button or use the four arrow buttons on the keyboard to move the model on the screen
-- **Rotate**: hold down the **_Alt _** key and the left mouse button. The center of rotation is always adapting the actual model view
+- **Rotate**: hold down the **_Alt_** key and the left mouse button. The center of rotation is always adapting the actual model view
 - **Scaling**: spin the middle mouse button forth and back or use the **_+_** and **_-_** buttons on the keyboard or hold down the Alt key and the right mouse button
 - **Zoom window**: window drawing by the left mouse button, while pressing **_Shift+Alt_** keys
 - **Hotkeys for views**:
@@ -54,7 +54,7 @@ The structural model appears always in the graphical window. There are no other 
 
 <!-- wp:paragraph -->
 
-The _ConSteel \_menu does not contain many commands since the main functionality is placed to the structured tabs and to the side bars, and the applicability and modeling efficiency does not really need to duplicate the functions. However, six important function groups appear here: [\*\*\_File_** ](#File-menu)handling, some [**_Edit_** ](#Edit-menu)options (undo-redo), [**_View_** ](#View-menu)and diagnostics, **_[Options ](#Options-menu)_**for settings (for saving, updating, selecting language, and for model diagnostics), **_[Standards ](#Standards-menu)_**for reviewing and defining standard parameters for design and **_[Help](#Help-menu)_\*\*.
+The _ConSteel_ menu does not contain many commands since the main functionality is placed to the structured tabs and to the side bars, and the applicability and modeling efficiency does not really need to duplicate the functions. However, six important function groups appear here: [**_File_** ](#file-menu)handling, some [**_Edit_** ](#edit-menu)options (undo-redo), [**_View_** ](#view-menu)and diagnostics, [**_Options_**](#options-menu) for settings (for saving, updating, selecting language, and for model diagnostics), [**_Standards_** ](#standards-menu)for reviewing and defining standard parameters for design and **_[Help](#help-menu)_**.
 
 <!-- /wp:paragraph -->
 
@@ -172,7 +172,7 @@ _Open from Cloud_ (Beta) (CS15)
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-Open your cloud storage. Cloud functions are provided by the Steelspace platform. See more: _[Open from Cloud](https://consteelsoftware.com/manual/how-to-open-consteel/installing-and-running-the-software/#cs15cloudopen)_
+Open your cloud storage. Cloud functions are provided by the Steelspace platform. See more: _[Open from Cloud](./1_1_installing-and-running-the-software.md#cloud-open)_
 
 <!-- /wp:paragraph -->
 
@@ -214,7 +214,7 @@ Choosing the Local computer, the common dialogue of Windows will open.
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-Choosing the Cloud (Beta), the cloud model directory powered by Steelspace will open where you can save your model. See more: [Cloud save](https://consteelsoftware.com/manual/file-handling/cloud-save-and-sharing-models/#cs15cloudsave)
+Choosing the Cloud (Beta), the cloud model directory powered by Steelspace will open where you can save your model. See more: [Cloud save](../2_0_file-handling/2_2_cloud-save-and-sharing-models.md#cloud-save-and-sharing-models)
 
 <!-- /wp:paragraph -->
 
@@ -226,7 +226,7 @@ _Share (Beta)(CS15)_
 
 <!-- wp:paragraph -->
 
-Models saved to the Cloud can be shared with other Consteel users who have an online account. For more details regarding sharing see here: _[Sharing models](https://consteelsoftware.com/manual/file-handling/cloud-save-and-sharing-models/#cs15sharing)_.
+Models saved to the Cloud can be shared with other Consteel users who have an online account. For more details regarding sharing see here: _[Sharing models](../2_0_file-handling/2_2_cloud-save-and-sharing-models.md#sharing-models)_.
 
 <!-- /wp:paragraph -->
 
@@ -238,7 +238,7 @@ _Import_
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-Import menu contains a wide range of import possibilities from the very basic DXF wireframe import to the widespread IFC, furthermore the complex Dlubal and SAP2000 model import including the loadings as well. See more: **_[File handling](/manual/file-handling/)_**.
+Import menu contains a wide range of import possibilities from the very basic DXF wireframe import to the widespread IFC, furthermore the complex Dlubal and SAP2000 model import including the loadings as well. See more: **_[File handling](../../category/file-handling)_**.
 
 <!-- /wp:paragraph -->
 
@@ -256,7 +256,7 @@ _Export_
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-The selected part of the model can be exported to _TEKLA Structures_ or to IFC. In the case of a slab reinforcement result, the colored result view can be exported to DXF format as well. See more: **_[File handling](/manual/file-handling/)_**.
+The selected part of the model can be exported to _TEKLA Structures_ or to IFC. In the case of a slab reinforcement result, the colored result view can be exported to DXF format as well. See more: **_[File handling](../../category/file-handling)_**.
 
 <!-- /wp:paragraph -->
 
@@ -274,7 +274,7 @@ _Update_
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-In the case of a connected Tekla model (previously Tekla import or export is needed), the connected Tekla model can be updated and modified acc. to the actual ConSteel model. See more: **_[Tekla model update](/manual/file-handling/tekla-structures-model-import-export-and-update/#Tekla-update)_**.
+In the case of a connected Tekla model (previously Tekla import or export is needed), the connected Tekla model can be updated and modified acc. to the actual ConSteel model. See more: **_[Tekla model update](../2_0_file-handling/2_3_tekla-structures-model-import-export-and-update.md)_**.
 
 <!-- /wp:paragraph -->
 
@@ -316,7 +316,7 @@ Standard Windows features that do not require special explanation.
 
 <!-- wp:paragraph -->
 
-In addition to the several window options, the **Model content** can be switched _on_ and \_off \_separately from the **Model portions**.
+In addition to the several window options, the **Model content** can be switched _on_ and _off_ separately from the **Model portions**.
 
 <!-- /wp:paragraph -->
 
@@ -365,7 +365,7 @@ With the **Sizes of objects…** function, the size of the model objects can be 
 
 <!-- wp:paragraph -->
 
-**Keep selections of portions **(only from version 17)
+**Keep selections of portions** (only from version 17)
 
 <!-- /wp:paragraph -->
 
@@ -389,13 +389,13 @@ By utilizing the **Keep selection of portions** feature, one can maintain the sa
 
 <!-- wp:paragraph -->
 
-In the pop up Options window the following settings can be found: Save, Update, Language, Background color, Styles, Diagnostics**_, _**and IDEA Statica Interface.
+In the pop up Options window the following settings can be found: Save, Update, Language, Background color, Styles, Diagnostics, and IDEA Statica Interface.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-In the pop up Options window the following settings can be found: Save, Update, Language, Styles, Diagnostics**_, _**and IDEA Statica Interface.
+In the pop up Options window the following settings can be found: Save, Update, Language, Styles, Diagnostics, and IDEA Statica Interface.
 
 <!-- /wp:paragraph -->
 
@@ -497,7 +497,7 @@ _ConSteel_ has to be restarted after changing the interface language.
 
 <!-- wp:paragraph -->
 
-**_Background color_ **_(from **Consteel 16**)_
+**_Background color_** _(from **Consteel 16**)_
 
 <!-- /wp:paragraph -->
 
@@ -527,7 +527,7 @@ _**Styles**_
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-The color of the objects can be changed. - (T*his feature will be discontinued !)*
+The color of the objects can be changed. - (*This feature will be discontinued!*)
 
 <!-- /wp:paragraph -->
 
@@ -548,10 +548,10 @@ _**Diagnostics**_
 Before the analysis, the program checks the model for possible modeling mistakes. Two different levels of modeling mistakes may occur: errors and warnings.
 
 
-- **Error: **if the distance between the finite element nodes of 1D or 2D elements is more than 0 but less than the given value, the program sends an error message and shows with red sign the relevant members in the diagnostics window and does not perform the analysis.
-- **Warning: **if the distance between the finite element nodes of 1D or 2D elements is more than the defined error level distance but less than the given value here, the program sends a warning message, and shows with a yellow sign the relevant members in the diagnostics window.
+- **Error:** if the distance between the finite element nodes of 1D or 2D elements is more than 0 but less than the given value, the program sends an error message and shows with red sign the relevant members in the diagnostics window and does not perform the analysis.
+- **Warning:** if the distance between the finite element nodes of 1D or 2D elements is more than the defined error level distance but less than the given value here, the program sends a warning message, and shows with a yellow sign the relevant members in the diagnostics window.
 
-See more: **_[Model check](/manual/structural-analysis/model-check-diagnostics/)_** and _**[Diagnostic window](#Diagnostic-window)**_
+See more: **_[Model check](../8_0_structural-analysis/8_2_model-check-diagnostics.md#model-check-diagnostics)_** and _**[Diagnostic window](#diagnostic-window)**_
 
 <!-- /wp:paragraph -->
 
@@ -569,13 +569,13 @@ See more: **_[Model check](/manual/structural-analysis/model-check-diagnostics/)
 
 <!-- wp:paragraph -->
 
-From \_Consteel 17 \_this function belongs to the **Model settings **category, together with the **Diagnostics.**
+From _Consteel 17_ this function belongs to the **Model settings** category, together with the **Diagnostics.**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-The **Automatic load distribution **can be switched off to increase the speed of modelling. In general, distribution of surface loads to\*\* **bar members of the **Load Transfer Surfaces** is done automatically by the software and also the redistribution is immediate after any change on the model that indicates it. In case of large models with several LTS's, it can lead to slow model handling. By switching off automatic load distribution for the time of model adjustments, can speed up the process. Please note, that when the function is switched off, the **Distributed Line Loads\*\* will not be valid any more in case of a change of the LTS or the surface load. As a consequence, analysis can not be run in this state of the model. A Diagnostic error will warn you on that. To update the loads according to the new model state, either check in the check-box or click on the Update button appearing with the Diagnostic error.
+The **Automatic load distribution** can be switched off to increase the speed of modelling. In general, distribution of surface loads to bar members of the **Load Transfer Surfaces** is done automatically by the software and also the redistribution is immediate after any change on the model that indicates it. In case of large models with several LTS's, it can lead to slow model handling. By switching off automatic load distribution for the time of model adjustments, can speed up the process. Please note, that when the function is switched off, the **Distributed Line Loads** will not be valid any more in case of a change of the LTS or the surface load. As a consequence, analysis can not be run in this state of the model. A Diagnostic error will warn you on that. To update the loads according to the new model state, either check in the check-box or click on the Update button appearing with the Diagnostic error.
 
 <!-- /wp:paragraph -->
 
@@ -587,7 +587,7 @@ The **Automatic load distribution **can be switched off to increase the speed of
 
 <!-- wp:paragraph -->
 
-_**IDEA StatiCa Interface**_
+#### _**IDEA StatiCa Interface**_
 
 <!-- /wp:paragraph -->
 
@@ -617,7 +617,7 @@ To establish the link between Consteel and IDEA Statica steel connection design 
 
 <!-- wp:paragraph -->
 
-The menu provides an opportunity to view the parameters of the existing standards and to create new ones in an easy way. The used standard can be chosen in the **_[File menu](#File-menu)_** - [**_Model attribute_**](#Model-attribute).
+The menu provides an opportunity to view the parameters of the existing standards and to create new ones in an easy way. The used standard can be chosen in the **_[File menu](#file-menu)_** - **_Model attribute_**.
 
 <!-- /wp:paragraph -->
 
@@ -633,10 +633,10 @@ For creating a new, user defined standard:
 
 
 
-- Press the **New **button at the bottom left corner.
+- Press the **New** button at the bottom left corner.
 
 - Select one of the existing standards from the list.
-  - ![](./img/wp-content-uploads-2021-04-2-2-new-standard.png)
+   ![](./img/wp-content-uploads-2021-04-2-2-new-standard.png)
 - Give a new name to your defined standard and click on the green checkmark.
 - The parameters for the newly defined standard can now be changed.
 
@@ -668,7 +668,7 @@ The user defined standards are saved to the following file: C:\\Users\\%USERNAME
 
 <!-- wp:paragraph -->
 
-The menu is divided into two categories, distinguished by the longitudinal bar as shown in the picture. Information regarding the first part can be found below at Consteel16.\*\*\*\*
+The menu is divided into two categories, distinguished by the longitudinal bar as shown in the picture. Information regarding the first part can be found below at **Consteel16.**
 
 <!-- /wp:paragraph -->
 
@@ -686,7 +686,7 @@ In addition to the already existing functions, with the help of the **Getting St
 
 <!-- wp:paragraph -->
 
-The second category can be accessed by clicking on **Get Support**. The online window opens, and two options will appear. Depending on the issue, users can choose either **Consteel Support-Central **or **Steelspace Support**.
+The second category can be accessed by clicking on **Get Support**. The online window opens, and two options will appear. Depending on the issue, users can choose either **Consteel Support-Central** or **Steelspace Support**.
 
 <!-- /wp:paragraph -->
 
@@ -733,7 +733,7 @@ Help menu
 
 <!-- wp:paragraph -->
 
-(Only from version 15) The menu has been divided into two sections, the first includes links to the [Online Manual](https://consteelsoftware.com/manual/), to the [Descript Manual](https://consteelsoftware.com/manual/descript-cspi/), and to a filtered selection of our [Knowledge Base](https://consteelsoftware.com/knowledgebase/?search=&filters=366,367,399,392,375,372) with tutorials and guides. No need to login to our website as it will be done automatically through Consteel if you use it with online protection.
+(Only from version 15) The menu has been divided into two sections, the first includes links to the [Online Manual](../../manual/intro.md), to the [Descript Manual](../../descript/15_1_introduction/15_1_1_what-is-descript.md), and to a filtered selection of our [Knowledge Base](https://consteelsoftware.com/knowledgebase/?search=&filters=366,367,399,392,375,372) with tutorials and guides. No need to login to our website as it will be done automatically through Consteel if you use it with online protection.
 
 <!-- /wp:paragraph -->
 
@@ -780,7 +780,7 @@ By approaching any of the icons with the cursor, the short name of the function 
 <!-- wp:paragraph -->
 
 It contains all the important CAD drawing and modification functions as well as dimensioning and measuring tools.  
-See the **_[Drawing Geometry](/manual/drawing-geometry/)_** chapter for a detailed description of these functions.
+See the **_[Drawing Geometry](../../category/drawing-geometry)_** chapter for a detailed description of these functions.
 
 <!-- /wp:paragraph -->
 
@@ -799,7 +799,7 @@ See the **_[Drawing Geometry](/manual/drawing-geometry/)_** chapter for a detail
 <!-- wp:paragraph -->
 
 All functions related to structural modeling are included here, such as cross-sections, members, plates and walls, frame corner wizard, diaphragm, and rigid body, supports, and connections, etc. The automatic members to plate conversion function can be also found here.  
-See the **_[Structural modeling](/manual/structural-modelling/)_** chapter for a detailed description of these functions.
+See the **_[Structural modeling](../../category/structural-modeling)_** chapter for a detailed description of these functions.
 
 <!-- /wp:paragraph -->
 
@@ -818,7 +818,7 @@ See the **_[Structural modeling](/manual/structural-modelling/)_** chapter for a
 <!-- wp:paragraph -->
 
 All functions related to creating loads can be found on this tab including load cases, load groups, combinations. The functions of meteorological load generation, crane and train load, and fire effect and protection can also be found here.  
-See the **_[Structural loads ](/manual/structural-loads/)_**chapter for a detailed description of these functions.
+See the **_[Structural loads](../../category/6_0_structural-loads)_** chapter for a detailed description of these functions.
 
 <!-- /wp:paragraph -->
 
@@ -836,8 +836,7 @@ See the **_[Structural loads ](/manual/structural-loads/)_**chapter for a detail
 
 <!-- wp:paragraph -->
 
-Mass cases, mass groups, point masses, response spectrums, and seismic effects can be created on the Mass tab**_._**  
-See the **_[Masses](/manual/masses/)_** chapter for a detailed description of these functions.
+Mass cases, mass groups, point masses, response spectrums, and seismic effects can be created on the Mass tab. See the **_[Masses](../category/masses)_** chapter for a detailed description of these functions.
 
 <!-- /wp:paragraph -->
 
@@ -874,7 +873,7 @@ It contains functions connected with the finite element mesh generation and modi
 <!-- wp:paragraph -->
 
 The types of structural analysis can be set and executed, the results can be viewed and labeled in various forms.  
-See the **_[Structural analysis ](/manual/structural-analysis/)_**chapter for a detailed description of these functions.
+See the **_[Structural analysis](../../category/structural-analysis)_** chapter for a detailed description of these functions.
 
 <!-- /wp:paragraph -->
 
@@ -928,7 +927,7 @@ Both verifications can be done separately by pressing their respective rows (the
 
 <!-- wp:paragraph -->
 
-For more detailed information, please visit the **_[Standard design](/manual/standard-design/)_** chapter.
+For more detailed information, please visit the **_[Standard design](../../category/standard-design)_** chapter.
 
 <!-- /wp:paragraph -->
 
@@ -947,7 +946,7 @@ For more detailed information, please visit the **_[Standard design](/manual/sta
 <!-- wp:paragraph -->
 
 The Global checks tab contains the options and results of possible cross-sections checks as well as the global buckling standard checks.  
-See the **_[Standard design](/manual/standard-design/)_** chapter for a detailed description of these functions.
+See the **_[Standard design](../../category/standard-design)_** chapter for a detailed description of these functions.
 
 <!-- /wp:paragraph -->
 
@@ -966,7 +965,7 @@ See the **_[Standard design](/manual/standard-design/)_** chapter for a detailed
 <!-- wp:paragraph -->
 
 Steel member design related checks functions (buckling, lateral-torsional buckling, and interaction stability) and the composite beam design related functions can be found on the Member design tab.  
-See the **_[Member checks](/manual/standard-design/steel-design/#member-checks)_** chapter for a detailed description of these functions.
+See the **_[Member checks](../9_0_standard-design/9_1_steel-design.md#member-checks)_** chapter for a detailed description of these functions.
 
 <!-- /wp:paragraph -->
 
@@ -985,7 +984,7 @@ See the **_[Member checks](/manual/standard-design/steel-design/#member-checks)_
 <!-- wp:paragraph -->
 
 All serviceability related functions (horizontal and vertical deflection checks) can be found on the Serviceability checks tab.  
-See the **_[Serviceability checks](/manual/standard-design/serviceability-checks/)_** chapter for a detailed description of these functions.
+See the **_[Serviceability checks](../9_0_standard-design/9_4_serviceability-checks.md)_** chapter for a detailed description of these functions.
 
 <!-- /wp:paragraph -->
 
@@ -1003,7 +1002,7 @@ See the **_[Serviceability checks](/manual/standard-design/serviceability-checks
 
 <!-- wp:paragraph -->
 
-It provides functions for adjusting the layer properties. More info: **_[Layers](/manual/drawing-geometry/layers/)_**
+It provides functions for adjusting the layer properties. More info: **_[Layers](../4_0_drawing-geometry/4_4_layers.md)_**
 
 <!-- /wp:paragraph -->
 
@@ -1040,7 +1039,7 @@ It provides functions for adjusting the layer properties. More info: **_[Layers]
 <!-- wp:paragraph -->
 
 The functions of the Document tab allow the flexible creation of a detailed statical documentation and contain a model information tool.  
-For detailed description see chapter: [_**Documentation**_](/manual/documentation/)
+For detailed description see chapter: [_**Documentation**_](../13_0_documentation-2/13_1_the-document-tab.md)
 
 <!-- /wp:paragraph -->
 
@@ -1064,7 +1063,7 @@ For detailed description see chapter: [_**Documentation**_](/manual/documentatio
 
 <!-- wp:paragraph -->
 
-Clicking on the question mark icon provides access to the same Help page as described in the[ **Help menu.**](#helpmenu)
+Clicking on the question mark icon provides access to the same Help page as described in the[ **Help menu.**](#help-menu)
 
 <!-- /wp:paragraph -->
 
@@ -1264,7 +1263,7 @@ _Fit view (Ctrl+0)_
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-At the bottom left of the screen, the **Descript **control panel can be found. **Descript **is a programming interface of ConSteel, with which parametric models can be built. Almost all of the structural objects which can be found in ConSteel can be created through Descript, and all of the parameters of these objects are available to set from Descript. Please see **[Chapter 16 Descript-ConSteel Programming Interface](/manual/descript-cspi/)** to know more!
+At the bottom left of the screen, the **Descript** control panel can be found. **Descript** is a programming interface of ConSteel, with which parametric models can be built. Almost all of the structural objects which can be found in ConSteel can be created through Descript, and all of the parameters of these objects are available to set from Descript. Please see **[Chapter 16 Descript-ConSteel Programming Interface](../../descript/15_1_introduction/15_1_1_what-is-descript.md)** to know more!
 
 <!-- /wp:paragraph -->
 
@@ -1298,13 +1297,13 @@ The next 3 icons on the status bar ( ![](./img/wp-content-uploads-2021-04-2-2-6-
 
 <!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-Coordinates can be entered in the ![](./img/wp-content-uploads-2021-04-2-2-6-status-bar3.png) **Global **(GCS), or in the ![](./img/wp-content-uploads-2021-04-2-2-6-status-bar4.png) **User** (UCS) coordinate system.
+Coordinates can be entered in the ![](./img/wp-content-uploads-2021-04-2-2-6-status-bar3.png) **Global** (GCS), or in the ![](./img/wp-content-uploads-2021-04-2-2-6-status-bar4.png) **User** (UCS) coordinate system.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-The entered value can be an ![](./img/wp-content-uploads-2021-04-2-2-6-status-bar5.png) **Absolute **value measured from the origin of the coordinate system or a ![](./img/wp-content-uploads-2021-04-2-2-6-status-bar6.png) **Relative** one measured from the ![](./img/wp-content-uploads-2021-04-Insertion-point.png) insertion point ( the yellow dot in the model space).
+The entered value can be an ![](./img/wp-content-uploads-2021-04-2-2-6-status-bar5.png) **Absolute** value measured from the origin of the coordinate system or a ![](./img/wp-content-uploads-2021-04-2-2-6-status-bar6.png) **Relative** one measured from the ![](./img/wp-content-uploads-2021-04-Insertion-point.png) insertion point ( the yellow dot in the model space).
 
 <!-- /wp:paragraph -->
 
@@ -1458,7 +1457,7 @@ You can also open the window from the View menu. For more information, visit the
 
 (Description of the switches in order from the upper left corner to the lower right.)
 
-- Show finite element point numbering (visible only on the Finite element\*\* **and Analysis** \*\*tabs)
+- Show finite element point numbering (visible only on the **Finite element** and **Analysis** tabs)
 - Show bar member names
 - Show shell member (plates, slabs and walls)
 - Show support names
@@ -1538,7 +1537,7 @@ You can also open the window from the View menu. For more information, visit the
 <!-- wp:list {"className":"is-style-arrow"} -->
 
 - Colors of members according to the default settings (layer styles)
-- Colors of members according to the section colors (see _**[Section administration](/manual/section-module/section-administration/)**_ for information on how to change colors.)
+- Colors of members according to the section colors (see _**[Section administration](../10_0_section-module/10_1_section-modelling.md)**_ for information on how to change colors.)
 
 <!-- wp:heading {"level":4} -->
 
@@ -1620,7 +1619,7 @@ The last field of the Status bar is the STEP field. Here the given number in mm 
 
 <!-- wp:paragraph -->
 
-The visibility of the additional windows can be switched ON / OFF in the [_**View menu**_](#View-menu). Some of this windows is turned ON by default, and all of them has a default position that can be changed with drag&drop operations. The windows can be floating or docked to any side of the Consteel main window.
+The visibility of the additional windows can be switched ON / OFF in the [_**View menu**_](#view-menu). Some of this windows is turned ON by default, and all of them has a default position that can be changed with drag&drop operations. The windows can be floating or docked to any side of the Consteel main window.
 
 <!-- /wp:paragraph -->
 
@@ -1656,7 +1655,7 @@ The default position of the **Model portions** window is in the upper right corn
 
 <!-- wp:paragraph -->
 
-For detailed description see [**Model Views**](/manual/model-view/model-views/), and [**Portions Manager**](/manual/model-view/portions-manager/) chapters!
+For detailed description see [**Model Views**](../3_0_model-view/3_1_model-views.md), and [**Portions Manager**](../3_0_model-view/3_3_portions-manager.md) chapters!
 
 
 **Model Content** tab (Ctrl+Q)
@@ -1677,7 +1676,7 @@ The **Model Content** tab contains all the predefined basic object types which c
 
 <!-- wp:paragraph -->
 
-See more in the [**_Selection_**](/manual/model-view/selection/) chapter and at _Consteel 16._
+See more in the [**_Selection_**](../3_0_model-view/3_2_selection.md) chapter and at _Consteel 16._
 
 <!-- /wp:paragraph -->
 
@@ -1719,7 +1718,7 @@ The default position of the Object tree window is in the upper right corner. It 
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-By default, the Model Content tab contains all the predefined basic object types which can be used to build up a structural model. While modeling, each new object (materials, sections, loads, members, supports etc.) will appear in the tree object structure in the appropriate group. Selecting any of the objects, it will be highlighted (selected) in the model graphic. Multiple selections of objects are possible in this tree. See more in the [**_Selection_**](/manual/model-view/selection/) chapter.
+By default, the Model Content tab contains all the predefined basic object types which can be used to build up a structural model. While modeling, each new object (materials, sections, loads, members, supports etc.) will appear in the tree object structure in the appropriate group. Selecting any of the objects, it will be highlighted (selected) in the model graphic. Multiple selections of objects are possible in this tree. See more in the [**_Selection_**](../3_0_model-view/3_2_selection.md) chapter.
 
 <!-- /wp:paragraph -->
 
@@ -1737,7 +1736,7 @@ By default, the Model Content tab contains all the predefined basic object types
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-For detailed description see [**Model Views**](/manual/model-view/model-views/), and [**Portions Manager**](/manual/model-view/portions-manager/) chapters!
+For detailed description see [**Model Views**](../3_0_model-view/3_1_model-views.md), and [**Portions Manager**](../3_0_model-view/3_3_portions-manager.md) chapters!
 
 <!-- /wp:paragraph -->
 
@@ -1771,13 +1770,13 @@ In addition to the already existing error messages starting from Consteel 17, th
 
 <!-- wp:paragraph -->
 
-This type of error occurs when the **automatic load distribution** is turned off. To update the loads according to the new model state, either check in the check-box or click on the **Update **button that appearing with the Diagnostic error.
+This type of error occurs when the **automatic load distribution** is turned off. To update the loads according to the new model state, either check in the check-box or click on the **Update** button that appearing with the Diagnostic error.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-For more information, please go to Options>[Load Distribution.](#loaddistribution)
+For more information, please go to Options>[Load Distribution.](#loads-tab)
 
 <!-- /wp:paragraph -->
 
@@ -1789,7 +1788,7 @@ For more information, please go to Options>[Load Distribution.](#loaddistributio
 
 <!-- wp:paragraph -->
 
-In the case of geometrical or modeling mistakes (like overlapping two or more objects, missing supports, etc..), the \_Diagnostic \_window switches ON automatically listing problematic objects in a tree structure.
+In the case of geometrical or modeling mistakes (like overlapping two or more objects, missing supports, etc..), the _Diagnostic_ window switches ON automatically listing problematic objects in a tree structure.
 
 <!-- /wp:paragraph -->
 
@@ -1801,13 +1800,13 @@ In the case of geometrical or modeling mistakes (like overlapping two or more ob
 
 <!-- wp:paragraph -->
 
-The first type of diagnostic result is the **error **messages appearing in **red **color.
+The first type of diagnostic result is the **error** messages appearing in **red** color.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The second type of diagnostic result is **possible errors** in **yellow **color.
+The second type of diagnostic result is **possible errors** in **yellow** color.
 
 <!-- /wp:paragraph -->
 
