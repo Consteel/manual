@@ -103,7 +103,7 @@ Kattints a Fájl menüben vagy a Projekt Centerben a "Megnyitás felhőből" par
 
 <!-- wp:paragraph -->
 
-A felhőbe mentett modellek megoszthatók más felhasználókkal. A megosztott modellek megtekintéséhez a címzettnek is rendelkeznie kell Consteel felhasználói fiókkal. Amennyiben a megadott e-mail címhez nem tartozik fiók, ezt az e-mail cím előtt egy szaggatott kör jelzi. **_[Fiók nyitása](/manual/altalanos-ismertetes/a-szoftver-telepitese-es-futtatasa/#A-regisztráció-menete)_** néhány kattintással ingyenesen elérhető bárki számára a[ weboldalunkon](https://consteelsoftware.com/hu/).
+A felhőbe mentett modellek megoszthatók más felhasználókkal. A megosztott modellek megtekintéséhez a címzettnek is rendelkeznie kell Consteel felhasználói fiókkal. Amennyiben a megadott e-mail címhez nem tartozik fiók, ezt az e-mail cím előtt egy szaggatott kör jelzi. **_[Fiók nyitása](../1_0_general-description/1_1_installing-and-running-the-software.md#csomag-és-felhasználó-menedzsment)_** néhány kattintással ingyenesen elérhető bárki számára a[ weboldalunkon](https://consteelsoftware.com/hu/).
 
 <!-- /wp:paragraph -->
 

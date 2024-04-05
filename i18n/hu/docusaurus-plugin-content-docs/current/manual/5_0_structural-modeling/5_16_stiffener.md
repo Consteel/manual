@@ -268,7 +268,7 @@ helyettesítő öblösödési támasz a végeselemes modellen
 
 <!-- wp:paragraph -->
 
-A Consteelben, az öblösödési merevség számításához használt módszerről bővebben a következő oldalon olvashat (angolul): **_[Discrete warping restraint](/knowledgebase/discrete-warping-restraint/)_**.
+A Consteelben, az öblösödési merevség számításához használt módszerről bővebben a következő oldalon olvashat (angolul): **_[Discrete warping restraint](https://www.consteelsoftware.com/knowledgebase/discrete-warping-restraint/?search=discrete%20warping)_**.
 
 <!-- /wp:paragraph -->
 

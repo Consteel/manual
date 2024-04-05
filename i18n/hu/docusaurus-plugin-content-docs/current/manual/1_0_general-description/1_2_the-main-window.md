@@ -152,7 +152,7 @@ A normál Windows file megnyitási dialóg jelenik meg.
 
 <!-- wp:paragraph -->
 
-_Megnyitás a felhőből _(Beta) (CS15)
+_Megnyitás a felhőből_ (Beta) (CS15)
 
 <!-- /wp:paragraph -->
 
@@ -258,7 +258,7 @@ Az Import menü számos modell importálási lehetőséget tartalmaz, a legegysz
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-A funkciók segítségével, a kiválasztott modellrész kiexportálható _TEKLA Structures_ programba vagy IFC formátumban, illetve számított födém vasmennyiség esetén, a színezett eredménymegjelenítés kiexportálható DXF formátumba. További infó: _[Fájlkezelés](../2_0_file-handling/2_0_Fájlkezelés.md)_.
+A funkciók segítségével, a kiválasztott modellrész kiexportálható _TEKLA Structures_ programba vagy IFC formátumban, illetve számított födém vasmennyiség esetén, a színezett eredménymegjelenítés kiexportálható DXF formátumba. További infó: _[Fájlkezelés](../../category/file-handling)_.
 
 <!-- /wp:paragraph -->
 
@@ -724,7 +724,7 @@ A képernyőn megjelenik az ikon neve, ha az egér mutatója az ikon fölött á
 [![](https://www.consteelsoftware.com/wp-content/uploads/2022/01/tab_geom_hu.png)](./img/wp-content-uploads-2022-01-tab_geom_hu.png)
 
 
-A szerkesztéshez szükséges rajzolási, módosítási, méretezési és mérési funkciókat tartalmazza. A funkciók részletes bemutatását ld. a [_Geometria rajzolása_](../../category/general-description) c. fejezetben!
+A szerkesztéshez szükséges rajzolási, módosítási, méretezési és mérési funkciókat tartalmazza. A funkciók részletes bemutatását ld. a [_Geometria rajzolása_](../../category/drawing-geometry) c. fejezetben!
 
 
 
@@ -750,7 +750,7 @@ Különböző teher típusok, illetve teheresetek, tehercsoportok és teherkombi
 [![](https://www.consteelsoftware.com/wp-content/uploads/2022/01/tab_mass_hu.png)](./img/wp-content-uploads-2022-01-tab_mass_hu.png)
 
 
-Tömegesetek, tömegkombinációk létrehozását lehetővé tévő funkciók találhatóak ezen a fülön. Emellett itt kapott helyet a koncentrált tömeg elhelyezése, földrengés hatás és válaszspektrum felvétele funkció is. A funkciók részletes bemutatását ld. a [_Tömegek_](../6_0_structural-loads/6_1_load-cases-and-load-groups.md) c. fejezetben!
+Tömegesetek, tömegkombinációk létrehozását lehetővé tévő funkciók találhatóak ezen a fülön. Emellett itt kapott helyet a koncentrált tömeg elhelyezése, földrengés hatás és válaszspektrum felvétele funkció is. A funkciók részletes bemutatását ld. a [_Tömegek_](../../category/masses) c. fejezetben!
 
 
 #### Végeselem fül

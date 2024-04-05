@@ -43,7 +43,7 @@ A **Statikai számítások** (#2) csoport beállításai:
 
   - **_Teheresetek számítása rugalmas elven_**: alapértelmezés szerint a Consteel csak a teherkombinációkra ad eredményeket. Ha ez a jelölőnégyzet be van jelölve, az analízis eredményei (csak a rugalmas számítások esetében) terhelési esetek szerint is megtekinthetők. Alapértelmezés szerint az összes tehereset eredményei kiszámításra kerülnek, de a [**Teheresetek** ](#teheresetek-analízis-beállításainak-részletezése-aloldal)aloldalának a ![](./img/wp-content-uploads-2021-04-cmd_subpage.png) gombbal történő megnyitásával a terhelési esetek manuálisan is kiválaszthatók.
 
-  - **_Stabilitási alakon alapuló imperfekciós teheresetek másodrendű számítása_** opció választása esetén a kiválasztott imperfekció csoport egyes elemeinek elkülönített, másodrendű eredményeinek a megjelenítésére is lehetőség van. Alapértelmezés szerint az összes imperfekciós tehereset ki lesz választva, de a **[Teheresetek](#Subpage-of-load-cases)** aloldal ![](./img/wp-content-uploads-2021-04-cmd_subpage.png) megnyitásával a kiválasztás megváltoztatható.
+  - **_Stabilitási alakon alapuló imperfekciós teheresetek másodrendű számítása_** opció választása esetén a kiválasztott imperfekció csoport egyes elemeinek elkülönített, másodrendű eredményeinek a megjelenítésére is lehetőség van. Alapértelmezés szerint az összes imperfekciós tehereset ki lesz választva, de a **[Teheresetek](#teheresetek-analízis-beállításainak-részletezése-aloldal)** aloldal ![](./img/wp-content-uploads-2021-04-cmd_subpage.png) megnyitásával a kiválasztás megváltoztatható.
   
   - **_Reakcióerők alapértékeinek meghatározása…_** jelölőnégyzet szükséges egyes alapozás számításokhoz a csJoint programban.
   

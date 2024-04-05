@@ -12,7 +12,7 @@ A kapcsolati elem azoknak az elemeknek az összekötésére szolgál, amelyek re
 <!-- wp:list -->
 
 - [Kapcsolati elem (hagyományos)](#kapcsolati-elem-hagyományos-típus)
-- [Okos kapcsolati elem](#kapcsolati-elemek)
+- [Okos kapcsolati elem](#okos-kapcsolati-elem-megadása)
 - [Kényszer elem](#kényszer-elemek)
 
 <!-- /wp:list -->

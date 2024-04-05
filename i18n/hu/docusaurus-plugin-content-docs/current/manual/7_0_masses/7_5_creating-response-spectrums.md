@@ -178,7 +178,7 @@ Az egyedi válaszspektrum alap esetben mind a három (X, Y és Z) irányban mege
 
 <!-- wp:paragraph -->
 
-A megadott spektrum elmenthető \*.csv és \*.txt formátumokba, a ![](./img/wp-content-uploads-2021-04-cmd_save.png) (#4) gomb segítségével, illetve egy már elmentett spektrum megnyitható a ![](./img/wp-content-uploads-2021-04-cmd_open.png) (#4) gomb segítségével.
+A megadott spektrum elmenthető *.csv* és *.txt* formátumokba, a ![](./img/wp-content-uploads-2021-04-cmd_save.png) (#4) gomb segítségével, illetve egy már elmentett spektrum megnyitható a ![](./img/wp-content-uploads-2021-04-cmd_open.png) (#4) gomb segítségével.
 
 <!-- /wp:paragraph -->
 

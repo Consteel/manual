@@ -17,7 +17,7 @@ Szelemen méretezéssel kapcsolatos funkciók 3 nagy egységre különülnek el:
 
 <!-- wp:paragraph -->
 
-\#1 - _**[Szelemensor elhelyezése](#szelemensor)**_: szelemensor definiálásának dialógja, a panelen találhatóak a megtámasztási viszonyokkal kapcsolatos beállítások
+\#1 - _**[Szelemensor elhelyezése](#szelemensor-1)**_: szelemensor definiálásának dialógja, a panelen találhatóak a megtámasztási viszonyokkal kapcsolatos beállítások
 
 <!-- /wp:paragraph -->
 
@@ -132,7 +132,7 @@ Az **Elhelyez** parancsra kattintva megnyílik a szelemensor elhelyezésének pa
 
   - Közép – lent
 
-- a (![](./img/wp-content-uploads-2021-04-3dots-button.png)) ikonra kattintva grafikusan ([](https://consteelsoftware.com/hu/manual/szerkezetmodellezes/nyirasi-mezo/#Shear-field-stiffness-calculation)[Lásd _**5.11.3.1**_](./5_12_shear-field.md#nyírási-mező)
+- a (![](./img/wp-content-uploads-2021-04-3dots-button.png)) ikonra kattintva grafikusan ([](https://consteelsoftware.com/hu/manual/szerkezetmodellezes/nyirasi-mezo/#Shear-field-stiffness-calculation)[Lásd _**5.11.3.1**_](./5_12_shear-field.md#nyírási-mező))
 
 <!-- /wp:list -->
 

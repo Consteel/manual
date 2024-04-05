@@ -408,7 +408,7 @@ Szél felület esetén, a Zónák meghatározása sorban található három pont
 
 <!-- wp:paragraph -->
 
-A meteorológiai teher generáló funkció a **Terhek **fülön található.
+A meteorológiai teher generáló funkció a **Terhek** fülön található.
 
 <!-- /wp:paragraph -->
 

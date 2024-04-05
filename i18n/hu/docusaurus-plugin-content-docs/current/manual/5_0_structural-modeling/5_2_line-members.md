@@ -824,7 +824,7 @@ A _**Vasalás szerkesztő**_ dialóg bal oldali panelján (**#1**) az oszlop vas
 
 [![](./img/wp-content-uploads-2022-03-dial_vasalas_szerkeszto_oszlop-1024x771.png)](https://consteelsoftware.com/wp-content/uploads/2022/03/dial_vasalas_szerkeszto_oszlop.png)
 
-- **#2** -Amennyiben a modellben van betöltve méretezési opcióval rendelkező vasbeton keresztmetszet, úgy a **_Hozzáadás_ **gombbal új vasalási objektumot vehetünk fel. Több objektum létrehozható, melyek között a váltás a legördülő menü segítségével, törlés pedig a törölni kívánt objektum kiválasztása után a **_Törlés_ **gomb segítségével végezhető el.
+- **#2** -Amennyiben a modellben van betöltve méretezési opcióval rendelkező vasbeton keresztmetszet, úgy a **_Hozzáadás_** gombbal új vasalási objektumot vehetünk fel. Több objektum létrehozható, melyek között a váltás a legördülő menü segítségével, törlés pedig a törölni kívánt objektum kiválasztása után a **_Törlés_** gomb segítségével végezhető el.
 
 - **#3** – A legördülő menüben a modellben betöltött, méretezési opcióval rendelkező vasbeton keresztmetszetek kerülnek listázásra. A listából kiválasztott keresztmetszet paraméterei (befoglaló méret, beton anyagminőség) a legördülő menü alatt szöveges formában kerülnek megjelenítésre, valamint grafikus formában a dialóg középső részén (#5) kirajzolásra
 

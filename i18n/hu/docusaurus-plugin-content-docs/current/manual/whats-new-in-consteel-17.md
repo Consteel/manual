@@ -40,7 +40,7 @@ A húzott rúd elemek speciális nemlineáris viselkedése problémákat okozhat
 
 <!-- wp:paragraph -->
 
-A teherátadó [felületi teher](../manual/6_0_structural-loads/6_3_load-types.md#felület-teher) szétosztásának javítása érdekében most már a felhasználók képesek szerkeszteni a keletkező vonalmenti terhek tulajdonságait azoknak a felületi teherről való leválasztása után. Ezenkívül a felhasználók szabályozhatják a vonalmenti terhek újragenerálását.
+A teherátadó [felületi teher](../manual/6_0_structural-loads/6_3_load-types.md#teherátadó-felület) szétosztásának javítása érdekében most már a felhasználók képesek szerkeszteni a keletkező vonalmenti terhek tulajdonságait azoknak a felületi teherről való leválasztása után. Ezenkívül a felhasználók szabályozhatják a vonalmenti terhek újragenerálását.
 
 <!-- /wp:paragraph -->
 
@@ -84,13 +84,13 @@ Ahogy egyre nagyobb népszerűségnek örvend a szkriptnyelvünk, egyre több k�
 
 A felhasználóink kéréseire válaszul ez a verzió több fejlesztést tartalmaz, mely könnyíti a Consteel használatát:
 
-- kiválasztott elemek [elrejtése](../manual/3_0_model-view/3_1_model-views.md#modell-nézetek))
+- kiválasztott elemek [elrejtése](../manual/3_0_model-view/3_1_model-views.md#modell-nézetek)
 
 - [másolás és mozgatás](../manual/1_0_general-description/1_2_the-main-window.md#oldalsáv) funkció szétválasztása
 
 - [anyagminőség](../manual/5_0_structural-modeling/5_1_section-administration.md#szelvénykezelő) módosítása egyszerre több acélszelvényre
 
-- [rúdelemeken](../manual/1_0_general-description/1_2_the-main-window.md#fülek) színezett kezdő és végpontok
+- [rúdelemeken](../manual/1_0_general-description/1_2_the-main-window.md#objektumfa-objektum-tulajdonságok-és-diagnosztika-ablakok) színezett kezdő és végpontok
 
 - gyors [kiválasztás](../manual/3_0_model-view/3_1_model-views.md) tulajdonság alapján duplaklikkel az objektum tulajdonság ablakban
 

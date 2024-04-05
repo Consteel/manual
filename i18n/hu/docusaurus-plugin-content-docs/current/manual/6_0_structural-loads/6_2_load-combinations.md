@@ -62,11 +62,7 @@ Határállapot koncepció
 - ULS Seismic
 
 - ULS Other
-- <!-- /wp:list-item -->
 
-<!-- /wp:list -->
-
-<!-- wp:list -->
 
 - SLS Char
 
