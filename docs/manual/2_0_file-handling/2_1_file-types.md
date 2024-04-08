@@ -21,13 +21,13 @@ The following file types are handled by _ConSteel_:
 
 <!-- wp:paragraph -->
 
-**.csm~**: the ConSteelModel file created by the autosave functionality. AutoSave settings can be edited in the Options menu.
+**.csm**: the ConSteelModel file created by the autosave functionality. AutoSave settings can be edited in the Options menu.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-**.csm.bak: **the ConSteelModel backup file. Backup save settings can be edited in the Options menu. The Backup file is created at every manual save and stores the previously saved version of the model. If necessary the .bak extension can be deleted and the file can be used as a normal model file.
+**.csm.bak:** the ConSteelModel backup file. Backup save settings can be edited in the Options menu. The Backup file is created at every manual save and stores the previously saved version of the model. If necessary the .bak extension can be deleted and the file can be used as a normal model file.
 
 <!-- /wp:paragraph -->
 
@@ -45,7 +45,7 @@ The following file types are handled by _ConSteel_:
 
 <!-- wp:paragraph -->
 
-**.asc: **_Tekla Structures_ ASCII file. Only for open.
+**.asc:**_Tekla Structures_ ASCII file. Only for open.
 
 <!-- /wp:paragraph -->
 

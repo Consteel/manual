@@ -16,7 +16,7 @@ The following name and renumbering options are available:
 
 <!-- wp:list {"className":"is-style-arrow"} -->
 
-- **numbering of finite element points **– generated fully automatically, the user can’t influence the process. These numbers are only visible on the \_Finite element \_and the \_Analysis \_tabs.
+- **numbering of finite element points**– generated fully automatically, the user can’t influence the process. These numbers are only visible on the Finite element and the Analysis tabs.
 - **names of structural members**– these are generated automatically while the user creates or copies structural objects (beam, column, plate, wall). Names consist of a prefix and a number (for instance: “B1” for a bar member). These names appear in the **Object properties** window on the right side of the screen. The names can be modified manually or with the help of the **Renumber selected objects** tool (see below).
 - **names of structural supports, releases, and links** – these names show the type of the placed support, release or link objects (for instance: “Fixed” or “yy,zz,w”)
 - **names of joints** – these names show the user-defined names of a placed joint (for instance: “Beam-to-column 01”)
@@ -57,7 +57,7 @@ The _Renumber selected object_ window will appear, showing the selected objects 
 
 <!-- wp:paragraph -->
 
-After clicking on the **Apply **button, only checked object types will be renumbered. The new names of the objects will be built up from the given prefix and the new serial number.
+After clicking on the **Apply** button, only checked object types will be renumbered. The new names of the objects will be built up from the given prefix and the new serial number.
 
 <!-- /wp:paragraph -->
 
@@ -69,6 +69,6 @@ After clicking on the **Apply **button, only checked object types will be renumb
 
 <!-- wp:paragraph -->
 
-The visibility of the labels can be set on the bottom status bar as it was described in [Chapter 1.2.6 - Status bar](/manual/how-to-open-consteel/the-main-window/#status-bar).
+The visibility of the labels can be set on the bottom status bar as it was described in [Chapter 1.2.6 - Status bar](../1_0_general-description/1_2_the-main-window.md#status-bar).
 
 <!-- /wp:paragraph -->

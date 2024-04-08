@@ -71,7 +71,7 @@ https://www.youtube.com/watch?v=8UHqT7wl5dI
 
 <!-- wp:paragraph -->
 
-From the File menu or Project Center click on the "Open from Cloud" command and you can access your models from your cloud storage. Select the model you would like to view then click on the Open button. For more information, read the section about [how to open model files](https://consteelsoftware.com/manual/general-description/installing-and-running-the-software/#cloudopen).
+From the File menu or Project Center click on the "Open from Cloud" command and you can access your models from your cloud storage. Select the model you would like to view then click on the Open button. For more information, read the section about [how to open model files](../1_0_general-description/1_1_installing-and-running-the-software.md#cloud-open).
 
 <!-- /wp:paragraph -->
 

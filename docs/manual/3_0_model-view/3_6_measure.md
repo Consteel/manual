@@ -27,7 +27,7 @@ The following window offers the measuring functions:
 
 <!-- wp:list -->
 
-- **Measure distance**![](./img/wp-content-uploads-2021-04-4-7-measure-dist-ico.png)**: **Shows on the screen the measured distance between two picked points in meter or in millimeter, selected from the “unit of length” list box.
+- **Measure distance**![](./img/wp-content-uploads-2021-04-4-7-measure-dist-ico.png): Shows on the screen the measured distance between two picked points in meter or in millimeter, selected from the “unit of length” list box.
 
 <!-- /wp:list -->
 
@@ -57,7 +57,7 @@ The following window offers the measuring functions:
 
 <!-- wp:list -->
 
-- **Measure angle**![](./img/wp-content-uploads-2021-04-4-7-measure-angle-ico.png)**: **The function measures the angle between two lines defined by clicking three snap points in the 3D space in the plane of the two lines in degree or in radian.
+- **Measure angle**![](./img/wp-content-uploads-2021-04-4-7-measure-angle-ico.png): The function measures the angle between two lines defined by clicking three snap points in the 3D space in the plane of the two lines in degree or in radian.
 
 <!-- /wp:list -->
 
@@ -87,7 +87,7 @@ The following window offers the measuring functions:
 
 <!-- wp:list -->
 
-- **Data of structural member**![](./img/wp-content-uploads-2021-04-4-7-measure-data.png)**: **The function shows on the screen the length, the surface and the weight of the selected structural member.
+- **Data of structural member**![](./img/wp-content-uploads-2021-04-4-7-measure-data.png): The function shows on the screen the length, the surface and the weight of the selected structural member.
 
 <!-- /wp:list -->
 

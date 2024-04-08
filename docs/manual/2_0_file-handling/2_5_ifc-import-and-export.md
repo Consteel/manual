@@ -9,7 +9,7 @@ IFC is a global standard for data exchange in the building industries. IFC is bo
 
 <!-- wp:paragraph -->
 
-The IFC specification is developed and maintained by **_buildingSMART In_**\_**ternational **\_as its "Data standard".
+The IFC specification is developed and maintained by **_buildingSMART In_ ternational** as its "Data standard".
 
 <!-- /wp:paragraph -->
 

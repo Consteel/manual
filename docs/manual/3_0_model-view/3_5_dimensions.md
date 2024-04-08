@@ -21,7 +21,7 @@ This provides a great number of different dimensioning options:
 
 <!-- wp:list -->
 
-- **Projected dimension of a linear object**![](./img/wp-content-uploads-2021-04-4-6-Dim-projected-icon.png)**: **The projected length of the selected linear object onto the global X or Y or Z axis will be dimensioned.
+- **Projected dimension of a linear object**![](./img/wp-content-uploads-2021-04-4-6-Dim-projected-icon.png): The projected length of the selected linear object onto the global X or Y or Z axis will be dimensioned.
 
 <!-- /wp:list -->
 
@@ -78,7 +78,7 @@ _Parameters:_
 
 <!-- wp:list -->
 
-- **Projected dimension of the distance between two selected points **![](./img/wp-content-uploads-2021-04-4-6-Dim-proj-point-icon.png)**: **The length of the distance between two selected points will be projected onto the global X or Y or Z axis.
+-**Projected dimension of the distance between two selected points**![](./img/wp-content-uploads-2021-04-4-6-Dim-proj-point-icon.png): The length of the distance between two selected points will be projected onto the global X or Y or Z axis.
 
 <!-- /wp:list -->
 
@@ -125,9 +125,9 @@ _Parameters:_
 <!-- wp:list {"type":"A"} -->
 
 - **Diameter of a circle** ![](./img/wp-content-uploads-2021-04-4-6-Dim-diam.png)
-- **Radius of a circle** ![](./img/wp-content-uploads-2021-04-4-6-Dim-rad.png)\*\*\*\*
-- **Angle of two lines** ![](./img/wp-content-uploads-2021-04-4-6-Dim-angle.png)**: **After selecting two lines any of the four angles could be dimensioned.
-- **Height dimension** ![](./img/wp-content-uploads-2021-04-4-6-Dim-height.png)**: **This function helps for quick dimensioning the height positions of selected points relative to global Z direction related to the given value in _Basic line_ filed.
+- **Radius of a circle** ![](./img/wp-content-uploads-2021-04-4-6-Dim-rad.png)
+- **Angle of two lines** ![](./img/wp-content-uploads-2021-04-4-6-Dim-angle.png): After selecting two lines any of the four angles could be dimensioned.
+- **Height dimension** ![](./img/wp-content-uploads-2021-04-4-6-Dim-height.png): This function helps for quick dimensioning the height positions of selected points relative to global Z direction related to the given value in _Basic line_ filed.
 
 <!-- /wp:list -->
 
@@ -145,7 +145,7 @@ The content of the **Basic line** field means the height of the zero level in th
 
 <!-- wp:list -->
 
-- **Textbox to a given line **![](./img/wp-content-uploads-2021-04-4-6-Dim-text.png)**: **The given text (A-2) in the script field can be placed into the model.
+- **Textbox to a given line**![](./img/wp-content-uploads-2021-04-4-6-Dim-text.png): The given text (A-2) in the script field can be placed into the model.
 
 <!-- /wp:list -->
 

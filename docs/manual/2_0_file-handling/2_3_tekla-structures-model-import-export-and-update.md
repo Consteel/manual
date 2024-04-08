@@ -74,7 +74,7 @@ Import function is compatible with the following versions of Tekla Structures:
 
 <!-- wp:paragraph -->
 
-For the import process from Tekla Structures, it is indispensable to run Tekla and ConSteel in parallel. In Tekla Structure the model that is desired to be exported has to be opened, alongside an empty model opened in ConSteel. For the proper importation process, it is recommended to use the Default environment of Tekla Structures. To start the import procedure, open the **File **menu, select the **Import **tools and click on **Tekla Structures**.
+For the import process from Tekla Structures, it is indispensable to run Tekla and ConSteel in parallel. In Tekla Structure the model that is desired to be exported has to be opened, alongside an empty model opened in ConSteel. For the proper importation process, it is recommended to use the Default environment of Tekla Structures. To start the import procedure, open the **File** menu, select the **Import** tools and click on **Tekla Structures**.
 
 <!-- /wp:paragraph -->
 
@@ -484,7 +484,7 @@ Before doing model update a complete model import (or export) process is necessa
 
 <!-- wp:paragraph -->
 
-To update the Tekla model it is important to have running both software at the same time and to have the model opened in _Tekla Structures_. Then click on the **File **menu and select **Update **then select **Tekla Structures**.
+To update the Tekla model it is important to have running both software at the same time and to have the model opened in _Tekla Structures_. Then click on the **File** menu and select **Update** then select **Tekla Structures**.
 
 <!-- /wp:paragraph -->
 
