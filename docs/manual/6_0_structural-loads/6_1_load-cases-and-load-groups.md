@@ -51,7 +51,7 @@ There are 9 different load group types in _Consteel_: Permanent, Variable, Meteo
 
 <!-- wp:paragraph -->
 
-By clicking on the **New load group** button, the list of available load group types will appear. The list depends on the chosen _[design standard](/manual/how-to-open-consteel/the-main-window/#Standards-menu)_. Selecting one of the names, the new load group is created.
+By clicking on the **New load group** button, the list of available load group types will appear. The list depends on the chosen _[design standard](../1_0_general-description/1_2_the-main-window.md)_. Selecting one of the names, the new load group is created.
 
 <!-- /wp:paragraph -->
 
@@ -63,7 +63,7 @@ The name of the load group will be automatically given according to the type. It
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-For each load group, safety factors are taken from the actually chosen standard. This value cannot be changed in this dialog. If you want to specify different safety factors, create a user-defined design standard in the _[dialog of design standards](/manual/how-to-open-consteel/the-main-window/#Standards-menu)_.
+For each load group, safety factors are taken from the actually chosen standard. This value cannot be changed in this dialog. If you want to specify different safety factors, create a user-defined design standard in the _[dialog of design standards](../1_0_general-description/1_2_the-main-window.md)_.
 
 <!-- /wp:paragraph -->
 
@@ -81,7 +81,7 @@ For each load group, safety factors are taken from the actually chosen standard.
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-For variable type load groups (Variable, Meteorological, Crane) combination factors must be given as well. The combination factors can be edited manually or can be selected by clicking on the **Standard values of factors **dialog button. On the dialog that opens, typical cases can be selected which are provided by the Eurocode and the Spanish EAE standard. Factor values are dependent on the selected NA. The desired values can be selected with the checkbox at the beginning of the line.
+For variable type load groups (Variable, Meteorological, Crane) combination factors must be given as well. The combination factors can be edited manually or can be selected by clicking on the **Standard values of factors** dialog button. On the dialog that opens, typical cases can be selected which are provided by the Eurocode and the Spanish EAE standard. Factor values are dependent on the selected NA. The desired values can be selected with the checkbox at the beginning of the line.
 
 <!-- /wp:paragraph -->
 
@@ -99,7 +99,7 @@ For variable type load groups (Variable, Meteorological, Crane) combination fact
 
 <!-- wp:paragraph -->
 
-New load cases can be created by clicking on the** New load case** button on the bottom right panel of the dialog. There are three edit boxes on the top of this panel that are common for all load group types:
+New load cases can be created by clicking on the **New load case** button on the bottom right panel of the dialog. There are three edit boxes on the top of this panel that are common for all load group types:
 
 <!-- /wp:paragraph -->
 
@@ -143,13 +143,13 @@ _ConSteel_ can add the structure’s self-weight to one of the load cases if nec
 
 <!-- wp:paragraph -->
 
-The automatic combination generation (see _**[Load combinations](/manual/structural-loads/load-combination/)**_ chapter) works according to the rules of the chosen design standard and the settings of the load groups and load cases. These settings affect the values of the combination factors. To have appropriate load combinations, the controllers for each load case have to be set correctly. These options are as follows:
+The automatic combination generation (see _**[Load combinations](../6_0_structural-loads/6_2_load-combinations.md)**_ chapter) works according to the rules of the chosen design standard and the settings of the load groups and load cases. These settings affect the values of the combination factors. To have appropriate load combinations, the controllers for each load case have to be set correctly. These options are as follows:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 
-- "_The load case can be applied along with each other_" - only for \_Variable \_and \_Meteorological \_load group types and applies uniformly to all load cases in the load group.
+- "_The load case can be applied along with each other_" - only for _Variable_ and _Meteorological_ load group types and applies uniformly to all load cases in the load group.
 
   - unchecked (default) - load cases in this load group will be included in the combinations only separated.
   - checked - load cases in this load group may be included in the combinations at the same time.
@@ -175,9 +175,3 @@ The automatic combination generation (see _**[Load combinations](/manual/structu
 
   - uncheked (default) - the load case can be the leading action in accidental design situations
   - checked - the load case can only be accompanying action in accidental design situations
-
-<!-- /wp:list -->
-
-<!-- wp:paragraph {"align":"justify"} -->
-
-<!-- /wp:paragraph -->

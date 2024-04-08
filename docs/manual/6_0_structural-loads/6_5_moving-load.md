@@ -27,7 +27,7 @@ EuroCode based or user defined crane and train load can be created and placed on
 
 <!-- wp:paragraph -->
 
-To place a moving load on the model or to calculate an influence graph, as a first step it is necessary to create **Influence lines **on those members where the load will be placed or moved.
+To place a moving load on the model or to calculate an influence graph, as a first step it is necessary to create **Influence lines** on those members where the load will be placed or moved.
 
 <!-- /wp:paragraph -->
 
@@ -39,7 +39,7 @@ Members have to be in one straight line and have to be connected.
 
 <!-- wp:paragraph -->
 
-Influence line can be defined with **selection **(![](./img/wp-content-uploads-2021-04-ico-pointer.png)) or **drawing **(![](./img/wp-content-uploads-2021-04-cmd_draw.png)).
+Influence line can be defined with **selection** (![](./img/wp-content-uploads-2021-04-ico-pointer.png)) or **drawing** (![](./img/wp-content-uploads-2021-04-cmd_draw.png)).
 
 <!-- /wp:paragraph -->
 
@@ -87,7 +87,7 @@ To run _Influence graph_ analysis, it is necessary to set the **Influence graph*
 
 <!-- wp:paragraph -->
 
-(#2) The next step is to determine a point as the place of the investigation with the black arrow button (![](./img/wp-content-uploads-2021-04-ico-pointer.png)). This point can be anywhere in the model even outside of the influence line. _(In the current version of Consteel, the \_only\_\_ \_possibility is to select any cross-section of the model as a place of the investigation. The other two options shown light grey require further development.)_
+(#2) The next step is to determine a point as the place of the investigation with the black arrow button (![](./img/wp-content-uploads-2021-04-ico-pointer.png)). This point can be anywhere in the model even outside of the influence line. _(In the current version of Consteel, the only possibility is to select any cross-section of the model as a place of the investigation. The other two options shown light grey require further development.)_
 
 <!-- /wp:paragraph -->
 
@@ -133,13 +133,13 @@ As a last step the direction of the unit load has to be chosen. Simultaneously m
 
 <!-- wp:paragraph -->
 
-By clicking on the **Apply **button, the influence graph setting is created.
+By clicking on the **Apply** button, the influence graph setting is created.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-With the **New **button another influence graph setting can be created.
+With the **New** button another influence graph setting can be created.
 
 <!-- /wp:paragraph -->
 
@@ -157,13 +157,13 @@ Previously created influence graphs can be managed in the table part of the dial
 
 <!-- wp:paragraph -->
 
-After the selection, all parameters can be modified with the **Apply **button.
+After the selection, all parameters can be modified with the **Apply** button.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The selected influence graph(s) can be deleted by pressing **Delete **button.
+The selected influence graph(s) can be deleted by pressing **Delete** button.
 
 <!-- /wp:paragraph -->
 
@@ -351,7 +351,7 @@ For the user defined crane load the following parameters have to be set:
 
 <!-- wp:paragraph -->
 
-There is two ways to place crane load on the model, but before placing the defined crane load has to be saved with the **Apply **button.
+There is two ways to place crane load on the model, but before placing the defined crane load has to be saved with the **Apply** button.
 
 <!-- /wp:paragraph -->
 
@@ -411,7 +411,7 @@ To analyze an influence graph please see Chapter 6.6.2 and Chapter 8.
 
 <!-- wp:paragraph -->
 
-To place a crane load by loading an influence graph, please select the _Influence graph_ analysis type from the first dropdown menu on the **Analysis **tab and click with the right mouse button on the graphical area and select** Load influence** line from the appeared menu.
+To place a crane load by loading an influence graph, please select the _Influence graph_ analysis type from the first dropdown menu on the **Analysis** tab and click with the right mouse button on the graphical area and select **Load influence** line from the appeared menu.
 
 <!-- /wp:paragraph -->
 
@@ -437,7 +437,7 @@ In the _Moving load_ field (#1) the loading properties can be set:
 
 <!-- wp:paragraph -->
 
-With the **Positive zone **and **Negative zone** buttons in the _Loading field_ (#2), the influence graph can be loaded. If the **Positive zone **button is used then the loading gives the maximum positive value in the section, if the Negative zone button is used then the loading gives the maximum negative value in the section. The position of the load and the current value in the section appear.
+With the **Positive zone** and **Negative zone** buttons in the _Loading field_ (#2), the influence graph can be loaded. If the **Positive zone** button is used then the loading gives the maximum positive value in the section, if the Negative zone button is used then the loading gives the maximum negative value in the section. The position of the load and the current value in the section appear.
 
 <!-- /wp:paragraph -->
 

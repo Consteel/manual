@@ -3,7 +3,7 @@ sidebar_position: 6
 ---
 # Meteorological loads
 
-All of the meteorological load generator-related functions (_**[Meteorological surface](#Meteorological-surfaces)**_ ![](./img/wp-content-uploads-2021-04-cmd_load_met_surf.png), **[Meteorological load generator](#Meteorological-load-generator)** ![](./img/wp-content-uploads-2021-04-cmd_load_met_gen.png)) can be found on the **Loads **tab.
+All of the meteorological load generator-related functions (_**[Meteorological surface](#meteorological-surfaces)**_ ![](./img/wp-content-uploads-2021-04-cmd_load_met_surf.png), **[Meteorological load generator](#meteorological-load-generator)** ![](./img/wp-content-uploads-2021-04-cmd_load_met_gen.png)) can be found on the **Loads** tab.
 
 <!-- /wp:paragraph -->
 
@@ -83,7 +83,7 @@ Meteorological surfaces can be placed on any load transfer surface. It is advise
 
 <!-- wp:paragraph -->
 
-It is important to check the directions of the local axes of the load transfer surfaces. All z (blue) axes must point outward of the building. If modification is necessary, then it is recommended to use the invert z-axis tool on the** Edit load transfer surface** dialogue (see image below).
+It is important to check the directions of the local axes of the load transfer surfaces. All z (blue) axes must point outward of the building. If modification is necessary, then it is recommended to use the invert z-axis tool on the **Edit load transfer surface** dialogue (see image below).
 
 <!-- /wp:paragraph -->
 
@@ -370,13 +370,13 @@ In case of duopitch roof not just one load transfer surface, but two connected l
 
 <!-- wp:paragraph -->
 
-By selecting the symbol, meteorological load surface can be modified in the** Object properties** window.
+By selecting the symbol, meteorological load surface can be modified in the **Object properties** window.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-In the case of a Wind surface, by clicking the three dots button in the Define zone row, the **Wind zone viewer **dialogue opens, where the calculated wind zones and cpe values can be seen and checked.
+In the case of a Wind surface, by clicking the three dots button in the Define zone row, the **Wind zone viewer** dialogue opens, where the calculated wind zones and cpe values can be seen and checked.
 
 <!-- /wp:paragraph -->
 
@@ -394,7 +394,7 @@ In the case of a Wind surface, by clicking the three dots button in the Define z
 
 <!-- wp:paragraph -->
 
-Meteorological load generator function can be found on the **loads **tab.
+Meteorological load generator function can be found on the **loads** tab.
 
 <!-- /wp:paragraph -->
 

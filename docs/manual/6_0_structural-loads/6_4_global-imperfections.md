@@ -51,7 +51,7 @@ _Multiplication factor for magnitude of notional load (Ni)_ can be selected from
 
 <!-- wp:paragraph -->
 
-Pressing the **Apply **or the **OK **button the notional load will be created.
+Pressing the **Apply** or the **OK** button the notional load will be created.
 
 <!-- /wp:paragraph -->
 
@@ -69,7 +69,7 @@ Initial sway can be set for the whole model.
 
 <!-- wp:paragraph -->
 
-With the **New **button several initial sway can be created or can be deleted by the **Delete **button.
+With the **New** button several initial sway can be created or can be deleted by the **Delete** button.
 
 <!-- /wp:paragraph -->
 
@@ -81,7 +81,7 @@ To create an initial sway, the direction, height of base level and the extent of
 
 <!-- wp:paragraph -->
 
-Pressing the **Apply **or the **OK **button the initial sway will be created.
+Pressing the **Apply** or the **OK** button the initial sway will be created.
 
 <!-- /wp:paragraph -->
 
@@ -111,7 +111,7 @@ Previously performed buckling analysis is needed to apply an eigenshape as an im
 
 <!-- wp:paragraph -->
 
-On the **Analysis **tab’s Buckling result view either calculated buckling mode can set as imperfection.
+On the **Analysis** tab’s Buckling result view either calculated buckling mode can set as imperfection.
 
 <!-- /wp:paragraph -->
 
@@ -141,7 +141,7 @@ On the setting dialog the following parameters can be set:
 
 <!-- wp:list {"type":"I","className":"is-style-default"} -->
 
-- _Imperfection group_: any eigenshape will belong to an imperfection group, which can be selected from the list. One imperfection group can contain more than one eigenshapes. If more than one eigenshapes are in an imperfection group, the effects of the eigenshapes will be added up during the application. With the **New group **button, a new group can be created.
+- _Imperfection group_: any eigenshape will belong to an imperfection group, which can be selected from the list. One imperfection group can contain more than one eigenshapes. If more than one eigenshapes are in an imperfection group, the effects of the eigenshapes will be added up during the application. With the **New group** button, a new group can be created.
 
 - _Name of imperfection case:_ unique name can be added for the imperfection
 
@@ -178,7 +178,7 @@ On the setting dialog the following parameters can be set:
 
 <!-- wp:paragraph -->
 
-Pressing the **OK **button the eigenshape is applied as an imperfection with the set parameters.
+Pressing the **OK** button the eigenshape is applied as an imperfection with the set parameters.
 
 <!-- /wp:paragraph -->
 
@@ -214,7 +214,7 @@ Click the three-dot icon (![](./img/wp-content-uploads-2021-04-3dots-button.png)
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-This option is based on table EN 1993-1-1 5.3.2 (3)b where initial bow amplitude ratios are defined depending on the corresponding buckling curve of the selected member. In order to evaluate the proper amplitude, the equivalent member length should also be specified (which is not necessarily equal to the system length of the selected member…) and the calculated value is displayed in mm. For the lateral-torsional buckling problem, an additional multiplication factor (k) can be defined for the amplitude. It is important to note that these values are officially valid only for simply supported straight, prismatic members with uniform compression (or bending), for other situations the user has to consider the special support, geometry, or loading effects when defining the initial bow. Finally, the calculated value (e0) is accepted by the **OK **button which automatically gets into the _Value of amplitude_ input field.
+This option is based on table EN 1993-1-1 5.3.2 (3)b where initial bow amplitude ratios are defined depending on the corresponding buckling curve of the selected member. In order to evaluate the proper amplitude, the equivalent member length should also be specified (which is not necessarily equal to the system length of the selected member…) and the calculated value is displayed in mm. For the lateral-torsional buckling problem, an additional multiplication factor (k) can be defined for the amplitude. It is important to note that these values are officially valid only for simply supported straight, prismatic members with uniform compression (or bending), for other situations the user has to consider the special support, geometry, or loading effects when defining the initial bow. Finally, the calculated value (e0) is accepted by the **OK** button which automatically gets into the _Value of amplitude_ input field.
 
 <!-- /wp:paragraph -->
 

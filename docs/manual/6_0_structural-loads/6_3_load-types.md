@@ -39,7 +39,7 @@ Point loads can be placed according to the **Global (**![](./img/wp-content-uplo
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Eccentricity can be applied on the point load also. The effect of the selected coordinate system, the applied local eccentricity type and values are the same as point support (see chapter 5.9.1).
+Eccentricity can be applied on the point load also. The effect of the selected coordinate system, the applied local eccentricity type and values are the same as point support.
 
 <!-- /wp:paragraph -->
 
@@ -63,7 +63,7 @@ Line loads can be assigned to existing lines (line members or edge of surface me
 
 <!-- wp:paragraph -->
 
-Line loads can be placed according to the **Global (**![](./img/wp-content-uploads-2021-04-create_coord_gcs.png)**)**, **Local (**![](./img/wp-content-uploads-2021-04-create_coord_loc.png)**), User coordinate system (**![](./img/wp-content-uploads-2021-04-create_coord_ucs.png)**), **and** Global projection system (**![](./img/wp-content-uploads-2021-04-ico_coord_globproj.png)**) **which is commonly used when modeling the snow load.
+Line loads can be placed according to the **Global (**![](./img/wp-content-uploads-2021-04-create_coord_gcs.png)**)**, **Local (**![](./img/wp-content-uploads-2021-04-create_coord_loc.png)**), User coordinate system (**![](./img/wp-content-uploads-2021-04-create_coord_ucs.png)**),** and Global projection system **(**![](./img/wp-content-uploads-2021-04-ico_coord_globproj.png)**)** which is commonly used when modeling the snow load.
 
 <!-- /wp:paragraph -->
 
@@ -75,25 +75,13 @@ Line loads can be placed according to the **Global (**![](./img/wp-content-uploa
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-In order to place a line load click on the member using the select function (![](./img/wp-content-uploads-2021-04-ico-pointer.png)). Line load can be applied to multiple members at the same time by using the** Place loads** icon (![](./img/wp-content-uploads-2021-04-cmd_placeload_apply.png)). In this case the members must be selected before clicking on the Line load icon on the Loads tab.
+In order to place a line load click on the member using the select function (![](./img/wp-content-uploads-2021-04-ico-pointer.png)). Line load can be applied to multiple members at the same time by using the **Place loads** icon (![](./img/wp-content-uploads-2021-04-cmd_placeload_apply.png)). In this case the members must be selected before clicking on the Line load icon on the Loads tab.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
 
 If just a partial line load need to be applied along the member then there are two ways to apply:
 
-<!-- /wp:paragraph -->
+1. The first way is to use the draw function (![](./img/wp-content-uploads-2021-04-cmd_draw.png)) and set the start point and the endpoint of the line load. This function can be used both for linear and curved members in accordance with the selected drawing function.
 
-<!-- wp:list {"ordered":true} -->
-
-1. <!-- wp:list-item -->
-2. The first way is to use the draw function (![](./img/wp-content-uploads-2021-04-cmd_draw.png)) and set the start point and the endpoint of the line load. This function can be used both for linear and curved members in accordance with the selected drawing function.
-3. <!-- /wp:list-item -->
-
-<!-- /wp:list -->
-
-<!-- wp:image {"align":"center","id":9985,"width":590,"height":299,"sizeSlug":"full","linkDestination":"media"} -->
 
 [![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Line-load-1_1.jpg)](./img/wp-content-uploads-2021-04-7-4-Line-load-1_1.jpg)
 
@@ -307,416 +295,185 @@ Line snow load is a great tool to apply snow load to members easily. It saves ti
 
 Before clicking on the Line Load icon, as a first step the member(s) has to be selected where the line snow load will be placed.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
 
 The line snow load related functions can be found on the Snow load tab of Line Load dialog.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
 
 The snow load parameters are automatically loaded from the selected NA, but all of these can be modified manually.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
 
 As a first step the _Shape factor_ has to be set, by clicking on the three dots button (![](./img/wp-content-uploads-2021-04-3dots-button.png)).
 
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":10064,"width":334,"height":553,"sizeSlug":"full","linkDestination":"media"} -->
 
 [![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Snow-load.png)](./img/wp-content-uploads-2021-04-7-4-Snow-load.png)
 
-<!-- /wp:image -->
-
-<!-- wp:paragraph {"align":"justify"} -->
 
 To define the shape factor it is necessary to select the _Surface type_ (flat roof, duopitch roof, etc.) from the dropdown menu. If the _Surface_ type is selected, then the parameters of the previously selected member(s) are automatically loaded and the shape factor is calculated.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
 
 As a last step the proper snow load cases has to be selected from the dropdown menu, on the bottom of the Snow load dialog.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
 
 By clicking on the OK button the line snow loads are created.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
 
 Pressing the Place loads icon (![](./img/wp-content-uploads-2021-04-cmd_placeload_apply.png)) on the Line load dialog the created line snow loads are placed on the selected member(s).
 
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
 
 ### Surface load (![](./img/wp-content-uploads-2021-04-cmd_load_surf.png))
 
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Surface load can be defined in three ways. No surface moment loads can be placed.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
 - **Uniform** surface load
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
+
 - **Linear**lyvaryingsurface load
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
+
 - **Wind** load
-- <!-- /wp:list-item -->
 
-<!-- /wp:list -->
-
-<!-- wp:image {"align":"right","id":14003,"width":396,"height":395,"sizeSlug":"full","linkDestination":"media"} -->
 
 [![](https://consteelsoftware.com/wp-content/uploads/2021/04/dia_load_surf_unif.png)](./img/wp-content-uploads-2021-04-dia_load_surf_unif.png)
 
-<!-- /wp:image -->
-
-<!-- wp:heading {"level":4} -->
 
 #### Uniform surface load
 
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 The load can be defined in two ways, similarly to the definition of line load.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"align":"justify"} -->
 
 Using the selection function (![](./img/wp-content-uploads-2021-04-ico-pointer.png)) the intensity of the load must be entered in the dialog, then the load can be applied to the entire surface(s) by clicking on them.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"align":"justify"} -->
 
 For partially surface loads the drawing (![](./img/wp-content-uploads-2021-04-cmd_draw.png)) function must be selected. The last 3 shortcuts will then be active, with which it is possible to draw rectangular, circular or polygonal surfaces.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:columns {"verticalAlignment":"top","align":"wide"} -->
-
-<!-- wp:column {"verticalAlignment":"top"} -->
-
-<!-- wp:image {"align":"right","id":10071,"sizeSlug":"large","linkDestination":"media"} -->
 
 [![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Uniform-surface-load_1.png)](./img/wp-content-uploads-2021-04-7-4-Uniform-surface-load_1.png)
 
-<!-- /wp:image -->
-
-<!-- /wp:column -->
-
-<!-- wp:column {"verticalAlignment":"top"} -->
-
-<!-- wp:image {"align":"center","id":10077,"sizeSlug":"full","linkDestination":"media"} -->
 
 [![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Uniform-surface-load_2.png)](./img/wp-content-uploads-2021-04-7-4-Uniform-surface-load_2.png)
 
-<!-- /wp:image -->
-
-<!-- /wp:column -->
-
-<!-- wp:column {"verticalAlignment":"top"} -->
-
-<!-- wp:image {"align":"left","id":10083,"sizeSlug":"large","linkDestination":"media"} -->
 
 [![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Uniform-surface-load_3.png)](./img/wp-content-uploads-2021-04-7-4-Uniform-surface-load_3.png)
 
-<!-- /wp:image -->
-
-<!-- /wp:column -->
-
-<!-- /wp:columns -->
-
-<!-- wp:paragraph {"align":"justify"} -->
 
 To place the load, first select the surface to be loaded and then draw the boundary edges of the load according to the instructions in the information field of the dialog. In the case of a polygon load, after entering the last corner point, you can use the right mouse button to complete the load definition.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4} -->
 
 #### Linearly varying surface load
 
-<!-- /wp:heading -->
-
-<!-- wp:image {"align":"right","id":13997,"width":396,"height":395,"sizeSlug":"full","linkDestination":"media"} -->
 
 [![](https://consteelsoftware.com/wp-content/uploads/2021/04/dia_load_surf_linear.jpg)](./img/wp-content-uploads-2021-04-dia_load_surf_linear.jpg)
 
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
 
 To define a linearly varying surface load, you must first specify the direction of the load in the top line of the dialog.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
 
 There are three ways to specify the change in load intensity (load distribution type):
 
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
 - **General**: the intensity of the load is determined by the intensity values given at 3 arbitrary points on the surface, which must be entered at the bottom of the dialog box (q1, q2, q3).
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
+
 - **In local x**: two points and their corresponding intensity values must be entered. The value of the load changes parallel to the local x-axis of the surface.
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
+
 - **In local y**: similar to the previous one, but along the local y-axis.
-- <!-- /wp:list-item -->
 
-<!-- /wp:list -->
-
-<!-- wp:paragraph {"align":"justify"} -->
 
 After entering the data, the surface must first be selected to place the load onto, and then, depending on the type of load distribution, 2 or 3 points must be clicked on the surface, at which points the previously given intensity values apply.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"editorskit":{"indent":20,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
 In the case of a drawn (![](./img/wp-content-uploads-2021-04-cmd_draw.png)) load specification, after selecting the surface, first, draw the loaded part of the surface as described in the previous point, and then enter the intensity determining points.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"right","id":10090,"width":396,"height":395,"sizeSlug":"full","linkDestination":"media"} -->
 
 [![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Create-surface-load.png)](./img/wp-content-uploads-2021-04-7-4-Create-surface-load.png)
 
-<!-- /wp:image -->
-
-<!-- wp:heading {"level":4} -->
 
 #### Wind load
 
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 At present, surface wind load can only be defined for Load transfer surface (see section 6.4.4).
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"align":"justify"} -->
 
 The definition of the surface wind load should begin by specifying the velocity pressure and the external and internal shape coefficients. For a description of the dialogs (![](./img/wp-content-uploads-2021-04-3dots-button.png)) for each parameter, see the line wind load section (see section 6.4.2.1). After setting the parameters, the load can be placed on the surface by clicking on it.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
 
 ### Load transfer surface (![](./img/wp-content-uploads-2021-04-cmd_load_LTS.png))
 
-<!-- /wp:heading -->
-
-<!-- wp:paragraph {"align":"justify"} -->
 
 Load transfer surface (LTS) is a special surface that distributes surface loads to members as line loads. This is very useful in those cases when surface load needs to be distributed to members, like floor loads, snow and wind load, etc.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"right","id":14012,"width":399,"height":333,"sizeSlug":"full","linkDestination":"media"} -->
 
 [![](https://consteelsoftware.com/wp-content/uploads/2021/04/dia_LTS.png)](./img/wp-content-uploads-2021-04-dia_LTS.png)
 
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
 
 After clicking on the **_Load transfer surface_** (![](./img/wp-content-uploads-2021-04-cmd_load_LTS.png)) icon on the **Loads** tab a dialog window appears.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"align":"justify"} -->
 
 Just like in the two-dimensional figure drawing there are different possibilities to draw the surface: draw a rectangle, draw a leaning rectangle, draw a circle, or draw a polygon. After drawing the surface it is possible to select the members to which the surface distributes the load. There are two options: distribute the load to the selected members or distribute the load to all members covered by the surface in the surface plane. If the second option is clicked then the appropriate members will be highlighted. If none of the options is clicked, then the second one will be applied as a default.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":10103,"width":713,"height":395,"sizeSlug":"full","linkDestination":"media"} -->
 
 [![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Edit-load-transfer-surface_2.jpg)](./img/wp-content-uploads-2021-04-7-4-Edit-load-transfer-surface_2.jpg)
 
-<!-- /wp:image -->
-
-<!-- wp:paragraph {"align":"justify"} -->
 
 It is possible to choose the first option and select members for carrying the surface load or remove members from the selection using the SHIFT + Left click. After the corresponding members have been selected and _**OK**_ is clicked then the surface is created.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"align":"justify"} -->
 
 It is also possible to use the **_Multiple placement of load transfer surfaces_** by clicking on the (![](./img/wp-content-uploads-2021-04-cmd_LTS_multi.png)) icon. This function is used to define multiple load transfer surfaces with a simple selection (rectangle selection, or by clicking the border edges). Edges of a load transfer surface have to be in the same plane.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":10109,"width":888,"height":585,"sizeSlug":"full","linkDestination":"media"} -->
 
 [![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Edit-load-transfer-surface_3.png)](./img/wp-content-uploads-2021-04-7-4-Edit-load-transfer-surface_3.png)
 
-<!-- /wp:image -->
-
-<!-- wp:paragraph {"align":"justify"} -->
 
 **It is important to know**, that the maximum number of edges that can be selected in one step, is currently limited to 200. If the selected edges exceed the limit of 200, a notification will be shown on the Edit load transfer surface dialog.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
 Surface load can be placed by using the method described in chapter 6.4.3.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
 
 There are two visibility options: view the surface load or view the distributed load.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:columns -->
-
-<!-- wp:column -->
-
-<!-- wp:image {"align":"center","id":10115,"width":479,"height":278,"sizeSlug":"full","linkDestination":"media"} -->
 
 [![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Visibility-options_1.jpg)](./img/wp-content-uploads-2021-04-7-4-Visibility-options_1.jpg)
 
-<!-- /wp:image -->
-
-<!-- /wp:column -->
-
-<!-- wp:column -->
-
-<!-- wp:image {"align":"center","id":10121,"width":501,"height":278,"sizeSlug":"full","linkDestination":"media"} -->
 
 [![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Visibility-options_2.jpg)](./img/wp-content-uploads-2021-04-7-4-Visibility-options_2.jpg)
 
-<!-- /wp:image -->
-
-<!-- /wp:column -->
-
-<!-- /wp:columns -->
-
-<!-- wp:paragraph -->
 
 Changing the views is possible by clicking on the dedicated icon which can be found among the visibility of graphics symbols setting.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":10127,"sizeSlug":"full","linkDestination":"media"} -->
 
 [![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Visibility-settings.png)](./img/wp-content-uploads-2021-04-7-4-Visibility-settings.png)
 
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
 
 There are two possible methods to convert surface load to the selected members:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"right","id":14021,"sizeSlug":"full","linkDestination":"media"} -->
 
 [![](https://consteelsoftware.com/wp-content/uploads/2021/04/dial_LTS_dist_method.png)](./img/wp-content-uploads-2021-04-dial_LTS_dist_method.png)
 
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
 
 (1) Converting surface loads to uniform line loads is performed by a meeting the following requirements:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:list {"className":"is-style-arrow"} -->
-
-- <!-- wp:list-item -->
 - the resultant force of all the line loads is the same as for the surface load
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
+
 - the line loads are _constant_ on all the selected members
-- <!-- /wp:list-item -->
 
-<!-- /wp:list -->
-
-<!-- wp:paragraph -->
 
 (2) Converting the surface load to line loads based on structural points has the following background:
 
-<!-- /wp:paragraph -->
+1. the surface load is first converted to concentrated point loads acting on the selected structural points using the Delaunay triangulation technique
 
-<!-- wp:list {"ordered":true,"className":"is-style-default"} -->
-
-1. <!-- wp:list-item -->
-2. the surface load is first converted to concentrated point loads acting on the selected structural points using the Delaunay triangulation technique
-3. <!-- /wp:list-item -->
-4.
-5. <!-- wp:list-item -->
 6. the concentrated loads are then converted to line loads on the selected members meeting with the following requirements:
-7. <!-- /wp:list-item -->
 
-<!-- /wp:list -->
-
-<!-- wp:list {"className":"is-style-arrow"} -->
-
-- <!-- wp:list-item -->
 - the resultant force of all the line loads is the same as for the surface load
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
+
 - the line loads are _linear_ on all the selected members
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
+
 - the end value of the line loads on the selected structural points for all the selected members are equal
-- <!-- /wp:list-item -->
 
-<!-- /wp:list -->
-
-<!-- wp:paragraph -->
 
 The basic working method is the following:  
 First create the load transfer surface. Select the members which it distributes load to, or accept the default setting which is distribute loads to all planar members. Apply surface loads to the surface at every load case where it is necessary.
 
-<!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
 
-Starting from **Consteel 17 **the distribution of the surface loads to the selected bar members is still done automatically but the created Distributed Line loads can be individually selected**. **When selected, the attributes (value, eccentricities, etc.) are visible but not editable. All Distributed Line Loads are linked to the surface load it is crated from. \*\*\*\*Users can edit the properties of the distributed line loads once exploded from the surface load.
+Starting from **Consteel 17** the distribution of the surface loads to the selected bar members is still done automatically but the created Distributed Line loads can be individually selected. When selected, the attributes (value, eccentricities, etc.) are visible but not editable. All Distributed Line Loads are linked to the surface load it is crated from. Users can edit the properties of the distributed line loads once exploded from the surface load.
 
 <!-- /wp:paragraph -->
 
@@ -788,7 +545,7 @@ Please note that the surface load explosion cannot be reversed.
 
 <!-- wp:paragraph -->
 
-The automatic redistribution of the surface loads can be switched off temporarily to speed up the modelling. For more information, go to the **[Options menu.](https://www.consteelsoftware.com/manual/general-description/the-main-window/#optionsmenu)**
+The automatic redistribution of the surface loads can be switched off temporarily to speed up the modelling. For more information, go to the **[Options menu.](../1_0_general-description/1_2_the-main-window.md#options-menu)**
 
 <!-- /wp:paragraph -->
 
