@@ -33,6 +33,6 @@ After drawing the surface it is possible to select the members which are added t
 
 <!-- wp:paragraph -->
 
-Diaphragm element can be used also as a **_[Load transfer surface](/manual/structural-loads/load-types/#LTS)_** and surface loads can be placed on it.
+Diaphragm element can be used also as a **_[Load transfer surface](../6_0_structural-loads/6_3_load-types.md#load-transfer-surface)_** and surface loads can be placed on it.
 
 <!-- /wp:paragraph -->

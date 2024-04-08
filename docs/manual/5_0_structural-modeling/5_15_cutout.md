@@ -39,7 +39,7 @@ The modeling of various web cut-outs is currently available for welded I or H ty
 
 <!-- wp:paragraph -->
 
-Cut-out can be placed on the webs of welded I or H sections, regardless of whether the member is set as a normal 7 DOF member or a shell element. The command can be found on the **Structural members **tab. Executing the command, the dialog window shown below will appear where three types of cut-outs can be defined and placed as described below.
+Cut-out can be placed on the webs of welded I or H sections, regardless of whether the member is set as a normal 7 DOF member or a shell element. The command can be found on the **Structural members** tab. Executing the command, the dialog window shown below will appear where three types of cut-outs can be defined and placed as described below.
 
 <!-- /wp:paragraph -->
 
@@ -85,7 +85,7 @@ The usual placement options are available at the top of the dialog window:
 
 <!-- wp:list -->
 
-- ![](./img/wp-content-uploads-2021-04-5-3-draw-ico-11.png) the cut-outs can be placed **individually **by clicking on the reference line of the member,
+- ![](./img/wp-content-uploads-2021-04-5-3-draw-ico-11.png) the cut-outs can be placed **individually** by clicking on the reference line of the member,
 - ![](./img/wp-content-uploads-2021-04-cmd_multi_place.png) or by **multiple placement** with relative distances interpreted in the member local coordinate system.
 - ![](./img/wp-content-uploads-2021-04-cmd_draw_get.png) The properties of other cut-outs can get and used for new definitions as well.
 
@@ -93,7 +93,7 @@ The usual placement options are available at the top of the dialog window:
 
 <!-- wp:paragraph -->
 
-In the \_Parameters \_section, the reference line of the cut-out can be defined on the left side of the window (Fit to). The figure shows the selected reference line below the drop-down box. The location of the object can be specified relative to the:
+In the _Parameters_ section, the reference line of the cut-out can be defined on the left side of the window (Fit to). The figure shows the selected reference line below the drop-down box. The location of the object can be specified relative to the:
 
 <!-- /wp:paragraph -->
 

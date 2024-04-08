@@ -271,6 +271,6 @@ By creating a plane surface element with a polyline border:
 
 <!-- wp:paragraph -->
 
-In the case of surface elements, the local coordinate system can be modified using the tools presented in [Chapter 5.2.1.](#user-coord)
+In the case of surface elements, the local coordinate system can be modified using the tools presented in [Chapter 5.2.1.](../5_0_structural-modeling/5_2_line-members.md)
 
 <!-- /wp:paragraph -->

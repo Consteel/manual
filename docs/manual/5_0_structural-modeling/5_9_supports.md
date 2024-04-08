@@ -93,7 +93,7 @@ By changing the eccentricity of the supported object, the support will keep the 
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-If any special supports are needed during the modeling process different from the predefined support types then click on the support definition button (![](./img/wp-content-uploads-2021-04-3dots-button.png)). With the **New **button, a new type of point support can be defined. 7 DOFs (Degrees of Freedom) can be set to free, fix, or semi-rigid. For semi-rigid DOF the stiffness must also be set in kN/mm, or kNm/rad.
+If any special supports are needed during the modeling process different from the predefined support types then click on the support definition button (![](./img/wp-content-uploads-2021-04-3dots-button.png)). With the **New** button, a new type of point support can be defined. 7 DOFs (Degrees of Freedom) can be set to free, fix, or semi-rigid. For semi-rigid DOF the stiffness must also be set in kN/mm, or kNm/rad.
 
 <!-- /wp:paragraph -->
 
@@ -117,7 +117,7 @@ Local eccentricity can also be defined for the supports:
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-_(This feature can be used for example for modeling_ the support effect of the bracing which is not connected to the reference line of the member but supports* the flange of the beam.)*
+(_This feature can be used for example for modeling_ the support effect of the bracing which is not connected to the reference line of the member but supports the flange of the beam.)
 
 <!-- /wp:paragraph -->
 
@@ -219,7 +219,7 @@ Placing support with any of these eccentricity types, for example, changing the 
 
 <!-- wp:paragraph {"align":"justify","editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-\_1. Example: \_Both supports were placed with -150mm eccentricity in the y-direction, but the left one was defined relative to the reference line of the section and the right one was defined relative to the middle-middle point of the section geometry.
+_1. Example:_ Both supports were placed with -150mm eccentricity in the y-direction, but the left one was defined relative to the reference line of the section and the right one was defined relative to the middle-middle point of the section geometry.
 
 <!-- /wp:paragraph -->
 
@@ -249,7 +249,7 @@ In the case of the left column, the position of the support did not change, beca
 
 <!-- wp:paragraph {"align":"justify","editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-\_2. Example: \_The support is placed according to the global coordinate system; the eccentricity is 300 mm in the z-direction of the local coordinate system of the supported column from the reference line.
+_2. Example:_ The support is placed according to the global coordinate system; the eccentricity is 300 mm in the z-direction of the local coordinate system of the supported column from the reference line.
 
 <!-- /wp:paragraph -->
 
@@ -291,7 +291,7 @@ If the column is rotated with 45 degrees, the support is also rotated accordingl
 
 <!-- wp:paragraph {"align":"justify","editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-\_3. Example: \_The support is placed according to the global coordinate system, the eccentricity is 300mm in the z-direction of the local coordinate system of the supported column relative to the middle-middle point of the section geometry.
+_3. Example:_ The support is placed according to the global coordinate system, the eccentricity is 300mm in the z-direction of the local coordinate system of the supported column relative to the middle-middle point of the section geometry.
 
 <!-- /wp:paragraph -->
 
@@ -413,9 +413,6 @@ Surface supports can be assigned to existing surfaces.
 
 There are no predefined supports for supporting surfaces. By pressing the ![](./img/wp-content-uploads-2021-04-3dots-button.png) button, the user can create new surface support types for specifying 3 constrains.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":9026,"width":664,"height":442,"sizeSlug":"full","linkDestination":"media"} -->
 
 [![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-9-Surface-support.png)](./img/wp-content-uploads-2021-04-6-9-Surface-support.png)
 
@@ -424,9 +421,3 @@ There are no predefined supports for supporting surfaces. By pressing the ![](./
 <!-- wp:paragraph -->
 
 By clicking on a plate object, the whole surface of this object will be supported.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-<!-- /wp:paragraph -->

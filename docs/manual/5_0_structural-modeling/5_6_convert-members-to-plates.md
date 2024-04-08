@@ -3,7 +3,7 @@ sidebar_position: 6
 ---
 # Convert members to plates
 
-Members can be converted to plates with **_Convert members to plates_** function (![](./img/wp-content-uploads-2021-04-cmd_explode_to_shell.png)). This is a non-reversible conversion (however, the undo function is still available) unlike the automatic conversion used during finite element generation of a beam changed to shell element type (**_[Superbeam function](/manual/structural-modelling/superbeam/)_**).
+Members can be converted to plates with **_Convert members to plates_** function (![](./img/wp-content-uploads-2021-04-cmd_explode_to_shell.png)). This is a non-reversible conversion (however, the undo function is still available) unlike the automatic conversion used during finite element generation of a beam changed to shell element type (**_[Superbeam function](../5_0_structural-modeling/5_14_superbeam.md)_**).
 
 <!-- /wp:paragraph -->
 
@@ -35,7 +35,7 @@ In the case of hot-rolled sections, not only the flanges and web are converted t
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-By clicking on the **Apply **button the selected members will be converted to plates. During the conversion, the given eccentricities are considered, therefore, the eccentric loads and supports will be in the same position after the conversion. Attaching nodes of the connecting members, haunches, and tapered members are automatically converted. At the ends of the member, if it is not a free end, a rigid body with constraint elements will be automatically created that connects the endpoints of the converted plate elements to other model parts.
+By clicking on the **Apply** button the selected members will be converted to plates. During the conversion, the given eccentricities are considered, therefore, the eccentric loads and supports will be in the same position after the conversion. Attaching nodes of the connecting members, haunches, and tapered members are automatically converted. At the ends of the member, if it is not a free end, a rigid body with constraint elements will be automatically created that connects the endpoints of the converted plate elements to other model parts.
 
 <!-- /wp:paragraph -->
 

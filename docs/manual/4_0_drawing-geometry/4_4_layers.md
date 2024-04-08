@@ -27,14 +27,14 @@ All CAD systems have a layer concept of some sort. Objects are placed on appropr
 
 - Delete layers
 
-- Edit properties of existing layers (_Color_, _Line \_style, \_Thickness_, and _Transparency_)
+- Edit properties of existing layers (_Color_, _Line_ style, _Thickness_, and _Transparency_)
 
   - _Thickness_: the value sets the line thickness of the objects.
   - _Transparency_: a number between 0 and 1 defines the transparency of objects where 0 means a solid, and 1 means a completely transparent representation.
 
-- Turn the \_Visibility \_on and off
+- Turn the _Visibility_ on and off
 
-- \_Freeze \_layers from activity whilst keeping them visible
+- _Freeze_ layers from activity whilst keeping them visible
 
 - Turn on and off the own style of the objects. If _Layer style_ checkbox is turned ON, then all the objects on the layer use the color, line style, thickness, etc defined in this dialog. If it is turned OFF (default setting) then all the objects use the global style. Object color by section is not possible when _Layer style_ is checked ON.
 

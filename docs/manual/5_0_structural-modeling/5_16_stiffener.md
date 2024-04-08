@@ -39,7 +39,7 @@ The modeling of various web stiffeners is currently available for welded I- or H
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Stiffeners can be placed on the webs of welded I or H sections, regardless of the finite element type of the member. The command can be found on the **Structural members **tab. Executing the command, the dialog window shown below will appear where three types of stiffeners can be defined and placed as described below.
+Stiffeners can be placed on the webs of welded I or H sections, regardless of the finite element type of the member. The command can be found on the **Structural members** tab. Executing the command, the dialog window shown below will appear where three types of stiffeners can be defined and placed as described below.
 
 <!-- /wp:paragraph -->
 
@@ -85,7 +85,7 @@ The usual placement options are available at the top of the dialog window:
 
 <!-- wp:list -->
 
-- ![](./img/wp-content-uploads-2021-04-5-3-draw-ico-11.png) the stiffeners can be placed **individually **by clicking on the reference line of the member,
+- ![](./img/wp-content-uploads-2021-04-5-3-draw-ico-11.png) the stiffeners can be placed **individually** by clicking on the reference line of the member,
 - ![](./img/wp-content-uploads-2021-04-cmd_multi_place.png) or by **multiple placement** with relative distances interpreted in the member local coordinate system.
 - ![](./img/wp-content-uploads-2021-04-cmd_draw_get.png) The properties of other stiffeners can get and used for new definitions as well.
 
@@ -93,7 +93,7 @@ The usual placement options are available at the top of the dialog window:
 
 <!-- wp:paragraph -->
 
-In the _Parameters \_section, the reference object of the stiffener can be defined on the left side of the window (\_Fit to_). The figure below the drop-down box shows the chosen selection. The location of the stiffener can be specified relative to the:
+In the _Parameters_ section, the reference object of the stiffener can be defined on the left side of the window (\_Fit to_). The figure below the drop-down box shows the chosen selection. The location of the stiffener can be specified relative to the:
 
 <!-- /wp:paragraph -->
 
@@ -174,8 +174,8 @@ On the right side of the dialog window, the parameters can be entered according 
 
 <!-- wp:list -->
 
-- **eccentricity **from the given reference object,
-- **side **on which the stiffener is placed can be both, left or right side.
+- **eccentricity** from the given reference object,
+- **side** on which the stiffener is placed can be both, left or right side.
 
 <!-- /wp:list -->
 

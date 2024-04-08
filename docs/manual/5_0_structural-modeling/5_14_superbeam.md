@@ -21,7 +21,7 @@ Superbeam is a new feature introduced with Consteel 15. It is developed for the 
 
 <!-- wp:list -->
 
-- The **beam FE model **(with 7DOF beam finite elements) with well-known analysis and design capabilities
+- The **beam FE model** (with 7DOF beam finite elements) with well-known analysis and design capabilities
 - The **shell FE model** (with shell finite elements) consistently connected into the global beam model and including the additional holes (web cut-outs) and stiffeners in the mesh.
 
 <!-- /wp:list -->
@@ -80,13 +80,13 @@ Several new adaptive detailing features are also available in addition to the Su
 
 <!-- wp:paragraph -->
 
-**\_**_[Stiffener](https://consteelsoftware.com/manual/structural-modelling/stiffener/)_**\_**
+**_[Stiffener](../5_0_structural-modeling/5_16_stiffener.md)_**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-_**[Web cutout](https://consteelsoftware.com/manual/structural-modelling/cutout/)**_
+_**[Web cutout](../5_0_structural-modeling/5_15_cutout.md)**_
 
 <!-- /wp:paragraph -->
 
@@ -104,7 +104,7 @@ Currently, these objects are only taken into account during analysis and design 
 
 <!-- wp:paragraph -->
 
-To use the capabilities of a shell model on a bar member, you have to change the type of the finite element model of a beam. First, you have to select the beam in the model space and then click on the "_Type of finite element_" field on the right _[Objects properties window](https://consteelsoftware.com/manual/how-to-open-consteel/the-main-window/#Object-properties-window)_ (see below).
+To use the capabilities of a shell model on a bar member, you have to change the type of the finite element model of a beam. First, you have to select the beam in the model space and then click on the "_Type of finite element_" field on the right _[Objects properties window](../1_0_general-description/1_2_the-main-window.md#object-properties-window)_ (see below).
 
 <!-- /wp:paragraph -->
 
@@ -124,7 +124,7 @@ To use the capabilities of a shell model on a bar member, you have to change the
 
 <!-- wp:paragraph -->
 
-The available types of finite elements in the drop-down list depend on the cross-section type (see chapter **_[Line members](https://consteelsoftware.com/manual/structural-modelling/line-members/#type-of-member)_** too). Currently, only welded I or H type sections can be changed to **shell element**. Other types of sections will be available later. After changing the FE model to shell element, a small symbol will appear on the member's reference line as a confirmation.
+The available types of finite elements in the drop-down list depend on the cross-section type (see chapter **_[Line members](../5_0_structural-modeling/5_2_line-members.md#line-members)_** too). Currently, only welded I or H type sections can be changed to **shell element**. Other types of sections will be available later. After changing the FE model to shell element, a small symbol will appear on the member's reference line as a confirmation.
 
 <!-- /wp:paragraph -->
 
@@ -146,7 +146,7 @@ The available types of finite elements in the drop-down list depend on the cross
 
 <!-- wp:paragraph -->
 
-In the next row, the _Finite element generation_ type determines whether the **size of finite elements** will be _Automatic \_or \_Manual_. Finite element size can be specified separately for the web and the flanges. Choosing the automatic mode, the FE generation will follow the rules below:
+In the next row, the _Finite element generation_ type determines whether the **size of finite elements** will be _Automatic_ or _Manual_. Finite element size can be specified separately for the web and the flanges. Choosing the automatic mode, the FE generation will follow the rules below:
 
 <!-- /wp:paragraph -->
 
@@ -202,7 +202,7 @@ In the next row, the type of **constraint elements** can be chosen, that can be
 
 <!-- wp:paragraph -->
 
-The constraint elements are special model elements generated automatically during the member to shell conversion, connecting the FE nodes of the shell model to the other part of the model, e.g. to a continuously connected bar member. Constraints elements are drawn with orange lines in the Finite element view of the model (see picture). See more: [**_Constraints_**](/manual/structural-modelling/link-elements/#constraints)
+The constraint elements are special model elements generated automatically during the member to shell conversion, connecting the FE nodes of the shell model to the other part of the model, e.g. to a continuously connected bar member. Constraints elements are drawn with orange lines in the Finite element view of the model (see picture). See more: [**_Constraints_**](../5_0_structural-modeling/5_11_link-elements.md#constraints)
 
 <!-- /wp:paragraph -->
 
@@ -244,7 +244,7 @@ In the present version, the shell FE representation Of Superbeam is not compatib
 
 <!-- wp:paragraph -->
 
-Consteel uses a well defined logic to handle member to shell conversions automatically. If the automatic conversion results an unexpected or unwanted solution, the user can „explode” the converted member and place the eccentric objects directly on the shell representation, as normal. See **_[Chapter 5.5 Convert members to plates](/manual/structural-modelling/convert-members-to-plates/)_** for how to do this.
+Consteel uses a well defined logic to handle member to shell conversions automatically. If the automatic conversion results an unexpected or unwanted solution, the user can „explode” the converted member and place the eccentric objects directly on the shell representation, as normal. See **_[Chapter 5.5 Convert members to plates](../5_0_structural-modeling/5_6_convert-members-to-plates.md)_** for how to do this.
 
 <!-- /wp:paragraph -->
 

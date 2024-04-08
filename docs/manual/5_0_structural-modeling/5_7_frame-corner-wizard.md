@@ -33,7 +33,7 @@ Functions of the frame corner wizard dialogue:
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-\#1 - With the button frame corner recognition can be turned on, and off.: By turning on frame corner recognition, frame corner definition can be started. Already defined frame corners can be turned off by clicking the button, and turned on again if it is desired.
+\#1 - With the button frame corner recognition can be turned on, and off: By turning on frame corner recognition, frame corner definition can be started. Already defined frame corners can be turned off by clicking the button, and turned on again if it is desired.
 
 <!-- /wp:paragraph -->
 
@@ -45,7 +45,7 @@ Functions of the frame corner wizard dialogue:
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-\#3 - Displays the model portion tree, in which it can be decided that what type of frame corner should be applied on which portion. It is important to note, that special frame corners (#5, #6, #7) can only be placed on model portions. The default frame corner type can be applied to the whole model. To place a special frame corner, it is necessary to select a model portion, and then with a click on a type of frame corner and on the **Apply button**,\*\* \*\*the frame corner will be placed on the model.
+\#3 - Displays the model portion tree, in which it can be decided that what type of frame corner should be applied on which portion. It is important to note, that special frame corners (#5, #6, #7) can only be placed on model portions. The default frame corner type can be applied to the whole model. To place a special frame corner, it is necessary to select a model portion, and then with a click on a type of frame corner and on the **Apply button**, the frame corner will be placed on the model.
 
 <!-- /wp:paragraph -->
 
@@ -81,7 +81,7 @@ Functions of the frame corner wizard dialogue:
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-After clicking on the **Apply **button the program detects the overlapping zones of the members in the identified connection nodes including occurrent eccentricities, haunches, or tapered members.
+After clicking on the **Apply** button the program detects the overlapping zones of the members in the identified connection nodes including occurrent eccentricities, haunches, or tapered members.
 
 <!-- /wp:paragraph -->
 

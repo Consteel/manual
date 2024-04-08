@@ -85,10 +85,10 @@ Four additional dialog panels are directly linked to the main dialog window of t
 
 <!-- wp:list {"className":"is-style-arrow","editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-- Create **New **purlin line object
-- **Delete **the existing purlin line object
-- **Place **the actual purlin line object into the model
-- **Apply **the actual settings
+- Create **New** purlin line object
+- **Delete** the existing purlin line object
+- **Place** the actual purlin line object into the model
+- **Apply** the actual settings
 
 <!-- /wp:list -->
 
@@ -216,7 +216,7 @@ The contents of the dialog box change according to the selection.
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-If trapezoidal sheeting is selected, the shear stiffness can be entered manually along with the effective width, or automatically by clicking (![](./img/wp-content-uploads-2021-04-3dots-button.png)) and using the shear box dialog shown above (see Section [5.11).](#_5.11_Shear_field)
+If trapezoidal sheeting is selected, the shear stiffness can be entered manually along with the effective width, or automatically by clicking (![](./img/wp-content-uploads-2021-04-3dots-button.png)) and using the shear box dialog shown above (see Section [5.11).](./5_12_shear-field.md)
 
 <!-- /wp:paragraph -->
 
@@ -434,16 +434,16 @@ The local transverse resistance shall be determined manually in accordance with 
 
 <!-- wp:list {"className":"is-style-arrow","editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-- Create **New **support zone object
-- **Delete **the existing support zone object
-- **Place **the actual support zone object into the model
-- **Apply **the actual settings
+- Create **New** support zone object
+- **Delete** the existing support zone object
+- **Place** the actual support zone object into the model
+- **Apply** the actual settings
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
-The **Place **command opens the following dialog window
+The **Place** command opens the following dialog window
 
 <!-- /wp:paragraph -->
 
@@ -550,16 +550,16 @@ Currently, only overlap joint is available in the program. A dialog is directly 
 
 <!-- wp:list {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-- Create **New **purlin overlap object
-- **Delete **the existing purlin overlap object
-- **Place **the actual purlin overlap object into the model
-- **Apply **the actual settings
+- Create **New** purlin overlap object
+- **Delete** the existing purlin overlap object
+- **Place** the actual purlin overlap object into the model
+- **Apply** the actual settings
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
-The **Place **command opens the following dialog window
+The **Place** command opens the following dialog window
 
 <!-- /wp:paragraph -->
 
@@ -578,7 +578,7 @@ The **Place **command opens the following dialog window
 
 <!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-Clicking the **End placement **command stops the command and closes the dialog
+Clicking the **End placement** command stops the command and closes the dialog
 
 <!-- /wp:paragraph -->
 

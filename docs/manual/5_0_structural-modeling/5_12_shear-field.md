@@ -27,7 +27,7 @@ In the picture below, the interpretation of shear stiffness can be seen, where â
 
 <!-- wp:paragraph -->
 
-$$C=\\dfrac{e}{F} \\quad \[mm/kN]$$
+$$C=\dfrac{e}{F} \quad  [mm/kN]$$
 
 <!-- /wp:paragraph -->
 
@@ -39,7 +39,7 @@ Reciprocal of the shear elasticity gives the shear stiffness, which is denoted b
 
 <!-- wp:paragraph -->
 
-$$S=\\dfrac{F}{e} \\quad \[kN/mm]$$
+$$S=\dfrac{F}{e} \quad [kN/mm]$$
 
 <!-- /wp:paragraph -->
 
@@ -197,7 +197,7 @@ The recommended method uses the following formula (DIN 18807, Schardt/Strehl met
 <!-- /wp:paragraph -->
 
 
-$$S=\\dfrac{10^{4}}{K_1+\\dfrac{K_2}{L}}\*a \\quad (1)$$
+$$S=\dfrac{10^{4}}{K_1+\dfrac{K_2}{L}}*a \quad  (1)$$
 
 <!-- /wp:paragraph -->
 
@@ -281,7 +281,7 @@ The recommended method uses the following formula (improved Schradt/Strehl metho
 
 <!-- wp:paragraph -->
 
-$$S=\\cfrac{1}{(K_1+K_1^{\*}e_L)+\\cfrac{K_2+K_2^{\*}}{L}}\*a \\quad (2)$$
+$$S=\cfrac{1}{(K_1+K_1^{*}e_L)+\cfrac{K_2+K_2^{*}}{L}}*a \quad  (2)$$
 
 <!-- /wp:paragraph -->
 
@@ -347,7 +347,7 @@ The recommended method by Alcerol uses the following formula (3) (Bryan/Davies):
 
 <!-- wp:paragraph -->
 
-$$S=\\cfrac{10^{4}}{\[(K_1^{'}\*a_2+K_1^{\*}\*e_L)+\\cfrac{K_2^{'}\*a_1\*a_4+K_2^{\*}\*a_3}{L_S}}\*a \\quad (3)$$
+$$S=\cfrac{10^{4}}{[(K_1^{'}*a_2+K_1^{*}*e_L)+\cfrac{K_2^{'}a_1a_4+K_2^{*}a_3}{L_S}}a \quad  (3)$$
 
 <!-- /wp:paragraph -->
 
@@ -431,7 +431,7 @@ The recommended method uses the following formula (4)
 
 <!-- wp:paragraph -->
 
-$$S=(1000\*\\sqrt{t^{3}}\*(50+10\*\\sqrt\[3]{b\_{roof}})\*\\frac{1}{h_w})\*a$$
+$$S=(1000*\sqrt{t^{3}}(50+10\sqrt[3]{b_{roof}})\frac{1}{h_w})a$$
 
 <!-- /wp:paragraph -->
 
@@ -497,7 +497,7 @@ The dialog of the shear field stiffness definition can be opened with the ![](./
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-\#1 - Value of shear stiffness can be defined manually, or if the (![](./img/wp-content-uploads-2021-04-3dots-button.png)) button is clicked, on the [Shear field stiffness calculation](#Shear-field-stiffness-calculation) it can be calculated automatically.
+\#1 - Value of shear stiffness can be defined manually, or if the (![](./img/wp-content-uploads-2021-04-3dots-button.png)) button is clicked, on the [Shear field stiffness calculation](#shear-field-stiffness-calculation) it can be calculated automatically.
 
 <!-- /wp:paragraph -->
 

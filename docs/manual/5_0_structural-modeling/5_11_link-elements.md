@@ -35,7 +35,7 @@ Parameters of the link element can be defined in the middle part of the dialog:
 
 <!-- wp:list -->
 
-- \_Position of connection: \_this parameter defines the place where the continuity acts in the percentage of the length of the link element. Value can be between 0 and 1
+- _Position of connection:_ this parameter defines the place where the continuity acts in the percentage of the length of the link element. Value can be between 0 and 1
 - Rotation: rotation value defines the angle of the link element in degrees
 - Release: predefined releases can be assigned to the specified position. If a new release type is needed the **_Release_** dialogue can be called by pressing the button next to the combo
 
@@ -193,8 +193,8 @@ These types of link elements are special since these cannot be created manually,
 
 <!-- wp:list -->
 
-- Frame corners with the help of the [**_Frame corner wizard_**](/manual/structural-modelling/frame-corner-wizard/)
-- If any bar member is set to shell FE representation (see **_[Superbeam](https://consteelsoftware.com/manual/structural-modelling/superbeam/)_** for more info)
+- Frame corners with the help of the [**_Frame corner wizard_**](../5_0_structural-modeling/5_7_frame-corner-wizard.md)
+- If any bar member is set to shell FE representation (see **_[Superbeam](../5_0_structural-modeling/5_14_superbeam.md)_** for more info)
 
 <!-- /wp:list -->
 
@@ -212,7 +212,7 @@ Constraint elements are represented with thick orange lines in the Finite elemen
 
 <!-- wp:paragraph -->
 
-Constraints created in the frame corners transferring only the warping deformations between the beam and the column according to the type of the frame corner object. More information about the frame corner types: [**_Frame corner wizard_**](/manual/structural-modelling/frame-corner-wizard/)
+Constraints created in the frame corners transferring only the warping deformations between the beam and the column according to the type of the frame corner object. More information about the frame corner types: [**_Frame corner wizard_**](../5_0_structural-modeling/5_7_frame-corner-wizard.md)
 
 <!-- /wp:paragraph -->
 

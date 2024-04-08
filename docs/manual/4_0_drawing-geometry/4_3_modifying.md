@@ -21,7 +21,7 @@ sidebar_position: 3
 
 <!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2021-04-5-4-mod-copy-ico.png) **Move selected objects.** The selected object(s) can be _**moved **\_or _**copied**\_
+![](./img/wp-content-uploads-2021-04-5-4-mod-copy-ico.png) **Move selected objects.** The selected object(s) can be **moved**  or   **copied.**
 
 <!-- /wp:paragraph -->
 
@@ -68,11 +68,11 @@ There are several options that affect the outcome of the operation. These are as
   - Checked (default): structural members will be copied or moved.
   - Unchecked: use when only the loads and/or the supports of the structural member need to be copied or moved.
 
-- _Copy loads_: this options has any effect only if \_Copy \_is the selected operation. If loads are already defined on the selected members they can also be included in the operation. If \_Move \_is the selected operation the loads will be moved anyway.
+- _Copy loads_: this options has any effect only if _Copy_ is the selected operation. If loads are already defined on the selected members they can also be included in the operation. If _Move_ is the selected operation the loads will be moved anyway.
 
   - Checked (default): the loads will be copied with the selected structural members. If only loads were selected (without any members or other type of object) the options below become also active:
 
-    - \_Original loadcase: \_the selected load(s) will be copied in the set number of copies within its(their) own loadcase.
+    - _Original loadcase:_ the selected load(s) will be copied in the set number of copies within its(their) own loadcase.
     - _New loadcase:_ the selected load(s) will be copied in the set number of copies to new loadcase(s). As many new loadcase will be created as the number of copies specified. The new loadcases will get its original name with an "-x" suffix at the end, where the "x" is the serial number of the copies.
 
   - Unchecked: the loads will not be copied with the selected structural members.
@@ -82,7 +82,7 @@ There are several options that affect the outcome of the operation. These are as
   - Checked (default): the supports of the selected structural members will be copied. (In case of the selection set does not contain at least one selected member then the selected supports will not be copied.)
   - Unchecked: the supports of the selected structural members will not be copied.
 
-- \_Join point_s
+- _Join points_
 
   - Checked: the end points of the copied objects will be connected with lines.
   - Unchecked (default): the end points of the copied objects will not be connected with lines.
@@ -91,7 +91,7 @@ There are several options that affect the outcome of the operation. These are as
 
 <!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2021-04-5-4-mod-mirror-ico.png) **Mirror selected objects. **The two given points represent the mirroring axis that will be projected into the actual _UCS_ system and the mirroring will be performed in the actual _UCS_ symmetrically to the axis of mirroring.
+![](./img/wp-content-uploads-2021-04-5-4-mod-mirror-ico.png) **Mirror selected objects.** The two given points represent the mirroring axis that will be projected into the actual _UCS_ system and the mirroring will be performed in the actual _UCS_ symmetrically to the axis of mirroring.
 
 <!-- /wp:paragraph -->
 
@@ -121,7 +121,7 @@ The effects of the options are the same as described above.
 
 <!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2021-04-5-4-mod-rot-ico.png) **Rotate selected objects. **Select the objects for rotation.
+![](./img/wp-content-uploads-2021-04-5-4-mod-rot-ico.png) **Rotate selected objects.** Select the objects for rotation.
 
 <!-- /wp:paragraph -->
 
@@ -145,13 +145,13 @@ The effects of the options are the same as described above.
 
 <!-- wp:paragraph -->
 
-**_The further modifying functions are on the \_Geometry_ \__tab:_**
+**_The further modifying functions are on the Geometry tab:_**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2021-04-5-4-mod-size.png)** Sizing of the selected objects. **Select objects for sizing. Set the sizing center, the sizing reference point, and the sizing multiplier point (the distances of the sizing reference point and the sizing multiplier point to the sizing origin point determines the sizing factor). The sizing will be performed. The length (and depending on the sizing origin maybe the position) of the objects will be changed. The length of the line-loads will be changed proportionally.
+![](./img/wp-content-uploads-2021-04-5-4-mod-size.png) **Sizing of the selected objects.** Select objects for sizing. Set the sizing center, the sizing reference point, and the sizing multiplier point (the distances of the sizing reference point and the sizing multiplier point to the sizing origin point determines the sizing factor). The sizing will be performed. The length (and depending on the sizing origin maybe the position) of the objects will be changed. The length of the line-loads will be changed proportionally.
 
 <!-- /wp:paragraph -->
 
@@ -175,7 +175,7 @@ The coordinates of the new position of the selected point also can be given manu
 
 <!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2021-04-5-4-mod-straight.png) **Straighten selected arc. **The selected arc segment of a plane element will be deleted and substituted by a straight edge.
+![](./img/wp-content-uploads-2021-04-5-4-mod-straight.png) **Straighten selected arc.** The selected arc segment of a plane element will be deleted and substituted by a straight edge.
 
 <!-- /wp:paragraph -->
 
@@ -223,7 +223,7 @@ By selecting the two unequal parts option a series of relative or absolute lengt
 
 <!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2021-04-5-4-mod-extend.png) **Extend selected line or plate elements to limit line or plate. **Select the limit line or plate and click on the linear or plate object to be extended to the limit line or plate. It works with plate elements only if the edges of the extended plate element do not cross each other.
+![](./img/wp-content-uploads-2021-04-5-4-mod-extend.png) **Extend selected line or plate elements to limit line or plate.** Select the limit line or plate and click on the linear or plate object to be extended to the limit line or plate. It works with plate elements only if the edges of the extended plate element do not cross each other.
 
 <!-- /wp:paragraph -->
 
