@@ -21,7 +21,7 @@ The dialogue can be separated into two main parts:
 
 <!-- wp:paragraph -->
 
-On the left side of the dialogue (#1), loadcases that were defined on the **Loads **tab can be converted automatically into masses for the dynamic calculations. On the right side of the dialogue (#2), mass groups and cases can be defined manually.
+On the left side of the dialogue (#1), loadcases that were defined on the **Loads** tab can be converted automatically into masses for the dynamic calculations. On the right side of the dialogue (#2), mass groups and cases can be defined manually.
 
 <!-- /wp:paragraph -->
 
@@ -39,7 +39,7 @@ On the left side of the dialogue (#1), loadcases that were defined on the **Load
 
 <!-- wp:paragraph -->
 
-Loads placed on the Loads tab can be converted into masses on the left side of the Mass cases and mass groups dialogue. The tree panel will automatically be filled up with the previously created permanent, variable, and snow load groups and their corresponding loadcases. If a checkbox of a load case is clicked, it will be converted into mass, after pressing the **OK **or **Apply **button on the dialogue
+Loads placed on the Loads tab can be converted into masses on the left side of the Mass cases and mass groups dialogue. The tree panel will automatically be filled up with the previously created permanent, variable, and snow load groups and their corresponding loadcases. If a checkbox of a load case is clicked, it will be converted into mass, after pressing the **OK** or **Apply** button on the dialogue.
 
 <!-- /wp:paragraph -->
 
@@ -63,7 +63,7 @@ Loads placed on the Loads tab can be converted into masses on the left side of t
 
 <!-- wp:paragraph -->
 
-With the **New **button on the _Mass groups_ (#2) part of the dialogue, new mass groups can be added to the _Manually defined_ tree panel. Permanent, Variable, and Snow mass groups can be created. After choosing the correct type, a new element will be added to the tree panel (#1), as a mass group.
+With the **New** button on the _Mass groups_ (#2) part of the dialogue, new mass groups can be added to the _Manually defined_ tree panel. Permanent, Variable, and Snow mass groups can be created. After choosing the correct type, a new element will be added to the tree panel (#1), as a mass group.
 
 <!-- /wp:paragraph -->
 

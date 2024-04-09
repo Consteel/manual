@@ -3,7 +3,7 @@ sidebar_position: 5
 ---
 # Creating response spectrums
 
-With the **Create response spectrum **(![](./img/wp-content-uploads-2021-04-cmd_response_spectrum.png)) function, two types of response spectrums can be defined:
+With the **Create response spectrum**(![](./img/wp-content-uploads-2021-04-cmd_response_spectrum.png)) function, two types of response spectrums can be defined:
 
 <!-- /wp:paragraph -->
 
@@ -46,7 +46,7 @@ According to the recommended values of _EuroCode_, the following parameters are 
 
 <!-- wp:list -->
 
-- \_Type of spectrum: \_the dropdown menu is filled up with the possible types of the active annex
+- _Type of spectrum:_ the dropdown menu is filled up with the possible types of the active annex
 - _Importance class:_ with the dropdown menu, the importance class of the structure can be selected. Value for each selected class is written into the edit box, next to the dropdown menu, according to the selected annex
 - _Ground type_: with the (![](./img/wp-content-uploads-2021-04-3dots-button.png)) button, the type of ground below the structure can be selected. At the bottom of the pop-up dialogue, all of the parameters are represented with their values, according to the active annex.
 - _Ground acceleration - agR \[m/s2]:_ can be defined manually through the edit box, or by clicking on the (![](./img/wp-content-uploads-2021-04-3dots-button.png)) button, it can be chosen by clicking on a region on the built-in maps:
@@ -103,8 +103,8 @@ ConSteel provides two ways for the definition of **new user defined response spe
 
 <!-- wp:list {"ordered":true,"type":"1"} -->
 
-1. Response spectrum can be created manually from scratch, by simply clicking on the **Create **button
-2. Response spectrum creation based on an existing standard spectrum, by cloning and modifying it. If the _Clone an existing response spectrum_ checkbox is checked in, the dropdown menu of the previously defined spectrums will become active. By choosing a standard response spectrum, and clicking on the **Create **button, modification of the selected spectrum can be started.
+1. Response spectrum can be created manually from scratch, by simply clicking on the **Create** button
+2. Response spectrum creation based on an existing standard spectrum, by cloning and modifying it. If the _Clone an existing response spectrum_ checkbox is checked in, the dropdown menu of the previously defined spectrums will become active. By choosing a standard response spectrum, and clicking on the **Create** button, modification of the selected spectrum can be started.
 
 <!-- /wp:list -->
 
@@ -138,7 +138,7 @@ On the _Response spectrum parameters_ part (#1), the following parameters has to
 
 <!-- wp:list -->
 
-- _Ground acceleration -_ \_a \[m/s2]: \_can be defined manually through the editbox, or by clicking on the (![](./img/wp-content-uploads-2021-04-3dots-button.png)) button, it can be chosen by clicking on a region on the built-in maps.
+- _Ground acceleration -_ a [m/s2]: can be defined manually through the editbox, or by clicking on the (![](./img/wp-content-uploads-2021-04-3dots-button.png)) button, it can be chosen by clicking on a region on the built-in maps.
 - Vertical acceleration _av/a: ratio of the vertical/horizontal acceleration can be set in the editbox_
 - _Type of the response spectrum:_ Design or Elastic response spectrum can be chosen. Design response spectrum will be used in design situations, while elastic response spectrum will be used in case of serviceability situations
 
@@ -146,7 +146,7 @@ On the _Response spectrum parameters_ part (#1), the following parameters has to
 
 <!-- wp:paragraph -->
 
-In the \_Edit spectrum points \_part of the dialogue, the graph of the response spectrum can be defined, by giving the time parameter in seconds, and the corresponding spectrum value divided by the acceleration.
+In the _Edit spectrum points_ part of the dialogue, the graph of the response spectrum can be defined, by giving the time parameter in seconds, and the corresponding spectrum value divided by the acceleration.
 
 <!-- /wp:paragraph -->
 
@@ -164,7 +164,7 @@ A newly defined user response spectrum is the same in all (X,Y,Z) directions. If
 
 <!-- wp:paragraph -->
 
-The data of the spectrum can be saved in \*.csv and \*.txt format, using the ![](./img/wp-content-uploads-2021-04-cmd_save.png) button.
+The data of the spectrum can be saved in *.csv* and *.txt* format, using the ![](./img/wp-content-uploads-2021-04-cmd_save.png) button.
 
 <!-- /wp:paragraph -->
 
@@ -182,12 +182,12 @@ Previously created and saved spectrums can be imported using the ![](./img/wp-co
 
 <!-- wp:paragraph -->
 
-After selecting the **New user defined response spectrum** by cloning an existing response spectrum, and pressing the **Create **button, the modification of the selected standard spectrum can be started. All points of the standard design spectrum will automatically be loaded into the table of the definition dialogue, where any point and parameter is free for to edit.
+After selecting the **New user defined response spectrum** by cloning an existing response spectrum, and pressing the **Create** button, the modification of the selected standard spectrum can be started. All points of the standard design spectrum will automatically be loaded into the table of the definition dialogue, where any point and parameter is free for to edit.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-All of the modification options are the same as it is written in chapter **_[Manual definition of response spectrum, Chapter 7.6.2.1](#Manual-definition-of-response-spectrum)_**
+All of the modification options are the same as it is written in chapter **_[Manual definition of response spectrum, Chapter 7.6.2.1](../7_0_masses/7_5_creating-response-spectrums.md)_**
 
 <!-- /wp:paragraph -->

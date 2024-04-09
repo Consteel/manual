@@ -3,7 +3,7 @@ sidebar_position: 2
 ---
 # Definition of mass combinations
 
-Definition of **mass combinations** works like the** load combination** definition (Chapter 6.3), but without the possibility to generate mass combinations automatically. Factors for each mass case have to be set manually to create a mass combination.
+Definition of **mass combinations** works like the **load combination** definition (Chapter 6.3), but without the possibility to generate mass combinations automatically. Factors for each mass case have to be set manually to create a mass combination.
 
 <!-- /wp:paragraph -->
 
@@ -21,7 +21,7 @@ The grid of the mass combinations dialogue can be separated into two parts:
 
 <!-- wp:paragraph -->
 
-\#2 –.List of mass cases defined manually
+\#2 –List of mass cases defined manually
 
 <!-- /wp:paragraph -->
 
