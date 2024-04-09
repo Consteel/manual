@@ -85,7 +85,7 @@ Finally, in the lowest drop-down menu of the dialog box, for any protected or un
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-By clicking on the **_Apply_** button, fire protection will be saved. With the **_New _**button, several other protections can be created. With _**Delete**_ button, the selected and created protection can be deleted.
+By clicking on the **_Apply_** button, fire protection will be saved. With the **_New_** button, several other protections can be created. With _**Delete**_ button, the selected and created protection can be deleted.
 
 <!-- /wp:paragraph -->
 
