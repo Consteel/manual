@@ -146,23 +146,26 @@ For the two types of finite elements (line and surface elements) the following a
     - vRz – resultant plate shear force
 
     - Ɑn – principal directions of the membrane forces  
-      $\\alpha_n=\\frac{1}{2}arctan\\left \[ \\frac{2n\_{xy}}{n_x-n_y} \\right ]\\; \\; -90^{\\circ}&lt; \\alpha_n\\leq +90^{\\circ}$
+     $\alpha_n=\frac{1}{2}arctan\left [ \frac{2n_{xy}}{n_x-n_y} \right ]\; \; -90^{\circ}< \alpha_n\leq +90^{\circ}$
     - Ɑm – principal directions of the plate moments  
-      $\\alpha_m=\\frac{1}{2}arctan\\left \[ \\frac{2m\_{xy}}{m_x-m_y} \\right ]\\; \\; -90^{\\circ}&lt; \\alpha_m\\leq +90^{\\circ}$
+      $\alpha_m=\frac{1}{2}arctan\left [ \frac{2m_{xy}}{m_x-m_y} \right ]\; \; -90^{\circ}< \alpha_m\leq +90^{\circ}$
 
   - Stresses on the surface – on the upper, middle and lower plane of the surface on the end nodes of each finite element in the local coordinate system
 
-    - $\\sigma_x$ – normal stress in the local “x” direction
-    - $\\sigma_y$ – normal stress in the local “y” direction
-    - $\\sigma\_{xy}$ – shear stress
-    - $\\sigma_1$ – maximum principal stress  
-      $\\sigma_1= \\frac{\\sigma_x+\\sigma_y}{2}+\\sqrt{{\\left \[ \\frac{\\sigma_x-\\sigma_y}{2} \\right ]}^2+\\sigma\_{xy}^2}$
-    - $\\sigma_2$ – minimum principal stress  
-      $\\sigma_1= \\frac{\\sigma_x+\\sigma_y}{2}-\\sqrt{{\\left \[ \\frac{\\sigma_x-\\sigma_y}{2} \\right ]}^2+\\sigma\_{xy}^2}$
-    - $\\sigma\_{HMH}$ – Huber-Mises-Hencky stress  
-      $\\sigma\_{HMH}=\\sqrt{\\sigma_x^2+\\sigma_y^2-\\sigma_x\\sigma_y+3\\sigma\_{xy}^2}$
-    - $\\alpha\_{\\sigma}$ – principal directions of the stresses  
-      $\\alpha\_{\\sigma}=\\frac{1}{2}arctan\\left \[ \\frac{2\\sigma\_{xy}}{\\sigma_x-\\sigma_y} \\right ]\\; \\; -90^{\\circ}&lt; \\alpha\_{\\sigma}\\leq +90^{\\circ}$
+    - $\sigma_x$ – normal stress in the local “x” direction
+    - $\sigma_y$ – normal stress in the local “y” direction
+    - $\sigma\_{xy}$ – shear stress
+    - $\sigma_1$ – maximum principal stress  
+      $\sigma_1= \frac{\sigma_x+\sigma_y}{2}+\sqrt{{\left [ \frac{\sigma_x-\sigma_y}{2} \right ]}^2+\sigma_{xy}^2}$
+
+    - $\sigma_2$ – minimum principal stress  
+     $\sigma_= \frac{\sigma_x+\sigma_y}{2}-\sqrt{{\left [ \frac{\sigma_x-\sigma_y}{2} \right ]}^2+\sigma_{xy}^2}$
+
+    - $\sigma_{HMH}$ – Huber-Mises-Hencky stress  
+      $\sigma_{HMH}=\sqrt{\sigma_x^2+\sigma_y^2-\sigma_x\sigma_y+3\sigma_{xy}^2}$
+
+    - $\alpha_{\sigma}$ – principal directions of the stresses  
+      $\alpha_{\sigma}=\frac{1}{2}arctan\left [ \frac{2\sigma_{xy}}{\sigma_x-\sigma_y} \right ]\; \; -90^{\circ}< \alpha_{\sigma}\leq +90^{\circ}$
 
   - Reactions – on the support nodes in the global coordinate system
 
@@ -190,7 +193,7 @@ For the two types of finite elements (line and surface elements) the following a
 
 <!-- wp:paragraph -->
 
-Effective management of the huge amount of data generated during the analysis is of great importance. It should be possible to review both general and accurate, detailed data for a given type of result. There are two main options for reviewing the analysis results: the graphical view and the result tables (for the general functionality of tables used in _ConSteel_ see section **_[1.4 General functions for tables](https://consteelsoftware.com/manual/how-to-open-consteel/general-functions-for-tables/)_**).
+Effective management of the huge amount of data generated during the analysis is of great importance. It should be possible to review both general and accurate, detailed data for a given type of result. There are two main options for reviewing the analysis results: the graphical view and the result tables (for the general functionality of tables used in _ConSteel_ see section **_[1.4 General functions for tables](../1_0_general-description/1_4_general-functions-for-tables.md)_**).
 
 <!-- /wp:paragraph -->
 
@@ -203,7 +206,7 @@ The results of the performed analysis are usually a huge amount of data so the e
 <!-- wp:list -->
 
 - **graphical visualization**
-- **result tables**\_ _(for the general functionality of tables used in \_ConSteel_ see section **_[1.4 General functions for tables](/manual/how-to-open-consteel/general-functions-for-tables/)_**).
+- **result tables** _(for the general functionality of tables used in ConSteel_ see section **_[1.4 General functions for tables](../1_0_general-description/1_4_general-functions-for-tables.md)_**).
 
 <!-- /wp:list -->
 
@@ -221,9 +224,9 @@ The two visualization options are obviously in strong connection and can be mani
 
 <!-- wp:list -->
 
-- selection of analysis type (first order, second order, buckling, etc. described in section** _[8.4 Analysis types](/manual/structural-analysis/analysis-types/)_**)
+- selection of analysis type (first order, second order, buckling, etc. described in section _[ Analysis types](./8_4_analysis-types.md)_)
 - selection of load combination, load case, or envelope figures
-- selection of result type (described in section **_[8.5.1 Result types](#Result-types)_**)
+- selection of result type (described in section _[ Result types](#result-types)_)
 - selection of display mode (finite element/diagram/colored diagram/deformation/contour surface)
 
 <!-- /wp:list -->
@@ -292,7 +295,7 @@ Deformation
 - Diagram: the results are shown with single line diagram
 - Colored diagram: the color of the diagram lines depend on the sign of the value. Negative values are shown in blue and positive values in red.
 - Deformation: (only for deformation results) the deformed structure is shown
-- Contour surface: the results are displayed by coloring of the structural members according to the color palette shown in the top right corner of the window. The palette can be customized on the **Transient palette settings **dialog opens by right-clicking on it.
+- Contour surface: the results are displayed by coloring of the structural members according to the color palette shown in the top right corner of the window. The palette can be customized on the **Transient palette settings** dialog opens by right-clicking on it.
 
 <!-- /wp:list -->
 
@@ -326,7 +329,7 @@ Palette settings
 
 <!-- wp:paragraph -->
 
-All the model view options discussed in section _[**3.1 Model views**](/manual/model-view/model-views/)_ are applicable to the result graphics. Moving the slider ![](./img/wp-content-uploads-2021-04-cmd_analysis_slide.png) beside the combos the scaling of the results can be adjusted on the graphics. In the case of partial or submodel view the graphics and the tables show only the results of the actual model part.
+All the model view options discussed in section _[**Model views**](../3_0_model-view/3_1_model-views.md)_ are applicable to the result graphics. Moving the slider ![](./img/wp-content-uploads-2021-04-cmd_analysis_slide.png) beside the combos the scaling of the results can be adjusted on the graphics. In the case of partial or submodel view the graphics and the tables show only the results of the actual model part.
 
 <!-- /wp:paragraph -->
 
@@ -344,7 +347,7 @@ The analysis results are displayed in table format below the graphical view. (Th
 
 <!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2021-04-cmd_analysis_table_markers.png) User defined values: show the values belonging to the markers defined by the user (discussed more deeply in section _[**Result markers**](#Result-markers)_, see below)
+![](./img/wp-content-uploads-2021-04-cmd_analysis_table_markers.png) User defined values: show the values belonging to the markers defined by the user (discussed more deeply in section _[**Result markers**](#result-markers)_, see below)
 
 <!-- /wp:paragraph -->
 
@@ -467,7 +470,7 @@ Extreme values can automatically marked by the check boxes on the ‘Extreme val
 
 <!-- wp:paragraph -->
 
-In ConSteel, _min. max and min-max_ envelope figures are available both for _bar members_, and _shell models_ too. Envelope visualization of results can be accessed through the** load combination** dropdown menu of the **Analysis **tab, after a successful calculation. Envelope figures are available both for first, and second order results. By default, there are two envelope figures to choose from, one for all of the calculated ULS and one for all of the calculated SLS combinations. It is possible to create custom envelope figures, which are explained in detail in the chapter _[**User defined envelope figures**](#User-defined-envelope-figures)_.
+In ConSteel, _min. max and min-max_ envelope figures are available both for _bar members_, and _shell models_ too. Envelope visualization of results can be accessed through the **load combination** dropdown menu of the **Analysis** tab, after a successful calculation. Envelope figures are available both for first, and second order results. By default, there are two envelope figures to choose from, one for all of the calculated ULS and one for all of the calculated SLS combinations. It is possible to create custom envelope figures, which are explained in detail in the chapter _[**User defined envelope figures**](#user-defined-envelope-figures)_.
 
 <!-- /wp:paragraph -->
 
@@ -535,7 +538,7 @@ Besides the default, built-in envelope options (all ULS and SLS combinations), i
 
 <!-- wp:paragraph -->
 
-After clicking on the function, the **User-defined envelope **dialogue will appear. On this dialogue, any number of custom envelope figures can be created, using the **New **button.
+After clicking on the function, the **User-defined envelope** dialogue will appear. On this dialogue, any number of custom envelope figures can be created, using the **New** button.
 
 <!-- /wp:paragraph -->
 
@@ -547,7 +550,7 @@ After clicking on the function, the **User-defined envelope **dialogue will appe
 
 <!-- wp:paragraph -->
 
-If the Load combinations is selected at the **Parameters **part of the dialogue, the elements of the dropdown menu below **Load combinations or Load cases**, and the table below will be different.
+If the Load combinations is selected at the **Parameters** part of the dialogue, the elements of the dropdown menu below **Load combinations or Load cases**, and the table below will be different.
 
 <!-- /wp:paragraph -->
 
@@ -586,7 +589,7 @@ If the Load case is selected at the parameters, the options of the dropdown menu
 
 <!-- wp:paragraph -->
 
-After the user-defined envelopes are created, they will be listed at the** load combinations **dropdown menu of the **analysis tab, **and will be listed at the **User-defined** **envelope **part:
+After the user-defined envelopes are created, they will be listed at the load combinations dropdown menu of the analysis tab, and will be listed at the **User-defined** envelope part:
 
 <!-- /wp:paragraph -->
 
@@ -604,7 +607,7 @@ After the user-defined envelopes are created, they will be listed at the** load 
 
 <!-- wp:paragraph -->
 
-The **show original shape of structure **function ![](./img/wp-content-uploads-2021-06-cmd_anal_showorigshape.png) will show the original and the deformed shape of the structure at the same time:
+The show original shape of structure function ![](./img/wp-content-uploads-2021-06-cmd_anal_showorigshape.png) will show the original and the deformed shape of the structure at the same time:
 
 <!-- /wp:paragraph -->
 
@@ -640,7 +643,7 @@ The **show original shape of structure **function ![](./img/wp-content-uploads-2
 
 <!-- wp:paragraph -->
 
-**Extreme values: **setting the type of extreme values
+**Extreme values:** setting the type of extreme values
 
 <!-- /wp:paragraph -->
 
@@ -652,7 +655,7 @@ The **show original shape of structure **function ![](./img/wp-content-uploads-2
 
 <!-- wp:paragraph -->
 
-**Bar end: **handle the ends of the members separately (A, B ends) or together (Both ends)
+**Bar end:** handle the ends of the members separately (A, B ends) or together (Both ends)
 
 <!-- /wp:paragraph -->
 
@@ -660,44 +663,14 @@ The **show original shape of structure **function ![](./img/wp-content-uploads-2
 
 Single or multiple component selection is possible, the dominant values are always highlighted by colored cells, the ‘Dominant’ column contains the dominant components.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":10866,"width":700,"sizeSlug":"large","linkDestination":"media"} -->
 
 [![](https://consteelsoftware.com/wp-content/uploads/2021/04/8-6-5-TABLE-OF-DOMINANT-VALUES.2.png)](./img/wp-content-uploads-2021-04-8-6-5-TABLE-OF-DOMINANT-VALUES.2.png)
 
-<!-- /wp:image -->
-
-<!-- wp:heading {"level":3} -->
 
 ### Animation of dynamic shapes
 
-<!-- /wp:heading -->
-
-<!-- wp:columns -->
-
-<!-- wp:column -->
-
-<!-- wp:paragraph -->
 
 In the case of vibration analysis, the animation of the dynamic shapes can be reached to click on the ![](./img/wp-content-uploads-2021-04-cmd_anal_animation.png) icon. Animation speed can be increased and decreased with the slide bar.
 
-<!-- /wp:paragraph -->
-
-<!-- /wp:column -->
-
-<!-- wp:column -->
-
-<!-- wp:image {"align":"center","id":10872,"sizeSlug":"large","linkDestination":"media"} -->
 
 [![](https://consteelsoftware.com/wp-content/uploads/2021/04/8.6.6-ANIMATION-OF-DYNAMIC-SHAPES.jpg)](./img/wp-content-uploads-2021-04-8.6.6-ANIMATION-OF-DYNAMIC-SHAPES.jpg)
-
-<!-- /wp:image -->
-
-<!-- /wp:column -->
-
-<!-- /wp:columns -->
-
-<!-- wp:paragraph -->
-
-<!-- /wp:paragraph -->

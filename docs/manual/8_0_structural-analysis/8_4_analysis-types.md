@@ -34,7 +34,7 @@ The first order analysis calculates the structural response considering the init
 
 <!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-$K_sU=P \\rightarrow U=K\_{s}^{-1}P$
+$K_sU=P \rightarrow U=K_{s}^{-1}P$
 
 <!-- /wp:paragraph -->
 
@@ -96,7 +96,7 @@ The second order calculations take into account that the loaded and deformed str
 
 <!-- wp:list {"ordered":true,"type":"1"} -->
 
-1. Performing the whole first\*\* \*\*order analysis as described in the previous section
+1. Performing the whole first order analysis as described in the previous section
 2. Calculation of geometric stiffness matrices ($K_g^{el}$) of the finite elements in their local coordinate system by the internal forces of the elements ($f^{el}$)
 3. Compiling the second-order global stiffness matrix ($K_s+K_g$) and nodal force vector ($P$) of the whole model by transforming the element stiffness matrices into the global coordinate system
 4. Modifying the second-order global stiffness matrix and nodal force vector considering the special boundary conditions (supports, continuity releases between the elements, prescribed displacements, temperature loads etc.)
@@ -110,7 +110,8 @@ The second order calculations take into account that the loaded and deformed str
 
 <!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-$(K_s+K_g)U=P \\rightarrow U=(K_s+K_g)^{-1}P$
+$(K_s+K_g)U=P \rightarrow U=(K_s+K_g)^{-1}P$
+
 
 <!-- /wp:paragraph -->
 
@@ -154,7 +155,7 @@ In a mechanical interpretation the eigenvalue analysis approximates the elastic 
 
 <!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-$K_g(\\lambda f)=\\lambda K_g(f)$
+$K_g(\lambda f)=\lambda K_g(f)$
 
 <!-- /wp:paragraph -->
 
@@ -184,7 +185,7 @@ In this case the eigenvalue analysis can be written in the following form:
 
 <!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-$(K_s+\\lambda K_g)U=0$
+$(K_s+\lambda K_g)U=0$
 
 <!-- /wp:paragraph -->
 
@@ -204,7 +205,7 @@ $(K_s+\\lambda K_g)U=0$
 
 <!-- wp:paragraph -->
 
-The solutions are certain critical load factors (buckling loads factor $\\lambda \_{cr}^i$) which make the second-order stiffness matrix singular and corresponding displacements (buckling shapes $U^i$).
+The solutions are certain critical load factors (buckling loads factor $\lambda \_{cr}^i$) which make the second-order stiffness matrix singular and corresponding displacements (buckling shapes $U^i$).
 
 <!-- /wp:paragraph -->
 
@@ -262,7 +263,7 @@ In a mechanical interpretation, the dynamic eigenvalue analysis approximates the
 
 <!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-$((K_s+K_g)+\\omega^{2}M)U=0$
+$((K_s+K_g)+\omega^{2}M)U=0$
 
 <!-- /wp:paragraph -->
 
@@ -282,7 +283,7 @@ $((K_s+K_g)+\\omega^{2}M)U=0$
 
 <!-- wp:paragraph -->
 
-The solutions of the equation are the eigenfrequencies (_$\\omega^i$_) and the corresponding displacements (free vibration shapes $U^i$).
+The solutions of the equation are the eigenfrequencies ($\omega^i$) and the corresponding displacements (free vibration shapes $U^i$).
 
 <!-- /wp:paragraph -->
 
@@ -300,7 +301,7 @@ The possible vibration shapes obtained from this analysis are fundamentally infl
 
 <!-- wp:paragraph -->
 
-To start a plastic analysis go to the** Analysis Settings **window of the **Analysis **tab. This requires the selection of the **Plastic **option of the **Calculation Type** drop-down menu.
+To start a plastic analysis go to the **Analysis Settings** window of the **Analysis** tab. This requires the selection of the **Plastic** option of the **Calculation Type** drop-down menu.
 
 <!-- /wp:paragraph -->
 
@@ -390,7 +391,7 @@ The solution process is as follows:
 
 <!-- wp:paragraph -->
 
-3: At the found load level $(\\alpha \*M\_{yEd})$ Consteel places hinges on all current finite element points where the conditions for the formation of the plastic hinges are given according to the parameters of “Behavior of plastic hinges”, which is used in the analysis for additional load steps. Due to the placement of the hinges, the global stiffness matrix of the structure is updated and another level of calculation is started. The placed joints are shown on the structure and the next calculation step starts.
+3: At the found load level $(\alpha *M_{yEd})$ Consteel places hinges on all current finite element points where the conditions for the formation of the plastic hinges are given according to the parameters of “Behavior of plastic hinges”, which is used in the analysis for additional load steps. Due to the placement of the hinges, the global stiffness matrix of the structure is updated and another level of calculation is started. The placed joints are shown on the structure and the next calculation step starts.
 
 <!-- /wp:paragraph -->
 
