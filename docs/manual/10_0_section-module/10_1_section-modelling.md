@@ -9,7 +9,7 @@ sidebar_position: 1
 
 <!-- wp:paragraph -->
 
-New sections can be loaded or created with **Section administration **command ![](./img/wp-content-uploads-2021-04-cmd_section_admin.png) on the **Structural members** tab. For more information about section administration see _**[chapter 5.1.](/manual/structural-modelling/section-administration/)**_
+New sections can be loaded or created with **Section administration** command ![](./img/wp-content-uploads-2021-04-cmd_section_admin.png) on the **Structural members** tab. For more information about section administration see **[chapter 5.1.](../5_0_structural-modeling/5_1_section-administration.md)**
 
 <!-- /wp:paragraph -->
 ### The EPS Model
@@ -90,7 +90,7 @@ The _**Elastic Plate Segment (EPS)**_ model is a thin-walled simplification of t
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-The _**General Solid Section (GSS)**_ was created in order to model any kind of cross-sections as accurate as possible. The model dissolves the section with arbitrary shapes into triangle elements and calculates the sectional properties by the finite element method. The section can be assembled with any number of different materials and the automatic finite element mesh generates separate triangles for the certain materials controlling the mesh size according to the elastic properties of the material. Beyond the usual properties (sectional area, second moment of inertia, etc.) the GSS model precisely calculates the torsional and shear properties like St. Venant and warping moment of inertia, shear areas, and factors, etc., and these accurate properties are used in the global analysis. The elastic normal, torsional, and shear stresses can be also calculated on this model using a spectacular colored view
+The _**General Solid Section (GSS)**_ was created in order to model any kind of cross-sections as accurate as possible. The model dissolves the section with arbitrary shapes into triangle elements and calculates the sectional properties by the finite element method. The section can be assembled with any number of different materials and the automatic finite element mesh generates separate triangles for the certain materials controlling the mesh size according to the elastic properties of the material. Beyond the usual properties (sectional area, second moment of inertia, etc.) the GSS model precisely calculates the torsional and shear properties like St. Venant and warping moment of inertia, shear areas, and factors, etc., and these accurate properties are used in the global analysis. The elastic normal, torsional, and shear stresses can be also calculated on this model using a spectacular colored view.
 
 <!-- /wp:paragraph -->
 

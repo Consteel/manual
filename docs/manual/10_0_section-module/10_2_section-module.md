@@ -286,9 +286,3 @@ There is a short summary about the calculations on the right and the name of the
 <!-- wp:image {"align":"center","id":6734,"width":438,"height":561,"sizeSlug":"large","linkDestination":"media"} -->
 
 [![](https://consteelsoftware.com/wp-content/uploads/2021/04/standard_resistance_img3.png)](./img/wp-content-uploads-2021-04-standard_resistance_img3.png)
-
-<!-- /wp:image -->
-
-<!-- wp:spacer -->
-
-<!-- /wp:spacer -->
