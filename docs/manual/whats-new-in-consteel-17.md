@@ -15,7 +15,7 @@ The primary focus of the year was to make the program easy to use. The new funct
 
 <!-- wp:paragraph -->
 
-To meet our customers' needs, we created a collection of commonly used portion categories and developed a new automatic model portion function beside the existing manual model portion feature. This new functionality automatically generates model portions by grouping members based on the following categories: cross-section, material, placement, utilization for bar members; thickness, material, and placement for plate elements. The [auto portions](https://www.consteelsoftware.com/manual/model-view/portions-manager/) are updated according to the model's status and can also be used in conjunction with manually created custom portions.
+To meet our customers' needs, we created a collection of commonly used portion categories and developed a new automatic model portion function beside the existing manual model portion feature. This new functionality automatically generates model portions by grouping members based on the following categories: cross-section, material, placement, utilization for bar members; thickness, material, and placement for plate elements. The [auto portions](../manual/3_0_model-view/3_3_portions-manager.md#portions-manager) are updated according to the model's status and can also be used in conjunction with manually created custom portions.
 
 <!-- /wp:paragraph -->
 
@@ -27,7 +27,7 @@ To meet our customers' needs, we created a collection of commonly used portion c
 
 <!-- wp:paragraph -->
 
-To address potential challenges in handling non-linear tension-only members in linear calculations, a new development has been introduced. With the latest update, users can now designate the finite element type of these members as [X Brace](https://www.consteelsoftware.com/manual/structural-modelling/line-members#Xbrace). It is intended to be used for individual members of bracing systems arranged in pairs and always one of them working in tension. This option will linearize the behaviour of such members.
+To address potential challenges in handling non-linear tension-only members in linear calculations, a new development has been introduced. With the latest update, users can now designate the finite element type of these members as [X Brace](../manual/5_0_structural-modeling/5_2_line-members.md). It is intended to be used for individual members of bracing systems arranged in pairs and always one of them working in tension. This option will linearize the behaviour of such members.
 
 <!-- /wp:paragraph -->
 
@@ -39,7 +39,7 @@ To address potential challenges in handling non-linear tension-only members in l
 
 <!-- wp:paragraph -->
 
-To enhance the automatic distribution methodology, users now have the capability to edit the properties of the generated line loads after detaching them from [surface loads](https://www.consteelsoftware.com/manual/structural-loads/load-types/#CS17-LTS). Additionally, users can control the regeneration of the line loads function according to their preferences.
+To enhance the automatic distribution methodology, users now have the capability to edit the properties of the generated line loads after detaching them from [surface loads](../manual/6_0_structural-loads/6_3_load-types.md#load-transfer-surface). Additionally, users can control the regeneration of the line loads function according to their preferences.
 
 <!-- /wp:paragraph -->
 
@@ -51,7 +51,7 @@ To enhance the automatic distribution methodology, users now have the capability
 
 <!-- wp:paragraph -->
 
-The visualization and presentation of design results have been reworked to better suit user preferences. Ultimate Limit State (ULS) and Serviceability Limit State (SLS) [design checks](https://www.consteelsoftware.com/manual/standard-design/steel-design#results) have been unified in terms of execution and result display. Users can now access all significant results on the Global checks tab regardless of the limit state. Additionally, all utilizations from various load combinations are saved and displayed, allowing a more detailed investigation of structural adequacy.
+The visualization and presentation of design results have been reworked to better suit user preferences. Ultimate Limit State (ULS) and Serviceability Limit State (SLS) [design checks](../manual/9_0_standard-design/9_1_steel-design.md#results) have been unified in terms of execution and result display. Users can now access all significant results on the Global checks tab regardless of the limit state. Additionally, all utilizations from various load combinations are saved and displayed, allowing a more detailed investigation of structural adequacy.
 
 <!-- /wp:paragraph -->
 
@@ -63,7 +63,7 @@ The visualization and presentation of design results have been reworked to bette
 
 <!-- wp:paragraph -->
 
-Interaction capabilities between software have been achieved through the implementation of an SDK-based environment. Translation to a general format (.smadsteel) compatible with Consteel and Steelspace has been facilitated. Additionally, a [plugin for AXISVM](https://www.consteelsoftware.com/manual/converter_for_axisvm/) structural analysis has been developed. With this approach, AXISVM models can now be converted into .smadsteel format, allowing them to be opened in Consteel. The conversion process has been developed to include mechanical objects (such as supports and releases), loads, and load combinations, in addition to geometry and sectional properties. The environment also provides tools for cross-section and material conversion at various levels, along with a comprehensive import report that includes visualization of problematic objects in the model.
+Interaction capabilities between software have been achieved through the implementation of an SDK-based environment. Translation to a general format (.smadsteel) compatible with Consteel and Steelspace has been facilitated. Additionally, a [plugin for AXISVM](../plugins/axis/axisvm-plugin.md) structural analysis has been developed. With this approach, AXISVM models can now be converted into .smadsteel format, allowing them to be opened in Consteel. The conversion process has been developed to include mechanical objects (such as supports and releases), loads, and load combinations, in addition to geometry and sectional properties. The environment also provides tools for cross-section and material conversion at various levels, along with a comprehensive import report that includes visualization of problematic objects in the model.
 
 <!-- /wp:paragraph -->
 
@@ -75,7 +75,7 @@ Interaction capabilities between software have been achieved through the impleme
 
 <!-- wp:paragraph -->
 
-As more people use our [script system](https://www.consteelsoftware.com/manual/descript-cspi/), we keep receiving new requests for different kinds of programs. To address these needs, we're adding new features and improving the language. For example, we've enhanced object creation (CREATE), manipulation (SET, FILTER), and querying (GET). Additionally, users can now create custom cold-formed cross-sections.
+As more people use our [script system](../descript/15_1_introduction/15_1_1_what-is-descript.md), we keep receiving new requests for different kinds of programs. To address these needs, we're adding new features and improving the language. For example, we've enhanced object creation (CREATE), manipulation (SET, FILTER), and querying (GET). Additionally, users can now create custom cold-formed cross-sections.
 
 <!-- /wp:paragraph -->
 
@@ -89,12 +89,12 @@ As more people use our [script system](https://www.consteelsoftware.com/manual/d
 
 In response to our customers' requests, this version incorporates several improvements to make Consteel even more user-friendly:
 
-- [hiding](https://www.consteelsoftware.com/manual/model-view/model-views#HIDE) of selected objects
-- [separation](https://www.consteelsoftware.com/manual/general-description#CopyMove) of copy and move functions
-- bulk material [modification](https://www.consteelsoftware.com/manual/structural-modelling/section-administration#Bulkmaterial) for steel cross-sections
-- [highlighted](https://www.consteelsoftware.com/manual/general-description/the-main-window#Object-properties-window) start and end points for structural members
-- quick select by property directly from the [property tree](https://www.consteelsoftware.com/manual/model-view/selection#opselection) by double-click
-- structural member selection from analysis and [design result](https://www.consteelsoftware.com/manual/model-view/selection#drselection) tables
+- [hiding](../manual/3_0_model-view/3_1_model-views.md) of selected objects
+- [separation](../manual/1_0_general-description/1_2_the-main-window.md#side-panel) of copy and move functions
+- bulk material [modification](../manual/5_0_structural-modeling/5_1_section-administration.md) for steel cross-sections
+- [highlighted](../manual/1_0_general-description/1_2_the-main-window.md#object-properties-window) start and end points for structural members
+- quick select by property directly from the [property tree](../manual/3_0_model-view/3_2_selection.md) by double-click
+- structural member selection from analysis and [design result](../manual/3_0_model-view/3_2_selection.md) tables
 
 ## **Detailed model comparison in Steelspace**
 
