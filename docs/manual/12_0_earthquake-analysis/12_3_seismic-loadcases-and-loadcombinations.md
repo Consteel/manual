@@ -21,13 +21,13 @@ Going back to the **Loadcases and loadgroups** dialogue, a new type of Seismic l
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-If the calculation method for the seismic effect is set to **Selected modes, linear summation,** an additional button will appear on the** Loadcases and loadgroups** dialogue when the seismic loadcase is selected in the tree control. The **Linear combination of modal effects (#1)** button stands for the option to set the combination factors for the calculated vibration shapes. After clicking on the button, a new dialogue will pop up, which contains all of the calculated vibration shapes, with the corresponding mass participation for each one, in all (1,2,z) main directions. By setting the combination factors, mass participation can be adjusted for each vibration mode, which will be considered during the next seismic analysis.
+If the calculation method for the seismic effect is set to **Selected modes, linear summation,** an additional button will appear on the **Loadcases and loadgroups** dialogue when the seismic loadcase is selected in the tree control. The **Linear combination of modal effects (#1)** button stands for the option to set the combination factors for the calculated vibration shapes. After clicking on the button, a new dialogue will pop up, which contains all of the calculated vibration shapes, with the corresponding mass participation for each one, in all (1,2,z) main directions. By setting the combination factors, mass participation can be adjusted for each vibration mode, which will be considered during the next seismic analysis.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-If all of the combination factor cells of the table are empty, ConSteel will perform seismic analysis with the** Single dominant mode** calculation method.
+If all of the combination factor cells of the table are empty, ConSteel will perform seismic analysis with the **Single dominant mode** calculation method.
 
 <!-- /wp:paragraph -->
 

@@ -56,8 +56,10 @@ Consteel combines the results of the Modal Response Spectrum Analysis with the 1
 
 <!-- wp:paragraph -->
 
-a) $E\_{E.dx}\\quad "+"\\quad 0,30 E\_{E.dy}\\quad "+" \\quad 0,30 E\_{E.dz}$  
-b) $0,30E\_{E.dx}\\quad "+"\\quad E\_{E.dy}\\quad "+" \\quad 0,30 E\_{E.dz}$  
-c) $0,30E\_{E.dx}\\quad "+"\\quad 0,30 E\_{E.dy}\\quad "+" \\quad E\_{E.dz}$
+a) $E_{E.dx}\quad +\quad 0,30 E_{E.dy}\quad + \quad 0,30 E_{E.dz}$
+
+b) $0,30E_{E.dx}\quad +\quad E_{E.dy}\quad + \quad 0,30 E_{E.dz}$
+
+c) $0,30E_{E.dx}\quad +\quad 0,30 E_{E.dy}\quad + \quad E_{E.dz}$
 
 <!-- /wp:paragraph -->
