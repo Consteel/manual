@@ -177,73 +177,31 @@ According to the Eurocode (1993-1-1 BB3), stable length check can be defined usi
 
 During the stable length check, the following checks are performed by ConSteel:
 
-<!-- /wp:paragraph -->
 
-<!-- wp:list {"ordered":true,"className":"is-style-default"} -->
+1. Automatic recognition of the plastic hinges on the structure
 
-1. <!-- wp:list-item -->
 
-2. Automatic recognition of the plastic hinges on the structure
+2. Searching for the nearest supports of each plastic hinges
 
-3. <!-- /wp:list-item -->
-
-4.
-
-5) <!-- wp:list-item -->
-
-6) Searching for the nearest supports of each plastic hinges
-
-   <!-- wp:list -->
-
-   - <!-- wp:list-item -->
    - Lateral restraint
-   - <!-- /wp:list-item -->
-   -
-   - <!-- wp:list-item -->
+ 
    - Torsional restraint
-   - <!-- /wp:list-item -->
 
-   <!-- /wp:list -->
 
-7) <!-- /wp:list-item -->
+3. Defining the distance between the plastic hinge and the nearest supports
 
-8)
 
-9. <!-- wp:list-item -->
+4. Calculating the stable length (depending on the type of the support) for the plastic segments, between the plastic hinge and the nearest supports
 
-10. Defining the distance between the plastic hinge and the nearest supports
-
-11. <!-- /wp:list-item -->
-
-12.
-
-13) <!-- wp:list-item -->
-
-14) Calculating the stable length (depending on the type of the support) for the plastic segments, between the plastic hinge and the nearest supports
-
-15) <!-- /wp:list-item -->
-
-<!-- /wp:list -->
-
-<!-- wp:paragraph -->
 
 On the elastic segments global stability resistance will be evaluated according to the General method of Eurocode.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4} -->
 
 #### Buckling check
 
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Buckling check can be evaluated for steel structures according to the EN 1993-1-1 6.3.4.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":10541,"width":"109px","height":"50px","sizeSlug":"full","linkDestination":"media"} -->
 
 [![](https://consteelsoftware.com/wp-content/uploads/2021/04/10-2-buckling-formula.png)](./img/wp-content-uploads-2021-04-10-2-buckling-formula.png)
 
@@ -253,87 +211,39 @@ Buckling check can be evaluated for steel structures according to the EN 1993-1-
 
 To run the buckling check, it is required to have buckling analysis results.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":10547,"width":462,"height":214,"sizeSlug":"full","linkDestination":"media"} -->
 
 [![](https://consteelsoftware.com/wp-content/uploads/2021/04/10-2-buckling-check.png)](./img/wp-content-uploads-2021-04-10-2-buckling-check.png)
 
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
 
 For the buckling check the following parameters can be set:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
 - Elastic critical load factor acr,op: eigenvalue of the buckling analysis. It can be the first or the selected eigenvalue according to the design situation or can be automatically selected for each members based on the results of the sensitivity analysis.
-- <!-- /wp:list-item -->
 
-<!-- /wp:list -->
-
-<!-- wp:paragraph -->
 
 Eigenvalue can be selected on the Analysis tab to click in the model area with right click.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
 - Ultimate resistance factor ault,k: reciprocal of utilization calculated with characteristic resistances of axial force and strong axial bending dominant in terms of loss of stability. Value of the utilization can be considered by members or by the model portion.
-- <!-- /wp:list-item -->
 
-<!-- /wp:list -->
-
-<!-- wp:image {"id":10553,"sizeSlug":"large","linkDestination":"media"} -->
 
 [![](https://consteelsoftware.com/wp-content/uploads/2021/04/10-2-lambda-op.png)](./img/wp-content-uploads-2021-04-10-2-lambda-op.png)
 
-<!-- /wp:image -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
 - Reduction factor cop: reduction factor for the lop slenderness. It can be determined from the minimum of (c,cLT) or from the interpolated value of (c,cLT).
-- <!-- /wp:list-item -->
 
-<!-- /wp:list -->
-
-<!-- wp:paragraph -->
 
 Check can be performed for the whole model or partial model.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4} -->
 
 #### Results
 
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 The results of the performed checks are demonstrated with graphical visualization and result tables (for the general functionality of tables used in _ConSteel_ see section 1.4 General functions for tables).
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
 
 The shown results can be changed in the drop down menu.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
 
 Consteel 17
 
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":72928,"width":"199px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
 ![](./img/wp-content-uploads-2024-02-9.1.-Design-results-and-predesign-parameters-2.png)
 
@@ -467,7 +377,7 @@ It is possible to select all the chosen members by selecting multiple cells, eve
 
 <!-- wp:paragraph -->
 
-For more detailed information about the selection process, please visit the **[Selection](https://www.consteelsoftware.com/manual/model-view/selection/)** page.
+For more detailed information about the selection process, please visit the **[Selection](../3_0_model-view/3_2_selection.md)** page.
 
 <!-- /wp:paragraph -->
 
@@ -487,55 +397,25 @@ With a right-click on a load combination, an additional option appears: "Select 
 
 For some of the predesign parameters also exist result table:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
 - Sensitivity
-- <!-- /wp:list-item -->
 
-<!-- /wp:list -->
-
-<!-- wp:image {"id":73706,"width":"327px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
 ![](./img/wp-content-uploads-2024-02-9.1.-Sensitivity-1.png)
 
-<!-- /wp:image -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
 - Fire
-- <!-- /wp:list-item -->
 
-<!-- /wp:list -->
-
-<!-- wp:image {"id":73716,"width":"457px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
 ![](./img/wp-content-uploads-2024-02-9.1.-Fire-1.png)
 
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
 
 The right-click function on the cells operates similarly to the design results table.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
 
 Consteel 16
 
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":10559,"width":444,"height":536,"sizeSlug":"full","linkDestination":"media"} -->
 
 [![](https://consteelsoftware.com/wp-content/uploads/2021/04/10-2-buckl-result-pic.png)](./img/wp-content-uploads-2021-04-10-2-buckl-result-pic.png)
 
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
 
 When moving the mouse along the structural elements the result markers continuously appear showing the actual utilization.
 

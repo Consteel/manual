@@ -23,45 +23,22 @@ Starting from Consteel 17 all standard-based verifications are collected in the 
 
 By clicking on the green arrow icon ![](./img/wp-content-uploads-2024-02-9.4.-SLS-icon-1.png), a new dialog appears. The previously defined serviceability checks can be found, and it is also possible to open or delete the selected checks.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
 
 In order to create a new serviceability check, the **New check** button is to be clicked. The following checks can be performed:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
 - Horizontal displacement check
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
+
 - Global vertical displacement check
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
+
 - Vertical displacement check between member ends
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
+
 - Relative displacement check for 2 points
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
+
 - Seismic interstorey drift verification
-- <!-- /wp:list-item -->
 
-<!-- /wp:list -->
-
-<!-- wp:image {"id":72388,"width":"296px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
 ![](./img/wp-content-uploads-2024-02-9.4.-SLS-new-ckeck-1.png)
 
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
 
 Each serviceability check dialog box begins with selecting the **load combinations** intended for examination. All the relevant load combinations are automatically listed. Users have the option to choose between calculation with first order or the highest available order analysis results.
 
@@ -93,7 +70,7 @@ In the **parameters** box, users can set the displacement limits for both total 
 
 <!-- wp:paragraph -->
 
-In the **Model portion **button, the user can specify whether the calculation should cover the entire model or only custom-defined sections. It is recommended to opt for calculations exclusively on custom components, as it minimizes calculation time and allows for obtaining desired results for each element type individually.
+In the **Model portion** button, the user can specify whether the calculation should cover the entire model or only custom-defined sections. It is recommended to opt for calculations exclusively on custom components, as it minimizes calculation time and allows for obtaining desired results for each element type individually.
 
 <!-- /wp:paragraph -->
 
@@ -117,7 +94,7 @@ To save the settings of the serviceability check, it is essential to click the *
 
 <!-- wp:paragraph -->
 
-After selecting and checking all the checkboxes for the verifications that the user chooses to perform, by pressing the **calculation **button, the checks can be executed.
+After selecting and checking all the checkboxes for the verifications that the user chooses to perform, by pressing the **calculation** button, the checks can be executed.
 
 <!-- /wp:paragraph -->
 
@@ -297,192 +274,64 @@ All serviceability-related functions can be found on the Serviceability tab. By 
 
 In order to create a new serviceability check, the **New check** button is clicked. The following checks can be performed:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
 - Global horizontal deflection check
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
+
 - Global vertical deflection check
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
+
 - Local deflection check by members
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
+
 - Relative deflection check for 2 points
-- <!-- /wp:list-item -->
 
-<!-- /wp:list -->
-
-<!-- wp:image {"id":37309,"width":"354px","height":"212px","sizeSlug":"full","linkDestination":"none","className":"is-style-editorskit-rounded"} -->
 
 ![](./img/wp-content-uploads-2021-04-dial_design_service_check_types.png)
 
-<!-- /wp:image -->
 
-<!-- wp:columns -->
-
-<!-- wp:column -->
-
-<!-- wp:heading {"level":3} -->
 
 ### Global horizontal deflection check
 
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
 A global horizontal deflection check can be used to check the biggest horizontal deflection in the model. First- or Second-order analysis can be selected just like the serviceability load combinations that need to be considered.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
 
 Reference height can be typed in or two points can be selected, and the program calculates the height distance between them. Check is done after clicking the Calculation button. The dominant member is automatically selected in the model space to make the interpretation easier.
 
-<!-- /wp:paragraph -->
-
-<!-- /wp:column -->
-
-<!-- wp:column -->
-
-<!-- wp:image {"align":"center","id":10952,"sizeSlug":"large","linkDestination":"custom"} -->
 
 ![](./img/wp-content-uploads-2021-04-9-5-2-GLOBAL-HORIZONTAL-DEFLECTION-CHECK.png)
 
-<!-- /wp:image -->
-
-<!-- /wp:column -->
-
-<!-- /wp:columns -->
-
-<!-- wp:columns -->
-
-<!-- wp:column -->
-
-<!-- wp:heading {"level":3} -->
 
 ### Global vertical deflection check
 
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 The global vertical deflection check works similarly to the global horizontal deflection check. There is just a minor difference which is the following: reference length has to be set instead of reference height. This can be set manually or by clicking two points on the model.
 
-<!-- /wp:paragraph -->
-
-<!-- /wp:column -->
-
-<!-- wp:column -->
-
-<!-- wp:image {"align":"center","id":10958,"sizeSlug":"large","linkDestination":"custom"} -->
 
 ![](./img/wp-content-uploads-2021-04-9-5-3-GLOBAL-VERTICAL-DEFLECTION-CHECK.png)
 
-<!-- /wp:image -->
-
-<!-- /wp:column -->
-
-<!-- /wp:columns -->
-
-<!-- wp:columns -->
-
-<!-- wp:column -->
-
-<!-- wp:heading {"level":3} -->
 
 ### Local deflection check by members
 
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Local deflection check by members goes through all the beams in the model, checks the local deflection, and then selects the maximum. This check is suitable only for horizontal beams i.e. members in the XY plane.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
 
 Local deflection check by members is not adequate for cantilever beams just for beams supported by two other beams or supports on both ends.
 
-<!-- /wp:paragraph -->
-
-<!-- /wp:column -->
-
-<!-- wp:column -->
-
-<!-- wp:image {"align":"center","id":10965,"sizeSlug":"large","linkDestination":"media"} -->
 
 ![](https://consteelsoftware.com/wp-content/uploads/2021/04/9-5-4-LOCAL-DEFLECTION-CHECK-BY-MEMBERS.png)(./img/wp-content-uploads-2021-04-9-5-4-LOCAL-DEFLECTION-CHECK-BY-MEMBERS.png)
 
-<!-- /wp:image -->
-
-<!-- /wp:column -->
-
-<!-- /wp:columns -->
-
-<!-- wp:columns -->
-
-<!-- wp:column -->
-
-<!-- wp:heading -->
 
 ## Relative deflection check for 2 points
 
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 A relative deflection check for 2 points can be used for two clicked points. The relative horizontal or vertical check can be selected and performed.
 
-<!-- /wp:paragraph -->
-
-<!-- /wp:column -->
-
-<!-- wp:column -->
-
-<!-- wp:image {"align":"center","id":10971,"sizeSlug":"large","linkDestination":"media"} -->
 
 ![](https://consteelsoftware.com/wp-content/uploads/2021/04/9-5-5-RELATIVE-DEFLECTION-CHECK-FOR-2-POINTS.png)(./img/wp-content-uploads-2021-04-9-5-5-RELATIVE-DEFLECTION-CHECK-FOR-2-POINTS.png)
 
-<!-- /wp:image -->
-
-<!-- /wp:column -->
-
-<!-- /wp:columns -->
-
-<!-- wp:columns -->
-
-<!-- wp:column -->
-
-<!-- wp:heading -->
 
 ## Seismic interstorey drift verification
 
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 The prerequisite for performing the check is the existence of the levels defined in the model and the completion of the seismic analysis. The check calculates the horizontal displacements in both directions between all the established adjacent levels and displays the maximum of these displacements, together with the dominant load combination and the names of the levels.
 
-<!-- /wp:paragraph -->
 
-<!-- /wp:column -->
-
-<!-- wp:column -->
-
-<!-- wp:image {"align":"center","id":37300,"width":406,"height":744,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
-
-![](https://consteelsoftware.com/wp-content/uploads/2021/04/dial_design_service_seismic.png)(./img/wp-content-uploads-2021-04-dial_design_service_seismic.png)
-
-<!-- /wp:image -->
-
-<!-- /wp:column -->
-
-<!-- /wp:columns -->
+![](https://consteelsoftware.com/wp-content/uploads/2021/04/dial_design_service_seismic.png)
