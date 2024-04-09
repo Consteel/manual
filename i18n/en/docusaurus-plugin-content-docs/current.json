@@ -16,7 +16,7 @@
     "description": "The label for category File handling in sidebar manualSideBar"
   },
   "sidebar.manualSideBar.category.File handling.link.generated-index.description": {
-    "message": "The file handling of _ConSteel_ follows the same usual and simple way of the MS Windows standard. The saved files contain all information about the model, it can be relocated to another folder and opened. By default, the **.csm** file extension is associated with _ConSteel_ and these files can be opened by double click.",
+    "message": "The file handling of ConSteel follows the same usual and simple way of the MS Windows standard. The saved files contain all information about the model, it can be relocated to another folder and opened. By default, the .csm file extension is associated with ConSteel and these files can be opened by double click.",
     "description": "The generated-index page description for category File handling in sidebar manualSideBar"
   },
   "sidebar.manualSideBar.category.Model view": {
@@ -40,7 +40,7 @@
     "description": "The label for category Structural modeling in sidebar manualSideBar"
   },
   "sidebar.manualSideBar.category.Structural modeling.link.generated-index.description": {
-    "message": "From the beginning of Consteel’s development, user-friendly structure modeling has been at the forefront, allowing the engineer to build the structure from real structural elements. In the engineering model built by the engineer, the structure is made up of whole elements (beams with haunches, tapered beams or columns, tension braces, slabs, etc.), completely separate from the automatically generated finite element (calculation) model required for analysis and design. Accordingly, the engineer can focus on modeling the appropriate structure.<br>![](./img/wp-content-uploads-2021-04-warning_croc.png)<br>When modeling, the different functions and options should be applied carefully and the limitations of the applied analysis model should be taken into account, because improperly used modeling options may result in incorrect analysis and design results.<br>All functionalities connecting with the structural modeling are placed on the **_Structural members_** tab. Due to the high importance and wide range of modeling possibilities the functions of the cross-sections and joints are collected in separate modules: **_[csSection](/manual/section-module/)_** (Chapter 10) and **_[csJoint ](/manual/joint-module/)_**(Chapter 14).",
+    "message": "From the beginning of Consteel’s development, user-friendly structure modeling has been at the forefront, allowing the engineer to build the structure from real structural elements. In the engineering model built by the engineer, the structure is made up of whole elements (beams with haunches, tapered beams or columns, tension braces, slabs, etc.), completely separate from the automatically generated finite element (calculation) model required for analysis and design. Accordingly, the engineer can focus on modeling the appropriate structure. When modeling, the different functions and options should be applied carefully and the limitations of the applied analysis model should be taken into account, because improperly used modeling options may result in incorrect analysis and design results. All functionalities connecting with the structural modeling are placed on the Structural members tab. Due to the high importance and wide range of modeling possibilities the functions of the cross-sections and joints are collected in separate modules:",
     "description": "The generated-index page description for category Structural modeling in sidebar manualSideBar"
   },
   "sidebar.manualSideBar.category.Structual loads": {
@@ -48,7 +48,7 @@
     "description": "The label for category Structual loads in sidebar manualSideBar"
   },
   "sidebar.manualSideBar.category.Structual loads.link.generated-index.description": {
-    "message": "The definition of loading on a structural model is one of the most important modeling phases. Contrary to the modeling of structural members the load modeling is minutely controlled and supported by the structural codes and standards since the appropriate definition of loads ensures a major part in the reliability of structural performance. In ConSteel several types of loading options help the engineer in this work. In accordance with the modeling of a structural member, the engineer can work with the load types and options defined and handled in the structural standards, and the applied loads are automatically converted into finite element loads for the calculation model. All the loading functionality connecting with the load modeling is placed on the Loads tab.<br>[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-1-Basics.png)](./img/wp-content-uploads-2021-04-7-1-Basics.png)",
+    "message": "The definition of loading on a structural model is one of the most important modeling phases. Contrary to the modeling of structural members the load modeling is minutely controlled and supported by the structural codes and standards since the appropriate definition of loads ensures a major part in the reliability of structural performance. In ConSteel several types of loading options help the engineer in this work. In accordance with the modeling of a structural member, the engineer can work with the load types and options defined and handled in the structural standards, and the applied loads are automatically converted into finite element loads for the calculation model. All the loading functionality connecting with the load modeling is placed on the Loads tab.",
     "description": "The generated-index page description for category Structual loads in sidebar manualSideBar"
   },
   "sidebar.manualSideBar.category.Masses": {
@@ -56,7 +56,7 @@
     "description": "The label for category Masses in sidebar manualSideBar"
   },
   "sidebar.manualSideBar.category.Masses.link.generated-index.description": {
-    "message": "The **_Mass _**tab contains functions, that are necessary for dynamic calculations. Mass cases and mass combinations can be created for masses that were placed on the model manually or converted automatically from loads into masses.<br>[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-1-Basics-1.png)](./img/wp-content-uploads-2021-04-7-1-Basics-1.png)</br>",
+    "message": "The Mass tab contains functions, that are necessary for dynamic calculations. Mass cases and mass combinations can be created for masses that were placed on the model manually or converted automatically from loads into masses.",
     "description": "The generated-index page description for category Masses in sidebar manualSideBar"
   },
   "sidebar.manualSideBar.category.Structural analysis": {
