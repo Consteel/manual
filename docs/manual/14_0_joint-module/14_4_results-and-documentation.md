@@ -21,6 +21,6 @@ The analysis results are displayed in two main forms: a summarized view containi
 
 <!-- wp:paragraph -->
 
-The way for creating documentation is the same as in _ConSteel_ main module (see Chapter 11 for more detailed instructions).
+The way for creating documentation is the same as in _ConSteel_ main module [see here for more detailed instructions](../13_0_documentation-2/13_1_the-document-tab.md).
 
 <!-- /wp:paragraph -->

@@ -33,7 +33,7 @@ In this case the joint type, geometry and the loads need to be set manually. One
 
 <!-- wp:paragraph -->
 
-After clicking on the Create button (![](./img/wp-content-uploads-2021-04-14-3-create-button.png)) on the top left corner the name of the joint must be given. Comment for the joint can be optionally given, and _Default settings_ of the joint can be modified (see later in **_[Chapter 15.3.5 Default joint settings](#Default-joint-settings)_**).
+After clicking on the Create button (![](./img/wp-content-uploads-2021-04-14-3-create-button.png)) on the top left corner the name of the joint must be given. Comment for the joint can be optionally given, and _Default settings_ of the joint can be modified (see later in **[Chapter Default joint settings](#default-joint-settings)** ).
 
 <!-- /wp:paragraph -->
 
@@ -75,7 +75,7 @@ The type of the joint has to be defined on the next dialog. _csJoint_ can handle
 
 <!-- wp:paragraph -->
 
-Here (picture above) it is possible to set connections both to the flanges and the web. For eligible list of connections, please see Chapter 14.2. In this dialog, the section of the column is also has to be set. It can be chosen from the drop down menu, or loaded from the section administrator by clicking the three dot button (![](./img/wp-content-uploads-2021-04-3dots-button.png)).
+Here (picture above) it is possible to set connections both to the flanges and the web. For eligible list of connections, please see [Chapter.](../14_0_joint-module/14_2_create-joint.md) In this dialog, the section of the column is also has to be set. It can be chosen from the drop down menu, or loaded from the section administrator by clicking the three dot button (![](./img/wp-content-uploads-2021-04-3dots-button.png)).
 
 <!-- /wp:paragraph -->
 
@@ -87,7 +87,7 @@ Here (picture above) it is possible to set connections both to the flanges and t
 
 <!-- wp:paragraph -->
 
-When setting a connection (picture above), the type and the cross section of the connected element has to be set. It can be chosen from the drop down menu, or loaded from the section administrator by clicking the three dot button (![](./img/wp-content-uploads-2021-04-3dots-button.png)). For eligible list of connections, please see Chapter 14.2.
+When setting a connection (picture above), the type and the cross section of the connected element has to be set. It can be chosen from the drop down menu, or loaded from the section administrator by clicking the three dot button (![](./img/wp-content-uploads-2021-04-3dots-button.png)). For eligible list of connections, please see [Chapter.](../14_0_joint-module/14_2_create-joint.md)
 
 <!-- /wp:paragraph -->
 
@@ -117,7 +117,7 @@ Joint loads can be given manually and the manipulations of the connection elemen
 
 <!-- wp:paragraph -->
 
-For complete information about manipulating the connection, please see _**[Chapter 15.3.4 Manipulating connections](#Manipulating-connections)**_.
+For complete information about manipulating the connection, please see _**[Chapter Manipulating connections](#manipulating-joints)**_.
 
 <!-- /wp:paragraph -->
 
@@ -441,6 +441,6 @@ _Default joint settings_ can be changed and saved by clicking the Default joint 
 
 <!-- wp:paragraph -->
 
-The default joint configuration file is saved to the Documents\\ConSteel folder as UserConfig.xml.
+The default joint configuration file is saved to the Documents \ConSteel folder as UserConfig.xml.
 
 <!-- /wp:paragraph -->
