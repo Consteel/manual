@@ -69,6 +69,6 @@ After clicking on the **Apply** button, only checked object types will be renumb
 
 <!-- wp:paragraph -->
 
-The visibility of the labels can be set on the bottom status bar as it was described in [Chapter 1.2.6 - Status bar](../1_0_general-description/1_2_the-main-window.md#status-bar).
+The visibility of the labels can be set on the bottom status bar as it was described in [Chapter - Status bar](../1_0_general-description/1_2_the-main-window.md#status-bar).
 
 <!-- /wp:paragraph -->

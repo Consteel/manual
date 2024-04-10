@@ -177,10 +177,10 @@ The following methods are implemented in the software:
 
 <!-- wp:list -->
 
-- [Hoesch](#Hoesch)
-- [Fischer](#Fischer)
-- [Arcelor](#Arcelor)
-- [EuroCode](#Eurocode-shear-stiffness)
+- [Hoesch](#determination-of-shear-stiffness-in-case-of-panels-produced-by-hoesch)
+- [Fischer](#determination-of-shear-stiffness-in-case-of-panels-produced-by-fischer)
+- [Arcelor](#determination-of-shear-stiffness-in-case-of-panels-produced-by-arcelor)
+- [EuroCode](#determination-of-shear-stiffness-according-to-eurocode-3)
 
 <!-- /wp:list -->
 

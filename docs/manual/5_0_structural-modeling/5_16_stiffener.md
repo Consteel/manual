@@ -93,7 +93,7 @@ The usual placement options are available at the top of the dialog window:
 
 <!-- wp:paragraph -->
 
-In the _Parameters_ section, the reference object of the stiffener can be defined on the left side of the window (\_Fit to_). The figure below the drop-down box shows the chosen selection. The location of the stiffener can be specified relative to the:
+In the _Parameters_ section, the reference object of the stiffener can be defined on the left side of the window (_Fit to_). The figure below the drop-down box shows the chosen selection. The location of the stiffener can be specified relative to the:
 
 <!-- /wp:paragraph -->
 
@@ -266,7 +266,7 @@ warping support in the FE model
 
 <!-- wp:paragraph -->
 
-For the calculation method used in Consteel for calculating the warping stiffness of warping supports see the following page: **_[Discrete warping restraint](/knowledgebase/discrete-warping-restraint/)_**
+For the calculation method used in Consteel for calculating the warping stiffness of warping supports see the following page: **_[Discrete warping restraint](https://www.consteelsoftware.com/knowledgebase/discrete-warping-restraint/)_**
 
 <!-- /wp:paragraph -->
 

@@ -53,7 +53,7 @@ The 7DOF element is specially developed for thin-walled members where the warpin
 
 <!-- wp:paragraph -->
 
-The first 6 DOF are the conventional displacements (Ux, Uy, Uz) and rotations (Φx, Φy, Φz) according to the local coordinate system of the member (see chapter **[4.1 Coordinate systems](/manual/drawing-geometry/coordinate-systems/)**). What needs more explanation is the 7th DOF which is mathematically the first derivative of the twist about the longitudinal axis (Φ'x); mechanically it represents the warping of the section which is a straight consequence of torsion on thin-walled members. The next figure illustrates the warping effect of I shaped cross-section when the flanges step out of the original plane of the section.
+The first 6 DOF are the conventional displacements (Ux, Uy, Uz) and rotations (Φx, Φy, Φz) according to the local coordinate system of the member (see chapter **[Coordinate systems](../4_0_drawing-geometry/4_1_coordinate-systems.md)**). What needs more explanation is the 7th DOF which is mathematically the first derivative of the twist about the longitudinal axis (Φ'x); mechanically it represents the warping of the section which is a straight consequence of torsion on thin-walled members. The next figure illustrates the warping effect of I shaped cross-section when the flanges step out of the original plane of the section.
 
 <!-- /wp:paragraph -->
 

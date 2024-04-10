@@ -62,7 +62,7 @@ Clicking the object names in the object tree while holding down the Ctrl or Shif
 
 ![](./img/wp-content-uploads-2024-02-3.2.-Object-property-selection-2.png)
 
-- **Design results selection-**from Consteel 17 users can select members from the design result tables based on their properties, such as utilization.
+- **Design results selection-** from Consteel 17 users can select members from the design result tables based on their properties, such as utilization.
 
 
 Design results table:

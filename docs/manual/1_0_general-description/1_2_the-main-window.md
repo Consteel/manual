@@ -106,7 +106,7 @@ _Project Center_ (CS15)
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-The Project Center will be opened. See more [here](https://consteelsoftware.com/manual/how-to-open-consteel/installing-and-running-the-software/#cs15projectcenter).
+The Project Center will be opened. See more [here](./1_1_installing-and-running-the-software.md#project-center).
 
 <!-- /wp:paragraph -->
 
@@ -818,7 +818,7 @@ See the **_[Structural modeling](../../category/structural-modeling)_** chapter 
 <!-- wp:paragraph -->
 
 All functions related to creating loads can be found on this tab including load cases, load groups, combinations. The functions of meteorological load generation, crane and train load, and fire effect and protection can also be found here.  
-See the **_[Structural loads](../../category/6_0_structural-loads)_** chapter for a detailed description of these functions.
+See the **_[Structural loads](../6_0_structural-loads/6_1_load-cases-and-load-groups.md)_** chapter for a detailed description of these functions.
 
 <!-- /wp:paragraph -->
 
@@ -836,7 +836,7 @@ See the **_[Structural loads](../../category/6_0_structural-loads)_** chapter fo
 
 <!-- wp:paragraph -->
 
-Mass cases, mass groups, point masses, response spectrums, and seismic effects can be created on the Mass tab. See the **_[Masses](../category/masses)_** chapter for a detailed description of these functions.
+Mass cases, mass groups, point masses, response spectrums, and seismic effects can be created on the Mass tab. See the **_[Masses](../../category/masses)_** chapter for a detailed description of these functions.
 
 <!-- /wp:paragraph -->
 

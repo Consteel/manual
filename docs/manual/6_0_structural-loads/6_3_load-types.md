@@ -639,7 +639,7 @@ Prescribed displacement can be applied for point supports.
 
 <!-- wp:paragraph -->
 
-It can be placed according to the **Global (**![](./img/wp-content-uploads-2021-04-create_coord_gcs.png)**)**, or the **User coordinate system (**![](./img/wp-content-uploads-2021-04-create_coord_ucs.png)**) **and can be given with components or by vector.
+It can be placed according to the **Global (**![](./img/wp-content-uploads-2021-04-create_coord_gcs.png)**)**, or the **User coordinate system (**![](./img/wp-content-uploads-2021-04-create_coord_ucs.png)**)** and can be given with components or by vector.
 
 <!-- /wp:paragraph -->
 

@@ -33,7 +33,7 @@ Member parameters can be defined in the middle part of the dialogs:
 [![](https://consteelsoftware.com/wp-content/uploads/2022/12/Column.jpg)](./img/wp-content-uploads-2022-12-Column.jpg)
 
 
-- _Section:_ the appropriate cross-section can be selected from the drop-down box. If no section has been loaded into the model, the **_Section_** dialogue should be opened by pressing the three dots button (![](./img/wp-content-uploads-2021-04-3dots-button.png)) next to the drop-down box. For more information about **Section administration** and for details on the section models and standard tests used in ConSteel, see **_[Chapter 10 Section module](/manual/section-module/)_**.
+- _Section:_ the appropriate cross-section can be selected from the drop-down box. If no section has been loaded into the model, the **_Section_** dialogue should be opened by pressing the three dots button (![](./img/wp-content-uploads-2021-04-3dots-button.png)) next to the drop-down box. For more information about **Section administration** and for details on the section models and standard tests used in ConSteel, see **_[Section module](../10_0_section-module/10_1_section-modelling.md)_**.
 
 
 [![](https://consteelsoftware.com/wp-content/uploads/2021/04/dial_section_admin.png)](./img/wp-content-uploads-2021-04-dial_section_admin.png)
@@ -76,7 +76,7 @@ The available element types depend on the chosen section.
 
   - Tension bar
 
-  - Tension bar (X Brace) from** Consteel 17**
+  - Tension bar (X Brace) from **Consteel 17**
 
 
 **For reinforced concrete or composite members:**
@@ -423,7 +423,7 @@ In order for the drawn stiffeners to be really standard-compliant stiffeners in 
 When choosing a Z- or C-like profile, the calculation takes into account the stress of the other flange as well as the stiffness of the web when supporting the flange. To do this, of course, you need to specify which parts of the section make up the lower and upper belts, and the web, and you must add its length. By choosing a general shape section, the edge stiffeners are calculated independently of each other.
 
 
-A further important difference is that only line members created as a Z-C-like section can later be used in a [_**Purlin line**_](../5_0_structural-modeling/5_13_purlins.md#place-purlin-line), [**_Purlin support zone_**](../5_0_structural-modeling/5_13_purlins.md#support-zone), or [_**Purlin overlap**_](./5_13_purlins.md#purlin-overlap-zone). (See [_**Chapter Purlins**_.](/manual/structural-modelling/purlins/))
+A further important difference is that only line members created as a Z-C-like section can later be used in a [_**Purlin line**_](../5_0_structural-modeling/5_13_purlins.md#place-purlin-line), [**_Purlin support zone_**](../5_0_structural-modeling/5_13_purlins.md#support-zone), or [_**Purlin overlap**_](./5_13_purlins.md#purlin-overlap-zone). 
 
 
 A new panel appears next to the left-hand diagnostic panel, which shows the stiffeners in a tree structure.
@@ -767,7 +767,7 @@ By choosing the **_Column rebar_** option (#1) on the left side panel of the **_
 * \#4 – In the middle part of the dialogue, the cross-section selected at the right panel (#3) is shown, with the dynamic representation of the specified reinforcement. On this panel, additional reinforcements can be added both for the y and z sides, by checking the checkboxes at the bottom part and defining the parameters of diameter, quantity and spacing.
 
 
-- \#5 – In order to be able to run the design process (discussed in detail in chapter**_ [Reinforce concrete design](/manual/standard-design/reinforced-concrete-design/)_**) for the column, additional design parameters have to be set. By clicking the (![](./img/wp-content-uploads-2021-04-3dots-button.png)) button, the **_Design parameters_** window will be opened, where all of the necessary parameters are listed and can be set individually. Design parameters are separate objects, which means that more sets of parameters can be created, saved, and used for the reinforcement objects. The required parameters are
+- \#5 – In order to be able to run the design process (discussed in detail in chapter**_[Reinforce concrete design](../9_0_standard-design/9_2_reinforced-concrete-design.md)_**) for the column, additional design parameters have to be set. By clicking the (![](./img/wp-content-uploads-2021-04-3dots-button.png)) button, the **_Design parameters_** window will be opened, where all of the necessary parameters are listed and can be set individually. Design parameters are separate objects, which means that more sets of parameters can be created, saved, and used for the reinforcement objects. The required parameters are
 
   - Buckling parameters,
 
@@ -785,7 +785,7 @@ By choosing the **_Column rebar_** option (#1) on the left side panel of the **_
 **Consteel 16**
 
 
-Members created with _**Reinforced concrete cross-sections without design option**_ can provide analysis results (see chapter [**_Analysis results_**](https://consteelsoftware.com/manual/structural-analysis/analysis-results/)) and section resistance surface diagram (see [**_Resistance of composite and reinforced concrete cross-sections_**](https://consteelsoftware.com/manual/section-module/10-4-section-tools/#resistance-surface-diagram)) considering the stiffness corresponding to the applied reinforcement in the calculation. However, these members are not suitable for concrete column and beam design verifications.
+Members created with _**Reinforced concrete cross-sections without design option**_ can provide analysis results (see chapter [**_Analysis results_**](../8_0_structural-analysis/8_5_analysis-results.md)) and section resistance surface diagram (see [**_Resistance of composite and reinforced concrete cross-sections_**](../10_0_section-module/10_2_section-module.md#resistance-of-composite-and-reinforced-concrete-cross-sections)) considering the stiffness corresponding to the applied reinforcement in the calculation. However, these members are not suitable for concrete column and beam design verifications.
 
 
 Available column cross-sections are:

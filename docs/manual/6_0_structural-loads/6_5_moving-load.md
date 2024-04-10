@@ -181,7 +181,7 @@ With the checkboxes in the _Calculation_ column, influence graph(s) can be switc
 
 <!-- wp:paragraph -->
 
-To run Influence graph analysis see **[Chapter 8 Structural analysis](https://consteelsoftware.com/manual/structural-analysis/)**!
+To run Influence graph analysis see **[Structural analysis](../8_0_structural-analysis/8_4_analysis-types.md)**!
 
 <!-- /wp:paragraph -->
 

@@ -165,7 +165,7 @@ On the **Additional Effects** tab of the **_Seismic Effect_** dialogue, the foll
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Considered storeys have to be chosen in the _Considered storeys_ for accidental torsional and second-order effects (#1) panel. If there are storeys defined in the model (see Chapter [Portion Manager](/manual/model-view/portions-manager/)), they will be automatically loaded into the table. If the checkbox is turned on next to a storey, it will be taken into consideration during the seismic analysis.
+Considered storeys have to be chosen in the _Considered storeys_ for accidental torsional and second-order effects (#1) panel. If there are storeys defined in the model (see Chapter [Portion Manager](../3_0_model-view/3_3_portions-manager.md)), they will be automatically loaded into the table. If the checkbox is turned on next to a storey, it will be taken into consideration during the seismic analysis.
 
 <!-- /wp:paragraph -->
 

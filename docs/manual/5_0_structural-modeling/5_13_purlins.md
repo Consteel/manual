@@ -15,19 +15,19 @@ The functions related to the calculation of the purlins are separated into 3 lar
 
 <!-- wp:paragraph -->
 
-\#1 - [Place purlin line](#Place-purlin-line): to specify the purlin line object.
+\#1 - [Place purlin line](#place-purlin-line): to specify the purlin line object.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-\#2 - [Place support zone](#Support-zone): to specify the geometry of the support zone of the purlins
+\#2 - [Place support zone](#support-zone): to specify the geometry of the support zone of the purlins
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-\#3 - [Place purlin overlap](#Purlin-overlap-zone): to specify the overlap zone of the purlins
+\#3 - [Place purlin overlap](#purlin-overlap-zone): to specify the overlap zone of the purlins
 
 <!-- /wp:paragraph -->
 

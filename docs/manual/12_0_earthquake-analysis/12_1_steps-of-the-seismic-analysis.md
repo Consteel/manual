@@ -29,7 +29,7 @@ Modal response spectrum based seismic analysis can be performed with the followi
 
 4. Analysis / Analysis tab
 
-   - Setting the statical calculation parameters; For the comparision of available analysis types, please check at the _[chapter 8.4 Analysis types](../8_0_structural-analysis/8_4_analysis-types.md)_
+   - Setting the statical calculation parameters; For the comparision of available analysis types, please check at the _[ Analysis types](../8_0_structural-analysis/8_4_analysis-types.md)_
    - Setting the parameters for Dynamic calculations
 
 5. Design / Global checks and Member checks tab

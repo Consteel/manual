@@ -95,7 +95,7 @@ For manually defined load combinations, the limit states can be selected. Seismi
 **Consteel 16**
 
 
-According to the actual _[structural design code](../1_0_general-description/1_2_the-main-window.md)_, load case combinations must be created from the _[load cases](/manual/structural-loads/load-cases-and-load-groups/)_. Load combinations can be created manually by defining the combination factors manually for each load case or can be created automatically by using the **Automatic load combination generation** function of _ConSteel_.
+According to the actual _[structural design code](../1_0_general-description/1_2_the-main-window.md)_, load case combinations must be created from the _[load cases](./6_1_load-cases-and-load-groups.md#create-new-load-group)_. Load combinations can be created manually by defining the combination factors manually for each load case or can be created automatically by using the **Automatic load combination generation** function of _ConSteel_.
 
 <!-- /wp:paragraph -->
 
@@ -161,7 +161,7 @@ The yellow rows in the load combination table are the automatically generated co
 
 <!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2021-04-cmd_LCC_new.png)**Automatic generation of load combination** - according to the design standard and the _[settings of load groups and load cases](../6_0_structural-loads/6_1_load-cases-and-load-groups.md#load-cases-and-load-groups)_. A new window will appear where the desired combination creating formulas can be selected. The ULS and SLS combinations are placed on two separate tabs. To create combinations according to the desired formula, select the checkbox before it. The load cases to be combined can be selected from the tree structure on the right. Press **Apply **to create the combinations.
+![](./img/wp-content-uploads-2021-04-cmd_LCC_new.png)**Automatic generation of load combination** - according to the design standard and the _[settings of load groups and load cases](../6_0_structural-loads/6_1_load-cases-and-load-groups.md#load-cases-and-load-groups)_. A new window will appear where the desired combination creating formulas can be selected. The ULS and SLS combinations are placed on two separate tabs. To create combinations according to the desired formula, select the checkbox before it. The load cases to be combined can be selected from the tree structure on the right. Press **Apply** o create the combinations.
 
 <!-- /wp:paragraph -->
 
@@ -183,7 +183,7 @@ The yellow rows in the load combination table are the automatically generated co
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-According to the actual _[structural design code](../1_0_general-description/1_2_the-main-window.md)_, load case combinations must be created from the _[load cases](../6_0_structural-loads/6_1_load-cases-and-load-groups.md)_. Load combinations can be created manually by defining the combination factors manually for each load case or can be created automatically by using the **Automatic load combination generation** function of _ConSteel_.
+According to the actual _[structural design code](../1_0_general-description/1_2_the-main-window.md)_, load case combinations must be created from the _[load cases](./6_1_load-cases-and-load-groups.md#creating-new-load-case)_. Load combinations can be created manually by defining the combination factors manually for each load case or can be created automatically by using the **Automatic load combination generation** function of _ConSteel_.
 
 <!-- /wp:paragraph -->
 
@@ -255,7 +255,7 @@ The yellow rows in the load combination table are the automatically generated co
 
 <!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2021-04-cmd_LCC_new.png)**Automatic generation of load combination** - according to the design standard and the _[settings of load groups and load cases](../6_0_structural-loads/6_1_load-cases-and-load-groups.md)_. A new window will appear where the desired combination creating formulas can be selected. The ULS and SLS combinations are placed on two separate tabs. To create combinations according to the desired formula, select the checkbox before it. The load cases to be combined can be selected from the tree structure on the right. Press **Apply **to create the combinations.
+![](./img/wp-content-uploads-2021-04-cmd_LCC_new.png)**Automatic generation of load combination** - according to the design standard and the _[settings of load groups and load cases](../6_0_structural-loads/6_1_load-cases-and-load-groups.md)_. A new window will appear where the desired combination creating formulas can be selected. The ULS and SLS combinations are placed on two separate tabs. To create combinations according to the desired formula, select the checkbox before it. The load cases to be combined can be selected from the tree structure on the right. Press **Apply** to create the combinations.
 
 <!-- /wp:paragraph -->
 
@@ -836,7 +836,7 @@ Design rules are checked for every FE point of the model portion.
 
 
 
-- **_Maximum of dominant results_: **it contains utility ratios of only one dominant load combination at every point, exactly the same as the dominant result table on Global checks tab. Consequently, there is only one option for limitation, ’More than’ the given utility ratio (%).
+- **_Maximum of dominant results_:** it contains utility ratios of only one dominant load combination at every point, exactly the same as the dominant result table on Global checks tab. Consequently, there is only one option for limitation, ’More than’ the given utility ratio (%).
 
 
 * **_Steel – Dominant results_**: it contains utility ratios of the dominant check at every point, in all load combinations. Limitations:
@@ -848,7 +848,7 @@ Design rules are checked for every FE point of the model portion.
   - **_More than_**: to select the combinations which cause utilization more than the defined value at any point.
 
 
-- **_Steel – General elastic cross-section resistance, Pure resistances….Global stability resistance: _**they contain the ratios of the concrete checks in every load combination at every point.
+- **Steel – General elastic cross-section resistance, Pure resistances….Global stability resistance:** they contain the ratios of the concrete checks in every load combination at every point.
 
 
 ![](./img/wp-content-uploads-2023-04-Design-rule.png)
