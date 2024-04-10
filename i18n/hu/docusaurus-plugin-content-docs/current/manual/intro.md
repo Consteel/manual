@@ -2,8 +2,5 @@
 sidebar_position: 1
 ---
 
-# Introduction
+# Bevezetés
 
-Módosult
-
-megint
