@@ -29,9 +29,9 @@ All the joint related commands can be found on the Structural members tab. These
 
 <!-- wp:list -->
 
-- [Edit joint](./14_2_create-joint.md)
-- [Create joint by model](./14_2_create-joint.md#create-joint-by-model)
-- [Place joint](./14_2_create-joint.md#place-joint-in-the-global-model)
+- [**Edit joint**](./14_2_create-joint.md)
+- [**Create joint by model**](./14_2_create-joint.md#create-joint-by-model)
+- [**Place joint**](./14_2_create-joint.md#place-joint-in-the-global-model)
 
 The module offers a number of strengthening possibilities such as: lower or/and upper haunch with or without flange, transverse web stiffeners, flange stiffeners and flange backing plates, shear stiffeners (supplementary web plate, Morrison stiffener, single or double skew plate stiffener) etc. At the moment the csJoint module has the following joint and connection types:
 

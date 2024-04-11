@@ -51,7 +51,7 @@ If the section module is opened from the model, then all the load combination fr
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-One possible way is to select **Calculate section **from the pop-up menu that appears by right-clicking over the section to be analyzed.
+One possible way is to select **Calculate section** from the pop-up menu that appears by right-clicking over the section to be analyzed.
 
 <!-- /wp:paragraph -->
 

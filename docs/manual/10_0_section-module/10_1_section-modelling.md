@@ -9,7 +9,7 @@ sidebar_position: 1
 
 <!-- wp:paragraph -->
 
-New sections can be loaded or created with **Section administration** command ![](./img/wp-content-uploads-2021-04-cmd_section_admin.png) on the **Structural members** tab. For more information about section administration see **[chapter 5.1.](../5_0_structural-modeling/5_1_section-administration.md)**
+New sections can be loaded or created with **Section administration** command ![](./img/wp-content-uploads-2021-04-cmd_section_admin.png) on the **Structural members** tab. For more information about section administration see **[Section administration](../5_0_structural-modeling/5_1_section-administration.md)**
 
 <!-- /wp:paragraph -->
 ### The EPS Model

@@ -34,7 +34,7 @@ The first order analysis calculates the structural response considering the init
 
 <!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-$K_sU=P \rightarrow U=K_{s}^{-1}P$
+$$K_sU=P \rightarrow U=K_{s}^{-1}P$$
 
 <!-- /wp:paragraph -->
 
@@ -64,7 +64,7 @@ $K_sU=P \rightarrow U=K_{s}^{-1}P$
 
 <!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-$f^{el}=K_s^{el}u^{el}$
+$$f^{el}=K_s^{el}u^{el}$$
 
 <!-- /wp:paragraph -->
 
@@ -110,7 +110,7 @@ The second order calculations take into account that the loaded and deformed str
 
 <!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-$(K_s+K_g)U=P \rightarrow U=(K_s+K_g)^{-1}P$
+$$(K_s+K_g)U=P \rightarrow U=(K_s+K_g)^{-1}P$$
 
 
 <!-- /wp:paragraph -->
@@ -132,7 +132,7 @@ $(K_s+K_g)U=P \rightarrow U=(K_s+K_g)^{-1}P$
 <!-- wp:list {"ordered":true,"start":6} -->
 
 6. Calculation of the internal forces (and stresses) of the elements ($f^{el}$) in their local coordinate system by transforming the global nodal displacements of the element into the local system ($u^{el}$) using their local stiffness matrices:  
-   $f^{el}=K_s^{el}u^{el}$
+   $$f^{el}=K_s^{el}u^{el}$$
 7. If the difference between the new nodal displacements and the ones obtained earlier exceeds a certain limit repeat the calculations from step 2
 
 <!-- /wp:list -->
@@ -155,7 +155,7 @@ In a mechanical interpretation the eigenvalue analysis approximates the elastic 
 
 <!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-$K_g(\lambda f)=\lambda K_g(f)$
+ $$K_g(\lambda f)=\lambda K_g(f)$$
 
 <!-- /wp:paragraph -->
 
@@ -185,7 +185,7 @@ In this case the eigenvalue analysis can be written in the following form:
 
 <!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-$(K_s+\lambda K_g)U=0$
+$$(K_s+\lambda K_g)U=0$$
 
 <!-- /wp:paragraph -->
 
@@ -205,7 +205,7 @@ $(K_s+\lambda K_g)U=0$
 
 <!-- wp:paragraph -->
 
-The solutions are certain critical load factors (buckling loads factor $\lambda \_{cr}^i$) which make the second-order stiffness matrix singular and corresponding displacements (buckling shapes $U^i$).
+The solutions are certain critical load factors (buckling loads factor $\lambda_{cr}^i$) which make the second-order stiffness matrix singular and corresponding displacements (buckling shapes $U^i$).
 
 <!-- /wp:paragraph -->
 
@@ -263,7 +263,7 @@ In a mechanical interpretation, the dynamic eigenvalue analysis approximates the
 
 <!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-$((K_s+K_g)+\omega^{2}M)U=0$
+$$((K_s+K_g)+\omega^{2}M)U=0$$
 
 <!-- /wp:paragraph -->
 

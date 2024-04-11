@@ -95,56 +95,19 @@ The usual placement options are available at the top of the dialog window:
 
 In the _Parameters_ section, the reference object of the stiffener can be defined on the left side of the window (_Fit to_). The figure below the drop-down box shows the chosen selection. The location of the stiffener can be specified relative to the:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:columns -->
-
-<!-- wp:column {"width":"24%","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-<!-- wp:list {"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
 - reference line of the member,
-- middle line of the web,
-- top flange,
-- bottom flange.
-
-<!-- /wp:list -->
-
-<!-- /wp:column -->
-
-<!-- wp:column {"width":"19%","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-<!-- wp:image {"align":"center","id":11506,"width":128,"height":132,"sizeSlug":"full","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
 [![](https://consteelsoftware.com/wp-content/uploads/2021/05/dial_dual_stiff_fit_refline.png)](./img/wp-content-uploads-2021-05-dial_dual_stiff_fit_refline.png)
 
-<!-- /wp:image -->
-
-<!-- /wp:column -->
-
-<!-- wp:column {"width":"19%","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-<!-- wp:image {"align":"center","id":11500,"width":129,"height":131,"sizeSlug":"full","linkDestination":"media"} -->
+- middle line of the web,
 
 [![](https://consteelsoftware.com/wp-content/uploads/2021/05/dial_dual_stiff_fit_webmid.png)](./img/wp-content-uploads-2021-05-dial_dual_stiff_fit_webmid.png)
 
-<!-- /wp:image -->
-
-<!-- /wp:column -->
-
-<!-- wp:column {"width":"19%","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-<!-- wp:image {"align":"center","id":11494,"width":129,"height":130,"sizeSlug":"full","linkDestination":"media"} -->
+- top flange,
 
 [![](https://consteelsoftware.com/wp-content/uploads/2021/05/dial_dual_stiff_fit_top.png)](./img/wp-content-uploads-2021-05-dial_dual_stiff_fit_top.png)
 
-<!-- /wp:image -->
-
-<!-- /wp:column -->
-
-<!-- wp:column {"width":"19%"} -->
-
-<!-- wp:image {"align":"center","id":11512,"width":128,"height":130,"sizeSlug":"full","linkDestination":"media"} -->
+- bottom flange.
 
 [![](https://consteelsoftware.com/wp-content/uploads/2021/05/dial_dual_stiff_fit_bottom.png)](./img/wp-content-uploads-2021-05-dial_dual_stiff_fit_bottom.png)
 

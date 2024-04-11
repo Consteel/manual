@@ -9,7 +9,7 @@ Seismic effects can be created with the **Seismic effect** (![](./img/wp-content
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-For the seismic effect creation, the existence of at least one pre-created mass combination and a response spectrum is required. To see how to define these, please go to Chapter [Masses](../7_0_masses/7_4_seismic-effect.md)!
+For the seismic effect creation, the existence of at least one pre-created mass combination and a response spectrum is required. To see how to define these, please go to chapter [**Masses**](../7_0_masses/7_4_seismic-effect.md)!
 
 <!-- /wp:paragraph -->
 
@@ -47,7 +47,7 @@ In the _Settings_ (#1) panel, the main parameters of the seismic analysis can be
 <!-- wp:list -->
 
 - _Mass combination:_ Choice of the used mass combination for the dynamic shape evaluation during the modal response spectrum analysis has to be done. The dropdown menu is automatically filled up with the pre-defined mass combinations. **The seismic analysis will only be performed for the mass combination which is selected here!**
-- _Calculation method:_ Choice of the calculation method to be used for the seismic analysis. To see the differences between each calculation method, please see the _**[introductory part](./12_0_earthquake-analysis.md)**_ of this chapter!
+- _Calculation method:_ Choice of the calculation method to be used for the seismic analysis. To see the differences between each calculation method, please see the _**[introductory part](./12_0_earthquake-analysis.md)**_ of this main chapter!
 - Main direction of the structure from X: The main direction of the structure can be seen using the black arrow (![](./img/wp-content-uploads-2021-04-ico-pointer.png)) tool, by clicking the start and end point of a vector in the modeling area. The other option is to set the angle between the main direction and the X-axis manually in the edit box with direct input. The direction, which is given will be the „1” direction, perpendicularly to this will be the „2” direction of the effect. The q1 and q2 factors correspond with these directions too.
 
 <!-- /wp:list -->
@@ -90,7 +90,7 @@ Handling of the response spectrums in ultimate and serviceability limit states c
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Clicking on the (![](./img/wp-content-uploads-2021-04-13-3-1-3buttons.png)) button will bring up the spectrum definition dialogue, where parameters of a spectrum can be checked, or even new ones can be created (see Chapter [Creating response spectrums](../7_0_masses/7_5_creating-response-spectrums.md))
+Clicking on the (![](./img/wp-content-uploads-2021-04-13-3-1-3buttons.png)) button will bring up the spectrum definition dialogue, where parameters of a spectrum can be checked, or even new ones can be created (see chapter [**Creating response spectrums**](../7_0_masses/7_5_creating-response-spectrums.md))
 
 <!-- /wp:paragraph -->
 
@@ -165,7 +165,7 @@ On the **Additional Effects** tab of the **_Seismic Effect_** dialogue, the foll
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Considered storeys have to be chosen in the _Considered storeys_ for accidental torsional and second-order effects (#1) panel. If there are storeys defined in the model (see Chapter [Portion Manager](../3_0_model-view/3_3_portions-manager.md)), they will be automatically loaded into the table. If the checkbox is turned on next to a storey, it will be taken into consideration during the seismic analysis.
+Considered storeys have to be chosen in the _Considered storeys_ for accidental torsional and second-order effects (#1) panel. If there are storeys defined in the model (see chapter [**Portion Manager**](../3_0_model-view/3_3_portions-manager.md)), they will be automatically loaded into the table. If the checkbox is turned on next to a storey, it will be taken into consideration during the seismic analysis.
 
 <!-- /wp:paragraph -->
 

@@ -74,7 +74,7 @@ Shell model with holes and stiffeners
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Several new adaptive detailing features are also available in addition to the Superbeam function: **stiffeners **and **web cutouts**. These objects are described in the following chapters:
+Several new adaptive detailing features are also available in addition to the Superbeam function: **stiffeners** and **web cutouts**. These objects are described in the following chapters:
 
 <!-- /wp:paragraph -->
 

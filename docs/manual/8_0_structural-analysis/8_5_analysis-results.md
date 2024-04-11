@@ -193,7 +193,7 @@ For the two types of finite elements (line and surface elements) the following a
 
 <!-- wp:paragraph -->
 
-Effective management of the huge amount of data generated during the analysis is of great importance. It should be possible to review both general and accurate, detailed data for a given type of result. There are two main options for reviewing the analysis results: the graphical view and the result tables (for the general functionality of tables used in _ConSteel_ see section **_[1.4 General functions for tables](../1_0_general-description/1_4_general-functions-for-tables.md)_**).
+Effective management of the huge amount of data generated during the analysis is of great importance. It should be possible to review both general and accurate, detailed data for a given type of result. There are two main options for reviewing the analysis results: the graphical view and the result tables (for the general functionality of tables used in _ConSteel_ see section **_[General functions for tables](../1_0_general-description/1_4_general-functions-for-tables.md)_**).
 
 <!-- /wp:paragraph -->
 
@@ -206,7 +206,7 @@ The results of the performed analysis are usually a huge amount of data so the e
 <!-- wp:list -->
 
 - **graphical visualization**
-- **result tables** _(for the general functionality of tables used in ConSteel_ see section **_[1.4 General functions for tables](../1_0_general-description/1_4_general-functions-for-tables.md)_**).
+- **result tables** _(for the general functionality of tables used in ConSteel_ see section **_[General functions for tables](../1_0_general-description/1_4_general-functions-for-tables.md)_**).
 
 <!-- /wp:list -->
 

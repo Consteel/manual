@@ -188,6 +188,6 @@ After selecting the **New user defined response spectrum** by cloning an existin
 
 <!-- wp:paragraph -->
 
-All of the modification options are the same as it is written in chapter **_[Manual definition of response spectrum, Chapter 7.6.2.1](../7_0_masses/7_5_creating-response-spectrums.md)_**
+All of the modification options are the same as it is written in chapter **_[Manual definition of response spectrum](../7_0_masses/7_5_creating-response-spectrums.md)_**
 
 <!-- /wp:paragraph -->

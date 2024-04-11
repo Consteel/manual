@@ -9,7 +9,7 @@ The most up-to-date structural design procedures take into account the mechanica
 
 <!-- wp:paragraph -->
 
-In order to place a joint to the global model click on the Place Joint (![](./img/wp-content-uploads-2021-04-15-6-place-butt.png)) icon on the Structural members tab. One joint can be placed to several places in the model if these meet the geometrical requirements. The stiffness of the connection can also be taking into account during the analysis if desired. In order to do so click on the analysis parameters and put a tick to Apply connection stiffness. Rerun the analysis to the changes take place.
+In order to place a joint to the global model click on the Place Joint (![](./img/wp-content-uploads-2021-04-15-6-place-butt.png)) icon on the **Structural members** tab. One joint can be placed to several places in the model if these meet the geometrical requirements. The stiffness of the connection can also be taking into account during the analysis if desired. In order to do so click on the analysis parameters and put a tick to Apply connection stiffness. Rerun the analysis to the changes take place.
 
 <!-- /wp:paragraph -->
 

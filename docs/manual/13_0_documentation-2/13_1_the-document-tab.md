@@ -139,7 +139,7 @@ The last two icons on the right are different if you click on a chapter or in a 
 
 <!-- wp:paragraph -->
 
-With the first two icons (#1) the fitting of the pages can be set. Pages can be fit with width (![](./img/wp-content-uploads-2021-04-14-1-width.png)) or with height(![](./img/wp-content-uploads-2021-04-14-1-height.png)).
+With the first two icons (#1) the fitting of the pages can be set. Pages can be fit with width (![](./img/wp-content-uploads-2021-04-14-1-width.png)) or with height (![](./img/wp-content-uploads-2021-04-14-1-height.png)).
 
 <!-- /wp:paragraph -->
 
@@ -163,7 +163,7 @@ With the first two icons (#1) the fitting of the pages can be set. Pages can be 
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-By clicking the **Pictures** tab the image handling icons can be seen. Any of the taken _[snapshots](#creating-snapshots)_ can be inserted into the documentation or can be deleted. The image will be inserted below the selected paragraph.
+By clicking the **Pictures** tab the image handling icons can be seen. Any of the taken _[**snapshots**](#creating-snapshots)_ can be inserted into the documentation or can be deleted. The image will be inserted below the selected paragraph.
 
 <!-- /wp:paragraph -->
 
@@ -223,7 +223,7 @@ It should be bear in mind that the documentation needs to be regenerated to be u
 
 <!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2021-04-cmd_doc_snap.png)The second command on the Document tab can be used to take a snapshot of the model. The snapshots can be easily added to the desired part of the documentation (see chapter _[Documentation module](#documentation-module)_ for detailed information).
+![](./img/wp-content-uploads-2021-04-cmd_doc_snap.png) The second command on the Document tab can be used to take a snapshot of the model. The snapshots can be easily added to the desired part of the documentation (see section _[**Documentation module**](#documentation-module)_ for detailed information).
 
 <!-- /wp:paragraph -->
 

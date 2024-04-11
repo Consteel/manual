@@ -21,7 +21,7 @@ The grid of the mass combinations dialogue can be separated into two parts:
 
 <!-- wp:paragraph -->
 
-\#2 –List of mass cases defined manually
+\#2 – List of mass cases defined manually
 
 <!-- /wp:paragraph -->
 

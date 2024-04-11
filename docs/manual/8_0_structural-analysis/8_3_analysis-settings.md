@@ -182,7 +182,7 @@ In this table, all of the load combinations which are included the selected load
 - Effective section property: using only the reduced effective cross-sectional properties for the selected SLS combinations
 
 
-To see how to edit multiple rows of the table at a time go to **_[Chapter 1.4 General functions of tables](../1_0_general-description/1_4_general-functions-for-tables.md)_**.
+To see how to edit multiple rows of the table at a time go to **_[General functions of tables](../1_0_general-description/1_4_general-functions-for-tables.md)_**.
 
 <!-- /wp:paragraph -->
 
@@ -249,7 +249,7 @@ In this table, all of the load combinations are listed. With the checkboxes in t
 - Effective section property: using only the reduced effective cross-sectional properties for the selected SLS combinations
 
 
-To see how to edit multiple rows of the table at a time go to **_[Chapter 1.4 General functions of tables](../1_0_general-description/1_4_general-functions-for-tables.md)_**.
+To see how to edit multiple rows of the table at a time go to **_[General functions of tables](../1_0_general-description/1_4_general-functions-for-tables.md)_**.
 
 
 The result tree (#3)
@@ -281,7 +281,7 @@ The rows of the table can be separated into two groups:
 - A, Row for Modal Response Spectrum Analysis (MRSA)
 
 
-For seismic MRSA calculation, it is necessary to have at least one **Seismic effect** defined and assigned to the seismic load group in the model. For the definition of seismic effects, please see **[Chapter 12 Earthquake analysis](../12_0_earthquake-analysis/12_0_earthquake-analysis.md)**.
+For seismic MRSA calculation, it is necessary to have at least one **Seismic effect** defined and assigned to the seismic load group in the model. For the definition of seismic effects, please see **[Earthquake analysis](../12_0_earthquake-analysis/12_0_earthquake-analysis.md)**.
 
 - B, Rows for dynamic and response spectrum analysis
 

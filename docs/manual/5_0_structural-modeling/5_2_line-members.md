@@ -43,7 +43,7 @@ Member parameters can be defined in the middle part of the dialogs:
 
 - _Initial bow imp.:_ half sine-wave shaped initial curvature can be defined in the two local directions perpendicular to the member reference axes (“y,z”) with the given amplitude at the mid-length of the member.
 
-- Type of finite e*lement*
+- *Type of finite element*:
 
 
 **For steel members:**

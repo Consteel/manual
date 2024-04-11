@@ -104,47 +104,18 @@ In the _Parameters_ section, the reference line of the cut-out can be defined on
 <!-- wp:list {"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
 - reference line of the member,
-- middle line of the web,
-- top flange,
-- bottom flange.
-
-<!-- /wp:list -->
-
-<!-- /wp:column -->
-
-<!-- wp:column {"width":"19%","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-<!-- wp:image {"align":"center","id":11569,"width":131,"height":131,"sizeSlug":"full","linkDestination":"media"} -->
 
 [![](https://consteelsoftware.com/wp-content/uploads/2021/05/dial_dual_cutout_fit_refline.png)](./img/wp-content-uploads-2021-05-dial_dual_cutout_fit_refline.png)
 
-<!-- /wp:image -->
-
-<!-- /wp:column -->
-
-<!-- wp:column {"width":"19%","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-<!-- wp:image {"align":"center","id":11587,"width":131,"height":131,"sizeSlug":"full","linkDestination":"media"} -->
+- middle line of the web,
 
 [![](https://consteelsoftware.com/wp-content/uploads/2021/05/dial_dual_cutout_fit_webmid.png)](./img/wp-content-uploads-2021-05-dial_dual_cutout_fit_webmid.png)
 
-<!-- /wp:image -->
-
-<!-- /wp:column -->
-
-<!-- wp:column {"width":"19%","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-<!-- wp:image {"align":"center","id":11581,"width":131,"height":131,"sizeSlug":"full","linkDestination":"media"} -->
+- top flange,
 
 [![](https://consteelsoftware.com/wp-content/uploads/2021/05/dial_dual_cutout_fit_top.png)](./img/wp-content-uploads-2021-05-dial_dual_cutout_fit_top.png)
 
-<!-- /wp:image -->
-
-<!-- /wp:column -->
-
-<!-- wp:column {"width":"19%"} -->
-
-<!-- wp:image {"align":"center","id":11575,"width":131,"height":131,"sizeSlug":"full","linkDestination":"media"} -->
+- bottom flange.
 
 [![](https://consteelsoftware.com/wp-content/uploads/2021/05/dial_dual_cutout_fit_bottom.png)](./img/wp-content-uploads-2021-05-dial_dual_cutout_fit_bottom.png)
 

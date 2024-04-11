@@ -94,7 +94,7 @@ To save the settings of the serviceability check, it is essential to click the *
 
 <!-- wp:paragraph -->
 
-After selecting and checking all the checkboxes for the verifications that the user chooses to perform, by pressing the **calculation** button, the checks can be executed.
+After selecting and checking all the checkboxes for the verifications that the user chooses to perform, by pressing the **Calculation** button, the checks can be executed.
 
 <!-- /wp:paragraph -->
 
@@ -244,7 +244,7 @@ After the check is performed, it calculates horizontal displacements in both dir
 
 <!-- wp:paragraph -->
 
-This check button operates similarly to the previous ones. While the quick check is optional, to capture and store the results for each investigated point, we must save the settings using the OK button. Then, we need to calculate along with all the selected checks.
+This check button operates similarly to the previous ones. While the quick check is optional, to capture and store the results for each investigated point, we must save the settings using the **OK** button. Then, we need to calculate along with all the selected checks.
 
 <!-- /wp:paragraph -->
 
@@ -268,7 +268,7 @@ This check button operates similarly to the previous ones. While the quick check
 
 <!-- wp:paragraph -->
 
-All serviceability-related functions can be found on the Serviceability tab. By clicking on the blue arrow icon a new dialog appears. The previously defined serviceability checks can be found and it is also possible to open or delete the selected checks.
+All serviceability-related functions can be found on the **Serviceability tab**. By clicking on the blue arrow icon a new dialog appears. The previously defined serviceability checks can be found and it is also possible to open or delete the selected checks.
 
 ![](./img/wp-content-uploads-2021-04-9-5-SERVICEABILITY-CHECKS.png)
 
@@ -292,7 +292,7 @@ In order to create a new serviceability check, the **New check** button is click
 A global horizontal deflection check can be used to check the biggest horizontal deflection in the model. First- or Second-order analysis can be selected just like the serviceability load combinations that need to be considered.
 
 
-Reference height can be typed in or two points can be selected, and the program calculates the height distance between them. Check is done after clicking the Calculation button. The dominant member is automatically selected in the model space to make the interpretation easier.
+Reference height can be typed in or two points can be selected, and the program calculates the height distance between them. Check is done after clicking the **Calculation** button. The dominant member is automatically selected in the model space to make the interpretation easier.
 
 
 ![](./img/wp-content-uploads-2021-04-9-5-2-GLOBAL-HORIZONTAL-DEFLECTION-CHECK.png)
@@ -316,7 +316,7 @@ Local deflection check by members goes through all the beams in the model, check
 Local deflection check by members is not adequate for cantilever beams just for beams supported by two other beams or supports on both ends.
 
 
-![](https://consteelsoftware.com/wp-content/uploads/2021/04/9-5-4-LOCAL-DEFLECTION-CHECK-BY-MEMBERS.png)(./img/wp-content-uploads-2021-04-9-5-4-LOCAL-DEFLECTION-CHECK-BY-MEMBERS.png)
+![](https://consteelsoftware.com/wp-content/uploads/2021/04/9-5-4-LOCAL-DEFLECTION-CHECK-BY-MEMBERS.png)
 
 
 ## Relative deflection check for 2 points
@@ -325,7 +325,7 @@ Local deflection check by members is not adequate for cantilever beams just for 
 A relative deflection check for 2 points can be used for two clicked points. The relative horizontal or vertical check can be selected and performed.
 
 
-![](https://consteelsoftware.com/wp-content/uploads/2021/04/9-5-5-RELATIVE-DEFLECTION-CHECK-FOR-2-POINTS.png)(./img/wp-content-uploads-2021-04-9-5-5-RELATIVE-DEFLECTION-CHECK-FOR-2-POINTS.png)
+![](https://consteelsoftware.com/wp-content/uploads/2021/04/9-5-5-RELATIVE-DEFLECTION-CHECK-FOR-2-POINTS.png)
 
 
 ## Seismic interstorey drift verification

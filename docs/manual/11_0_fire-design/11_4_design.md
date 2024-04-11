@@ -242,7 +242,7 @@ The critical temperature calculation can be activated in the design settings win
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-The results of the calculation can be queried in the Design Parameters drop-down menu. The results are displayed in a colored graphic. You can also open the Section Module from here by right-clicking on a given section, where the details of the critical temperature calculation can be found. The first line of the summary reads whether the profile should be protected or not, and the critical temperature field contains the relevant part of EC, the applied fire curve, the unprotected fire resistance time and temperature reached of the profile and the required fire resistance time.
+The results of the calculation can be queried in the **Design Parameters** drop-down menu. The results are displayed in a colored graphic. You can also open the **Section Module** from here by right-clicking on a given section, where the details of the critical temperature calculation can be found. The first line of the summary reads whether the profile should be protected or not, and the critical temperature field contains the relevant part of EC, the applied fire curve, the unprotected fire resistance time and temperature reached of the profile and the required fire resistance time.
 
 <!-- /wp:paragraph -->
 

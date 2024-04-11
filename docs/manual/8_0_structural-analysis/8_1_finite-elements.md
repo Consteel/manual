@@ -71,7 +71,7 @@ In this case the warping DOF can be considered as a dual and opposite rotation o
 
 <!-- wp:paragraph -->
 
-Since steel members are usually relatively slender, various modes of global stability failure can occur: flexural buckling, torsional buckling, lateral-torsional buckling, and any interactions of these, all modes can be calculated by the 7DOF element. It is a quite important and advantageous feature in the stability design of these members. Since the accurate calculation of all the torsional modes is highly dependent on the 7th warping DOF it is essential to consider this effect already in the modeling phase (see _**[chapter 5 Structural modeling](../../category/structural-modeling)**_ for the modeling warnings).
+Since steel members are usually relatively slender, various modes of global stability failure can occur: flexural buckling, torsional buckling, lateral-torsional buckling, and any interactions of these, all modes can be calculated by the 7DOF element. It is a quite important and advantageous feature in the stability design of these members. Since the accurate calculation of all the torsional modes is highly dependent on the 7th warping DOF it is essential to consider this effect already in the modeling phase (see _**[Structural modeling](../../category/structural-modeling)**_ for the modeling warnings).
 
 <!-- /wp:paragraph -->
 

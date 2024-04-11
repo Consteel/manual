@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 ---
-# Cloud save and sharing models'
+# Cloud save and sharing models
 
 Cloud model save, open and share are new features available from version 15. Your cloud-saved models will accumulate in your personal cloud storage provided by the Steelspace platform. You can quickly view, access, open, or share them directly from Consteel. Your cloud-saved models are always synchronized into the following folder of your local device: C:\\Users(username)\\AppData\\Local\\ConSteel\\CloudModels. The model synchronization costs data bandwidth from your monthly limit. Model synchronization is done during the events of first cloud-save, model sharing, and closing the model, all the other actions are saving the model only to the local device in order not to increase the data traffic within your bandwidth limit. If any synchronization problem happens (the models on the local device and in the cloud are not identical and it is not clear which is the right one) you can choose which model version to continue with.
 
