@@ -1,8 +1,8 @@
 {
-  "label": "Earthquake analysis",
+  "label": "Földrengés analízis",
   "position": 13,
   "link": {
     "type": "generated-index",
-    "description": "ConSteels can perform earthquake analysis is based on Modal response spectrum analysis (MRSA). For more details see the next chapter."
+    "description": "A ConSteel képes földrengésanalízist végezni a Modális válaszspektrum elemzés (MRSA) alapján. További részletekért tekintsd meg a következő fejezetet."
   }
 }

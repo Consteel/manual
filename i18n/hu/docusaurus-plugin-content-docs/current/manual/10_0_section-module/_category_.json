@@ -1,8 +1,8 @@
 {
-  "label": "Section module",
+  "label": "Keresztmetszet modul",
   "position": 11,
   "link": {
     "type": "generated-index",
-    "description": "Consteel's cross-sections related functionality have been integrated into a separate yet fully integrated module, the **Section Module** (csSection). This module collects all the tools relate to the creation, property calculation, stress analysis, and standard design of a cross-section. Two parallel cross-sectional modeling works side by side in Consteel: the _**General Solid Section**_ (GSS) is an accurate, finite element-based surface model for any type of cross-section; the _**Elastic Plate Segment**_ (EPS) is a section model made of thin plate segments, especially for steel sections. Steel standard design formulas can be easily solved based on the EPS model, including the actual Class 4 effective cross-section produced based on the cross-sectional internal forces determined during structural analysis."
+    "description": "A Consteel keresztmetszetekkel kapcsolatos funkcionalitása egy különálló, de teljesen integrált modulba került, a Keresztmetszet modulba (csSection). Ez a modul összegyűjti az összes eszközt a keresztmetszet létrehozásához, tulajdonságainak számításához, feszültséganalíziséhez és a keresztmetszetek szabványos tervezéséhez. Két párhuzamos keresztmetszeti modellezés dolgozik együtt a Consteelben: a Általános Szilárd Keresztmetszet (GSS) egy pontos, véges elemes alapú felületmodell bármilyen típusú keresztmetszethez; az Elasztikus Lemez Szegmens (EPS) egy vékony lemez szegmensekből álló keresztmetszet modell, különösen acélszerkezetek esetén. Az acélszerkezetek szabványos tervezési képletei könnyen megoldhatók az EPS modell alapján, ideértve az aktuális 4. osztályú keresztmetszetet is, amelyet a szerkezeti elemzés során meghatározott keresztmetszeti belső erők alapján állítanak elő."
   }
 }

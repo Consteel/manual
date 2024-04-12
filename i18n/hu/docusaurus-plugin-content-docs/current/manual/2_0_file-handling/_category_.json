@@ -1,8 +1,8 @@
 {
-  "label": "File handling",
+  "label": "Fájlkezelés",
   "position": 4,
   "link": {
     "type": "generated-index",
-    "description": "The file handling of _ConSteel_ follows the same usual and simple way of the MS Windows standard. The saved files contain all information about the model, it can be relocated to another folder and opened. By default, the **.csm** file extension is associated with _ConSteel_ and these files can be opened by double click."
+    "description": "A ConSteel fájlműveletei ugyanazt a megszokott és egyszerű MS Windows szabványt követik. A mentett fájlok tartalmazzák az összes információt a modellről, áthelyezhetők egy másik mappába, és megnyithatók. Alapértelmezés szerint a .csm fájlkiterjesztés a ConSteel-lel van társítva, és ezeket a fájlokat dupla kattintással lehet megnyitni."
   }
 }

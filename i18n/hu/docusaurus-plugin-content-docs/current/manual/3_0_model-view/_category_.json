@@ -1,9 +1,9 @@
 {
-  "label": "Model view",
+  "label": "Modell nézet",
   "position": 5,
   "link": {
     "type": "generated-index",
-    "description": "A modell helyességének elsődleges ellenőrzési eszköze a grafikus felület. Az ellenőrzéshez elengedhetetlenek az átlátható és széleskörűen felhasználható modell nézetek. A grafikus ellenőrzéssel egyszerűen eldönthetjük, hogy a megfelelő objektum került-e a megfelelő helyre.
-    "
+    "description": "A modell helyességének elsődleges ellenőrzési eszköze a grafikus felület. Az ellenőrzéshez elengedhetetlenek az átlátható és széleskörűen felhasználható modell nézetek. A grafikus ellenőrzéssel egyszerűen eldönthetjük, hogy a megfelelő objektum került-e a megfelelő helyre."
+    
   }
 }

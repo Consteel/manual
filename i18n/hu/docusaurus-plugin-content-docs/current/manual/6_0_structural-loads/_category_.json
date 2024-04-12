@@ -1,8 +1,8 @@
 {
-  "label": "Structual loads",
+  "label": "Terhek",
   "position": 8,
   "link": {
     "type": "generated-index",
-    "description": "The definition of loading on a structural model is one of the most important modeling phases. Contrary to the modeling of structural members the load modeling is minutely controlled and supported by the structural codes and standards since the appropriate definition of loads ensures a major part in the reliability of structural performance. In ConSteel several types of loading options help the engineer in this work. In accordance with the modeling of a structural member, the engineer can work with the load types and options defined and handled in the structural standards, and the applied loads are automatically converted into finite element loads for the calculation model. All the loading functionality connecting with the load modeling is placed on the Loads tab.<br>[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-1-Basics.png)](./img/wp-content-uploads-2021-04-7-1-Basics.png)"
+    "description": "A terhelés meghatározása a szerkezeti modellen az egyik legfontosabb modellezési fázis. Ellentétben a szerkezeti tagok modellezésével, a terhelés modellezése aprólékosan ellenőrzött és támogatott a szerkezeti előírások és szabványok által, mivel a terhelések megfelelő meghatározása jelentős szerepet játszik a szerkezet teljesítményének megbízhatóságában. A ConSteelben számos terhelési opció segíti a mérnök munkáját. A szerkezeti tagok modellezésével összhangban a mérnök dolgozhat a szerkezeti szabványokban meghatározott és kezelt terhelési típusokkal és lehetőségekkel, és az alkalmazott terhelések automatikusan átalakulnak véges elemes terhelésekké a számítási modellben. Az összes terhelésmodellezéssel kapcsolatos funkcionalitás a Terhelések fülön található."
   }
 }
