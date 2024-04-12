@@ -47,7 +47,7 @@ A **Statikai számítások** (#2) csoport beállításai:
   
   - **_Reakcióerők alapértékeinek meghatározása…_** jelölőnégyzet szükséges egyes alapozás számításokhoz a csJoint programban.
   
-  - A további beállítások a gombbal megnyíló Teheresetek beállításainak részletezése aloldalon 8.4.3 érhetők el.
+  - A további beállítások a gombbal megnyíló Teheresetek beállításainak részletezése az Analízis típusok aloldalon  érhetők el.
   
 
 - A teherkombinációk csoport
@@ -55,7 +55,7 @@ A **Statikai számítások** (#2) csoport beállításai:
   - alatt két különböző számítási típus választható a legördülő menüből:
 
     - **rugalmas**: az összes szerkezeti elem lineárisan rugalmas anyagtulajdonsággal rendelkezik (Hook törvény),
-    - **képlékeny**: a képlékeny csukló analízis figyelembe veszi a speciális keresztmetszetek hajlító nyomaték okozta koncentrált képlékenyedését, részleteket lásd a 8.5.2 fejezetben.
+    - **képlékeny**: a képlékeny csukló analízis figyelembe veszi a speciális keresztmetszetek hajlító nyomaték okozta koncentrált képlékenyedését, részleteket lásd a Analízis eredmények fejezetben.
 
   - A jelölőnégyzetekkel a szükséges analízis (**első-, illetve másodrendű**) típusok kapcsolhatóak be, külön-külön a teherbírási és használhatósági határállapotokhoz tartozó teherkombinációk esetén.
 
@@ -250,7 +250,7 @@ Ebben a táblázatban megtalálható a modellben létrehozott összes teherkombi
 - Hatékony keresztmetszeti jellemzők: a kiválasztott SLS-kombinációkhoz a csökkentett effektív keresztmetszeti jellemzők használata.
 
 
-A táblázatok szerkesztését ld. az **[1.4. A táblázatok általános funkciói című fejezetben](../1_0_general-description/1_4_general-functions-for-tables.md)** olvashatja.
+A táblázatok szerkesztését ld. az **[A táblázatok általános funkciói című fejezetben](../1_0_general-description/1_4_general-functions-for-tables.md)** olvasható.
 
 
 Eredménytípusok fa (#3)

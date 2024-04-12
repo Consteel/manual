@@ -85,7 +85,7 @@ Az előzményelemnek nevet és leírást is lehet adni, ha szükséges. Az előz
 
 ![](./img/wp-content-uploads-2022-12-history_item.jpg)
 
-_Creating new history item with name and description_
+_Új verzióelőzmény létrehozása névvel és leírással_
 
 <!-- /wp:image -->
 

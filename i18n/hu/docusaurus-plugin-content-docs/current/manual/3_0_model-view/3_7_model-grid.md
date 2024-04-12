@@ -4,7 +4,7 @@ sidebar_position: 7
 # Modell raszter
 <!-- wp:paragraph -->
 
-A _**geometria**_ fülön található _**Modell raszter**_ parancs segítségével lehetőség van általános _modell raszter_ létrehozására.
+A _**Geometria**_ fülön található _**Modell raszter**_ parancs segítségével lehetőség van általános _modell raszter_ létrehozására.
 
 <!-- /wp:paragraph -->
 

@@ -95,7 +95,7 @@ A párbeszédablak legfelső részén a szokásos elhelyezési módok ikonjai ta
 
 <!-- wp:paragraph -->
 
-A párbeszédablak \_Paraméterek \_szakaszában a merevítő pozícióját és méreteit kell megadni. Az elhelyezéshez választani kell egy referenciavonalat az ablak bal oldalán található legördülő mezőben (Illesztés). A kiválasztott referenciavonal a mező alatti ábrán látható. A referenciavonal lehet:
+A párbeszédablak _Paraméterek_ szakaszában a merevítő pozícióját és méreteit kell megadni. Az elhelyezéshez választani kell egy referenciavonalat az ablak bal oldalán található legördülő mezőben (_Illesztés_). A kiválasztott referenciavonal a mező alatti ábrán látható. A referenciavonal lehet:
 
 <!-- /wp:paragraph -->
 
@@ -177,7 +177,7 @@ A párbeszédablak jobb oldalán a kiválasztott geometriának megfelelő param�
 <!-- wp:list -->
 
 - referencia vonaltól mért **külpontosság**,
-- merevítő elhelyezése a gerinc bal, jobb vagy mindkét **odal**án
+- merevítő elhelyezése a gerinc bal, jobb vagy mindkét **odalán**
 
 <!-- /wp:list -->
 
@@ -268,7 +268,7 @@ helyettesítő öblösödési támasz a végeselemes modellen
 
 <!-- wp:paragraph -->
 
-A Consteelben, az öblösödési merevség számításához használt módszerről bővebben a következő oldalon olvashat (angolul): **_[Discrete warping restraint](https://www.consteelsoftware.com/knowledgebase/discrete-warping-restraint/?search=discrete%20warping)_**.
+A Consteelben, az öblösödési merevség számításához használt módszerről bővebben a következő Tudásbázis cikkben olvashat (angolul): **_[Discrete warping restraint](https://www.consteelsoftware.com/knowledgebase/discrete-warping-restraint/?search=discrete%20warping)_**.
 
 <!-- /wp:paragraph -->
 

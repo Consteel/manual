@@ -5,7 +5,7 @@ sidebar_position: 2
 
 
 
-Az objektumok kijelölése történhet a grafikus képernyőn, az objektumfán, és a tulajdonságok szerinti kiválasztási módszerrel. Általános szabály, hogy csak a látható objektumok jelölhetők ki a grafikus képernyőről, ezért a különböző füleken egy azonos kijelölési művelet eredménye eltérő lehet. Egy kiválasztott elem kijelölése megszüntethető az elemre kattintással a _**Shift**_ billentyű lenyomása mellett. Az _**ESC**_ billentyű lenyomása az összes kijelölést megszünteti.
+Az objektumok kijelölése történhet a grafikus képernyőn, az objektumfán, és a tulajdonságok szerinti kiválasztási módszerrel. Általános szabály, hogy csak a látható objektumok jelölhetők ki a grafikus képernyőről, ezért a különböző füleken egy azonos kijelölési művelet eredménye eltérő lehet. Egy kiválasztott elem kijelölése megszüntethető az elemre kattintással a _**SHIFT**_ billentyű lenyomása mellett. Az _**ESC**_ billentyű lenyomása az összes kijelölést megszünteti.
 
 Az alapvető kijelölési módok és azok működése a következő:
 
@@ -16,7 +16,7 @@ Az alapvető kijelölési módok és azok működése a következő:
 * A **kijelölés ablakkal** a bal egérgombbal történő ablakrajzolással lehetséges. Az egérgomb fölengedésével a rajzolás befejeződik. Az ablak aktuális mérete rajzolás közben folyamatosan látható. Ha az ablakot balról jobbra rajzoljuk, akkor csak azok az objektumok kerülnek kijelölésre, amelyek teljes terjedelmükben az ablakon belül esnek. Ha az ablakot jobbról balra rajzoljuk, akkor az ablak belsejébe eső elemeken kívül, az ablak határvonalai által elmetszett elemek is kijelölésre kerülnek, akár milyen kis részt is érint az ablak.
 
 
-- **Ctrl + jobb klikk kijelölés**: a Ctrl billentyű lenyomásával és jobb kattintással az egérmutatóhoz legközelebb eső objektum lesz kijelölve.
+- **CTRL + jobb klikk kijelölés**: a CTRL billentyű lenyomásával és jobb kattintással az egérmutatóhoz legközelebb eső objektum lesz kijelölve.
 
 
 
@@ -51,7 +51,7 @@ Az alapvető kijelölési módok és azok működése a következő:
 [![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/4-3-selection-3.png)](./img/wp-content-uploads-2021-04-4-3-selection-3.png)
 
  <!-- wp:list-item -->
-- **Kijelölés az objektumfáról**: kijelölni kívánt elemek kijelölése az [_**Objektumfán**_](../1_0_general-description/1_2_the-main-window.md#objektumfa-objektum-tulajdonságok-és-diagnosztika-ablakok) látható elemek nevére való kattintással. A _**Ctrl**_ vagy a _**Shift**_ billentyű lenyomása mellett a többszörös elemkijelölés is elvégezhető. A kiválasztás megszüntethető a modellfán kijelölt objektumnévre a _**Ctrl**_ billentyű egyidejű lenyomásával történő újbóli kattintással.
+- **Kijelölés az objektumfáról**: kijelölni kívánt elemek kijelölése az [_**Objektumfán**_](../1_0_general-description/1_2_the-main-window.md#objektumfa-objektum-tulajdonságok-és-diagnosztika-ablakok) látható elemek nevére való kattintással. A _**CTRL**_ vagy a _**SHIFT**_ billentyű lenyomása mellett a többszörös elemkijelölés is elvégezhető. A kiválasztás megszüntethető a modellfán kijelölt objektumnévre a _**CTRL**_ billentyű egyidejű lenyomásával történő újbóli kattintással.
 
 - **Kijelölés az Objektum tulajdonságokból:** egy elemet kiválasztva, annak objektum tulajdonságait megtekinthetik a főablak jobb alsó részén. **Consteel 17-** től kezdve, a modellben több elem is kijelölhető, melyek azonos tulajdonságokkal rendelkeznek. Ezeket az elemeket a tulajdonságukra (például anyag) való dupla kattintással választhatják ki.
 

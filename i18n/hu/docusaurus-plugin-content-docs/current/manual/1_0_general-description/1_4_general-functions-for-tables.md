@@ -43,7 +43,7 @@ Adatbeviteli táblázatok (a **[Teherkombinációk](../6_0_structural-loads/6_2_
 
 <!-- wp:list {"className":"is-style-arrow","editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-- Módosítható táblázatok esetén, a cella tartalmak _**Ctrl+C**_ billentyű kombinációkkal másolhatóak és _**Ctrl+V**_ billentyű kombinációkkal beszúrhatóak táblázaton belül, vagy Excel, vagy más táblázat kezelő programokba
+- Módosítható táblázatok esetén, a cella tartalmak _**CTRL+C**_ billentyű kombinációkkal másolhatóak és _**CTRL+V**_ billentyű kombinációkkal beszúrhatóak táblázaton belül, vagy Excel, vagy más táblázat kezelő programokba
 
 <!-- /wp:list -->
 

@@ -32,9 +32,9 @@ Használatuk jelentősen gyorsítják a modellezést. A _Consteel_-ben az alább
 
 - **CTRL+I: kijelölés megfordítása**
 
-- **CRTL + left mouse button: csak a legközelebbi objektum kiválasztása**
+- **CRTL + bal egérgomb: csak a legközelebbi objektum kiválasztása**
 
-- **SHIFT+left mouse button: kiválasztás megszüntetése**
+- **SHIFT+ jobb egérgomb: kiválasztás megszüntetése**
 
 - **ESC: kijelölés megszüntetése, vagy kilépés egy műveletből**
 
@@ -56,11 +56,11 @@ Használatuk jelentősen gyorsítják a modellezést. A _Consteel_-ben az alább
 
 - **CTRL+V: másolt cellatartalmak beszúrása**
 
-- **Middle mouse button: modell mozgatása**
+- **Egér középsőgomb: modell mozgatása**
 
-- **ALT+left mouse button: modell forgatása**
+- **ALT+bal egérgomb: modell forgatása**
 
-- **ALT+right mouse button: modell nagyítása/kicsinyítése**
+- **ALT+jobb egérgomb: modell nagyítása/kicsinyítése**
 
 - **↑: képernyő mozgatása fel**
 
@@ -70,13 +70,13 @@ Használatuk jelentősen gyorsítják a modellezést. A _Consteel_-ben az alább
 
 - **←: képernyő mozgatása balra**
 
-- **mouse wheel: modell nagyítása/kicsinyítése**
+- **egér görgő: modell nagyítása/kicsinyítése**
 
 - **+: modell közelítése**
 
 - **-: modell távolítása**
 
-- **SHIFT+ALT+left mouse button: ablakos nagyítás**
+- **SHIFT+ALT+bal egérgomb: ablakos nagyítás**
 
 - **Insert: relatív origo elhelyezése**
 
@@ -210,6 +210,7 @@ Használatuk jelentősen gyorsítják a modellezést. A _Consteel_-ben az alább
 
 
 A gyorsbillentyűk megjelennek a funkciók neve mellett a menüben és az ikonoknál az egeret az ikon fölé húzva lebegő üzenetben. Továbbá lehetőség van a kívánt kombináció megkeresésére a **_Gyorsbillentyűk_** ablakban, ami a **_Súgó_** menüből érhető el.
+
 ![](./img/wp-content-uploads-2023-01-Sugo_menu.jpg)
 
 
@@ -227,7 +228,7 @@ A gyorsbillentyűk megjelennek a funkciók neve mellett a menüben és az ikonok
 
 
 
-- CTRL+N:új modell
+- **CTRL+N:új modell**
 
 - **CTRL+O: modell megnyitása**
 

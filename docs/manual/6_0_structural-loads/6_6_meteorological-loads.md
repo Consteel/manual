@@ -263,7 +263,7 @@ The following geometrical parameters have to be set:
 
 - The direction of the basic wind in the global coordinate system. The basic wind direction is the 0° wind direction.
 - Building dimensions to the basic wind direction
-- Loaded area (A) of the wind load. If the loaded area is equal to or bigger than 10m2 then ConSteel uses cpe10 in the generation. If the area is equal to or smaller than 1m2 then ConSteel uses cpe1 in the generation. Between the two values, ConSteel interpolates between cpe10 and cpe1 acc. to the Eurocode rule.
+- Loaded area (A) of the wind load. If the loaded area is equal to or bigger than 10m<sup>2</sup> then ConSteel uses cpe10 in the generation. If the area is equal to or smaller than 1m<sup>2</sup> then ConSteel uses cpe1 in the generation. Between the two values, ConSteel interpolates between cpe10 and cpe1 acc. to the Eurocode rule.
 - Ground level. ConSteel measures the height of the structure from the global Z=0 level for the wind load generation. Therefore the structure base level is not equal with the ground level, but the structure is placed on the global Z=0 level in ConSteel, the difference has to be set manually in the ground level field.
 
 <!-- /wp:list -->

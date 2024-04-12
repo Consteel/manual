@@ -289,7 +289,7 @@ For seismic MRSA calculation, it is necessary to have at least one **Seismic eff
 Each defined **mass combination** is listed as an individual row in the table.
 
 
-According to the settings on the analysis Overview page in chapter **8.4.1**, free vibration and response spectrum analysis can be performed.
+According to the settings on the analysis Overview page in chapter **Analysis types**, free vibration and response spectrum analysis can be performed.
 
 <!-- /wp:paragraph -->
 

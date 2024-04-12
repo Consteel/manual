@@ -5,7 +5,7 @@ sidebar_position: 6
 
 <!-- wp:paragraph -->
 
-Dxf kiterjesztésű fájlok importálásához a _**Fájl**_ menü _**Import**_ opciójára, majd a _**Dxf**_ menüpontra kell kattintani.
+Dxf kiterjesztésű fájlok importálásához a _**Fájl**_ menü _**Import**_ opciójára, majd a _**DXF**_ menüpontra kell kattintani.
 
 <!-- /wp:paragraph -->
 
@@ -17,7 +17,7 @@ Dxf kiterjesztésű fájlok importálásához a _**Fájl**_ menü _**Import**_ o
 
 <!-- wp:paragraph -->
 
-Ekkor megjelenik a _**DXF beolvasás**_ ablaka, és egyúttal egy „File megnyitás” dialóg is, ahol ki kell választani az importálandó dxf fájlt. A fájl kiválasztása és megnyitása után a rajz megjelenik a modell térben, de még nem kerül véglegesen elhelyezésre. A Dxf beolvasás dialógon lehet a szükséges paraméterek megadás után a beolvasást véglegesíteni.
+Ekkor megjelenik a _**DXF beolvasás**_ ablaka, és egyúttal egy „File megnyitás” dialóg is, ahol ki kell választani az importálandó dxf fájlt. A fájl kiválasztása és megnyitása után a rajz megjelenik a modell térben, de még nem kerül véglegesen elhelyezésre. A DXF beolvasás dialógon lehet a szükséges paraméterek megadás után a beolvasást véglegesíteni.
 
 <!-- /wp:paragraph -->
 

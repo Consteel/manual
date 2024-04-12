@@ -17,7 +17,7 @@ sidebar_position: 3
 
 <!-- wp:paragraph -->
 
-Állandó vastagságú felületi elemek modellezhetők _Consteel_-ban. Felületelemek modellezésére két lehetőség áll rendelkezésre: tetszőleges alakú és helyzetű _lemez elemek _![](./img/wp-content-uploads-2021-04-cmd_create_plate.png), és függőleges helyzetű ás téglalap lakú _fal elemek _![](./img/wp-content-uploads-2021-04-cmd_create_wall.png). Ez utóbbi a falak gyakran használt modellezéséhez nyújt segítséget, mivel csak a referencia alapvonalat és két magassági értéket kell meghatározni.
+Állandó vastagságú felületi elemek modellezhetők _Consteel_-ban. Felületelemek modellezésére két lehetőség áll rendelkezésre: tetszőleges alakú és helyzetű _lemez elemek_ ![](./img/wp-content-uploads-2021-04-cmd_create_plate.png), és függőleges helyzetű ás téglalap lakú _fal elemek_ ![](./img/wp-content-uploads-2021-04-cmd_create_wall.png). Ez utóbbi a falak gyakran használt modellezéséhez nyújt segítséget, mivel csak a referencia alapvonalat és két magassági értéket kell meghatározni.
 
 <!-- /wp:paragraph -->
 

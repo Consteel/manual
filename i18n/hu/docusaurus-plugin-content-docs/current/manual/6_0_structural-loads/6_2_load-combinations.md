@@ -113,7 +113,7 @@ Az ablak tetején a kombinációk létrehozására és módosítására szolgál
 A második oszlop határozza meg, hogy a teherkombináció melyik határállapothoz tartozik. Fontos a határállapot helyes beállítása, mivel a tervezési ellenőrzések csak a teherbírási (ULS) kombinációkra, míg a használhatósági vizsgálatok csak a használhatósági (SLS) kombinációkra kerülnek végrehajtásra.
 
 
-A további oszlopokban az egyes teheresetekre vonatkozó kombinációs tényezők szerepelnek. Egyszerre több tényező szerkesztése is lehetséges: ehhez válaszd ki a kívánt tényezőket, kattints rájuk a jobb egérgombbal, majd add meg a kívánt értéket a felugró ablakban. Több cella kijelölése történhet a **Ctrl** vagy **Shift** gombok használatával, vagy az egér bal gombjának lenyomva tartásával és a kurzornak a cellák fölött történő mozgatásával. A cellák tartalma másolható és beilleszthető is a **Ctrl+C** / **Ctrl+V** billentyűkombinációkkal. A cellák tartalma az MS Excel vagy más táblázatkezelő alkalmazásokba/-ból is másolható.
+A további oszlopokban az egyes teheresetekre vonatkozó kombinációs tényezők szerepelnek. Egyszerre több tényező szerkesztése is lehetséges: ehhez válaszd ki a kívánt tényezőket, kattints rájuk a jobb egérgombbal, majd add meg a kívánt értéket a felugró ablakban. Több cella kijelölése történhet a **CTRL** vagy **SHIFT** gombok használatával, vagy az egér bal gombjának lenyomva tartásával és a kurzornak a cellák fölött történő mozgatásával. A cellák tartalma másolható és beilleszthető is a **CTRL+C** / **CTRL+V** billentyűkombinációkkal. A cellák tartalma az MS Excel vagy más táblázatkezelő alkalmazásokba/-ból is másolható.
 
 
 A teherkombináció táblázat sárga sorai az automatikusan generált kombinációk. A fehér sorok a kézzel létrehozott vagy kézzel szerkesztett kombinációk.
@@ -131,13 +131,13 @@ A teherkombináció táblázat sárga sorai az automatikusan generált kombinác
 
 <!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2021-04-cmd_LCC_del.png) **Teherkombináció** törlése- Törli a korábban kijelölt sorokat.
+![](./img/wp-content-uploads-2021-04-cmd_LCC_del.png) **Teherkombináció törlése**- Törli a korábban kijelölt sorokat.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2021-04-cmd_LCC_renum.png) **Teherkombináci** ók újraszámozása - A táblázat összes teherkombinációjának nevét az eredetire változtatja.
+![](./img/wp-content-uploads-2021-04-cmd_LCC_renum.png) **Teherkombinációk újraszámozása** - A táblázat összes teherkombinációjának nevét az eredetire változtatja.
 
 <!-- /wp:paragraph -->
 
@@ -151,7 +151,7 @@ Teherkombinációk automatikus létrehozása
 
 <!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2021-04-cmd_LCC_new.png) **Teherkombináci**ók automatikus létrehozása - a tervezési szabványnak és a _[tehercsoportok és teheresetek beállításainak](./6_1_load-cases-and-load-groups.md#az-automatikus-kombinációgenerálás-beállítási-lehetőségei)_ megfelelően. Megjelenik egy új ablak, ahol a kívánt kombinációs képletet ki lehet választani. Az ULS és SLS kombinációk két külön fülön helyezkednek el. A kívánt képlet szerinti kombinációk létrehozásához jelölje be az előtte lévő jelölőnégyzetet. A kombinálandó teheresetek a jobb oldali fa struktúrából választhatók ki. Végül, a kombinációk létrehozásához nyomja meg az **Alkalmaz** gombot.
+![](./img/wp-content-uploads-2021-04-cmd_LCC_new.png) **Teherkombinációk automatikus létrehozása** - a tervezési szabványnak és a _[tehercsoportok és teheresetek beállításainak](./6_1_load-cases-and-load-groups.md#az-automatikus-kombinációgenerálás-beállítási-lehetőségei)_ megfelelően. Megjelenik egy új ablak, ahol a kívánt kombinációs képletet ki lehet választani. Az ULS és SLS kombinációk két külön fülön helyezkednek el. A kívánt képlet szerinti kombinációk létrehozásához jelölje be az előtte lévő jelölőnégyzetet. A kombinálandó teheresetek a jobb oldali fa struktúrából választhatók ki. Végül, a kombinációk létrehozásához nyomja meg az **Alkalmaz** gombot.
 
 <!-- /wp:paragraph -->
 
@@ -199,7 +199,7 @@ A második oszlop határozza meg, hogy a teherkombináció melyik határállapot
 
 <!-- wp:paragraph -->
 
-A további oszlopokban az egyes teheresetekre vonatkozó kombinációs tényezők szerepelnek. Egyszerre több tényező szerkesztése is lehetséges: ehhez válaszd ki a kívánt tényezőket, kattints rájuk a jobb egérgombbal, majd add meg a kívánt értéket a felugró ablakban. Több cella kijelölése történhet a **Ctrl** vagy **Shift** gombok használatával, vagy az egér bal gombjának lenyomva tartásával és a kurzornak a cellák fölött történő mozgatásával. A cellák tartalma másolható és beilleszthető is a **Ctrl+C** / **Ctrl+V** billentyűkombinációkkal. A cellák tartalma az MS Excel vagy más táblázatkezelő alkalmazásokba/-ból is másolható.
+A további oszlopokban az egyes teheresetekre vonatkozó kombinációs tényezők szerepelnek. Egyszerre több tényező szerkesztése is lehetséges: ehhez válaszd ki a kívánt tényezőket, kattints rájuk a jobb egérgombbal, majd add meg a kívánt értéket a felugró ablakban. Több cella kijelölése történhet a **CTRL** vagy **SHIFT** gombok használatával, vagy az egér bal gombjának lenyomva tartásával és a kurzornak a cellák fölött történő mozgatásával. A cellák tartalma másolható és beilleszthető is a **CTRL+C** / **CTRL+V** billentyűkombinációkkal. A cellák tartalma az MS Excel vagy más táblázatkezelő alkalmazásokba/-ból is másolható.
 
 <!-- /wp:paragraph -->
 
@@ -223,13 +223,13 @@ A teherkombináció táblázat sárga sorai az automatikusan generált kombinác
 
 <!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2021-04-cmd_LCC_del.png) **Teherkombináció** törlése - Törli a korábban kijelölt sorokat.
+![](./img/wp-content-uploads-2021-04-cmd_LCC_del.png) **Teherkombináció törlése** - Törli a korábban kijelölt sorokat.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2021-04-cmd_LCC_renum.png) **Teherkombináci**ók újraszámozása - A táblázat összes teherkombinációjának nevét az eredetire változtatja.
+![](./img/wp-content-uploads-2021-04-cmd_LCC_renum.png) **Teherkombinációk újraszámozása** - A táblázat összes teherkombinációjának nevét az eredetire változtatja.
 
 <!-- /wp:paragraph -->
 
@@ -241,7 +241,7 @@ A teherkombináció táblázat sárga sorai az automatikusan generált kombinác
 
 <!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2021-04-cmd_LCC_new.png) **Teherkombináci**ók automatikus létrehozása - a tervezési szabványnak és a _[tehercsoportok és teheresetek beállításainak](./6_1_load-cases-and-load-groups.md#teheresetek-és-tehercsoportok)_ megfelelően. Megjelenik egy új ablak, ahol a kívánt kombinációs képletet ki lehet választani. Az ULS és SLS kombinációk két külön fülön helyezkednek el. A kívánt képlet szerinti kombinációk létrehozásához jelölje be az előtte lévő jelölőnégyzetet. A kombinálandó teheresetek a jobb oldali fa struktúrából választhatók ki. Végül, a kombinációk létrehozásához nyomja meg az **Alkalmaz** gombot.
+![](./img/wp-content-uploads-2021-04-cmd_LCC_new.png) **Teherkombinációk automatikus létrehozása** - a tervezési szabványnak és a _[tehercsoportok és teheresetek beállításainak](./6_1_load-cases-and-load-groups.md#teheresetek-és-tehercsoportok)_ megfelelően. Megjelenik egy új ablak, ahol a kívánt kombinációs képletet ki lehet választani. Az ULS és SLS kombinációk két külön fülön helyezkednek el. A kívánt képlet szerinti kombinációk létrehozásához jelölje be az előtte lévő jelölőnégyzetet. A kombinálandó teheresetek a jobb oldali fa struktúrából választhatók ki. Végül, a kombinációk létrehozásához nyomja meg az **Alkalmaz** gombot.
 
 <!-- /wp:paragraph -->
 
@@ -659,7 +659,7 @@ Szűrők kölcsönhatása - példa 3
 
 <!-- wp:paragraph -->
 
-akkor a *Rendkívüli hó* tehereset is kikapcsolódik. Ezzel együtt az *állandó* és a *Szél 1* ás *Szél 2* teheresetek részben kijelölt állapotúra változnak, mivel szerepelnek a kikapcsolt rendkívüli teherkombinációkban, de más teherkombinációkban is.
+akkor a *Rendkívüli hó* tehereset is kikapcsolódik. Ezzel együtt az *Állandó* és a *Szél 1* ás *Szél 2* teheresetek részben kijelölt állapotúra változnak, mivel szerepelnek a kikapcsolt rendkívüli teherkombinációkban, de más teherkombinációkban is.
 
 <!-- /wp:paragraph -->
 
@@ -871,7 +871,7 @@ A kihasználtsági szabályok ellenőrzése a részlet modell minden egyes vége
   - **_Több mint_**: azon kombinációk kiválasztása, amelyek bármely ponton a megadott értéknél nagyobb kihasználtságot eredményeznek.
  
 
-- **Acél – Általános rugalmas szilárdsági ellenállás, tiszta igénybevételi ellenállások....Globális stabilitási ellenállás:** az egyes ellenőrzések kihasználtságait tartalmazzák minden egyes teherkombinációban, minden egyes pontban.
+- **Acél – Általános rugalmas szilárdsági ellenállás, tiszta igénybevételi ellenállások, globális stabilitási ellenállás:** az egyes ellenőrzések kihasználtságait tartalmazzák minden egyes teherkombinációban, minden egyes pontban.
 
 
 <!-- wp:image {"align":"left","id":21420,"width":191,"height":203,"sizeSlug":"full","linkDestination":"none"} -->

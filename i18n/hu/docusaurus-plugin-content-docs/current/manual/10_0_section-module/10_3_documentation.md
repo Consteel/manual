@@ -11,7 +11,7 @@ Az ellenőrzött keresztmetszetek egyedileg dokumentálhatók. A dokumentáció 
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-A dokumentáció előállítása a **Dokumentálás** menüparanccsal indítható. A dokumentáció előállításának módja megegyezik a globális szerkezet dokumentálásának módjával (ld. a **_[13. fejezetben](../../category/documentation)_**).
+A dokumentáció előállítása a **Dokumentálás** menüparanccsal indítható. A dokumentáció előállításának módja megegyezik a globális szerkezet dokumentálásának módjával (ld. a **_[Documentálás fejezetben](../../category/documentation)_**).
 
 <!-- /wp:paragraph -->
 

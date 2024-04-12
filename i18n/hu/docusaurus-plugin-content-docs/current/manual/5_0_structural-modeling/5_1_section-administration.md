@@ -30,7 +30,7 @@ Az ablak legnagyobb részét a szelvények táblázata foglalja el a bal oldalon
 - Állapot - _Használt_ vagy _Nem használt_ attól függően, hogy van-e elhelyezett szerkezeti elem az adott szelvényből
 
 
-Az ablak jobb oldalán találhatók a szelvények kezeléséhez szükséges parancsgombok. Az első három gomb, amelyek a "Szelvény felvétel" név alatt vannak csoportosítva, a szelvények létrehozására és a szelvény adatbázisba történő betöltésére szolgál. Ezeket a funkciókat az **_[5.2 Rúdelemek](../5_0_structural-modeling/5_2_line-members.md)_** fejezet írja le.
+Az ablak jobb oldalán találhatók a szelvények kezeléséhez szükséges parancsgombok. Az első három gomb, amelyek a "Szelvény felvétel" név alatt vannak csoportosítva, a szelvények létrehozására és a szelvény adatbázisba történő betöltésére szolgál. Ezeket a funkciókat az **_[Rúdelemek](../5_0_structural-modeling/5_2_line-members.md)_** fejezet írja le.
 
 
 Ez alatt a szelvények módosítására szolgáló parancsok találhatók:

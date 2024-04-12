@@ -463,7 +463,7 @@ A burkolóábrákon jobb egérgombbal a zászlók pozíciója a rögzíthető, i
 
 <!-- wp:paragraph -->
 
-Az alapértelmezésként elérhető beépített burkolóábrákon (összes ULS és SLS kombináció alapján létrehozott ábrák) túl, lehetőség van egyénileg meghatározott adatok alapján létrehozott burkolóábrák használatára. Egyéni burkolóábrák létrehozására az **analízis** fül teheresetek és teherkombinációk legördülő menüjének **Egyénileg összeállított burkolóábrák** alatti **Összeállítások definiálása…** funkcióra kattintva van lehetőség.
+Az alapértelmezésként elérhető beépített burkolóábrákon (összes ULS és SLS kombináció alapján létrehozott ábrák) túl, lehetőség van egyénileg meghatározott adatok alapján létrehozott burkolóábrák használatára. Egyéni burkolóábrák létrehozására az **Analízis** fül teheresetek és teherkombinációk legördülő menüjének **Egyénileg összeállított burkolóábrák** alatti **Összeállítások definiálása…** funkcióra kattintva van lehetőség.
 
 <!-- /wp:paragraph -->
 
@@ -567,7 +567,7 @@ Az Analízis fül utolsó ikonja ![](./img/wp-content-uploads-2021-04-cmd_anal_d
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-***Határállapot**: kiválasztható a vizsgált határállapot (a teherbírási határállapothoz a belső erők és a reakciók, míg a használhatósági határállapothoz a deformációk automatikusan megjelennek)
+**Határállapot**: kiválasztható a vizsgált határállapot (a teherbírási határállapothoz a belső erők és a reakciók, míg a használhatósági határállapothoz a deformációk automatikusan megjelennek)
 
 <!-- /wp:paragraph -->
 

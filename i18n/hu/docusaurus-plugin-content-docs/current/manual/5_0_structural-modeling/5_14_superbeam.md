@@ -221,7 +221,7 @@ A következő sorban a **kényszerelemek** típusa választható ki, mely lehet
 
 <!-- wp:list -->
 
-- _Eltolódás _(alapértelmezett), vagy
+- _Eltolódás_ (alapértelmezett), vagy
 - _Eltolódás és elfordulás_.
 
 <!-- /wp:list -->

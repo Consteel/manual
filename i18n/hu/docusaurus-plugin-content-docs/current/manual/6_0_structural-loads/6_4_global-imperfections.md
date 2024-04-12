@@ -40,7 +40,7 @@ A kiválasztott tehercsoportok alapján a vízszintes helyettesítő erőrendsze
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-_Szorzó tényező a helyettesítő terhek meghatározásához (Ni)_ kiválasztható a legördülő menüből, vagy megadható kézzel is.\_ A szorzótényező adja meg, hogy a kiválasztott terhek hány százaléka működjön, mint vízszintes helyettesítő erőrendszer. A tényező értéke 0 és 1 között változhat.
+_Szorzó tényező a helyettesítő terhek meghatározásához (Ni)_ kiválasztható a legördülő menüből, vagy megadható kézzel is. A szorzótényező adja meg, hogy a kiválasztott terhek hány százaléka működjön, mint vízszintes helyettesítő erőrendszer. A tényező értéke 0 és 1 között változhat.
 
 <!-- /wp:paragraph -->
 

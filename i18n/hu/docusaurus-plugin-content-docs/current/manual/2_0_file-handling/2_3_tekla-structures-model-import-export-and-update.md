@@ -11,7 +11,7 @@ A statikai és a szerkesztői modell közötti zökkenőmentes és gyors átmene
 
 <!-- wp:paragraph -->
 
-A _Consteel_ a _Tekla _.NET API technológiáját használja az import és export folyamatok során. Ez lehetővé teszi a _Tekla_ modellek külső programokból történő közvetlen elérését. Ennek megfelelően a kapcsolathoz mind a _Consteel_, mind a _Tekla_ szoftvereknek ugyan azon a számítógépen kell futnia.
+A _Consteel_ a _Tekla_ .NET API technológiáját használja az import és export folyamatok során. Ez lehetővé teszi a _Tekla_ modellek külső programokból történő közvetlen elérését. Ennek megfelelően a kapcsolathoz mind a _Consteel_, mind a _Tekla_ szoftvereknek ugyan azon a számítógépen kell futnia.
 
 <!-- /wp:paragraph -->
 
@@ -107,7 +107,7 @@ Ezután megnyílik az Importálás funkció ablak, ahol az "Importált elemek" r
 
 <!-- wp:paragraph -->
 
-Amennyiben csak a kijelölt elemeket szeretnénk beolvasni, a kijelölést a művelet megkezdése előtt el kell végezni a _Tekla Structures_-ben. Emellett lehetőségünk van a raszter hálót is importálni a Tekla-ból.
+Amennyiben csak a kijelölt elemeket szeretnénk beolvasni, a kijelölést a művelet megkezdése előtt el kell végezni a _Tekla Structures_-ben. Emellett lehetőségünk van a raszter hálót is importálni a Tekla Structures-ból.
 
 <!-- /wp:paragraph -->
 

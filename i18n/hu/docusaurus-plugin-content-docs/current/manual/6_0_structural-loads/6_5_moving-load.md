@@ -409,7 +409,7 @@ Daruteher hatásábra leterhelésével is elhelyezhető a modellen.
 
 <!-- wp:paragraph -->
 
-Hatásábra analízis futtatását lásd a 6.6.2 és a 8. fejezetben!
+Hatásábra analízis futtatását lásd a **Meteorológiai terhek** és a **Szerkezet analízis** fejezetben!
 
 <!-- /wp:paragraph -->
 
@@ -507,6 +507,6 @@ Megoszló teher esetén a kezdő és végponti intenzitás három komponensét, 
 
 <!-- wp:paragraph -->
 
-Vonatteher elhelyezése megegyezik a daruteher darutehernél bemutatottakkal (lásd 6.6.3.4 fejezetet).
+Vonatteher elhelyezése megegyezik a daruteher darutehernél bemutatottakkal (lásd **Meteorológiai terhek** fejezetet).
 
 <!-- /wp:paragraph -->

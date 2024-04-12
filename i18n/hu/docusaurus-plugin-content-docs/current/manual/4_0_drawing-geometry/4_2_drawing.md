@@ -35,7 +35,7 @@ A rajzolás funkciói a _**Geometria**_ fülön találhatóak.
 
 <!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2021-04-5-3-draw-ico-02.png) Vonallánc rajzolása az első pont, majd a vonallánc szakaszpontjainak megadásával. Befejezés az _**Esc**_ billentyű lenyomásával.
+![](./img/wp-content-uploads-2021-04-5-3-draw-ico-02.png) Vonallánc rajzolása az első pont, majd a vonallánc szakaszpontjainak megadásával. Befejezés az _**ESC**_ billentyű lenyomásával.
 
 <!-- /wp:paragraph -->
 

@@ -4,7 +4,7 @@ sidebar_position: 6
 # Kapcsolatok exportálása
 <!-- wp:paragraph -->
 
-A modellben létrehozott csomópontok exportálhatók a _TEKLA Structures_ programba. Ennek módját részletesen lásd [_**2.3 fejezetben**_](../2_0_file-handling/2_3_tekla-structures-model-import-export-and-update.md)!
+A modellben létrehozott csomópontok exportálhatók a _TEKLA Structures_ programba. Ennek módját részletesen lásd [_**Tekla Structures import és export**_](../2_0_file-handling/2_3_tekla-structures-model-import-export-and-update.md) fejezetben!
 
 <!-- /wp:paragraph -->
 

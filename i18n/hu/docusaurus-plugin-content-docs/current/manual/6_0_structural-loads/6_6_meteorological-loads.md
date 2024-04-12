@@ -278,7 +278,7 @@ Nyomási tényezők pontos számításához az alábbi geometriai tényezőket k
 
 - Fő szélirány iránya a globális koordináta rendszerben. A fő szélirány a 0° szélnek felel meg.
 - Épület alaprajzi méretei a fő szélirány szerint
-- Terhelt felület (A). Ha a terhelt felület 10m2 vagy nagyobb, akkor a _Consteel_ a teher generálása során a cpe10 értékeket használja. Ha a terhelt felület 1m2 vagy kisebb, akkor a _Consteel_ a cpe1 értékeket használja. 1m2 és 10m2 között az EuroCode előírásának megfelelően a cpe1 és cpe10 között interpolál a _Consteel_.
+- Terhelt felület (A). Ha a terhelt felület 10m<sup>2</sup> vagy nagyobb, akkor a _Consteel_ a teher generálása során a cpe10 értékeket használja. Ha a terhelt felület 1m<sup>2</sup> vagy kisebb, akkor a _Consteel_ a cpe1 értékeket használja. 1m<sup>2</sup> és 10m<sup>2</sup> között az EuroCode előírásának megfelelően a cpe1 és cpe10 között interpolál a _Consteel_.
 
 <!-- /wp:list -->
 

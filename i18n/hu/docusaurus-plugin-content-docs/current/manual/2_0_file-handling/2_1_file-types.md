@@ -17,7 +17,7 @@ A **Consteel 15** által kezelt fájltípusok:
 
 <!-- wp:paragraph -->
 
-**.csm**: a ConsteelModel fájl, natív bináris formátumú. Megnyitható korábban számított eredményeket tartalmazó eredményfájllal együtt, vagy eredmények betöltése nélkül. Az eredményeket a **.csr** (ConsteelResult) kiterjesztésű fájlban tárolja a program. Ez a fájl önmagában nem nyitható meg és nem menthető. A **.csm**fájl menthető és megnyitható.
+**.csm**: a ConsteelModel fájl, natív bináris formátumú. Megnyitható korábban számított eredményeket tartalmazó eredményfájllal együtt, vagy eredmények betöltése nélkül. Az eredményeket a **.csr** (ConsteelResult) kiterjesztésű fájlban tárolja a program. Ez a fájl önmagában nem nyitható meg és nem menthető. A **.csm** fájl menthető és megnyitható.
 
 <!-- /wp:paragraph -->
 

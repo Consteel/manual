@@ -40,7 +40,7 @@ Koncentrált teher elhelyezhető **Globális (**![](./img/wp-content-uploads-202
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-A koncentrált teher esetében is alkalmazható külpontosság. A kiválasztott koordináta rendszer és az alkalmazott külpontosság hatása megegyezik a pontszerű támaszoknál bemutatottakkal (lásd 5.9.1 fejezet).
+A koncentrált teher esetében is alkalmazható külpontosság. A kiválasztott koordináta rendszer és az alkalmazott külpontosság hatása megegyezik a pontszerű támaszoknál bemutatottakkal (lásd **Támaszok** fejezet).
 
 <!-- /wp:paragraph -->
 
@@ -74,7 +74,7 @@ Vonalmenti megoszló teher elhelyezhető egy meglévő vonalra (vonal elemen vag
 
 <!-- wp:paragraph -->
 
-Vonalmenti megoszló teher elhelyezhető **Globális (**![](./img/wp-content-uploads-2021-04-create_coord_gcs.png)**)**, **(), **Lokális** (**![](./img/wp-content-uploads-2021-04-create_coord_loc.png)**), **Felhasználói** (**![](./img/wp-content-uploads-2021-04-create_coord_ucs.png)**), **vagy **Globális vetületi rendszer** **(**![](./img/wp-content-uploads-2021-04-ico_coord_globproj.png)**)** koordinátarendszerek szerint.
+Vonalmenti megoszló teher elhelyezhető **Globális (**![](./img/wp-content-uploads-2021-04-create_coord_gcs.png)**)**, **Lokális** (**![](./img/wp-content-uploads-2021-04-create_coord_loc.png)**), **Felhasználói** (**![](./img/wp-content-uploads-2021-04-create_coord_ucs.png)**), **vagy **Globális vetületi rendszer** **(**![](./img/wp-content-uploads-2021-04-ico_coord_globproj.png)**) koordinátarendszerek szerint.
 
 <!-- /wp:paragraph -->
 
@@ -106,7 +106,7 @@ Az objektumok nem teljes hossza mentén ható, **részleges vonalmenti teher** f
 [![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/7-4-Line-load-2_3-1.png)](./img/wp-content-uploads-2021-04-7-4-Line-load-2_3-1.png)
 
 
-A vonalmenti teher esetében is alkalmazható külpontosság. A kiválasztott koordináta rendszer és az alkalmazott külpontosság hatása megegyezik a pontszerű támasznál bemutatottakkal (lásd 5.9.1 fejezet).
+A vonalmenti teher esetében is alkalmazható külpontosság. A kiválasztott koordináta rendszer és az alkalmazott külpontosság hatása megegyezik a pontszerű támasznál bemutatottakkal (lásd **Támaszok** fejezet).
 
 
 [![](./img/wp-content-uploads-2021-05-7-4-Line-load-types-edited.png)](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Line-load-types.png)
@@ -299,9 +299,9 @@ A Vonalmenti megoszló teher dialógon található Terhek elhelyezése (![](./im
 
 Felület terhet háromféle módon lehet definiálni. Felületi nyomaték nem hozható létre.
 
-1. **Egyenletes**en megoszló felület teher
+1. **Egyenletesen** megoszló felület teher
 
-6. **Lineáris**an változó felület teher
+6. **Lineárisan** változó felület teher
 
 10. **Szélteher**
 
@@ -395,7 +395,7 @@ Rajzolt (![](./img/wp-content-uploads-2021-04-cmd_draw.png)) tehermegadás eset�
 
 <!-- wp:paragraph -->
 
-Felületi szélterhet jelenleg csak teherátadó felületre (ld. 6.4.4 fejezet) lehet definiálni. A felület szélteher definiálását a torlónyomás, valamint a külső és belső alaki tényezők megadásával kell kezdeni. Az egyes paraméterek dialógablakainak (![](./img/wp-content-uploads-2021-04-3dots-button.png)) leírását ld. a vonalmenti széltehernél (ld. 6.4.2.1 fejezet). A paraméterek beállítása után a terhet a kívánt felületet kijelölve lehet elhelyezni az adott felületen.
+Felületi szélterhet jelenleg csak teherátadó felületre (ld. **Globális imperfekciók** fejezet) lehet definiálni. A felület szélteher definiálását a torlónyomás, valamint a külső és belső alaki tényezők megadásával kell kezdeni. Az egyes paraméterek dialógablakainak (![](./img/wp-content-uploads-2021-04-3dots-button.png)) leírását ld. a vonalmenti széltehernél (ld. **Globális imperfekciók** fejezet). A paraméterek beállítása után a terhet a kívánt felületet kijelölve lehet elhelyezni az adott felületen.
 
 <!-- /wp:paragraph -->
 
@@ -434,13 +434,13 @@ Teherátadó felület rajzolási funkciói megegyeznek a síkidomok rajzolási f
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Az első opció kiválasztása esetén ki kell jelölni a modellben a felületi teher hordására szolgáló elemeket (a SHIFT + bal kattintással lehet elemeket eltávolítani a kijelölésből). A megfelelő elemek kiválasztása, majd a **Rendben **gomb megnyomása után létrejön a teherátadó felület.
+Az első opció kiválasztása esetén ki kell jelölni a modellben a felületi teher hordására szolgáló elemeket (a SHIFT + bal kattintással lehet elemeket eltávolítani a kijelölésből). A megfelelő elemek kiválasztása, majd a **Rendben** gomb megnyomása után létrejön a teherátadó felület.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Lehetőség van **teherátadó felületek csoportos elhelyezésé**re (![](./img/wp-content-uploads-2021-04-cmd_LTS_multi.png)) is. Ekkor nem kell egyenként síkidom rajzolási funkcióval definiálni a felületeket. A kattintás után ki kell választani a megszokott ablakos kijelöléssel (balról jobbra vagy jobbról balra) mely rudakra akar teherátadó felületet definiálni. Fontos megjegyezni, hogy az egyedi teherátadó felületeket csak egy síkban lévő rúdelemek esetén lehet létrehozni (például 3 rúdelem által meghatározott háromszög).
+Lehetőség van **teherátadó felületek csoportos elhelyezésére** (![](./img/wp-content-uploads-2021-04-cmd_LTS_multi.png)) is. Ekkor nem kell egyenként síkidom rajzolási funkcióval definiálni a felületeket. A kattintás után ki kell választani a megszokott ablakos kijelöléssel (balról jobbra vagy jobbról balra) mely rudakra akar teherátadó felületet definiálni. Fontos megjegyezni, hogy az egyedi teherátadó felületeket csak egy síkban lévő rúdelemek esetén lehet létrehozni (például 3 rúdelem által meghatározott háromszög).
 
 <!-- /wp:paragraph -->
 
@@ -458,7 +458,7 @@ A funkció nagy számítási igénye miatt egyszerre maximum 200 rúdelem kijel�
 
 <!-- wp:paragraph -->
 
-Felületi teher a teherátadó felületen a 6.4.3 fejezetben leírtak szerint helyezhető el.
+Felületi teher a teherátadó felületen a **Globális imperfekciók** fejezetben leírtak szerint helyezhető el.
 
 <!-- /wp:paragraph -->
 

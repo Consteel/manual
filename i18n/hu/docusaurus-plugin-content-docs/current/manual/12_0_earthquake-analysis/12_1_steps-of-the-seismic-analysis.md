@@ -31,11 +31,11 @@ A Modális válaszspektrum-analízis alapú földrengés analízist a Consteel s
 
 4. Analízis / Analízis fül
 
-   - Statikai számítások beállítása; elérhető analízis típusokat lásd a **_[8.5 fejezetben](../8_0_structural-analysis/8_5_analysis-results.md)_**
+   - Statikai számítások beállítása; elérhető analízis típusokat lásd a **_[Analízis eredmények fejezetben](../8_0_structural-analysis/8_5_analysis-results.md)_**
    - Dinamikai számítások beállítása
 
 5. Tervezés / Globális vizsgálatok, illetve Elemtervező fül
 
-   - Elérhető szabványos vizsgálatokat lásd a **_[9. fejezetben](../../category/standard-design)_**
+   - Elérhető szabványos vizsgálatokat lásd a **_[Szabványos tervezés fejezetben](../../category/standard-design)_**
 
 <!-- /wp:list -->

@@ -132,7 +132,7 @@ Az **Elhelyez** parancsra kattintva megnyílik a szelemensor elhelyezésének pa
 
   - Közép – lent
 
-- a (![](./img/wp-content-uploads-2021-04-3dots-button.png)) ikonra kattintva grafikusan ([](https://consteelsoftware.com/hu/manual/szerkezetmodellezes/nyirasi-mezo/#Shear-field-stiffness-calculation)[Lásd _**5.11.3.1**_](./5_12_shear-field.md#nyírási-mező))
+- a (![](./img/wp-content-uploads-2021-04-3dots-button.png)) ikonra kattintva grafikusan (Lásd még: [](https://consteelsoftware.com/hu/manual/szerkezetmodellezes/nyirasi-mezo/#Shear-field-stiffness-calculation)[ _**Nyírási mezők**_](./5_12_shear-field.md#nyírási-mező))
 
 <!-- /wp:list -->
 
@@ -206,7 +206,7 @@ A kiválasztásnak megfelelően változik a szelemensor dialógablak tartalma.
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Trapézlemezes héjalás választása esetén a nyírási merevség megadható kézzel az effektív szélességgel együtt, illetve a ![](./img/wp-content-uploads-2021-04-3dots-button.png) gombra kattintva, a korábban bemutatott nyírási mező dialógablak segítségével, automatikusan is (ld.: [](#_5.11_Nyírási_mező)[](https://consteelsoftware.com/hu/manual/szerkezetmodellezes/nyirasi-mezo/#Shear-field-stiffness-calculation)[Lásd _**5.11.3.1**_](./5_12_shear-field.md#nyírási-merevség-számítása) pont).
+Trapézlemezes héjalás választása esetén a nyírási merevség megadható kézzel az effektív szélességgel együtt, illetve a ![](./img/wp-content-uploads-2021-04-3dots-button.png) gombra kattintva, a korábban bemutatott nyírási mező dialógablak segítségével, automatikusan is (Lásd még: [](#_5.11_Nyírási_mező)[](https://consteelsoftware.com/hu/manual/szerkezetmodellezes/nyirasi-mezo/#Shear-field-stiffness-calculation)[_**Nyírási mezők**_](./5_12_shear-field.md#nyírási-merevség-számítása) pont).
 
 <!-- /wp:paragraph -->
 

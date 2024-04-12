@@ -98,7 +98,7 @@ A _[Project Center](./1_1_installing-and-running-the-software.md#home)_-t lehet 
 
 <!-- wp:paragraph -->
 
-_Új modell_...
+_Új modell_
 
 <!-- /wp:paragraph -->
 
@@ -1325,7 +1325,7 @@ Geometriai vagy modellezési hibák (egy vagy több elem átfedése, hiányzó t
 A Diagnosztika ablakban a hiba üzenetek piros színnel, a figyelmeztetések pedig sárga színnel kerülnek megjelenítésre.
 
 
-A Diagnosztika ablakban kiválasztott objektum a _Kijelöl \_gomb megnyomásával a modelltérben is kijelölésre kerül. A Shift vagy Ctrl billentyűk egyidejű lenyomásával a többszörös kijelölés is lehetséges. Egy probléma címsorára kattintva az összes hozzá tartozó objektum kijelölésre kerül. A kiválasztott objektum/ok a _Töröl \_gomb, vagy a Delete billentyű segítségével kitörölhető(ek).
+A Diagnosztika ablakban kiválasztott objektum a _Kijelöl_ gomb megnyomásával a modelltérben is kijelölésre kerül. A SHIFT vagy CTRL billentyűk egyidejű lenyomásával a többszörös kijelölés is lehetséges. Egy probléma címsorára kattintva az összes hozzá tartozó objektum kijelölésre kerül. A kiválasztott objektum/ok a _Töröl_ gomb, vagy a Delete billentyű segítségével kitörölhető(ek).
 
 
 #### Objektum tulajdonságok ablak

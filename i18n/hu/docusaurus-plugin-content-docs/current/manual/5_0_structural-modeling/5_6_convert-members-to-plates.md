@@ -5,7 +5,7 @@ sidebar_position: 6
 
 <!-- wp:paragraph -->
 
-Kiválasztott szerkezeti elemek konvertálhatók automatikusan lemezelemekké, a _**Szerkezeti elemek**_ fülön található _**Rúdelemek konvertálása lemezekké**_ (![](./img/wp-content-uploads-2021-04-cmd_explode_to_shell.png))funkció segítségével.
+Kiválasztott szerkezeti elemek konvertálhatók automatikusan lemezelemekké, a _**Szerkezeti elemek**_ fülön található _**Rúdelemek konvertálása lemezekké**_ (![](./img/wp-content-uploads-2021-04-cmd_explode_to_shell.png)) funkció segítségével.
 
 <!-- /wp:paragraph -->
 

@@ -486,7 +486,7 @@ Vasbeton oszlopoknál megjeleníthető a **[teherbírási felület](../10_0_sect
 ### Vasbeton lemezek tervezése
 
 
-Amennyiben a modellben létrehozott vasbeton lemezhez az **_[5.3.1 fejezetben](../5_0_structural-modeling/5_3_surface-members.md#felületi-elemek)_** részletesen bemutatott módon megadásra kerültek x és y irányban az alsó és felső vasalási paraméterek, úgy a **Globális vizsgálatok** fül **Tervezés…** dialógján a vasbeton lemezek minimális vashányad számítása opció aktív, és a jelölőnégyzet bekapcsolásával a számítás elvégezhető.
+Amennyiben a modellben létrehozott vasbeton lemezhez az **_[Felületi elemek fejezetben](../5_0_structural-modeling/5_3_surface-members.md#felületi-elemek)_** részletesen bemutatott módon megadásra kerültek x és y irányban az alsó és felső vasalási paraméterek, úgy a **Globális vizsgálatok** fül **Tervezés…** dialógján a vasbeton lemezek minimális vashányad számítása opció aktív, és a jelölőnégyzet bekapcsolásával a számítás elvégezhető.
 
 
 A számítás eredménye a lemez igénybevételei alapján számolt szükséges vasmennyiségek \[mm2/m] a főirányokban, alsó és felső pozícióra külön-külön meghatározva. A főirányok között a legördülő menü segítségével van lehetőség váltani, az eredmények kijelzése pedig szintfelületes ábrázolással történik:
@@ -510,6 +510,6 @@ A jobb oldalon található színpalettán jobb egérgombot kattintva annak tulaj
 
 <!-- wp:paragraph -->
 
-A főirányokhoz tartozó szükséges vasmennyiség ábrák dxf formátumba exportálhatók, a **_[2.6 fejezetben](../2_0_file-handling/2_6_dxf-import.md)_** bemutatott módon.
+A főirányokhoz tartozó szükséges vasmennyiség ábrák dxf formátumba exportálhatók, a **_[DXF import fejezetben](../2_0_file-handling/2_6_dxf-import.md)_** bemutatott módon.
 
 <!-- /wp:paragraph -->

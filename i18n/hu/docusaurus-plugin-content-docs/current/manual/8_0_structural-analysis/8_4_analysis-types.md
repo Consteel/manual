@@ -35,7 +35,7 @@ Az elsőrendű analízis a szerkezete kezdeti merevsége alapján számítja ki 
 
 <!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-$K_sU=P \rightarrow U=K_{s}^{-1}P$
+$$K_sU=P \rightarrow U=K_{s}^{-1}P$$
 
 <!-- /wp:paragraph -->
 
@@ -65,7 +65,7 @@ $K_sU=P \rightarrow U=K_{s}^{-1}P$
 
 <!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-$f^{el}=K_s^{el}u^{el}$
+$$f^{el}=K_s^{el}u^{el}$$
 
 <!-- /wp:paragraph -->
 
@@ -111,7 +111,7 @@ A másodrendű számítás figyelembe veszi, hogy a terhelt és deformált szerk
 
 <!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-$(K_s+K_g)U=P \rightarrow U=(K_s+K_g)^{-1}P$
+$$(K_s+K_g)U=P \rightarrow U=(K_s+K_g)^{-1}P$$
 
 <!-- /wp:paragraph -->
 
@@ -132,7 +132,7 @@ $(K_s+K_g)U=P \rightarrow U=(K_s+K_g)^{-1}P$
 <!-- wp:list {"ordered":true,"start":6} -->
 
 6. Az elemek igénybevételeinek (és feszültségeinek) ($f^{el}$) számítása a lokális koordináta rendszerekben, az elemek globális csomóponti elmozdulásainak lokális merevségi mátrixszal lokális koordináta rendszerekbe ($u^{el}$) való transzformálásával:  
-   $f^{el}=K_s^{el}u^{el}$
+   $$f^{el}=K_s^{el}u^{el}$$
 7. Ha egy csomóponti korábbi helyzethez viszonyított elmozdulása egy határértéket túllép, akkor a számítás a második lépéstől ismétlődik.
 
 <!-- /wp:list -->
@@ -155,7 +155,7 @@ A sajátértékszámítás mechanikai értelmezése egy olyan rugalmas kritikus 
 
 <!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-$K_g(\lambda f)=\lambda K_g(f)$
+$$K_g(\lambda f)=\lambda K_g(f)$$
 
 <!-- /wp:paragraph -->
 
@@ -185,7 +185,7 @@ Ebben az esetben a sajátérték számítás az alábbi formában írható fel:
 
 <!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-$(K_s+\lambda K_g)U=0$
+$$(K_s+\lambda K_g)U=0$$
 
 <!-- /wp:paragraph -->
 
@@ -205,7 +205,7 @@ $(K_s+\lambda K_g)U=0$
 
 <!-- wp:paragraph -->
 
-Az egyenletnek a megoldásai a kritikus teherfaktorok (kihajlási teher faktor $\lambda \_{cr}^i$) amelyek a másodrendű merevségi mátrixokat szingulárissá teszik és az elmozdulások (kihajlási alakok $U^i$).
+Az egyenletnek a megoldásai a kritikus teherfaktorok (kihajlási teher faktor $\lambda_{cr}^i$) amelyek a másodrendű merevségi mátrixokat szingulárissá teszik és az elmozdulások (kihajlási alakok $U^i$).
 
 <!-- /wp:paragraph -->
 
@@ -241,7 +241,7 @@ Ezen funkció segítségével összefoglaló képet kapunk a szerkezet kihajlás
 
 <!-- wp:paragraph -->
 
-Az imperfekciós érzékenységi vizsgálat segítségével minden stabilitásvesztési alakhoz meghatározható a kritikus rúdelem és kritikus pont (ekvivalens pont), ami alapján az imperfekciós alak amplitúdója számolható. A grafikus ábrán a stabilitásvesztési alakot imperfekciós elmozdulás-teherként alkalmazva kapott igénybevételekből, feszültség alapon számított kihasználtságok láthatók minden, ahol a legnagyobb kihasználtsághoz tartozó keresztmetszet kapja a 100% értéket. ld. még a **_[6.4.3.2 fejezetet](../6_0_structural-loads/6_4_global-imperfections.md#automatikus-sajátalak-amplitúdó-meghatározás)_**.
+Az imperfekciós érzékenységi vizsgálat segítségével minden stabilitásvesztési alakhoz meghatározható a kritikus rúdelem és kritikus pont (ekvivalens pont), ami alapján az imperfekciós alak amplitúdója számolható. A grafikus ábrán a stabilitásvesztési alakot imperfekciós elmozdulás-teherként alkalmazva kapott igénybevételekből, feszültség alapon számított kihasználtságok láthatók minden, ahol a legnagyobb kihasználtsághoz tartozó keresztmetszet kapja a 100% értéket. ld. még a **_[Globális imperfekciók fejezetet](../6_0_structural-loads/6_4_global-imperfections.md#automatikus-sajátalak-amplitúdó-meghatározás)_**.
 
 <!-- /wp:paragraph -->
 
@@ -263,7 +263,7 @@ A dinamikus sajátérték számítás mechanikai értelmezése a szerkezet sajá
 
 <!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-$((K_s+K_g)+\omega^{2}M)U=0$
+$$((K_s+K_g)+\omega^{2}M)U=0$$
 
 <!-- /wp:paragraph -->
 
@@ -283,7 +283,7 @@ $((K_s+K_g)+\omega^{2}M)U=0$
 
 <!-- wp:paragraph -->
 
-Az egyenletnek a megoldásai a sajátfrekvenciák (_$\\omega^i$_) és az elmozdulások (szabad rezgési alakok $U^i$).
+Az egyenletnek a megoldásai a sajátfrekvenciák ($omega^i$) és az elmozdulások (szabad rezgési alakok $U^i$).
 
 <!-- /wp:paragraph -->
 

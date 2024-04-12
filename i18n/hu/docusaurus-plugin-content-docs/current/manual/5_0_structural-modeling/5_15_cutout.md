@@ -95,7 +95,7 @@ A párbeszédablak legfelső részén a szokásos elhelyezési módok ikonjai ta
 
 <!-- wp:paragraph -->
 
-A párbeszédablak _Paraméterek \_szakaszában a kivágás pozícióját és méreteit kell megadni. Az elhelyezéshez választani kell egy referenciavonalat az ablak bal oldalán található legördülő mezőben (\_Illesztés_) A kiválasztott referenciavonal a mező alatti ábrán látható. A referenciavonal lehet:
+A párbeszédablak _Paraméterek_ szakaszában a kivágás pozícióját és méreteit kell megadni. Az elhelyezéshez választani kell egy referenciavonalat az ablak bal oldalán található legördülő mezőben (_Illesztés_) A kiválasztott referenciavonal a mező alatti ábrán látható. A referenciavonal lehet:
 
 <!-- /wp:paragraph -->
 

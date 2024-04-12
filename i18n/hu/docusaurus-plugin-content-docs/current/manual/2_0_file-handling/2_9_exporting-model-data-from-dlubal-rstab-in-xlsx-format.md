@@ -11,7 +11,7 @@ Az xlsx formátumú exportáláshoz az alábbi lépésekre van szükség Dlubal 
 
 <!-- wp:paragraph -->
 
-Kattintson a **Fájl** menü **Export** funkciójára, és válassza a **Microsoft excel (xlsx)**, formátumot az alábbi dialóg szerint:
+Kattintson a **Fájl** menü **Export** funkciójára, és válassza a **Microsoft Excel (xlsx)**, formátumot az alábbi dialóg szerint:
 
 <!-- /wp:paragraph -->
 
