@@ -332,8 +332,9 @@ Selecting any of the above eccentricity types for positioning support, changing 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-
-**Warning!** Be aware that since the finite element for the steel beams and columns has 7 DOFs the point support also has 7 DOFs, the 7th DOF represents the warping of the cross-section. Accordingly, if a cross-section on a certain place is considered to be fixed for warping (for instance in heavily stiffened joints) the 7th DOF should also be fixed. In joints consisting of several members (especially when member eccentricities are present), it is recommended to apply for warping support!
+:::warning
+Be aware that since the finite element for the steel beams and columns has 7 DOFs the point support also has 7 DOFs, the 7th DOF represents the warping of the cross-section. Accordingly, if a cross-section on a certain place is considered to be fixed for warping (for instance in heavily stiffened joints) the 7th DOF should also be fixed. In joints consisting of several members (especially when member eccentricities are present), it is recommended to apply for warping support!
+:::
 
 <!-- /wp:paragraph -->
 

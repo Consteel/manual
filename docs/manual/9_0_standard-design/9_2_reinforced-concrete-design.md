@@ -163,11 +163,11 @@ Consteel supports different design methods defined by EN 1992-1-1, including
 The type of method and additionally required or optional parameters can be specified as a property of a member assigned with a reinforced concrete column type cross-section.
 
 
-![](./img/wp-content-uploads-2022-12-image-17.png)
+:::warning
 
 
 For the use of method based on nominal stiffness and for the automatic option of the method based on nominal curvature the definition of appropriate global imperfections might be required. (see Global imperfections)
-
+:::
 
 #### **Design parameters for reinforced concrete columns**
 
@@ -264,8 +264,10 @@ Similarly to column design parameters, several concrete beam parameter sets can 
 
 The definition of a new design parameter set can be initiated with the **_+ Create new_** button. A new set can also be defined starting from an already existing set using the **_+ Create from selected_** button.
 
+:::info
 
-**When the method based on nominal stiffness is used for the design of reinforced concrete columns, an appropriate stiffness reduction must be assigned also to every reinforced concrete beam contributing to the stiffness of the structure.**
+When the method based on nominal stiffness is used for the design of reinforced concrete columns, an appropriate stiffness reduction must be assigned also to every reinforced concrete beam contributing to the stiffness of the structure.
+:::
 
 <!-- /wp:paragraph -->
 
@@ -283,15 +285,11 @@ The dialog is similar to that of the columns', but contains only the part relate
 No design parameter is required to be assigned to beams when columns are designed with the method based on nominal curvature.
 
 
-![](./img/wp-content-uploads-2022-12-image-26.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
+:::warning
 
 Although for each member a design parameter specifying different design methods can be assigned, mixing of these design methods must be done carefully. The method based on nominal stiffness assumes that every member contributing to the stiffness of the structure has been assigned with adequate stiffness reduction values.
 
-
+:::
 
 In case of concrete column design, the following checks of EN1992-1-1 will be performed:
 

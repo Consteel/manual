@@ -194,9 +194,10 @@ The other way of placing a joint, is to use Place joint function, which can be f
 ![](./img/wp-content-uploads-2021-04-croco.png)
 
 <!-- wp:paragraph {"placeholder":"Content…"} -->
+:::warning
 
 It should be bear in mind that the settings in the csJoint module (profiles sizes, material grades, etc.) will not effect the 3D model. the changed values will be considered in the joint calculation only! The user has to way to keep the model consistent: 1. After modifying the connection the 3D model has to be changed accordingly, 2. Change the 3D model first run the analysis, redefine the connection.
-
+:::
 <!-- /wp:paragraph -->
 
 <!-- /wp:media-text -->

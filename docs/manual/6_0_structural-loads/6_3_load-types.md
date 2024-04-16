@@ -268,9 +268,9 @@ Pressing the Place loads icon (![](./img/wp-content-uploads-2021-04-cmd_placeloa
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"justify"} -->
-
+:::note
 **IMPORTANT**: For the correct line wind load placement, it is necessary to set the direction of the used local coordinate axis (Axis z, or y) to point out from the building.
-
+:::
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->

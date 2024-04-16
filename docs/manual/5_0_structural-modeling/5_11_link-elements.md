@@ -174,9 +174,10 @@ There are two options for placing the smart link element(s).
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify"} -->
+:::info
 
 **It is important to know** that the smart link elements cannot be copied together with the members currently. When copying a member containing smart links already placed on it, the smart links will not be copied together, but they have to be selected and copied separately.
-
+:::
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->

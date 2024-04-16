@@ -56,7 +56,7 @@ In Consteel only elastic material is considered in the analysis, so the calculat
 <!-- /wp:columns -->
 
 <!-- wp:paragraph {"align":"justify"} -->
-
+:::info
 **Important to note** that in the case of bar members (beams, columns) the material is the parameter of the cross-section of the member, so the current modification should be applied for the appropriate cross-section. This feature allows the definition of cross-sections with multiple materials (e.g. composite section). Accordingly, if identical cross-sections with different material are liked to be used in one model then multiple cross-section definition is needed!
-
+:::
 <!-- /wp:paragraph -->

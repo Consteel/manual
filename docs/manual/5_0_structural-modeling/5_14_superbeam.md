@@ -165,19 +165,11 @@ In the case of manual FE generation type, the size of the finite elements can be
 
 <!-- wp:separator {"align":"center"} -->
 
----
+:::info
 
-<!-- /wp:separator -->
+Please note, that by choosing a very different finite element size for the flanges and the web, the FE generation may lead to distorted elements, which may make the calculation less accurate.
+:::
 
-<!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-_Please note, that by choosing a very different finite element size for the flanges and the web, the FE generation may lead to distorted elements, which may make the calculation less accurate._
-
-<!-- /wp:paragraph -->
-
-<!-- wp:separator {"align":"center"} -->
-
----
 
 <!-- /wp:separator -->
 
