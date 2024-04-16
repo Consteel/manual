@@ -94,11 +94,12 @@ There is only one choice available: the _**6 DOF beam element**_ type. This is t
 - At the bottom of this dialog there is an instruction and command area for guiding the user.
 
 
-[![](./img/wp-content-uploads-2021-04-exclam.png)](./img/wp-content-uploads-2021-04-exclam.png)
 
-
+:::note[Important note]
 
 It should be noted that not only the eccentric axial force influences the analysis (additional bending moments), but also the eccentric bending and torsional moments (additional bending and torsional moments and **bimoment**)!
+
+:::
 
 
 ### Steel members
@@ -111,11 +112,12 @@ As the first step of line member modeling, cross-sections have to be loaded into
 - Drawn sections.
 
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/exclam.png)](./img/wp-content-uploads-2021-04-exclam.png)
 
+:::note[Important note]
 
 It is important to note that in Consteel, material quality is an attribute of the cross-section, therefore it must be defined when loading the cross-section!
 
+:::
 
 #### Cross section libraries
 

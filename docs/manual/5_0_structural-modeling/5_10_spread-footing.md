@@ -147,24 +147,14 @@ Spread footing placed under eccentric column:
 
 <!-- wp:image {"align":"left","id":44536,"width":138,"height":147,"sizeSlug":"full","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2023-01-image-13.png)
 
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"align":"left"} -->
+:::danger
 
 The visualization of the spread footing can be the same or very similar with two different eccentricity definitions (combination of eccentricity types), but the finite element models can still be different. It is important to make sure about the correctness of the structural model.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
 Punching shear verification considers the eccentricities defined in Consteel Joint when calculating the perimeters.
 
+:::
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -201,11 +191,12 @@ Self-weight of the spread footing is not considered in the analysis, it is calcu
 
 <!-- wp:image {"align":"left","id":44544,"width":144,"height":153,"sizeSlug":"full","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2023-01-image-14.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
+
+:::danger
 
 It is important to take care of the end releases of the column the spread footing is connected to.
 
@@ -214,6 +205,8 @@ It is important to take care of the end releases of the column the spread footin
 <!-- wp:paragraph -->
 
 When geotechnical design is not executed in Consteel, it is recommended to generate the reaction forces from the model without the spread footing objects.
+
+:::
 
 <!-- /wp:paragraph -->
 
