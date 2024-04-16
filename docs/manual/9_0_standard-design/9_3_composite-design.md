@@ -21,7 +21,7 @@ Cross-section of the composite columns can be evaluated on the global checks tab
 
 <!-- wp:image {"align":"center","id":10887,"width":466,"height":410,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/10-3-1-comp-col-dial.png)](./img/wp-content-uploads-2021-04-10-3-1-comp-col-dial.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/10-3-1-comp-col-dial.png)](./img/wp-content-uploads-2021-04-10-3-1-comp-col-dial.png)
 
 <!-- /wp:image -->
 
@@ -39,7 +39,7 @@ If the initial sways in the y and z directions were applied on the checked cross
 
 <!-- wp:paragraph -->
 
-The results of the performed checks are demonstrated with graphical visualization and result tables (for the general functionality of tables used in _ConSteel_ see section 1.4 General functions for tables).
+The results of the performed checks are demonstrated with graphical visualization and result tables (for the general functionality of tables used in _Consteel_ see section 1.4 General functions for tables).
 
 <!-- /wp:paragraph -->
 
@@ -51,7 +51,7 @@ The shown results can be changed in the drop down menu.
 
 <!-- wp:image {"align":"center","id":10893,"width":527,"height":391,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/10-3-1-comp-col-res.png)](./img/wp-content-uploads-2021-04-10-3-1-comp-col-res.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/10-3-1-comp-col-res.png)](./img/wp-content-uploads-2021-04-10-3-1-comp-col-res.png)
 
 <!-- /wp:image -->
 
@@ -81,13 +81,13 @@ To run composite beam design go to Member checks tab and select Composite beam t
 
 <!-- wp:paragraph -->
 
-Composite beam design in _ConSteel_ is carried out according to EN 1994-1-1:2010 standard.
+Composite beam design in _Consteel_ is carried out according to EN 1994-1-1:2010 standard.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The design bending resistance is determined using plastic theory according to 6.2.1.2 or 6.2.1.3 where the cross-section is in Class 1 or 2. The section class is determined acc. to 5.5.2. Class 3 and 4 cross-sections are not covered by _ConSteel_ composite beam design. The composite beam is checked for plastic bending, vertical shear, and shear buckling, crushing of the concrete flange and longitudinal shear at all the critical cross-sections. The critical cross sections are determined according to 6.1.1. (4). The following methods are not included in _ConSteel_: non-linear resistance to bending (6.2.1.4.) and elastic resistance to bending (6.2.1.5.). The profiled steel decking is assumed not to contribute to the resistance.
+The design bending resistance is determined using plastic theory according to 6.2.1.2 or 6.2.1.3 where the cross-section is in Class 1 or 2. The section class is determined acc. to 5.5.2. Class 3 and 4 cross-sections are not covered by _Consteel_ composite beam design. The composite beam is checked for plastic bending, vertical shear, and shear buckling, crushing of the concrete flange and longitudinal shear at all the critical cross-sections. The critical cross sections are determined according to 6.1.1. (4). The following methods are not included in _Consteel_: non-linear resistance to bending (6.2.1.4.) and elastic resistance to bending (6.2.1.5.). The profiled steel decking is assumed not to contribute to the resistance.
 
 <!-- /wp:paragraph -->
 
@@ -99,7 +99,7 @@ The design bending resistance is determined using plastic theory according to 6.
 
 <!-- wp:paragraph -->
 
-In the **analysis model** the calculation of the effective width of concrete flange is based on the method defined in a previous chapter (in the dependence of the span and the distance between the shear studs in the cross section). Based on practice experiences, composite beams are usually created as two-pinned one span beams. ConSteel can design composite beams with one span formation. In case of multi span beams, and where the tension is in the concrete flange, design can not be performed.
+In the **analysis model** the calculation of the effective width of concrete flange is based on the method defined in a previous chapter (in the dependence of the span and the distance between the shear studs in the cross section). Based on practice experiences, composite beams are usually created as two-pinned one span beams. Consteel can design composite beams with one span formation. In case of multi span beams, and where the tension is in the concrete flange, design can not be performed.
 
 <!-- /wp:paragraph -->
 
@@ -123,7 +123,7 @@ The allocation of the studs is plastic based, where the studs has to be distribu
 
 <!-- wp:paragraph -->
 
-If the number of shear studs is desired to be calculated automatically, ConSteel willcalculate the bending resistance of the beam with the minimal required number of studs. ConSteel will increase than the number of shear studs, until the bending resistance exceeds the acting bending on the beam.
+If the number of shear studs is desired to be calculated automatically, Consteel willcalculate the bending resistance of the beam with the minimal required number of studs. Consteel will increase than the number of shear studs, until the bending resistance exceeds the acting bending on the beam.
 
 <!-- /wp:paragraph -->
 
@@ -171,7 +171,7 @@ nact,R: number of shear stud positions in the right direction from the dominant 
 
 <!-- wp:image {"align":"center","id":10899,"width":622,"height":376,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/10-3-2-comp-beam-pic.jpg)](./img/wp-content-uploads-2021-04-10-3-2-comp-beam-pic.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/10-3-2-comp-beam-pic.jpg)](./img/wp-content-uploads-2021-04-10-3-2-comp-beam-pic.jpg)
 
 <!-- /wp:image -->
 
@@ -201,7 +201,7 @@ nmin,R: minimal number of shear stud positions in the left direction from the do
 
 <!-- wp:paragraph -->
 
-Instead of using the automatic evaluation of the number of the shear studs, manual definition of the number of studs is available too. In this case, the software checks, if the distribution fits to the detailing rules, such as the minimal and the maximal distance between the studs. The number of the studs has to be given for the whole length of the beam. During the check of the beam, ConSteel will uniformly distribute the studs along the member (In case of automatic evaluation of required shear stud numbers, non-uniform distribution is also possible).
+Instead of using the automatic evaluation of the number of the shear studs, manual definition of the number of studs is available too. In this case, the software checks, if the distribution fits to the detailing rules, such as the minimal and the maximal distance between the studs. The number of the studs has to be given for the whole length of the beam. During the check of the beam, Consteel will uniformly distribute the studs along the member (In case of automatic evaluation of required shear stud numbers, non-uniform distribution is also possible).
 
 <!-- /wp:paragraph -->
 
@@ -213,7 +213,7 @@ Calculation of the utilizations of the shear studs are evaluated by the dividing
 
 <!-- wp:image {"align":"center","id":10881,"width":880,"height":458,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/10-3-2-comp-beam-res.png)](./img/wp-content-uploads-2021-04-10-3-2-comp-beam-res.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/10-3-2-comp-beam-res.png)](./img/wp-content-uploads-2021-04-10-3-2-comp-beam-res.png)
 
 <!-- /wp:image -->
 
@@ -273,7 +273,7 @@ The design shear resistance of studs is taken as the resistance of the studs in 
 
 <!-- wp:paragraph -->
 
-If the sheeting is discontinuous ConSteel assumes that it is welded to the flange of the beam but the distance between two ribs (‘a’ parameter) can be set.
+If the sheeting is discontinuous Consteel assumes that it is welded to the flange of the beam but the distance between two ribs (‘a’ parameter) can be set.
 
 <!-- /wp:paragraph -->
 

@@ -31,7 +31,7 @@ If the section module is opened from the model, then all the load combination fr
 
 <!-- wp:image {"id":6623,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](./img/wp-content-uploads-2021-04-section_new_load_combination_table-1024x121.png)](https://consteelsoftware.com/wp-content/uploads/2021/04/section_new_load_combination_table.png)
+[![](./img/wp-content-uploads-2021-04-section_new_load_combination_table-1024x121.png)](https://Consteelsoftware.com/wp-content/uploads/2021/04/section_new_load_combination_table.png)
 
 <!-- /wp:image -->
 
@@ -57,7 +57,7 @@ One possible way is to select **Calculate section** from the pop-up menu that ap
 
 <!-- wp:image {"align":"center","id":6629,"width":299,"height":224,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/calculate_section_img1.png)](./img/wp-content-uploads-2021-04-calculate_section_img1.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/calculate_section_img1.png)](./img/wp-content-uploads-2021-04-calculate_section_img1.png)
 
 <!-- /wp:image -->
 
@@ -73,7 +73,7 @@ The second way is to select the **Calculate section** option from the pop-up men
 
 <!-- wp:image {"align":"center","id":6635,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](./img/wp-content-uploads-2021-04-calculate_section_img2-1024x238.png)](https://consteelsoftware.com/wp-content/uploads/2021/04/calculate_section_img2.png)
+[![](./img/wp-content-uploads-2021-04-calculate_section_img2-1024x238.png)](https://Consteelsoftware.com/wp-content/uploads/2021/04/calculate_section_img2.png)
 
 <!-- /wp:image -->
 
@@ -181,7 +181,7 @@ If the first icon![effective_cross_section_icon](./img/wp-content-uploads-2021-0
 
 <!-- wp:image {"align":"center","id":6710,"width":233,"height":233,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/effective_cross_section_img.png)](./img/wp-content-uploads-2021-04-effective_cross_section_img.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/effective_cross_section_img.png)](./img/wp-content-uploads-2021-04-effective_cross_section_img.png)
 
 <!-- /wp:image -->
 
@@ -197,7 +197,7 @@ If the first icon![effective_cross_section_icon](./img/wp-content-uploads-2021-0
 
 <!-- wp:image {"align":"center","id":6719,"width":346,"height":66,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/standard_resistance_calc_img.png)](./img/wp-content-uploads-2021-04-standard_resistance_calc_img.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/standard_resistance_calc_img.png)](./img/wp-content-uploads-2021-04-standard_resistance_calc_img.png)
 
 <!-- /wp:image -->
 
@@ -227,7 +227,7 @@ The following design checks are calculated by **csSection**:
 
 <!-- wp:image {"align":"center","id":22309,"width":626,"height":1849,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/06/tabl_sect_steelsectioncheck.png)](./img/wp-content-uploads-2021-06-tabl_sect_steelsectioncheck.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/06/tabl_sect_steelsectioncheck.png)](./img/wp-content-uploads-2021-06-tabl_sect_steelsectioncheck.png)
 
 <!-- /wp:image -->
 
@@ -249,7 +249,7 @@ In case of reinforced concrete section, the **CSSECTION** module can perform jus
 
 <!-- wp:image {"align":"center","id":6726,"width":682,"height":338,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](./img/wp-content-uploads-2021-04-standard_resistance_img2-1024x508.png)](https://consteelsoftware.com/wp-content/uploads/2021/04/standard_resistance_img2.png)
+[![](./img/wp-content-uploads-2021-04-standard_resistance_img2-1024x508.png)](https://Consteelsoftware.com/wp-content/uploads/2021/04/standard_resistance_img2.png)
 
 <!-- /wp:image -->
 
@@ -267,7 +267,7 @@ The following design checks are calculated by **CSSECTION** for the composite se
 
 <!-- wp:image {"align":"center","id":22316,"width":552,"height":473,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/06/tabl_sect_compsectioncheck.png)](./img/wp-content-uploads-2021-06-tabl_sect_compsectioncheck.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/06/tabl_sect_compsectioncheck.png)](./img/wp-content-uploads-2021-06-tabl_sect_compsectioncheck.png)
 
 <!-- /wp:image -->
 
@@ -285,4 +285,4 @@ There is a short summary about the calculations on the right and the name of the
 
 <!-- wp:image {"align":"center","id":6734,"width":438,"height":561,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/standard_resistance_img3.png)](./img/wp-content-uploads-2021-04-standard_resistance_img3.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/standard_resistance_img3.png)](./img/wp-content-uploads-2021-04-standard_resistance_img3.png)

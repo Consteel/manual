@@ -15,7 +15,7 @@ Going back to the **Loadcases and loadgroups** dialogue, a new type of Seismic l
 
 <!-- wp:image {"align":"center","id":9459,"width":449,"height":493,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/13-4-loadgroups.png)](./img/wp-content-uploads-2021-04-13-4-loadgroups.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/13-4-loadgroups.png)](./img/wp-content-uploads-2021-04-13-4-loadgroups.png)
 
 <!-- /wp:image -->
 
@@ -27,7 +27,7 @@ If the calculation method for the seismic effect is set to **Selected modes, lin
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-If all of the combination factor cells of the table are empty, ConSteel will perform seismic analysis with the **Single dominant mode** calculation method.
+If all of the combination factor cells of the table are empty, Consteel will perform seismic analysis with the **Single dominant mode** calculation method.
 
 <!-- /wp:paragraph -->
 
@@ -37,7 +37,7 @@ If all of the combination factor cells of the table are empty, ConSteel will per
 
 <!-- wp:image {"align":"center","id":9465,"width":440,"height":483,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/13-4-Loadgroup-linear.png)](./img/wp-content-uploads-2021-04-13-4-Loadgroup-linear.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/13-4-Loadgroup-linear.png)](./img/wp-content-uploads-2021-04-13-4-Loadgroup-linear.png)
 
 <!-- /wp:image -->
 
@@ -47,7 +47,7 @@ If all of the combination factor cells of the table are empty, ConSteel will per
 
 <!-- wp:image {"align":"center","id":9471,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/13-4-Loadgroup-linear2.png)](./img/wp-content-uploads-2021-04-13-4-Loadgroup-linear2.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/13-4-Loadgroup-linear2.png)](./img/wp-content-uploads-2021-04-13-4-Loadgroup-linear2.png)
 
 <!-- /wp:image -->
 
@@ -73,7 +73,7 @@ On the automatic generation of load combinations dialogue, all combinations can 
 
 <!-- wp:image {"align":"center","id":9479,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/13-4-load_automatic.png)](./img/wp-content-uploads-2021-04-13-4-load_automatic.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/13-4-load_automatic.png)](./img/wp-content-uploads-2021-04-13-4-load_automatic.png)
 
 <!-- /wp:image -->
 
@@ -83,7 +83,7 @@ On the automatic generation of load combinations dialogue, all combinations can 
 
 <!-- wp:image {"align":"center","id":9485,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/13-4-load_automatic2.png)](./img/wp-content-uploads-2021-04-13-4-load_automatic2.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/13-4-load_automatic2.png)](./img/wp-content-uploads-2021-04-13-4-load_automatic2.png)
 
 <!-- /wp:image -->
 

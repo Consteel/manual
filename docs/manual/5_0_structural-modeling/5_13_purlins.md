@@ -9,7 +9,7 @@ The functions related to the calculation of the purlins are separated into 3 lar
 
 <!-- wp:image {"align":"center","id":9159,"width":837,"height":59,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-12-Purlins.png)](./img/wp-content-uploads-2021-04-6-12-Purlins.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-12-Purlins.png)](./img/wp-content-uploads-2021-04-6-12-Purlins.png)
 
 <!-- /wp:image -->
 
@@ -49,7 +49,7 @@ Four additional dialog panels are directly linked to the main dialog window of t
 
 <!-- wp:image {"align":"center","id":9165,"width":733,"height":513,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-12-Purlin-line.png)](./img/wp-content-uploads-2021-04-6-12-Purlin-line.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-12-Purlin-line.png)](./img/wp-content-uploads-2021-04-6-12-Purlin-line.png)
 
 <!-- /wp:image -->
 
@@ -100,7 +100,7 @@ The Place command opens the following dialog window:
 
 <!-- wp:image {"align":"center","id":9171,"width":491,"height":382,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-12-Place-purlin-line.png)](./img/wp-content-uploads-2021-04-6-12-Place-purlin-line.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-12-Place-purlin-line.png)](./img/wp-content-uploads-2021-04-6-12-Place-purlin-line.png)
 
 <!-- /wp:image -->
 
@@ -232,7 +232,7 @@ For sandwich panel cover, shear stiffness can only be entered manually.
 
 <!-- wp:image {"align":"right","id":9179,"width":316,"height":171,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-12-Trapezoidal-sheeting.png)](./img/wp-content-uploads-2021-04-6-12-Trapezoidal-sheeting.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-12-Trapezoidal-sheeting.png)](./img/wp-content-uploads-2021-04-6-12-Trapezoidal-sheeting.png)
 
 <!-- /wp:image -->
 
@@ -242,7 +242,7 @@ For sandwich panel cover, shear stiffness can only be entered manually.
 
 <!-- wp:image {"align":"left","id":9185,"width":311,"height":171,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-12-Sandwich-panel.png)](./img/wp-content-uploads-2021-04-6-12-Sandwich-panel.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-12-Sandwich-panel.png)](./img/wp-content-uploads-2021-04-6-12-Sandwich-panel.png)
 
 <!-- /wp:image -->
 
@@ -276,7 +276,7 @@ In the case of trapezoidal sheeting, and selecting automatic calculation, clicki
 
 <!-- wp:image {"align":"center","id":9192,"width":362,"height":116,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-12-Calculation-of-connection-stiffness.png)](./img/wp-content-uploads-2021-04-6-12-Calculation-of-connection-stiffness.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-12-Calculation-of-connection-stiffness.png)](./img/wp-content-uploads-2021-04-6-12-Calculation-of-connection-stiffness.png)
 
 <!-- /wp:image -->
 
@@ -305,7 +305,7 @@ When selecting a sandwich panel covering, more data is required to automatically
 
 <!-- wp:image {"align":"center","id":9198,"width":309,"height":162,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-12-Calculation-of-connection-stiffness_2.png)](./img/wp-content-uploads-2021-04-6-12-Calculation-of-connection-stiffness_2.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-12-Calculation-of-connection-stiffness_2.png)](./img/wp-content-uploads-2021-04-6-12-Calculation-of-connection-stiffness_2.png)
 
 <!-- /wp:image -->
 
@@ -343,7 +343,7 @@ For manual input, it is necessary to specify the value of the stiffness componen
 
 <!-- wp:image {"align":"center","id":13750,"width":254,"height":219,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/dial_shearfield_profiledistortion.png)](./img/wp-content-uploads-2021-04-dial_shearfield_profiledistortion.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/dial_shearfield_profiledistortion.png)](./img/wp-content-uploads-2021-04-dial_shearfield_profiledistortion.png)
 
 <!-- /wp:image -->
 
@@ -449,7 +449,7 @@ The **Place** command opens the following dialog window
 
 <!-- wp:image {"align":"center","id":9211,"width":446,"height":164,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-12-Place-purlin-support-zone.png)](./img/wp-content-uploads-2021-04-6-12-Place-purlin-support-zone.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-12-Place-purlin-support-zone.png)](./img/wp-content-uploads-2021-04-6-12-Place-purlin-support-zone.png)
 
 <!-- /wp:image -->
 
@@ -508,7 +508,7 @@ Currently, only overlap joint is available in the program. A dialog is directly 
 
 <!-- wp:image {"align":"center","id":9218,"width":576,"height":496,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-12-Purlin-overlap.png)](./img/wp-content-uploads-2021-04-6-12-Purlin-overlap.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-12-Purlin-overlap.png)](./img/wp-content-uploads-2021-04-6-12-Purlin-overlap.png)
 
 <!-- /wp:image -->
 
@@ -565,7 +565,7 @@ The **Place** command opens the following dialog window
 
 <!-- wp:image {"align":"center","id":9224,"width":445,"height":163,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-12-Place-purlin-overlap.png)](./img/wp-content-uploads-2021-04-6-12-Place-purlin-overlap.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-12-Place-purlin-overlap.png)](./img/wp-content-uploads-2021-04-6-12-Place-purlin-overlap.png)
 
 <!-- /wp:image -->
 

@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 # Fire load group
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/12-1-fire-load-group-1.png)](./img/wp-content-uploads-2021-04-12-1-fire-load-group-1.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/12-1-fire-load-group-1.png)](./img/wp-content-uploads-2021-04-12-1-fire-load-group-1.png)
 
 <!-- /wp:image -->
 
@@ -25,15 +25,15 @@ Fire load group has more options:
 
 - Analysis with elevated temperature material properties - for the check of structures with passive protection (e.g. gypsum insulation) or without any protection. The stresses and displacements are determined based on the required fire resistance time.
 
-  - Consider indirect actions caused by thermal expansion: By default ConSteel neglect the effect of thermal expansion during the analysis, but by clicking on the checkbox there is the possibility to take it into account.
+  - Consider indirect actions caused by thermal expansion: By default Consteel neglect the effect of thermal expansion during the analysis, but by clicking on the checkbox there is the possibility to take it into account.
 
-- Value of variable factor for main variable load: By default, ConSteel applies the Ψ2,1 but switching the radio button Ψ1,1 also can be used for load combination generation.
+- Value of variable factor for main variable load: By default, Consteel applies the Ψ2,1 but switching the radio button Ψ1,1 also can be used for load combination generation.
 
 <!-- /wp:list -->
 
 <!-- wp:image {"align":"right","id":16725,"width":375,"height":412,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/12-1-fire-load-settings.png)](./img/wp-content-uploads-2021-04-12-1-fire-load-settings.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/12-1-fire-load-settings.png)](./img/wp-content-uploads-2021-04-12-1-fire-load-settings.png)
 
 <!-- /wp:image -->
 

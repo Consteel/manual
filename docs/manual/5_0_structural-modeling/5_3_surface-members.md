@@ -9,13 +9,13 @@ Plane surface members with uniform thickness can be modelled. Two options are av
 
 <!-- wp:image {"align":"center","id":8779,"width":318,"height":188,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-3-Plate.png)](./img/wp-content-uploads-2021-04-6-3-Plate.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-3-Plate.png)](./img/wp-content-uploads-2021-04-6-3-Plate.png)
 
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"center","id":8785,"width":328,"height":189,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-3-Wall.png)](./img/wp-content-uploads-2021-04-6-3-Wall.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-3-Wall.png)](./img/wp-content-uploads-2021-04-6-3-Wall.png)
 
 <!-- /wp:image -->
 
@@ -39,6 +39,6 @@ In case of concrete **_Plates_**, reinforcements can be added to the model at th
 
 <!-- wp:image {"id":8792,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-3-Reinforcement.png)](./img/wp-content-uploads-2021-04-6-3-Reinforcement.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-3-Reinforcement.png)](./img/wp-content-uploads-2021-04-6-3-Reinforcement.png)
 
 <!-- /wp:image -->

@@ -18,13 +18,13 @@ New sections can be loaded or created with **Section administration** command ![
 
 <!-- wp:image {"align":"center","id":8465,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/11-3-eps-model1.png)](./img/wp-content-uploads-2021-04-11-3-eps-model1.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/11-3-eps-model1.png)](./img/wp-content-uploads-2021-04-11-3-eps-model1.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-The _**Elastic Plate Segment (EPS)**_ model is a thin-walled simplification of the usual steel profiles from welded, hot-rolled or cold-formed sections. The model is very easy and fast to calculate and has accurate results for thin-walled sections compared with the GSS model, which can be used and run for the same section side by side. The model yields the same general, torsional, and shear properties and stresses and moreover, it calculates the static moments and sectional classes according to the EuroCode. The EPS model is also very suitable for the evaluation of all of the standard design formulas in a very sophisticated way. In the case of Class 4 profile, the effective cross-section is automatically generated based on the proper sectional forces, and the standard procedures can be evaluated on this effective section. In ConSteel version 13, it is new that the program automatically takes into account the effect of distortional buckling when calculating the effective cross-sections of cold-formed thin-wall sections.
+The _**Elastic Plate Segment (EPS)**_ model is a thin-walled simplification of the usual steel profiles from welded, hot-rolled or cold-formed sections. The model is very easy and fast to calculate and has accurate results for thin-walled sections compared with the GSS model, which can be used and run for the same section side by side. The model yields the same general, torsional, and shear properties and stresses and moreover, it calculates the static moments and sectional classes according to the EuroCode. The EPS model is also very suitable for the evaluation of all of the standard design formulas in a very sophisticated way. In the case of Class 4 profile, the effective cross-section is automatically generated based on the proper sectional forces, and the standard procedures can be evaluated on this effective section. In Consteel version 13, it is new that the program automatically takes into account the effect of distortional buckling when calculating the effective cross-sections of cold-formed thin-wall sections.
 
 <!-- /wp:paragraph -->
 
@@ -34,7 +34,7 @@ The _**Elastic Plate Segment (EPS)**_ model is a thin-walled simplification of t
 
 <!-- wp:image {"align":"center","id":8471,"width":195,"height":372,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/11-3-eps-model2.jpg)](./img/wp-content-uploads-2021-04-11-3-eps-model2.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/11-3-eps-model2.jpg)](./img/wp-content-uploads-2021-04-11-3-eps-model2.jpg)
 
 <!-- /wp:image -->
 
@@ -44,7 +44,7 @@ The _**Elastic Plate Segment (EPS)**_ model is a thin-walled simplification of t
 
 <!-- wp:image {"align":"center","id":8477,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/11-3-eps-model3.png)](./img/wp-content-uploads-2021-04-11-3-eps-model3.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/11-3-eps-model3.png)](./img/wp-content-uploads-2021-04-11-3-eps-model3.png)
 
 <!-- /wp:image -->
 
@@ -54,7 +54,7 @@ The _**Elastic Plate Segment (EPS)**_ model is a thin-walled simplification of t
 
 <!-- wp:image {"align":"center","id":8483,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/11-3-eps-model4.png)](./img/wp-content-uploads-2021-04-11-3-eps-model4.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/11-3-eps-model4.png)](./img/wp-content-uploads-2021-04-11-3-eps-model4.png)
 
 <!-- /wp:image -->
 
@@ -64,7 +64,7 @@ The _**Elastic Plate Segment (EPS)**_ model is a thin-walled simplification of t
 
 <!-- wp:image {"id":8495,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](./img/wp-content-uploads-2021-04-11-3-eps-model5-1024x561.jpg)](https://consteelsoftware.com/wp-content/uploads/2021/04/11-3-eps-model5.jpg)
+[![](./img/wp-content-uploads-2021-04-11-3-eps-model5-1024x561.jpg)](https://Consteelsoftware.com/wp-content/uploads/2021/04/11-3-eps-model5.jpg)
 
 <!-- /wp:image -->
 
@@ -80,7 +80,7 @@ The _**Elastic Plate Segment (EPS)**_ model is a thin-walled simplification of t
 
 <!-- wp:image {"id":8509,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/11-3-2-gss-model1.png)](./img/wp-content-uploads-2021-04-11-3-2-gss-model1.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/11-3-2-gss-model1.png)](./img/wp-content-uploads-2021-04-11-3-2-gss-model1.png)
 
 <!-- /wp:image -->
 
@@ -100,7 +100,7 @@ The _**General Solid Section (GSS)**_ was created in order to model any kind of 
 
 <!-- wp:image {"id":8502,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/11-3-2-gss-model.jpg)](./img/wp-content-uploads-2021-04-11-3-2-gss-model.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/11-3-2-gss-model.jpg)](./img/wp-content-uploads-2021-04-11-3-2-gss-model.jpg)
 
 <!-- /wp:image -->
 

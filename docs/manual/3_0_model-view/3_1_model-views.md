@@ -11,7 +11,7 @@ The model viewing functions can be found on the left side bar.
 
 <!-- wp:image {"id":7682,"width":"243px","height":"279px","sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-side-bar.png)](./img/wp-content-uploads-2021-04-4-2-model-view-side-bar.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-side-bar.png)](./img/wp-content-uploads-2021-04-4-2-model-view-side-bar.png)
 
 <!-- /wp:image -->
 
@@ -23,7 +23,7 @@ In addition to the standard model view options (top view, front view, side view,
 - **line view** ![](./img/wp-content-uploads-2021-04-4-2-model-view-line-view-icon.png): the simplest model view. The members are represented by single lines, the surfaces by 2D figures without thickness, and the supports also by lines only. Recommended using in the model building phase, since the clear visualization of the member snap points makes the modeling more easier.
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-lv1.jpg)](./img/wp-content-uploads-2021-04-4-2-model-view-lv1.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-lv1.jpg)](./img/wp-content-uploads-2021-04-4-2-model-view-lv1.jpg)
 
 <!-- /wp:image -->
 
@@ -33,55 +33,55 @@ In addition to the standard model view options (top view, front view, side view,
 
 <!-- wp:image {"align":"center","id":7700,"width":546,"height":284,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-lv-2.png)](./img/wp-content-uploads-2021-04-4-2-model-view-lv-2.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-lv-2.png)](./img/wp-content-uploads-2021-04-4-2-model-view-lv-2.png)
 
 
 - **wireframe view** ![](./img/wp-content-uploads-2021-04-4-2-model-view-wireframe-icon.png): in the wireframe view the lines of the cross-sections and plate thickness appear. The supports are represented by lines only.
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-wf1.jpg)](./img/wp-content-uploads-2021-04-4-2-model-view-wf1.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-wf1.jpg)](./img/wp-content-uploads-2021-04-4-2-model-view-wf1.jpg)
 
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-wf2.jpg)](./img/wp-content-uploads-2021-04-4-2-model-view-wf2.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-wf2.jpg)](./img/wp-content-uploads-2021-04-4-2-model-view-wf2.jpg)
 
 - **hidden line view** ![](./img/wp-content-uploads-2021-04-4-2-model-view-hidden-icon.png): the cross-sections and plates appear in a solid form without shading and sparkling effects; the supports are represented by solid objects.
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-hl1.jpg)](./img/wp-content-uploads-2021-04-4-2-model-view-hl1.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-hl1.jpg)](./img/wp-content-uploads-2021-04-4-2-model-view-hl1.jpg)
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-hl2.jpg)](./img/wp-content-uploads-2021-04-4-2-model-view-hl2.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-hl2.jpg)](./img/wp-content-uploads-2021-04-4-2-model-view-hl2.jpg)
 
 - **solid view** ![](./img/wp-content-uploads-2021-04-4-2-model-view-solid-icon.png): the cross-sections and plates appear in a solid form with shading and sparkling effects, the supports as well.
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-sv1.jpg)](./img/wp-content-uploads-2021-04-4-2-model-view-sv1.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-sv1.jpg)](./img/wp-content-uploads-2021-04-4-2-model-view-sv1.jpg)
 
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-sv2.jpg)](./img/wp-content-uploads-2021-04-4-2-model-view-sv2.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-sv2.jpg)](./img/wp-content-uploads-2021-04-4-2-model-view-sv2.jpg)
 
 
 When the model tends to be more and more complicated and you only want to see part of the model then the **Submodel** **view** should be applied. To do this select the required objects in the model and click on the **Submodel view** icon in the **[_Portions Manager_](./3_3_portions-manager.md)** window, which can be found on the **_[Side panel](../1_0_general-description/1_2_the-main-window.md#side-panel)_** at the right side of the Consteel main window. See the pictures below:
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-submodel-select.jpg)](./img/wp-content-uploads-2021-04-4-2-model-view-submodel-select.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-submodel-select.jpg)](./img/wp-content-uploads-2021-04-4-2-model-view-submodel-select.jpg)
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-submodel.png)](./img/wp-content-uploads-2021-04-4-2-model-view-submodel.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-submodel.png)](./img/wp-content-uploads-2021-04-4-2-model-view-submodel.png)
 
 
 After activating the Submodel view only the selected parts of the model are visible on every tabs:
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-submodel-1.png)](./img/wp-content-uploads-2021-04-4-2-model-view-submodel-1.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-submodel-1.png)](./img/wp-content-uploads-2021-04-4-2-model-view-submodel-1.png)
 
 
 If the _**Show hidden parts of the structure translucently**_ checkbox is checked at the bottom of the Portions Manager, then the other model parts are also visible with faint grey lines:
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-submodel-2.jpg)](./img/wp-content-uploads-2021-04-4-2-model-view-submodel-2.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-submodel-2.jpg)](./img/wp-content-uploads-2021-04-4-2-model-view-submodel-2.jpg)
 
 
 From **Consteel 17**, initiate the Hide function (Alt+H). Select the elements slated for concealment and engage the hide icon or Alt+H for implementation.
@@ -96,6 +96,6 @@ To let the whole model visible again click the _**Full view**_ command button on
 
 <!-- wp:image {"align":"center","id":7676,"width":271,"height":148,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-full-view.png)](./img/wp-content-uploads-2021-04-4-2-model-view-full-view.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-full-view.png)](./img/wp-content-uploads-2021-04-4-2-model-view-full-view.png)
 
 <!-- /wp:image -->

@@ -15,6 +15,6 @@ After clicking the Documentation option on the menu bar, the way for creating do
 
 <!-- wp:image {"align":"center","id":6742,"width":714,"height":453,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](./img/wp-content-uploads-2021-04-section_documentation-1024x651.png)](https://consteelsoftware.com/wp-content/uploads/2021/04/section_documentation.png)
+[![](./img/wp-content-uploads-2021-04-section_documentation-1024x651.png)](https://Consteelsoftware.com/wp-content/uploads/2021/04/section_documentation.png)
 
 <!-- /wp:image -->

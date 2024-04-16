@@ -3,7 +3,7 @@ sidebar_position: 2
 ---
 # Model Check (Diagnostics)
 
-In _ConSteel_ there is a possibility to perform a model check previous to executing any calculations. This function automatically runs before starting the finite element mesh generation or analysis but can be initiated any time (switching on the “Diagnostics” in the **View** menu and run) examining the recent state of the model. The checks performed when intiating diagnostics automatically and by the user are not exactly the same.
+In _Consteel_ there is a possibility to perform a model check previous to executing any calculations. This function automatically runs before starting the finite element mesh generation or analysis but can be initiated any time (switching on the “Diagnostics” in the **View** menu and run) examining the recent state of the model. The checks performed when intiating diagnostics automatically and by the user are not exactly the same.
 
 <!-- /wp:paragraph -->
 

@@ -16,7 +16,7 @@ With the **Create response spectrum**(![](./img/wp-content-uploads-2021-04-cmd_r
 
 <!-- wp:image {"align":"center","id":10470,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-6-CREATING-RESPONSE-SPECTRUMS.png)](./img/wp-content-uploads-2021-04-7-6-CREATING-RESPONSE-SPECTRUMS.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-6-CREATING-RESPONSE-SPECTRUMS.png)](./img/wp-content-uploads-2021-04-7-6-CREATING-RESPONSE-SPECTRUMS.png)
 
 <!-- /wp:image -->
 
@@ -34,7 +34,7 @@ By choosing the **New Standard elastic spectrum** option, the spectrum can be cr
 
 <!-- wp:image {"align":"right","id":10476,"width":296,"height":377,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-6-1-NEW-STANDARD-ELASTIC-RESPONSE-SPECTRUM.png)](./img/wp-content-uploads-2021-04-7-6-1-NEW-STANDARD-ELASTIC-RESPONSE-SPECTRUM.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-6-1-NEW-STANDARD-ELASTIC-RESPONSE-SPECTRUM.png)](./img/wp-content-uploads-2021-04-7-6-1-NEW-STANDARD-ELASTIC-RESPONSE-SPECTRUM.png)
 
 <!-- /wp:image -->
 
@@ -55,7 +55,7 @@ According to the recommended values of _EuroCode_, the following parameters are 
 
 <!-- wp:image {"align":"center","id":10482,"width":437,"height":330,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-6-1.2-NEW-STANDARD-ELASTIC-RESPONSE-SPECTRUM.png)](./img/wp-content-uploads-2021-04-7-6-1.2-NEW-STANDARD-ELASTIC-RESPONSE-SPECTRUM.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-6-1.2-NEW-STANDARD-ELASTIC-RESPONSE-SPECTRUM.png)](./img/wp-content-uploads-2021-04-7-6-1.2-NEW-STANDARD-ELASTIC-RESPONSE-SPECTRUM.png)
 
 <!-- /wp:image -->
 
@@ -67,7 +67,7 @@ According to the recommended values of _EuroCode_, the following parameters are 
 
 <!-- wp:image {"align":"center","id":10488,"width":440,"height":484,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-6-1.3-NEW-STANDARD-ELASTIC-RESPONSE-SPECTRUM.png)](./img/wp-content-uploads-2021-04-7-6-1.3-NEW-STANDARD-ELASTIC-RESPONSE-SPECTRUM.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-6-1.3-NEW-STANDARD-ELASTIC-RESPONSE-SPECTRUM.png)](./img/wp-content-uploads-2021-04-7-6-1.3-NEW-STANDARD-ELASTIC-RESPONSE-SPECTRUM.png)
 
 <!-- /wp:image -->
 
@@ -79,7 +79,7 @@ On the bottom of the Elastic response spectrum dialogue, the defined spectrum is
 
 <!-- wp:image {"align":"center","id":10494,"width":408,"height":200,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-6-1.4-NEW-STANDARD-ELASTIC-RESPONSE-SPECTRUM.png)](./img/wp-content-uploads-2021-04-7-6-1.4-NEW-STANDARD-ELASTIC-RESPONSE-SPECTRUM.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-6-1.4-NEW-STANDARD-ELASTIC-RESPONSE-SPECTRUM.png)](./img/wp-content-uploads-2021-04-7-6-1.4-NEW-STANDARD-ELASTIC-RESPONSE-SPECTRUM.png)
 
 <!-- /wp:image -->
 
@@ -91,13 +91,13 @@ On the bottom of the Elastic response spectrum dialogue, the defined spectrum is
 
 <!-- wp:paragraph -->
 
-ConSteel provides two ways for the definition of **new user defined response spectrums**:
+Consteel provides two ways for the definition of **new user defined response spectrums**:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":10500,"width":582,"height":194,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7.6.2.-NEW-USER-DEFINED-RESPONSE-SPECTRUM.png)](./img/wp-content-uploads-2021-04-7.6.2.-NEW-USER-DEFINED-RESPONSE-SPECTRUM.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7.6.2.-NEW-USER-DEFINED-RESPONSE-SPECTRUM.png)](./img/wp-content-uploads-2021-04-7.6.2.-NEW-USER-DEFINED-RESPONSE-SPECTRUM.png)
 
 <!-- /wp:image -->
 
@@ -126,7 +126,7 @@ After selecting the New User defined response spectrum option, and clicking on t
 
 <!-- wp:image {"align":"right","id":10506,"width":467,"height":512,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7.6.2.1-MANUAL-DEFINITION-OF-RESPONSE-SPECTRUM.png)](./img/wp-content-uploads-2021-04-7.6.2.1-MANUAL-DEFINITION-OF-RESPONSE-SPECTRUM.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7.6.2.1-MANUAL-DEFINITION-OF-RESPONSE-SPECTRUM.png)](./img/wp-content-uploads-2021-04-7.6.2.1-MANUAL-DEFINITION-OF-RESPONSE-SPECTRUM.png)
 
 <!-- /wp:image -->
 

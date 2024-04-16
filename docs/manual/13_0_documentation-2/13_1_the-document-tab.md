@@ -21,7 +21,7 @@ sidebar_position: 1
 
 <!-- wp:image {"align":"left","id":9612,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/14-1-documentation1.png)](./img/wp-content-uploads-2021-04-14-1-documentation1.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/14-1-documentation1.png)](./img/wp-content-uploads-2021-04-14-1-documentation1.png)
 
 <!-- /wp:image -->
 
@@ -41,7 +41,7 @@ sidebar_position: 1
 
 <!-- wp:image {"align":"right","id":22333,"width":468,"height":352,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/06/dial_doc_new_3_1.png)](./img/wp-content-uploads-2021-06-dial_doc_new_3_1.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/06/dial_doc_new_3_1.png)](./img/wp-content-uploads-2021-06-dial_doc_new_3_1.png)
 
 <!-- /wp:image -->
 
@@ -53,19 +53,19 @@ All commands related to the documentation are placed in the Document tab. The do
 
 <!-- wp:paragraph -->
 
-The header and the footer pictures of the document can be customized so your own company logo can be added. In order to do so, the default header and footer images need to be replaced. These files can be found in the software’s installation directory; the default path is the following: C:\\Program Files\\ConSteelversion\\Pic. The “Header_pic.png” and the “Footer_pic.png” need to be replaced by your own images.
+The header and the footer pictures of the document can be customized so your own company logo can be added. In order to do so, the default header and footer images need to be replaced. These files can be found in the software’s installation directory; the default path is the following: C:\\Program Files\\Consteelversion\\Pic. The “Header_pic.png” and the “Footer_pic.png” need to be replaced by your own images.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"right","id":22345,"width":259,"height":429,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/06/dial_doc_new_3_3.png)](./img/wp-content-uploads-2021-06-dial_doc_new_3_3.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/06/dial_doc_new_3_3.png)](./img/wp-content-uploads-2021-06-dial_doc_new_3_3.png)
 
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"right","id":22339,"width":194,"height":145,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/06/dial_doc_new_3_2.png)](./img/wp-content-uploads-2021-06-dial_doc_new_3_2.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/06/dial_doc_new_3_2.png)](./img/wp-content-uploads-2021-06-dial_doc_new_3_2.png)
 
 <!-- /wp:image -->
 
@@ -111,7 +111,7 @@ If you click on the **Create** button the program will generate the documentatio
 
 <!-- wp:image {"align":"right","id":9646,"width":290,"height":270,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/14-1-documentation_module.png)](./img/wp-content-uploads-2021-04-14-1-documentation_module.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/14-1-documentation_module.png)](./img/wp-content-uploads-2021-04-14-1-documentation_module.png)
 
 <!-- /wp:image -->
 
@@ -149,7 +149,7 @@ With the first two icons (#1) the fitting of the pages can be set. Pages can be 
 
 <!-- wp:image {"align":"center","id":9653,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/14-2-total.png)](./img/wp-content-uploads-2021-04-14-2-total.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/14-2-total.png)](./img/wp-content-uploads-2021-04-14-2-total.png)
 
 <!-- /wp:image -->
 
@@ -173,7 +173,7 @@ By clicking the **Pictures** tab the image handling icons can be seen. Any of th
 
 <!-- wp:image {"align":"center","id":9659,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/14-2-pictures.png)](./img/wp-content-uploads-2021-04-14-2-pictures.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/14-2-pictures.png)](./img/wp-content-uploads-2021-04-14-2-pictures.png)
 
 <!-- /wp:image -->
 
@@ -183,7 +183,7 @@ By clicking the **Pictures** tab the image handling icons can be seen. Any of th
 
 <!-- wp:paragraph -->
 
-The third tab is the **Tables**. There are a lot of possibilities in _ConSteel_ where tables can be saved. Anywhere in the analysis and design process where the ![](./img/wp-content-uploads-2021-04-14-1-save.png) icon appears in a table, that table can be saved. These saved tables can be inserted into the documentation or can be deleted from the model database. The table will be inserted below the selected paragraph.
+The third tab is the **Tables**. There are a lot of possibilities in _Consteel_ where tables can be saved. Anywhere in the analysis and design process where the ![](./img/wp-content-uploads-2021-04-14-1-save.png) icon appears in a table, that table can be saved. These saved tables can be inserted into the documentation or can be deleted from the model database. The table will be inserted below the selected paragraph.
 
 <!-- /wp:paragraph -->
 
@@ -217,7 +217,7 @@ It should be bear in mind that the documentation needs to be regenerated to be u
 
 <!-- wp:image {"align":"right","id":22388,"width":133,"height":227,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/dia_snapshot.png)](./img/wp-content-uploads-2021-04-dia_snapshot.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/dia_snapshot.png)](./img/wp-content-uploads-2021-04-dia_snapshot.png)
 
 <!-- /wp:image -->
 
@@ -241,7 +241,7 @@ With the **Print** button, the actual view of the model can be printed directly 
 
 <!-- wp:image {"align":"center","id":9674,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](./img/wp-content-uploads-2021-04-14-2-snapshot_print-1024x509.png)](https://consteelsoftware.com/wp-content/uploads/2021/04/14-2-snapshot_print.png)
+[![](./img/wp-content-uploads-2021-04-14-2-snapshot_print-1024x509.png)](https://Consteelsoftware.com/wp-content/uploads/2021/04/14-2-snapshot_print.png)
 
 <!-- /wp:image -->
 
@@ -267,7 +267,7 @@ The third icon on the documentation tab is the **Snapshot manager** ![](./img/wp
 
 <!-- wp:image {"align":"center","id":9681,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/14-2-snapshotmanager.png)](./img/wp-content-uploads-2021-04-14-2-snapshotmanager.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/14-2-snapshotmanager.png)](./img/wp-content-uploads-2021-04-14-2-snapshotmanager.png)
 
 <!-- /wp:image -->
 
@@ -309,7 +309,7 @@ By using the fourth icon ![](./img/wp-content-uploads-2021-04-cmd_modelinfo.png)
 
 <!-- wp:image {"align":"center","id":9688,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/14-2-model-information.png)](./img/wp-content-uploads-2021-04-14-2-model-information.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/14-2-model-information.png)](./img/wp-content-uploads-2021-04-14-2-model-information.png)
 
 <!-- /wp:image -->
 

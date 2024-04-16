@@ -3,7 +3,7 @@ sidebar_position: 4
 ---
 # Global imperfections
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-5-Global-imperfections.png)](./img/wp-content-uploads-2021-04-7-5-Global-imperfections.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-5-Global-imperfections.png)](./img/wp-content-uploads-2021-04-7-5-Global-imperfections.png)
 
 <!-- /wp:image -->
 
@@ -15,7 +15,7 @@ Three types of global imperfection can be applied on the model with the **_Globa
 
 <!-- wp:image {"align":"right","id":14074,"width":239,"height":354,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/dia_imp_notional.png)](./img/wp-content-uploads-2021-04-dia_imp_notional.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/dia_imp_notional.png)](./img/wp-content-uploads-2021-04-dia_imp_notional.png)
 
 <!-- /wp:image -->
 
@@ -45,7 +45,7 @@ _Multiplication factor for magnitude of notional load (Ni)_ can be selected from
 
 <!-- wp:image {"align":"right","id":14080,"width":239,"height":354,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/dia_imp_sway.png)](./img/wp-content-uploads-2021-04-dia_imp_sway.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/dia_imp_sway.png)](./img/wp-content-uploads-2021-04-dia_imp_sway.png)
 
 <!-- /wp:image -->
 
@@ -123,7 +123,7 @@ After selecting the proper eigenshape, and by clicking in the graphical area wit
 
 <!-- wp:image {"align":"center","id":10200,"width":725,"height":344,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-5-Apply-eigenshape-as-imperfection.png)](./img/wp-content-uploads-2021-04-7-5-Apply-eigenshape-as-imperfection.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-5-Apply-eigenshape-as-imperfection.png)](./img/wp-content-uploads-2021-04-7-5-Apply-eigenshape-as-imperfection.png)
 
 <!-- /wp:image -->
 
@@ -135,7 +135,7 @@ On the setting dialog the following parameters can be set:
 
 <!-- wp:image {"align":"right","id":14086,"width":233,"height":416,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/dia_imp_shape.png)](./img/wp-content-uploads-2021-04-dia_imp_shape.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/dia_imp_shape.png)](./img/wp-content-uploads-2021-04-dia_imp_shape.png)
 
 <!-- /wp:image -->
 
@@ -190,7 +190,7 @@ Pressing the **OK** button the eigenshape is applied as an imperfection with the
 
 <!-- wp:paragraph -->
 
-Applying any imperfection, it is always a problem how to define the proper amplitude to have safe but economic results. The Eurocode EN 1993-1-1 gives some limited guidance for certain cases, based on these guidelines and self-developed procedures, ConSteel can automatically determine the amplitude of imperfection using three different methods.
+Applying any imperfection, it is always a problem how to define the proper amplitude to have safe but economic results. The Eurocode EN 1993-1-1 gives some limited guidance for certain cases, based on these guidelines and self-developed procedures, Consteel can automatically determine the amplitude of imperfection using three different methods.
 
 <!-- /wp:paragraph -->
 
@@ -208,7 +208,7 @@ Click the three-dot icon (![](./img/wp-content-uploads-2021-04-3dots-button.png)
 
 <!-- wp:image {"align":"right","id":14092,"width":424,"height":263,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/dia_imp_ampl_EC.png)](./img/wp-content-uploads-2021-04-dia_imp_ampl_EC.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/dia_imp_ampl_EC.png)](./img/wp-content-uploads-2021-04-dia_imp_ampl_EC.png)
 
 <!-- /wp:image -->
 
@@ -226,7 +226,7 @@ This option is based on table EN 1993-1-1 5.3.2 (3)b where initial bow amplitude
 
 <!-- wp:image {"align":"right","id":14098,"width":374,"height":275,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/scr_imp_apply_shape.png)](./img/wp-content-uploads-2021-04-scr_imp_apply_shape.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/scr_imp_apply_shape.png)](./img/wp-content-uploads-2021-04-scr_imp_apply_shape.png)
 
 <!-- /wp:image -->
 
@@ -280,7 +280,7 @@ iii. Cross section properties \[class for compression, yield stress, area, relev
 
 <!-- wp:image {"align":"right","id":10207,"width":283,"height":477,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-5-Equivalent-amplitude-for-buckling-mode.png)](./img/wp-content-uploads-2021-04-7-5-Equivalent-amplitude-for-buckling-mode.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-5-Equivalent-amplitude-for-buckling-mode.png)](./img/wp-content-uploads-2021-04-7-5-Equivalent-amplitude-for-buckling-mode.png)
 
 <!-- /wp:image -->
 
@@ -346,6 +346,6 @@ With the **Delete row** button the selected imperfection cases can be deleted fr
 
 <!-- wp:image {"align":"center","id":10213,"width":662,"height":527,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-5-Global-imperfections_delete-row.png)](./img/wp-content-uploads-2021-04-7-5-Global-imperfections_delete-row.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-5-Global-imperfections_delete-row.png)](./img/wp-content-uploads-2021-04-7-5-Global-imperfections_delete-row.png)
 
 <!-- /wp:image -->

@@ -9,7 +9,7 @@ sidebar_position: 3
 
 <!-- wp:image {"align":"center","id":10454,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-CREATING-POINT-MASSES.png)](./img/wp-content-uploads-2021-04-7-4-CREATING-POINT-MASSES.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-4-CREATING-POINT-MASSES.png)](./img/wp-content-uploads-2021-04-7-4-CREATING-POINT-MASSES.png)
 
 <!-- /wp:image -->
 
@@ -21,7 +21,7 @@ Point mass can be placed on any point of any bar member, snap points, start- and
 
 <!-- wp:image {"align":"center","id":10461,"width":289,"height":208,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-CREATING-POINT-MASSES.2.png)](./img/wp-content-uploads-2021-04-7-4-CREATING-POINT-MASSES.2.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-4-CREATING-POINT-MASSES.2.png)](./img/wp-content-uploads-2021-04-7-4-CREATING-POINT-MASSES.2.png)
 
 <!-- /wp:image -->
 

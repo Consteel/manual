@@ -61,7 +61,7 @@ This type of link element can be used to connect two structural points.
 
 <!-- wp:image {"align":"center","id":9034,"width":299,"height":161,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-10-Link-elements.png)](./img/wp-content-uploads-2021-04-6-10-Link-elements.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-10-Link-elements.png)](./img/wp-content-uploads-2021-04-6-10-Link-elements.png)
 
 <!-- /wp:image -->
 
@@ -73,7 +73,7 @@ For example, if there is a cantilever on a relatively high tapered column (see i
 
 <!-- wp:image {"align":"center","id":9040,"width":699,"height":386,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-10-Connection-element.png)](./img/wp-content-uploads-2021-04-6-10-Connection-element.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-10-Connection-element.png)](./img/wp-content-uploads-2021-04-6-10-Connection-element.png)
 
 <!-- /wp:image -->
 
@@ -97,13 +97,13 @@ This type of link element can be used for example when connecting a slab eccentr
 
 <!-- wp:image {"align":"center","id":9046,"width":698,"height":296,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-10-slab-to-beam_1.jpg)](./img/wp-content-uploads-2021-04-6-10-slab-to-beam_1.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-10-slab-to-beam_1.jpg)](./img/wp-content-uploads-2021-04-6-10-slab-to-beam_1.jpg)
 
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"center","id":9052,"width":698,"height":295,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-10-slab-to-beam_2.jpg)](./img/wp-content-uploads-2021-04-6-10-slab-to-beam_2.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-10-slab-to-beam_2.jpg)](./img/wp-content-uploads-2021-04-6-10-slab-to-beam_2.jpg)
 
 <!-- /wp:image -->
 
@@ -133,7 +133,7 @@ After starting the command, the Edit smart link dialog box appears:
 
 <!-- wp:image {"align":"center","id":13567,"width":578,"height":475,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-10-Edit-smart-link-1.png)](./img/wp-content-uploads-2021-04-6-10-Edit-smart-link-1.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-10-Edit-smart-link-1.png)](./img/wp-content-uploads-2021-04-6-10-Edit-smart-link-1.png)
 
 <!-- /wp:image -->
 
@@ -224,7 +224,7 @@ Constraints created in the frame corners transferring only the warping deformati
 
 <!-- wp:image {"align":"right","id":29490,"width":368,"height":105,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/12/combo_constr_type.png)](./img/wp-content-uploads-2021-12-combo_constr_type.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/12/combo_constr_type.png)](./img/wp-content-uploads-2021-12-combo_constr_type.png)
 
 <!-- /wp:image -->
 

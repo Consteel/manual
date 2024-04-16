@@ -3,19 +3,19 @@ sidebar_position: 1
 ---
 # Load cases and load groups
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-2-Loadcase.png)](./img/wp-content-uploads-2021-04-7-2-Loadcase.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-2-Loadcase.png)](./img/wp-content-uploads-2021-04-7-2-Loadcase.png)
 
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"right","id":22807,"width":375,"height":412,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/dial_LG_Var.png)](./img/wp-content-uploads-2021-04-dial_LG_Var.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/dial_LG_Var.png)](./img/wp-content-uploads-2021-04-dial_LG_Var.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Before placing any loads in the model, load cases and load groups must be defined. As a default, one load group and one load case have been defined in ConSteel for quick calculations. Clicking on the **Create load cases and load groups** command (![](./img/wp-content-uploads-2021-04-cmd_loadgroups.png)) on the Loads tab the Load cases and load groups dialogue window appears.
+Before placing any loads in the model, load cases and load groups must be defined. As a default, one load group and one load case have been defined in Consteel for quick calculations. Clicking on the **Create load cases and load groups** command (![](./img/wp-content-uploads-2021-04-cmd_loadgroups.png)) on the Loads tab the Load cases and load groups dialogue window appears.
 
 <!-- /wp:paragraph -->
 
@@ -45,7 +45,7 @@ There are 9 different load group types in _Consteel_: Permanent, Variable, Meteo
 
 <!-- wp:image {"align":"right","id":19569,"width":260,"height":207,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-2-Load-cases-and-load-groups-e1626273431984.png)](./img/wp-content-uploads-2021-04-7-2-Load-cases-and-load-groups-e1626273431984.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-2-Load-cases-and-load-groups-e1626273431984.png)](./img/wp-content-uploads-2021-04-7-2-Load-cases-and-load-groups-e1626273431984.png)
 
 <!-- /wp:image -->
 
@@ -69,13 +69,13 @@ For each load group, safety factors are taken from the actually chosen standard.
 
 <!-- wp:image {"align":"right","id":9934,"width":276,"height":194,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-2-Multipliers-of-representative-values.png)](./img/wp-content-uploads-2021-04-7-2-Multipliers-of-representative-values.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-2-Multipliers-of-representative-values.png)](./img/wp-content-uploads-2021-04-7-2-Multipliers-of-representative-values.png)
 
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"right","id":22816,"width":215,"height":172,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/dial_LG_Var_LG.png)](./img/wp-content-uploads-2021-04-dial_LG_Var_LG.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/dial_LG_Var_LG.png)](./img/wp-content-uploads-2021-04-dial_LG_Var_LG.png)
 
 <!-- /wp:image -->
 
@@ -93,7 +93,7 @@ For variable type load groups (Variable, Meteorological, Crane) combination fact
 
 <!-- wp:image {"align":"right","id":22823,"width":214,"height":160,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/07/dial_LG_create-_LC.png)](./img/wp-content-uploads-2021-07-dial_LG_create-_LC.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/07/dial_LG_create-_LC.png)](./img/wp-content-uploads-2021-07-dial_LG_create-_LC.png)
 
 <!-- /wp:image -->
 
@@ -119,7 +119,7 @@ For other options see below.
 
 <!-- wp:image {"align":"right","id":22869,"width":307,"height":47,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/07/image-2.png)](./img/wp-content-uploads-2021-07-image-2.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/07/image-2.png)](./img/wp-content-uploads-2021-07-image-2.png)
 
 <!-- /wp:image -->
 
@@ -131,7 +131,7 @@ For other options see below.
 
 <!-- wp:paragraph -->
 
-_ConSteel_ can add the structure’s self-weight to one of the load cases if necessary. To do so, please select the appropriate load case at the bottom right corner of the dialog.
+_Consteel_ can add the structure’s self-weight to one of the load cases if necessary. To do so, please select the appropriate load case at the bottom right corner of the dialog.
 
 <!-- /wp:paragraph -->
 

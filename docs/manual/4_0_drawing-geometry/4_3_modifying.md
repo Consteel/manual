@@ -15,7 +15,7 @@ sidebar_position: 3
 
 <!-- wp:image {"align":"right","id":21967,"width":385,"height":212,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/06/dia_move-copy.png)](./img/wp-content-uploads-2021-06-dia_move-copy.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/06/dia_move-copy.png)](./img/wp-content-uploads-2021-06-dia_move-copy.png)
 
 <!-- /wp:image -->
 
@@ -103,7 +103,7 @@ As the first step select the UCS for mirroring (if it is needed), select objects
 
 <!-- wp:image {"align":"center","id":9261,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/5-4-mod-mir-dial.png)](./img/wp-content-uploads-2021-04-5-4-mod-mir-dial.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/5-4-mod-mir-dial.png)](./img/wp-content-uploads-2021-04-5-4-mod-mir-dial.png)
 
 <!-- /wp:image -->
 
@@ -127,7 +127,7 @@ The effects of the options are the same as described above.
 
 <!-- wp:image {"align":"center","id":9273,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/5-4-mod-rot-dial.png)](./img/wp-content-uploads-2021-04-5-4-mod-rot-dial.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/5-4-mod-rot-dial.png)](./img/wp-content-uploads-2021-04-5-4-mod-rot-dial.png)
 
 <!-- /wp:image -->
 
@@ -193,7 +193,7 @@ By selecting the **To equal parts** option the number of the segments or the len
 
 <!-- wp:image {"align":"center","id":9309,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/5-4-mod-divide-dial.png)](./img/wp-content-uploads-2021-04-5-4-mod-divide-dial.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/5-4-mod-divide-dial.png)](./img/wp-content-uploads-2021-04-5-4-mod-divide-dial.png)
 
 <!-- /wp:image -->
 
@@ -205,7 +205,7 @@ By selecting the two unequal parts option a series of relative or absolute lengt
 
 <!-- wp:image {"align":"center","id":9315,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/5-4-mod-divide-dial-2.png)](./img/wp-content-uploads-2021-04-5-4-mod-divide-dial-2.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/5-4-mod-divide-dial-2.png)](./img/wp-content-uploads-2021-04-5-4-mod-divide-dial-2.png)
 
 <!-- /wp:image -->
 
@@ -241,7 +241,7 @@ By selecting the two unequal parts option a series of relative or absolute lengt
 
 <!-- wp:image {"align":"center","id":9351,"width":361,"height":165,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/5-4-mod-chamfer-dial.png)](./img/wp-content-uploads-2021-04-5-4-mod-chamfer-dial.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/5-4-mod-chamfer-dial.png)](./img/wp-content-uploads-2021-04-5-4-mod-chamfer-dial.png)
 
 <!-- /wp:image -->
 

@@ -4,19 +4,19 @@ sidebar_position: 1
 # Earthquake analysis
 
 
-ConSteels can perform earthquake analysis is based on _**Modal response spectrum analysis**_ (MRSA), and it supports three different analysis types:
+Consteels can perform earthquake analysis is based on _**Modal response spectrum analysis**_ (MRSA), and it supports three different analysis types:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 
-- All modal shapes, CQC summation: ConSteel calculates the modal loads for all dynamic shapes, for all directions, and calculates the analysis results (displacements, internal forces) for each dynamic shape using first-order analysis. After this, it summarizes them with Eurocode’s CQC method. CQC summation method can give the highest expectable deformations and internal forces, based on a statistical method. Envelope diagrams of deformation and internal forces without signs are the result of the CQC summation
+- All modal shapes, CQC summation: Consteel calculates the modal loads for all dynamic shapes, for all directions, and calculates the analysis results (displacements, internal forces) for each dynamic shape using first-order analysis. After this, it summarizes them with Eurocode’s CQC method. CQC summation method can give the highest expectable deformations and internal forces, based on a statistical method. Envelope diagrams of deformation and internal forces without signs are the result of the CQC summation
 
 <!-- /wp:list -->
 
 <!-- wp:list -->
 
-- Single dominant mode: From the calculated dynamic shapes, ConSteel chooses the dominant one for each direction, and performs the calculation for one dominant shape for each direction. Modal loads for each direction are the results of the method.
+- Single dominant mode: From the calculated dynamic shapes, Consteel chooses the dominant one for each direction, and performs the calculation for one dominant shape for each direction. Modal loads for each direction are the results of the method.
 
 <!-- /wp:list -->
 

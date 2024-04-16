@@ -9,7 +9,7 @@ Members can be converted to plates with **_Convert members to plates_** function
 
 <!-- wp:image {"id":8817,"width":600,"height":330,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-6-Convert-members-to-plates.png)](./img/wp-content-uploads-2021-04-6-6-Convert-members-to-plates.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-6-Convert-members-to-plates.png)](./img/wp-content-uploads-2021-04-6-6-Convert-members-to-plates.png)
 
 <!-- /wp:image -->
 
@@ -45,7 +45,7 @@ By clicking on the **Apply** button the selected members will be converted to pl
 
 <!-- wp:image {"align":"center","id":22011,"height":500,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/scr_endsupp_member.png)](./img/wp-content-uploads-2021-04-scr_endsupp_member.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/scr_endsupp_member.png)](./img/wp-content-uploads-2021-04-scr_endsupp_member.png)
 
 Support at the end of a member
 
@@ -57,7 +57,7 @@ Support at the end of a member
 
 <!-- wp:image {"align":"center","id":21999,"height":500,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/scr_endsupp_dualmember.png)](./img/wp-content-uploads-2021-04-scr_endsupp_dualmember.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/scr_endsupp_dualmember.png)](./img/wp-content-uploads-2021-04-scr_endsupp_dualmember.png)
 
 Converted from 7DOF beam element type member
 
@@ -69,7 +69,7 @@ Converted from 7DOF beam element type member
 
 <!-- wp:image {"align":"center","id":22005,"height":500,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/scr_endsupp_dualshell.png)](./img/wp-content-uploads-2021-04-scr_endsupp_dualshell.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/scr_endsupp_dualshell.png)](./img/wp-content-uploads-2021-04-scr_endsupp_dualshell.png)
 
 Converted from Shell element type member
 

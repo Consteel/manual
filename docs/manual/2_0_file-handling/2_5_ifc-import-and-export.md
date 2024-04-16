@@ -21,7 +21,7 @@ The IFC specification is developed and maintained by **_buildingSMART In_ ternat
 
 <!-- wp:paragraph -->
 
-The IFC import function of ConSteel supports the importation of those ifc files, which were exported with the following format scheme:
+The IFC import function of Consteel supports the importation of those ifc files, which were exported with the following format scheme:
 
 <!-- /wp:paragraph -->
 
@@ -39,25 +39,25 @@ The IFC import function can be initiated from the Import submenu of File menu, w
 
 <!-- wp:image {"align":"center","id":7541,"width":281,"height":212,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/3-4-IFC-menu.png)](./img/wp-content-uploads-2021-04-3-4-IFC-menu.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/3-4-IFC-menu.png)](./img/wp-content-uploads-2021-04-3-4-IFC-menu.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-After selecting the IFC function, the import dialogue will appear. The path of the ifc file which should be imported can be given directly, or it can be browsed with the folders button. At the scale options, scaling of the imported model can be adjusted. Origo of the placement can be defined if it is desired, but if it is not, ConSteel will place the imported file into the global origo. For the plane of the placement the main planes, and user defined coordinate systems are also available to use.
+After selecting the IFC function, the import dialogue will appear. The path of the ifc file which should be imported can be given directly, or it can be browsed with the folders button. At the scale options, scaling of the imported model can be adjusted. Origo of the placement can be defined if it is desired, but if it is not, Consteel will place the imported file into the global origo. For the plane of the placement the main planes, and user defined coordinate systems are also available to use.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":7547,"width":258,"height":362,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/3-4-IFC-dialog.png)](./img/wp-content-uploads-2021-04-3-4-IFC-dialog.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/3-4-IFC-dialog.png)](./img/wp-content-uploads-2021-04-3-4-IFC-dialog.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-After clicking on the import button, the section conversion dialogue will appear, where section and material data from the ifc file can be assigned to ConSteel sections and materials. ConSteel will automatically try to assign sections to all members, using the section and material conversion table (located in the installation folder of ConSteel), but manual assignment is also possivle. In the left column of the conversion table, section names from the ifc file can be seen, followed by the material names coming from the ifc file. The next column stands for the assigned ConSteel sections and materials.
+After clicking on the import button, the section conversion dialogue will appear, where section and material data from the ifc file can be assigned to Consteel sections and materials. Consteel will automatically try to assign sections to all members, using the section and material conversion table (located in the installation folder of Consteel), but manual assignment is also possivle. In the left column of the conversion table, section names from the ifc file can be seen, followed by the material names coming from the ifc file. The next column stands for the assigned Consteel sections and materials.
 
 <!-- /wp:paragraph -->
 
@@ -75,13 +75,13 @@ There is two possible for the assignment of sections:
 
 <!-- wp:list {"className":"is-style-arrow"} -->
 
-- _Straightforward assignment_: In this case, the sections in the IFC file can be found in the conversion tables, and ConSteel will automatically assign the correct section
+- _Straightforward assignment_: In this case, the sections in the IFC file can be found in the conversion tables, and Consteel will automatically assign the correct section
 
 - _Partially straightforward assignment_:
 
-  - _„Standard macro sections” case_: If the section in the IFC file can not be found in the section conversion table, but the parameters of it fit a standard type of section (IPE for example), ConSteel will create a so-called „standard macro section”, and assign it to the section from the IFC file.  
-    If ConSteel is not able to assign any standard macro section to a section, using the (…) button, sections can be loaded from the section library at any time
-  - Macro section assignment: In case of sections, where the assignment can not be performed, ConSteel will draw the shape of the section at the properties side of the dialogue, providing some guidance about the type of the section, so the correct macro section can be loaded from the section administrator, using the (…) button.
+  - _„Standard macro sections” case_: If the section in the IFC file can not be found in the section conversion table, but the parameters of it fit a standard type of section (IPE for example), Consteel will create a so-called „standard macro section”, and assign it to the section from the IFC file.  
+    If Consteel is not able to assign any standard macro section to a section, using the (…) button, sections can be loaded from the section library at any time
+  - Macro section assignment: In case of sections, where the assignment can not be performed, Consteel will draw the shape of the section at the properties side of the dialogue, providing some guidance about the type of the section, so the correct macro section can be loaded from the section administrator, using the (…) button.
 
 <!-- /wp:list -->
 
@@ -253,7 +253,7 @@ After the assignments of the sections are performed, the table can be saved into
 
 <!-- wp:paragraph -->
 
-Members from ConSteel can be exported from into ifc format, too. The export process uses the following file format:
+Members from Consteel can be exported from into ifc format, too. The export process uses the following file format:
 
 <!-- /wp:paragraph -->
 
@@ -271,7 +271,7 @@ To export a model to IFC format, press the IFC button in the Export submenu of F
 
 <!-- wp:image {"align":"center","id":7561,"width":215,"height":134,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/3-4-IFC-export-menu.png)](./img/wp-content-uploads-2021-04-3-4-IFC-export-menu.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/3-4-IFC-export-menu.png)](./img/wp-content-uploads-2021-04-3-4-IFC-export-menu.png)
 
 <!-- /wp:image -->
 
@@ -284,7 +284,7 @@ Pressing the Export button again, will initiate the process, and the whole model
 
 <!-- wp:image {"align":"center","id":7567,"width":258,"height":362,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/3-4-IFC-export-dialog.png)](./img/wp-content-uploads-2021-04-3-4-IFC-export-dialog.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/3-4-IFC-export-dialog.png)](./img/wp-content-uploads-2021-04-3-4-IFC-export-dialog.png)
 
 <!-- /wp:image -->
 

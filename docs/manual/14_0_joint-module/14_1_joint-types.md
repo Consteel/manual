@@ -39,48 +39,48 @@ The module offers a number of strengthening possibilities such as: lower or/and 
 
 <!-- wp:image {"align":"center","id":9511,"width":1066,"height":512,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/14-2-types-1.jpg)](./img/wp-content-uploads-2021-04-14-2-types-1.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/14-2-types-1.jpg)](./img/wp-content-uploads-2021-04-14-2-types-1.jpg)
 
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"center","id":9517,"width":412,"height":522,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/14-2-types-2.jpg)](./img/wp-content-uploads-2021-04-14-2-types-2.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/14-2-types-2.jpg)](./img/wp-content-uploads-2021-04-14-2-types-2.jpg)
 
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"center","id":9523,"width":484,"height":534,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/14-2-types-3.jpg)](./img/wp-content-uploads-2021-04-14-2-types-3.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/14-2-types-3.jpg)](./img/wp-content-uploads-2021-04-14-2-types-3.jpg)
 
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"center","id":9529,"width":763,"height":601,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/14-2-types-4.jpg)](./img/wp-content-uploads-2021-04-14-2-types-4.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/14-2-types-4.jpg)](./img/wp-content-uploads-2021-04-14-2-types-4.jpg)
 
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"center","id":9535,"width":271,"height":409,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/14-2-types-5.jpg)](./img/wp-content-uploads-2021-04-14-2-types-5.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/14-2-types-5.jpg)](./img/wp-content-uploads-2021-04-14-2-types-5.jpg)
 
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"center","id":9541,"width":357,"height":404,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/14-2-types-6.jpg)](./img/wp-content-uploads-2021-04-14-2-types-6.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/14-2-types-6.jpg)](./img/wp-content-uploads-2021-04-14-2-types-6.jpg)
 
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"center","id":9547,"width":965,"height":569,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/14-2-types-7.png)](./img/wp-content-uploads-2021-04-14-2-types-7.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/14-2-types-7.png)](./img/wp-content-uploads-2021-04-14-2-types-7.png)
 
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"center","id":9553,"width":568,"height":422,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/14-2-types-8.png)](./img/wp-content-uploads-2021-04-14-2-types-8.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/14-2-types-8.png)](./img/wp-content-uploads-2021-04-14-2-types-8.png)
 
 <!-- /wp:image -->

@@ -193,7 +193,7 @@ For the two types of finite elements (line and surface elements) the following a
 
 <!-- wp:paragraph -->
 
-Effective management of the huge amount of data generated during the analysis is of great importance. It should be possible to review both general and accurate, detailed data for a given type of result. There are two main options for reviewing the analysis results: the graphical view and the result tables (for the general functionality of tables used in _ConSteel_ see section **_[General functions for tables](../1_0_general-description/1_4_general-functions-for-tables.md)_**).
+Effective management of the huge amount of data generated during the analysis is of great importance. It should be possible to review both general and accurate, detailed data for a given type of result. There are two main options for reviewing the analysis results: the graphical view and the result tables (for the general functionality of tables used in _Consteel_ see section **_[General functions for tables](../1_0_general-description/1_4_general-functions-for-tables.md)_**).
 
 <!-- /wp:paragraph -->
 
@@ -206,7 +206,7 @@ The results of the performed analysis are usually a huge amount of data so the e
 <!-- wp:list -->
 
 - **graphical visualization**
-- **result tables** _(for the general functionality of tables used in ConSteel_ see section **_[General functions for tables](../1_0_general-description/1_4_general-functions-for-tables.md)_**).
+- **result tables** _(for the general functionality of tables used in Consteel_ see section **_[General functions for tables](../1_0_general-description/1_4_general-functions-for-tables.md)_**).
 
 <!-- /wp:list -->
 
@@ -218,7 +218,7 @@ The two visualization options are obviously in strong connection and can be mani
 
 <!-- wp:image {"align":"center","id":22265,"width":938,"height":147,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/06/drop_anal_visual.png)](./img/wp-content-uploads-2021-06-drop_anal_visual.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/06/drop_anal_visual.png)](./img/wp-content-uploads-2021-06-drop_anal_visual.png)
 
 <!-- /wp:image -->
 
@@ -397,7 +397,7 @@ The fixed markers will appear on every result views where it has interpretable v
 
 <!-- wp:image {"align":"center","id":10782,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/8-6-3-RESULT-MARKERS.png)](./img/wp-content-uploads-2021-04-8-6-3-RESULT-MARKERS.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/8-6-3-RESULT-MARKERS.png)](./img/wp-content-uploads-2021-04-8-6-3-RESULT-MARKERS.png)
 
 <!-- /wp:image -->
 
@@ -409,7 +409,7 @@ Normal force
 
 <!-- wp:image {"align":"center","id":10788,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/8-6-3-Normal-force.png)](./img/wp-content-uploads-2021-04-8-6-3-Normal-force.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/8-6-3-Normal-force.png)](./img/wp-content-uploads-2021-04-8-6-3-Normal-force.png)
 
 <!-- /wp:image -->
 
@@ -421,13 +421,13 @@ Bending moment
 
 <!-- wp:image {"align":"center","id":10794,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/8-6-3-Bending-moment.png)](./img/wp-content-uploads-2021-04-8-6-3-Bending-moment.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/8-6-3-Bending-moment.png)](./img/wp-content-uploads-2021-04-8-6-3-Bending-moment.png)
 
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"center","id":10800,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/8-6-3-Bending-moment.2.jpg)](./img/wp-content-uploads-2021-04-8-6-3-Bending-moment.2.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/8-6-3-Bending-moment.2.jpg)](./img/wp-content-uploads-2021-04-8-6-3-Bending-moment.2.jpg)
 
 <!-- /wp:image -->
 
@@ -439,7 +439,7 @@ When there are fixed markers on the model the ‘User defined values’ table co
 
 <!-- wp:image {"align":"center","id":10806,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](./img/wp-content-uploads-2021-04-8-6-4-ENVELOPE-FIGURES.3-1024x76.png)](https://consteelsoftware.com/wp-content/uploads/2021/04/8-6-4-ENVELOPE-FIGURES.3.png)
+[![](./img/wp-content-uploads-2021-04-8-6-4-ENVELOPE-FIGURES.3-1024x76.png)](https://Consteelsoftware.com/wp-content/uploads/2021/04/8-6-4-ENVELOPE-FIGURES.3.png)
 
 <!-- /wp:image -->
 
@@ -470,13 +470,13 @@ Extreme values can automatically marked by the check boxes on the ‘Extreme val
 
 <!-- wp:paragraph -->
 
-In ConSteel, _min. max and min-max_ envelope figures are available both for _bar members_, and _shell models_ too. Envelope visualization of results can be accessed through the **load combination** dropdown menu of the **Analysis** tab, after a successful calculation. Envelope figures are available both for first, and second order results. By default, there are two envelope figures to choose from, one for all of the calculated ULS and one for all of the calculated SLS combinations. It is possible to create custom envelope figures, which are explained in detail in the chapter _[**User defined envelope figures**](#user-defined-envelope-figures)_.
+In Consteel, _min. max and min-max_ envelope figures are available both for _bar members_, and _shell models_ too. Envelope visualization of results can be accessed through the **load combination** dropdown menu of the **Analysis** tab, after a successful calculation. Envelope figures are available both for first, and second order results. By default, there are two envelope figures to choose from, one for all of the calculated ULS and one for all of the calculated SLS combinations. It is possible to create custom envelope figures, which are explained in detail in the chapter _[**User defined envelope figures**](#user-defined-envelope-figures)_.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":10812,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/8-6-4-ENVELOPE-FIGURES.png)](./img/wp-content-uploads-2021-04-8-6-4-ENVELOPE-FIGURES.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/8-6-4-ENVELOPE-FIGURES.png)](./img/wp-content-uploads-2021-04-8-6-4-ENVELOPE-FIGURES.png)
 
 <!-- /wp:image -->
 
@@ -502,7 +502,7 @@ There is a colour scheme for the envelope figures. Minimal values represented wi
 
 <!-- wp:image {"align":"center","id":10818,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](./img/wp-content-uploads-2021-04-8-6-4-ENVELOPE-FIGURES.2-1024x476.jpg)](https://consteelsoftware.com/wp-content/uploads/2021/04/8-6-4-ENVELOPE-FIGURES.2.jpg)
+[![](./img/wp-content-uploads-2021-04-8-6-4-ENVELOPE-FIGURES.2-1024x476.jpg)](https://Consteelsoftware.com/wp-content/uploads/2021/04/8-6-4-ENVELOPE-FIGURES.2.jpg)
 
 <!-- /wp:image -->
 
@@ -514,7 +514,7 @@ Placing flags on the envelope figures values is also possible. In this case, the
 
 <!-- wp:image {"align":"center","id":10824,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](./img/wp-content-uploads-2021-04-8-6-4-ENVELOPE-FIGURES.3-1-1024x76.png)](https://consteelsoftware.com/wp-content/uploads/2021/04/8-6-4-ENVELOPE-FIGURES.3-1.png)
+[![](./img/wp-content-uploads-2021-04-8-6-4-ENVELOPE-FIGURES.3-1-1024x76.png)](https://Consteelsoftware.com/wp-content/uploads/2021/04/8-6-4-ENVELOPE-FIGURES.3-1.png)
 
 <!-- /wp:image -->
 
@@ -532,7 +532,7 @@ Besides the default, built-in envelope options (all ULS and SLS combinations), i
 
 <!-- wp:image {"align":"center","id":10830,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/8-6-4-1-USER-DEFINED-ENVELOPE-FIGURES.png)](./img/wp-content-uploads-2021-04-8-6-4-1-USER-DEFINED-ENVELOPE-FIGURES.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/8-6-4-1-USER-DEFINED-ENVELOPE-FIGURES.png)](./img/wp-content-uploads-2021-04-8-6-4-1-USER-DEFINED-ENVELOPE-FIGURES.png)
 
 <!-- /wp:image -->
 
@@ -544,7 +544,7 @@ After clicking on the function, the **User-defined envelope** dialogue will appe
 
 <!-- wp:image {"align":"center","id":10836,"width":700,"height":702,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](./img/wp-content-uploads-2021-04-8-6-4-1-USER-DEFINED-ENVELOPE-FIGURES-1024x780.jpg)](https://consteelsoftware.com/wp-content/uploads/2021/04/8-6-4-1-USER-DEFINED-ENVELOPE-FIGURES.jpg)
+[![](./img/wp-content-uploads-2021-04-8-6-4-1-USER-DEFINED-ENVELOPE-FIGURES-1024x780.jpg)](https://Consteelsoftware.com/wp-content/uploads/2021/04/8-6-4-1-USER-DEFINED-ENVELOPE-FIGURES.jpg)
 
 <!-- /wp:image -->
 
@@ -570,7 +570,7 @@ If the Load combinations is selected at the parameters, the options of the dropd
 
 <!-- wp:image {"align":"center","id":10842,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/8-6-4-1-USER-DEFINED-ENVELOPE-FIGURES-2.png)](./img/wp-content-uploads-2021-04-8-6-4-1-USER-DEFINED-ENVELOPE-FIGURES-2.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/8-6-4-1-USER-DEFINED-ENVELOPE-FIGURES-2.png)](./img/wp-content-uploads-2021-04-8-6-4-1-USER-DEFINED-ENVELOPE-FIGURES-2.png)
 
 <!-- /wp:image -->
 
@@ -595,7 +595,7 @@ After the user-defined envelopes are created, they will be listed at the load co
 
 <!-- wp:image {"align":"center","id":10848,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/8-6-4-1-USER-DEFINED-ENVELOPE-FIGURES.4.png)](./img/wp-content-uploads-2021-04-8-6-4-1-USER-DEFINED-ENVELOPE-FIGURES.4.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/8-6-4-1-USER-DEFINED-ENVELOPE-FIGURES.4.png)](./img/wp-content-uploads-2021-04-8-6-4-1-USER-DEFINED-ENVELOPE-FIGURES.4.png)
 
 <!-- /wp:image -->
 
@@ -613,7 +613,7 @@ The show original shape of structure function ![](./img/wp-content-uploads-2021-
 
 <!-- wp:image {"align":"center","id":10854,"width":700,"height":481,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/8-6-4-SHOW-ORIGINAL-SHAPE-OF-STRUCTURE.png)](./img/wp-content-uploads-2021-04-8-6-4-SHOW-ORIGINAL-SHAPE-OF-STRUCTURE.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/8-6-4-SHOW-ORIGINAL-SHAPE-OF-STRUCTURE.png)](./img/wp-content-uploads-2021-04-8-6-4-SHOW-ORIGINAL-SHAPE-OF-STRUCTURE.png)
 
 <!-- /wp:image -->
 
@@ -631,7 +631,7 @@ The show original shape of structure function ![](./img/wp-content-uploads-2021-
 
 <!-- wp:image {"align":"center","id":10860,"width":700,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/8-6-5-TABLE-OF-DOMINANT-VALUES.png)](./img/wp-content-uploads-2021-04-8-6-5-TABLE-OF-DOMINANT-VALUES.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/8-6-5-TABLE-OF-DOMINANT-VALUES.png)](./img/wp-content-uploads-2021-04-8-6-5-TABLE-OF-DOMINANT-VALUES.png)
 
 <!-- /wp:image -->
 
@@ -664,7 +664,7 @@ The show original shape of structure function ![](./img/wp-content-uploads-2021-
 Single or multiple component selection is possible, the dominant values are always highlighted by colored cells, the ‘Dominant’ column contains the dominant components.
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/8-6-5-TABLE-OF-DOMINANT-VALUES.2.png)](./img/wp-content-uploads-2021-04-8-6-5-TABLE-OF-DOMINANT-VALUES.2.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/8-6-5-TABLE-OF-DOMINANT-VALUES.2.png)](./img/wp-content-uploads-2021-04-8-6-5-TABLE-OF-DOMINANT-VALUES.2.png)
 
 
 ### Animation of dynamic shapes
@@ -673,4 +673,4 @@ Single or multiple component selection is possible, the dominant values are alwa
 In the case of vibration analysis, the animation of the dynamic shapes can be reached to click on the ![](./img/wp-content-uploads-2021-04-cmd_anal_animation.png) icon. Animation speed can be increased and decreased with the slide bar.
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/8.6.6-ANIMATION-OF-DYNAMIC-SHAPES.jpg)](./img/wp-content-uploads-2021-04-8.6.6-ANIMATION-OF-DYNAMIC-SHAPES.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/8.6.6-ANIMATION-OF-DYNAMIC-SHAPES.jpg)](./img/wp-content-uploads-2021-04-8.6.6-ANIMATION-OF-DYNAMIC-SHAPES.jpg)

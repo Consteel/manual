@@ -15,7 +15,7 @@ Documentations can be exported into an editable _.docx_ format Word file. The ex
 
 <!-- wp:image {"align":"center","id":9695,"width":339,"height":202,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/14-3-msword.png)](./img/wp-content-uploads-2021-04-14-3-msword.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/14-3-msword.png)](./img/wp-content-uploads-2021-04-14-3-msword.png)
 
 <!-- /wp:image -->
 
@@ -31,13 +31,13 @@ After pressing the Microsoft Word button, the Documentation export dialogue will
 
 <!-- wp:image {"align":"center","id":9703,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/14-3-documentexport.png)](./img/wp-content-uploads-2021-04-14-3-documentexport.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/14-3-documentexport.png)](./img/wp-content-uploads-2021-04-14-3-documentexport.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-On the dialogue, the path of the exported file has to be given, by browsing it with the ![](./img/wp-content-uploads-2021-04-3dots-button.png) button. It is available (and required) to choose a Template for the exported document. Templates are a collection of styling settings, which will be applied to the exported Word file. By default, a ConSteel template is provided in the installation package, and it contains the same styling settings as the main ConSteel documentation. By selecting the **Use ConSteel template**, and pressing the **OK** button, ConSteel will generate a Word file of your documentation, which is the same in content and is as close as it can be in styling as the original one. Custom templates can also be used, please check chapter **[Create custom templates](#creating-custom-templates-for-ms-word-export)** to know more!
+On the dialogue, the path of the exported file has to be given, by browsing it with the ![](./img/wp-content-uploads-2021-04-3dots-button.png) button. It is available (and required) to choose a Template for the exported document. Templates are a collection of styling settings, which will be applied to the exported Word file. By default, a Consteel template is provided in the installation package, and it contains the same styling settings as the main Consteel documentation. By selecting the **Use Consteel template**, and pressing the **OK** button, Consteel will generate a Word file of your documentation, which is the same in content and is as close as it can be in styling as the original one. Custom templates can also be used, please check chapter **[Create custom templates](#creating-custom-templates-for-ms-word-export)** to know more!
 
 <!-- /wp:paragraph -->
 
@@ -57,7 +57,7 @@ When opening an exported documentation in Word for the first time, the table of 
 
 <!-- wp:image {"align":"center","id":9710,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/14-3-updatefield.png)](./img/wp-content-uploads-2021-04-14-3-updatefield.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/14-3-updatefield.png)](./img/wp-content-uploads-2021-04-14-3-updatefield.png)
 
 <!-- /wp:image -->
 
@@ -81,13 +81,13 @@ When opening an exported documentation in Word for the first time, the table of 
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-As it was mentioned in the previous chapter, the installation package of ConSteel contains a default template, which is filled up with the same styling settings, as the main documentation. This template can be found in the installation folder of ConSteel, which is _“C:\\Program Files\\ConSteel 13\\Data\\Export\\**ConSteel.dotx**”_ by default.
+As it was mentioned in the previous chapter, the installation package of Consteel contains a default template, which is filled up with the same styling settings, as the main documentation. This template can be found in the installation folder of Consteel, which is _“C:\\Program Files\\Consteel 13\\Data\\Export\\**Consteel.dotx**”_ by default.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-If a new template, with customized styling settings is desired to be created, the **_ConSteel.dotx_** file should be copied first. After opening the copied file, the change in stylings can be performed in the Styles dialogue of MS Word:
+If a new template, with customized styling settings is desired to be created, the **_Consteel.dotx_** file should be copied first. After opening the copied file, the change in stylings can be performed in the Styles dialogue of MS Word:
 
 <!-- /wp:paragraph -->
 
@@ -103,7 +103,7 @@ After the settings are made, the file should be saved in **.dotx** format (as th
 
 <!-- wp:image {"align":"center","id":9716,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/14-3-styles.png)](./img/wp-content-uploads-2021-04-14-3-styles.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/14-3-styles.png)](./img/wp-content-uploads-2021-04-14-3-styles.png)
 
 <!-- /wp:image -->
 

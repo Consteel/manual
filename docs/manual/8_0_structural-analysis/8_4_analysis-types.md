@@ -145,7 +145,7 @@ $$(K_s+K_g)U=P \rightarrow U=(K_s+K_g)^{-1}P$$
 
 <!-- wp:paragraph -->
 
-In a mechanical interpretation the eigenvalue analysis approximates the elastic critical load levels where the structure is subjected to some modes of loss of stability. Mathematically it means that the second order equation of (3) has no unique solution because the second order stiffness matrix is singular. In _ConSteel_ linear eigenvalue analysis is performed considering one parameter, conservative loading and that the geometric stiffness matrix depends linearly on the load factor (λ):
+In a mechanical interpretation the eigenvalue analysis approximates the elastic critical load levels where the structure is subjected to some modes of loss of stability. Mathematically it means that the second order equation of (3) has no unique solution because the second order stiffness matrix is singular. In _Consteel_ linear eigenvalue analysis is performed considering one parameter, conservative loading and that the geometric stiffness matrix depends linearly on the load factor (λ):
 
 <!-- /wp:paragraph -->
 
@@ -229,7 +229,7 @@ With the help of this function we get a summarized view of the buckling shapes o
 
 <!-- wp:image {"align":"center","id":10729,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/8-5-1-4-BUCKLING-SENSITIVITY.png)](./img/wp-content-uploads-2021-04-8-5-1-4-BUCKLING-SENSITIVITY.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/8-5-1-4-BUCKLING-SENSITIVITY.png)](./img/wp-content-uploads-2021-04-8-5-1-4-BUCKLING-SENSITIVITY.png)
 
 <!-- /wp:image -->
 
@@ -253,7 +253,7 @@ This analysis determines the critical member and critical section for each of th
 
 <!-- wp:paragraph -->
 
-In a mechanical interpretation, the dynamic eigenvalue analysis approximates the eigenfrequencies where the structure is subjected to some modes of free vibration. In _ConSteel_, linear eigenvalue analysis is performed considering the second-order stiffness matrix and the consistent mass matrix (**M**)
+In a mechanical interpretation, the dynamic eigenvalue analysis approximates the eigenfrequencies where the structure is subjected to some modes of free vibration. In _Consteel_, linear eigenvalue analysis is performed considering the second-order stiffness matrix and the consistent mass matrix (**M**)
 
 <!-- /wp:paragraph -->
 
@@ -313,7 +313,7 @@ To start a plastic analysis go to the **Analysis Settings** window of the **Anal
 
 <!-- wp:image {"align":"right","id":10738,"width":390,"height":388,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/8-5-2-PLASTIC-ANALYSIS.png)](./img/wp-content-uploads-2021-04-8-5-2-PLASTIC-ANALYSIS.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/8-5-2-PLASTIC-ANALYSIS.png)](./img/wp-content-uploads-2021-04-8-5-2-PLASTIC-ANALYSIS.png)
 
 <!-- /wp:image -->
 
@@ -331,7 +331,7 @@ In the first group, the conditions for the development of the plastic hinges can
 
 <!-- wp:image {"align":"right","id":22214,"width":392,"height":388,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/dia_anal_sub_plast.png)](./img/wp-content-uploads-2021-04-dia_anal_sub_plast.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/dia_anal_sub_plast.png)](./img/wp-content-uploads-2021-04-dia_anal_sub_plast.png)
 
 <!-- /wp:image -->
 
@@ -379,13 +379,13 @@ The solution process is as follows:
 
 <!-- wp:paragraph -->
 
-2a: If the stresses calculated at the load level specified by the user do not meet the conditions for the formation of the plastic hinge(s) at any point of the elements selected for plastic analysis, ConSteel raises the load level in steps until the first plastic hinge is formed.
+2a: If the stresses calculated at the load level specified by the user do not meet the conditions for the formation of the plastic hinge(s) at any point of the elements selected for plastic analysis, Consteel raises the load level in steps until the first plastic hinge is formed.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-2b: If there is a point at the user-specified load level where the plastic hinge would form, ConSteel reduces the load level in steps until the load level is found when the first plastic hinge is formed.
+2b: If there is a point at the user-specified load level where the plastic hinge would form, Consteel reduces the load level in steps until the load level is found when the first plastic hinge is formed.
 
 <!-- /wp:paragraph -->
 
@@ -397,13 +397,13 @@ The solution process is as follows:
 
 <!-- wp:image {"align":"center","id":10750,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/8-5-2-2-FIRST-ORDER.png)](./img/wp-content-uploads-2021-04-8-5-2-2-FIRST-ORDER.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/8-5-2-2-FIRST-ORDER.png)](./img/wp-content-uploads-2021-04-8-5-2-2-FIRST-ORDER.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-4: ConSteel further increases the load through the -_α-_ load factor using the changed stiffness matrix until the load level for the formation of the next plastic hinge is reached.
+4: Consteel further increases the load through the -_α-_ load factor using the changed stiffness matrix until the load level for the formation of the next plastic hinge is reached.
 
 <!-- /wp:paragraph -->
 
@@ -433,7 +433,7 @@ You can view the history of each load level step, its associated load factors, a
 
 <!-- wp:image {"align":"center","id":10756,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/8-5-2-2-FIRST-ORDER.2.png)](./img/wp-content-uploads-2021-04-8-5-2-2-FIRST-ORDER.2.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/8-5-2-2-FIRST-ORDER.2.png)](./img/wp-content-uploads-2021-04-8-5-2-2-FIRST-ORDER.2.png)
 
 <!-- /wp:image -->
 

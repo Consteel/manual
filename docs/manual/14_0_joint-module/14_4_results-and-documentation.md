@@ -9,18 +9,18 @@ The analysis results are displayed in two main forms: a summarized view containi
 
 <!-- wp:paragraph -->
 
-[](<http://consteel.hu/GetAssetFile/csjoint_documentation_1.jpg(121)>)
+[](<http://Consteel.hu/GetAssetFile/csjoint_documentation_1.jpg(121)>)
 
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":9818,"width":304,"height":442,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/15-5-docu.jpg)](./img/wp-content-uploads-2021-04-15-5-docu.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/15-5-docu.jpg)](./img/wp-content-uploads-2021-04-15-5-docu.jpg)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-The way for creating documentation is the same as in _ConSteel_ main module [**see here for more detailed instructions**](../13_0_documentation-2/13_1_the-document-tab.md).
+The way for creating documentation is the same as in _Consteel_ main module [**see here for more detailed instructions**](../13_0_documentation-2/13_1_the-document-tab.md).
 
 <!-- /wp:paragraph -->

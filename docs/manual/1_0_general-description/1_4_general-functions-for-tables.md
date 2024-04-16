@@ -3,7 +3,7 @@ sidebar_position: 4
 ---
 # General functions for tables
 
-Basically, there are two types of tables in _ConSteel_: the input tables and the output tables. Since tables are usually for working with a large amount of data, both table types have special features making the data managing more comfortable.
+Basically, there are two types of tables in _Consteel_: the input tables and the output tables. Since tables are usually for working with a large amount of data, both table types have special features making the data managing more comfortable.
 
 <!-- /wp:paragraph -->
 
@@ -22,7 +22,7 @@ Input tables (used in the **[_Load combinations_](../6_0_structural-loads/6_2_lo
 
 <!-- wp:image {"align":"center","id":11132,"width":322,"height":278,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/tables_multi_check.png)](./img/wp-content-uploads-2021-04-tables_multi_check.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/tables_multi_check.png)](./img/wp-content-uploads-2021-04-tables_multi_check.png)
 
 <!-- /wp:image -->
 
@@ -34,7 +34,7 @@ Input tables (used in the **[_Load combinations_](../6_0_structural-loads/6_2_lo
 
 <!-- wp:image {"align":"center","id":11138,"width":321,"height":276,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/tables_multi_value.png)](./img/wp-content-uploads-2021-04-tables_multi_value.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/tables_multi_value.png)](./img/wp-content-uploads-2021-04-tables_multi_value.png)
 
 <!-- /wp:image -->
 

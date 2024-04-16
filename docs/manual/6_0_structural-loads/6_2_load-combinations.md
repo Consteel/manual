@@ -95,7 +95,7 @@ For manually defined load combinations, the limit states can be selected. Seismi
 **Consteel 16**
 
 
-According to the actual _[structural design code](../1_0_general-description/1_2_the-main-window.md)_, load case combinations must be created from the _[load cases](./6_1_load-cases-and-load-groups.md#create-new-load-group)_. Load combinations can be created manually by defining the combination factors manually for each load case or can be created automatically by using the **Automatic load combination generation** function of _ConSteel_.
+According to the actual _[structural design code](../1_0_general-description/1_2_the-main-window.md)_, load case combinations must be created from the _[load cases](./6_1_load-cases-and-load-groups.md#create-new-load-group)_. Load combinations can be created manually by defining the combination factors manually for each load case or can be created automatically by using the **Automatic load combination generation** function of _Consteel_.
 
 <!-- /wp:paragraph -->
 
@@ -107,7 +107,7 @@ The load combinations can be managed in the table of load combinations which can
 
 <!-- wp:image {"align":"right","id":43854,"sizeSlug":"full","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/12/Kep1.png)](./img/wp-content-uploads-2022-12-Kep1.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/12/Kep1.png)](./img/wp-content-uploads-2022-12-Kep1.png)
 
 <!-- /wp:image -->
 
@@ -167,7 +167,7 @@ The yellow rows in the load combination table are the automatically generated co
 
 <!-- wp:image {"align":"center","id":43861,"sizeSlug":"full","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/12/Kep2.png)](./img/wp-content-uploads-2022-12-Kep2.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/12/Kep2.png)](./img/wp-content-uploads-2022-12-Kep2.png)
 
 <!-- /wp:image -->
 
@@ -183,7 +183,7 @@ The yellow rows in the load combination table are the automatically generated co
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-According to the actual _[structural design code](../1_0_general-description/1_2_the-main-window.md)_, load case combinations must be created from the _[load cases](./6_1_load-cases-and-load-groups.md#creating-new-load-case)_. Load combinations can be created manually by defining the combination factors manually for each load case or can be created automatically by using the **Automatic load combination generation** function of _ConSteel_.
+According to the actual _[structural design code](../1_0_general-description/1_2_the-main-window.md)_, load case combinations must be created from the _[load cases](./6_1_load-cases-and-load-groups.md#creating-new-load-case)_. Load combinations can be created manually by defining the combination factors manually for each load case or can be created automatically by using the **Automatic load combination generation** function of _Consteel_.
 
 <!-- /wp:paragraph -->
 
@@ -195,7 +195,7 @@ The load combinations can be managed in the table of load combinations which can
 
 <!-- wp:image {"align":"right","id":9943,"width":510,"height":320,"sizeSlug":"full","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-3-Load-combinations.png)](./img/wp-content-uploads-2021-04-7-3-Load-combinations.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-3-Load-combinations.png)](./img/wp-content-uploads-2021-04-7-3-Load-combinations.png)
 
 <!-- /wp:image -->
 
@@ -249,7 +249,7 @@ The yellow rows in the load combination table are the automatically generated co
 
 <!-- wp:image {"align":"right","id":9950,"width":432,"height":326,"sizeSlug":"full","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-3-Automatic-generation-of-load-combinations.png)](./img/wp-content-uploads-2021-04-7-3-Automatic-generation-of-load-combinations.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-3-Automatic-generation-of-load-combinations.png)](./img/wp-content-uploads-2021-04-7-3-Automatic-generation-of-load-combinations.png)
 
 <!-- /wp:image -->
 
@@ -287,7 +287,7 @@ From Consteel 16, it is possible to create load combination sets for different p
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"textColor":"consteel-blue"} -->
+<!-- wp:paragraph {"textColor":"Consteel-blue"} -->
 
 To use the load combination set for the analysis, select it from the drop-down menu on **Analysis parameters - [Subpage of load combinations](../8_0_structural-analysis/8_3_analysis-settings.md#subpage-of-load-combinations)**.
 
@@ -521,7 +521,7 @@ The checkboxes are indicators of the content of the list below and also the tool
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"textColor":"consteel-blue"} -->
+<!-- wp:paragraph {"textColor":"Consteel-blue"} -->
 
 For definition of the rules, see **_Chapter [Rules](#rules)_**.
 

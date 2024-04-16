@@ -9,13 +9,13 @@ The fire effect and protection can be defined by clicking the **Define fire effe
 
 <!-- wp:image {"align":"center","id":8584,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/12-2-fire-effect-and-protection.png)](./img/wp-content-uploads-2021-04-12-2-fire-effect-and-protection.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/12-2-fire-effect-and-protection.png)](./img/wp-content-uploads-2021-04-12-2-fire-effect-and-protection.png)
 
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"center","id":8590,"width":267,"height":328,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/12-2-define-fire-effect.png)](./img/wp-content-uploads-2021-04-12-2-define-fire-effect.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/12-2-define-fire-effect.png)](./img/wp-content-uploads-2021-04-12-2-define-fire-effect.png)
 
 <!-- /wp:image -->
 
@@ -39,7 +39,7 @@ By clicking on the three-dot button next to the _Fire protection data_ label, di
 
 <!-- wp:image {"align":"right","id":8596,"width":456,"height":228,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/12-2-passive-protection.png)](./img/wp-content-uploads-2021-04-12-2-passive-protection.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/12-2-passive-protection.png)](./img/wp-content-uploads-2021-04-12-2-passive-protection.png)
 
 <!-- /wp:image -->
 

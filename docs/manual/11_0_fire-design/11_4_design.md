@@ -9,7 +9,7 @@ sidebar_position: 4
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-_**ConSteel**_ performs cross section resistance and buckling checks for all steel members which are subjected to fire effect by using the adequate formulas from the EuroCode 3 standard.
+_**Consteel**_ performs cross section resistance and buckling checks for all steel members which are subjected to fire effect by using the adequate formulas from the EuroCode 3 standard.
 
 <!-- /wp:paragraph -->
 
@@ -171,7 +171,7 @@ $k_{y,\Theta ,web}\qquad \qquad $ the hottest point in the web
 
 <!-- wp:paragraph -->
 
-**In case of complex internal forces _ConSteel_ use the conservative interaction formula neglecting the effect of shear:**
+**In case of complex internal forces _Consteel_ use the conservative interaction formula neglecting the effect of shear:**
 
 <!-- /wp:paragraph -->
 
@@ -189,7 +189,7 @@ $\dfrac {N_{fi,Ed}} {N_{fi,\Theta ,Ed}}+\dfrac {M_{y,fi,Ed}} {M_{y,fi,\Theta ,Ed
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-To calculate the global stability resistance for fire design situation, _ConSteel_ uses EuroCode General method (EN 1993-1-1 6.3.4) as for normal temperature but using the proper buckling curves:
+To calculate the global stability resistance for fire design situation, _Consteel_ uses EuroCode General method (EN 1993-1-1 6.3.4) as for normal temperature but using the proper buckling curves:
 
 <!-- /wp:paragraph -->
 
@@ -236,7 +236,7 @@ The critical temperature calculation can be activated in the design settings win
 
 <!-- wp:image {"align":"center","id":9402,"width":530,"height":370,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/12-4-critical-temperature.png)](./img/wp-content-uploads-2021-04-12-4-critical-temperature.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/12-4-critical-temperature.png)](./img/wp-content-uploads-2021-04-12-4-critical-temperature.png)
 
 <!-- /wp:image -->
 
@@ -248,13 +248,13 @@ The results of the calculation can be queried in the **Design Parameters** drop-
 
 <!-- wp:image {"align":"center","id":9408,"width":822,"height":365,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](./img/wp-content-uploads-2021-04-12-4-critical-temperature2-1024x455.png)](https://consteelsoftware.com/wp-content/uploads/2021/04/12-4-critical-temperature2.png)
+[![](./img/wp-content-uploads-2021-04-12-4-critical-temperature2-1024x455.png)](https://Consteelsoftware.com/wp-content/uploads/2021/04/12-4-critical-temperature2.png)
 
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"center","id":9415,"width":530,"height":378,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/12-4-critical-temperature3.png)](./img/wp-content-uploads-2021-04-12-4-critical-temperature3.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/12-4-critical-temperature3.png)](./img/wp-content-uploads-2021-04-12-4-critical-temperature3.png)
 
 <!-- /wp:image -->
 

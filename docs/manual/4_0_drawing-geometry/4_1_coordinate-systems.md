@@ -3,13 +3,13 @@ sidebar_position: 1
 ---
 # Coordinate systems
 
-For the appropriate modeling and interpretation of the analysis and design results, it is of high importance to be aware of the applied coordinate systems. This section summarizes in detail all the coordinate systems used in the _ConSteel_.
+For the appropriate modeling and interpretation of the analysis and design results, it is of high importance to be aware of the applied coordinate systems. This section summarizes in detail all the coordinate systems used in the _Consteel_.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:media-text {"align":"","mediaId":8108,"linkDestination":"media","mediaType":"image","mediaWidth":18,"mediaSizeSlug":"full","imageFill":false} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/5-2-coord-systems.png)](./img/wp-content-uploads-2021-04-5-2-coord-systems.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/5-2-coord-systems.png)](./img/wp-content-uploads-2021-04-5-2-coord-systems.png)
 
 <!-- wp:paragraph {"placeholder":"Content…"} -->
 
@@ -21,7 +21,7 @@ Two different types of coordinate systems can be used: the rectangular Descartes
 
 <!-- wp:media-text {"align":"","mediaId":8102,"linkDestination":"media","mediaType":"image","mediaWidth":18,"mediaSizeSlug":"full","imageFill":false} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/5-2-coord-rigth-hand.png)](./img/wp-content-uploads-2021-04-5-2-coord-rigth-hand.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/5-2-coord-rigth-hand.png)](./img/wp-content-uploads-2021-04-5-2-coord-rigth-hand.png)
 
 <!-- wp:paragraph {"placeholder":"Content…"} -->
 
@@ -70,7 +70,7 @@ In case of cross-sections (2D modeling of sections):
 
 <!-- wp:image {"id":8117,"width":345,"height":345,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/5-2-coord-section.jpg)](./img/wp-content-uploads-2021-04-5-2-coord-section.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/5-2-coord-section.jpg)](./img/wp-content-uploads-2021-04-5-2-coord-section.jpg)
 
 <!-- /wp:image -->
 
@@ -98,7 +98,7 @@ The tools for creating and modifying the coordinate systems can be reached by th
 
 <!-- wp:image {"id":8123,"width":289,"height":172,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/5-2-coord-set.png)](./img/wp-content-uploads-2021-04-5-2-coord-set.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/5-2-coord-set.png)](./img/wp-content-uploads-2021-04-5-2-coord-set.png)
 
 <!-- /wp:image -->
 
@@ -110,7 +110,7 @@ The User coordinates system can be switched on (or switched back to the global s
 
 <!-- wp:image {"id":8259,"width":261,"height":50,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/5-2-coord-status-bar.png)](./img/wp-content-uploads-2021-04-5-2-coord-status-bar.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/5-2-coord-status-bar.png)](./img/wp-content-uploads-2021-04-5-2-coord-status-bar.png)
 
 <!-- /wp:image -->
 
@@ -175,7 +175,7 @@ The reference line of bar members defines the axis “x” of the local coordina
 
 <!-- wp:media-text {"align":"","mediaId":8272,"linkDestination":"media","mediaType":"image","mediaWidth":23,"mediaSizeSlug":"full","imageFill":false} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/5-2-coord-bar1.png)](./img/wp-content-uploads-2021-04-5-2-coord-bar1.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/5-2-coord-bar1.png)](./img/wp-content-uploads-2021-04-5-2-coord-bar1.png)
 
 <!-- wp:paragraph {"placeholder":"Content…"} -->
 
@@ -187,7 +187,7 @@ In the basic case, the local coordinate system of a bar can be determined consid
 
 <!-- wp:media-text {"align":"","mediaId":8278,"linkDestination":"media","mediaType":"image","mediaWidth":23,"mediaSizeSlug":"full","imageFill":false} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/5-2-coord-bar2.png)](./img/wp-content-uploads-2021-04-5-2-coord-bar2.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/5-2-coord-bar2.png)](./img/wp-content-uploads-2021-04-5-2-coord-bar2.png)
 
 <!-- wp:paragraph {"placeholder":"Content…"} -->
 
@@ -199,7 +199,7 @@ In the case of a generally positioned beam member (not a column with a vertical 
 
 <!-- wp:media-text {"align":"","mediaId":8284,"linkDestination":"media","mediaType":"image","mediaWidth":23,"mediaSizeSlug":"full","imageFill":false} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/5-2-coord-bar3.png)](./img/wp-content-uploads-2021-04-5-2-coord-bar3.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/5-2-coord-bar3.png)](./img/wp-content-uploads-2021-04-5-2-coord-bar3.png)
 
 <!-- wp:paragraph {"placeholder":"Content…"} -->
 
@@ -211,7 +211,7 @@ In the case of a vertical reference line (column members) the local axis “y”
 
 <!-- wp:media-text {"align":"","mediaId":8290,"linkDestination":"media","mediaType":"image","mediaWidth":23,"mediaSizeSlug":"full","imageFill":false} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/image-3.png)](./img/wp-content-uploads-2021-04-image-3.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/image-3.png)](./img/wp-content-uploads-2021-04-image-3.png)
 
 <!-- wp:paragraph {"placeholder":"Content…"} -->
 
@@ -265,7 +265,7 @@ By creating a plane surface element with a polyline border:
 
 <!-- wp:image {"align":"center","id":8296,"width":547,"height":433,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/5-2-coord-surf.png)](./img/wp-content-uploads-2021-04-5-2-coord-surf.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/5-2-coord-surf.png)](./img/wp-content-uploads-2021-04-5-2-coord-surf.png)
 
 <!-- /wp:image -->
 

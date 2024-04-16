@@ -10,7 +10,7 @@ Sections must be loaded into the model database in order to use them in the mode
 
 <!-- wp:image {"align":"center","id":21905,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/dial_section_admin.png)](./img/wp-content-uploads-2021-04-dial_section_admin.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/dial_section_admin.png)](./img/wp-content-uploads-2021-04-dial_section_admin.png)
 
 
 The main part of the window is the table of sections that contains the following columns:

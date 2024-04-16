@@ -13,7 +13,7 @@ The modeling of various web stiffeners is currently available for welded I- or H
 
 <!-- wp:image {"align":"center","id":11456,"width":392,"height":224,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/05/scr_dualbeam_stiff_hidden.png)](./img/wp-content-uploads-2021-05-scr_dualbeam_stiff_hidden.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/05/scr_dualbeam_stiff_hidden.png)](./img/wp-content-uploads-2021-05-scr_dualbeam_stiff_hidden.png)
 
 <!-- /wp:image -->
 
@@ -23,7 +23,7 @@ The modeling of various web stiffeners is currently available for welded I- or H
 
 <!-- wp:image {"align":"center","id":11462,"width":389,"height":224,"sizeSlug":"full","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/05/scr_dualbeam_stiff_mesh.png)](./img/wp-content-uploads-2021-05-scr_dualbeam_stiff_mesh.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/05/scr_dualbeam_stiff_mesh.png)](./img/wp-content-uploads-2021-05-scr_dualbeam_stiff_mesh.png)
 
 <!-- /wp:image -->
 
@@ -49,7 +49,7 @@ Stiffeners can be placed on the webs of welded I or H sections, regardless of th
 
 <!-- wp:image {"align":"right","id":11480,"width":237,"height":260,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/05/dial_dual_stiff_perp.png)](./img/wp-content-uploads-2021-05-dial_dual_stiff_perp.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/05/dial_dual_stiff_perp.png)](./img/wp-content-uploads-2021-05-dial_dual_stiff_perp.png)
 
 <!-- /wp:image -->
 
@@ -59,7 +59,7 @@ Stiffeners can be placed on the webs of welded I or H sections, regardless of th
 
 <!-- wp:image {"align":"center","id":11474,"width":237,"height":260,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/05/dial_dual_stiff_paral.png)](./img/wp-content-uploads-2021-05-dial_dual_stiff_paral.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/05/dial_dual_stiff_paral.png)](./img/wp-content-uploads-2021-05-dial_dual_stiff_paral.png)
 
 <!-- /wp:image -->
 
@@ -69,7 +69,7 @@ Stiffeners can be placed on the webs of welded I or H sections, regardless of th
 
 <!-- wp:image {"align":"left","id":11468,"width":237,"height":260,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/05/dial_dual_stiff_section.png)](./img/wp-content-uploads-2021-05-dial_dual_stiff_section.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/05/dial_dual_stiff_section.png)](./img/wp-content-uploads-2021-05-dial_dual_stiff_section.png)
 
 <!-- /wp:image -->
 
@@ -97,19 +97,19 @@ In the _Parameters_ section, the reference object of the stiffener can be define
 
 - reference line of the member,
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/05/dial_dual_stiff_fit_refline.png)](./img/wp-content-uploads-2021-05-dial_dual_stiff_fit_refline.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/05/dial_dual_stiff_fit_refline.png)](./img/wp-content-uploads-2021-05-dial_dual_stiff_fit_refline.png)
 
 - middle line of the web,
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/05/dial_dual_stiff_fit_webmid.png)](./img/wp-content-uploads-2021-05-dial_dual_stiff_fit_webmid.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/05/dial_dual_stiff_fit_webmid.png)](./img/wp-content-uploads-2021-05-dial_dual_stiff_fit_webmid.png)
 
 - top flange,
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/05/dial_dual_stiff_fit_top.png)](./img/wp-content-uploads-2021-05-dial_dual_stiff_fit_top.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/05/dial_dual_stiff_fit_top.png)](./img/wp-content-uploads-2021-05-dial_dual_stiff_fit_top.png)
 
 - bottom flange.
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/05/dial_dual_stiff_fit_bottom.png)](./img/wp-content-uploads-2021-05-dial_dual_stiff_fit_bottom.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/05/dial_dual_stiff_fit_bottom.png)](./img/wp-content-uploads-2021-05-dial_dual_stiff_fit_bottom.png)
 
 <!-- /wp:image -->
 
@@ -125,7 +125,7 @@ The selected option not only defines the stiffener reference object but also det
 
 <!-- wp:image {"align":"center","id":11557,"width":380,"height":288,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/05/scr_dualbeam_stiff_ref.png)](./img/wp-content-uploads-2021-05-scr_dualbeam_stiff_ref.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/05/scr_dualbeam_stiff_ref.png)](./img/wp-content-uploads-2021-05-scr_dualbeam_stiff_ref.png)
 
 <!-- /wp:image -->
 
@@ -229,7 +229,7 @@ warping support in the FE model
 
 <!-- wp:paragraph -->
 
-For the calculation method used in Consteel for calculating the warping stiffness of warping supports see the following page: **_[Discrete warping restraint](https://www.consteelsoftware.com/knowledgebase/discrete-warping-restraint/)_**
+For the calculation method used in Consteel for calculating the warping stiffness of warping supports see the following page: **_[Discrete warping restraint](https://www.Consteelsoftware.com/knowledgebase/discrete-warping-restraint/)_**
 
 <!-- /wp:paragraph -->
 

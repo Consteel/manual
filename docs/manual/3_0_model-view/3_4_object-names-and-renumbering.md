@@ -37,7 +37,7 @@ To renumbering the objects first select the relevant objects, then click on the 
 
 <!-- wp:image {"align":"center","id":7830,"width":737,"height":608,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/4-5-renumberung.png)](./img/wp-content-uploads-2021-04-4-5-renumberung.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/4-5-renumberung.png)](./img/wp-content-uploads-2021-04-4-5-renumberung.png)
 
 <!-- /wp:image -->
 

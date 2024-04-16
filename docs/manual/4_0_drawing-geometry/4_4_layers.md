@@ -9,7 +9,7 @@ All CAD systems have a layer concept of some sort. Objects are placed on appropr
 
 <!-- wp:image {"align":"center","id":32727,"width":521,"height":237,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/02/Dlg.jpg)](./img/wp-content-uploads-2022-02-Dlg.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/02/Dlg.jpg)](./img/wp-content-uploads-2022-02-Dlg.jpg)
 
 <!-- /wp:image -->
 

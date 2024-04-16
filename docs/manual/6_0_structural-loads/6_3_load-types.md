@@ -9,7 +9,7 @@ Any placed load will belong to the load case selected from the list.
 
 <!-- wp:image {"align":"center","id":9958,"width":556,"height":71,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Load-types.png)](./img/wp-content-uploads-2021-04-7-4-Load-types.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-4-Load-types.png)](./img/wp-content-uploads-2021-04-7-4-Load-types.png)
 
 <!-- /wp:image -->
 
@@ -33,7 +33,7 @@ Point loads can be placed according to the **Global (**![](./img/wp-content-uplo
 
 <!-- wp:image {"align":"center","id":9965,"width":299,"height":212,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Point-load.png)](./img/wp-content-uploads-2021-04-7-4-Point-load.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-4-Point-load.png)](./img/wp-content-uploads-2021-04-7-4-Point-load.png)
 
 <!-- /wp:image -->
 
@@ -45,7 +45,7 @@ Eccentricity can be applied on the point load also. The effect of the selected c
 
 <!-- wp:image {"align":"center","id":9971,"width":300,"height":244,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Point-load-types.png)](./img/wp-content-uploads-2021-04-7-4-Point-load-types.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-4-Point-load-types.png)](./img/wp-content-uploads-2021-04-7-4-Point-load-types.png)
 
 <!-- /wp:image -->
 
@@ -69,7 +69,7 @@ Line loads can be placed according to the **Global (**![](./img/wp-content-uploa
 
 <!-- wp:image {"align":"center","id":9977,"width":342,"height":334,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Line-load.png)](./img/wp-content-uploads-2021-04-7-4-Line-load.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-4-Line-load.png)](./img/wp-content-uploads-2021-04-7-4-Line-load.png)
 
 <!-- /wp:image -->
 
@@ -83,13 +83,13 @@ If just a partial line load need to be applied along the member then there are t
 1. The first way is to use the draw function (![](./img/wp-content-uploads-2021-04-cmd_draw.png)) and set the start point and the endpoint of the line load. This function can be used both for linear and curved members in accordance with the selected drawing function.
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Line-load-1_1.jpg)](./img/wp-content-uploads-2021-04-7-4-Line-load-1_1.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-4-Line-load-1_1.jpg)](./img/wp-content-uploads-2021-04-7-4-Line-load-1_1.jpg)
 
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"center","id":9991,"width":326,"height":453,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Line-load-1_2.png)](./img/wp-content-uploads-2021-04-7-4-Line-load-1_2.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-4-Line-load-1_2.png)](./img/wp-content-uploads-2021-04-7-4-Line-load-1_2.png)
 
 <!-- /wp:image -->
 
@@ -105,7 +105,7 @@ If just a partial line load need to be applied along the member then there are t
 
 <!-- wp:image {"align":"right","id":9997,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Line-load-2_1.png)](./img/wp-content-uploads-2021-04-7-4-Line-load-2_1.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-4-Line-load-2_1.png)](./img/wp-content-uploads-2021-04-7-4-Line-load-2_1.png)
 
 <!-- /wp:image -->
 
@@ -115,7 +115,7 @@ If just a partial line load need to be applied along the member then there are t
 
 <!-- wp:image {"align":"left","id":10003,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Line-load-2_2.png)](./img/wp-content-uploads-2021-04-7-4-Line-load-2_2.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-4-Line-load-2_2.png)](./img/wp-content-uploads-2021-04-7-4-Line-load-2_2.png)
 
 <!-- /wp:image -->
 
@@ -125,7 +125,7 @@ If just a partial line load need to be applied along the member then there are t
 
 <!-- wp:image {"align":"center","id":10016,"sizeSlug":"full","linkDestination":"media","className":"caption-align-default"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Line-load-2_3-1.png)](./img/wp-content-uploads-2021-04-7-4-Line-load-2_3-1.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-4-Line-load-2_3-1.png)](./img/wp-content-uploads-2021-04-7-4-Line-load-2_3-1.png)
 
 <!-- /wp:image -->
 
@@ -143,7 +143,7 @@ Eccentricity can be applied on the line load also. The effect of the selected co
 
 <!-- wp:image {"align":"center","id":13983,"width":323,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](./img/wp-content-uploads-2021-05-7-4-Line-load-types-edited.png)](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Line-load-types.png)
+[![](./img/wp-content-uploads-2021-05-7-4-Line-load-types-edited.png)](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-4-Line-load-types.png)
 
 <!-- /wp:image -->
 
@@ -161,7 +161,7 @@ By clicking the ![](./img/wp-content-uploads-2021-04-cmd_draw_get.png) icon, the
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Line wind load is a great tool to apply wind load to members easily. It saves time because only the basic data must be added and _ConSteel_ automatically calculates the appropriate wind load.
+Line wind load is a great tool to apply wind load to members easily. It saves time because only the basic data must be added and _Consteel_ automatically calculates the appropriate wind load.
 
 <!-- /wp:paragraph -->
 
@@ -179,7 +179,7 @@ The line wind load related functions can be found on the Wind load tab of Line L
 
 <!-- wp:image {"align":"center","id":10030,"width":342,"height":430,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Line-load-wind-action.png)](./img/wp-content-uploads-2021-04-7-4-Line-load-wind-action.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-4-Line-load-wind-action.png)](./img/wp-content-uploads-2021-04-7-4-Line-load-wind-action.png)
 
 <!-- /wp:image -->
 
@@ -191,7 +191,7 @@ As a first parameter, the _Velocity pressure_ has to be added, or by clicking on
 
 <!-- wp:image {"align":"center","id":10037,"width":754,"height":280,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Velocity-pressure.png)](./img/wp-content-uploads-2021-04-7-4-Velocity-pressure.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-4-Velocity-pressure.png)](./img/wp-content-uploads-2021-04-7-4-Velocity-pressure.png)
 
 <!-- /wp:image -->
 
@@ -209,7 +209,7 @@ _External pressure_ can be set by clicking on the three dots button (![](./img/w
 
 <!-- wp:image {"align":"center","id":10043,"width":224,"height":445,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-External-pressure-coefficients.png)](./img/wp-content-uploads-2021-04-7-4-External-pressure-coefficients.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-4-External-pressure-coefficients.png)](./img/wp-content-uploads-2021-04-7-4-External-pressure-coefficients.png)
 
 <!-- /wp:image -->
 
@@ -221,7 +221,7 @@ To calculate the correct _External Pressure_ values it is necessary to give geom
 
 <!-- wp:image {"align":"center","id":10050,"width":392,"height":208,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Windload-generation-geometric-parameters.png)](./img/wp-content-uploads-2021-04-7-4-Windload-generation-geometric-parameters.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-4-Windload-generation-geometric-parameters.png)](./img/wp-content-uploads-2021-04-7-4-Windload-generation-geometric-parameters.png)
 
 <!-- /wp:image -->
 
@@ -263,7 +263,7 @@ Pressing the Place loads icon (![](./img/wp-content-uploads-2021-04-cmd_placeloa
 
 <!-- wp:image {"align":"center","id":10057,"width":828,"height":445,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Created-line-wind-load.png)](./img/wp-content-uploads-2021-04-7-4-Created-line-wind-load.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-4-Created-line-wind-load.png)](./img/wp-content-uploads-2021-04-7-4-Created-line-wind-load.png)
 
 <!-- /wp:image -->
 
@@ -281,13 +281,13 @@ Pressing the Place loads icon (![](./img/wp-content-uploads-2021-04-cmd_placeloa
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Line snow load is a great tool to apply snow load to members easily. It saves time because only the basic data must be added and _ConSteel_ automatically calculates the appropriate snow load.
+Line snow load is a great tool to apply snow load to members easily. It saves time because only the basic data must be added and _Consteel_ automatically calculates the appropriate snow load.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":13989,"width":342,"height":430,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/dia_load_line_snow.png)](./img/wp-content-uploads-2021-04-dia_load_line_snow.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/dia_load_line_snow.png)](./img/wp-content-uploads-2021-04-dia_load_line_snow.png)
 
 <!-- /wp:image -->
 
@@ -305,7 +305,7 @@ The snow load parameters are automatically loaded from the selected NA, but all 
 As a first step the _Shape factor_ has to be set, by clicking on the three dots button (![](./img/wp-content-uploads-2021-04-3dots-button.png)).
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Snow-load.png)](./img/wp-content-uploads-2021-04-7-4-Snow-load.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-4-Snow-load.png)](./img/wp-content-uploads-2021-04-7-4-Snow-load.png)
 
 
 To define the shape factor it is necessary to select the _Surface type_ (flat roof, duopitch roof, etc.) from the dropdown menu. If the _Surface_ type is selected, then the parameters of the previously selected member(s) are automatically loaded and the shape factor is calculated.
@@ -332,7 +332,7 @@ Surface load can be defined in three ways. No surface moment loads can be placed
 - **Wind** load
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/dia_load_surf_unif.png)](./img/wp-content-uploads-2021-04-dia_load_surf_unif.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/dia_load_surf_unif.png)](./img/wp-content-uploads-2021-04-dia_load_surf_unif.png)
 
 
 #### Uniform surface load
@@ -347,13 +347,13 @@ Using the selection function (![](./img/wp-content-uploads-2021-04-ico-pointer.p
 For partially surface loads the drawing (![](./img/wp-content-uploads-2021-04-cmd_draw.png)) function must be selected. The last 3 shortcuts will then be active, with which it is possible to draw rectangular, circular or polygonal surfaces.
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Uniform-surface-load_1.png)](./img/wp-content-uploads-2021-04-7-4-Uniform-surface-load_1.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-4-Uniform-surface-load_1.png)](./img/wp-content-uploads-2021-04-7-4-Uniform-surface-load_1.png)
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Uniform-surface-load_2.png)](./img/wp-content-uploads-2021-04-7-4-Uniform-surface-load_2.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-4-Uniform-surface-load_2.png)](./img/wp-content-uploads-2021-04-7-4-Uniform-surface-load_2.png)
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Uniform-surface-load_3.png)](./img/wp-content-uploads-2021-04-7-4-Uniform-surface-load_3.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-4-Uniform-surface-load_3.png)](./img/wp-content-uploads-2021-04-7-4-Uniform-surface-load_3.png)
 
 
 To place the load, first select the surface to be loaded and then draw the boundary edges of the load according to the instructions in the information field of the dialog. In the case of a polygon load, after entering the last corner point, you can use the right mouse button to complete the load definition.
@@ -362,7 +362,7 @@ To place the load, first select the surface to be loaded and then draw the bound
 #### Linearly varying surface load
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/dia_load_surf_linear.jpg)](./img/wp-content-uploads-2021-04-dia_load_surf_linear.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/dia_load_surf_linear.jpg)](./img/wp-content-uploads-2021-04-dia_load_surf_linear.jpg)
 
 
 To define a linearly varying surface load, you must first specify the direction of the load in the top line of the dialog.
@@ -383,7 +383,7 @@ After entering the data, the surface must first be selected to place the load on
 In the case of a drawn (![](./img/wp-content-uploads-2021-04-cmd_draw.png)) load specification, after selecting the surface, first, draw the loaded part of the surface as described in the previous point, and then enter the intensity determining points.
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Create-surface-load.png)](./img/wp-content-uploads-2021-04-7-4-Create-surface-load.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-4-Create-surface-load.png)](./img/wp-content-uploads-2021-04-7-4-Create-surface-load.png)
 
 
 #### Wind load
@@ -401,7 +401,7 @@ The definition of the surface wind load should begin by specifying the velocity 
 Load transfer surface (LTS) is a special surface that distributes surface loads to members as line loads. This is very useful in those cases when surface load needs to be distributed to members, like floor loads, snow and wind load, etc.
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/dia_LTS.png)](./img/wp-content-uploads-2021-04-dia_LTS.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/dia_LTS.png)](./img/wp-content-uploads-2021-04-dia_LTS.png)
 
 
 After clicking on the **_Load transfer surface_** (![](./img/wp-content-uploads-2021-04-cmd_load_LTS.png)) icon on the **Loads** tab a dialog window appears.
@@ -410,7 +410,7 @@ After clicking on the **_Load transfer surface_** (![](./img/wp-content-uploads-
 Just like in the two-dimensional figure drawing there are different possibilities to draw the surface: draw a rectangle, draw a leaning rectangle, draw a circle, or draw a polygon. After drawing the surface it is possible to select the members to which the surface distributes the load. There are two options: distribute the load to the selected members or distribute the load to all members covered by the surface in the surface plane. If the second option is clicked then the appropriate members will be highlighted. If none of the options is clicked, then the second one will be applied as a default.
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Edit-load-transfer-surface_2.jpg)](./img/wp-content-uploads-2021-04-7-4-Edit-load-transfer-surface_2.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-4-Edit-load-transfer-surface_2.jpg)](./img/wp-content-uploads-2021-04-7-4-Edit-load-transfer-surface_2.jpg)
 
 
 It is possible to choose the first option and select members for carrying the surface load or remove members from the selection using the SHIFT + Left click. After the corresponding members have been selected and _**OK**_ is clicked then the surface is created.
@@ -419,7 +419,7 @@ It is possible to choose the first option and select members for carrying the su
 It is also possible to use the **_Multiple placement of load transfer surfaces_** by clicking on the (![](./img/wp-content-uploads-2021-04-cmd_LTS_multi.png)) icon. This function is used to define multiple load transfer surfaces with a simple selection (rectangle selection, or by clicking the border edges). Edges of a load transfer surface have to be in the same plane.
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Edit-load-transfer-surface_3.png)](./img/wp-content-uploads-2021-04-7-4-Edit-load-transfer-surface_3.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-4-Edit-load-transfer-surface_3.png)](./img/wp-content-uploads-2021-04-7-4-Edit-load-transfer-surface_3.png)
 
 
 **It is important to know**, that the maximum number of edges that can be selected in one step, is currently limited to 200. If the selected edges exceed the limit of 200, a notification will be shown on the Edit load transfer surface dialog.
@@ -430,22 +430,22 @@ Surface load can be placed by using the method described in chapter 6.4.3.
 There are two visibility options: view the surface load or view the distributed load.
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Visibility-options_1.jpg)](./img/wp-content-uploads-2021-04-7-4-Visibility-options_1.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-4-Visibility-options_1.jpg)](./img/wp-content-uploads-2021-04-7-4-Visibility-options_1.jpg)
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Visibility-options_2.jpg)](./img/wp-content-uploads-2021-04-7-4-Visibility-options_2.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-4-Visibility-options_2.jpg)](./img/wp-content-uploads-2021-04-7-4-Visibility-options_2.jpg)
 
 
 Changing the views is possible by clicking on the dedicated icon which can be found among the visibility of graphics symbols setting.
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Visibility-settings.png)](./img/wp-content-uploads-2021-04-7-4-Visibility-settings.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-4-Visibility-settings.png)](./img/wp-content-uploads-2021-04-7-4-Visibility-settings.png)
 
 
 There are two possible methods to convert surface load to the selected members:
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/dial_LTS_dist_method.png)](./img/wp-content-uploads-2021-04-dial_LTS_dist_method.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/dial_LTS_dist_method.png)](./img/wp-content-uploads-2021-04-dial_LTS_dist_method.png)
 
 
 (1) Converting surface loads to uniform line loads is performed by a meeting the following requirements:
@@ -563,7 +563,7 @@ Load transfer surface can be modified by selecting it and changing the propertie
 
 <!-- wp:image {"align":"center","id":10148,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Load-transfer-surface.png)](./img/wp-content-uploads-2021-04-7-4-Load-transfer-surface.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-4-Load-transfer-surface.png)](./img/wp-content-uploads-2021-04-7-4-Load-transfer-surface.png)
 
 <!-- /wp:image -->
 
@@ -597,7 +597,7 @@ First choose the type of the temperature load: the temperature can change along 
 
 <!-- wp:image {"align":"right","id":10154,"width":324,"height":245,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Temperature-load-on-bar_1.png)](./img/wp-content-uploads-2021-04-7-4-Temperature-load-on-bar_1.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-4-Temperature-load-on-bar_1.png)](./img/wp-content-uploads-2021-04-7-4-Temperature-load-on-bar_1.png)
 
 <!-- /wp:image -->
 
@@ -607,7 +607,7 @@ First choose the type of the temperature load: the temperature can change along 
 
 <!-- wp:image {"align":"left","id":10160,"width":325,"height":245,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Temperature-load-on-bar_2.png)](./img/wp-content-uploads-2021-04-7-4-Temperature-load-on-bar_2.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-4-Temperature-load-on-bar_2.png)](./img/wp-content-uploads-2021-04-7-4-Temperature-load-on-bar_2.png)
 
 <!-- /wp:image -->
 
@@ -621,7 +621,7 @@ First choose the type of the temperature load: the temperature can change along 
 
 <!-- wp:image {"align":"center","id":10166,"width":305,"height":182,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Temperature-load-on-surface.png)](./img/wp-content-uploads-2021-04-7-4-Temperature-load-on-surface.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-4-Temperature-load-on-surface.png)](./img/wp-content-uploads-2021-04-7-4-Temperature-load-on-surface.png)
 
 <!-- /wp:image -->
 
@@ -645,7 +645,7 @@ It can be placed according to the **Global (**![](./img/wp-content-uploads-2021-
 
 <!-- wp:image {"align":"center","id":10173,"width":292,"height":193,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Prescribed-displacement.png)](./img/wp-content-uploads-2021-04-7-4-Prescribed-displacement.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-4-Prescribed-displacement.png)](./img/wp-content-uploads-2021-04-7-4-Prescribed-displacement.png)
 
 <!-- /wp:image -->
 
@@ -663,7 +663,7 @@ The change of the original member system length can be set and applied as a load
 
 <!-- wp:image {"align":"center","id":10180,"width":292,"height":125,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Change-in-length-of-bar.png)](./img/wp-content-uploads-2021-04-7-4-Change-in-length-of-bar.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-4-Change-in-length-of-bar.png)](./img/wp-content-uploads-2021-04-7-4-Change-in-length-of-bar.png)
 
 <!-- /wp:image -->
 
@@ -675,7 +675,7 @@ Tension force can be applied on bar members as a load with the **Tension force**
 
 <!-- wp:image {"align":"center","id":10186,"width":299,"height":137,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Tension-force-on-bar.png)](./img/wp-content-uploads-2021-04-7-4-Tension-force-on-bar.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-4-Tension-force-on-bar.png)](./img/wp-content-uploads-2021-04-7-4-Tension-force-on-bar.png)
 
 <!-- /wp:image -->
 

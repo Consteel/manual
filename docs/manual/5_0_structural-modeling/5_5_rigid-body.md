@@ -27,6 +27,6 @@ A rigid body can be modified by selecting it and changing the lines, members, an
 
 <!-- wp:image {"id":8808,"width":304,"height":41,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-5-Rigid-body.png)](./img/wp-content-uploads-2021-04-6-5-Rigid-body.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-5-Rigid-body.png)](./img/wp-content-uploads-2021-04-6-5-Rigid-body.png)
 
 <!-- /wp:image -->

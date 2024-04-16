@@ -54,7 +54,7 @@ In the _Settings_ (#1) panel, the main parameters of the seismic analysis can be
 
 <!-- wp:image {"align":"center","id":9431,"width":464,"height":594,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/13-3-seismic.png)](./img/wp-content-uploads-2021-04-13-3-seismic.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/13-3-seismic.png)](./img/wp-content-uploads-2021-04-13-3-seismic.png)
 
 <!-- /wp:image -->
 
@@ -66,7 +66,7 @@ On the response spectrums panel (#2), the response spectrum can be selected whic
 
 <!-- wp:image {"align":"center","id":9438,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/13-3-seismic2.png)](./img/wp-content-uploads-2021-04-13-3-seismic2.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/13-3-seismic2.png)](./img/wp-content-uploads-2021-04-13-3-seismic2.png)
 
 <!-- /wp:image -->
 
@@ -153,7 +153,7 @@ On the **Additional Effects** tab of the **_Seismic Effect_** dialogue, the foll
 
 <!-- wp:list -->
 
-- Accidental torsional effects: In the case of spatial 3D models, effects of the uncertainties of load placements causing torsional effects also have to be taken into account. ConSteel calculates the effect automatically. For the calculation, storeys have to be defined, where the torsion effect is acting, and the eccentricity value, with which the mass points will be shifted.
+- Accidental torsional effects: In the case of spatial 3D models, effects of the uncertainties of load placements causing torsional effects also have to be taken into account. Consteel calculates the effect automatically. For the calculation, storeys have to be defined, where the torsion effect is acting, and the eccentricity value, with which the mass points will be shifted.
 
 <!-- /wp:list -->
 
@@ -171,7 +171,7 @@ Considered storeys have to be chosen in the _Considered storeys_ for accidental 
 
 <!-- wp:paragraph -->
 
-ConSteel 13 User Manual
+Consteel 13 User Manual
 
 <!-- /wp:paragraph -->
 
@@ -183,13 +183,13 @@ ConSteel 13 User Manual
 
 <!-- wp:paragraph -->
 
-When specifying the levels, it is important to know that consteel takes the weights of the structure below the lowest level all of them to the lowest level by the torsional and second-order effects. This can be avoided by establishing a level 0 in the plane of the supports, so the weight distribution between the support and the first level will also be performed.
+When specifying the levels, it is important to know that Consteel takes the weights of the structure below the lowest level all of them to the lowest level by the torsional and second-order effects. This can be avoided by establishing a level 0 in the plane of the supports, so the weight distribution between the support and the first level will also be performed.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":9451,"width":381,"height":487,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/13-3-additional-effects.png)](./img/wp-content-uploads-2021-04-13-3-additional-effects.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/13-3-additional-effects.png)](./img/wp-content-uploads-2021-04-13-3-additional-effects.png)
 
 <!-- /wp:image -->
 

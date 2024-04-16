@@ -27,6 +27,6 @@ The grid of the mass combinations dialogue can be separated into two parts:
 
 <!-- wp:image {"align":"center","id":10447,"width":562,"height":379,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-3-DEFINITION-OF-MASS-COMBINATIONS.png)](./img/wp-content-uploads-2021-04-7-3-DEFINITION-OF-MASS-COMBINATIONS.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-3-DEFINITION-OF-MASS-COMBINATIONS.png)](./img/wp-content-uploads-2021-04-7-3-DEFINITION-OF-MASS-COMBINATIONS.png)
 
 <!-- /wp:image -->

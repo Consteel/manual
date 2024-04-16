@@ -18,7 +18,7 @@ The required analysis types can be chosen and configured on the **Set Analysis p
 On the Overview page, the settings of the various analysis types are ordered into three separated groups as shown in the picture below.
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/8-4-1-OVERVIEW-PAGE.jpg)](./img/wp-content-uploads-2021-04-8-4-1-OVERVIEW-PAGE.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/8-4-1-OVERVIEW-PAGE.jpg)](./img/wp-content-uploads-2021-04-8-4-1-OVERVIEW-PAGE.jpg)
 
 
 Settings of the **Global settings** group (#1) are applied for the whole model:
@@ -84,13 +84,13 @@ For further settings, the **[Subpage of Dynamic analysis](#subpage-of-dynamic-an
 On this subpage, previously created and placed joints’ stiffnesses can be applied in the calculation in the selected load combinations. With the checkboxes in the second column, secant stiffness can be used instead of initial stiffness.
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/8-4-2-SUBPAGE-OF-GLOBAL-SETTINGS.png)](./img/wp-content-uploads-2021-04-8-4-2-SUBPAGE-OF-GLOBAL-SETTINGS.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/8-4-2-SUBPAGE-OF-GLOBAL-SETTINGS.png)](./img/wp-content-uploads-2021-04-8-4-2-SUBPAGE-OF-GLOBAL-SETTINGS.png)
 
 
 ### Subpage of load cases
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/dia_anal_sub_LC.png)](./img/wp-content-uploads-2021-04-dia_anal_sub_LC.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/dia_anal_sub_LC.png)](./img/wp-content-uploads-2021-04-dia_anal_sub_LC.png)
 
 
 This subpage has three main parts:
@@ -200,7 +200,7 @@ Result types to be calculated can be selected for the load combinations. Calcula
 **Consteel 15**
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/dia_anal_sub_LCC.png)](./img/wp-content-uploads-2021-04-dia_anal_sub_LCC.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/dia_anal_sub_LCC.png)](./img/wp-content-uploads-2021-04-dia_anal_sub_LCC.png)
 
 <!-- /wp:image -->
 
@@ -261,7 +261,7 @@ Result types to be calculated can be selected for the load combinations. Calcula
 ### Subpage of dynamic analysis
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/dia_anal_sub_dyn.png)](./img/wp-content-uploads-2021-04-dia_anal_sub_dyn.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/dia_anal_sub_dyn.png)](./img/wp-content-uploads-2021-04-dia_anal_sub_dyn.png)
 
 
 This subpage has three main parts:

@@ -27,16 +27,16 @@ The dialogue allows the following modelling options for creating line members:
 Member parameters can be defined in the middle part of the dialogs:
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/12/Beam.jpg)](./img/wp-content-uploads-2022-12-Beam.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/12/Beam.jpg)](./img/wp-content-uploads-2022-12-Beam.jpg)
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/12/Column.jpg)](./img/wp-content-uploads-2022-12-Column.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/12/Column.jpg)](./img/wp-content-uploads-2022-12-Column.jpg)
 
 
-- _Section:_ the appropriate cross-section can be selected from the drop-down box. If no section has been loaded into the model, the **_Section_** dialogue should be opened by pressing the three dots button (![](./img/wp-content-uploads-2021-04-3dots-button.png)) next to the drop-down box. For more information about **Section administration** and for details on the section models and standard tests used in ConSteel, see **_[Section module](../10_0_section-module/10_1_section-modelling.md)_**.
+- _Section:_ the appropriate cross-section can be selected from the drop-down box. If no section has been loaded into the model, the **_Section_** dialogue should be opened by pressing the three dots button (![](./img/wp-content-uploads-2021-04-3dots-button.png)) next to the drop-down box. For more information about **Section administration** and for details on the section models and standard tests used in Consteel, see **_[Section module](../10_0_section-module/10_1_section-modelling.md)_**.
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/dial_section_admin.png)](./img/wp-content-uploads-2021-04-dial_section_admin.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/dial_section_admin.png)](./img/wp-content-uploads-2021-04-dial_section_admin.png)
 
 
 - _Release (start, end)_: predefined releases can be assigned to the ends of the members. If a new release type is needed the **_Release_** dialogue can be called by pressing the ![](./img/wp-content-uploads-2021-04-3dots-button.png) button next to the combo.
@@ -104,23 +104,23 @@ It should be noted that not only the eccentric axial force influences the analys
 ### Steel members
 
 
-As the first step of line member modeling, cross-sections have to be loaded into the model. This can be performed either from the **_Section administrator_** directly or from the **_Beam_** dialogue window. In ConSteel, there are three options for defining cross-sections:
+As the first step of line member modeling, cross-sections have to be loaded into the model. This can be performed either from the **_Section administrator_** directly or from the **_Beam_** dialogue window. In Consteel, there are three options for defining cross-sections:
 
 - Library sections,
 - Macro sections,
 - Drawn sections.
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/exclam.png)](./img/wp-content-uploads-2021-04-exclam.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/exclam.png)](./img/wp-content-uploads-2021-04-exclam.png)
 
 
-It is important to note that in ConSteel, material quality is an attribute of the cross-section, therefore it must be defined when loading the cross-section!
+It is important to note that in Consteel, material quality is an attribute of the cross-section, therefore it must be defined when loading the cross-section!
 
 
 #### Cross section libraries
 
 
-In _ConSteel_, the following standard cross-section libraries are available:
+In _Consteel_, the following standard cross-section libraries are available:
 
 - Standard (European) cross-section library
 
@@ -138,12 +138,12 @@ In _ConSteel_, the following standard cross-section libraries are available:
 #### Macro sections
 
 
-In _ConSteel_, the following macro sections are available organized into 4 groups:
+In _Consteel_, the following macro sections are available organized into 4 groups:
 
 1. **Sheet welded types**
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/image-1713.png)](./img/wp-content-uploads-2021-04-image-1713.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/image-1713.png)](./img/wp-content-uploads-2021-04-image-1713.png)
 
 - Welded I or H section
 
@@ -167,7 +167,7 @@ In _ConSteel_, the following macro sections are available organized into 4 group
 2\. **Hot rolled types**
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/image-1752.png)](./img/wp-content-uploads-2021-04-image-1752.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/image-1752.png)](./img/wp-content-uploads-2021-04-image-1752.png)
 
 - Rolled I or H shape (with parallel flange)
 
@@ -189,7 +189,7 @@ In _ConSteel_, the following macro sections are available organized into 4 group
 3\. **Cold-formed types**
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/image-1755.png)](./img/wp-content-uploads-2021-04-image-1755.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/image-1755.png)](./img/wp-content-uploads-2021-04-image-1755.png)
 
 - RHS
 
@@ -212,10 +212,10 @@ In _ConSteel_, the following macro sections are available organized into 4 group
 In the case of cold-formed macros, it is also possible to provide profile stiffeners for the last 5 profile types. On the flanges, single or double folded edge stiffeners, and two different types of intermediate stiffeners can be defined. On the webs, three different types of intermediate stiffeners can be defined, and web stiffeners can also be double stiffeners. The stiffeners defined this way are taken into account in the calculation of distortional buckling as defined in EN 1993-1-3. I
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/image-1771.png)](./img/wp-content-uploads-2021-04-image-1771.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/image-1771.png)](./img/wp-content-uploads-2021-04-image-1771.png)
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/image-1774.png)](./img/wp-content-uploads-2021-04-image-1774.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/image-1774.png)](./img/wp-content-uploads-2021-04-image-1774.png)
 
 
 For cold-formed macro sections made of coated material, the thickness tolerance category as defined in EN 10143 shall also be provided. There are two categories: normal and special. Accordingly, the design wall thickness of the cross-section is calculated according to EN 1993-1-3 section 3.2.4. In general construction practice, such sections are most often made of coated steel sheets according to the aforementioned EN 10143 standard, and therefore these macros are based on the thickness tolerance categories defined in this standard.
@@ -230,7 +230,7 @@ Important, that if the designer does not choose the coated material from the dat
 4\. **Compound types**
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/image-1780.png)](./img/wp-content-uploads-2021-04-image-1780.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/image-1780.png)](./img/wp-content-uploads-2021-04-image-1780.png)
 
 - I or H shape reinforced by channel at one flange
 
@@ -274,7 +274,7 @@ As a first step, after the command has been executed, you have to select a secti
 - General thin-walled section
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/05/dial_sectiondrafter_select_type.png)](./img/wp-content-uploads-2021-05-dial_sectiondrafter_select_type.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/05/dial_sectiondrafter_select_type.png)](./img/wp-content-uploads-2021-05-dial_sectiondrafter_select_type.png)
 
 
 The type of cross-section has a fundamental influence on its later operation. Choosing the **cold-formed section** type, you can create sections drawn by one line, which have a uniform wall thickness, with automatically created curves between segments, and it cannot be closed. In the calculation of these sections, the effective cross-sectional reduction due to distortional buckling is also taken into account, following EN 1993-1-3.
@@ -289,7 +289,7 @@ After selecting the section type, clicking on the **_Next_** button opens a sepa
 The profile drawing window is structured as follows:
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-2-profile-drawing-window.png)](./img/wp-content-uploads-2021-04-6-2-profile-drawing-window.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-2-profile-drawing-window.png)](./img/wp-content-uploads-2021-04-6-2-profile-drawing-window.png)
 
 
 **1# Drawing Area**
@@ -337,10 +337,10 @@ The section geometry is edited in the first phase. Stiffeners can be easily and 
 
 ![](./img/wp-content-uploads-2021-04-ico_sect_draft_draw_polyline.png) **Draw Polyline** command to start editing geometry. Drawing can also be done by selecting endpoints in the drawing space or by entering coordinates in the **Draw line** pop-up window. Coordinates can be specified in Cartesian ![](./img/wp-content-uploads-2021-04-ico_sect_draft_draw_cart.png) or Polar ![](./img/wp-content-uploads-2021-04-ico_sect_draft_draw_polar.png) coordinates, local ![](./img/wp-content-uploads-2021-04-ico_sect_draft_draw_local.png) or global ![](./img/wp-content-uploads-2021-04-ico_sect_draft_draw_global.png). In the case of local input, the coordinate system is rotated according to the grid angle, in the case of global input the coordinate system does not change. The positioning of the plate segments relative to the drawn reference line (offset) ![](./img/wp-content-uploads-2021-04-ico_sect_draft_draw_offset.png) can be centered, left, or right-aligned. You can change this during drawing or later, one by one, in the Plate segment parameters panel on the sidebar. Roundings are created automatically when you draw plate segments. The radius of roundings can be modified subsequently, by selecting the curvature, individually in the sidebar, or uniformly over the entire section. You can also enter the nominal sheet thickness here.
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/image-1836.png)](./img/wp-content-uploads-2021-04-image-1836.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/image-1836.png)](./img/wp-content-uploads-2021-04-image-1836.png)
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/exclam.png)](https://consteelsoftware.com/wp-content/uploads/2021/04/exclam.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/exclam.png)](https://Consteelsoftware.com/wp-content/uploads/2021/04/exclam.png)
 
 
 In the section drawing window, you must also press ENTER after entering each parameter for the entered value to take effect!
@@ -378,19 +378,19 @@ After the geometry has been drawn, the standard parameters required for the stre
 In the first drop-down menu, you have to choose the manufacturing type of the cross-section. It can be cold-rolled, press broken, or other cold-formed.
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/drop_sectdraw_CF_manu.png)](./img/wp-content-uploads-2021-04-drop_sectdraw_CF_manu.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/drop_sectdraw_CF_manu.png)](./img/wp-content-uploads-2021-04-drop_sectdraw_CF_manu.png)
 
 
 After that, the thickness tolerance required to calculate the design wall thickness and the number of the 90° bends have to be entered. The number of bends is automatically calculated when a macro profile is imported. In the case of a drawn section, this field must be completed by hand.
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/drop_sectdraw_CF_thick.png)](./img/wp-content-uploads-2021-04-drop_sectdraw_CF_thick.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/drop_sectdraw_CF_thick.png)](./img/wp-content-uploads-2021-04-drop_sectdraw_CF_thick.png)
 
 
 Next, the flexural and torsional buckling curves have to be selected. If the section is later used on a line member which is part of a **_[Purlin line](../5_0_structural-modeling/5_13_purlins.md#place-purlin-line)_** object, the lowest curve selected in the _Lateral-torsional buckling for purlin line_ field will be considered in the analysis.
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/sectdraw_panel_CF_bucklingcurves.png)](./img/wp-content-uploads-2021-04-sectdraw_panel_CF_bucklingcurves.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/sectdraw_panel_CF_bucklingcurves.png)](./img/wp-content-uploads-2021-04-sectdraw_panel_CF_bucklingcurves.png)
 
 
 **(3) Specify design parameters for local buckling tests** ![](./img/wp-content-uploads-2021-04-image-1862.png)
@@ -408,7 +408,7 @@ The following field specifies how the segment is to be considered in the classif
 - Ignore classification and do not consider the plate in the effective cross-section ![](./img/wp-content-uploads-2021-04-sectdraw_cmd_class_no.png)
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/sectdraw_panel_CF_plateclass.png)](./img/wp-content-uploads-2021-04-sectdraw_panel_CF_plateclass.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/sectdraw_panel_CF_plateclass.png)](./img/wp-content-uploads-2021-04-sectdraw_panel_CF_plateclass.png)
 
 
 **(4) Defining stiffeners** ![](./img/wp-content-uploads-2021-04-sectdraw_CF_progbar_4.png)
@@ -417,7 +417,7 @@ The following field specifies how the segment is to be considered in the classif
 In order for the drawn stiffeners to be really standard-compliant stiffeners in the calculation, they need to be defined at this phase. The first step is to decide whether the section is cold-formed Z- or C-like section or whether it is a general shape. You can choose by using the radio buttons in the sidebar.
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/sectdraw_CF_panel_sectfamily.png)](./img/wp-content-uploads-2021-04-sectdraw_CF_panel_sectfamily.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/sectdraw_CF_panel_sectfamily.png)](./img/wp-content-uploads-2021-04-sectdraw_CF_panel_sectfamily.png)
 
 
 When choosing a Z- or C-like profile, the calculation takes into account the stress of the other flange as well as the stiffness of the web when supporting the flange. To do this, of course, you need to specify which parts of the section make up the lower and upper belts, and the web, and you must add its length. By choosing a general shape section, the edge stiffeners are calculated independently of each other.
@@ -432,7 +432,7 @@ A new panel appears next to the left-hand diagnostic panel, which shows the stif
 To specify the stiffeners, use the icons on the command line in the top left of the window:
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/sectdraw_CF_create_stiffeners.png)](./img/wp-content-uploads-2021-04-sectdraw_CF_create_stiffeners.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/sectdraw_CF_create_stiffeners.png)](./img/wp-content-uploads-2021-04-sectdraw_CF_create_stiffeners.png)
 
 
 ![](./img/wp-content-uploads-2021-04-sectdraw_CF_create_stiffeners_nonstiff.png) **_Select non-stiffened flange_**: Only applicable for Z- or C-like sections. If one of the flanges is unstiffened, this command defines this flange. You have to select the line segments of the unstiffened flange, and then click on _**ENTER**_ or press the ENTER key to finish entering.
@@ -441,7 +441,7 @@ To specify the stiffeners, use the icons on the command line in the top left of 
 ![](./img/wp-content-uploads-2021-04-sectdraw_CF_create_stiffeners_edge.png) _**Select edge stiffener and double edge stiffener**_: Follow the instructions in the popup window to define the stiffener in 4 steps. The first step is to select the segment(s) that make up the stiffener by framing or clicking on it and then click **_ENTER_** or press ENTER key to finish the entry. Then, select the flange which has to be stiffened and press ENTER again to complete the operation. The next step is to specify the segment that forms the web, and finally determine the length of the web by two points. Each step must be completed in the same way closed with the ENTER. The process steps can be followed in the right panel where OK will be displayed on all three lines when correctly entered.
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/sectdraw_CF_create_stiffeners_stiff_set.png)](./img/wp-content-uploads-2021-04-sectdraw_CF_create_stiffeners_stiff_set.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/sectdraw_CF_create_stiffeners_stiff_set.png)](./img/wp-content-uploads-2021-04-sectdraw_CF_create_stiffeners_stiff_set.png)
 
 
 If the section is set to Z or C, the position of the belt must also be entered in the drop-down menu at any step of the process. Click the arrow icon ![](./img/wp-content-uploads-2021-04-sectdraw_CF_create_stiffeners_whitearrow.png) to re-enter a component.
@@ -450,7 +450,7 @@ If the section is set to Z or C, the position of the belt must also be entered i
 Finally, the critical stress of the stiffener must be specified in the lowest section of the panel. Here you can choose between automatic calculation or manual input. It is important that the automatic calculation only works with Z- or C-like sections, as the Eurocode gives solutions only for such cases.
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/sectdraw_CF_crit_stress.png)](./img/wp-content-uploads-2021-04-sectdraw_CF_crit_stress.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/sectdraw_CF_crit_stress.png)](./img/wp-content-uploads-2021-04-sectdraw_CF_crit_stress.png)
 
 
 ![](./img/wp-content-uploads-2021-04-sectdraw_CF_create_stiffeners_inter.png) **_Select intermediate stiffener and double intermediate stiffener_**: Like the process of defining edge stiffener, you must select the segments that make up the stiffener and press ENTER to accept the entry. No further steps are required; however, the critical stress of the stiffener must be specified.
@@ -489,13 +489,13 @@ Fewer commands are available for editing this type of section since it is not po
 Due to the nature of the section, the drawing differs from the previous one, since each segment can be given different thicknesses and a closed segment can also be created. When drawing from an endpoint and clicking on an intermediate point of an already drawn segment will cause the line drawing to "skip" to that point and continue editing from that point. The so-called "Dummy" segments required for section modeling are also created, which appear on the screen as a brown dashed curved line.
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/sectdraw_TW_scr_1.png)](./img/wp-content-uploads-2021-04-sectdraw_TW_scr_1.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/sectdraw_TW_scr_1.png)](./img/wp-content-uploads-2021-04-sectdraw_TW_scr_1.png)
 
 
 ![](./img/wp-content-uploads-2021-04-sectdraw_TW_cmd_move.png) **_Move Point and Edge_** can be used to move an endpoint or an entire segment. If you select a point, the next step is to enter the endpoint of the move immediately, if selecting an edge, first click on the start point and then the endpoint of the move.
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/sectdraw_TW_scr_2.png)](./img/wp-content-uploads-2021-04-sectdraw_TW_scr_2.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/sectdraw_TW_scr_2.png)](./img/wp-content-uploads-2021-04-sectdraw_TW_scr_2.png)
 
 
 ![](./img/wp-content-uploads-2021-04-sectdraw_TW_cmd_import.png) The **_Import section_** command works exactly as described in the previous part. See [here ](#drawing-of-cold-formed-sections)for details.
@@ -520,7 +520,7 @@ After the geometry has been done, the standard parameters required for the stren
 By moving to the third and final phase, the classification of the segments has to be made in the same way as described in the previous section. See details in the previous chapter.
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/sectdraw_TW_panel_plateclass.png)](./img/wp-content-uploads-2021-04-sectdraw_TW_panel_plateclass.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/sectdraw_TW_panel_plateclass.png)](./img/wp-content-uploads-2021-04-sectdraw_TW_panel_plateclass.png)
 
 
 You can finish editing with the **_SAVE EXIT_** button.
@@ -547,7 +547,7 @@ Definition of reinforced macro sections to be used for columns and beams can be 
 Definition of reinforced macro sections can be performed from the **_Macro dialogue._** There are two main types of reinforced concrete sections. **_Sections with design option_** (#1) and **_sections without design option_** (#2).
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-2-Macro-section.png)](./img/wp-content-uploads-2021-04-6-2-Macro-section.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-2-Macro-section.png)](./img/wp-content-uploads-2021-04-6-2-Macro-section.png)
 
 
 #### Reinforced concrete cross sections with design option
@@ -556,7 +556,7 @@ Definition of reinforced macro sections can be performed from the **_Macro dialo
 **Consteel 16**
 
 
-_**Reinforced concrete cross-sections with design option**_, are represented with a gray cross-section pictogram with a grid on the _**Macro section**_ dialogue. In ConSteel, there are two section types with design options:
+_**Reinforced concrete cross-sections with design option**_, are represented with a gray cross-section pictogram with a grid on the _**Macro section**_ dialogue. In Consteel, there are two section types with design options:
 
 - Solid Circular section
 
@@ -584,7 +584,7 @@ on the Structural members tab. Reinforcements should be assigned to members with
 **Consteel 15**
 
 
-**_Reinforced concrete cross-sections with design option_**, are represented with a gray cross-section pictogram on the **_Macro section_** dialogue. In ConSteel, there are two section types with design options:
+**_Reinforced concrete cross-sections with design option_**, are represented with a gray cross-section pictogram on the **_Macro section_** dialogue. In Consteel, there are two section types with design options:
 
 - Solid circle section
 
@@ -597,7 +597,7 @@ After choosing one of the available cross-sections on the section dialogue, only
 Because the reinforcement distribution may vary along the span of the concrete member, the definition of the reinforcement settings has to be made through a dedicated **_Rebar editor_** (![](./img/wp-content-uploads-2021-04-cmd_rebareditor.png)) function, which can be found on the **_Structural members tab_**.
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/dial_sect_rc_rect_designopt.png)](./img/wp-content-uploads-2021-04-dial_sect_rc_rect_designopt.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/dial_sect_rc_rect_designopt.png)](./img/wp-content-uploads-2021-04-dial_sect_rc_rect_designopt.png)
 
 
 #### Beam reinforcement definition
@@ -662,7 +662,7 @@ If a reinforcement object is placed on more members with different lengths, a co
 Starting the **_Rebar editor_** ![](./img/wp-content-uploads-2021-04-cmd_rebareditor.png) - can be found on the Structural members tab - the Rebar editor dialog appears. Beam reinforcement objects can be created by selecting the **_Beam rebars_** option on the left panel (#1) of this dialogue window.
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-2-Rebar-editor.png)](./img/wp-content-uploads-2021-04-6-2-Rebar-editor.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-2-Rebar-editor.png)](./img/wp-content-uploads-2021-04-6-2-Rebar-editor.png)
 
 
 - \#2 - If there are reinforced concrete cross-sections with design option loaded into the model, new beam reinforcement objects can be created by pressing the **_Add_** button. Switching between different reinforcement objects is possible by selecting from the dropdown menu. Using the **_Copy _**button, the copied object will inherit the parameters of the original object. The **_Delete_** button will delete the actively selected reinforcement object only.
@@ -751,7 +751,7 @@ In case of Reinforcement sets of circular cross-sections only one type of longit
 By choosing the **_Column rebar_** option (#1) on the left side panel of the **_Rebar editor_** dialogue, column-related data will be available on the dialogue.
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-2-Rebar-editor-column-rebars.png)](./img/wp-content-uploads-2021-04-6-2-Rebar-editor-column-rebars.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-2-Rebar-editor-column-rebars.png)](./img/wp-content-uploads-2021-04-6-2-Rebar-editor-column-rebars.png)
 
 
 
@@ -776,7 +776,7 @@ By choosing the **_Column rebar_** option (#1) on the left side panel of the **_
   - Shear check parameters.
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-2-Design-parameters.png)](./img/wp-content-uploads-2021-04-6-2-Design-parameters.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-2-Design-parameters.png)](./img/wp-content-uploads-2021-04-6-2-Design-parameters.png)
 
 
 #### Reinforced concrete cross sections without design option
@@ -864,7 +864,7 @@ Available cross-sections are:
 When defining the sections, overall dimensions, concrete material grade, reinforcement parameters, and the applied stiffness during the analysis have to be set.
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-2-Singly-symmetric-I-section-1.png)](./img/wp-content-uploads-2021-04-6-2-Singly-symmetric-I-section-1.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-2-Singly-symmetric-I-section-1.png)](./img/wp-content-uploads-2021-04-6-2-Singly-symmetric-I-section-1.png)
 
 
 ### Composite columns
@@ -873,13 +873,13 @@ When defining the sections, overall dimensions, concrete material grade, reinfor
 The first step is to define a composite column cross-section. Five types of cross-sections are available: fully encased I-section in concrete partially encased I-section in concrete, encased Maltese cross-section in concrete, fully encased I-section in hollow section, and fully encased I-section in circular hollow section. The cross-section macros can be found among the **_Macro sections_**.
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-2-Macro-section-Columns.png)](./img/wp-content-uploads-2021-04-6-2-Macro-section-Columns.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-2-Macro-section-Columns.png)](./img/wp-content-uploads-2021-04-6-2-Macro-section-Columns.png)
 
 
 During the creation of the cross-section, the parameters of the concrete section, reinforcement, and the encased steel section have to be set.
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-2-Partially-encased-I-section-in-concrete.png)](./img/wp-content-uploads-2021-04-6-2-Partially-encased-I-section-in-concrete.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-2-Partially-encased-I-section-in-concrete.png)](./img/wp-content-uploads-2021-04-6-2-Partially-encased-I-section-in-concrete.png)
 
 
 For the structural analysis, two types of elastic modulus can be used which can be selected on the middle part of the cross-section creation dialog.
@@ -894,13 +894,13 @@ Standard initial sways can also be defined both in y and z directions. With the 
 The first step is to define a composite beam cross-section. There are two types available: composite beam with solid concrete slab and composite beam with profiled steel sheeting. The cross-section macros can be found among the **_Macro sections_**.
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-2-Macro-section-Composite-beams.png)](./img/wp-content-uploads-2021-04-6-2-Macro-section-Composite-beams.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-2-Macro-section-Composite-beams.png)](./img/wp-content-uploads-2021-04-6-2-Macro-section-Composite-beams.png)
 
 
 When creating a new composite cross-section the effective width must be defined. It is important to know that during the analysis the actual effective width is automatically calculated based on the design parameters. The effective width set by the user is used in the graphic representation and for determining the self-weight of the beam. It is also possible to create an edge composite beam with different widths on the left and the right sides. Rebars can be easily defined either with pitch or with a cross-sectional area (mm2/m).
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-2-Composite-beam-with-constant-slab-thickness.png)](./img/wp-content-uploads-2021-04-6-2-Composite-beam-with-constant-slab-thickness.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-2-Composite-beam-with-constant-slab-thickness.png)](./img/wp-content-uploads-2021-04-6-2-Composite-beam-with-constant-slab-thickness.png)
 
 
 After the composite cross-section is defined it can be used for member creation the same way as a steel cross-section.
@@ -909,7 +909,7 @@ After the composite cross-section is defined it can be used for member creation 
 Before running the analysis select the composite beam(s) and set the **_Design parameters_** on the **_Object properties_**.
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-2-Object-properties.png)](./img/wp-content-uploads-2021-04-6-2-Object-properties.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-2-Object-properties.png)](./img/wp-content-uploads-2021-04-6-2-Object-properties.png)
 
 
 In the Design settings window you can set the distance between parallel beams, the number of shear studs, the type of analysis, moment redistribution, and the support point positions along with the member. The support position table can be automatically filled up by clicking on the button above the table.
@@ -918,7 +918,7 @@ In the Design settings window you can set the distance between parallel beams, t
 You can create more design parameters and assign them to different members. You can also use more design parameters to easily switch between them to find the best parameters or to simply compare different settings.
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-2-Design-settings.png)](./img/wp-content-uploads-2021-04-6-2-Design-settings.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-2-Design-settings.png)](./img/wp-content-uploads-2021-04-6-2-Design-settings.png)
 
 
 ### Haunched members
@@ -939,7 +939,7 @@ In the case of hot-rolled haunch, on the dialogue panel the Length (L), start he
 With the black arrow button (![](./img/wp-content-uploads-2021-04-ico-pointer.png)) the geometrical parameters of the haunches can be loaded from the selected beam.
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-2-Haunch-on-bar.png)](./img/wp-content-uploads-2021-04-6-2-Haunch-on-bar.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-2-Haunch-on-bar.png)](./img/wp-content-uploads-2021-04-6-2-Haunch-on-bar.png)
 
 
 The position of the haunch is set by simply clicking on the member the start point (where the height of the haunch is full) and the direction point of the haunch on the member. It should be noted that if the start point is a common endpoint of more members (this is the usual case, for instance at a beam-to-column connection point) then this point should be approached and clicked on the member to be haunched. The characteristics of the haunch denote the appropriate side of the haunch on the member according to the direction of its local “z” axis. In the case of usual beam position it results in the followings:
@@ -947,13 +947,13 @@ The position of the haunch is set by simply clicking on the member the start poi
 - lower
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-2-Lower.png)](./img/wp-content-uploads-2021-04-6-2-Lower.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-2-Lower.png)](./img/wp-content-uploads-2021-04-6-2-Lower.png)
 
 
 - upper
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-2-Upper.png)](./img/wp-content-uploads-2021-04-6-2-Upper.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-2-Upper.png)](./img/wp-content-uploads-2021-04-6-2-Upper.png)
 
 - symmetric
 
@@ -964,13 +964,13 @@ The position of the haunch is set by simply clicking on the member the start poi
 The haunches can be selected and modified in the parameter table as separate objects.
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-2-Haunch.png)](./img/wp-content-uploads-2021-04-6-2-Haunch.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-2-Haunch.png)](./img/wp-content-uploads-2021-04-6-2-Haunch.png)
 
 
 **Important to know** that for the haunched part of the member new sections are created during the automatic finite element generation which consists of the original section and the haunch with appropriate web height. These new sections are placed eccentrically on the reference line of the member (except the symmetrical haunch type).
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-2-Haunch-new-section.png)](./img/wp-content-uploads-2021-04-6-2-Haunch-new-section.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-2-Haunch-new-section.png)](./img/wp-content-uploads-2021-04-6-2-Haunch-new-section.png)
 
 
 This eccentricity causes additional effects in the analysis results due to the eccentric position of the sectional forces (for instance at the beam-to-column connection point of a frame with haunched beams and/or columns the equilibrium of the in-plane bending moments exists only if the additional moments from the eccentric axial forces are taken into account)
@@ -988,7 +988,7 @@ Tapered members are often used in the economic design of steel-framed structures
 With the **_Tapered member_** function (![](./img/wp-content-uploads-2021-04-cmd_tapered.png)) the section height of these sections can be set to linearly varying along the member length.
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-2-Tapered-member.png)](./img/wp-content-uploads-2021-04-6-2-Tapered-member.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-2-Tapered-member.png)](./img/wp-content-uploads-2021-04-6-2-Tapered-member.png)
 
 
 First, the user has to specify the parameters and beam eccentricity options for the member to be tapered on the **_Tapered member_** dialogue.
@@ -1003,7 +1003,7 @@ The start value for section height is applied at the start point of the member, 
 The rules for the beam eccentricity of the tapered member relate to the axis of the originally positioned member to be tapered.
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-2-Set-beam-eccentricity.png)](./img/wp-content-uploads-2021-04-6-2-Set-beam-eccentricity.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-2-Set-beam-eccentricity.png)](./img/wp-content-uploads-2021-04-6-2-Set-beam-eccentricity.png)
 
 1. _Place the centroid of the smaller section to the axis of the beam:_ the centre of smaller H value of the tapered member will be positioned to the axis of the original beam
 
@@ -1029,13 +1029,13 @@ Below shown the effect of the different relative positioning by the chosen eccen
 **+z**
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-2-1-z-1.png)](./img/wp-content-uploads-2021-04-6-2-1-z-1.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-2-1-z-1.png)](./img/wp-content-uploads-2021-04-6-2-1-z-1.png)
 
 
 ![](./img/wp-content-uploads-2021-04-6-2-1symmetric.png)
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-2-1z.png)](./img/wp-content-uploads-2021-04-6-2-1z.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-2-1z.png)](./img/wp-content-uploads-2021-04-6-2-1z.png)
 
 
 2\. _Place the centroid of the bigger section to the axis of the beam:_ the center of the bigger H value of the tapered member will be positioned to the axis of the original beam
@@ -1050,13 +1050,13 @@ Below shown the effect of the different relative positioning by the chosen eccen
 **+z**
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-2-2-z.png)](./img/wp-content-uploads-2021-04-6-2-2-z.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-2-2-z.png)](./img/wp-content-uploads-2021-04-6-2-2-z.png)
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-2-2symmetric.png)](./img/wp-content-uploads-2021-04-6-2-2symmetric.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-2-2symmetric.png)](./img/wp-content-uploads-2021-04-6-2-2symmetric.png)
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-2-2z.png)](./img/wp-content-uploads-2021-04-6-2-2z.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-2-2z.png)](./img/wp-content-uploads-2021-04-6-2-2z.png)
 
 
 3\. _Place the centroid of the original section to the axis of the beam:_ The edge of the tapered member is coincident with the original member end the tapering starts from this position
@@ -1071,13 +1071,13 @@ Below shown the effect of the different relative positioning by the chosen eccen
 **+z**
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-2-3-z.png)](./img/wp-content-uploads-2021-04-6-2-3-z.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-2-3-z.png)](./img/wp-content-uploads-2021-04-6-2-3-z.png)
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-2-3symmetric.png)](./img/wp-content-uploads-2021-04-6-2-3symmetric.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-2-3symmetric.png)](./img/wp-content-uploads-2021-04-6-2-3symmetric.png)
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-2-3z.png)](./img/wp-content-uploads-2021-04-6-2-3z.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-2-3z.png)](./img/wp-content-uploads-2021-04-6-2-3z.png)
 
 
 Activating the ![](./img/wp-content-uploads-2021-04-cmd_draw_get.png) icon, by clicking an earlier created tapered member in the model, the values, the eccentricity, and the relative positioning will be read out of that clicked, and appear in the dialog box. By clicking another member for taper, these parameters will be applied.

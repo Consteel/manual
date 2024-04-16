@@ -39,20 +39,20 @@ The basic selection modes and their operation are the followings:
     - **OK**: makes the selection according to the currently set parameters and closes the window.
   
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/4-3-selection-1.png)](./img/wp-content-uploads-2021-04-4-3-selection-1.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/4-3-selection-1.png)](./img/wp-content-uploads-2021-04-4-3-selection-1.png)
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/4-3-selection-2.png)](./img/wp-content-uploads-2021-04-4-3-selection-2.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/4-3-selection-2.png)](./img/wp-content-uploads-2021-04-4-3-selection-2.png)
 
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/Dia_select_by_prop.png)](./img/wp-content-uploads-2021-04-Dia_select_by_prop.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/Dia_select_by_prop.png)](./img/wp-content-uploads-2021-04-Dia_select_by_prop.png)
 
 
 - **object tree selection**: select objects by clicking on elements of the **_Model Content window_**.
 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/4-3-selection-3.png)](./img/wp-content-uploads-2021-04-4-3-selection-3.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/4-3-selection-3.png)](./img/wp-content-uploads-2021-04-4-3-selection-3.png)
 
 
 Clicking the object names in the object tree while holding down the Ctrl or Shift key results in multiple objects selection. To unselect any of the selected objects: hold down the Ctrl key and click on the object name again in the object tree.

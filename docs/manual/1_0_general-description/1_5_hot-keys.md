@@ -3,7 +3,7 @@ sidebar_position: 5
 ---
 # Hot keys
 
-The hot keys can significantly speed up the modeling work. _ConSteel_ provides the following pre-defined hot keys:
+The hot keys can significantly speed up the modeling work. _Consteel_ provides the following pre-defined hot keys:
 
 <!-- /wp:paragraph -->
 

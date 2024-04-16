@@ -10,19 +10,19 @@ To import a dxf drawing file, click on File menu, import tools. Choose DXF from 
 
 <!-- wp:image {"align":"center","id":7574,"width":285,"height":182,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/3-5-DXF-import-menu.png)](./img/wp-content-uploads-2021-04-3-5-DXF-import-menu.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/3-5-DXF-import-menu.png)](./img/wp-content-uploads-2021-04-3-5-DXF-import-menu.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-A windows file opening dialog will pop-up, where the dxf file has to be selected on the computer. After clicking OK, the drawing file will appear in the modeling area of _ConSteel_, and dxf import dialog will be opened automatically.
+A windows file opening dialog will pop-up, where the dxf file has to be selected on the computer. After clicking OK, the drawing file will appear in the modeling area of _Consteel_, and dxf import dialog will be opened automatically.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":7580,"width":269,"height":375,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/3-5-DXF-import-dialog.png)](./img/wp-content-uploads-2021-04-3-5-DXF-import-dialog.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/3-5-DXF-import-dialog.png)](./img/wp-content-uploads-2021-04-3-5-DXF-import-dialog.png)
 
 <!-- /wp:image -->
 
@@ -46,7 +46,7 @@ On the DXF import dialog the following modifications can be made:
 
 - Layer handling
 
-  - Layers of the dxf drawing can be imported to ConSteel with its properties, or the whole dxf can be imported to an already existing ConSteel layer
+  - Layers of the dxf drawing can be imported to Consteel with its properties, or the whole dxf can be imported to an already existing Consteel layer
 
 <!-- /wp:list -->
 

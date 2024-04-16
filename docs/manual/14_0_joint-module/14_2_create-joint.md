@@ -15,13 +15,13 @@ Joint models can be created without global model by clicking on the Edit Joint i
 
 <!-- wp:image {"align":"center","id":9499,"width":696,"height":73,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/14-3-tab.png)](./img/wp-content-uploads-2021-04-14-3-tab.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/14-3-tab.png)](./img/wp-content-uploads-2021-04-14-3-tab.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-In this case the joint type, geometry and the loads need to be set manually. One of the advantages of _ConSteel_, that in _csJoint_ it is possible to handle several connections inside of a joint. By this, a large scale of customised joints can be designed. In the following, a creation of a beam-to-column joint will be demonstrated.
+In this case the joint type, geometry and the loads need to be set manually. One of the advantages of _Consteel_, that in _csJoint_ it is possible to handle several connections inside of a joint. By this, a large scale of customised joints can be designed. In the following, a creation of a beam-to-column joint will be demonstrated.
 
 <!-- /wp:paragraph -->
 
@@ -39,7 +39,7 @@ After clicking on the Create button (![](./img/wp-content-uploads-2021-04-14-3-c
 
 <!-- wp:image {"align":"center","id":9589,"width":463,"height":362,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/14-3-create-dial1.png)](./img/wp-content-uploads-2021-04-14-3-create-dial1.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/14-3-create-dial1.png)](./img/wp-content-uploads-2021-04-14-3-create-dial1.png)
 
 <!-- /wp:image -->
 
@@ -57,7 +57,7 @@ The type of the joint has to be defined on the next dialog. _csJoint_ can handle
 
 <!-- wp:image {"align":"center","id":9595,"width":589,"height":362,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/14-3-create-dial2.png)](./img/wp-content-uploads-2021-04-14-3-create-dial2.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/14-3-create-dial2.png)](./img/wp-content-uploads-2021-04-14-3-create-dial2.png)
 
 <!-- /wp:image -->
 
@@ -69,7 +69,7 @@ The type of the joint has to be defined on the next dialog. _csJoint_ can handle
 
 <!-- wp:image {"align":"center","id":9601,"width":464,"height":394,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/14-3-create-dial3.jpg)](./img/wp-content-uploads-2021-04-14-3-create-dial3.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/14-3-create-dial3.jpg)](./img/wp-content-uploads-2021-04-14-3-create-dial3.jpg)
 
 <!-- /wp:image -->
 
@@ -81,7 +81,7 @@ Here (picture above) it is possible to set connections both to the flanges and t
 
 <!-- wp:image {"align":"center","id":9565,"width":464,"height":393,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/14-3-create-dial4.png)](./img/wp-content-uploads-2021-04-14-3-create-dial4.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/14-3-create-dial4.png)](./img/wp-content-uploads-2021-04-14-3-create-dial4.png)
 
 <!-- /wp:image -->
 
@@ -99,7 +99,7 @@ After the desired connections have been set (picture below), by clicking the Cre
 
 <!-- wp:image {"align":"center","id":9571,"width":463,"height":394,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/14-3-create-dial5.png)](./img/wp-content-uploads-2021-04-14-3-create-dial5.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/14-3-create-dial5.png)](./img/wp-content-uploads-2021-04-14-3-create-dial5.png)
 
 <!-- /wp:image -->
 
@@ -111,7 +111,7 @@ Joint loads can be given manually and the manipulations of the connection elemen
 
 <!-- wp:image {"align":"center","id":9577,"width":1034,"height":724,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/14-3-create-joint-window.png)](./img/wp-content-uploads-2021-04-14-3-create-joint-window.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/14-3-create-joint-window.png)](./img/wp-content-uploads-2021-04-14-3-create-joint-window.png)
 
 <!-- /wp:image -->
 
@@ -139,7 +139,7 @@ Creating joint by the model is simple and easy. Just click on the **_Create join
 
 <!-- wp:image {"align":"center","id":9734,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/15-3-create-model-tab.png)](./img/wp-content-uploads-2021-04-15-3-create-model-tab.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/15-3-create-model-tab.png)](./img/wp-content-uploads-2021-04-15-3-create-model-tab.png)
 
 <!-- /wp:image -->
 
@@ -151,7 +151,7 @@ The members will be automatically identified and the possible connection types a
 
 <!-- wp:image {"align":"center","id":9728,"width":648,"height":567,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/15-3-create-model-pic.png)](./img/wp-content-uploads-2021-04-15-3-create-model-pic.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/15-3-create-model-pic.png)](./img/wp-content-uploads-2021-04-15-3-create-model-pic.png)
 
 <!-- /wp:image -->
 
@@ -179,7 +179,7 @@ The fastest way of placing a joint, is to place it from the Joint details dialog
 
 <!-- wp:image {"align":"center","id":9800,"width":917,"height":660,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/15-3-place-dial-1.jpg)](./img/wp-content-uploads-2021-04-15-3-place-dial-1.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/15-3-place-dial-1.jpg)](./img/wp-content-uploads-2021-04-15-3-place-dial-1.jpg)
 
 <!-- /wp:image -->
 
@@ -225,7 +225,7 @@ Select the joint from the tree structure on the Joint dialog, and press Details 
 
 <!-- wp:image {"align":"center","id":9740,"width":776,"height":530,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/15-3-edit-dial.png)](./img/wp-content-uploads-2021-04-15-3-edit-dial.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/15-3-edit-dial.png)](./img/wp-content-uploads-2021-04-15-3-edit-dial.png)
 
 <!-- /wp:image -->
 
@@ -243,7 +243,7 @@ After the creation of a new joint, or opening an existing one for modification, 
 
 <!-- wp:image {"align":"center","id":9782,"width":728,"height":539,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/15-3-joint-det-dial.png)](./img/wp-content-uploads-2021-04-15-3-joint-det-dial.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/15-3-joint-det-dial.png)](./img/wp-content-uploads-2021-04-15-3-joint-det-dial.png)
 
 <!-- /wp:image -->
 
@@ -297,7 +297,7 @@ If the _Column_ is selected in the connection tree, then column related properti
 
 <!-- wp:image {"align":"center","id":9746,"width":686,"height":494,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/15-3-joint-det-1-col.png)](./img/wp-content-uploads-2021-04-15-3-joint-det-1-col.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/15-3-joint-det-1-col.png)](./img/wp-content-uploads-2021-04-15-3-joint-det-1-col.png)
 
 <!-- /wp:image -->
 
@@ -315,7 +315,7 @@ Stiffeners can be added if _Stiffeners_ is clicked in the connection tree. Upper
 
 <!-- wp:image {"align":"center","id":9752,"width":680,"height":477,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/15-3-joint-det-2-stiff.png)](./img/wp-content-uploads-2021-04-15-3-joint-det-2-stiff.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/15-3-joint-det-2-stiff.png)](./img/wp-content-uploads-2021-04-15-3-joint-det-2-stiff.png)
 
 <!-- /wp:image -->
 
@@ -333,7 +333,7 @@ If _Joint loading_ is selected, it is possible to choose from two options (#1). 
 
 <!-- wp:image {"align":"center","id":9758,"width":656,"height":461,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/15-3-joint-det-3-loads.png)](./img/wp-content-uploads-2021-04-15-3-joint-det-3-loads.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/15-3-joint-det-3-loads.png)](./img/wp-content-uploads-2021-04-15-3-joint-det-3-loads.png)
 
 <!-- /wp:image -->
 
@@ -351,7 +351,7 @@ If the _Beam_ is selected in the connection tree, then beam related properties o
 
 <!-- wp:image {"align":"center","id":9764,"width":680,"height":476,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/15-3-joint-det-4-beam.png)](./img/wp-content-uploads-2021-04-15-3-joint-det-4-beam.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/15-3-joint-det-4-beam.png)](./img/wp-content-uploads-2021-04-15-3-joint-det-4-beam.png)
 
 <!-- /wp:image -->
 
@@ -369,7 +369,7 @@ _End plate_ properties (geometry, material) can be edited in the #1 part of the 
 
 <!-- wp:image {"align":"center","id":9770,"width":679,"height":477,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/15-3-joint-det-5-endpl.png)](./img/wp-content-uploads-2021-04-15-3-joint-det-5-endpl.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/15-3-joint-det-5-endpl.png)](./img/wp-content-uploads-2021-04-15-3-joint-det-5-endpl.png)
 
 <!-- /wp:image -->
 
@@ -387,7 +387,7 @@ At _Welds_, it is possible to choose if welds should be optimized automatically 
 
 <!-- wp:image {"align":"center","id":9776,"width":674,"height":472,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/15-3-joint-det-6-welds.png)](./img/wp-content-uploads-2021-04-15-3-joint-det-6-welds.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/15-3-joint-det-6-welds.png)](./img/wp-content-uploads-2021-04-15-3-joint-det-6-welds.png)
 
 <!-- /wp:image -->
 
@@ -405,7 +405,7 @@ In the pull down menu the type of the result visualisation can be set to three d
 
 <!-- wp:image {"align":"center","id":9842,"width":455,"height":386,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/15-3-joint-det-7-results.png)](./img/wp-content-uploads-2021-04-15-3-joint-det-7-results.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/15-3-joint-det-7-results.png)](./img/wp-content-uploads-2021-04-15-3-joint-det-7-results.png)
 
 <!-- /wp:image -->
 
@@ -435,12 +435,12 @@ _Default joint settings_ can be changed and saved by clicking the Default joint 
 
 <!-- wp:image {"align":"center","id":9812,"width":512,"height":498,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/15-3-def-dial.png)](./img/wp-content-uploads-2021-04-15-3-def-dial.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/15-3-def-dial.png)](./img/wp-content-uploads-2021-04-15-3-def-dial.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-The default joint configuration file is saved to the Documents \ConSteel folder as UserConfig.xml.
+The default joint configuration file is saved to the Documents \Consteel folder as UserConfig.xml.
 
 <!-- /wp:paragraph -->

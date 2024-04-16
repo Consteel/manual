@@ -3,7 +3,7 @@ sidebar_position: 14
 ---
 # Superbeam
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/05/scr_dualbeam_demo_res.png)](./img/wp-content-uploads-2021-05-scr_dualbeam_demo_res.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/05/scr_dualbeam_demo_res.png)](./img/wp-content-uploads-2021-05-scr_dualbeam_demo_res.png)
 
 <!-- /wp:image -->
 
@@ -38,7 +38,7 @@ If the shell FE model (mesh) is selected for the analysis, it is automatically c
 
 <!-- wp:image {"align":"center","id":11619,"width":338,"height":150,"sizeSlug":"full","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/05/scr_dualbeam_stru.png)](./img/wp-content-uploads-2021-05-scr_dualbeam_stru.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/05/scr_dualbeam_stru.png)](./img/wp-content-uploads-2021-05-scr_dualbeam_stru.png)
 
 Bar member model of the beam
 
@@ -50,7 +50,7 @@ Bar member model of the beam
 
 <!-- wp:image {"align":"center","id":11625,"width":338,"height":150,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/05/scr_dualbeam_FE_line.png)](./img/wp-content-uploads-2021-05-scr_dualbeam_FE_line.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/05/scr_dualbeam_FE_line.png)](./img/wp-content-uploads-2021-05-scr_dualbeam_FE_line.png)
 
 7DOF beam model with warping stiffeners
 
@@ -62,7 +62,7 @@ Bar member model of the beam
 
 <!-- wp:image {"align":"center","id":11631,"width":338,"height":150,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/05/scr_dualbeam_FE_shell.png)](./img/wp-content-uploads-2021-05-scr_dualbeam_FE_shell.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/05/scr_dualbeam_FE_shell.png)](./img/wp-content-uploads-2021-05-scr_dualbeam_FE_shell.png)
 
 Shell model with holes and stiffeners
 
@@ -114,7 +114,7 @@ To use the capabilities of a shell model on a bar member, you have to change the
 
 <!-- wp:image {"align":"left","id":11647,"width":231,"height":242,"sizeSlug":"full","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/05/grid_member_FE_type.png)](./img/wp-content-uploads-2021-05-grid_member_FE_type.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/05/grid_member_FE_type.png)](./img/wp-content-uploads-2021-05-grid_member_FE_type.png)
 
 <!-- /wp:image -->
 
@@ -140,7 +140,7 @@ The available types of finite elements in the drop-down list depend on the cross
 
 <!-- wp:image {"align":"left","id":21879,"width":287,"height":92,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/05/grid_member_shell.png)](./img/wp-content-uploads-2021-05-grid_member_shell.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/05/grid_member_shell.png)](./img/wp-content-uploads-2021-05-grid_member_shell.png)
 
 <!-- /wp:image -->
 
@@ -189,7 +189,7 @@ In the next row, the type of **constraint elements** can be chosen, that can be
 
 <!-- wp:image {"align":"right","id":21887,"width":340,"height":399,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/05/scr_dualbeam_constraint.png)](./img/wp-content-uploads-2021-05-scr_dualbeam_constraint.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/05/scr_dualbeam_constraint.png)](./img/wp-content-uploads-2021-05-scr_dualbeam_constraint.png)
 
 <!-- /wp:image -->
 

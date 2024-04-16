@@ -5,7 +5,7 @@ sidebar_position: 7
 
 <!-- wp:image {"align":"center","id":7589,"width":599,"height":351,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/3-6-export-DXF-.jpg)](./img/wp-content-uploads-2021-04-3-6-export-DXF-.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/3-6-export-DXF-.jpg)](./img/wp-content-uploads-2021-04-3-6-export-DXF-.jpg)
 
 <!-- /wp:image -->
 
@@ -45,7 +45,7 @@ The function can be initiated from the File menu’s Export functions:
 
 <!-- wp:image {"align":"center","id":7607,"width":525,"height":341,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/3-6-export-DXF-dialog-1.png)](./img/wp-content-uploads-2021-04-3-6-export-DXF-dialog-1.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/3-6-export-DXF-dialog-1.png)](./img/wp-content-uploads-2021-04-3-6-export-DXF-dialog-1.png)
 
 <!-- /wp:image -->
 

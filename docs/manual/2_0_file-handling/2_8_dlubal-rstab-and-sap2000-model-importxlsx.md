@@ -4,7 +4,7 @@ sidebar_position: 8
 # DLUBAL Rstab and SAP2000 model import(.xlsx)
 
 
-ConSteel is able to import model data, contained in an Excel (.xlsx) file, where different model data is stored on different worksheets. These table files can be exported from the softwares above.
+Consteel is able to import model data, contained in an Excel (.xlsx) file, where different model data is stored on different worksheets. These table files can be exported from the softwares above.
 
 <!-- /wp:paragraph -->
 
@@ -16,7 +16,7 @@ To import the model data, click on the File menu, Import tools. Choose DLUBAL(xl
 
 <!-- wp:image {"align":"center","id":7616,"width":268,"height":374,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/3-7-Dlubal-1.png)](./img/wp-content-uploads-2021-04-3-7-Dlubal-1.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/3-7-Dlubal-1.png)](./img/wp-content-uploads-2021-04-3-7-Dlubal-1.png)
 
 <!-- /wp:image -->
 
@@ -64,7 +64,7 @@ After the settings are made and clicked on the OK button, the import process wil
 
 <!-- wp:image {"align":"center","id":7622,"width":505,"height":545,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/3-7-Dlubal-2.png)](./img/wp-content-uploads-2021-04-3-7-Dlubal-2.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/3-7-Dlubal-2.png)](./img/wp-content-uploads-2021-04-3-7-Dlubal-2.png)
 
 <!-- /wp:image -->
 

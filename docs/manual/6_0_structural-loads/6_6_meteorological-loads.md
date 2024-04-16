@@ -41,7 +41,7 @@ Meteorological load generator can generate wind and snow load for the most commo
 
 <!-- wp:image {"align":"right","id":10228,"width":301,"height":330,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-7-1-Load-groups-and-load-cases.png)](./img/wp-content-uploads-2021-04-6-7-1-Load-groups-and-load-cases.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-7-1-Load-groups-and-load-cases.png)](./img/wp-content-uploads-2021-04-6-7-1-Load-groups-and-load-cases.png)
 
 <!-- /wp:image -->
 
@@ -89,13 +89,13 @@ It is important to check the directions of the local axes of the load transfer s
 
 <!-- wp:image {"align":"center","id":10381,"width":825,"height":539,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6.7.2-Meteorological-surfaces.jpg)](./img/wp-content-uploads-2021-04-6.7.2-Meteorological-surfaces.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6.7.2-Meteorological-surfaces.jpg)](./img/wp-content-uploads-2021-04-6.7.2-Meteorological-surfaces.jpg)
 
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"right","id":10387,"width":329,"height":274,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-7-2-Meteorological-surfaces-2.png)](./img/wp-content-uploads-2021-04-6-7-2-Meteorological-surfaces-2.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-7-2-Meteorological-surfaces-2.png)](./img/wp-content-uploads-2021-04-6-7-2-Meteorological-surfaces-2.png)
 
 <!-- /wp:image -->
 
@@ -123,13 +123,13 @@ _**Velocity pressure**_
 
 <!-- wp:image {"align":"center","id":10374,"width":1010,"height":372,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-7-2-Wind-surface-1.jpg)](./img/wp-content-uploads-2021-04-6-7-2-Wind-surface-1.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-7-2-Wind-surface-1.jpg)](./img/wp-content-uploads-2021-04-6-7-2-Wind-surface-1.jpg)
 
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"right","id":10393,"width":354,"height":471,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-7-2-Wind-surface2.jpg)](./img/wp-content-uploads-2021-04-6-7-2-Wind-surface2.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-7-2-Wind-surface2.jpg)](./img/wp-content-uploads-2021-04-6-7-2-Wind-surface2.jpg)
 
 <!-- /wp:image -->
 
@@ -171,7 +171,7 @@ All of the parameters are loaded from the selected national NA, only the basic w
 
 <!-- wp:image {"align":"left","id":6758,"width":82,"height":87,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![warning](https://consteelsoftware.com/wp-content/uploads/2021/04/warning_croc.png)](./img/wp-content-uploads-2021-04-warning_croc.png)
+[![warning](https://Consteelsoftware.com/wp-content/uploads/2021/04/warning_croc.png)](./img/wp-content-uploads-2021-04-warning_croc.png)
 
 <!-- /wp:image -->
 
@@ -187,7 +187,7 @@ Velocity pressure dialog and the necessary parameters could be different accordi
 
 <!-- wp:image {"align":"right","id":10399,"width":257,"height":248,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-7-2-Internal-pressure.png)](./img/wp-content-uploads-2021-04-6-7-2-Internal-pressure.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-7-2-Internal-pressure.png)](./img/wp-content-uploads-2021-04-6-7-2-Internal-pressure.png)
 
 <!-- /wp:image -->
 
@@ -219,7 +219,7 @@ The value can set manually, or the extreme values can be selected from the dropd
 
 <!-- wp:image {"align":"right","id":10405,"width":257,"height":248,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-7-2-Wild-friction.png)](./img/wp-content-uploads-2021-04-6-7-2-Wild-friction.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-7-2-Wild-friction.png)](./img/wp-content-uploads-2021-04-6-7-2-Wild-friction.png)
 
 <!-- /wp:image -->
 
@@ -255,7 +255,7 @@ The following geometrical parameters have to be set:
 
 <!-- wp:image {"align":"right","id":10411,"width":392,"height":208,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6.7.2.1-Wintdload.png)](./img/wp-content-uploads-2021-04-6.7.2.1-Wintdload.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6.7.2.1-Wintdload.png)](./img/wp-content-uploads-2021-04-6.7.2.1-Wintdload.png)
 
 <!-- /wp:image -->
 
@@ -263,8 +263,8 @@ The following geometrical parameters have to be set:
 
 - The direction of the basic wind in the global coordinate system. The basic wind direction is the 0° wind direction.
 - Building dimensions to the basic wind direction
-- Loaded area (A) of the wind load. If the loaded area is equal to or bigger than 10m<sup>2</sup> then ConSteel uses cpe10 in the generation. If the area is equal to or smaller than 1m<sup>2</sup> then ConSteel uses cpe1 in the generation. Between the two values, ConSteel interpolates between cpe10 and cpe1 acc. to the Eurocode rule.
-- Ground level. ConSteel measures the height of the structure from the global Z=0 level for the wind load generation. Therefore the structure base level is not equal with the ground level, but the structure is placed on the global Z=0 level in ConSteel, the difference has to be set manually in the ground level field.
+- Loaded area (A) of the wind load. If the loaded area is equal to or bigger than 10m<sup>2</sup> then Consteel uses cpe10 in the generation. If the area is equal to or smaller than 1m<sup>2</sup> then Consteel uses cpe1 in the generation. Between the two values, Consteel interpolates between cpe10 and cpe1 acc. to the Eurocode rule.
+- Ground level. Consteel measures the height of the structure from the global Z=0 level for the wind load generation. Therefore the structure base level is not equal with the ground level, but the structure is placed on the global Z=0 level in Consteel, the difference has to be set manually in the ground level field.
 
 <!-- /wp:list -->
 
@@ -297,7 +297,7 @@ The basic values are loaded from the selected national NA.
 
 <!-- wp:image {"align":"center","id":10368,"width":754,"height":317,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-7-2-2-Snow-surface.png)](./img/wp-content-uploads-2021-04-6-7-2-2-Snow-surface.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-7-2-2-Snow-surface.png)](./img/wp-content-uploads-2021-04-6-7-2-2-Snow-surface.png)
 
 <!-- /wp:image -->
 
@@ -327,7 +327,7 @@ The following symbol will be appeared on the load transfer surface, after the su
 
 <!-- wp:image {"align":"right","id":10350,"width":426,"height":354,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-7-2-3-Placing-meteorological-surface.jpg)](./img/wp-content-uploads-2021-04-6-7-2-3-Placing-meteorological-surface.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-7-2-3-Placing-meteorological-surface.jpg)](./img/wp-content-uploads-2021-04-6-7-2-3-Placing-meteorological-surface.jpg)
 
 <!-- /wp:image -->
 
@@ -358,7 +358,7 @@ The following standard categories can be selected from the menu (#1):
 
 <!-- wp:image {"align":"right","id":10356,"width":228,"height":180,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-7-2-3.2-Placing-meteorological-surf.png)](./img/wp-content-uploads-2021-04-6-7-2-3.2-Placing-meteorological-surf.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-7-2-3.2-Placing-meteorological-surf.png)](./img/wp-content-uploads-2021-04-6-7-2-3.2-Placing-meteorological-surf.png)
 
 <!-- /wp:image -->
 
@@ -382,7 +382,7 @@ In the case of a Wind surface, by clicking the three dots button in the Define z
 
 <!-- wp:image {"align":"center","id":10362,"width":333,"height":573,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-7-2-3.3-Placing-meteorological-surf.png)](./img/wp-content-uploads-2021-04-6-7-2-3.3-Placing-meteorological-surf.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-7-2-3.3-Placing-meteorological-surf.png)](./img/wp-content-uploads-2021-04-6-7-2-3.3-Placing-meteorological-surf.png)
 
 <!-- /wp:image -->
 
@@ -400,7 +400,7 @@ Meteorological load generator function can be found on the **loads** tab.
 
 <!-- wp:image {"align":"center","id":10344,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-7-3.1-Meteorological-load-generator.png)](./img/wp-content-uploads-2021-04-6-7-3.1-Meteorological-load-generator.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-7-3.1-Meteorological-load-generator.png)](./img/wp-content-uploads-2021-04-6-7-3.1-Meteorological-load-generator.png)
 
 <!-- /wp:image -->
 
@@ -418,7 +418,7 @@ Each direction and surface can be turned on and off for generation by clicking o
 
 <!-- wp:image {"align":"center","id":10338,"width":619,"height":395,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-6-7-Meteorological-load-generator.png)](./img/wp-content-uploads-2021-04-6-6-7-Meteorological-load-generator.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-6-7-Meteorological-load-generator.png)](./img/wp-content-uploads-2021-04-6-6-7-Meteorological-load-generator.png)
 
 <!-- /wp:image -->
 

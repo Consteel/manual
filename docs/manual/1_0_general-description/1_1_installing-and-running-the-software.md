@@ -4,13 +4,13 @@ sidebar_position: 1
 # Installing and running the software
 
 
-<!-- wp:consteel/content-block -->
+<!-- wp:Consteel/content-block -->
 
-<!-- /wp:consteel/content-block -->
+<!-- /wp:Consteel/content-block -->
 
 <!-- wp:paragraph -->
 
-Please ensure that the following software and hardware requirements are met in order to run the ConSteel program. Otherwise, it may not run at the expected speed or may not run at all.
+Please ensure that the following software and hardware requirements are met in order to run the Consteel program. Otherwise, it may not run at the expected speed or may not run at all.
 
 <!-- /wp:paragraph -->
 
@@ -129,7 +129,7 @@ To create a new user account, click the **LOG IN** button in the upper right cor
 
 <!-- wp:image {"align":"left","id":6803,"sizeSlug":"full","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/Log-in.jpg)](./img/wp-content-uploads-2021-04-Log-in.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/Log-in.jpg)](./img/wp-content-uploads-2021-04-Log-in.jpg)
 
 <!-- /wp:image -->
 
@@ -145,7 +145,7 @@ To create a new user account, click the **LOG IN** button in the upper right cor
 
 <!-- wp:paragraph -->
 
-To install Consteel, start the downloaded installation file and follow the instructions. As a first step, the language of the setup must be set. *ConSteel* will use this language for the first time you start it, but you may switch to another language later. The installing program will copy the elements of the software into the directory you have specified (default directory: C:\\Program Files\\ConSteel xx - where xx=version number), then it will position the Menu of the program onto the selected place of the „START”-menu. Finally, the install shield will place the desktop shortcut onto the desktop. The last step of the setup is the hard lock driver installation. This has no progress signal, so you have to wait until it finishes.
+To install Consteel, start the downloaded installation file and follow the instructions. As a first step, the language of the setup must be set. *Consteel* will use this language for the first time you start it, but you may switch to another language later. The installing program will copy the elements of the software into the directory you have specified (default directory: C:\\Program Files\\Consteel xx - where xx=version number), then it will position the Menu of the program onto the selected place of the „START”-menu. Finally, the install shield will place the desktop shortcut onto the desktop. The last step of the setup is the hard lock driver installation. This has no progress signal, so you have to wait until it finishes.
 
 <!-- /wp:paragraph -->
 
@@ -171,7 +171,7 @@ If you have purchased a network-enabled hardware key, it can be connected to any
 
 <!-- wp:image {"align":"left","id":11530,"width":436,"height":361,"sizeSlug":"full","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/2-2-insta-hardlock.png)](./img/wp-content-uploads-2021-04-2-2-insta-hardlock.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/2-2-insta-hardlock.png)](./img/wp-content-uploads-2021-04-2-2-insta-hardlock.png)
 
 <!-- /wp:image -->
 
@@ -199,7 +199,7 @@ After Consteel 15 Update 6 release, the hardlock driver is removed from the inst
 
 <!-- wp:paragraph -->
 
-There are differences between in starting Consteel 14 and Consteel 15, therefore we describe the two versions separately. To see the Consteel 14 version description, [click here](#starting-consteel-14).
+There are differences between in starting Consteel 14 and Consteel 15, therefore we describe the two versions separately. To see the Consteel 14 version description, [click here](#starting-Consteel-14).
 
 <!-- /wp:paragraph -->
 
@@ -223,7 +223,7 @@ You can save this setting as a default setting. **Do this only if you are sure a
 
 <!-- wp:paragraph -->
 
-Students, teachers, or trial users only can request an online license. Please for trial users read our guide [here](https://consteelsoftware.com/how-licensing-works/#trialuser), for educational members, read the steps [here](https://consteelsoftware.com/student-and-education/).
+Students, teachers, or trial users only can request an online license. Please for trial users read our guide [here](https://Consteelsoftware.com/how-licensing-works/#trialuser), for educational members, read the steps [here](https://Consteelsoftware.com/student-and-education/).
 
 <!-- /wp:paragraph -->
 
@@ -233,7 +233,7 @@ Students, teachers, or trial users only can request an online license. Please fo
 
 <!-- wp:image {"align":"right","id":28965,"sizeSlug":"medium","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](./img/wp-content-uploads-2021-12-dia_prot_select_dongle-259x300.png)](https://consteelsoftware.com/wp-content/uploads/2021/12/dia_prot_select_dongle.png)
+[![](./img/wp-content-uploads-2021-12-dia_prot_select_dongle-259x300.png)](https://Consteelsoftware.com/wp-content/uploads/2021/12/dia_prot_select_dongle.png)
 
 Hardware key dongle
 
@@ -245,7 +245,7 @@ Hardware key dongle
 
 <!-- wp:image {"align":"left","id":28971,"sizeSlug":"medium","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](./img/wp-content-uploads-2021-12-dia_prot_select_online-260x300.png)](https://consteelsoftware.com/wp-content/uploads/2021/12/dia_prot_select_online.png)
+[![](./img/wp-content-uploads-2021-12-dia_prot_select_online-260x300.png)](https://Consteelsoftware.com/wp-content/uploads/2021/12/dia_prot_select_online.png)
 
 Online license
 
@@ -303,13 +303,13 @@ After selecting the desired seat the Project Center will appear. If Consteel has
 
 <!-- wp:paragraph -->
 
-If you have other problems please [contact us](https://consteelsoftware.com/contact/).
+If you have other problems please [contact us](https://Consteelsoftware.com/contact/).
 
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":28182,"width":464,"height":381,"sizeSlug":"full","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/11/seat_selection.png)](./img/wp-content-uploads-2021-11-seat_selection.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/11/seat_selection.png)](./img/wp-content-uploads-2021-11-seat_selection.png)
 
 Seat selection
 
@@ -341,7 +341,7 @@ The software license grants the use by software accesses and software seats, the
 
 <!-- wp:paragraph -->
 
-**(2)** First the License holder has to assign users to software accesses. Every access is connected to a Consteel Community Membership level. Cloud services available in Consteel are set by these [membership levels](https://consteelsoftware.com/products/offers-licensing/#ccm).
+**(2)** First the License holder has to assign users to software accesses. Every access is connected to a Consteel Community Membership level. Cloud services available in Consteel are set by these [membership levels](https://Consteelsoftware.com/products/offers-licensing/#ccm).
 
 <!-- /wp:paragraph -->
 
@@ -359,7 +359,7 @@ By clicking on the "Add user" card the license holder can type the user's email 
 
 <!-- wp:image {"align":"center","id":28339,"width":855,"height":767,"sizeSlug":"large","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](./img/wp-content-uploads-2021-11-end_user_management-1024x919.png)](https://consteelsoftware.com/wp-content/uploads/2021/11/end_user_management.png)
+[![](./img/wp-content-uploads-2021-11-end_user_management-1024x919.png)](https://Consteelsoftware.com/wp-content/uploads/2021/11/end_user_management.png)
 
 Subscription plan information and end-user management
 
@@ -403,13 +403,13 @@ At the Licence settings **(3)**, you can access your license information and als
 
 <!-- wp:paragraph -->
 
-From the Learn screen, you can access various learning materials and example models from the [Knowledge base](https://consteelsoftware.com/knowledgebase/).
+From the Learn screen, you can access various learning materials and example models from the [Knowledge base](https://Consteelsoftware.com/knowledgebase/).
 
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":28198,"width":730,"height":394,"sizeSlug":"large","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](./img/wp-content-uploads-2021-11-projectcenter3-e1637836665526-1024x553.png)](https://consteelsoftware.com/wp-content/uploads/2021/11/projectcenter3.png)
+[![](./img/wp-content-uploads-2021-11-projectcenter3-e1637836665526-1024x553.png)](https://Consteelsoftware.com/wp-content/uploads/2021/11/projectcenter3.png)
 
 Learning Center
 
@@ -465,7 +465,7 @@ Every model opening and sharing cost data bandwidth from your storage. Your mont
 
 <!-- wp:image {"align":"center","id":28219,"width":768,"height":402,"sizeSlug":"large","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](./img/wp-content-uploads-2021-11-cloud-open-manual-1024x536.png)](https://consteelsoftware.com/wp-content/uploads/2021/11/cloud-open-manual.png)
+[![](./img/wp-content-uploads-2021-11-cloud-open-manual-1024x536.png)](https://Consteelsoftware.com/wp-content/uploads/2021/11/cloud-open-manual.png)
 
 Cloud storage provided by the Steelspace platform
 
@@ -473,7 +473,7 @@ Cloud storage provided by the Steelspace platform
 
 <!-- wp:paragraph -->
 
-When you open a model from the cloud it is always downloaded to the local device into the folder: C:\\Users(username)\\AppData\\Local\\ConSteel\\CloudModels and kept synchronized. The amount of data bandwidth is set by your subscription's membership level and it will renew every month.
+When you open a model from the cloud it is always downloaded to the local device into the folder: C:\\Users(username)\\AppData\\Local\\Consteel\\CloudModels and kept synchronized. The amount of data bandwidth is set by your subscription's membership level and it will renew every month.
 
 <!-- /wp:paragraph -->
 
@@ -485,7 +485,7 @@ When you open a model from the cloud it is always downloaded to the local device
 
 <!-- wp:paragraph -->
 
-ConSteel can be started with hardware key protection for a purchased copy or using an online protection. Currently, the online license is only available for students, teachers, or trial users for free through a registered Consteel user account. See the link below for details on how to apply for a license: https://consteelsoftware.com/how-licensing-works
+Consteel can be started with hardware key protection for a purchased copy or using an online protection. Currently, the online license is only available for students, teachers, or trial users for free through a registered Consteel user account. See the link below for details on how to apply for a license: https://Consteelsoftware.com/how-licensing-works
 
 <!-- /wp:paragraph -->
 
@@ -511,7 +511,7 @@ If the user does not have an online license, pressing the “Sign in to online a
 
 <!-- wp:image {"align":"left","id":6815,"width":344,"height":342,"sizeSlug":"full","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/Login.jpg)](./img/wp-content-uploads-2021-04-Login.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/Login.jpg)](./img/wp-content-uploads-2021-04-Login.jpg)
 
 <!-- /wp:image -->
 
@@ -521,13 +521,13 @@ If the user does not have an online license, pressing the “Sign in to online a
 
 <!-- wp:paragraph -->
 
-The starting of _ConSteel_ opens a startup dialog window which allows to create and open models easily. The latest models can be opened without browsing folders. They are sorted by the last modification date as a default setting, but they can also be sorted by name or by the model path.
+The starting of _Consteel_ opens a startup dialog window which allows to create and open models easily. The latest models can be opened without browsing folders. They are sorted by the last modification date as a default setting, but they can also be sorted by name or by the model path.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":11542,"width":472,"height":380,"sizeSlug":"full","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/dial_startup_v15.png)](./img/wp-content-uploads-2021-04-dial_startup_v15.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/dial_startup_v15.png)](./img/wp-content-uploads-2021-04-dial_startup_v15.png)
 
 <!-- /wp:image -->
 

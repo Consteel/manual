@@ -9,7 +9,7 @@ Masses on the structure, just like in the case of loads, has to be grouped toget
 
 <!-- wp:image {"align":"center","id":10427,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-2-Mass-Cases-and-mass-groups.png)](./img/wp-content-uploads-2021-04-7-2-Mass-Cases-and-mass-groups.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-2-Mass-Cases-and-mass-groups.png)](./img/wp-content-uploads-2021-04-7-2-Mass-Cases-and-mass-groups.png)
 
 <!-- /wp:image -->
 
@@ -27,7 +27,7 @@ On the left side of the dialogue (#1), loadcases that were defined on the **Load
 
 <!-- wp:image {"align":"center","id":10434,"width":620,"height":469,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-2-Mass-Cases-and-mass-groups.2.png)](./img/wp-content-uploads-2021-04-7-2-Mass-Cases-and-mass-groups.2.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-2-Mass-Cases-and-mass-groups.2.png)](./img/wp-content-uploads-2021-04-7-2-Mass-Cases-and-mass-groups.2.png)
 
 <!-- /wp:image -->
 
@@ -45,7 +45,7 @@ Loads placed on the Loads tab can be converted into masses on the left side of t
 
 <!-- wp:image {"align":"right","id":10440,"width":667,"height":503,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-3-Manual-definition-of-Mass-Cases-and-mass-groups.png)](./img/wp-content-uploads-2021-04-7-3-Manual-definition-of-Mass-Cases-and-mass-groups.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-3-Manual-definition-of-Mass-Cases-and-mass-groups.png)](./img/wp-content-uploads-2021-04-7-3-Manual-definition-of-Mass-Cases-and-mass-groups.png)
 
 <!-- /wp:image -->
 

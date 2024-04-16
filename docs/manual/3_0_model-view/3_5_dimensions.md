@@ -9,7 +9,7 @@ For the documentation of the calculated structural model, it is very important t
 
 <!-- wp:image {"align":"center","id":7844,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/4-6-Dim-tab.png)](./img/wp-content-uploads-2021-04-4-6-Dim-tab.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/4-6-Dim-tab.png)](./img/wp-content-uploads-2021-04-4-6-Dim-tab.png)
 
 <!-- /wp:image -->
 
@@ -27,7 +27,7 @@ This provides a great number of different dimensioning options:
 
 <!-- wp:image {"align":"center","id":7856,"width":408,"height":182,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/4-6-Dim-proj-dialog.png)](./img/wp-content-uploads-2021-04-4-6-Dim-proj-dialog.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/4-6-Dim-proj-dialog.png)](./img/wp-content-uploads-2021-04-4-6-Dim-proj-dialog.png)
 
 <!-- /wp:image -->
 
@@ -48,7 +48,7 @@ _Parameters:_
 
 <!-- wp:image {"align":"center","id":7862,"width":535,"height":417,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/4-6-Dim-proj-pic.png)](./img/wp-content-uploads-2021-04-4-6-Dim-proj-pic.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/4-6-Dim-proj-pic.png)](./img/wp-content-uploads-2021-04-4-6-Dim-proj-pic.png)
 
 <!-- /wp:image -->
 
@@ -72,7 +72,7 @@ _Parameters:_
 
 <!-- wp:image {"align":"center","id":7874,"width":425,"height":350,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/4-6-Dim-length-pic.jpg)](./img/wp-content-uploads-2021-04-4-6-Dim-length-pic.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/4-6-Dim-length-pic.jpg)](./img/wp-content-uploads-2021-04-4-6-Dim-length-pic.jpg)
 
 <!-- /wp:image -->
 
@@ -139,7 +139,7 @@ The content of the **Basic line** field means the height of the zero level in th
 
 <!-- wp:image {"align":"center","id":7916,"width":767,"height":431,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/4-6-Dim-height-pic.png)](./img/wp-content-uploads-2021-04-4-6-Dim-height-pic.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/4-6-Dim-height-pic.png)](./img/wp-content-uploads-2021-04-4-6-Dim-height-pic.png)
 
 <!-- /wp:image -->
 
@@ -151,6 +151,6 @@ The content of the **Basic line** field means the height of the zero level in th
 
 <!-- wp:image {"align":"center","id":7838,"width":511,"height":361,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/4-6-Dim-text-pic.png)](./img/wp-content-uploads-2021-04-4-6-Dim-text-pic.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/4-6-Dim-text-pic.png)](./img/wp-content-uploads-2021-04-4-6-Dim-text-pic.png)
 
 <!-- /wp:image -->

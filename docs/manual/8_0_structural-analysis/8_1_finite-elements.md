@@ -9,7 +9,7 @@ sidebar_position: 1
 
 <!-- wp:paragraph -->
 
-The mechanical performance of the calculated model is always highly influenced and limited by the applied finite element type. The considered displacements, forces, shape functions, and second-order effects within the finite element model determine the quality of the analysis, the expectable results, and the applicable standard verification methods. On the other hand, the engineer should be aware of the important characteristics of the used finite elements already at the model building phase to avoid the non-expected structural behavior and calculate the mechanical performance of the imagined structure as accurately as possible. In ConSteel, the models always have the real 3D behavior; there are no options for special reduced degree-of-freedom calculations (like 2D frames, plate or membrane surfaces, etc.). If this is required appropriate support and/or load system should be applied. All the defined loads and supports are converted to nodal forces and nodal supports; no forces or supports are considered along with the finite elements. This conversation is performed automatically during the FE mesh generation.
+The mechanical performance of the calculated model is always highly influenced and limited by the applied finite element type. The considered displacements, forces, shape functions, and second-order effects within the finite element model determine the quality of the analysis, the expectable results, and the applicable standard verification methods. On the other hand, the engineer should be aware of the important characteristics of the used finite elements already at the model building phase to avoid the non-expected structural behavior and calculate the mechanical performance of the imagined structure as accurately as possible. In Consteel, the models always have the real 3D behavior; there are no options for special reduced degree-of-freedom calculations (like 2D frames, plate or membrane surfaces, etc.). If this is required appropriate support and/or load system should be applied. All the defined loads and supports are converted to nodal forces and nodal supports; no forces or supports are considered along with the finite elements. This conversation is performed automatically during the FE mesh generation.
 
 <!-- /wp:paragraph -->
 
@@ -47,7 +47,7 @@ The 7DOF element is specially developed for thin-walled members where the warpin
 
 <!-- wp:image {"align":"center","id":10668,"width":700,"height":462,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](./img/wp-content-uploads-2021-04-8-2-2-LINE-ELEMENTS-1024x677.jpg)](https://consteelsoftware.com/wp-content/uploads/2021/04/8-2-2-LINE-ELEMENTS.jpg)
+[![](./img/wp-content-uploads-2021-04-8-2-2-LINE-ELEMENTS-1024x677.jpg)](https://Consteelsoftware.com/wp-content/uploads/2021/04/8-2-2-LINE-ELEMENTS.jpg)
 
 <!-- /wp:image -->
 
@@ -59,7 +59,7 @@ The first 6 DOF are the conventional displacements (Ux, Uy, Uz) and rotations (Î
 
 <!-- wp:image {"align":"center","id":10686,"width":700,"height":470,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](./img/wp-content-uploads-2021-04-8-2-2-LINE-ELEMENTS.2-1024x771.jpg)](https://consteelsoftware.com/wp-content/uploads/2021/04/8-2-2-LINE-ELEMENTS.2.jpg)
+[![](./img/wp-content-uploads-2021-04-8-2-2-LINE-ELEMENTS.2-1024x771.jpg)](https://Consteelsoftware.com/wp-content/uploads/2021/04/8-2-2-LINE-ELEMENTS.2.jpg)
 
 <!-- /wp:image -->
 

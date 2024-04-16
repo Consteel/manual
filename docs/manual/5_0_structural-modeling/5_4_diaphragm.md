@@ -15,7 +15,7 @@ After clicking on the Diaphragm (![](./img/wp-content-uploads-2021-04-cmd_create
 
 <!-- wp:image {"align":"center","id":8800,"width":308,"height":271,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-4-Diaphragm.png)](./img/wp-content-uploads-2021-04-6-4-Diaphragm.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-4-Diaphragm.png)](./img/wp-content-uploads-2021-04-6-4-Diaphragm.png)
 
 <!-- /wp:image -->
 

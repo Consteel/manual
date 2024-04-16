@@ -9,7 +9,7 @@ The Consteel window consists of seven separate parts containing different functi
 
 <!-- wp:image {"align":"center","id":6857,"sizeSlug":"large","linkDestination":"media","className":"is-resized is-style-default"} -->
 
-[![](./img/wp-content-uploads-2021-04-Main-window-numbers-1-1024x555.png)](https://consteelsoftware.com/wp-content/uploads/2021/04/Main-window-numbers-1.png)
+[![](./img/wp-content-uploads-2021-04-Main-window-numbers-1-1024x555.png)](https://Consteelsoftware.com/wp-content/uploads/2021/04/Main-window-numbers-1.png)
 
 - The **graphical window** is the area for the 3D structural modeling (#1)
 - The **menu** on the top contains some important commands (#2)
@@ -54,7 +54,7 @@ The structural model appears always in the graphical window. There are no other 
 
 <!-- wp:paragraph -->
 
-The _ConSteel_ menu does not contain many commands since the main functionality is placed to the structured tabs and to the side bars, and the applicability and modeling efficiency does not really need to duplicate the functions. However, six important function groups appear here: [**_File_** ](#file-menu)handling, some [**_Edit_** ](#edit-menu)options (undo-redo), [**_View_** ](#view-menu)and diagnostics, [**_Options_**](#options-menu) for settings (for saving, updating, selecting language, and for model diagnostics), [**_Standards_** ](#standards-menu)for reviewing and defining standard parameters for design and **_[Help](#help-menu)_**.
+The _Consteel_ menu does not contain many commands since the main functionality is placed to the structured tabs and to the side bars, and the applicability and modeling efficiency does not really need to duplicate the functions. However, six important function groups appear here: [**_File_** ](#file-menu)handling, some [**_Edit_** ](#edit-menu)options (undo-redo), [**_View_** ](#view-menu)and diagnostics, [**_Options_**](#options-menu) for settings (for saving, updating, selecting language, and for model diagnostics), [**_Standards_** ](#standards-menu)for reviewing and defining standard parameters for design and **_[Help](#help-menu)_**.
 
 <!-- /wp:paragraph -->
 
@@ -88,7 +88,7 @@ Consteel 14
 
 <!-- wp:image {"align":"center","id":27754,"sizeSlug":"full","linkDestination":"media","className":"is-resized"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/2-2-File-menu-1.png)](./img/wp-content-uploads-2021-04-2-2-File-menu-1.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/2-2-File-menu-1.png)](./img/wp-content-uploads-2021-04-2-2-File-menu-1.png)
 
 Consteel 15
 
@@ -202,7 +202,7 @@ Saves the model in another storage space. In Consteel 15, a pop-up window will o
 
 <!-- wp:image {"align":"center","id":27765,"sizeSlug":"full","linkDestination":"media","className":"is-resized"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/11/Save_as_cloud-local.png)](./img/wp-content-uploads-2021-11-Save_as_cloud-local.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/11/Save_as_cloud-local.png)](./img/wp-content-uploads-2021-11-Save_as_cloud-local.png)
 
 <!-- /wp:image -->
 
@@ -244,7 +244,7 @@ Import menu contains a wide range of import possibilities from the very basic DX
 
 <!-- wp:image {"align":"center","id":27742,"sizeSlug":"full","linkDestination":"media","className":"is-resized"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/2-2-File-import.png)](./img/wp-content-uploads-2021-04-2-2-File-import.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/2-2-File-import.png)](./img/wp-content-uploads-2021-04-2-2-File-import.png)
 
 <!-- /wp:image -->
 
@@ -262,7 +262,7 @@ The selected part of the model can be exported to _TEKLA Structures_ or to IFC. 
 
 <!-- wp:image {"align":"center","id":27748,"sizeSlug":"full","linkDestination":"media","className":"is-resized"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/2-2-File-export-1.png)](./img/wp-content-uploads-2021-04-2-2-File-export-1.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/2-2-File-export-1.png)](./img/wp-content-uploads-2021-04-2-2-File-export-1.png)
 
 <!-- /wp:image -->
 
@@ -274,7 +274,7 @@ _Update_
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-In the case of a connected Tekla model (previously Tekla import or export is needed), the connected Tekla model can be updated and modified acc. to the actual ConSteel model. See more: **_[Tekla model update](../2_0_file-handling/2_3_tekla-structures-model-import-export-and-update.md)_**.
+In the case of a connected Tekla model (previously Tekla import or export is needed), the connected Tekla model can be updated and modified acc. to the actual Consteel model. See more: **_[Tekla model update](../2_0_file-handling/2_3_tekla-structures-model-import-export-and-update.md)_**.
 
 <!-- /wp:paragraph -->
 
@@ -413,13 +413,13 @@ _**Save**_
 
 <!-- wp:image {"align":"center","id":47521,"width":"510px","height":"auto","sizeSlug":"full","linkDestination":"media","className":"is-resized"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2023/04/options_menuCS15.png)](./img/wp-content-uploads-2023-04-options_menuCS15.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2023/04/options_menuCS15.png)](./img/wp-content-uploads-2023-04-options_menuCS15.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-If **Autosave** is clicked, the program automatically performs a save periodically in accordance with the adjusted number of minutes. If **Backup** is clicked, _ConSteel_ creates a backup file _after a manual save is performed_. The backup model file can be used as a normal model by removing the **_.bak_** extension.
+If **Autosave** is clicked, the program automatically performs a save periodically in accordance with the adjusted number of minutes. If **Backup** is clicked, _Consteel_ creates a backup file _after a manual save is performed_. The backup model file can be used as a normal model by removing the **_.bak_** extension.
 
 <!-- /wp:paragraph -->
 
@@ -449,7 +449,7 @@ _**Update**_
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-If the **Automatic search for updates** is checked _ConSteel_ searches the web for an available new version at every startup. It can be turned off anytime. The check for a new version can also be performed manually by clicking on the **Search for updates now** (![](./img/wp-content-uploads-2021-04-2-2-Search-update.png) ) button.
+If the **Automatic search for updates** is checked _Consteel_ searches the web for an available new version at every startup. It can be turned off anytime. The check for a new version can also be performed manually by clicking on the **Search for updates now** (![](./img/wp-content-uploads-2021-04-2-2-Search-update.png) ) button.
 
 <!-- /wp:paragraph -->
 
@@ -461,7 +461,7 @@ If the **Automatic search for updates** is checked _ConSteel_ searches the web f
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-In order to make our products meet the expectations of our customers as much as possible, our software collects and sends us usage statistics. ConSteel Solutions Ltd. uses this information to improve the products and features customers use the most often and to help to solve problems. Our product collects and sends the following information: software version, used functionalities, running time, and location. Sent information does not contain any personal information (such as your name, address, or phone number) and is not used to identify you.
+In order to make our products meet the expectations of our customers as much as possible, our software collects and sends us usage statistics. Consteel Solutions Ltd. uses this information to improve the products and features customers use the most often and to help to solve problems. Our product collects and sends the following information: software version, used functionalities, running time, and location. Sent information does not contain any personal information (such as your name, address, or phone number) and is not used to identify you.
 
 <!-- /wp:paragraph -->
 
@@ -479,7 +479,7 @@ _**Language**_
 
 <!-- wp:image {"align":"center","id":7017,"width":320,"height":219,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/2-2-options-lang.png)](./img/wp-content-uploads-2021-04-2-2-options-lang.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/2-2-options-lang.png)](./img/wp-content-uploads-2021-04-2-2-options-lang.png)
 
 <!-- /wp:image -->
 
@@ -491,7 +491,7 @@ The language of the user interface can be chosen here from the following list: H
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-_ConSteel_ has to be restarted after changing the interface language.
+_Consteel_ has to be restarted after changing the interface language.
 
 <!-- /wp:paragraph -->
 
@@ -503,7 +503,7 @@ _ConSteel_ has to be restarted after changing the interface language.
 
 <!-- wp:image {"align":"center","id":47529,"width":350,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2023/04/Background_color.png)](./img/wp-content-uploads-2023-04-Background_color.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2023/04/Background_color.png)](./img/wp-content-uploads-2023-04-Background_color.png)
 
 <!-- /wp:image -->
 
@@ -521,7 +521,7 @@ _**Styles**_
 
 <!-- wp:image {"align":"center","id":7025,"width":322,"height":221,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/2-2-Options-styles.png)](./img/wp-content-uploads-2021-04-2-2-Options-styles.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/2-2-Options-styles.png)](./img/wp-content-uploads-2021-04-2-2-Options-styles.png)
 
 <!-- /wp:image -->
 
@@ -539,7 +539,7 @@ _**Diagnostics**_
 
 <!-- wp:image {"align":"center","id":7037,"width":322,"height":222,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/2-2-Options-diag-1.png)](./img/wp-content-uploads-2021-04-2-2-Options-diag-1.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/2-2-Options-diag-1.png)](./img/wp-content-uploads-2021-04-2-2-Options-diag-1.png)
 
 <!-- /wp:image -->
 
@@ -593,7 +593,7 @@ The **Automatic load distribution** can be switched off to increase the speed of
 
 <!-- wp:image {"align":"center","id":27734,"width":403,"height":276,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/2-2-Options-export-1.png)](./img/wp-content-uploads-2021-04-2-2-Options-export-1.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/2-2-Options-export-1.png)](./img/wp-content-uploads-2021-04-2-2-Options-export-1.png)
 
 <!-- /wp:image -->
 
@@ -611,7 +611,7 @@ To establish the link between Consteel and IDEA Statica steel connection design 
 
 <!-- wp:image {"align":"center","id":7050,"width":511,"height":339,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/2-2-Options-standards.png)](./img/wp-content-uploads-2021-04-2-2-Options-standards.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/2-2-Options-standards.png)](./img/wp-content-uploads-2021-04-2-2-Options-standards.png)
 
 <!-- /wp:image -->
 
@@ -640,7 +640,7 @@ For creating a new, user defined standard:
 - Give a new name to your defined standard and click on the green checkmark.
 - The parameters for the newly defined standard can now be changed.
 
-The user defined standards are saved to the following file: C:\\Users\\%USERNAME%_\\Documents\\ConSteel\\ver\\UserStandard.xml_ (Where "C" can be different according to the install drive and "ver" has to be changed to the actual Consteel version number (e.g.:14))
+The user defined standards are saved to the following file: C:\\Users\\%USERNAME%_\\Documents\\Consteel\\ver\\UserStandard.xml_ (Where "C" can be different according to the install drive and "ver" has to be changed to the actual Consteel version number (e.g.:14))
 
 <!-- /wp:paragraph -->
 
@@ -709,7 +709,7 @@ In the **Consteel support-center**, additional options will become available:
 
 <!-- wp:image {"id":71576,"width":"549px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2021-04-1.2.-consteel-support-central.png)
+![](./img/wp-content-uploads-2021-04-1.2.-Consteel-support-central.png)
 
 <!-- /wp:image -->
 
@@ -733,13 +733,13 @@ Help menu
 
 <!-- wp:paragraph -->
 
-(Only from version 15) The menu has been divided into two sections, the first includes links to the [Online Manual](../../manual/intro.md), to the [Descript Manual](../../descript/15_1_introduction/15_1_1_what-is-descript.md), and to a filtered selection of our [Knowledge Base](https://consteelsoftware.com/knowledgebase/?search=&filters=366,367,399,392,375,372) with tutorials and guides. No need to login to our website as it will be done automatically through Consteel if you use it with online protection.
+(Only from version 15) The menu has been divided into two sections, the first includes links to the [Online Manual](../../manual/intro.md), to the [Descript Manual](../../descript/15_1_introduction/15_1_1_what-is-descript.md), and to a filtered selection of our [Knowledge Base](https://Consteelsoftware.com/knowledgebase/?search=&filters=366,367,399,392,375,372) with tutorials and guides. No need to login to our website as it will be done automatically through Consteel if you use it with online protection.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The second section is for support-related requests. The “[Get Support](https://consteel.atlassian.net/servicedesk/customer/portal/1/group/1/create/1)” command opens our Support system notification window to ask for help issues regarding Consteel. If you have trouble with licensing then you will need to click on the “[Report licensing issue](https://consteel.atlassian.net/servicedesk/customer/portal/1/group/22)” command. We would like to hear your ideas regarding Consteel as well, so if you have any feedback, click on the “[Send feedback](https://consteel.atlassian.net/servicedesk/customer/portal/1/group/23/create/60)” command and share your thoughts with us! Your email address will fill in automatically.
+The second section is for support-related requests. The “[Get Support](https://Consteel.atlassian.net/servicedesk/customer/portal/1/group/1/create/1)” command opens our Support system notification window to ask for help issues regarding Consteel. If you have trouble with licensing then you will need to click on the “[Report licensing issue](https://Consteel.atlassian.net/servicedesk/customer/portal/1/group/22)” command. We would like to hear your ideas regarding Consteel as well, so if you have any feedback, click on the “[Send feedback](https://Consteel.atlassian.net/servicedesk/customer/portal/1/group/23/create/60)” command and share your thoughts with us! Your email address will fill in automatically.
 
 <!-- /wp:paragraph -->
 
@@ -792,7 +792,7 @@ See the **_[Drawing Geometry](../../category/drawing-geometry)_** chapter for a 
 
 <!-- wp:image {"id":11438,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](./img/wp-content-uploads-2021-04-Tab-struc-memb-v15-1024x50.png)](https://consteelsoftware.com/wp-content/uploads/2021/04/Tab-struc-memb-v15.png)
+[![](./img/wp-content-uploads-2021-04-Tab-struc-memb-v15-1024x50.png)](https://Consteelsoftware.com/wp-content/uploads/2021/04/Tab-struc-memb-v15.png)
 
 <!-- /wp:image -->
 
@@ -1081,7 +1081,7 @@ Clicking on the question mark icon provides access to the same Help page as desc
 
 <!-- wp:paragraph -->
 
-The Help tab is for the essential support-related requests like “Get Support”, “[Report licensing issue” ](https://consteel.atlassian.net/servicedesk/customer/portal/1/group/22)and “[Send feedback](https://consteel.atlassian.net/servicedesk/customer/portal/1/group/23/create/60)” to make posting support issues more convenient.
+The Help tab is for the essential support-related requests like “Get Support”, “[Report licensing issue” ](https://Consteel.atlassian.net/servicedesk/customer/portal/1/group/22)and “[Send feedback](https://Consteel.atlassian.net/servicedesk/customer/portal/1/group/23/create/60)” to make posting support issues more convenient.
 
 <!-- /wp:paragraph -->
 
@@ -1257,13 +1257,13 @@ _Fit view (Ctrl+0)_
 
 <!-- wp:image {"id":27682,"height":28,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/2-2-4-Descript-panel-1.png)](./img/wp-content-uploads-2021-04-2-2-4-Descript-panel-1.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/2-2-4-Descript-panel-1.png)](./img/wp-content-uploads-2021-04-2-2-4-Descript-panel-1.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-At the bottom left of the screen, the **Descript** control panel can be found. **Descript** is a programming interface of ConSteel, with which parametric models can be built. Almost all of the structural objects which can be found in ConSteel can be created through Descript, and all of the parameters of these objects are available to set from Descript. Please see **[Chapter 16 Descript-ConSteel Programming Interface](../../descript/15_1_introduction/15_1_1_what-is-descript.md)** to know more!
+At the bottom left of the screen, the **Descript** control panel can be found. **Descript** is a programming interface of Consteel, with which parametric models can be built. Almost all of the structural objects which can be found in Consteel can be created through Descript, and all of the parameters of these objects are available to set from Descript. Please see **[Chapter 16 Descript-Consteel Programming Interface](../../descript/15_1_introduction/15_1_1_what-is-descript.md)** to know more!
 
 <!-- /wp:paragraph -->
 
@@ -1279,7 +1279,7 @@ At the bottom left of the screen, the **Descript** control panel can be found. *
 
 <!-- wp:image {"align":"center","id":11096,"width":982,"height":25,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/2-2-6-Status-bar-v15.png)](./img/wp-content-uploads-2021-04-2-2-6-Status-bar-v15.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/2-2-6-Status-bar-v15.png)](./img/wp-content-uploads-2021-04-2-2-6-Status-bar-v15.png)
 
 <!-- /wp:image -->
 
@@ -1369,7 +1369,7 @@ You can also open the window from the View menu. For more information, visit the
 
 <!-- wp:image {"id":27714,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/popup_visi_symb.png)](./img/wp-content-uploads-2021-04-popup_visi_symb.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/popup_visi_symb.png)](./img/wp-content-uploads-2021-04-popup_visi_symb.png)
 
 <!-- /wp:image -->
 
@@ -1408,7 +1408,7 @@ You can also open the window from the View menu. For more information, visit the
 
 <!-- wp:image {"id":27720,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/popup_visi_LCS.png)](./img/wp-content-uploads-2021-04-popup_visi_LCS.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/popup_visi_LCS.png)](./img/wp-content-uploads-2021-04-popup_visi_LCS.png)
 
 <!-- /wp:image -->
 
@@ -1449,7 +1449,7 @@ You can also open the window from the View menu. For more information, visit the
 
 <!-- wp:image {"id":27727,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/popup_visi_names.png)](./img/wp-content-uploads-2021-04-popup_visi_names.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/popup_visi_names.png)](./img/wp-content-uploads-2021-04-popup_visi_names.png)
 
 <!-- /wp:image -->
 
@@ -1530,7 +1530,7 @@ You can also open the window from the View menu. For more information, visit the
 
 <!-- wp:image {"id":11108,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/obj_color_set_v15.png)](./img/wp-content-uploads-2021-04-obj_color_set_v15.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/obj_color_set_v15.png)](./img/wp-content-uploads-2021-04-obj_color_set_v15.png)
 
 <!-- /wp:image -->
 
@@ -1603,7 +1603,7 @@ The last field of the Status bar is the STEP field. Here the given number in mm 
 
 <!-- wp:image {"align":"center","id":7330,"width":274,"height":246,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/2-2-6-lengthen.png)](./img/wp-content-uploads-2021-04-2-2-6-lengthen.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/2-2-6-lengthen.png)](./img/wp-content-uploads-2021-04-2-2-6-lengthen.png)
 
 <!-- /wp:image -->
 
@@ -1688,7 +1688,7 @@ See more in the [**_Selection_**](../3_0_model-view/3_2_selection.md) chapter an
 
 <!-- wp:image {"align":"center","id":71126,"width":"194px","height":"auto","sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2024/01/1.2.2.3.-CS16-View-menu-1.png)](./img/wp-content-uploads-2024-01-1.2.2.3.-CS16-View-menu-1.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2024/01/1.2.2.3.-CS16-View-menu-1.png)](./img/wp-content-uploads-2024-01-1.2.2.3.-CS16-View-menu-1.png)
 
 <!-- /wp:image -->
 
@@ -1712,7 +1712,7 @@ The default position of the Object tree window is in the upper right corner. It 
 
 <!-- wp:image {"align":"center","id":7342,"sizeSlug":"full","linkDestination":"media","className":"is-resized"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/2-2-7-model-content-tab.png)](./img/wp-content-uploads-2021-04-2-2-7-model-content-tab.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/2-2-7-model-content-tab.png)](./img/wp-content-uploads-2021-04-2-2-7-model-content-tab.png)
 
 <!-- /wp:image -->
 
@@ -1730,7 +1730,7 @@ By default, the Model Content tab contains all the predefined basic object types
 
 <!-- wp:image {"align":"center","id":7354,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/2-2-7-portion-manager.png)](./img/wp-content-uploads-2021-04-2-2-7-portion-manager.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/2-2-7-portion-manager.png)](./img/wp-content-uploads-2021-04-2-2-7-portion-manager.png)
 
 <!-- /wp:image -->
 
@@ -1794,7 +1794,7 @@ In the case of geometrical or modeling mistakes (like overlapping two or more ob
 
 <!-- wp:image {"align":"center","id":7336,"sizeSlug":"full","linkDestination":"media","className":"is-resized"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/2-2-7-diag-window.png)](./img/wp-content-uploads-2021-04-2-2-7-diag-window.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/2-2-7-diag-window.png)](./img/wp-content-uploads-2021-04-2-2-7-diag-window.png)
 
 <!-- /wp:image -->
 
@@ -1882,7 +1882,7 @@ By selecting one object in the model space all the relevant properties will appe
 
 <!-- wp:image {"align":"center","id":11123,"sizeSlug":"full","linkDestination":"media","className":"is-resized"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/wind_obj_prop_v15-1.png)](./img/wp-content-uploads-2021-04-wind_obj_prop_v15-1.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/wind_obj_prop_v15-1.png)](./img/wp-content-uploads-2021-04-wind_obj_prop_v15-1.png)
 
 <!-- /wp:image -->
 

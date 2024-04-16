@@ -9,7 +9,7 @@ On the geometry tab, it is possible to create a custom model grid.
 
 <!-- wp:image {"align":"center","id":8003,"width":522,"height":58,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/4-8-grid-tab.png)](./img/wp-content-uploads-2021-04-4-8-grid-tab.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/4-8-grid-tab.png)](./img/wp-content-uploads-2021-04-4-8-grid-tab.png)
 
 <!-- /wp:image -->
 
@@ -21,7 +21,7 @@ By clicking on the command button, the Structural grid dialogue will be opened.
 
 <!-- wp:image {"align":"center","id":8009,"width":865,"height":451,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/4-8-grid-dialog.png)](./img/wp-content-uploads-2021-04-4-8-grid-dialog.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/4-8-grid-dialog.png)](./img/wp-content-uploads-2021-04-4-8-grid-dialog.png)
 
 <!-- /wp:image -->
 

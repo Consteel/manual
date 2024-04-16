@@ -3,7 +3,7 @@ sidebar_position: 2
 ---
 # Steps of the seismic analysis
 
-Modal response spectrum based seismic analysis can be performed with the following steps in ConSteel:
+Modal response spectrum based seismic analysis can be performed with the following steps in Consteel:
 
 <!-- /wp:paragraph -->
 

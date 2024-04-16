@@ -3,7 +3,7 @@ sidebar_position: 7
 ---
 # Frame corner wizard
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-7-Frame-corner-wizard.png)](./img/wp-content-uploads-2021-04-6-7-Frame-corner-wizard.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-7-Frame-corner-wizard.png)](./img/wp-content-uploads-2021-04-6-7-Frame-corner-wizard.png)
 
 <!-- /wp:image -->
 
@@ -27,7 +27,7 @@ Functions of the frame corner wizard dialogue:
 
 <!-- wp:image {"id":8831,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-7-Frame-corner-wizard-dialogue.png)](./img/wp-content-uploads-2021-04-6-7-Frame-corner-wizard-dialogue.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-7-Frame-corner-wizard-dialogue.png)](./img/wp-content-uploads-2021-04-6-7-Frame-corner-wizard-dialogue.png)
 
 <!-- /wp:image -->
 
@@ -75,7 +75,7 @@ Functions of the frame corner wizard dialogue:
 
 <!-- wp:image {"align":"center","id":8837,"width":990,"height":490,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-7-Frame-corner-zones.png)](./img/wp-content-uploads-2021-04-6-7-Frame-corner-zones.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-7-Frame-corner-zones.png)](./img/wp-content-uploads-2021-04-6-7-Frame-corner-zones.png)
 
 <!-- /wp:image -->
 
@@ -99,7 +99,7 @@ The member segments inside the overlapping zones are separated and handled speci
 
 <!-- wp:image {"align":"center","id":8844,"width":464,"height":300,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-7-Geometry.png)](./img/wp-content-uploads-2021-04-6-7-Geometry.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-7-Geometry.png)](./img/wp-content-uploads-2021-04-6-7-Geometry.png)
 
 <!-- /wp:image -->
 
@@ -112,7 +112,7 @@ The member segments inside the overlapping zones are separated and handled speci
 
 <!-- wp:image {"align":"center","id":8850,"width":515,"height":360,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-7-Plasic-analysis.png)](./img/wp-content-uploads-2021-04-6-7-Plasic-analysis.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-7-Plasic-analysis.png)](./img/wp-content-uploads-2021-04-6-7-Plasic-analysis.png)
 
 <!-- /wp:image -->
 
@@ -124,7 +124,7 @@ The member segments inside the overlapping zones are separated and handled speci
 
 <!-- wp:image {"align":"center","id":8857,"width":383,"height":275,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-7-Global-checks.png)](./img/wp-content-uploads-2021-04-6-7-Global-checks.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-7-Global-checks.png)](./img/wp-content-uploads-2021-04-6-7-Global-checks.png)
 
 <!-- /wp:image -->
 
