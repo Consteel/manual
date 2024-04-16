@@ -87,7 +87,7 @@ A párbeszédablak legfelső részén a szokásos elhelyezési módok ikonjai ta
 
 <!-- wp:list -->
 
-- ![](./img/wp-content-uploads-2021-04-5-3-draw-ico-11.png) a merevítők elhelyezhetők **egyenként **a rúd referencia vonalán történő kattintással,
+- ![](./img/wp-content-uploads-2021-04-5-3-draw-ico-11.png) a merevítők elhelyezhetők **egyenként** a rúd referencia vonalán történő kattintással,
 - ![](./img/wp-content-uploads-2021-04-cmd_multi_place.png) vagy **többszörös** elhelyezéssel a rúd helyi koordinátarendszerében értelmezett relatív távolságokkal megadva.
 - ![](./img/wp-content-uploads-2021-04-cmd_draw_get.png) Meglévő merevítők tulajdonságainak átvétele új definíciókhoz.
 

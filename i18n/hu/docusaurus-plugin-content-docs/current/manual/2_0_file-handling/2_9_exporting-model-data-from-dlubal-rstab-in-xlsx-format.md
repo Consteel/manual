@@ -35,8 +35,10 @@ Az **OK** gomb megnyomása után az **Export beállítások** dialóg jelenik me
 
 <!-- wp:paragraph -->
 
-Az export gomb megnyomásával létrejön és megnyílik egy Excel (xlsx) fájl. **Nagyon fontos**, hogy ha terheket is akarunk exportálni, akkor ezt a fájlt még ne zárjuk be!
-
+Az export gomb megnyomásával létrejön és megnyílik egy Excel (xlsx) fájl.
+:::warning Fontos
+Ha terheket is akarunk exportálni, akkor ezt a fájlt még ne zárjuk be!
+:::
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->

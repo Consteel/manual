@@ -76,7 +76,7 @@ Változtatás esetén az adatok a mentés (![](./img/wp-content-uploads-2021-04-
 
 <!-- wp:image {"align":"right","id":21420,"width":91,"height":97,"sizeSlug":"full","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2021-04-warning_croc.png)
+:::warning Fontos
 
 <!-- /wp:image -->
 
@@ -87,8 +87,7 @@ Változtatás esetén az adatok a mentés (![](./img/wp-content-uploads-2021-04-
 <!-- wp:paragraph -->
 
 Fontos tudni, hogy csak az angol nyelven létrehozott xlsx modell export fájlokkal működik a beolvasás.
-
-<!-- /wp:paragraph -->
+:::
 
 <!-- /wp:column -->
 

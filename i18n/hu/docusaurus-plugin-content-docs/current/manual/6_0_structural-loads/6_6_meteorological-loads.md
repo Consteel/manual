@@ -172,15 +172,10 @@ Az összes paraméter automatikusan betöltődik a kiválasztott nemzeti mellék
 
 <!-- wp:image {"align":"left","id":6758,"width":82,"height":87,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![warning](https://Consteelsoftware.com/wp-content/uploads/2021/04/warning_croc.png)](./img/wp-content-uploads-2021-04-warning_croc.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
+:::warning
 
 A torlónyomás dialóg és a szükséges paraméterek a különböző Eurocode nemzeti mellékletek esetén eltérők lehetnek
-
-<!-- /wp:paragraph -->
+:::
 
 <!-- wp:spacer {"height":"17px","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false},"editorskit_typography":{"name":"","family":"","weight":""},"extUtilities":[]} -->
 

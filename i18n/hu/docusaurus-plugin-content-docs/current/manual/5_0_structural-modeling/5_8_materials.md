@@ -58,7 +58,7 @@ A _Consteel_ az analízis során a rugalmas anyagmodellt használja, ennek megfe
 <!-- /wp:columns -->
 
 <!-- wp:paragraph {"align":"justify"} -->
-
+:::warning
 **Fontos tudni**, hogy a rúd elemeknél (oszlop/gerenda) az anyagminőség a keresztmetszetek paramétere. Az anyagminőség módosításakor a keresztmetszetek anyagminőségét változtatjuk meg. Ez a megoldás lehetővé teszi, hogy egy keresztmetszethez több típusú anyagot lehessen használni (pl.: öszvér keresztmetszet). Ugyanazon keresztmetszet többféle anyagminőséggel való használata esetén ugyanazt a keresztmetszetet be kell tölteni különböző anyagminőségekkel.
-
+:::
 <!-- /wp:paragraph -->

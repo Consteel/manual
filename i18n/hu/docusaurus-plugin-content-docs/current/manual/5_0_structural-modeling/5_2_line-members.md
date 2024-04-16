@@ -115,8 +115,10 @@ Az elérhető típusok a kiválasztott szelvénytől függenek.
 
   * **Héjelem**: a rúdelem az analízis során a keresztmetszetének megfelelő héjelemmé alakul át. Az alkalmazott terhek, támaszok, merevítő bordák és nyílások is átalakításra kerülnek. Az elem megtartja 1D jellemzőit is, így ez az átalakítás nem végérvényes. Az ilyen elemek bármikor visszaalakíthatók normál rúdelemekké. Ezekre az elemekre a szabványos méretezés jelenleg nem lehetséges.
 
-    - ![](./img/wp-content-uploads-2021-04-cmd_draw_get.png) Ez a típus nem választható ezen a párbeszédpanelen. Csak a modellben elhelyezett rudakat lehet az **_[Objektum tulajdonságok ablakban](../1_0_general-description/1_2_the-main-window.md#objektum-tulajdonságok-ablak)_** héjelemmé módosítani. További információ erről a **_[Superbeam fejezetben található.](../5_0_structural-modeling/5_14_superbeam.md)_**
-   
+     :::note
+     Ez a típus nem választható ezen a párbeszédpanelen. Csak a modellben elhelyezett rudakat lehet az **_[Objektum tulajdonságok ablakban](../1_0_general-description/1_2_the-main-window.md#objektum-tulajdonságok-ablak)_** héjelemmé módosítani. További információ erről a **_[Superbeam fejezetben található.](../5_0_structural-modeling/5_14_superbeam.md)_**
+     :::
+
 
   - **Húzott rúd**: tengelyirányú nyomást nem tud felvenni. Ha az analízis során nyomás lép fel egy ilyen elemben, a program figyelmen kívül hagyja az elemet.
 
@@ -146,13 +148,10 @@ Ilyen típusú keresztmetszetek esetén csak a _6 DOF rúdelem_ elemtípus haszn
 
 - Az ablak alsó része a felhasználókat támogató információk és parancsok kijelzésére szolgál.
 
-
-[![](./img/wp-content-uploads-2021-04-exclam.png)](./img/wp-content-uploads-2021-04-exclam.png)
-
-
+:::note
 
 Szükséges megjegyezni, hogy nem csak a külpontos normálerőknek van hatása az analízis eredményére (további nyomaték), hanem a külpontos nyomatéknak és csavarásnak (további nyomaték és csavarás, valamint **bimoment**) is!
-
+:::
 
 
 ### Acél rúdelemek
@@ -160,18 +159,16 @@ Szükséges megjegyezni, hogy nem csak a külpontos normálerőknek van hatása 
 
 Első lépésként a keresztmetszet betöltést kell elvégezni. Ez elvégezhető mind a [**szelvénykezelőből**](../5_0_structural-modeling/5_1_section-administration.md) (![](./img/wp-content-uploads-2021-04-cmd_section_admin.png))közvetlenül, mind pedig a **rúd szerkesztő** dialógról is. Acél keresztmetszetek betöltéséhez a Consteel, a szabványos szelvénytárban megtalálható szelvényeken és a makró szelvényeken túl, rajzolt (egyedi) szelvények betöltésére is lehetőséget ad.
 
-[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/exclam.png)](./img/wp-content-uploads-2021-04-exclam.png)
-
-<!-- /wp:image -->
 
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"top","width":"95%"} -->
 
 <!-- wp:paragraph -->
+:::note
 
 Fontos megjegyezni, hogy Consteel-ben az anyagminőség a szelvény egy paramétere, így annak definiálását a szelvény betöltésnél kell megtenni!
-
+:::
 <!-- /wp:paragraph -->
 
 <!-- /wp:column -->
@@ -289,12 +286,10 @@ A hidegen alakított szelvénymakrók utóbbi 5 szelvény típusánál lehetős�
 A hidegen alakított makró szelvényeknél, amennyiben azok bevonatos anyagból készülnek, meg kell adni az EN 10143 szabványban definiált vastagsági tolerancia kategóriát is. Kétféle kategória létezik: normál és speciális. A szelvény tervezési falvastagságát ennek megfelelően az EN 1993-1-3 3.2.4. pont szerint számítja a program. Az általános építési gyakorlatban, az ilyen szelvények leggyakrabban az említett EN 10143 szabvány szerinti, bevonatos acéllemezekből készülnek, ezért ezeknél a makróknál az ebben a szabványban definiált vastagsági tolerancia kategóriákat vettük alapul.
 
 
-![warning](./img/wp-content-uploads-2021-04-warning_croc.png)
-
-<!-- wp:paragraph {"placeholder":"Content…"} -->
+:::warning
 
 Fontos, hogy ha a tervező nem az adatbázisban szereplő bevonatos anyagok közül választ, és a választott anyag vastagsági toleranciája nagyobb mint 5%, ebben az esetben a tervezési falvastagság számítása nem lesz pontos. Ennek elkerülésére a szelvényt be kell importálni a szelvény rajzoló modulba, és ott kell megadni a vastagsági toleranciát. (A szelvény rajzolót ld. a következő alfejezetben!)
-
+:::
 <!-- /wp:paragraph -->
 
 <!-- /wp:media-text -->
@@ -508,7 +503,7 @@ Ahhoz, hogy a megrajzolt merevítők ténylegesen szabványos merevítőként sz
 Z vagy C szelvényt választva, a számítás, az övek megtámasztásában figyelembe veszi a másik öv feszültségi állapotát, és a gerinc merevségét is. Ehhez természetesen meg kell adni, hogy a szelvény mely részei alkotják az alsó és felső övet, illetve a gerincet, és meg kell adni a gerinc hosszát is. Általános szelvényt választva az élmerevítők számítása egymástól függetlenül történik.
 
 
-További lényeges különbség, hogy csak a Z-C típusú szelvénnyel létrehozott rúdelemre lehet a későbbiekben [**Szelemensor**](../5_0_structural-modeling/5_13_purlins.md#szelemensor), [**Feltámaszkodási zóna**](../5_0_structural-modeling/5_13_purlins.md#feltámaszkodási-zóna) vagy [**Átfedéses szakasz**](../5_0_structural-modeling/5_13_purlins.md#szelemenek-átfedéses-toldása) objektumokat elhelyezni. ([**Lásd az 5.12 fejezetet!**](../5_0_structural-modeling/5_12_shear-field.md))
+További lényeges különbség, hogy csak a Z-C típusú szelvénnyel létrehozott rúdelemre lehet a későbbiekben [**Szelemensor**](../5_0_structural-modeling/5_13_purlins.md#szelemensor), [**Feltámaszkodási zóna**](../5_0_structural-modeling/5_13_purlins.md#feltámaszkodási-zóna) vagy [**Átfedéses szakasz**](../5_0_structural-modeling/5_13_purlins.md#szelemenek-átfedéses-toldása) objektumokat elhelyezni. ([**Lásd a fejezetben!**](../5_0_structural-modeling/5_12_shear-field.md))
 
 
 
@@ -521,7 +516,7 @@ A merevítők megadását a bal felső parancssoron található parancsikonokkal
 [![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/sectdraw_CF_create_stiffeners.png)](./img/wp-content-uploads-2021-04-sectdraw_CF_create_stiffeners.png)
 
 
-![](./img/wp-content-uploads-2021-04-sectdraw_CF_create_stiffeners_nonstiff.png) **Merevítetlen öv kiválasztása:** csak Z vagy C típusú szelvényeknél használható. Amennyiben valamelyik öv merevítetlen, ezzel a paranccsal lehet ezt az övet definiálni. Keretezéssel vagy rákattintással ki kell jelölni a merevítetlen övhöz tartozó lemezszegmenseket, majd a bevitelt az **ENTER **gomb, vagy az ENTER billentyű megnyomásával befejezni.
+![](./img/wp-content-uploads-2021-04-sectdraw_CF_create_stiffeners_nonstiff.png) **Merevítetlen öv kiválasztása:** csak Z vagy C típusú szelvényeknél használható. Amennyiben valamelyik öv merevítetlen, ezzel a paranccsal lehet ezt az övet definiálni. Keretezéssel vagy rákattintással ki kell jelölni a merevítetlen övhöz tartozó lemezszegmenseket, majd a bevitelt az **ENTER** gomb, vagy az ENTER billentyű megnyomásával befejezni.
 
 
 ![](./img/wp-content-uploads-2021-04-sectdraw_CF_create_stiffeners_edge.png) **Élmerevítő **_és_** kettős élmerevítő kiválasztása:** a felugró ablakban lévő súgó utasításait követve, 4 lépésben lehet a merevítőket definiálni. Az első lépésben keretezéssel vagy rákattintással ki kell jelölni az(oka)t a lemezszegmens(eke)t, amely(ek) a merevítőt alkotják, majd a bevitelt az **ENTER** gomb, vagy az ENTER billentyű megnyomásával befejezni. Ezután a merevített lemezt kell kijelölni, és ismét az ENTER-rel befejezni a műveletet. A következő lépésben a gerincet alkotó lemezt kell megadni, legvégül két ponttal meg kell határozni a gerinc hosszát. Minden lépést ugyan úgy az ENTER-rel kell lezárni. A folyamat lépésit a jobb oldali panelen lehet követni, ahol helyes bevitel esetén mind a három sorban OK felirat lesz olvasható.
@@ -872,11 +867,11 @@ A rendelkezésre álló gerendaszelvények a következők:
 - Fordított T alakú szelvény
 
 
-![](./img/wp-content-uploads-2021-04-warning_croc.png)
+:::warning
 
 
 A Consteel korábbi verziójával készített modellek tartalmazhatnak méretezési opció nélküli tömör téglalap és kör alakú szelvényeket. Ezeknek a szelvényeknek a létrehozása már nem áll rendelkezésre, de az ilyen szelvényeket tartalmazó modellek a Consteel újabb verzióiban is normálisan működnek.
-
+:::
 
 Ezeknek az elavult szelvényeknek a funkcióit a Consteel 16-tól kezdődően teljesen felváltották az új funkciók.
 
@@ -1019,8 +1014,10 @@ Kiékelés önálló objektumként kijelölhető és módosítható az objektum 
 
 [![](https://www.Consteelsoftware.com/wp-content/uploads/2022/03/kiekeles_parameterek.png)](./img/wp-content-uploads-2022-03-kiekeles_parameterek.png)
 
+:::note
 
 **Fontos tudni,** hogy a kiékelt elem szakaszon az automatikus végeselem generálás során új keresztmetszetek kerülnek előállításra, amely magában foglalja az eredeti szelvényt és a kiékelést. Az új keresztmetszetek külpontosan kerülnek elhelyezésre az elem középvonalán (kivétel szimmetrikus kiékelés esetén).
+:::
 
 
 [![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/6-2-Haunch-new-section.png)](./img/wp-content-uploads-2021-04-6-2-Haunch-new-section.png)
@@ -1137,7 +1134,8 @@ Az ![](./img/wp-content-uploads-2021-04-cmd_draw_get.png) megnyomásával egy ko
 Egy változó keresztmetszetű rúd kiválasztása esetén nemcsak a rúd, hanem a változó szelvényelem is automatikusan kiválasztásra kerül, és a paramétertáblában külön objektumként módosítható.
 
 
-![](./img/wp-content-uploads-2021-04-warning_croc.png)
+:::warning
 
 
 **Fontos tudni,** hogy változó keresztmetszetű elem esetén az automatikus végeselem generálás során új keresztmetszetek kerülnek előállításra a megfelelő keresztmetszeti magassággal. Az új keresztmetszetek külpontosan kerülnek elhelyezésre az elem középvonalán (kivétel szimmetrikus kiékelés esetén). A keresztmetszetek külpontossága miatt az igénybevételek is külpontossá válnak, amiknek a hatása megjelenik az analízis eredményekben (például változó keresztmetszetű keretsarok esetén, az erős tengelyi hajlító nyomaték egyensúlya csak akkor ál elő, ha figyelembe vesszük a normálerő külpontosságából keletkező extra nyomatékot).
+:::

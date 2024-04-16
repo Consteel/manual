@@ -344,21 +344,10 @@ Kézi megadás esetén az alábbi két esethez szükséges megadni a torzulásb�
 - A szelemen a torzulást követően a szelvény gerincénél érintkezik a burkolattal
 - A szelemen a torzulást követően a szelvény övének szélső pontjánál érintkezik a burkolattal
 
-<!-- /wp:list -->
 
-<!-- wp:spacer {"height":"1px"} -->
-
-<!-- /wp:spacer -->
-
-<!-- wp:image {"align":"left","id":21420,"width":79,"height":84,"sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2021-04-warning_croc.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-**Figyelem!** A szelemen tervezés funkció csak Z és C típusú profilokra alkalmazható. Egyéb, hidegen alakított gyártói szelvényekre, illetve nem Z vagy C típusú felhasználói szelvényekre nem helyezhető el szelemensor objektum.
+:::warning
+A szelemen tervezés funkció csak Z és C típusú profilokra alkalmazható. Egyéb, hidegen alakított gyártói szelvényekre, illetve nem Z vagy C típusú felhasználói szelvényekre nem helyezhető el szelemensor objektum.
+:::
 
 <!-- /wp:paragraph -->
 

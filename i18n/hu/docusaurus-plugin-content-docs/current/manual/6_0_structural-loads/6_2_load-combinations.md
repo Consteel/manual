@@ -546,9 +546,9 @@ A meglévő szabályokat az összefoglaló táblázat első oszlopában találha
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-
-**A szabályok csak akkor alkalmazhatók, ha a megfelelő számítási eredmények rendelkezésre állnak. Azon teherkombinációk, melyekben az alkalmazott szabályhoz szükséges eredmény nem áll rendelkezésre, ki lesznek kapcsolva.**
-
+:::info
+A szabályok csak akkor alkalmazhatók, ha a megfelelő számítási eredmények rendelkezésre állnak. Azon teherkombinációk, melyekben az alkalmazott szabályhoz szükséges eredmény nem áll rendelkezésre, ki lesznek kapcsolva.
+:::
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -566,19 +566,13 @@ A szabályok alkalmazhatók részletmodellekre is. Ez azt jelenti, hogy csak a k
 <!-- wp:paragraph -->
 
 Több szabály együttes alkalmazásakor a kiválasztott kombinációk listája a külön-külön előálló listák összesítése lesz.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"left","id":21420,"sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2021-04-warning_croc.png)
-
+:::warning
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
 Két szabály szerinti szűrés eredménye különböző lesz attól függően, hogy a szabályokat egyszerre vagy egymás után alkalmazzuk, hiszen különbözőek a kombinációs listák is, melyekre a szűrőket alkalmazzuk.
-
+:::
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -873,14 +867,7 @@ A kihasználtsági szabályok ellenőrzése a részlet modell minden egyes vége
 
 - **Acél – Általános rugalmas szilárdsági ellenállás, tiszta igénybevételi ellenállások, globális stabilitási ellenállás:** az egyes ellenőrzések kihasználtságait tartalmazzák minden egyes teherkombinációban, minden egyes pontban.
 
-
-<!-- wp:image {"align":"left","id":21420,"width":191,"height":203,"sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2021-04-warning_croc.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
+:::warning
 
 Az **Acél – Mértékadó vizsgálat** eredménye azonos a **Globális vizsgálatok** fül táblázatának eredményeivel, az azonos legnagyobb értékek kezelését kivéve. Míg a globális vizsgálatoknál csak egy legnagyobb értéket adó kombináció jelenik meg, ebben a szűrőben az összes.
 
@@ -889,4 +876,5 @@ Az **Acél – Mértékadó vizsgálat** eredménye azonos a **Globális vizsgá
 <!-- wp:paragraph -->
 
 Nem mindig a mértékadó vizsgálat az, amelyik a legnagyobb kihasználtságot adja: ha például a képlékeny interakciós formulák érvényesek, akkor ezek eredményei dominálnak az általános rugalmas keresztmetszet-ellenőrzés eredményeivel szemben, annak ellenére, hogy az utóbbiak értékei nagyobbak. Ha csak keresztmetszeti ellenőrzési eredmények állnak rendelkezésre, akkor az Acél - mértékadó eredményekben is csak ezek fognak szerepelni.
+:::
  

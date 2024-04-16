@@ -142,7 +142,7 @@ Első lépésként a _Torlónyomás_ értékét kell megadni, vagy a három pont
 A jelölő négyzet bekapcsolásával a _Belső nyomás_ is figyelembe vehető. A belső nyomási tényező (cpi) megadható kézzel, vagy használható a Belső nyomás számítása funkció is, a három pontos ikonra kattintva (![](./img/wp-content-uploads-2021-04-3dots-button.png)).
 
 
-_Külső nyomás_ a hárompontos ikonra\_ (![](./img/wp-content-uploads-2021-04-3dots-button.png)) kattintva adható meg.
+_Külső nyomás_ a hárompontos ikonra (![](./img/wp-content-uploads-2021-04-3dots-button.png)) kattintva adható meg.
 
 <!-- /wp:paragraph -->
 
@@ -198,18 +198,10 @@ A Vonalmenti megoszló teher dialógon található Terhek elhelyezése (![](./im
 
 [![](./img/wp-content-uploads-2022-05-scr_teher_vonal_szel-1024x519.png)](https://Consteelsoftware.com/wp-content/uploads/2022/05/scr_teher_vonal_szel.png)
 
-<!-- /wp:image -->
+:::warning
 
-<!-- wp:image {"align":"left","id":21420,"width":93,"height":99,"sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2021-04-warning_croc.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph {"align":"justify"} -->
-
-**FONTOS**: A megfelelő vonalmenti szélteher elhelyezéshez a használt lokális koordináta tengelyeknek (z tengely vagy y tengely) kifele kell mutatniuk az épületből
-
+A megfelelő vonalmenti szélteher elhelyezéshez a használt lokális koordináta tengelyeknek (z tengely vagy y tengely) kifele kell mutatniuk az épületből
+:::
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"10px"} -->
@@ -703,18 +695,14 @@ Pont támaszokra megadható előírt elmozdulás, ami elhelyezhető a **Globáli
 
 Szerkezeti elem eredeti hálózati hosszának változása, illetve kezdeti feszítőerő is megadható és elhelyezhető, mint teher.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"left","id":21420,"width":48,"height":51,"sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2021-04-warning_croc.png)
+:::warning
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
 Fontos tudni, hogy a ténylegesen kialakuló elmozdulás és feszítőerő mindkét esetben a csatlakozó szerkezet aktuális merevségétől függ!
-
+:::
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"1px"} -->

@@ -181,7 +181,7 @@ A _Számítás_ oszlopban található jelölőnégyzetek segítésével hatásá
 
 <!-- wp:paragraph -->
 
-Hatásábra analízis futtatását lásd a _**[8.3 Analízis beállítások](../8_0_structural-analysis/8_3_analysis-settings.md)**_ fejezetben
+Hatásábra analízis futtatását lásd a _**[Analízis beállítások](../8_0_structural-analysis/8_3_analysis-settings.md)**_ fejezetben
 
 <!-- /wp:paragraph -->
 
