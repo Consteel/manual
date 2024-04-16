@@ -10,7 +10,7 @@ A _**Geometria**_ fülön található _**Modell raszter**_ parancs segítségév
 
 <!-- wp:image {"align":"center","id":33061,"width":628,"height":80,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/02/modell_raszter.png)](./img/wp-content-uploads-2022-02-modell_raszter.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/02/modell_raszter.png)](./img/wp-content-uploads-2022-02-modell_raszter.png)
 
 <!-- /wp:image -->
 
@@ -22,7 +22,7 @@ A parancsikonra kattintva az alábbi **Raszterkezelés** című dialógablak ny�
 
 <!-- wp:image {"align":"center","id":33065,"width":768,"height":401,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](./img/wp-content-uploads-2022-02-dial_raszter-1024x534.png)](https://consteelsoftware.com/wp-content/uploads/2022/02/dial_raszter.png)
+[![](./img/wp-content-uploads-2022-02-dial_raszter-1024x534.png)](https://Consteelsoftware.com/wp-content/uploads/2022/02/dial_raszter.png)
 
 <!-- /wp:image -->
 

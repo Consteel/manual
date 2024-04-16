@@ -257,7 +257,7 @@ A kritikus hőmérséklet számítását a tervezés beállításai ablakban leh
 
 <!-- wp:image {"align":"center","id":37690,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/06/dial_tuz_meretezes_kritikus_homerseklet-e1654708245383.png)](./img/wp-content-uploads-2022-06-dial_tuz_meretezes_kritikus_homerseklet-e1654708245383.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/dial_tuz_meretezes_kritikus_homerseklet-e1654708245383.png)](./img/wp-content-uploads-2022-06-dial_tuz_meretezes_kritikus_homerseklet-e1654708245383.png)
 
 <!-- /wp:image -->
 
@@ -275,13 +275,13 @@ A számítás eredményeit a tervezési paraméterek legördülő menüben lehet
 
 <!-- wp:image {"align":"center","id":9408,"width":822,"height":365,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](./img/wp-content-uploads-2021-04-12-4-critical-temperature2-1024x455.png)](https://consteelsoftware.com/wp-content/uploads/2021/04/12-4-critical-temperature2.png)
+[![](./img/wp-content-uploads-2021-04-12-4-critical-temperature2-1024x455.png)](https://Consteelsoftware.com/wp-content/uploads/2021/04/12-4-critical-temperature2.png)
 
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"center","id":37698,"width":613,"height":504,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_tuz_szelveny_kritikus_homerseklet.png)](./img/wp-content-uploads-2022-06-scr_tuz_szelveny_kritikus_homerseklet.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/scr_tuz_szelveny_kritikus_homerseklet.png)](./img/wp-content-uploads-2022-06-scr_tuz_szelveny_kritikus_homerseklet.png)
 
 <!-- /wp:image -->
 

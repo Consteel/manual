@@ -15,7 +15,7 @@ A gerinckivágások modellezése jelenleg hegesztett I vagy H típusú keresztme
 
 <!-- wp:image {"align":"center","id":11447,"width":493,"height":265,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/05/scr_dualbeam_cutouts_2.png)](./img/wp-content-uploads-2021-05-scr_dualbeam_cutouts_2.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/05/scr_dualbeam_cutouts_2.png)](./img/wp-content-uploads-2021-05-scr_dualbeam_cutouts_2.png)
 
 <!-- /wp:image -->
 
@@ -25,7 +25,7 @@ A gerinckivágások modellezése jelenleg hegesztett I vagy H típusú keresztme
 
 <!-- wp:image {"align":"center","id":11392,"width":523,"height":265,"sizeSlug":"full","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/05/scr_dualbeam_cutouts.png)](./img/wp-content-uploads-2021-05-scr_dualbeam_cutouts.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/05/scr_dualbeam_cutouts.png)](./img/wp-content-uploads-2021-05-scr_dualbeam_cutouts.png)
 
 <!-- /wp:image -->
 
@@ -51,7 +51,7 @@ Gerinckivágások hegesztett I vagy H keresztmetszetű rudakon definiálhatók, 
 
 <!-- wp:image {"align":"center","id":39375,"width":294,"height":385,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_superbeam_gerinckivag_teglalap.png)](./img/wp-content-uploads-2022-05-dial_superbeam_gerinckivag_teglalap.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_superbeam_gerinckivag_teglalap.png)](./img/wp-content-uploads-2022-05-dial_superbeam_gerinckivag_teglalap.png)
 
 <!-- /wp:image -->
 
@@ -61,7 +61,7 @@ Gerinckivágások hegesztett I vagy H keresztmetszetű rudakon definiálhatók, 
 
 <!-- wp:image {"align":"center","id":39367,"width":294,"height":385,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_superbeam_gerinckivag_kor.png)](./img/wp-content-uploads-2022-05-dial_superbeam_gerinckivag_kor.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_superbeam_gerinckivag_kor.png)](./img/wp-content-uploads-2022-05-dial_superbeam_gerinckivag_kor.png)
 
 <!-- /wp:image -->
 
@@ -71,7 +71,7 @@ Gerinckivágások hegesztett I vagy H keresztmetszetű rudakon definiálhatók, 
 
 <!-- wp:image {"align":"center","id":39359,"width":294,"height":385,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_superbeam_gerinckivag_hatszog.png)](./img/wp-content-uploads-2022-05-dial_superbeam_gerinckivag_hatszog.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_superbeam_gerinckivag_hatszog.png)](./img/wp-content-uploads-2022-05-dial_superbeam_gerinckivag_hatszog.png)
 
 <!-- /wp:image -->
 
@@ -118,7 +118,7 @@ A párbeszédablak _Paraméterek_ szakaszában a kivágás pozícióját és mé
 
 <!-- wp:image {"align":"center","id":39407,"width":169,"height":158,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_superbeam_gerinckivag_illesztes_ref.png)](./img/wp-content-uploads-2022-05-dial_superbeam_gerinckivag_illesztes_ref.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_superbeam_gerinckivag_illesztes_ref.png)](./img/wp-content-uploads-2022-05-dial_superbeam_gerinckivag_illesztes_ref.png)
 
 <!-- /wp:image -->
 
@@ -128,7 +128,7 @@ A párbeszédablak _Paraméterek_ szakaszában a kivágás pozícióját és mé
 
 <!-- wp:image {"align":"center","id":39399,"width":160,"height":158,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_superbeam_gerinckivag_illesztes_gerinc.png)](./img/wp-content-uploads-2022-05-dial_superbeam_gerinckivag_illesztes_gerinc.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_superbeam_gerinckivag_illesztes_gerinc.png)](./img/wp-content-uploads-2022-05-dial_superbeam_gerinckivag_illesztes_gerinc.png)
 
 <!-- /wp:image -->
 
@@ -138,7 +138,7 @@ A párbeszédablak _Paraméterek_ szakaszában a kivágás pozícióját és mé
 
 <!-- wp:image {"align":"center","id":39391,"width":163,"height":158,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_superbeam_gerinckivag_illesztes_felso.png)](./img/wp-content-uploads-2022-05-dial_superbeam_gerinckivag_illesztes_felso.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_superbeam_gerinckivag_illesztes_felso.png)](./img/wp-content-uploads-2022-05-dial_superbeam_gerinckivag_illesztes_felso.png)
 
 <!-- /wp:image -->
 
@@ -148,7 +148,7 @@ A párbeszédablak _Paraméterek_ szakaszában a kivágás pozícióját és mé
 
 <!-- wp:image {"align":"center","id":39383,"width":164,"height":158,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_superbeam_gerinckivag_illesztes_also.png)](./img/wp-content-uploads-2022-05-dial_superbeam_gerinckivag_illesztes_also.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_superbeam_gerinckivag_illesztes_also.png)](./img/wp-content-uploads-2022-05-dial_superbeam_gerinckivag_illesztes_also.png)
 
 <!-- /wp:image -->
 
@@ -164,7 +164,7 @@ A választott referenciavonal nem csak a kivágás pozícionálását határozza
 
 <!-- wp:image {"align":"center","id":11597,"width":311,"height":313,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/05/scr_dualbeam_cutout_ref.png)](./img/wp-content-uploads-2021-05-scr_dualbeam_cutout_ref.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/05/scr_dualbeam_cutout_ref.png)](./img/wp-content-uploads-2021-05-scr_dualbeam_cutout_ref.png)
 
 <!-- /wp:image -->
 

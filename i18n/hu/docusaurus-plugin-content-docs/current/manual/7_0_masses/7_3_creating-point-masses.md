@@ -11,7 +11,7 @@ sidebar_position: 3
 
 <!-- wp:image {"align":"center","id":36412,"width":259,"height":62,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/05/tab_tomegek_legordulo.png)](./img/wp-content-uploads-2022-05-tab_tomegek_legordulo.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/tab_tomegek_legordulo.png)](./img/wp-content-uploads-2022-05-tab_tomegek_legordulo.png)
 
 <!-- /wp:image -->
 
@@ -23,7 +23,7 @@ Pontszerű tömeg vonal elemen bárhol elhelyezhető (előre definiált pontokra
 
 <!-- wp:image {"align":"center","id":36420,"width":358,"height":257,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_tomeg_pont.png)](./img/wp-content-uploads-2022-05-dial_tomeg_pont.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_tomeg_pont.png)](./img/wp-content-uploads-2022-05-dial_tomeg_pont.png)
 
 <!-- /wp:image -->
 

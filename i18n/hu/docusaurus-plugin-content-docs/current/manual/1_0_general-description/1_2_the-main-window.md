@@ -11,7 +11,7 @@ A főképernyő hét fő részből áll:
 
 <!-- wp:image {"align":"center","id":6857,"width":"1024px","height":"555px","sizeSlug":"large","linkDestination":"media","className":"is-style-default"} -->
 
-[![](./img/wp-content-uploads-2021-04-Main-window-numbers-1-1024x555.png)](https://consteelsoftware.com/wp-content/uploads/2021/04/Main-window-numbers-1.png)
+[![](./img/wp-content-uploads-2021-04-Main-window-numbers-1-1024x555.png)](https://Consteelsoftware.com/wp-content/uploads/2021/04/Main-window-numbers-1.png)
 
 
 - A legnagyobb méretű rész, a [grafikus ablak](#grafikus-ablak) (#1), ami a 3 dimenziós modell elkészítésére, megjelenítésére szolgál.
@@ -84,7 +84,7 @@ Consteel 14
 
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/01/menu_file_hu.png)](./img/wp-content-uploads-2022-01-menu_file_hu.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/01/menu_file_hu.png)](./img/wp-content-uploads-2022-01-menu_file_hu.png)
 
 Consteel 15
 
@@ -110,7 +110,7 @@ _Új modell_
 
 <!-- wp:image {"align":"right","id":31108,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/01/modell_attrib.png)](./img/wp-content-uploads-2022-01-modell_attrib.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/01/modell_attrib.png)](./img/wp-content-uploads-2022-01-modell_attrib.png)
 
 <!-- /wp:image -->
 
@@ -164,7 +164,7 @@ Megnyitja a felhő tárhelyet. A felhő szolgáltatásokat a Steelspace platform
 
 <!-- wp:image {"align":"right","id":27768,"width":"219px","height":"171px","sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2021/11/Save_as_cloud-local.png)](./img/wp-content-uploads-2021-11-Save_as_cloud-local.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/11/Save_as_cloud-local.png)](./img/wp-content-uploads-2021-11-Save_as_cloud-local.png)
 
 <!-- /wp:image -->
 
@@ -230,7 +230,7 @@ A felhőbe mentett modellek megoszthatók más Consteel-felhasználókkal, akik 
 
 <!-- wp:image {"align":"left","id":31121,"sizeSlug":"medium","linkDestination":"media"} -->
 
-[![](./img/wp-content-uploads-2022-01-menu_file_import_hu-300x229.png)](https://consteelsoftware.com/wp-content/uploads/2022/01/menu_file_import_hu.png)
+[![](./img/wp-content-uploads-2022-01-menu_file_import_hu-300x229.png)](https://Consteelsoftware.com/wp-content/uploads/2022/01/menu_file_import_hu.png)
 
 <!-- /wp:image -->
 
@@ -252,7 +252,7 @@ Az Import menü számos modell importálási lehetőséget tartalmaz, a legegysz
 
 <!-- wp:image {"align":"left","id":27751,"width":"295px","height":"218px","sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/2-2-File-export-1.png)](./img/wp-content-uploads-2021-04-2-2-File-export-1.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/2-2-File-export-1.png)](./img/wp-content-uploads-2021-04-2-2-File-export-1.png)
 
 <!-- /wp:image -->
 
@@ -274,7 +274,7 @@ A funkciók segítségével, a kiválasztott modellrész kiexportálható _TEKLA
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-Csatlakoztatott Tekla modell esetén (korábbi Tekla export vagy import után), a Consteel modell változásainak megfelelően frissíthető a Tekla modell ezzel a paranccsal. További információ: _[Tekla model update](../2_0_file-handling/2_3_tekla-structures-model-import-export-and-update.md#consteel-és-tekla-structures-modellek-változás-követése-tekla-update)_.
+Csatlakoztatott Tekla modell esetén (korábbi Tekla export vagy import után), a Consteel modell változásainak megfelelően frissíthető a Tekla modell ezzel a paranccsal. További információ: _[Tekla model update](../2_0_file-handling/2_3_tekla-structures-model-import-export-and-update.md#Consteel-és-tekla-structures-modellek-változás-követése-tekla-update)_.
 
 <!-- /wp:paragraph -->
 
@@ -410,7 +410,7 @@ _Mentés_
 
 <!-- wp:image {"align":"left","id":31094,"width":"322px","height":"221px","sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/01/options_hu.png)](./img/wp-content-uploads-2022-01-options_hu.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/01/options_hu.png)](./img/wp-content-uploads-2022-01-options_hu.png)
 
 #### Opciók menü - Mentés
 
@@ -460,7 +460,7 @@ _Frissítés_
 
 <!-- wp:image {"align":"left","id":31087,"sizeSlug":"medium","linkDestination":"media"} -->
 
-[![](./img/wp-content-uploads-2022-01-options_frissites_hu-300x206.png)](https://consteelsoftware.com/wp-content/uploads/2022/01/options_frissites_hu.png)
+[![](./img/wp-content-uploads-2022-01-options_frissites_hu-300x206.png)](https://Consteelsoftware.com/wp-content/uploads/2022/01/options_frissites_hu.png)
 
 #### Opciók menü - Frissítés
 
@@ -494,7 +494,7 @@ A termékeink az alábbi információkat gyűjtik és küldik el: verzióinform�
 
 
 
-[![](./img/wp-content-uploads-2022-01-options_nyelv_hu-300x206.png)](https://consteelsoftware.com/wp-content/uploads/2022/01/options_nyelv_hu.png)
+[![](./img/wp-content-uploads-2022-01-options_nyelv_hu-300x206.png)](https://Consteelsoftware.com/wp-content/uploads/2022/01/options_nyelv_hu.png)
 
 Opciók menü - Nyelv
 
@@ -512,7 +512,7 @@ A felhasználói felület nyelvének változtatása a program újraindítását 
 
 
 
-[![Opciók párbeszédablak - háttérszín](https://www.consteelsoftware.com/wp-content/uploads/2023/01/Opciok_dialog_hatterszin_j.png)](./img/wp-content-uploads-2023-01-Opciok_dialog_hatterszin_j.png)
+[![Opciók párbeszédablak - háttérszín](https://www.Consteelsoftware.com/wp-content/uploads/2023/01/Opciok_dialog_hatterszin_j.png)](./img/wp-content-uploads-2023-01-Opciok_dialog_hatterszin_j.png)
 
 Opciók menü - Háttérszín
 
@@ -526,7 +526,7 @@ A modell képernyő háttérszíne állítható itt be.
 
 
 
-[![](./img/wp-content-uploads-2022-01-options_stilus_hu-300x206.png)](https://consteelsoftware.com/wp-content/uploads/2022/01/options_stilus_hu.png)
+[![](./img/wp-content-uploads-2022-01-options_stilus_hu-300x206.png)](https://Consteelsoftware.com/wp-content/uploads/2022/01/options_stilus_hu.png)
 
 Opciók menü - Stílusok
 
@@ -540,7 +540,7 @@ A különböző objektumok színeit lehet megadni.
 
 
 
-[![](./img/wp-content-uploads-2022-01-options_diag_hu-300x206.png)](https://consteelsoftware.com/wp-content/uploads/2022/01/options_diag_hu.png)
+[![](./img/wp-content-uploads-2022-01-options_diag_hu-300x206.png)](https://Consteelsoftware.com/wp-content/uploads/2022/01/options_diag_hu.png)
 
 Opciók menü - Diagnosztika
 
@@ -589,7 +589,7 @@ Fontos megjegyezni, hogy amikor ez a funkció ki van kapcsolva, a vonalmenti meg
 
 
 
-[![](./img/wp-content-uploads-2022-01-options_idea_hu-300x206.png)](https://consteelsoftware.com/wp-content/uploads/2022/01/options_idea_hu.png)
+[![](./img/wp-content-uploads-2022-01-options_idea_hu-300x206.png)](https://Consteelsoftware.com/wp-content/uploads/2022/01/options_idea_hu.png)
 
 Opciók menü - IDEA StatiCa átmenet
 
@@ -603,7 +603,7 @@ A Consteel és az IDEA Statica programok közötti kapcsolat létrehozására it
 
 
 
-[![](./img/wp-content-uploads-2022-01-szabvanyok-300x199.png)](https://consteelsoftware.com/wp-content/uploads/2022/01/szabvanyok.png)
+[![](./img/wp-content-uploads-2022-01-szabvanyok-300x199.png)](https://Consteelsoftware.com/wp-content/uploads/2022/01/szabvanyok.png)
 
 
 A menü segítségével egyszerűen és gyorsan áttekinthetjük a program által kezelt szabványok paramétereit, illetve létrehozhatunk saját tervezési paramétereket. A használt tervezési szabvány a _[Fájl menüben](#fájl-menü)_ állítható be, a _Modell attribútumok_ segítségével.
@@ -633,7 +633,7 @@ Egyéni szabványbeállítás létrehozása:
 * ezután az új szabvány paraméterei megadhatók
 
 
-Az egyéni szabványbeállítást a program az alábbi fájlba menti: _\Dokumentumok\Consteel\UserStandard.xml_: C:\Users\%USERNAME%_\Dokumentumok\ConSteel\ver\UserStandard.xml_ (ahol a "ver" az aktuális Consteel verziószámát jelöli)
+Az egyéni szabványbeállítást a program az alábbi fájlba menti: _\Dokumentumok\Consteel\UserStandard.xml_: C:\Users\%USERNAME%_\Dokumentumok\Consteel\ver\UserStandard.xml_ (ahol a "ver" az aktuális Consteel verziószámát jelöli)
 
 
 
@@ -700,10 +700,10 @@ Consteel 16
 ![](./img/wp-content-uploads-2022-05-help_menu_hun-1.png)
 
 
-(15-ös verziótól érhető el) A menüt két szekcióra osztottuk, az első tartalmazza az elérhetőségeket az “[Consteel kézikönyvhöz](../../manual/intro.md)” és a “[Descript kézikönyvhöz](../../descript/15_1_introduction/15_1_1_what-is-descript.md)“, valamint az “[Oktatói anyagok](https://consteelsoftware.com/knowledgebase/?search=&filters=366,367,399,392,375,372)” almenüpont segítségével egy előszűrt tudásbázis anyagokat tartalmazó oldal érhető el. Ilyenkor nincs szükség külön bejelentkezésre a honlapunkon, mert a Consteel-t online védelemmel használó felhasználóinkat automatikusan felismeri az oldal.
+(15-ös verziótól érhető el) A menüt két szekcióra osztottuk, az első tartalmazza az elérhetőségeket az “[Consteel kézikönyvhöz](../../manual/intro.md)” és a “[Descript kézikönyvhöz](../../descript/15_1_introduction/15_1_1_what-is-descript.md)“, valamint az “[Oktatói anyagok](https://Consteelsoftware.com/knowledgebase/?search=&filters=366,367,399,392,375,372)” almenüpont segítségével egy előszűrt tudásbázis anyagokat tartalmazó oldal érhető el. Ilyenkor nincs szükség külön bejelentkezésre a honlapunkon, mert a Consteel-t online védelemmel használó felhasználóinkat automatikusan felismeri az oldal.
 
 
-A második szekció a támogatással kapcsolatos kéréseknek lett kialakítva. A “[Support kérdés beküldése](https://consteel.atlassian.net/servicedesk/customer/portal/1/group/1)” parancs megnyitja a támogató rendszerünk bejelentő oldalát, ahol segítséget lehet kérni a Consteel-el kapcsolatos kérdésekhez. Ha esetleg a licenceléssel adódna gond, akkor a “[Licenceléssel kapcsolatos problémák” ](https://consteel.atlassian.net/servicedesk/customer/portal/1/group/22)parancsra kell kattintani.[ ](https://consteel.atlassian.net/servicedesk/customer/portal/1/group/22)Számunkra fontos a felhasználók véleménye, így ha valamilyen javaslat vagy kérés merülne fel, elég a “[Felhasználói kérés beküldése](https://consteel.atlassian.net/servicedesk/customer/portal/1/group/23/create/60)” parancsra kattintani és megosztani velünk az igényeket/visszajelzéseket.
+A második szekció a támogatással kapcsolatos kéréseknek lett kialakítva. A “[Support kérdés beküldése](https://Consteel.atlassian.net/servicedesk/customer/portal/1/group/1)” parancs megnyitja a támogató rendszerünk bejelentő oldalát, ahol segítséget lehet kérni a Consteel-el kapcsolatos kérdésekhez. Ha esetleg a licenceléssel adódna gond, akkor a “[Licenceléssel kapcsolatos problémák” ](https://Consteel.atlassian.net/servicedesk/customer/portal/1/group/22)parancsra kell kattintani.[ ](https://Consteel.atlassian.net/servicedesk/customer/portal/1/group/22)Számunkra fontos a felhasználók véleménye, így ha valamilyen javaslat vagy kérés merülne fel, elég a “[Felhasználói kérés beküldése](https://Consteel.atlassian.net/servicedesk/customer/portal/1/group/23/create/60)” parancsra kattintani és megosztani velünk az igényeket/visszajelzéseket.
 
 
 
@@ -721,7 +721,7 @@ A képernyőn megjelenik az ikon neve, ha az egér mutatója az ikon fölött á
 #### Geometria fül
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/01/tab_geom_hu.png)](./img/wp-content-uploads-2022-01-tab_geom_hu.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/01/tab_geom_hu.png)](./img/wp-content-uploads-2022-01-tab_geom_hu.png)
 
 
 A szerkesztéshez szükséges rajzolási, módosítási, méretezési és mérési funkciókat tartalmazza. A funkciók részletes bemutatását ld. a [_Geometria rajzolása_](../../category/drawing-geometry) c. fejezetben!
@@ -730,7 +730,7 @@ A szerkesztéshez szükséges rajzolási, módosítási, méretezési és méré
 
 #### Szerkezeti elemek fül
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/01/tab_stru_hu.png)](./img/wp-content-uploads-2022-01-tab_stru_hu.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/01/tab_stru_hu.png)](./img/wp-content-uploads-2022-01-tab_stru_hu.png)
 
 
 A keresztmetszetek kiválasztásával, definiálásával, szerkezeti oszlopok, gerendák, födémek, falak, illetve a támaszok és a kapcsolatok létrehozásához szükséges funkciók találhatóak a fülön. A fenti funkciók mellett, ezen a fülön kaptak helyet további modellezési funkciók is, úgymint a diafragma és merevtest szerkesztő funkciók, keretsarok varázsló, nyírási mező, szelemensor, kivágás és borda, illetve a rúdelemeket lemezelemekké konvertáló funkció is. Az utolsó három parancs a kapcsolatok létrehozására és elhelyezésére szolgál. A funkciók részletes bemutatását ld. a [_Szerkezet modellezése_](../../category/structural-modeling) c. fejezetben!
@@ -738,7 +738,7 @@ A keresztmetszetek kiválasztásával, definiálásával, szerkezeti oszlopok, g
 #### Terhek fül
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/01/tab_load_hu.png)](./img/wp-content-uploads-2022-01-tab_load_hu.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/01/tab_load_hu.png)](./img/wp-content-uploads-2022-01-tab_load_hu.png)
 
 
 Különböző teher típusok, illetve teheresetek, tehercsoportok és teherkombinációk létrehozását lehetővé tevő funkciók találhatóak a fülön. Az automatikus meteorológiai teher generálás, daru és vonatteher, és a tűzteher, illetve tűzvédelem funkciói is itt kaptak helyet. A funkciók részletes bemutatását ld. a [_Terhek_](../6_0_structural-loads/6_1_load-cases-and-load-groups.md) c. fejezetben!
@@ -747,7 +747,7 @@ Különböző teher típusok, illetve teheresetek, tehercsoportok és teherkombi
 #### Tömegek fül
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/01/tab_mass_hu.png)](./img/wp-content-uploads-2022-01-tab_mass_hu.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/01/tab_mass_hu.png)](./img/wp-content-uploads-2022-01-tab_mass_hu.png)
 
 
 Tömegesetek, tömegkombinációk létrehozását lehetővé tévő funkciók találhatóak ezen a fülön. Emellett itt kapott helyet a koncentrált tömeg elhelyezése, földrengés hatás és válaszspektrum felvétele funkció is. A funkciók részletes bemutatását ld. a [_Tömegek_](../../category/masses) c. fejezetben!
@@ -756,7 +756,7 @@ Tömegesetek, tömegkombinációk létrehozását lehetővé tévő funkciók ta
 #### Végeselem fül
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/01/tab_FE_hu.png)](./img/wp-content-uploads-2022-01-tab_FE_hu.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/01/tab_FE_hu.png)](./img/wp-content-uploads-2022-01-tab_FE_hu.png)
 
 
 A végeselem generálás létrehozásához és módosításához szükséges funkciókat tartalmazza a fül, illetve az itt található modell ellenőrzés funkció segítségével kiszűrhetőek az esetleges modellezési hibák.
@@ -765,7 +765,7 @@ A végeselem generálás létrehozásához és módosításához szükséges fun
 #### Analízis fül
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/01/tab_anal_hu.png)](./img/wp-content-uploads-2022-01-tab_anal_hu.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/01/tab_anal_hu.png)](./img/wp-content-uploads-2022-01-tab_anal_hu.png)
 
 
 A különböző szerkezeti analízis típusok beállítása és végrehajtása végezhető el. A számítás eredményei megtekinthetőek és feliratozhatóak számos megjelenítési mód alapján. A funkciók részletes bemutatását ld. a [_Szerkezetek analízise_](../../category/structural-analysis) c. fejezetben!
@@ -786,7 +786,7 @@ A Consteel 17-től kezdve a használhatósági határállapotok vizsgálata, val
 Mindkét ellenőrzést külön-külön el lehet végezni, azok megfelelő nyilainak (a kék és a zöld) lenyomásával, illetve együttesen ![](./img/wp-content-uploads-2021-04-1.2.-Global-check-ikon-CS17.png) ikonra kattintva. További részletes információkért látogasson el a [_Standard design_](../../category/standard-design) _(Szabványos tervezés)_ fejezetbe.
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/01/tab_glob_hu.png)](./img/wp-content-uploads-2022-01-tab_glob_hu.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/01/tab_glob_hu.png)](./img/wp-content-uploads-2022-01-tab_glob_hu.png)
 
 
 
@@ -796,7 +796,7 @@ A Globális vizsgálatok fül tartalmazza a stabilitás és keresztmetszeti vizs
 #### Elem vizsgálatok fül
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/01/tab_memb_check_hu.png)](./img/wp-content-uploads-2022-01-tab_memb_check_hu.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/01/tab_memb_check_hu.png)](./img/wp-content-uploads-2022-01-tab_memb_check_hu.png)
 
 
 Az elkülönített elemtervezéshez kapcsolódó (kihajlás, kifordulás és interaktív stabilitás), illetve öszvérgerenda méretezésével kapcsolatos funkciók találhatóak a fülön. A funkciók részletes bemutatását ld. a [_Elem vizsgálatok_](../9_0_standard-design/9_1_steel-design.md#elem-vizsgálatok) c. fejezetben!
@@ -804,7 +804,7 @@ Az elkülönített elemtervezéshez kapcsolódó (kihajlás, kifordulás és int
 
 #### Használhatósági vizsgálatok fül
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/01/tab_serv_hu.png)](./img/wp-content-uploads-2022-01-tab_serv_hu.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/01/tab_serv_hu.png)](./img/wp-content-uploads-2022-01-tab_serv_hu.png)
 
 
 A használhatósági határállapotok ellenőrzéséhez kapcsolódó funkciók találhatóak a fülön. A funkciók részletes bemutatását ld. a [Használhatósági vizsgálatok ](../9_0_standard-design/9_4_serviceability-checks.md) c. fejezetben!
@@ -813,7 +813,7 @@ A használhatósági határállapotok ellenőrzéséhez kapcsolódó funkciók t
 #### Fóliák fül
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/01/tab_layer_hu.png)](./img/wp-content-uploads-2022-01-tab_layer_hu.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/01/tab_layer_hu.png)](./img/wp-content-uploads-2022-01-tab_layer_hu.png)
 
 
 Fóliák kezeléséhez és beállításához tartozó funkciók találhatóak a fülön. További infó a _[Fóliák](../4_0_drawing-geometry/4_4_layers.md)_ c. fejezetben.
@@ -831,7 +831,7 @@ Consteel 17
 Consteel 16
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/01/tab_dok_hu.png)](./img/wp-content-uploads-2022-01-tab_dok_hu.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/01/tab_dok_hu.png)](./img/wp-content-uploads-2022-01-tab_dok_hu.png)
 
 
 A Dokumentálás fül funkciói segítségével hozható létre a részletes statikai dokumentáció, illetve itt található a modell információ is. A használhatósági határállapotok ellenőrzéséhez kapcsolódó funkciók találhatóak a fülön. A funkciók részletes bemutatását ld. a [Dokumentálás ](../13_0_documentation-2/13_1_the-document-tab.md) c. fejezetben!
@@ -855,7 +855,7 @@ Consteel 16
 ![](./img/wp-content-uploads-2022-05-help_tab_hun.png)
 
 
-A nélkülözhetetlen támogatással kapcsolatos parancsok a “Súgó” fül alatt találhatóak, úgy mint a “[Support kérdés beküldése](https://consteel.atlassian.net/servicedesk/customer/portal/1/group/1)”, a “[Licenceléssel kapcsolatos problémák” ](https://consteel.atlassian.net/servicedesk/customer/portal/1/group/22)vagy a “[Felhasználói kérés beküldése](https://consteel.atlassian.net/servicedesk/customer/portal/1/group/23/create/60)”, hogy a segítségkérés még könnyebben elérhető legyen a grafikus felületről.
+A nélkülözhetetlen támogatással kapcsolatos parancsok a “Súgó” fül alatt találhatóak, úgy mint a “[Support kérdés beküldése](https://Consteel.atlassian.net/servicedesk/customer/portal/1/group/1)”, a “[Licenceléssel kapcsolatos problémák” ](https://Consteel.atlassian.net/servicedesk/customer/portal/1/group/22)vagy a “[Felhasználói kérés beküldése](https://Consteel.atlassian.net/servicedesk/customer/portal/1/group/23/create/60)”, hogy a segítségkérés még könnyebben elérhető legyen a grafikus felületről.
 
 
 ### Oldalsáv
@@ -933,16 +933,16 @@ Befoglaló nézet (Ctrl+0)
 ### Descript szerkesztő(14-es vagy korábbi verziókban 'csPI')
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/2-2-4-Descript-panel-1.png)](./img/wp-content-uploads-2021-04-2-2-4-Descript-panel-1.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/2-2-4-Descript-panel-1.png)](./img/wp-content-uploads-2021-04-2-2-4-Descript-panel-1.png)
 
 
-A képernyő bal alsó sarkában található a Descript szerkesztő panelje, melyet a ![](./img/wp-content-uploads-2022-01-ico_descript_maximize.png) ikonnal nyithatunk meg. A Descript a ConSteel programozási felülete, amellyel parametrikus modellek építhetők. A Consteel szinte összes szerkezeti objektuma létrehozható, és ezen objektumok összes paramétere meghatározható/módosítható a Descript segítségével. Részletes leírását ld. a _[Descript - a Consteel programozása](../../descript/15_1_introduction/15_1_1_what-is-descript.md)_ c. fejezetben!
+A képernyő bal alsó sarkában található a Descript szerkesztő panelje, melyet a ![](./img/wp-content-uploads-2022-01-ico_descript_maximize.png) ikonnal nyithatunk meg. A Descript a Consteel programozási felülete, amellyel parametrikus modellek építhetők. A Consteel szinte összes szerkezeti objektuma létrehozható, és ezen objektumok összes paramétere meghatározható/módosítható a Descript segítségével. Részletes leírását ld. a _[Descript - a Consteel programozása](../../descript/15_1_introduction/15_1_1_what-is-descript.md)_ c. fejezetben!
 
 
 ### Állapotsor
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/01/allapotsor.png)](./img/wp-content-uploads-2022-01-allapotsor.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/01/allapotsor.png)](./img/wp-content-uploads-2022-01-allapotsor.png)
 
 
 
@@ -982,7 +982,7 @@ Az ablakot a Nézet menüből is megnyithatja. További információkért látog
 #### Grafikus szimbólumok láthatósága ![](./img/wp-content-uploads-2022-01-ico_visibility_graph.png)
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/popup_visi_symb.png)](./img/wp-content-uploads-2021-04-popup_visi_symb.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/popup_visi_symb.png)](./img/wp-content-uploads-2021-04-popup_visi_symb.png)
 
 - ![](./img/wp-content-uploads-2022-01-visi_graph_lines.png) Vonalak láthatósága. A Geometria fül vonal, kör és körív funkcióival rajzolt elemeket érinti.
 
@@ -1029,7 +1029,7 @@ Az ablakot a Nézet menüből is megnyithatja. További információkért látog
 
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/popup_visi_LCS.png)](./img/wp-content-uploads-2021-04-popup_visi_LCS.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/popup_visi_LCS.png)](./img/wp-content-uploads-2021-04-popup_visi_LCS.png)
 
 - ![](./img/wp-content-uploads-2022-01-visi_coord_rast.png) Raszter láthatósága
 
@@ -1056,7 +1056,7 @@ Az ablakot a Nézet menüből is megnyithatja. További információkért látog
 
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/popup_visi_names.png)](./img/wp-content-uploads-2021-04-popup_visi_names.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/popup_visi_names.png)](./img/wp-content-uploads-2021-04-popup_visi_names.png)
 
 
 - ![](./img/wp-content-uploads-2022-01-visi_names_point.png) Végeselem pontok sorszámainak láthatósága. (Csak a Végeselem és az Analízis fülön látható!)
@@ -1102,7 +1102,7 @@ Az ablakot a Nézet menüből is megnyithatja. További információkért látog
 #### Feliratok láthatósága ![](./img/wp-content-uploads-2022-01-ico_visibility_numbs.png)
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/01/visibility_numbs_2.png)](./img/wp-content-uploads-2022-01-visibility_numbs_2.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/01/visibility_numbs_2.png)](./img/wp-content-uploads-2022-01-visibility_numbs_2.png)
 
 
 - ![](./img/wp-content-uploads-2022-01-visi_names_mat.png) Anyagminőségek láthatósága
@@ -1128,7 +1128,7 @@ Az ablakot a Nézet menüből is megnyithatja. További információkért látog
 
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/obj_color_set_v15.png)](./img/wp-content-uploads-2021-04-obj_color_set_v15.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/obj_color_set_v15.png)](./img/wp-content-uploads-2021-04-obj_color_set_v15.png)
 
 
 - ![](./img/wp-content-uploads-2022-01-visi_color_def.png) Szerkezeti elemek színezése az alapértelmezett módon (layer vagy anyag színek)
@@ -1140,7 +1140,7 @@ Az ablakot a Nézet menüből is megnyithatja. További információkért látog
 
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/01/visibility_snaps.png)](./img/wp-content-uploads-2022-01-visibility_snaps.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/01/visibility_snaps.png)](./img/wp-content-uploads-2022-01-visibility_snaps.png)
 
 
 
@@ -1209,7 +1209,7 @@ Egyenes elemek középpontjának megfogása a felosztás ![](./img/wp-content-up
 Az állapotsor utolsó mezője a meghosszabbítás lépésköze. A mezőben megadott szám, a meghosszabbítás lépésközét adja meg mm-ben, amennyiben a meghosszabbítás ![](./img/wp-content-uploads-2022-01-visi_snap_length.png) funkció aktív.
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/2-2-6-lengthen.png)](./img/wp-content-uploads-2021-04-2-2-6-lengthen.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/2-2-6-lengthen.png)](./img/wp-content-uploads-2021-04-2-2-6-lengthen.png)
 
 
 ### Objektumfa, Objektum tulajdonságok és Diagnosztika ablakok
@@ -1266,7 +1266,7 @@ A Modell tartalma fül tartalmazza az összes előre meghatározott alap objektu
 Consteel 16
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/01/menu_nezet_hu.png)](./img/wp-content-uploads-2022-01-menu_nezet_hu.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/01/menu_nezet_hu.png)](./img/wp-content-uploads-2022-01-menu_nezet_hu.png)
 
 
 #### Objektumfa ablak
@@ -1278,7 +1278,7 @@ Az alapértelmezett helye a képernyő jobb felső sarka. Két fül található 
 Modell tartalma fül
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/01/objektumfa_modell-tartalma.png)](./img/wp-content-uploads-2022-01-objektumfa_modell-tartalma.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/01/objektumfa_modell-tartalma.png)](./img/wp-content-uploads-2022-01-objektumfa_modell-tartalma.png)
 
 
 A modellfa alapesetben is tartalmazza azokat az objektum csoportokat, amelyek szükségesek egy szerkezet felépítéséhez.
@@ -1289,7 +1289,7 @@ Modellezés során minden új objektum (anyagminőségek, szelvények, terhek, t
 Részlet kezelő fül
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/01/objektumfa_reszletek.png)](./img/wp-content-uploads-2022-01-objektumfa_reszletek.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/01/objektumfa_reszletek.png)](./img/wp-content-uploads-2022-01-objektumfa_reszletek.png)
 
 
 Részlet kezelő használatának leírását ld. a [Részlet kezelő](../3_0_model-view/3_3_portions-manager.md) c. fejezetben!
@@ -1319,7 +1319,7 @@ Consteel 16
 Geometriai vagy modellezési hibák (egy vagy több elem átfedése, hiányzó támasz stb…) észlelése esetén a Diagnosztika ablak automatikusan megjelenik, kijelezve a problémás elemeket.
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/01/diag_ablak.png)](./img/wp-content-uploads-2022-01-diag_ablak.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/01/diag_ablak.png)](./img/wp-content-uploads-2022-01-diag_ablak.png)
 
 
 A Diagnosztika ablakban a hiba üzenetek piros színnel, a figyelmeztetések pedig sárga színnel kerülnek megjelenítésre.
@@ -1340,4 +1340,4 @@ Különböző típusú objektumok kiválasztása esetén, azok objektum típuson
 A kijelölés megszüntetése (![](./img/wp-content-uploads-2021-04-2-2-7-unselect.png)) gombbal, az előzőleg kiválasztott objektum típusok kivonhatóak a kiválasztásból.
 
 
-[![](./img/wp-content-uploads-2022-01-objekt_tulajd_nezet-1024x515.png)](https://consteelsoftware.com/wp-content/uploads/2022/01/objekt_tulajd_nezet.png)
+[![](./img/wp-content-uploads-2022-01-objekt_tulajd_nezet-1024x515.png)](https://Consteelsoftware.com/wp-content/uploads/2022/01/objekt_tulajd_nezet.png)

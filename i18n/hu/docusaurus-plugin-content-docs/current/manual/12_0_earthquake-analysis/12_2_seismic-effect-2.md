@@ -57,7 +57,7 @@ A _Beállítások_ (#1) mezőben lehet megadni az földrengés analízis legfőb
 
 <!-- wp:image {"align":"center","id":37729,"width":470,"height":597,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/06/dial_foldrenges_foldr_hatas.png)](./img/wp-content-uploads-2022-06-dial_foldrenges_foldr_hatas.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/dial_foldrenges_foldr_hatas.png)](./img/wp-content-uploads-2022-06-dial_foldrenges_foldr_hatas.png)
 
 <!-- /wp:image -->
 
@@ -69,7 +69,7 @@ A _Válaszspektrum_ (#2) mezőben lehet kiválasztani a földrengés analízis s
 
 <!-- wp:image {"align":"center","id":37737,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/06/dial_foldrenges_foldr_hatas_spektrum.png)](./img/wp-content-uploads-2022-06-dial_foldrenges_foldr_hatas_spektrum.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/dial_foldrenges_foldr_hatas_spektrum.png)](./img/wp-content-uploads-2022-06-dial_foldrenges_foldr_hatas_spektrum.png)
 
 <!-- /wp:image -->
 
@@ -194,7 +194,7 @@ A szintek megadásával kapcsolatban fontos tudni, hogy a Consteel a legalsó be
 
 <!-- wp:image {"align":"center","id":37745,"width":428,"height":550,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/06/dial_foldrenges_foldr_tovabbi_hatas.png)](./img/wp-content-uploads-2022-06-dial_foldrenges_foldr_tovabbi_hatas.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/dial_foldrenges_foldr_tovabbi_hatas.png)](./img/wp-content-uploads-2022-06-dial_foldrenges_foldr_tovabbi_hatas.png)
 
 <!-- /wp:image -->
 

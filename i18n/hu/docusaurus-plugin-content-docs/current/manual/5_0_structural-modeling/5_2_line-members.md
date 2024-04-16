@@ -61,7 +61,7 @@ Rúdelem paramétereinek megadása a dialóg középső részén történik:
 
 <!-- wp:image {"align":"center","id":33627,"width":362,"height":355,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/02/dial_rud_szerk_gerenda.png)](./img/wp-content-uploads-2022-02-dial_rud_szerk_gerenda.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/02/dial_rud_szerk_gerenda.png)](./img/wp-content-uploads-2022-02-dial_rud_szerk_gerenda.png)
 
 <!-- /wp:image -->
 
@@ -71,7 +71,7 @@ Rúdelem paramétereinek megadása a dialóg középső részén történik:
 
 <!-- wp:image {"align":"center","id":33634,"width":361,"height":383,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/02/dial_rud_szerk_oszlop.png)](./img/wp-content-uploads-2022-02-dial_rud_szerk_oszlop.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/02/dial_rud_szerk_oszlop.png)](./img/wp-content-uploads-2022-02-dial_rud_szerk_oszlop.png)
 
 <!-- /wp:image -->
 
@@ -85,7 +85,7 @@ Rúdelem paramétereinek megadása a dialóg középső részén történik:
 
 <!-- wp:image {"align":"right","id":33574,"width":490,"height":293,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/02/dial_szelvenykezelo.png)](./img/wp-content-uploads-2022-02-dial_szelvenykezelo.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/02/dial_szelvenykezelo.png)](./img/wp-content-uploads-2022-02-dial_szelvenykezelo.png)
 
 
 Az egyes adatmezők értelmezése fentről lefelé haladva az alábbi:
@@ -160,7 +160,7 @@ Szükséges megjegyezni, hogy nem csak a külpontos normálerőknek van hatása 
 
 Első lépésként a keresztmetszet betöltést kell elvégezni. Ez elvégezhető mind a [**szelvénykezelőből**](../5_0_structural-modeling/5_1_section-administration.md) (![](./img/wp-content-uploads-2021-04-cmd_section_admin.png))közvetlenül, mind pedig a **rúd szerkesztő** dialógról is. Acél keresztmetszetek betöltéséhez a Consteel, a szabványos szelvénytárban megtalálható szelvényeken és a makró szelvényeken túl, rajzolt (egyedi) szelvények betöltésére is lehetőséget ad.
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/exclam.png)](./img/wp-content-uploads-2021-04-exclam.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/exclam.png)](./img/wp-content-uploads-2021-04-exclam.png)
 
 <!-- /wp:image -->
 
@@ -180,7 +180,7 @@ Fontos megjegyezni, hogy Consteel-ben az anyagminőség a szelvény egy paramét
 
 <!-- wp:image {"align":"right","id":33694,"width":512,"height":275,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](./img/wp-content-uploads-2022-02-dial_szelvenykezelo_library-1024x549.png)](https://consteelsoftware.com/wp-content/uploads/2022/02/dial_szelvenykezelo_library.png)
+[![](./img/wp-content-uploads-2022-02-dial_szelvenykezelo_library-1024x549.png)](https://Consteelsoftware.com/wp-content/uploads/2022/02/dial_szelvenykezelo_library.png)
 
 
 #### Szelvénykönyvtár
@@ -209,7 +209,7 @@ Makró szelvényt négyféle kategóriában lehet létrehozni:
 1\. **Lemezekből hegesztett típusok:**
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/image-1713.png)](./img/wp-content-uploads-2021-04-image-1713.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/image-1713.png)](./img/wp-content-uploads-2021-04-image-1713.png)
 
 - I vagy H szelvény
 
@@ -233,7 +233,7 @@ Makró szelvényt négyféle kategóriában lehet létrehozni:
 2\. **Melegen hengerelt típusok:**
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/image-1752.png)](./img/wp-content-uploads-2021-04-image-1752.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/image-1752.png)](./img/wp-content-uploads-2021-04-image-1752.png)
 
 
 - Párhuzamos övű I vagy H szelvény
@@ -255,7 +255,7 @@ Makró szelvényt négyféle kategóriában lehet létrehozni:
 
 3\. **Hidegen alakított típusok:**
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/image-1755.png)](./img/wp-content-uploads-2021-04-image-1755.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/image-1755.png)](./img/wp-content-uploads-2021-04-image-1755.png)
 
 - RHS zártszelvény
 
@@ -280,10 +280,10 @@ A hidegen alakított szelvénymakrók utóbbi 5 szelvény típusánál lehetős�
 
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/02/dial_CFS_elmerevito.png)](./img/wp-content-uploads-2022-02-dial_CFS_elmerevito.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/02/dial_CFS_elmerevito.png)](./img/wp-content-uploads-2022-02-dial_CFS_elmerevito.png)
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/02/dial_CFS_gerincmerevito.png)](./img/wp-content-uploads-2022-02-dial_CFS_gerincmerevito.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/02/dial_CFS_gerincmerevito.png)](./img/wp-content-uploads-2022-02-dial_CFS_gerincmerevito.png)
 
 
 A hidegen alakított makró szelvényeknél, amennyiben azok bevonatos anyagból készülnek, meg kell adni az EN 10143 szabványban definiált vastagsági tolerancia kategóriát is. Kétféle kategória létezik: normál és speciális. A szelvény tervezési falvastagságát ennek megfelelően az EN 1993-1-3 3.2.4. pont szerint számítja a program. Az általános építési gyakorlatban, az ilyen szelvények leggyakrabban az említett EN 10143 szabvány szerinti, bevonatos acéllemezekből készülnek, ezért ezeknél a makróknál az ebben a szabványban definiált vastagsági tolerancia kategóriákat vettük alapul.
@@ -305,7 +305,7 @@ Fontos, hogy ha a tervező nem az adatbázisban szereplő bevonatos anyagok köz
 
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/image-1780.png)](./img/wp-content-uploads-2021-04-image-1780.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/image-1780.png)](./img/wp-content-uploads-2021-04-image-1780.png)
 
 - I vagy H szelvény egyik övén U szelvény erősítéssel
 
@@ -356,7 +356,7 @@ Első lépésben, a parancs indítása után, egy felugró ablakban ki kell vál
 - Általános vékonyfalú szelvény
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/02/dial_szelveny_rajzolo_tip.png)](./img/wp-content-uploads-2022-02-dial_szelveny_rajzolo_tip.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/02/dial_szelveny_rajzolo_tip.png)](./img/wp-content-uploads-2022-02-dial_szelveny_rajzolo_tip.png)
 
 
 
@@ -372,7 +372,7 @@ Miután kiválasztottuk a szelvény típusát, a _**Tovább**_ gombra kattintva 
 A szelvény rajzoló ablak felépítése az alábbi:
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/6-2-profile-drawing-window.png)](./img/wp-content-uploads-2021-04-6-2-profile-drawing-window.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/6-2-profile-drawing-window.png)](./img/wp-content-uploads-2021-04-6-2-profile-drawing-window.png)
 
 
 **1# Rajzterület**
@@ -415,10 +415,10 @@ A szelvény geometriájának szerkesztése történik az első fázisban. A mere
 ![](./img/wp-content-uploads-2021-04-ico_sect_draft_draw_polyline.png) A _**Sokszögvonal rajzolása**_ parancsikonnal indítható a geometria szerkesztése. A rajzolás történhet végpontok kijelölésével a rajztéren, vagy a _**Vonal rajzolás**_ felugró ablakban koordináták megadásával is. Koordinátákat derékszögű ![](./img/wp-content-uploads-2021-04-ico_sect_draft_draw_cart.png) vagy poláris ![](./img/wp-content-uploads-2021-04-ico_sect_draft_draw_polar.png) koordináta rendszerben adhatunk meg, az origó lehet lokális ![](./img/wp-content-uploads-2021-04-ico_sect_draft_draw_local.png) vagy globális ![](./img/wp-content-uploads-2021-04-ico_sect_draft_draw_global.png). Lokális megadás esetén az utoljára megadott pont az origó, globális esetén a rajztér közepén látható Y-Z tengelykereszt. A lemezszegmensek elhelyezése a rajzolt referenciavonalhoz képest lehet központos, balra, vagy jobbra igazított. ![](./img/wp-content-uploads-2021-04-ico_sect_draft_draw_offset.png) Ezt rajzolás közben, vagy utólag, akár egyenként is lehet módosítani az oldalsávon található _**Lemez szegmens paraméterek**_ című panelen. A lekerekítések a lemez szegmensek rajzolásakor automatikusan létrejönnek. A lekerekítési sugarat utólag, a lekerekítést kijelölve, az oldalsávon lehet módosítani egyenként, vagy egységesen megadva az egész szelvényre. Ugyan itt lehet megadni a névleges lemezvastagságot is.
 
 
-[![](./img/wp-content-uploads-2022-03-szelveny_rajzolo_CFS_lemez_parameterek-1024x525.png)](https://consteelsoftware.com/wp-content/uploads/2022/03/szelveny_rajzolo_CFS_lemez_parameterek.png)
+[![](./img/wp-content-uploads-2022-03-szelveny_rajzolo_CFS_lemez_parameterek-1024x525.png)](https://Consteelsoftware.com/wp-content/uploads/2022/03/szelveny_rajzolo_CFS_lemez_parameterek.png)
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/exclam.png)](https://www.consteelsoftware.com/wp-content/uploads/2021/04/exclam.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/exclam.png)](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/exclam.png)
 
 
 A szelvény rajzoló ablakban minden paraméter beírása után az ENTER-t is meg kell nyomni ahhoz, hogy a beírt érték érvényesüljön!
@@ -458,19 +458,19 @@ A geometria felvétele után a szilárdsági és globális stabilitási határá
 Az első, legördülő menüben a szelvény gyártási módját kell kiválasztani. Ez lehet hidegen hengerelt, élhajlított vagy egyéb hidegen alakítás.
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/03/szelveny_rajzolo_CFS_gyartasi-mod.png)](./img/wp-content-uploads-2022-03-szelveny_rajzolo_CFS_gyartasi-mod.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/03/szelveny_rajzolo_CFS_gyartasi-mod.png)](./img/wp-content-uploads-2022-03-szelveny_rajzolo_CFS_gyartasi-mod.png)
 
 
 Ez után a tervezési falvastagság számításához szükséges vastagsági toleranciát, és a 90°-os hajlítások számát kell megadni A hajlítások számát a program automatikusan kiszámítja, amennyiben makróval készült szelvényt importálunk be. Rajzolt szelvény esetén kézzel kell ezt a mezőt kitölteni.
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/03/szelveny_rajzolo_CFS_vastagsag-tolerancia.png)](./img/wp-content-uploads-2022-03-szelveny_rajzolo_CFS_vastagsag-tolerancia.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/03/szelveny_rajzolo_CFS_vastagsag-tolerancia.png)](./img/wp-content-uploads-2022-03-szelveny_rajzolo_CFS_vastagsag-tolerancia.png)
 
 
 Ezután következik a kihajlási és kifordulási görbék kiválasztása. Amennyiben egy szelvényt később _**Szelemensor**_ objektummal ellátott rúdelemen használunk, a kifordulás ellenőrzésekor a legalsó, _Szelemensor kifordulási görbéje_ mezőben megadott görbe lesz figyelembe véve.
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/03/szelveny_rajzolo_CFS_kihajlasi-gorbek.png)](./img/wp-content-uploads-2022-03-szelveny_rajzolo_CFS_kihajlasi-gorbek.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/03/szelveny_rajzolo_CFS_kihajlasi-gorbek.png)](./img/wp-content-uploads-2022-03-szelveny_rajzolo_CFS_kihajlasi-gorbek.png)
 
 
 **(3)** Lokális stabilitási paraméterek megadása![](./img/wp-content-uploads-2022-02-szelveny_rajzolo_CFS_folyamat_3.png)
@@ -494,7 +494,7 @@ Egy szegmenst kijelölve, az oldalsávon lehet megadni, hogy a lemezosztályozá
 A következő mezőben azt kell megadni, hogy a számításban az adott szegmens nyíróerő okozta horpadásra figyelembe legyen-e véve vagy sem, és melyik irányban.
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/03/szelveny_rajzolo_CFS_nyirasi-horpadas.png)](./img/wp-content-uploads-2022-03-szelveny_rajzolo_CFS_nyirasi-horpadas.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/03/szelveny_rajzolo_CFS_nyirasi-horpadas.png)](./img/wp-content-uploads-2022-03-szelveny_rajzolo_CFS_nyirasi-horpadas.png)
 
 
 **(4)** Merevítők definiálása![](./img/wp-content-uploads-2022-02-szelveny_rajzolo_CFS_folyamat_4.png)
@@ -502,7 +502,7 @@ A következő mezőben azt kell megadni, hogy a számításban az adott szegmens
 Ahhoz, hogy a megrajzolt merevítők ténylegesen szabványos merevítőként szerepeljenek a számításban, ebben a fázisban kell definiálni azokat. Első lépésben el kell dönteni, hogy a szelvény hidegen hajlított Z vagy C szelvény-e, vagy pedig az általános kategóriába tartozik. Ezt az oldalsávon található választógombbal lehet megadni.
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/03/szelveny_rajzolo_CFS_szelveny-csalad.png)](./img/wp-content-uploads-2022-03-szelveny_rajzolo_CFS_szelveny-csalad.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/03/szelveny_rajzolo_CFS_szelveny-csalad.png)](./img/wp-content-uploads-2022-03-szelveny_rajzolo_CFS_szelveny-csalad.png)
 
 
 Z vagy C szelvényt választva, a számítás, az övek megtámasztásában figyelembe veszi a másik öv feszültségi állapotát, és a gerinc merevségét is. Ehhez természetesen meg kell adni, hogy a szelvény mely részei alkotják az alsó és felső övet, illetve a gerincet, és meg kell adni a gerinc hosszát is. Általános szelvényt választva az élmerevítők számítása egymástól függetlenül történik.
@@ -518,7 +518,7 @@ A bal oldali diagnosztika panel mellett megjelenik egy új panel, amely fa struk
 A merevítők megadását a bal felső parancssoron található parancsikonokkal lehet indítani:
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/sectdraw_CF_create_stiffeners.png)](./img/wp-content-uploads-2021-04-sectdraw_CF_create_stiffeners.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/sectdraw_CF_create_stiffeners.png)](./img/wp-content-uploads-2021-04-sectdraw_CF_create_stiffeners.png)
 
 
 ![](./img/wp-content-uploads-2021-04-sectdraw_CF_create_stiffeners_nonstiff.png) **Merevítetlen öv kiválasztása:** csak Z vagy C típusú szelvényeknél használható. Amennyiben valamelyik öv merevítetlen, ezzel a paranccsal lehet ezt az övet definiálni. Keretezéssel vagy rákattintással ki kell jelölni a merevítetlen övhöz tartozó lemezszegmenseket, majd a bevitelt az **ENTER **gomb, vagy az ENTER billentyű megnyomásával befejezni.
@@ -527,7 +527,7 @@ A merevítők megadását a bal felső parancssoron található parancsikonokkal
 ![](./img/wp-content-uploads-2021-04-sectdraw_CF_create_stiffeners_edge.png) **Élmerevítő **_és_** kettős élmerevítő kiválasztása:** a felugró ablakban lévő súgó utasításait követve, 4 lépésben lehet a merevítőket definiálni. Az első lépésben keretezéssel vagy rákattintással ki kell jelölni az(oka)t a lemezszegmens(eke)t, amely(ek) a merevítőt alkotják, majd a bevitelt az **ENTER** gomb, vagy az ENTER billentyű megnyomásával befejezni. Ezután a merevített lemezt kell kijelölni, és ismét az ENTER-rel befejezni a műveletet. A következő lépésben a gerincet alkotó lemezt kell megadni, legvégül két ponttal meg kell határozni a gerinc hosszát. Minden lépést ugyan úgy az ENTER-rel kell lezárni. A folyamat lépésit a jobb oldali panelen lehet követni, ahol helyes bevitel esetén mind a három sorban OK felirat lesz olvasható.
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/03/szelveny_rajzolo_CFS_elmerevito-megadasa.png)](./img/wp-content-uploads-2022-03-szelveny_rajzolo_CFS_elmerevito-megadasa.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/03/szelveny_rajzolo_CFS_elmerevito-megadasa.png)](./img/wp-content-uploads-2022-03-szelveny_rajzolo_CFS_elmerevito-megadasa.png)
 
 
 
@@ -537,7 +537,7 @@ Amennyiben a szelvény Z vagy C típusúnak van beállítva, a folyamat bármely
 Legvégül meg kell adni a merevítő kritikus feszültségét a panel legalsó szakaszában. Itt lehet automatikus számítást, vagy kézi megadást választani. Fontos, hogy az automatikusan számítás csak Z vagy C típusú szelvényekre működik, mert a szabvány csak ilyen esetekre ad megoldást.
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/03/szelveny_rajzolo_CFS_kritikus-feszultseg.png)](./img/wp-content-uploads-2022-03-szelveny_rajzolo_CFS_kritikus-feszultseg.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/03/szelveny_rajzolo_CFS_kritikus-feszultseg.png)](./img/wp-content-uploads-2022-03-szelveny_rajzolo_CFS_kritikus-feszultseg.png)
 
 
 ![](./img/wp-content-uploads-2021-04-sectdraw_CF_create_stiffeners_inter.png) **Közbenső merevítő**  és **kettős közbenső merevítő kiválasztása:** az élmerevítőhöz hasonlóan ki kell jelölni a merevítőt alkotó lemezszegmenseket, és az ENTER-rel elfogadni a bevitelt. További lépésekre nincs szükség, azonban a jobb oldali panelen a merevítő kritikus feszültségét, hasonlóan az élmerevítőhöz, ugyancsak meg kell adni.
@@ -576,13 +576,13 @@ Ennél a szelvénytípusnál kevesebb parancs áll rendelkezésre a szerkesztés
 A szerkesztés annyiban eltér az előzőtől, hogy itt a szelvény jellegéből adódóan, minden szegmensnek eltérő vastagságot lehet adni, és zárt szelvény is létrehozható. A rajzolás során egy végpontról egy már megrajzolt lemez közbenső pontjára kattintva a vonalrajzolás „átugrik” arra a pontra, és a szerkesztés arról a pontról folytatható. A szelvénymodellezés számára szükséges ún. „dummy” elemek is létrejönnek, melyek a képernyőn barna, szaggatott, íves vonallal ábrázolódnak.
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/sectdraw_TW_scr_1.png)](./img/wp-content-uploads-2021-04-sectdraw_TW_scr_1.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/sectdraw_TW_scr_1.png)](./img/wp-content-uploads-2021-04-sectdraw_TW_scr_1.png)
 
 
 ![](./img/wp-content-uploads-2021-04-sectdraw_TW_cmd_move.png) A **Pont és él mozgatása** paranccsal valamely végpont, vagy teljes szegmens eltolása hajtható végre. Pont kijelölése esetén a következő lépésben rögtön a mozgatás végpontját kell megadni, él kijelölése után először a kezdő-, majd a végpontját.
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/sectdraw_TW_scr_2.png)](./img/wp-content-uploads-2021-04-sectdraw_TW_scr_2.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/sectdraw_TW_scr_2.png)](./img/wp-content-uploads-2021-04-sectdraw_TW_scr_2.png)
 
 
 ![](./img/wp-content-uploads-2021-04-sectdraw_TW_cmd_import.png) A _**Szelvény importálása**_ parancs működése megegyezik az [előző fejezetben](#Drawing-of-Cold-Formed-Sections) leírttal.
@@ -603,7 +603,7 @@ A geometria felvétele után a szilárdsági és globális stabilitási határá
 A harmadik, egyben utolsó fázisra lépve ezen szelvények esetében egyedül a keresztmetszet egyes alkotó lemezeinek osztályba sorolását lehet szabályozni az előző fejezetben megismerttel azonos módon. Részletesen ld. az előző fejezetet.
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/03/szelveny_rajzolo_CFS_lemez-osztalyozas-edited.png)](https://consteelsoftware.com/wp-content/uploads/2022/03/szelveny_rajzolo_CFS_lemez-osztalyozas.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/03/szelveny_rajzolo_CFS_lemez-osztalyozas-edited.png)](https://Consteelsoftware.com/wp-content/uploads/2022/03/szelveny_rajzolo_CFS_lemez-osztalyozas.png)
 
 
 A szerkesztést itt is a _**Ment és kilép**_ paranccsal lehet befejezni.
@@ -634,7 +634,7 @@ Vasbeton gerenda makró szelvények
 Vasbeton keresztmetszetek definiálását a _**Makró szelvények**_ között lehet elvégezni. A vasbeton keresztmetszetek között két fő típus választható, a **méretezési opcióval rendelkező** _(#1)_, és a **méretezési opcióval nem rendelkező** keresztmetszeti típus _(#2)_.
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/03/dial_szelvenykezelo_makro_vasbeton.png)](./img/wp-content-uploads-2022-03-dial_szelvenykezelo_makro_vasbeton.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/03/dial_szelvenykezelo_makro_vasbeton.png)](./img/wp-content-uploads-2022-03-dial_szelvenykezelo_makro_vasbeton.png)
 
 
 #### Méretezési opcióval rendelkező vasbeton keresztmetszetek (#1)
@@ -672,7 +672,7 @@ melyek a **Szerkezeti elemek** fülön találhatók. A betonvasalásokat ezután
 **Consteel 15**
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/03/dial_makro_vb_meretezesi.png)](https://www.consteelsoftware.com/wp-content/uploads/2022/03/dial_makro_vb_meretezesi.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/03/dial_makro_vb_meretezesi.png)](https://www.Consteelsoftware.com/wp-content/uploads/2022/03/dial_makro_vb_meretezesi.png)
 
 
 A Lágyvasalás méretezési opcióval rendelkező keresztmetszetek a **_Makró szelvény felvétel_** dialógon szürke színnel ábrázoltak. Ezekből a Consteel-ben kétfajta keresztmetszet érhető el.
@@ -699,7 +699,7 @@ A **_Gerenda vasalás szerkesztő_** ![](./img/wp-content-uploads-2022-05-gerend
 Az ablak az Objektum tulajdonságok panelről is elérhető. Ehhez egy méretezési opcióval rendelkező vasbeton makrószelvényű rúdelemet kell kijelölni, majd a _Vasalás_ mező végén található ![](./img/wp-content-uploads-2021-04-3dots-button.png) ikonra kell kattintani.
 
 
-[![Objektum tulajdonságok - vasbeton rúdelem](https://www.consteelsoftware.com/wp-content/uploads/2023/07/vb_rud_tulajdonsagok_vasalas-1.png)](./img/wp-content-uploads-2023-07-vb_rud_tulajdonsagok_vasalas-1.png)
+[![Objektum tulajdonságok - vasbeton rúdelem](https://www.Consteelsoftware.com/wp-content/uploads/2023/07/vb_rud_tulajdonsagok_vasalas-1.png)](./img/wp-content-uploads-2023-07-vb_rud_tulajdonsagok_vasalas-1.png)
 
 Gerenda vasalás, mint objektum paraméter
 
@@ -707,7 +707,7 @@ Gerenda vasalás, mint objektum paraméter
 Gerenda vasalási objektum csak akkor hozható létre, ha a modellben van betöltött vasbeton gerenda-keresztmetszet.
 
 
-[![Gerenda vasalás szerkesztő](https://www.consteelsoftware.com/wp-content/uploads/2023/07/gerenda_vasalas_szerkeszto.png)](./img/wp-content-uploads-2023-07-gerenda_vasalas_szerkeszto.png)
+[![Gerenda vasalás szerkesztő](https://www.Consteelsoftware.com/wp-content/uploads/2023/07/gerenda_vasalas_szerkeszto.png)](./img/wp-content-uploads-2023-07-gerenda_vasalas_szerkeszto.png)
 
 Gerenda vasalás szerkesztő
 
@@ -740,7 +740,7 @@ Amennyiben több, változó hosszal rendelkező rúdelemre kerül elhelyezésre 
 A _**Vasalás szerkesztő**_ ![](./img/wp-content-uploads-2021-04-cmd_rebareditor.png) dialóg bal oldali paneljén (**#1**) a gerenda vasalás opciót választva érhetők el a lágyvasalás felvételéhez szükséges beállítási és információs lehetőségek.
 
 
-[![](./img/wp-content-uploads-2022-03-dial_vasalas_szerkeszto-1024x771.png)](https://consteelsoftware.com/wp-content/uploads/2022/03/dial_vasalas_szerkeszto.png)
+[![](./img/wp-content-uploads-2022-03-dial_vasalas_szerkeszto-1024x771.png)](https://Consteelsoftware.com/wp-content/uploads/2022/03/dial_vasalas_szerkeszto.png)
 
 - **#2** -Amennyiben a modellben van betöltve méretezési opcióval rendelkező vasbeton keresztmetszet, úgy a _**Hozzáadás**_ gombbal új vasalási objektumot vehetünk fel. A **_Másolás_** gomb használatával a másolt objektum örökli az eredeti objektum paramétereit. Több objektum létrehozható, melyek között a váltás a legördülő menü segítségével, törlés pedig a törölni kívánt objektum kiválasztása után a **Törlés** gomb segítségével végezhető el.
 
@@ -749,7 +749,7 @@ A _**Vasalás szerkesztő**_ ![](./img/wp-content-uploads-2021-04-cmd_rebaredito
 - **#4** – A dialóg alsó része egy többfunkciós panel, melyen a rúdelem hossza mentén az alkalmazott felső és alsó hosszirányú, valamint a keresztirányú nyírási vasak definiálhatók, illetve a már definiált vasakból számolt előtervezési eredmények (MRd és VRd), szerkesztési szabályokra vonatkozó figyelmeztetések megjelenítésre kerülnek. A panel funkciói:
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/03/dial_vasalas_szerkeszto_hozzaadas.png)](https://www.consteelsoftware.com/wp-content/uploads/2022/03/dial_vasalas_szerkeszto_hozzaadas.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/03/dial_vasalas_szerkeszto_hozzaadas.png)](https://www.Consteelsoftware.com/wp-content/uploads/2022/03/dial_vasalas_szerkeszto_hozzaadas.png)
 
 
 - **Grafikus megjelenítő**: A megjelenítőben, miután az **Elhelyezés** gombbal a vasobjektum elhelyezésre került egy rúdelemen, megjelenik a gerenda hossza. Amennyiben rendelkezésre állnak analízis eredmények, úgy a teherkombinációkból származó nyomatéki igénybevételi ábrák is megjelenítésre kerülnek, melyekből a felső legördülő menük segítségével burkoló igénybevételi ábrák is kérhetők. Ha a baloldali felső legördülő menüben a Nyírási vasalás opció van kiválasztva, akkor a grafikus megjelenítőn a nyírási és nyírási burkoló ábrák kerülnek megjelenítésre. A nyomatéki, vagy burkoló nyomatéki ábrák minimális és maximális értékei is feltüntetésre kerülnek a grafikán.  
@@ -778,7 +778,7 @@ Egy Consteel modell több oszlopvasalást is tartalmazhat, melyek a megfelelő r
 A téglalap és kör keresztmetszetű oszlopok külön füleken szerepelnek. A már definiált vasalások egy táblázatban vannak felsorolva a vonatkozó információikkal együtt.
 
 
-[![Oszlop vasalása - téglalap szelvény](https://www.consteelsoftware.com/wp-content/uploads/2023/07/oszlop_vasalasok_tablazat-1024x408.png)](./img/wp-content-uploads-2023-07-oszlop_vasalasok_tablazat-1024x408.png)
+[![Oszlop vasalása - téglalap szelvény](https://www.Consteelsoftware.com/wp-content/uploads/2023/07/oszlop_vasalasok_tablazat-1024x408.png)](./img/wp-content-uploads-2023-07-oszlop_vasalasok_tablazat-1024x408.png)
 
 Oszlop vasalások összefoglaló táblázata
 
@@ -789,7 +789,7 @@ Egy új vasalás definiálása az **+ Új létrehozása** gombbal indítható el
 Egy vasalást a soron való dupla kattintással vagy a ![](./img/wp-content-uploads-2021-04-Pencil.png)ikonnal lehet módosítani, és a ![Trash bin](./img/wp-content-uploads-2021-04-Bin.png)ikonnal lehet törölni.
 
 
-[![Oszlop vasalás szerkesztő - tégllap szelvény](https://www.consteelsoftware.com/wp-content/uploads/2023/07/oszlop_vasalas_szerkeszto_teglalap-1024x745.png)](./img/wp-content-uploads-2023-07-oszlop_vasalas_szerkeszto_teglalap-1024x745.png)
+[![Oszlop vasalás szerkesztő - tégllap szelvény](https://www.Consteelsoftware.com/wp-content/uploads/2023/07/oszlop_vasalas_szerkeszto_teglalap-1024x745.png)](./img/wp-content-uploads-2023-07-oszlop_vasalas_szerkeszto_teglalap-1024x745.png)
 
 Téglalap szelvényű oszlop vasalás szerkesztője
 
@@ -811,7 +811,7 @@ A kengyelezést az átmérő és a rúd teljes hosszán egyenlő kiosztási táv
 **Kör keresztmetszetű** szelvények esetében csak egyféle, adott darabszámú és átmérőjű, a kengyel mentén egyenletesen kiosztott hosszirányú betonacélt lehet megadni.
 
 
-[![Kör szelvényű oszlop vasalása](https://www.consteelsoftware.com/wp-content/uploads/2023/07/oszlop_vasalas_szerkeszto_kor.png)](./img/wp-content-uploads-2023-07-oszlop_vasalas_szerkeszto_kor.png)
+[![Kör szelvényű oszlop vasalása](https://www.Consteelsoftware.com/wp-content/uploads/2023/07/oszlop_vasalas_szerkeszto_kor.png)](./img/wp-content-uploads-2023-07-oszlop_vasalas_szerkeszto_kor.png)
 
 Kör szelvényű oszlop vasalás szerkesztője
 
@@ -822,7 +822,7 @@ Kör szelvényű oszlop vasalás szerkesztője
 A _**Vasalás szerkesztő**_ dialóg bal oldali panelján (**#1**) az oszlop vasalás opciót választva érhetők el a lágyvasalás felvételéhez szükséges beállítási és információs lehetőségek.
 
 
-[![](./img/wp-content-uploads-2022-03-dial_vasalas_szerkeszto_oszlop-1024x771.png)](https://consteelsoftware.com/wp-content/uploads/2022/03/dial_vasalas_szerkeszto_oszlop.png)
+[![](./img/wp-content-uploads-2022-03-dial_vasalas_szerkeszto_oszlop-1024x771.png)](https://Consteelsoftware.com/wp-content/uploads/2022/03/dial_vasalas_szerkeszto_oszlop.png)
 
 - **#2** -Amennyiben a modellben van betöltve méretezési opcióval rendelkező vasbeton keresztmetszet, úgy a **_Hozzáadás_** gombbal új vasalási objektumot vehetünk fel. Több objektum létrehozható, melyek között a váltás a legördülő menü segítségével, törlés pedig a törölni kívánt objektum kiválasztása után a **_Törlés_** gomb segítségével végezhető el.
 
@@ -835,7 +835,7 @@ A _**Vasalás szerkesztő**_ dialóg bal oldali panelján (**#1**) az oszlop vas
 - **#6** – Annak érdekében, hogy a [ vasbeton szerkezetek tervezése fejezetben](../9_0_standard-design/9_2_reinforced-concrete-design.md) taglalt vizsgálatok elvégezhetők legyenek, az oszlopok vasalás objektumához kiegészítő tervezési paraméterek felvétele szükséges. Ennek felvételére a ![](./img/wp-content-uploads-2021-04-3dots-button.png) ikonra kattintva a megjelenő tervezési paraméterek dialógon van lehetőség. A már létrehozott, elmentett és vasalási objektumhoz alkalmazni kívánt tervezési paramétereket a legördülő menüből van lehetőség kiválasztani. Új tervezési paraméter definiálásánál a kihajlási paramétereket, görbeségi paramétereket és a nyírási paramétereket szükséges megadni.
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/03/dial_vasalas_szerkeszto_tervezesi-parameterek.png)](./img/wp-content-uploads-2022-03-dial_vasalas_szerkeszto_tervezesi-parameterek.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/03/dial_vasalas_szerkeszto_tervezesi-parameterek.png)](./img/wp-content-uploads-2022-03-dial_vasalas_szerkeszto_tervezesi-parameterek.png)
 
 
 #### Méretezési opcióval nem rendelkező vasbeton keresztmetszetek (#2)
@@ -887,7 +887,7 @@ Ezeknek az elavult szelvényeknek a funkcióit a Consteel 16-tól kezdődően te
 Az ezzel a típussal létrehozott rúdelemek vasbeton tervezésre és vasbetétek ellenőrzésére nem alkalmasak, az ilyen keresztmetszetből felépített rúdelemek analízis eredményeket (lásd [**Eredmények megjelenítése**](../8_0_structural-analysis/8_5_analysis-results.md#eredmények-megjelenítése/)), illetve teherbírási görbéket (lásd [**Öszvér és vasbeton keresztmetszet**](../10_0_section-module/10_2_section-module.md#öszvér-és-vasbeton-keresztmetszet)) tudnak szolgáltatni (az alkalmazott vasalásnak, és egyéb keresztmetszeti beállításoknak megfelelő merevséggel számolva).
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/03/dial_makro_vb_nem_meretezesi.png)](./img/wp-content-uploads-2022-03-dial_makro_vb_nem_meretezesi.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/03/dial_makro_vb_nem_meretezesi.png)](./img/wp-content-uploads-2022-03-dial_makro_vb_nem_meretezesi.png)
 
 
 Az elérhető keresztmetszetek:
@@ -926,13 +926,13 @@ A szelvények definiálásánál a befoglaló paramétereket, beton anyagminős�
 Első lépésként definiálni kell az öszvér oszlop keresztmetszetét. Öt típusú keresztmetszet használható: betonba foglalt I profil, betonnal kitöltött I profil, betonnal kitöltött máltai kereszt, zártszelvénybe foglalt I profil, körcső szelvénybe foglalt I profil. A keresztmetszeti makrók a _**Makró szelvény**_ típusok között találhatók.
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/03/dial_szelveny_makro_oszver_oszlop.png)](./img/wp-content-uploads-2022-03-dial_szelveny_makro_oszver_oszlop.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/03/dial_szelveny_makro_oszver_oszlop.png)](./img/wp-content-uploads-2022-03-dial_szelveny_makro_oszver_oszlop.png)
 
 
 A keresztmetszet létrehozás során meg kell adni a vasbeton szelvény, a vasalás és a befoglalt acél szelvény paramétereit.
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/03/dial_szelveny_makro_oszver_oszlop_param.png)](./img/wp-content-uploads-2022-03-dial_szelveny_makro_oszver_oszlop_param.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/03/dial_szelveny_makro_oszver_oszlop_param.png)](./img/wp-content-uploads-2022-03-dial_szelveny_makro_oszver_oszlop_param.png)
 
 
 Az analízis során öszvér szerkezeti elemek esetén két fajta rugalmassági modulus használható, ami a dialóg közepén adható meg.
@@ -947,13 +947,13 @@ A keresztmetszetek létrehozása során megadható szabványos kezdeti görbesé
 Első lépésként definiálni kell az öszvér gerenda keresztmetszetét. Kettő fajta keresztmetszet használható: öszvér gerenda állandó vastagságú betonlemezzel és öszvér gerenda trapézlemezzel. A keresztmetszeti makrók a _**Makró szelvény**_ típusok között találhatók.
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/03/dial_szelveny_makro_oszver_gerenda.png)](./img/wp-content-uploads-2022-03-dial_szelveny_makro_oszver_gerenda.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/03/dial_szelveny_makro_oszver_gerenda.png)](./img/wp-content-uploads-2022-03-dial_szelveny_makro_oszver_gerenda.png)
 
 
 Új öszvér gerenda keresztmetszet létrehozásakor meg kell adni a gerenda szélességét. Fontos megjegyezni, hogy az analízis során a tényleges effektív szélesség automatikusan meghatározásra kerül, a beállított tervezési paramétereknek megfelelően. A keresztmetszet létrehozása során megadott szélesség csak a grafikai megjelenítés és az önsúly meghatározása során kerül felhasználásra. Szélső (aszimmetrikus) keresztmetszet definiálásra is van lehetőség, a bal és a jobb oldali szélesség megadásával. A vasalás egyszerűen megadható a betonvasak távolságának, vagy a vashányad (mm2/m) megadásával.
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/03/dial_szelveny_makro_oszver_gerenda_param.png)](./img/wp-content-uploads-2022-03-dial_szelveny_makro_oszver_gerenda_param.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/03/dial_szelveny_makro_oszver_gerenda_param.png)](./img/wp-content-uploads-2022-03-dial_szelveny_makro_oszver_gerenda_param.png)
 
 
 A keresztmetszet létrehozása után, a szerkezeti elemek létrehozása megegyezik az acél szelvényű rudak létrehozásánál bemutatottakkal.
@@ -962,7 +962,7 @@ A keresztmetszet létrehozása után, a szerkezeti elemek létrehozása megegyez
 Analízis futtatása előtt meg kell adni a _**Tervezési paramétereket**_ az _**Objektum tulajdonságok**_ ablakban. Ehhez először ki kell jelölni az öszvér gerendá(ka)t.
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/03/dial_szelveny_makro_oszver_gerenda_tervezesi-parameterek.png)](./img/wp-content-uploads-2022-03-dial_szelveny_makro_oszver_gerenda_tervezesi-parameterek.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/03/dial_szelveny_makro_oszver_gerenda_tervezesi-parameterek.png)](./img/wp-content-uploads-2022-03-dial_szelveny_makro_oszver_gerenda_tervezesi-parameterek.png)
 
 
 A _**Tervezési beállítások**_ dialógon megadható a párhuzamos öszvér gerendák közötti távolság, a nyírócsapok pozíciójának száma, illetve választható az automatikus nyírócsap kiosztás is. Az automata számítás során a program a minimális nyírócsap pozícióból számolt nyírócsap darabszámmal elvégzi a nyomatéki ellenállás számítását.
@@ -971,13 +971,13 @@ A _**Tervezési beállítások**_ dialógon megadható a párhuzamos öszvér ge
 A keletkező igénybevétel függvényében addig növeli a nyírócsapok számát, amíg a hajlítási ellenállás meghaladja a hajlítási igénybevételt. A különböző szerkezeti elemekhez különböző tervezési paraméterek is létrehozhatók.
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/03/dial_szelveny_makro_oszver_gerenda_tervezesi-beallitasok.png)](./img/wp-content-uploads-2022-03-dial_szelveny_makro_oszver_gerenda_tervezesi-beallitasok.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/03/dial_szelveny_makro_oszver_gerenda_tervezesi-beallitasok.png)](./img/wp-content-uploads-2022-03-dial_szelveny_makro_oszver_gerenda_tervezesi-beallitasok.png)
 
 
 ### Kiékelés
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/03/dial_kiekeles_hengerelt.png)](./img/wp-content-uploads-2022-03-dial_kiekeles_hengerelt.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/03/dial_kiekeles_hengerelt.png)](./img/wp-content-uploads-2022-03-dial_kiekeles_hengerelt.png)
 
 
 A szerkezeti elemek szükség esetén a _**Kiékelés**_ funkció ![](./img/wp-content-uploads-2021-04-cmd_haunch.png) alkalmazásával megerősíthetők.
@@ -986,7 +986,7 @@ A szerkezeti elemek szükség esetén a _**Kiékelés**_ funkció ![](./img/wp-c
 Kiékelés „I” alakú hengerelt (IPE, HEA, stb.) és hegesztett szelvények esetén alkalmazhatók. A kiékelés egy fél hegesztett vagy hengerelt I szelvényként (egy övvel) kerülhet felvételre. A kiékelés dialógon először ki kell választani, hogy milyen típusú szelvényt szeretnénk alkalmazni. Hengerelt szelvény esetén a következő paraméterek adhatók meg: kiékelés hossza (L), kezdőmagassága (hs), végmagassága (he), alkalmazandó szelvény típusa és a kiékelés pozíciója. Az ![](./img/wp-content-uploads-2021-04-3dots-button.png) ikon használatával lehetséges új szelvények betöltése a szelvénytárból, ezáltal alkalmazhatók különböző övszélességű elemek is.
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/03/dial_kiekeles_hegesztett.png)](./img/wp-content-uploads-2022-03-dial_kiekeles_hegesztett.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/03/dial_kiekeles_hegesztett.png)](./img/wp-content-uploads-2022-03-dial_kiekeles_hegesztett.png)
 
 
 Hegesztett szelvény alkalmazásánál további adatok megadása szükséges, melyek a következők: kiékelés gerinc vastagsága (tw), öv szélessége (b), öv vastagsága (tf).
@@ -1000,12 +1000,12 @@ A kiékelés elhelyezéséhez először ki kell választani a rúdon a kiékelé
 - alsó
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/6-2-Lower.png)](./img/wp-content-uploads-2021-04-6-2-Lower.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/6-2-Lower.png)](./img/wp-content-uploads-2021-04-6-2-Lower.png)
 
 - felső
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/6-2-Upper.png)](./img/wp-content-uploads-2021-04-6-2-Upper.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/6-2-Upper.png)](./img/wp-content-uploads-2021-04-6-2-Upper.png)
 
 - szimmetrikus
 
@@ -1017,13 +1017,13 @@ A kiékelés elhelyezéséhez először ki kell választani a rúdon a kiékelé
 Kiékelés önálló objektumként kijelölhető és módosítható az objektum tulajdonságok ablakban:
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/03/kiekeles_parameterek.png)](./img/wp-content-uploads-2022-03-kiekeles_parameterek.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/03/kiekeles_parameterek.png)](./img/wp-content-uploads-2022-03-kiekeles_parameterek.png)
 
 
 **Fontos tudni,** hogy a kiékelt elem szakaszon az automatikus végeselem generálás során új keresztmetszetek kerülnek előállításra, amely magában foglalja az eredeti szelvényt és a kiékelést. Az új keresztmetszetek külpontosan kerülnek elhelyezésre az elem középvonalán (kivétel szimmetrikus kiékelés esetén).
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/6-2-Haunch-new-section.png)](./img/wp-content-uploads-2021-04-6-2-Haunch-new-section.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/6-2-Haunch-new-section.png)](./img/wp-content-uploads-2021-04-6-2-Haunch-new-section.png)
 
 
 A keresztmetszetek külpontossága miatt az igénybevételek is külpontossá válnak, amiknek a hatása megjelenik az analízis eredményekben (például kiékelt keretsarok esetén, az erős tengelyi hajlító nyomaték egyensúlya csak akkor ál elő, ha figyelembe vesszük a normálerő külpontosságából keletkező extra nyomatékot).
@@ -1032,7 +1032,7 @@ A keresztmetszetek külpontossága miatt az igénybevételek is külpontossá v�
 ### Változó keresztmetszetű elemek
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/03/dial_valtozo_szelveny.png)](./img/wp-content-uploads-2022-03-dial_valtozo_szelveny.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/03/dial_valtozo_szelveny.png)](./img/wp-content-uploads-2022-03-dial_valtozo_szelveny.png)
 
 
 Változó keresztmetszetű elemek használata acélszerkezetek gazdaságos tervezésnél kerülnek előtérbe, emiatt különösen fontos, hogy változó keresztmetszetű elemek modellezése gyors és egyszerű legyen. Változó keresztmetszetű elem létrehozásához először egy hegesztett I, H, doboz vagy hidegen hajlított C szelvényű rudat kell felvenni.
@@ -1056,7 +1056,7 @@ A kezdőponti keresztmetszeti magasság az elem kezdőpontján, a végponti ért
 A változó keresztmetszetű rúd külpontos elhelyezésének szabálya összefügg az eredeti rúd tengelyének helyzetével.
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/03/dial_valtozo_szelveny_kulpontossag-igazitasa.png)](./img/wp-content-uploads-2022-03-dial_valtozo_szelveny_kulpontossag-igazitasa.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/03/dial_valtozo_szelveny_kulpontossag-igazitasa.png)](./img/wp-content-uploads-2022-03-dial_valtozo_szelveny_kulpontossag-igazitasa.png)
 
 1. _A kisebbik szelvény súlypontja legyen a tengelyvonalon:_ a kisebb H értékű rúdvég középpontján átmenő tengelyt helyezi az eredeti rúd tengelyére
 
@@ -1082,14 +1082,14 @@ Az alábbi ábrák a különböző paraméterek alkalmazásának hatásait mutat
 **+z**
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/6-2-1-z-1.png)](./img/wp-content-uploads-2021-04-6-2-1-z-1.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/6-2-1-z-1.png)](./img/wp-content-uploads-2021-04-6-2-1-z-1.png)
 
 
 
 ![](./img/wp-content-uploads-2021-04-6-2-1symmetric.png)
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/6-2-1z.png)](./img/wp-content-uploads-2021-04-6-2-1z.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/6-2-1z.png)](./img/wp-content-uploads-2021-04-6-2-1z.png)
 
 2. _A nagyobbik szelvény súlypontja legyen a tengelyvonalon_: a nagyobb H értékű rúdvég középpontján átmenő tengelyt helyezi az eredeti rúd tengelyére
 
@@ -1103,13 +1103,13 @@ Az alábbi ábrák a különböző paraméterek alkalmazásának hatásait mutat
 **+z**
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/6-2-2-z.png)](./img/wp-content-uploads-2021-04-6-2-2-z.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/6-2-2-z.png)](./img/wp-content-uploads-2021-04-6-2-2-z.png)
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/6-2-2symmetric.png)](./img/wp-content-uploads-2021-04-6-2-2symmetric.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/6-2-2symmetric.png)](./img/wp-content-uploads-2021-04-6-2-2symmetric.png)
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/6-2-2z.png)](./img/wp-content-uploads-2021-04-6-2-2z.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/6-2-2z.png)](./img/wp-content-uploads-2021-04-6-2-2z.png)
 
 3. _Az eredeti szelvény súlypontja legyen a tengelyvonalon:_ a változó keresztmetszetű rúd szélét helyezi az eredeti rúd szélére
 
@@ -1122,13 +1122,13 @@ Az alábbi ábrák a különböző paraméterek alkalmazásának hatásait mutat
 **+z**
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/6-2-3-z.png)](./img/wp-content-uploads-2021-04-6-2-3-z.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/6-2-3-z.png)](./img/wp-content-uploads-2021-04-6-2-3-z.png)
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/6-2-3symmetric.png)](./img/wp-content-uploads-2021-04-6-2-3symmetric.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/6-2-3symmetric.png)](./img/wp-content-uploads-2021-04-6-2-3symmetric.png)
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/6-2-3z.png)](./img/wp-content-uploads-2021-04-6-2-3z.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/6-2-3z.png)](./img/wp-content-uploads-2021-04-6-2-3z.png)
 
 
 Az ![](./img/wp-content-uploads-2021-04-cmd_draw_get.png) megnyomásával egy korábban létrehozott változó keresztmetszetű rúdra kattintva kiolvashatók a magassági értékek, a külpontosság és a kiékelés pozíciója. A kiolvasás után egy új elemre való kattintással a változó keresztmetszet a kiolvasott paraméterek alapján fognak létrejönni.

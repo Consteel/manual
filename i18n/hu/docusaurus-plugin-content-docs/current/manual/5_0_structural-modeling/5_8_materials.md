@@ -11,7 +11,7 @@ Három féle alapanyag típus található a _Consteel_-ban: acél, beton és bet
 
 <!-- wp:image {"align":"center","id":34804,"width":395,"height":103,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/04/tab_anyagmin.png)](./img/wp-content-uploads-2022-04-tab_anyagmin.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/04/tab_anyagmin.png)](./img/wp-content-uploads-2022-04-tab_anyagmin.png)
 
 <!-- /wp:image -->
 
@@ -23,7 +23,7 @@ A betonacél anyagminőséget a vasbeton és a kompozit keresztmetszetekben alka
 
 <!-- wp:image {"align":"center","id":34817,"width":326,"height":279,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/04/dial_anyagmin_uj.png)](./img/wp-content-uploads-2022-04-dial_anyagmin_uj.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/04/dial_anyagmin_uj.png)](./img/wp-content-uploads-2022-04-dial_anyagmin_uj.png)
 
 <!-- /wp:image -->
 
@@ -39,7 +39,7 @@ A _Consteel_ az analízis során a rugalmas anyagmodellt használja, ennek megfe
 
 <!-- wp:image {"align":"center","id":34825,"width":326,"height":343,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/04/dial_anyagmin_uj_beton.png)](./img/wp-content-uploads-2022-04-dial_anyagmin_uj_beton.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/04/dial_anyagmin_uj_beton.png)](./img/wp-content-uploads-2022-04-dial_anyagmin_uj_beton.png)
 
 <!-- /wp:image -->
 
@@ -49,7 +49,7 @@ A _Consteel_ az analízis során a rugalmas anyagmodellt használja, ennek megfe
 
 <!-- wp:image {"align":"center","id":34833,"width":325,"height":192,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/04/dial_anyagmin_uj_betonvas.png)](./img/wp-content-uploads-2022-04-dial_anyagmin_uj_betonvas.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/04/dial_anyagmin_uj_betonvas.png)](./img/wp-content-uploads-2022-04-dial_anyagmin_uj_betonvas.png)
 
 <!-- /wp:image -->
 

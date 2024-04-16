@@ -38,7 +38,7 @@ Az újraszámozáshoz először ki kell választani az újraszámozandó objektu
 
 <!-- wp:image {"align":"center","id":32789,"width":768,"height":449,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](./img/wp-content-uploads-2022-02-dia_ujraszamoz-1024x598.png)](https://consteelsoftware.com/wp-content/uploads/2022/02/dia_ujraszamoz.png)
+[![](./img/wp-content-uploads-2022-02-dia_ujraszamoz-1024x598.png)](https://Consteelsoftware.com/wp-content/uploads/2022/02/dia_ujraszamoz.png)
 
 <!-- /wp:image -->
 

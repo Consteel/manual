@@ -5,7 +5,7 @@ sidebar_position: 7
 
 <!-- wp:image {"align":"center","id":7589,"width":599,"height":351,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/3-6-export-DXF-.jpg)](./img/wp-content-uploads-2021-04-3-6-export-DXF-.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/3-6-export-DXF-.jpg)](./img/wp-content-uploads-2021-04-3-6-export-DXF-.jpg)
 
 <!-- /wp:image -->
 
@@ -23,7 +23,7 @@ Az exportálás során külön fóliára kerülnek a különböző irányokban s
 
 <!-- wp:image {"align":"right","id":32443,"width":304,"height":215,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/02/Fajl_export_dxf.png)](./img/wp-content-uploads-2022-02-Fajl_export_dxf.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/02/Fajl_export_dxf.png)](./img/wp-content-uploads-2022-02-Fajl_export_dxf.png)
 
 <!-- /wp:image -->
 
@@ -57,7 +57,7 @@ Az ablak jobb oldalán láthatók a modell részletek panel, bal oldalán pedig 
 
 <!-- wp:image {"align":"right","id":32450,"width":503,"height":323,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/02/dxf_export.png)](./img/wp-content-uploads-2022-02-dxf_export.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/02/dxf_export.png)](./img/wp-content-uploads-2022-02-dxf_export.png)
 
 <!-- /wp:image -->
 

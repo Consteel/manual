@@ -5,7 +5,7 @@ sidebar_position: 1
 
 <!-- wp:image {"align":"right","id":37602,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_tehercsoport_tuz.png)](./img/wp-content-uploads-2022-06-scr_tehercsoport_tuz.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/scr_tehercsoport_tuz.png)](./img/wp-content-uploads-2022-06-scr_tehercsoport_tuz.png)
 
 
 
@@ -35,7 +35,7 @@ A tűz tehercsoportoknak több beállítási opciója van:
 
 <!-- wp:image {"align":"right","id":37610,"width":563,"height":618,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/06/dial_terhek_tuz.png)](./img/wp-content-uploads-2022-06-dial_terhek_tuz.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/dial_terhek_tuz.png)](./img/wp-content-uploads-2022-06-dial_terhek_tuz.png)
 
 <!-- /wp:image -->
 

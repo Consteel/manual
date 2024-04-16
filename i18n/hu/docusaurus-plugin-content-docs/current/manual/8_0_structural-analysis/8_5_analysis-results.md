@@ -155,7 +155,7 @@ Az analízis során keletkező óriási adatmennyiség hatékony kezelése kieme
 
 <!-- wp:image {"align":"center","id":36833,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_anal_visualization.png)](./img/wp-content-uploads-2022-06-scr_anal_visualization.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/scr_anal_visualization.png)](./img/wp-content-uploads-2022-06-scr_anal_visualization.png)
 
 <!-- /wp:image -->
 
@@ -334,7 +334,7 @@ Az elhelyezett jelölők minden eredménynézetben láthatók, ahol van értelme
 
 <!-- wp:image {"align":"center","id":10782,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/8-6-3-RESULT-MARKERS.png)](./img/wp-content-uploads-2021-04-8-6-3-RESULT-MARKERS.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/8-6-3-RESULT-MARKERS.png)](./img/wp-content-uploads-2021-04-8-6-3-RESULT-MARKERS.png)
 
 <!-- /wp:image -->
 
@@ -346,7 +346,7 @@ Normál erők
 
 <!-- wp:image {"align":"center","id":10788,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/8-6-3-Normal-force.png)](./img/wp-content-uploads-2021-04-8-6-3-Normal-force.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/8-6-3-Normal-force.png)](./img/wp-content-uploads-2021-04-8-6-3-Normal-force.png)
 
 <!-- /wp:image -->
 
@@ -358,13 +358,13 @@ Hajlító nyomaték
 
 <!-- wp:image {"align":"center","id":10794,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/8-6-3-Bending-moment.png)](./img/wp-content-uploads-2021-04-8-6-3-Bending-moment.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/8-6-3-Bending-moment.png)](./img/wp-content-uploads-2021-04-8-6-3-Bending-moment.png)
 
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"center","id":10800,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/8-6-3-Bending-moment.2.jpg)](./img/wp-content-uploads-2021-04-8-6-3-Bending-moment.2.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/8-6-3-Bending-moment.2.jpg)](./img/wp-content-uploads-2021-04-8-6-3-Bending-moment.2.jpg)
 
 <!-- /wp:image -->
 
@@ -376,7 +376,7 @@ Elhelyezett jelölők esetén a „Felhasználói értékek” táblázat tartal
 
 <!-- wp:image {"align":"center","id":36882,"width":768,"height":74,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2022-06-scr_anal_tablazat-1024x99.png)](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_anal_tablazat.png)
+[![](./img/wp-content-uploads-2022-06-scr_anal_tablazat-1024x99.png)](https://Consteelsoftware.com/wp-content/uploads/2022/06/scr_anal_tablazat.png)
 
 <!-- /wp:image -->
 
@@ -413,7 +413,7 @@ Consteelben mind rúdelemekre, mind pedig héjfelületekre elérhető az eredmé
 
 <!-- wp:image {"align":"center","id":36890,"width":369,"height":238,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_anal_eredmenyek.png)](./img/wp-content-uploads-2022-06-scr_anal_eredmenyek.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/scr_anal_eredmenyek.png)](./img/wp-content-uploads-2022-06-scr_anal_eredmenyek.png)
 
 <!-- /wp:image -->
 
@@ -439,7 +439,7 @@ A burkolóábrás megjelenítési mód a következő színsémával kerül megje
 
 <!-- wp:image {"align":"center","id":36898,"width":768,"height":426,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2022-06-scr_anal_burkolo-1024x568.png)](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_anal_burkolo.png)
+[![](./img/wp-content-uploads-2022-06-scr_anal_burkolo-1024x568.png)](https://Consteelsoftware.com/wp-content/uploads/2022/06/scr_anal_burkolo.png)
 
 <!-- /wp:image -->
 
@@ -451,7 +451,7 @@ A burkolóábrákon jobb egérgombbal a zászlók pozíciója a rögzíthető, i
 
 <!-- wp:image {"align":"center","id":36906,"width":768,"height":73,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2022-06-scr_anal_tablazat_2-1024x97.png)](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_anal_tablazat_2.png)
+[![](./img/wp-content-uploads-2022-06-scr_anal_tablazat_2-1024x97.png)](https://Consteelsoftware.com/wp-content/uploads/2022/06/scr_anal_tablazat_2.png)
 
 <!-- /wp:image -->
 
@@ -469,7 +469,7 @@ Az alapértelmezésként elérhető beépített burkolóábrákon (összes ULS �
 
 <!-- wp:image {"align":"center","id":36914,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_anal_eredmenyek_egyeni.png)](./img/wp-content-uploads-2022-06-scr_anal_eredmenyek_egyeni.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/scr_anal_eredmenyek_egyeni.png)](./img/wp-content-uploads-2022-06-scr_anal_eredmenyek_egyeni.png)
 
 <!-- /wp:image -->
 
@@ -481,7 +481,7 @@ A megjelenő **egyénileg összeállított burkoló ábrák** dialógon az **Új
 
 <!-- wp:image {"align":"center","id":36922,"width":478,"height":364,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_anal_eredmenyek_uj_burkolo.png)](./img/wp-content-uploads-2022-06-scr_anal_eredmenyek_uj_burkolo.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/scr_anal_eredmenyek_uj_burkolo.png)](./img/wp-content-uploads-2022-06-scr_anal_eredmenyek_uj_burkolo.png)
 
 <!-- /wp:image -->
 
@@ -501,7 +501,7 @@ Ha a paraméterek panelon a teherkombinációk opció van kijelölve, a legörd�
 
 <!-- wp:image {"align":"center","id":36930,"width":457,"height":207,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_anal_eredmenyek_uj_burkolo_kombinaciok.png)](./img/wp-content-uploads-2022-06-scr_anal_eredmenyek_uj_burkolo_kombinaciok.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/scr_anal_eredmenyek_uj_burkolo_kombinaciok.png)](./img/wp-content-uploads-2022-06-scr_anal_eredmenyek_uj_burkolo_kombinaciok.png)
 
 <!-- /wp:image -->
 
@@ -526,7 +526,7 @@ Az egyéni burkolóábrák összeállítása után és a dialóg bezárása utá
 
 <!-- wp:image {"align":"center","id":36940,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_anal_eredmenyek_egyeni_burkolo.png)](./img/wp-content-uploads-2022-06-scr_anal_eredmenyek_egyeni_burkolo.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/scr_anal_eredmenyek_egyeni_burkolo.png)](./img/wp-content-uploads-2022-06-scr_anal_eredmenyek_egyeni_burkolo.png)
 
 <!-- /wp:image -->
 
@@ -544,7 +544,7 @@ A szerkezet eredeti alakjának megtekintés funkció ![](./img/wp-content-upload
 
 <!-- wp:image {"align":"center","id":36948,"width":512,"height":262,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2022-06-scr_anal_eredeti_alak-1024x524.png)](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_anal_eredeti_alak.png)
+[![](./img/wp-content-uploads-2022-06-scr_anal_eredeti_alak-1024x524.png)](https://Consteelsoftware.com/wp-content/uploads/2022/06/scr_anal_eredeti_alak.png)
 
 <!-- /wp:image -->
 
@@ -562,7 +562,7 @@ Az Analízis fül utolsó ikonja ![](./img/wp-content-uploads-2021-04-cmd_anal_d
 
 <!-- wp:image {"align":"center","id":36960,"width":715,"height":507,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/06/tabl_analizis_mertekado.png)](./img/wp-content-uploads-2022-06-tabl_analizis_mertekado.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/tabl_analizis_mertekado.png)](./img/wp-content-uploads-2022-06-tabl_analizis_mertekado.png)
 
 <!-- /wp:image -->
 
@@ -597,7 +597,7 @@ Az önálló és a többszörös komponens kiválasztás is lehetséges. A kivá
 
 <!-- wp:image {"align":"center","id":36968,"width":713,"height":505,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/06/tabl_analizis_mertekado_2.png)](./img/wp-content-uploads-2022-06-tabl_analizis_mertekado_2.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/tabl_analizis_mertekado_2.png)](./img/wp-content-uploads-2022-06-tabl_analizis_mertekado_2.png)
 
 <!-- /wp:image -->
 
@@ -623,7 +623,7 @@ Dinamikai vizsgálat esetén elérhető a rezgés alakok animációja az ![](./i
 
 <!-- wp:image {"align":"center","id":10872,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/8.6.6-ANIMATION-OF-DYNAMIC-SHAPES.jpg)](./img/wp-content-uploads-2021-04-8.6.6-ANIMATION-OF-DYNAMIC-SHAPES.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/8.6.6-ANIMATION-OF-DYNAMIC-SHAPES.jpg)](./img/wp-content-uploads-2021-04-8.6.6-ANIMATION-OF-DYNAMIC-SHAPES.jpg)
 
 <!-- /wp:image -->
 

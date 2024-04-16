@@ -89,7 +89,7 @@ A dialóg felső részén kiválasztható, hogy mely eredmény típus (első vag
 
 <!-- wp:image {"align":"center","id":36989,"width":763,"height":47,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/tab_tervezes.png)](./img/wp-content-uploads-2022-06-tab_tervezes.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/06/tab_tervezes.png)](./img/wp-content-uploads-2022-06-tab_tervezes.png)
 
 <!-- /wp:image -->
 
@@ -113,7 +113,7 @@ A dialóg felső részén kiválasztható, hogy mely eredmény típus (első vag
 
 <!-- wp:image {"align":"center","id":37005,"width":509,"height":76,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/dial_tervezes_globalis_beallitas_keresztmetszet.png)](./img/wp-content-uploads-2022-06-dial_tervezes_globalis_beallitas_keresztmetszet.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/06/dial_tervezes_globalis_beallitas_keresztmetszet.png)](./img/wp-content-uploads-2022-06-dial_tervezes_globalis_beallitas_keresztmetszet.png)
 
 <!-- /wp:image -->
 
@@ -143,7 +143,7 @@ Amennyiben a modell hidegen-alakított szelvényeket is tartalmaz, ezek keresztm
 
 <!-- wp:image {"align":"center","id":36997,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/dial_tervezes_globalis_beallitas_1993-1-3.png)](./img/wp-content-uploads-2022-06-dial_tervezes_globalis_beallitas_1993-1-3.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/06/dial_tervezes_globalis_beallitas_1993-1-3.png)](./img/wp-content-uploads-2022-06-dial_tervezes_globalis_beallitas_1993-1-3.png)
 
 <!-- /wp:image -->
 
@@ -198,7 +198,7 @@ A síkra merőleges stabilitásvizsgálat elvégezhető az EuroCode általános 
 
 <!-- wp:image {"id":10541,"width":"109px","height":"50px","sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/10-2-buckling-formula.png)](./img/wp-content-uploads-2021-04-10-2-buckling-formula.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/10-2-buckling-formula.png)](./img/wp-content-uploads-2021-04-10-2-buckling-formula.png)
 
 <!-- /wp:image -->
 
@@ -210,7 +210,7 @@ A stabilitás vizsgálat elvégzésének előfeltétele a stabilitás-analízis 
 
 <!-- wp:image {"align":"center","id":37013,"width":602,"height":245,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/dial_tervezes_globalis_beallitas_stabilitas.png)](./img/wp-content-uploads-2022-06-dial_tervezes_globalis_beallitas_stabilitas.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/06/dial_tervezes_globalis_beallitas_stabilitas.png)](./img/wp-content-uploads-2022-06-dial_tervezes_globalis_beallitas_stabilitas.png)
 
 <!-- /wp:image -->
 
@@ -422,7 +422,7 @@ A cellákba való jobb kattintás hasonlóan működik, mint a fentebb leírt te
 Consteel 16
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/scr_tervezes_globalis_eredmenyek.png)](./img/wp-content-uploads-2022-06-scr_tervezes_globalis_eredmenyek.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/06/scr_tervezes_globalis_eredmenyek.png)](./img/wp-content-uploads-2022-06-scr_tervezes_globalis_eredmenyek.png)
 
 
 Szerkezeti elemeken történő egér mozgatás esetén, az eredmény jelölő folyamatosan megjelenik, mutatva az aktuális kihasználtságot.
@@ -434,13 +434,13 @@ A számítás részletei megtekinthetők a keresztmetszeti modulban (lásd a **_
 
 <!-- wp:image {"align":"left","id":37051,"width":227,"height":160,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/scr_tervezes_globalis_szelvenyvizsgalat.png)](./img/wp-content-uploads-2022-06-scr_tervezes_globalis_szelvenyvizsgalat.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/06/scr_tervezes_globalis_szelvenyvizsgalat.png)](./img/wp-content-uploads-2022-06-scr_tervezes_globalis_szelvenyvizsgalat.png)
 
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"right","id":37043,"width":320,"height":155,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/scr_tervezes_globalis_szelvenyvizsgalat_tablazat.png)](./img/wp-content-uploads-2022-06-scr_tervezes_globalis_szelvenyvizsgalat_tablazat.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/06/scr_tervezes_globalis_szelvenyvizsgalat_tablazat.png)](./img/wp-content-uploads-2022-06-scr_tervezes_globalis_szelvenyvizsgalat_tablazat.png)
 
 <!-- /wp:image -->
 
@@ -510,7 +510,7 @@ Elemtervezés elvégzéséhez először ki kell választani és hozzá kell adni
 
 <!-- wp:image {"align":"center","id":37131,"width":768,"height":104,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](./img/wp-content-uploads-2022-06-tabl_elemvizsgalatok-1024x139.png)](https://consteelsoftware.com/wp-content/uploads/2022/06/tabl_elemvizsgalatok.png)
+[![](./img/wp-content-uploads-2022-06-tabl_elemvizsgalatok-1024x139.png)](https://Consteelsoftware.com/wp-content/uploads/2022/06/tabl_elemvizsgalatok.png)
 
 <!-- /wp:image -->
 
@@ -522,7 +522,7 @@ A kiválasztott elem sora a táblázatban zöld színűre változik és az anal�
 
 <!-- wp:image {"align":"center","id":37139,"width":695,"height":46,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/tab_elemvizsgalat.png)](https://www.consteelsoftware.com/wp-content/uploads/2022/06/tab_elemvizsgalat.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/06/tab_elemvizsgalat.png)](https://www.Consteelsoftware.com/wp-content/uploads/2022/06/tab_elemvizsgalat.png)
 
 <!-- /wp:image -->
 
@@ -534,7 +534,7 @@ A második gomb (![](./img/wp-content-uploads-2021-04-cmd_anal_set.png)) megnyom
 
 <!-- wp:image {"align":"center","id":37123,"width":479,"height":299,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/tabl_elemvizsgalatok_beallitas.png)](./img/wp-content-uploads-2022-06-tabl_elemvizsgalatok_beallitas.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/06/tabl_elemvizsgalatok_beallitas.png)](./img/wp-content-uploads-2022-06-tabl_elemvizsgalatok_beallitas.png)
 
 <!-- /wp:image -->
 
@@ -546,7 +546,7 @@ A következő lépés a teherkombináció és az ellenőrzés módjának kivála
 
 <!-- wp:image {"align":"center","id":37115,"width":346,"height":434,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/tabl_elemvizsgalatok_parameterek.png)](./img/wp-content-uploads-2022-06-tabl_elemvizsgalatok_parameterek.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/06/tabl_elemvizsgalatok_parameterek.png)](./img/wp-content-uploads-2022-06-tabl_elemvizsgalatok_parameterek.png)
 
 <!-- /wp:image -->
 
@@ -564,7 +564,7 @@ A végrehajtható ellenőrzések az egyes rudak terhelési állapotától függe
 
 <!-- wp:image {"align":"center","id":37107,"width":673,"height":338,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/tabl_elemvizsgalatok_parameterek_szakaszok.png)](./img/wp-content-uploads-2022-06-tabl_elemvizsgalatok_parameterek_szakaszok.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/06/tabl_elemvizsgalatok_parameterek_szakaszok.png)](./img/wp-content-uploads-2022-06-tabl_elemvizsgalatok_parameterek_szakaszok.png)
 
 <!-- /wp:image -->
 
@@ -576,7 +576,7 @@ A rúd a támaszoknak megfelelően fölbontásra kerül. Az egyes szegmensek kik
 
 <!-- wp:image {"align":"center","id":37099,"width":695,"height":289,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/tabl_elemvizsgalatok_parameterek_szakaszok_parameter.png)](./img/wp-content-uploads-2022-06-tabl_elemvizsgalatok_parameterek_szakaszok_parameter.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/06/tabl_elemvizsgalatok_parameterek_szakaszok_parameter.png)](./img/wp-content-uploads-2022-06-tabl_elemvizsgalatok_parameterek_szakaszok_parameter.png)
 
 <!-- /wp:image -->
 
@@ -594,7 +594,7 @@ Ha valamennyi tervezési paramétert beállításra került, akkor az ellenőrz�
 
 <!-- wp:image {"align":"center","id":37091,"width":426,"height":590,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/tabl_elemvizsgalatok_eredmenyek.png)](./img/wp-content-uploads-2022-06-tabl_elemvizsgalatok_eredmenyek.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/06/tabl_elemvizsgalatok_eredmenyek.png)](./img/wp-content-uploads-2022-06-tabl_elemvizsgalatok_eredmenyek.png)
 
 <!-- /wp:image -->
 
@@ -612,7 +612,7 @@ A **Kifordulás ellenőrzés** többé-kevésbé a kihajlás vizsgálathoz hason
 
 <!-- wp:image {"align":"center","id":37083,"width":440,"height":486,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/tabl_elemvizsgalatok_kifordulas_parameterek.png)](./img/wp-content-uploads-2022-06-tabl_elemvizsgalatok_kifordulas_parameterek.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/06/tabl_elemvizsgalatok_kifordulas_parameterek.png)](./img/wp-content-uploads-2022-06-tabl_elemvizsgalatok_kifordulas_parameterek.png)
 
 <!-- /wp:image -->
 
@@ -624,7 +624,7 @@ A tervezési paraméterek szegmensenként adhatók meg a hárompontos ikonra kat
 
 <!-- wp:image {"align":"center","id":37075,"width":440,"height":444,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/tabl_elemvizsgalatok_kifordulas_parameterek_C.png)](./img/wp-content-uploads-2022-06-tabl_elemvizsgalatok_kifordulas_parameterek_C.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/06/tabl_elemvizsgalatok_kifordulas_parameterek_C.png)](./img/wp-content-uploads-2022-06-tabl_elemvizsgalatok_kifordulas_parameterek_C.png)
 
 <!-- /wp:image -->
 
@@ -660,7 +660,7 @@ Az elemek kiválasztása után, a következő lépés, az egyedi elemtervezéshe
 
 <!-- wp:image {"align":"center","id":37151,"width":346,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2022-06-tabl_elemvizsgalatok_csoportos-edited.png)](https://consteelsoftware.com/wp-content/uploads/2022/06/tabl_elemvizsgalatok_csoportos.png)
+[![](./img/wp-content-uploads-2022-06-tabl_elemvizsgalatok_csoportos-edited.png)](https://Consteelsoftware.com/wp-content/uploads/2022/06/tabl_elemvizsgalatok_csoportos.png)
 
 <!-- /wp:image -->
 
@@ -678,6 +678,6 @@ Az eredmények fülön a mértékadó elem automatikusan kiválasztásra és meg
 
 <!-- wp:image {"align":"center","id":37059,"width":355,"height":443,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/tabl_elemvizsgalatok_csoportos_eredmenyek.png)](./img/wp-content-uploads-2022-06-tabl_elemvizsgalatok_csoportos_eredmenyek.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/06/tabl_elemvizsgalatok_csoportos_eredmenyek.png)](./img/wp-content-uploads-2022-06-tabl_elemvizsgalatok_csoportos_eredmenyek.png)
 
 <!-- /wp:image -->

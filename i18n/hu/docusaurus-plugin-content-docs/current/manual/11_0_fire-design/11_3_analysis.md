@@ -11,7 +11,7 @@ Amennyiben az emelt hőmérséklethez tartozó anyagjellemzőkkel végezzük a s
 
 <!-- wp:image {"align":"center","id":9378,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/12-3-analysis.png)](./img/wp-content-uploads-2021-04-12-3-analysis.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/12-3-analysis.png)](./img/wp-content-uploads-2021-04-12-3-analysis.png)
 
 <!-- /wp:image -->
 

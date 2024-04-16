@@ -20,7 +20,7 @@ Csomópontok a modelltől függetlenül, önállóan is létrehozhatók, a **Sze
 
 <!-- wp:image {"align":"center","id":38445,"width":768,"height":59,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2022-06-tab_csomop-1-1024x79.png)](https://consteelsoftware.com/wp-content/uploads/2022/06/tab_csomop-1.png)
+[![](./img/wp-content-uploads-2022-06-tab_csomop-1-1024x79.png)](https://Consteelsoftware.com/wp-content/uploads/2022/06/tab_csomop-1.png)
 
 <!-- /wp:image -->
 
@@ -38,7 +38,7 @@ Szerkezeti csomópont a Csomópont szerkesztő funkcióval történő létrehoz�
 
 <!-- wp:image {"align":"right","id":38428,"width":334,"height":265,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/06/dial_csomop_letrehozasmodja.png)](./img/wp-content-uploads-2022-06-dial_csomop_letrehozasmodja.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/dial_csomop_letrehozasmodja.png)](./img/wp-content-uploads-2022-06-dial_csomop_letrehozasmodja.png)
 
 <!-- /wp:image -->
 
@@ -66,7 +66,7 @@ Második lépésként ki kell választani a csomópont típusát. A _csJoint_ mo
 
 <!-- wp:image {"align":"center","id":38420,"width":671,"height":335,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/06/dial_csomop_letrehozas_tipusok.png)](./img/wp-content-uploads-2022-06-dial_csomop_letrehozas_tipusok.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/dial_csomop_letrehozas_tipusok.png)](./img/wp-content-uploads-2022-06-dial_csomop_letrehozas_tipusok.png)
 
 <!-- /wp:image -->
 
@@ -82,7 +82,7 @@ Második lépésként ki kell választani a csomópont típusát. A _csJoint_ mo
 
 <!-- wp:image {"align":"right","id":38412,"width":386,"height":332,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/06/dial_csomop_letrehozas_oszlop-ger_1.png)](./img/wp-content-uploads-2022-06-dial_csomop_letrehozas_oszlop-ger_1.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/dial_csomop_letrehozas_oszlop-ger_1.png)](./img/wp-content-uploads-2022-06-dial_csomop_letrehozas_oszlop-ger_1.png)
 
 <!-- /wp:image -->
 
@@ -98,7 +98,7 @@ Az _Oszlop-gerenda csomópont_ dialógon lehet kiválasztani a csomópontba bek�
 
 <!-- wp:image {"align":"right","id":38404,"width":647,"height":327,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/06/dial_csomop_letrehozas_oszlop-ger_2.png)](./img/wp-content-uploads-2022-06-dial_csomop_letrehozas_oszlop-ger_2.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/dial_csomop_letrehozas_oszlop-ger_2.png)](./img/wp-content-uploads-2022-06-dial_csomop_letrehozas_oszlop-ger_2.png)
 
 <!-- /wp:image -->
 
@@ -114,7 +114,7 @@ Az oszlop valamelyik oldalára kattintva definiálható a bekötő kapcsolat tí
 
 <!-- wp:image {"align":"right","id":38396,"width":421,"height":364,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/06/dial_csomop_letrehozas_oszlop-ger_3.png)](./img/wp-content-uploads-2022-06-dial_csomop_letrehozas_oszlop-ger_3.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/dial_csomop_letrehozas_oszlop-ger_3.png)](./img/wp-content-uploads-2022-06-dial_csomop_letrehozas_oszlop-ger_3.png)
 
 <!-- /wp:image -->
 
@@ -126,7 +126,7 @@ Miután a bekötő szerkezeti elemek kapcsolatai beállításra kerültek a csom
 
 <!-- wp:image {"align":"center","id":38388,"width":761,"height":503,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/06/dial_csomop_letrehozas_oszlop-ger_4.png)](./img/wp-content-uploads-2022-06-dial_csomop_letrehozas_oszlop-ger_4.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/dial_csomop_letrehozas_oszlop-ger_4.png)](./img/wp-content-uploads-2022-06-dial_csomop_letrehozas_oszlop-ger_4.png)
 
 <!-- /wp:image -->
 
@@ -154,7 +154,7 @@ _Consteel_ modell alapján gyorsan és egyszerűen hozható létre csomópont a 
 
 <!-- wp:image {"align":"center","id":38380,"width":238,"height":88,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/06/tab_csomop_auto.png)](./img/wp-content-uploads-2022-06-tab_csomop_auto.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/tab_csomop_auto.png)](./img/wp-content-uploads-2022-06-tab_csomop_auto.png)
 
 <!-- /wp:image -->
 
@@ -166,7 +166,7 @@ A kapcsolódó elemeket a program automatikusan felismeri és felkínálja a leh
 
 <!-- wp:image {"align":"center","id":38372,"width":691,"height":452,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_csomop_felismeres.png)](./img/wp-content-uploads-2022-06-scr_csomop_felismeres.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/scr_csomop_felismeres.png)](./img/wp-content-uploads-2022-06-scr_csomop_felismeres.png)
 
 <!-- /wp:image -->
 
@@ -212,7 +212,7 @@ A második lehetőség a **Szerkezeti elemek** fülön található **Csomópont 
 
 <!-- wp:image {"align":"center","id":38364,"width":507,"height":334,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_csomop_elhelyez.png)](./img/wp-content-uploads-2022-06-scr_csomop_elhelyez.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/scr_csomop_elhelyez.png)](./img/wp-content-uploads-2022-06-scr_csomop_elhelyez.png)
 
 <!-- /wp:image -->
 
@@ -252,7 +252,7 @@ Csomópont módosításához először ki kell választani a módosítandó csom
 
 <!-- wp:image {"align":"center","id":38356,"width":512,"height":349,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2022-06-scr_csomop_modosit-1024x698.png)](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_csomop_modosit.png)
+[![](./img/wp-content-uploads-2022-06-scr_csomop_modosit-1024x698.png)](https://Consteelsoftware.com/wp-content/uploads/2022/06/scr_csomop_modosit.png)
 
 <!-- /wp:image -->
 
@@ -270,7 +270,7 @@ A csomópont létrehozása vagy egy meglévő szerkesztésre történő megnyit�
 
 <!-- wp:image {"align":"right","id":38348,"width":512,"height":379,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2022-06-dial_csomop_reszletezes-1024x758.png)](https://consteelsoftware.com/wp-content/uploads/2022/06/dial_csomop_reszletezes.png)
+[![](./img/wp-content-uploads-2022-06-dial_csomop_reszletezes-1024x758.png)](https://Consteelsoftware.com/wp-content/uploads/2022/06/dial_csomop_reszletezes.png)
 
 <!-- /wp:image -->
 
@@ -320,7 +320,7 @@ Csomóponti dokumentáció a dialóg bal alsó sarkában található **Dokument�
 
 <!-- wp:image {"align":"right","id":38340,"width":512,"height":379,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2022-06-dial_csomop_reszletezes_oszlop-1024x757.png)](https://consteelsoftware.com/wp-content/uploads/2022/06/dial_csomop_reszletezes_oszlop.png)
+[![](./img/wp-content-uploads-2022-06-dial_csomop_reszletezes_oszlop-1024x757.png)](https://Consteelsoftware.com/wp-content/uploads/2022/06/dial_csomop_reszletezes_oszlop.png)
 
 <!-- /wp:image -->
 
@@ -360,7 +360,7 @@ A _Referencia sík_ helyzete (#3) mezőben adható meg a referencia sík oszlop 
 
 <!-- wp:image {"align":"right","id":38332,"width":512,"height":380,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2022-06-dial_csomop_reszletezes_merevito-1024x760.png)](https://consteelsoftware.com/wp-content/uploads/2022/06/dial_csomop_reszletezes_merevito.png)
+[![](./img/wp-content-uploads-2022-06-dial_csomop_reszletezes_merevito-1024x760.png)](https://Consteelsoftware.com/wp-content/uploads/2022/06/dial_csomop_reszletezes_merevito.png)
 
 <!-- /wp:image -->
 
@@ -400,7 +400,7 @@ A _Nyírási merevítők_ (#3) mezőben nyírási merevítő helyezhető el az o
 
 <!-- wp:image {"align":"right","id":38324,"width":512,"height":338,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2022-06-dial_csomop_reszletezes_terhek-1024x675.png)](https://consteelsoftware.com/wp-content/uploads/2022/06/dial_csomop_reszletezes_terhek.png)
+[![](./img/wp-content-uploads-2022-06-dial_csomop_reszletezes_terhek-1024x675.png)](https://Consteelsoftware.com/wp-content/uploads/2022/06/dial_csomop_reszletezes_terhek.png)
 
 <!-- /wp:image -->
 
@@ -452,7 +452,7 @@ A _Csomóponti terhek adatai_ (#2) mezőben adhatók meg a különböző erő ko
 
 <!-- wp:image {"align":"right","id":38308,"width":512,"height":379,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2022-06-dial_csomop_reszletezes_gerenda-1024x757.png)](https://consteelsoftware.com/wp-content/uploads/2022/06/dial_csomop_reszletezes_gerenda.png)
+[![](./img/wp-content-uploads-2022-06-dial_csomop_reszletezes_gerenda-1024x757.png)](https://Consteelsoftware.com/wp-content/uploads/2022/06/dial_csomop_reszletezes_gerenda.png)
 
 <!-- /wp:image -->
 
@@ -498,7 +498,7 @@ A _Gerenda fesztáv_ (#4) mezőben a gerenda fesztávja adható meg. Erre az ér
 
 <!-- wp:image {"align":"right","id":38300,"width":512,"height":380,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2022-06-dial_csomop_reszletezes_homloklemez-1024x760.png)](https://consteelsoftware.com/wp-content/uploads/2022/06/dial_csomop_reszletezes_homloklemez.png)
+[![](./img/wp-content-uploads-2022-06-dial_csomop_reszletezes_homloklemez-1024x760.png)](https://Consteelsoftware.com/wp-content/uploads/2022/06/dial_csomop_reszletezes_homloklemez.png)
 
 <!-- /wp:image -->
 
@@ -532,7 +532,7 @@ A _Csavar_ (#2) mezőben adhatók meg a csavarok anyagminősége, átmérője é
 
 <!-- wp:image {"align":"right","id":38292,"width":512,"height":379,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2022-06-dial_csomop_reszletezes_varratok-1024x758.png)](https://consteelsoftware.com/wp-content/uploads/2022/06/dial_csomop_reszletezes_varratok.png)
+[![](./img/wp-content-uploads-2022-06-dial_csomop_reszletezes_varratok-1024x758.png)](https://Consteelsoftware.com/wp-content/uploads/2022/06/dial_csomop_reszletezes_varratok.png)
 
 <!-- /wp:image -->
 
@@ -572,7 +572,7 @@ A számítási eredmények megjelenítési módjai a legördülő menüből vál
 
 <!-- wp:image {"align":"center","id":38284,"width":328,"height":227,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/06/dial_csomop_eredmeny_reszletes.png)](./img/wp-content-uploads-2022-06-dial_csomop_eredmeny_reszletes.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/dial_csomop_eredmeny_reszletes.png)](./img/wp-content-uploads-2022-06-dial_csomop_eredmeny_reszletes.png)
 
 <!-- /wp:image -->
 
@@ -602,6 +602,6 @@ _Alapértelmezett csomóponti beállítás_ a **Csomópontok** dialóg **Alapér
 
 <!-- wp:image {"align":"center","id":38276,"width":495,"height":488,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/06/dial_csomop_alapertelmezett.png)](./img/wp-content-uploads-2022-06-dial_csomop_alapertelmezett.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/dial_csomop_alapertelmezett.png)](./img/wp-content-uploads-2022-06-dial_csomop_alapertelmezett.png)
 
 <!-- /wp:image -->

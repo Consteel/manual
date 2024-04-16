@@ -5,7 +5,7 @@ sidebar_position: 4
 
 Minden CAD alapú modellező rendszer rendelkezik valamilyen fóliakoncepcióval a modellen belüli objektumok kezelésének könnyebbé tétele érdekében. Ha az objektumokat különböző fóliákra helyezzük el, azok színek és vonaltípusok szerint jól elkülöníthetők, illetve egyes fóliák ki- vagy bekapcsolhatók, valamint lezárhatók a véletlen módosítások elkerülésére.
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/02/dial_folia.png)](./img/wp-content-uploads-2022-02-dial_folia.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/02/dial_folia.png)](./img/wp-content-uploads-2022-02-dial_folia.png)
 
 
 ![](./img/wp-content-uploads-2021-04-5-5-layers-ico.png) A fólia kezelő dialógon az alábbi funkciók találhatóak:

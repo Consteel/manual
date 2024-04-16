@@ -13,7 +13,7 @@ A végrehajtandó analízis típusok az Analízis beállításai ![](./img/wp-co
 - Dinamikai számítások _(_**[_Dinamikai számítások beállításainak részletezése aloldal_](#dinamikai-számítások-analízis-beállításainak-részletezése-aloldal)**_)_
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/05/dial_analizis_beallitasok_globalis.png)](./img/wp-content-uploads-2022-05-dial_analizis_beallitasok_globalis.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/05/dial_analizis_beallitasok_globalis.png)](./img/wp-content-uploads-2022-05-dial_analizis_beallitasok_globalis.png)
 
 <!-- /wp:image -->
 
@@ -85,13 +85,13 @@ A további beállítások a![](./img/wp-content-uploads-2021-04-cmd_subpage.png)
 Az aloldalon a második oszlopban található jelölőnégyzetek segítségével előzőleg létrehozott és elhelyezett szerkezeti csomópontok merevsége vehető figyelembe a számítás során. A harmadik oszlopban lévő jelölőnégyzetek használatával a szekáns merevség választható a kezdeti merevség helyett.
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/05/dial_analizis_beallitasok_globalis_aloldal.png)](./img/wp-content-uploads-2022-05-dial_analizis_beallitasok_globalis_aloldal.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/05/dial_analizis_beallitasok_globalis_aloldal.png)](./img/wp-content-uploads-2022-05-dial_analizis_beallitasok_globalis_aloldal.png)
 
 
 ### Teheresetek analízis beállításainak részletezése aloldal
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/05/dial_analizis_beallitasok_aloldal_teheresetek-2.png)](./img/wp-content-uploads-2022-05-dial_analizis_beallitasok_aloldal_teheresetek-2.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/05/dial_analizis_beallitasok_aloldal_teheresetek-2.png)](./img/wp-content-uploads-2022-05-dial_analizis_beallitasok_aloldal_teheresetek-2.png)
 
 
 Az aloldal három fő része:
@@ -211,7 +211,7 @@ A fában a jelölőnégyzetek segítségével teheresetenként beállítható, h
 Az aloldal három fő része:
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/dial_analizis_beallitasok_aloldal_kombinaciok.png)](./img/wp-content-uploads-2022-06-dial_analizis_beallitasok_aloldal_kombinaciok.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/06/dial_analizis_beallitasok_aloldal_kombinaciok.png)](./img/wp-content-uploads-2022-06-dial_analizis_beallitasok_aloldal_kombinaciok.png)
 
 
 Figyelembe vett részletmodellek, és kihajlási alakok felső határértéke (#1)
@@ -265,7 +265,7 @@ A fában a jelölőnégyzetek segítségével teheresetenként beállítható, h
 ### Dinamikai számítások analízis beállításainak részletezése aloldal
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/dial_analizis_beallitasok_aloldal_dinamika.png)](./img/wp-content-uploads-2022-06-dial_analizis_beallitasok_aloldal_dinamika.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/06/dial_analizis_beallitasok_aloldal_dinamika.png)](./img/wp-content-uploads-2022-06-dial_analizis_beallitasok_aloldal_dinamika.png)
 
 <!-- /wp:image -->
 

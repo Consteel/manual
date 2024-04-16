@@ -159,7 +159,7 @@ Ha módosításokra van szükség az elemeken a kiválasztott **részletekben**,
 
 <!-- wp:image {"align":"center","id":32609,"width":336,"height":341,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/02/reszlet_kezelo_parancsok.png)](./img/wp-content-uploads-2022-02-reszlet_kezelo_parancsok.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/02/reszlet_kezelo_parancsok.png)](./img/wp-content-uploads-2022-02-reszlet_kezelo_parancsok.png)
 
 <!-- /wp:image -->
 
@@ -169,7 +169,7 @@ Ha módosításokra van szükség az elemeken a kiválasztott **részletekben**,
 
 <!-- wp:image {"align":"center","id":7811,"width":436,"height":341,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/4-4-portions-1.png)](./img/wp-content-uploads-2021-04-4-4-portions-1.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/4-4-portions-1.png)](./img/wp-content-uploads-2021-04-4-4-portions-1.png)
 
 <!-- /wp:image -->
 
@@ -179,13 +179,13 @@ Ha módosításokra van szükség az elemeken a kiválasztott **részletekben**,
 
 <!-- wp:image {"align":"right","id":18012,"width":298,"height":239,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-submodel-1.png)](./img/wp-content-uploads-2021-04-4-2-model-view-submodel-1.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-submodel-1.png)](./img/wp-content-uploads-2021-04-4-2-model-view-submodel-1.png)
 
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"right","id":18024,"width":398,"height":280,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-submodel-select.jpg)](./img/wp-content-uploads-2021-04-4-2-model-view-submodel-select.jpg)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-submodel-select.jpg)](./img/wp-content-uploads-2021-04-4-2-model-view-submodel-select.jpg)
 
 <!-- /wp:image -->
 
@@ -213,13 +213,13 @@ Ha módosításokra van szükség az elemeken a kiválasztott **részletekben**,
 
 <!-- wp:image {"align":"right","id":32694,"width":443,"height":346,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/02/reszlet_kezelo_kivalaszt.png)](./img/wp-content-uploads-2022-02-reszlet_kezelo_kivalaszt.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/02/reszlet_kezelo_kivalaszt.png)](./img/wp-content-uploads-2022-02-reszlet_kezelo_kivalaszt.png)
 
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"right","id":32680,"width":263,"height":110,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/02/reszlet_kezelo_reszet_neve.png)](./img/wp-content-uploads-2022-02-reszlet_kezelo_reszet_neve.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/02/reszlet_kezelo_reszet_neve.png)](./img/wp-content-uploads-2022-02-reszlet_kezelo_reszet_neve.png)
 
 <!-- /wp:image -->
 
@@ -247,7 +247,7 @@ Egy részlet modell bekapcsolásához be kell jelölni a részlet neve előtt ta
 
 <!-- wp:image {"align":"right","id":32602,"width":256,"height":190,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/02/reszlet_kezelo_modositas_tipus.png)](./img/wp-content-uploads-2022-02-reszlet_kezelo_modositas_tipus.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/02/reszlet_kezelo_modositas_tipus.png)](./img/wp-content-uploads-2022-02-reszlet_kezelo_modositas_tipus.png)
 
 <!-- /wp:image -->
 
@@ -275,7 +275,7 @@ Egy részlet modell bekapcsolásához be kell jelölni a részlet neve előtt ta
 
 <!-- wp:image {"align":"right","id":32687,"width":229,"height":152,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/02/reszlet_kezelo_szint_neve.png)](./img/wp-content-uploads-2022-02-reszlet_kezelo_szint_neve.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/02/reszlet_kezelo_szint_neve.png)](./img/wp-content-uploads-2022-02-reszlet_kezelo_szint_neve.png)
 
 <!-- /wp:image -->
 

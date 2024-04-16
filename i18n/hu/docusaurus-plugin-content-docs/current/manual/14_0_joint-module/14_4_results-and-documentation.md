@@ -4,7 +4,7 @@ sidebar_position: 4
 # Eredmények és dokumentáció
 <!-- wp:image {"align":"right","id":38268,"width":324,"height":267,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/06/dial_csomop_eredmeny_mertekado.png)](./img/wp-content-uploads-2022-06-dial_csomop_eredmeny_mertekado.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/dial_csomop_eredmeny_mertekado.png)](./img/wp-content-uploads-2022-06-dial_csomop_eredmeny_mertekado.png)
 
 <!-- /wp:image -->
 
@@ -34,13 +34,13 @@ A _csJoint_ dokumentációs moduljával könnyen, és egyszerűen generálható 
 
 <!-- wp:image {"align":"center","id":38683,"width":485,"height":620,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/06/dial_csomop_doku_2.png)](./img/wp-content-uploads-2022-06-dial_csomop_doku_2.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/dial_csomop_doku_2.png)](./img/wp-content-uploads-2022-06-dial_csomop_doku_2.png)
 
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"right","id":38260,"width":285,"height":554,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/06/dial_csomop_doku.png)](./img/wp-content-uploads-2022-06-dial_csomop_doku.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/dial_csomop_doku.png)](./img/wp-content-uploads-2022-06-dial_csomop_doku.png)
 
 <!-- /wp:image -->
 
@@ -59,7 +59,7 @@ Csomóponti dokumentáció két fél képen állítható elő:
 
 <!-- wp:paragraph -->
 
-A dokumentálás elindítása után a _Csomópont dokumentáció létrehozása_ dialóg jelenik meg, ahol megadható a dokumentálás nyelve (#1), a dokumentálandó teheresetek (#2), az eredmények részletezettsége (összefoglaló vagy részletes) (#3), illetve a kiválasztható, hogy a csomópont mely kapcsolatai, illetve, hogy azok milyen tartalommal kerüljenek dokumentálásra (#4).[](<http://consteel.hu/GetAssetFile/csjoint_documentation_1.jpg(121)>)
+A dokumentálás elindítása után a _Csomópont dokumentáció létrehozása_ dialóg jelenik meg, ahol megadható a dokumentálás nyelve (#1), a dokumentálandó teheresetek (#2), az eredmények részletezettsége (összefoglaló vagy részletes) (#3), illetve a kiválasztható, hogy a csomópont mely kapcsolatai, illetve, hogy azok milyen tartalommal kerüljenek dokumentálásra (#4).[](<http://Consteel.hu/GetAssetFile/csjoint_documentation_1.jpg(121)>)
 
 <!-- /wp:paragraph -->
 

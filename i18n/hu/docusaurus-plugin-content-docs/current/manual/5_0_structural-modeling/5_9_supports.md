@@ -11,7 +11,7 @@ _Consteel_-ben háromfajta támasz használatára van lehetőség: pontbeli, von
 
 <!-- wp:image {"align":"center","id":34847,"width":418,"height":80,"sizeSlug":"full","linkDestination":"media","className":"is-style-default"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/04/tab_tamasz_pont.png)](./img/wp-content-uploads-2022-04-tab_tamasz_pont.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/04/tab_tamasz_pont.png)](./img/wp-content-uploads-2022-04-tab_tamasz_pont.png)
 
 <!-- /wp:image -->
 
@@ -23,7 +23,7 @@ Támaszok elhelyezhetők **globális (**![](./img/wp-content-uploads-2021-04-cre
 
 <!-- wp:image {"align":"center","id":8897,"width":177,"height":264,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-9-Visibility-of-labels.jpg)](./img/wp-content-uploads-2021-04-6-9-Visibility-of-labels.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-9-Visibility-of-labels.jpg)](./img/wp-content-uploads-2021-04-6-9-Visibility-of-labels.jpg)
 
 <!-- /wp:image -->
 
@@ -35,7 +35,7 @@ Támaszok elhelyezhetők **globális (**![](./img/wp-content-uploads-2021-04-cre
 
 <!-- wp:image {"align":"center","id":34855,"width":359,"height":275,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/04/dial_tamasz_pont.png)](./img/wp-content-uploads-2022-04-dial_tamasz_pont.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/04/dial_tamasz_pont.png)](./img/wp-content-uploads-2022-04-dial_tamasz_pont.png)
 
 <!-- /wp:image -->
 
@@ -53,7 +53,7 @@ A **többszörös támasz** funkcióval (![](./img/wp-content-uploads-2021-04-cm
 
 <!-- wp:image {"align":"center","id":8909,"width":693,"height":385,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-9-Multiple-support.jpg)](./img/wp-content-uploads-2021-04-6-9-Multiple-support.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-9-Multiple-support.jpg)](./img/wp-content-uploads-2021-04-6-9-Multiple-support.jpg)
 
 <!-- /wp:image -->
 
@@ -65,7 +65,7 @@ A többszörös támaszként elhelyezett támaszok egy objektumként vannak keze
 
 <!-- wp:image {"align":"center","id":34889,"width":287,"height":227,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/04/obj_tul_tamasz_tobbszoros.png)](./img/wp-content-uploads-2022-04-obj_tul_tamasz_tobbszoros.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/04/obj_tul_tamasz_tobbszoros.png)](./img/wp-content-uploads-2022-04-obj_tul_tamasz_tobbszoros.png)
 
 <!-- /wp:image -->
 
@@ -83,7 +83,7 @@ Elhelyezéskor a kiválasztott koordináta rendszer határozza meg az irányok �
 
 <!-- wp:image {"align":"center","id":8923,"width":311,"height":248,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-9-Point-support-orientation.png)](./img/wp-content-uploads-2021-04-6-9-Point-support-orientation.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-9-Point-support-orientation.png)](./img/wp-content-uploads-2021-04-6-9-Point-support-orientation.png)
 
 <!-- /wp:image -->
 
@@ -101,7 +101,7 @@ Ha a modellezés során olyan új, speciális támasz alkalmazása válik szüks
 
 <!-- wp:image {"align":"center","id":34904,"width":386,"height":317,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/04/dial_tamasz_merevsegek.png)](./img/wp-content-uploads-2022-04-dial_tamasz_merevsegek.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/04/dial_tamasz_merevsegek.png)](./img/wp-content-uploads-2022-04-dial_tamasz_merevsegek.png)
 
 <!-- /wp:image -->
 
@@ -125,13 +125,13 @@ Lokális külpontosság is definiálható a támaszokon:
 
 <!-- wp:image {"align":"center","id":34929,"width":357,"height":274,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/04/dial_tamasz_lokal_exc.png)](./img/wp-content-uploads-2022-04-dial_tamasz_lokal_exc.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/04/dial_tamasz_lokal_exc.png)](./img/wp-content-uploads-2022-04-dial_tamasz_lokal_exc.png)
 
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"right","id":34947,"width":168,"height":218,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/04/dial_tamasz_szelvpontkival.png)](./img/wp-content-uploads-2022-04-dial_tamasz_szelvpontkival.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/04/dial_tamasz_szelvpontkival.png)](./img/wp-content-uploads-2022-04-dial_tamasz_szelvpontkival.png)
 
 <!-- /wp:image -->
 
@@ -155,7 +155,7 @@ Az y és z mezőkben megadható lokális külpontosság értékek a fent beáll�
 
 <!-- wp:image {"align":"center","id":34979,"width":497,"height":471,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/04/scr_tamasz_kulp.png)](./img/wp-content-uploads-2022-04-scr_tamasz_kulp.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/04/scr_tamasz_kulp.png)](./img/wp-content-uploads-2022-04-scr_tamasz_kulp.png)
 
 <!-- /wp:image -->
 
@@ -209,7 +209,7 @@ _1. Példa:_ Mind a két támasz -150mm-es y irányú külpontossággal lett elh
 
 <!-- wp:image {"align":"center","id":35049,"width":469,"height":289,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/04/scr_tamasz_kulp_pelda1.png)](./img/wp-content-uploads-2022-04-scr_tamasz_kulp_pelda1.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/04/scr_tamasz_kulp_pelda1.png)](./img/wp-content-uploads-2022-04-scr_tamasz_kulp_pelda1.png)
 
 <!-- /wp:image -->
 
@@ -221,7 +221,7 @@ Ha megváltoztatjuk mindkét oszlop külpontosságát y=100mm-re, akkor az elhel
 
 <!-- wp:image {"align":"center","id":35041,"width":471,"height":278,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/04/scr_tamasz_kulp_pelda1-2.png)](./img/wp-content-uploads-2022-04-scr_tamasz_kulp_pelda1-2.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/04/scr_tamasz_kulp_pelda1-2.png)](./img/wp-content-uploads-2022-04-scr_tamasz_kulp_pelda1-2.png)
 
 <!-- /wp:image -->
 
@@ -239,7 +239,7 @@ _2. Példa:_ Támasz a globális koordináta rendszer szerint kerül elhelyezés
 
 <!-- wp:image {"align":"center","id":35033,"width":366,"height":313,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/04/scr_tamasz_kulp_pelda2.png)](./img/wp-content-uploads-2022-04-scr_tamasz_kulp_pelda2.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/04/scr_tamasz_kulp_pelda2.png)](./img/wp-content-uploads-2022-04-scr_tamasz_kulp_pelda2.png)
 
 <!-- /wp:image -->
 
@@ -251,7 +251,7 @@ Ha az oszlop külpontosságát y=300mm-re változtatjuk, akkor a támasz pozíci
 
 <!-- wp:image {"align":"center","id":35025,"width":512,"height":240,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2022-04-scr_tamasz_kulp_pelda2-2-1024x480.png)](https://consteelsoftware.com/wp-content/uploads/2022/04/scr_tamasz_kulp_pelda2-2.png)
+[![](./img/wp-content-uploads-2022-04-scr_tamasz_kulp_pelda2-2-1024x480.png)](https://Consteelsoftware.com/wp-content/uploads/2022/04/scr_tamasz_kulp_pelda2-2.png)
 
 <!-- /wp:image -->
 
@@ -269,7 +269,7 @@ Ha elforgatjuk az oszlopot 45 fokkal, akkor a támasz is ennek megfelelően elfo
 
 <!-- wp:image {"align":"center","id":35017,"width":512,"height":217,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2022-04-scr_tamasz_kulp_pelda2-3-1024x433.png)](https://consteelsoftware.com/wp-content/uploads/2022/04/scr_tamasz_kulp_pelda2-3.png)
+[![](./img/wp-content-uploads-2022-04-scr_tamasz_kulp_pelda2-3-1024x433.png)](https://Consteelsoftware.com/wp-content/uploads/2022/04/scr_tamasz_kulp_pelda2-3.png)
 
 <!-- /wp:image -->
 
@@ -281,7 +281,7 @@ _3. Példa:_ Támasz a globális koordináta rendszer szerint került elhelyezé
 
 <!-- wp:image {"align":"center","id":35009,"width":503,"height":366,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/04/scr_tamasz_kulp_pelda3.png)](./img/wp-content-uploads-2022-04-scr_tamasz_kulp_pelda3.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/04/scr_tamasz_kulp_pelda3.png)](./img/wp-content-uploads-2022-04-scr_tamasz_kulp_pelda3.png)
 
 <!-- /wp:image -->
 
@@ -293,7 +293,7 @@ Ha az oszlop külpontosságát y=300mm-re változtatjuk, akkor a támasz együtt
 
 <!-- wp:image {"align":"center","id":35001,"width":512,"height":276,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2022-04-scr_tamasz_kulp_pelda3-1-1024x551.png)](https://consteelsoftware.com/wp-content/uploads/2022/04/scr_tamasz_kulp_pelda3-1.png)
+[![](./img/wp-content-uploads-2022-04-scr_tamasz_kulp_pelda3-1-1024x551.png)](https://Consteelsoftware.com/wp-content/uploads/2022/04/scr_tamasz_kulp_pelda3-1.png)
 
 <!-- /wp:image -->
 
@@ -305,7 +305,7 @@ Ha elforgatjuk az oszlopot 45 fokkal, akkor a támasz is ennek megfelelően elfo
 
 <!-- wp:image {"align":"center","id":9006,"width":391,"height":446,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-9-3.example_3.png)](./img/wp-content-uploads-2021-04-6-9-3.example_3.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-9-3.example_3.png)](./img/wp-content-uploads-2021-04-6-9-3.example_3.png)
 
 <!-- /wp:image -->
 
@@ -345,7 +345,7 @@ Vonalmenti támasz elhelyezhető egy meglévő vonalra (vonal elemen vagy felül
 
 <!-- wp:image {"align":"center","id":35059,"width":357,"height":230,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/04/dial_tamasz_vonal.png)](./img/wp-content-uploads-2022-04-dial_tamasz_vonal.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/04/dial_tamasz_vonal.png)](./img/wp-content-uploads-2022-04-dial_tamasz_vonal.png)
 
 <!-- /wp:image -->
 
@@ -357,7 +357,7 @@ A vonaltámaszoknak két előre definiált típusa van, a Fix és a Csuklós. A 
 
 <!-- wp:image {"align":"center","id":35067,"width":394,"height":315,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/04/dial_tamasz_vonal_uj.png)](./img/wp-content-uploads-2022-04-dial_tamasz_vonal_uj.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/04/dial_tamasz_vonal_uj.png)](./img/wp-content-uploads-2022-04-dial_tamasz_vonal_uj.png)
 
 <!-- /wp:image -->
 
@@ -411,7 +411,7 @@ Alaphelyzetben nincs előre definiált felületi támasz. A három pontos ![](./
 
 <!-- wp:image {"align":"center","id":35075,"width":664,"height":442,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/04/dial_tamasz_felulet.png)](./img/wp-content-uploads-2022-04-dial_tamasz_felulet.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/04/dial_tamasz_felulet.png)](./img/wp-content-uploads-2022-04-dial_tamasz_felulet.png)
 
 <!-- /wp:image -->
 

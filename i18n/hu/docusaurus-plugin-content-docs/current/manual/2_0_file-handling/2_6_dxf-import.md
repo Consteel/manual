@@ -11,7 +11,7 @@ Dxf kiterjesztésű fájlok importálásához a _**Fájl**_ menü _**Import**_ o
 
 <!-- wp:image {"align":"center","id":32427,"width":284,"height":228,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/02/Fajl_import_dxf.png)](./img/wp-content-uploads-2022-02-Fajl_import_dxf.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/02/Fajl_import_dxf.png)](./img/wp-content-uploads-2022-02-Fajl_import_dxf.png)
 
 <!-- /wp:image -->
 
@@ -23,7 +23,7 @@ Ekkor megjelenik a _**DXF beolvasás**_ ablaka, és egyúttal egy „File megnyi
 
 <!-- wp:image {"align":"center","id":32434,"width":325,"height":464,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/02/dxf_import.png)](./img/wp-content-uploads-2022-02-dxf_import.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/02/dxf_import.png)](./img/wp-content-uploads-2022-02-dxf_import.png)
 
 <!-- /wp:image -->
 

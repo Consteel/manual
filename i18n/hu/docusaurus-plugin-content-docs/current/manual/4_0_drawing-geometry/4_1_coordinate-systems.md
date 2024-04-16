@@ -11,7 +11,7 @@ Az alkalmazott koordinátarendszereknek a helyes modellezésben és az eredmény
 
 <!-- wp:media-text {"align":"","mediaId":8108,"linkDestination":"media","mediaType":"image","mediaWidth":18,"mediaSizeSlug":"full","verticalAlignment":"top","imageFill":false} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/5-2-coord-systems.png)](./img/wp-content-uploads-2021-04-5-2-coord-systems.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/5-2-coord-systems.png)](./img/wp-content-uploads-2021-04-5-2-coord-systems.png)
 
 <!-- wp:paragraph {"placeholder":"Content…"} -->
 
@@ -23,7 +23,7 @@ A _Consteel_-ben a következő két típusú koordinátarendszer használható: 
 
 <!-- wp:media-text {"align":"","mediaId":8102,"linkDestination":"media","mediaType":"image","mediaWidth":18,"mediaSizeSlug":"full","verticalAlignment":"top","imageFill":false} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/5-2-coord-rigth-hand.png)](./img/wp-content-uploads-2021-04-5-2-coord-rigth-hand.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/5-2-coord-rigth-hand.png)](./img/wp-content-uploads-2021-04-5-2-coord-rigth-hand.png)
 
 <!-- wp:paragraph {"placeholder":"Content…"} -->
 
@@ -47,7 +47,7 @@ Globális geometria esetén (3D szerkezeti modellezéskor):
 
 <!-- wp:image {"align":"right","id":8117,"width":230,"height":230,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/5-2-coord-section.jpg)](./img/wp-content-uploads-2021-04-5-2-coord-section.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/5-2-coord-section.jpg)](./img/wp-content-uploads-2021-04-5-2-coord-section.jpg)
 
 <!-- /wp:image -->
 
@@ -84,7 +84,7 @@ Keresztmetszeteknél (2D szelvénymodell):
 
 <!-- wp:image {"align":"right","id":33116,"width":359,"height":246,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/02/dial_raszter_es_FKR.png)](./img/wp-content-uploads-2022-02-dial_raszter_es_FKR.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/02/dial_raszter_es_FKR.png)](./img/wp-content-uploads-2022-02-dial_raszter_es_FKR.png)
 
 <!-- /wp:image -->
 
@@ -108,7 +108,7 @@ A Globális és a Felhasználói koordináta rendszerek közötti váltás az al
 
 <!-- wp:image {"align":"center","id":33123,"width":241,"height":32,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/02/ico_global-lokal.png)](./img/wp-content-uploads-2022-02-ico_global-lokal.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/02/ico_global-lokal.png)](./img/wp-content-uploads-2022-02-ico_global-lokal.png)
 
 <!-- /wp:image -->
 
@@ -131,7 +131,7 @@ A \_**Raszterháló és koordinátarendszer **\_dialógon az első parancsikonna
 
 <!-- wp:image {"align":"right","id":33131,"width":203,"height":98,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/02/cmd_FKR_irany-megforditasa.png)](./img/wp-content-uploads-2022-02-cmd_FKR_irany-megforditasa.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/02/cmd_FKR_irany-megforditasa.png)](./img/wp-content-uploads-2022-02-cmd_FKR_irany-megforditasa.png)
 
 <!-- /wp:image -->
 
@@ -162,7 +162,7 @@ A rúdelemek középvonala határozza meg a rúdelemek lokális koordináta-rend
 
 <!-- wp:media-text {"align":"","mediaId":8272,"linkDestination":"media","mediaType":"image","mediaWidth":23,"mediaSizeSlug":"full","verticalAlignment":"top","imageFill":false} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/5-2-coord-bar1.png)](./img/wp-content-uploads-2021-04-5-2-coord-bar1.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/5-2-coord-bar1.png)](./img/wp-content-uploads-2021-04-5-2-coord-bar1.png)
 
 <!-- wp:paragraph {"placeholder":"Content…"} -->
 
@@ -174,7 +174,7 @@ Alapesetben, ha egy rúd lokális koordináta-rendszerének „x” tengelye egy
 
 <!-- wp:media-text {"align":"","mediaId":8278,"linkDestination":"media","mediaType":"image","mediaWidth":23,"mediaSizeSlug":"full","verticalAlignment":"top","imageFill":false} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/5-2-coord-bar2.png)](./img/wp-content-uploads-2021-04-5-2-coord-bar2.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/5-2-coord-bar2.png)](./img/wp-content-uploads-2021-04-5-2-coord-bar2.png)
 
 <!-- wp:paragraph {"placeholder":"Content…"} -->
 
@@ -186,7 +186,7 @@ Tetszőleges helyzetű rúd (amely nem egy függőleges helyzetű oszlop) eseté
 
 <!-- wp:media-text {"align":"","mediaId":8284,"linkDestination":"media","mediaType":"image","mediaWidth":23,"mediaSizeSlug":"full","verticalAlignment":"top","imageFill":false} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/5-2-coord-bar3.png)](./img/wp-content-uploads-2021-04-5-2-coord-bar3.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/5-2-coord-bar3.png)](./img/wp-content-uploads-2021-04-5-2-coord-bar3.png)
 
 <!-- wp:paragraph {"placeholder":"Content…"} -->
 
@@ -198,7 +198,7 @@ Ha a rúd középvonala függőleges (oszlopok esetében), akkor a rúd lokális
 
 <!-- wp:media-text {"align":"","mediaId":8290,"linkDestination":"media","mediaType":"image","mediaWidth":23,"mediaSizeSlug":"full","verticalAlignment":"top","imageFill":false} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/image-3.png)](./img/wp-content-uploads-2021-04-image-3.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/image-3.png)](./img/wp-content-uploads-2021-04-image-3.png)
 
 <!-- wp:paragraph {"placeholder":"Content…"} -->
 
@@ -220,7 +220,7 @@ Rúdigénybevételek értelmezése és előjele a rúd lokális koordinátarends
 
 <!-- wp:image {"align":"right","id":8296,"width":365,"height":289,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/5-2-coord-surf.png)](./img/wp-content-uploads-2021-04-5-2-coord-surf.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/5-2-coord-surf.png)](./img/wp-content-uploads-2021-04-5-2-coord-surf.png)
 
 <!-- /wp:image -->
 
@@ -262,7 +262,7 @@ Sokszög síkidomok létrehozása esetén:
 
 <!-- wp:image {"align":"right","id":33150,"width":320,"height":102,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/02/dial_lokalis_koord_modositasa.png)](./img/wp-content-uploads-2022-02-dial_lokalis_koord_modositasa.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/02/dial_lokalis_koord_modositasa.png)](./img/wp-content-uploads-2022-02-dial_lokalis_koord_modositasa.png)
 
 <!-- /wp:image -->
 

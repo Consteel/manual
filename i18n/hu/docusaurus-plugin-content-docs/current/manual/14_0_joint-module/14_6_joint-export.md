@@ -10,7 +10,7 @@ A modellben létrehozott csomópontok exportálhatók a _TEKLA Structures_ progr
 
 <!-- wp:image {"align":"center","id":9836,"width":467,"height":212,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/15-7-joint-export.jpg)](./img/wp-content-uploads-2021-04-15-7-joint-export.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/15-7-joint-export.jpg)](./img/wp-content-uploads-2021-04-15-7-joint-export.jpg)
 
 <!-- /wp:image -->
 

@@ -17,7 +17,7 @@ Visszalépve a **Teheresetek és tehercsoportok** dialógra, megadható a földr
 
 <!-- wp:image {"align":"center","id":37794,"width":443,"height":489,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/06/dial_foldrenges_tehercsoport.png)](./img/wp-content-uploads-2022-06-dial_foldrenges_tehercsoport.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/dial_foldrenges_tehercsoport.png)](./img/wp-content-uploads-2022-06-dial_foldrenges_tehercsoport.png)
 
 <!-- /wp:image -->
 
@@ -34,7 +34,7 @@ Itt fontos megjegyezni azt, hogy alapértelmezett állapotban mind a három irá
 
 <!-- wp:image {"align":"center","id":37786,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/06/dial_foldrenges_tehercsoport_linearis.png)](./img/wp-content-uploads-2022-06-dial_foldrenges_tehercsoport_linearis.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/dial_foldrenges_tehercsoport_linearis.png)](./img/wp-content-uploads-2022-06-dial_foldrenges_tehercsoport_linearis.png)
 
 <!-- /wp:image -->
 
@@ -44,7 +44,7 @@ Itt fontos megjegyezni azt, hogy alapértelmezett állapotban mind a három irá
 
 <!-- wp:image {"align":"center","id":37778,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/06/dial_foldrenges_tehercsoport_linearis_2.png)](./img/wp-content-uploads-2022-06-dial_foldrenges_tehercsoport_linearis_2.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/dial_foldrenges_tehercsoport_linearis_2.png)](./img/wp-content-uploads-2022-06-dial_foldrenges_tehercsoport_linearis_2.png)
 
 <!-- /wp:image -->
 
@@ -70,7 +70,7 @@ A **Teherkombinációk automatikus létrehozása** dialógon kiválasztva a szei
 
 <!-- wp:image {"align":"center","id":37770,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2022-06-dial_foldrenges_kombinaciok_teherbirasi-1024x780.png)](https://consteelsoftware.com/wp-content/uploads/2022/06/dial_foldrenges_kombinaciok_teherbirasi.png)
+[![](./img/wp-content-uploads-2022-06-dial_foldrenges_kombinaciok_teherbirasi-1024x780.png)](https://Consteelsoftware.com/wp-content/uploads/2022/06/dial_foldrenges_kombinaciok_teherbirasi.png)
 
 <!-- /wp:image -->
 
@@ -80,7 +80,7 @@ A **Teherkombinációk automatikus létrehozása** dialógon kiválasztva a szei
 
 <!-- wp:image {"align":"center","id":37762,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2022-06-dial_foldrenges_kombinaciok_hasznalhatosagi-1024x781.png)](https://consteelsoftware.com/wp-content/uploads/2022/06/dial_foldrenges_kombinaciok_hasznalhatosagi.png)
+[![](./img/wp-content-uploads-2022-06-dial_foldrenges_kombinaciok_hasznalhatosagi-1024x781.png)](https://Consteelsoftware.com/wp-content/uploads/2022/06/dial_foldrenges_kombinaciok_hasznalhatosagi.png)
 
 <!-- /wp:image -->
 

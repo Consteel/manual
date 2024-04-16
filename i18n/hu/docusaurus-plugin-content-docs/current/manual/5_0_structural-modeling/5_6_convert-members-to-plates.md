@@ -17,7 +17,7 @@ Ez a művelet végleges konvertálást eredményez (természetesen a _Visszavon�
 
 <!-- wp:image {"id":34749,"width":512,"height":300,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2022-04-scr_konvert_lemez-1024x599.png)](https://consteelsoftware.com/wp-content/uploads/2022/04/scr_konvert_lemez.png)
+[![](./img/wp-content-uploads-2022-04-scr_konvert_lemez-1024x599.png)](https://Consteelsoftware.com/wp-content/uploads/2022/04/scr_konvert_lemez.png)
 
 <!-- /wp:image -->
 
@@ -53,7 +53,7 @@ Az _**Alkalmaz**_ gombra kattintva a _Consteel_ lemezelemekké alakítja a kivá
 
 <!-- wp:image {"align":"center","id":22014,"height":500,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/scr_endsupp_member.png)](./img/wp-content-uploads-2021-04-scr_endsupp_member.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/scr_endsupp_member.png)](./img/wp-content-uploads-2021-04-scr_endsupp_member.png)
 
 Támasz a rúdelem végén
 
@@ -65,7 +65,7 @@ Támasz a rúdelem végén
 
 <!-- wp:image {"align":"center","id":22002,"height":500,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/scr_endsupp_dualmember.png)](./img/wp-content-uploads-2021-04-scr_endsupp_dualmember.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/scr_endsupp_dualmember.png)](./img/wp-content-uploads-2021-04-scr_endsupp_dualmember.png)
 
 7SZF rúdelem a konvertálás után
 
@@ -77,7 +77,7 @@ Támasz a rúdelem végén
 
 <!-- wp:image {"align":"center","id":22008,"height":500,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/scr_endsupp_dualshell.png)](./img/wp-content-uploads-2021-04-scr_endsupp_dualshell.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/scr_endsupp_dualshell.png)](./img/wp-content-uploads-2021-04-scr_endsupp_dualshell.png)
 
 Héj végeselem típusú rúdelem a konvertálás után
 

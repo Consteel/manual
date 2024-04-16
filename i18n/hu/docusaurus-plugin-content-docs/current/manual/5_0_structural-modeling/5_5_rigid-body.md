@@ -29,6 +29,6 @@ Egy, már létrehozott merev test módosításához először ki kell jelölni a
 
 <!-- wp:image {"id":34739,"width":274,"height":37,"sizeSlug":"full","linkDestination":"media","className":"is-style-default"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/04/obj_tul_merev_test.png)](./img/wp-content-uploads-2022-04-obj_tul_merev_test.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/04/obj_tul_merev_test.png)](./img/wp-content-uploads-2022-04-obj_tul_merev_test.png)
 
 <!-- /wp:image -->

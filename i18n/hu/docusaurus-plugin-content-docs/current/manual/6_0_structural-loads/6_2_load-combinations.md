@@ -45,7 +45,7 @@ A Consteelben bevezetett határállapotok az Eurocode-ban meghatározott határ�
 
 <!-- wp:image {"align":"center","id":50981,"width":512,"height":262,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![Határállapot koncepció](https://www.consteelsoftware.com/wp-content/uploads/2023/07/Hatarallapot-koncepcio-1024x523.png)](./img/wp-content-uploads-2023-07-Hatarallapot-koncepcio-1024x523.png)
+[![Határállapot koncepció](https://www.Consteelsoftware.com/wp-content/uploads/2023/07/Hatarallapot-koncepcio-1024x523.png)](./img/wp-content-uploads-2023-07-Hatarallapot-koncepcio-1024x523.png)
 
 Határállapot koncepció
 
@@ -102,7 +102,7 @@ A kiválasztott _[tervezési szabványnak](../1_0_general-description/1_2_the-ma
 A teherkombinációkat a teherkombinációk táblázatában lehet kezelni, amelyet a Terhek fülön a Teherkombináció (![](./img/wp-content-uploads-2021-04-cmd_loadcombi-1.png)) parancsra kattintva lehet megnyitni.
 
 
-[![Teherkombinációk táblázata v16](https://www.consteelsoftware.com/wp-content/uploads/2023/07/Teherkombi_tablazat-1024x575.png)](./img/wp-content-uploads-2023-07-Teherkombi_tablazat-1024x575.png)
+[![Teherkombinációk táblázata v16](https://www.Consteelsoftware.com/wp-content/uploads/2023/07/Teherkombi_tablazat-1024x575.png)](./img/wp-content-uploads-2023-07-Teherkombi_tablazat-1024x575.png)
 
 Teherkombinációk táblázata
 
@@ -143,7 +143,7 @@ A teherkombináció táblázat sárga sorai az automatikusan generált kombinác
 
 <!-- wp:image {"align":"right","id":50990,"width":512,"height":389,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![Teherkombinációk automatikus generálása_v16](https://www.consteelsoftware.com/wp-content/uploads/2023/07/Teherkombi_automata_generalas-1024x777.png)](./img/wp-content-uploads-2023-07-Teherkombi_automata_generalas-1024x777.png)
+[![Teherkombinációk automatikus generálása_v16](https://www.Consteelsoftware.com/wp-content/uploads/2023/07/Teherkombi_automata_generalas-1024x777.png)](./img/wp-content-uploads-2023-07-Teherkombi_automata_generalas-1024x777.png)
 
 Teherkombinációk automatikus létrehozása
 
@@ -181,7 +181,7 @@ A teherkombinációkat a teherkombinációk táblázatában lehet kezelni, amely
 
 <!-- wp:image {"align":"right","id":35820,"width":512,"height":295,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](./img/wp-content-uploads-2022-05-dial_teherkombinaciok-1024x589.png)](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_teherkombinaciok.png)
+[![](./img/wp-content-uploads-2022-05-dial_teherkombinaciok-1024x589.png)](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_teherkombinaciok.png)
 
 <!-- /wp:image -->
 
@@ -235,7 +235,7 @@ A teherkombináció táblázat sárga sorai az automatikusan generált kombinác
 
 <!-- wp:image {"align":"right","id":35828,"width":512,"height":389,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](./img/wp-content-uploads-2022-05-dial_teher_kombinacio_automatikus-1024x777.png)](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_kombinacio_automatikus.png)
+[![](./img/wp-content-uploads-2022-05-dial_teher_kombinacio_automatikus-1024x777.png)](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_kombinacio_automatikus.png)
 
 <!-- /wp:image -->
 
@@ -289,7 +289,7 @@ Az analízishez használni kívánt teherkombináció csomagot az **Analízis pa
 
 <!-- wp:image {"align":"center","id":50999,"width":341,"height":141,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![Analízis beállításai - teherkombinációs csomag kiválasztása](https://www.consteelsoftware.com/wp-content/uploads/2023/07/Teherkombi_csomag_kivalasztas_analizis.png)](./img/wp-content-uploads-2023-07-Teherkombi_csomag_kivalasztas_analizis.png)
+[![Analízis beállításai - teherkombinációs csomag kiválasztása](https://www.Consteelsoftware.com/wp-content/uploads/2023/07/Teherkombi_csomag_kivalasztas_analizis.png)](./img/wp-content-uploads-2023-07-Teherkombi_csomag_kivalasztas_analizis.png)
 
 Teherkombináció csomag kiválasztása analízishez
 
@@ -303,7 +303,7 @@ A funkció első indításakor egy üres táblázat jelenik meg:
 
 <!-- wp:image {"align":"center","id":51008,"width":512,"height":219,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![Teherkombinációs csomagok - üres lista](https://www.consteelsoftware.com/wp-content/uploads/2023/07/Teherkombi_csomag_letrehozas-1024x438.png)](./img/wp-content-uploads-2023-07-Teherkombi_csomag_letrehozas-1024x438.png)
+[![Teherkombinációs csomagok - üres lista](https://www.Consteelsoftware.com/wp-content/uploads/2023/07/Teherkombi_csomag_letrehozas-1024x438.png)](./img/wp-content-uploads-2023-07-Teherkombi_csomag_letrehozas-1024x438.png)
 
 Teherkombináció csomagok táblázata
 
@@ -317,7 +317,7 @@ Később, a már létrehozott csomagok ebben a táblázatban lesznek láthatók 
 
 <!-- wp:image {"align":"center","id":51089,"width":512,"height":219,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![Teherkombinációs csomagok listája](https://www.consteelsoftware.com/wp-content/uploads/2023/07/Teherkombi_csomag_lista-1024x438.png)](./img/wp-content-uploads-2023-07-Teherkombi_csomag_lista-1024x438.png)
+[![Teherkombinációs csomagok listája](https://www.Consteelsoftware.com/wp-content/uploads/2023/07/Teherkombi_csomag_lista-1024x438.png)](./img/wp-content-uploads-2023-07-Teherkombi_csomag_lista-1024x438.png)
 
 Teherkombináció csomagok táblázata
 
@@ -349,7 +349,7 @@ Az ablakban az összes létrehozott teherkombináció látható. A cél az, hogy
 
 <!-- wp:image {"align":"center","id":51080,"width":512,"height":412,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![Teherkombinációs csomag létrehozása](https://www.consteelsoftware.com/wp-content/uploads/2023/07/Teherkombi_csomag_letrehozas_uj_csomag_szamokkal-1024x824.png)](./img/wp-content-uploads-2023-07-Teherkombi_csomag_letrehozas_uj_csomag_szamokkal-1024x824.png)
+[![Teherkombinációs csomag létrehozása](https://www.Consteelsoftware.com/wp-content/uploads/2023/07/Teherkombi_csomag_letrehozas_uj_csomag_szamokkal-1024x824.png)](./img/wp-content-uploads-2023-07-Teherkombi_csomag_letrehozas_uj_csomag_szamokkal-1024x824.png)
 
 Teherkombináció csomag megadása
 
@@ -471,7 +471,7 @@ A jelölnégyzetek jelzik a teherkombinációk listájának állapotát a fentie
 
 <!-- wp:image {"align":"left","id":51026,"width":512,"height":412,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![Teherkombinációs csomag létrehozása](https://www.consteelsoftware.com/wp-content/uploads/2023/07/Teherkombi_csomag_letrehozas_uj_csomag_hatarallapotok-1024x824.png)](./img/wp-content-uploads-2023-07-Teherkombi_csomag_letrehozas_uj_csomag_hatarallapotok-1024x824.png)
+[![Teherkombinációs csomag létrehozása](https://www.Consteelsoftware.com/wp-content/uploads/2023/07/Teherkombi_csomag_letrehozas_uj_csomag_hatarallapotok-1024x824.png)](./img/wp-content-uploads-2023-07-Teherkombi_csomag_letrehozas_uj_csomag_hatarallapotok-1024x824.png)
 
 Teherkombinációk szűrése határállapotuk alapján
 
@@ -625,7 +625,7 @@ Először is, minden egyes kombináció ki van jelölve. A szűrők jelölőnég
 
 <!-- wp:image {"align":"left","id":51035,"width":512,"height":412,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![Teherkombinációs csomag létrehozása példa 1](https://www.consteelsoftware.com/wp-content/uploads/2023/07/Teherkombi_csomag_letrehozas_uj_csomag_pelda_1-1024x823.png)](./img/wp-content-uploads-2023-07-Teherkombi_csomag_letrehozas_uj_csomag_pelda_1-1024x823.png)
+[![Teherkombinációs csomag létrehozása példa 1](https://www.Consteelsoftware.com/wp-content/uploads/2023/07/Teherkombi_csomag_letrehozas_uj_csomag_pelda_1-1024x823.png)](./img/wp-content-uploads-2023-07-Teherkombi_csomag_letrehozas_uj_csomag_pelda_1-1024x823.png)
 
 Szűrők kölcsönhatása - példa 1
 
@@ -633,7 +633,7 @@ Szűrők kölcsönhatása - példa 1
 
 <!-- wp:image {"align":"right","id":51044,"width":512,"height":412,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![Teherkombinációs csomag létrehozása példa 2](https://www.consteelsoftware.com/wp-content/uploads/2023/07/Teherkombi_csomag_letrehozas_uj_csomag_pelda_2-1024x823.png)](./img/wp-content-uploads-2023-07-Teherkombi_csomag_letrehozas_uj_csomag_pelda_2-1024x823.png)
+[![Teherkombinációs csomag létrehozása példa 2](https://www.Consteelsoftware.com/wp-content/uploads/2023/07/Teherkombi_csomag_letrehozas_uj_csomag_pelda_2-1024x823.png)](./img/wp-content-uploads-2023-07-Teherkombi_csomag_letrehozas_uj_csomag_pelda_2-1024x823.png)
 
 Szűrők kölcsönhatása - példa 2
 
@@ -651,7 +651,7 @@ Ha a Határállapotok közül az _ULS Acc_ csoportot kikapcsoljuk,
 
 <!-- wp:image {"id":51053,"width":512,"height":412,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![Teherkombinációs csomag létrehozása példa 3](https://www.consteelsoftware.com/wp-content/uploads/2023/07/Teherkombi_csomag_letrehozas_uj_csomag_pelda_3-1024x823.png)](./img/wp-content-uploads-2023-07-Teherkombi_csomag_letrehozas_uj_csomag_pelda_3-1024x823.png)
+[![Teherkombinációs csomag létrehozása példa 3](https://www.Consteelsoftware.com/wp-content/uploads/2023/07/Teherkombi_csomag_letrehozas_uj_csomag_pelda_3-1024x823.png)](./img/wp-content-uploads-2023-07-Teherkombi_csomag_letrehozas_uj_csomag_pelda_3-1024x823.png)
 
 Szűrők kölcsönhatása - példa 3
 
@@ -665,7 +665,7 @@ akkor a *Rendkívüli hó* tehereset is kikapcsolódik. Ezzel együtt az *Állan
 
 <!-- wp:image {"id":51062,"width":512,"height":412,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![Teherkombinációs csomag létrehozása példa 4](https://www.consteelsoftware.com/wp-content/uploads/2023/07/Teherkombi_csomag_letrehozas_uj_csomag_pelda_4-1024x823.png)](./img/wp-content-uploads-2023-07-Teherkombi_csomag_letrehozas_uj_csomag_pelda_4-1024x823.png)
+[![Teherkombinációs csomag létrehozása példa 4](https://www.Consteelsoftware.com/wp-content/uploads/2023/07/Teherkombi_csomag_letrehozas_uj_csomag_pelda_4-1024x823.png)](./img/wp-content-uploads-2023-07-Teherkombi_csomag_letrehozas_uj_csomag_pelda_4-1024x823.png)
 
 Szűrők kölcsönhatása - példa 4
 
@@ -685,7 +685,7 @@ A fenti példánál maradva, a Tk-25 teheresetet kézzel kiválasztva, az ULS Ac
 
 <!-- wp:image {"id":51071,"width":512,"height":412,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![Teherkombinációs csomag létrehozása példa 1](https://www.consteelsoftware.com/wp-content/uploads/2023/07/Teherkombi_csomag_letrehozas_uj_csomag_pelda_5-1024x823.png)](./img/wp-content-uploads-2023-07-Teherkombi_csomag_letrehozas_uj_csomag_pelda_5-1024x823.png)
+[![Teherkombinációs csomag létrehozása példa 1](https://www.Consteelsoftware.com/wp-content/uploads/2023/07/Teherkombi_csomag_letrehozas_uj_csomag_pelda_5-1024x823.png)](./img/wp-content-uploads-2023-07-Teherkombi_csomag_letrehozas_uj_csomag_pelda_5-1024x823.png)
 
 Szűrők kölcsönhatása - példa 5
 
@@ -723,7 +723,7 @@ Háromféle szabály létezik: _[analízis](#analízis-szabályok)_, [_kihajlás
 
 <!-- wp:image {"align":"center","id":51098,"width":512,"height":219,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![Szabályok listája](https://www.consteelsoftware.com/wp-content/uploads/2023/07/Teherkombi_csomag_szabalyok-1024x438.png)](https://www.consteelsoftware.com/wp-content/uploads/2023/07/Teherkombi_csomag_szabalyok-1024x438.png)
+[![Szabályok listája](https://www.Consteelsoftware.com/wp-content/uploads/2023/07/Teherkombi_csomag_szabalyok-1024x438.png)](https://www.Consteelsoftware.com/wp-content/uploads/2023/07/Teherkombi_csomag_szabalyok-1024x438.png)
 
 Teherkombináció szűrési szabályok táblázata
 
@@ -785,7 +785,7 @@ A szabálydefiníciós párbeszédpanelek általános funkciói
 
 <!-- wp:image {"align":"right","id":51107,"width":314,"height":313,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![Új analízis szabály](https://www.consteelsoftware.com/wp-content/uploads/2023/07/Teherkombi_csomag_szabalyok_analizis.png)](./img/wp-content-uploads-2023-07-Teherkombi_csomag_szabalyok_analizis.png)
+[![Új analízis szabály](https://www.Consteelsoftware.com/wp-content/uploads/2023/07/Teherkombi_csomag_szabalyok_analizis.png)](./img/wp-content-uploads-2023-07-Teherkombi_csomag_szabalyok_analizis.png)
 
 Analízis szabály megadása
 
@@ -808,7 +808,7 @@ Az analízis szabályok segítségével a teherkombinációk szűrése a deform�
 
 <!-- wp:image {"align":"right","id":51116,"width":314,"height":234,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![Új kihajlási szabály](https://www.consteelsoftware.com/wp-content/uploads/2023/07/Teherkombi_csomag_szabalyok_kihajlas.png)](./img/wp-content-uploads-2023-07-Teherkombi_csomag_szabalyok_kihajlas.png)
+[![Új kihajlási szabály](https://www.Consteelsoftware.com/wp-content/uploads/2023/07/Teherkombi_csomag_szabalyok_kihajlas.png)](./img/wp-content-uploads-2023-07-Teherkombi_csomag_szabalyok_kihajlas.png)
 
 Kihajlási szabály megadása
 
@@ -834,7 +834,7 @@ _- Kihajlási szabályok_: kiválaszthatók azok az ULS teherkombinációk, amel
 
 <!-- wp:image {"align":"left","id":51125,"width":314,"height":234,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![Új kihasználtsági szabály](https://www.consteelsoftware.com/wp-content/uploads/2023/07/Teherkombi_csomag_szabalyok_kihasznaltsag.png)](./img/wp-content-uploads-2023-07-Teherkombi_csomag_szabalyok_kihasznaltsag.png)
+[![Új kihasználtsági szabály](https://www.Consteelsoftware.com/wp-content/uploads/2023/07/Teherkombi_csomag_szabalyok_kihasznaltsag.png)](./img/wp-content-uploads-2023-07-Teherkombi_csomag_szabalyok_kihasznaltsag.png)
 
 Kihasználtsági szabály megadása
 

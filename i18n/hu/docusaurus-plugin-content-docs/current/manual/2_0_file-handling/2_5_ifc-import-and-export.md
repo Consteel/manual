@@ -23,7 +23,7 @@ A BuildingSMART International szervezet publikálja és fejleszti a hivatalos sp
 
 <!-- wp:image {"align":"right","id":32393,"width":425,"height":339,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/02/Fajl_imp_ifc.png)](./img/wp-content-uploads-2022-02-Fajl_imp_ifc.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/02/Fajl_imp_ifc.png)](./img/wp-content-uploads-2022-02-Fajl_imp_ifc.png)
 
 <!-- /wp:image -->
 
@@ -53,7 +53,7 @@ Az _**IFC**_ funkcióra kattintva megnyílik az Import funkció ablak. Itt legel
 
 <!-- wp:image {"align":"center","id":32407,"width":323,"height":452,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/02/IFC_imp.png)](./img/wp-content-uploads-2022-02-IFC_imp.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/02/IFC_imp.png)](./img/wp-content-uploads-2022-02-IFC_imp.png)
 
 <!-- /wp:image -->
 
@@ -65,7 +65,7 @@ Az _**Import**_ gombra kattintva megjelenik a _**Szelvény konverzió**_ ablak, 
 
 <!-- wp:image {"id":32100,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](./img/wp-content-uploads-2022-02-Tekla_imp_convert-1024x482.png)](https://consteelsoftware.com/wp-content/uploads/2022/02/Tekla_imp_convert.png)
+[![](./img/wp-content-uploads-2022-02-Tekla_imp_convert-1024x482.png)](https://Consteelsoftware.com/wp-content/uploads/2022/02/Tekla_imp_convert.png)
 
 <!-- /wp:image -->
 
@@ -271,7 +271,7 @@ Változtatás esetén az adatok a mentés (![](./img/wp-content-uploads-2022-02-
 
 <!-- wp:image {"align":"right","id":32386,"width":455,"height":324,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/02/Fajl_exp_ifc.png)](./img/wp-content-uploads-2022-02-Fajl_exp_ifc.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/02/Fajl_exp_ifc.png)](./img/wp-content-uploads-2022-02-Fajl_exp_ifc.png)
 
 <!-- /wp:image -->
 
@@ -301,7 +301,7 @@ A megjelenő IFC export ablakban, legelső lépésben meg kell adnunk az IFC fá
 
 <!-- wp:image {"align":"center","id":32400,"width":323,"height":452,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/02/IFC_exp.png)](./img/wp-content-uploads-2022-02-IFC_exp.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/02/IFC_exp.png)](./img/wp-content-uploads-2022-02-IFC_exp.png)
 
 <!-- /wp:image -->
 

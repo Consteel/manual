@@ -29,7 +29,7 @@ sidebar_position: 1
 
 <!-- wp:image {"align":"center","id":37946,"width":167,"height":50,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/tab_dokumentalas.png)](https://www.consteelsoftware.com/wp-content/uploads/2022/06/tab_dokumentalas.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/06/tab_dokumentalas.png)](https://www.Consteelsoftware.com/wp-content/uploads/2022/06/tab_dokumentalas.png)
 
 <!-- /wp:image -->
 
@@ -41,7 +41,7 @@ sidebar_position: 1
 
 <!-- wp:image {"align":"right","id":37938,"width":333,"height":249,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/dial_dokument_uj_1.png)](./img/wp-content-uploads-2022-06-dial_dokument_uj_1.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/06/dial_dokument_uj_1.png)](./img/wp-content-uploads-2022-06-dial_dokument_uj_1.png)
 
 <!-- /wp:image -->
 
@@ -59,13 +59,13 @@ A dokumentáció fejlécében és láblécében található képek testre szabha
 
 <!-- wp:image {"align":"right","id":37922,"width":337,"height":563,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/dial_dokument_uj_3.png)](./img/wp-content-uploads-2022-06-dial_dokument_uj_3.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/06/dial_dokument_uj_3.png)](./img/wp-content-uploads-2022-06-dial_dokument_uj_3.png)
 
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"right","id":37930,"width":198,"height":148,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/dial_dokument_uj_2.png)](./img/wp-content-uploads-2022-06-dial_dokument_uj_2.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/06/dial_dokument_uj_2.png)](./img/wp-content-uploads-2022-06-dial_dokument_uj_2.png)
 
 <!-- /wp:image -->
 
@@ -111,7 +111,7 @@ A **Létrehozás** gombra kattintva a program elkészíti a dokumentációt.
 
 <!-- wp:image {"align":"right","id":37914,"width":313,"height":295,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/scr_dokument_szerkesztes_1.png)](./img/wp-content-uploads-2022-06-scr_dokument_szerkesztes_1.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/06/scr_dokument_szerkesztes_1.png)](./img/wp-content-uploads-2022-06-scr_dokument_szerkesztes_1.png)
 
 <!-- /wp:image -->
 
@@ -149,7 +149,7 @@ Az első két ikonnal (#1) a lap megjelenítése állítható be. A dokumentáci
 
 <!-- wp:image {"align":"center","id":37906,"width":263,"height":313,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/scr_dokument_szerkesztes_2.png)](./img/wp-content-uploads-2022-06-scr_dokument_szerkesztes_2.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/06/scr_dokument_szerkesztes_2.png)](./img/wp-content-uploads-2022-06-scr_dokument_szerkesztes_2.png)
 
 <!-- /wp:image -->
 
@@ -173,7 +173,7 @@ A **Képek** fülre kattintva megjelennek a képkezelő ikonok. Segítségükkel
 
 <!-- wp:image {"align":"center","id":37898,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/scr_dokument_szerkesztes_3_kepek.png)](./img/wp-content-uploads-2022-06-scr_dokument_szerkesztes_3_kepek.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/06/scr_dokument_szerkesztes_3_kepek.png)](./img/wp-content-uploads-2022-06-scr_dokument_szerkesztes_3_kepek.png)
 
 <!-- /wp:image -->
 
@@ -217,7 +217,7 @@ A modellben történt változtatások esetén, a dokumentációkat újra kell ge
 
 <!-- wp:image {"align":"right","id":37890,"width":128,"height":221,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/scr_dokument_pillanatkep.png)](./img/wp-content-uploads-2022-06-scr_dokument_pillanatkep.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/06/scr_dokument_pillanatkep.png)](./img/wp-content-uploads-2022-06-scr_dokument_pillanatkep.png)
 
 <!-- /wp:image -->
 
@@ -241,7 +241,7 @@ A **Nyomtatás** gomb segítségével a modell aktuális nézete közvetlenül e
 
 <!-- wp:image {"align":"center","id":37882,"width":768,"height":408,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2022-06-scr_dokument_pillanatkep_2-1024x544.png)](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_dokument_pillanatkep_2.png)
+[![](./img/wp-content-uploads-2022-06-scr_dokument_pillanatkep_2-1024x544.png)](https://Consteelsoftware.com/wp-content/uploads/2022/06/scr_dokument_pillanatkep_2.png)
 
 <!-- /wp:image -->
 
@@ -267,7 +267,7 @@ A harmadik ikon ![](./img/wp-content-uploads-2021-04-14-1-snapshot-manager.png) 
 
 <!-- wp:image {"align":"center","id":37874,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2022-06-dial_dokument_kepkezelo-1024x549.png)](https://consteelsoftware.com/wp-content/uploads/2022/06/dial_dokument_kepkezelo.png)
+[![](./img/wp-content-uploads-2022-06-dial_dokument_kepkezelo-1024x549.png)](https://Consteelsoftware.com/wp-content/uploads/2022/06/dial_dokument_kepkezelo.png)
 
 <!-- /wp:image -->
 
@@ -309,7 +309,7 @@ A Dokumentáció fül negyedik ikonjának ![](./img/wp-content-uploads-2021-04-c
 
 <!-- wp:image {"align":"center","id":37866,"width":491,"height":476,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/dial_dokument_modell_informacio.png)](./img/wp-content-uploads-2022-06-dial_dokument_modell_informacio.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/06/dial_dokument_modell_informacio.png)](./img/wp-content-uploads-2022-06-dial_dokument_modell_informacio.png)
 
 <!-- /wp:image -->
 
@@ -331,7 +331,7 @@ A Dokumentáció fülön található ötödik parancsikon ![](./img/wp-content-u
 
 <!-- wp:image {"id":38048,"width":"768px","height":"395px","sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2022-06-dial_dokument_anyaghatekonysag_1-1-1024x527.png)](https://consteelsoftware.com/wp-content/uploads/2022/06/dial_dokument_anyaghatekonysag_1-1.png)
+[![](./img/wp-content-uploads-2022-06-dial_dokument_anyaghatekonysag_1-1-1024x527.png)](https://Consteelsoftware.com/wp-content/uploads/2022/06/dial_dokument_anyaghatekonysag_1-1.png)
 
 <!-- /wp:image -->
 

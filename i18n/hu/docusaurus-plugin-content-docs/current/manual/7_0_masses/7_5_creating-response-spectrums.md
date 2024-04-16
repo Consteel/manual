@@ -18,7 +18,7 @@ A Válaszspektrum felvétele (![](./img/wp-content-uploads-2021-04-cmd_response_
 
 <!-- wp:image {"align":"center","id":36433,"width":548,"height":186,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_tomeg_valaszspektrum_tipusa.png)](./img/wp-content-uploads-2022-05-dial_tomeg_valaszspektrum_tipusa.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_tomeg_valaszspektrum_tipusa.png)](./img/wp-content-uploads-2022-05-dial_tomeg_valaszspektrum_tipusa.png)
 
 <!-- /wp:image -->
 
@@ -36,7 +36,7 @@ Az **Új Szabványos rugalmas válaszspektrum** létrehozása opció választás
 
 <!-- wp:image {"align":"right","id":36441,"width":245,"height":313,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_tomeg_valaszspektrum_altalaj.png)](./img/wp-content-uploads-2022-05-dial_tomeg_valaszspektrum_altalaj.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_tomeg_valaszspektrum_altalaj.png)](./img/wp-content-uploads-2022-05-dial_tomeg_valaszspektrum_altalaj.png)
 
 <!-- /wp:image -->
 
@@ -63,13 +63,13 @@ Az _EuroCode_ szerint, a szabványos rugalmas válaszspektrumhoz az alábbi para
 
 <!-- wp:image {"align":"right","id":36449,"width":154,"height":235,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_tomeg_valaszspektrum_orszagok.png)](./img/wp-content-uploads-2022-05-dial_tomeg_valaszspektrum_orszagok.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_tomeg_valaszspektrum_orszagok.png)](./img/wp-content-uploads-2022-05-dial_tomeg_valaszspektrum_orszagok.png)
 
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"center","id":36457,"width":512,"height":315,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2022-05-dial_tomeg_valaszspektrum_terkep-1024x629.png)](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_tomeg_valaszspektrum_terkep.png)
+[![](./img/wp-content-uploads-2022-05-dial_tomeg_valaszspektrum_terkep-1024x629.png)](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_tomeg_valaszspektrum_terkep.png)
 
 <!-- /wp:image -->
 
@@ -81,7 +81,7 @@ Az _EuroCode_ szerint, a szabványos rugalmas válaszspektrumhoz az alábbi para
 
 <!-- wp:image {"align":"center","id":36466,"width":365,"height":403,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_tomeg_valaszspektrum_megadas.png)](./img/wp-content-uploads-2022-05-dial_tomeg_valaszspektrum_megadas.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_tomeg_valaszspektrum_megadas.png)](./img/wp-content-uploads-2022-05-dial_tomeg_valaszspektrum_megadas.png)
 
 <!-- /wp:image -->
 
@@ -93,7 +93,7 @@ A dialóg Válaszspektrum mezőjében grafikusan megjelenik a megadott paraméte
 
 <!-- wp:image {"align":"center","id":36474,"width":353,"height":177,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_tomeg_valaszspektrum_megadas_vizszintes.png)](./img/wp-content-uploads-2022-05-dial_tomeg_valaszspektrum_megadas_vizszintes.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_tomeg_valaszspektrum_megadas_vizszintes.png)](./img/wp-content-uploads-2022-05-dial_tomeg_valaszspektrum_megadas_vizszintes.png)
 
 <!-- /wp:image -->
 
@@ -111,7 +111,7 @@ A dialóg Válaszspektrum mezőjében grafikusan megjelenik a megadott paraméte
 
 <!-- wp:image {"align":"center","id":36482,"width":548,"height":185,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_tomeg_valaszspektrum_tipusa_egyedi.png)](./img/wp-content-uploads-2022-05-dial_tomeg_valaszspektrum_tipusa_egyedi.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_tomeg_valaszspektrum_tipusa_egyedi.png)](./img/wp-content-uploads-2022-05-dial_tomeg_valaszspektrum_tipusa_egyedi.png)
 
 <!-- /wp:image -->
 
@@ -140,7 +140,7 @@ Az **Új Egyedi válaszspektrum** opció kiválasztása után a **Létrehozás**
 
 <!-- wp:image {"align":"right","id":36555,"width":389,"height":429,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_tomeg_valaszspektrum_letrehozas_kezzel.png)](./img/wp-content-uploads-2022-05-dial_tomeg_valaszspektrum_letrehozas_kezzel.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_tomeg_valaszspektrum_letrehozas_kezzel.png)](./img/wp-content-uploads-2022-05-dial_tomeg_valaszspektrum_letrehozas_kezzel.png)
 
 <!-- /wp:image -->
 

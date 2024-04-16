@@ -253,7 +253,7 @@ A párbeszéd ablak hasonlóan működik az előzőkhöz. A gyors **ellenőrzés
 
 <!-- wp:image {"align":"right","id":37287,"width":409,"height":385,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/dial_tervezes_hasznalhatosag_vizsgalatok-1.png)](./img/wp-content-uploads-2022-06-dial_tervezes_hasznalhatosag_vizsgalatok-1.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/06/dial_tervezes_hasznalhatosag_vizsgalatok-1.png)](./img/wp-content-uploads-2022-06-dial_tervezes_hasznalhatosag_vizsgalatok-1.png)
 
 <!-- /wp:image -->
 
@@ -278,7 +278,7 @@ Az összes használhatósági határállapothoz kapcsolódó funkció a Használ
 - Földrengés - szintek közötti elmozdulás ellenőrzése
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/dial_tervezes_hasznalhatosag_vizsgalat_tipusok.png)](./img/wp-content-uploads-2022-06-dial_tervezes_hasznalhatosag_vizsgalat_tipusok.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/06/dial_tervezes_hasznalhatosag_vizsgalat_tipusok.png)](./img/wp-content-uploads-2022-06-dial_tervezes_hasznalhatosag_vizsgalat_tipusok.png)
 
 <!-- /wp:image -->
 
@@ -314,7 +314,7 @@ A viszonyítási magassági érték megadható manuálisan begépelve, vagy a mo
 
 <!-- wp:image {"align":"center","id":37263,"width":406,"height":743,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/dial_tervezes_hasznalhatosag_globalis_vizszintes.png)](./img/wp-content-uploads-2022-06-dial_tervezes_hasznalhatosag_globalis_vizszintes.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/06/dial_tervezes_hasznalhatosag_globalis_vizszintes.png)](./img/wp-content-uploads-2022-06-dial_tervezes_hasznalhatosag_globalis_vizszintes.png)
 
 <!-- /wp:image -->
 
@@ -344,7 +344,7 @@ A globális függőleges lehajlás vizsgálat működése hasonló a globális v
 
 <!-- wp:image {"align":"center","id":37255,"width":406,"height":743,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/dial_tervezes_hasznalhatosag_globalis_fuggoleges.png)](./img/wp-content-uploads-2022-06-dial_tervezes_hasznalhatosag_globalis_fuggoleges.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/06/dial_tervezes_hasznalhatosag_globalis_fuggoleges.png)](./img/wp-content-uploads-2022-06-dial_tervezes_hasznalhatosag_globalis_fuggoleges.png)
 
 <!-- /wp:image -->
 
@@ -380,7 +380,7 @@ A rudankénti lokális lehajlás vizsgálat nem alkalmazható konzolok ellenőrz
 
 <!-- wp:image {"align":"center","id":37247,"width":406,"height":743,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/dial_tervezes_hasznalhatosag_rudankent_lokalis.png)](./img/wp-content-uploads-2022-06-dial_tervezes_hasznalhatosag_rudankent_lokalis.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/06/dial_tervezes_hasznalhatosag_rudankent_lokalis.png)](./img/wp-content-uploads-2022-06-dial_tervezes_hasznalhatosag_rudankent_lokalis.png)
 
 <!-- /wp:image -->
 
@@ -410,7 +410,7 @@ Két pont relatív elmozdulásának vizsgálatával bármely két kiválasztott 
 
 <!-- wp:image {"align":"center","id":37239,"width":390,"height":715,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/dial_tervezes_hasznalhatosag_pont_relativ.png)](./img/wp-content-uploads-2022-06-dial_tervezes_hasznalhatosag_pont_relativ.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/06/dial_tervezes_hasznalhatosag_pont_relativ.png)](./img/wp-content-uploads-2022-06-dial_tervezes_hasznalhatosag_pont_relativ.png)
 
 <!-- /wp:image -->
 
@@ -440,7 +440,7 @@ A vizsgálat elvégzésének előfeltétele a modellben definiált szintek megl�
 
 <!-- wp:image {"align":"center","id":37231,"width":406,"height":743,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/dial_tervezes_hasznalhatosag_szeizmikus.png)](./img/wp-content-uploads-2022-06-dial_tervezes_hasznalhatosag_szeizmikus.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/06/dial_tervezes_hasznalhatosag_szeizmikus.png)](./img/wp-content-uploads-2022-06-dial_tervezes_hasznalhatosag_szeizmikus.png)
 
 <!-- /wp:image -->
 

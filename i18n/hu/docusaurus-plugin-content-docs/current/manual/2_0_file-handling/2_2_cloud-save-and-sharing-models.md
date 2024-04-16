@@ -17,7 +17,7 @@ A modellek felhőtárhelyre történő mentése, onnan való megnyitása és meg
 
 <!-- wp:paragraph -->
 
-A felhőbe mentett modellek folyamatosan szinkronizált példánya a számítógép _C:\Users\AppData\Local\ConSteel\CloudModels_ mappájában találhatók. A modellszinkronizálás a felhasználó előfizetési csomagjában meghatározott havi adatmennyiség-korlát terhére történik. A modellszinkronizálás az első felhőmentés, modellmegosztás vagy a modell bezárása során történik, az összes többi művelet a modellt csak a helyi mappába menti, az adatforgalom csökkentése érdekében. Szinkronizálási probléma esetén( amikor a helyi és a felhőben tárolt modell nem azonos, és nem egyértelmű, hogy melyik a megfelelő), a felhasználó választhatja ki, hogy melyik modellverzióval szeretné folytatni.
+A felhőbe mentett modellek folyamatosan szinkronizált példánya a számítógép _C:\Users\AppData\Local\Consteel\CloudModels_ mappájában találhatók. A modellszinkronizálás a felhasználó előfizetési csomagjában meghatározott havi adatmennyiség-korlát terhére történik. A modellszinkronizálás az első felhőmentés, modellmegosztás vagy a modell bezárása során történik, az összes többi művelet a modellt csak a helyi mappába menti, az adatforgalom csökkentése érdekében. Szinkronizálási probléma esetén( amikor a helyi és a felhőben tárolt modell nem azonos, és nem egyértelmű, hogy melyik a megfelelő), a felhasználó választhatja ki, hogy melyik modellverzióval szeretné folytatni.
 
 <!-- /wp:paragraph -->
 
@@ -65,7 +65,7 @@ Alul, jobb oldalon láthatók az éppen kiválasztott modell részletes informá
 
 <!-- wp:paragraph -->
 
-A modell felhőbe mentése a havi adatmennyiségi korlát terhére történik. A havi korlátot a felhasználó [tagsági szintje](https://consteelsoftware.com/hu/termekek/ajanlatok-csomagok/#ccm) határozza meg, és a bal alsó sarokban látható az aktuális állapota **(5)**.
+A modell felhőbe mentése a havi adatmennyiségi korlát terhére történik. A havi korlátot a felhasználó [tagsági szintje](https://Consteelsoftware.com/hu/termekek/ajanlatok-csomagok/#ccm) határozza meg, és a bal alsó sarokban látható az aktuális állapota **(5)**.
 
 <!-- /wp:paragraph -->
 
@@ -103,7 +103,7 @@ Kattints a Fájl menüben vagy a Projekt Centerben a "Megnyitás felhőből" par
 
 <!-- wp:paragraph -->
 
-A felhőbe mentett modellek megoszthatók más felhasználókkal. A megosztott modellek megtekintéséhez a címzettnek is rendelkeznie kell Consteel felhasználói fiókkal. Amennyiben a megadott e-mail címhez nem tartozik fiók, ezt az e-mail cím előtt egy szaggatott kör jelzi. **_[Fiók nyitása](../1_0_general-description/1_1_installing-and-running-the-software.md#csomag-és-felhasználó-menedzsment)_** néhány kattintással ingyenesen elérhető bárki számára a[ weboldalunkon](https://consteelsoftware.com/hu/).
+A felhőbe mentett modellek megoszthatók más felhasználókkal. A megosztott modellek megtekintéséhez a címzettnek is rendelkeznie kell Consteel felhasználói fiókkal. Amennyiben a megadott e-mail címhez nem tartozik fiók, ezt az e-mail cím előtt egy szaggatott kör jelzi. **_[Fiók nyitása](../1_0_general-description/1_1_installing-and-running-the-software.md#csomag-és-felhasználó-menedzsment)_** néhány kattintással ingyenesen elérhető bárki számára a[ weboldalunkon](https://Consteelsoftware.com/hu/).
 
 <!-- /wp:paragraph -->
 

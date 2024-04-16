@@ -11,7 +11,7 @@ A funkciók és eszközök közötti könnyebb eligazodás érdekében, a legtö
 
 <!-- wp:image {"align":"center","id":31958,"width":417,"height":580,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/01/ablak_felepites.png)](./img/wp-content-uploads-2022-01-ablak_felepites.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/01/ablak_felepites.png)](./img/wp-content-uploads-2022-01-ablak_felepites.png)
 
 <!-- /wp:image -->
 

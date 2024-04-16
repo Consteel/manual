@@ -5,7 +5,7 @@ sidebar_position: 1
 
 <!-- wp:image {"align":"left","id":35694,"width":229,"height":50,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/05/tab_terhek_teheresetek.png)](./img/wp-content-uploads-2022-05-tab_terhek_teheresetek.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/tab_terhek_teheresetek.png)](./img/wp-content-uploads-2022-05-tab_terhek_teheresetek.png)
 
 <!-- /wp:image -->
 
@@ -15,7 +15,7 @@ sidebar_position: 1
 
 <!-- wp:image {"align":"right","id":35702,"width":360,"height":390,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_teher-csoportok.png)](./img/wp-content-uploads-2022-05-dial_teher-csoportok.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_teher-csoportok.png)](./img/wp-content-uploads-2022-05-dial_teher-csoportok.png)
 
 <!-- /wp:image -->
 
@@ -27,7 +27,7 @@ Teherelhelyezés előtt létre kell hozni a tehereseteket és tehercsoportokat a
 
 <!-- wp:image {"align":"right","id":35772,"width":88,"height":165,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/05/terhek_tehercsoport_tipusok.png)](./img/wp-content-uploads-2022-05-terhek_tehercsoport_tipusok.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/terhek_tehercsoport_tipusok.png)](./img/wp-content-uploads-2022-05-terhek_tehercsoport_tipusok.png)
 
 <!-- /wp:image -->
 
@@ -55,7 +55,7 @@ A létrehozott tehercsoportok és teheresetek a párbeszédpanel bal oldalán ta
 
 <!-- wp:image {"align":"right","id":35780,"width":337,"height":281,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_kombinacios_tenyezok.png)](./img/wp-content-uploads-2022-05-dial_kombinacios_tenyezok.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_kombinacios_tenyezok.png)](./img/wp-content-uploads-2022-05-dial_kombinacios_tenyezok.png)
 
 <!-- /wp:image -->
 
@@ -85,7 +85,7 @@ A biztonsági tényezők minden tehercsoportnál a kiválasztott szabványnak me
 
 <!-- wp:image {"align":"right","id":35788,"width":310,"height":254,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_csoport.png)](./img/wp-content-uploads-2022-05-dial_teher_csoport.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_csoport.png)](./img/wp-content-uploads-2022-05-dial_teher_csoport.png)
 
 <!-- /wp:image -->
 
@@ -101,7 +101,7 @@ Az esetleges tehercsoportok (esetleges, meteorológiai, daru) esetében a kombin
 
 <!-- wp:image {"align":"right","id":35796,"width":315,"height":293,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_eset.png)](./img/wp-content-uploads-2022-05-dial_teher_eset.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_eset.png)](./img/wp-content-uploads-2022-05-dial_teher_eset.png)
 
 <!-- /wp:image -->
 

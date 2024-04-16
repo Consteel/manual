@@ -5,7 +5,7 @@ sidebar_position: 2
 
 <!-- wp:image {"align":"center","id":37644,"width":837,"height":48,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/06/tab_tuz.png)](./img/wp-content-uploads-2022-06-tab_tuz.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/tab_tuz.png)](./img/wp-content-uploads-2022-06-tab_tuz.png)
 
 <!-- /wp:image -->
 
@@ -17,7 +17,7 @@ A tűzhatás és tűzvédelem megadása a **Terhek **fülön lévő T**űzhatás
 
 <!-- wp:image {"align":"center","id":37652,"width":320,"height":457,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/06/dial_tuz_megadas.png)](./img/wp-content-uploads-2022-06-dial_tuz_megadas.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/dial_tuz_megadas.png)](./img/wp-content-uploads-2022-06-dial_tuz_megadas.png)
 
 <!-- /wp:image -->
 
@@ -41,7 +41,7 @@ Második lépésként meg kell adni az elvárt tűzállósági időt, amelye 15 
 
 <!-- wp:image {"align":"right","id":37660,"width":643,"height":321,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/06/dial_tuz_vedelem.png)](./img/wp-content-uploads-2022-06-dial_tuz_vedelem.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/dial_tuz_vedelem.png)](./img/wp-content-uploads-2022-06-dial_tuz_vedelem.png)
 
 <!-- /wp:image -->
 

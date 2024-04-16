@@ -10,13 +10,13 @@ A terhek modellezése a Terhek fülön elhelyezett funkciókkal történik. Mind
 
 <!-- wp:image {"align":"center","id":35840,"width":489,"height":65,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/05/tab_terhek_teheresetek_kivalaszt.png)](./img/wp-content-uploads-2022-05-tab_terhek_teheresetek_kivalaszt.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/05/tab_terhek_teheresetek_kivalaszt.png)](./img/wp-content-uploads-2022-05-tab_terhek_teheresetek_kivalaszt.png)
 
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"right","id":35848,"width":358,"height":257,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_koncentralt.png)](./img/wp-content-uploads-2022-05-dial_teher_koncentralt.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_koncentralt.png)](./img/wp-content-uploads-2022-05-dial_teher_koncentralt.png)
 
 <!-- /wp:image -->
 
@@ -46,7 +46,7 @@ A koncentrált teher esetében is alkalmazható külpontosság. A kiválasztott 
 
 <!-- wp:image {"align":"center","id":35856,"width":360,"height":304,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_koncentralt_kulpontossag.png)](./img/wp-content-uploads-2022-05-dial_teher_koncentralt_kulpontossag.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_koncentralt_kulpontossag.png)](./img/wp-content-uploads-2022-05-dial_teher_koncentralt_kulpontossag.png)
 
 <!-- /wp:image -->
 
@@ -56,7 +56,7 @@ A koncentrált teher esetében is alkalmazható külpontosság. A kiválasztott 
 
 <!-- wp:image {"align":"right","id":35864,"width":271,"height":376,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_vonal.png)](./img/wp-content-uploads-2022-05-dial_teher_vonal.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_vonal.png)](./img/wp-content-uploads-2022-05-dial_teher_vonal.png)
 
 <!-- /wp:image -->
 
@@ -88,34 +88,34 @@ Az objektumok nem teljes hossza mentén ható, **részleges vonalmenti teher** f
 1. Az első lehetőség a rajzolás funkció. A rajzolás (![](./img/wp-content-uploads-2021-04-cmd_draw.png)) ikonra kattintva a szerkezeti elemen megadható a vonalmenti teher kezdő és végpontja. A funkció használható egyenes és íves rudak esetén is a megfelelő rajzolási funkció kiválasztásával ![](./img/wp-content-uploads-2022-05-cmd_teher_vonalmenti_rajzolas.png)
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/7-4-Line-load-1_1.jpg)](./img/wp-content-uploads-2021-04-7-4-Line-load-1_1.jpg)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/7-4-Line-load-1_1.jpg)](./img/wp-content-uploads-2021-04-7-4-Line-load-1_1.jpg)
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/7-4-Line-load-1_2.png)](./img/wp-content-uploads-2021-04-7-4-Line-load-1_2.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/7-4-Line-load-1_2.png)](./img/wp-content-uploads-2021-04-7-4-Line-load-1_2.png)
 
 
 2\. A második lehetőség, a vonalmenti teher kezdő- és végpontja közti távolságának megadása a rúdelem végpontjaitól. A q1, q2 pozíciója beállítási lehetőség használatával a részleges vonalmenti teher 6 féle képen adható meg teljesen analóg módon a nyírási mezőnél megismertekkel. Például a q1 pozíciója megadható a rúd A és a B végétől is 3-3 féle képen:
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/7-4-Line-load-2_1.png)](./img/wp-content-uploads-2021-04-7-4-Line-load-2_1.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/7-4-Line-load-2_1.png)](./img/wp-content-uploads-2021-04-7-4-Line-load-2_1.png)
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/7-4-Line-load-2_2.png)](./img/wp-content-uploads-2021-04-7-4-Line-load-2_2.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/7-4-Line-load-2_2.png)](./img/wp-content-uploads-2021-04-7-4-Line-load-2_2.png)
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/7-4-Line-load-2_3-1.png)](./img/wp-content-uploads-2021-04-7-4-Line-load-2_3-1.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/7-4-Line-load-2_3-1.png)](./img/wp-content-uploads-2021-04-7-4-Line-load-2_3-1.png)
 
 
 A vonalmenti teher esetében is alkalmazható külpontosság. A kiválasztott koordináta rendszer és az alkalmazott külpontosság hatása megegyezik a pontszerű támasznál bemutatottakkal (lásd **Támaszok** fejezet).
 
 
-[![](./img/wp-content-uploads-2021-05-7-4-Line-load-types-edited.png)](https://consteelsoftware.com/wp-content/uploads/2021/04/7-4-Line-load-types.png)
+[![](./img/wp-content-uploads-2021-05-7-4-Line-load-types-edited.png)](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-4-Line-load-types.png)
 
 
 Egy előzőleg már elhelyezett teher tulajdonságai beolvashatók a tulajdonságok funkció ![](./img/wp-content-uploads-2021-04-cmd_draw_get.png) kiválasztása után, a beolvasandó teherre kattintva.
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_vonal_szel.png)](./img/wp-content-uploads-2022-05-dial_teher_vonal_szel.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_vonal_szel.png)](./img/wp-content-uploads-2022-05-dial_teher_vonal_szel.png)
 
 
 #### Vonalmenti szélteher
@@ -133,10 +133,10 @@ A vonalmenti szélteherhez kapcsolódó funkciók a Vonalmenti megoszló teher d
 Első lépésként a _Torlónyomás_ értékét kell megadni, vagy a három pontos ikonra (![](./img/wp-content-uploads-2021-04-3dots-button.png)) kattintva egy előzőleg létrehozott torlónyomás függvény is kiválasztható a legördülő menü segítségével, vagy a legördülő menü mellett található hárompontos ikonra (![](./img/wp-content-uploads-2021-04-3dots-button.png)) kattintva új torlónyomás függvény is létrehozható. A kiválasztott torlónyomás függvény felhasználásával kerül meghatározásra a megfelelő torlónyomás érték.
 
 
-[![](./img/wp-content-uploads-2022-05-dial_teher_vonal_szel_torlonyom-1024x379.png)](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_vonal_szel_torlonyom.png)
+[![](./img/wp-content-uploads-2022-05-dial_teher_vonal_szel_torlonyom-1024x379.png)](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_vonal_szel_torlonyom.png)
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_vonal_szel_kulsonyomas.png)](./img/wp-content-uploads-2022-05-dial_teher_vonal_szel_kulsonyomas.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_vonal_szel_kulsonyomas.png)](./img/wp-content-uploads-2022-05-dial_teher_vonal_szel_kulsonyomas.png)
 
 
 A jelölő négyzet bekapcsolásával a _Belső nyomás_ is figyelembe vehető. A belső nyomási tényező (cpi) megadható kézzel, vagy használható a Belső nyomás számítása funkció is, a három pontos ikonra kattintva (![](./img/wp-content-uploads-2021-04-3dots-button.png)).
@@ -190,13 +190,13 @@ A Vonalmenti megoszló teher dialógon található Terhek elhelyezése (![](./im
 
 <!-- wp:image {"align":"right","id":35904,"width":319,"height":170,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_vonal_szel_geom.png)](./img/wp-content-uploads-2022-05-dial_teher_vonal_szel_geom.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_vonal_szel_geom.png)](./img/wp-content-uploads-2022-05-dial_teher_vonal_szel_geom.png)
 
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"center","id":35912,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](./img/wp-content-uploads-2022-05-scr_teher_vonal_szel-1024x519.png)](https://consteelsoftware.com/wp-content/uploads/2022/05/scr_teher_vonal_szel.png)
+[![](./img/wp-content-uploads-2022-05-scr_teher_vonal_szel-1024x519.png)](https://Consteelsoftware.com/wp-content/uploads/2022/05/scr_teher_vonal_szel.png)
 
 <!-- /wp:image -->
 
@@ -218,7 +218,7 @@ A Vonalmenti megoszló teher dialógon található Terhek elhelyezése (![](./im
 
 <!-- wp:image {"align":"right","id":35921,"width":271,"height":363,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_vonal_ho.png)](./img/wp-content-uploads-2022-05-dial_teher_vonal_ho.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_vonal_ho.png)](./img/wp-content-uploads-2022-05-dial_teher_vonal_ho.png)
 
 <!-- /wp:image -->
 
@@ -266,7 +266,7 @@ Az alaki tényező meghatározásához a legördülő menüből ki kell választ
 
 <!-- wp:image {"align":"right","id":35929,"width":134,"height":228,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_vonal_ho_alaki.png)](./img/wp-content-uploads-2022-05-dial_teher_vonal_ho_alaki.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_vonal_ho_alaki.png)](./img/wp-content-uploads-2022-05-dial_teher_vonal_ho_alaki.png)
 
 <!-- /wp:image -->
 
@@ -305,7 +305,7 @@ Felület terhet háromféle módon lehet definiálni. Felületi nyomaték nem ho
 
 10. **Szélteher**
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_felulet.png)](./img/wp-content-uploads-2022-05-dial_teher_felulet.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_felulet.png)](./img/wp-content-uploads-2022-05-dial_teher_felulet.png)
 
 #### Egyenletesen megoszló felület teher megadása
 
@@ -326,7 +326,7 @@ A felületet csak részlegesen terhelő teher esetében a rajzolás (![](./img/w
 
 <!-- wp:image {"align":"right","id":10071,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/7-4-Uniform-surface-load_1.png)](./img/wp-content-uploads-2021-04-7-4-Uniform-surface-load_1.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/7-4-Uniform-surface-load_1.png)](./img/wp-content-uploads-2021-04-7-4-Uniform-surface-load_1.png)
 
 <!-- /wp:image -->
 
@@ -336,7 +336,7 @@ A felületet csak részlegesen terhelő teher esetében a rajzolás (![](./img/w
 
 <!-- wp:image {"align":"center","id":10077,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/7-4-Uniform-surface-load_2.png)](./img/wp-content-uploads-2021-04-7-4-Uniform-surface-load_2.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/7-4-Uniform-surface-load_2.png)](./img/wp-content-uploads-2021-04-7-4-Uniform-surface-load_2.png)
 
 <!-- /wp:image -->
 
@@ -346,7 +346,7 @@ A felületet csak részlegesen terhelő teher esetében a rajzolás (![](./img/w
 
 <!-- wp:image {"align":"left","id":10083,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/7-4-Uniform-surface-load_3.png)](./img/wp-content-uploads-2021-04-7-4-Uniform-surface-load_3.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/7-4-Uniform-surface-load_3.png)](./img/wp-content-uploads-2021-04-7-4-Uniform-surface-load_3.png)
 
 <!-- /wp:image -->
 
@@ -365,7 +365,7 @@ A teher megadásához először ki kell jelölni a terhelendő felületet, majd 
 #### Lineárisan változó felület teher megadása
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_felulet_linearis.png)](./img/wp-content-uploads-2022-05-dial_teher_felulet_linearis.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_felulet_linearis.png)](./img/wp-content-uploads-2022-05-dial_teher_felulet_linearis.png)
 
 
 Lineárisan változó felület teher definiálásához először a teher irányát kell megadni a dialóg legfelső sorában.
@@ -386,7 +386,7 @@ Az adatok beadása után a teher elhelyezéséhez először ki kell választani 
 Rajzolt (![](./img/wp-content-uploads-2021-04-cmd_draw.png)) tehermegadás esetén, a felület kiválasztása után, először az előző pontban ismertetett módon meg kell rajzolni a felület terhelt részét, majd ezután kell megadni az intenzitás meghatározó pontokat.
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_felulet_szel.png)](./img/wp-content-uploads-2022-05-dial_teher_felulet_szel.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_felulet_szel.png)](./img/wp-content-uploads-2022-05-dial_teher_felulet_szel.png)
 
 
 #### Felületi szélteher megadása
@@ -416,7 +416,7 @@ A Terhek fülön található Teher átadó felület (![](./img/wp-content-upload
 
 <!-- wp:image {"align":"right","id":35963,"width":366,"height":305,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_teheratado-felulet.png)](./img/wp-content-uploads-2022-05-dial_teher_teheratado-felulet.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_teheratado-felulet.png)](./img/wp-content-uploads-2022-05-dial_teher_teheratado-felulet.png)
 
 <!-- /wp:image -->
 
@@ -428,7 +428,7 @@ Teherátadó felület rajzolási funkciói megegyeznek a síkidomok rajzolási f
 
 <!-- wp:image {"align":"center","id":36351,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2022-05-scr_teher_teheratado-felulet-1-1024x575.png)](https://consteelsoftware.com/wp-content/uploads/2022/05/scr_teher_teheratado-felulet-1.png)
+[![](./img/wp-content-uploads-2022-05-scr_teher_teheratado-felulet-1-1024x575.png)](https://Consteelsoftware.com/wp-content/uploads/2022/05/scr_teher_teheratado-felulet-1.png)
 
 <!-- /wp:image -->
 
@@ -446,7 +446,7 @@ Lehetőség van **teherátadó felületek csoportos elhelyezésére** (![](./img
 
 <!-- wp:image {"align":"center","id":35979,"width":768,"height":368,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2022-05-scr_teher_teheratado-felulet_csoportos-1024x491.png)](https://consteelsoftware.com/wp-content/uploads/2022/05/scr_teher_teheratado-felulet_csoportos.png)
+[![](./img/wp-content-uploads-2022-05-scr_teher_teheratado-felulet_csoportos-1024x491.png)](https://Consteelsoftware.com/wp-content/uploads/2022/05/scr_teher_teheratado-felulet_csoportos.png)
 
 <!-- /wp:image -->
 
@@ -474,7 +474,7 @@ Teherátadó felületre elhelyezett terheknek két megjelenítési opciója van:
 
 <!-- wp:image {"align":"center","id":10115,"width":479,"height":278,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/7-4-Visibility-options_1.jpg)](./img/wp-content-uploads-2021-04-7-4-Visibility-options_1.jpg)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/7-4-Visibility-options_1.jpg)](./img/wp-content-uploads-2021-04-7-4-Visibility-options_1.jpg)
 
 <!-- /wp:image -->
 
@@ -484,7 +484,7 @@ Teherátadó felületre elhelyezett terheknek két megjelenítési opciója van:
 
 <!-- wp:image {"align":"center","id":10121,"width":501,"height":278,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/7-4-Visibility-options_2.jpg)](./img/wp-content-uploads-2021-04-7-4-Visibility-options_2.jpg)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/7-4-Visibility-options_2.jpg)](./img/wp-content-uploads-2021-04-7-4-Visibility-options_2.jpg)
 
 <!-- /wp:image -->
 
@@ -500,7 +500,7 @@ A nézetek között a grafikus szimbólumok láthatósága opció Szétosztott f
 
 <!-- wp:image {"align":"center","id":10127,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/7-4-Visibility-settings.png)](./img/wp-content-uploads-2021-04-7-4-Visibility-settings.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/7-4-Visibility-settings.png)](./img/wp-content-uploads-2021-04-7-4-Visibility-settings.png)
 
 <!-- /wp:image -->
 
@@ -512,7 +512,7 @@ Felületi teher szétosztása két módszer szerint történhet:
 
 <!-- wp:image {"align":"right","id":35987,"width":329,"height":131,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_teheratado_szetosztas.png)](./img/wp-content-uploads-2022-05-dial_teher_teheratado_szetosztas.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_teheratado_szetosztas.png)](./img/wp-content-uploads-2022-05-dial_teher_teheratado_szetosztas.png)
 
 <!-- /wp:image -->
 
@@ -625,7 +625,7 @@ A teherátadó felületek kijelölésével a beállítási paraméterek az Objek
 
 <!-- wp:image {"align":"center","id":35995,"width":230,"height":91,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/05/obj_tul_teheratado.png)](./img/wp-content-uploads-2022-05-obj_tul_teheratado.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/05/obj_tul_teheratado.png)](./img/wp-content-uploads-2022-05-obj_tul_teheratado.png)
 
 <!-- /wp:image -->
 
@@ -655,13 +655,13 @@ Első lépésként ki kell választani a hőteher típusát: a keresztmetszet ma
 
 <!-- wp:image {"align":"left","id":36019,"width":390,"height":300,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_ho_rud_magassag.png)](./img/wp-content-uploads-2022-05-dial_teher_ho_rud_magassag.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_ho_rud_magassag.png)](./img/wp-content-uploads-2022-05-dial_teher_ho_rud_magassag.png)
 
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"right","id":36011,"width":390,"height":299,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_ho_rud_szelesseg.png)](./img/wp-content-uploads-2022-05-dial_teher_ho_rud_szelesseg.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_ho_rud_szelesseg.png)](./img/wp-content-uploads-2022-05-dial_teher_ho_rud_szelesseg.png)
 
 <!-- /wp:image -->
 
@@ -671,7 +671,7 @@ Első lépésként ki kell választani a hőteher típusát: a keresztmetszet ma
 
 <!-- wp:image {"align":"center","id":36003,"width":365,"height":220,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_ho_felulet.png)](./img/wp-content-uploads-2022-05-dial_teher_ho_felulet.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_ho_felulet.png)](./img/wp-content-uploads-2022-05-dial_teher_ho_felulet.png)
 
 <!-- /wp:image -->
 
@@ -729,7 +729,7 @@ A Hosszváltozás (![](./img/wp-content-uploads-2021-04-cmd_load_dL.png)) funkci
 
 <!-- wp:image {"align":"center","id":36036,"width":371,"height":158,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_hosszvaltozas.png)](https://www.consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_hosszvaltozas.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_hosszvaltozas.png)](https://www.Consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_hosszvaltozas.png)
 
 <!-- /wp:image -->
 
@@ -747,7 +747,7 @@ A Feszítőerő (![](./img/wp-content-uploads-2021-04-cmd_load_tensi.png)) funkc
 
 <!-- wp:image {"align":"center","id":36028,"width":359,"height":164,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_feszites.png)](./img/wp-content-uploads-2022-05-dial_teher_feszites.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_feszites.png)](./img/wp-content-uploads-2022-05-dial_teher_feszites.png)
 
 <!-- /wp:image -->
 

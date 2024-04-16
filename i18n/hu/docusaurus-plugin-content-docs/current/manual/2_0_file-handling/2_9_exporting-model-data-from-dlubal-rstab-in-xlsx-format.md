@@ -17,7 +17,7 @@ Kattintson a **Fájl** menü **Export** funkciójára, és válassza a **Microso
 
 <!-- wp:image {"align":"center","id":7648,"width":619,"height":398,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/3-8-Dlubal-export-dialog-1.png)](./img/wp-content-uploads-2021-04-3-8-Dlubal-export-dialog-1.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/3-8-Dlubal-export-dialog-1.png)](./img/wp-content-uploads-2021-04-3-8-Dlubal-export-dialog-1.png)
 
 <!-- /wp:image -->
 
@@ -29,7 +29,7 @@ Az **OK** gomb megnyomása után az **Export beállítások** dialóg jelenik me
 
 <!-- wp:image {"align":"center","id":7654,"width":333,"height":366,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/3-8-Dlubal-export-dialog-2.png)](./img/wp-content-uploads-2021-04-3-8-Dlubal-export-dialog-2.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/3-8-Dlubal-export-dialog-2.png)](./img/wp-content-uploads-2021-04-3-8-Dlubal-export-dialog-2.png)
 
 <!-- /wp:image -->
 
@@ -47,7 +47,7 @@ A terhek exportálása manuálisan lehetséges a megnyitott Excel fájlba. A cso
 
 <!-- wp:image {"align":"center","id":7660,"width":813,"height":108,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/3-8-Dlubal-export-dialog-3.png)](./img/wp-content-uploads-2021-04-3-8-Dlubal-export-dialog-3.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/3-8-Dlubal-export-dialog-3.png)](./img/wp-content-uploads-2021-04-3-8-Dlubal-export-dialog-3.png)
 
 <!-- /wp:image -->
 
@@ -59,7 +59,7 @@ Az exportálni kívánt terhek kiválasztása után az exportálás Excel formá
 
 <!-- wp:image {"align":"center","id":7642,"width":336,"height":275,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/3-8-Dlubal-export-dialog-5.png)](./img/wp-content-uploads-2021-04-3-8-Dlubal-export-dialog-5.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/3-8-Dlubal-export-dialog-5.png)](./img/wp-content-uploads-2021-04-3-8-Dlubal-export-dialog-5.png)
 
 <!-- /wp:image -->
 

@@ -17,7 +17,7 @@ A modell adatok importálásához a _**Fájl**_ menü _**Import**_ opciójára k
 
 <!-- wp:image {"align":"center","id":32461,"width":326,"height":465,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/02/dlubal_import.png)](./img/wp-content-uploads-2022-02-dlubal_import.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/02/dlubal_import.png)](./img/wp-content-uploads-2022-02-dlubal_import.png)
 
 <!-- /wp:image -->
 
@@ -60,7 +60,7 @@ A beállítások elvégzése után a _**Rendben**_ gombra kattintva az importál
 
 <!-- wp:image {"align":"center","id":32468,"width":458,"height":502,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/02/dlubal_import_konv.png)](./img/wp-content-uploads-2022-02-dlubal_import_konv.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/02/dlubal_import_konv.png)](./img/wp-content-uploads-2022-02-dlubal_import_konv.png)
 
 <!-- /wp:image -->
 

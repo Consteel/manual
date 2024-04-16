@@ -5,7 +5,7 @@ sidebar_position: 7
 
 <!-- wp:image {"align":"center","id":34769,"width":447,"height":71,"sizeSlug":"full","linkDestination":"media","className":"is-style-default"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/04/tab_keretsarok_varazslo.png)](./img/wp-content-uploads-2022-04-tab_keretsarok_varazslo.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/04/tab_keretsarok_varazslo.png)](./img/wp-content-uploads-2022-04-tab_keretsarok_varazslo.png)
 
 <!-- /wp:image -->
 
@@ -29,7 +29,7 @@ A Keretsarok varázsló funkciói:
 
 <!-- wp:image {"align":"left","id":34777,"width":347,"height":298,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/04/dial_keretsarok.png)](./img/wp-content-uploads-2022-04-dial_keretsarok.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/04/dial_keretsarok.png)](./img/wp-content-uploads-2022-04-dial_keretsarok.png)
 
 <!-- /wp:image -->
 
@@ -83,7 +83,7 @@ Vezérlőpult
 
 <!-- wp:image {"align":"center","id":34785,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2022-04-dial_keretsarok_info-1024x507.png)](https://consteelsoftware.com/wp-content/uploads/2022/04/dial_keretsarok_info.png)
+[![](./img/wp-content-uploads-2022-04-dial_keretsarok_info-1024x507.png)](https://Consteelsoftware.com/wp-content/uploads/2022/04/dial_keretsarok_info.png)
 
 <!-- /wp:image -->
 
@@ -107,7 +107,7 @@ A bekötő szerkezeti elemek keretsarok tartományon belüli részei elkülöní
 
 <!-- wp:image {"align":"center","id":34793,"width":341,"height":264,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/04/scr_keretsarok_kiekeles.png)](./img/wp-content-uploads-2022-04-scr_keretsarok_kiekeles.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/04/scr_keretsarok_kiekeles.png)](./img/wp-content-uploads-2022-04-scr_keretsarok_kiekeles.png)
 
 <!-- /wp:image -->
 
@@ -124,7 +124,7 @@ A bekötő szerkezeti elemek keretsarok tartományon belüli részei elkülöní
 
 <!-- wp:image {"align":"center","id":8850,"width":344,"height":240,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-7-Plasic-analysis.png)](./img/wp-content-uploads-2021-04-6-7-Plasic-analysis.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-7-Plasic-analysis.png)](./img/wp-content-uploads-2021-04-6-7-Plasic-analysis.png)
 
 <!-- /wp:image -->
 
@@ -136,7 +136,7 @@ A bekötő szerkezeti elemek keretsarok tartományon belüli részei elkülöní
 
 <!-- wp:image {"align":"center","id":8857,"width":383,"height":275,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-7-Global-checks.png)](./img/wp-content-uploads-2021-04-6-7-Global-checks.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-7-Global-checks.png)](./img/wp-content-uploads-2021-04-6-7-Global-checks.png)
 
 <!-- /wp:image -->
 

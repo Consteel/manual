@@ -18,7 +18,7 @@ A Consteelben készített dokumentációk _.docx_ formátumú, szerkeszthető Wo
 
 <!-- wp:image {"align":"center","id":37834,"width":344,"height":203,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_dokument_export.png)](./img/wp-content-uploads-2022-06-scr_dokument_export.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/scr_dokument_export.png)](./img/wp-content-uploads-2022-06-scr_dokument_export.png)
 
 <!-- /wp:image -->
 
@@ -34,7 +34,7 @@ A **Microsoft Word** funkció kiválasztása után a **Dokumentáció exportál�
 
 <!-- wp:image {"align":"center","id":37826,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_dokument_export_2.png)](./img/wp-content-uploads-2022-06-scr_dokument_export_2.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/scr_dokument_export_2.png)](./img/wp-content-uploads-2022-06-scr_dokument_export_2.png)
 
 <!-- /wp:image -->
 
@@ -60,7 +60,7 @@ Az exportált dokumentum első alkalommal való megnyitásakor a tartalomjegyzé
 
 <!-- wp:image {"align":"center","id":37818,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_dokument_export_3.png)](./img/wp-content-uploads-2022-06-scr_dokument_export_3.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/scr_dokument_export_3.png)](./img/wp-content-uploads-2022-06-scr_dokument_export_3.png)
 
 <!-- /wp:image -->
 
@@ -112,7 +112,7 @@ A módosítások elvégzése után a **Fájl – Mentés másként** opciót has
 
 <!-- wp:image {"align":"center","id":37810,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_dokument_export_word_sablon.png)](./img/wp-content-uploads-2022-06-scr_dokument_export_word_sablon.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/scr_dokument_export_word_sablon.png)](./img/wp-content-uploads-2022-06-scr_dokument_export_word_sablon.png)
 
 <!-- /wp:image -->
 

@@ -54,7 +54,7 @@ A 7SZF elem speciálisan olyan vékonyfalú rudakhoz került kifejlesztésre, ah
 
 <!-- wp:image {"align":"center","id":10668,"width":700,"height":462,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](./img/wp-content-uploads-2021-04-8-2-2-LINE-ELEMENTS-1024x677.jpg)](https://consteelsoftware.com/wp-content/uploads/2021/04/8-2-2-LINE-ELEMENTS.jpg)
+[![](./img/wp-content-uploads-2021-04-8-2-2-LINE-ELEMENTS-1024x677.jpg)](https://Consteelsoftware.com/wp-content/uploads/2021/04/8-2-2-LINE-ELEMENTS.jpg)
 
 <!-- /wp:image -->
 
@@ -66,7 +66,7 @@ Az első 6 SZF a hagyományos elmozdulásokat (Ux, Uy, Uz) és elfordulásokat (
 
 <!-- wp:image {"align":"center","id":10686,"width":700,"height":470,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](./img/wp-content-uploads-2021-04-8-2-2-LINE-ELEMENTS.2-1024x771.jpg)](https://consteelsoftware.com/wp-content/uploads/2021/04/8-2-2-LINE-ELEMENTS.2.jpg)
+[![](./img/wp-content-uploads-2021-04-8-2-2-LINE-ELEMENTS.2-1024x771.jpg)](https://Consteelsoftware.com/wp-content/uploads/2021/04/8-2-2-LINE-ELEMENTS.2.jpg)
 
 <!-- /wp:image -->
 

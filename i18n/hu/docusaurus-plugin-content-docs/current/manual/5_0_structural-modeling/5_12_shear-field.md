@@ -50,7 +50,7 @@ $$S=\dfrac{F}{e} \quad [kN/mm]$$
 
 <!-- wp:image {"align":"center","id":9067,"width":466,"height":405,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-11-Shear-stiffness.png)](./img/wp-content-uploads-2021-04-6-11-Shear-stiffness.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-11-Shear-stiffness.png)](./img/wp-content-uploads-2021-04-6-11-Shear-stiffness.png)
 
 Nyírási mező deformációja adott erőre \[1]
 
@@ -70,7 +70,7 @@ A nyírási rugalmasságot és nyírási merevséget legtöbbször trapézlemeze
 
 <!-- wp:image {"align":"center","id":9073,"width":413,"height":110,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-11-Deformation-of-the-profile.png)](./img/wp-content-uploads-2021-04-6-11-Deformation-of-the-profile.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-11-Deformation-of-the-profile.png)](./img/wp-content-uploads-2021-04-6-11-Deformation-of-the-profile.png)
 
 <!-- /wp:image -->
 
@@ -82,7 +82,7 @@ A nyírási rugalmasságot és nyírási merevséget legtöbbször trapézlemeze
 
 <!-- wp:image {"align":"center","id":9079,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-11-Shear-deformation-in-the-sheet.png)](./img/wp-content-uploads-2021-04-6-11-Shear-deformation-in-the-sheet.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-11-Shear-deformation-in-the-sheet.png)](./img/wp-content-uploads-2021-04-6-11-Shear-deformation-in-the-sheet.png)
 
 <!-- /wp:image -->
 
@@ -98,7 +98,7 @@ A nyírási rugalmasságot és nyírási merevséget legtöbbször trapézlemeze
 
 <!-- wp:image {"align":"right","id":9085,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-11-Slip-of-the-fastening-elements_1.png)](./img/wp-content-uploads-2021-04-6-11-Slip-of-the-fastening-elements_1.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-11-Slip-of-the-fastening-elements_1.png)](./img/wp-content-uploads-2021-04-6-11-Slip-of-the-fastening-elements_1.png)
 
 <!-- /wp:image -->
 
@@ -112,7 +112,7 @@ A nyírási rugalmasságot és nyírási merevséget legtöbbször trapézlemeze
 
 <!-- wp:image {"align":"left","id":9091,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-11-Slip-of-the-fastening-elements_2.png)](./img/wp-content-uploads-2021-04-6-11-Slip-of-the-fastening-elements_2.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-11-Slip-of-the-fastening-elements_2.png)](./img/wp-content-uploads-2021-04-6-11-Slip-of-the-fastening-elements_2.png)
 
 <!-- /wp:image -->
 
@@ -128,7 +128,7 @@ A nyírási rugalmasságot és nyírási merevséget legtöbbször trapézlemeze
 
 <!-- wp:image {"align":"center","id":9097,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-11-Displacement-of-the-connections.png)](./img/wp-content-uploads-2021-04-6-11-Displacement-of-the-connections.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-11-Displacement-of-the-connections.png)](./img/wp-content-uploads-2021-04-6-11-Displacement-of-the-connections.png)
 
 <!-- /wp:image -->
 
@@ -140,7 +140,7 @@ A nyírási rugalmasságot és nyírási merevséget legtöbbször trapézlemeze
 
 <!-- wp:image {"align":"center","id":9103,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-11-Displacement-of-the-beam-purlin-connection.png)](./img/wp-content-uploads-2021-04-6-11-Displacement-of-the-beam-purlin-connection.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-11-Displacement-of-the-beam-purlin-connection.png)](./img/wp-content-uploads-2021-04-6-11-Displacement-of-the-beam-purlin-connection.png)
 
 <!-- /wp:image -->
 
@@ -152,7 +152,7 @@ A nyírási rugalmasságot és nyírási merevséget legtöbbször trapézlemeze
 
 <!-- wp:image {"align":"center","id":9109,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-11-Axial-deformation-in-the-longitudinal-edge-members.png)](./img/wp-content-uploads-2021-04-6-11-Axial-deformation-in-the-longitudinal-edge-members.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-11-Axial-deformation-in-the-longitudinal-edge-members.png)](./img/wp-content-uploads-2021-04-6-11-Axial-deformation-in-the-longitudinal-edge-members.png)
 
 <!-- /wp:image -->
 
@@ -265,7 +265,7 @@ A **K1** és **K2** értékeket a trapézlemez gyártók egyedileg határozzák 
 
 <!-- wp:image {"align":"center","id":13640,"width":290,"height":539,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/img_shearfield_explan.png)](./img/wp-content-uploads-2021-04-img_shearfield_explan.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/img_shearfield_explan.png)](./img/wp-content-uploads-2021-04-img_shearfield_explan.png)
 
 <!-- /wp:image -->
 
@@ -491,7 +491,7 @@ A meghatározott S értékek (4) abban az esetben érvényesek, ha a trapézleme
 
 <!-- wp:image {"align":"right","id":35140,"width":392,"height":530,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/04/dial_nyirasi_mezo_def.png)](./img/wp-content-uploads-2022-04-dial_nyirasi_mezo_def.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/04/dial_nyirasi_mezo_def.png)](./img/wp-content-uploads-2022-04-dial_nyirasi_mezo_def.png)
 
 <!-- /wp:image -->
 
@@ -521,7 +521,7 @@ A nyírási mező beállításait részletező dialóg az alábbi ikonnal ![](./
 
 <!-- wp:image {"align":"right","id":9125,"width":215,"height":268,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-11-Select-section-point.png)](./img/wp-content-uploads-2021-04-6-11-Select-section-point.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-11-Select-section-point.png)](./img/wp-content-uploads-2021-04-6-11-Select-section-point.png)
 
 <!-- /wp:image -->
 
@@ -561,7 +561,7 @@ A ![](./img/wp-content-uploads-2021-04-3dots-button.png) ikonra kattintva felugr
 
 <!-- wp:image {"align":"right","id":9131,"width":333,"height":269,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-11-Shear-field.jpg)](./img/wp-content-uploads-2021-04-6-11-Shear-field.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-11-Shear-field.jpg)](./img/wp-content-uploads-2021-04-6-11-Shear-field.jpg)
 
 <!-- /wp:image -->
 
@@ -602,7 +602,7 @@ A ![](./img/wp-content-uploads-2021-04-3dots-button.png) ikonra kattintva felugr
 
 <!-- wp:image {"align":"right","id":35148,"width":510,"height":350,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/04/dial_nyirasi_mezo_szamitas.png)](./img/wp-content-uploads-2022-04-dial_nyirasi_mezo_szamitas.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/04/dial_nyirasi_mezo_szamitas.png)](./img/wp-content-uploads-2022-04-dial_nyirasi_mezo_szamitas.png)
 
 <!-- /wp:image -->
 
@@ -614,7 +614,7 @@ Az ablak bal alsó sarkában az **Új** gombra kattintva létrehozhatunk egy új
 
 <!-- wp:image {"align":"right","id":35156,"width":512,"height":266,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2022-04-dial_nyirasi_mezo_szelvenyek-1024x532.png)](https://consteelsoftware.com/wp-content/uploads/2022/04/dial_nyirasi_mezo_szelvenyek.png)
+[![](./img/wp-content-uploads-2022-04-dial_nyirasi_mezo_szelvenyek-1024x532.png)](https://Consteelsoftware.com/wp-content/uploads/2022/04/dial_nyirasi_mezo_szelvenyek.png)
 
 <!-- /wp:image -->
 
@@ -675,7 +675,7 @@ A szelvény betöltését követően a további paraméterek megadása szükség
 
 <!-- wp:image {"align":"right","id":35164,"width":227,"height":336,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/04/dial_nyirasi_mezo_makro.png)](./img/wp-content-uploads-2022-04-dial_nyirasi_mezo_makro.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/04/dial_nyirasi_mezo_makro.png)](./img/wp-content-uploads-2022-04-dial_nyirasi_mezo_makro.png)
 
 <!-- /wp:image -->
 

@@ -10,7 +10,7 @@ Modellezés közben szükséges lehet távolságok, szögek megmérése. A _**M�
 
 <!-- wp:image {"align":"center","id":32937,"width":566,"height":73,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/02/func_meres.png)](./img/wp-content-uploads-2022-02-func_meres.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/02/func_meres.png)](./img/wp-content-uploads-2022-02-func_meres.png)
 
 <!-- /wp:image -->
 
@@ -22,7 +22,7 @@ A mérési funkciók a az alábbi, felugró ablakon érhetőek el:
 
 <!-- wp:image {"align":"center","id":32952,"width":359,"height":177,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/02/meres.png)](./img/wp-content-uploads-2022-02-meres.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/02/meres.png)](./img/wp-content-uploads-2022-02-meres.png)
 
 <!-- /wp:image -->
 
@@ -38,7 +38,7 @@ A mérési funkciók a az alábbi, felugró ablakon érhetőek el:
 
 <!-- wp:image {"align":"center","id":32966,"width":359,"height":178,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/02/meres_tav.png)](./img/wp-content-uploads-2022-02-meres_tav.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/02/meres_tav.png)](./img/wp-content-uploads-2022-02-meres_tav.png)
 
 <!-- /wp:image -->
 
@@ -48,7 +48,7 @@ A mérési funkciók a az alábbi, felugró ablakon érhetőek el:
 
 <!-- wp:image {"align":"center","id":32982,"width":338,"height":171,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/02/meres_tav_pl.png)](./img/wp-content-uploads-2022-02-meres_tav_pl.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/02/meres_tav_pl.png)](./img/wp-content-uploads-2022-02-meres_tav_pl.png)
 
 <!-- /wp:image -->
 
@@ -68,7 +68,7 @@ A mérési funkciók a az alábbi, felugró ablakon érhetőek el:
 
 <!-- wp:image {"align":"center","id":32990,"width":358,"height":177,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/02/meres_szog.png)](./img/wp-content-uploads-2022-02-meres_szog.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/02/meres_szog.png)](./img/wp-content-uploads-2022-02-meres_szog.png)
 
 <!-- /wp:image -->
 
@@ -78,7 +78,7 @@ A mérési funkciók a az alábbi, felugró ablakon érhetőek el:
 
 <!-- wp:image {"align":"center","id":32997,"width":311,"height":190,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/02/meres_szog_pl.png)](./img/wp-content-uploads-2022-02-meres_szog_pl.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/02/meres_szog_pl.png)](./img/wp-content-uploads-2022-02-meres_szog_pl.png)
 
 <!-- /wp:image -->
 
@@ -98,7 +98,7 @@ A mérési funkciók a az alábbi, felugró ablakon érhetőek el:
 
 <!-- wp:image {"align":"center","id":33014,"width":359,"height":176,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/02/meres_info.png)](./img/wp-content-uploads-2022-02-meres_info.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/02/meres_info.png)](./img/wp-content-uploads-2022-02-meres_info.png)
 
 <!-- /wp:image -->
 
@@ -108,7 +108,7 @@ A mérési funkciók a az alábbi, felugró ablakon érhetőek el:
 
 <!-- wp:image {"align":"center","id":33021,"width":348,"height":176,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/02/meres_info_pl.png)](./img/wp-content-uploads-2022-02-meres_info_pl.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/02/meres_info_pl.png)](./img/wp-content-uploads-2022-02-meres_info_pl.png)
 
 <!-- /wp:image -->
 

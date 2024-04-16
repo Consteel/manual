@@ -11,7 +11,7 @@ sidebar_position: 1
 
 <!-- wp:image {"align":"center","id":37462,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/06/cmd_szelveny_parancs_EPS.png)](./img/wp-content-uploads-2022-06-cmd_szelveny_parancs_EPS.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/cmd_szelveny_parancs_EPS.png)](./img/wp-content-uploads-2022-06-cmd_szelveny_parancs_EPS.png)
 
 <!-- /wp:image -->
 
@@ -27,7 +27,7 @@ A _**Vékonyfalú Szelvénymodell** (Elastic Plate Segment - **EPS**)_ egy véko
 
 <!-- wp:image {"align":"center","id":8471,"width":195,"height":372,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/11-3-eps-model2.jpg)](./img/wp-content-uploads-2021-04-11-3-eps-model2.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/11-3-eps-model2.jpg)](./img/wp-content-uploads-2021-04-11-3-eps-model2.jpg)
 
 <!-- /wp:image -->
 
@@ -37,7 +37,7 @@ A _**Vékonyfalú Szelvénymodell** (Elastic Plate Segment - **EPS**)_ egy véko
 
 <!-- wp:image {"align":"center","id":8477,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/11-3-eps-model3.png)](./img/wp-content-uploads-2021-04-11-3-eps-model3.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/11-3-eps-model3.png)](./img/wp-content-uploads-2021-04-11-3-eps-model3.png)
 
 <!-- /wp:image -->
 
@@ -47,7 +47,7 @@ A _**Vékonyfalú Szelvénymodell** (Elastic Plate Segment - **EPS**)_ egy véko
 
 <!-- wp:image {"align":"center","id":8483,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/11-3-eps-model4.png)](./img/wp-content-uploads-2021-04-11-3-eps-model4.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/11-3-eps-model4.png)](./img/wp-content-uploads-2021-04-11-3-eps-model4.png)
 
 <!-- /wp:image -->
 
@@ -57,7 +57,7 @@ A _**Vékonyfalú Szelvénymodell** (Elastic Plate Segment - **EPS**)_ egy véko
 
 <!-- wp:image {"id":37478,"width":1024,"height":561,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2022-06-scr_szelveny_EPS_feszultseg-1024x561.png)](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_szelveny_EPS_feszultseg.png)
+[![](./img/wp-content-uploads-2022-06-scr_szelveny_EPS_feszultseg-1024x561.png)](https://Consteelsoftware.com/wp-content/uploads/2022/06/scr_szelveny_EPS_feszultseg.png)
 
 <!-- /wp:image -->
 
@@ -73,7 +73,7 @@ A _**Vékonyfalú Szelvénymodell** (Elastic Plate Segment - **EPS**)_ egy véko
 
 <!-- wp:image {"id":37470,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/06/cmd_szelveny_parancs_GSS.png)](./img/wp-content-uploads-2022-06-cmd_szelveny_parancs_GSS.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/cmd_szelveny_parancs_GSS.png)](./img/wp-content-uploads-2022-06-cmd_szelveny_parancs_GSS.png)
 
 <!-- /wp:image -->
 
@@ -93,7 +93,7 @@ Az _**Általános Szelvénymodell** (General Solid Section_ - _**GSS**)_ tetsző
 
 <!-- wp:image {"id":8502,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/11-3-2-gss-model.jpg)](./img/wp-content-uploads-2021-04-11-3-2-gss-model.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/11-3-2-gss-model.jpg)](./img/wp-content-uploads-2021-04-11-3-2-gss-model.jpg)
 
 <!-- /wp:image -->
 

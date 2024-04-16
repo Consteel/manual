@@ -17,6 +17,6 @@ A dokumentáció előállítása a **Dokumentálás** menüparanccsal indíthat�
 
 <!-- wp:image {"align":"center","id":37572,"width":768,"height":398,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2022-06-scr_szelveny_doku-1-1024x530.png)](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_szelveny_doku-1.png)
+[![](./img/wp-content-uploads-2022-06-scr_szelveny_doku-1-1024x530.png)](https://Consteelsoftware.com/wp-content/uploads/2022/06/scr_szelveny_doku-1.png)
 
 <!-- /wp:image -->

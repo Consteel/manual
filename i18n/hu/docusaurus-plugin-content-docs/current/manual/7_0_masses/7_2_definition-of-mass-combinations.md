@@ -23,6 +23,6 @@ Tömegkombinációk megadása funkció (![](./img/wp-content-uploads-2021-04-cmd
 
 <!-- wp:image {"align":"center","id":36402,"width":768,"height":446,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2022-05-dial_tomegkombinaciok-1024x595.png)](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_tomegkombinaciok.png)
+[![](./img/wp-content-uploads-2022-05-dial_tomegkombinaciok-1024x595.png)](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_tomegkombinaciok.png)
 
 <!-- /wp:image -->

@@ -10,13 +10,13 @@ A modell dokumentálásakor lényeges, hogy a szerkezet méretei dokumentálhat�
 
 <!-- wp:image {"align":"center","id":32802,"width":647,"height":79,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/02/func_meretvonal_elhelyezes.png)](./img/wp-content-uploads-2022-02-func_meretvonal_elhelyezes.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/02/func_meretvonal_elhelyezes.png)](./img/wp-content-uploads-2022-02-func_meretvonal_elhelyezes.png)
 
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"right","id":32809,"width":359,"height":152,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/02/meretvonal_vetuleti.png)](./img/wp-content-uploads-2022-02-meretvonal_vetuleti.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/02/meretvonal_vetuleti.png)](./img/wp-content-uploads-2022-02-meretvonal_vetuleti.png)
 
 <!-- /wp:image -->
 
@@ -49,7 +49,7 @@ _Lehetőségek_:
 
 <!-- wp:image {"align":"center","id":7862,"width":535,"height":417,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/4-6-Dim-proj-pic.png)](./img/wp-content-uploads-2021-04-4-6-Dim-proj-pic.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/4-6-Dim-proj-pic.png)](./img/wp-content-uploads-2021-04-4-6-Dim-proj-pic.png)
 
 <!-- /wp:image -->
 
@@ -61,7 +61,7 @@ _Lehetőségek_:
 
 <!-- wp:image {"align":"center","id":7874,"width":425,"height":350,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/4-6-Dim-length-pic.jpg)](./img/wp-content-uploads-2021-04-4-6-Dim-length-pic.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/4-6-Dim-length-pic.jpg)](./img/wp-content-uploads-2021-04-4-6-Dim-length-pic.jpg)
 
 <!-- /wp:image -->
 
@@ -122,7 +122,7 @@ Az **Alapvonal** paraméterrel a modell globális Z=0 síkjának a magassági é
 
 <!-- wp:image {"align":"center","id":32816,"width":512,"height":359,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](./img/wp-content-uploads-2022-02-meretvonal_magassag-1024x717.png)](https://consteelsoftware.com/wp-content/uploads/2022/02/meretvonal_magassag.png)
+[![](./img/wp-content-uploads-2022-02-meretvonal_magassag-1024x717.png)](https://Consteelsoftware.com/wp-content/uploads/2022/02/meretvonal_magassag.png)
 
 <!-- /wp:image -->
 
@@ -134,6 +134,6 @@ Az **Alapvonal** paraméterrel a modell globális Z=0 síkjának a magassági é
 
 <!-- wp:image {"align":"center","id":32825,"width":493,"height":371,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/02/meretvonal_szoveg.png)](./img/wp-content-uploads-2022-02-meretvonal_szoveg.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/02/meretvonal_szoveg.png)](./img/wp-content-uploads-2022-02-meretvonal_szoveg.png)
 
 <!-- /wp:image -->

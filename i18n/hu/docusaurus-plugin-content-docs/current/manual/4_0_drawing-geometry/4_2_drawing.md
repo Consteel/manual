@@ -11,13 +11,13 @@ A rajzolás funkciói a _**Geometria**_ fülön találhatóak.
 
 <!-- wp:image {"id":33362,"width":90,"height":56,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2022-02-tab_geom_hu-edited.png)](https://consteelsoftware.com/wp-content/uploads/2022/01/tab_geom_hu.png)
+[![](./img/wp-content-uploads-2022-02-tab_geom_hu-edited.png)](https://Consteelsoftware.com/wp-content/uploads/2022/01/tab_geom_hu.png)
 
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"right","id":33392,"width":239,"height":102,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/02/dial_rajzolas_vonal.png)](./img/wp-content-uploads-2022-02-dial_rajzolas_vonal.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/02/dial_rajzolas_vonal.png)](./img/wp-content-uploads-2022-02-dial_rajzolas_vonal.png)
 
 <!-- /wp:image -->
 
@@ -41,7 +41,7 @@ A rajzolás funkciói a _**Geometria**_ fülön találhatóak.
 
 <!-- wp:image {"align":"right","id":33385,"width":239,"height":101,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/02/dial_rajzolas_teglalap.png)](./img/wp-content-uploads-2022-02-dial_rajzolas_teglalap.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/02/dial_rajzolas_teglalap.png)](./img/wp-content-uploads-2022-02-dial_rajzolas_teglalap.png)
 
 <!-- /wp:image -->
 
@@ -65,7 +65,7 @@ A rajzolás funkciói a _**Geometria**_ fülön találhatóak.
 
 <!-- wp:image {"align":"right","id":33378,"width":239,"height":101,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/02/dial_rajzolas_kor.png)](./img/wp-content-uploads-2022-02-dial_rajzolas_kor.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/02/dial_rajzolas_kor.png)](./img/wp-content-uploads-2022-02-dial_rajzolas_kor.png)
 
 <!-- /wp:image -->
 
@@ -101,7 +101,7 @@ A rajzolás funkciói a _**Geometria**_ fülön találhatóak.
 
 <!-- wp:image {"align":"right","id":33371,"width":239,"height":101,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/02/dial_rajzolas_iv.png)](./img/wp-content-uploads-2022-02-dial_rajzolas_iv.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/02/dial_rajzolas_iv.png)](./img/wp-content-uploads-2022-02-dial_rajzolas_iv.png)
 
 <!-- /wp:image -->
 
@@ -131,7 +131,7 @@ Az ívek létrehozhatók az aktuális _FKR_ síkján kívül is.
 
 <!-- wp:image {"align":"right","id":33399,"width":359,"height":152,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/02/dial_sikidom_szerkesztes.png)](./img/wp-content-uploads-2022-02-dial_sikidom_szerkesztes.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/02/dial_sikidom_szerkesztes.png)](./img/wp-content-uploads-2022-02-dial_sikidom_szerkesztes.png)
 
 <!-- /wp:image -->
 

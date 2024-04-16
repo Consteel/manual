@@ -3,9 +3,9 @@ sidebar_position: 1
 ---
 # A szoftver telepítése és futtatása
 
-<!-- wp:consteel/content-block -->
+<!-- wp:Consteel/content-block -->
 
-<!-- /wp:consteel/content-block -->
+<!-- /wp:Consteel/content-block -->
 
 <!-- wp:paragraph -->
 
@@ -147,7 +147,7 @@ A **_Fiók létrehozása_** ablakban meg kell adni a felhasználó e-mail címé
 
 <!-- wp:image {"align":"left","id":30830,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/01/honlap_login.png)](./img/wp-content-uploads-2022-01-honlap_login.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/01/honlap_login.png)](./img/wp-content-uploads-2022-01-honlap_login.png)
 
 <!-- /wp:image -->
 
@@ -193,7 +193,7 @@ Hálózatos licensz vásárlása esetén a program használatához szükséges h
 
 <!-- wp:image {"align":"left","id":30886,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/01/telepito_03_02.png)](./img/wp-content-uploads-2022-01-telepito_03_02.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/01/telepito_03_02.png)](./img/wp-content-uploads-2022-01-telepito_03_02.png)
 
 <!-- /wp:image -->
 
@@ -236,7 +236,7 @@ Ezt a beállítást el lehet menteni alapértelmezett beállításként. **Ezt c
 
 <!-- wp:paragraph -->
 
-Diákok, tanárok és próba verziót használók csak online licenszt igényelhetnek. Próba licensz igénylésének menete [itt olvasható](https://consteelsoftware.com/hu/how-licensing-works/#trialuserhun), oktatási verzióval kapcsolatban pedig [ebben a leírásban tájékozódhatsz](https://consteelsoftware.com/hu/diak-es-oktatas/).
+Diákok, tanárok és próba verziót használók csak online licenszt igényelhetnek. Próba licensz igénylésének menete [itt olvasható](https://Consteelsoftware.com/hu/how-licensing-works/#trialuserhun), oktatási verzióval kapcsolatban pedig [ebben a leírásban tájékozódhatsz](https://Consteelsoftware.com/hu/diak-es-oktatas/).
 
 <!-- /wp:paragraph -->
 
@@ -246,7 +246,7 @@ Diákok, tanárok és próba verziót használók csak online licenszt igényelh
 
 <!-- wp:image {"align":"right","id":30914,"sizeSlug":"medium","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/01/vedelem_valaszt_USB-1-269x300.png)](./img/wp-content-uploads-2022-01-vedelem_valaszt_USB-1-269x300.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/01/vedelem_valaszt_USB-1-269x300.png)](./img/wp-content-uploads-2022-01-vedelem_valaszt_USB-1-269x300.png)
 
 Hardware key dongle
 
@@ -258,7 +258,7 @@ Hardware key dongle
 
 <!-- wp:image {"align":"left","id":30921,"sizeSlug":"medium","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/01/vedelem_valaszt_online-1-269x300.png)](./img/wp-content-uploads-2022-01-vedelem_valaszt_online-1-269x300.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/01/vedelem_valaszt_online-1-269x300.png)](./img/wp-content-uploads-2022-01-vedelem_valaszt_online-1-269x300.png)
 
 Online license
 
@@ -298,7 +298,7 @@ Ha az indítás után a Consteel nem találja a számítógéphez (vagy a háló
 
 <!-- wp:paragraph -->
 
-A Consteel online védelemmel való használatához be kell jelentkezned online fiókoddal. Ha személyes előfizetéssel (**Personal plan**) rendelkezel, a szabad hely kiválasztása után azonnal indítható a Consteelt. Csapat előfizetésben (**Team plan**) minden _**szoftver helyhez**_ (_**seat**_) alapértelmezés szerint két szoftver **_hozzáférés_** (_**access**_) tartozik, de igény esetén további hozzáférés is kérhető felár ellenében. Csapat előfizetés használatakor ezért különböző szoftver helyek közül választhatsz, attól függően, hogy a licensz tulajdonosa hány helyhez adott hozzáférést. Előfizetési csomagokkal és tagsági szintekkel kapcsolatos fogalmak magyarázata az **_[Ajánlatok és csomagok](https://consteelsoftware.com/hu/termekek/ajanlatok-csomagok/#ccm)_** oldalon olvashatók. Hozzáférések adminisztrációjával kapcsolatos további információkért [kattints ide](#csomag-és-felhasználó-menedzsment).
+A Consteel online védelemmel való használatához be kell jelentkezned online fiókoddal. Ha személyes előfizetéssel (**Personal plan**) rendelkezel, a szabad hely kiválasztása után azonnal indítható a Consteelt. Csapat előfizetésben (**Team plan**) minden _**szoftver helyhez**_ (_**seat**_) alapértelmezés szerint két szoftver **_hozzáférés_** (_**access**_) tartozik, de igény esetén további hozzáférés is kérhető felár ellenében. Csapat előfizetés használatakor ezért különböző szoftver helyek közül választhatsz, attól függően, hogy a licensz tulajdonosa hány helyhez adott hozzáférést. Előfizetési csomagokkal és tagsági szintekkel kapcsolatos fogalmak magyarázata az **_[Ajánlatok és csomagok](https://Consteelsoftware.com/hu/termekek/ajanlatok-csomagok/#ccm)_** oldalon olvashatók. Hozzáférések adminisztrációjával kapcsolatos további információkért [kattints ide](#csomag-és-felhasználó-menedzsment).
 
 <!-- /wp:paragraph -->
 
@@ -328,13 +328,13 @@ Ha a Consteel nem talált elérhető szoftver helyet, a megjelenő link segíts�
 
 <!-- wp:paragraph -->
 
-[Fordulj hozzánk](https://consteelsoftware.com/hu/kapcsolat/), ha további segítségre van szükséged!
+[Fordulj hozzánk](https://Consteelsoftware.com/hu/kapcsolat/), ha további segítségre van szükséged!
 
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":28185,"width":464,"height":381,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/11/seat_selection.png)](./img/wp-content-uploads-2021-11-seat_selection.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/11/seat_selection.png)](./img/wp-content-uploads-2021-11-seat_selection.png)
 
 Seat selection
 
@@ -366,7 +366,7 @@ A _Csomag és felhasználó menedzsment_ eszköz képernyője az alábbi három 
 
 <!-- wp:paragraph -->
 
-**(2)** A 'User management' szakaszban lehet felhasználókat rendelni az egyes szoftver-hozzáférésekhez. Minden szoftver-hozzáférés egy adott [Consteel Felhasználó Közösségi](https://consteelsoftware.com/hu/termekek/ajanlatok-csomagok/#ccm) tagsági szinthez kötődik. Az elérhető online szolgáltatások körét a tagsági szint határozza meg.
+**(2)** A 'User management' szakaszban lehet felhasználókat rendelni az egyes szoftver-hozzáférésekhez. Minden szoftver-hozzáférés egy adott [Consteel Felhasználó Közösségi](https://Consteelsoftware.com/hu/termekek/ajanlatok-csomagok/#ccm) tagsági szinthez kötődik. Az elérhető online szolgáltatások körét a tagsági szint határozza meg.
 
 <!-- /wp:paragraph -->
 
@@ -396,7 +396,7 @@ Már hozzárendelt felhasználó kártyáján a 3 pont ikonra kattintva át lehe
 
 <!-- wp:image {"align":"center","id":30966,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/01/online_licensemanagement_hun-1024x919.png)](./img/wp-content-uploads-2022-01-online_licensemanagement_hun-1024x919.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/01/online_licensemanagement_hun-1024x919.png)](./img/wp-content-uploads-2022-01-online_licensemanagement_hun-1024x919.png)
 
 Előfizetés és felhasználó menedzsment
 
@@ -428,7 +428,7 @@ A bal oldali menüsávban lehetőség nyílik a Kezdőlapon kívül oktatási an
 
 <!-- wp:image {"align":"center","id":45014,"width":742,"height":438,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2023/02/projectcenter_guide-1-1024x606.png)](./img/wp-content-uploads-2023-02-projectcenter_guide-1-1024x606.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2023/02/projectcenter_guide-1-1024x606.png)](./img/wp-content-uploads-2023-02-projectcenter_guide-1-1024x606.png)
 
 Projekt Központ nyitó képernyője
 
@@ -442,7 +442,7 @@ A **(3)** Licence gomb megnyomásával egy új ablak jelenik meg, ahol megtalál
 
 <!-- wp:image {"align":"center","id":45021,"width":681,"height":404,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2023/02/licence_menu_projectcenter-1-1024x608.png)](./img/wp-content-uploads-2023-02-licence_menu_projectcenter-1-1024x608.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2023/02/licence_menu_projectcenter-1-1024x608.png)](./img/wp-content-uploads-2023-02-licence_menu_projectcenter-1-1024x608.png)
 
 Licensz beállítás
 
@@ -456,13 +456,13 @@ Licensz beállítás
 
 <!-- wp:paragraph -->
 
-A második menüpontból az online [_**Tudásbázis**_](https://consteelsoftware.com/hu/knowledgebase/) különböző cikkei és példa modelljei érhetők el.
+A második menüpontból az online [_**Tudásbázis**_](https://Consteelsoftware.com/hu/knowledgebase/) különböző cikkei és példa modelljei érhetők el.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":28198,"width":730,"height":394,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](./img/wp-content-uploads-2021-11-projectcenter3-1024x576.png)](https://consteelsoftware.com/wp-content/uploads/2021/11/projectcenter3.png)
+[![](./img/wp-content-uploads-2021-11-projectcenter3-1024x576.png)](https://Consteelsoftware.com/wp-content/uploads/2021/11/projectcenter3.png)
 
 Tudásbázis
 
@@ -512,13 +512,13 @@ A kiválasztott modell vagy mappa részletes tulajdonság panelje **(3)** a kép
 
 <!-- wp:paragraph -->
 
-A modellek megnyitása és megosztása a havi adatforgalmi korlát elérésig lehetséges, ennek alakulását a bal alsó sarokban **(4)** követhetjük nyomon. A felhasználható havi adatmennyiséget a [_tagsági szint_](https://consteelsoftware.com/hu/termekek/ajanlatok-csomagok/#ccm) határozza meg, mely minden hónap elején megújul.
+A modellek megnyitása és megosztása a havi adatforgalmi korlát elérésig lehetséges, ennek alakulását a bal alsó sarokban **(4)** követhetjük nyomon. A felhasználható havi adatmennyiséget a [_tagsági szint_](https://Consteelsoftware.com/hu/termekek/ajanlatok-csomagok/#ccm) határozza meg, mely minden hónap elején megújul.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":28219,"width":768,"height":402,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/11/cloud-open-manual-1024x536.png)](./img/wp-content-uploads-2021-11-cloud-open-manual-1024x536.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/11/cloud-open-manual-1024x536.png)](./img/wp-content-uploads-2021-11-cloud-open-manual-1024x536.png)
 
 A felhőtárhelyet a Steelspace platform biztosítja
 
@@ -526,7 +526,7 @@ A felhőtárhelyet a Steelspace platform biztosítja
 
 <!-- wp:paragraph -->
 
-A felhőtárhelyről megnyitott modellek minden esetben letöltésre kerülnek az alábbi mappába: C:\\Users\\\{username\}\\AppData\\Local\\ConSteel\\CloudModels, és a munka során folyamatosan szinkronizált kapcsolatban maradnak a felhőben tárolt változattal.
+A felhőtárhelyről megnyitott modellek minden esetben letöltésre kerülnek az alábbi mappába: C:\\Users\\\{username\}\\AppData\\Local\\Consteel\\CloudModels, és a munka során folyamatosan szinkronizált kapcsolatban maradnak a felhőben tárolt változattal.
 
 <!-- /wp:paragraph -->
 
@@ -538,7 +538,7 @@ A felhőtárhelyről megnyitott modellek minden esetben letöltésre kerülnek a
 
 <!-- wp:paragraph -->
 
-A Consteel indítása megvásárolt példány esetében hagyományos hardverkulcsos védelemmel, vagy online védelemmel történhet. Online védelemre történő áttéréshez vedd fel velünk a [kapcsolatot](https://consteelsoftware.com/hu/kapcsolat/)! Diák, oktatói vagy kipróbálási verzió esetében kizárólag az online védelem érhető el. Ezt ingyenesen lehet igényelni a regisztrált felhasználói fiókon keresztül. Próba licensz igénylésének menete [itt olvasható](https://consteelsoftware.com/hu/how-licensing-works/#trialuserhun), oktatási verzióval kapcsolatban pedig [ebben a leírásban tájékozódhatsz](https://consteelsoftware.com/hu/diak-es-oktatas/).
+A Consteel indítása megvásárolt példány esetében hagyományos hardverkulcsos védelemmel, vagy online védelemmel történhet. Online védelemre történő áttéréshez vedd fel velünk a [kapcsolatot](https://Consteelsoftware.com/hu/kapcsolat/)! Diák, oktatói vagy kipróbálási verzió esetében kizárólag az online védelem érhető el. Ezt ingyenesen lehet igényelni a regisztrált felhasználói fiókon keresztül. Próba licensz igénylésének menete [itt olvasható](https://Consteelsoftware.com/hu/how-licensing-works/#trialuserhun), oktatási verzióval kapcsolatban pedig [ebben a leírásban tájékozódhatsz](https://Consteelsoftware.com/hu/diak-es-oktatas/).
 
 <!-- /wp:paragraph -->
 
@@ -570,7 +570,7 @@ Ha nincs hozzáférésed az online védelemhez a "Belépés online fiókba" gomb
 
 <!-- wp:image {"align":"left","id":30844,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/01/inditas_v14_login.png)](./img/wp-content-uploads-2022-01-inditas_v14_login.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/01/inditas_v14_login.png)](./img/wp-content-uploads-2022-01-inditas_v14_login.png)
 
 <!-- /wp:image -->
 
@@ -586,7 +586,7 @@ A védelem ellenőrzése után az alábbi kezdőképernyő jelenik meg, amelynek
 
 <!-- wp:image {"align":"center","id":30851,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/01/inditas_v14_open_dia.png)](./img/wp-content-uploads-2022-01-inditas_v14_open_dia.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/01/inditas_v14_open_dia.png)](./img/wp-content-uploads-2022-01-inditas_v14_open_dia.png)
 
 <!-- /wp:image -->
 

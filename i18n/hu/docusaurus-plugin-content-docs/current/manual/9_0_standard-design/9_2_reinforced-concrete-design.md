@@ -16,7 +16,7 @@ A vasbeton szerkezetek tervezése a globális vizsgálatok fülről érhető el.
 
 <!-- wp:image {"id":51850,"width":430,"height":411,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![Tervezési beállítások - vasbeton](https://www.consteelsoftware.com/wp-content/uploads/2023/07/tervezes_beallitas_vasbeton-1.png)](./img/wp-content-uploads-2023-07-tervezes_beallitas_vasbeton-1.png)
+[![Tervezési beállítások - vasbeton](https://www.Consteelsoftware.com/wp-content/uploads/2023/07/tervezes_beallitas_vasbeton-1.png)](./img/wp-content-uploads-2023-07-tervezes_beallitas_vasbeton-1.png)
 
 Tervezési beállítások - vasbeton szerkezetek
 
@@ -62,7 +62,7 @@ Amennyiben a vasbeton tervezéshez szükséges bemenő adatok rendelkezésre ál
 
 <!-- wp:image {"align":"center","id":37213,"width":768,"height":497,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](./img/wp-content-uploads-2022-06-scr_tervezes_vb-1024x663.png)](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_tervezes_vb.png)
+[![](./img/wp-content-uploads-2022-06-scr_tervezes_vb-1024x663.png)](https://Consteelsoftware.com/wp-content/uploads/2022/06/scr_tervezes_vb.png)
 
 <!-- /wp:image -->
 
@@ -92,7 +92,7 @@ A vasbeton szerkezetek tervezése a globális vizsgálatok fülről érhető el.
 
 <!-- wp:image {"align":"center","id":37221,"width":442,"height":458,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/dial_tervezes_vb.png)](./img/wp-content-uploads-2022-06-dial_tervezes_vb.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/06/dial_tervezes_vb.png)](./img/wp-content-uploads-2022-06-dial_tervezes_vb.png)
 
 
 A vasbeton tervezéshez a szükséges bemenő paraméterek a következők (részletesen lásd a **_[Vasbeton keresztmetszetek](../5_0_structural-modeling/5_2_line-members.md#vasbeton-keresztmetszetek)_** fejezetben):
@@ -119,7 +119,7 @@ Amennyiben a vasbeton tervezéshez szükséges bemenő adatok rendelkezésre ál
 
 <!-- wp:image {"align":"center","id":37213,"width":768,"height":497,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](./img/wp-content-uploads-2022-06-scr_tervezes_vb-1024x663.png)](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_tervezes_vb.png)
+[![](./img/wp-content-uploads-2022-06-scr_tervezes_vb-1024x663.png)](https://Consteelsoftware.com/wp-content/uploads/2022/06/scr_tervezes_vb.png)
 
 <!-- /wp:image -->
 
@@ -186,7 +186,7 @@ A vasbeton gerenda tervezés az **Eurocode 1992-1-1** következő vizsgálatait 
 **Consteel 16**
 
 
-[![objektum_tulajdonsagok_tervezesi_parameter_oszlop](https://www.consteelsoftware.com/wp-content/uploads/2023/07/objektum_tulajdonsagok_tervezesi_parameter_oszlop-1.png)](./img/wp-content-uploads-2023-07-objektum_tulajdonsagok_tervezesi_parameter_oszlop-1.png)
+[![objektum_tulajdonsagok_tervezesi_parameter_oszlop](https://www.Consteelsoftware.com/wp-content/uploads/2023/07/objektum_tulajdonsagok_tervezesi_parameter_oszlop-1.png)](./img/wp-content-uploads-2023-07-objektum_tulajdonsagok_tervezesi_parameter_oszlop-1.png)
 
 Vasbeton oszlop objektum tulajdonságai
 
@@ -247,7 +247,7 @@ A vasbeton oszlop tervezés az **Eurocode 1992-1-1** következő vizsgálatait h
 Egy Consteel modell több vasbeton oszlop tervezési paraméterkészletet is tartalmazhat, amelyek hozzárendelhetők a vasbeton oszlopokhoz. A **Paraméter csomagok vasbeton oszlop tervezéshez** párbeszédpanel a vasbeton oszlop keresztmetszetű rúdelem tulajdonságfájában, a Tervezési paraméterek sorban, a ![](./img/wp-content-uploads-2021-04-3dots-button.png) gombra kattintva nyitható meg. A már létrehozott csomagokat a párbeszédpanel összefoglaló képernyője jeleníti meg.
 
 
-[![Vasbeton oszlop tervezési paraméterei - táblázat](https://www.consteelsoftware.com/wp-content/uploads/2023/07/tervezesi_parameter_oszlop_tablazat-1-1024x375.png)](./img/wp-content-uploads-2023-07-tervezesi_parameter_oszlop_tablazat-1-1024x375.png)
+[![Vasbeton oszlop tervezési paraméterei - táblázat](https://www.Consteelsoftware.com/wp-content/uploads/2023/07/tervezesi_parameter_oszlop_tablazat-1-1024x375.png)](./img/wp-content-uploads-2023-07-tervezesi_parameter_oszlop_tablazat-1-1024x375.png)
 
 Paraméter csomagok vasbeton oszlop tervezéshez
 
@@ -261,7 +261,7 @@ Egy csomagot a soron való dupla kattintással vagy a ![](./img/wp-content-uploa
 Először az alkalmazott tervezési módszert határozzuk meg:
 
 
-[![Vasbeton oszlop tervezési módszer](https://www.consteelsoftware.com/wp-content/uploads/2022/06/tervezesi_parameter_oszlop_tervezesi-modszer.png)](./img/wp-content-uploads-2022-06-tervezesi_parameter_oszlop_tervezesi-modszer.png)
+[![Vasbeton oszlop tervezési módszer](https://www.Consteelsoftware.com/wp-content/uploads/2022/06/tervezesi_parameter_oszlop_tervezesi-modszer.png)](./img/wp-content-uploads-2022-06-tervezesi_parameter_oszlop_tervezesi-modszer.png)
 
 Tervezési módszer kiválasztása vasbeton oszlop tervezéshez
 
@@ -272,7 +272,7 @@ A választástól függően a párbeszédpanel további bevitelt fog kérni.
 **A névleges görbületen alapuló módszer**
 
 
-[![Oszlop tervezési paraméterei - tervezési mód](https://www.consteelsoftware.com/wp-content/uploads/2023/07/tervezesi_parameter_oszlop_gorbuleti_egyedi.png)](./img/wp-content-uploads-2023-07-tervezesi_parameter_oszlop_gorbuleti_egyedi.png)
+[![Oszlop tervezési paraméterei - tervezési mód](https://www.Consteelsoftware.com/wp-content/uploads/2023/07/tervezesi_parameter_oszlop_gorbuleti_egyedi.png)](./img/wp-content-uploads-2023-07-tervezesi_parameter_oszlop_gorbuleti_egyedi.png)
 
 Névleges másodrendű hatások meghatározása vasbeton oszlop tervezéshez
 
@@ -283,7 +283,7 @@ Az automatikus opció további analízis eredményeken alapul, mint például a 
 Az egyedi érték kiválasztása akkor ajánlott, ha a tervező manuálisan kívánja szabályozni a fontos tervezési bemeneti paramétereket, mint például a kihajlási hosszakat,
 
 
-[![Oszlop tervezési paraméterei - kihajlási paraméterek](https://www.consteelsoftware.com/wp-content/uploads/2023/07/tervezesi_parameter_oszlop_megadas_egyedi_kihajlasi-1.png)](./img/wp-content-uploads-2023-07-tervezesi_parameter_oszlop_megadas_egyedi_kihajlasi-1.png)
+[![Oszlop tervezési paraméterei - kihajlási paraméterek](https://www.Consteelsoftware.com/wp-content/uploads/2023/07/tervezesi_parameter_oszlop_megadas_egyedi_kihajlasi-1.png)](./img/wp-content-uploads-2023-07-tervezesi_parameter_oszlop_megadas_egyedi_kihajlasi-1.png)
 
 Kihajlási paraméterek megadása vasbeton oszlop tervezéshez
 
@@ -291,7 +291,7 @@ Kihajlási paraméterek megadása vasbeton oszlop tervezéshez
 vagy közvetlenül szeretné meghatározni a figyelembe vett maximális görbületi érték kiszámításához szükséges paramétereket:
 
 
-[![Oszlop tervezési paraméterei - görbületi paraméterek](https://www.consteelsoftware.com/wp-content/uploads/2023/07/tervezesi_parameter_oszlop_gorbuleti_parameterek.png)](./img/wp-content-uploads-2023-07-tervezesi_parameter_oszlop_gorbuleti_parameterek.png)
+[![Oszlop tervezési paraméterei - görbületi paraméterek](https://www.Consteelsoftware.com/wp-content/uploads/2023/07/tervezesi_parameter_oszlop_gorbuleti_parameterek.png)](./img/wp-content-uploads-2023-07-tervezesi_parameter_oszlop_gorbuleti_parameterek.png)
 
 Görbületi paraméterek vasbeton oszlop tervezéshez
 
@@ -299,7 +299,7 @@ Görbületi paraméterek vasbeton oszlop tervezéshez
 Az automatikus opció nem igényel ilyen meghatározásokat. Ezenkívül opcionálisan merevségcsökkentő értékek is megadhatók.
 
 
-[![Oszlop tervezési paraméterei - merevségcsökkentés](https://www.consteelsoftware.com/wp-content/uploads/2023/07/tervezesi_parameter_oszlop_megadas_merevsegcsokkentes-1.png)](./img/wp-content-uploads-2023-07-tervezesi_parameter_oszlop_megadas_merevsegcsokkentes-1.png)
+[![Oszlop tervezési paraméterei - merevségcsökkentés](https://www.Consteelsoftware.com/wp-content/uploads/2023/07/tervezesi_parameter_oszlop_megadas_merevsegcsokkentes-1.png)](./img/wp-content-uploads-2023-07-tervezesi_parameter_oszlop_megadas_merevsegcsokkentes-1.png)
 
 Merevségcsökkentés megadása analízishez
 
@@ -325,7 +325,7 @@ Az egyik a Ks és Kc tényezők meghatározása (lásd az EN 1992-1-1 5.8.7.2. p
 
 <!-- wp:image {"align":"center","id":51895,"width":329,"height":215,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![Oszlop tervezési paraméterei - tervezési módszer - névleges másodrendű hatások - egyedi értékek](https://www.consteelsoftware.com/wp-content/uploads/2023/07/tervezesi_parameter_merevsegcsokkentes.png)](./img/wp-content-uploads-2023-07-tervezesi_parameter_merevsegcsokkentes.png)
+[![Oszlop tervezési paraméterei - tervezési módszer - névleges másodrendű hatások - egyedi értékek](https://www.Consteelsoftware.com/wp-content/uploads/2023/07/tervezesi_parameter_merevsegcsokkentes.png)](./img/wp-content-uploads-2023-07-tervezesi_parameter_merevsegcsokkentes.png)
 
 Analízishez alkalmazott merevségcsökkentés megadása
 
@@ -339,7 +339,7 @@ A másik a rúdelem Ely és Elz hajlító merevségeire alkalmazott közvetlen m
 
 <!-- wp:image {"align":"center","id":51868,"width":324,"height":221,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![Tervezési paraméterek - vasbeton gerenda - merevségcsökkentés - Közvetlen](https://www.consteelsoftware.com/wp-content/uploads/2023/07/tervezesi_parameter_gerenda_merevsegcsokkentes_kozvetlen-1.png)](./img/wp-content-uploads-2023-07-tervezesi_parameter_gerenda_merevsegcsokkentes_kozvetlen-1.png)
+[![Tervezési paraméterek - vasbeton gerenda - merevségcsökkentés - Közvetlen](https://www.Consteelsoftware.com/wp-content/uploads/2023/07/tervezesi_parameter_gerenda_merevsegcsokkentes_kozvetlen-1.png)](./img/wp-content-uploads-2023-07-tervezesi_parameter_gerenda_merevsegcsokkentes_kozvetlen-1.png)
 
 Analízishez alkalmazott merevségcsökkentés megadása
 
@@ -365,7 +365,7 @@ Az _[oszloptervezési paraméterekhez](../9_0_standard-design/9_2_reinforced-con
 
 <!-- wp:image {"align":"center","id":51886,"width":768,"height":282,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![Tervezési paraméterek - vasbeton gerenda - táblázat](https://www.consteelsoftware.com/wp-content/uploads/2023/07/tervezesi_parameter_gerenda_tablazat-1-1024x376.png)](./img/wp-content-uploads-2023-07-tervezesi_parameter_gerenda_tablazat-1-1024x376.png)
+[![Tervezési paraméterek - vasbeton gerenda - táblázat](https://www.Consteelsoftware.com/wp-content/uploads/2023/07/tervezesi_parameter_gerenda_tablazat-1-1024x376.png)](./img/wp-content-uploads-2023-07-tervezesi_parameter_gerenda_tablazat-1-1024x376.png)
 
 Tervezési paraméter csomagok vasbeton gerendákhoz
 
@@ -397,7 +397,7 @@ A párbeszédpanel hasonló az _[oszlopokéhoz](../9_0_standard-design/9_2_reinf
 
 <!-- wp:image {"id":51931,"width":336,"height":370,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![Tervezési paraméterek - vasbeton gerenda](https://www.consteelsoftware.com/wp-content/uploads/2023/07/tervezesi_parameter_gerenda_megadas-2.png)](./img/wp-content-uploads-2023-07-tervezesi_parameter_gerenda_megadas-2.png)
+[![Tervezési paraméterek - vasbeton gerenda](https://www.Consteelsoftware.com/wp-content/uploads/2023/07/tervezesi_parameter_gerenda_megadas-2.png)](./img/wp-content-uploads-2023-07-tervezesi_parameter_gerenda_megadas-2.png)
 
 Tervezési paraméterek megadása vasbeton gerenda tervezéshez
 
@@ -492,7 +492,7 @@ Amennyiben a modellben létrehozott vasbeton lemezhez az **_[Felületi elemek fe
 A számítás eredménye a lemez igénybevételei alapján számolt szükséges vasmennyiségek \[mm2/m] a főirányokban, alsó és felső pozícióra külön-külön meghatározva. A főirányok között a legördülő menü segítségével van lehetőség váltani, az eredmények kijelzése pedig szintfelületes ábrázolással történik:
 
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/10-4-rc-slab-reinf.png)](./img/wp-content-uploads-2021-04-10-4-rc-slab-reinf.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/10-4-rc-slab-reinf.png)](./img/wp-content-uploads-2021-04-10-4-rc-slab-reinf.png)
 
 <!-- /wp:image -->
 
@@ -504,7 +504,7 @@ A jobb oldalon található színpalettán jobb egérgombot kattintva annak tulaj
 
 <!-- wp:image {"align":"center","id":37197,"width":354,"height":400,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/06/scr_tervezes_vb_szinskala.png)](./img/wp-content-uploads-2022-06-scr_tervezes_vb_szinskala.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/06/scr_tervezes_vb_szinskala.png)](./img/wp-content-uploads-2022-06-scr_tervezes_vb_szinskala.png)
 
 <!-- /wp:image -->
 

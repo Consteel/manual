@@ -16,7 +16,7 @@ sidebar_position: 3
 
 <!-- wp:image {"align":"right","id":33433,"width":359,"height":197,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/02/dial_eltolas.png)](./img/wp-content-uploads-2022-02-dial_eltolas.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/02/dial_eltolas.png)](./img/wp-content-uploads-2022-02-dial_eltolas.png)
 
 <!-- /wp:image -->
 
@@ -83,7 +83,7 @@ A kiválasztott elemek, terhek és támaszok mozgatásra/másolásra kerülnek a
 
 <!-- wp:image {"align":"right","id":33449,"width":359,"height":197,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/02/dial_tukrozes.png)](./img/wp-content-uploads-2022-02-dial_tukrozes.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/02/dial_tukrozes.png)](./img/wp-content-uploads-2022-02-dial_tukrozes.png)
 
 <!-- /wp:image -->
 
@@ -113,7 +113,7 @@ A dialógon található opciók hatásai megegyeznek a mozgatás funkciónál le
 
 <!-- wp:image {"align":"right","id":33442,"width":359,"height":196,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/02/dial_forgatas.png)](./img/wp-content-uploads-2022-02-dial_forgatas.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/02/dial_forgatas.png)](./img/wp-content-uploads-2022-02-dial_forgatas.png)
 
 <!-- /wp:image -->
 
@@ -201,7 +201,7 @@ A **Változó hosszúságú részekre** opció választása esetén a szakaszok 
 
 <!-- wp:image {"align":"right","id":33457,"width":357,"height":236,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/02/dial_felosztas.png)](./img/wp-content-uploads-2022-02-dial_felosztas.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/02/dial_felosztas.png)](./img/wp-content-uploads-2022-02-dial_felosztas.png)
 
 <!-- /wp:image -->
 
@@ -211,7 +211,7 @@ A **Változó hosszúságú részekre** opció választása esetén a szakaszok 
 
 <!-- wp:image {"align":"left","id":33464,"width":358,"height":238,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/02/dial_felosztas_valtozo.png)](./img/wp-content-uploads-2022-02-dial_felosztas_valtozo.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/02/dial_felosztas_valtozo.png)](./img/wp-content-uploads-2022-02-dial_felosztas_valtozo.png)
 
 <!-- /wp:image -->
 
@@ -251,7 +251,7 @@ A **Változó hosszúságú részekre** opció választása esetén a szakaszok 
 
 <!-- wp:image {"align":"center","id":33479,"width":323,"height":146,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/02/dial_letores.png)](./img/wp-content-uploads-2022-02-dial_letores.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/02/dial_letores.png)](./img/wp-content-uploads-2022-02-dial_letores.png)
 
 <!-- /wp:image -->
 
@@ -263,6 +263,6 @@ A **Változó hosszúságú részekre** opció választása esetén a szakaszok 
 
 <!-- wp:image {"align":"center","id":33472,"width":359,"height":116,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/02/dial_lekerekites.png)](./img/wp-content-uploads-2022-02-dial_lekerekites.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/02/dial_lekerekites.png)](./img/wp-content-uploads-2022-02-dial_lekerekites.png)
 
 <!-- /wp:image -->

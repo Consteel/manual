@@ -10,7 +10,7 @@ A legújabb tervezési eljárások képesek figyelembe venni a globális szerkez
 
 <!-- wp:paragraph -->
 
-A csomópontok elhelyezése a **Szerkezeti elemek** fülön található **[Csomópont elhelyezése](./14_2_create-joint.md#csomópont-elhelyezése-consteel-modellen)** ![](./img/wp-content-uploads-2021-04-15-6-place-butt.png) ikonra kattintva megjelenő ablak segítségével lehetséges. Egy csomópont az összes olyan helyre elhelyezhető, ahol a geometria megegyezik a csomóponti geometriával. Az így elhelyezett csomópontok kapcsolati merevsége már figyelembe vehető a szerkezetek analízise során. A kapcsolati merevség figyelembevételéhez be kell jelölni az **Analízis beállításai** ablak, **Globális beállítások** szakaszában található _Kapcsolati merevség figyelembe vétele_ jelölőnégyzetet, melynek hatására az összes elhelyezett csomópont merevsége az összes kombinációban figyelembe lesz véve.
+A csomópontok elhelyezése a **Szerkezeti elemek** fülön található **[Csomópont elhelyezése](./14_2_create-joint.md#csomópont-elhelyezése-Consteel-modellen)** ![](./img/wp-content-uploads-2021-04-15-6-place-butt.png) ikonra kattintva megjelenő ablak segítségével lehetséges. Egy csomópont az összes olyan helyre elhelyezhető, ahol a geometria megegyezik a csomóponti geometriával. Az így elhelyezett csomópontok kapcsolati merevsége már figyelembe vehető a szerkezetek analízise során. A kapcsolati merevség figyelembevételéhez be kell jelölni az **Analízis beállításai** ablak, **Globális beállítások** szakaszában található _Kapcsolati merevség figyelembe vétele_ jelölőnégyzetet, melynek hatására az összes elhelyezett csomópont merevsége az összes kombinációban figyelembe lesz véve.
 
 <!-- /wp:paragraph -->
 
@@ -22,6 +22,6 @@ Ha csak bizonyos kombinációban van erre szükség, akkor a **Globális beáll�
 
 <!-- wp:image {"align":"center","id":38675,"width":490,"height":226,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/06/dial_analizis_kapcsolati-merevseg.png)](./img/wp-content-uploads-2022-06-dial_analizis_kapcsolati-merevseg.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/dial_analizis_kapcsolati-merevseg.png)](./img/wp-content-uploads-2022-06-dial_analizis_kapcsolati-merevseg.png)
 
 <!-- /wp:image -->

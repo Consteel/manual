@@ -37,7 +37,7 @@ Az import során lehetőségünk van a _Tekla Structures_ programban definiált 
 
 <!-- wp:image {"align":"right","id":7436,"width":354,"height":261,"sizeSlug":"full","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/3-2-tekla-1.jpg)](./img/wp-content-uploads-2021-04-3-2-tekla-1.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/3-2-tekla-1.jpg)](./img/wp-content-uploads-2021-04-3-2-tekla-1.jpg)
 
 <!-- /wp:image -->
 
@@ -47,7 +47,7 @@ Az import során lehetőségünk van a _Tekla Structures_ programban definiált 
 
 <!-- wp:image {"align":"left","id":7442,"width":354,"height":261,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/3-2-tekla-2.jpg)](./img/wp-content-uploads-2021-04-3-2-tekla-2.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/3-2-tekla-2.jpg)](./img/wp-content-uploads-2021-04-3-2-tekla-2.jpg)
 
 <!-- /wp:image -->
 
@@ -94,7 +94,7 @@ Ezután megnyílik az Importálás funkció ablak, ahol az "Importált elemek" r
 
 <!-- wp:image {"align":"left","id":32093,"width":298,"height":304,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/02/Tekla_imp_1.png)](./img/wp-content-uploads-2022-02-Tekla_imp_1.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/02/Tekla_imp_1.png)](./img/wp-content-uploads-2022-02-Tekla_imp_1.png)
 
 <!-- /wp:image -->
 
@@ -135,7 +135,7 @@ Következő lépésben adjuk meg a beillesztés referencia pontját a _Tekla Str
 
 <!-- wp:image {"align":"center","id":32100,"width":768,"height":362,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](./img/wp-content-uploads-2022-02-Tekla_imp_convert-1024x482.png)](https://consteelsoftware.com/wp-content/uploads/2022/02/Tekla_imp_convert.png)
+[![](./img/wp-content-uploads-2022-02-Tekla_imp_convert-1024x482.png)](https://Consteelsoftware.com/wp-content/uploads/2022/02/Tekla_imp_convert.png)
 
 <!-- /wp:image -->
 
@@ -265,7 +265,7 @@ A szerkezeti modell (pl.: gerendák, oszlopok, födémek, falak) exportálásán
 
 <!-- wp:image {"align":"center","id":7468,"width":467,"height":212,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/3-2-tekla-cs-tekla.jpg)](./img/wp-content-uploads-2021-04-3-2-tekla-cs-tekla.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/3-2-tekla-cs-tekla.jpg)](./img/wp-content-uploads-2021-04-3-2-tekla-cs-tekla.jpg)
 
 <!-- /wp:image -->
 
@@ -283,7 +283,7 @@ A _Consteel _modell_ Tekla Structures_-be való exportálásához elengedhetetle
 
 <!-- wp:image {"align":"center","id":32079,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/02/Fajl_import_Tekla.png)](https://consteelsoftware.com/wp-content/uploads/2022/02/Fajl_import_Tekla.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/02/Fajl_import_Tekla.png)](https://Consteelsoftware.com/wp-content/uploads/2022/02/Fajl_import_Tekla.png)
 
 <!-- /wp:image -->
 
@@ -295,7 +295,7 @@ A funkció elindításával megnyílik az exportálás ablaka. Az "Exportált el
 
 <!-- wp:image {"align":"left","id":32086,"width":329,"height":307,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/02/Tekla_export.png)](./img/wp-content-uploads-2022-02-Tekla_export.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/02/Tekla_export.png)](./img/wp-content-uploads-2022-02-Tekla_export.png)
 
 <!-- /wp:image -->
 
@@ -329,7 +329,7 @@ Változtatás esetén az adatok a mentés (![](./img/wp-content-uploads-2022-02-
 
 <!-- wp:image {"align":"center","id":32111,"width":512,"height":241,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](./img/wp-content-uploads-2022-02-Tekla_imp_convert-1-1024x482.png)](https://consteelsoftware.com/wp-content/uploads/2022/02/Tekla_imp_convert-1.png)
+[![](./img/wp-content-uploads-2022-02-Tekla_imp_convert-1-1024x482.png)](https://Consteelsoftware.com/wp-content/uploads/2022/02/Tekla_imp_convert-1.png)
 
 <!-- /wp:image -->
 
@@ -496,7 +496,7 @@ A Tekla modell frissítése mindig az aktuális Consteel modell alapján valósu
 
 <!-- wp:image {"align":"right","id":32119,"width":411,"height":103,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/02/Fajl_update_Tekla.png)](./img/wp-content-uploads-2022-02-Fajl_update_Tekla.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/02/Fajl_update_Tekla.png)](./img/wp-content-uploads-2022-02-Fajl_update_Tekla.png)
 
 <!-- /wp:image -->
 
@@ -514,7 +514,7 @@ Tekla modell változáskövetéséhez fontos, hogy mindkét program fusson ugyan
 
 <!-- wp:image {"align":"center","id":32126,"width":345,"height":225,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/02/Tekla_update.png)](./img/wp-content-uploads-2022-02-Tekla_update.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/02/Tekla_update.png)](./img/wp-content-uploads-2022-02-Tekla_update.png)
 
 <!-- /wp:image -->
 
@@ -532,7 +532,7 @@ A modellek frissítésekor a párhuzamosan futó Consteel és Tekla modellek ös
 
 <!-- wp:image {"align":"center","id":32134,"width":768,"height":341,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](./img/wp-content-uploads-2022-02-Tekla_update_dialog-1024x454.png)](https://consteelsoftware.com/wp-content/uploads/2022/02/Tekla_update_dialog.png)
+[![](./img/wp-content-uploads-2022-02-Tekla_update_dialog-1024x454.png)](https://Consteelsoftware.com/wp-content/uploads/2022/02/Tekla_update_dialog.png)
 
 <!-- /wp:image -->
 
@@ -544,6 +544,6 @@ Az utolsó oszlopban lehet kiválasztani, hogy az adott elem mely modellbeli ál
 
 <!-- wp:image {"align":"center","id":7533,"width":423,"height":331,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/3-3-tekla-change-options.png)](./img/wp-content-uploads-2021-04-3-3-tekla-change-options.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/3-3-tekla-change-options.png)](./img/wp-content-uploads-2021-04-3-3-tekla-change-options.png)
 
 <!-- /wp:image -->

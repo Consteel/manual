@@ -11,7 +11,7 @@ A szerkezeten ható tömegeket, mint a terhelés esetében, tömegcsoportokba é
 
 <!-- wp:image {"align":"center","id":36376,"width":299,"height":68,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/05/tab_tomegek_tomegesetek.png)](./img/wp-content-uploads-2022-05-tab_tomegek_tomegesetek.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/tab_tomegek_tomegesetek.png)](./img/wp-content-uploads-2022-05-tab_tomegek_tomegesetek.png)
 
 <!-- /wp:image -->
 
@@ -29,7 +29,7 @@ A dialóg bal oldalán (#1) található funkciók segítségével a **Teher** f�
 
 <!-- wp:image {"align":"center","id":36384,"width":597,"height":448,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_tomegesetek.png)](./img/wp-content-uploads-2022-05-dial_tomegesetek.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_tomegesetek.png)](./img/wp-content-uploads-2022-05-dial_tomegesetek.png)
 
 <!-- /wp:image -->
 
@@ -53,7 +53,7 @@ Tehercsoport kiválasztása esetén, az összes, a csoportban található tehere
 
 <!-- wp:image {"align":"right","id":36392,"width":593,"height":448,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_tomegesetek_kezi.png)](./img/wp-content-uploads-2022-05-dial_tomegesetek_kezi.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_tomegesetek_kezi.png)](./img/wp-content-uploads-2022-05-dial_tomegesetek_kezi.png)
 
 <!-- /wp:image -->
 

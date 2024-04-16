@@ -25,7 +25,7 @@ A kapcsolati elem azoknak az elemeknek az összekötésére szolgál, amelyek re
 
 <!-- wp:image {"id":35085,"width":324,"height":77,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/04/tab_kapcsolati_elem.png)](./img/wp-content-uploads-2022-04-tab_kapcsolati_elem.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/04/tab_kapcsolati_elem.png)](./img/wp-content-uploads-2022-04-tab_kapcsolati_elem.png)
 
 <!-- /wp:image -->
 
@@ -63,7 +63,7 @@ Két szerkezeti pont köthető össze ezzel a típusú kapcsolati elemmel. A par
 
 <!-- wp:image {"align":"center","id":35093,"width":358,"height":193,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/04/dial_kapcs_pont.png)](./img/wp-content-uploads-2022-04-dial_kapcs_pont.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/04/dial_kapcs_pont.png)](./img/wp-content-uploads-2022-04-dial_kapcs_pont.png)
 
 <!-- /wp:image -->
 
@@ -75,7 +75,7 @@ Például, ha egy jelentős magasságú oszlophoz egy konzol kapcsolódik, akkor
 
 <!-- wp:image {"align":"center","id":35101,"width":461,"height":261,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/04/scr_kapcs_pelda.png)](./img/wp-content-uploads-2022-04-scr_kapcs_pelda.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/04/scr_kapcs_pelda.png)](./img/wp-content-uploads-2022-04-scr_kapcs_pelda.png)
 
 <!-- /wp:image -->
 
@@ -99,13 +99,13 @@ Felhasználható például egy külpontos födém és egy gerenda összekapcsol�
 
 <!-- wp:image {"align":"center","id":9046,"width":698,"height":296,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-10-slab-to-beam_1.jpg)](./img/wp-content-uploads-2021-04-6-10-slab-to-beam_1.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-10-slab-to-beam_1.jpg)](./img/wp-content-uploads-2021-04-6-10-slab-to-beam_1.jpg)
 
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"center","id":9052,"width":698,"height":295,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-10-slab-to-beam_2.jpg)](./img/wp-content-uploads-2021-04-6-10-slab-to-beam_2.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-10-slab-to-beam_2.jpg)](./img/wp-content-uploads-2021-04-6-10-slab-to-beam_2.jpg)
 
 <!-- /wp:image -->
 
@@ -135,7 +135,7 @@ A parancs elindítása után megjelenik az _**Okos kapcsolati elem szerkesztése
 
 <!-- wp:image {"align":"center","id":35109,"width":625,"height":518,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/04/dial_okos_kapcs.png)](./img/wp-content-uploads-2022-04-dial_okos_kapcs.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/04/dial_okos_kapcs.png)](./img/wp-content-uploads-2022-04-dial_okos_kapcs.png)
 
 <!-- /wp:image -->
 
@@ -236,7 +236,7 @@ A keretsarkokban létrehozott kényszerek, amelyek csak a gerenda és az oszlop 
 
 <!-- wp:image {"align":"right","id":35125,"width":316,"height":91,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/04/obj_tul_kenyszer_superbeam.png)](./img/wp-content-uploads-2022-04-obj_tul_kenyszer_superbeam.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/04/obj_tul_kenyszer_superbeam.png)](./img/wp-content-uploads-2022-04-obj_tul_kenyszer_superbeam.png)
 
 <!-- /wp:image -->
 

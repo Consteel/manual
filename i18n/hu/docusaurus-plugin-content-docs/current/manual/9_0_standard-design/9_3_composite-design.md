@@ -23,7 +23,7 @@ Az öszvér oszlopok tervezéséhez tartozó funkciók a Globális vizsgálatok 
 
 <!-- wp:image {"align":"center","id":37184,"width":466,"height":410,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/06/dial_oszver_szelveny.png)](./img/wp-content-uploads-2022-06-dial_oszver_szelveny.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/dial_oszver_szelveny.png)](./img/wp-content-uploads-2022-06-dial_oszver_szelveny.png)
 
 <!-- /wp:image -->
 
@@ -53,7 +53,7 @@ Az aktuálisan megjelenített eredménytípus a legördülő menüből választh
 
 <!-- wp:image {"align":"center","id":37176,"width":573,"height":355,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_tervezes_oszver_eredmenyek.png)](./img/wp-content-uploads-2022-06-scr_tervezes_oszver_eredmenyek.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/scr_tervezes_oszver_eredmenyek.png)](./img/wp-content-uploads-2022-06-scr_tervezes_oszver_eredmenyek.png)
 
 <!-- /wp:image -->
 
@@ -71,13 +71,13 @@ A számítás részletei megtekinthetők a keresztmetszeti modulban (lásd a [**
 
 <!-- wp:image {"align":"left","id":37051,"width":302,"height":213,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_tervezes_globalis_szelvenyvizsgalat.png)](./img/wp-content-uploads-2022-06-scr_tervezes_globalis_szelvenyvizsgalat.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/scr_tervezes_globalis_szelvenyvizsgalat.png)](./img/wp-content-uploads-2022-06-scr_tervezes_globalis_szelvenyvizsgalat.png)
 
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"right","id":37043,"width":427,"height":207,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_tervezes_globalis_szelvenyvizsgalat_tablazat.png)](./img/wp-content-uploads-2022-06-scr_tervezes_globalis_szelvenyvizsgalat_tablazat.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/scr_tervezes_globalis_szelvenyvizsgalat_tablazat.png)](./img/wp-content-uploads-2022-06-scr_tervezes_globalis_szelvenyvizsgalat_tablazat.png)
 
 <!-- /wp:image -->
 
@@ -229,7 +229,7 @@ nmin,R: a minimális nyírócsap pozíciók száma a keresztmetszettől jobbra e
 
 <!-- wp:image {"align":"center","id":37168,"width":768,"height":464,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2022-06-pic_tervezes_oszver_nyirocsapok-1024x619.png)](https://consteelsoftware.com/wp-content/uploads/2022/06/pic_tervezes_oszver_nyirocsapok.png)
+[![](./img/wp-content-uploads-2022-06-pic_tervezes_oszver_nyirocsapok-1024x619.png)](https://Consteelsoftware.com/wp-content/uploads/2022/06/pic_tervezes_oszver_nyirocsapok.png)
 
 <!-- /wp:image -->
 
@@ -247,7 +247,7 @@ A nyírócsapok kihasználtságának a számítása a következőek szerint tör
 
 <!-- wp:image {"align":"center","id":37160,"width":768,"height":399,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2022-06-scr_tervezes_oszver_eredmenyek_2-1024x532.png)](https://consteelsoftware.com/wp-content/uploads/2022/06/scr_tervezes_oszver_eredmenyek_2.png)
+[![](./img/wp-content-uploads-2022-06-scr_tervezes_oszver_eredmenyek_2-1024x532.png)](https://Consteelsoftware.com/wp-content/uploads/2022/06/scr_tervezes_oszver_eredmenyek_2.png)
 
 <!-- /wp:image -->
 

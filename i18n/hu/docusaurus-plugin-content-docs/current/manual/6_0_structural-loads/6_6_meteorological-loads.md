@@ -48,7 +48,7 @@ Meteorológiai teher generálás általános szerkezet típusokra végezhetők e
 
 <!-- wp:image {"align":"right","id":36231,"width":297,"height":326,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_meteo_tehercsoportok.png)](./img/wp-content-uploads-2022-05-dial_teher_meteo_tehercsoportok.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_meteo_tehercsoportok.png)](./img/wp-content-uploads-2022-05-dial_teher_meteo_tehercsoportok.png)
 
 <!-- /wp:image -->
 
@@ -96,13 +96,13 @@ Fontos a teherátadó felületek lokális koordinátarendszerét ellenőrizni! A
 
 <!-- wp:image {"align":"center","id":36239,"width":768,"height":502,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2022-05-scr_teher_meteo_felulet-1024x669.png)](https://consteelsoftware.com/wp-content/uploads/2022/05/scr_teher_meteo_felulet.png)
+[![](./img/wp-content-uploads-2022-05-scr_teher_meteo_felulet-1024x669.png)](https://Consteelsoftware.com/wp-content/uploads/2022/05/scr_teher_meteo_felulet.png)
 
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"right","id":36247,"width":313,"height":264,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_meteo_feluletek.png)](./img/wp-content-uploads-2022-05-dial_teher_meteo_feluletek.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_meteo_feluletek.png)](./img/wp-content-uploads-2022-05-dial_teher_meteo_feluletek.png)
 
 <!-- /wp:image -->
 
@@ -130,13 +130,13 @@ A meteorológiai felületek elhelyezése előtt a szükséges paramétereket meg
 
 <!-- wp:image {"align":"center","id":36255,"width":982,"height":352,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_meteo_torlonyomas.png)](./img/wp-content-uploads-2022-05-dial_teher_meteo_torlonyomas.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_meteo_torlonyomas.png)](./img/wp-content-uploads-2022-05-dial_teher_meteo_torlonyomas.png)
 
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"right","id":10393,"width":354,"height":471,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-7-2-Wind-surface2.jpg)](./img/wp-content-uploads-2021-04-6-7-2-Wind-surface2.jpg)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-7-2-Wind-surface2.jpg)](./img/wp-content-uploads-2021-04-6-7-2-Wind-surface2.jpg)
 
 <!-- /wp:image -->
 
@@ -172,7 +172,7 @@ Az összes paraméter automatikusan betöltődik a kiválasztott nemzeti mellék
 
 <!-- wp:image {"align":"left","id":6758,"width":82,"height":87,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![warning](https://consteelsoftware.com/wp-content/uploads/2021/04/warning_croc.png)](./img/wp-content-uploads-2021-04-warning_croc.png)
+[![warning](https://Consteelsoftware.com/wp-content/uploads/2021/04/warning_croc.png)](./img/wp-content-uploads-2021-04-warning_croc.png)
 
 <!-- /wp:image -->
 
@@ -188,13 +188,13 @@ A torlónyomás dialóg és a szükséges paraméterek a különböző Eurocode 
 
 <!-- wp:image {"align":"right","id":36271,"width":263,"height":203,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_meteo_belso_nyomas_szamitasa.png)](./img/wp-content-uploads-2022-05-dial_teher_meteo_belso_nyomas_szamitasa.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_meteo_belso_nyomas_szamitasa.png)](./img/wp-content-uploads-2022-05-dial_teher_meteo_belso_nyomas_szamitasa.png)
 
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"right","id":36287,"width":231,"height":230,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_meteo_belso_nyomas-1.png)](./img/wp-content-uploads-2022-05-dial_teher_meteo_belso_nyomas-1.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_meteo_belso_nyomas-1.png)](./img/wp-content-uploads-2022-05-dial_teher_meteo_belso_nyomas-1.png)
 
 <!-- /wp:image -->
 
@@ -236,7 +236,7 @@ A jelölő négyzet (#1) segítségével alternatív belső nyomási tényező �
 
 <!-- wp:image {"align":"right","id":36263,"width":241,"height":238,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_meteo_szelsurlodas.png)](./img/wp-content-uploads-2022-05-dial_teher_meteo_szelsurlodas.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_meteo_szelsurlodas.png)](./img/wp-content-uploads-2022-05-dial_teher_meteo_szelsurlodas.png)
 
 <!-- /wp:image -->
 
@@ -258,7 +258,7 @@ Szétsúrlódás felvétele esetén csak a szélsúrlódás tényezőt szükség
 
 <!-- wp:image {"align":"right","id":36295,"width":376,"height":199,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_meteo_szel_geom.png)](./img/wp-content-uploads-2022-05-dial_teher_meteo_szel_geom.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_meteo_szel_geom.png)](./img/wp-content-uploads-2022-05-dial_teher_meteo_szel_geom.png)
 
 <!-- /wp:image -->
 
@@ -311,7 +311,7 @@ A megjelenített alapértékek a kiválasztott EuroCode nemzeti mellékletből t
 
 <!-- wp:image {"align":"center","id":36304,"width":739,"height":305,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_meteo_ho.png)](./img/wp-content-uploads-2022-05-dial_teher_meteo_ho.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_meteo_ho.png)](./img/wp-content-uploads-2022-05-dial_teher_meteo_ho.png)
 
 <!-- /wp:image -->
 
@@ -329,7 +329,7 @@ Az összes szükséges paraméter beállítása után, a meteorológiai felület
 
 <!-- wp:image {"align":"right","id":36312,"width":247,"height":210,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_meteo_parameterek.png)](./img/wp-content-uploads-2022-05-dial_teher_meteo_parameterek.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_meteo_parameterek.png)](./img/wp-content-uploads-2022-05-dial_teher_meteo_parameterek.png)
 
 <!-- /wp:image -->
 
@@ -372,7 +372,7 @@ A legördülő menüből (#1) az alábbi kategóriák választhatók ki:
 
 <!-- wp:image {"align":"right","id":10356,"width":228,"height":180,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-7-2-3.2-Placing-meteorological-surf.png)](./img/wp-content-uploads-2021-04-6-7-2-3.2-Placing-meteorological-surf.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-7-2-3.2-Placing-meteorological-surf.png)](./img/wp-content-uploads-2021-04-6-7-2-3.2-Placing-meteorological-surf.png)
 
 <!-- /wp:image -->
 
@@ -396,7 +396,7 @@ Szél felület esetén, a Zónák meghatározása sorban található három pont
 
 <!-- wp:image {"align":"center","id":36320,"width":422,"height":759,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_meteo_szel_zonak.png)](./img/wp-content-uploads-2022-05-dial_teher_meteo_szel_zonak.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_meteo_szel_zonak.png)](./img/wp-content-uploads-2022-05-dial_teher_meteo_szel_zonak.png)
 
 <!-- /wp:image -->
 
@@ -414,7 +414,7 @@ A meteorológiai teher generáló funkció a **Terhek** fülön található.
 
 <!-- wp:image {"align":"center","id":36329,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_mozgo_daruteher.png)](./img/wp-content-uploads-2022-05-dial_teher_mozgo_daruteher.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_mozgo_daruteher.png)](./img/wp-content-uploads-2022-05-dial_teher_mozgo_daruteher.png)
 
 <!-- /wp:image -->
 
@@ -426,7 +426,7 @@ A funkció a létrehozott szél és hó felületek adatait felhasználva létreh
 
 <!-- wp:image {"align":"center","id":10338,"width":619,"height":395,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-6-7-Meteorological-load-generator.png)](./img/wp-content-uploads-2021-04-6-6-7-Meteorological-load-generator.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-6-7-Meteorological-load-generator.png)](./img/wp-content-uploads-2021-04-6-6-7-Meteorological-load-generator.png)
 
 <!-- /wp:image -->
 

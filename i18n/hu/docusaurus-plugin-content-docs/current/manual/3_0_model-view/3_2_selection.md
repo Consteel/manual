@@ -42,13 +42,13 @@ Az alapvető kijelölési módok és azok működése a következő:
    
     - **Rendben**: elvégzi az aktuális paraméterek és opciók alapján a kiválasztást, és bezárja az ablakot.
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/02/kivalasztas_oldalsav_tulajdonsag.png)](./img/wp-content-uploads-2022-02-kivalasztas_oldalsav_tulajdonsag.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/02/kivalasztas_oldalsav_tulajdonsag.png)](./img/wp-content-uploads-2022-02-kivalasztas_oldalsav_tulajdonsag.png)
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/02/kivalasztas_helyi_menu_tulajdonsag.png)](./img/wp-content-uploads-2022-02-kivalasztas_helyi_menu_tulajdonsag.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/02/kivalasztas_helyi_menu_tulajdonsag.png)](./img/wp-content-uploads-2022-02-kivalasztas_helyi_menu_tulajdonsag.png)
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2022/02/kivalasztas_tulajdonsag.png)](./img/wp-content-uploads-2022-02-kivalasztas_tulajdonsag.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/02/kivalasztas_tulajdonsag.png)](./img/wp-content-uploads-2022-02-kivalasztas_tulajdonsag.png)
 
-[![](https://www.consteelsoftware.com/wp-content/uploads/2021/04/4-3-selection-3.png)](./img/wp-content-uploads-2021-04-4-3-selection-3.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/4-3-selection-3.png)](./img/wp-content-uploads-2021-04-4-3-selection-3.png)
 
  <!-- wp:list-item -->
 - **Kijelölés az objektumfáról**: kijelölni kívánt elemek kijelölése az [_**Objektumfán**_](../1_0_general-description/1_2_the-main-window.md#objektumfa-objektum-tulajdonságok-és-diagnosztika-ablakok) látható elemek nevére való kattintással. A _**CTRL**_ vagy a _**SHIFT**_ billentyű lenyomása mellett a többszörös elemkijelölés is elvégezhető. A kiválasztás megszüntethető a modellfán kijelölt objektumnévre a _**CTRL**_ billentyű egyidejű lenyomásával történő újbóli kattintással.

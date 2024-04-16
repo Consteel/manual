@@ -5,13 +5,13 @@ sidebar_position: 3
 
 <!-- wp:image {"align":"right","id":33994,"width":264,"height":153,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/03/dial_fal.png)](./img/wp-content-uploads-2022-03-dial_fal.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/03/dial_fal.png)](./img/wp-content-uploads-2022-03-dial_fal.png)
 
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"right","id":34001,"width":263,"height":155,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/03/dial_lemez-1.png)](./img/wp-content-uploads-2022-03-dial_lemez-1.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/03/dial_lemez-1.png)](./img/wp-content-uploads-2022-03-dial_lemez-1.png)
 
 <!-- /wp:image -->
 
@@ -35,7 +35,7 @@ A _**Lemez szerkesztő**_ és _**Fal szerkesztő**_ dialógókon a rajzolási fu
 
 <!-- wp:image {"align":"right","id":34008,"width":344,"height":304,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/03/dial_lemez_vasalas.png)](./img/wp-content-uploads-2022-03-dial_lemez_vasalas.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/03/dial_lemez_vasalas.png)](./img/wp-content-uploads-2022-03-dial_lemez_vasalas.png)
 
 <!-- /wp:image -->
 

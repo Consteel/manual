@@ -25,7 +25,7 @@ Adatbeviteli táblázatok (a **[Teherkombinációk](../6_0_structural-loads/6_2_
 
 <!-- wp:image {"align":"center","id":31986,"width":488,"height":162,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/01/tablazat_tobbes_kivalasztas.png)](./img/wp-content-uploads-2022-01-tablazat_tobbes_kivalasztas.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/01/tablazat_tobbes_kivalasztas.png)](./img/wp-content-uploads-2022-01-tablazat_tobbes_kivalasztas.png)
 
 <!-- /wp:image -->
 
@@ -37,7 +37,7 @@ Adatbeviteli táblázatok (a **[Teherkombinációk](../6_0_structural-loads/6_2_
 
 <!-- wp:image {"align":"center","id":31979,"width":490,"height":238,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/01/tablazat_tobbes_ertekmegadas.png)](./img/wp-content-uploads-2022-01-tablazat_tobbes_ertekmegadas.png)
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/01/tablazat_tobbes_ertekmegadas.png)](./img/wp-content-uploads-2022-01-tablazat_tobbes_ertekmegadas.png)
 
 <!-- /wp:image -->
 
