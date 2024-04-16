@@ -5,7 +5,6 @@
 
 To utilize the import feature initially, users are required to install the AXISVM plugin. This plugin can be accessed via the Consteel website under the 'Downloads' section. Within the plugins category, select 'Consteel 17' and proceed to download the 'Consteel Converter for AXISVM' plugin.
 
-
 Starting from Consteel 17 and AXISVM X7, the Plugin is compatible. For older Consteel versions, it's possible to open the converted .smadsteel files from AXISVM, but the Import log will not appear. For older AXISVM versions, we cannot guarantee proper functioning. The variation of AXISVM API can influence the quality of the import.
 
 ![](./img/wp-content-uploads-2024-02-AXISVM-Plugins-download-1024x463.png)
