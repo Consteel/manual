@@ -3,7 +3,7 @@ sidebar_position: 9
 ---
 # Exporting model data from Dlubal Rstab in xlsx format
 
-In order to export model data to an .xslx file, the following steps are necessary in Dlubal Rstab. Click on the File menu, Export tools, and choose Microsoft Excel (\*xlsx) format from the available options:
+In order to export model data to an .xslx file, the following steps are necessary in Dlubal Rstab. Click on the File menu, Export tools, and choose Microsoft Excel (xlsx) format from the available options:
 
 <!-- /wp:paragraph -->
 

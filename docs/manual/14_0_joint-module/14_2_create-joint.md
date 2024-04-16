@@ -51,7 +51,7 @@ After clicking on the Create button (![](./img/wp-content-uploads-2021-04-14-3-c
 
 <!-- wp:paragraph -->
 
-The type of the joint has to be defined on the next dialog. _csJoint_ can handle great variety of joint types, which covers nearly the whole joint standard Eurocode 3 Part 1-8. (see joint types in Chapter 14.2)
+The type of the joint has to be defined on the next dialog. _csJoint_ can handle great variety of joint types, which covers nearly the whole joint standard Eurocode 3 Part 1-8. 
 
 <!-- /wp:paragraph -->
 

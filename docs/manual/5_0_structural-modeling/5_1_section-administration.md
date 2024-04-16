@@ -56,7 +56,7 @@ The next group of commands is for modifying the sections.
 
 Properties...
 
-The Section module can be opened with this button. See the next chapter (_**10.2 Section modeling**_) for more information.
+The Section module can be opened with this button. See the next chapter (_**Section modeling**_) for more information.
 
 
 It is very important to know that the material grade is a property of the section, not the member. Therefore, it must be chosen when the section is loaded into the database.

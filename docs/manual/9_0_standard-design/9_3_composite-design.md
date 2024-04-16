@@ -63,7 +63,7 @@ When moving the mouse along the structural elements the result markers continuou
 
 <!-- wp:paragraph -->
 
-The detail of the results can be seen in the Section module (see Chapter 10 Section module). Section module can be opened directly from the Global checks tab to click on the proper cross section on the model area or in the result table with right click and select the Calculate section menu.
+The detail of the results can be seen in the Section module (see Chapter Section module). Section module can be opened directly from the Global checks tab to click on the proper cross section on the model area or in the result table with right click and select the Calculate section menu.
 
 <!-- /wp:paragraph -->
 

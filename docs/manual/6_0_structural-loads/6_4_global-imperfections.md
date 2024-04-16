@@ -9,7 +9,7 @@ sidebar_position: 4
 
 <!-- wp:paragraph -->
 
-Three types of global imperfection can be applied on the model with the **_Global imperfection_** (![](./img/wp-content-uploads-2021-04-cmd_load_imp.png)) function. Several numbers of imperfections can be created, but only one can be used for the analysis at the same time. Used imperfection can be set for the analysis at the Analysis tab’s Set analysis parameters dialog (chapter 8.4).
+Three types of global imperfection can be applied on the model with the **_Global imperfection_** (![](./img/wp-content-uploads-2021-04-cmd_load_imp.png)) function. Several numbers of imperfections can be created, but only one can be used for the analysis at the same time. Used imperfection can be set for the analysis at the Analysis tab’s Set analysis parameters dialog.
 
 <!-- /wp:paragraph -->
 
@@ -143,7 +143,7 @@ On the setting dialog the following parameters can be set:
 
 - _Imperfection group_: any eigenshape will belong to an imperfection group, which can be selected from the list. One imperfection group can contain more than one eigenshapes. If more than one eigenshapes are in an imperfection group, the effects of the eigenshapes will be added up during the application. With the **New group** button, a new group can be created.
 
-- _Name of imperfection case:_ unique name can be added for the imperfection
+- _Name of imperfection case:_ unique name can be added for the imperfection.
 
 - _Type of imperfection:_
 
@@ -196,7 +196,7 @@ Applying any imperfection, it is always a problem how to define the proper ampli
 
 <!-- wp:paragraph -->
 
-Click the three-dot icon (![](./img/wp-content-uploads-2021-04-3dots-button.png)) next to the \_Value of \_Amplitudefield in the dialog shown above. A new dialog box will appear where you can choose from the three possible amplitude calculation methods.
+Click the three-dot icon (![](./img/wp-content-uploads-2021-04-3dots-button.png)) next to the Value of Amplitudefield in the dialog shown above. A new dialog box will appear where you can choose from the three possible amplitude calculation methods.
 
 <!-- /wp:paragraph -->
 
@@ -286,7 +286,7 @@ iii. Cross section properties \[class for compression, yield stress, area, relev
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Finally the calculated value (hinit,max) is accepted by the **OK **button which automatically gets into the ‘Value of amplitude’ input field. This calculation is only applicable to buckling problems of a dominantly compressed member but with arbitrary support condition.
+Finally the calculated value (hinit,max) is accepted by the **OK** button which automatically gets into the ‘Value of amplitude’ input field. This calculation is only applicable to buckling problems of a dominantly compressed member but with arbitrary support condition.
 
 <!-- /wp:paragraph -->
 

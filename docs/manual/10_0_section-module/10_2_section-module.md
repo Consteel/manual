@@ -93,7 +93,7 @@ The second way is to select the **Calculate section** option from the pop-up men
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Stresses can be checked by selecting the **Properties **tab and clicking on the **Stresses **icon ![](./img/wp-content-uploads-2021-04-cmd_sectmod_stresses.png). Stresses can be viewed both in the EPS and the GSS model. Stresses can be represented in two ways:
+Stresses can be checked by selecting the **Properties** tab and clicking on the **Stresses** icon ![](./img/wp-content-uploads-2021-04-cmd_sectmod_stresses.png). Stresses can be viewed both in the EPS and the GSS model. Stresses can be represented in two ways:
 
 <!-- /wp:paragraph -->
 

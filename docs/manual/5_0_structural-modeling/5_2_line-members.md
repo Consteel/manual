@@ -606,7 +606,7 @@ Because the reinforcement distribution may vary along the span of the concrete m
 **Consteel 16**
 
 
-Starting the **_Beam rebar editor _**![](./img/wp-content-uploads-2021-04-BeamRebarEditorIcon.jpg), which can be found on the Structural members tab, the Rebar editor dialog appears.
+Starting the **_Beam rebar editor_**![](./img/wp-content-uploads-2021-04-BeamRebarEditorIcon.jpg), which can be found on the Structural members tab, the Rebar editor dialog appears.
 
 
 It can be reached also from the Property tree after selecting a member with reinforced concrete beam macro section with design option, by clicking on the ... in the Reinforcement cell.
@@ -621,7 +621,7 @@ Beam reinforcement can be created only if there is a reinforced concrete beam cr
 ![](./img/wp-content-uploads-2022-12-image-29-1024x958.png)
 
 
-- \#1 - New beam reinforcement objects can be created by pressing the **_Add_** button. Switching between different reinforcement objects is possible by selecting from the dropdown menu. Using the **_Copy _**button, the copied object will inherit the parameters of the original object. The **_Delete_** button will delete the actively selected reinforcement object only.
+- \#1 - New beam reinforcement objects can be created by pressing the **_Add_** button. Switching between different reinforcement objects is possible by selecting from the dropdown menu. Using the **_Copy_** button, the copied object will inherit the parameters of the original object. The **_Delete_** button will delete the actively selected reinforcement object only.
 
 
 * \#2 – On the middle part of the dialog, the cross-section has to be selected, to which the reinforcement settings will apply. The overall dimensions and the material grade are shown below the dropdown menu of the selected cross-section. You can specify here:
@@ -665,7 +665,7 @@ Starting the **_Rebar editor_** ![](./img/wp-content-uploads-2021-04-cmd_rebared
 [![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-2-Rebar-editor.png)](./img/wp-content-uploads-2021-04-6-2-Rebar-editor.png)
 
 
-- \#2 - If there are reinforced concrete cross-sections with design option loaded into the model, new beam reinforcement objects can be created by pressing the **_Add_** button. Switching between different reinforcement objects is possible by selecting from the dropdown menu. Using the **_Copy _**button, the copied object will inherit the parameters of the original object. The **_Delete_** button will delete the actively selected reinforcement object only.
+- \#2 - If there are reinforced concrete cross-sections with design option loaded into the model, new beam reinforcement objects can be created by pressing the **_Add_** button. Switching between different reinforcement objects is possible by selecting from the dropdown menu. Using the **_Copy_** button, the copied object will inherit the parameters of the original object. The **_Delete_** button will delete the actively selected reinforcement object only.
 
 
 * \#3 – On the middle part of the dialogue, the cross-section has to be selected, to which the reinforcement settings will apply. The overall dimensions and the material grade are shown below the dropdown menu of the selected cross-section. You can specify here:
@@ -973,7 +973,7 @@ The haunches can be selected and modified in the parameter table as separate obj
 [![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-2-Haunch-new-section.png)](./img/wp-content-uploads-2021-04-6-2-Haunch-new-section.png)
 
 
-This eccentricity causes additional effects in the analysis results due to the eccentric position of the sectional forces (for instance at the beam-to-column connection point of a frame with haunched beams and/or columns the equilibrium of the in-plane bending moments exists only if the additional moments from the eccentric axial forces are taken into account)
+This eccentricity causes additional effects in the analysis results due to the eccentric position of the sectional forces (for instance at the beam-to-column connection point of a frame with haunched beams and/or columns the equilibrium of the in-plane bending moments exists only if the additional moments from the eccentric axial forces are taken into account).
 
 
 ### Tapered members
@@ -1005,9 +1005,9 @@ The rules for the beam eccentricity of the tapered member relate to the axis of 
 
 [![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-2-Set-beam-eccentricity.png)](./img/wp-content-uploads-2021-04-6-2-Set-beam-eccentricity.png)
 
-1. _Place the centroid of the smaller section to the axis of the beam:_ the centre of smaller H value of the tapered member will be positioned to the axis of the original beam
+1. _Place the centroid of the smaller section to the axis of the beam:_ the centre of smaller H value of the tapered member will be positioned to the axis of the original beam.
 
-2. _Place the centroid of the bigger section to the axis of the beam:_ the centre of bigger H value of the tapered member will be positioned to the axis of the original beam
+2. _Place the centroid of the bigger section to the axis of the beam:_ the centre of bigger H value of the tapered member will be positioned to the axis of the original beam.
 
 3. _Place the centroid of the original section to the axis of the beam:_ the edge of the tapered member is coincident with the original member end and the tapering will start from this position.
 
@@ -1017,7 +1017,7 @@ The relative position of the tapering can be –z (the left side of the tapered 
 
 Below shown the effect of the different relative positioning by the chosen eccentricity:
 
-1. _Place the centroid of the smaller section to the axis of the beam:_ the centre of smaller H value of the tapered member will be positioned to the axis of the original beam
+1. _Place the centroid of the smaller section to the axis of the beam:_ the centre of smaller H value of the tapered member will be positioned to the axis of the original beam.
 
 
 **-z**
@@ -1038,7 +1038,7 @@ Below shown the effect of the different relative positioning by the chosen eccen
 [![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-2-1z.png)](./img/wp-content-uploads-2021-04-6-2-1z.png)
 
 
-2\. _Place the centroid of the bigger section to the axis of the beam:_ the center of the bigger H value of the tapered member will be positioned to the axis of the original beam
+2\. _Place the centroid of the bigger section to the axis of the beam:_ the center of the bigger H value of the tapered member will be positioned to the axis of the original beam.
 
 
 **-z**
@@ -1059,7 +1059,7 @@ Below shown the effect of the different relative positioning by the chosen eccen
 [![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-2-2z.png)](./img/wp-content-uploads-2021-04-6-2-2z.png)
 
 
-3\. _Place the centroid of the original section to the axis of the beam:_ The edge of the tapered member is coincident with the original member end the tapering starts from this position
+3\. _Place the centroid of the original section to the axis of the beam:_ The edge of the tapered member is coincident with the original member end the tapering starts from this position.
 
 
 **-z**
@@ -1086,4 +1086,4 @@ Activating the ![](./img/wp-content-uploads-2021-04-cmd_draw_get.png) icon, by c
 In the case of selecting a tapered member, not only the member but the tapering will be selected automatically and can be modified in the parameter table as a separate object.
 
 
-**Important to know** that for the tapered members, new sections are created during the automatic finite element generation with appropriate section heights. These new sections are placed eccentrically on the reference line of the member (except the symmetrical tapering). This eccentricity causes additional effects in the analysis results due to the eccentric position of the sectional forces (for instance at the beam-to-column connection point of a frame with tapered beams and/or columns the equilibrium of the in-plane bending moments exists only if the additional moments from the eccentric axial forces are taken into account)
+**Important to know** that for the tapered members, new sections are created during the automatic finite element generation with appropriate section heights. These new sections are placed eccentrically on the reference line of the member (except the symmetrical tapering). This eccentricity causes additional effects in the analysis results due to the eccentric position of the sectional forces (for instance at the beam-to-column connection point of a frame with tapered beams and/or columns the equilibrium of the in-plane bending moments exists only if the additional moments from the eccentric axial forces are taken into account).

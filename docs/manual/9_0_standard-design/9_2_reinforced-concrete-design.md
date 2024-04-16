@@ -21,36 +21,35 @@ Design of concrete members are available at the Global checks tab. By clicking o
 
 <!-- wp:paragraph -->
 
-Required input parameters for reinforced concrete design are the following (see Chapter 5.2.2 Concrete Reinforced members for details):
+Required input parameters for reinforced concrete design are the following (see Chapter Concrete Reinforced members for details):
 
 
 1. In case of reinforced concrete beam
 
-   - Reinforced concrete cross sections with design option (see Chapter 5.2.2.1)
+   - Reinforced concrete cross sections with [design option](../5_0_structural-modeling/5_2_line-members.md)
 
-   - Beam reinforcement object assigned to the concrete member (see Chapter 5.2.2.2.)
+   - Beam reinforcement object assigned to the concrete member 
 
-   - First or second order analysis results (see Chapter 8.5.1.1 and 8.5.1.2)
-
+   - First or second order analysis [result](../8_0_structural-analysis/8_5_analysis-results.md) 
 
 3. In case of reinforced concrete columns
 
-   - Reinforced concrete cross sections with design option (see Chapter 5.2.2.1)
+   - Reinforced concrete cross sections with design option 
 
-   - Column reinforcements set assigned to the concrete member (see Chapter 5.2.2.3.)
+   - Column reinforcements set assigned to the concrete member
 
-   - Design parameter to control design settings assigned to the concrete member (see below)
+   - Design parameter to control design settings assigned to the concrete member
 
    - Appropriate global imperfections if required
 
-   - First or second order analysis results (see Chapter 8.5.1.1 and 8.5.1.2)
+   - First or second order analysis results
 
 
 4. In case of reinforced concrete slabs
 
-    - Defined reinforcement schemes in the main directions (see Chapter 5.3.1)
+    - Defined reinforcement schemes in the [main directions](../5_0_structural-modeling/5_3_surface-members.md) 
   
-    - First or second order shell results (see Chapter 8.6.1)
+    - First or second order shell [results](../8_0_structural-analysis/8_5_analysis-results.md)
 
 
 During the design, Consteel will perform the available standard checks according to EN1992-1-1 for all of the cross sections automatically. Cross sections with their dominant utilizations will be collected into the results grid, and will be shown using the color-coded visualization in the modeling area.
@@ -77,23 +76,23 @@ Design of concrete members are available at the Global checks tab. By clicking o
 
 <!-- wp:paragraph -->
 
-Required input parameters for concrete design are the following (see Chapter 5.2.2. Reinforced concrete members for details):
+Required input parameters for concrete design are the following (see Chapter Reinforced concrete members for details):
 
 
 - In case of concrete beams and columns
 
-  - Reinforced concrete cross sections with design option (see Chapter 5.2.2.1)
+  - Reinforced concrete cross sections with design option 
 
-  - Beam/column reinforcement object assigned to the concrete member (see Chapter 5.2.2.2. and 5.2.2.3.)
+  - Beam/column reinforcement object assigned to the concrete member 
 
-  - First or second order analysis results (see Chapter 8.5.1.1 and 8.5.1.2)
+  - First or second order analysis results 
 
 
 * In case of reinforced concrete slabs
 
-  - Defined reinforcement schemes in the main directions (see Chapter 5.3.1)
+  - Defined reinforcement schemes in the main directions 
 
-  - First or second order shell results (see Chapter 8.6.1)
+  - First or second order shell results 
 
 
 During the design, Consteel will perform the available standard checks according to EN1992-1-1 for all of the cross sections automatically. Cross sections with their dominant utilizations will be collected into the results grid, and will be shown using the color-coded visualization in the modeling area.
@@ -167,7 +166,7 @@ The type of method and additionally required or optional parameters can be speci
 ![](./img/wp-content-uploads-2022-12-image-17.png)
 
 
-For the use of method based on nominal stiffness and for the automatic option of the method based on nominal curvature the definition of appropriate global imperfections might be required. (see 6.4 Global imperfections)
+For the use of method based on nominal stiffness and for the automatic option of the method based on nominal curvature the definition of appropriate global imperfections might be required. (see Global imperfections)
 
 
 #### **Design parameters for reinforced concrete columns**
