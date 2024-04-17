@@ -202,8 +202,10 @@ On the elastic segments global stability resistance will be evaluated according 
 
 Buckling check can be evaluated for steel structures according to the EN 1993-1-1 6.3.4.
 
+$$
+\frac{\chi_{op}*\alpha_{ult,k}}{\gamma_{M1}}\geq 1,0
+$$
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/10-2-buckling-formula.png)](./img/wp-content-uploads-2021-04-10-2-buckling-formula.png)
 
 <!-- /wp:image -->
 
@@ -225,7 +227,9 @@ Eigenvalue can be selected on the Analysis tab to click in the model area with r
 - Ultimate resistance factor ault,k: reciprocal of utilization calculated with characteristic resistances of axial force and strong axial bending dominant in terms of loss of stability. Value of the utilization can be considered by members or by the model portion.
 
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/10-2-lambda-op.png)](./img/wp-content-uploads-2021-04-10-2-lambda-op.png)
+$$
+\overline{\lambda _{op}}=\sqrt{\frac{\alpha _{ult,k}}{\alpha _{cr,op}}}
+$$
 
 - Reduction factor cop: reduction factor for the lop slenderness. It can be determined from the minimum of (c,cLT) or from the interpolated value of (c,cLT).
 

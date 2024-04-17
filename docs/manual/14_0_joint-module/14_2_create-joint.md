@@ -187,11 +187,6 @@ The fastest way of placing a joint, is to place it from the Joint details dialog
 
 The other way of placing a joint, is to use Place joint function, which can be found on the Structural members tab. This function is useful when more previously created joints have to be placed. One joint can be placed to several places in the model where the same geometry exists. After the joint is placed, _csJoint_ automatically import the loads from the global model if analysis results are available.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:media-text {"mediaId":9849,"mediaType":"image","mediaWidth":15} -->
-
-![](./img/wp-content-uploads-2021-04-croco.png)
 
 <!-- wp:paragraph {"placeholder":"Content…"} -->
 :::warning

@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 # Section modelling
 
-**Section module** can be launched with the ![](./img/wp-content-uploads-2021-04-cmd_sectionmodule.png) command on the **Structural members** tab.
+**Section Module** can be launched with the ![](./img/wp-content-uploads-2021-04-cmd_sectionmodule.png) command on the **Structural members** tab.
 
 <!-- /wp:paragraph -->
 

@@ -7,21 +7,8 @@ sidebar_position: 2
 
 Documentations can be exported into an editable _.docx_ format Word file. The export itself is a complete process, which means every table, picture, and appendices will be exported. The Microsoft Word export function can be found in the documentation module’s Document menu, under the Export submenu.
 
-<!-- /wp:paragraph -->
+![alt text](img/docexpoCS17.png)
 
-<!-- /wp:column -->
-
-<!-- wp:column -->
-
-<!-- wp:image {"align":"center","id":9695,"width":339,"height":202,"sizeSlug":"large","linkDestination":"media"} -->
-
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/14-3-msword.png)](./img/wp-content-uploads-2021-04-14-3-msword.png)
-
-<!-- /wp:image -->
-
-<!-- /wp:column -->
-
-<!-- /wp:columns -->
 
 <!-- wp:paragraph -->
 
@@ -53,13 +40,7 @@ When opening an exported documentation in Word for the first time, the table of 
 
 <!-- /wp:column -->
 
-<!-- wp:column -->
-
-<!-- wp:image {"align":"center","id":9710,"sizeSlug":"large","linkDestination":"media"} -->
-
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/14-3-updatefield.png)](./img/wp-content-uploads-2021-04-14-3-updatefield.png)
-
-<!-- /wp:image -->
+![alt text](img/updatefieldcs17.png)
 
 <!-- /wp:column -->
 

@@ -39,7 +39,7 @@ If the initial sways in the y and z directions were applied on the checked cross
 
 <!-- wp:paragraph -->
 
-The results of the performed checks are demonstrated with graphical visualization and result tables (for the general functionality of tables used in _Consteel_ see section 1.4 General functions for tables).
+The results of the performed checks are demonstrated with graphical visualization and result tables (for the general functionality of tables used in _Consteel_ see section [General functions for tables](../1_0_general-description/1_4_general-functions-for-tables.md)).
 
 <!-- /wp:paragraph -->
 

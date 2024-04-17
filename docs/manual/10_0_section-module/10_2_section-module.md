@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 ---
-# Section module
+# Section Module
 
 ### Geometrical calculations
 
@@ -9,7 +9,7 @@ sidebar_position: 2
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-There are three coordinate systems in Section module: main axis system (y,z), section edit system (v,w) and the section edit system moved to the center (C) of the section (Y,Z). The point D is the center of rotation. The section properties can be viewed according to these coordinate systems.
+There are three coordinate systems in Section Module: main axis system (y,z), section edit system (v,w) and the section edit system moved to the center (C) of the section (Y,Z). The point D is the center of rotation. The section properties can be viewed according to these coordinate systems.
 
 <!-- /wp:paragraph -->
 
@@ -25,7 +25,7 @@ There are three coordinate systems in Section module: main axis system (y,z), se
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-If the section module is opened from the model, then all the load combination from the model are automatically imported into the section model. The relevant is chosen but any other can be selected and checked. It is also possible to add load combinations manually by clicking on the _**New** **load combination**_ icon ![new load combination icon](./img/wp-content-uploads-2021-04-section_new_load_combination_icon.png).
+If the Section Module is opened from the model, then all the load combination from the model are automatically imported into the section model. The relevant is chosen but any other can be selected and checked. It is also possible to add load combinations manually by clicking on the _**New** **load combination**_ icon ![new load combination icon](./img/wp-content-uploads-2021-04-section_new_load_combination_icon.png).
 
 <!-- /wp:paragraph -->
 
@@ -41,7 +41,7 @@ If the section module is opened from the model, then all the load combination fr
 
 <!-- wp:paragraph -->
 
-**csSection** can be launched from the model if the **Analysis** or **Global check** tab is chosen and a first- or second-order analysis or standard design has been run. There are two ways to open **csSection** directly for a selected section.
+**Section Module** can be launched from the model if the **Analysis** or **Global check** tab is chosen and a first- or second-order analysis or standard design has been run. There are two ways to open **Section Module** directly for a selected section.
 
 <!-- /wp:paragraph -->
 
@@ -134,7 +134,7 @@ _3D diagram_
 
 <!-- wp:paragraph -->
 
-The following stresses are calculated by **csSection**:
+The following stresses are calculated by **Section Module**:
 
 <!-- /wp:paragraph -->
 
@@ -221,7 +221,7 @@ The standard design procedures performed on the **EPS** model cover the major pa
 
 <!-- wp:paragraph -->
 
-The following design checks are calculated by **csSection**:
+The following design checks are calculated by **Section Module**:
 
 <!-- /wp:paragraph -->
 
@@ -243,7 +243,7 @@ The following design checks are calculated by **csSection**:
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-In case of reinforced concrete section, the **CSSECTION** module can perform just the resistance surface of the section. It is also possible to view the resistance line along three different axes and the arbitrary section.
+In case of reinforced concrete section, the **Section Module** module can perform just the resistance surface of the section. It is also possible to view the resistance line along three different axes and the arbitrary section.
 
 <!-- /wp:paragraph -->
 
@@ -261,7 +261,7 @@ For the composite sections the resistance surface and the part of the EC 4 are p
 
 <!-- wp:paragraph -->
 
-The following design checks are calculated by **CSSECTION** for the composite sections:
+The following design checks are calculated by **Section Module** for the composite sections:
 
 <!-- /wp:paragraph -->
 
