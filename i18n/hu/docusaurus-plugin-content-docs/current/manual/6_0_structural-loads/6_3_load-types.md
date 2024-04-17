@@ -702,6 +702,7 @@ Szerkezeti elem eredeti hálózati hosszának változása, illetve kezdeti fesz�
 <!-- wp:paragraph -->
 
 Fontos tudni, hogy a ténylegesen kialakuló elmozdulás és feszítőerő mindkét esetben a csatlakozó szerkezet aktuális merevségétől függ!
+
 :::
 <!-- /wp:paragraph -->
 

@@ -63,7 +63,7 @@ A **Statikai számítások** (#2) csoport beállításai:
 
   - **Stabilitási érzékenység vizsgálat**ra az acélszelvények szabványos méretezéséhez használt sajátalakok automatikus kiválasztásához van szükség.
 
-  - Az **imperfekciós érzékenység vizsgálat** bekapcsolása szükséges, ha a _[6.4.3.2 pontban](../6_0_structural-loads/6_4_global-imperfections.md#automatikus-sajátalak-amplitúdó-meghatározás)_ leírt, egyenértékű tökéletlenség módszerével (OIM) skálázott, sajátalak alapú imperfekciós terhet szeretnénk alkalmazni a szerkezeten.
+  - Az **imperfekciós érzékenység vizsgálat** bekapcsolása szükséges, ha az _[itt leírt](../6_0_structural-loads/6_4_global-imperfections.md#automatikus-sajátalak-amplitúdó-meghatározás)_, egyenértékű tökéletlenség módszerével (OIM) skálázott, sajátalak alapú imperfekciós terhet szeretnénk alkalmazni a szerkezeten.
 
   - Az egyes vizsgálatokhoz tartozó további beállítások, teherkombinációk egyedi kiválasztása a ![](./img/wp-content-uploads-2021-04-cmd_subpage.png) gombbal megnyíló **[Teherkombinációk beállításainak részletezése aloldalon](#teherkombinációk-analízis-beállításainak-részletezése-aloldal)** érhetők el..
 
@@ -196,7 +196,7 @@ Ebben a táblázatban megtalálható a modellben létrehozott összes teherkombi
 - Hatékony keresztmetszeti jellemzők: a kiválasztott SLS-kombinációkhoz a csökkentett effektív keresztmetszeti jellemzők használata.
 
 
-A táblázatok szerkesztését ld. az **_[1.4. A táblázatok általános funkciói című fejezetben](../1_0_general-description/1_4_general-functions-for-tables.md)_** olvashatja.
+A táblázatok szerkesztését ld. **_[A táblázatok általános funkciói című fejezetben](../1_0_general-description/1_4_general-functions-for-tables.md)_** olvashatja.
 
 
 Eredménytípusok fa (#4)

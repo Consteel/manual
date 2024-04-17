@@ -182,13 +182,14 @@ A táblázat a _**[Részlet kezelőben](../3_0_model-view/3_3_portions-manager.m
 
 <!-- wp:image {"align":"left","id":21420,"width":76,"height":81,"sizeSlug":"large","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2021-04-warning_croc.png)
+:::warning
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
 A szintek megadásával kapcsolatban fontos tudni, hogy a Consteel a legalsó beadott szint alatti szerkezet tömegeit mind a legalsó szinthez tartozónak veszi figyelembe a csavaró és másodrendű hatásoknál. Ez elkerülhető azzal, ha létrehozunk egy 0 szintet a támaszok síkján, így a támasz és az első szint között is megtörténik a tömegek szétosztása.
+:::
 
 <!-- /wp:paragraph -->
 

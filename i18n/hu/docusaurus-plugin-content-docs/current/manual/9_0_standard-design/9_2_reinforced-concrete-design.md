@@ -207,11 +207,11 @@ A Consteel támogatja az EN 1992-1-1 által meghatározott különböző tervez�
 A választott módszer, valamint a szükséges vagy választható paraméterek a vasbeton oszlop típusú keresztmetszettel rendelkező rúdelem tulajdonságaként adhatók meg az Objektum tulajdonságok panel segítségével.
 
 
-![](./img/wp-content-uploads-2021-04-warning_croc.png)
+:::warning
 
 
-A névleges merevségen alapuló módszer alkalmazásához és a névleges görbületen alapuló módszer automatikus opciójához a megfelelő globális imperfekciók definiálására lehet szükség, lásd [**6.4. Globális imperfekciók**](../6_0_structural-loads/6_4_global-imperfections.md**).
-
+A névleges merevségen alapuló módszer alkalmazásához és a névleges görbületen alapuló módszer automatikus opciójához a megfelelő globális imperfekciók definiálására lehet szükség, lásd [**Globális imperfekciók**](../6_0_structural-loads/6_4_global-imperfections.md**).
+:::
 
 A vasbeton oszlop tervezés az **Eurocode 1992-1-1** következő vizsgálatait hajtja végre:
 
@@ -385,7 +385,9 @@ Egy csomagot a soron való dupla kattintással vagy a ![](./img/wp-content-uploa
 
 <!-- wp:paragraph -->
 
-**Ha a vasbeton oszlopok tervezéséhez a névleges merevségen alapuló módszert alkalmazzuk, akkor a szerkezet merevségéhez hozzájáruló vasbeton gerendákhoz is hozzá kell rendelni egy megfelelő merevségcsökkentő értéket.**
+:::info
+Ha a vasbeton oszlopok tervezéséhez a névleges merevségen alapuló módszert alkalmazzuk, akkor a szerkezet merevségéhez hozzájáruló vasbeton gerendákhoz is hozzá kell rendelni egy megfelelő merevségcsökkentő értéket.
+:::
 
 <!-- /wp:paragraph -->
 
@@ -411,13 +413,14 @@ Nem kell tervezési paramétert rendelni a gerendákhoz, ha az oszlopokat a név
 
 <!-- wp:image {"align":"left","id":21420,"sizeSlug":"full","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2021-04-warning_croc.png)
+:::warning
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
 Bár az elemekhez különböző tervezési módszereket meghatározó tervezési paraméterek rendelhetők, a tervezési módszerek keverésével óvatosan kell bánni. A névleges merevségen alapuló módszer feltételezi, hogy a szerkezet merevségéhez hozzájáruló minden egyes elemhez egy megfelelő merevségcsökkentő érték van rendelve.
+:::
 
 
 A vasbeton oszlop tervezés az **Eurocode 1992-1-1** következő vizsgálatait hajtja végre:

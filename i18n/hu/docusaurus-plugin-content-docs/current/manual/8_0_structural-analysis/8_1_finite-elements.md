@@ -95,13 +95,8 @@ A húzott rudak (HR) csak akkor szerepelhetnek az első- és másodrendű analí
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"left","id":6758,"width":122,"height":130,"sizeSlug":"large","linkDestination":"none"} -->
-
-![warning](./img/wp-content-uploads-2021-04-warning_croc.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
+:::warning
 
 Mivel a sajátérték számítás nem hajtható végre iteratív módon, a fenti stratégia nem alkalmazható. A Consteel ehelyett a sajátértékszámításhoz figyelembe veendő teherkombinációra elvégez egy fenti stratégia szerinti analízist, majd a HR rudakra kapott végeredmény szerinti merevséggel (ténylegesen húzott rúd teljes érték, nominálisan nyomott HR rúd fiktív érték) végzi a sajátértékszámítást. hasonlóan problémás a dinamikai számítás HR rudak esetén. Ebben az esetben a sajátértékekhez használt stratégia sem használható. a Consteel minden HR rudat húzott-nyomott rúdként feltételez, de 50% merevséggel. Ez az érték annak a feltételezésével lett felvéve, hogy jellemzően húzott rudas merevítések párban vannak használva és egy adott terhelésben jellemzően csak az egyik “dolgozik” közülük.
-
+:::
 <!-- /wp:paragraph -->

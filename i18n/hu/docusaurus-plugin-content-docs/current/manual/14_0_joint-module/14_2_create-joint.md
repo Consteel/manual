@@ -218,12 +218,10 @@ A második lehetőség a **Szerkezeti elemek** fülön található **Csomópont 
 
 <!-- wp:media-text {"mediaId":9849,"mediaType":"image","mediaWidth":15} -->
 
-![](./img/wp-content-uploads-2021-04-croco.png)
+:::warning
 
-<!-- wp:paragraph {"placeholder":"Content…"} -->
-
-**Fontos** azzal tisztában lenni, hogy csJoint modulban végzett módosítások (keresztmetszet vagy anyagminőség változtatás) nem befolyásolja a 3D szerkezeti modellt. Ezek csak csJoint számítás eredményeire vannak hatással. A felhasználónak kell a modellt a csJoint-ban végzett módosításokkal szinkronban tartania: ha megváltoztatunk valami a kapcsolatban, a 3d modellt is meg kell változtatni annak megfelelően. Ezután a számítást újra kell futtatni, és a kapcsolatot újra ellenőrizni kell.
-
+A csJoint modulban végzett módosítások (keresztmetszet vagy anyagminőség változtatás) nem befolyásolja a 3D szerkezeti modellt. Ezek csak csJoint számítás eredményeire vannak hatással. A felhasználónak kell a modellt a csJoint-ban végzett módosításokkal szinkronban tartania: ha megváltoztatunk valami a kapcsolatban, a 3d modellt is meg kell változtatni annak megfelelően. Ezután a számítást újra kell futtatni, és a kapcsolatot újra ellenőrizni kell.
+:::
 <!-- /wp:paragraph -->
 
 <!-- /wp:media-text -->
