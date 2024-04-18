@@ -12,7 +12,7 @@ All CAD systems have a layer concept of some sort. Objects are placed on appropr
 [![](https://Consteelsoftware.com/wp-content/uploads/2022/02/Dlg.jpg)](./img/wp-content-uploads-2022-02-Dlg.jpg)
 
 <!-- /wp:image -->
-
+![alt text](img/layesfül.png)
 <!-- wp:paragraph -->
 
 ![](./img/wp-content-uploads-2021-04-5-5-layers-ico.png) The layers dialog window can be used to:

@@ -411,6 +411,8 @@ All existing load combinations are listed here. The goal is to create reduced li
 
 \-In the upper right corner of the table, the eye-shaped icon regulates the visibility of the load combinations. The two options are: show all and show only selected
 
+![alt text](img/showall.png)    ![alt text](img/showselected.png)
+
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -546,9 +548,9 @@ Rules can be applied by checking in the checkbox in the first column of the summ
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-
-**Rules can only be applied on calculation results. If the result necessary for the applied rule is not existent in some load combinations, then those load combinations will be turned off.**
-
+:::info
+Rules can only be applied on calculation results. If the result necessary for the applied rule is not existent in some load combinations, then those load combinations will be turned off.
+:::
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify"} -->

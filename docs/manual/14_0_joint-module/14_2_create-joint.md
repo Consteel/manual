@@ -109,11 +109,7 @@ Joint loads can be given manually and the manipulations of the connection elemen
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":9577,"width":1034,"height":724,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/14-3-create-joint-window.png)](./img/wp-content-uploads-2021-04-14-3-create-joint-window.png)
-
-<!-- /wp:image -->
+![alt text](img/jointpage.png)
 
 <!-- wp:paragraph -->
 
@@ -176,13 +172,8 @@ After creating the joint it is advisable to place it in the global model. There 
 The fastest way of placing a joint, is to place it from the Joint details dialog directly, right after when it is been created. Place… button can be found at the bottom left corner of Joint details dialog (see picture below). By choosing it, it is possible to place the joint to several places by single clicks on the 3D structural model where the same geometry exists. By clicking End joint placement button (see picture below), loads will automatically imported from the model if analysis results are available.
 
 <!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":9800,"width":917,"height":660,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/15-3-place-dial-1.jpg)](./img/wp-content-uploads-2021-04-15-3-place-dial-1.jpg)
-
-<!-- /wp:image -->
-
+![alt text](img/jointplacement.png)
+![alt text](img/endjointplacement.png)
 <!-- wp:paragraph -->
 
 The other way of placing a joint, is to use Place joint function, which can be found on the Structural members tab. This function is useful when more previously created joints have to be placed. One joint can be placed to several places in the model where the same geometry exists. After the joint is placed, _csJoint_ automatically import the loads from the global model if analysis results are available.
