@@ -198,6 +198,6 @@ Cutouts are not considered in the design verifications at the moment.
 
 <!-- wp:html -->
 
-https://www.youtube.com/watch?v=7osFX9RpGnk
+<YouTubeEmbedded>7osFX9RpGnk</YouTubeEmbedded>
 
 <!-- /wp:html -->

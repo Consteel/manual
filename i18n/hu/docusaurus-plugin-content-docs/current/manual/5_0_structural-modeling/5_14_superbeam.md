@@ -336,6 +336,6 @@ Az automatikus konvertálás elvei:
 
 <!-- wp:html -->
 
-https://www.youtube.com/watch?v=3eTiNTNFI-g
+<YouTubeEmbedded>3eTiNTNFI-g</YouTubeEmbedded>
 
 <!-- /wp:html -->

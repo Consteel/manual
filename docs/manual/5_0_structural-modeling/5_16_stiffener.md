@@ -257,6 +257,6 @@ Stiffeners are not considered in the design verifications at the moment.
 
 <!-- wp:html -->
 
-https://www.youtube.com/watch?v=ClcNpBDFazg
+<YouTubeEmbedded>ClcNpBDFazg</YouTubeEmbedded>
 
 <!-- /wp:html -->
