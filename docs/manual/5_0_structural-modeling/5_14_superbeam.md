@@ -165,19 +165,11 @@ In the case of manual FE generation type, the size of the finite elements can be
 
 <!-- wp:separator {"align":"center"} -->
 
----
+:::info
 
-<!-- /wp:separator -->
+Please note, that by choosing a very different finite element size for the flanges and the web, the FE generation may lead to distorted elements, which may make the calculation less accurate.
+:::
 
-<!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-_Please note, that by choosing a very different finite element size for the flanges and the web, the FE generation may lead to distorted elements, which may make the calculation less accurate._
-
-<!-- /wp:paragraph -->
-
-<!-- wp:separator {"align":"center"} -->
-
----
 
 <!-- /wp:separator -->
 
@@ -244,7 +236,7 @@ In the present version, the shell FE representation Of Superbeam is not compatib
 
 <!-- wp:paragraph -->
 
-Consteel uses a well defined logic to handle member to shell conversions automatically. If the automatic conversion results an unexpected or unwanted solution, the user can „explode” the converted member and place the eccentric objects directly on the shell representation, as normal. See **_[Chapter 5.5 Convert members to plates](../5_0_structural-modeling/5_6_convert-members-to-plates.md)_** for how to do this.
+Consteel uses a well defined logic to handle member to shell conversions automatically. If the automatic conversion results an unexpected or unwanted solution, the user can „explode” the converted member and place the eccentric objects directly on the shell representation, as normal. See **_[Chapter Convert members to plates](../5_0_structural-modeling/5_6_convert-members-to-plates.md)_** for how to do this.
 
 <!-- /wp:paragraph -->
 

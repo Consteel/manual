@@ -187,23 +187,12 @@ Automatikus mód kiválasztása esetén az hálógenerálás az alábbi szabály
 
 Kézi megadás esetén a végeselemek méretét a következő két sorban lehet beállítani mm-ben, külön-külön a gerinchez és az övekhez.
 
-<!-- /wp:paragraph -->
 
-<!-- wp:separator {"align":"center"} -->
-
----
-
-<!-- /wp:separator -->
 
 <!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-_Felhívjuk a figyelmet arra, hogy ha nagyon eltérő végeselem-méretet választunk az övek és a gerinc számára, akkor a hálógenerálás torz elemekhez vezethet, ami a számítás pontatlanságát eredményezheti._
-
-<!-- /wp:paragraph -->
-
-<!-- wp:separator {"align":"center"} -->
-
----
+:::warning
+Felhívjuk a figyelmet arra, hogy ha nagyon eltérő végeselem-méretet választunk az övek és a gerinc számára, akkor a hálógenerálás torz elemekhez vezethet, ami a számítás pontatlanságát eredményezheti.
+:::
 
 <!-- /wp:separator -->
 

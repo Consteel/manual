@@ -157,18 +157,10 @@ Pontalap külpontosságának beállítása a Consteel Joint modulban
 
 <!-- wp:image {"align":"left","id":44536,"width":138,"height":147,"sizeSlug":"full","linkDestination":"none","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-![](./img/wp-content-uploads-2023-01-image-13.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"align":"left"} -->
+:::warning
 
 A pontalap grafikus ábrázolása két különböző külpontosság-megadás esetén is lehet azonos vagy nagyon hasonló (az excentricitás-típusok kombinációja), ám a végeselem-modellek mégis különbözhetnek egymástól. Fontos meggyőződni a szerkezeti modell helyességéről.
-
+:::
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -210,15 +202,10 @@ A szerkezeti analízis nem veszi figyelembe a pontalap önsúlyát, de a Constee
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"left","id":44544,"width":144,"height":153,"sizeSlug":"full","linkDestination":"none","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-![](./img/wp-content-uploads-2023-01-image-14.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
+:::warning
 
 Fontos ügyelni a pontalaphoz csatlakozó oszlop csatlakozó végének folytonosságára.
-
+:::
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->

@@ -10,8 +10,10 @@ A Consteel 16-ban a Steelspace által támogatott új felhőalapú szolgáltatá
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-
-**Az előzményelemek létrehozása és a felhőbe mentése nem ugyanaz, ezért ne felejtsd el rendszeresen menteni a modelljeidet!** A Verzióelőzmények funkció célja, hogy megőrizze a modell különböző állapotait, amelyek fontosak lehetnek a jövőbeni módosításokhoz vagy a modell felülvizsgálatához.
+:::warning Figyelem
+Az előzményelemek létrehozása és a felhőbe mentése nem ugyanaz, ezért ne felejtsd el rendszeresen menteni a modelljeidet!
+:::
+A Verzióelőzmények funkció célja, hogy megőrizze a modell különböző állapotait, amelyek fontosak lehetnek a jövőbeni módosításokhoz vagy a modell felülvizsgálatához.
 
 <!-- /wp:paragraph -->
 
@@ -53,7 +55,7 @@ Verzióelőzmények parancs a Fájl menüben
 
 ![](./img/wp-content-uploads-2024-03-Verzioelozmeny.png)
 
-Az Verzióelőzmények ikon megjelenítéséhez vidd az egérmutatót a Mentés ikon fölé
+Az Verzióelőzmények ikon megjelenítéséhez vidd az egérmutatót a Mentés ikon fölé.
 
 <!-- /wp:image -->
 

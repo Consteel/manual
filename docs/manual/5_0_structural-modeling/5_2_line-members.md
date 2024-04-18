@@ -95,12 +95,10 @@ There is only one choice available: the _**6 DOF beam element**_ type. This is t
 
 
 
-:::note[Important note]
 
+:::note
 It should be noted that not only the eccentric axial force influences the analysis (additional bending moments), but also the eccentric bending and torsional moments (additional bending and torsional moments and **bimoment**)!
-
 :::
-
 
 ### Steel members
 
@@ -111,12 +109,8 @@ As the first step of line member modeling, cross-sections have to be loaded into
 - Macro sections,
 - Drawn sections.
 
-
-
-:::note[Important note]
-
+:::note
 It is important to note that in Consteel, material quality is an attribute of the cross-section, therefore it must be defined when loading the cross-section!
-
 :::
 
 #### Cross section libraries
@@ -223,11 +217,12 @@ In the case of cold-formed macros, it is also possible to provide profile stiffe
 For cold-formed macro sections made of coated material, the thickness tolerance category as defined in EN 10143 shall also be provided. There are two categories: normal and special. Accordingly, the design wall thickness of the cross-section is calculated according to EN 1993-1-3 section 3.2.4. In general construction practice, such sections are most often made of coated steel sheets according to the aforementioned EN 10143 standard, and therefore these macros are based on the thickness tolerance categories defined in this standard.
 
 
-![warning](./img/wp-content-uploads-2021-04-warning_croc.png)
+:::warning
 
 
 Important, that if the designer does not choose the coated material from the database and that the selected material has a thickness tolerance of more than 5%, in this case, the calculation will not be exact. To avoid this, you must import the cross-section into the **_Section drafter_** module and provide the real thickness tolerance. (See **_Section drafter_** in the following chapter!)
 
+:::
 
 4\. **Compound types**
 
@@ -342,11 +337,11 @@ The section geometry is edited in the first phase. Stiffeners can be easily and 
 [![](https://Consteelsoftware.com/wp-content/uploads/2021/04/image-1836.png)](./img/wp-content-uploads-2021-04-image-1836.png)
 
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/exclam.png)](https://Consteelsoftware.com/wp-content/uploads/2021/04/exclam.png)
 
+:::note
 
 In the section drawing window, you must also press ENTER after entering each parameter for the entered value to take effect!
-
+:::
 
 You can continue drawing plate segments only from one endpoint. When you have finished drawing, you can exit the command by pressing the ESC key or by clicking the EXIT button. If you want to edit the drawing, you can delete and redraw that section to fix the problem.
 
@@ -608,7 +603,7 @@ Because the reinforcement distribution may vary along the span of the concrete m
 **Consteel 16**
 
 
-Starting the **_Beam rebar editor _**![](./img/wp-content-uploads-2021-04-BeamRebarEditorIcon.jpg), which can be found on the Structural members tab, the Rebar editor dialog appears.
+Starting the **_Beam rebar editor_**![](./img/wp-content-uploads-2021-04-BeamRebarEditorIcon.jpg), which can be found on the Structural members tab, the Rebar editor dialog appears.
 
 
 It can be reached also from the Property tree after selecting a member with reinforced concrete beam macro section with design option, by clicking on the ... in the Reinforcement cell.
@@ -623,7 +618,7 @@ Beam reinforcement can be created only if there is a reinforced concrete beam cr
 ![](./img/wp-content-uploads-2022-12-image-29-1024x958.png)
 
 
-- \#1 - New beam reinforcement objects can be created by pressing the **_Add_** button. Switching between different reinforcement objects is possible by selecting from the dropdown menu. Using the **_Copy _**button, the copied object will inherit the parameters of the original object. The **_Delete_** button will delete the actively selected reinforcement object only.
+- \#1 - New beam reinforcement objects can be created by pressing the **_Add_** button. Switching between different reinforcement objects is possible by selecting from the dropdown menu. Using the **_Copy_** button, the copied object will inherit the parameters of the original object. The **_Delete_** button will delete the actively selected reinforcement object only.
 
 
 * \#2 – On the middle part of the dialog, the cross-section has to be selected, to which the reinforcement settings will apply. The overall dimensions and the material grade are shown below the dropdown menu of the selected cross-section. You can specify here:
@@ -667,7 +662,7 @@ Starting the **_Rebar editor_** ![](./img/wp-content-uploads-2021-04-cmd_rebared
 [![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-2-Rebar-editor.png)](./img/wp-content-uploads-2021-04-6-2-Rebar-editor.png)
 
 
-- \#2 - If there are reinforced concrete cross-sections with design option loaded into the model, new beam reinforcement objects can be created by pressing the **_Add_** button. Switching between different reinforcement objects is possible by selecting from the dropdown menu. Using the **_Copy _**button, the copied object will inherit the parameters of the original object. The **_Delete_** button will delete the actively selected reinforcement object only.
+- \#2 - If there are reinforced concrete cross-sections with design option loaded into the model, new beam reinforcement objects can be created by pressing the **_Add_** button. Switching between different reinforcement objects is possible by selecting from the dropdown menu. Using the **_Copy_** button, the copied object will inherit the parameters of the original object. The **_Delete_** button will delete the actively selected reinforcement object only.
 
 
 * \#3 – On the middle part of the dialogue, the cross-section has to be selected, to which the reinforcement settings will apply. The overall dimensions and the material grade are shown below the dropdown menu of the selected cross-section. You can specify here:
@@ -817,12 +812,11 @@ Available beam cross-sections are:
 
 - Reverse T shaped section
 
-
-![warning](./img/wp-content-uploads-2021-04-warning_croc.png)
+:::warning
 
 
 Models created with earlier version of Consteel may use solid rectangular and circular sections without design option. The creation of such sections is not anymore available, but models containing such section will continue to work normally even in newer versions of Consteel.
-
+:::
 
 The functions of these deprecated sections have been completely replaced by new functionalities starting with Consteel 16.
 
@@ -975,7 +969,7 @@ The haunches can be selected and modified in the parameter table as separate obj
 [![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-2-Haunch-new-section.png)](./img/wp-content-uploads-2021-04-6-2-Haunch-new-section.png)
 
 
-This eccentricity causes additional effects in the analysis results due to the eccentric position of the sectional forces (for instance at the beam-to-column connection point of a frame with haunched beams and/or columns the equilibrium of the in-plane bending moments exists only if the additional moments from the eccentric axial forces are taken into account)
+This eccentricity causes additional effects in the analysis results due to the eccentric position of the sectional forces (for instance at the beam-to-column connection point of a frame with haunched beams and/or columns the equilibrium of the in-plane bending moments exists only if the additional moments from the eccentric axial forces are taken into account).
 
 
 ### Tapered members
@@ -1007,9 +1001,9 @@ The rules for the beam eccentricity of the tapered member relate to the axis of 
 
 [![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-2-Set-beam-eccentricity.png)](./img/wp-content-uploads-2021-04-6-2-Set-beam-eccentricity.png)
 
-1. _Place the centroid of the smaller section to the axis of the beam:_ the centre of smaller H value of the tapered member will be positioned to the axis of the original beam
+1. _Place the centroid of the smaller section to the axis of the beam:_ the centre of smaller H value of the tapered member will be positioned to the axis of the original beam.
 
-2. _Place the centroid of the bigger section to the axis of the beam:_ the centre of bigger H value of the tapered member will be positioned to the axis of the original beam
+2. _Place the centroid of the bigger section to the axis of the beam:_ the centre of bigger H value of the tapered member will be positioned to the axis of the original beam.
 
 3. _Place the centroid of the original section to the axis of the beam:_ the edge of the tapered member is coincident with the original member end and the tapering will start from this position.
 
@@ -1019,7 +1013,7 @@ The relative position of the tapering can be –z (the left side of the tapered 
 
 Below shown the effect of the different relative positioning by the chosen eccentricity:
 
-1. _Place the centroid of the smaller section to the axis of the beam:_ the centre of smaller H value of the tapered member will be positioned to the axis of the original beam
+1. _Place the centroid of the smaller section to the axis of the beam:_ the centre of smaller H value of the tapered member will be positioned to the axis of the original beam.
 
 
 **-z**
@@ -1040,7 +1034,7 @@ Below shown the effect of the different relative positioning by the chosen eccen
 [![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-2-1z.png)](./img/wp-content-uploads-2021-04-6-2-1z.png)
 
 
-2\. _Place the centroid of the bigger section to the axis of the beam:_ the center of the bigger H value of the tapered member will be positioned to the axis of the original beam
+2\. _Place the centroid of the bigger section to the axis of the beam:_ the center of the bigger H value of the tapered member will be positioned to the axis of the original beam.
 
 
 **-z**
@@ -1061,7 +1055,7 @@ Below shown the effect of the different relative positioning by the chosen eccen
 [![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-2-2z.png)](./img/wp-content-uploads-2021-04-6-2-2z.png)
 
 
-3\. _Place the centroid of the original section to the axis of the beam:_ The edge of the tapered member is coincident with the original member end the tapering starts from this position
+3\. _Place the centroid of the original section to the axis of the beam:_ The edge of the tapered member is coincident with the original member end the tapering starts from this position.
 
 
 **-z**
@@ -1087,5 +1081,6 @@ Activating the ![](./img/wp-content-uploads-2021-04-cmd_draw_get.png) icon, by c
 
 In the case of selecting a tapered member, not only the member but the tapering will be selected automatically and can be modified in the parameter table as a separate object.
 
-
-**Important to know** that for the tapered members, new sections are created during the automatic finite element generation with appropriate section heights. These new sections are placed eccentrically on the reference line of the member (except the symmetrical tapering). This eccentricity causes additional effects in the analysis results due to the eccentric position of the sectional forces (for instance at the beam-to-column connection point of a frame with tapered beams and/or columns the equilibrium of the in-plane bending moments exists only if the additional moments from the eccentric axial forces are taken into account)
+:::info
+**Important to know** that for the tapered members, new sections are created during the automatic finite element generation with appropriate section heights. These new sections are placed eccentrically on the reference line of the member (except the symmetrical tapering). This eccentricity causes additional effects in the analysis results due to the eccentric position of the sectional forces (for instance at the beam-to-column connection point of a frame with tapered beams and/or columns the equilibrium of the in-plane bending moments exists only if the additional moments from the eccentric axial forces are taken into account).
+:::

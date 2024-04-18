@@ -81,14 +81,9 @@ Ezután ki kell választani a védelem típusát, amely lehet _védetlen_ vagy _
 
 <!-- wp:image {"align":"left","id":21420,"width":68,"height":72,"sizeSlug":"large","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2021-04-warning_croc.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-**Figyelem!** Kritikus hőmérséklet számítást csak olyan elemekre lehet kérni, amelyek reaktív védelemmel vannak ellátva!
-
+:::warning 
+Kritikus hőmérséklet számítást csak olyan elemekre lehet kérni, amelyek reaktív védelemmel vannak ellátva!
+:::
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"16px","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false},"editorskit_typography":{"name":"","family":"","weight":""},"extUtilities":[]} -->

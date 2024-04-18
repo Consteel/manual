@@ -289,7 +289,7 @@ A dialog window opens asking for selecting model parts to be exported. Keep in m
 
 <!-- wp:paragraph -->
 
-After selecting the reference point in \_Consteel \_the **Section conversion** dialogue appears. It is possible to change the conversion file for grades and for sections or edit the section name and grade manually.
+After selecting the reference point in _Consteel_ the **Section conversion** dialogue appears. It is possible to change the conversion file for grades and for sections or edit the section name and grade manually.
 
 <!-- /wp:paragraph -->
 

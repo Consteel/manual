@@ -173,17 +173,14 @@ Considered storeys have to be chosen in the _Considered storeys_ for accidental 
 
 Consteel 13 User Manual
 
-<!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"left","id":21417,"width":76,"height":81,"sizeSlug":"large","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2021-04-warning_croc.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-
+:::warning
 When specifying the levels, it is important to know that Consteel takes the weights of the structure below the lowest level all of them to the lowest level by the torsional and second-order effects. This can be avoided by establishing a level 0 in the plane of the supports, so the weight distribution between the support and the first level will also be performed.
+:::
 
 <!-- /wp:paragraph -->
 

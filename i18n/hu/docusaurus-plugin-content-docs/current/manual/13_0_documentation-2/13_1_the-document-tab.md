@@ -195,14 +195,14 @@ Az utolsó fül a **Mellékletek** fül. Ha van már létrehozott csomóponti va
 
 <!-- wp:image {"align":"left","id":21420,"width":76,"height":81,"sizeSlug":"full","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2021-04-warning_croc.png)
+:::warning
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
 A modellben történt változtatások esetén, a dokumentációkat újra kell generálni. Ha pillanatképeket is tartalmazott a dokumentáció, akkor változás esetén ezeket a képeket is újra el kell készíteni, és az új dokumentációba ismét be kell illeszteni.
-
+:::
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"25px"} -->

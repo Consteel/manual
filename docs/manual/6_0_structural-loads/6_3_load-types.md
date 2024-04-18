@@ -137,7 +137,7 @@ This is a flexible way for numerical input the line load positions.
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Eccentricity can be applied on the line load also. The effect of the selected coordinate system, the applied local eccentricity type and values are the same as point support (see chapter 5.9.1).
+Eccentricity can be applied on the line load also. The effect of the selected coordinate system, the applied local eccentricity type and values are the same as point support.
 
 <!-- /wp:paragraph -->
 
@@ -268,9 +268,9 @@ Pressing the Place loads icon (![](./img/wp-content-uploads-2021-04-cmd_placeloa
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"justify"} -->
-
+:::note
 **IMPORTANT**: For the correct line wind load placement, it is necessary to set the direction of the used local coordinate axis (Axis z, or y) to point out from the building.
-
+:::
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
@@ -327,7 +327,7 @@ Surface load can be defined in three ways. No surface moment loads can be placed
 
 - **Uniform** surface load
 
-- **Linear**lyvaryingsurface load
+- **Linear** surface load
 
 - **Wind** load
 
@@ -423,8 +423,6 @@ It is also possible to use the **_Multiple placement of load transfer surfaces_*
 
 
 **It is important to know**, that the maximum number of edges that can be selected in one step, is currently limited to 200. If the selected edges exceed the limit of 200, a notification will be shown on the Edit load transfer surface dialog.
-
-Surface load can be placed by using the method described in chapter 6.4.3.
 
 
 There are two visibility options: view the surface load or view the distributed load.

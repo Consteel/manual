@@ -114,7 +114,7 @@ A Globális és a Felhasználói koordináta rendszerek közötti váltás az al
 
 <!-- wp:paragraph -->
 
-A \_**Raszterháló és koordinátarendszer **\_dialógon az első parancsikonnal ![](./img/wp-content-uploads-2021-04-5-2-coord-ico-01.png) a globális koordinátarendszerhez lehet visszatérni. A további parancsikonok balról jobbra haladva:
+A **Raszterháló és koordinátarendszer** dialógon az első parancsikonnal ![](./img/wp-content-uploads-2021-04-5-2-coord-ico-01.png) a globális koordinátarendszerhez lehet visszatérni. A további parancsikonok balról jobbra haladva:
 
 <!-- /wp:paragraph -->
 

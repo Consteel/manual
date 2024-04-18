@@ -51,7 +51,7 @@ After clicking on the Create button (![](./img/wp-content-uploads-2021-04-14-3-c
 
 <!-- wp:paragraph -->
 
-The type of the joint has to be defined on the next dialog. _csJoint_ can handle great variety of joint types, which covers nearly the whole joint standard Eurocode 3 Part 1-8. (see joint types in Chapter 14.2)
+The type of the joint has to be defined on the next dialog. _csJoint_ can handle great variety of joint types, which covers nearly the whole joint standard Eurocode 3 Part 1-8. 
 
 <!-- /wp:paragraph -->
 
@@ -187,16 +187,12 @@ The fastest way of placing a joint, is to place it from the Joint details dialog
 
 The other way of placing a joint, is to use Place joint function, which can be found on the Structural members tab. This function is useful when more previously created joints have to be placed. One joint can be placed to several places in the model where the same geometry exists. After the joint is placed, _csJoint_ automatically import the loads from the global model if analysis results are available.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:media-text {"mediaId":9849,"mediaType":"image","mediaWidth":15} -->
-
-![](./img/wp-content-uploads-2021-04-croco.png)
 
 <!-- wp:paragraph {"placeholder":"Content…"} -->
+:::warning
 
 It should be bear in mind that the settings in the csJoint module (profiles sizes, material grades, etc.) will not effect the 3D model. the changed values will be considered in the joint calculation only! The user has to way to keep the model consistent: 1. After modifying the connection the 3D model has to be changed accordingly, 2. Change the 3D model first run the analysis, redefine the connection.
-
+:::
 <!-- /wp:paragraph -->
 
 <!-- /wp:media-text -->

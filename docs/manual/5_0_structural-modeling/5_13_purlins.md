@@ -216,7 +216,7 @@ The contents of the dialog box change according to the selection.
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-If trapezoidal sheeting is selected, the shear stiffness can be entered manually along with the effective width, or automatically by clicking (![](./img/wp-content-uploads-2021-04-3dots-button.png)) and using the shear box dialog shown above (see Section [5.11).](./5_12_shear-field.md)
+If trapezoidal sheeting is selected, the shear stiffness can be entered manually along with the effective width, or automatically by clicking (![](./img/wp-content-uploads-2021-04-3dots-button.png)) and using the shear box dialog shown above see [Section.](./5_12_shear-field.md)
 
 <!-- /wp:paragraph -->
 

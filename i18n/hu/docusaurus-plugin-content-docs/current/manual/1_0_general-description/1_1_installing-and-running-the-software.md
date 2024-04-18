@@ -51,13 +51,7 @@ Intel Core i5 vagy ennek megfelelő
 512 MB nem alaplapra integrált  
 64-bit MS Windows 10
 
-<!-- /wp:paragraph -->
 
-<!-- /wp:column -->
-
-<!-- /wp:columns -->
-
-<!-- wp:paragraph -->
 
 **Ajánlott konfiguráció:**
 

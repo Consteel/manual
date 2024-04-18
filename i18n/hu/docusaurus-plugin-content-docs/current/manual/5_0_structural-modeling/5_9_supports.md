@@ -119,8 +119,9 @@ Lokális külpontosság is definiálható a támaszokon:
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-**(Ez a funkció használható, olyan merevítések megtámasztó hatásának a modellezésére, amelyek nem a megtámasztott rúd középvonalába, hanem például a felső övekhez kapcsolódnak.)**
-
+:::info
+Ez a funkció használható, olyan merevítések megtámasztó hatásának a modellezésére, amelyek nem a megtámasztott rúd középvonalába, hanem például a felső övekhez kapcsolódnak.
+:::
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":34929,"width":357,"height":274,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
@@ -313,18 +314,15 @@ Ha elforgatjuk az oszlopot 45 fokkal, akkor a támasz is ennek megfelelően elfo
 
 Bármelyik külpontossági típust is válasszuk a támasz elhelyezéséhez, a támasz megtartja kiválasztott referencia ponttól mért relatív külpontosságát, a megtámasztott elem külpontosságának módosítása esetén is, illetve megtartja irányultságát az elhelyezéskor választott koordináta rendszernek megfelelően.
 
-<!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"left","id":21420,"width":96,"height":102,"sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2021-04-warning_croc.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
+:::warning
 
-**Figyelmeztetés!** Vegyük figyelembe, hogy az acél rúdelemek végeselemei 7 szabadságfokúak, ezért a pont támaszok is 7 szabadságfokkal rendelkeznek, ahol a 7. szabadságfok a szelvény öblösödését jelenti. Ezért, ha egy adott keresztmetszetnél az öblösödés kizárható (például egy merev kapcsolatnál), akkor ezen a helyen az öblösödést meg kell akadályozni. Több rúdelem találkozásánál, ahol a rudak külpontosak, ajánlott az öblösödést megakadályozó támasz alkalmazása!
-
+Vegyük figyelembe, hogy az acél rúdelemek végeselemei 7 szabadságfokúak, ezért a pont támaszok is 7 szabadságfokkal rendelkeznek, ahol a 7. szabadságfok a szelvény öblösödését jelenti. Ezért, ha egy adott keresztmetszetnél az öblösödés kizárható (például egy merev kapcsolatnál), akkor ezen a helyen az öblösödést meg kell akadályozni. Több rúdelem találkozásánál, ahol a rudak külpontosak, ajánlott az öblösödést megakadályozó támasz alkalmazása!
+:::
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"1px"} -->

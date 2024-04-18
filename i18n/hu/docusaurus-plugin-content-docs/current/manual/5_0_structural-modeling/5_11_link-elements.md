@@ -177,14 +177,10 @@ A kapcsolati elem(ek) elhelyezésére két lehetőség van.
 
 <!-- wp:image {"align":"left","id":21420,"width":67,"height":71,"sizeSlug":"full","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2021-04-warning_croc.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph {"align":"justify"} -->
+:::warning
 
 Fontos tudni, hogy jelenleg a kapcsolati elemek nem másolhatók a rúdelemekkel együtt. Már elhelyezett okos kapcsolati elemeket tartalmazó rúd másolása esetén a rajta elhelyezett okos kapcsolati elemek nem másolódnak együtt, hanem azokat külön kijelölve egy újabb művelettel lehet másolni.
-
+:::
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"10px"} -->

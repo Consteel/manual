@@ -223,7 +223,7 @@ The possible buckling shapes which can be calculated by this eigenvalue analysis
 
 <!-- wp:paragraph -->
 
-With the help of this function we get a summarized view of the buckling shapes of the structure, and for each member it gives which buckling shape of which combination is the most relevant for the stability analysis. Based on this, the program can automatically select the appropriate critical load factor for each member. See 9.1.1 Global checks
+With the help of this function we get a summarized view of the buckling shapes of the structure, and for each member it gives which buckling shape of which combination is the most relevant for the stability analysis. Based on this, the program can automatically select the appropriate critical load factor for each member. See Global checks.
 
 <!-- /wp:paragraph -->
 
@@ -241,7 +241,7 @@ With the help of this function we get a summarized view of the buckling shapes o
 
 <!-- wp:paragraph -->
 
-This analysis determines the critical member and critical section for each of the eigenshapes. With the help of this analysis, the appropriate amplitude of the buckling shape-based imperfection can be calculated. The graph shows the stress-based utilization from the internal forces obtained by applying the eigenshape as an imperfection displacement load, where the cross-section corresponding to the highest utilization is given the value 100%. See more in chapter 6.5.3.2.
+This analysis determines the critical member and critical section for each of the eigenshapes. With the help of this analysis, the appropriate amplitude of the buckling shape-based imperfection can be calculated. The graph shows the stress-based utilization from the internal forces obtained by applying the eigenshape as an imperfection displacement load, where the cross-section corresponding to the highest utilization is given the value 100%.
 
 <!-- /wp:paragraph -->
 

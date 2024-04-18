@@ -148,7 +148,7 @@ Spread footing placed under eccentric column:
 <!-- wp:image {"align":"left","id":44536,"width":138,"height":147,"sizeSlug":"full","linkDestination":"none"} -->
 
 
-:::danger
+:::warning
 
 The visualization of the spread footing can be the same or very similar with two different eccentricity definitions (combination of eccentricity types), but the finite element models can still be different. It is important to make sure about the correctness of the structural model.
 
@@ -196,7 +196,7 @@ Self-weight of the spread footing is not considered in the analysis, it is calcu
 
 <!-- wp:paragraph -->
 
-:::danger
+:::warning
 
 It is important to take care of the end releases of the column the spread footing is connected to.
 

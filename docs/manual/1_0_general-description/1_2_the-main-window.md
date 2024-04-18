@@ -50,9 +50,6 @@ The structural model appears always in the graphical window. There are no other 
 
 ### The menu
 
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 The _Consteel_ menu does not contain many commands since the main functionality is placed to the structured tabs and to the side bars, and the applicability and modeling efficiency does not really need to duplicate the functions. However, six important function groups appear here: [**_File_** ](#file-menu)handling, some [**_Edit_** ](#edit-menu)options (undo-redo), [**_View_** ](#view-menu)and diagnostics, [**_Options_**](#options-menu) for settings (for saving, updating, selecting language, and for model diagnostics), [**_Standards_** ](#standards-menu)for reviewing and defining standard parameters for design and **_[Help](#help-menu)_**.
 
@@ -63,6 +60,9 @@ The _Consteel_ menu does not contain many commands since the main functionality 
 #### File menu
 
 <!-- /wp:heading -->
+Consteel 17
+
+![alt text](<img/File menu CS 17.png>)
 
 <!-- wp:paragraph -->
 
@@ -1083,13 +1083,12 @@ Clicking on the question mark icon provides access to the same Help page as desc
 
 The Help tab is for the essential support-related requests like “Get Support”, “[Report licensing issue” ](https://Consteel.atlassian.net/servicedesk/customer/portal/1/group/22)and “[Send feedback](https://Consteel.atlassian.net/servicedesk/customer/portal/1/group/23/create/60)” to make posting support issues more convenient.
 
-<!-- /wp:paragraph -->
+#### Load combination sets tab
 
-<!-- wp:spacer -->
+![alt text](<img/Load combination sets.png>)
 
-<!-- /wp:spacer -->
+Clicking on the icon provides access to the same Load combination sets window as described in the[ **Load combinations.**](../6_0_structural-loads/6_2_load-combinations.md#load-combination-sets)
 
-<!-- wp:heading {"level":3} -->
 
 ### Side bar
 
@@ -1129,7 +1128,7 @@ From Consteel 17, the **Copy** ![](./img/wp-content-uploads-2021-04-1.2-Side-bar
 
 <!-- wp:paragraph -->
 
-_Save model_
+_Save model/History_
 
 <!-- /wp:paragraph -->
 
@@ -1411,6 +1410,7 @@ You can also open the window from the View menu. For more information, visit the
 [![](https://Consteelsoftware.com/wp-content/uploads/2021/04/popup_visi_LCS.png)](./img/wp-content-uploads-2021-04-popup_visi_LCS.png)
 
 <!-- /wp:image -->
+![alt text](<img/Spad Footing.png>)
 
 <!-- wp:paragraph -->
 
@@ -1421,6 +1421,7 @@ You can also open the window from the View menu. For more information, visit the
 - Visibility of the LCS of 1D members (beams and columns)
 - Visibility of the LCS of 2D members (plates, slabs and walls)
 - Visibility of the LCS of supports
+- Visibility of the LCS of spread footing
 - Visibility of the LCS of link elements
 - Visibility of the LCS of smart link elements
 - Visibility of the LCS of the load transfer surfaces

@@ -8,8 +8,9 @@ With the new object, the stiffening effect of trapezoid sheeting can be consider
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify"} -->
-
+:::info
 **It is important to note**, that the trapezoidal decking has to be fixed in an appropriate way to the understructure (all 4 sides on the trapezoidal decking) to be able to calculate proper results.
+:::
 
 <!-- /wp:paragraph -->
 

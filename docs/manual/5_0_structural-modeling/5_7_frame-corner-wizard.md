@@ -130,7 +130,7 @@ The member segments inside the overlapping zones are separated and handled speci
 
 <!-- wp:list -->
 
-- _Connection design_: similarly to the earlier point the design bending moment and shear force values for the connection design are taken from the end of the truncated members where a beam-to-column connection is applied to the connection node where corner zone is defined
+- _Connection design_: similarly to the earlier point the design bending moment and shear force values for the connection design are taken from the end of the truncated members where a beam-to-column connection is applied to the connection node where corner zone is defined.
 
 <!-- /wp:list -->
 

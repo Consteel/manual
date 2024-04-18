@@ -11,13 +11,10 @@ A nyírási mező objektummal figyelembe vehető a trapézlemez megtámasztó ha
 
 <!-- wp:image {"align":"left","id":21420,"width":65,"height":69,"sizeSlug":"full","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2021-04-warning_croc.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph {"align":"justify"} -->
+:::warning
 
 **Nagyon fontos** megjegyezni, hogy az implementálásra került képletek által meghatározott nyírási merevségek csak abban az esetben szolgáltatnak megfelelő eredményt, ha a trapézlemezeket megfelelő módon rögzítjük. Ilyen rögzítési követelmény a trapézlemezek mind a 4 oldalán való rögzítése az alszerkezethez.
+:::
 
 <!-- /wp:paragraph -->
 
@@ -254,8 +251,9 @@ A **K1** és **K2** értékeket a trapézlemez gyártók egyedileg határozzák 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-
-**A meghatározott S értékek (1) abban az esetben érvényesek, ha a trapézlemez minden völgyben rögzítésre kerül az alszerkezethez. Ha csak minden 2. völgyben kerül rögzítésre akkor az S értékét egy 0,2-es tényezővel kell megszorozni.**
+:::info
+A meghatározott S értékek (1) abban az esetben érvényesek, ha a trapézlemez minden völgyben rögzítésre kerül az alszerkezethez. Ha csak minden 2. völgyben kerül rögzítésre akkor az S értékét egy 0,2-es tényezővel kell megszorozni.
+:::
 
 <!-- /wp:paragraph -->
 

@@ -79,16 +79,10 @@ Since steel members are usually relatively slender, various modes of global stab
 
 The tension only (TO) elements are only considered in the first- and second-order analysis if they are subjected to tension. Accordingly, the calculation is iterative if TO members are present in the model. In the calculation that takes place as the first step of the iteration, all the TO members are taken into account as a single normal finite element that can withstand both tension and pressure. Next, the axial DOF (Ux) of TO members loaded with compression force will be freed and the calculation runs again with this modified FE model. This iterative procedure runs until the state of any of the TO members no longer changes (it means, it not becomes compressed from tensioned or vice versa). If the iteration does not lead to a result because it does not reach a final model state in certain steps (1000 iterations), the procedure starts all over again with a small modification. In this next round, the TO members become compressed are replaced by a fictitious nominal stiffness (E\*A/L/50) in every iterative step until a stable model state is reached, similar to the first round.
 
-<!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"left","id":6758,"width":122,"height":130,"sizeSlug":"large","linkDestination":"none"} -->
-
-![warning](./img/wp-content-uploads-2021-04-warning_croc.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
+:::warning
 
 Because the eigenvalue calculations cannot be performed iteratively, the above strategy cannot be applied in the buckling and the dynamic calculations. Therefore, in the buckling analysis Consteel considers the stiffness of TO members according to the result of the above procedure but members subjected to compression are considered always with the nominal small fictitious stiffness. In the case of dynamic calculation the strategy used by buckling analysis cannot be used either. Consteel consider all TO members as normal members but with a stiffness reduced to 50%. This value has been assumed on the assumption that tension bar bracings are typically used in pair and only one of them is "working" at a time.
 
+:::
 <!-- /wp:paragraph -->
