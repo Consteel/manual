@@ -109,7 +109,7 @@ Joint loads can be given manually and the manipulations of the connection elemen
 
 <!-- /wp:paragraph -->
 
-![alt text](img/jointpage.png)
+![alt text](img/joint1page.png)
 
 <!-- wp:paragraph -->
 
@@ -208,13 +208,8 @@ No matter if a joint is created with or without model manipulating the joint is 
 
 Select the joint from the tree structure on the Joint dialog, and press Details (![](./img/wp-content-uploads-2021-04-15-3-place-det-button.png)) button, or double click on the name of the joint.
 
-<!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":9740,"width":776,"height":530,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/15-3-edit-dial.png)](./img/wp-content-uploads-2021-04-15-3-edit-dial.png)
-
-<!-- /wp:image -->
+![alt text](img/jointeditdial.png)
 
 <!-- wp:heading {"level":4} -->
 
@@ -226,15 +221,8 @@ Select the joint from the tree structure on the Joint dialog, and press Details 
 
 After the creation of a new joint, or opening an existing one for modification, the Joint details dialog appears, which can be separated into four parts. The window contains the general information about the joint: Joint name, project, engineer, date, etc. These properties will appear in the joint documentation and also useful to distinguish joints from each other.
 
-<!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":9782,"width":728,"height":539,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/15-3-joint-det-dial.png)](./img/wp-content-uploads-2021-04-15-3-joint-det-dial.png)
-
-<!-- /wp:image -->
-
-<!-- wp:list -->
+![alt text](img/jointdetaldial.png)
 
 - (#1) The first part shows the tree structure about the joint: all components of the connection can be seen and selected.
 
@@ -283,10 +271,7 @@ If the _Column_ is selected in the connection tree, then column related properti
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":9746,"width":686,"height":494,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/15-3-joint-det-1-col.png)](./img/wp-content-uploads-2021-04-15-3-joint-det-1-col.png)
-
-<!-- /wp:image -->
+![alt text](img/jointcolumn.png)
 
 <!-- wp:paragraph -->
 
@@ -302,8 +287,8 @@ Stiffeners can be added if _Stiffeners_ is clicked in the connection tree. Upper
 
 <!-- wp:image {"align":"center","id":9752,"width":680,"height":477,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/15-3-joint-det-2-stiff.png)](./img/wp-content-uploads-2021-04-15-3-joint-det-2-stiff.png)
 
+![alt text](img/jointstiffener.png)
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -316,11 +301,9 @@ Stiffeners can be added if _Stiffeners_ is clicked in the connection tree. Upper
 
 If _Joint loading_ is selected, it is possible to choose from two options (#1). When “User defined joint loading” is selected, joint loads can be given manually by defining load cases, and internal forces (#2). If “Model based joint loading” is selected, _csJoint_ automatically imports the internal forces from all of the combinations after the joint is placed in the modelling area.
 
-<!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":9758,"width":656,"height":461,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/15-3-joint-det-3-loads.png)](./img/wp-content-uploads-2021-04-15-3-joint-det-3-loads.png)
+![alt text](img/jointloads.png)
 
 <!-- /wp:image -->
 
@@ -336,10 +319,8 @@ If the _Beam_ is selected in the connection tree, then beam related properties o
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":9764,"width":680,"height":476,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/15-3-joint-det-4-beam.png)](./img/wp-content-uploads-2021-04-15-3-joint-det-4-beam.png)
-
+![alt text](img/jointbeam.png)
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -354,10 +335,9 @@ _End plate_ properties (geometry, material) can be edited in the #1 part of the 
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":9770,"width":679,"height":477,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/15-3-joint-det-5-endpl.png)](./img/wp-content-uploads-2021-04-15-3-joint-det-5-endpl.png)
 
+![alt text](img/jointendplate.png)
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -372,9 +352,7 @@ At _Welds_, it is possible to choose if welds should be optimized automatically 
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":9776,"width":674,"height":472,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/15-3-joint-det-6-welds.png)](./img/wp-content-uploads-2021-04-15-3-joint-det-6-welds.png)
+![alt text](img/jointweld.png)
 
 <!-- /wp:image -->
 
