@@ -120,17 +120,12 @@ Az oszlop valamelyik oldalára kattintva definiálható a bekötő kapcsolat tí
 
 <!-- wp:paragraph -->
 
-Miután a bekötő szerkezeti elemek kapcsolatai beállításra kerültek a csomópont a **Létrehozás** gombra kattintva létrehozható a kiválasztott **[alapértelmezett csomóponti beállításoknak](#alapértelmezett-csomóponti-beállítások)** megfelelően. A létrehozás után megjelenik a csJoint modul fő képernyője. Ezen a képernyőn végezhetők el a kapcsolatok módosításai, optimalizálásai (ld. lentebb).
+Miután a bekötő szerkezeti elemek kapcsolatai beállításra kerültek a csomópont a **Létrehozás** gombra kattintva létrehozható a kiválasztott **[alapértelmezett csomóponti beállításoknak](#alapértelmezett-csomóponti-beállítások)** megfelelően. A létrehozás után megjelenik a Joint modul fő képernyője. Ezen a képernyőn végezhetők el a kapcsolatok módosításai, optimalizálásai (ld. lentebb).
 
 <!-- /wp:paragraph -->
+![alt text](img/jointfirstpage.png)
 
-<!-- wp:image {"align":"center","id":38388,"width":761,"height":503,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/dial_csomop_letrehozas_oszlop-ger_4.png)](./img/wp-content-uploads-2022-06-dial_csomop_letrehozas_oszlop-ger_4.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
 
 A csomópontok módosítását lásd a [**_Csomópontok módosítása_**](#csomópont-módosítása) fejezetben.
 
@@ -182,13 +177,16 @@ A kapcsolódó elemeket a program automatikusan felismeri és felkínálja a leh
 
 <!-- wp:paragraph -->
 
-A csomópont létrehozása után ajánlott a létrehozott csomópontot elhelyezni a _Consteel_ modellen, hiszen így a szerkezeti analízis eredményei alapján a csomóponti terhek automatikusan importálásra kerülnek a csJoint modulba. Az elhelyezés kétféle módon történhet:
+A csomópont létrehozása után ajánlott a létrehozott csomópontot elhelyezni a _Consteel_ modellen, hiszen így a szerkezeti analízis eredményei alapján a csomóponti terhek automatikusan importálásra kerülnek a Joint modulba. Az elhelyezés kétféle módon történhet:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"right","id":38467,"width":239,"height":74,"sizeSlug":"full","linkDestination":"none","className":"is-style-editorskit-rounded"} -->
+![alt text](img/elhelyezés.png)
 
 ![](./img/wp-content-uploads-2022-06-scr_csomop_elhelyez_befejez.png)
+
+
 
 <!-- /wp:image -->
 
@@ -208,19 +206,13 @@ A leggyorsabban közvetlenül a **Csomópont részletezése** dialóg bal alsó 
 
 A második lehetőség a **Szerkezeti elemek** fülön található **Csomópont elhelyezése** funkció használata, mely akkor lehet hasznos, ha több, előzőleg már létrehozott csomópont elhelyezésére van szükség.
 
-<!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":38364,"width":507,"height":334,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
-
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/scr_csomop_elhelyez.png)](./img/wp-content-uploads-2022-06-scr_csomop_elhelyez.png)
-
-<!-- /wp:image -->
 
 <!-- wp:media-text {"mediaId":9849,"mediaType":"image","mediaWidth":15} -->
 
 :::warning
 
-A csJoint modulban végzett módosítások (keresztmetszet vagy anyagminőség változtatás) nem befolyásolja a 3D szerkezeti modellt. Ezek csak csJoint számítás eredményeire vannak hatással. A felhasználónak kell a modellt a csJoint-ban végzett módosításokkal szinkronban tartania: ha megváltoztatunk valami a kapcsolatban, a 3d modellt is meg kell változtatni annak megfelelően. Ezután a számítást újra kell futtatni, és a kapcsolatot újra ellenőrizni kell.
+A Joint modulban végzett módosítások (keresztmetszet vagy anyagminőség változtatás) nem befolyásolja a 3D szerkezeti modellt. Ezek csak Joint számítás eredményeire vannak hatással. A felhasználónak kell a modellt a Joint-ban végzett módosításokkal szinkronban tartania: ha megváltoztatunk valami a kapcsolatban, a 3d modellt is meg kell változtatni annak megfelelően. Ezután a számítást újra kell futtatni, és a kapcsolatot újra ellenőrizni kell.
 :::
 <!-- /wp:paragraph -->
 
@@ -246,12 +238,7 @@ Akár modell alapján (_Consteel_), vagy modell nélkül (_csJoint_) lett létre
 
 Csomópont módosításához először ki kell választani a módosítandó csomópontot a **Szerkezeti elemek** fül **Csomópont szerkesztő** ![](./img/wp-content-uploads-2022-06-tab_csomop_cmd_szerkeszt.png) ikonjára kattintva megjelenő **Csomópontok** dialógon. A dialóg baloldali fastruktúrájában láthatók a létrehozott csomópontok. A fában kiválasztott csomópont megnyitható a Módosítás ![](./img/wp-content-uploads-2022-06-dial_csomop_szerk_modosit.png) gombra kattintva, vagy a csomópont nevére, illetve a csomópont 3D grafikájára történő dupla kattintással.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":38356,"width":512,"height":349,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
-
-[![](./img/wp-content-uploads-2022-06-scr_csomop_modosit-1024x698.png)](https://Consteelsoftware.com/wp-content/uploads/2022/06/scr_csomop_modosit.png)
-
+![alt text](img/Csomopontok.png)
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":4} -->
@@ -266,11 +253,7 @@ A csomópont létrehozása vagy egy meglévő szerkesztésre történő megnyit�
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"right","id":38348,"width":512,"height":379,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
-
-[![](./img/wp-content-uploads-2022-06-dial_csomop_reszletezes-1024x758.png)](https://Consteelsoftware.com/wp-content/uploads/2022/06/dial_csomop_reszletezes.png)
-
-<!-- /wp:image -->
+![alt text](img/joint1.png)
 
 <!-- wp:list -->
 
@@ -316,11 +299,7 @@ Csomóponti dokumentáció a dialóg bal alsó sarkában található **Dokument�
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"right","id":38340,"width":512,"height":379,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
-
-[![](./img/wp-content-uploads-2022-06-dial_csomop_reszletezes_oszlop-1024x757.png)](https://Consteelsoftware.com/wp-content/uploads/2022/06/dial_csomop_reszletezes_oszlop.png)
-
-<!-- /wp:image -->
+![alt text](img/jointoszlop.png)
 
 <!-- wp:paragraph -->
 
@@ -356,13 +335,7 @@ A _Referencia sík_ helyzete (#3) mezőben adható meg a referencia sík oszlop 
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"right","id":38332,"width":512,"height":380,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
-
-[![](./img/wp-content-uploads-2022-06-dial_csomop_reszletezes_merevito-1024x760.png)](https://Consteelsoftware.com/wp-content/uploads/2022/06/dial_csomop_reszletezes_merevito.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
+![alt text](img/jointmerevítő.png)
 
 A csomóponti fa _Merevítők_ elemének kiválasztása után, lehetőség van különböző merevítők alkalmazására.
 
@@ -396,12 +369,7 @@ A _Nyírási merevítők_ (#3) mezőben nyírási merevítő helyezhető el az o
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"right","id":38324,"width":512,"height":338,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
-
-[![](./img/wp-content-uploads-2022-06-dial_csomop_reszletezes_terhek-1024x675.png)](https://Consteelsoftware.com/wp-content/uploads/2022/06/dial_csomop_reszletezes_terhek.png)
-
-<!-- /wp:image -->
-
+![alt text](img/jointteher.png)
 <!-- wp:paragraph -->
 
 A csomóponti fa _Csomóponti terhek_ elemének kiválasztása után megadhatók a csomópontban ható erők.
@@ -448,11 +416,7 @@ A _Csomóponti terhek adatai_ (#2) mezőben adhatók meg a különböző erő ko
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"right","id":38308,"width":512,"height":379,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
-
-[![](./img/wp-content-uploads-2022-06-dial_csomop_reszletezes_gerenda-1024x757.png)](https://Consteelsoftware.com/wp-content/uploads/2022/06/dial_csomop_reszletezes_gerenda.png)
-
-<!-- /wp:image -->
+![alt text](img/jointgerenda.png)
 
 <!-- wp:paragraph -->
 
@@ -494,13 +458,7 @@ A _Gerenda fesztáv_ (#4) mezőben a gerenda fesztávja adható meg. Erre az ér
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"right","id":38300,"width":512,"height":380,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
-
-[![](./img/wp-content-uploads-2022-06-dial_csomop_reszletezes_homloklemez-1024x760.png)](https://Consteelsoftware.com/wp-content/uploads/2022/06/dial_csomop_reszletezes_homloklemez.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
+![alt text](img/jointhomlok.png)
 
 A csomóponti fa _Homloklemez_ elemének kiválasztása után, a homloklemezre és a csavarokra vonatkozó tulajdonságok módosíthatók.
 
@@ -528,11 +486,7 @@ A _Csavar_ (#2) mezőben adhatók meg a csavarok anyagminősége, átmérője é
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"right","id":38292,"width":512,"height":379,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
-
-[![](./img/wp-content-uploads-2022-06-dial_csomop_reszletezes_varratok-1024x758.png)](https://Consteelsoftware.com/wp-content/uploads/2022/06/dial_csomop_reszletezes_varratok.png)
-
-<!-- /wp:image -->
+![alt text](img/jointvarrat.png)
 
 <!-- wp:paragraph -->
 
