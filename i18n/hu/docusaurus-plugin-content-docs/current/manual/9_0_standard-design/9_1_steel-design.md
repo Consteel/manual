@@ -198,7 +198,10 @@ A síkra merőleges stabilitásvizsgálat elvégezhető az EuroCode általános 
 
 <!-- wp:image {"id":10541,"width":"109px","height":"50px","sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/10-2-buckling-formula.png)](./img/wp-content-uploads-2021-04-10-2-buckling-formula.png)
+$$
+\frac{\chi_{op}*\alpha_{ult,k}}{\gamma_{M1}}\geq 1,0
+$$
+
 
 <!-- /wp:image -->
 
@@ -222,8 +225,10 @@ Stabilitás vizsgálat esetén, az alábbi paraméterek állíthatók be:
   ![](./img/wp-content-uploads-2022-06-scr_tervezes_globalis_sajatertek_kivalasztasa.png)
 
 - Keresztmetszeti teherbírási szorzótényező ault,k: a stabilitásvesztés szempontjából domináns normálerőből és erős tengelyű hajlításból, karakterisztikus ellenállásokkal számolt kihasználtság reciproka. A kihasználtsági érték figyelembe vehető külön-külön rudanként, vagy részmodellenként a legkisebb érték.  
-  ![](./img/wp-content-uploads-2021-04-10-2-lambda-op.png)
 
+ $$
+\overline{\lambda _{op}}=\sqrt{\frac{\alpha _{ult,k}}{\alpha _{cr,op}}}
+$$
 - Csökkentő tényező cop: a λop karcsúságból megállapított csökkentő tényező. Csökkentő tényező meghatározására két módszert ad az EuroCode. c,cLT értékek közül a kisebb, vagy e kettő érték interpoláltjaként.
 
 

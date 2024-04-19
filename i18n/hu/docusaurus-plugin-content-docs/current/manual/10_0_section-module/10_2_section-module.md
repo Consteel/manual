@@ -49,7 +49,7 @@ Ha a keresztmetszet modul közvetlenül a modellből kerül megnyitásra, akkor 
 
 <!-- wp:paragraph -->
 
-A **csSection** modul modellből közvetlenül az **Analízis** vagy a **Globális vizsgálatok** fülről érhető el, ha le lett futtatva első vagy másodrendű analízis vagy szabványos vizsgálat. **csSection** modul két féle képen nyitható meg.
+A **Section** modul modellből közvetlenül az **Analízis** vagy a **Globális vizsgálatok** fülről érhető el, ha le lett futtatva első vagy másodrendű analízis vagy szabványos vizsgálat. **Section** modul két féle képen nyitható meg.
 
 <!-- /wp:paragraph -->
 
@@ -142,7 +142,7 @@ _3D diagram_
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-A csSection az alábbi feszültségeket számítja:
+A Section az alábbi feszültségeket számítja:
 
 <!-- /wp:paragraph -->
 
@@ -251,7 +251,7 @@ Az alábbi tervezési eljárások kerülnek kiszámításra:
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Vasalási opcióval nem rendelkező vasbeton keresztmetszet esetén a **csSection** modul csak a teherbírási felületet tudja előállítani. A teherbírási vonal megtekinthető a három koordináta tengely mentén és tetszőleges metszet is készíthető.
+Vasalási opcióval nem rendelkező vasbeton keresztmetszet esetén a **Section** modul csak a teherbírási felületet tudja előállítani. A teherbírási vonal megtekinthető a három koordináta tengely mentén és tetszőleges metszet is készíthető.
 
 <!-- /wp:paragraph -->
 

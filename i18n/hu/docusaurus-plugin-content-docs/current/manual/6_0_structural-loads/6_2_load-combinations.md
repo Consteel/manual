@@ -407,6 +407,8 @@ Teherkombináció csomag megadása
 
 \- A táblázat jobb felső sarkában található szem ikon segítségével szabályozhatjuk, hogy az összes, vagy csak a kiválasztott kombinációk legyenek láthatók a táblázatban.
 
+![alt text](img/osszesm.png)
+![alt text](img/osszesmeg.png)
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->

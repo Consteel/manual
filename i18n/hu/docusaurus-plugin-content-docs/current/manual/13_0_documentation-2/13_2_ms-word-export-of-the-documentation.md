@@ -16,11 +16,7 @@ A Consteelben készített dokumentációk _.docx_ formátumú, szerkeszthető Wo
 
 <!-- wp:column -->
 
-<!-- wp:image {"align":"center","id":37834,"width":344,"height":203,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
-
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/scr_dokument_export.png)](./img/wp-content-uploads-2022-06-scr_dokument_export.png)
-
-<!-- /wp:image -->
+![alt text](img/dokumentalasexport.png)
 
 <!-- /wp:column -->
 
@@ -60,9 +56,8 @@ Az exportált dokumentum első alkalommal való megnyitásakor a tartalomjegyzé
 
 <!-- wp:image {"align":"center","id":37818,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/scr_dokument_export_3.png)](./img/wp-content-uploads-2022-06-scr_dokument_export_3.png)
+![alt text](img/contents.png)
 
-<!-- /wp:image -->
 
 <!-- /wp:column -->
 

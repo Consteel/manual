@@ -7,6 +7,8 @@ Minden CAD alapú modellező rendszer rendelkezik valamilyen fóliakoncepcióval
 
 [![](https://Consteelsoftware.com/wp-content/uploads/2022/02/dial_folia.png)](./img/wp-content-uploads-2022-02-dial_folia.png)
 
+![alt text](img/elérhetésihely.png)
+
 
 ![](./img/wp-content-uploads-2021-04-5-5-layers-ico.png) A fólia kezelő dialógon az alábbi funkciók találhatóak:
 
