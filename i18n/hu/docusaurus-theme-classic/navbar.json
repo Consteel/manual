@@ -23,7 +23,7 @@
     "description": "Navbar item with label Consteel Software"
   },
   "item.label.Plugins": {
-    "message": "Pluginok",
+    "message": "Bővítmények",
     "description": "Navbar item with label Plugins"
   }
 }
