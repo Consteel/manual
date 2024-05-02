@@ -7,18 +7,14 @@ An if-else statement in programming is a conditional statement that runs a diffe
 
 In the expression, after the if command, the following operators can be used:
 
-**==** -> equals
-
-**!=** -> Not equal
-
-**&lt;** -> Less than
-
-**&lt;=** -> Less equal
-
-**>** -> Greater than
-
-**>=** -> Greater equal
-
+| Operator    | Meaning               |
+| ----------- | --------------------- |
+| **==**      | Equal                 |
+| **!=**      | Unequal               |
+| **&lt;**    | Less than             |
+| **&lt;=**   | Less than or equal    |
+| **>**       | Greater than          |
+| **>=**      | Greater than or equal |
 
 Descript supports **one-way **_(if-endif) \_and **two-way **_(if-else-endif) \_if selections.
 

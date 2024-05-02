@@ -6,77 +6,27 @@ redirect_from:
             - https://www.consteelsoftware.com/manual/descript-cspi/array_clear/
 hero: ../../../defaultHero.jpg
 ---
-<!-- wp:paragraph -->
 
 Clears an array.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-
-### Syntax
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-**ARRAY_CLEAR **
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-
-### Command parameters
-
-<!-- /wp:heading -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                           |                |                  |                   |
-| ------------------------- | -------------- | ---------------- | ----------------- |
-| **Command parameter**     | **Assignment** | **Value format** | **Input options** |
-| [Array name](#Array-name) | Required       | String           | Local, variable   |
-
-<!-- /wp:table -->
-
-<!-- wp:heading {"level":4} -->
-
-#### Array name:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-Name of the array.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-
 ### Description
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Clears all items from the specified array. After the execution of this command the array will be empty.
 
-<!-- /wp:paragraph -->
+### Syntax
 
-<!-- wp:heading {"level":3} -->
+**ARRAY_CLEAR** [Array name]
 
-### Sample code:
+### Command parameters
 
-<!-- /wp:heading -->
+| **Command parameter**     | **Assignment** | **Value format** | **Input options** |
+| ------------------------- | -------------- | ---------------- | ----------------- |
+| [Array name](#array-name) | Required       | String           | Local, variable   |
 
-<!-- wp:loos-hcb/code-block -->
+#### Array name:
+Name of the array.
 
+### Sample code
 ```
 ARRAY_CLEAR Data
 ```
-
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:paragraph -->
-
-<!-- /wp:paragraph -->

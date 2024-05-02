@@ -8,9 +8,8 @@ Mathematical operators can be used with numerical values and variables. They can
 The following mathematical operations are implemented in Descript:
 
 
-|              |                     |                    |                                    |
-| ------------ | ------------------- | ------------------ | ---------------------------------- |
 | **Operator** | **Name**            | **Syntax example** | **Description**                    |
+| ------------ | ------------------- | ------------------ | ---------------------------------- |
 | **+**        | Summation           | 1+2                | Adds numbers                       |
 | **-**        | Subtraction         | 3-2                | Subtracts numbers                  |
 | **\***       | Multiplication      | 4\*2               | Multiplies numbers                 |

@@ -6,103 +6,35 @@ redirect_from:
             - https://www.consteelsoftware.com/manual/descript-cspi/map_set/
 hero: ../../../defaultHero.jpg
 ---
-<!-- wp:paragraph -->
 
 Sets a key-value pair in a map.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-
-### Syntax
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-**MAP_SET **
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-
-### Command parameters
-
-<!-- /wp:heading -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                          |                |                  |                   |
-| ------------------------ | -------------- | ---------------- | ----------------- |
-| **Command parameter**    | **Assignment** | **Value format** | **Input options** |
-| [Map name](#Map-name)    | Required       | String           | Local, variable   |
-| [Key](#Key)              | Required       | String           | Local, variable   |
-| [Item value](#Key-value) | Required       | String           | Local, variable   |
-
-<!-- /wp:table -->
-
-<!-- wp:heading {"level":4} -->
-
-#### Map name:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-Name of the map.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4} -->
-
-#### Key:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-The string acting as the key.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4} -->
-
-#### Key value:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-The value paired to the key.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-
 ### Description
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Sets a key-value pair in a map. If the map was not defined previously, then this command will create the map, then store the key-value pair within it.
 
-<!-- /wp:paragraph -->
+### Syntax
 
-<!-- wp:heading {"level":3} -->
+**MAP_SET** [Map name] \[Key] [Key value]
 
-### Sample code:
+### Command parameters
 
-<!-- /wp:heading -->
+| **Command parameter**    | **Assignment** | **Value format** | **Input options** |
+| ------------------------ | -------------- | ---------------- | ----------------- |
+| [Map name](#map-name)    | Required       | String           | Local, variable   |
+| [Key](#key)              | Required       | String           | Local, variable   |
+| [Item value](#key-value) | Required       | String           | Local, variable   |
 
-<!-- wp:loos-hcb/code-block -->
+#### Map name:
+Name of the map.
 
+#### Key:
+The string acting as the key.
+
+#### Key value:
+The value paired to the key.
+
+### Sample code
 ```
 MAP_SET Map1 Key1 123
 ```
-
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:paragraph -->
-
-<!-- /wp:paragraph -->

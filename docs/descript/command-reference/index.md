@@ -1,0 +1,75 @@
+# Command reference
+
+## Commands grouped by function
+
+- **Data handling**
+  - Text
+    - [STRISNUM ](/docs/descript/command-reference/strisnum/)→ Tells if a string is a number or not
+    - [CONCAT ](/docs/descript/command-reference/concat/)→ Assigns a new value to a variable by combining 2 values
+    - [STRFIND ](/docs/descript/command-reference/strfind/)→ Finds a string within another string
+    - [EXPLODE ](/docs/descript/command-reference/explode/)→ Chops up a string with the given separator character and stores the parts in an array
+  - Arrays
+    - [ARRAY_CREATE ](/docs/descript/command-reference/array_create/)→ Creates an array
+    - [ARRAY_ADD ](/docs/descript/command-reference/array_add/)→ Adds an item to an array
+    - [ARRAY_SET ](/docs/descript/command-reference/array_set/)→ Sets the value of an item in an array
+    - [ARRAY_GET ](/docs/descript/command-reference/array_get/)→ Gets the value of an item in an array
+    - [ARRAY_COUNT ](/docs/descript/command-reference/array_count/)→ Counts the items in an array
+    - [ARRAY_CLEAR ](</docs/descript/command-reference/array_clear/(opens in a new tab)>)→ Clears an array
+  - Maps
+    - [MAP_CREATE ](/docs/descript/command-reference/map_create/)→ Creates a map
+    - [MAP_SET ](/docs/descript/command-reference/map_set/)→ Sets a key-value pair in a map
+    - [MAP_KEYEXISTS ](/docs/descript/command-reference/map_keyexists/)→ Checks whether a key exists in a map or not
+    - [MAP_GET ](/docs/descript/command-reference/map_get/)→ Gets the value paired to a key from a map
+    - [MAP_CLEAR ](/docs/descript/command-reference/map_clear/)→ Deletes the contents of a map
+
+- **Model object handling**
+  - Object creation
+    - [LOAD_SECTION_LIBRARY ](/docs/descript/command-reference/load_section_library/)→ Loads a section into the section list from the standard section library
+    - [LOAD_SECTION_MACRO ](/docs/descript/command-reference/load_section_macro/)→ Loads a macro section into the section list
+    - [LOAD_SECTION_MACRO_STIFFENED ](https://www.consteelsoftware.com/manual/descript-cspi/load_section_macro_stiffened/)→ Loads a stiffened macro section into the section list <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+    - [CREATE ](/docs/descript/command-reference/create/)→ Creates an object
+    - [GENERATE ](/docs/descript/command-reference/generate/)→ Generates multiple objects
+    - [CONVERT_AND_LOAD_SECTIONS ](https://www.consteelsoftware.com/manual/descript-cspi/convert_and_load_sections/)→ Converts and loads sections from section bank <span style={{color:"MediumSeaGreen"}}>(since CS 17 build 3303)</span>
+  - Object selection
+    - [SELECT](/docs/descript/command-reference/select/) → Selects objects in the model
+    - [DESELECT](/docs/descript/command-reference/deselect/) → Deselects objects in the model
+  - Object modification
+    - [MOVE_SELECTED ](/docs/descript/command-reference/move_selected/)→ Moves pre-selected objects
+    - [COPY_SELECTED ](/docs/descript/command-reference/copy_selected/)→ Copies pre-selected objects
+    - [ROTATE_SELECTED ](/docs/descript/command-reference/rotate_selected/)→ Rotates pre-selected objects
+    - [MIRROR_SELECTED ](/docs/descript/command-reference/mirror_selected/)→ Mirrors pre-selected objects
+    - [MOVE_SELECTED_POINT_OR_EDGE ](/docs/descript/command-reference/move_selected_point_or_edge/)→ Moves pre-selected points and edges
+    - [SET ](/docs/descript/command-reference/set/)→ Sets or modifies an attribute value of an object
+  - Object removal
+    - [DELETE ](https://www.consteelsoftware.com/manual/descript-cspi/delete/)→ Deletes an object <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+- **Query tools**
+    - [GET ](/docs/descript/command-reference/get/)→ Gets an attribute value of an object
+    - [GET_LOADED_SECTIONS ](/docs/descript/command-reference/get_loaded_sections/)→ Saves all section IDs into an array
+    - [GET_RELEASE_NAME ](/docs/descript/command-reference/get_release_name/)→ Gets the name of a release type
+    - [GET_SUPPORT_NAME ](/docs/descript/command-reference/get_support_name/)→ Gets the name of a support type
+    - [FILTER ](/docs/descript/command-reference/filter/)→ Creates an ID list of model objects based on object type and attributes
+    - [GET_RESULT ](/docs/descript/command-reference/get_result/)→ Queries results from an analysis or design run
+    - [GET_REFERENCING_OBJECTS ](https://www.consteelsoftware.com/manual/descript-cspi/get_referencing_objects/)→ Gets the IDs of objects referencing the input object <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+- **Calculation**
+  - [ANALYSIS RUN](/docs/descript/command-reference/analysis-run/) → Starts an analysis run
+  - [DESIGN RUN](/docs/descript/command-reference/design-run/) → Starts a design calculation
+- **Input/output**
+  - Text files
+    - [OPEN_FILE ](/docs/descript/command-reference/open_file/)→ Selects a text file for output
+    - [WRITE_FILE ](/docs/descript/command-reference/write_file/)→ Writes an output to the currently open text file
+    - [CLOSE_FILE ](/docs/descript/command-reference/close_file/)→ Closes the currently open text file
+  - Excel
+    - [EXCEL_OPEN ](/docs/descript/command-reference/excel_open/)→ Opens an excel file
+    - [EXCEL_WRITE_CELL ](/docs/descript/command-reference/excel_write_cell/)→ Writes a value into a specific cell in an excel spreadsheet
+    - [EXCEL_READ_CELL ](/docs/descript/command-reference/excel_read_cell/)→ Reads out the value stored in a specific cell in an excel spreadsheet
+    - [EXCEL_COUNT_FILLED_ROWS ](/docs/descript/command-reference/excel_count_filled_rows/)→ Counts the filled rows in a column of an excel spreadsheet
+    - [EXCEL_CLOSE ](/docs/descript/command-reference/excel_close/)→ Closes the currently open excel file
+- **Other**
+  - [GET_USER_INPUT ](/docs/descript/command-reference/get_user_input/)→ Requests input from the user during the script run
+  - [TAB ](https://www.consteelsoftware.com/manual/descript-cspi/tab/)→ Changes tab in the main window <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+  - [MSG_BOX ](https://www.consteelsoftware.com/manual/descript-cspi/msg_box/)→ Pops up a message box <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+  - [WAIT ](/docs/descript/command-reference/wait/)→ Waits a specified time before executing the next command
+  - [CLEAR_ALL ](/docs/descript/command-reference/clear_all/)→ Clears all content in the model file
+  - [RETURN ](/docs/descript/command-reference/return/)→ Exits the script run
+  - [SAVE_AS ](/docs/descript/command-reference/save_as/)→ Saves the model to specific storage location
+  - [EXIT ](/docs/descript/command-reference/exit/)→ Exits Consteel

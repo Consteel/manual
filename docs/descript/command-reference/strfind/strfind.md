@@ -6,105 +6,37 @@ redirect_from:
             - https://www.consteelsoftware.com/manual/descript-cspi/strfind/
 hero: ./img/wp-content-uploads-2021-08-image-73.png
 ---
-<!-- wp:paragraph -->
 
 Finds a string within another string.
 
-<!-- /wp:paragraph -->
+### Description
 
-<!-- wp:heading {"level":3} -->
+Finds a string within another string. If the _String to find_ exists within the _String to search_, then the character number of the first find (starting from 0) will be stored in the output variable. If the _String to find_ does not exists within the _String to search_ then the output value will be "-1".
 
 ### Syntax
 
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-**STRFIND **
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
+**STRFIND** [String to search] [String to find] [Output variable]
 
 ### Command parameters
 
-<!-- /wp:heading -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                                       |                |                  |                   |
-| ------------------------------------- | -------------- | ---------------- | ----------------- |
 | **Command parameter**                 | **Assignment** | **Value format** | **Input options** |
-| [String to search](#String-to-search) | Required       | String           | Local, variable   |
-| [String to find](#String-to-find)     | Required       | String           | Local, variable   |
-| [Output variable](#Output-variable)   | Required       | String           | Local, variable   |
-
-<!-- /wp:table -->
-
-<!-- wp:heading {"level":4} -->
+| ------------------------------------- | -------------- | ---------------- | ----------------- |
+| [String to search](#string-to-search) | Required       | String           | Local, variable   |
+| [String to find](#string-to-find)     | Required       | String           | Local, variable   |
+| [Output variable](#output-variable)   | Required       | String           | Local, variable   |
 
 #### String to search:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
 The string that will be searched.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4} -->
-
 #### String to find:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
 The string that will be searched for within the first string.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4} -->
-
 #### Output variable:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
 The variable that will store the output.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-
-### Description
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-Finds a string within another string. If the String to find exists within the String to search, then the character number of the first find (starting from 0) will be stored in the output variable. If the String to find does not exists within the String to search then the output value will be "-1".
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:loos-hcb/code-block -->
-
+### Sample code
 ```
 STRFIND asd123 12 Output_Variable
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:image {"id":23804,"sizeSlug":"full","linkDestination":"none"} -->
-
 ![](./img/wp-content-uploads-2021-08-image-73.png)
-
-<!-- /wp:image -->

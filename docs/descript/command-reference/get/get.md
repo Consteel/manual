@@ -6,292 +6,77 @@ redirect_from:
             - https://www.consteelsoftware.com/manual/descript-cspi/get/
 hero: ./img/wp-content-uploads-2021-09-image-62-1024x406.png
 ---
-<!-- wp:paragraph -->
 
 Gets an attribute value of an object.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
 ### Syntax
 
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-**GET **
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+**GET** \[Object ID] \[Object attribute] \[Output variable]
 
 ### Command parameters
 
-<!-- /wp:heading -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                                       |                |                                          |                   |
-| ------------------------------------- | -------------- | ---------------------------------------- | ----------------- |
 | **Command parameter**                 | **Assignment** | **Value format**                         | **Input options** |
-| [Object ID](#Object-ID)               | Required       | String                                   | Local, variable   |
-| [Object attribute](#Object-attribute) | Required       | [Predefined strings](#object-attributes) | Local, variable   |
-| [Output variable](#Output-variable)   | Required       | String                                   | Local, variable   |
-
-<!-- /wp:table -->
-
-<!-- wp:heading {"level":4,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+| ------------------------------------- | -------------- | ---------------------------------------- | ----------------- |
+| [Object ID](#object-ID)               | Required       | String                                   | Local, variable   |
+| [Object attribute](#object-attribute) | Required       | Predefined strings                       | Local, variable   |
+| [Output variable](#output-variable)   | Required       | String                                   | Local, variable   |
 
 #### Object ID:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
 The ID of the object.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
 
 Object IDs from the following object types are accepted:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
-
 - Structural members tab:
-
-  <!-- wp:list -->
-
-  - <!-- wp:list-item -->
-  - [Section](#Section)
-  - <!-- /wp:list-item -->
-  -
-  - <!-- wp:list-item -->
-  - [Structural member](#Structural-member)
-  - <!-- /wp:list-item -->
-  -
-  - <!-- wp:list-item -->
-  - [Structural plate](#Structural-plate)
-  - <!-- /wp:list-item -->
-  -
-  - <!-- wp:list-item -->
-  - [Haunched member](#Haunched-member) _(since CS 17)_
-  - <!-- /wp:list-item -->
-  -
-  - <!-- wp:list-item -->
-  - [Tapered member](#Tapered-member) _(since CS 17)_
-  - <!-- /wp:list-item -->
-  -
-  - <!-- wp:list-item -->
-  - [Steel material](#Steel-material)
-  - <!-- /wp:list-item -->
-  -
-  - <!-- wp:list-item -->
-  - [Coated steel material](#Coated-steel-material)
-  - <!-- /wp:list-item -->
-  -
-  - <!-- wp:list-item -->
-  - [Concrete material](#Conctrete-material)
-  - <!-- /wp:list-item -->
-  -
-  - <!-- wp:list-item -->
-  - [Rebar material](#Rebar-material) _(since CS 17)_
-  - <!-- /wp:list-item -->
-  -
-  - <!-- wp:list-item -->
-  - [Point support](#Point-support) _(since CS 17)_
-  - <!-- /wp:list-item -->
-  -
-  - <!-- wp:list-item -->
-  - [Line support](#Line-support) _(since CS 17)_
-  - <!-- /wp:list-item -->
-  -
-  - <!-- wp:list-item -->
-  - [Surface support](#Surface-support) _(since CS 17)_
-  - <!-- /wp:list-item -->
-  -
-  - <!-- wp:list-item -->
-  - [Support type](#Support-type) _(since CS 17)_
-  - <!-- /wp:list-item -->
-  -
-  - <!-- wp:list-item -->
-  - [Release type](#Release-type) _(since CS 17)_
-  - <!-- /wp:list-item -->
-  -
-  - <!-- wp:list-item -->
-  - [Link ](#Link)_(since CS 17)_
-  - <!-- /wp:list-item -->
-
-  <!-- /wp:list -->
-
-- <!-- /wp:list-item -->
-
--
-
-* <!-- wp:list-item -->
-
-* Loads tab:
-
-  <!-- wp:list -->
-
-  - <!-- wp:list-item -->
-  - [Load group](#Load-group) _(since CS 17)_
-  - <!-- /wp:list-item -->
-  -
-  - <!-- wp:list-item -->
-  - [Load case](#Load-case)
-  - <!-- /wp:list-item -->
-  -
-  - <!-- wp:list-item -->
-  - [Load combination](#Load-combination) _(since CS 17)_
-  - <!-- /wp:list-item -->
-  -
-  - <!-- wp:list-item -->
-  - [Point load](#Point-load) _(since CS 17)_
-  - <!-- /wp:list-item -->
-  -
-  - <!-- wp:list-item -->
-  - [Line load](#Line-load) _(since CS 17)_
-  - <!-- /wp:list-item -->
-  -
-  - <!-- wp:list-item -->
-  - [Surface load](#Surface-load) _(since CS 17)_
-  - <!-- /wp:list-item -->
-  -
-  - <!-- wp:list-item -->
-  - [Load transfer surface](#Load-transfer-surface) _(since CS 17)_
-  - <!-- /wp:list-item -->
-
-  <!-- /wp:list -->
-
-* <!-- /wp:list-item -->
-
-*
-
-- <!-- wp:list-item -->
-
+  - [Section](#section)
+  - [Structural member](#structural-member)
+  - [Structural plate](#structural-plate)
+  - [Haunched member](#haunched-member) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+  - [Tapered member](#tapered-member) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+  - [Steel material](#steel-material)
+  - [Coated steel material](#coated-steel-material)
+  - [Concrete material](#conctrete-material)
+  - [Rebar material](#rebar-material) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+  - [Point support](#point-support) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+  - [Line support](#line-support) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+  - [Surface support](#surface-support) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+  - [Support type](#support-type) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+  - [Release type](#release-type) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+  - [Link ](#link)<span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+- Loads tab:
+  - [Load group](#load-group) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+  - [Load case](#load-case)
+  - [Load combination](#load-combination) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+  - [Point load](#point-load) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+  - [Line load](#line-load) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+  - [Surface load](#surface-load) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+  - [Load transfer surface](#Load-transfer-surface) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
 - Mass tab:
-
-  <!-- wp:list -->
-
-  - <!-- wp:list-item -->
-  - [Mass group](#Mass-group) _(since CS 17)_
-  - <!-- /wp:list-item -->
-  -
-  - <!-- wp:list-item -->
-  - [Mass case](#Mass-case) _(since CS 17)_
-  - <!-- /wp:list-item -->
-  -
-  - <!-- wp:list-item -->
-  - [Mass combination](#Mass-combination) _(since CS 17)_
-  - <!-- /wp:list-item -->
-  -
-  - <!-- wp:list-item -->
-  - [Point mass](#Point-mass) _(since CS 17)_
-  - <!-- /wp:list-item -->
-
-  <!-- /wp:list -->
-
-- <!-- /wp:list-item -->
-
--
-
-* <!-- wp:list-item -->
-
-* Other:
-
-  <!-- wp:list -->
-
-  - <!-- wp:list-item -->
-  - [Portion ](#Portion)_(since CS 17)_
-  - <!-- /wp:list-item -->
-
-  <!-- /wp:list -->
-
-* <!-- /wp:list-item -->
-
-<!-- /wp:list -->
-
-<!-- wp:heading {"level":4,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+  - [Mass group](#mass-group) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+  - [Mass case](#mass-case) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+  - [Mass combination](#mass-combination) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+  - [Point mass](#point-mass) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+- Other:
+  - [Portion ](#portion)<span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
 
 #### Object attribute:
+The requested object attribute. The available selection of object attributes depends on the object type, which is automatically determined based on the given object ID. The available object attributes can be found at the [detailed description of object](#detailed-description-of-object-types) types below.
 
-<!-- /wp:heading -->
+In case we have an object ID, and don't know the type of the object it identifies, the type can also be queried with the _Object_Type_ attribute for every accepted object type.
 
-<!-- wp:paragraph -->
-
-The requested object attribute. The available selection of object attributes depends on the object type, which is automatically determined based on the given object ID. The available object attributes can be found at the [detailed description of object](#Detailed-description-of-object-types) types below.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-In case we have an object ID, and don't know the type of the object it identifies, the type can also be queried with the \_Object_Type \_attribute for every accepted object type.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-Further information about object attributes can be found at the [CREATE ](https://consteelsoftware.com/manual/descript-cspi/create/)and [SET ](https://www.consteelsoftware.com/manual/descript-cspi/set/)commands.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+Further information about object attributes can be found at the [CREATE](/docs/descript/command-reference/create/) and [SET](/docs/descript/command-reference/set/) commands.
 
 #### Output variable:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
 The name of the variable that will store the retrieved value of the specified attribute.
 
-<!-- /wp:paragraph -->
+### Sample code
 
-<!-- wp:heading {"level":3,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-### Description
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-Gets an attribute value of a previously created object.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:heading {"level":4,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-#### Command only:
-
-<!-- /wp:heading -->
-
-<!-- wp:loos-hcb/code-block -->
+**Command only:**
 
 ```
 GET $Sec_ID0 Name Section_Name
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading {"level":4,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-#### Member length with getting member ID:
-
-<!-- /wp:heading -->
-
-<!-- wp:loos-hcb/code-block -->
+**Member length with getting member ID:**
 
 ```
 FILTER Mem_list
@@ -302,39 +87,19 @@ ARRAY_GET Mem_list 0 Act_Mem_ID
 GET $Act_Mem_ID length Mem_Length
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:image {"id":25312,"sizeSlug":"large","linkDestination":"media"} -->
-
 [![](./img/wp-content-uploads-2021-09-image-62-1024x406.png)](https://consteelsoftware.com/wp-content/uploads/2021/09/image-62.png)
 
-<!-- /wp:image -->
-
-<!-- wp:heading {"level":1} -->
-
-# Detailed description of object types
-
-<!-- /wp:heading -->
-
-<!-- wp:heading -->
+---
+## Detailed description of object types
 
 ## Section
 
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
 Available object attributes:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"caption-align-center is-style-stripes","captionAlignment":"center"} -->
-
-|                                                                           |                                                        |
+| **Object attribute name**                                                 | **Object attribute** (type this into Descript)         |
 | ------------------------------------------------------------------------- | ------------------------------------------------------ |
-| **Object attribute name**                                                 | \***\*Object attribute** (type this into Descript)\*\* |
 | Name                                                                      | Name                                                   |
-| Object type _(since CS 17)_                                               | Object_Type                                            |
+| Object type <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>   | Object_Type                                            |
 | Material                                                                  | MaterialID                                             |
 | Cross section area (A)                                                    | CrossSectionArea                                       |
 | Perimeter                                                                 | Perimeter                                              |
@@ -381,34 +146,13 @@ Available object attributes:
 | Origin                                                                    | Origin                                                 |
 | Parameters                                                                | Parameters                                             |
 
-<!-- /wp:table -->
-
-<!-- wp:paragraph -->
-
 Explanation for the section Type, GroupName , Source and Parameters attributes:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":25294,"sizeSlug":"full","linkDestination":"media"} -->
 
 [![](https://consteelsoftware.com/wp-content/uploads/2021/09/image-60.png)](./img/wp-content-uploads-2021-09-image-60.png)
 
-<!-- /wp:image -->
+### Sample code
 
-<!-- wp:heading {"level":3,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
+**All available attributes + object creation:**
 ```
 LOAD_SECTION_LIBRARY Sec_ID1 "HEA 200"
 
@@ -461,27 +205,14 @@ GET Sec_ID1 Origin Origin
 GET Sec_ID1 Parameters Parameters
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading -->
-
 ## Structural member
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Available object attributes:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                                   |                                                |
-| --------------------------------- | ---------------------------------------------- |
 | **Object attribute name**         | **Object attribute** (type this into Descript) |
+| --------------------------------- | ---------------------------------------------- |
 | Name                              | Name                                           |
-| Object type _(since CS 17)_       | Object_Type                                    |
+| Object type <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>       | Object_Type                                    |
 | Material ID                       | MaterialID                                     |
 | Section ID                        | SectionID                                      |
 | Length                            | Length                                         |
@@ -499,24 +230,10 @@ Available object attributes:
 | Finite element size of the flange | AverageEdgeLength_Flange                       |
 | Type of the constraint elements   | ShellDOFConstraint                             |
 | Line ID                           | Edge                                           |
-|                                   |                                                |
 
-<!-- /wp:table -->
+### Sample code
 
-<!-- wp:heading {"level":3,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
+**All available attributes + object creation:**
 ```
 LOAD_SECTION_LIBRARY Sec_ID1 "HEA 200"
 
@@ -545,47 +262,21 @@ GET Mem_ID1 ShellDOFConstraint ShellDOFConstraint
 GET Mem_ID1 Edge Edge
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading -->
-
 ## Structural plate
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Available object attributes:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                             |                                                |
-| --------------------------- | ---------------------------------------------- |
 | **Object attribute name**   | **Object attribute** (type this into Descript) |
+| --------------------------- | ---------------------------------------------- |
 | Name                        | Name                                           |
-| Object type _(since CS 17)_ | Object_Type                                    |
+| Object type <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span> | Object_Type                                    |
 | Material ID                 | MaterialID                                     |
 | Thickness                   | Thickness                                      |
 | Finite element size         | AverageEdgeLength                              |
 
-<!-- /wp:table -->
+### Sample code
 
-<!-- wp:heading {"level":3,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
+**All available attributes + object creation:**
 ```
 CREATE SPID1 Structural_Plate "C25/30 EN 1992-1-1:2010" 200 50
 0 0 0
@@ -600,27 +291,14 @@ GET SPID1 Thickness Thickness
 GET SPID1 AverageEdgeLength AverageEdgeLength
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading -->
-
 ## Haunched member
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Available object attributes:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                                    |                                                |
-| ---------------------------------- | ---------------------------------------------- |
 | **Object attribute name**          | **Object attribute** (type this into Descript) |
+| ---------------------------------- | ---------------------------------------------- |
 | Name                               | Name                                           |
-| Object type _(since CS 17)_        | Object_Type                                    |
+| Object type <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>        | Object_Type                                    |
 | Member ID                          | OnMemberID                                     |
 | Start height                       | Hstart                                         |
 | End height                         | Hend                                           |
@@ -633,22 +311,9 @@ Available object attributes:
 | Haunch position                    | Type                                           |
 | Start position along member length | StartX                                         |
 
-<!-- /wp:table -->
+### Sample code
 
-<!-- wp:heading {"level":3,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
+**All available attributes + object creation:**
 ```
 LOAD_SECTION_library Sec_ID1 "HEA 200"
 
@@ -675,48 +340,22 @@ GET Hau_ID1 Type Type
 GET Hau_ID1 StartX StartX
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading -->
-
 ## Tapered member
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Available object attributes:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                             |                                                |
-| --------------------------- | ---------------------------------------------- |
 | **Object attribute name**   | **Object attribute** (type this into Descript) |
+| --------------------------- | ---------------------------------------------- |
 | Name                        | Name                                           |
-| Object type _(since CS 17)_ | Object_Type                                    |
+| Object type <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span> | Object_Type                                    |
 | Member ID                   | OnMemberID                                     |
 | Start height                | Hstart                                         |
 | End height                  | Hend                                           |
 | Beam eccentricity           | Format                                         |
 
-<!-- /wp:table -->
+### Sample code
 
-<!-- wp:heading {"level":3,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
+**All available attributes + object creation:**
 ```
 LOAD_SECTION_MACRO Sec_ID1 WLD-IH Descript_Section "S 235 EN 10025-2" 100 10 200 6 100 10
 
@@ -735,27 +374,14 @@ GET Tapered_ID1 Hend Hend
 GET Tapered_ID1 Format Format
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading -->
-
 ## Steel material
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Available object attributes:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                                       |                                                |
-| ------------------------------------- | ---------------------------------------------- |
 | **Object attribute name**             | **Object attribute** (type this into Descript) |
+| ------------------------------------- | ---------------------------------------------- |
 | Name                                  | Name                                           |
-| Object type _(since CS 17)_           | Object_Type                                    |
+| Object type <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>           | Object_Type                                    |
 | Density                               | Density                                        |
 | Elastic modulus                       | Elasticity                                     |
 | Poisson factor                        | Poisson                                        |
@@ -768,22 +394,9 @@ Available object attributes:
 | Thickness Y                           | ThicknessY                                     |
 | Thickness U                           | ThicknessU                                     |
 
-<!-- /wp:table -->
+### Sample code
 
-<!-- wp:heading {"level":3,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
+**All available attributes + object creation:**
 ```
 CREATE Steel_Mat_ID1 Steel "Custom steel name" 7850 210000 0.3 0.000012 0.000014 235 215 360 360 40 40
 
@@ -802,27 +415,14 @@ GET Steel_Mat_ID1 ThicknessY ThicknessY
 GET Steel_Mat_ID1 ThicknessU ThicknessU
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading -->
-
 ## Coated steel material
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Available object attributes:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                                       |                                                |
-| ------------------------------------- | ---------------------------------------------- |
 | **Object attribute name**             | **Object attribute** (type this into Descript) |
+| ------------------------------------- | ---------------------------------------------- |
 | Name                                  | Name                                           |
-| Object type _(since CS 17)_           | Object_Type                                    |
+| Object type <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>           | Object_Type                                    |
 | Density                               | Density                                        |
 | Elastic modulus                       | Elasticity                                     |
 | Poisson factor                        | Poisson                                        |
@@ -832,22 +432,9 @@ Available object attributes:
 | Ultimate strength                     | Fu                                             |
 | Coating thickness                     | CoatingThickness                               |
 
-<!-- /wp:table -->
+### Sample code
 
-<!-- wp:heading {"level":3,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
+**All available attributes + object creation:**
 ```
 CREATE CSteel_Mat_ID1 Coated_Steel "Custom coated steel name" 7850 210000 0.3 0.000012 0.000014 350 420 0.02
 
@@ -863,36 +450,23 @@ GET CSteel_Mat_ID1 Fu Fu
 GET CSteel_Mat_ID1 CoatingThickness CoatingThickness
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading -->
-
 ## Conctrete material
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Available object attributes:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                                       |                                                |
-| ------------------------------------- | ---------------------------------------------- |
 | **Object attribute name**             | **Object attribute** (type this into Descript) |
+| ------------------------------------- | ---------------------------------------------- |
 | Name                                  | Name                                           |
-| Object type _(since CS 17)_           | Object_Type                                    |
+| Object type <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>           | Object_Type                                    |
 | Density                               | Density                                        |
 | Secant modulus of elasticity          | Elasticity                                     |
 | Compressive strength                  | Fck                                            |
 | Characteristic tensile strength       | Fctk                                           |
-| Mean tensile strength _(since CS 17)_ | Fctm                                           |
+| Mean tensile strength <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span> | Fctm                                           |
 | Final value of creep coefficient      | Creep                                          |
 | Poisson factor                        | Poisson                                        |
 | Thermal expansion coefficient         | Thermal                                        |
-| Material model _(since CS 17)_        | ModelType                                      |
+| Material model <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>        | ModelType                                      |
 | Yield strain #1                       | EpsC0                                          |
 | Ultimite strain #1                    | EpsCu0                                         |
 | Compression strength reduction factor | Eta                                            |
@@ -902,22 +476,9 @@ Available object attributes:
 | Ultimite strain #3                    | EpsCu2                                         |
 | Exponent                              | Exp                                            |
 
-<!-- /wp:table -->
+### Sample code
 
-<!-- wp:heading {"level":3,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
+**All available attributes + object creation:**
 ```
 CREATE Concrete_Mat_ID1 Concrete "Custom concrete name" 2500 31476 25 1.8 2.6 2.35 0.2 0.00001 DiagramRectangle 0.0007 0.0035 1 0.002 0.0035 0.00175 0.0035 2
 
@@ -942,27 +503,14 @@ GET Concrete_Mat_ID1 EpsCu2 EpsCu2
 GET Concrete_Mat_ID1 Exp Exp
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading -->
-
 ## Rebar material
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Available object attributes:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                                       |                                                |
-| ------------------------------------- | ---------------------------------------------- |
 | **Object attribute name**             | **Object attribute** (type this into Descript) |
+| ------------------------------------- | ---------------------------------------------- |
 | Name                                  | Name                                           |
-| Object type _(since CS 17)_           | Object_Type                                    |
+| Object type <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>           | Object_Type                                    |
 | Density                               | Density                                        |
 | Elastic modulus                       | Elasticity                                     |
 | Poisson factor                        | Poisson                                        |
@@ -970,22 +518,9 @@ Available object attributes:
 | Characteristic yield strength         | Fyk                                            |
 | Characteristic strain at maximum load | EpsSu                                          |
 
-<!-- /wp:table -->
+### Sample code
 
-<!-- wp:heading {"level":3,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
+**All available attributes + object creation:**
 ```
 CREATE Rebar_Mat_ID1 Rebar "Custom rebar name" 7850 200000 0.3 0.00001 500 0.05
 
@@ -999,27 +534,14 @@ GET Rebar_Mat_ID1 Fyk Fyk
 GET Rebar_Mat_ID1 EpsSu EpsSu
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading -->
-
 ## Point support
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Available object attributes:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                             |                                                |
-| --------------------------- | ---------------------------------------------- |
 | **Object attribute name**   | **Object attribute** (type this into Descript) |
+| --------------------------- | ---------------------------------------------- |
 | Name                        | Name                                           |
-| Object type _(since CS 17)_ | Object_Type                                    |
+| Object type <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span> | Object_Type                                    |
 | Support type                | SupportID                                      |
 | Eccentricity reference      | EccType                                        |
 | Eccentricity - y            | EccY                                           |
@@ -1027,22 +549,9 @@ Available object attributes:
 | Structural ID               | StructuralID                                   |
 | Coordinate system           | DirType                                        |
 
-<!-- /wp:table -->
+### Sample code
 
-<!-- wp:heading {"level":3,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
+**All available attributes + object creation:**
 ```
 LOAD_SECTION_MACRO Sec_ID1 WLD-IH "Descript Section" "S 235 EN 10025-2" 100 10 200 6 100 10
 
@@ -1067,27 +576,14 @@ GET PSup_ID1 StructuralID StructuralID
 GET PSup_ID1 DirType DirType
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading -->
-
 ## Line support
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Available object attributes:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                             |                                                |
-| --------------------------- | ---------------------------------------------- |
 | **Object attribute name**   | **Object attribute** (type this into Descript) |
+| --------------------------- | ---------------------------------------------- |
 | Name                        | Name                                           |
-| Object type _(since CS 17)_ | Object_Type                                    |
+| Object type <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span> | Object_Type                                    |
 | Support type                | SupportID                                      |
 | Eccentricity reference      | EccType                                        |
 | Eccentricity - y            | EccY                                           |
@@ -1095,22 +591,9 @@ Available object attributes:
 | Structural ID               | StructuralID                                   |
 | Coordinate system           | DirType                                        |
 
-<!-- /wp:table -->
+### Sample code
 
-<!-- wp:heading {"level":3,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
+**All available attributes + object creation:**
 ```
 LOAD_SECTION_MACRO Sec_ID1 WLD-IH "WLD-IH (Descript)" "S 235 EN 10025-2" 100 10 200 6 100 10
 
@@ -1133,52 +616,23 @@ GET LSup_ID1 StructuralID StructuralID
 GET LSup_ID1 DirType DirType
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading -->
-
 ## Surface support
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Available object attributes:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                             |                                                |
-| --------------------------- | ---------------------------------------------- |
 | **Object attribute name**   | **Object attribute** (type this into Descript) |
+| --------------------------- | ---------------------------------------------- |
 | Name                        | Name                                           |
-| Object type _(since CS 17)_ | Object_Type                                    |
+| Object type <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span> | Object_Type                                    |
 | Support type                | SupportID                                      |
 | Plate ID                    | PlateID                                        |
 | Coordinate system           | DirType                                        |
 
-<!-- /wp:table -->
+### Sample code
 
-<!-- wp:heading {"level":3,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
+**All available attributes + object creation:**
 
 A new surface support type with the name "Fixed" have to be created manually before runnnig this code.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
 
 ```
 CREATE Plate_ID1 Structural_Plate "C25/30 EN 1992-1-1:2010" 200
@@ -1197,27 +651,14 @@ GET SurfSup_ID1 PlateID PlateID
 GET SurfSup_ID1 DirType DirType
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading -->
-
 ## Support type
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Available object attributes:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                                                |                                                |
-| ---------------------------------------------- | ---------------------------------------------- |
 | **Object attribute name**                      | **Object attribute** (type this into Descript) |
+| ---------------------------------------------- | ---------------------------------------------- |
 | Name                                           | Name                                           |
-| Object type _(since CS 17)_                    | Object_Type                                    |
+| Object type <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>                    | Object_Type                                    |
 | Dimension (Point, Line, Surface)               | Dimension                                      |
 | Translational degree of freedom in x direction | x                                              |
 | Translational degree of freedom in y direction | y                                              |
@@ -1227,22 +668,9 @@ Available object attributes:
 | Rotational degree of freedom around z axis     | zz                                             |
 | Warping                                        | w                                              |
 
-<!-- /wp:table -->
+### Sample code
 
-<!-- wp:heading {"level":3,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
+**All available attributes + object creation:**
 ```
 CREATE PSup_Type_ID1 Support "Custom support type name" Free 1234 2345 Fix Fix Fix Fix
 
@@ -1258,27 +686,14 @@ GET PSup_Type_ID1 zz zz
 GET PSup_Type_ID1 w w
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading -->
-
 ## Release type
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Available object attributes:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                                                |                                                |
-| ---------------------------------------------- | ---------------------------------------------- |
 | **Object attribute name**                      | **Object attribute** (type this into Descript) |
+| ---------------------------------------------- | ---------------------------------------------- |
 | Name                                           | Name                                           |
-| Object type _(since CS 17)_                    | Object_Type                                    |
+| Object type <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>                    | Object_Type                                    |
 | Translational degree of freedom in x direction | x                                              |
 | Translational degree of freedom in y direction | y                                              |
 | Translational degree of freedom in z direction | z                                              |
@@ -1287,22 +702,9 @@ Available object attributes:
 | Rotational degree of freedom around z axis     | zz                                             |
 | Warping                                        | w                                              |
 
-<!-- /wp:table -->
+### Sample code
 
-<!-- wp:heading {"level":3,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
+**All available attributes + object creation:**
 ```
 CREATE Release_Type_ID1 Release "Custom release type name" Free 1234 2345 Fix Fix Fix Fix
 
@@ -1317,47 +719,21 @@ GET Release_Type_ID1 zz zz
 GET Release_Type_ID1 w w
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading -->
-
 ## Link
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Available object attributes:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                             |                                                |
-| --------------------------- | ---------------------------------------------- |
 | **Object attribute name**   | **Object attribute** (type this into Descript) |
+| --------------------------- | ---------------------------------------------- |
 | Name                        | Name                                           |
-| Object type _(since CS 17)_ | Object_Type                                    |
+| Object type <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span> | Object_Type                                    |
 | Release ID                  | ReleaseID                                      |
 | Position of connection      | InterfacePos                                   |
 | Rotation                    | Rotation                                       |
 
-<!-- /wp:table -->
+### Sample code
 
-<!-- wp:heading {"level":3,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
+**All available attributes + object creation:**
 ```
 LOAD_SECTION_MACRO Sec_ID1 WLD-IH "Descript Section" "S 235 EN 10025-2" 100 10 200 6 100 10
 
@@ -1383,49 +759,23 @@ GET Link_ID1 InterfacePos InterfacePos
 GET Link_ID1 Rotation Rotation
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading -->
-
 ## Load group
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Available object attributes:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                                      |                                                |
-| ------------------------------------ | ---------------------------------------------- |
 | **Object attribute name**            | **Object attribute** (type this into Descript) |
+| ------------------------------------ | ---------------------------------------------- |
 | Name                                 | Name                                           |
-| Object type _(since CS 17)_          | Object_Type                                    |
+| Object type <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>          | Object_Type                                    |
 | Load group type                      | LoadGroupType                                  |
 | Safety factor                        | Factor_0                                       |
 | Combination factor                   | Factor_1                                       |
 | Factor of frequent load level        | Factor_2                                       |
 | Factor of quasi-permanent load level | Factor_3                                       |
 
-<!-- /wp:table -->
+### Sample code
 
-<!-- wp:heading {"level":3,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
+**All available attributes + object creation:**
 ```
 CREATE LG_ID1 LoadGroup
 Name "Variable (Descript)"
@@ -1444,27 +794,14 @@ GET LG_ID1 Factor_2 Factor_2
 GET LG_ID1 Factor_3 Factor_3
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading -->
-
 ## Load case
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Available object attributes:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                                                          |                                                |
-| -------------------------------------------------------- | ---------------------------------------------- |
 | **Object attribute name**                                | **Object attribute** (type this into Descript) |
+| -------------------------------------------------------- | ---------------------------------------------- |
 | Name                                                     | Name                                           |
-| Object type _(since CS 17)_                              | Object_Type                                    |
+| Object type <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>                              | Object_Type                                    |
 | Load group ID                                            | LoadGroupID                                    |
 | Convert loads to mass                                    | ConvertToMass                                  |
 | Can be favourable in the combination                     | CanBeFavourable                                |
@@ -1472,22 +809,9 @@ Available object attributes:
 | Can't be the main in accidental combination              | NotMainInAccidentalCmb                         |
 | Calculation of loadcase                                  | Calculate                                      |
 
-<!-- /wp:table -->
+### Sample code
 
-<!-- wp:heading {"level":3,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
+**All available attributes + object creation:**
 ```
 CREATE LG_ID1 LoadGroup
 Name "Variable (Descript)"
@@ -1507,45 +831,19 @@ GET LCase_ID1 NotMainInAccidentalCmb NotMainInAccidentalCmb
 GET LCase_ID1 Calculate Calculate
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading -->
-
 ## Load combination
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Available object attributes:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                             |                                                |
-| --------------------------- | ---------------------------------------------- |
 | **Object attribute name**   | **Object attribute** (type this into Descript) |
+| --------------------------- | ---------------------------------------------- |
 | Name                        | Name                                           |
-| Object type _(since CS 17)_ | Object_Type                                    |
+| Object type <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span> | Object_Type                                    |
 | Combination type            | Type                                           |
 
-<!-- /wp:table -->
+### Sample code
 
-<!-- wp:heading {"level":3,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
+**All available attributes + object creation:**
 ```
 CREATE LG_ID1 LoadGroup
 Name "Permanent (Descript)"
@@ -1565,27 +863,14 @@ GET LComb_ID1 Object_Type Object_Type                //(since CS 17)
 GET LComb_ID1 Type Type
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading -->
-
 ## Point load
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Available object attributes:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                                           |                                                |
-| ----------------------------------------- | ---------------------------------------------- |
 | **Object attribute name**                 | **Object attribute** (type this into Descript) |
+| ----------------------------------------- | ---------------------------------------------- |
 | Name                                      | Name                                           |
-| Object type _(since CS 17)_               | Object_Type                                    |
+| Object type <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>               | Object_Type                                    |
 | ID of the load bearing structural element | ForceOnID                                      |
 | Load case ID                              | LoadCaseID                                     |
 | Coordinate system                         | DirType                                        |
@@ -1600,22 +885,9 @@ Available object attributes:
 | Eccentricity - y                          | EccY                                           |
 | Eccentricity - z                          | EccZ                                           |
 
-<!-- /wp:table -->
+### Sample code
 
-<!-- wp:heading {"level":3,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
+**All available attributes + object creation:**
 ```
 LOAD_SECTION_LIBRARY Sec_ID1 "HEA 200"
 
@@ -1654,27 +926,14 @@ GET PLoad_ID1 EccY EccY
 GET PLoad_ID1 EccZ EccZ
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading -->
-
 ## Line load
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Available object attributes:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                                           |                                                |
-| ----------------------------------------- | ---------------------------------------------- |
 | **Object attribute name**                 | **Object attribute** (type this into Descript) |
+| ----------------------------------------- | ---------------------------------------------- |
 | Name                                      | Name                                           |
-| Object type _(since CS 17)_               | Object_Type                                    |
+| Object type <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>               | Object_Type                                    |
 | ID of the load bearing structural element | ForceOnID                                      |
 | Load case ID                              | LoadCaseID                                     |
 | Coordinate system                         | DirType                                        |
@@ -1693,22 +952,9 @@ Available object attributes:
 | Eccentricity - y                          | EccY                                           |
 | Eccentricity - z                          | EccZ                                           |
 
-<!-- /wp:table -->
+### Sample code
 
-<!-- wp:heading {"level":3,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
+**All available attributes + object creation:**
 ```
 LOAD_SECTION_LIBRARY Sec_ID1 "IPE 200"
 
@@ -1752,33 +998,16 @@ GET LLoad_ID1 EccY EccY
 GET LLoad_ID1 EccZ EccZ
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading -->
-
 ## Surface load
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 A surface load can be of 2 different types: uniform or linearly distributed. Some attributes only apply for one of the load distribution types.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
 Available object attributes:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                                             |                                                |
-| ------------------------------------------- | ---------------------------------------------- |
 | **Object attribute name**                   | **Object attribute** (type this into Descript) |
+| ------------------------------------------- | ---------------------------------------------- |
 | Name                                        | Name                                           |
-| Object type _(since CS 17)_                 | Object_Type                                    |
+| Object type <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>                 | Object_Type                                    |
 | Load case ID                                | LoadCaseID                                     |
 | X force component _(uniform distr.)_        | X                                              |
 | Y force component _(uniform distr.)_        | Y                                              |
@@ -1790,22 +1019,9 @@ Available object attributes:
 | Load intensity at point 2 _(linear distr.)_ | LoadValue_2                                    |
 | Load intensity at point 3 _(linear distr.)_ | LoadValue_3                                    |
 
-<!-- /wp:table -->
+### Sample code
 
-<!-- wp:heading {"level":3,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
+**All available attributes + object creation:**
 ```
 CREATE LG_ID1 LoadGroup
 Name "Variable (Descript)"
@@ -1864,48 +1080,22 @@ GET SLoadLin_ID2 LoadValue_2 LoadValue_2
 GET SLoadLin_ID2 LoadValue_3 LoadValue_3
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading -->
-
 ## Load transfer surface
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Available object attributes:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                             |                                                |
-| --------------------------- | ---------------------------------------------- |
 | **Object attribute name**   | **Object attribute** (type this into Descript) |
+| --------------------------- | ---------------------------------------------- |
 | Name                        | Name                                           |
-| Object type _(since CS 17)_ | Object_Type                                    |
+| Object type <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span> | Object_Type                                    |
 | Member selection type       | BeamDefType                                    |
 | Beam IDs                    | BeamIDs                                        |
 | Distribution method         | DistribMethod                                  |
 | Load eccentricity z         | LoadEccZ                                       |
 
-<!-- /wp:table -->
+### Sample code
 
-<!-- wp:heading {"level":3,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
+**All available attributes + object creation:**
 ```
 CREATE LTS_ID1 LoadTransferSurface "LTS 1"
 0 0 0
@@ -1934,45 +1124,19 @@ GET LTS_ID1 DistribMethod DistribMethod
 GET LTS_ID1 LoadEccZ LoadEccZ
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading -->
-
 ## Mass group
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Available object attributes:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                             |                                                |
-| --------------------------- | ---------------------------------------------- |
 | **Object attribute name**   | **Object attribute** (type this into Descript) |
+| --------------------------- | ---------------------------------------------- |
 | Name                        | Name                                           |
-| Object type _(since CS 17)_ | Object_Type                                    |
+| Object type <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span> | Object_Type                                    |
 | Mass group type             | MassGroupType                                  |
 
-<!-- /wp:table -->
+### Sample code
 
-<!-- wp:heading {"level":3,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
+**All available attributes + object creation:**
 ```
 CREATE MG_ID1 MassGroup
 Name "Mass group 1 (Descript)"
@@ -1983,47 +1147,21 @@ GET MG_ID1 Object_Type Object_Type                //(since CS 17)
 GET MG_ID1 MassGroupType MassGroupType
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading -->
-
 ## Mass case
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Available object attributes:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                                                 |                                                |
-| ----------------------------------------------- | ---------------------------------------------- |
 | **Object attribute name**                       | **Object attribute** (type this into Descript) |
+| ----------------------------------------------- | ---------------------------------------------- |
 | Name                                            | Name                                           |
-| Object type _(since CS 17)_                     | Object_Type                                    |
+| Object type <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>                     | Object_Type                                    |
 | Mass group ID                                   | MassGroupID                                    |
 | Considered direction in seismic analysis        | SeismicDirection                               |
 | Considered direction in free vibration analysis | FreeVibrationDirection                         |
 
-<!-- /wp:table -->
+### Sample code
 
-<!-- wp:heading {"level":3,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
+**All available attributes + object creation:**
 ```
 CREATE MG_ID1 MassGroup
 Name "Mass group 1 (Descript)"
@@ -2042,44 +1180,18 @@ GET MC_ID1 SeismicDirection SeismicDirection
 GET MC_ID1 FreeVibrationDirection FreeVibrationDirection
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading -->
-
 ## Mass combination
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Available object attributes:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                             |                                                |
-| --------------------------- | ---------------------------------------------- |
 | **Object attribute name**   | **Object attribute** (type this into Descript) |
+| --------------------------- | ---------------------------------------------- |
 | Name                        | Name                                           |
-| Object type _(since CS 17)_ | Object_Type                                    |
+| Object type <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span> | Object_Type                                    |
 
-<!-- /wp:table -->
+### Sample code
 
-<!-- wp:heading {"level":3,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
+**All available attributes + object creation:**
 ```
 CREATE MG_ID1 MassGroup
 Name "Mass group 1 (Descript)"
@@ -2097,48 +1209,22 @@ GET MComb_ID1 Name Name
 GET MComb_ID1 Object_Type Object_Type                //(since CS 17)
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading -->
-
 ## Point mass
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Available object attributes:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                             |                                                |
-| --------------------------- | ---------------------------------------------- |
 | **Object attribute name**   | **Object attribute** (type this into Descript) |
+| --------------------------- | ---------------------------------------------- |
 | Name                        | Name                                           |
-| Object type _(since CS 17)_ | Object_Type                                    |
+| Object type <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span> | Object_Type                                    |
 | Mass case ID                | MassCaseID                                     |
 | ID of load bearing object   | MassOnID                                       |
 | Mass value                  | ValueX                                         |
 | Multiplication factor       | MulFac                                         |
 
-<!-- /wp:table -->
+### Sample code
 
-<!-- wp:heading {"level":3,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
+**All available attributes + object creation:**
 ```
 CREATE MG_ID1 MassGroup
 Name "Mass group 1 (Descript)"
@@ -2166,46 +1252,20 @@ GET PMass_ID1 ValueX ValueX
 GET PMass_ID1 MulFac MulFac
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading -->
-
 ## Portion
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Available object attributes:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                                           |                                                |
-| ----------------------------------------- | ---------------------------------------------- |
 | **Object attribute name**                 | **Object attribute** (type this into Descript) |
+| ----------------------------------------- | ---------------------------------------------- |
 | Name                                      | Name                                           |
-| Object type _(since CS 17)_               | Object_Type                                    |
+| Object type <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>               | Object_Type                                    |
 | Portion type (Portion, storey, 2DPortion) | Type                                           |
 | Items                                     | Items                                          |
 
-<!-- /wp:table -->
+### Sample code
 
-<!-- wp:heading {"level":3,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
+**All available attributes + object creation:**
 ```
 LOAD_SECTION_LIBRARY Sec_ID1 "HEA 200"
 
@@ -2235,5 +1295,3 @@ GET Portion_ID1 Object_Type Object_Type                //(since CS 17)
 GET Portion_ID1 Type Type
 GET Portion_ID1 Items Items
 ```
-
-<!-- /wp:loos-hcb/code-block -->

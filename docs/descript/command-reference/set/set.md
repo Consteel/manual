@@ -6,284 +6,71 @@ redirect_from:
             - https://www.consteelsoftware.com/manual/descript-cspi/set/
 hero: ../../../defaultHero.jpg
 ---
-<!-- wp:paragraph -->
 
 Sets or modifies an attribute value of an object.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-
 ### Syntax
 
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-**SET **
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
+**SET** [Object ID] [Object attribute] [New value]
 
 ### Command parameters
 
-<!-- /wp:heading -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                                       |                |                                          |                   |
-| ------------------------------------- | -------------- | ---------------------------------------- | ----------------- |
 | **Command parameter**                 | **Assignment** | **Value format**                         | **Input options** |
-| [Object ID](#Object-ID)               | Required       | String                                   | Local, variable   |
-| [Object attribute](#Object-attribute) | Required       | [Predefined strings](#object-attributes) | Local, variable   |
-| [New value](#New-value)               | Required       | String                                   | Local, variable   |
-
-<!-- /wp:table -->
-
-<!-- wp:heading {"level":4} -->
+| ------------------------------------- | -------------- | ---------------------------------------- | ----------------- |
+| [Object ID](#object-id)               | Required       | String                                   | Local, variable   |
+| [Object attribute](#object-attribute) | Required       | Predefined strings                       | Local, variable   |
+| [New value](#new-value)               | Required       | String                                   | Local, variable   |
 
 #### Object ID:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
 The ID of the object.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
 Object IDs from the following object types are accepted:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
-
-- Structural members tab:
-
-  <!-- wp:list -->
-
-- <!-- wp:list-item -->
-- [Structural member](#Structural-member)
-- <!-- /wp:list-item -->
-
-  <!-- /wp:list -->
-
-  <!-- wp:list -->
-
-- <!-- wp:list-item -->
-- [Structural plate](#Structural-Plate)
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- [Haunched member](#Haunched-Member) _(since CS 17)_
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- [Tapered member](#Tapered-Member) _(since CS 17)_
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- [Steel material](#Steel-material) _(since CS 17)_
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- [Coated steel material](#Coated-steel-material) _(since CS 17)_
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- [Concrete material](#Concrete-material) _(since CS 17)_
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- [Rebar material](#Rebar-material) _(since CS 17)_
-- <!-- /wp:list-item -->
-
-  <!-- /wp:list -->
-
-  <!-- wp:list -->
-
-- <!-- wp:list-item -->
-- [Point support](#Point-support)
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- [Line support](#Line-support)
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- [Surface support](#Surface-support) _(since CS 17)_
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- [Support type](#Support-type) _(since CS 17)_
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- [Release type](#Release-type) _(since CS 17)_
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- [Link ](#Link)_(since CS 17)_
-- <!-- /wp:list-item -->
-
-  <!-- /wp:list -->
-
-- <!-- /wp:list-item -->
-
--
-
-* <!-- wp:list-item -->
-
-* Loads tab:
-
-  <!-- wp:list -->
-
-  - <!-- wp:list-item -->
-  - [Load group](#Load-group) _(since CS 17)_
-  - <!-- /wp:list-item -->
-  -
-  - <!-- wp:list-item -->
-  - [Load case](#Load-case) _(since CS 17)_
-  - <!-- /wp:list-item -->
-  -
-  - <!-- wp:list-item -->
-  - [Load combination](#Load-combination) _(since CS 17)_
-  - <!-- /wp:list-item -->
-  -
-  - <!-- wp:list-item -->
-  - [Point load](#Point-load)
-  - <!-- /wp:list-item -->
-  -
-  - <!-- wp:list-item -->
-  - [Line load](#Line-load)
-  - <!-- /wp:list-item -->
-  -
-  - <!-- wp:list-item -->
-  - [Surface load](#Surface-load) _(since CS 17)_
-  - <!-- /wp:list-item -->
-  -
-  - <!-- wp:list-item -->
-  - [Load transfer surface](#Load-transfer-surface) _(since CS 17)_
-  - <!-- /wp:list-item -->
-
-  <!-- /wp:list -->
-
-* <!-- /wp:list-item -->
-
-*
-
-- <!-- wp:list-item -->
-
+- Structural members tab:  
+  - [Structural member](#structural-member)
+  - [Structural plate](#structural-plate)
+  - [Haunched member](#haunched-member) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+  - [Tapered member](#tapered-member) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+  - [Steel material](#steel-material) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+  - [Coated steel material](#coated-steel-material) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+  - [Concrete material](#concrete-material) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+  - [Rebar material](#rebar-material) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+  - [Point support](#point-support)
+  - [Line support](#line-support)
+  - [Surface support](#surface-support) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+  - [Support type](#support-type) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+  - [Release type](#release-type) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+  - [Link ](#link)<span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+- Loads tab:
+  - [Load group](#load-group) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+  - [Load case](#load-case) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+  - [Load combination](#load-combination) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+  - [Point load](#point-load)
+  - [Line load](#line-load)
+  - [Surface load](#surface-load) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+  - [Load transfer surface](#load-transfer-surface) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
 - Mass tab:
-
-  <!-- wp:list -->
-
-  - <!-- wp:list-item -->
-  - [Mass group](#Mass-group) _(since CS 17)_
-  - <!-- /wp:list-item -->
-  -
-  - <!-- wp:list-item -->
-  - [Mass case](#Mass-case) _(since CS 17)_
-  - <!-- /wp:list-item -->
-  -
-  - <!-- wp:list-item -->
-  - [Mass combination](#Mass-combination) _(since CS 17)_
-  - <!-- /wp:list-item -->
-  -
-  - <!-- wp:list-item -->
-  - [Point mass](#Point-mass) _(since CS 17)_
-  - <!-- /wp:list-item -->
-
-  <!-- /wp:list -->
-
-- <!-- /wp:list-item -->
-
--
-
-* <!-- wp:list-item -->
-
-* Other:
-
-  <!-- wp:list -->
-
-  - <!-- wp:list-item -->
-  - [Portion ](#Portion)_(since CS 17)_
-  - <!-- /wp:list-item -->
-
-  <!-- /wp:list -->
-
-* <!-- /wp:list-item -->
-
-<!-- /wp:list -->
-
-<!-- wp:heading {"level":4} -->
+  - [Mass group](#mass-group) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+  - [Mass case](#mass-case) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+  - [Mass combination](#mass-combination) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+  - [Point mass](#point-mass) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+- Other:
+  - [Portion ](#portion)<span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
 
 #### Object attribute:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-The object attribute to be set. The available selection of object attributes depends on the object type, which is autmatically determined based on the object ID. The available object attributes can be found at the [detailed description of object](#Detailed-description-of-object-types) types below.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4} -->
+The object attribute to be set. The available selection of object attributes depends on the object type, which is autmatically determined based on the object ID. The available object attributes can be found at the [detailed description of object](#detailed-description-of-object-types) types below.
 
 #### New value:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
 The new value of the specified attribute.
 
-<!-- /wp:paragraph -->
+### Sample code
 
-<!-- wp:heading {"level":3} -->
-
-### Description
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-Sets or modifies an attribute value of a previously created object.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:heading {"level":4} -->
-
-#### Command only:
-
-<!-- /wp:heading -->
-
-<!-- wp:loos-hcb/code-block -->
+**Command only:**
 
 ```
 SET Object_ID Name "New name"
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading {"level":4} -->
-
-#### With object creation:
-
-<!-- /wp:heading -->
-
-<!-- wp:loos-hcb/code-block -->
+**With object creation:**
 
 ```
 LOAD_SECTION_LIBRARY section "HEA 200"
@@ -295,153 +82,54 @@ CREATE Mem_ID1 Structural_Member "HEA 200"
 SET Mem_ID1 Name "New name"
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading {"level":1} -->
-
-# Detailed description of object types
-
-<!-- /wp:heading -->
-
-<!-- wp:heading -->
+---
+## Detailed description of object types
 
 ## Structural member
 
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
 Available object attributes:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                                                      |                                                |                                                             |
-| ---------------------------------------------------- | ---------------------------------------------- | ----------------------------------------------------------- |
-| **Object attribute name**                            | **Object attribute** (type this into Descript) | **Value format**                                            |
-| Name                                                 | Name                                           | String                                                      |
-| Section ID                                           | sectionid                                      | Section ID or name                                          |
-| Eccentricity - y                                     | eccentricity_y                                 | Numerical                                                   |
-| Eccentricity - z                                     | eccentricity_z                                 | Numerical                                                   |
-| Rotation                                             | Rotation                                       | Numerical                                                   |
-| Initial bow imperfection L/y                         | geomimpv                                       | Numerical                                                   |
-| Initial bow imperfection L/y                         | geomimpw                                       | Numerical                                                   |
-| Release start point                                  | ReleaseID_A                                    | Release ID or name                                          |
-| Release end point                                    | ReleaseID_B                                    | Release ID or name                                          |
-| Finite element type _(since CS 17)_                  | FE_Type                                        | [Predefined strings](#Finite-element-type-sm)               |
-| FE generation type _(since CS 17)_                   | ConvergenceType                                | [Predefined strings](#FE-generation-type-sm)                |
-| Number of finite elements _(since CS 17)_            | Convergence                                    | Numerical                                                   |
-| Avearage shell FE size in web _(since CS 17)_        | AverageEdgeLength_Web                          | Numerical                                                   |
-| Avearage shell FE size in flange _(since CS 17)_     | AverageEdgeLength_Flange                       | Numerical                                                   |
-| Type of the shell constraint element _(since CS 17)_ | ShellDOFConstraint                             | [Predefined strings](#Type-of-the-shell-constraint-element) |
-
-<!-- /wp:table -->
-
-<!-- wp:heading {"level":4} -->
+| **Object attribute name**                                                                        | **Object attribute** (type this into Descript) | **Value format**                                            |
+| ------------------------------------------------------------------------------------------------ | ---------------------------------------------- | ----------------------------------------------------------- |
+| Name                                                                                             | Name                                           | String                                                      |
+| Section ID                                                                                       | sectionid                                      | Section ID or name                                          |
+| Eccentricity - y                                                                                 | eccentricity_y                                 | Numerical                                                   |
+| Eccentricity - z                                                                                 | eccentricity_z                                 | Numerical                                                   |
+| Rotation                                                                                         | Rotation                                       | Numerical                                                   |
+| Initial bow imperfection L/y                                                                     | geomimpv                                       | Numerical                                                   |
+| Initial bow imperfection L/y                                                                     | geomimpw                                       | Numerical                                                   |
+| Release start point                                                                              | ReleaseID_A                                    | Release ID or name                                          |
+| Release end point                                                                                | ReleaseID_B                                    | Release ID or name                                          |
+| Finite element type <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>                  | FE_Type                                        | [Predefined strings](#Finite-element-type-sm)               |
+| FE generation type <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>                   | ConvergenceType                                | [Predefined strings](#FE-generation-type-sm)                |
+| Number of finite elements <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>            | Convergence                                    | Numerical                                                   |
+| Avearage shell FE size in web <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>        | AverageEdgeLength_Web                          | Numerical                                                   |
+| Avearage shell FE size in flange <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>     | AverageEdgeLength_Flange                       | Numerical                                                   |
+| Type of the shell constraint element <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span> | ShellDOFConstraint                             | [Predefined strings](#Type-of-the-shell-constraint-element) |
 
 #### Finite element type:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-Valid inputs:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
+<span id="Finite-element-type-sm" style={{paddingTop: '80px'}}> Valid inputs: </span>
 - 6DOFelem
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
 - 7DOFelem
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
 - TensionBar
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
 - Shell
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
 - XBrace
-- <!-- /wp:list-item -->
-
-<!-- /wp:list -->
-
-<!-- wp:heading {"level":4} -->
 
 #### FE generation type:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-Valid inputs:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
+<span id="FE-generation-type-sm" style={{paddingTop: '80px'}}> Valid inputs: </span>
 - Automatic
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
 - Manual
-- <!-- /wp:list-item -->
-
-<!-- /wp:list -->
-
-<!-- wp:heading {"level":4} -->
 
 #### Type of the shell constraint element:
+Only applies if _FE_Type_ is set to Shell.
 
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-Only applies if _FE_Type \_is set to \_Shell_.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-Valid inputs:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
+<span id="Type-of-the-shell-constraint-element" style={{paddingTop: '80px'}}> Valid inputs: </span>
 - Trans
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
 - TransAndRot
-- <!-- /wp:list-item -->
 
-<!-- /wp:list -->
+### Sample code
 
-<!-- wp:heading {"level":3} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
+**All available attributes + object creation:**
 ```
 LOAD_SECTION_LIBRARY Sec_ID1 "HEA 200"
 LOAD_SECTION_MACRO Sec_ID2 WLD-IH "WLD-IH (Descript)" "S 355 EN 10025-2" 100 10 200 6 100 10
@@ -467,46 +155,20 @@ SET Mem_ID1 AverageEdgeLength_Flange 13         //(since CS 17)
 SET Mem_ID1 ShellDOFConstraint TransAndRot      //(since CS 17)
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading -->
-
 ## Structural Plate
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Available object attributes:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                           |                                                |                     |
-| ------------------------- | ---------------------------------------------- | ------------------- |
 | **Object attribute name** | **Object attribute** (type this into Descript) | **Value format**    |
+| ------------------------- | ---------------------------------------------- | ------------------- |
 | Name                      | Name                                           | String              |
 | Material ID               | MaterialID                                     | Material ID or name |
 | Thickness                 | Thickness                                      | Numerical           |
 | Finite element size       | AverageEdgeLength                              | Numerical           |
 
-<!-- /wp:table -->
+### Sample code
 
-<!-- wp:heading {"level":3} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
+**All available attributes + object creation:**
 ```
 CREATE Plate_ID1 Structural_Plate "C20/25 EN 1992-1-1:2010" 200
 0 0 0
@@ -521,25 +183,12 @@ SET Plate_ID1 Thickness 234
 SET Plate_ID1 AverageEdgeLength 456
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading -->
-
 ## Haunched Member
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Available object attributes:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                                    |                                                |                                           |
-| ---------------------------------- | ---------------------------------------------- | ----------------------------------------- |
 | **Object attribute name**          | **Object attribute** (type this into Descript) | **Value format**                          |
+| ---------------------------------- | ---------------------------------------------- | ----------------------------------------- |
 | Name                               | Name                                           | String                                    |
 | Member ID                          | OnMemberID                                     | Member ID or name                         |
 | Start height                       | Hstart                                         | Numerical                                 |
@@ -553,74 +202,20 @@ Available object attributes:
 | Haunch position                    | Type                                           | [Predefined strings](#Haunch-position-hm) |
 | Start position along member length | StartX                                         | Numerical                                 |
 
-<!-- /wp:table -->
-
-<!-- wp:heading {"level":4} -->
-
 #### Section type:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-Valid inputs:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
+<span id="Section-type-hm" style={{paddingTop: '80px'}}> Valid inputs: </span>
 - HaunchWelded
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
 - HaunchRolled
-- <!-- /wp:list-item -->
-
-<!-- /wp:list -->
-
-<!-- wp:heading {"level":4} -->
 
 #### Haunch position:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-Valid inputs:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
+<span id="Haunch-position-hm" style={{paddingTop: '80px'}}> Valid inputs: </span>
 - Bottom
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
 - Centric
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
 - Top
-- <!-- /wp:list-item -->
 
-<!-- /wp:list -->
+### Sample code
 
-<!-- wp:heading {"level":3} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
+**All available attributes + object creation:**
 ```
 LOAD_SECTION_LIBRARY Sec_ID1 "IPE 300"
 LOAD_SECTION_MACRO Sec_ID2 WLD-IH "WLD-IH (Descript)" "S 355 EN 10025-2" 100 10 200 6 100 10
@@ -651,75 +246,27 @@ SET Hau_ID1 Type Centric
 SET Hau_ID1 StartX 123
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading -->
-
 ## Tapered Member
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Available object attributes:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                           |                                                |                                             |
-| ------------------------- | ---------------------------------------------- | ------------------------------------------- |
 | **Object attribute name** | **Object attribute** (type this into Descript) | **Value format**                            |
+| ------------------------- | ---------------------------------------------- | ------------------------------------------- |
 | Name                      | Name                                           | String                                      |
 | Member ID                 | OnMemberID                                     | Member ID or name                           |
 | Start height              | Hstart                                         | Numerical                                   |
 | End height                | Hend                                           | Numerical                                   |
 | Beam eccentricity         | Format                                         | [Predefined strings](#Beam-eccentricity-tm) |
 
-<!-- /wp:table -->
-
-<!-- wp:heading {"level":4} -->
-
 #### Beam eccentricity:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-Valid inputs:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
+<span id="Beam-eccentricity-tm" style={{paddingTop: '80px'}}> Valid inputs: </span>
 - Bottom
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
 - Centric
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
 - Top
-- <!-- /wp:list-item -->
 
-<!-- /wp:list -->
+### Sample code
 
-<!-- wp:heading {"level":3} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
+**All available attributes + object creation:**
 ```
 LOAD_SECTION_MACRO Sec_ID1 WLD-IH Descript_Section "S 235 EN 10025-2" 100 10 200 6 100 10
 LOAD_SECTION_MACRO Sec_ID2 WLD-MALTESE "WLD-MALTESE (Descript)" "S 235 EN 10025-2" 400 10 200 20 300 8 150 16
@@ -742,25 +289,12 @@ SET Tapered_ID1 Hend 234
 SET Tapered_ID1 Format Bottom
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading -->
-
 ## Steel material
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Available object attributes:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                                       |                                                |                  |
-| ------------------------------------- | ---------------------------------------------- | ---------------- |
 | **Object attribute name**             | **Object attribute** (type this into Descript) | **Value format** |
+| ------------------------------------- | ---------------------------------------------- | ---------------- |
 | Name                                  | Name                                           | String           |
 | Density                               | Density                                        | Numerical        |
 | Elastic modulus                       | Elasticity                                     | Numerical        |
@@ -774,22 +308,9 @@ Available object attributes:
 | Thickness Y                           | ThicknessY                                     | Numerical        |
 | Thickness U                           | ThicknessU                                     | Numerical        |
 
-<!-- /wp:table -->
+### Sample code
 
-<!-- wp:heading {"level":3} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
+**All available attributes + object creation:**
 ```
 CREATE Steel_Mat_ID1 Steel "Custom steel name" 7850 210000 0.3 0.000012 0.000014 235 215 360 360 40 40
 
@@ -807,25 +328,12 @@ SET Steel_Mat_ID1 ThicknessY 41
 SET Steel_Mat_ID1 ThicknessU 42
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading -->
-
 ## Coated steel material
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Available object attributes:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                                       |                                                |                  |
-| ------------------------------------- | ---------------------------------------------- | ---------------- |
 | **Object attribute name**             | **Object attribute** (type this into Descript) | **Value format** |
+| ------------------------------------- | ---------------------------------------------- | ---------------- |
 | Name                                  | Name                                           | String           |
 | Density                               | Density                                        | Numerical        |
 | Elastic modulus                       | Elasticity                                     | Numerical        |
@@ -836,22 +344,9 @@ Available object attributes:
 | Ultimate strength                     | Fu                                             | Numerical        |
 | Coating thickness                     | CoatingThickness                               | Numerical        |
 
-<!-- /wp:table -->
+### Sample code
 
-<!-- wp:heading {"level":3} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
+**All available attributes + object creation:**
 ```
 CREATE CSteel_Mat_ID1 Coated_Steel "Custom coated steel name" 7850 210000 0.3 0.000012 0.000014 350 420 0.02
 
@@ -866,25 +361,12 @@ SET CSteel_Mat_ID1 Fu 421
 SET CSteel_Mat_ID1 CoatingThickness 0.0234
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading -->
-
 ## Concrete material
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Available object attributes:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                                       |                                                |                                               |
-| ------------------------------------- | ---------------------------------------------- | --------------------------------------------- |
 | **Object attribute name**             | **Object attribute** (type this into Descript) | **Value format**                              |
+| ------------------------------------- | ---------------------------------------------- | --------------------------------------------- |
 | Name                                  | Name                                           | String                                        |
 | Density                               | Density                                        | Numerical                                     |
 | Secant modulus of elasticity          | Elasticity                                     | Numerical                                     |
@@ -904,50 +386,15 @@ Available object attributes:
 | Ultimite strain #3                    | EpsCu2                                         | Numerical                                     |
 | Exponent                              | Exp                                            | Numerical                                     |
 
-<!-- /wp:table -->
-
-<!-- wp:heading {"level":4} -->
-
 #### Material model:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-Valid inputs:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
+<span id="Material-model-concmat" style={{paddingTop: '80px'}}> Valid inputs: </span>
 - DiagramRectangle
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
 - DiagramBilinear
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
 - DiagramParabolaRect
-- <!-- /wp:list-item -->
 
-<!-- /wp:list -->
+### Sample code
 
-<!-- wp:heading {"level":3} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
+**All available attributes + object creation:**
 ```
 CREATE Concrete_Mat_ID1 Concrete "Custom concrete name" 2500 31476 25 1.8 2.6 2.35 0.2 0.00001 DiagramRectangle 0.0007 0.0035 1 0.002 0.0035 0.00175 0.0035 2
 
@@ -971,25 +418,12 @@ SET Concrete_Mat_ID1 EpsCu2 0.0038
 SET Concrete_Mat_ID1 Exp 3
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading -->
-
 ## Rebar material
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Available object attributes:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                                       |                                                |                  |
-| ------------------------------------- | ---------------------------------------------- | ---------------- |
 | **Object attribute name**             | **Object attribute** (type this into Descript) | **Value format** |
+| ------------------------------------- | ---------------------------------------------- | ---------------- |
 | Name                                  | Name                                           | String           |
 | Density                               | Density                                        | Numerical        |
 | Elastic modulus                       | Elasticity                                     | Numerical        |
@@ -998,22 +432,9 @@ Available object attributes:
 | Characteristic yield strength         | Fyk                                            | Numerical        |
 | Characteristic strain at maximum load | EpsSu                                          | Numerical        |
 
-<!-- /wp:table -->
+### Sample code
 
-<!-- wp:heading {"level":3} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
+**All available attributes + object creation:**
 ```
 CREATE Rebar_Mat_ID1 Rebar "Custom rebar name" 7850 200000 0.3 0.00001 500 0.05
 
@@ -1026,50 +447,24 @@ SET Rebar_Mat_ID1 Fyk 567
 SET Rebar_Mat_ID1 EpsSu 0.00567
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading -->
-
 ## Point support
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Available object attributes:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                           |                                                |                                                    |
-| ------------------------- | ---------------------------------------------- | -------------------------------------------------- |
 | **Object attribute name** | **Object attribute** (type this into Descript) | **Value format**                                   |
+| ------------------------- | ---------------------------------------------- | -------------------------------------------------- |
 | Name                      | Name                                           | String                                             |
 | Support type              | SupportID                                      | Support type ID or name                            |
 | Eccentricity reference    | EccType                                        | [Predefined strings](#Eccentricity-reference-psup) |
 | Eccentricity - y          | EccY                                           | Numerical                                          |
 | Eccentricity - z          | EccZ                                           | Numerical                                          |
 
-<!-- /wp:table -->
-
-<!-- wp:heading {"level":4} -->
-
 #### Eccentricity reference:
+<span id="Eccentricity-reference-psup" style={{paddingTop: '80px'}}> Valid inputs: </span>
+<div style={{paddingBottom: '20px'}}> </div>
 
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-Valid inputs:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                                 |                                                      |
-| ------------------------------- | ---------------------------------------------------- |
 | **Eccentricity reference name** | **Eccentricity reference** (type this into Descript) |
+| ------------------------------- | ---------------------------------------------------- |
 | Reference line (0)              | EccType_C                                            |
 | Bottom Left (1)                 | EccType_BL                                           |
 | Bottom Middle (2)               | EccType_BM                                           |
@@ -1081,22 +476,9 @@ Valid inputs:
 | Top Middle (8)                  | EccType_TM                                           |
 | Top Right (9)                   | EccType_TR                                           |
 
-<!-- /wp:table -->
+### Sample code
 
-<!-- wp:heading {"level":3} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
+**All available attributes + object creation:**
 ```
 LOAD_SECTION_MACRO Sec_ID1 WLD-IH "Descript Section" "S 235 EN 10025-2" 100 10 200 6 100 10
 
@@ -1114,50 +496,25 @@ SET PSupID1 EccY 21
 SET PSupID1 EccZ 33
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading -->
-
 ## Line support
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Available object attributes:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                           |                                                |                                                    |
-| ------------------------- | ---------------------------------------------- | -------------------------------------------------- |
 | **Object attribute name** | **Object attribute** (type this into Descript) | **Value format**                                   |
+| ------------------------- | ---------------------------------------------- | -------------------------------------------------- |
 | Name                      | Name                                           | String                                             |
 | Support type              | SupportID                                      | Support type ID or name                            |
 | Eccentricity reference    | EccType                                        | [Predefined strings](#Eccentricity-reference-lsup) |
 | Eccentricity - y          | EccY                                           | Numerical                                          |
 | Eccentricity - z          | EccZ                                           | Numerical                                          |
 
-<!-- /wp:table -->
-
-<!-- wp:heading {"level":4} -->
-
 #### Eccentricity reference:
 
-<!-- /wp:heading -->
+<span id="Eccentricity-reference-lsup" style={{paddingTop: '80px'}}> Valid inputs: </span>
+<div style={{paddingBottom: '20px'}}> </div>
 
-<!-- wp:paragraph -->
-
-Valid inputs:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                                 |                                                      |
-| ------------------------------- | ---------------------------------------------------- |
 | **Eccentricity reference name** | **Eccentricity reference** (type this into Descript) |
+| ------------------------------- | ---------------------------------------------------- |
 | Reference line (0)              | EccType_C                                            |
 | Bottom Left (1)                 | EccType_BL                                           |
 | Bottom Middle (2)               | EccType_BM                                           |
@@ -1169,22 +526,9 @@ Valid inputs:
 | Top Middle (8)                  | EccType_TM                                           |
 | Top Right (9)                   | EccType_TR                                           |
 
-<!-- /wp:table -->
+### Sample code
 
-<!-- wp:heading {"level":3} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
+**All available attributes + object creation:**
 ```
 LOAD_SECTION_MACRO Sec_ID1 WLD-IH "WLD-IH (Descript)" "S 235 EN 10025-2" 100 10 200 6 100 10
 
@@ -1203,76 +547,26 @@ SET LSup_ID1 EccY 21
 SET LSup_ID1 EccZ 33
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading -->
-
 ## Surface support
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Available object attributes:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                           |                                                |                                               |
-| ------------------------- | ---------------------------------------------- | --------------------------------------------- |
 | **Object attribute name** | **Object attribute** (type this into Descript) | **Value format**                              |
+| ------------------------- | ---------------------------------------------- | --------------------------------------------- |
 | Name                      | Name                                           | String                                        |
 | Support type              | SupportID                                      | Support type ID or name                       |
 | Plate ID                  | PlateID                                        | Plate ID or name                              |
 | Coordinate system         | DirType                                        | [Predefined strings](#Coordinate-system-ssup) |
 
-<!-- /wp:table -->
-
-<!-- wp:heading {"level":4} -->
-
 #### Coordinate system:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-Valid inputs:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
+<span id="Coordinate-system-ssup" style={{paddingTop: '80px'}}> Valid inputs: </span>
 - Local
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
 - Global
-- <!-- /wp:list-item -->
 
-<!-- /wp:list -->
+### Sample code
 
-<!-- wp:heading {"level":3} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
+**All available attributes + object creation:**
 2 new surface support types with the name of "Fixed" and "z" have to be created manually before runnnig this code.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
 ```
 CREATE Plate_ID1 Structural_Plate "C25/30 EN 1992-1-1:2010" 200
 0 0 0
@@ -1297,25 +591,12 @@ SET SurfSup_ID1 PlateID Plate_ID2
 SET SurfSup_ID1 DirType Global
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading -->
-
 ## Support type
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Available object attributes:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                                                |                                                |                  |
-| ---------------------------------------------- | ---------------------------------------------- | ---------------- |
 | **Object attribute name**                      | **Object attribute** (type this into Descript) | **Value format** |
+| ---------------------------------------------- | ---------------------------------------------- | ---------------- |
 | Name                                           | Name                                           | String           |
 | Translational degree of freedom in x direction | x                                              | Numerical        |
 | Translational degree of freedom in y direction | y                                              | Numerical        |
@@ -1325,22 +606,9 @@ Available object attributes:
 | Rotational degree of freedom around z axis     | zz                                             | Numerical        |
 | Warping                                        | w                                              | Numerical        |
 
-<!-- /wp:table -->
+### Sample code
 
-<!-- wp:heading {"level":3} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
+**All available attributes + object creation:**
 ```
 CREATE PSup_Type_ID1 Support "Custom support type name" Fix 1234 Fix Fix Fix Fix Fix
 
@@ -1354,25 +622,12 @@ SET PSup_Type_ID1 zz Fix
 SET PSup_Type_ID1 w Fix
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading -->
-
 ## Release type
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Available object attributes:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                                                |                                                |                  |
-| ---------------------------------------------- | ---------------------------------------------- | ---------------- |
 | **Object attribute name**                      | **Object attribute** (type this into Descript) | **Value format** |
+| ---------------------------------------------- | ---------------------------------------------- | ---------------- |
 | Name                                           | Name                                           | String           |
 | Translational degree of freedom in x direction | x                                              | Numerical        |
 | Translational degree of freedom in y direction | y                                              | Numerical        |
@@ -1382,22 +637,9 @@ Available object attributes:
 | Rotational degree of freedom around z axis     | zz                                             | Numerical        |
 | Warping                                        | w                                              | Numerical        |
 
-<!-- /wp:table -->
+### Sample code
 
-<!-- wp:heading {"level":3} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
+**All available attributes + object creation:**
 ```
 CREATE Release_Type_ID1 Release "Custom release type name" Fix 1234 Fix Fix Fix Fix Fix
 
@@ -1411,46 +653,20 @@ SET Release_Type_ID1 zz Fix
 SET Release_Type_ID1 w Fix
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading -->
-
 ## Link
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Available object attributes:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                           |                                                |                    |
-| ------------------------- | ---------------------------------------------- | ------------------ |
 | **Object attribute name** | **Object attribute** (type this into Descript) | **Value format**   |
+| ------------------------- | ---------------------------------------------- | ------------------ |
 | Name                      | Name                                           | String             |
 | Release ID                | ReleaseID                                      | Release ID or name |
 | Position of connection    | InterfacePos                                   | Numerical          |
 | Rotation                  | Rotation                                       | Numerical          |
 
-<!-- /wp:table -->
+### Sample code
 
-<!-- wp:heading {"level":3} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
+**All available attributes + object creation:**
 ```
 LOAD_SECTION_MACRO Sec_ID1 WLD-IH "Descript Section" "S 235 EN 10025-2" 100 10 200 6 100 10
 
@@ -1475,25 +691,12 @@ SET Link_ID1 InterfacePos 0.567
 SET Link_ID1 Rotation 13.45
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading -->
-
 ## Load group
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Available object attributes:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                                      |                                                |                                           |
-| ------------------------------------ | ---------------------------------------------- | ----------------------------------------- |
 | **Object attribute name**            | **Object attribute** (type this into Descript) | **Value format**                          |
+| ------------------------------------ | ---------------------------------------------- | ----------------------------------------- |
 | Name                                 | Name                                           | String                                    |
 | Load group type                      | LoadGroupType                                  | [Predefined strings](#Load-group-type-lg) |
 | Safety factor                        | Factor_0                                       | Numerical                                 |
@@ -1501,25 +704,12 @@ Available object attributes:
 | Factor of frequent load level        | Factor_2                                       | Numerical                                 |
 | Factor of quasi-permanent load level | Factor_3                                       | Numerical                                 |
 
-<!-- /wp:table -->
-
-<!-- wp:heading {"level":4} -->
-
 #### Load group type:
+<span id="Load-group-type-lg" style={{paddingTop: '80px'}}> Valid inputs: </span>
+<div style={{paddingBottom: '20px'}}> </div>
 
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-Valid inputs:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                                     |                     |
-| ----------------------------------- | ------------------- |
 | **Load group type name**            | **Load group type** |
+| ----------------------------------- | ------------------- |
 | EN standard                         | -                   |
 | EN, Permanent                       | LGType_EN_P         |
 | EN, Variable (Transient)            | LGType_EN_T         |
@@ -1544,22 +734,9 @@ Valid inputs:
 | AISC, Flood load                    | LGType_AISC_Fa      |
 | AISC, Load from extraordinary event | LGType_AISC_Ak      |
 
-<!-- /wp:table -->
+### Sample code
 
-<!-- wp:heading {"level":3} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
+**All available attributes + object creation:**
 ```
 CREATE LG_ID1 LoadGroup
 Name "Variable (Descript)"
@@ -1576,48 +753,21 @@ SET LG_ID1 Factor_1 1.1
 SET LG_ID1 Factor_2 0.98
 SET LG_ID1 Factor_3 0.1
 ```
-
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading -->
-
 ## Load case
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Available object attributes:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                                                          |                                                |                       |
-| -------------------------------------------------------- | ---------------------------------------------- | --------------------- |
 | **Object attribute name**                                | **Object attribute** (type this into Descript) | **Value format**      |
+| -------------------------------------------------------- | ---------------------------------------------- | --------------------- |
 | Name                                                     | Name                                           | String                |
 | Load group ID                                            | LoadGroupID                                    | Load group ID or name |
 | Can be favourable in the combination                     | CanBeFavourable                                | Numerical             |
 | Can't be the main in persistent or transient combination | NotMainInTransientCmb                          | Numerical             |
 | Can't be the main in accidental combination              | NotMainInAccidentalCmb                         | Numerical             |
 
-<!-- /wp:table -->
+### Sample code
 
-<!-- wp:heading {"level":3} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
+**All available attributes + object creation:**
 ```
 CREATE LG_ID1 LoadGroup
 Name "Permanent (Descript)"
@@ -1641,124 +791,37 @@ SET LCase_ID1 NotMainInTransientCmb 1
 SET LCase_ID1 NotMainInAccidentalCmb 1
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading -->
-
 ## Load combination
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Available object attributes:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                           |                                                |                                               |
-| ------------------------- | ---------------------------------------------- | --------------------------------------------- |
 | **Object attribute name** | **Object attribute** (type this into Descript) | **Value format**                              |
+| ------------------------- | ---------------------------------------------- | --------------------------------------------- |
 | Name                      | Name                                           | String                                        |
 | Combination type          | Type                                           | [Predefined strings](#Combination-type-lcomb) |
 
-<!-- /wp:table -->
-
-<!-- wp:heading {"level":4} -->
-
 #### Combination type:
+<span id="Combination-type-lcomb" style={{paddingTop: '80px'}}> Valid inputs: </span>
+- ULS (default) <span style={{color:"Chocolate"}}>(until CS 16)</span>
+- SLS <span style={{color:"Chocolate"}}>(until CS 16)</span>
+- ULS_STR_PersistentOrTransient <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+- ULS_GEO_PersistentOrTransient <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+- ULS_EQU_PersistentOrTransient <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+- ULS_Accidental <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+- ULS_Seismic <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+- ULS_Other (default) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+- SLS_Cheracteristic_GQ <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+- SLS_Frequent_GQ <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+- SLS_QuasiPermanent_GQ <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+- SLS_Cheracteristic_Q <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+- SLS_Frequent_Q <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+- SLS_QuasiPermanent_Q <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+- SLS_Seismic <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+- SLS_Other <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
 
-<!-- /wp:heading -->
+### Sample code
 
-<!-- wp:paragraph -->
-
-Valid inputs:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
-- ULS (default) _(until CS 16)_
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- SLS _(until CS 16)_
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- ULS*STR_PersistentOrTransient *(since CS 17)\_
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- ULS*GEO_PersistentOrTransient *(since CS 17)\_
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- ULS*EQU_PersistentOrTransient *(since CS 17)\_
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- ULS*Accidental *(since CS 17)\_
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- ULS*Seismic *(since CS 17)\_
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- ULS*Other (default) *(since CS 17)\_
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- SLS*Cheracteristic_GQ *(since CS 17)\_
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- SLS*Frequent_GQ *(since CS 17)\_
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- SLS*QuasiPermanent_GQ *(since CS 17)\_
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- SLS*Cheracteristic_Q *(since CS 17)\_
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- SLS*Frequent_Q *(since CS 17)\_
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- SLS*QuasiPermanent_Q *(since CS 17)\_
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- SLS*Seismic *(since CS 17)\_
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
-- SLS*Other *(since CS 17)\_
-- <!-- /wp:list-item -->
-
-<!-- /wp:list -->
-
-<!-- wp:heading {"level":3} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
+**All available attributes + object creation:**
 ```
 CREATE LG_ID1 LoadGroup
 Name "Permanent (Descript)"
@@ -1781,25 +844,12 @@ SET LComb_ID1 Name "New load combination name"
 SET LComb_ID1 Type ULS_Accidental
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading -->
-
 ## Point load
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Available object attributes:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                           |                                                |                                                     |
-| ------------------------- | ---------------------------------------------- | --------------------------------------------------- |
 | **Object attribute name** | **Object attribute** (type this into Descript) | **Value format**                                    |
+| ------------------------- | ---------------------------------------------- | --------------------------------------------------- |
 | Name                      | Name                                           | String                                              |
 | Force in x direction      | X                                              | Numerical                                           |
 | Force in y direction      | Y                                              | Numerical                                           |
@@ -1812,25 +862,12 @@ Available object attributes:
 | Eccentricity - y          | EccY                                           | Numerical                                           |
 | Eccentricity - z          | EccZ                                           | Numerical                                           |
 
-<!-- /wp:table -->
-
-<!-- wp:heading {"level":4} -->
-
 #### Eccentricity reference:
+<span id="Eccentricity-reference-pload" style={{paddingTop: '80px'}}> Valid inputs: </span>
+<div style={{paddingBottom: '20px'}}> </div>
 
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-Valid inputs:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                                 |                                                      |
-| ------------------------------- | ---------------------------------------------------- |
 | **Eccentricity reference name** | **Eccentricity reference** (type this into Descript) |
+| ------------------------------- | ---------------------------------------------------- |
 | Reference line (0)              | EccType_C                                            |
 | Bottom Left (1)                 | EccType_BL                                           |
 | Bottom Middle (2)               | EccType_BM                                           |
@@ -1842,22 +879,9 @@ Valid inputs:
 | Top Middle (8)                  | EccType_TM                                           |
 | Top Right (9)                   | EccType_TR                                           |
 
-<!-- /wp:table -->
+### Sample code
 
-<!-- wp:heading {"level":3} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
+**All available attributes + object creation:**
 ```
 LOAD_SECTION_LIBRARY Sec_ID1 "HEA 200"
 
@@ -1891,25 +915,12 @@ SET PLoad_ID1 EccY 7
 SET PLoad_ID1 EccZ 8
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading -->
-
 ## Line load
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Available object attributes:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                                        |                                                |                                                     |
-| -------------------------------------- | ---------------------------------------------- | --------------------------------------------------- |
 | **Object attribute name**              | **Object attribute** (type this into Descript) | **Value format**                                    |
+| -------------------------------------- | ---------------------------------------------- | --------------------------------------------------- |
 | Name                                   | Name                                           | String                                              |
 | X force component at reference point 1 | X1                                             | Numerical                                           |
 | Y force component at reference point 1 | Y1                                             | Numerical                                           |
@@ -1926,77 +937,23 @@ Available object attributes:
 | Eccentricity - y                       | EccY                                           | Numerical                                           |
 | Eccentricity - z                       | EccZ                                           | Numerical                                           |
 
-<!-- /wp:table -->
-
-<!-- wp:heading {"level":4} -->
-
 #### Reference point 1:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-Valid inputs:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
+<span id="Reference-point-1-lload" style={{paddingTop: '80px'}}> Valid inputs: </span>
 - EndA (or 0) → from end A
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
 - EndB (or 1) → from end B
-- <!-- /wp:list-item -->
-
-<!-- /wp:list -->
-
-<!-- wp:heading {"level":4} -->
 
 #### Reference point 2:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-Valid inputs:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
+<span id="Reference-point-2-lload" style={{paddingTop: '80px'}}> Valid inputs: </span>
 - EndA (or 0) → from end A
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
 - EndB (or 1) → from end B
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
 - Relative (or 2) → Relative
-- <!-- /wp:list-item -->
-
-<!-- /wp:list -->
-
-<!-- wp:heading {"level":4} -->
 
 #### Eccentricity reference:
+<span id="Eccentricity-reference-lload" style={{paddingTop: '80px'}}> Valid inputs: </span>
+<div style={{paddingBottom: '20px'}}> </div>
 
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-Valid inputs:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                                 |                                                      |
-| ------------------------------- | ---------------------------------------------------- |
 | **Eccentricity reference name** | **Eccentricity reference** (type this into Descript) |
+| ------------------------------- | ---------------------------------------------------- |
 | Reference line (0)              | EccType_C                                            |
 | Bottom Left (1)                 | EccType_BL                                           |
 | Bottom Middle (2)               | EccType_BM                                           |
@@ -2008,22 +965,9 @@ Valid inputs:
 | Top Middle (8)                  | EccType_TM                                           |
 | Top Right (9)                   | EccType_TR                                           |
 
-<!-- /wp:table -->
+### Sample code
 
-<!-- wp:heading {"level":3} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
+**All available attributes + object creation:**
 ```
 LOAD_SECTION_LIBRARY Sec_ID1 "HEA 200"
 
@@ -2064,31 +1008,14 @@ SET LLoad_ID1 EccY 20
 SET LLoad_ID1 EccZ 40
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading -->
-
 ## Surface load
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 A surface load can be of 2 different types: uniform or linearly distributed. Some attributes only apply for one of the load distribution types.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
 Available object attributes:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                                             |                                                |                                                |
-| ------------------------------------------- | ---------------------------------------------- | ---------------------------------------------- |
 | **Object attribute name**                   | **Object attribute** (type this into Descript) | **Value format**                               |
+| ------------------------------------------- | ---------------------------------------------- | ---------------------------------------------- |
 | Name                                        | Name                                           | String                                         |
 | Load case ID                                | LoadCaseID                                     | Load case ID                                   |
 | X force component _(uniform distr.)_        | X                                              | Numerical                                      |
@@ -2101,74 +1028,20 @@ Available object attributes:
 | Load intensity at point 2 _(linear distr.)_ | LoadValue_2                                    | Numerical                                      |
 | Load intensity at point 3 _(linear distr.)_ | LoadValue_3                                    | Numerical                                      |
 
-<!-- /wp:table -->
-
-<!-- wp:heading {"level":4} -->
-
 #### Load direction:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-Valid inputs:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
+<span id="Load-direction-sload" style={{paddingTop: '80px'}}> Valid inputs: </span>
 - X
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
 - Y
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
 - Z
-- <!-- /wp:list-item -->
-
-<!-- /wp:list -->
-
-<!-- wp:heading {"level":4} -->
 
 #### Coordinate system:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-Valid inputs:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
+<span id="Coordinate-system-sload" style={{paddingTop: '80px'}}> Valid inputs: </span>
 - Local
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
 - Global
-- <!-- /wp:list-item -->
 
-<!-- /wp:list -->
+### Sample code
 
-<!-- wp:heading {"level":3} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
+**All available attributes + object creation:**
 ```
 CREATE LG_ID1 LoadGroup
 Name "Permanent (Descript)"
@@ -2230,95 +1103,31 @@ SET SLoadLin_ID LoadValue_2 22
 SET SLoadLin_ID LoadValue_3 33
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading -->
-
 ## Load transfer surface
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Available object attributes:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                           |                                                |                                                  |
-| ------------------------- | ---------------------------------------------- | ------------------------------------------------ |
 | **Object attribute name** | **Object attribute** (type this into Descript) | **Value format**                                 |
+| ------------------------- | ---------------------------------------------- | ------------------------------------------------ |
 | Name                      | Name                                           | String                                           |
 | Member selection type     | BeamDefType                                    | [Predefined strings](#Member-selection-type-lts) |
 | Beam IDs                  | BeamIDs                                        | Beam IDs in array                                |
 | Distribution method       | DistribMethod                                  | [Predefined strings](#Distribution-method-lts)   |
 | Load eccentricity z       | LoadEccZ                                       | Numerical                                        |
 
-<!-- /wp:table -->
-
-<!-- wp:heading {"level":4} -->
-
 #### Member selection type:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-Valid inputs:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
+<span id="Member-selection-type-lts" style={{paddingTop: '80px'}}> Valid inputs: </span>
 - Selected
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
 - Planar
-- <!-- /wp:list-item -->
-
-<!-- /wp:list -->
-
-<!-- wp:heading {"level":4} -->
 
 #### Distribution method:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-Valid inputs:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
+<span id="Distribution-method-lts" style={{paddingTop: '80px'}}> Valid inputs: </span>
 - DisMethodUniform
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
 - DisMethodStructPoint
-- <!-- /wp:list-item -->
 
-<!-- /wp:list -->
+### Sample code
 
-<!-- wp:heading {"level":3} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
+**All available attributes + object creation:**
 ```
 CREATE LTS_ID1 LoadTransferSurface "LTS 1"
 0 0 0
@@ -2342,72 +1151,24 @@ SET LTS_ID1 DistribMethod DisMethodStructPoint
 SET LTS_ID1 LoadEccZ 123
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading -->
-
 ## Mass group
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Available object attributes:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                           |                                                |                                           |
-| ------------------------- | ---------------------------------------------- | ----------------------------------------- |
 | **Object attribute name** | **Object attribute** (type this into Descript) | **Value format**                          |
+| ------------------------- | ---------------------------------------------- | ----------------------------------------- |
 | Name                      | Name                                           | String                                    |
 | Mass group type           | MassGroupType                                  | [Predefined strings](#Mass-group-type-mg) |
 
-<!-- /wp:table -->
-
-<!-- wp:heading {"level":4} -->
-
 #### Mass group type:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-Valid inputs:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
+<span id="Mass-group-type-mg" style={{paddingTop: '80px'}}> Valid inputs: </span>
 - MGType_EN_P (Permanent)
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
 - MGType_EN_T (Transient or Variable)
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
 - MGType_EN_S (Snow)
-- <!-- /wp:list-item -->
 
-<!-- /wp:list -->
+### Sample code
 
-<!-- wp:heading {"level":3} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
+**All available attributes + object creation:**
 ```
 CREATE MG_ID1 MassGroup
 Name "Mass group 1 (Descript)"
@@ -2417,114 +1178,35 @@ SET MG_ID1 Name "New mass group name"
 SET MG_ID1 MassGroupType MGType_EN_T
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:paragraph -->
+## Mass case
 
 Available object attributes:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-
-## Mass case
-
-<!-- /wp:heading -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                                                 |                                                |                                                                           |
-| ----------------------------------------------- | ---------------------------------------------- | ------------------------------------------------------------------------- |
 | **Object attribute name**                       | **Object attribute** (type this into Descript) | **Value format**                                                          |
+| ----------------------------------------------- | ---------------------------------------------- | ------------------------------------------------------------------------- |
 | Name                                            | Name                                           | String                                                                    |
 | Mass group ID                                   | MassGroupID                                    | Mass group ID                                                             |
 | Considered direction in seismic analysis        | SeismicDirection                               | [Predefined strings](#Considered-direction-in-seismic-analysis-mc)        |
 | Considered direction in free vibration analysis | FreeVibrationDirection                         | [Predefined strings](#Considered-direction-in-free-vibration-analysis-mc) |
 
-<!-- /wp:table -->
-
-<!-- wp:heading {"level":4} -->
-
 #### Considered direction in seismic analysis:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-Valid inputs:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
+<span id="Considered-direction-in-seismic-analysis-mc" style={{paddingTop: '80px'}}> Valid inputs: </span>
 - Z
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
 - 0
-- <!-- /wp:list-item -->
-
-<!-- /wp:list -->
-
-<!-- wp:heading {"level":4} -->
 
 #### Considered direction in free vibration analysis:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-Valid inputs:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
+<span id="Considered-direction-in-free-vibration-analysis-mc" style={{paddingTop: '80px'}}> Valid inputs: </span>
 - X
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
 - Y
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
 - Z
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
 - X,Y
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
 - X,Z
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
 - Y,Z
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
 - X,Y,Z
-- <!-- /wp:list-item -->
 
-<!-- /wp:list -->
+### Sample code
 
-<!-- wp:heading {"level":3} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
+**All available attributes + object creation:**
 ```
 CREATE MG_ID1 MassGroup
 Name "Mass group 1 (Descript)"
@@ -2546,37 +1228,17 @@ SET MC_ID1 SeismicDirection z
 SET MC_ID1 FreeVibrationDirection x
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading -->
-
 ## Mass combination
 
-<!-- /wp:heading -->
+Available object attributes:
 
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                           |                                                |                  |
-| ------------------------- | ---------------------------------------------- | ---------------- |
 | **Object attribute name** | **Object attribute** (type this into Descript) | **Value format** |
+| ------------------------- | ---------------------------------------------- | ---------------- |
 | Name                      | Name                                           | String           |
 
-<!-- /wp:table -->
+### Sample code
 
-<!-- wp:heading {"level":3} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
+**All available attributes + object creation:**
 ```
 CREATE MG_ID1 MassGroup
 Name "Mass group 1 (Descript)"
@@ -2593,40 +1255,20 @@ MC_ID1 1
 SET MComb_ID1 Name "New mass combination name"
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading -->
-
 ## Point mass
 
-<!-- /wp:heading -->
+Available object attributes:
 
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                           |                                                |                      |
-| ------------------------- | ---------------------------------------------- | -------------------- |
 | **Object attribute name** | **Object attribute** (type this into Descript) | **Value format**     |
+| ------------------------- | ---------------------------------------------- | -------------------- |
 | Name                      | Name                                           | String               |
 | Mass case ID              | MassCaseID                                     | Mass case ID or name |
 | Mass value                | ValueX                                         | Numerical            |
 | Multiplication factor     | MulFac                                         | Numerical            |
 
-<!-- /wp:table -->
+### Sample code
 
-<!-- wp:heading {"level":3} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
+**All available attributes + object creation:**
 ```
 CREATE MG_ID1 MassGroup
 Name "Mass group 1 (Descript)"
@@ -2656,38 +1298,18 @@ SET PMass_ID1 ValueX 1234
 SET PMass_ID1 MulFac 10
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading -->
-
 ## Portion
 
-<!-- /wp:heading -->
+Available object attributes:
 
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                           |                                                |                     |
-| ------------------------- | ---------------------------------------------- | ------------------- |
 | **Object attribute name** | **Object attribute** (type this into Descript) | **Value format**    |
+| ------------------------- | ---------------------------------------------- | ------------------- |
 | Name                      | Name                                           | String              |
 | Items                     | Items                                          | Object IDs in array |
 
-<!-- /wp:table -->
+### Sample code
 
-<!-- wp:heading {"level":3} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-All available attributes + object creation:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:loos-hcb/code-block -->
-
+**All available attributes + object creation:**
 ```
 LOAD_SECTION_LIBRARY Sec_ID1 "HEA 200"
 
@@ -2716,5 +1338,3 @@ ARRAY_ADD ObjIDs_to_portion Mem_ID2
 SET Portion_ID1 Name "New portion name"
 SET Portion_ID1 Items ObjIDs_to_portion
 ```
-
-<!-- /wp:loos-hcb/code-block -->

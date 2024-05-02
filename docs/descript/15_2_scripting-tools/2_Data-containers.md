@@ -23,9 +23,8 @@ If **variables** are defined, they are free to use in the following lines of the
 
 Arrays are lists of values indexed starting from 0. An array can also be thought of as a table, where each item is represented by a row that has a fixed index number. A value can be assigned to any item and the array will store that value for later use.
 
-|           |           |
-| --------- | --------- |
 | **Index** | **Value** |
+| --------- | --------- |
 | 0         | Value 0   |
 | 1         | Value 1   |
 | 2         | Value 2   |
@@ -43,9 +42,8 @@ A map is a collection of key-value pairs. If we think of a map as a table, then 
 
 Compared to arrays, in a map there are keys instead of indices. Keys can be changed, while indices are given.
 
-|         |             |
-| ------- | ----------- |
 | **Key** | **Value**   |
+| ------- | ----------- |
 | Key_1   | Key 1 value |
 | Key_2   | Key 2 value |
 | Key_3   | Key 3 value |
