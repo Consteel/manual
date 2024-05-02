@@ -80,10 +80,17 @@ const config: Config = {
           label: "Descript",
         },
         {
-          type: "docSidebar",
-          sidebarId: "pluginsSideBar",
+          type: "dropdown",
           position: "left",
+          docId: "plugins",
           label: "Plugins",
+          items: [
+            {
+              type: "doc",
+              docId: "plugins/axis/axisvm-plugin",
+              label: "Converter for AXISVM",
+            },
+          ],
         },
         // {
         //   type: 'docsVersionDropdown',

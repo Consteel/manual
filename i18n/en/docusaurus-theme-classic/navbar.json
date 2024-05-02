@@ -7,6 +7,9 @@
     "message": "Consteel Manual",
     "description": "Navbar item with label Consteel Manual"
   },
+  "item.label.Converter for AXISVM": {
+    "message": "Converter for AXISVM"
+  },
   "item.label.Descript": {
     "message": "Descript",
     "description": "Navbar item with label Descript"
