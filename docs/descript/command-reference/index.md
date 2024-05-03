@@ -14,7 +14,7 @@
     - [ARRAY_SET ](/docs/descript/command-reference/array_set/)→ Sets the value of an item in an array
     - [ARRAY_GET ](/docs/descript/command-reference/array_get/)→ Gets the value of an item in an array
     - [ARRAY_COUNT ](/docs/descript/command-reference/array_count/)→ Counts the items in an array
-    - [ARRAY_CLEAR ](</docs/descript/command-reference/array_clear/(opens in a new tab)>)→ Clears an array
+    - [ARRAY_CLEAR ](/docs/descript/command-reference/array_clear/)→ Clears an array
   - Maps
     - [MAP_CREATE ](/docs/descript/command-reference/map_create/)→ Creates a map
     - [MAP_SET ](/docs/descript/command-reference/map_set/)→ Sets a key-value pair in a map
