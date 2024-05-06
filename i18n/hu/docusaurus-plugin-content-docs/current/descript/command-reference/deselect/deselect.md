@@ -6,149 +6,57 @@ redirect_from:
             - https://www.consteelsoftware.com/manual/descript-cspi/deselect/
 hero: ../../../defaultHero.jpg
 ---
-<!-- wp:paragraph -->
 
 Deselects objects in the model.
 
-<!-- /wp:paragraph -->
+### Description
 
-<!-- wp:heading {"level":3} -->
+With the DESELECT command, objects in the model can be deselected from the current selection. There are several different selection methods available through the _Selection type_ parameter.
 
 ### Syntax
 
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-**DE**SELECT\*\* \*\* Selection parameters...
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-
-### Description
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-With the DESELECT command, objects can be deselected from the model. There are several different selection methods available through the Selection type parameter.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
+**DESELECT** [Selection type] Selection parameters...
 
 ### Selection types
 
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
 Available selection types:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                                        |                                             |
-| -------------------------------------- | ------------------------------------------- |
 | **Selection type**                     | **Description**                             |
-| [All](#DESELECT-All)                   | Deselects all objects in the model          |
-| [By_ID](#DESELECT-By_ID)               | Deselection by object ID                    |
-| [By_Type](#DESELECT-By_Type)           | Deselection by object type                  |
-| [By_Attribute](#DESELECT-By_Attribute) | Deselection by object type and attribute(s) |
+| -------------------------------------- | ------------------------------------------- |
+| [All](#deselect-all)                   | Deselects all objects in the model          |
+| [By_ID](#deselect-by_id)               | Deselection by object ID                    |
+| [By_Type](#deselect-by_type)           | Deselection by object type                  |
+| [By_Attribute](#deselect-by_attribute) | Deselection by object type and attribute(s) |
 
-<!-- /wp:table -->
-
-<!-- wp:heading {"level":3} -->
-
-### Command parameters:
-
-<!-- /wp:heading -->
-
-<!-- wp:heading {"level":4} -->
+### Command parameters
 
 #### Selection type:
+The available selection parameters and their meaning depends on the chosen selection type. [Detailed description](#detailed-description-of-selection-types) of all selection parameters for each individual selection type can be found below.
 
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-The available selection parameters and their meaning depends on the chosen selection type. [Detailed description](#Detailed-description-of-selection-types) of all selection parameters for each individual selection type can be found below.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:loos-hcb/code-block -->
-
+### Sample code
 ```
 DESELECT All
 ```
-
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading {"level":1} -->
-
-# Detailed description of selection types
-
-<!-- /wp:heading -->
-
-<!-- wp:heading {"textAlign":"left"} -->
+---
+## Detailed description of selection types
 
 ## DESELECT All
 
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
 Deselects all selected objects in the model.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
 
 ### Syntax
 
-<!-- /wp:heading -->
+**DESELECT All**
 
-<!-- wp:paragraph -->
+### Sample code
 
-**\*\***DESELECT \***\*All**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:heading {"level":4} -->
-
-#### Command only:
-
-<!-- /wp:heading -->
-
-<!-- wp:loos-hcb/code-block -->
+**Command only:**
 
 ```
 DESELECT All
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading {"level":4} -->
-
-#### With added prerequisites (object creation):
-
-<!-- /wp:heading -->
-
-<!-- wp:loos-hcb/code-block -->
+**With added prerequisites:** (object creation)
 
 ```
 LOAD_SECTION_LIBRARY Sec_ID1 "HEA 200"
@@ -162,86 +70,32 @@ SELECT ALL
 DESELECT ALL
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading {"textAlign":"left"} -->
-
 ## DESELECT By_ID
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Deselects specific objects in the model by ID.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-
 ### Syntax
 
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-**\*\***DESELECT By*ID**\*\*** \[ID1] \[ID2] \[ID3] \_etc.*
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
+**DESELECT By_ID** \[ID1] \[ID2] \[ID3] _etc._
 
 ### Command parameters
 
-<!-- /wp:heading -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                       |                |                  |                   |
-| --------------------- | -------------- | ---------------- | ----------------- |
 | **Command parameter** | **Assignment** | **Value format** | **Input options** |
-| [IDs](#IDs)           | Required       | String           | Local, variable   |
-
-<!-- /wp:table -->
-
-<!-- wp:heading {"level":4} -->
+| --------------------- | -------------- | ---------------- | ----------------- |
+| [IDs](#ids)           | Required       | String           | Local, variable   |
 
 #### IDs:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
 Exact identification strings of the objects chosen for deselection. Multiple IDs can be given within one DESELECT BY_ID command. IDs need to be separated by spaces.
 
-<!-- /wp:paragraph -->
+### Sample code
 
-<!-- wp:heading {"level":3} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:heading {"level":4} -->
-
-#### Command only:
-
-<!-- /wp:heading -->
-
-<!-- wp:loos-hcb/code-block -->
+**Command only:**
 
 ```
 DESELECT BY_ID ID1
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading {"level":4} -->
-
-#### With added prerequisites (object creation) and multiple objects:
-
-<!-- /wp:heading -->
-
-<!-- wp:loos-hcb/code-block -->
+**With added prerequisites (object creation) and multiple objects:**
 
 ```
 LOAD_SECTION_LIBRARY Sec_ID1 "HEA 200"
@@ -259,70 +113,28 @@ SELECT ALL
 DESELECT BY_ID ID1 ID2
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading {"textAlign":"left"} -->
-
 ## DESELECT By_Type
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Deselects specific objects in the model by type.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-
 ### Syntax
 
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-**DESELECT** **By_Type **
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
+**DESELECT By_Type** [Object type]
 
 ### Command parameters
 
-<!-- /wp:heading -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                                     |                |                                             |                   |
-| ----------------------------------- | -------------- | ------------------------------------------- | ----------------- |
 | **Command parameter**               | **Assignment** | **Value format**                            | **Input options** |
+| ----------------------------------- | -------------- | ------------------------------------------- | ----------------- |
 | [Object type](#Object-type-By_Type) | Required       | [Predefined strings](#object-types-By_Type) | Local, variable   |
 
-<!-- /wp:table -->
-
-<!-- wp:heading {"level":4} -->
-
-#### Object type:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
+#### Object type: {#Object-type-By_Type}
 The type of objects to be deselected. Only 1 object type can be given within one DESELECT By_Type command.
 
-<!-- /wp:paragraph -->
+<span id="object-types-By_Type" style={{paddingTop: '80px'}}> Available object types: </span>
+<div style={{paddingBottom: '20px'}}> </div>
 
-<!-- wp:paragraph -->
-
-Available object types:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                                 |                           |
-| ------------------------------- | ------------------------- |
 | **Object type name**            | **Object type**           |
+| ------------------------------- | ------------------------- |
 | Geometry tab                    | -                         |
 | Line                            | Line                      |
 | Arc                             | CircleArc                 |
@@ -383,53 +195,21 @@ Available object types:
 | Other                           | -                         |
 | Section plane                   | Result_Plane              |
 
-<!-- /wp:table -->
-
-<!-- wp:paragraph -->
-
-More information about object types can be found at the [CREATE ](https://consteelsoftware.com/manual/descript-cspi/create/)command.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
+More information about object types can be found at the [CREATE](/docs/descript/command-reference/create/) command.
 
 ### Description
 
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
 Deselects specific objects in the model by type. All objects within the given object type will be deselected.
 
-<!-- /wp:paragraph -->
+### Sample code
 
-<!-- wp:heading {"level":3} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:heading {"level":4} -->
-
-#### Command only:
-
-<!-- /wp:heading -->
-
-<!-- wp:loos-hcb/code-block -->
+**Command only:**
 
 ```
 DESELECT BY_TYPE Structural_Member
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading {"level":4} -->
-
-#### With added prerequisites (object creation):
-
-<!-- /wp:heading -->
-
-<!-- wp:loos-hcb/code-block -->
+**With added prerequisites:** (object creation)
 
 ```
 LOAD_SECTION_LIBRARY Sec_ID1 "HEA 200"
@@ -446,74 +226,33 @@ SELECT ALL
 DESELECT BY_TYPE Structural_Member
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading {"textAlign":"left"} -->
-
 ## DESELECT By_Attribute
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
 Deselects specific objects in the model by type and attribute.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
 
 ### Syntax
 
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-**DESELECT By_Attribute **
-
+**DESELECT By_Attribute** [Object type]  
+[Object attribute 1] [Attribute value 1]  
+[Object attribute 2] [Attribute value 2]  
+[Object attribute 3] [Attribute value 3]  
 _etc._
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
 
 ### Command parameters
 
-<!-- /wp:heading -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                                                      |                |                                                  |                   |
-| ---------------------------------------------------- | -------------- | ------------------------------------------------ | ----------------- |
 | **Command parameter**                                | **Assignment** | **Value format**                                 | **Input options** |
+| ---------------------------------------------------- | -------------- | ------------------------------------------------ | ----------------- |
 | [Object type](#Object-type-By_Attribute)             | Required       | [Predefined strings](#object-types-By_Attribute) | Local, variable   |
 | [Object attributes](#Object-attributes-By_Attribute) | Required       | Predefined strings                               | Local, variable   |
 | [Attribute values](#Attribute-values-By_Attribute)   | Required       | String                                           | Local, variable   |
 
-<!-- /wp:table -->
-
-<!-- wp:heading {"level":4} -->
-
-#### Object type:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
+#### Object type: {#Object-type-By_Attribute}
 The type of objects to be deselected. Only 1 object type can be given within one DESELECT By_Attribute command.
 
-<!-- /wp:paragraph -->
+<span id="object-types-By_Attribute" style={{paddingTop: '80px'}}> Available object types: </span>
+<div style={{paddingBottom: '20px'}}> </div>
 
-<!-- wp:paragraph -->
-
-Available object types:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:table {"className":"is-style-stripes"} -->
-
-|                                 |                           |
-| ------------------------------- | ------------------------- |
 | **Object type name**            | **Object type**           |
+| ------------------------------- | ------------------------- |
 | Geometry tab                    | -                         |
 | Line                            | Line                      |
 | Arc                             | CircleArc                 |
@@ -574,84 +313,30 @@ Available object types:
 | Other                           | -                         |
 | Section plane                   | Result_Plane              |
 
-<!-- /wp:table -->
+More information about object types can be found at the [CREATE](/docs/descript/command-reference/create/) command.
 
-<!-- wp:paragraph -->
-
-More information about object types can be found at the [CREATE ](https://consteelsoftware.com/manual/descript-cspi/create/)command.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4} -->
-
-#### Object attributes:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
+#### Object attributes: {#Object-attributes-By_Attribute}
 The object attributes by which the deselection will be restricted within the given object type. An arbitrary number of object attributes can be given for one DESELECT By_Attribute command. The final deselection will affect only those objects for which all the given attribute values are true.
 
-<!-- /wp:paragraph -->
+The list of available object attributes depends on the object type. The full list of object attributes can be found at the [CREATE](/docs/descript/command-reference/create/) command for each object type.
 
-<!-- wp:paragraph -->
-
-The list of available object attributes depends on the object type. The full list of object attributes can be found at the [CREATE ](https://consteelsoftware.com/manual/descript-cspi/create/)command for each object type.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4} -->
-
-#### Attribute values:
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
+#### Attribute values: {#Attribute-values-By_Attribute}
 The actual value of the given attribute.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
 
 ### Description
 
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
 Deselects specific objects in the model by type and all given object attributes.
 
-<!-- /wp:paragraph -->
+### Sample code
 
-<!-- wp:heading {"level":3} -->
-
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:heading {"level":4} -->
-
-#### Command only:
-
-<!-- /wp:heading -->
-
-<!-- wp:loos-hcb/code-block -->
+**Command only:**
 
 ```
 DESELECT BY_ATTRIBUTE Structural_Member
 GeomImpW 300
 ```
 
-<!-- /wp:loos-hcb/code-block -->
-
-<!-- wp:heading {"level":4} -->
-
-#### With added prerequisites (object creation):
-
-<!-- /wp:heading -->
-
-<!-- wp:loos-hcb/code-block -->
+**With added prerequisites:** (object creation)
 
 ```
 LOAD_SECTION_LIBRARY Sec_ID1 "HEA 200"
@@ -671,5 +356,3 @@ SELECT ALL
 DESELECT BY_ATTRIBUTE Structural_Member
 GeomImpW 300
 ```
-
-<!-- /wp:loos-hcb/code-block -->

@@ -6,46 +6,18 @@ redirect_from:
             - https://www.consteelsoftware.com/manual/descript-cspi/clear_all/
 hero: ../../../defaultHero.jpg
 ---
-<!-- wp:paragraph -->
 
 Clears all content in the model file.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-
-### Syntax
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-**CLEAR_ALL**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-
 ### Description
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 The CLEAR_ALL command resets Consteel to its starting state. It deletes all members, plates, sections, loads, loadcases, load combinations, user made support types, any documentation created, snapshots saved, etc.
 
-<!-- /wp:paragraph -->
+### Syntax
 
-<!-- wp:heading {"level":3} -->
+**CLEAR_ALL**
 
-### Sample code:
-
-<!-- /wp:heading -->
-
-<!-- wp:loos-hcb/code-block -->
-
+### Sample code
 ```
 CLEAR_ALL
 ```
-
-<!-- /wp:loos-hcb/code-block -->
