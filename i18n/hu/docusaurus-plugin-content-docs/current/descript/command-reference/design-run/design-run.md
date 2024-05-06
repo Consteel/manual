@@ -34,29 +34,29 @@ Several options of a design calculation can be controlled by command attributes 
 
 [![](./img/wp-content-uploads-2021-12-image-2-1024x626.png)](https://consteelsoftware.com/wp-content/uploads/2021/12/image-2.png)
 
-### Command attributes
+### Additional command lines
 
 Code lines directly after the DESIGN RUN command can set certain attributes of the design. The "Type" and "LoadCombinations" lines are always necessary, while the other ones are optional.
 
-Available command attributes:
+Available additional command lines:
 
-| **Command attribute**    | **Inclusion** | **Description**                                               |
-| ------------------------ | ------------- | ------------------------------------------------------------- |
-| Type                     | Required      | Controls which analysis results to use                        |
-| LoadCombinations         | Required      | Controls the considered load combinations                     |
-| CrossSectionCheck        | Optional      | Requests cross-section check                                  |
-| Portion_CrossSection     | Optional      | Sets portion used for cross-section check                     |
-| UseGammaM1               | Optional      | Requests the usage of γM1 instead of γM0                      |
-| BucklingCheck            | Optional      | Requests buckling check                                       |
-| Portion_Buckling         | Optional      | Sets portion used for buckling check                          |
-| ElasticCriticalFactor    | Optional      | Controls the selection of the elastic critical factor         |
-| UltimateResistanceFactor | Optional      | Controls the selection of the ultimate resistance factor      |
-| ReductionFactor          | Optional      | Controls the selection of the reduction factor                |
-| StableLength             | Optional      | Considers torsional restraints at the points of contraflexure |
-| UseEN1993_1_3            | Optional      | Controls the usage of supplementary rules from EN 1993-1-3    |
-| CompositeColumnCheck     | Optional      | Requests composite column check                               |
-| BeamReinforcementCheck   | Optional      | Requests concrete beam reinforcement design                   |
-| ColumnReinforcementCheck | Optional      | Requests concrete column reinforcement design                 |
+| **Line starting keyword** | **Inclusion** | **Description**                                               |
+| ------------------------- | ------------- | ------------------------------------------------------------- |
+| Type                      | Required      | Controls which analysis results to use                        |
+| LoadCombinations          | Required      | Controls the considered load combinations                     |
+| CrossSectionCheck         | Optional      | Requests cross-section check                                  |
+| Portion_CrossSection      | Optional      | Sets portion used for cross-section check                     |
+| UseGammaM1                | Optional      | Requests the usage of γM1 instead of γM0                      |
+| BucklingCheck             | Optional      | Requests buckling check                                       |
+| Portion_Buckling          | Optional      | Sets portion used for buckling check                          |
+| ElasticCriticalFactor     | Optional      | Controls the selection of the elastic critical factor         |
+| UltimateResistanceFactor  | Optional      | Controls the selection of the ultimate resistance factor      |
+| ReductionFactor           | Optional      | Controls the selection of the reduction factor                |
+| StableLength              | Optional      | Considers torsional restraints at the points of contraflexure |
+| UseEN1993_1_3             | Optional      | Controls the usage of supplementary rules from EN 1993-1-3    |
+| CompositeColumnCheck      | Optional      | Requests composite column check                               |
+| BeamReinforcementCheck    | Optional      | Requests concrete beam reinforcement design                   |
+| ColumnReinforcementCheck  | Optional      | Requests concrete column reinforcement design                 |
 
 ### Command parameters
 

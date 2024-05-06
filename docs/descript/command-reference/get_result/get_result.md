@@ -49,13 +49,13 @@ Filter [Filter type 1] [Filter value 1] [Filter type 2] [Filter value 2] _etc._
 Location [Location type] [Location value]  
 TogetherWith [Supplementary result category] [Supplementary result type] [Plate layer] [Dynamic direction] [Supplementary result]  
 
-### Command attributes
+### Additional command lines
 
 Code lines directly after the GET_RESULT command can set certain attributes. The "AnalysisType", "ResultType" and "Combination" lines are always necessary, while the other ones are optional.
 
-Available command attributes:
+Available additional command lines:
 
-| **Command attribute**            | **Inclusion** | **Description**                |
+| **Line starting keyword**        | **Inclusion** | **Description**                |
 | -------------------------------- | ------------- | ------------------------------ |
 | AnalysisType                     | Required      | Controls analysis type         |
 | ResultType                       | Required      | Controls result type           |
@@ -283,13 +283,13 @@ Filter [Filter type 1] [Filter value 1] [Filter type 2] [Filter value 2] etc.
 Location [Location type] [Location value]  
 TogetherWith [Supplementary result category] [Supplementary result type] [Supplementary result]  
 
-### Command attributes
+### Additional command lines
 
 Code lines directly after the GET_RESULT command can set certain attributes. The "ResultType" line is always necessary, while the other ones are optional.
 
-Available command attributes:
+Available additional command lines:
 
-| **Command attribute**            | **Inclusion** | **Description**                |
+| **Line starting keyword**        | **Inclusion** | **Description**                |
 | -------------------------------- | ------------- | ------------------------------ |
 | ResultType                       | Required      | Controls result type           |
 | Combination                      | Optional      | Selects combination            |

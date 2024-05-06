@@ -29,25 +29,25 @@ Several options of an anlysis can be controlled by command attributes and parame
 
 [![](./img/wp-content-uploads-2021-12-image-1024x529.png)](https://consteelsoftware.com/wp-content/uploads/2021/12/image.png)
 
-### Command attributes
+### Additional command lines
 
 Code lines directly after the ANALYSIS RUN command can set certain attributes of the analysis. The "Type" and "LoadCombinations" lines are always necessary, while the other ones are optional.
 
-Available command attributes:
+Available additional command lines:
 
-| **Command attribute** | **Inclusion** | **Description**                                                |
-| --------------------- | ------------- | -------------------------------------------------------------- |
-| Type                  | Required      | Controls the static analysis type                              |
-| LoadCombinations      | Required      | Controls the considered load combinations                      |
-| LoadCases             | Optional      | Requests the separate analysis of load cases                   |
-| FirstOrder            | Optional      | Requests first order analysis                                  |
-| SecondOrder           | Optional      | Requests second order analysis                                 |
-| Portion_SecondOrder   | Optional      | Sets portion used for second order analysis                    |
-| Buckling              | Optional      | Requests buckling analysis                                     |
-| Portion_Buckling      | Optional      | Sets portion used for buckling analysis                        |
-| Sensitivity           | Optional      | Requests buckling sensitivity analysis                         |
-| Dynamic               | Optional      | Requests dynamic analysis                                      |
-| MassCombinations      | Optional      | Controls the considered mass combinations for dynamic analysis |
+| **Line starting keyword** | **Inclusion** | **Description**                                                |
+| ------------------------- | ------------- | -------------------------------------------------------------- |
+| Type                      | Required      | Controls the static analysis type                              |
+| LoadCombinations          | Required      | Controls the considered load combinations                      |
+| LoadCases                 | Optional      | Requests the separate analysis of load cases                   |
+| FirstOrder                | Optional      | Requests first order analysis                                  |
+| SecondOrder               | Optional      | Requests second order analysis                                 |
+| Portion_SecondOrder       | Optional      | Sets portion used for second order analysis                    |
+| Buckling                  | Optional      | Requests buckling analysis                                     |
+| Portion_Buckling          | Optional      | Sets portion used for buckling analysis                        |
+| Sensitivity               | Optional      | Requests buckling sensitivity analysis                         |
+| Dynamic                   | Optional      | Requests dynamic analysis                                      |
+| MassCombinations          | Optional      | Controls the considered mass combinations for dynamic analysis |
 
 ### Command parameters
 

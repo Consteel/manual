@@ -20,15 +20,15 @@ The message can display values of variables in the code, and also accepst html t
 **MSG_BOX** [Message title] [Message description]  
 Icon [Icon type]
 
-### Command attributes
+### Additional command lines
 
 Code lines directly after the MSG_BOX command.
 
-Available command attributes:
+Available additional command lines:
 
-| **Command attribute** | **Inclusion** | **Description**             |
-| --------------------- | ------------- | --------------------------- |
-| [Icon](#icon)         | Optional      | Adds an icon to the message |
+| **Line starting keyword** | **Inclusion** | **Description**             |
+| ------------------------- | ------------- | --------------------------- |
+| [Icon](#icon)             | Optional      | Adds an icon to the message |
 
 #### Icon:
 An icon can be added in front of the message title with this additional line immediately after the MSG_BOX command. If the "Icon ..." line is added then the _Icon type_ parameter have to be given.
