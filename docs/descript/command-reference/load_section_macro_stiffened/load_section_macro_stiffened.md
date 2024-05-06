@@ -13,7 +13,7 @@ Loads a stiffened macro section into the section list. <span style={{color:"Medi
 
 Sections have to be loaded into the current model file to be able to be used in the model. Initially in a new model file the section list is empty. There are several ways to load in, or create a section: library section, macro section, user drawn section. This command loads in cold-formed macro sections with optional stiffeners.
 
-![](./img/wp-content-uploads-2023-08-image-16.png)
+[![](./img/wp-content-uploads-2023-08-image-16.png)](./img/wp-content-uploads-2023-08-image-16.png)
 
 Macro sections that can not have stiffeners can be loaded in with the [LOAD_SECTION_MACRO](#/docs/descript/command-reference/load_section_macro/) command.
 
@@ -103,7 +103,7 @@ To add a stiffener to the section, the stiffener data have to be defined in a ro
 
 Defines into which position the stiffener will be added. The available stiffener positions depend on the macro type.
 
-![](./img/wp-content-uploads-2023-08-image-33-1024x196.png)
+[![](./img/wp-content-uploads-2023-08-image-33-1024x196.png)](./img/wp-content-uploads-2023-08-image-33-1024x196.png)
 
 Valid inputs:
 - S1
@@ -126,7 +126,7 @@ Web_Stiffener
 
 #### Edge stiffener (single folded):
 
-![](./img/wp-content-uploads-2023-08-image-18.png)
+[![](./img/wp-content-uploads-2023-08-image-18.png)](./img/wp-content-uploads-2023-08-image-18.png)
 
 [Stiffener position] **Edge_Stiffener** \[b] \[alpha] \[R]
 
@@ -142,7 +142,7 @@ S1 Edge_Stiffener 30 120 4
 
 #### Edge stiffener (double folded):
 
-![](./img/wp-content-uploads-2023-08-image-19.png)
+[![](./img/wp-content-uploads-2023-08-image-19.png)](./img/wp-content-uploads-2023-08-image-19.png)
 
 [Stiffener position] **Edge_Stiffener** \[b] \[alpha] \[R1] \[c] \[beta] \[R2]
 
@@ -161,7 +161,7 @@ S5 Edge_Stiffener 20 90 4 20 90 4
 
 #### Flange stiffener (Triangular):
 
-![](./img/wp-content-uploads-2023-08-image-20.png)
+[![](./img/wp-content-uploads-2023-08-image-20.png)](./img/wp-content-uploads-2023-08-image-20.png)
 
 [Stiffener position] **Flange Stiffener** **Triangular** \[l] \[h] \[R] \[x]
 
@@ -178,7 +178,7 @@ S2 Flange_Stiffener Triangular 6 6 2 20
 
 #### Flange stiffener (Rounded):
 
-![](./img/wp-content-uploads-2023-08-image-21.png)
+[![](./img/wp-content-uploads-2023-08-image-21.png)](./img/wp-content-uploads-2023-08-image-21.png)
 
 [Stiffener position] **Flange Stiffener** **Rounded** \[d] \[R] \[x]
 
@@ -194,7 +194,7 @@ S4 Flange_Stiffener Rounded 6 2 20
 
 #### Web stiffener (Triangular):
 
-![](./img/wp-content-uploads-2023-08-image-24.png)
+[![](./img/wp-content-uploads-2023-08-image-24.png)](./img/wp-content-uploads-2023-08-image-24.png)
 
 [Stiffener position] **Web Stiffener** **Triangular** \[l] \[h] \[R] \[Position] \[x1] \[Side 1] \[x2] \[Side 2]
 
@@ -219,7 +219,7 @@ S3 Web_Stiffener Triangular 6 6 2 RelFromA 25 Left 50 Left     // Duplicated
 
 #### Web stiffener (Rounded):
 
-![](./img/wp-content-uploads-2023-08-image-25.png)
+[![](./img/wp-content-uploads-2023-08-image-25.png)](./img/wp-content-uploads-2023-08-image-25.png)
 
 [Stiffener position] **Web Stiffener** **Rounded** \[d] \[R] \[Position] \[x1] \[Side 1] \[x2] \[Side 2]
 
@@ -243,7 +243,7 @@ S3 Web_Stiffener Rounded 6 2 FromA 50 Left 51 Right     // Duplicated
 
 #### Web stiffener (Trapezoidal):
 
-![](./img/wp-content-uploads-2023-08-image-26.png)
+[![](./img/wp-content-uploads-2023-08-image-26.png)](./img/wp-content-uploads-2023-08-image-26.png)
 
 [Stiffener position] **Web \_Stiffener** **Trapezoidal** \[l] \[h] \[alpha] \[R] \[Position] \[x1] \[Side 1] \[x2] \[Side 2]
 
@@ -278,7 +278,7 @@ CF-C
 
 #### Parameters:
 
-![](./img/wp-content-uploads-2023-08-image-17.png)
+[![](./img/wp-content-uploads-2023-08-image-17.png)](./img/wp-content-uploads-2023-08-image-17.png)
 
 | Notation | Definition         |
 | -------- | ------------------ |
@@ -325,7 +325,7 @@ CF-Z
 
 #### Parameters:
 
-![](./img/wp-content-uploads-2023-08-image-27.png)
+[![](./img/wp-content-uploads-2023-08-image-27.png)](./img/wp-content-uploads-2023-08-image-27.png)
 
 | Notation | Definition         |
 | -------- | ------------------ |
@@ -372,7 +372,7 @@ CF-SIGMA
 
 #### Parameters:
 
-![](./img/wp-content-uploads-2023-08-image-28.png)
+[![](./img/wp-content-uploads-2023-08-image-28.png)](./img/wp-content-uploads-2023-08-image-28.png)
 
 | Notation | Definition         |
 | -------- | ------------------ |
@@ -421,7 +421,7 @@ CF-SIGMA
 
 #### Parameters:
 
-![](./img/wp-content-uploads-2023-08-image-29.png)
+[![](./img/wp-content-uploads-2023-08-image-29.png)](./img/wp-content-uploads-2023-08-image-29.png)
 
 | Notation | Definition         |
 | -------- | ------------------ |
@@ -471,7 +471,7 @@ CF-OMEGA
 
 #### Parameters:
 
-![](./img/wp-content-uploads-2023-08-image-31.png)
+[![](./img/wp-content-uploads-2023-08-image-31.png)](./img/wp-content-uploads-2023-08-image-31.png)
 
 | Notation | Definition      |
 | -------- | --------------- |

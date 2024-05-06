@@ -15,7 +15,7 @@ This command is a part of the model import process. It expects a list of section
 
 The command opens a dialogue window, where the section conversions can be reviewed. If a section name coincides with one in the Consteel section library, or there is a predefined conversion for the particular section type in the conversion file, than that section will be selected, if there is not, then the user has to select a section from the drop-down list. If there is no adequate section present in the list, then the user can load one from the section bank with the "..." button, and then select it from the drop-down list.
 
-![](./img/wp-content-uploads-2024-01-image-4-1024x485.png)
+[![](./img/wp-content-uploads-2024-01-image-4-1024x485.png)](./img/wp-content-uploads-2024-01-image-4-1024x485.png)
 
 ### Syntax
 
@@ -34,7 +34,7 @@ Name of the array of sections to be converted. In the array the name of the sect
 #### Conversion file:
 There are section and material conversion files in the '... / [Consteel installation directory] / Data / Export' folder for all the supported softwares. These files contain section type and material conversions between a particular software and Consteel, thus telling Consteel that which section type in a particular software should be converted to which section type in Consteel.
 
-![](./img/wp-content-uploads-2024-01-image-7.png)
+[![](./img/wp-content-uploads-2024-01-image-7.png)](./img/wp-content-uploads-2024-01-image-7.png)
 
 <span id="convFiles" style={{paddingTop: '80px'}}>Available inputs:</span>
 - Bocad
@@ -50,17 +50,17 @@ There are section and material conversion files in the '... / [Consteel installa
 CONVERT_AND_LOAD_SECTIONS section_names SAP2000
 ```
 
-![](./img/wp-content-uploads-2024-02-image-1024x206.png)
+[![](./img/wp-content-uploads-2024-02-image-1024x206.png)](./img/wp-content-uploads-2024-02-image-1024x206.png)
 
-![](./img/wp-content-uploads-2024-02-image-1-1024x225.png)
+[![](./img/wp-content-uploads-2024-02-image-1-1024x225.png)](./img/wp-content-uploads-2024-02-image-1-1024x225.png)
 
 **RFEM (Dlubal) model import with several sections:**
 ```
 CONVERT_AND_LOAD_SECTIONS section_names DLUBAL
 ```
 
-![](./img/wp-content-uploads-2024-02-image-2-1024x311.png)
+[![](./img/wp-content-uploads-2024-02-image-2-1024x311.png)](./img/wp-content-uploads-2024-02-image-2-1024x311.png)
 
-![](./img/wp-content-uploads-2024-02-image-3-1024x485.png)
+[![](./img/wp-content-uploads-2024-02-image-3-1024x485.png)](./img/wp-content-uploads-2024-02-image-3-1024x485.png)
 
-![](./img/wp-content-uploads-2024-02-image-4-1024x335.png)
+[![](./img/wp-content-uploads-2024-02-image-4-1024x335.png)](./img/wp-content-uploads-2024-02-image-4-1024x335.png)

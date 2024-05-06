@@ -66,7 +66,7 @@ FILE_PATH file_path "File path"
 
 The above code will result in this input dialogue:
 
-![](./img/wp-content-uploads-2024-02-image-7.png)
+[![](./img/wp-content-uploads-2024-02-image-7.png)](./img/wp-content-uploads-2024-02-image-7.png)
 
 ---
 ## Detailed description of input types
@@ -337,13 +337,9 @@ The steps of the selection are the following:
 ```
 GET_USER_INPUT
 POINT PointArray "Point select"
-
-ARRAY_GET PointArray 0 PointX
-ARRAY_GET PointArray 1 PointY
-ARRAY_GET PointArray 2 PointZ
 ```
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/08/image-66.png)](./img/wp-content-uploads-2021-08-image-66.png)
+[![](./img/Get_User_Input_Point_Fig02_v01.png)](./img/Get_User_Input_Point_Fig02_v01.png)
 
 ## Object input
 
@@ -448,7 +444,7 @@ The steps of the selection are the following:
 - End the selection with a right click  
   The window after this step should look like this:
 
-[![This image has an empty alt attribute; its file name is image-26.png](https://consteelsoftware.com/wp-content/uploads/2021/08/image-26.png)](./img/wp-content-uploads-2021-08-image-26.png)
+&nbsp; &nbsp; &nbsp; [![This image has an empty alt attribute; its file name is image-26.png](https://consteelsoftware.com/wp-content/uploads/2021/08/image-26.png)](./img/wp-content-uploads-2021-08-image-26.png)
 - Click on OK
 
 **Command + object ID check:**
@@ -456,12 +452,9 @@ The steps of the selection are the following:
 ```
 GET_USER_INPUT
 OBJECT ObjectArray "Object select"
-
-ARRAY_GET ObjectArray 0 Obj_ID0
-ARRAY_GET ObjectArray 1 Obj_ID1
 ```
 
-[![](./img/wp-content-uploads-2021-08-image-72-1024x274.png)](https://consteelsoftware.com/wp-content/uploads/2021/08/image-72.png)
+[![](./img/Get_User_Input_Object_Fig03_v01.png)](./img/Get_User_Input_Object_Fig03_v01.png)
 
 **Command with optional object type parameter + object ID check:**
 
@@ -509,7 +502,7 @@ FILE_PATH file_path "File path"
 
 The above code will result in this input dialogue:
 
-![](./img/wp-content-uploads-2024-02-image-8.png)
+[![](./img/wp-content-uploads-2024-02-image-8.png)](./img/wp-content-uploads-2024-02-image-8.png)
 
 ## Additional content on dialogue window
 
@@ -562,4 +555,4 @@ FILE_PATH file_path "File path"
 
 The above code will result in this input dialogue:
 
-![](./img/wp-content-uploads-2024-02-image-9.png)
+[![](./img/wp-content-uploads-2024-02-image-9.png)](./img/wp-content-uploads-2024-02-image-9.png)

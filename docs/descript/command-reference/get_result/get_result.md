@@ -210,7 +210,7 @@ Combination "NAME: Load combination-1"
 ResultType InternalForces N Min
 ```
 
-[![](./img/wp-content-uploads-2021-09-image-38-1024x477.png)](https://consteelsoftware.com/wp-content/uploads/2021/09/image-38.png)
+[![](./img/Get_Result_An_Ex01_Fig_v01.png)](./img/Get_Result_An_Ex01_Fig_v01.png)
 
 **Example 2:** (αcr - elastic critical factor, with getting load combination ID)
 
@@ -226,7 +226,7 @@ Combination $LCID1
 ResultType Shape 1
 ```
 
-[![](./img/wp-content-uploads-2021-09-image-39-1024x590.png)](https://consteelsoftware.com/wp-content/uploads/2021/09/image-39.png)
+[![](./img/Get_Result_An_Ex02_Fig_v01.png)](./img/Get_Result_An_Ex02_Fig_v01.png)
 
 **Example 3:** (Maximum negative bending moment + deflection)
 
@@ -240,7 +240,7 @@ ResultType InternalForces My Min
 TogetherWith Deformation Z Def_Z
 ```
 
-[![](./img/wp-content-uploads-2021-10-image-2-1024x509.png)](https://consteelsoftware.com/wp-content/uploads/2021/10/image-2.png)
+[![](./img/Get_Result_An_Ex03_Fig_v01.png)](./img/Get_Result_An_Ex03_Fig_v01.png)
 
 **Example 4:** (Shell stress + filter)
 
@@ -256,7 +256,7 @@ TogetherWith ForcesOnShell Nx ShellForce_nx
 TogetherWith Deformation Z Def_Z
 ```
 
-[![](./img/wp-content-uploads-2021-10-image-3-1024x555.png)](https://consteelsoftware.com/wp-content/uploads/2021/10/image-3.png)
+[![](./img/Get_Result_An_Ex04_Fig_v01.png)](./img/Get_Result_An_Ex04_Fig_v01.png)
 
 **Example 5:** (Shell stress at specific location given by coordinates)
 
@@ -270,7 +270,7 @@ Combination "NAME: Load combination-1"
 ResultType StressesOnShell X Bottom Max
 ```
 
-[![](./img/wp-content-uploads-2022-01-image-5-1024x487.png)](https://consteelsoftware.com/wp-content/uploads/2022/01/image-5.png)
+[![](./img/Get_Result_An_Ex05_Fig_v01.png)](./img/Get_Result_An_Ex05_Fig_v01.png)
 
 ## Design
 
@@ -414,7 +414,7 @@ GET_RESULT Design Result_Variable
 ResultType Steel Pure Max
 ```
 
-[![](./img/wp-content-uploads-2021-09-image-36-1024x575.png)](https://consteelsoftware.com/wp-content/uploads/2021/09/image-36.png)
+[![](./img/Get_Result_Des_Ex01_Fig_v01.png)](./img/Get_Result_Des_Ex01_Fig_v01.png)
 
 **Example 2:** (Steel dominant utilization)
 
@@ -423,7 +423,7 @@ GET_RESULT Design Result_Variable Object_ID ResLocX ResLocY ResLocZ
 ResultType Dominant All Max
 ```
 
-[![](./img/wp-content-uploads-2021-09-image-31-1024x564.png)](https://consteelsoftware.com/wp-content/uploads/2021/09/image-31.png)
+[![](./img/Get_Result_Des_Ex02_Fig_v01.png)](./img/Get_Result_Des_Ex02_Fig_v01.png)
 
 **Example 3:** (αult)
 
@@ -433,4 +433,4 @@ ResultType AlphaUlt Steel Max
 Combination "NAME: Load combination-1"
 ```
 
-[![](./img/wp-content-uploads-2021-09-image-32-1024x564.png)](https://consteelsoftware.com/wp-content/uploads/2021/09/image-32.png)
+[![](./img/Get_Result_Des_Ex03_Fig_v01.png)](./img/Get_Result_Des_Ex03_Fig_v01.png)

@@ -50,7 +50,7 @@ GET_SUPPORT_NAME Fix Fix Fix Fix Fix Fix Fix Support_1
 
 This example will find the already existing "Fixed" support type, retrieve its name, and save that in the variable.
 
-[![](./img/wp-content-uploads-2021-08-image-57-1024x327.png)](https://consteelsoftware.com/wp-content/uploads/2021/08/image-57.png)
+[![](./img/Get_Support_Name_Fig01_v01.png)](./img/Get_Support_Name_Fig01_v01.png)
 
 **Example 2:** (support type does not exist yet)
 
@@ -60,4 +60,4 @@ GET_SUPPORT_NAME Fix Fix Fix Free Free Free Fix Support_xyzw
 
 In this example the specified support type does not exist yet, therefore a new support type will be created in Consteel, and its name saved in the variable.
 
-[![](./img/wp-content-uploads-2021-08-image-56-1024x576.png)](https://consteelsoftware.com/wp-content/uploads/2021/08/image-56.png)
+[![](./img/Get_Support_Name_Fig02_v01.png)](./img/Get_Support_Name_Fig02_v01.png)

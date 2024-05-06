@@ -45,9 +45,11 @@ MAP_KEYEXISTS Map1 Key1 Key1_Exists
 **Command + key creation + checking:**
 
 ```
+MAP_CREATE Map1
+
 MAP_SET Map1 Key1 123
 
 MAP_KEYEXISTS Map1 Key1 Key1_Exists
 MAP_KEYEXISTS Map1 Key2 Key2_Exists
 ```
-![](./img/wp-content-uploads-2021-08-image-77-1024x156.png)
+[![](./img/Map_Keyexists_v01.png)](./img/Map_Keyexists_v01.png)

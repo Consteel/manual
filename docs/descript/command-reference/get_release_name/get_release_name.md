@@ -50,7 +50,7 @@ GET_RELEASE_NAME Fix Fix Fix Fix Fix Fix Fix Release_1
 
 This example will find the already existing "Continuous" release type, retrieve its name, and save that in the variable.
 
-[![](./img/wp-content-uploads-2021-08-image-50-1024x464.png)](https://consteelsoftware.com/wp-content/uploads/2021/08/image-50.png)
+[![](./img/Get_Release_Name_Fig_01_v01.png)](./img/Get_Release_Name_Fig_01_v01.png)
 
 **Example 2:** (release type does not exist yet)
 
@@ -60,4 +60,4 @@ GET_RELEASE_NAME Free Fix Fix Free Free Free Free Release_x_Rot_w
 
 In this example the specified release type does not exist yet, therefore a new release type will be created in Consteel, and its name saved in the variable.
 
-[![](./img/wp-content-uploads-2021-08-image-53-1024x301.png)](https://consteelsoftware.com/wp-content/uploads/2021/08/image-53.png)
+[![](./img/Get_Release_Name_Fig_02_v01.png)](./img/Get_Release_Name_Fig_02_v01.png)

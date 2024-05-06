@@ -42,12 +42,14 @@ Name of the variable that will contain the output. The output is the value paire
 MAP_GET Map1 Key1 Key1_Value
 ```
 
-**Command + key creation:**
+**Command + map and key creation:**
 
 ```
+MAP_CREATE Map1
+
 MAP_SET Map1 Key1 123
 
 MAP_GET Map1 Key1 Key1_Value
 ```
 
-![](./img/wp-content-uploads-2021-08-image-78-1024x126.png)
+[![](./img/Map_Get_v01.png)](./img/Map_Get_v01.png)

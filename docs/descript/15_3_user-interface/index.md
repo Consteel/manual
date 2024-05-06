@@ -4,7 +4,7 @@
 
 After starting Consteel, the Descript panel appears on the bottom left part of the window in its minimized state.
 
-![](./img/wp-content-uploads-2022-12-Mydescript_mini-1.jpg)
+[![](./img/wp-content-uploads-2022-12-Mydescript_mini-1.jpg)](./img/wp-content-uploads-2022-12-Mydescript_mini-1.jpg)
 
 Descript since Consteel 16 
 
@@ -64,13 +64,13 @@ In Consteel 16, you can select your favorite Descript scripts and pin them to th
 
 Open the MyDescript screen and click on the Pin icon next to the chosen script and the script will be available to start instantly for the Descript bar at the left bottom. Click on the Pin icon again to unpin the script.
 
-![](./img/wp-content-uploads-2022-12-descript_pin.jpg)
+[![](./img/wp-content-uploads-2022-12-descript_pin.jpg)](./img/wp-content-uploads-2022-12-descript_pin.jpg)
 
 _Click on the Pin icon to pin a script to the quick launch bar_
 
 Pinned scripts will have a two letter mosaic word from their names and a cloud or computer icon which indicates if they are cloud or local scripts. Hovering with the mouse cursor over the pinned scripts will show their full name. You can also unpin scripts while hovering as an “unpin” icon will appear next to the script’s name.
 
-![](./img/wp-content-uploads-2022-12-descript_hover.jpg)
+[![](./img/wp-content-uploads-2022-12-descript_hover.jpg)](./img/wp-content-uploads-2022-12-descript_hover.jpg)
 
 _Hover with your mouse cursor over the pinned script to reveal it’s full name_
 

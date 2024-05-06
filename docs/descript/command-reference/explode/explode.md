@@ -36,21 +36,8 @@ The array that will store the resulting parts.
 
 ### Sample code
 
-**Command only:**
-
 ```
 EXPLODE 123;456;789 ; Output_Array
 ```
 
-**Command + checking parts:**
-
-```
-EXPLODE 123;456;789 ; Output_Array
-
-ARRAY_GET Output_Array 0 String_Part0
-ARRAY_GET Output_Array 1 String_Part1
-ARRAY_GET Output_Array 2 String_Part2
-```
-
-![](./img/wp-content-uploads-2021-08-image-74.png)
-
+[![](./img/Explode_v01.png)](./img/Explode_v01.png)

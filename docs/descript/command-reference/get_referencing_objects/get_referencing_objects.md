@@ -123,4 +123,4 @@ GET_REFERENCING_OBJECTS $Plate_ID1 Object_ID_Result_array
 RETURN
 ```
 
-![](./img/wp-content-uploads-2023-08-image-4-1024x648.png)
+[![](./img/wp-content-uploads-2023-08-image-4-1024x648.png)](./img/wp-content-uploads-2023-08-image-4-1024x648.png)

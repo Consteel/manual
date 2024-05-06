@@ -38,9 +38,11 @@ Name of the variable that will store the result of the counting.
 ARRAY_COUNT Data Data_Count
 ```
 
-**With added prerequisites:** (array fill)
+**With added prerequisites:** (array creation and fill)
 
 ```
+ARRAY_CREATE Data
+
 ARRAY_ADD Data Value1
 ARRAY_ADD Data Value2
 ARRAY_ADD Data Value3
@@ -48,4 +50,4 @@ ARRAY_ADD Data Value3
 ARRAY_COUNT Data Data_Count
 ```
 
-![](./img/wp-content-uploads-2021-08-image-35.png)
+[![](./img/Array_Count_v01.png)](./img/Array_Count_v01.png)

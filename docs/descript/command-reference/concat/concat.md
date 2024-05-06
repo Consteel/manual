@@ -42,7 +42,7 @@ Name of the result variable.
 CONCAT Part1_ Part2 Result_Variable
 ```
 
-[![](./img/wp-content-uploads-2021-08-image-47-1024x111.png)](https://consteelsoftware.com/wp-content/uploads/2021/08/image-47.png)
+[![](./img/Concat_Fig_01_v01.png)](./img/Concat_Fig_01_v01.png)
 
 **Example:**
 
@@ -60,7 +60,7 @@ end
 
 This example utilizes the CONCAT command to create unique IDs and names for 5 similar macro sections that are loaded in with a for cycle.
 
-[![](./img/wp-content-uploads-2021-08-image-44-1024x201.png)](https://consteelsoftware.com/wp-content/uploads/2021/08/image-44.png)
+[![](./img/Concat_Fig_02_v01.png)](./img/Concat_Fig_02_v01.png)
 
 The result of this example in the section list looks like this:
 

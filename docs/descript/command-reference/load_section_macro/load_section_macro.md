@@ -367,7 +367,7 @@ HR-IH
 
 #### Parameters:
 
-![](./img/wp-content-uploads-2021-08-image-17.png)
+[![](./img/wp-content-uploads-2021-08-image-17.png)](./img/wp-content-uploads-2021-08-image-17.png)
 
 | Notation | Definition             |
 | -------- | ---------------------- |
@@ -394,7 +394,7 @@ HR-L
 
 #### Parameters:
 
-![](./img/wp-content-uploads-2021-08-image-18.png)
+[![](./img/wp-content-uploads-2021-08-image-18.png)](./img/wp-content-uploads-2021-08-image-18.png)
 
 | Notation | Definition                   |
 | -------- | ---------------------------- |
@@ -422,7 +422,7 @@ HR-U
 
 #### Parameters:
 
-![](./img/wp-content-uploads-2021-08-image-19.png)
+[![](./img/wp-content-uploads-2021-08-image-19.png)](./img/wp-content-uploads-2021-08-image-19.png)
 
 | Notation | Definition                   |
 | -------- | ---------------------------- |
@@ -449,7 +449,7 @@ HR-CHS
 
 #### Parameters:
 
-![](./img/wp-content-uploads-2021-08-image-20.png)
+[![](./img/wp-content-uploads-2021-08-image-20.png)](./img/wp-content-uploads-2021-08-image-20.png)
 
 | Notation | Definition      |
 | -------- | --------------- |
@@ -473,7 +473,7 @@ HR-T
 
 #### Parameters:
 
-![](./img/wp-content-uploads-2021-08-image-21.png)
+[![](./img/wp-content-uploads-2021-08-image-21.png)](./img/wp-content-uploads-2021-08-image-21.png)
 
 | Notation | Definition             |
 | -------- | ---------------------- |
@@ -524,7 +524,7 @@ HR-RHS
 
 #### Parameters:
 
-![](./img/wp-content-uploads-2021-08-image-22.png)
+[![](./img/wp-content-uploads-2021-08-image-22.png)](./img/wp-content-uploads-2021-08-image-22.png)
 
 | Notation | Definition             |
 | -------- | ---------------------- |
@@ -575,7 +575,7 @@ CF-RHS
 
 #### Parameters:
 
-![](./img/wp-content-uploads-2021-08-image-24.png)
+[![](./img/wp-content-uploads-2021-08-image-24.png)](./img/wp-content-uploads-2021-08-image-24.png)
 
 | Notation | Definition             |
 | -------- | ---------------------- |
@@ -601,7 +601,7 @@ CF-CHS
 
 #### Parameters:
 
-![ColdHotCircularHollow.PNG](./img/images-e-ea-ColdHotCircularHollow.png)
+[![](./img/images-e-ea-ColdHotCircularHollow.png)](./img/images-e-ea-ColdHotCircularHollow.png)
 
 | Notation | Definition      |
 | -------- | --------------- |

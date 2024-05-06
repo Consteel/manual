@@ -45,12 +45,6 @@ LOAD_SECTION_LIBRARY Sec_ID5 "IPE 500"
 GET_LOADED_SECTIONS Loaded_Sections
 
 ARRAY_COUNT Loaded_Sections Loaded_Sections_Count
-
-ARRAY_GET Loaded_Sections 0 Loaded_Sections_0
-ARRAY_GET Loaded_Sections 1 Loaded_Sections_1
-ARRAY_GET Loaded_Sections 2 Loaded_Sections_2
-ARRAY_GET Loaded_Sections 3 Loaded_Sections_3
-ARRAY_GET Loaded_Sections 4 Loaded_Sections_4
 ```
 
-[![](./img/wp-content-uploads-2021-09-image-53-1024x323.png)](https://consteelsoftware.com/wp-content/uploads/2021/09/image-53.png)
+[![](./img/Get_Loaded_Sections_v01.png)](./img/Get_Loaded_Sections_v01.png)

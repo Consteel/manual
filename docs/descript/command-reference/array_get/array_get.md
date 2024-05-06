@@ -52,4 +52,5 @@ ARRAY_GET Data 0 Data_0
 
 In this example first the array "Data" was created and the value of its first item (index=0) was set to 1234. After that the value of the item that has the index 0 in the array named "Data" was saved in a new variable named "Data_0" with the ARRAY_GET command. While running this code in debug mode we can check the value of the "Data_0" variable after the execution of the ARRAY_GET command, which is the value 1234, that we set previously.
 
-![](./img/wp-content-uploads-2021-08-image-34.png)
+[![](./img/Array_Get_v01.png)](./img/Array_Get_v01.png)
+

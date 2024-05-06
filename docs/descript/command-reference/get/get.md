@@ -87,7 +87,7 @@ ARRAY_GET Mem_list 0 Act_Mem_ID
 GET $Act_Mem_ID length Mem_Length
 ```
 
-[![](./img/wp-content-uploads-2021-09-image-62-1024x406.png)](https://consteelsoftware.com/wp-content/uploads/2021/09/image-62.png)
+[![](./img/Get_v01.png)](./img/Get_v01.png)
 
 ---
 ## Detailed description of object types

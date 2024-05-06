@@ -412,7 +412,7 @@ Requests manual selection from the user during the script run.
 
 With this command the user can manually select objects during the script run. A window will pop up which requests the user to select objects from the model.
 
-![This image has an empty alt attribute; its file name is image-25.png](./img/wp-content-uploads-2021-08-image-25.png)
+[![](./img/wp-content-uploads-2021-08-image-25.png)](./img/wp-content-uploads-2021-08-image-25.png)
 
 The steps of the selection are the following:
 - Click on the select button on the dialogue window
@@ -420,7 +420,7 @@ The steps of the selection are the following:
 - End the selection with a right click  
   The window after this step should look like this:
 
-&nbsp; &nbsp; &nbsp; ![This image has an empty alt attribute; its file name is image-26.png](./img/wp-content-uploads-2021-08-image-26.png)
+&nbsp; &nbsp; &nbsp; [![](./img/wp-content-uploads-2021-08-image-26.png)](./img/wp-content-uploads-2021-08-image-26.png)
 
 - Click on OK
 

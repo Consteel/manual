@@ -316,7 +316,7 @@ Group Group_ID1
 
 This command is analogous with the haunch creation dialogue in Consteel:
 
-![](./img/wp-content-uploads-2021-11-image-1.png)
+[![](./img/wp-content-uploads-2021-11-image-1.png)](./img/wp-content-uploads-2021-11-image-1.png)
 
 Hot rolled or welded haunch
 
@@ -584,7 +584,7 @@ CREATE CSteel_Mat_ID1 Coated_Steel "Custom coated steel name" 7850 210000 0.3 0.
 
 This command is analogous with the concrete material creation dialogue in Consteel:
 
-![](./img/wp-content-uploads-2023-08-image-7.png)
+[![](./img/wp-content-uploads-2023-08-image-7.png)](./img/wp-content-uploads-2023-08-image-7.png)
 
 ### Syntax
 
@@ -636,7 +636,7 @@ CREATE Concrete_Mat_ID1 Concrete "Custom concrete name" 2500 31476 25 1.8 2.6 2.
 
 This command is analogous with the reinforcement material creation dialogue in Consteel:
 
-![](./img/wp-content-uploads-2023-08-image-8.png)
+[![](./img/wp-content-uploads-2023-08-image-8.png)](./img/wp-content-uploads-2023-08-image-8.png)
 
 ### Syntax
 
@@ -849,7 +849,7 @@ EccType EccType_TM
 
 This command is analogous with the surface support creation dialogue in Consteel:
 
-![](./img/wp-content-uploads-2023-08-image-9.png)
+[![](./img/wp-content-uploads-2023-08-image-9.png)](./img/wp-content-uploads-2023-08-image-9.png)
 
 ### Syntax
 
@@ -911,7 +911,7 @@ CoordSys Local
 
 This command is analogous with the point support type creation dialogue in Consteel:
 
-![](./img/wp-content-uploads-2023-08-image-10.png)
+[![](./img/wp-content-uploads-2023-08-image-10.png)](./img/wp-content-uploads-2023-08-image-10.png)
 
 ### Syntax
 
@@ -961,7 +961,7 @@ CREATE PSup_Type_ID1 Support "Custom support type name" Fix Free 1.234 Fix Fix F
 
 This command is analogous with the release type creation dialogue in Consteel:
 
-![](./img/wp-content-uploads-2023-08-image-11.png)
+[![](./img/wp-content-uploads-2023-08-image-11.png)](./img/wp-content-uploads-2023-08-image-11.png)
 
 ### Syntax
 
@@ -1670,7 +1670,7 @@ CREATE SLoad_ID1 PlateForce_Uniform LCase_ID1 Plate_ID1 local
 
 This command is analogous with the surface load creation dialogue with the linear tab chosen in Consteel:
 
-![](./img/wp-content-uploads-2021-09-image-56.png)
+[![](./img/wp-content-uploads-2021-09-image-56.png)](./img/wp-content-uploads-2021-09-image-56.png)
 
 ### Syntax
 
@@ -2075,7 +2075,7 @@ CREATE PMass_ID1 NodeMass MC_ID1 Mem_ID1
 
 This command is analogous with the portion creation button in Consteel:
 
-![](./img/wp-content-uploads-2021-10-image-1.png)
+[![](./img/wp-content-uploads-2021-10-image-1.png)](./img/wp-content-uploads-2021-10-image-1.png)
 
 ### Syntax
 

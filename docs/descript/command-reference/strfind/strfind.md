@@ -39,4 +39,4 @@ The variable that will store the output.
 STRFIND asd123 12 Output_Variable
 ```
 
-![](./img/wp-content-uploads-2021-08-image-73.png)
+[![](./img/Strfind_v01.png)](./img/Strfind_v01.png)

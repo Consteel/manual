@@ -15,7 +15,7 @@ For this purpose, the if statement is implemented in Descript.
 
 ### Syntax explanation
 
-Any code that is put between the _if_ and the _endif_ keywords constitutes the body of the is statement and will be executed only if the condition evaluates to true.
+Any code that is put between the _if_ and the _endif_ keywords constitutes the body of the if statement and will be executed only if the condition evaluates to true.
 
 This is the syntax for the so-called one-way if statement, where if the condition evaluates to true, the code in if statement will be executed, otherwise nothing happens.
 
@@ -35,7 +35,7 @@ We can also expand the if statement with an "else" branch. If we do this, we wil
 
 In Descript, the condition of the if statement is always a comparison of two values with an operator between them.
 
-In the condition expression after the if command, between the two compared values the following operators can be used:
+In the condition expression, between the two compared values the following operators can be used:
 
 | Operator    | Meaning               |
 | ----------- | --------------------- |
