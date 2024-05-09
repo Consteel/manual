@@ -9,21 +9,21 @@
       "type": "node-terminal",
       "request": "launch",
       "name": "Lokális környezet - HU",
-      "command": "npm install & npm run start -- --locale=hu",
+      "command": "npm run start -- --locale=hu",
       "skipFiles": ["<node_internals>/**"]
     },
     {
       "type": "node-terminal",
       "request": "launch",
       "name": "Lokális környezet - EN",
-      "command": "npm install & npm install & npm run start",
+      "command": "npm install & npm run start",
       "skipFiles": ["<node_internals>/**"]
     },
     {
       "type": "node-terminal",
       "request": "launch",
       "name": "Teszt környezet",
-      "command": "npm run build && npm run serve",
+      "command": "npm run serve",
       "skipFiles": ["<node_internals>/**"]
     }
   ]
