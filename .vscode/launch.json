@@ -9,14 +9,14 @@
       "type": "node-terminal",
       "request": "launch",
       "name": "Lokális környezet - HU",
-      "command": "npm run start -- --locale=hu",
+      "command": "npm install & npm run start -- --locale=hu",
       "skipFiles": ["<node_internals>/**"]
     },
     {
       "type": "node-terminal",
       "request": "launch",
       "name": "Lokális környezet - EN",
-      "command": "npm run start",
+      "command": "npm install & npm install & npm run start",
       "skipFiles": ["<node_internals>/**"]
     },
     {
