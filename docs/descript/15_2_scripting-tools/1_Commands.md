@@ -130,7 +130,9 @@ CREATE Mem_ID1 Structural_Member "HEA 200"
 0 0 1000
 ```
 
-> :warning: If Descript sees one of these commands, then it tries to interpret any following non-empty line as an additional line to that command. Therefore **after we have finished writing any additional lines after one of these commands it is necessary to put an empty line**, to tell Descript that we have finished adding additional lines to the current command, and the following line of code after the empty line should not be considered as part of the command.
+:::warning 
+If Descript sees one of these commands, then it tries to interpret any following non-empty line as an additional line to that command. Therefore **after we have finished writing any additional lines after one of these commands it is necessary to put an empty line**, to tell Descript that we have finished adding additional lines to the current command, and the following line of code after the empty line should not be considered as part of the command.
+:::
 
 For example, this code will give us an error: ❌
 ```
