@@ -59,48 +59,15 @@ The _Consteel_ menu does not contain many commands since the main functionality 
 
 #### File menu
 
-<!-- /wp:heading -->
-Consteel 17
 
 ![alt text](<img/File menu CS 17.png>)
 
-<!-- wp:paragraph -->
-
-The File menu differs between Consteel 14 and Consteel 15.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:columns -->
-
-<!-- wp:column {"verticalAlignment":"center"} -->
-
-<!-- wp:image {"align":"center","id":28230,"sizeSlug":"full","linkDestination":"none","className":"is-resized"} -->
-
-![](./img/wp-content-uploads-2021-11-file_menu_cs14.png)
-
-Consteel 14
-
-<!-- /wp:image -->
-
-<!-- /wp:column -->
-
-<!-- wp:column -->
-
-<!-- wp:image {"align":"center","id":27754,"sizeSlug":"full","linkDestination":"media","className":"is-resized"} -->
-
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/2-2-File-menu-1.png)](./img/wp-content-uploads-2021-04-2-2-File-menu-1.png)
-
-Consteel 15
-
-<!-- /wp:image -->
-
-<!-- /wp:column -->
 
 <!-- /wp:columns -->
 
 <!-- wp:paragraph -->
 
-_Project Center_ (CS15)
+_Project Center_ 
 
 <!-- /wp:paragraph -->
 
@@ -154,7 +121,7 @@ Opens the Project Center with the Recent models saved at your computer in focus.
 
 <!-- wp:paragraph -->
 
-_Open (CS14) and Open from Computer (CS15)_
+_Open and Open from Computer_
 
 <!-- /wp:paragraph -->
 
@@ -166,7 +133,7 @@ Standard file open dialogue window will open.
 
 <!-- wp:paragraph -->
 
-_Open from Cloud_ (Beta) (CS15)
+_Open from Cloud_ 
 
 <!-- /wp:paragraph -->
 
@@ -196,7 +163,7 @@ _Save_ as
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-Saves the model in another storage space. In Consteel 15, a pop-up window will open where you can select between Local and Cloud storage.
+Saves the model in another storage space. A pop-up window will open where you can select between Local and Cloud storage.
 
 <!-- /wp:paragraph -->
 
@@ -220,7 +187,7 @@ Choosing the Cloud (Beta), the cloud model directory powered by Steelspace will 
 
 <!-- wp:paragraph -->
 
-_Share (Beta)(CS15)_
+_Share_
 
 <!-- /wp:paragraph -->
 
@@ -302,9 +269,6 @@ Standard Windows features that do not require special explanation.
 
 <!-- /wp:heading -->
 
-<!-- wp:paragraph -->
-
-**Consteel 17**
 
 <!-- /wp:paragraph -->
 
@@ -320,19 +284,7 @@ In addition to the several window options, the **Model content** can be switched
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
 
-**Consteel 16**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":71126,"width":"220px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2024-01-1.2.2.3.-CS16-View-menu-1.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
 
 The visibility status of several optional windows can be switched _on_ and _off_. See more: _**[Side panel](#side-panel)**_.  
 With the **Sizes of objects…** function, the size of the model objects can be changed individually.
@@ -349,11 +301,7 @@ With the **Sizes of objects…** function, the size of the model objects can be 
 
 #### Options menu
 
-<!-- /wp:heading -->
 
-<!-- wp:paragraph -->
-
-**Consteel 17**
 
 <!-- /wp:paragraph -->
 
@@ -365,7 +313,7 @@ With the **Sizes of objects…** function, the size of the model objects can be 
 
 <!-- wp:paragraph -->
 
-**Keep selections of portions** (only from version 17)
+**Keep selections of portions** 
 
 <!-- /wp:paragraph -->
 
@@ -378,12 +326,6 @@ With the **Sizes of objects…** function, the size of the model objects can be 
 <!-- wp:paragraph -->
 
 By utilizing the **Keep selection of portions** feature, one can maintain the same portion selection even when closing and reopening the model, assuming it was saved previously. In contrast, reopening the model will display the full view.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-**Consteel 16**
 
 <!-- /wp:paragraph -->
 
@@ -405,17 +347,6 @@ _**Save**_
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
-
-**Consteel 15**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":47521,"width":"510px","height":"auto","sizeSlug":"full","linkDestination":"media","className":"is-resized"} -->
-
-[![](https://Consteelsoftware.com/wp-content/uploads/2023/04/options_menuCS15.png)](./img/wp-content-uploads-2023-04-options_menuCS15.png)
-
-<!-- /wp:image -->
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
@@ -425,7 +356,7 @@ If **Autosave** is clicked, the program automatically performs a save periodical
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-**Convert previous models to the actual version of Consteel** (only form version 14)
+**Convert previous models to the actual version of Consteel** 
 
 <!-- /wp:paragraph -->
 
@@ -497,7 +428,7 @@ _Consteel_ has to be restarted after changing the interface language.
 
 <!-- wp:paragraph -->
 
-**_Background color_** _(from **Consteel 16**)_
+**_Background color_**
 
 <!-- /wp:paragraph -->
 
@@ -652,11 +583,7 @@ The user defined standards are saved to the following file: C:\\Users\\%USERNAME
 
 #### Help menu
 
-<!-- /wp:heading -->
 
-<!-- wp:paragraph -->
-
-**Consteel 17**
 
 <!-- /wp:paragraph -->
 
@@ -668,7 +595,7 @@ The user defined standards are saved to the following file: C:\\Users\\%USERNAME
 
 <!-- wp:paragraph -->
 
-The menu is divided into two categories, distinguished by the longitudinal bar as shown in the picture. Information regarding the first part can be found below at **Consteel16.**
+The menu is divided into two categories, distinguished by the longitudinal bar as shown in the picture. Information regarding the first part can be found below.
 
 <!-- /wp:paragraph -->
 
@@ -717,31 +644,13 @@ In the **Consteel support-center**, additional options will become available:
 
 ![](./img/wp-content-uploads-2021-04-1.2.-steelspace-Support.png)
 
-<!-- /wp:image -->
 
-<!-- wp:paragraph -->
-
-**Consteel 16**
-
-<!-- wp:image {"align":"center","id":35575,"sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2022-05-image-2.png)
-
-Help menu
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-(Only from version 15) The menu has been divided into two sections, the first includes links to the [Online Manual](../../manual/intro.md), to the [Descript Manual](../../descript/15_1_introduction/15_1_1_what-is-descript.md), and to a filtered selection of our [Knowledge Base](https://Consteelsoftware.com/knowledgebase/?search=&filters=366,367,399,392,375,372) with tutorials and guides. No need to login to our website as it will be done automatically through Consteel if you use it with online protection.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-The second section is for support-related requests. The “[Get Support](https://Consteel.atlassian.net/servicedesk/customer/portal/1/group/1/create/1)” command opens our Support system notification window to ask for help issues regarding Consteel. If you have trouble with licensing then you will need to click on the “[Report licensing issue](https://Consteel.atlassian.net/servicedesk/customer/portal/1/group/22)” command. We would like to hear your ideas regarding Consteel as well, so if you have any feedback, click on the “[Send feedback](https://Consteel.atlassian.net/servicedesk/customer/portal/1/group/23/create/60)” command and share your thoughts with us! Your email address will fill in automatically.
-
-<!-- /wp:paragraph -->
 
 <!-- wp:spacer -->
 
@@ -887,11 +796,7 @@ See the **_[Structural analysis](../../category/structural-analysis)_** chapter 
 
 **Global checks tab**
 
-<!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
-
-**Consteel 17**
 
 <!-- /wp:paragraph -->
 
@@ -915,7 +820,7 @@ See the **_[Structural analysis](../../category/structural-analysis)_** chapter 
 
 <!-- wp:paragraph -->
 
-Starting from _Consteel 17_ The **Serviceability limit state check**, along with the **Ultimate limit state check** is included in the **Global checks** tab.
+The **Serviceability limit state check**, along with the **Ultimate limit state check** is included in the **Global checks** tab.
 
 <!-- /wp:paragraph -->
 
@@ -929,21 +834,6 @@ Both verifications can be done separately by pressing their respective rows (the
 
 For more detailed information, please visit the **_[Standard design](../../category/standard-design)_** chapter.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-**Consteel 16**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":7112,"sizeSlug":"large","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2021-04-2-2-3-Tabs-global.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
 
 The Global checks tab contains the options and results of possible cross-sections checks as well as the global buckling standard checks.  
 See the **_[Standard design](../../category/standard-design)_** chapter for a detailed description of these functions.
@@ -1010,11 +900,6 @@ It provides functions for adjusting the layer properties. More info: **_[Layers]
 
 #### Document tab
 
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-**Consteel 17**
 
 <!-- /wp:paragraph -->
 
@@ -1022,24 +907,9 @@ It provides functions for adjusting the layer properties. More info: **_[Layers]
 
 ![](./img/wp-content-uploads-2021-04-1.2.-The-tabs-document-CS17.png)
 
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-**Consteel 16**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":7130,"sizeSlug":"large","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2021-04-2-2-3-Tabs-docu.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
 
 The functions of the Document tab allow the flexible creation of a detailed statical documentation and contain a model information tool.  
-For detailed description see chapter: [_**Documentation**_](../13_0_documentation-2/13_1_the-document-tab.md)
+For detailed description see chapter: [**Documentation**](../13_0_documentation-2/13_1_the-document-tab.md)
 
 <!-- /wp:paragraph -->
 
@@ -1048,12 +918,6 @@ For detailed description see chapter: [_**Documentation**_](../13_0_documentatio
 #### Help tab
 
 <!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-**Consteel 17**
-
-<!-- /wp:paragraph -->
 
 <!-- wp:image {"id":71646,"width":"181px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
@@ -1065,17 +929,7 @@ For detailed description see chapter: [_**Documentation**_](../13_0_documentatio
 
 Clicking on the question mark icon provides access to the same Help page as described in the[ **Help menu.**](#help-menu)
 
-<!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
-
-**Consteel 16**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":37353,"sizeSlug":"full","linkDestination":"none","className":"is-resized"} -->
-
-![](./img/wp-content-uploads-2021-04-help_tab.png)
 
 <!-- /wp:image -->
 
@@ -1098,11 +952,7 @@ Clicking on the icon provides access to the same Load combination sets window as
 
 The side bar at the left of the main screen contains the mostly used functions for modeling.
 
-<!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
-
-**Consteel 17**
 
 <!-- /wp:paragraph -->
 
@@ -1240,17 +1090,7 @@ _Fit view (Ctrl+0)_
 
 <!-- wp:paragraph -->
 
-**Consteel 16**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:spacer -->
-
-<!-- /wp:spacer -->
-
-<!-- wp:heading {"level":3} -->
-
-### Descript panel (previously called 'csPI panel', before version 15)
+### Descript panel 
 
 <!-- /wp:heading -->
 
@@ -1262,7 +1102,7 @@ _Fit view (Ctrl+0)_
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-At the bottom left of the screen, the **Descript** control panel can be found. **Descript** is a programming interface of Consteel, with which parametric models can be built. Almost all of the structural objects which can be found in Consteel can be created through Descript, and all of the parameters of these objects are available to set from Descript. Please see **[Chapter 16 Descript-Consteel Programming Interface](../../descript/15_1_introduction/15_1_1_what-is-descript.md)** to know more!
+At the bottom left of the screen, the **Descript** control panel can be found. **Descript** is a programming interface of Consteel, with which parametric models can be built. Almost all of the structural objects which can be found in Consteel can be created through Descript, and all of the parameters of these objects are available to set from Descript. Please see **[Descript-Consteel Programming Interface](../../descript/15_1_introduction/15_1_1_what-is-descript.md)** to know more!
 
 <!-- /wp:paragraph -->
 
@@ -1622,15 +1462,6 @@ The last field of the Status bar is the STEP field. Here the given number in mm 
 
 The visibility of the additional windows can be switched ON / OFF in the [_**View menu**_](#view-menu). Some of this windows is turned ON by default, and all of them has a default position that can be changed with drag&drop operations. The windows can be floating or docked to any side of the Consteel main window.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-**Consteel 17**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":71086,"width":"189px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
 ![](./img/wp-content-uploads-2024-01-1.2.7.-CS17-View-panel.png)
 
@@ -1681,19 +1512,6 @@ See more in the [**_Selection_**](../3_0_model-view/3_2_selection.md) chapter an
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
-
-**Consteel 16**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":71126,"width":"194px","height":"auto","sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://www.Consteelsoftware.com/wp-content/uploads/2024/01/1.2.2.3.-CS16-View-menu-1.png)](./img/wp-content-uploads-2024-01-1.2.2.3.-CS16-View-menu-1.png)
-
-<!-- /wp:image -->
-
-<!-- wp:heading {"level":4} -->
 
 #### Object tree window
 
@@ -1749,13 +1567,7 @@ For detailed description see [**Model Views**](../3_0_model-view/3_1_model-views
 
 #### Diagnostic window
 
-<!-- /wp:heading -->
 
-<!-- wp:paragraph -->
-
-**Consteel 17**
-
-<!-- /wp:paragraph -->
 
 <!-- wp:image {"id":71427,"width":"536px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
@@ -1779,15 +1591,7 @@ This type of error occurs when the **automatic load distribution** is turned off
 
 For more information, please go to Options>[Load Distribution.](#loads-tab)
 
-<!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
-
-**Consteel 16**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
 
 In the case of geometrical or modeling mistakes (like overlapping two or more objects, missing supports, etc..), the _Diagnostic_ window switches ON automatically listing problematic objects in a tree structure.
 
@@ -1831,13 +1635,7 @@ The selected object can be erased by pressing the Delete button at the bottom of
 
 #### Object properties window
 
-<!-- /wp:heading -->
 
-<!-- wp:paragraph -->
-
-**Consteel 17**
-
-<!-- /wp:paragraph -->
 
 <!-- wp:image {"id":71386,"width":"260px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
@@ -1867,15 +1665,7 @@ To increase the size of the coloured point in the model, go to the **view panel*
 
 ![](./img/wp-content-uploads-2024-01-1.2.7.-CS17-View-panel-size-strat-and-end-point-1.png)
 
-<!-- /wp:image -->
 
-<!-- wp:paragraph -->
-
-**Consteel 16**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
 
 By selecting one object in the model space all the relevant properties will appear in this window (#1). The values of the parameters can be overviewed and in most cases, these parameters can be changed.
 
