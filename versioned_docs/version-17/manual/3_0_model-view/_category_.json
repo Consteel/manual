@@ -1,0 +1,8 @@
+{
+  "label": "Model view",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "A transzparens és sokoldalú modellnézetek nagyon fontosak a felhasználónak, mivel ezek a nézetek az első grafikus modell-áttekintés lehetőségét biztosítják. Ennek megfelelően a modellnézetek első és legfontosabb célja, hogy visszajelzést adjanak a felhasználónak az elhelyezett objektumokról, és vizuális bizonyítékot szolgáltassanak arról, hogy a megfelelő objektumok a megfelelő helyen vannak."
+  }
+}

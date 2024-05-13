@@ -35,7 +35,7 @@ const config: Config = {
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex],
           sidebarPath: "./sidebars.ts",
-          includeCurrentVersion: true,
+          includeCurrentVersion: false,
         },
         blog: {
           showReadingTime: true,
@@ -92,10 +92,10 @@ const config: Config = {
             },
           ],
         },
-        // {
-        //   type: 'docsVersionDropdown',
-        //   position: 'right'
-        // },
+        {
+          type: 'docsVersionDropdown',
+          position: 'right'
+        },
         {
           type: "localeDropdown",
           position: "right",

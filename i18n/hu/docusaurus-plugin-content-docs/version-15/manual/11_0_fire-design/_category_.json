@@ -1,0 +1,8 @@
+{
+  "label": "Tűzhatás tervezés",
+  "position": 12,
+  "link": {
+    "type": "generated-index",
+    "description": "A tervezés tűzhatásra teljesen integrált részét képezi a Consteel automatikus és hatékony tervezési eljárásának. A tűz tervezési szituációban a Consteel automatikusan alkalmazza az Eurocode megfelelő eljárásait és képleteit acél szerkezeti elemekre. Általános információk a tervezési funkciókról a Szabványos tervezés fejezetben található. Ez a fejezet a tűzhatásra való tervezés folyamatát mutatja be, kiemelve az általános tervezéstől való eltéréseket. A tervezett tűzvédelmi megoldástól függően a szerkezet lehet védetlen vagy védett, utóbbi esetben a tűzvédelem lehet passzív (burkolat) vagy reaktív (tűzvédő festés). A számítás elvégezhető emelt vagy szobahőmérsékleti anyagjellemzőkkel. Emelt hőmérsékleti analízis estén külön kérhető a hőtágulásból származó indirekt hatások figyelembevétele is.bA különböző acélszerkezeti komponensek (keresztmetszet, elem stb.) szabványos ellenőrzését az alábbi EuroCode szabvány alapján végzi a Consteel: EN 1993-1-2: Általános szabályok. Tervezés tűzteherre."
+  }
+}

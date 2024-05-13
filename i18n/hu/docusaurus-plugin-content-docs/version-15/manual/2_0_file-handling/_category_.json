@@ -1,0 +1,8 @@
+{
+  "label": "Fájlkezelés",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "A ConSteel fájlműveletei ugyanazt a megszokott és egyszerű MS Windows szabványt követik. A mentett fájlok tartalmazzák az összes információt a modellről, áthelyezhetők egy másik mappába, és megnyithatók. Alapértelmezés szerint a .csm fájlkiterjesztés a ConSteel-lel van társítva, és ezeket a fájlokat dupla kattintással lehet megnyitni."
+  }
+}

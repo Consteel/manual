@@ -1,0 +1,8 @@
+{
+  "label": "Földrengés analízis",
+  "position": 13,
+  "link": {
+    "type": "generated-index",
+    "description": "A ConSteel képes földrengésanalízist végezni a Modális válaszspektrum elemzés (MRSA) alapján. További részletekért tekintsd meg a következő fejezetet."
+  }
+}

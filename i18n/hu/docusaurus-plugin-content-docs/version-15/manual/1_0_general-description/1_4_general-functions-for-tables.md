@@ -1,0 +1,62 @@
+---
+sidebar_position: 4
+
+---
+# Táblázatok általános funkciói
+
+<!-- wp:paragraph -->
+
+A _Consteel_-ben kétféle táblázattípus található: az adatbeviteli és az eredmény táblázat. A táblázatok általában nagy mennyiségű adatokat tartalmaznak. Ezen adatok kezelésének kényelmesebbé tételét a következő funkciók segítik.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+Adatbeviteli táblázatok (a **[Teherkombinációk](../6_0_structural-loads/6_2_load-combinations.md)** és az _**[Analízis beállításai](../8_0_structural-analysis/8_3_analysis-settings.md)**_ ablakok használják) funkciói:
+
+<!-- /wp:paragraph -->
+
+<!-- wp:list {"className":"is-style-arrow","editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+
+- egész oszlop kiválasztása a fejléccellára való kattintással
+- jelölő négyzetes opció esetén is lehetséges egyidejűleg kiválasztott több cella kijelölése. Először a SHFT vagy a CTR billentyűk segítségével ki kell jelölni a kívánt cellákat, majd a kijelölt cellákra jobb egérgombbal kell kattintani
+
+<!-- /wp:list -->
+
+<!-- wp:image {"align":"center","id":31986,"width":488,"height":162,"sizeSlug":"full","linkDestination":"media"} -->
+
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/01/tablazat_tobbes_kivalasztas.png)](./img/wp-content-uploads-2022-01-tablazat_tobbes_kivalasztas.png)
+
+<!-- /wp:image -->
+
+<!-- wp:list {"className":"is-style-arrow","editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+
+- az előzőhöz hasonlóan azonos érték bevitele is történhet az egyidejűleg kiválasztott több cellába. A kiválasztott cellákra jobb egérgombbal kattintva az érték megadható a megjelenő ablakban
+
+<!-- /wp:list -->
+
+<!-- wp:image {"align":"center","id":31979,"width":490,"height":238,"sizeSlug":"full","linkDestination":"media"} -->
+
+[![](https://Consteelsoftware.com/wp-content/uploads/2022/01/tablazat_tobbes_ertekmegadas.png)](./img/wp-content-uploads-2022-01-tablazat_tobbes_ertekmegadas.png)
+
+<!-- /wp:image -->
+
+<!-- wp:list {"className":"is-style-arrow","editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+
+- Módosítható táblázatok esetén, a cella tartalmak _**CTRL+C**_ billentyű kombinációkkal másolhatóak és _**CTRL+V**_ billentyű kombinációkkal beszúrhatóak táblázaton belül, vagy Excel, vagy más táblázat kezelő programokba
+
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+
+Az eredmény táblázatoknál (**Analízis** és **Globális vizsgálatok** fülek és a **Mértékadó értékek** és a **Modell információs adatlap**ablakok használják) a következő lehetőségek érhetőek el:
+
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+
+- az oszlopok fejlécére kattintva a sorok rendezhetőek növekvő, csökkenő és ABC sorrendbe
+- az aktuális táblázat Excel fájlba menthető
+- az aktuális táblázat elmenthető a dokumentációba való beillesztés céljából (lásd [_**Dokumentálás**_ ](../13_0_documentation-2/13_1_the-document-tab.md)fejezet)
+
+<!-- /wp:list -->

@@ -1,0 +1,8 @@
+{
+  "label": "Szabványos tervezés",
+  "position": 10,
+  "link": {
+    "type": "generated-index",
+    "description": "A tervezési funkciók három fülnél helyezkednek el: a globális ellenőrzések, a rúd ellenőrzések és a használhatósági ellenőrzések fülén. A különböző típusú szerkezeti komponensek keresztmetszeteinek és rúdjainak szükséges szabvány ellenőrzései kényelmesen kiértékelhetők az alábbi szabványok alapján:Acélszerkezetek tervezése: EuroCode EN 1993-1-1: Általános szabályok és szabályok épületekhez, EN 1993-1-2: Általános szabályok. Szerkezeti tűzvédelmi tervezés, EN 1993-1-3: Általános szabályok. Kiegészítő szabályok hidegformázott rudakhoz és lemezekhez, EN 1993-1-5: Lemezes szerkezeti elemek (különleges). Spanyol szabványok: Acélszerkezetek kódja (EAE), Beton szerkezetek tervezése: EuroCode - EN 1992-1-1: Általános szabályok és szabályok épületekhez, Összetett acél és beton szerkezetek tervezése: EuroCode - EN 1994-1-1: Általános szabályok és szabályok épületekhez.Több Nemzeti Melléklet van implementálva, és felhasználói melléklet is definiálható és menthető."
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "label": "Structural modeling",
+  "position": 7,
+  "link": {
+    "type": "generated-index",
+    "description": "From the beginning of Consteel’s development, user-friendly structure modeling has been at the forefront, allowing the engineer to build the structure from real structural elements. In the engineering model built by the engineer, the structure is made up of whole elements (beams with haunches, tapered beams or columns, tension braces, slabs, etc.), completely separate from the automatically generated finite element (calculation) model required for analysis and design. Accordingly, the engineer can focus on modeling the appropriate structure.<br>![](./img/wp-content-uploads-2021-04-warning_croc.png)<br>When modeling, the different functions and options should be applied carefully and the limitations of the applied analysis model should be taken into account, because improperly used modeling options may result in incorrect analysis and design results.<br>All functionalities connecting with the structural modeling are placed on the **_Structural members_** tab. Due to the high importance and wide range of modeling possibilities the functions of the cross-sections and joints are collected in separate modules."
+  }
+}
