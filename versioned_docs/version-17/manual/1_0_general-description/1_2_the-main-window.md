@@ -109,7 +109,7 @@ The model description and the EN National Annex, or design standard can be chang
 
 <!-- wp:paragraph -->
 
-_Recent models_ (CS15)
+_Recent models_ 
 
 <!-- /wp:paragraph -->
 
@@ -139,7 +139,7 @@ _Open from Cloud_
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-Open your cloud storage. Cloud functions are provided by the Steelspace platform. See more: _[Open from Cloud](./1_1_installing-and-running-the-software.md#cloud-open)_
+Open your cloud storage. Cloud functions are provided by the Steelspace platform. See more: _[Open from Cloud.](./1_1_installing-and-running-the-software.md#cloud-open)_
 
 <!-- /wp:paragraph -->
 
@@ -151,7 +151,7 @@ _Save_
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-Saves the current model to the previously defined storage space. In Consteel 15, for the first save a pop-up window will open where you can select between Local and Cloud storage.
+Saves the current model to the previously defined storage space. For the first save a pop-up window will open where you can select between Local and Cloud storage.
 
 <!-- /wp:paragraph -->
 
@@ -181,7 +181,7 @@ Choosing the Local computer, the common dialogue of Windows will open.
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-Choosing the Cloud (Beta), the cloud model directory powered by Steelspace will open where you can save your model. See more: [Cloud save](../2_0_file-handling/2_2_cloud-save-and-sharing-models.md#cloud-save-and-sharing-models)
+Choosing the Cloud (Beta), the cloud model directory powered by Steelspace will open where you can save your model. See more: [Cloud save.](../2_0_file-handling/2_2_cloud-save-and-sharing-models.md#cloud-save-and-sharing-models)
 
 <!-- /wp:paragraph -->
 
@@ -205,7 +205,7 @@ _Import_
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-Import menu contains a wide range of import possibilities from the very basic DXF wireframe import to the widespread IFC, furthermore the complex Dlubal and SAP2000 model import including the loadings as well. See more: **_[File handling](../../category/file-handling)_**.
+Import menu contains a wide range of import possibilities from the very basic DXF wireframe import to the widespread IFC, furthermore the complex Dlubal and SAP2000 model import including the loadings as well. See more: _[File handling](../../category/file-handling)_.
 
 <!-- /wp:paragraph -->
 
@@ -223,8 +223,7 @@ _Export_
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-The selected part of the model can be exported to _TEKLA Structures_ or to IFC. In the case of a slab reinforcement result, the colored result view can be exported to DXF format as well. See more: **_[File handling](../../category/file-handling)_**.
-
+The selected part of the model can be exported to _TEKLA Structures_ or to IFC. In the case of a slab reinforcement result, the colored result view can be exported to DXF format as well. See more: _[File handling](../../category/file-handling)_.
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":27748,"sizeSlug":"full","linkDestination":"media","className":"is-resized"} -->
@@ -241,7 +240,7 @@ _Update_
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-In the case of a connected Tekla model (previously Tekla import or export is needed), the connected Tekla model can be updated and modified acc. to the actual Consteel model. See more: **_[Tekla model update](../2_0_file-handling/2_3_tekla-structures-model-import-export-and-update.md)_**.
+In the case of a connected Tekla model (previously Tekla import or export is needed), the connected Tekla model can be updated and modified acc. to the actual Consteel model. See more: _[Tekla model update](../2_0_file-handling/2_3_tekla-structures-model-import-export-and-update.md)_.
 
 <!-- /wp:paragraph -->
 
@@ -286,7 +285,7 @@ In addition to the several window options, the **Model content** can be switched
 
 
 
-The visibility status of several optional windows can be switched _on_ and _off_. See more: _**[Side panel](#side-panel)**_.  
+The visibility status of several optional windows can be switched _on_ and _off_. See more: _[Side panel](#side-panel)_.  
 With the **Sizes of objects…** function, the size of the model objects can be changed individually.
 
 <!-- /wp:paragraph -->
@@ -500,7 +499,7 @@ See more: **_[Model check](../8_0_structural-analysis/8_2_model-check-diagnostic
 
 <!-- wp:paragraph -->
 
-From _Consteel 17_ this function belongs to the **Model settings** category, together with the **Diagnostics.**
+This function belongs to the **Model settings** category, together with the **Diagnostics.**
 
 <!-- /wp:paragraph -->
 
@@ -530,7 +529,7 @@ The **Automatic load distribution** can be switched off to increase the speed of
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-To establish the link between Consteel and IDEA Statica steel connection design software the installation path of IDEA has to be set in this section. See more:
+To establish the link between Consteel and IDEA Statica steel connection design software the installation path of IDEA has to be set in this section. 
 
 <!-- /wp:paragraph -->
 
@@ -844,13 +843,7 @@ See the **_[Standard design](../../category/standard-design)_** chapter for a de
 
 #### Member checks tab
 
-<!-- /wp:heading -->
-
-<!-- wp:image {"id":7100,"sizeSlug":"large","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2021-04-2-2-3-Tabs-member-design.png)
-
-<!-- /wp:image -->
+![alt text](<img/member checkCS17.png>)
 
 <!-- wp:paragraph -->
 
@@ -861,24 +854,6 @@ See the **_[Member checks](../9_0_standard-design/9_1_steel-design.md#member-che
 
 <!-- wp:heading {"level":4} -->
 
-#### Serviceability checks tab
-
-<!-- /wp:heading -->
-
-<!-- wp:image {"id":7118,"sizeSlug":"large","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2021-04-2-2-3-Tabs-SLS.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-All serviceability related functions (horizontal and vertical deflection checks) can be found on the Serviceability checks tab.  
-See the **_[Serviceability checks](../9_0_standard-design/9_4_serviceability-checks.md)_** chapter for a detailed description of these functions.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4} -->
 
 #### Layers tab
 
@@ -958,21 +933,13 @@ The side bar at the left of the main screen contains the mostly used functions f
 
 <!-- wp:paragraph -->
 
-From Consteel 17, the **Copy** ![](./img/wp-content-uploads-2021-04-1.2-Side-bar-copy-CS17.png) and **Move** ![](./img/wp-content-uploads-2021-04-1.2-Side-bar-move-CS17.png) functions are now separated by two distinct buttons.
-
 <!-- /wp:paragraph -->
 
 <!-- wp:columns -->
 
 <!-- wp:column {"verticalAlignment":"top","width":"10%"} -->
+![alt text](img/sidebarCS17.png)
 
-<!-- wp:image {"align":"right","id":7137,"width":"44px","height":"auto","sizeSlug":"full","linkDestination":"none","className":"is-resized"} -->
-
-![](./img/wp-content-uploads-2021-04-2-2-3-side-bar.png)
-
-<!-- /wp:image -->
-
-<!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center"} -->
 
@@ -1028,15 +995,12 @@ _Solid view visualization of the model_
 
 _Move point and edge_
 
-<!-- /wp:paragraph -->
+_Copy selected objects_
 
-<!-- wp:paragraph -->
-
-_Move/Copy the selected objects_
+_Move selected objects_
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
 
 _Mirror the selected objects_
 
@@ -1508,7 +1472,7 @@ The **Model Content** tab contains all the predefined basic object types which c
 
 <!-- wp:paragraph -->
 
-See more in the [**_Selection_**](../3_0_model-view/3_2_selection.md) chapter and at _Consteel 16._
+See more in the [**_Selection_**](../3_0_model-view/3_2_selection.md) chapter.
 
 <!-- /wp:paragraph -->
 
