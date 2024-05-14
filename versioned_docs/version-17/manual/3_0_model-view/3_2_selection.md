@@ -57,12 +57,12 @@ The basic selection modes and their operation are the followings:
 
 Clicking the object names in the object tree while holding down the Ctrl or Shift key results in multiple objects selection. To unselect any of the selected objects: hold down the Ctrl key and click on the object name again in the object tree.
 
-- **Object Properties selection-** starting from Consteel 17. After selecting a member, users can view its object properties on the bottom right side of the main window. Other objects in the model with the same properties can be selected by double-clicking on the property name in the Object properties panel.
+- **Object Properties selection** -After selecting a member, users can view its object properties on the bottom right side of the main window. Other objects in the model with the same properties can be selected by double-clicking on the property name in the Object properties panel.
 
 
 ![](./img/wp-content-uploads-2024-02-3.2.-Object-property-selection-2.png)
 
-- **Design results selection-** from Consteel 17 users can select members from the design result tables based on their properties, such as utilization.
+- **Design results selection-** users can select members from the design result tables based on their properties, such as utilization.
 
 
 Design results table:
