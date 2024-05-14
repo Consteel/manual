@@ -39,7 +39,7 @@ The IFC import function can be initiated from the Import submenu of File menu, w
 
 <!-- wp:image {"align":"center","id":7541,"width":281,"height":212,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/3-4-IFC-menu.png)](./img/wp-content-uploads-2021-04-3-4-IFC-menu.png)
+![alt text](<img/ifcimport cs17.png>)
 
 <!-- /wp:image -->
 
@@ -267,15 +267,7 @@ Members from Consteel can be exported from into ifc format, too. The export proc
 
 To export a model to IFC format, press the IFC button in the Export submenu of File menu.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":7561,"width":215,"height":134,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/3-4-IFC-export-menu.png)](./img/wp-content-uploads-2021-04-3-4-IFC-export-menu.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
+![alt text](<img/tela export cs17.png>)
 
 After pressing the Export button, the IFC Export dialogue will appear, where the path of the saved file can be set, besides the scaling parameters and the planes of the exported model.  
 Pressing the Export button again, will initiate the process, and the whole model will be exported.
