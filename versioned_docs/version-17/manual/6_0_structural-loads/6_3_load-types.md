@@ -471,7 +471,7 @@ First create the load transfer surface. Select the members which it distributes 
 
 
 
-Starting from **Consteel 17** the distribution of the surface loads to the selected bar members is still done automatically but the created Distributed Line loads can be individually selected. When selected, the attributes (value, eccentricities, etc.) are visible but not editable. All Distributed Line Loads are linked to the surface load it is crated from. Users can edit the properties of the distributed line loads once exploded from the surface load.
+The distribution of the surface loads to the selected bar members is still done automatically but the created Distributed Line loads can be individually selected. When selected, the attributes (value, eccentricities, etc.) are visible but not editable. All Distributed Line Loads are linked to the surface load it is crated from. Users can edit the properties of the distributed line loads once exploded from the surface load.
 
 <!-- /wp:paragraph -->
 
