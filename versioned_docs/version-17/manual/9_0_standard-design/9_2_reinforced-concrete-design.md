@@ -3,11 +3,6 @@ sidebar_position: 2
 ---
 # Reinforced concrete design
 
-**Consteel 16**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"align":"justify"} -->
 
 Design of concrete members are available at the Global checks tab. By clicking on the ![](./img/wp-content-uploads-2021-04-DesignSettingsIcon.jpg) button, the Design… dialog will appear, where below the _Steel_ and _Composite design_, the Concrete design EN 1992-1-1 panel can be found. On the panel, Beam, Column design and slab reinforcement calculations are available. If the necessary input parameters for these calculations are available _(cross sections, reinforcement data, design parameters and analysis results)_, the checkboxes for the different design options are active, and choosing the desired item. Calculation can be initiated to obtain utilizations.
 
@@ -64,45 +59,6 @@ During the design, Consteel will perform the available standard checks according
 Results of the individual standard checks can also be obtained using the dropdown menu in the upper left corner of the design tab.
 
 
-**Consteel 15**
-
-
-Design of concrete members are available at the Global checks tab. By clicking on the ![](./img/wp-content-uploads-2021-04-Glob-Design-Start-button.png) button, the Design… dialog will appear, where below the _Steel_ and _Composite design_, the Concrete design EN 1992-1-1 panel can be found. On the panel, Beam reinforcement, Column reinforcement and slab reinforcement calculations are available. If the necessary input parameters for these calculations are available _(cross sections, reinforcement data, design parameters and analysis results)_, the checkboxes are active, and choosing the desired item, Calculation can be initiated to obtain utilizations.
-
-
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/10-4-design-dial-concr.png)](./img/wp-content-uploads-2021-04-10-4-design-dial-concr.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-Required input parameters for concrete design are the following (see Chapter Reinforced concrete members for details):
-
-
-- In case of concrete beams and columns
-
-  - Reinforced concrete cross sections with design option 
-
-  - Beam/column reinforcement object assigned to the concrete member 
-
-  - First or second order analysis results 
-
-
-* In case of reinforced concrete slabs
-
-  - Defined reinforcement schemes in the main directions 
-
-  - First or second order shell results 
-
-
-During the design, Consteel will perform the available standard checks according to EN1992-1-1 for all of the cross sections automatically. Cross sections with their dominant utilizations will be collected into the results grid, and will be shown using the color-coded visualization in the modeling area.
-
-
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/10-4-rc-design-res.jpg)](https://Consteelsoftware.com/wp-content/uploads/2021/04/10-4-rc-design-res.jpg)
-
-
-Results of the individual standard checks can also be obtained using the dropdown menu in the upper left corner of the design tab.
-
 ### Reinforced concrete beam design
 
 
@@ -139,10 +95,6 @@ In case of concrete beam design, the following checks of EN1992-1-1 will be perf
 
 
 ### Reinforced concrete column design
-
-
-**Consteel 16**
-
 
 ![](./img/wp-content-uploads-2022-12-image-16.png)
 
@@ -315,37 +267,6 @@ In case of concrete column design, the following checks of EN1992-1-1 will be pe
 
   - EN1992-1-1 6.2.3 (3) (6.8) and (6.9) formula – Shear resistance with shear reinforcement
 
-
-**Consteel 15**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-In case of concrete column design, the following checks of EN1992-1-1 will be performed:
-
-
-- Longitudinal reinforcement
-
-  - EN1992-1-1 9.5.2 (1) formula – Minimum diameter of longitudinal reinforcement
-
-  - EN1992-1-1 9.5.2 (2) formula – Minimum longitudinal reinforcement
-
-  - EN1992-1-1 9.5.2 (3) formula – Maximum longitudinal reinforcement
- 
-  - EN1992-1-1 5.8.3 and 5.8.8 – Biaxial bending
-
-
-* Shear reinforcement
-
-
-  - EN1992-1-1 9.5.3 (1) formula – Minimum diameter of stirrup
- 
-  - EN1992-1-1 9.5.3 (2) formula - Maximum distance of stirrups
-
-  - EN1992-1-1 6.2.2 (1) (6.2.a) and (6.2.b) formula – Shear resistance without shear reinforcement
- 
-  - EN1992-1-1 6.2.3 (3) (6.8) and (6.9) formula – Shear resistance with shear reinforcement
 
 
 ### Reinforced concrete slab design

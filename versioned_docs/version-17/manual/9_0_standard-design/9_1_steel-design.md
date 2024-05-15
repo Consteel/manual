@@ -21,15 +21,6 @@ Steel design related functions can be found on the Global checks and the Member 
 
 #### Basics
 
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-**Consteel 17**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":72908,"width":"877px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
 ![](./img/wp-content-uploads-2024-02-9.1.-STEEL-Global-checks-1.png)
 
@@ -37,7 +28,8 @@ Steel design related functions can be found on the Global checks and the Member 
 
 <!-- wp:paragraph -->
 
-Starting from Consteel 17, the Serviceability Limit State Checks ![](./img/wp-content-uploads-2024-02-9.1.-SLS-Check-icon.png) are also included in the Global Check tab beside the Ultimate Limit State checks ![](./img/wp-content-uploads-2024-02-9.1.-ULS-Check-icon.png).
+The Serviceability Limit State Checks ![](./img/wp-content-uploads-2024-02-9.1.-SLS-Check-icon.png) and the Ultimate Limit State checks ![](./img/wp-content-uploads-2024-02-9.1.-ULS-Check-icon.png)
+are both included in the Global Check tab. 
 
 <!-- /wp:paragraph -->
 
@@ -45,43 +37,9 @@ Starting from Consteel 17, the Serviceability Limit State Checks ![](./img/wp-co
 
 The global checks run button ![](./img/wp-content-uploads-2024-02-9.1.-global-checks-run-icon.png) initiates all the checks with the previously applied settings. This button is meant to be used when we don’t change the settings for the analysis and the load combinations, just in case of repeating calculations, for example when we change the section for an element.
 
-<!-- /wp:paragraph -->
+## Ultimate limit state checks
 
-<!-- wp:paragraph {"fontSize":"medium"} -->
-
-**Consteel 16**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"left","id":46154,"width":"861px","height":"auto","sizeSlug":"large","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2023-03-image-1024x59.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-Cross-section and global buckling checks (according to the Section 6.3.4 (General method) of EN 1993-1-1) which are independent of any specific member parameter can be fully automatically evaluated on the global checks tab.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-Design settings are available by clicking on the ![](./img/wp-content-uploads-2021-04-DesignSettingsIcon-1.jpg) icon (or F7).
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-When selecting the ![](./img/wp-content-uploads-2021-04-Design_Icon.jpg) icon (or F8), the global checks will run with the previously saved settings.
+Cross-section and global buckling checks (according to the Section 6.3.4 (General method) of EN 1993-1-1) which are independent of any specific member parameter can be fully automatically evaluated.
 
 <!-- /wp:paragraph -->
 
@@ -89,37 +47,6 @@ When selecting the ![](./img/wp-content-uploads-2021-04-Design_Icon.jpg) icon (o
 
 As basic settings the analysis result type (first or second order) should be selected and the load combinations which should be evaluated.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"fontSize":"medium"} -->
-
-**Consteel 15**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":10523,"width":698,"height":50,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/10-2-Glob-design-tab.png)](./img/wp-content-uploads-2021-04-10-2-Glob-design-tab.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-Cross-section and global buckling checks (according to the Section 6.3.4 (General method) of EN 1993-1-1) which are independent of any specific member parameter can be fully automatically evaluated on the global checks tab.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-As basic settings the analysis result type (first or second order) should be selected and the load combinations which should be evaluated.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4} -->
 
 #### Cross section check
 
@@ -244,9 +171,6 @@ The results of the performed checks are demonstrated with graphical visualizatio
 
 
 The shown results can be changed in the drop down menu.
-
-
-Consteel 17
 
 
 ![](./img/wp-content-uploads-2024-02-9.1.-Design-results-and-predesign-parameters-2.png)
@@ -413,29 +337,6 @@ For some of the predesign parameters also exist result table:
 
 
 The right-click function on the cells operates similarly to the design results table.
-
-
-Consteel 16
-
-
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/10-2-buckl-result-pic.png)](./img/wp-content-uploads-2021-04-10-2-buckl-result-pic.png)
-
-
-When moving the mouse along the structural elements the result markers continuously appear showing the actual utilization.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-The detail of the results can be seen in the Section module (see section 10 Section module). Section module can be opened directly from the Global checks tab to click on the proper cross section on the model area or in the result table with right click.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:spacer -->
-
-<!-- /wp:spacer -->
-
-<!-- wp:heading {"level":3} -->
 
 ### Member checks
 
