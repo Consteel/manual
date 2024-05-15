@@ -117,9 +117,6 @@ Imperfection load cases can be selected for the second order analysis results of
 ### Subpage of load combinations
 
 
-**Consteel 16**
-
-
 This subpage has four main parts:
 
 
@@ -196,70 +193,7 @@ The result tree (#4)
 
 Result types to be calculated can be selected for the load combinations. Calculated results can be a general setting for all of the load combinations if the _Use common settings_ checkbox is clicked. If it is unclicked, calculated results can be set differently for each load combination by clicking on the name of a load combination, and by selecting the proper result types.
 
-
-**Consteel 15**
-
-
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/dia_anal_sub_LCC.png)](./img/wp-content-uploads-2021-04-dia_anal_sub_LCC.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-This subpage has three main parts:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-Portion and relevant buckling eigenvalues settings (#1)
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-In the dropdown menu, the previously created model portions or the whole model can be selected for the second-order and the buckling analysis. The analysis will be performed just for the selected portion. Here can be set also the upper limit of the relevant buckling eigenvalues. All the eigenvalues which are higher than the limit will be skipped. As a result, the final number of the calculated eigenshapes could be less than required.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-The load combinations table (#2)
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-In this table, all of the load combinations are listed. With the checkboxes in the columns, the analysis types and parameters can be set for each combination separately. The columns are as follows:
-
-- To calculate: it can be decided which of the load combinations should be included in the analysis.
-
-- Name of the load combination.
-
-- First-order analysis and
-
-- second-order analysis can be turned on or off.
-
-- The number of buckling eigenshapes can be given for each combination individually.
-
-- Buckling sensitivity calculation and
-
-- Imperfection sensitivity calculation can be turned on or off.
-
-- Effective section property: using only the reduced effective cross-sectional properties for the selected SLS combinations
-
-
-To see how to edit multiple rows of the table at a time go to **_[General functions of tables](../1_0_general-description/1_4_general-functions-for-tables.md)_**.
-
-
-The result tree (#3)
-
-
-Result types to be calculated can be selected for the load combinations. Calculated results can be a general setting for all of the load combinations if the _Use common settings_ checkbox is clicked. If it is unclicked, calculated results can be set differently for each load combination by clicking on the name of a load combination, and by selecting the proper result types.
-
-
 ### Subpage of dynamic analysis
-
 
 [![](https://Consteelsoftware.com/wp-content/uploads/2021/04/dia_anal_sub_dyn.png)](./img/wp-content-uploads-2021-04-dia_anal_sub_dyn.png)
 
