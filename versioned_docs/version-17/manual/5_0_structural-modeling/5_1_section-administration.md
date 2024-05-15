@@ -30,7 +30,7 @@ The main part of the window is the table of sections that contains the following
 - State: can be _Used_ or _Not used_ depending on whether it is used in the model or not.
 
 
-Starting from **Consteel 17,** within the Section Administration panel, the material of the steel sections can be modified by right-clicking on them. This modification can be applied to individual sections or multiple sections at once.
+Within the Section Administration panel, the material of the steel sections can be modified by right-clicking on them. This modification can be applied to individual sections or multiple sections at once.
 
 <!-- /wp:paragraph -->
 
