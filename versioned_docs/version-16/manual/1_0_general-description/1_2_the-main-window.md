@@ -1063,14 +1063,7 @@ You can also open the window from the View menu. For more information, visit the
 
 #### Visibility options of the grid and the local coordinate system (LCS)
 
-<!-- /wp:heading -->
-
-<!-- wp:image {"id":27720,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/popup_visi_LCS.png)](./img/wp-content-uploads-2021-04-popup_visi_LCS.png)
-
-<!-- /wp:image -->
-![alt text](<img/Spad Footing.png>)
+![alt text](<img/cs16 visibility options of grid.png>)
 
 <!-- wp:paragraph -->
 

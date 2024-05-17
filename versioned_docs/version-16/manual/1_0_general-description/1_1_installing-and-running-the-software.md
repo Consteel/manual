@@ -161,17 +161,14 @@ To install Consteel, start the downloaded installation file and follow the instr
 
 <!-- wp:paragraph -->
 
-If you have purchased a network-enabled hardware key, it can be connected to any computer on the internal network with a free USB port on which the hardware key driver has been pre-installed. This driver is also part of the Consteel installation package, which is installed on the computer by default (see the previous section), but it is also possible to install it independently if you want to connect the hardware key to a server computer. To do this, start the Consteel installation package as described above, then in the **_Select Components_** window all you have to do is select the Hardlock driver item, leave the rest blank and click _Next_ to complete the installation.
+If you have purchased a network-enabled hardware key, it can be connected to any computer on the internal network with a free USB port on which the hardware key driver has been pre-installed. This driver is also part of the Consteel installation package, which is installed on the computer by default (see the previous section), but it is also possible to install it independently if you want to connect the hardware key to a server computer. The hardlock driver is available from our website Downloads menu. After downloading the exe file, install the driver on the usual way.
 
 <!-- /wp:paragraph -->
 
 <!-- /wp:column -->
 
-<!-- wp:column {"width":"50%","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-<!-- wp:image {"align":"left","id":11530,"width":436,"height":361,"sizeSlug":"full","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/2-2-insta-hardlock.png)](./img/wp-content-uploads-2021-04-2-2-insta-hardlock.png)
+![alt text](img/cs16usbdonle.png)
 
 <!-- /wp:image -->
 
@@ -181,35 +178,11 @@ If you have purchased a network-enabled hardware key, it can be connected to any
 
 <!-- wp:paragraph -->
 
-After Consteel 15 Update 6 release, the hardlock driver is removed from the installation package. It is available from our website Downloads menu. After downloading the exe file, install the driver on the usual way.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":38168,"sizeSlug":"full","linkDestination":"none","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-![](./img/wp-content-uploads-2022-06-image-8.png)
-
-<!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
 #### **Starting the program**
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-There are differences between in starting Consteel 14 and Consteel 15, therefore we describe the two versions separately. To see the Consteel 14 version description, [click here](#starting-Consteel-14).
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-**Starting Consteel 15**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
 
 Launching the program for the first time you have to select whether you use Consteel with a hardware key dongle or with an online license. You have to select it according to your contract. **If you own a hardware key dongle you have to select USB dongle.** If you have already switched to the new online license and have already sent back your dongle, then you can select the Online license.
 
@@ -475,64 +448,3 @@ Cloud storage provided by the Steelspace platform
 
 When you open a model from the cloud it is always downloaded to the local device into the folder: C:\\Users(username)\\AppData\\Local\\Consteel\\CloudModels and kept synchronized. The amount of data bandwidth is set by your subscription's membership level and it will renew every month.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-#### **Starting Consteel 14**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-Consteel can be started with hardware key protection for a purchased copy or using an online protection. Currently, the online license is only available for students, teachers, or trial users for free through a registered Consteel user account. See the link below for details on how to apply for a license: https://Consteelsoftware.com/how-licensing-works
-
-<!-- /wp:paragraph -->
-
-<!-- wp:columns -->
-
-<!-- wp:column {"width":"90%"} -->
-
-<!-- wp:paragraph -->
-
-Before starting the program, you must plug the hardware key (dongle) into an empty USB port on your computer, or in the case of a network key, the key must be available on a computer on the local network. If, after startup, Consteel cannot find the correct hardware key connected to the computer (or over the network), a login window will appear to launch the program using the online license assigned to the Consteel user account. To do this, you must enter the username (email address) and password registered on the website.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-If the user does not have an online license, pressing the “Sign in to online account” button will open the default internet browser application and load the Consteel website. Here you can apply for a new license by clicking on the "Login" button in the upper right corner of the page and then entering the "Licenses" menu.
-
-<!-- /wp:paragraph -->
-
-<!-- /wp:column -->
-
-<!-- wp:column {"width":"50%","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-<!-- wp:image {"align":"left","id":6815,"width":344,"height":342,"sizeSlug":"full","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/Login.jpg)](./img/wp-content-uploads-2021-04-Login.jpg)
-
-<!-- /wp:image -->
-
-<!-- /wp:column -->
-
-<!-- /wp:columns -->
-
-<!-- wp:paragraph -->
-
-The starting of _Consteel_ opens a startup dialog window which allows to create and open models easily. The latest models can be opened without browsing folders. They are sorted by the last modification date as a default setting, but they can also be sorted by name or by the model path.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":11542,"width":472,"height":380,"sizeSlug":"full","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/dial_startup_v15.png)](./img/wp-content-uploads-2021-04-dial_startup_v15.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-The first big button (#1) is for creating a new model, the second (#2) is for opening models from your computer.
-
-<!-- /wp:paragraph -->
