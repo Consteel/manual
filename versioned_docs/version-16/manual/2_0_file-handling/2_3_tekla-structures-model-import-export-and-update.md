@@ -78,10 +78,7 @@ For the import process from Tekla Structures, it is indispensable to run Tekla a
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":7450,"width":281,"height":212,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/3-2-tekla-3.png)](./img/wp-content-uploads-2021-04-3-2-tekla-3.png)
-
+![alt text](<img/tekla import új logo.png>)
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -253,7 +250,7 @@ Besides the export of the global structural model (ie. beams, columns, slabs, wa
 
 <!-- wp:image {"align":"center","id":7468,"width":467,"height":212,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/3-2-tekla-cs-tekla.jpg)](./img/wp-content-uploads-2021-04-3-2-tekla-cs-tekla.jpg)
+![alt text](img/teklastr.png)
 
 <!-- /wp:image -->
 
@@ -267,15 +264,9 @@ The _Consteel_ export to _Tekla Structures_ can be used from version 19 onward.
 
 To export a model from Consteel it is important to run both programs at the same time and to have a model opened in _Tekla Structures_. Then click on the File menu and select Export then select Tekla Structures.
 
-<!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":7474,"width":335,"height":199,"sizeSlug":"full","linkDestination":"media"} -->
+![alt text](<img/tekla import cs16.png>)
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/3-2-tekla-export.png)](./img/wp-content-uploads-2021-04-3-2-tekla-export.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
 
 A dialog window opens asking for selecting model parts to be exported. Keep in mind that only those joints will be exported which are placed in the model and selected before exporting. Exportation of the model grid is also possible if the checkbox is checked. The next step is to select a reference point in Consteel and to click on the Export button.
 

@@ -227,7 +227,6 @@ To create the latest history item just click on the „+ Create history item” 
 
 <!-- wp:paragraph -->
 
-Starting from **Consteel 17**, the Model Version History was upgraded. All team members can save new versions to the model history according to their permission levels. Information regarding the person who created the model version, along with the date and exact time of saving, will appear underneath the name of the history.
 
 <!-- /wp:paragraph -->
 
