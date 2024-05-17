@@ -3,7 +3,7 @@ sidebar_position: 10
 ---
 # Spread footing
 
-From Consteel 16 it is possible to define foundation as a consistent part of the structural model. **_Spread footing_** function is available on **_Structural members_** tab. It is a targeted function only for shallow spread foundations of separate columns.
+Definition of foundation as a consistent part of the structural model. **_Spread footing_** function is available on **_Structural members_** tab. It is a targeted function only for shallow spread foundations of separate columns.
 
 <!-- /wp:paragraph -->
 

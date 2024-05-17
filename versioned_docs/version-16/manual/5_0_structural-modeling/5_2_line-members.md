@@ -65,9 +65,6 @@ The available element types depend on the chosen section.
 
   - **Tension bar**: cannot resist compressional axial force but it can resist any other internal forces. If it got compression the analysis neglects its effect.
 
- 
-
-  * **Tension bar (X Brace)** starting from **Consteel 17** used for individual members of bracing systems made of elements working in tension only which are arranged in a way, that from a pair of members always just one is working in tension and the another is assumed to be efficient due to buckling. This option will linearize the behaviour of such members for a linear buckling eigenvalue calculation by considering the member working in both tension and compression, but with half cross-section properties.
 
 
 * For any other steel cross-sections, three of the above mentioned possible choices are available:
@@ -76,7 +73,6 @@ The available element types depend on the chosen section.
 
   - Tension bar
 
-  - Tension bar (X Brace) from **Consteel 17**
 
 
 **For reinforced concrete or composite members:**
