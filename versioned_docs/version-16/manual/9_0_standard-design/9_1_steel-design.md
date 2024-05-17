@@ -25,31 +25,7 @@ Steel design related functions can be found on the Global checks and the Member 
 
 <!-- wp:paragraph -->
 
-**Consteel 17**
 
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":72908,"width":"877px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2024-02-9.1.-STEEL-Global-checks-1.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-Starting from Consteel 17, the Serviceability Limit State Checks ![](./img/wp-content-uploads-2024-02-9.1.-SLS-Check-icon.png) are also included in the Global Check tab beside the Ultimate Limit State checks ![](./img/wp-content-uploads-2024-02-9.1.-ULS-Check-icon.png).
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-The global checks run button ![](./img/wp-content-uploads-2024-02-9.1.-global-checks-run-icon.png) initiates all the checks with the previously applied settings. This button is meant to be used when we don’t change the settings for the analysis and the load combinations, just in case of repeating calculations, for example when we change the section for an element.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"fontSize":"medium"} -->
-
-**Consteel 16**
 
 <!-- /wp:paragraph -->
 
@@ -97,29 +73,7 @@ As basic settings the analysis result type (first or second order) should be sel
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
 
-**Consteel 15**
 
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":10523,"width":698,"height":50,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/10-2-Glob-design-tab.png)](./img/wp-content-uploads-2021-04-10-2-Glob-design-tab.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-Cross-section and global buckling checks (according to the Section 6.3.4 (General method) of EN 1993-1-1) which are independent of any specific member parameter can be fully automatically evaluated on the global checks tab.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-As basic settings the analysis result type (first or second order) should be selected and the load combinations which should be evaluated.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4} -->
 
 #### Cross section check
 
