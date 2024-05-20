@@ -3,27 +3,6 @@ sidebar_position: 1
 ---
 # The Document tab
 
-**Consteel 17**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":71708,"width":"151px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2021-04-13.1-Document-tab-CS17-2.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-**Consteel 16**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"left","id":9612,"sizeSlug":"large","linkDestination":"media"} -->
-
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/14-1-documentation1.png)](./img/wp-content-uploads-2021-04-14-1-documentation1.png)
-
-<!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
@@ -277,15 +256,7 @@ The third icon on the documentation tab is the **Snapshot manager** ![](./img/wp
 
 <!-- wp:heading {"level":3} -->
 
-### Import log
 
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-Starting from **Consteel 17**, the **Import log** ![](./img/wp-content-uploads-2021-04-13.1-Document-tab-CS17-Import-log.png)is implemented. It contains all the objects with their attributes, and it is highlighted if some characteristics are set as default or if any problems occurred during the import process.
-
-<!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
 
