@@ -5,7 +5,7 @@ sidebar_position: 4
 
 <!-- wp:paragraph -->
 
-A Consteel 16-ban a Steelspace által támogatott új felhőalapú szolgáltatásként lehetőség van létrehozni, megtekinteni, letölteni, szerkeszteni modellekhez verziókat vagy akár visszaállítani a korábbi verziókat. Az Verzióelőzmények funkció csak a felhőbe mentett modellekkel működik így használatához online kapcsolat szükséges. Ennek a szolgáltatásnak a használatát csak a Consteel közösségi tagsághoz tartozó havi tárhelyméret korlátozza, mivel minden verziózással kapcsolatos művelet sávszélességbe kerül.
+A Steelspace által támogatott új felhőalapú szolgáltatásként lehetőség van létrehozni, megtekinteni, letölteni, szerkeszteni modellekhez verziókat vagy akár visszaállítani a korábbi verziókat. Az Verzióelőzmények funkció csak a felhőbe mentett modellekkel működik így használatához online kapcsolat szükséges. Ennek a szolgáltatásnak a használatát csak a Consteel közösségi tagsághoz tartozó havi tárhelyméret korlátozza, mivel minden verziózással kapcsolatos művelet sávszélességbe kerül.
 
 <!-- /wp:paragraph -->
 

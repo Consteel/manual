@@ -53,11 +53,11 @@ Az alapvető kijelölési módok és azok működése a következő:
  <!-- wp:list-item -->
 - **Kijelölés az objektumfáról**: kijelölni kívánt elemek kijelölése az [_**Objektumfán**_](../1_0_general-description/1_2_the-main-window.md#objektumfa-objektum-tulajdonságok-és-diagnosztika-ablakok) látható elemek nevére való kattintással. A _**CTRL**_ vagy a _**SHIFT**_ billentyű lenyomása mellett a többszörös elemkijelölés is elvégezhető. A kiválasztás megszüntethető a modellfán kijelölt objektumnévre a _**CTRL**_ billentyű egyidejű lenyomásával történő újbóli kattintással.
 
-- **Kijelölés az Objektum tulajdonságokból:** egy elemet kiválasztva, annak objektum tulajdonságait megtekinthetik a főablak jobb alsó részén. **Consteel 17-** től kezdve, a modellben több elem is kijelölhető, melyek azonos tulajdonságokkal rendelkeznek. Ezeket az elemeket a tulajdonságukra (például anyag) való dupla kattintással választhatják ki.
+- **Kijelölés az Objektum tulajdonságokból:** egy elemet kiválasztva, annak objektum tulajdonságait megtekinthetik a főablak jobb alsó részén. A modellben több elem is kijelölhető, melyek azonos tulajdonságokkal rendelkeznek. Ezeket az elemeket a tulajdonságukra (például anyag) való dupla kattintással választhatják ki.
 
 ![](./img/wp-content-uploads-2024-02-HU-3.2.-Object-property-selection-3.png)
 
-- **Kijelölés a Tervezési eredményekből:** Consteel 17-től kezdve a felhasználók kiválaszthatják az elemeket a tervezési eredmény táblázatból azok kihasználtsága szerint.
+- **Kijelölés a Tervezési eredményekből:** a felhasználók kiválaszthatják az elemeket a tervezési eredmény táblázatból azok kihasználtsága szerint.
 
 - Tervezési eredmény táblázat:
 
