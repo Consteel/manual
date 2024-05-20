@@ -9,7 +9,7 @@ In _Consteel_ there is a possibility to perform a model check previous to execut
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-There are two kinds of diagnostics messages:
+There are three kinds of diagnostics messages:
 
 <!-- /wp:paragraph -->
 
@@ -17,6 +17,16 @@ There are two kinds of diagnostics messages:
 
 - **Error**: the errors make the calculations impossible or meaningless to execute so the detected errors stop further calculations
 - **Warning**: the warnings allow the calculations but notice the possible errors
+- **Modeling inconsistencies**: this type of error occurs when the **automatic load distribution** is turned off. To update the loads according to the new model state, either check in the check-box or click on the **Update** button that appearing with the Diagnostic error.
+
+![alt text](<img/modeling inconsistance cs17.png>)
+<!-- /wp:image -->
+
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
 
 <!-- /wp:list -->
 
