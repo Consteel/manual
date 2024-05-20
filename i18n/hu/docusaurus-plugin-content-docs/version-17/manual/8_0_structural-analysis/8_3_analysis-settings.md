@@ -118,8 +118,6 @@ Imperfekciós teheresetek kiválasztása másodrendű számításokhoz. Eredmén
 ### Teherkombinációk analízis beállításainak részletezése aloldal
 
 
-**Consteel 16**
-
 
 Az aloldal négy részből áll:
 
@@ -201,63 +199,6 @@ A táblázatok szerkesztését ld. **_[A táblázatok általános funkciói cím
 
 Eredménytípusok fa (#4)
 
-
-A fában a jelölőnégyzetek segítségével teheresetenként beállítható, hogy mely típusú eredményeket szeretnénk leszámítani az analízis során. A közös beállítások használata gombbal a fa beállításai az összes teherkombinációra alkalmazásra kerülnek. Ha ez nincs bejelölve, a számított eredmények az egyes kombinációknál különbözőképpen állíthatók be. Ehhez a kombinációk nevére kattintva egyenként kell a megfelelő eredménytípusokat kiválasztani.
-
-
-**Consteel 15**
-
-
-Az aloldal három fő része:
-
-
-[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/06/dial_analizis_beallitasok_aloldal_kombinaciok.png)](./img/wp-content-uploads-2022-06-dial_analizis_beallitasok_aloldal_kombinaciok.png)
-
-
-Figyelembe vett részletmodellek, és kihajlási alakok felső határértéke (#1)
-
-
-Mind a másodrendű, mind pedig a stabilitási számítások elvégezhetők külön részletmodellekre.
-
-
-Másodrendű számításnál figyelembe vett részletmodell segítségével olyan instabil modellrészletek hagyhatók ki a másodrendű számításokból, amelyek megakadályoznák a számítások futását.
-
-
-Stabilitás számítást részletmodellre futtatva a részletmodellben nem szereplő elemekre stabilitási számítások nem lesznek elvégezve. Ezek az elemek merevségükkel, mint megtámasztó hatás lesznek figyelembe véve a számítás során.
-
-Itt lehet megadni a releváns kihajlási sajátérték felső határát is. Az összes olyan sajátalak, amelynek a sajátértéke nagyobb, mint a megadott érték, ki lesz hagyva. Emiatt a leszámolt sajátalakok száma lehet kevesebb, mint a beállított.
-
-
-Teherkombinációk táblázat (#2)
-
-
-Ebben a táblázatban megtalálható a modellben létrehozott összes teherkombináció. Az oszlopokban lévő jelölőnégyzetekkel az egyes kombinációkhoz külön-külön beállíthatók az analízis típusai és a kihajlási alakok kívánt száma is. Az oszlopok a következők:
-
-- Számítandó: eldönthető, hogy mely teherkombinációkat kell figyelembe venni az analízis során.
-
-- A teherkombináció neve.
-
-- Elsőrendű és
-
-- másodrendű analízis be- vagy kikapcsolható.
-
-- Minden egyes kombinációhoz külön-külön megadható a kihajlási sajátalakok száma.
-
-- Kihajlás érzékenység vizsgálat és
-
-- Imperfekció érzékenység vizsgálat be- vagy kikapcsolható.
-
-- Hatékony keresztmetszeti jellemzők: a kiválasztott SLS-kombinációkhoz a csökkentett effektív keresztmetszeti jellemzők használata.
-
-
-A táblázatok szerkesztését ld. az **[A táblázatok általános funkciói című fejezetben](../1_0_general-description/1_4_general-functions-for-tables.md)** olvasható.
-
-
-Eredménytípusok fa (#3)
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
 
 A fában a jelölőnégyzetek segítségével teheresetenként beállítható, hogy mely típusú eredményeket szeretnénk leszámítani az analízis során. A közös beállítások használata gombbal a fa beállításai az összes teherkombinációra alkalmazásra kerülnek. Ha ez nincs bejelölve, a számított eredmények az egyes kombinációknál különbözőképpen állíthatók be. Ehhez a kombinációk nevére kattintva egyenként kell a megfelelő eredménytípusokat kiválasztani.
 

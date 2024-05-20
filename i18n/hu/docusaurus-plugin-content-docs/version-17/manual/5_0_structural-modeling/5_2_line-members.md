@@ -123,7 +123,7 @@ Az elérhető típusok a kiválasztott szelvénytől függenek.
   - **Húzott rúd**: tengelyirányú nyomást nem tud felvenni. Ha az analízis során nyomás lép fel egy ilyen elemben, a program figyelmen kívül hagyja az elemet.
 
 
-  * **Húzott rúd (pótátlós merevítés)** Consteel 17-től, húzott pótátlós merevítési rendszer egyedi húzott elemeire alkalmazható opció, amely során azt feltételezzük, hogy a merevítő elemek párosan vannak úgy elhelyezve, hogy mindig csak az egyik dolgozik húzásra, a másik pedig nyomás hatására kihajlik. Az így megjelölt elemek a rugalmas sajátérték számításhoz szükséges linearizálás miatt, mint húzott-nyomott elemek lesznek figyelembevéve, 50%-ra csökkentett keresztmetszeti jellemzőkkel.
+  * **Húzott rúd (pótátlós merevítés)** húzott pótátlós merevítési rendszer egyedi húzott elemeire alkalmazható opció, amely során azt feltételezzük, hogy a merevítő elemek párosan vannak úgy elhelyezve, hogy mindig csak az egyik dolgozik húzásra, a másik pedig nyomás hatására kihajlik. Az így megjelölt elemek a rugalmas sajátérték számításhoz szükséges linearizálás miatt, mint húzott-nyomott elemek lesznek figyelembevéve, 50%-ra csökkentett keresztmetszeti jellemzőkkel.
 
 
 * Minden más szelvény típus esetén a fentiekből csak az alábbi három típus választható:
@@ -132,7 +132,7 @@ Az elérhető típusok a kiválasztott szelvénytől függenek.
 
   - **Húzott rúd**
  
-  - **Húzott rúd (pótátlós merevítés)** Consteel 17-től
+  - **Húzott rúd (pótátlós merevítés)** 
  
 
 **Vasbeton vagy Öszvér keresztmetszet esetén:**

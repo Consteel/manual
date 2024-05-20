@@ -9,7 +9,7 @@ sidebar_position: 10
 
 <!-- wp:paragraph -->
 
-A Consteel 16 verzió óta a szerkezeti modell konzisztens részeként **Pontalapok** is definiálhatók. Ez a funkció a **Szerkezeti elemek** fülön található, és kifejezetten a különálló oszlopok kis mélységű pontalapozásának számítására szolgál.
+A **Pontalapok** funkció a **Szerkezeti elemek** fülön található, és kifejezetten a különálló oszlopok kis mélységű pontalapozásának számítására szolgál.
 
 <!-- /wp:paragraph -->
 

@@ -3,9 +3,6 @@ sidebar_position: 1
 ---
 # Dokumentálás fül
 
-<!-- wp:paragraph {"align":"center"} -->
-
-**Consteel 17**
 
 <!-- /wp:paragraph -->
 
@@ -13,27 +10,6 @@ sidebar_position: 1
 
 ![](./img/wp-content-uploads-2024-01-13.1-Document-tab-HU-CS17.png)
 
-<!-- /wp:image -->
-
-<!-- wp:paragraph {"align":"center"} -->
-
-**Consteel 16**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-[](./img/wp-content-uploads-2022-06-tab_dokumentalas.png)
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":37946,"width":167,"height":50,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
-
-[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/06/tab_dokumentalas.png)](https://www.Consteelsoftware.com/wp-content/uploads/2022/06/tab_dokumentalas.png)
-
-<!-- /wp:image -->
-
-<!-- wp:heading {"level":3} -->
 
 ### Dokumentáció létrehozása
 
@@ -283,7 +259,7 @@ A harmadik ikon ![](./img/wp-content-uploads-2021-04-14-1-snapshot-manager.png) 
 
 <!-- wp:paragraph -->
 
-**Consteel 17** verziótól kezdve az **Import log**![](./img/wp-content-uploads-2021-04-13.1-Document-tab-CS17-Import-log.png)bevezetésre került. Ez tartalmazza az összes importált objektumot azok attribútumaival, és kiemeli, ha néhány jellemzőt alapértelmezettnek állítottak be, vagy ha bármilyen probléma merült fel az importálás során.
+Az **Import log**![](./img/wp-content-uploads-2021-04-13.1-Document-tab-CS17-Import-log.png)tartalmazza az összes importált objektumot azok attribútumaival, és kiemeli, ha néhány jellemzőt alapértelmezettnek állítottak be, vagy ha bármilyen probléma merült fel az importálás során.
 
 <!-- /wp:paragraph -->
 
