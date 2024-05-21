@@ -2,13 +2,7 @@
 sidebar_position: 2
 ---
 # Vasbeton szerkezetek tervezése
-<!-- wp:paragraph -->
 
-**Consteel 16**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"align":"justify"} -->
 
 A vasbeton szerkezetek tervezése a globális vizsgálatok fülről érhető el. A globális tervezés ikonra kattintva ![](./img/wp-content-uploads-2021-04-DesignSettingsIcon.jpg) , a megjelenő **Tervezés…** dialógon az acél, illetve öszvér tervezési lehetőségek alatt, a **Vasbeton tervezés** EN1992-1-1 csoportban található meg a **Gerenda tervezés**, **Oszlop tervezés**, illetve **Lemezek minimális vashányad számítása** opció. Amennyiben rendelkezésre állnak a tervezéshez szükséges bemeneti adatok _(keresztmetszetek, vasalási paraméterek, tervezési paraméterek és analízis eredmények)_, úgy a jelölőnégyzetek aktívak, és bejelölhetők. Ezután a **Számítás** gombra kattintva a kiválasztott teherkombinációkra a szabványos vizsgálatok végrehajtásra kerülnek.
 
@@ -80,62 +74,6 @@ A képernyő bal felső sarkában található legördülő menüben az egyes viz
 
 <!-- wp:paragraph -->
 
-**Consteel 15**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"align":"justify"} -->
-
-A vasbeton szerkezetek tervezése a globális vizsgálatok fülről érhető el. A globális tervezés ikonra kattintva ![](./img/wp-content-uploads-2021-04-Glob-Design-Start-button.png) , a megjelenő **Tervezés…** dialógon az acél, illetve öszvér tervezési lehetőségek alatti **Vasbeton tervezés EN1992-1-1** csoportban található meg a **vasbeton gerenda**, **vasbeton oszlop**, illetve **vasbeton lemez minimális vashányad számítása** opció. Amennyiben rendelkezésre állnak a tervezéshez szükséges bemeneti adatok _(keresztmetszetek, vasalási paraméterek, tervezési paraméterek és analízis eredmények)_, úgy a jelölőnégyzetek segítségével kiválasztható, hogy a **Számítás** gombra kattintva a kiválasztott teherkombinációkra a szabványos vizsgálatok végrehajtásra kerüljenek.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":37221,"width":442,"height":458,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/06/dial_tervezes_vb.png)](./img/wp-content-uploads-2022-06-dial_tervezes_vb.png)
-
-
-A vasbeton tervezéshez a szükséges bemenő paraméterek a következők (részletesen lásd a **_[Vasbeton keresztmetszetek](../5_0_structural-modeling/5_2_line-members.md#vasbeton-keresztmetszetek)_** fejezetben):
-
-
-- Vasbeton gerendák és oszlopok esetében:
-
-  - [Méretezési opcióval rendelkező vasbeton keresztmetszet](../5_0_structural-modeling/5_2_line-members.md#méretezési-opcióval-rendelkező-vasbeton-keresztmetszetek-1)
-
-  - [Vasbeton rúdelemhez rendelt vasalási objektum](../5_0_structural-modeling/5_2_line-members.md#gerenda-vasalás-definiálása)
-  
-  - [Első vagy másodrendű analízis eredmények](../8_0_structural-analysis/8_5_analysis-results.md#eredmény-típusok)
-
-* Vasbeton lemezek esetében:
-
-  - [Egyes főirányokhoz tartozó vasalási paraméterek](../5_0_structural-modeling/5_3_surface-members.md#felületi-elemek)
-
-  - [Első vagy másodrendű héj elem analízis eredmények](../8_0_structural-analysis/8_5_analysis-results.md)
- 
-
-Amennyiben a vasbeton tervezéshez szükséges bemenő adatok rendelkezésre állnak, a számítás gombra kattintva a szabványos ellenőrzéseket a Consteel minden keresztmetszetre automatikusan elvégzi. A keresztmetszetekhez tartozó mértékadó kihasználtságokat eredményező vizsgálatokat a Consteel, a **Mértékadó kihasználtságok** táblázatban automatikusan kigyűjti, a modell grafikán pedig színkódos ábrázolással megjeleníti.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":37213,"width":768,"height":497,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-[![](./img/wp-content-uploads-2022-06-scr_tervezes_vb-1024x663.png)](https://Consteelsoftware.com/wp-content/uploads/2022/06/scr_tervezes_vb.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-A képernyő bal felső sarkában található legördülő menüben az egyes vizsgálatok eredményei külön-külön is lekérhetők:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":37205,"sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2022-06-scr_tervezes_vb_vizsgalatok.png)
-
-<!-- /wp:image -->
-
-<!-- wp:heading {"level":3,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
 ### Vasbeton gerendák tervezése
 
@@ -182,9 +120,6 @@ A vasbeton gerenda tervezés az **Eurocode 1992-1-1** következő vizsgálatait 
 
 
 ### Vasbeton oszlopok tervezése
-
-**Consteel 16**
-
 
 [![objektum_tulajdonsagok_tervezesi_parameter_oszlop](https://www.Consteelsoftware.com/wp-content/uploads/2023/07/objektum_tulajdonsagok_tervezesi_parameter_oszlop-1.png)](./img/wp-content-uploads-2023-07-objektum_tulajdonsagok_tervezesi_parameter_oszlop-1.png)
 
@@ -451,39 +386,7 @@ A vasbeton oszlop tervezés az **Eurocode 1992-1-1** következő vizsgálatait h
   - EN 1992-1-1 6.2.3. (3) (6.8) és (6.9) formula, Nyírási teherbírás tervezési értéke nyírási vasalással
 
 
-**Consteel 15**
-
-
-A vasbeton oszlop tervezés az **Eurocode 1992-1-1** következő vizsgálatait hajtja végre:
-
-
-- Szerkesztési szabályok
-
-  - EN 1992-1-1 9.5.2 (1), Hosszirányú acélbetétek minimális átmérője
- 
-  - EN 1992-1-1 9.5.2 (2), (9.12.N) formula, Minimális hosszirányú vasmennyiség
- 
-  - EN 1992-1-1 9.5.2 (3), Maximális hosszirányú vasmennyiség
-
-  - EN 1992-1-1 9.5.3. (1), Kengyel minimális átmérője
-
-  - EN 1992-1-1 9.5.3 (2), Maximális kengyeltávolság
-
-
-* Hajlítás
-
-  - EN 1992-1-1 5.8.3, 5.8.8, Ferde hajlítás
-
-
-- Nyírás
-
-  - EN 1992-1-1 6.2.2 (1) (6.2.a) és (6.2.b) formula, Nyírási teherbírás tervezési értéke nyírási vasalás nélkül
-
-  - EN 1992-1-1 6.2.3. (3) (6.8) és (6.9) formula, Nyírási teherbírás tervezési értéke nyírási vasalással
-
-
 Vasbeton oszlopoknál megjeleníthető a **[teherbírási felület](../10_0_section-module/10_2_section-module.md)** is.
-
 
 
 ### Vasbeton lemezek tervezése

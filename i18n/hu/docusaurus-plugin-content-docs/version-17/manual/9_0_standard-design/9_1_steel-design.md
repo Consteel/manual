@@ -19,11 +19,7 @@ Az acélszerkezet tervezéshez szükséges funkciók a **Globális vizsgálatok*
 
 #### Alapok
 
-<!-- /wp:heading -->
 
-<!-- wp:paragraph -->
-
-**Consteel 17**
 
 <!-- /wp:paragraph -->
 
@@ -35,7 +31,7 @@ Az acélszerkezet tervezéshez szükséges funkciók a **Globális vizsgálatok*
 
 <!-- wp:paragraph -->
 
-Consteel 17-től kezdve a Használhatósági határállapot vizsgálatok ![](./img/wp-content-uploads-2024-02-9.1.-SLS-Check-icon.png) is szerepelnek a Globális vizsgálatok fülön a Teherbírási határállapot vizsgálatok ![](./img/wp-content-uploads-2024-02-9.1.-ULS-Check-icon.png) mellett.
+A Használhatósági határállapot vizsgálatok ![](./img/wp-content-uploads-2024-02-9.1.-SLS-Check-icon.png) és a Teherbírási határállapot vizsgálatok ![](./img/wp-content-uploads-2024-02-9.1.-ULS-Check-icon.png) is  a Globális vizsgálatok fülön  szerepelnek.
 
 <!-- /wp:paragraph -->
 
@@ -43,35 +39,12 @@ Consteel 17-től kezdve a Használhatósági határállapot vizsgálatok ![](./i
 
 A már előzőleg kiválasztott beállításokkal a **Globális vizsgálatok** a ![](./img/wp-content-uploads-2024-02-9.1.-global-checks-run-icon.png) gombbal indítható el. Ezt a gombot csak abban az esteben ajánlott használni, amikor az Analízis, Terhek illetve a kombinációk nem változnak, csak a vizsgálatot ismételjük. Például, ha csak a rúd szelvényen esik módosítás.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"fontSize":"medium"} -->
-
-**Consteel 16**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":46190,"sizeSlug":"large","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2023-03-image-2-1024x63.png)
-
-<!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-Keresztmetszet ellenőrzés és a globális stabilitás vizsgálat (EN 1993-1-1 6.3.4 fejezet (Általános módszer) szerint) végezhetők el a Globális vizsgálatok fülön. Ezek a vizsgálatok teljesen függetlenek mindenféle speciális szerkezeti elem paramétertől (pl.: kihajlási hossz stb.), ezért teljesen automatikusan elvégezhetők az egész szerkezetre.
+ Ezek a vizsgálatok teljesen függetlenek mindenféle speciális szerkezeti elem paramétertől (pl.: kihajlási hossz stb.), ezért teljesen automatikusan elvégezhetők az egész szerkezetre.
 
-<!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
-
-A tervezési beállítások a ![](./img/wp-content-uploads-2021-04-DesignSettingsIcon-1.jpg) ikonra való kattintással (vagy F7-tel) érhetők el.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-A ![](./img/wp-content-uploads-2021-04-Design_Icon.jpg) ikon (vagy F8) választásával a szabványos tervezés az előzőleg mentett beállításokkal fut le.
 
 <!-- /wp:paragraph -->
 
@@ -79,33 +52,7 @@ A ![](./img/wp-content-uploads-2021-04-Design_Icon.jpg) ikon (vagy F8) választ�
 
 A dialóg felső részén kiválasztható, hogy mely eredmény típus (első vagy másodrendű analízis) alapján történjen a vizsgálatok elvégzése, illetve a táblázatban kiválasztható, hogy mely teherkombinációk esetén.
 
-<!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"fontSize":"medium"} -->
-
-**Consteel 15**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":36989,"width":763,"height":47,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
-
-[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/06/tab_tervezes.png)](./img/wp-content-uploads-2022-06-tab_tervezes.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-Keresztmetszet ellenőrzés és a globális stabilitás vizsgálat (EN 1993-1-1 6.3.4 fejezet (Általános módszer) szerint) végezhetők el a Globális vizsgálatok fülön. Ezek a vizsgálatok teljesen függetlenek mindenféle speciális szerkezeti elem paramétertől (pl.: kihajlási hossz stb.), ezért teljesen automatikusan elvégezhetők az egész szerkezetre.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-A dialóg felső részén kiválasztható, hogy mely eredmény típus (első vagy másodrendű analízis) alapján történjen a vizsgálatok elvégzése, illetve a táblázatban kiválasztható, hogy mely teherkombinációk esetén.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4} -->
 
 #### Keresztmetszet vizsgálat
 
@@ -246,13 +193,7 @@ Az elvégzett ellenőrzések eredményei megtekinthetők grafikus formában, vag
 
 Az aktuálisan megjelenített eredménytípus a legördülő menüből választható ki.
 
-<!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
-
-Consteel 17
-
-<!-- /wp:paragraph -->
 
 <!-- wp:image {"id":73131,"width":"214px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
@@ -422,9 +363,6 @@ Az Eredmény táblázat néhány tervezési paramétert is megjelenít:
 
 
 A cellákba való jobb kattintás hasonlóan működik, mint a fentebb leírt tervezési eredmények esetében.
-
-
-Consteel 16
 
 
 [![](https://www.Consteelsoftware.com/wp-content/uploads/2022/06/scr_tervezes_globalis_eredmenyek.png)](./img/wp-content-uploads-2022-06-scr_tervezes_globalis_eredmenyek.png)

@@ -536,7 +536,7 @@ A teherátadó felület működés módja a következő:
 Első lépésként létre kell hozni a teherátadó felületet, majd ki kell választani a terhelendő elemeket. A terhelendő elemek kiválaszthatók egyénileg vagy az alapbeállítást változatlanul hagyva a szétosztás megtörténik az összes elemre, ami a teherátadó felület síkjában fekszik. Következő lépésként a felületi terhet kell elhelyezni a teherátadó felületen, ahol szükséges.
 
 
-**Consteel 17-től** kezdve a felületi terhek elosztása a kiválasztott rúdelemekre még mindig automatikusan történik, de a létrehozott Szétosztott vonalmenti terheket egyenként ki lehet választani. Kiválasztva, a tulajdonságok (érték, külpontosság stb.) láthatóak, de nem szerkeszthetőek. Az összes Szétosztott vonalmenti teher kapcsolódik ahhoz a felületi teherhez, amelyből létrejött. A felhasználók szerkeszthetik a vonalmenti megoszló terhek tulajdonságait, miután leválasztották azokat a felületi teherből.
+A létrehozott Szétosztott vonalmenti terheket egyenként ki lehet választani. Kiválasztva, a tulajdonságok (érték, külpontosság stb.) láthatóak, de nem szerkeszthetőek. Az összes Szétosztott vonalmenti teher kapcsolódik ahhoz a felületi teherhez, amelyből létrejött. A felhasználók szerkeszthetik a vonalmenti megoszló terhek tulajdonságait, miután leválasztották azokat a felületi teherből.
 
 
 Ha kézzel helyezett felületi teherről van szó, felrobbantáshoz válassza ki a terhet, majd menjen az Objektum tulajdonságok ablakra → Vonalmenti teher→ Kapcsolódó felületi teher→ kattintson a piros X gombra. ![](./img/wp-content-uploads-2024-02-6.3.4-explode.png).

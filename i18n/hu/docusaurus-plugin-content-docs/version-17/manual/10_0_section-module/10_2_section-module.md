@@ -108,7 +108,7 @@ A Tulajdonságok fül Feszültségek ![](./img/wp-content-uploads-2021-04-cmd_se
 <!-- wp:list -->
 
 - ![](./img/wp-content-uploads-2021-04-cmd_sectmod_stress.png) színezett ábra
-- ![](./img/wp-content-uploads-2021-04-cmd_sectmod_stress3D.png) 3D diagram (_csak a 15-ös verziótól_)
+- ![](./img/wp-content-uploads-2021-04-cmd_sectmod_stress3D.png) 3D diagram 
 
 <!-- /wp:list -->
 
