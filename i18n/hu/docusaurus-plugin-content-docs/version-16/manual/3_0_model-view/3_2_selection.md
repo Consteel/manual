@@ -16,9 +16,6 @@ Az alapvető kijelölési módok és azok működése a következő:
 * A **kijelölés ablakkal** a bal egérgombbal történő ablakrajzolással lehetséges. Az egérgomb fölengedésével a rajzolás befejeződik. Az ablak aktuális mérete rajzolás közben folyamatosan látható. Ha az ablakot balról jobbra rajzoljuk, akkor csak azok az objektumok kerülnek kijelölésre, amelyek teljes terjedelmükben az ablakon belül esnek. Ha az ablakot jobbról balra rajzoljuk, akkor az ablak belsejébe eső elemeken kívül, az ablak határvonalai által elmetszett elemek is kijelölésre kerülnek, akár milyen kis részt is érint az ablak.
 
 
-- **CTRL + jobb klikk kijelölés**: a CTRL billentyű lenyomásával és jobb kattintással az egérmutatóhoz legközelebb eső objektum lesz kijelölve.
-
-
 
 * **Kijelölés tulajdonságok szerint**: a funkció elérhető a bal oldali sávból, vagy a grafikus képernyőre való jobb egérgombos kattintással megjelenő helyi menüből is. A kívánt elemek kijelölése elvégezhető a megnyíló **_Kiválasztás tulajdonságok alapján_** című ablakban.
 
@@ -52,23 +49,6 @@ Az alapvető kijelölési módok és azok működése a következő:
 
  <!-- wp:list-item -->
 - **Kijelölés az objektumfáról**: kijelölni kívánt elemek kijelölése az [_**Objektumfán**_](../1_0_general-description/1_2_the-main-window.md#objektumfa-objektum-tulajdonságok-és-diagnosztika-ablakok) látható elemek nevére való kattintással. A _**CTRL**_ vagy a _**SHIFT**_ billentyű lenyomása mellett a többszörös elemkijelölés is elvégezhető. A kiválasztás megszüntethető a modellfán kijelölt objektumnévre a _**CTRL**_ billentyű egyidejű lenyomásával történő újbóli kattintással.
-
-- **Kijelölés az Objektum tulajdonságokból:** egy elemet kiválasztva, annak objektum tulajdonságait megtekinthetik a főablak jobb alsó részén. **Consteel 17-** től kezdve, a modellben több elem is kijelölhető, melyek azonos tulajdonságokkal rendelkeznek. Ezeket az elemeket a tulajdonságukra (például anyag) való dupla kattintással választhatják ki.
-
-![](./img/wp-content-uploads-2024-02-HU-3.2.-Object-property-selection-3.png)
-
-- **Kijelölés a Tervezési eredményekből:** Consteel 17-től kezdve a felhasználók kiválaszthatják az elemeket a tervezési eredmény táblázatból azok kihasználtsága szerint.
-
-- Tervezési eredmény táblázat:
-
-![](./img/wp-content-uploads-2024-02-HU-3.2-Selection-cells-3-1024x185.png)
-
-
-- Bármely cellára jobb kattintással és a "Rudak kijelölése" opcióval a felhasználók kiválaszthatják a megfelelő elemet. Ha több cella van kijelölve, és a pontok különböző rudakhoz tartoznak, akkor több rúd lesz kiválasztva.
-
-- Attól függetlenül, hogy melyik tulajdonságot választják ki (a felhasználók választhatnak cellákat bármely oszlopból), a "Rudak kijelölése” gomb megnyomásával az egész rúd ki lesz választva, ami magában foglalja a kiválasztott véges elemet vagy csomópontot, amelyet az egész sor jellemez.
-
-- Figyelem, a Globális vizsgálatok fülön az elemek színei azok kihasználtságát jelzik. A kiválasztott elemek megtekintéséhez váltson a Globális vizsgálatok fülről valamelyikre az első négy közül: Geometria, Szerkezeti elemek, Terhek vagy Tömegek.
 
 
 További általános kiválasztási funkció (mindet kijelöl, kijelölés törlése, kijelölés megfordítása) található az **_[Oldalsávon](../1_0_general-description/1_2_the-main-window.md#oldalsáv)_**, vagy elérhetőek a képernyőre történő jobb egérgombos kattintással, illetve _[**Gyorsbillentyűk**](../1_0_general-description/1_5_hot-keys.md)_ segítségével is.
