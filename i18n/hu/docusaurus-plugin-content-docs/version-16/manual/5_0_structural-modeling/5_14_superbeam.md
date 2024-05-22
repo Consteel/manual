@@ -23,7 +23,7 @@ A _**Superbeam koncepció**_ kibővíti a hagyományos 7 szabadságfokú rúdele
 
 <!-- wp:paragraph {"align":"right","fontSize":"small"} -->
 
- A funkció a Consteel 15-ös verziójával került be a programba
+
 
 <!-- /wp:paragraph -->
 
