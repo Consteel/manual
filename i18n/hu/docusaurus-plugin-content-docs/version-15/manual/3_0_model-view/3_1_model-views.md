@@ -67,9 +67,7 @@ Ha az _**Elrejtett részek megjelenítése áttetszően**_ jelölőnégyzetet be
 
 [![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-submodel-2.jpg)](./img/wp-content-uploads-2021-04-4-2-model-view-submodel-2.jpg)
 
-**Consteel 17**-től elérhető a **Elrejtés** funkció (Alt+H). Válassza ki azokat az elemeket, amelyeket el szeretne rejteni, majd aktiválja a elrejtés ikont vagy használd az Alt+H billentyűkombinációt a végrehajtáshoz.
 
-![](./img/wp-content-uploads-2024-02-3.1.Hide-CS17-HU.png)
 
 A teljes modell újbóli láthatóvá tételéhez kattintsunk a **_Részlet kezelő_** ablakában a _**Teljes modell**_ nézet parancsra:
 

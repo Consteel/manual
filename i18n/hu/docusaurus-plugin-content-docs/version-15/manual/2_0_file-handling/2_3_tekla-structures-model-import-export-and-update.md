@@ -265,7 +265,7 @@ A szerkezeti modell (pl.: gerendák, oszlopok, födémek, falak) exportálásán
 
 <!-- wp:image {"align":"center","id":7468,"width":467,"height":212,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/3-2-tekla-cs-tekla.jpg)](./img/wp-content-uploads-2021-04-3-2-tekla-cs-tekla.jpg)
+![alt text](img/cstotekla.png)
 
 <!-- /wp:image -->
 
