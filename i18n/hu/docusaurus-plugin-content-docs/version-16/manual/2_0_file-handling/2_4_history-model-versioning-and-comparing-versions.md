@@ -105,15 +105,6 @@ A verzióelőzmény elem tartalmazza a modell nevét, a verzió számát, a lét
 
 <!-- wp:paragraph -->
 
-Consteel 17-től kezdve, a Modell Verzióelőzmény frissítésre került. Az összes csapattag menthet új verziót a modell előzményébe a jogosultsági szintjeiknek megfelelően. Az információk a modellverziót létrehozó személyről, valamint a mentés pontos dátumáról és időpontjáról megjelennek a verzió neve alatt.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":44064,"width":385,"height":690,"sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2022-12-history_item2.jpg)
-
-_Új verzióelőzmény elem létrehozásához kattints a Verzió létrehozása gombra_
 
 <!-- /wp:image -->
 
