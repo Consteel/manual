@@ -3,21 +3,7 @@ sidebar_position: 1
 ---
 # Dokumentálás fül
 
-<!-- wp:paragraph {"align":"center"} -->
 
-**Consteel 17**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":72015,"width":"170px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2024-01-13.1-Document-tab-HU-CS17.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph {"align":"center"} -->
-
-**Consteel 16**
 
 <!-- /wp:paragraph -->
 
@@ -276,16 +262,6 @@ A harmadik ikon ![](./img/wp-content-uploads-2021-04-14-1-snapshot-manager.png) 
 <!-- /wp:columns -->
 
 <!-- wp:heading {"level":3} -->
-
-### **Import Log**
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-**Consteel 17** verziótól kezdve az **Import log**![](./img/wp-content-uploads-2021-04-13.1-Document-tab-CS17-Import-log.png)bevezetésre került. Ez tartalmazza az összes importált objektumot azok attribútumaival, és kiemeli, ha néhány jellemzőt alapértelmezettnek állítottak be, vagy ha bármilyen probléma merült fel az importálás során.
-
-<!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
 
