@@ -76,17 +76,7 @@ A _Consteel_ menüi tartalmazzák az összes parancsot. A legtöbb funkció a f�
 
 #### Fájl menü
 
-
-
-![](./img/wp-content-uploads-2022-01-cs14_menu_file_hu.png)
-
-Consteel 14
-
-
-
 [![](https://www.Consteelsoftware.com/wp-content/uploads/2022/01/menu_file_hu.png)](./img/wp-content-uploads-2022-01-menu_file_hu.png)
-
-Consteel 15
 
 
 _Project Center_ (CS15)
@@ -304,29 +294,7 @@ Szokásos Windows szolgáltatások, amelyek nem igényelnek különösebb magyar
 
 #### Nézet menü
 
-<!-- /wp:heading -->
 
-<!-- wp:paragraph -->
-
-Consteel 17
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":71855,"width":"226px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2024-01-1.2.2.3.-CS17-View-menu-HU.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-A többi ablak mellett a Modell tartalma ablak is külön be- és kikapcsolható a Részletmodellek ablaktól függetlenül.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-Consteel 16
 
 <!-- /wp:paragraph -->
 
@@ -364,59 +332,23 @@ Az Objektum méretei… funkcióval az alábbi objektumok megjelenítési méret
 
 Az Opciók menüben a következő beállítási lehetőségek találhatóak:
 
-<!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
-
-Consteel 17
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":71885,"width":"404px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2024-01-Options-menu-HU-CS17.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-Consteel 16
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-_Mentés_, _Frissítés_, _Nyelv, Háttérszín, Stílusok, Diagnosztika_ és _Idea StatiCa átmenet_.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-Consteel 15
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
 
 _Mentés_, _Frissítés_, _Nyelv_, _Stílusok_, _Diagnosztika_ és _Idea StatiCa átmenet_.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-_Mentés_
 
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"left","id":31094,"width":"322px","height":"221px","sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/01/options_hu.png)](./img/wp-content-uploads-2022-01-options_hu.png)
+
 
 #### Opciók menü - Mentés
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/01/options_hu.png)](./img/wp-content-uploads-2022-01-options_hu.png)
 
 Ha az Automatikus mentés funkció be van kapcsolva, a program a megadott időközönként automatikus mentéseket készít. Ha a Biztonsági másolat funkció be van kapcsolva, akkor a _Consteel_ biztonsági másolatot hoz létre a modellről, _de csak az első manuális mentést követően_! A biztonsági mentési fájl tartalma azonos a mentéskori modellfájl tartalmával, a fájl kiterjesztése azonban a .bak kiterjesztéssel bővül, melynek eltávolításával a biztonsági mentési fájl a _Consteel_-ba betölthető.
 
@@ -436,13 +368,7 @@ Ha a biztonsági másolat funkció aktív, valamely korábbi verzióban készül
 
 <!-- wp:paragraph -->
 
-_Részletmodellek kijelölésének megtartása (csak a 17-es verziótól)_
 
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":71865,"width":"191px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2024-01-Options-keep-portion-HU-CS17.png)
 
 <!-- /wp:image -->
 
@@ -454,18 +380,11 @@ A részletmodellek kijelölésének megtartása funkció segítségével a felha
 
 <!-- wp:paragraph -->
 
-_Frissítés_
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"left","id":31087,"sizeSlug":"medium","linkDestination":"media"} -->
-
-[![](./img/wp-content-uploads-2022-01-options_frissites_hu-300x206.png)](https://Consteelsoftware.com/wp-content/uploads/2022/01/options_frissites_hu.png)
 
 #### Opciók menü - Frissítés
 
 <!-- /wp:image -->
-
+[![](./img/wp-content-uploads-2022-01-options_frissites_hu-300x206.png)](https://Consteelsoftware.com/wp-content/uploads/2022/01/options_frissites_hu.png)
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
 A frissítése funkció minden indításkor ellenőrzi az interneten, hogy elérhető-e újabb verzió. Ez a funkció itt kikapcsolható. Az ellenőrzés manuálisan is elvégezhető a Frissítés keresése most (![](./img/wp-content-uploads-2021-04-2-2-Search-update.png) ) ikonra kattintva..
@@ -474,9 +393,7 @@ A frissítése funkció minden indításkor ellenőrzi az interneten, hogy elér
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-Felhasználói élmény fokozása
 
-<!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify","editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
@@ -490,13 +407,11 @@ A termékeink az alábbi információkat gyűjtik és küldik el: verzióinform�
 
 
 
-#### _Nyelv_
+#### Opciók menü - Nyelv
 
 
 
 [![](./img/wp-content-uploads-2022-01-options_nyelv_hu-300x206.png)](https://Consteelsoftware.com/wp-content/uploads/2022/01/options_nyelv_hu.png)
-
-Opciók menü - Nyelv
 
 
 
@@ -507,18 +422,6 @@ Itt állítható be a felhasználói felület nyelve, ami a következő nyelvek 
 A felhasználói felület nyelvének változtatása a program újraindítását követően érvényesül.
 
 
-
-#### _Háttérszín_ (Consteel 16-tól)
-
-
-
-[![Opciók párbeszédablak - háttérszín](https://www.Consteelsoftware.com/wp-content/uploads/2023/01/Opciok_dialog_hatterszin_j.png)](./img/wp-content-uploads-2023-01-Opciok_dialog_hatterszin_j.png)
-
-Opciók menü - Háttérszín
-
-
-
-A modell képernyő háttérszíne állítható itt be.
 
 
 
@@ -536,13 +439,13 @@ A különböző objektumok színeit lehet megadni.
 
 
 
-#### _Diagnosztika_
+#### Opciók menü - Diagnosztika
 
 
 
 [![](./img/wp-content-uploads-2022-01-options_diag_hu-300x206.png)](https://Consteelsoftware.com/wp-content/uploads/2022/01/options_diag_hu.png)
 
-Opciók menü - Diagnosztika
+
 
 
 
@@ -557,35 +460,7 @@ Analízis indítása előtt, a program ellenőrzi az esetleges modellezési hib�
 További infót ld. még: [_Modellvizsgálat_](../8_0_structural-analysis/8_2_model-check-diagnostics.md) és _[Diagnosztika ablak](#diagnosztika-ablak)_
 
 
-#### _Teherszétosztás_
-
-
-
-![](./img/wp-content-uploads-2024-01-Options-menu-HU-CS17-load-distribution.png)
-
-
-
-Consteel 17-től ez a funkció a Modell beállítások kategóriához tartozik, együtt a Diagnosztikával.
-
-
-
-Az Automatikus teherszétosztás kikapcsolható a modellezés sebességének növelése érdekében.
-
-
-
-Általában a szoftver automatikusan elosztja a felületi terheket a teher átadó felület segítségével, és az elosztás azonnal megtörténik bármilyen változás után, amely azt indokolja.
-
-
-
-Nagy modellek esetén, amelyek több teher átadó felülettel rendelkeznek, ez lassíthatja a modellezési folyamatot. Az automatikus teherszétosztás kikapcsolása a modellezés idejére felgyorsíthatja a folyamatot.
-
-
-
-Fontos megjegyezni, hogy amikor ez a funkció ki van kapcsolva, a vonalmenti megoszló teher már nem érvényesek egy új TÁF vagy a felületi teher változásakor. Ennek eredményeként a modellt ebben az állapotban nem lehet analízisnek alávetni. Egy diagnosztika figyelmeztetés jelenik meg. A terhek frissítéséhez, jelölje be a jelölőnégyzetet, vagy kattintson a Diagnosztika figyelmeztetés alatt megjelenő Frissítés gombra.
-
-
-
-#### _IDEA StatiCa átmenet_
+#### IDEA StatiCa átmenet
 
 
 
@@ -641,61 +516,7 @@ Az egyéni szabványbeállítást a program az alábbi fájlba menti: _\Dokument
 
 
 
-Consteel 17
 
-
-
-![](./img/wp-content-uploads-2024-01-1.2.-Help-menu-HU.png)
-
-
-
-A menü két kategóriára van osztva, amit a hosszanti sáv választ el, ahogy a képen látható. Az első részre vonatkozó információk megtalálhatók lent, a Consteel16-nál.
-
-
-A már létező funkciókon kívül az Első lépések gomb segítségével könnyen elérhető a szoftver YouTube oldala. A Gyorsbillentyűk lenyomásával megjelenik egy lista az összes fontos parancsról és azok megfelelő billentyűparancsairól.
-
-
-![](./img/wp-content-uploads-2024-01-1.2.-Help-center-HU-1024x683.png)
-
-
-A második kategóriához a Support kérdés beküldése gombra kattintva lehet eljutni. Az online ablak megnyílik, és két lehetőség jelenik meg. A problémától függően a felhasználók választhatnak a Consteel támogatás vagy a Steelspace támogatás között.
-
-
-
-![](./img/wp-content-uploads-2024-01-1.2.-Consteel-tamogatas-HU.png)
-
-
-A Consteel támogatás központban további lehetőségek válnak elérhetővé:
-
-
-
-• Támogatási kérés: A legáltalánosabb lehetőség, amikor műszaki támogatásra van szükség.
-
-
-• Engedélyezési, védelem és frissítési problémák.
-
-
-• Funkciókérés: Új funkciók vagy meglévők javításának javaslatához.
-
-
-![](./img/wp-content-uploads-2024-01-1.2.-Steelspace-tamogatas-HU.png)
-
-A Steelspace támogatás a következő célokra szolgál:
-
-
-• Kaphat segítséget konkrét problémák esetén.
-
-
-• Hiba bejelentés, amikor problémák merülnek fel a Steelspace használata során.
-
-
-• Funkciókérés, új funkciók vagy meglévők fejlesztéséhez.
-
-
-• Kérjen nagyobb sávszélességet.
-
-
-Consteel 16
 
 ![](./img/wp-content-uploads-2022-05-help_menu_hun-1.png)
 
@@ -773,17 +594,6 @@ A különböző szerkezeti analízis típusok beállítása és végrehajtása v
 
 #### Globális vizsgálatok fül
 
-Consteel 17
-
-
-
-![](./img/wp-content-uploads-2024-01-1.2.-Global-checks-HU.png)
-
-
-A Consteel 17-től kezdve a használhatósági határállapotok vizsgálata, valamint a teherbírási határállapotok vizsgálata is be van építve a Globális vizsgálatok fülbe.
-
-
-Mindkét ellenőrzést külön-külön el lehet végezni, azok megfelelő nyilainak (a kék és a zöld) lenyomásával, illetve együttesen ![](./img/wp-content-uploads-2021-04-1.2.-Global-check-ikon-CS17.png) ikonra kattintva. További részletes információkért látogasson el a [_Standard design_](../../category/standard-design) _(Szabványos tervezés)_ fejezetbe.
 
 
 [![](https://www.Consteelsoftware.com/wp-content/uploads/2022/01/tab_glob_hu.png)](./img/wp-content-uploads-2022-01-tab_glob_hu.png)
@@ -822,14 +632,6 @@ Fóliák kezeléséhez és beállításához tartozó funkciók találhatóak a 
 #### Dokumentálás fül
 
 
-Consteel 17
-
-
-![](./img/wp-content-uploads-2024-01-1.2.-The-tabs-document-HU-CS17.png)
-
-
-Consteel 16
-
 
 [![](https://www.Consteelsoftware.com/wp-content/uploads/2022/01/tab_dok_hu.png)](./img/wp-content-uploads-2022-01-tab_dok_hu.png)
 
@@ -838,18 +640,6 @@ A Dokumentálás fül funkciói segítségével hozható létre a részletes sta
 
 
 #### Súgó fül
-
-
-Consteel 17
-
-
-![](./img/wp-content-uploads-2024-01-1.2.-The-tabs-help-menu-HU.png)
-
-
-A kérdőjel ikonra kattintva ugyanazt a Súgó oldalt érheti el, mint amit a [Súgó menüben](#súgó-menü) leírva található.
-
-
-Consteel 16
 
 
 ![](./img/wp-content-uploads-2022-05-help_tab_hun.png)
@@ -866,13 +656,6 @@ Az ikonra kattintva ugyanazt a Teherkombináció csomagok ablakot érheti el, mi
 
 ### Oldalsáv
 
-Consteel 17
-
-
-Consteel 17-től kezdve a Mozgatás![](./img/wp-content-uploads-2021-04-1.2-Side-bar-move-CS17.png) és Másolás ![](./img/wp-content-uploads-2021-04-1.2-Side-bar-copy-CS17.png)funkciók most már két különböző gombbal vannak elkülönítve.
-
-
-Consteel 16
 
 
 Az oldalsáv a modellezés során leggyakrabban használt funkciókat tartalmazza.
@@ -1227,51 +1010,6 @@ Az állapotsor utolsó mezője a meghosszabbítás lépésköze. A mezőben mega
 Ezek az ablakok a [Nézet ](#nézet-menü)menüben kapcsolhatók ki/be. A program indításánál alapértelmezetten a Diagnosztika ablaka kikapcsolt állapotban, a másik kettő bekapcsolt állapotban van, és a képernyő jobb szélén jelennek meg. Az ablakok a címsoron történő Fogd-és-vidd művelettel (drag&drop) áthelyezhetők, és a képernyő bármely széléhez dokkolhatók.
 
 
-Consteel 17
-
-
-![](./img/wp-content-uploads-2024-01-HU-1.2.7.-CS17-View-panel.png)
-
-
-Részletmodellek fül
-
-
-A Modellrészek ablak alapértelmezett pozíciója a jobb felső sarokban található. Két részre oszlik: Egyedi részletek és Auto részletek.
-
-
-![](./img/wp-content-uploads-2024-01-HU-1.2.7.-CS17-Model-Portions.png)
-
-
-Részletes leírásért lásd a Modellnézeteket és a Részletek kezelőjét!
-
-
-Objektum tulajdonságok
-
-
-![](./img/wp-content-uploads-2024-01-HU-1.2.7.-CS17-View-panel-Object-properties.png)
-
-
-Az Objektum tulajdonságok fülön (alapértelmezetten az ablak jobb alsó részén) az elemek kezdeti és végpontjai azonosíthatók; ezeket sárgával és magentával jelzik.
-
-
-![](./img/wp-content-uploads-2024-01-HU-1.2.7.-CS17-View-panel-Object-properties-start-and-end-point.png)
-
-
-A színes pont méretének növeléséhez menjen a nézet panelre, objektumok méreteire, és módosítsa azt a lokálrendszerből, ahogy azt a lenti képen láthatja:
-
-
-![](./img/wp-content-uploads-2024-01-HU-1.2.7.-CS17-View-panel-size-strat-and-end-point.png)
-
-
-Modell tartalma fül (Ctrl+Q)
-
-
-![](./img/wp-content-uploads-2024-01-HU-1.2.7.-CS17-Model-Content.png)
-
-A Modell tartalma fül tartalmazza az összes előre meghatározott alap objektumtípust, amelyekkel szerkezeti modellt lehet építeni. További részletekért lásd a Kiválasztás fejezetet és a Consteel 16-ot.
-
-
-Consteel 16
 
 
 [![](https://www.Consteelsoftware.com/wp-content/uploads/2022/01/menu_nezet_hu.png)](./img/wp-content-uploads-2022-01-menu_nezet_hu.png)
@@ -1306,22 +1044,6 @@ Részlet kezelő használatának leírását ld. a [Részlet kezelő](../3_0_mod
 #### Diagnosztika ablak
 
 
-Consteel 17
-
-
-![](./img/wp-content-uploads-2024-01-1.2.-Diagnostics-Window-HU-CS17.png)
-
-
-A Consteel 17-től kezdve a már meglévő hibaüzenetek mellett megjelenik egy narancssárga színű hibaüzenet is.
-
-
-Ez a hiba akkor jelentkezik, amikor az automatikus terheléselosztás ki van kapcsolva és a modellben olyan változás történik, amely indokolja a terhek újraosztását a helyes eredmény eléréséhez. A terheléseket a modell új állapotához való frissítéshez jelölje be a négyzetet, vagy kattintson a diagnosztika üzenet alatt megjelenő Frissítés gombra.
-
-
-További információkért kérjük, látogasson el az Opciók>[Terheszétosztás](#teherszétosztás) menüpontba.
-
-
-Consteel 16
 
 
 Geometriai vagy modellezési hibák (egy vagy több elem átfedése, hiányzó támasz stb…) észlelése esetén a Diagnosztika ablak automatikusan megjelenik, kijelezve a problémás elemeket.
