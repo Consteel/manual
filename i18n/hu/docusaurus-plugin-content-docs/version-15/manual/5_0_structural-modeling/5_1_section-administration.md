@@ -55,8 +55,3 @@ Megnyitja a kiválasztott szelvényt a **[Keresztmetszet modulban](../../categor
 
 A szelvények betöltésével és létrehozásával kapcsolatos részleteket lásd a **_[Rúdelemek](../5_0_structural-modeling/5_2_line-members.md)_** című fejezetben!
 
-
-**Consteel 17**-től kezdve a Szelvénykezelő panelen belül az acélszelvények anyaga megváltoztatható jobb kattintással és az „Anyagminőség módosítása” funkciót választva. Ez a módosítás alkalmazható egyedi szelvényekre vagy egyszerre több szelvényre is.
-
-
-![](./img/wp-content-uploads-2024-02-5.2-modify-steel-section-HU-1.png)

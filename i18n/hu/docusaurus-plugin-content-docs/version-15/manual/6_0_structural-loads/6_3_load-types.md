@@ -519,9 +519,9 @@ Felületi teher szétosztása két módszer szerint történhet:
 
 (2) Felületi teher szétosztása szerkezeti pontok alapján módszer az alábbiak szerint osztja szét a terhet:
 
-1. első lépésként a felületi teher a kiválasztott szerkezeti pontokba kerül koncentrálásra a Delaunay háromszögelési módszer használatával
+- első lépésként a felületi teher a kiválasztott szerkezeti pontokba kerül koncentrálásra a Delaunay háromszögelési módszer használatával
 
-6. következő lépésként a koncentrált terhek vonalmenti terhekké alakítása a kiválasztott elemekre a következő eljárások alapján:
+- következő lépésként a koncentrált terhek vonalmenti terhekké alakítása a kiválasztott elemekre a következő eljárások alapján:
 
 - a vonalmenti terhek eredője megegyezik az eredeti felületi teher eredőjével
 
@@ -534,76 +534,6 @@ A teherátadó felület működés módja a következő:
 
 
 Első lépésként létre kell hozni a teherátadó felületet, majd ki kell választani a terhelendő elemeket. A terhelendő elemek kiválaszthatók egyénileg vagy az alapbeállítást változatlanul hagyva a szétosztás megtörténik az összes elemre, ami a teherátadó felület síkjában fekszik. Következő lépésként a felületi terhet kell elhelyezni a teherátadó felületen, ahol szükséges.
-
-
-**Consteel 17-től** kezdve a felületi terhek elosztása a kiválasztott rúdelemekre még mindig automatikusan történik, de a létrehozott Szétosztott vonalmenti terheket egyenként ki lehet választani. Kiválasztva, a tulajdonságok (érték, külpontosság stb.) láthatóak, de nem szerkeszthetőek. Az összes Szétosztott vonalmenti teher kapcsolódik ahhoz a felületi teherhez, amelyből létrejött. A felhasználók szerkeszthetik a vonalmenti megoszló terhek tulajdonságait, miután leválasztották azokat a felületi teherből.
-
-
-Ha kézzel helyezett felületi teherről van szó, felrobbantáshoz válassza ki a terhet, majd menjen az Objektum tulajdonságok ablakra → Vonalmenti teher→ Kapcsolódó felületi teher→ kattintson a piros X gombra. ![](./img/wp-content-uploads-2024-02-6.3.4-explode.png).
-
-
-![](./img/wp-content-uploads-2024-02-HU-6.3.4-surface-load-placing-1.png)
-
-
-![](./img/wp-content-uploads-2024-02-HU-6.3.4-distributed-line-load-2.png)
-
-<!-- /wp:image -->
-
-<!-- wp:image {"id":73263,"width":"618px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2024-02-HU-6.3.4-load-transfer-surface-explode-1.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-A felületi teher felbontása után a következő figyelmeztetés jelenik meg:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":73273,"width":"382px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2024-02-HU-6.3.4-load-transfer-surface-explode-WARNING-1.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-Az generált meteorológiai felületi terhek esetén a felületi teher felbontásához, miután kiválasztották, a láthatóságoknál a "Szétosztott felületi teher" opciót kell választani. Ezután ugyanúgy járjon el, mint az előző esetben.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":73283,"width":"563px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2024-02-HU-6.3.4-load-transfer-wind-load-surface-explode-1-1.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-Ebben az esetben a következő figyelmeztetés jelenik meg:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":73293,"width":"381px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2024-02-HU-6.3.4-load-transfer-surface-wind-explode-WARNING-1.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-A felületi terhek felbontása nem visszafordítható.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-A felületi terhek automatikus szétosztása ideiglenesen kikapcsolható a modellezés felgyorsítása érdekében. További információkért látogasson el az "Opciók" menübe.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4} -->
 
 #### Teherátadó felület módosítása
 

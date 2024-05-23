@@ -123,16 +123,12 @@ Az elérhető típusok a kiválasztott szelvénytől függenek.
   - **Húzott rúd**: tengelyirányú nyomást nem tud felvenni. Ha az analízis során nyomás lép fel egy ilyen elemben, a program figyelmen kívül hagyja az elemet.
 
 
-  * **Húzott rúd (pótátlós merevítés)** Consteel 17-től, húzott pótátlós merevítési rendszer egyedi húzott elemeire alkalmazható opció, amely során azt feltételezzük, hogy a merevítő elemek párosan vannak úgy elhelyezve, hogy mindig csak az egyik dolgozik húzásra, a másik pedig nyomás hatására kihajlik. Az így megjelölt elemek a rugalmas sajátérték számításhoz szükséges linearizálás miatt, mint húzott-nyomott elemek lesznek figyelembevéve, 50%-ra csökkentett keresztmetszeti jellemzőkkel.
-
-
 * Minden más szelvény típus esetén a fentiekből csak az alábbi három típus választható:
 
   - **7 DOF rúdelem**
 
   - **Húzott rúd**
- 
-  - **Húzott rúd (pótátlós merevítés)** Consteel 17-től
+
  
 
 **Vasbeton vagy Öszvér keresztmetszet esetén:**
@@ -607,25 +603,6 @@ A szerkesztést itt is a _**Ment és kilép**_ paranccsal lehet befejezni.
 ### Vasbeton keresztmetszetek
 
 
-**Consteel 16**
-
-
-Oszlop és gerenda vasbeton keresztmetszetek definiálását a **_Makró szelvények_** között lehet elvégezni. **A vasbeton keresztmetszetek két fő típusa választható**: a méretezési opcióval rendelkező _(#1)_, és a méretezési opcióval nem rendelkező keresztmetszeti típus _(#2)_.
-
-
-![Makró szelvény felvétele - vasbeton oszlop](./img/wp-content-uploads-2023-07-uj_szelveny_makro_vb_oszlop.png)
-
-Vasbeton oszlop makró szelvények
-
-
-![Makró szelvény felvétele - vasbeton gerenda](./img/wp-content-uploads-2023-07-uj_szelveny_makro_vb_gerenda.png)
-
-Vasbeton gerenda makró szelvények
-
-
-**Consteel 15**
-
-
 Vasbeton keresztmetszetek definiálását a _**Makró szelvények**_ között lehet elvégezni. A vasbeton keresztmetszetek között két fő típus választható, a **méretezési opcióval rendelkező** _(#1)_, és a **méretezési opcióval nem rendelkező** keresztmetszeti típus _(#2)_.
 
 
@@ -635,36 +612,6 @@ Vasbeton keresztmetszetek definiálását a _**Makró szelvények**_ között le
 #### Méretezési opcióval rendelkező vasbeton keresztmetszetek (#1)
 
 
-**Consteel 16**
-
-
-[![](./img/wp-content-uploads-2022-03-dial_makro_vb_meretezesi.png)](./img/wp-content-uploads-2022-03-dial_makro_vb_meretezesi.png)
-
-
-**_Méretezési opcióval rendelkező vasbeton szelvények_** szürke színnel és hálós vasalással vannak ábrázolva a **Makró szelvény felvétele** dialógon. Ilyen szelvényekből a Consteel-ben kétfajta keresztmetszet érhető el:
-
-- Tömör kör alakú szelvény
-
-- Téglalap alakú szelvény
-
-
-Méretezési opció elérhető mind a gerendák, mind az oszlopok esetében.
-
-
-A keresztmetszet kiválasztása után csupán a befoglaló méreteket, az alkalmazott betonminőséget, illetve a szerkezeti analízishez alkalmazott rugalmassági modulus értékét kell kiválasztani.
-
-
-Mivel a lágyvasalás egy adott rúdelem hossza mentén változhat, ezért ennek definiálása egy külön funkció segítségével végezhető el:
-
-- _**Oszlop vasalás**_ ![](./img/wp-content-uploads-2022-05-oszlop_vasalas_ikon.png) vagy
-
-- _**Gerenda vasalás szerkesztő**_![](./img/wp-content-uploads-2022-05-gerenda_vasalas_ikon.png)
-
-
-melyek a **Szerkezeti elemek** fülön találhatók. A betonvasalásokat ezután a beton keresztmetszetű elemekhez kell rendelni. A hozzárendelés az elem kiválasztása után az **Objektum tulajdonságok** ablakban végezhető el.
-
-
-**Consteel 15**
 
 
 [![](https://www.Consteelsoftware.com/wp-content/uploads/2022/03/dial_makro_vb_meretezesi.png)](https://www.Consteelsoftware.com/wp-content/uploads/2022/03/dial_makro_vb_meretezesi.png)
@@ -683,53 +630,6 @@ Mivel a lágyvasalás egy adott rúdelem hossza mentén változhat, ezért ennek
 
 
 #### Gerenda vasalás definiálása
-
-
-**Consteel 16**
-
-
-A **_Gerenda vasalás szerkesztő_** ![](./img/wp-content-uploads-2022-05-gerenda_vasalas_ikon.png) a Szerkezeti elemek fülön található. Elindítva megjelenik a **Vasalás szerkesztő** párbeszédablak.
-
-
-Az ablak az Objektum tulajdonságok panelről is elérhető. Ehhez egy méretezési opcióval rendelkező vasbeton makrószelvényű rúdelemet kell kijelölni, majd a _Vasalás_ mező végén található ![](./img/wp-content-uploads-2021-04-3dots-button.png) ikonra kell kattintani.
-
-
-[![Objektum tulajdonságok - vasbeton rúdelem](https://www.Consteelsoftware.com/wp-content/uploads/2023/07/vb_rud_tulajdonsagok_vasalas-1.png)](./img/wp-content-uploads-2023-07-vb_rud_tulajdonsagok_vasalas-1.png)
-
-Gerenda vasalás, mint objektum paraméter
-
-
-Gerenda vasalási objektum csak akkor hozható létre, ha a modellben van betöltött vasbeton gerenda-keresztmetszet.
-
-
-[![Gerenda vasalás szerkesztő](https://www.Consteelsoftware.com/wp-content/uploads/2023/07/gerenda_vasalas_szerkeszto.png)](./img/wp-content-uploads-2023-07-gerenda_vasalas_szerkeszto.png)
-
-Gerenda vasalás szerkesztő
-
-- \#1 - A **_Hozzáadás_** gombbal új vasalási objektumot vehetünk fel. A **_Másolás_** gomb használatával a másolt objektum örökli az eredeti objektum paramétereit. Több objektum létrehozható, melyek között a váltás a legördülő menü segítségével, törlés pedig a törölni kívánt objektum kiválasztása után a **_Törlés_** gomb segítségével végezhető el.
-
-- \#2 – A dialóg középső részén, a jobb oldali legördülő menüből, a vasalni kívánt keresztmetszet választható ki, aminek keresztmetszeti (befoglaló méretek, anyagminőség) adatai a legördülő menü alatt szöveges formában kerülnek megjelenítésre. A baloldalon található paraméterek, mint a lágyvas anyagminősége, betonfedések, alkalmazott csavarási vasmennyiség és az alkalmazott kengyelátmérő a jobb oldalon kiválasztott keresztmetszethez tartozóan kerülnek definiálásra.
-
-- \#3 – A dialóg alsó része egy többfunkciós panel, melyen a rúdelem hossza mentén az alkalmazott felső és alsó hosszirányú, valamint a keresztirányú nyírási vasak definiálhatók, illetve a már definiált vasakból számolt előtervezési eredmények (MRd és VRd), szerkesztési szabályokra vonatkozó figyelmeztetések megjelenítésre kerülnek. A panel funkciói:
-
-
-[![](./img/wp-content-uploads-2022-03-dial_vasalas_szerkeszto_hozzaadas.png)](./img/wp-content-uploads-2022-03-dial_vasalas_szerkeszto_hozzaadas.png)
-
-
-- **Grafikus megjelenítő**: miután egy beton rúdelemhez hozzárendeltünk egy vasalás objektumot az Objektum tulajdonságok panel Vasalás cellájában, megjelenik a gerenda hossza. Amennyiben rendelkezésre állnak analízis eredmények, úgy a teherkombinációkból származó nyomatéki igénybevételi ábrák is megjelenítésre kerülnek, melyekből a felső legördülő menük segítségével burkoló igénybevételi ábrák is kérhetők. Ha a baloldali felső legördülő menüben a Nyírási vasalás opció van kiválasztva, akkor a grafikus megjelenítőn a nyírási és nyírási burkoló ábrák kerülnek megjelenítésre. A nyomatéki, vagy burkoló nyomatéki ábrák minimális és maximális értékei is feltüntetésre kerülnek a grafikán. Definiált hossz- vagy nyírási vasalás megléte esetén, a grafikus megjelenítőn megjelenítésre kerül az abból számolt Mrd ill. Vrd nyomatéki és nyírási ellenállás is, illetve a beton keresztmetszet Vrd,c és a maximális Vrd,max értéke is. A kapcsolódó szerkesztési szabályok a panel alján kerülnek megjelenítésre.
-
-  - Hosszirányú vas felvétele a baloldali felső legördülő menü _**Hosszvasalás**_ opciójának kiválasztása után a ![](./img/wp-content-uploads-2021-04-sect_rc_rebaredit_add.png) gombbal végezhető el. A megjelenő _**Betonacél hozzáadása**_ dialógon a vas pozíciója, a szálak mennyisége, átmérője, és a rúdelem kezdő-végpontjától való pozicionálása állítható be. A _**Hozzáadás**_ gombra kattintva a hosszvasalás megjelenik a grafikus megjelenítőn. Egy vasalási objektum törlése a ![](./img/wp-content-uploads-2021-04-sect_rc_rebaredit_del.png) megnyomása után az egyes vasak mellett megjelenő ![](./img/wp-content-uploads-2021-04-sect_rc_rebaredit_erase.png) jelre kattintva végezhető el.
-
-  - _**Nyírási vasalás**_ a baloldali felső legördülő menü megfelelő opcióját választva definiálható, szintén a ![](./img/wp-content-uploads-2021-04-sect_rc_rebaredit_add.png) gomb lenyomása után. A megjelenő Betonacél hozzáadása dialógon a kengyeltávolság, illetve a kezdő-végpozíció megadása után a Hozzáadás gombra kattintva a grafikus megjelenítőn megjelenik az alkalmazott kengyelkiosztás. Egy vasalási objektum törlése a ![](./img/wp-content-uploads-2021-04-sect_rc_rebaredit_del.png) megnyomása után az egyes vasak mellett megjelenő ![](./img/wp-content-uploads-2021-04-sect_rc_rebaredit_erase.png) jelre kattintva végezhető el.
-
-
-Egy vasalás objektum több rúdelemhez is hozzárendelhető, ha a rudak paraméterei (hossz és keresztmetszet) megegyeznek.
-
-
-Amennyiben több, változó hosszal rendelkező rúdelemre kerül elhelyezésre a vasobjektum, a Consteel automatikusan létrehoz egy másolatot a vasobjektumról, amihez a megfelelő rúdhosszat rendeli hozzá.
-
-
-**Consteel 15**
 
 
 A _**Vasalás szerkesztő**_ ![](./img/wp-content-uploads-2021-04-cmd_rebareditor.png) dialóg bal oldali paneljén (**#1**) a gerenda vasalás opciót választva érhetők el a lágyvasalás felvételéhez szükséges beállítási és információs lehetőségek.
@@ -764,56 +664,6 @@ Amennyiben több, változó hosszal rendelkező rúdelemre kerül elhelyezésre 
 #### Oszlop vasalás definiálása
 
 
-**Consteel 16**
-
-
-Egy Consteel modell több oszlopvasalást is tartalmazhat, melyek a megfelelő rúdelemekhez rendelhetők. A létrehozott vasalások az **Oszlop vasalások** párbeszédpanel összefoglaló ablakában láthatók.
-
-
-A téglalap és kör keresztmetszetű oszlopok külön füleken szerepelnek. A már definiált vasalások egy táblázatban vannak felsorolva a vonatkozó információikkal együtt.
-
-
-[![Oszlop vasalása - téglalap szelvény](https://www.Consteelsoftware.com/wp-content/uploads/2023/07/oszlop_vasalasok_tablazat-1024x408.png)](./img/wp-content-uploads-2023-07-oszlop_vasalasok_tablazat-1024x408.png)
-
-Oszlop vasalások összefoglaló táblázata
-
-
-Egy új vasalás definiálása az **+ Új létrehozása** gombbal indítható el. Új vasalást egy már meglévő alapján is lehet definiálni a **+ Új létrehozása meglévőből** gomb segítségével.
-
-
-Egy vasalást a soron való dupla kattintással vagy a ![](./img/wp-content-uploads-2021-04-Pencil.png)ikonnal lehet módosítani, és a ![Trash bin](./img/wp-content-uploads-2021-04-Bin.png)ikonnal lehet törölni.
-
-
-[![Oszlop vasalás szerkesztő - tégllap szelvény](https://www.Consteelsoftware.com/wp-content/uploads/2023/07/oszlop_vasalas_szerkeszto_teglalap-1024x745.png)](./img/wp-content-uploads-2023-07-oszlop_vasalas_szerkeszto_teglalap-1024x745.png)
-
-Téglalap szelvényű oszlop vasalás szerkesztője
-
-
-A párbeszédpanel használatával hosszvasalások és kengyelek helyezhetők el a konkrét keresztmetszetben. A betonacélok megjelennek a keresztmetszet dinamikusan méretezett képén.
-
-
-A **téglalap szelvényű** oszlopokban a vasbetétek elhelyezése relatív távolságok megadásával történik. A megadható hosszbetét pozíciók az alábbiak:
-
-- **Fő sarokvasak**: használatuk kötelező, és a rúdelem teljes hosszán végigfutnak. A négyszögszelvényeknek mindig négy sarokvasa van. A betétek átmérője a legördülő listából választható ki.
-- **Kiegészítő sarokvasak Y és Z irányban:** ezek mindkét irányban, a vonatkozó szerkesztési szabályok figyelembevételével, a sarokvasakhoz a lehető legközelebb kerülnek elhelyezésre. A használt koordinátarendszer Y és Z iránya megegyezik a rúdelemnek a 3D modellben használt helyi koordinátarendszerével. A kiegészítő sarokvasak használata nem kötelező, és nem teljes hosszúságú, kiegészítő vasalásként is definiálhatók a _Távolság kezdőponttól_ és a _Hossz_ értékek megadásával. A megadott *Hossz *értéknek tartalmaznia kell a szükséges lehorgonyzási hosszokat is, további automatikus hosszkorrekciókat nem végez a Consteel.
-
-- **oldalsó vasak Y és Z irányban:** további, teljes hosszúságú vasbetétek helyezhetők el a sarkokban elhelyezett betonvasak között egyenletesen elosztva.
-
-
-A kengyelezést az átmérő és a rúd teljes hosszán egyenlő kiosztási távolság megadásával lehet definiálni.
-
-
-**Kör keresztmetszetű** szelvények esetében csak egyféle, adott darabszámú és átmérőjű, a kengyel mentén egyenletesen kiosztott hosszirányú betonacélt lehet megadni.
-
-
-[![Kör szelvényű oszlop vasalása](https://www.Consteelsoftware.com/wp-content/uploads/2023/07/oszlop_vasalas_szerkeszto_kor.png)](./img/wp-content-uploads-2023-07-oszlop_vasalas_szerkeszto_kor.png)
-
-Kör szelvényű oszlop vasalás szerkesztője
-
-
-**Consteel 15**
-
-
 A _**Vasalás szerkesztő**_ dialóg bal oldali panelján (**#1**) az oszlop vasalás opciót választva érhetők el a lágyvasalás felvételéhez szükséges beállítási és információs lehetőségek.
 
 
@@ -835,48 +685,7 @@ A _**Vasalás szerkesztő**_ dialóg bal oldali panelján (**#1**) az oszlop vas
 
 #### Méretezési opcióval nem rendelkező vasbeton keresztmetszetek (#2)
 
-**Consteel 16**
 
-Az ezzel a típussal létrehozott rúdelemek vasbeton tervezésre és vasbetétek ellenőrzésére nem alkalmasak, az ilyen keresztmetszetből felépített rúdelemek analízis eredményeket (lásd **[_**Eredmények megjelenítése**_](../8_0_structural-analysis/8_5_analysis-results.md)**), illetve teherbírási görbéket (lásd _[**Öszvér és vasbeton keresztmetszet**](../10_0_section-module/10_2_section-module.md#öszvér-és-vasbeton-keresztmetszet)_) tudnak szolgáltatni (az alkalmazott vasalásnak, és egyéb keresztmetszeti beállításoknak megfelelő merevséggel számolva).
-
-A rendelkezésre álló oszlopszelvények a következők:
-
-- Téglalap alakú szelvény lyukkal
-
-- Körgyűrű alakú szelvény
-
-
-A rendelkezésre álló gerendaszelvények a következők:
-
-- Kétszeresen szimmetrikus I szelvény
-
-- Egyszeresen szimmetrikus I szelvény
-
-- Változó övvastagságú I szelvény
-
-- Téglalap alakú szelvény lyukkal
-
-- Füllel kiegészített téglalap alakú szelvény
-
-- T alakú szelvény
-
-- Változó övvastagságú T szelvény
-
-- Trapéz alakú szelvény
-
-- Fordított T alakú szelvény
-
-
-:::warning
-
-
-A Consteel korábbi verziójával készített modellek tartalmazhatnak méretezési opció nélküli tömör téglalap és kör alakú szelvényeket. Ezeknek a szelvényeknek a létrehozása már nem áll rendelkezésre, de az ilyen szelvényeket tartalmazó modellek a Consteel újabb verzióiban is normálisan működnek.
-:::
-
-Ezeknek az elavult szelvényeknek a funkcióit a Consteel 16-tól kezdődően teljesen felváltották az új funkciók.
-
-
-**Consteel 15**
 
 
 Az ezzel a típussal létrehozott rúdelemek vasbeton tervezésre és vasbetétek ellenőrzésére nem alkalmasak, az ilyen keresztmetszetből felépített rúdelemek analízis eredményeket (lásd [**Eredmények megjelenítése**](../8_0_structural-analysis/8_5_analysis-results.md#eredmények-megjelenítése/)), illetve teherbírási görbéket (lásd [**Öszvér és vasbeton keresztmetszet**](../10_0_section-module/10_2_section-module.md#öszvér-és-vasbeton-keresztmetszet)) tudnak szolgáltatni (az alkalmazott vasalásnak, és egyéb keresztmetszeti beállításoknak megfelelő merevséggel számolva).
