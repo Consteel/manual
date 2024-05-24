@@ -681,9 +681,7 @@ Pont támaszokra megadható előírt elmozdulás, ami elhelyezhető a **Globáli
 
 <!-- wp:image {"align":"center","id":36036,"width":371,"height":158,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2022-05-dial_teher_hosszvaltozas.png)](./img/wp-content-uploads-2022-05-dial_teher_hosszvaltozas.png)
-
-<!-- /wp:image -->
+![alt text](image.png)
 
 <!-- wp:heading {"level":3} -->
 
