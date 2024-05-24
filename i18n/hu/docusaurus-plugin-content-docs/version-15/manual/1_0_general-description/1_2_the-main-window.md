@@ -648,12 +648,6 @@ A Dokumentálás fül funkciói segítségével hozható létre a részletes sta
 A nélkülözhetetlen támogatással kapcsolatos parancsok a “Súgó” fül alatt találhatóak, úgy mint a “[Support kérdés beküldése](https://Consteel.atlassian.net/servicedesk/customer/portal/1/group/1)”, a “[Licenceléssel kapcsolatos problémák” ](https://Consteel.atlassian.net/servicedesk/customer/portal/1/group/22)vagy a “[Felhasználói kérés beküldése](https://Consteel.atlassian.net/servicedesk/customer/portal/1/group/23/create/60)”, hogy a segítségkérés még könnyebben elérhető legyen a grafikus felületről.
 
 
-#### Teherkombináció csomagok
-
-![alt text](img/tkcsomagok.png)
-
-Az ikonra kattintva ugyanazt a Teherkombináció csomagok ablakot érheti el, mint ami [itt](../6_0_structural-loads/6_2_load-combinations.md#teherkombináció-csomagok) leírva található.
-
 ### Oldalsáv
 
 
@@ -816,9 +810,7 @@ Az ablakot a Nézet menüből is megnyithatja. További információkért látog
 
 #### Lokális koordináta-rendszerek láthatósága (LCS) ![](./img/wp-content-uploads-2022-01-ico_visibility_coord.png)
 
-![alt text](img/lokaliskoordlat.png)
-
-
+![alt text](image-1.png)
 
 - ![](./img/wp-content-uploads-2022-01-visi_coord_rast.png) Raszter láthatósága
 
@@ -829,8 +821,6 @@ Az ablakot a Nézet menüből is megnyithatja. További információkért látog
 - ![](./img/wp-content-uploads-2022-01-visi_coord_plate.png) 3D felületi elemek lokális koordináta-rendszerének láthatósága (lemez, fal)
 
 - ![](./img/wp-content-uploads-2022-01-visi_coord_supp.png) Támaszok lokális koordináta-rendszerének láthatósága
-
--  ![alt text](img/spreadf.png) Pontalap
 
 - ![](./img/wp-content-uploads-2022-01-visi_coord_link.png) Kapcsolati elemek lokális koordináta-rendszerének láthatósága
 

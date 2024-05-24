@@ -1074,7 +1074,6 @@ You can also open the window from the View menu. For more information, visit the
 - Visibility of the LCS of 1D members (beams and columns)
 - Visibility of the LCS of 2D members (plates, slabs and walls)
 - Visibility of the LCS of supports
-- Visibility of the LCS of spread footing
 - Visibility of the LCS of link elements
 - Visibility of the LCS of smart link elements
 - Visibility of the LCS of the load transfer surfaces

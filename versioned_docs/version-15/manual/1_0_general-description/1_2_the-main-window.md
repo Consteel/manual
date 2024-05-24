@@ -61,28 +61,6 @@ The _Consteel_ menu does not contain many commands since the main functionality 
 
 
 
-The File menu differs between Consteel 14 and Consteel 15.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:columns -->
-
-<!-- wp:column {"verticalAlignment":"center"} -->
-
-<!-- wp:image {"align":"center","id":28230,"sizeSlug":"full","linkDestination":"none","className":"is-resized"} -->
-
-![](./img/wp-content-uploads-2021-11-file_menu_cs14.png)
-
-Consteel 14
-
-<!-- /wp:image -->
-
-<!-- /wp:column -->
-
-<!-- wp:column -->
-
-<!-- wp:image {"align":"center","id":27754,"sizeSlug":"full","linkDestination":"media","className":"is-resized"} -->
-
 [![](https://Consteelsoftware.com/wp-content/uploads/2021/04/2-2-File-menu-1.png)](./img/wp-content-uploads-2021-04-2-2-File-menu-1.png)
 
 
@@ -141,7 +119,7 @@ Opens the Project Center with the Recent models saved at your computer in focus.
 
 <!-- wp:paragraph -->
 
-_Open (CS14) and Open from Computer (CS15)_
+_Open and Open from Computer_
 
 <!-- /wp:paragraph -->
 
@@ -153,7 +131,7 @@ Standard file open dialogue window will open.
 
 <!-- wp:paragraph -->
 
-_Open from Cloud_ (Beta) (CS15)
+_Open from Cloud_ 
 
 <!-- /wp:paragraph -->
 
@@ -207,7 +185,7 @@ Choosing the Cloud (Beta), the cloud model directory powered by Steelspace will 
 
 <!-- wp:paragraph -->
 
-_Share (Beta)(CS15)_
+_Share (Beta)_
 
 <!-- /wp:paragraph -->
 
@@ -287,16 +265,13 @@ Standard Windows features that do not require special explanation.
 
 #### View menu
 
+![alt text](<img/view cs15.png>)
 
 
-<!-- wp:paragraph -->
-
-In addition to the several window options, the **Model content** can be switched _on_ and _off_ separately from the **Model portions**.
 
 
 <!-- wp:image {"align":"center","id":71126,"width":"220px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2024-01-1.2.2.3.-CS16-View-menu-1.png)
 
 <!-- /wp:image -->
 
@@ -754,11 +729,6 @@ For detailed description see chapter: [_**Documentation**_](../13_0_documentatio
 
 The Help tab is for the essential support-related requests like “Get Support”, “[Report licensing issue” ](https://Consteel.atlassian.net/servicedesk/customer/portal/1/group/22)and “[Send feedback](https://Consteel.atlassian.net/servicedesk/customer/portal/1/group/23/create/60)” to make posting support issues more convenient.
 
-#### Load combination sets tab
-
-![alt text](<img/Load combination sets.png>)
-
-Clicking on the icon provides access to the same Load combination sets window as described in the[ **Load combinations.**](../6_0_structural-loads/6_2_load-combinations.md#load-combination-sets)
 
 
 ### Side bar
@@ -1049,8 +1019,6 @@ You can also open the window from the View menu. For more information, visit the
 
 [![](https://Consteelsoftware.com/wp-content/uploads/2021/04/popup_visi_LCS.png)](./img/wp-content-uploads-2021-04-popup_visi_LCS.png)
 
-<!-- /wp:image -->
-![alt text](<img/Spad Footing.png>)
 
 <!-- wp:paragraph -->
 
@@ -1061,7 +1029,6 @@ You can also open the window from the View menu. For more information, visit the
 - Visibility of the LCS of 1D members (beams and columns)
 - Visibility of the LCS of 2D members (plates, slabs and walls)
 - Visibility of the LCS of supports
-- Visibility of the LCS of spread footing
 - Visibility of the LCS of link elements
 - Visibility of the LCS of smart link elements
 - Visibility of the LCS of the load transfer surfaces
@@ -1262,47 +1229,6 @@ The last field of the Status bar is the STEP field. Here the given number in mm 
 
 The visibility of the additional windows can be switched ON / OFF in the [_**View menu**_](#view-menu). Some of this windows is turned ON by default, and all of them has a default position that can be changed with drag&drop operations. The windows can be floating or docked to any side of the Consteel main window.
 
-
-**Model Portions** tab
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-The default position of the **Model portions** window is in the upper right corner. It is divided into **Custom portions** and **Auto portions.**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":71076,"width":"245px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2024-01-1.2.7.-CS17-Model-Portions.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-For detailed description see [**Model Views**](../3_0_model-view/3_1_model-views.md), and [**Portions Manager**](../3_0_model-view/3_3_portions-manager.md) chapters!
-
-
-**Model Content** tab (Ctrl+Q)
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":71066,"width":"266px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2024-01-1.2.7.-CS17-Model-Content.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-The **Model Content** tab contains all the predefined basic object types which can be used to build up a structural model.
-
-
-<!-- /wp:paragraph -->
-
-
-<!-- wp:heading {"level":4} -->
 
 #### Object tree window
 
