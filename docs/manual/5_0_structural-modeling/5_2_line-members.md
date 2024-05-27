@@ -65,6 +65,9 @@ The available element types depend on the chosen section.
 
   - **Tension bar**: cannot resist compressional axial force but it can resist any other internal forces. If it got compression the analysis neglects its effect.
 
+ 
+
+  * **Tension bar (X Brace)** starting from **Consteel 17** used for individual members of bracing systems made of elements working in tension only which are arranged in a way, that from a pair of members always just one is working in tension and the another is assumed to be efficient due to buckling. This option will linearize the behaviour of such members for a linear buckling eigenvalue calculation by considering the member working in both tension and compression, but with half cross-section properties.
 
 
 * For any other steel cross-sections, three of the above mentioned possible choices are available:
@@ -73,6 +76,7 @@ The available element types depend on the chosen section.
 
   - Tension bar
 
+  - Tension bar (X Brace) from **Consteel 17**
 
 
 **For reinforced concrete or composite members:**
@@ -522,6 +526,20 @@ You can finish editing with the **_SAVE EXIT_** button.
 ### Reinforced concrete members
 
 
+**Consteel 16**
+
+
+Definition of reinforced macro sections to be used for columns and beams can be performed from the **_Macro dialogue._** There are two main types of reinforced concrete sections. **_Sections with design option_** (#1) and **_sections without design option_** (#2).
+
+
+![](./img/wp-content-uploads-2022-12-image-5-1024x652.png)
+
+
+![](./img/wp-content-uploads-2022-12-image-6.png)
+
+
+**Consteel 15**
+
 
 Definition of reinforced macro sections can be performed from the **_Macro dialogue._** There are two main types of reinforced concrete sections. **_Sections with design option_** (#1) and **_sections without design option_** (#2).
 
@@ -530,6 +548,37 @@ Definition of reinforced macro sections can be performed from the **_Macro dialo
 
 
 #### Reinforced concrete cross sections with design option
+
+
+**Consteel 16**
+
+
+_**Reinforced concrete cross-sections with design option**_, are represented with a gray cross-section pictogram with a grid on the _**Macro section**_ dialogue. In Consteel, there are two section types with design options:
+
+- Solid Circular section
+
+- Solid Rectangular section
+
+Design option is available both for columns and for beams.
+
+
+After choosing one of the available cross-sections on the section dialogue, only the overall dimensions, the concrete material grade, and the modulus of elasticity applied in the structural analysis have to be set.
+
+
+Because the reinforcement distribution may vary along the span of the concrete member, the definition of the reinforcement settings has to be made through a dedicated function:
+
+- **_Column reinforcement_**  ![](./img/wp-content-uploads-2021-04-Column_reinforcement_icon.png) or
+
+- **_Beam rebar editor_**![](./img/wp-content-uploads-2021-04-BeamRebarEditorIcon.jpg)
+
+
+on the Structural members tab. Reinforcements should be assigned to members with concrete cross-section. Assignment can be done in the Property tree after selecting the member.
+
+
+![](./img/wp-content-uploads-2022-12-image-7.png)
+
+
+**Consteel 15**
 
 
 **_Reinforced concrete cross-sections with design option_**, are represented with a gray cross-section pictogram on the **_Macro section_** dialogue. In Consteel, there are two section types with design options:
@@ -550,6 +599,61 @@ Because the reinforcement distribution may vary along the span of the concrete m
 
 #### Beam reinforcement definition
 
+
+**Consteel 16**
+
+
+Starting the **_Beam rebar editor_**![](./img/wp-content-uploads-2021-04-BeamRebarEditorIcon.jpg), which can be found on the Structural members tab, the Rebar editor dialog appears.
+
+
+It can be reached also from the Property tree after selecting a member with reinforced concrete beam macro section with design option, by clicking on the ... in the Reinforcement cell.
+
+
+![](./img/wp-content-uploads-2022-12-image-30.png)
+
+
+Beam reinforcement can be created only if there is a reinforced concrete beam cross section loaded into the model.
+
+
+![](./img/wp-content-uploads-2022-12-image-29-1024x958.png)
+
+
+- \#1 - New beam reinforcement objects can be created by pressing the **_Add_** button. Switching between different reinforcement objects is possible by selecting from the dropdown menu. Using the **_Copy_** button, the copied object will inherit the parameters of the original object. The **_Delete_** button will delete the actively selected reinforcement object only.
+
+
+* \#2 – On the middle part of the dialog, the cross-section has to be selected, to which the reinforcement settings will apply. The overall dimensions and the material grade are shown below the dropdown menu of the selected cross-section. You can specify here:
+
+  - concrete covers
+
+  - rebar material grades
+
+  - diameter of stirrups
+
+  - strut inclination
+
+  - max. aggregate size of concrete
+
+  - considering torsional rebars or not. If the check-box is selected, you can also specify a cross-sectional area for this reinforcement.
+
+
+- \#3 – The bottom part of the dialog is a multifunctional panel. Here, the longitudinal and transverse rebars can be defined, envelope diagrams for internal bending and shear forces are shown, predesign values like (MRd and VRd) are shown, and detailing rules are checked. Functions of the panel in details:
+
+  - **Graphical display**: after a reinforcement object is assigned to a concrete member by selecting it into the Reinforcement cell of the Property tree, the length of the member, on which the object is applied, is highlighted. If there are available analysis results for the member, the bending moment and shear force diagrams are also shown on the panel, both for individual load combinations and also as envelope diagrams which you can select from the drop-down menu. Switching between the bending and shear diagrams can be performed by selecting longitudinal or transversal reinforcement from the first drop-down menu. MEd and VEd values are also shown.  
+    MRd, VRd VRd,c and VRd,max values are also represented on the panel if there are applied longitudinal and shear reinforcements (more on that below). Unfilled detailing rules are also highlighted as warnings at the bottom of the panel.
+ 
+  - Adding longitudinal rebars: If the **_Longitudinal reinforcement_** option is selected in the upper left dropdown menu, using the ![](./img/wp-content-uploads-2021-04-sect_rc_rebaredit_add.png) button it is possible to add rebars to the member. On the **_Add beam rebar_** dialogue the position, quantity, and diameter settings have to be entered. After pressing the **_Add_** button, the graphical representation of the rebars will appear on the graphical display. Deletion of a rebar can be performed by pressing the ![](./img/wp-content-uploads-2021-04-sect_rc_rebaredit_del.png) button and choosing the rebar with the ![](./img/wp-content-uploads-2021-04-sect_rc_rebaredit_erase.png) sign.  
+    ![](./img/wp-content-uploads-2021-04-image-1966.png)
+
+  - Adding stirrups: If the **_Transverse reinforcement_** option is selected in the upper left dropdown menu, using the ![](./img/wp-content-uploads-2021-04-sect_rc_rebaredit_add.png) button it is possible to add stirrups to the member. On the **_Add beam rebar_** dialogue, the spacing and the start-end position has to be defined. The diameter of the stirrups has to be given on the main rebar editor dialogue. After pressing the **_Add_** button, the graphical representation of the rebars will appear on the graphical display. Deletion of a rebar can be performed by pressing the ![](./img/wp-content-uploads-2021-04-sect_rc_rebaredit_del.png) button and choosing the rebar with the ![](./img/wp-content-uploads-2021-04-sect_rc_rebaredit_erase.png) sign.
+
+
+A reinforcement object can be assigned to more members if the members have the same parameters (length and cross-section).
+
+
+If a reinforcement object is placed on more members with different lengths, a copy of the original reinforcement object will automatically be created for each different member's length.
+
+
+**Consteel 15**
 
 
 Starting the **_Rebar editor_** ![](./img/wp-content-uploads-2021-04-cmd_rebareditor.png) - can be found on the Structural members tab - the Rebar editor dialog appears. Beam reinforcement objects can be created by selecting the **_Beam rebars_** option on the left panel (#1) of this dialogue window.
@@ -596,6 +700,50 @@ If a reinforcement object is placed on more members with different lengths, a co
 #### Column reinforcement definition
 
 
+**Consteel 16**
+
+
+A Consteel model may contain several column reinforcement definition sets which can be assigned to the relevant members. All the actually defined sets are shown in a summary screen.
+
+
+![](./img/wp-content-uploads-2022-12-image-4.png)
+
+
+Different tab pages exist for columns with rectangular and circular cross-section. The already defined sets are listed in a table with their relevant information.
+
+
+The definition of a new set can be initiated with the **_+ Create new_** button. A new set can also be defined starting from an already existing set using the **_+ Create from selected_** button.
+
+
+A set can be _modified_ by double clicking on the row or using the pencil ![](./img/wp-content-uploads-2021-04-Pencil.png)command and can be _deleted_ with the bin ![](./img/wp-content-uploads-2021-04-Bin.png)command.
+
+
+![](./img/wp-content-uploads-2022-12-image-8.png)
+
+
+Using the dialog, longitudinal reinforcement bars and stirrups can be positioned in the actual cross-section. The rebars are shown on a dynamically scaled picture of the actual cross-section.
+
+
+The positioning is made using relative location definitions. The available _longitudinal rebar_ positions are:
+
+- **main corner rebars**. Their use is compulsory and are running from the beginning to the end of the member to which the actual cross-section is assigned to. Rectangular cross-sections have a fixed number of corner rebars (4). The actual diameters can be selected from a drop-down list.
+
+- **additional corner rebars in Y and Z directions**. These rebars will be placed as close as possible to the corner rebars, considering the relevant detailing rules, in the corresponding direction. The Y and Z directions of the coordinate system used for the definition correspond to the member’s local coordinate system used in the 3D Consteel model. These rebars are not compulsory and can be defined as partial reinforcement bars using the _Distance from start_ and _Custom_ length values. Consteel assumes that this definition contains the necessary anchorage lengths, no additional automatic length corrections are made.
+
+- **side rebars in Y and Z directions.** Additional full length bars can be equally distributed between the rebars located around the corners.
+
+
+The definition of the stirrup is made by the definition of its diameter and the distance between each stirrup, placed equidistantly along the member.
+
+
+In case of Reinforcement sets of circular cross-sections only one type of longitudinal rebar position exists. The specified number of bars will be distributed equally inside the circular stirrup.
+
+
+![](./img/wp-content-uploads-2022-12-image-9.png)
+
+
+**Consteel 15**
+
 
 By choosing the **_Column rebar_** option (#1) on the left side panel of the **_Rebar editor_** dialogue, column-related data will be available on the dialogue.
 
@@ -631,6 +779,48 @@ By choosing the **_Column rebar_** option (#1) on the left side panel of the **_
 #### Reinforced concrete cross sections without design option
 
 
+**Consteel 16**
+
+
+Members created with _**Reinforced concrete cross-sections without design option**_ can provide analysis results (see chapter [**_Analysis results_**](../8_0_structural-analysis/8_5_analysis-results.md)) and section resistance surface diagram (see [**_Resistance of composite and reinforced concrete cross-sections_**](../10_0_section-module/10_2_section-module.md#resistance-of-composite-and-reinforced-concrete-cross-sections)) considering the stiffness corresponding to the applied reinforcement in the calculation. However, these members are not suitable for concrete column and beam design verifications.
+
+
+Available column cross-sections are:
+
+- Rectangular section with hole
+
+- Circular section with hole
+
+
+Available beam cross-sections are:
+
+- Double symmetric I section
+
+- Singly symmetric I section
+
+- I section with tapered flange thickness
+
+- Rectangular section with hole
+
+- Rectangular section with tab
+
+- T shaped section
+
+- T shaped section with tapered flange thickness
+
+- Trapezoid section
+
+- Reverse T shaped section
+
+:::warning
+
+
+Models created with earlier version of Consteel may use solid rectangular and circular sections without design option. The creation of such sections is not anymore available, but models containing such section will continue to work normally even in newer versions of Consteel.
+:::
+
+The functions of these deprecated sections have been completely replaced by new functionalities starting with Consteel 16.
+
+**Consteel 15**
 
 
 Members created with **_Reinforced concrete cross-sections without design option_** can provide analysis results (see chapter **_[Analysis results](../8_0_structural-analysis/8_5_analysis-results.md)_**) and section resistance surface diagram (see _**[Resistance of composite and reinforced concrete cross-sections](../10_0_section-module/10_2_section-module.md#resistance-of-composite-and-reinforced-concrete-cross-sections)**_) considering the stiffness corresponding to the applied reinforcement in the calculation. However, these members are not suitable for concrete design and rebar check.

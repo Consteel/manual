@@ -15,7 +15,7 @@ sidebar_position: 14
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Superbeam is developed for the dual handling of bar members. Superbeam makes it possible to examine structural parts with the accuracy of shell elements but with the ease of using a beam element concerning definition, modification, and model handling. In practice, it means that the structure can be modeled easily and quickly with the common 7DOF beam elements, while the analysis can be performed on two consistently generated calculation models:
+Superbeam is a new feature introduced with Consteel 15. It is developed for the dual handling of bar members. Superbeam makes it possible to examine structural parts with the accuracy of shell elements but with the ease of using a beam element concerning definition, modification, and model handling. In practice, it means that the structure can be modeled easily and quickly with the common 7DOF beam elements, while the analysis can be performed on two consistently generated calculation models:
 
 <!-- /wp:paragraph -->
 
