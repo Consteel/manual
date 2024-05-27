@@ -84,10 +84,6 @@ If the _**Show hidden parts of the structure translucently**_ checkbox is checke
 [![](https://Consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-submodel-2.jpg)](./img/wp-content-uploads-2021-04-4-2-model-view-submodel-2.jpg)
 
 
-From **Consteel 17**, initiate the Hide function (Alt+H). Select the elements slated for concealment and engage the hide icon or Alt+H for implementation.
-
-
-![](./img/wp-content-uploads-2024-02-3.1.Hide-CS17.png)
 
 
 To let the whole model visible again click the _**Full view**_ command button on the **Portions Manager** window:

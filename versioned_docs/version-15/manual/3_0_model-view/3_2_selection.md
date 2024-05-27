@@ -15,8 +15,6 @@ The basic selection modes and their operation are the followings:
 * **window selection**: holding down the left button and moving the mouse will create a window with dashed lines. The selection will be completed when the mouse button is released. When drawing the window from left to right, only those members are selected that are within the window with their full size (inclusion window selection). When drawing from right to left all objects touched by the selection window are selected no matter how small part is found in the rectangle (section and inclusion window selection).
 
 
-- **Ctrl+ right click selection**: holding down the Ctrl key and right-clicking, the closest member to the arrowhead will be selected.
-
 
 * **selection by property**: this option can be reached on the left **Side bar** or by a right mouse button click on the graphical window. The selection can be made by choosing the required object type at the top of the Select by property window and narrow down the selection by specifying different properties. After setting the required properties there are several different ways to finish the selection:
 
@@ -57,30 +55,6 @@ The basic selection modes and their operation are the followings:
 
 Clicking the object names in the object tree while holding down the Ctrl or Shift key results in multiple objects selection. To unselect any of the selected objects: hold down the Ctrl key and click on the object name again in the object tree.
 
-- **Object Properties selection-** starting from Consteel 17. After selecting a member, users can view its object properties on the bottom right side of the main window. Other objects in the model with the same properties can be selected by double-clicking on the property name in the Object properties panel.
-
-
-![](./img/wp-content-uploads-2024-02-3.2.-Object-property-selection-2.png)
-
-- **Design results selection-** from Consteel 17 users can select members from the design result tables based on their properties, such as utilization.
-
-
-Design results table:
-
-
-![](./img/wp-content-uploads-2024-02-3.2-Selection-fro-results-table-2-1024x134.png)
-
-
-By right-clicking on any cell and ‘Select members’ users can select the corresponding member. If multiple cells are selected, and the elements belong to different members, multiple members will be selected.
-
-
-No matter which property is selected (users can choose cells from any column), pressing the 'Select Members' button will result in the entire member being selected, which includes the selected finite element or node characterized by the entire row.
-
-
-![](./img/wp-content-uploads-2024-02-3.2-Selection-cells-2-1024x261.png)
-
-
-Please note that in the Global Checks tab, the members are color-coded to indicate their Utilization. To view the selected members, navigate away from the Global Checks tab and go to one of the first four tabs: Geometry, Structural Members, Loads, or Mass.
 
 
 The additional generalized selection options (select all, unselect all, inverse selection) can be found on the left **_[Side bar](../1_0_general-description/1_2_the-main-window.md#side-bar)_**, they can be reached by a right mouse button click on the graphical window (see _picture_ above), or with **_[Hot keys](../1_0_general-description/1_5_hot-keys.md)_**.
