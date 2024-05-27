@@ -80,9 +80,7 @@ For the import process from Tekla Structures, it is indispensable to run Tekla a
 
 <!-- wp:image {"align":"center","id":7450,"width":281,"height":212,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/3-2-tekla-3.png)](./img/wp-content-uploads-2021-04-3-2-tekla-3.png)
-
-<!-- /wp:image -->
+![alt text](<img/tekla import.png>)
 
 <!-- wp:paragraph -->
 
@@ -253,7 +251,7 @@ Besides the export of the global structural model (ie. beams, columns, slabs, wa
 
 <!-- wp:image {"align":"center","id":7468,"width":467,"height":212,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/3-2-tekla-cs-tekla.jpg)](./img/wp-content-uploads-2021-04-3-2-tekla-cs-tekla.jpg)
+![alt text](<img/tekla import.png>)
 
 <!-- /wp:image -->
 
@@ -271,7 +269,7 @@ To export a model from Consteel it is important to run both programs at the same
 
 <!-- wp:image {"align":"center","id":7474,"width":335,"height":199,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/3-2-tekla-export.png)](./img/wp-content-uploads-2021-04-3-2-tekla-export.png)
+![alt text](<img/export tekla.png>)
 
 <!-- /wp:image -->
 
