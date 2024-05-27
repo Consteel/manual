@@ -39,7 +39,7 @@ The IFC import function can be initiated from the Import submenu of File menu, w
 
 <!-- wp:image {"align":"center","id":7541,"width":281,"height":212,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/3-4-IFC-menu.png)](./img/wp-content-uploads-2021-04-3-4-IFC-menu.png)
+![alt text](<img/ifc import.png>)
 
 <!-- /wp:image -->
 
@@ -271,8 +271,7 @@ To export a model to IFC format, press the IFC button in the Export submenu of F
 
 <!-- wp:image {"align":"center","id":7561,"width":215,"height":134,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/3-4-IFC-export-menu.png)](./img/wp-content-uploads-2021-04-3-4-IFC-export-menu.png)
-
+![alt text](<img/ifc export.png>)
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
