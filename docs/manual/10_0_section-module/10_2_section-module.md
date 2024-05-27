@@ -100,7 +100,7 @@ Stresses can be checked by selecting the **Properties** tab and clicking on the 
 <!-- wp:list -->
 
 - ![](./img/wp-content-uploads-2021-04-cmd_sectmod_stress.png) by colored figure
-- ![](./img/wp-content-uploads-2021-04-cmd_sectmod_stress3D.png) by 3D diagram (only from version 15)
+- ![](./img/wp-content-uploads-2021-04-cmd_sectmod_stress3D.png) by 3D diagram 
 
 <!-- /wp:list -->
 
