@@ -30,17 +30,6 @@ The main part of the window is the table of sections that contains the following
 - State: can be _Used_ or _Not used_ depending on whether it is used in the model or not.
 
 
-Starting from **Consteel 17,** within the Section Administration panel, the material of the steel sections can be modified by right-clicking on them. This modification can be applied to individual sections or multiple sections at once.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":73728,"width":"602px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2024-02-5.2-modify-steel-section-1.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
 
 The right part of the window contains the command buttons for managing sections. The first three buttons that are grouped under the name "_Load section_" are for creating or loading sections to the section database. These functions are described in **_[Line members](../5_0_structural-modeling/5_2_line-members.md)_**.
 
