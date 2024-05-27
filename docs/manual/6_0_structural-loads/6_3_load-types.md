@@ -470,6 +470,85 @@ The basic working method is the following:
 First create the load transfer surface. Select the members which it distributes load to, or accept the default setting which is distribute loads to all planar members. Apply surface loads to the surface at every load case where it is necessary.
 
 
+
+Starting from **Consteel 17** the distribution of the surface loads to the selected bar members is still done automatically but the created Distributed Line loads can be individually selected. When selected, the attributes (value, eccentricities, etc.) are visible but not editable. All Distributed Line Loads are linked to the surface load it is crated from. Users can edit the properties of the distributed line loads once exploded from the surface load.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+In case of manually placed surface load to explode, select the load go to the Object properties window→ Distributed line load →Linked surface load →click on the red X button ![](./img/wp-content-uploads-2024-02-6.3.4-explode.png).
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":72984,"width":"162px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+
+![](./img/wp-content-uploads-2024-02-6.3.4-surface-load-placing-1.png)
+
+<!-- /wp:image -->
+
+<!-- wp:image {"id":72994,"width":"332px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+
+![](./img/wp-content-uploads-2024-02-6.3.4-distributed-line-load-1.png)
+
+<!-- /wp:image -->
+
+<!-- wp:image {"id":73004,"width":"464px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+
+![](./img/wp-content-uploads-2024-02-6.3.4-load-transfer-surface-explode-1.png)
+
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+
+After exploding the surface load, the following warning will appear:
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":73014,"width":"360px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+
+![](./img/wp-content-uploads-2024-02-6.3.4-load-transfer-surface-explode-WARNING-1.png)
+
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+
+In the case of generated meteorological surface loads, to explode the surface load after selecting it, the visibility must be changed to Distributed surface load option. Following that, proceed in the same manner as in the previous situation.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":73024,"width":"466px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+
+![](./img/wp-content-uploads-2024-02-6.3.4-load-transfer-wind-load-surface-explode-1-1.png)
+
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+
+In this case, the following waring message will appear:
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":73034,"width":"347px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+
+![](./img/wp-content-uploads-2024-02-6.3.4-load-transfer-surface-wind-explode-WARNING-1.png)
+
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+
+Please note that the surface load explosion cannot be reversed.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+The automatic redistribution of the surface loads can be switched off temporarily to speed up the modelling. For more information, go to the **[Options menu.](../1_0_general-description/1_2_the-main-window.md#options-menu)**
+
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":4} -->
+
 #### Modifying load transfer surface
 
 <!-- /wp:heading -->
