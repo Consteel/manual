@@ -3,16 +3,8 @@ sidebar_position: 1
 ---
 # The Document tab
 
+![alt text](<img/Doc 15.png>)
 
-<!-- wp:paragraph -->
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
 
 ### Create document
 
@@ -257,8 +249,6 @@ The third icon on the documentation tab is the **Snapshot manager** ![](./img/wp
 <!-- wp:heading {"level":3} -->
 
 
-
-<!-- wp:heading {"level":3} -->
 
 ### Model information
 
