@@ -1,0 +1,171 @@
+{
+    "sidebar.manualSideBar.category.General description": {
+      "message": "Általános ismertetés",
+      "description": "The label for category General description in sidebar manualSideBar"
+    },
+    "sidebar.manualSideBar.category.General description.link.generated-index.description": {
+      "message": "A Consteel szoftver felhasználói felületének általános leírása:",
+      "description": "The generated-index page description for category General description in sidebar manualSideBar"
+    },
+    "sidebar.manualSideBar.category.File handling": {
+      "message": "Fájlkezelés",
+      "description": "The label for category File handling in sidebar manualSideBar"
+    },
+    "sidebar.manualSideBar.category.File handling.link.generated-index.description": {
+      "message": "Consteel-ben a fájlkezelés az MS Windows-nál megszokott módon történik. A tárolt fájlok minden információt tartalmaznak a modellről, ezért mappahelytől függetlenül megnyithatók. Alap esetben a .csm fájlkiterjesztés van a Consteel programhoz rendelve. Az ilyen kiterjesztésű fájlokat dupla kattintással a Consteel automatikusan megnyitja.",
+      "description": "The generated-index page description for category File handling in sidebar manualSideBar"
+    },
+    "sidebar.manualSideBar.category.Model view": {
+      "message": "Modell nézet",
+      "description": "The label for category Model view in sidebar manualSideBar"
+    },
+    "sidebar.manualSideBar.category.Model view.link.generated-index.description": {
+      "message": "A modell helyességének elsődleges ellenőrzési eszköze a grafikus felület. Az ellenőrzéshez elengedhetetlenek az átlátható és széleskörűen felhasználható modell nézetek. A grafikus ellenőrzéssel egyszerűen eldönthetjük, hogy a megfelelő objektum került-e a megfelelő helyre.",
+      "description": "The generated-index page description for category Model view in sidebar manualSideBar"
+    },
+    "sidebar.manualSideBar.category.Drawing geometry": {
+      "message": "Geometria rajzolása",
+      "description": "The label for category Drawing geometry in sidebar manualSideBar"
+    },
+    "sidebar.manualSideBar.category.Drawing geometry.link.generated-index.description": {
+      "message": "A modellezés első fázisa a szerkezet geometriájának megrajzolása. A _Consteel_-ben az összes objektum rajzolása és módosítása egyszerűen elvégezhető a háromdimenziós grafikai felületen. Az alapvető CAD rajzolási funkciók mellett hatékony pontfogási és módosítási lehetőségek segítik a geometria felépítését. Az összes CAD funkció a Geometria fülön található, míg a nézetváltoztatások, pontfogás beállítások és kijelölési funkciók a bal oldali sávon, illetve az alsó állapotsávon helyezkednek el. A szerkezeti elemek modellezéséhez szükséges rajzolási funkciók, a szerkezeti elemek modellezésénél megjelenő dialógón találhatóak.",
+      "description": "The generated-index page description for category Drawing geometry in sidebar manualSideBar"
+    },
+    "sidebar.manualSideBar.category.Structural modeling": {
+      "message": "Szerkezetmodellezés",
+      "description": "The label for category Structural modeling in sidebar manualSideBar"
+    },
+    "sidebar.manualSideBar.category.Structural modeling.link.generated-index.description": {
+      "message": "A Consteel fejlesztésének előterében a kezdetektől fogva egy felhasználó barát szerkezetmodellezés van, mely során a mérnök valódi szerkezeti elemekből építheti fel modelljét. A felépített mérnöki modellben a szerkezet egész elemekből (gerenda kiékeléssel, változó keresztmetszetű oszlop, húzott rúd, födém stb.) épül fel. Az analízishez és a tervezéshez szükséges, elkülönített számítási végeselemes modell ebből a mérnöki modellből épül fel automatikusan. Ez lehetővé teszi, hogy a mérnök a megfelelő szerkezet modellezésére koncentrálhasson.",
+      "description": "The generated-index page description for category Structural modeling in sidebar manualSideBar"
+    },
+    "sidebar.manualSideBar.category.Structual loads": {
+      "message": "Terhek",
+      "description": "The label for category Structual loads in sidebar manualSideBar"
+    },
+    "sidebar.manualSideBar.category.Structual loads.link.generated-index.description": {
+      "message": "A teherfelvétel az egyik legfontosabb fázisa a szerkezetek modellezésének. Ellentétben a szerkezet modellezésével, a terhek felvételét a szabványok részletesen meghatározzák, mivel a terhek helyes felvételének döntő szerepe van a szerkezet valósághű viselkedésének elemzését lehetővé tevő számítási modell előállításakor. A Consteel-ban számos funkció segíti a mérnököt. A szerkezeti elemek kezeléséhez hasonlóan, a szabványok által kezelt és meghatározott teher típusok alkalmazhatók. Az alkalmazott terheket a program automatikusan átalakítja véges elemeken ható terhekre a számítási modell részére. A terhek modellezéséhez kapcsolódó funkciók a Terhek fülön találhatók.",
+      "description": "The generated-index page description for category Structual loads in sidebar manualSideBar"
+    },
+    "sidebar.manualSideBar.category.Masses": {
+      "message": "Tömegek",
+      "description": "The label for category Masses in sidebar manualSideBar"
+    },
+    "sidebar.manualSideBar.category.Masses.link.generated-index.description": {
+      "message": "A Tömegek fül a dinamikai számításokhoz szükséges funkciókat tartalmazza. Tömegeseteket és tömegkombinációkat lehet létrehozni a modellen manuálisan elhelyezett vagy a terhekből automatikusan tömeggé konvertált tömegekhez.",
+      "description": "The generated-index page description for category Masses in sidebar manualSideBar"
+    },
+    "sidebar.manualSideBar.category.Structural analysis": {
+      "message": "Szerkezetek analízise",
+      "description": "The label for category Structural analysis in sidebar manualSideBar"
+    },
+    "sidebar.manualSideBar.category.Structural analysis.link.generated-index.description": {
+      "message": "A mérnökök számára az analízis a legkevésbé átlátható fázis, egy „fekete doboz” a tervezési folyamat során. A szabványok általában meghatározzák az egyes tervezési képletekhez alkalmazandó analízis típusát. A Consteel az összes számításhoz a végeselem módszert alkalmazza, két különböző típusú rúd (tradicionális 12 szabadságfokú Timoshenko, illetve 14 szabadságfokú vékonyfalú, amely az öblösödést is figyelembe veszi) és két héj (háromszög és négyszög) végeselem használatával. Számítás során lehetőség van első és teljes másodrendű (nem csak P-d hatás); síkbeli, elcsavarodó kihajlás és kifordulás; héjból felépített karcsú szerkezeti elemek horpadás; statikus és dinamikus sajátérték és válaszspektrum és modal analízis alapú földrengésszámítás elvégzésére. A rendkívül gyors és stabil egyenletmegoldó algoritmusnak köszönhetően szokatlanul nagy modellek számítása is elfogadható időn belül elvégezhető. A szerkezeti analízishez kapcsolódó funkciók a Végeselem és Analízis füleken találhatók. A Végeselem fülön a héj végeselem generálás beállításai érhetők el, és itt tekinthető meg a szerkezet végeselem modellje is. Általában a fülön található funkciókra nincs szükség, mivel az analízis indításakor a végeselemek generálása automatikusan megtörténik.",
+      "description": "The generated-index page description for category Structural analysis in sidebar manualSideBar"
+    },
+    "sidebar.manualSideBar.category.Standard design": {
+      "message": "Szabványos tervezés",
+      "description": "The label for category Standard design in sidebar manualSideBar"
+    },
+    "sidebar.manualSideBar.category.Standard design.link.generated-index.description": {
+      "message": "",
+      "description": "The generated-index page description for category Standard design in sidebar manualSideBar"
+    },
+    "sidebar.manualSideBar.category.Section module": {
+      "message": "Keresztmetszet modul",
+      "description": "The label for category Section module in sidebar manualSideBar"
+    },
+    "sidebar.manualSideBar.category.Section module.link.generated-index.description": {
+      "message": "",
+      "description": "The generated-index page description for category Section module in sidebar manualSideBar"
+    },
+    "sidebar.manualSideBar.category.Fire design": {
+      "message": "Tűzhatás tervezés",
+      "description": "The label for category Fire design in sidebar manualSideBar"
+    },
+    "sidebar.manualSideBar.category.Fire design.link.generated-index.description": {
+      "message": "",
+      "description": "The generated-index page description for category Fire design in sidebar manualSideBar"
+    },
+    "sidebar.manualSideBar.category.Earthquake analysis": {
+      "message": "Földrengés analízis",
+      "description": "The label for category Earthquake analysis in sidebar manualSideBar"
+    },
+    "sidebar.manualSideBar.category.Earthquake analysis.link.generated-index.description": {
+      "message": "",
+      "description": "The generated-index page description for category Earthquake analysis in sidebar manualSideBar"
+    },
+    "sidebar.manualSideBar.category.Documentation": {
+      "message": "Dokumentálás",
+      "description": "The label for category Documentation in sidebar manualSideBar"
+    },
+    "sidebar.manualSideBar.category.Documentation.link.generated-index.description": {
+      "message": "",
+      "description": "The generated-index page description for category Documentation in sidebar manualSideBar"
+    },
+    "sidebar.manualSideBar.category.Joint module": {
+      "message": "Csomópont modul",
+      "description": "The label for category Joint module in sidebar manualSideBar"
+    },
+    "sidebar.manualSideBar.category.Joint module.link.generated-index.description": {
+      "message": "",
+      "description": "The generated-index page description for category Joint module in sidebar manualSideBar"
+    },
+    "sidebar.manualSideBar.category.Test": {
+      "message": "Test",
+      "description": "The label for category Test in sidebar manualSideBar"
+    },
+    "sidebar.manualSideBar.category.Test.link.generated-index.description": {
+      "message": "Handling loads in Consteel",
+      "description": "The generated-index page description for category Test in sidebar manualSideBar"
+    },
+    "sidebar.descriptSideBar.category.Introduction": {
+      "message": "Bevezetés",
+      "description": "The label for category Introduction in sidebar descriptSideBar"
+    },
+    "sidebar.descriptSideBar.category.Introduction.link.generated-index.description": {
+      "message": "General description of the Descript scripting language and interface in Consteel software",
+      "description": "The generated-index page description for category Introduction in sidebar descriptSideBar"
+    },
+    "sidebar.descriptSideBar.category.Scripting tools": {
+      "message": "Scripting tools",
+      "description": "The label for category Scripting tools in sidebar descriptSideBar"
+    },
+    "sidebar.descriptSideBar.category.Scripting tools.link.generated-index.description": {
+      "message": " ",
+      "description": "The generated-index page description for category Scripting tools in sidebar descriptSideBar"
+    },
+    "sidebar.descriptSideBar.category.UI": {
+      "message": "UI",
+      "description": "The label for category UI in sidebar descriptSideBar"
+    },
+    "sidebar.descriptSideBar.category.UI.link.generated-index.description": {
+      "message": " ",
+      "description": "The generated-index page description for category UI in sidebar descriptSideBar"
+    },
+    "sidebar.descriptSideBar.category.Debugging": {
+      "message": "Debugging",
+      "description": "The label for category Debugging in sidebar descriptSideBar"
+    },
+    "sidebar.descriptSideBar.category.Debugging.link.generated-index.description": {
+      "message": "Debugging functions can be used to fix bugs in Descript codes or to follow how the code is working.",
+      "description": "The generated-index page description for category Debugging in sidebar descriptSideBar"
+    },
+    "sidebar.descriptSideBar.category.Command reference": {
+      "message": "Command reference",
+      "description": "The label for category Command reference in sidebar descriptSideBar"
+    },
+    "sidebar.descriptSideBar.category.Command reference.link.generated-index.description": {
+      "message": " ",
+      "description": "The generated-index page description for category Command reference in sidebar descriptSideBar"
+    },
+    "sidebar.pluginsSideBar.category.Converter for AxisVM": {
+      "message": "Converter for AxisVM",
+      "description": "The label for category Converter for AxisVM in sidebar pluginsSideBar"
+    },
+    "sidebar.pluginsSideBar.category.Converter for AxisVM.link.generated-index.description": {
+      "message": "In pursuit of a streamlined workflow, ConSteel has developed a plugin specifically tailored for integration with AXISVM structural analysis and design software. This plugin enables users to seamlessly transfer critical data from AXISVM to ConSteel, facilitating the continuation or verification of structural calculations within the ConSteel environment. Importantly, not only geometry but also loads, combinations, section settings, and materials can be effortlessly imported into ConSteel. This integration empowers users to leverage the strengths of both software platforms, enhancing efficiency and ensuring a smooth transition between analysis and design stages.",
+      "description": "The generated-index page description for category Converter for AxisVM in sidebar pluginsSideBar"
+    }
+  }
+  
