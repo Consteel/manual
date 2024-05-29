@@ -68,24 +68,7 @@
       "description": "The label for category Standard design in sidebar manualSideBar"
     },
     "sidebar.manualSideBar.category.Standard design.link.generated-index.description": {
-      "message": " A tervezéssel kapcsolatos funkciók a következő három fülön találhatók: Globális vizsgálatok, Elem vizsgálat és a Használhatósági vizsgálatok.
-      A különböző típusú szerkezeti komponensek – keresztmetszet, elem – megkövetelt szabványos vizsgálatai az EuroCode alábbi fejezetei alapján kerülnek elvégzésre:
-      Acélszerkezetek tervezése
-      •	EuroCode
-      o	EN 1993-1-1: Általános és az épületekre vonatkozó szabályok
-      o	EN 1993-1-2: Általános szabályok. Tervezés tűzteherre
-      o	EN 1993-1-3: Általános szabályok. Kiegészítő szabályok hidegen-alakított elemekre
-      o	EN 1993-1-5: Lemezszerkezetek (részben)
-      •	Spanyol szabvány
-      o	Structural Steel Code (EAE)
-      Vasbeton szerkezetek tervezése
-      •	EuroCode
-      o	EN 1992-1-1: Általános és az épületekre vonatkozó szabályok
-      Együtt dolgozó, acél-beton öszvérszerkezetek tervezése
-      •	EuroCode
-      o	EN 1994-1-1: Általános és az épületekre vonatkozó szabályok
-      Számos Nemzeti Melléklet (NA) van beépítve, továbbá felhasználói változatok is definiálhatók és elmenthetők.
-      ",
+      "message": "  ",
       "description": "The generated-index page description for category Standard design in sidebar manualSideBar"
     },
     "sidebar.manualSideBar.category.Section module": {
@@ -93,7 +76,7 @@
       "description": "The label for category Section module in sidebar manualSideBar"
     },
     "sidebar.manualSideBar.category.Section module.link.generated-index.description": {
-      "message": "",
+      "message": "A Consteel számos funkcionalitása a keresztmetszetekhez kapcsolódik, ezért ezek egy különálló modulba, a Keresztmetszet modulba (csSection) kerültek. Ez a modul tartalmazza az összes olyan eszközt, ami keresztmetszet létrehozáshoz, keresztmetszeti tulajdonságok és feszültségek számításához, illetve a keresztmetszetek szabványos vizsgálatához tartoznak. Két párhuzamos keresztmetszet modellezés létezik egymás mellett: az Általános szelvénymodell (General Solid Section GSS) egy pontos, végeselem alapú felületmodell, bármilyen típusú keresztmetszethez; a Vékonyfalú szelvénymodell (Elastic Plate Segment, EPS) egy vékony lemezszegmensekből előállított szelvénymodell, speciálisan acél szelvényekhez. Az acél szabványos tervezési képletek az EPS modell alapján könnyen megoldhatók, beleértve a szerkezeti analízis során meghatározott keresztmetszeti igénybevételek alapján előállított tényleges 4. osztályú hatékony keresztmetszetet is. A Keresztmetszet modul a parancsikonnal indítható a Szerkezeti elemek fülről. Új szelvények betöltése és létrehozása a Szelvénykezelő parancsikonjával lehetséges, ami szintén a Szerkezeti elemek fülön található. ",
       "description": "The generated-index page description for category Section module in sidebar manualSideBar"
     },
     "sidebar.manualSideBar.category.Fire design": {
@@ -101,7 +84,7 @@
       "description": "The label for category Fire design in sidebar manualSideBar"
     },
     "sidebar.manualSideBar.category.Fire design.link.generated-index.description": {
-      "message": "",
+      "message": "A tervezés tűzhatásra teljesen integrált részét képezi a Consteel automatikus és hatékony tervezési eljárásának. A tűz tervezési szituációban a Consteel automatikusan alkalmazza az Eurocode megfelelő eljárásait és képleteit acél szerkezeti elemekre. Általános információkat a tervezési funkciókról a 9. fejezetben talál. Ez a fejezet a tűzhatásra való tervezés folyamatát mutatja be, kiemelve az általános tervezéstől való eltéréseket. A tervezett tűzvédelmi megoldástól függően a szerkezet lehet védetlen vagy védett, utóbbi esetben a tűzvédelem lehet passzív (burkolat) vagy reaktív (tűzvédő festés). A számítás elvégezhető emelt vagy szobahőmérsékleti anyagjellemzőkkel. Emelt hőmérsékleti analízis estén külön kérhető a hőtágulásból származó indirekt hatások figyelembevétele is. A különböző acélszerkezeti komponensek (keresztmetszet, elem stb.) szabványos ellenőrzését az alábbi EuroCode szabvány alapján végzi a Consteel: EN 1993-1-2: Általános szabályok. Tervezés tűzteherre",
       "description": "The generated-index page description for category Fire design in sidebar manualSideBar"
     },
     "sidebar.manualSideBar.category.Earthquake analysis": {
@@ -117,7 +100,7 @@
       "description": "The label for category Documentation in sidebar manualSideBar"
     },
     "sidebar.manualSideBar.category.Documentation.link.generated-index.description": {
-      "message": "",
+      "message": "Consteel egy egyszerűen használható, a mérnöki elvárásoknak megfelelő, hatékony dokumentációs rendszert tartalmaz. A statikai dokumentáció tartalmazza a modell teljes leírását, illetve az analízis és a tervezés eredményeit.",
       "description": "The generated-index page description for category Documentation in sidebar manualSideBar"
     },
     "sidebar.manualSideBar.category.Joint module": {
@@ -125,7 +108,7 @@
       "description": "The label for category Joint module in sidebar manualSideBar"
     },
     "sidebar.manualSideBar.category.Joint module.link.generated-index.description": {
-      "message": "",
+      "message": "A Consteel tervezési filozófiája nagy hangsúlyt fektet a globális szerkezet és a csomópontok integrált modellezésére és számítására. Ennek megfelelően egy hatékony acélszerkezeti csomópont méretező modul (csJoint) került kifejlesztésre, mely a Consteel integrált részét képezi. Számos különböző típusú csomópont hozható létre, számos speciális kapcsolati elem felhasználásával. A méretezési lehetőségek lefedik a teljes csomóponti szabványt (Eurocode EN 1993-1-8). Csomópont létrehozható a szerkezeti modell alapján az automatikus csomópont felismerő segítségével, vagy önállóan, a szerkezeti modelltől függetlenül is. A létrehozott csomópontok elhelyezhetők az összes szükséges helyen a szerkezeten. Az elhelyezett csomópontok automatikusan újraszámolódnak az aktuális analízis eredmények alapján, illetve a csomóponti merevség is fegyelembe vehető a szerkezet számítása során. A csomópontokkal kapcsolatos funkciók a Szerkezeti elemek fülön találhatók, melyek a következők: Csomópont szerkesztő; Csomópont felismerése; Csomópont elhelyezése.",
       "description": "The generated-index page description for category Joint module in sidebar manualSideBar"
     },
     "sidebar.manualSideBar.category.Test": {
