@@ -1,24 +1,5 @@
 {
   "label": "Standard design",
   "position": 10,
-  "link": {
-    "type": "generated-index",
-    "description": "The design functionalities are placed on three tabs: the global checks, member checks and serviceability checks tab.
-    The required code checks of the different types of structural components – cross-sections, members – can be conveniently evaluated based on the following standard:
-    
-    •	EuroCode
-    •	EN 1993-1-1: General rules and rules for buildings
-    •	EN 1993-1-2: General rules. Structural fire design
-    •	EN 1993-1-3: General rules. Supplementary rules for cold-formed members and sheeting
-    •	EN 1993-1-5: Plated structural elements (particular)
-    •	Spanish standards
-    •	Structural Steel Code (EAE)
-    Design •f concrete structures:
-    •	EuroCode
-    •	EN 1992-1-1: General rules and rules for buildings
-    Design •f composite steel and concrete structures:
-    •	EuroCode
-    •	EN 1994-1-1: General rules and rules for buildings
-    Several National Annexes are implemented and user annex can also be defined and saved.
-     " }
+ 
 }
