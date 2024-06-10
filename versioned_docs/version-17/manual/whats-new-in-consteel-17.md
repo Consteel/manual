@@ -75,7 +75,7 @@ Interaction capabilities between software have been achieved through the impleme
 
 <!-- wp:paragraph -->
 
-As more people use our [**script system, Descript**](../descript/15_1_introduction/15_1_1_what-is-descript.md), we keep receiving new requests for different kinds of programs. To address these needs, we're adding new features and improving the language. For example, we've enhanced object creation (CREATE), manipulation (SET, FILTER), and querying (GET). Additionally, users can now create custom cold-formed cross-sections.
+As more people use our [**script system, Descript**](../descript/15_1_introduction/index.md), we keep receiving new requests for different kinds of programs. To address these needs, we're adding new features and improving the language. For example, we've enhanced object creation (CREATE), manipulation (SET, FILTER), and querying (GET). Additionally, users can now create custom cold-formed cross-sections.
 
 <!-- /wp:paragraph -->
 
