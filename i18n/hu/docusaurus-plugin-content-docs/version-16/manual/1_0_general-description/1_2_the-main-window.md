@@ -552,7 +552,7 @@ Az egyéni szabványbeállítást a program az alábbi fájlba menti: _\Dokument
 
 ![](./img/wp-content-uploads-2022-05-help_menu_hun-1.png)
 
- A menüt két szekcióra osztottuk, az első tartalmazza az elérhetőségeket az “[Consteel kézikönyvhöz](../../manual/intro.md)” és a “[Descript kézikönyvhöz](../../descript/15_1_introduction/15_1_1_what-is-descript.md)“, valamint az “[Oktatói anyagok](https://Consteelsoftware.com/knowledgebase/?search=&filters=366,367,399,392,375,372)” almenüpont segítségével egy előszűrt tudásbázis anyagokat tartalmazó oldal érhető el. Ilyenkor nincs szükség külön bejelentkezésre a honlapunkon, mert a Consteel-t online védelemmel használó felhasználóinkat automatikusan felismeri az oldal.
+ A menüt két szekcióra osztottuk, az első tartalmazza az elérhetőségeket az “[Consteel kézikönyvhöz](../../manual/intro.md)” és a “[Descript kézikönyvhöz](../../descript/15_1_introduction/index.md)“, valamint az “[Oktatói anyagok](https://Consteelsoftware.com/knowledgebase/?search=&filters=366,367,399,392,375,372)” almenüpont segítségével egy előszűrt tudásbázis anyagokat tartalmazó oldal érhető el. Ilyenkor nincs szükség külön bejelentkezésre a honlapunkon, mert a Consteel-t online védelemmel használó felhasználóinkat automatikusan felismeri az oldal.
 
 
 A második szekció a támogatással kapcsolatos kéréseknek lett kialakítva. A “[Support kérdés beküldése](https://Consteel.atlassian.net/servicedesk/customer/portal/1/group/1)” parancs megnyitja a támogató rendszerünk bejelentő oldalát, ahol segítséget lehet kérni a Consteel-el kapcsolatos kérdésekhez. Ha esetleg a licenceléssel adódna gond, akkor a “[Licenceléssel kapcsolatos problémák” ](https://Consteel.atlassian.net/servicedesk/customer/portal/1/group/22)parancsra kell kattintani.[ ](https://Consteel.atlassian.net/servicedesk/customer/portal/1/group/22)Számunkra fontos a felhasználók véleménye, így ha valamilyen javaslat vagy kérés merülne fel, elég a “[Felhasználói kérés beküldése](https://Consteel.atlassian.net/servicedesk/customer/portal/1/group/23/create/60)” parancsra kattintani és megosztani velünk az igényeket/visszajelzéseket.
@@ -755,7 +755,7 @@ Befoglaló nézet (Ctrl+0)
 [![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/2-2-4-Descript-panel-1.png)](./img/wp-content-uploads-2021-04-2-2-4-Descript-panel-1.png)
 
 
-A képernyő bal alsó sarkában található a Descript szerkesztő panelje, melyet a ![](./img/wp-content-uploads-2022-01-ico_descript_maximize.png) ikonnal nyithatunk meg. A Descript a Consteel programozási felülete, amellyel parametrikus modellek építhetők. A Consteel szinte összes szerkezeti objektuma létrehozható, és ezen objektumok összes paramétere meghatározható/módosítható a Descript segítségével. Részletes leírását ld. a _[Descript - a Consteel programozása](../../descript/15_1_introduction/15_1_1_what-is-descript.md)_ c. fejezetben!
+A képernyő bal alsó sarkában található a Descript szerkesztő panelje, melyet a ![](./img/wp-content-uploads-2022-01-ico_descript_maximize.png) ikonnal nyithatunk meg. A Descript a Consteel programozási felülete, amellyel parametrikus modellek építhetők. A Consteel szinte összes szerkezeti objektuma létrehozható, és ezen objektumok összes paramétere meghatározható/módosítható a Descript segítségével. Részletes leírását ld. a _[Descript - a Consteel programozása](../../descript/15_1_introduction/index.md)_ c. fejezetben!
 
 
 ### Állapotsor
