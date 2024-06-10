@@ -42,8 +42,8 @@ Comparison of the three methods:
 | Global check - cross section check | Yes                                                               | Yes                                                                                                       | Yes                                      |
 | Global check - Stability check     | Not possible                                                      | Yes                                                                                                       | Yes                                      |
 | Member check                       | Not possible                                                      | Yes                                                                                                       | Yes                                      |
-| Masses taken into consideration    | Masses corresponding for each vibration shapes for all directions | Masses for the chosen vibration shapes with the consideration of the combination factors in all direction | 100% of all the masses in all directions |
-| Automation                         | Yes                                                               | Manual input required                                                                                     | Yes                                      |
+| Masses taken into consideration    | Masses corresponding for each vibration shapes for all directions | 100% of all the masses in all directions |  Masses for the chosen vibration shapes with the consideration of the combination factors in all direction|
+| Automation                         | Yes                                                               | Yes                                                                                    | Manual input required                                     |
 | Second order sensitivity           | Yes                                                               | Yes                                                                                                       | Yes                                      |
 
 <!-- /wp:table -->

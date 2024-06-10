@@ -32,7 +32,6 @@ A Consteel, a földrengés analízist **Modális válaszspektrum-analízis** (_M
 A három módszer összehasonlítása:
 
 <!-- /wp:paragraph -->
-
 <!-- wp:table {"className":"is-style-stripes"} -->
 
 |                                                     | **Minden modális alak, CQC összegzéssel**                       | **Egy domináns modális alak**                                                                              | **Kiválasztott modális alakok, lineáris összegzéssel** |
@@ -43,8 +42,8 @@ A három módszer összehasonlítása:
 | **Globális vizsgálatok – keresztmetszet vizsgálat** | Igen                                                            | Igen                                                                                                       | Igen                                                   |
 | **Globális vizsgálatok – stabilitás vizsgálat**     | Nem lehetséges                                                  | Igen                                                                                                       | Igen                                                   |
 | **Elemtervező**                                     | Nem lehetséges                                                  | Igen                                                                                                       | Igen                                                   |
-| **Figyelembe vett tömegek**                         | Minden irányba a meghatározott rezgés alakokhoz tartozó tömegek | Minden irányba a kiválasztott rezgés alakokhoz tartozó, a megadott kombinációs tényezővel szorzott tömegek | Minden irányba a megadott tömegek 100%-a               |
-| **Automatikus funkció**                             | Igen                                                            | Kézi megadás szükséges                                                                                     | Igen                                                   |
+| **Figyelembe vett tömegek**                         | Minden irányba a meghatározott rezgés alakokhoz tartozó tömegek | Minden irányba a megadott tömegek 100%-a   | Minden irányba a kiválasztott rezgés alakokhoz tartozó, a megadott kombinációs tényezővel szorzott tömegek             |
+| **Automatikus funkció**                             | Igen                                                            | Igen                                                                                     | Kézi megadás szükséges                                                |
 | **Másodrendű érzékenység ellenőrzés**               | Igen                                                            | Igen                                                                                                       | Igen                                                   |
 
 <!-- /wp:table -->
