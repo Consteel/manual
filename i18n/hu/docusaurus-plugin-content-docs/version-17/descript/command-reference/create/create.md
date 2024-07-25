@@ -1231,7 +1231,7 @@ Name of the load case. If not specified, the default name is: LoadCase.
 ID of the load group that will contain the created load case. If not specified, then the load case will be created within the default permanent load group.
 
 #### Can be favourable: {#Can-be-favourable-lcase}
-Boolean parameter that controls if the load case can be favourable in a combination or not. Accepted inputs: "0" or "1". If not specified the default value is "0".
+Boolean parameter that controls if the load case can be favourable in a combination or not. Accepted inputs: "0" or "1". If not specified the default value is "1".
 - 0 → turned off, load can not be favorable
 - 1 → turned on, load can be favorable
 
