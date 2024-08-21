@@ -19,7 +19,7 @@ _Consteel_ uses _Tekla_ Open API (Application Programming Interface), also known
 
 <!-- wp:heading {"level":3} -->
 
-### Import structural modell from Tekla Structures
+### Import structural model from Tekla Structures
 
 <!-- /wp:heading -->
 
@@ -69,6 +69,8 @@ Import function is compatible with the following versions of Tekla Structures:
 - 2019, 2019i
 - 2020
 - 2021
+- 2022
+- 2023
 
 <!-- /wp:list -->
 
@@ -515,6 +517,6 @@ Clicking on Update button the whole process will be finished. New elements creat
 
 <!-- wp:image {"align":"center","id":7533,"width":423,"height":331,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/3-3-tekla-change-options.png)](./img/wp-content-uploads-2021-04-3-3-tekla-change-options.png)
+![alt text](<img/cs tekla unchanged.png>)
 
 <!-- /wp:image -->
