@@ -9,13 +9,13 @@ The Consteel window consists of seven separate parts containing different functi
 
 <!-- wp:image {"align":"center","id":6857,"sizeSlug":"large","linkDestination":"media","className":"is-resized is-style-default"} -->
 
-[![](./img/wp-content-uploads-2021-04-Main-window-numbers-1-1024x555.png)](https://Consteelsoftware.com/wp-content/uploads/2021/04/Main-window-numbers-1.png)
+![alt text](<img/the main window.png>)
 
 - The **graphical window** is the area for the 3D structural modeling (#1)
 - The **menu** on the top contains some important commands (#2)
 - **Tabs** from left to right lead the user through the steps of structural design (#3)
 - **Sidebar** on the left contains functions for grids, views, most commonly used transformations, and selections (#4)
-- The **csPI editor** pop-up panel is for parametric modeling (#5)
+- The **MyDescript** pop-up panel is for parametric modeling (#5)
 - The **status bar** on the bottom makes the drawing phases easier (#6)
 - The **Side Panel** contains the Object and parameter tables and gives always sophisticated information about the model, making fast modifications possible (#7).
 
@@ -211,7 +211,7 @@ Import menu contains a wide range of import possibilities from the very basic DX
 
 <!-- wp:image {"align":"center","id":27742,"sizeSlug":"full","linkDestination":"media","className":"is-resized"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/2-2-File-import.png)](./img/wp-content-uploads-2021-04-2-2-File-import.png)
+![alt text](img/import.png)
 
 <!-- /wp:image -->
 
@@ -469,7 +469,7 @@ _**Diagnostics**_
 
 <!-- wp:image {"align":"center","id":7037,"width":322,"height":222,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/2-2-Options-diag-1.png)](./img/wp-content-uploads-2021-04-2-2-Options-diag-1.png)
+![alt text](img/Diagnostics.png)
 
 <!-- /wp:image -->
 
@@ -482,6 +482,8 @@ Before the analysis, the program checks the model for possible modeling mistakes
 - **Warning:** if the distance between the finite element nodes of 1D or 2D elements is more than the defined error level distance but less than the given value here, the program sends a warning message, and shows with a yellow sign the relevant members in the diagnostics window.
 
 See more: **_[Model check](../8_0_structural-analysis/8_2_model-check-diagnostics.md#model-check-diagnostics)_** and _**[Diagnostic window](#diagnostic-window)**_
+
+- The maximum permissible displacement, expressed as a percentage of the largest dimension of the boundary box enclosing the project can be determined in the following box. 
 
 <!-- /wp:paragraph -->
 
@@ -523,7 +525,7 @@ The **Automatic load distribution** can be switched off to increase the speed of
 
 <!-- wp:image {"align":"center","id":27734,"width":403,"height":276,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/2-2-Options-export-1.png)](./img/wp-content-uploads-2021-04-2-2-Options-export-1.png)
+![alt text](<img/Idea statica interface.png>)
 
 <!-- /wp:image -->
 
@@ -700,7 +702,7 @@ See the **_[Drawing Geometry](../../category/drawing-geometry)_** chapter for a 
 
 <!-- wp:image {"id":11438,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](./img/wp-content-uploads-2021-04-Tab-struc-memb-v15-1024x50.png)](https://Consteelsoftware.com/wp-content/uploads/2021/04/Tab-struc-memb-v15.png)
+![alt text](<img/Structural members tab.png>)
 
 <!-- /wp:image -->
 
@@ -719,7 +721,7 @@ See the **_[Structural modeling](../../category/structural-modeling)_** chapter 
 
 <!-- wp:image {"id":7076,"sizeSlug":"large","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2021-04-2-2-3-Tabs-loads.png)
+![alt text](<img/loads tab.png>)
 
 <!-- /wp:image -->
 
@@ -738,9 +740,7 @@ See the **_[Structural loads](../6_0_structural-loads/6_1_load-cases-and-load-gr
 
 <!-- wp:image {"id":7082,"sizeSlug":"large","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2021-04-2-2-3-Tabs-Mass.png)
-
-<!-- /wp:image -->
+![alt text](<img/mass tab.png>)
 
 <!-- wp:paragraph -->
 
@@ -756,9 +756,7 @@ Mass cases, mass groups, point masses, response spectrums, and seismic effects c
 
 <!-- wp:image {"id":7094,"sizeSlug":"large","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2021-04-2-2-3-Tabs-FE.png)
-
-<!-- /wp:image -->
+![alt text](<img/finite element tab.png>)
 
 <!-- wp:paragraph -->
 
@@ -774,7 +772,7 @@ It contains functions connected with the finite element mesh generation and modi
 
 <!-- wp:image {"id":7106,"sizeSlug":"large","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2021-04-2-2-3-Tabs-analysis.png)
+![alt text](<img/analysis tab.png>)
 
 <!-- /wp:image -->
 
@@ -788,13 +786,6 @@ See the **_[Structural analysis](../../category/structural-analysis)_** chapter 
 <!-- wp:heading {"level":4} -->
 
 #### Global checks tab
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-**Global checks tab**
-
 
 
 <!-- /wp:paragraph -->
@@ -1054,13 +1045,13 @@ _Fit view (Ctrl+0)_
 
 <!-- wp:paragraph -->
 
-### Descript panel 
+### My Descript
 
 <!-- /wp:heading -->
 
 <!-- wp:image {"id":27682,"height":28,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/2-2-4-Descript-panel-1.png)](./img/wp-content-uploads-2021-04-2-2-4-Descript-panel-1.png)
+![alt text](<img/My Descript.png>)
 
 <!-- /wp:image -->
 
@@ -1427,25 +1418,26 @@ The last field of the Status bar is the STEP field. Here the given number in mm 
 The visibility of the additional windows can be switched ON / OFF in the [_**View menu**_](#view-menu). Some of this windows is turned ON by default, and all of them has a default position that can be changed with drag&drop operations. The windows can be floating or docked to any side of the Consteel main window.
 
 
-![](./img/wp-content-uploads-2024-01-1.2.7.-CS17-View-panel.png)
+![alt text](<img/side panel-view.png>)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-**Model Portions** tab
+**Portion manager** tab
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The default position of the **Model portions** window is in the upper right corner. It is divided into **Custom portions** and **Auto portions.**
+The default position of the **Portion manager** window is in the upper right corner. It is divided into **Custom portions** and **Auto portions.**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":71076,"width":"245px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
 ![](./img/wp-content-uploads-2024-01-1.2.7.-CS17-Model-Portions.png)
+
 
 <!-- /wp:image -->
 
@@ -1476,50 +1468,6 @@ See more in the [**_Selection_**](../3_0_model-view/3_2_selection.md) chapter.
 
 <!-- /wp:paragraph -->
 
-
-#### Object tree window
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-The default position of the Object tree window is in the upper right corner. It contains two tabs:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-**Model Content** tab
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":7342,"sizeSlug":"full","linkDestination":"media","className":"is-resized"} -->
-
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/2-2-7-model-content-tab.png)](./img/wp-content-uploads-2021-04-2-2-7-model-content-tab.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-By default, the Model Content tab contains all the predefined basic object types which can be used to build up a structural model. While modeling, each new object (materials, sections, loads, members, supports etc.) will appear in the tree object structure in the appropriate group. Selecting any of the objects, it will be highlighted (selected) in the model graphic. Multiple selections of objects are possible in this tree. See more in the [**_Selection_**](../3_0_model-view/3_2_selection.md) chapter.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-**Portions Manager** tab
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":7354,"sizeSlug":"large","linkDestination":"media"} -->
-
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/2-2-7-portion-manager.png)](./img/wp-content-uploads-2021-04-2-2-7-portion-manager.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-For detailed description see [**Model Views**](../3_0_model-view/3_1_model-views.md), and [**Portions Manager**](../3_0_model-view/3_3_portions-manager.md) chapters!
 
 <!-- /wp:paragraph -->
 

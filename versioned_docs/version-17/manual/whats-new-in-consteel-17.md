@@ -88,9 +88,8 @@ As more people use our [**script system, Descript**](../descript/15_1_introducti
 <!-- wp:paragraph -->
 
 In response to our customers' requests, this version incorporates several improvements to make Consteel even more user-friendly:
-
 - [**hiding**](../manual/3_0_model-view/3_1_model-views.md) of selected objects
-- [**separation**](../manual/1_0_general-description/1_2_the-main-window.md#side-panel) of copy and move functions
+- [**separation**](../manual/1_0_general-description/1_2_the-main-window.md#side-bar) of copy and move functions
 - bulk material [**modification**](../manual/5_0_structural-modeling/5_1_section-administration.md) for steel cross-sections
 - [**highlighted**](../manual/1_0_general-description/1_2_the-main-window.md#object-properties-window) start and end points for structural members
 - quick select by property directly from the [**property tree**](../manual/3_0_model-view/3_2_selection.md) by double-click

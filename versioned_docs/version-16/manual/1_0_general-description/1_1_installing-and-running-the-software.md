@@ -97,7 +97,7 @@ Installation needs administrative or power user rights. Without that, the hard l
 
 <!-- wp:paragraph -->
 
-
+The ConSteel install package can be downloaded from the [Downloads/Install packages](https://consteelsoftware.com/downloads/) section of the ConSteel website  (https://consteelsoftware.com/downloads/) for registered users only.
 
 <!-- /wp:paragraph -->
 

@@ -97,7 +97,7 @@ Installation needs administrative or power user rights. Without that, the hard l
 
 <!-- wp:paragraph -->
 
-
+The ConSteel install package can be downloaded from the [Downloads/Install packages](https://consteelsoftware.com/downloads/) section of the ConSteel website  (https://consteelsoftware.com/downloads/) for registered users only.
 
 <!-- /wp:paragraph -->
 
@@ -201,11 +201,6 @@ After Consteel 15 Update 6 release, the hardlock driver is removed from the inst
 
 There are differences between in starting Consteel 14 and Consteel 15, therefore we describe the two versions separately. To see the Consteel 14 version description, [click here](#starting-Consteel-14).
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-**Starting Consteel 15**
 
 <!-- /wp:paragraph -->
 

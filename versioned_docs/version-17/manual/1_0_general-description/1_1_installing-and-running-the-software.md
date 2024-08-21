@@ -97,7 +97,7 @@ Installation needs administrative or power user rights. Without that, the hard l
 
 <!-- wp:paragraph -->
 
-
+The ConSteel install package can be downloaded from the [Downloads/Install packages](https://consteelsoftware.com/downloads/) section of the ConSteel website  (https://consteelsoftware.com/downloads/) for registered users only.
 
 <!-- /wp:paragraph -->
 
@@ -202,7 +202,7 @@ Students, teachers, or trial users only can request an online license. Please fo
 
 <!-- wp:image {"align":"right","id":28965,"sizeSlug":"medium","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](./img/wp-content-uploads-2021-12-dia_prot_select_dongle-259x300.png)](https://Consteelsoftware.com/wp-content/uploads/2021/12/dia_prot_select_dongle.png)
+![alt text](<img/select protection USB.png>)
 
 Hardware key dongle
 
@@ -214,7 +214,7 @@ Hardware key dongle
 
 <!-- wp:image {"align":"left","id":28971,"sizeSlug":"medium","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](./img/wp-content-uploads-2021-12-dia_prot_select_online-260x300.png)](https://Consteelsoftware.com/wp-content/uploads/2021/12/dia_prot_select_online.png)
+![alt text](<img/Select protection Onile.png>)
 
 Online license
 
