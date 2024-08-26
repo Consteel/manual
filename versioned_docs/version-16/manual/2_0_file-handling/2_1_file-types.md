@@ -21,7 +21,7 @@ The following file types are handled by _Consteel_:
 
 <!-- wp:paragraph -->
 
-**.csm**: the ConsteelModel file created by the autosave functionality. AutoSave settings can be edited in the Options menu.
+**.csm~**: the ConsteelModel file created by the autosave functionality. AutoSave settings can be edited in the Options menu.
 
 <!-- /wp:paragraph -->
 
@@ -31,23 +31,10 @@ The following file types are handled by _Consteel_:
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
-
-**.anf**: _StruCad_ text file type. Only for open.
-
-<!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-**.csf**: old _Consteel_ version binary file type (Consteel 2.x, 3.x). Only for open.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-**.asc:**_Tekla Structures_ ASCII file. Only for open.
-
-<!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
@@ -55,14 +42,5 @@ The following file types are handled by _Consteel_:
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
+**.smadsteel:** general format for translating external models, SDK-based environment, compatible both with Consteel and Steelspace. Axis VM models can be converted to smadsteel format and then opened in Consteel.
 
-**.sc1**: _BoCad_ text file type. For open and save. (optional module is needed for Bocad!)
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-**.snf**: _StruCad_ text file type. For open and save.
-
-<!-- /wp:paragraph -->

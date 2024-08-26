@@ -910,13 +910,13 @@ _Fit view (Ctrl+0)_
 
 
 
-### Descript panel 
+### My Descript
 
 <!-- /wp:heading -->
 
 <!-- wp:image {"id":27682,"height":28,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/2-2-4-Descript-panel-1.png)](./img/wp-content-uploads-2021-04-2-2-4-Descript-panel-1.png)
+![alt text](img/mydes.png)
 
 <!-- /wp:image -->
 
