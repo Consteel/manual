@@ -47,26 +47,25 @@ Limit states introduced in Consteel are combination of limit states and design s
 
 - ULS GEO P/T
 
-- ULS STR/GEO P/T (this is a combined limit state for cases when STR and GEO combinations would be the same)
-
 - ULS EQU P/T
 
 - ULS Acc
 
 - ULS Seismic
 
-- ULS Other
+- SLS Char G+Q
 
-- SLS Char
+- SLS Char Q
 
-- SLS Freq
+- SLS Freq G+Q
 
-- SLS Q-p
+- SLS Freq Q
+
+- SLS Q-p G+Q
+
+- SLS Q-p Q
 
 - SLS Seismic
-
-- SLS Other
-
 
 In order to cover cases not strictly under EC scope, and make sure of smooth transition of old files, there is an ‘Other’ limit state for ULS and SLS too.
 

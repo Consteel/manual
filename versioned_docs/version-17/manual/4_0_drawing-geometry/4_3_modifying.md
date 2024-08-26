@@ -20,8 +20,8 @@ sidebar_position: 3
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
+**Move or copy selected objects.** The selected object(s) can be **moved** ![alt text](img/move.png) or   **copied**![alt text](img/copy.png).
 
-![](./img/wp-content-uploads-2021-04-5-4-mod-copy-ico.png) **Move selected objects.** The selected object(s) can be **moved**  or   **copied.**
 
 <!-- /wp:paragraph -->
 

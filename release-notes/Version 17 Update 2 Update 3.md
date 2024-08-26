@@ -1,6 +1,6 @@
 ---
-slug: Version 17 Hotfix 3
-title: Version 17 Hotfix 3
+slug: Version 17 Update 2 Hotfix 3
+title: Version 17 Update 2 Hotfix 3
 
 tags: [consteel, update]
 ---

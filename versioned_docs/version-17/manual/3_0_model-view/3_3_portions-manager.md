@@ -22,7 +22,7 @@ These functions are located on the **Custom portions** and **Auto portions** tab
 
 ![alt text](<img/custom portion cs17.png>)
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/4-4-portions-1.png)](./img/wp-content-uploads-2021-04-4-4-portions-1.png)
+
 
 
 A new portion can be added by clicking the **New Portion** icon (#2) and entering the name of it. If part of the model has been previously selected, these objects will be added to the new portion at the same time.
@@ -40,7 +40,7 @@ Any objects of the structural model can be part of more portions at the same tim
 To modify a previously defined portion, select the relevant parts of the model which will be the subject of the modification, then select the portion you are going to modify, and finally click on the **Modify** icon (#3).
 
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/4-4-portions-3.png)](./img/wp-content-uploads-2021-04-4-4-portions-3.png)
+![alt text](img/modify.png)
 
 
 The **Modify portion** window will appear with the following options:
