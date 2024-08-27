@@ -25,7 +25,7 @@ There are three coordinate systems in Section Module: main axis system (y,z), se
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-If the Section Module is opened from the model, then all the load combination from the model are automatically imported into the section model. The relevant is chosen but any other can be selected and checked. It is also possible to add load combinations manually by clicking on the _**New** **load combination**_ icon ![new load combination icon](./img/wp-content-uploads-2021-04-section_new_load_combination_icon.png).
+If the Section Module is opened from the model, then all the load combination from the model are automatically imported into the section model. The relevant is chosen but any other can be selected and checked. It is also possible to add load combinations manually by clicking on the _**New** **load combination**_ icon ![alt text](img/newload.png).
 
 <!-- /wp:paragraph -->
 
@@ -57,7 +57,7 @@ One possible way is to select **Calculate section** from the pop-up menu that ap
 
 <!-- wp:image {"align":"center","id":6629,"width":299,"height":224,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/calculate_section_img1.png)](./img/wp-content-uploads-2021-04-calculate_section_img1.png)
+![alt text](<img/calculate section.png>)
 
 <!-- /wp:image -->
 

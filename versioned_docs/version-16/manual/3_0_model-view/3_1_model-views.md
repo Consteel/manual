@@ -65,24 +65,15 @@ In addition to the standard model view options (top view, front view, side view,
 
 When the model tends to be more and more complicated and you only want to see part of the model then the **Submodel** **view** should be applied. To do this select the required objects in the model and click on the **Submodel view** icon in the **[_Portions Manager_](./3_3_portions-manager.md)** window, which can be found on the **_[Side panel](../1_0_general-description/1_2_the-main-window.md#side-panel)_** at the right side of the Consteel main window. See the pictures below:
 
-
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-submodel-select.jpg)](./img/wp-content-uploads-2021-04-4-2-model-view-submodel-select.jpg)
-
-
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-submodel.png)](./img/wp-content-uploads-2021-04-4-2-model-view-submodel.png)
-
+![alt text](<img/Submodel view.png>)
 
 After activating the Submodel view only the selected parts of the model are visible on every tabs:
 
-
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-submodel-1.png)](./img/wp-content-uploads-2021-04-4-2-model-view-submodel-1.png)
-
+![alt text](img/submodel.png)
 
 If the _**Show hidden parts of the structure translucently**_ checkbox is checked at the bottom of the Portions Manager, then the other model parts are also visible with faint grey lines:
 
-
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-submodel-2.jpg)](./img/wp-content-uploads-2021-04-4-2-model-view-submodel-2.jpg)
-
+![alt text](img/hiddenparts.png)
 
 
 To let the whole model visible again click the _**Full view**_ command button on the **Portions Manager** window:
