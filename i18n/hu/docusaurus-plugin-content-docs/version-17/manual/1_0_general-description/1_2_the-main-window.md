@@ -11,7 +11,7 @@ A főképernyő hét fő részből áll:
 
 <!-- wp:image {"align":"center","id":6857,"width":"1024px","height":"555px","sizeSlug":"large","linkDestination":"media","className":"is-style-default"} -->
 
-[![](./img/wp-content-uploads-2021-04-Main-window-numbers-1-1024x555.png)](https://Consteelsoftware.com/wp-content/uploads/2021/04/Main-window-numbers-1.png)
+![alt text](image.png)
 
 
 - A legnagyobb méretű rész, a [grafikus ablak](#grafikus-ablak) (#1), ami a 3 dimenziós modell elkészítésére, megjelenítésére szolgál.
@@ -22,7 +22,7 @@ A főképernyő hét fő részből áll:
 
 - A [bal oldali sáv](#oldalsáv) (#3) tartalmazza a modellezés során legtöbbször használt funkciókat: pl.: raszter-, koordináta-rendszer-, és nézetváltoztatás, objektumok kijelölése, mozgatása/másolása.
 
-- A [Descript ](#descript-szerkesztő14-es-vagy-korábbi-verziókban-cspi)felugró panel a parametrikus programozásra szolgál (#5)
+- A [My Descript ](#descript-szerkesztő14-es-vagy-korábbi-verziókban-cspi)felugró panel a parametrikus programozásra szolgál (#5)
 
 - A képernyő alján található [állapotsávon ](#állapotsor)(#6) érhetőek el a modellezést segítő beállítási lehetőségek és a különböző objektumok, adatok láthatóságát szabályozó kapcsolók.
 
@@ -220,7 +220,7 @@ A felhőbe mentett modellek megoszthatók más Consteel-felhasználókkal, akik 
 
 <!-- wp:image {"align":"left","id":31121,"sizeSlug":"medium","linkDestination":"media"} -->
 
-[![](./img/wp-content-uploads-2022-01-menu_file_import_hu-300x229.png)](https://Consteelsoftware.com/wp-content/uploads/2022/01/menu_file_import_hu.png)
+![alt text](img/importúj.png)
 
 <!-- /wp:image -->
 
@@ -343,17 +343,6 @@ Az Opciók menüben a következő beállítási lehetőségek találhatóak:
 
 
 
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":71885,"width":"404px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2024-01-Options-menu-HU-CS17.png)
-
-<!-- /wp:image -->
-
-
-<!-- wp:paragraph -->
-
 _Mentés_, _Frissítés_, _Nyelv_, _Stílusok_, _Diagnosztika_ és _Idea StatiCa átmenet_.
 
 <!-- /wp:paragraph -->
@@ -416,7 +405,7 @@ _Frissítés_
 
 <!-- wp:image {"align":"left","id":31087,"sizeSlug":"medium","linkDestination":"media"} -->
 
-[![](./img/wp-content-uploads-2022-01-options_frissites_hu-300x206.png)](https://Consteelsoftware.com/wp-content/uploads/2022/01/options_frissites_hu.png)
+![alt text](img/frissítés.png)
 
 #### Opciók menü - Frissítés
 
@@ -449,8 +438,7 @@ A termékeink az alábbi információkat gyűjtik és küldik el: verzióinform�
 #### _Nyelv_
 
 
-
-[![](./img/wp-content-uploads-2022-01-options_nyelv_hu-300x206.png)](https://Consteelsoftware.com/wp-content/uploads/2022/01/options_nyelv_hu.png)
+![alt text](img/nyelv.png)
 
 Opciók menü - Nyelv
 
@@ -480,9 +468,7 @@ A modell képernyő háttérszíne állítható itt be.
 
 #### _Stílusok_
 
-
-
-[![](./img/wp-content-uploads-2022-01-options_stilus_hu-300x206.png)](https://Consteelsoftware.com/wp-content/uploads/2022/01/options_stilus_hu.png)
+![alt text](img/stílusok.png)
 
 Opciók menü - Stílusok
 
@@ -496,7 +482,7 @@ A különböző objektumok színeit lehet megadni.
 
 
 
-[![](./img/wp-content-uploads-2022-01-options_diag_hu-300x206.png)](https://Consteelsoftware.com/wp-content/uploads/2022/01/options_diag_hu.png)
+![alt text](image-1.png)
 
 Opciók menü - Diagnosztika
 
@@ -512,13 +498,13 @@ Analízis indítása előtt, a program ellenőrzi az esetleges modellezési hib�
 
 További infót ld. még: [_Modellvizsgálat_](../8_0_structural-analysis/8_2_model-check-diagnostics.md) és _[Diagnosztika ablak](#diagnosztika-ablak)_
 
+- Meghatározható a legnagyobb megengedett elmozdulás, a modell köré rajzolt befoglaló doboz leghosszabb méretének százalékában (%).
+
 
 #### _Teherszétosztás_
 
 
-
 ![](./img/wp-content-uploads-2024-01-Options-menu-HU-CS17-load-distribution.png)
-
 
 
 Consteel 17-től ez a funkció a Modell beállítások kategóriához tartozik, együtt a Diagnosztikával.
@@ -545,7 +531,7 @@ Fontos megjegyezni, hogy amikor ez a funkció ki van kapcsolva, a vonalmenti meg
 
 
 
-[![](./img/wp-content-uploads-2022-01-options_idea_hu-300x206.png)](https://Consteelsoftware.com/wp-content/uploads/2022/01/options_idea_hu.png)
+![alt text](img/Ideastatica.png)
 
 Opciók menü - IDEA StatiCa átmenet
 
@@ -558,8 +544,7 @@ A Consteel és az IDEA Statica programok közötti kapcsolat létrehozására it
 #### Szabványok menü
 
 
-
-[![](./img/wp-content-uploads-2022-01-szabvanyok-300x199.png)](https://Consteelsoftware.com/wp-content/uploads/2022/01/szabvanyok.png)
+![alt text](img/szabványok.png)
 
 
 A menü segítségével egyszerűen és gyorsan áttekinthetjük a program által kezelt szabványok paramétereit, illetve létrehozhatunk saját tervezési paramétereket. A használt tervezési szabvány a _[Fájl menüben](#fájl-menü)_ állítható be, a _Modell attribútumok_ segítségével.
