@@ -19,7 +19,7 @@ _Consteel_ uses _Tekla_ Open API (Application Programming Interface), also known
 
 <!-- wp:heading {"level":3} -->
 
-### Import structural modell from Tekla Structures
+### Import structural model from Tekla Structures
 
 <!-- /wp:heading -->
 

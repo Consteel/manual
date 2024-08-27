@@ -143,19 +143,19 @@ To run the buckling check, it is required to have buckling analysis results.
 
 For the buckling check the following parameters can be set:
 
-- Elastic critical load factor acr,op: eigenvalue of the buckling analysis. It can be the first or the selected eigenvalue according to the design situation or can be automatically selected for each members based on the results of the sensitivity analysis.
+- Elastic critical load factor $$\alpha_{cr,op}$$ eigenvalue of the buckling analysis. It can be the first or the selected eigenvalue according to the design situation or can be automatically selected for each members based on the results of the sensitivity analysis.
 
 
 Eigenvalue can be selected on the Analysis tab to click in the model area with right click.
 
-- Ultimate resistance factor ault,k: reciprocal of utilization calculated with characteristic resistances of axial force and strong axial bending dominant in terms of loss of stability. Value of the utilization can be considered by members or by the model portion.
+- Ultimate resistance factor $$\alpha_{ult,k}$$ reciprocal of utilization calculated with characteristic resistances of axial force and strong axial bending dominant in terms of loss of stability. Value of the utilization can be considered by members or by the model portion.
 
 
 $$
 \overline{\lambda _{op}}=\sqrt{\frac{\alpha _{ult,k}}{\alpha _{cr,op}}}
 $$
 
-- Reduction factor cop: reduction factor for the lop slenderness. It can be determined from the minimum of (c,cLT) or from the interpolated value of (c,cLT).
+- Reduction factor $$\chi_{op}$$ reduction factor for the $$\lambda_{op}$$ slenderness. It can be determined from the minimum of ($$\chi$$,$$\chi_{LT}$$) or from the interpolated value of ($$\chi$$,$$\chi_{LT}$$).
 
 
 Check can be performed for the whole model or partial model.

@@ -132,7 +132,7 @@ In _Consteel_, the following standard cross-section libraries are available:
 
 In _Consteel_, the following macro sections are available organized into 4 groups:
 
-1. **Sheet welded types**
+1. **Welded types**
 
 
 [![](https://Consteelsoftware.com/wp-content/uploads/2021/04/image-1713.png)](./img/wp-content-uploads-2021-04-image-1713.png)
@@ -156,7 +156,7 @@ In _Consteel_, the following macro sections are available organized into 4 group
 - C section
 
 
-2\. **Hot rolled types**
+2\. **Hot-rolled types**
 
 
 [![](https://Consteelsoftware.com/wp-content/uploads/2021/04/image-1752.png)](./img/wp-content-uploads-2021-04-image-1752.png)
@@ -181,15 +181,13 @@ In _Consteel_, the following macro sections are available organized into 4 group
 3\. **Cold-formed types**
 
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/image-1755.png)](./img/wp-content-uploads-2021-04-image-1755.png)
+![alt text](img/Cold-formed.png)
 
 - RHS
 
 - CHS
 
 - L profile
-
-- unsymmetrical U section
 
 - Z shape
 

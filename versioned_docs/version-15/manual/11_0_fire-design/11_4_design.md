@@ -104,11 +104,6 @@ Conservative way, case (1) where $\Theta_a = \Theta_{a,max}$
 
 **Bending (EN 1993-1-2 Class 1-2: 4.2.3.3; Class 3: 4.2.3.4; Class 4: + Annex E.2)**
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"editorskit":{"indent":20,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-Permanent temperature ((1))
 
 <!-- /wp:paragraph -->
 
@@ -119,8 +114,11 @@ $M_{fi,\Theta ,Rd} = k_{y,\Theta}\cdot \dfrac {\gamma_{M,0}} {\gamma_{M,fi}}\cdo
 
 Where
 $M_{Rd}=M_{pl.Rd}\qquad $ or in the case of shear: $M_{Rd}=M_{V.Rd}\qquad \qquad $  (Class 1-2)
+
 $M_{Rd}=M_{el.Rd}\qquad $ or in the case of shear: $M_{Rd}=M_{V.Rd}\qquad \qquad $ (Class 3)
+
 $M_{Rd}=M_{eff.Rd}\qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad $ (Class 4)
+
 $k_{y,\Theta}\qquad \qquad$ acc. to EN 1993-1-2 Table 3.1
 
 <!-- /wp:paragraph -->
@@ -134,7 +132,9 @@ Varying temperature ((2))
 <!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
 $M_{fi,t,Rd} = W_{pl,non,t}\cdot \dfrac {f_y} {\gamma_{M,fi}}\qquad \qquad $ (Class 1-2)
+
 $M_{fi,t,Rd} = k_{y,\Theta ,max}\cdot \dfrac {\gamma_{M,0}} {\gamma_{M,fi}}\cdot \dfrac {1} {\kappa_1\cdot \kappa_2}\qquad \qquad $ (Class 3)
+
 $M_{fi,t,Rd} = k_{p0,2,\Theta ,max}\cdot \dfrac {\gamma_{M,0}} {\gamma_{M,fi}}\cdot \dfrac {1} {\kappa_1\cdot \kappa_2}\cdot M_{eff,Rd}\qquad \qquad $ (Class 4)
 
 <!-- /wp:paragraph -->
