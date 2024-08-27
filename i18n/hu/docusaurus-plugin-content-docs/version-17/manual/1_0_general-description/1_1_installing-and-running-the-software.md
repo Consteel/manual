@@ -187,7 +187,6 @@ Hálózatos licensz vásárlása esetén a program használatához szükséges h
 
 <!-- wp:image {"align":"left","id":30886,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/01/telepito_03_02.png)](./img/wp-content-uploads-2022-01-telepito_03_02.png)
 
 <!-- /wp:image -->
 
@@ -197,22 +196,19 @@ Hálózatos licensz vásárlása esetén a program használatához szükséges h
 
 <!-- wp:paragraph -->
 
-A Consteel 15 Update 6 verzió kiadásával a hardverkulcs illesztőprogramot eltávolítottuk a telepítőcsomagból. A továbbiakban az illesztőprogram a honlapunkról a Letöltések menüből érhető el. Letöltés után a szokásos módon kell telepíteni a drivert.
+A Consteel 15 Update 6 verzió kiadásával a hardverkulcs illesztőprogram a honlapunkról a Letöltések menüből érhető el. Letöltés után a szokásos módon kell telepíteni a drivert.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":38178,"sizeSlug":"full","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2022-06-image-9.png)
+![alt text](img/Letoltesek.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
 **A program indítása**
-
-
-**Consteel 15** **indítása**
 
 <!-- /wp:paragraph -->
 
@@ -354,13 +350,17 @@ A _Csomag és felhasználó menedzsment_ eszköz képernyője az alábbi három 
 
 <!-- wp:paragraph -->
 
-**(1)** "The Subscription plan details" tartalmazza a licensszel kapcsolatos összes információt: licensz típusa, szoftver-hozzáférések (access) és szoftver-helyek (seat) száma, elérhető tagsági szintek, cég adatok. A szoftver licensz a szoftver-hozzáférések és szoftver-helyek segítségével biztosítja a program használatát. Csapat előfizetés esetén a következő két szakaszban lehet a hozzáféréseket kiosztani a felhasználók között.
+- A **Szoftver hozzáférés** tartalmaz licensszel kapcsolatos információtkat: licensz típusa, szoftver-hozzáférések (access) és szoftver-helyek (seat) száma, megtekinthető a Felhasználói szoftver hozzáférési szerződés.A szoftver licensz a szoftver-hozzáférések és szoftver-helyek segítségével biztosítja a program használatát. Csapat előfizetés esetén a következő két szakaszban lehet a hozzáféréseket kiosztani a felhasználók között.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-**(2)** A 'User management' szakaszban lehet felhasználókat rendelni az egyes szoftver-hozzáférésekhez. Minden szoftver-hozzáférés egy adott [Consteel Felhasználó Közösségi](https://Consteelsoftware.com/hu/termekek/ajanlatok-csomagok/#ccm) tagsági szinthez kötődik. Az elérhető online szolgáltatások körét a tagsági szint határozza meg.
+- Az **Előfizetés és csomag** szakaszban lehet megtekinteni a Szoftverlicenc csomaggal kapcsolatos információkat, Elérhető tagsági szinteket, Számlázást és Díjszabás részleteket. Amennyiben Team csomaggal rendelkeznek, az ezzel kapcsolatos információk is itt jelennek meg. 
+
+
+
+- A **Felhasználó menedzsment**-ben lehet a felhasználókat rendelni az egyes szoftver-hozzáférésekhez. Minden szoftver-hozzáférés egy adott [Consteel Felhasználó Közösségi](https://Consteelsoftware.com/hu/termekek/ajanlatok-csomagok/#ccm) tagsági szinthez kötődik. Az elérhető online szolgáltatások körét a tagsági szint határozza meg.
 
 <!-- /wp:paragraph -->
 
@@ -384,13 +384,13 @@ Már hozzárendelt felhasználó kártyáján a 3 pont ikonra kattintva át lehe
 
 <!-- wp:paragraph -->
 
-**(3)** Ahhoz, hogy a felhasználó használni tudja a szoftvert, a következő szakaszban a szoftver-hozzáférést kapott felhasználókat még hozzá kell rendelni egy vagy több szoftver-helyhez (Seat) is. Az elérhető szoftver-helyek (seat) listáján valamely hely kártyájára kattintva megjelennek az adott helyhez rendelt szoftver-hozzáférések. Új felhasználót a legördülő menüből lehet kiválasztani, majd a "Hozzáférés adása" gombra kattintva rendelhető hozzá az adott szoftver-helyhez. Felhasználókat eltávolítani a sor végén található "x" gombbal lehet. Egy felhasználót egyszerre több szoftver-helyhez is hozzá lehet rendelni.
+Ahhoz, hogy a felhasználó használni tudja a szoftvert, a  szoftver-hozzáférést kapott felhasználókat még hozzá kell rendelni egy vagy több szoftver-helyhez (Seat) is. Az elérhető szoftver-helyek (seat) listáján valamely hely kártyájára kattintva megjelennek az adott helyhez rendelt szoftver-hozzáférések. Új felhasználót a legördülő menüből lehet kiválasztani, majd a "Hozzáférés adása" gombra kattintva rendelhető hozzá az adott szoftver-helyhez. Felhasználókat eltávolítani a sor végén található "x" gombbal lehet. Egy felhasználót egyszerre több szoftver-helyhez is hozzá lehet rendelni.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":30966,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/01/online_licensemanagement_hun-1024x919.png)](./img/wp-content-uploads-2022-01-online_licensemanagement_hun-1024x919.png)
+![alt text](img/üdv.png)
 
 Előfizetés és felhasználó menedzsment
 
@@ -521,71 +521,5 @@ A felhőtárhelyet a Steelspace platform biztosítja
 <!-- wp:paragraph -->
 
 A felhőtárhelyről megnyitott modellek minden esetben letöltésre kerülnek az alábbi mappába: C:\\Users\\\{username\}\\AppData\\Local\\Consteel\\CloudModels, és a munka során folyamatosan szinkronizált kapcsolatban maradnak a felhőben tárolt változattal.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-**Consteel 14** **indítása**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-A Consteel indítása megvásárolt példány esetében hagyományos hardverkulcsos védelemmel, vagy online védelemmel történhet. Online védelemre történő áttéréshez vedd fel velünk a [kapcsolatot](https://Consteelsoftware.com/hu/kapcsolat/)! Diák, oktatói vagy kipróbálási verzió esetében kizárólag az online védelem érhető el. Ezt ingyenesen lehet igényelni a regisztrált felhasználói fiókon keresztül. Próba licensz igénylésének menete [itt olvasható](https://Consteelsoftware.com/hu/how-licensing-works/#trialuserhun), oktatási verzióval kapcsolatban pedig [ebben a leírásban tájékozódhatsz](https://Consteelsoftware.com/hu/diak-es-oktatas/).
-
-<!-- /wp:paragraph -->
-
-<!-- wp:columns -->
-
-<!-- wp:column {"width":"90%"} -->
-
-<!-- wp:paragraph -->
-
-A program indítása előtt a hardverkulcsot (USB dongle) be kell dugni a számítógép egy üres USB portjába, vagy hálózati kulcs esetén a kulcsnak elérhetőnek kell lennie a helyi hálózaton lévő valamelyik számítógépen. A megfelelő hardverkulcs felismerés után a Consteel elindul.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-Ha az indítás során a Consteel nem találja a számítógéphez (vagy a hálózaton keresztül) csatlakoztatott megfelelő hardverkulcsot, megjelenik az online licensz bejelentkezési ablaka, amely lehetővé teszi a program indítását a Consteel felhasználói fiókhoz rendelt online licenc használatával (amennyiben elérhető).
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-Ha nincs hozzáférésed az online védelemhez a "Belépés online fiókba" gombbal megnyithatod a felhasználói fiókodat a Consteel honlapon, ahol igényelhetsz új hozzáférést (kereskedelmi vagy ingyenes változatok).
-
-<!-- /wp:paragraph -->
-
-<!-- /wp:column -->
-
-<!-- wp:column {"width":"50%","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-<!-- wp:image {"align":"left","id":30844,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/01/inditas_v14_login.png)](./img/wp-content-uploads-2022-01-inditas_v14_login.png)
-
-<!-- /wp:image -->
-
-<!-- /wp:column -->
-
-<!-- /wp:columns -->
-
-<!-- wp:paragraph -->
-
-A védelem ellenőrzése után az alábbi kezdőképernyő jelenik meg, amelynek segítségével könnyen és gyorsan nyithatunk és készíthetünk modelleket. Az alsó táblázat tartalmazza az utoljára megnyitott modelleket, amelyek közvetlenül innen is megnyithatóak. A táblázatban a modellek az utolsó módosítási dátumuk szerint vannak sorba rendezve, de sorrendbe rendezhetjük modell név vagy elérési út alapján is.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":30851,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/01/inditas_v14_open_dia.png)](./img/wp-content-uploads-2022-01-inditas_v14_open_dia.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-Az első gomb (#1) segítségével hozhatunk létre új modellt, a második gombbal (#2) pedig meglévő modellek nyithatóak meg.
 
 <!-- /wp:paragraph -->

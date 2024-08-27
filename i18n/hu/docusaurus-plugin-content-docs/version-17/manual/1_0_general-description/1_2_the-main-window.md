@@ -650,7 +650,7 @@ A képernyőn megjelenik az ikon neve, ha az egér mutatója az ikon fölött á
 #### Geometria fül
 
 
-[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/01/tab_geom_hu.png)](./img/wp-content-uploads-2022-01-tab_geom_hu.png)
+![alt text](img/geometriaful.png)
 
 
 A szerkesztéshez szükséges rajzolási, módosítási, méretezési és mérési funkciókat tartalmazza. A funkciók részletes bemutatását ld. a [_Geometria rajzolása_](../../category/drawing-geometry) c. fejezetben!
@@ -659,7 +659,7 @@ A szerkesztéshez szükséges rajzolási, módosítási, méretezési és méré
 
 #### Szerkezeti elemek fül
 
-[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/01/tab_stru_hu.png)](./img/wp-content-uploads-2022-01-tab_stru_hu.png)
+![alt text](<img/szerkezeti elemek.png>)
 
 
 A keresztmetszetek kiválasztásával, definiálásával, szerkezeti oszlopok, gerendák, födémek, falak, illetve a támaszok és a kapcsolatok létrehozásához szükséges funkciók találhatóak a fülön. A fenti funkciók mellett, ezen a fülön kaptak helyet további modellezési funkciók is, úgymint a diafragma és merevtest szerkesztő funkciók, keretsarok varázsló, nyírási mező, szelemensor, kivágás és borda, illetve a rúdelemeket lemezelemekké konvertáló funkció is. Az utolsó három parancs a kapcsolatok létrehozására és elhelyezésére szolgál. A funkciók részletes bemutatását ld. a [_Szerkezet modellezése_](../../category/structural-modeling) c. fejezetben!
@@ -667,7 +667,7 @@ A keresztmetszetek kiválasztásával, definiálásával, szerkezeti oszlopok, g
 #### Terhek fül
 
 
-[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/01/tab_load_hu.png)](./img/wp-content-uploads-2022-01-tab_load_hu.png)
+![alt text](img/terhek.png)
 
 
 Különböző teher típusok, illetve teheresetek, tehercsoportok és teherkombinációk létrehozását lehetővé tevő funkciók találhatóak a fülön. Az automatikus meteorológiai teher generálás, daru és vonatteher, és a tűzteher, illetve tűzvédelem funkciói is itt kaptak helyet. A funkciók részletes bemutatását ld. a [_Terhek_](../6_0_structural-loads/6_1_load-cases-and-load-groups.md) c. fejezetben!
@@ -676,7 +676,7 @@ Különböző teher típusok, illetve teheresetek, tehercsoportok és teherkombi
 #### Tömegek fül
 
 
-[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/01/tab_mass_hu.png)](./img/wp-content-uploads-2022-01-tab_mass_hu.png)
+![alt text](img/tomegek.png)
 
 
 Tömegesetek, tömegkombinációk létrehozását lehetővé tévő funkciók találhatóak ezen a fülön. Emellett itt kapott helyet a koncentrált tömeg elhelyezése, földrengés hatás és válaszspektrum felvétele funkció is. A funkciók részletes bemutatását ld. a [_Tömegek_](../../category/masses) c. fejezetben!
@@ -685,8 +685,7 @@ Tömegesetek, tömegkombinációk létrehozását lehetővé tévő funkciók ta
 #### Végeselem fül
 
 
-[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/01/tab_FE_hu.png)](./img/wp-content-uploads-2022-01-tab_FE_hu.png)
-
+![alt text](img/vegselem.png)
 
 A végeselem generálás létrehozásához és módosításához szükséges funkciókat tartalmazza a fül, illetve az itt található modell ellenőrzés funkció segítségével kiszűrhetőek az esetleges modellezési hibák.
 
@@ -694,7 +693,7 @@ A végeselem generálás létrehozásához és módosításához szükséges fun
 #### Analízis fül
 
 
-[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/01/tab_anal_hu.png)](./img/wp-content-uploads-2022-01-tab_anal_hu.png)
+![alt text](img/analizis.png)
 
 
 A különböző szerkezeti analízis típusok beállítása és végrehajtása végezhető el. A számítás eredményei megtekinthetőek és feliratozhatóak számos megjelenítési mód alapján. A funkciók részletes bemutatását ld. a [_Szerkezetek analízise_](../../category/structural-analysis) c. fejezetben!
@@ -702,8 +701,7 @@ A különböző szerkezeti analízis típusok beállítása és végrehajtása v
 
 #### Globális vizsgálatok fül
 
-
-![](./img/wp-content-uploads-2024-01-1.2.-Global-checks-HU.png)
+![alt text](<img/globalis vizsgalatok.png>)
 
 
 A használhatósági határállapotok vizsgálata, valamint a teherbírási határállapotok vizsgálata is be van építve a Globális vizsgálatok fülbe.
@@ -722,7 +720,7 @@ A Globális vizsgálatok fül tartalmazza a stabilitás és keresztmetszeti vizs
 #### Elem vizsgálatok fül
 
 
-[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/01/tab_memb_check_hu.png)](./img/wp-content-uploads-2022-01-tab_memb_check_hu.png)
+![alt text](<img/elem vizsgalatok.png>)
 
 
 Az elkülönített elemtervezéshez kapcsolódó (kihajlás, kifordulás és interaktív stabilitás), illetve öszvérgerenda méretezésével kapcsolatos funkciók találhatóak a fülön. A funkciók részletes bemutatását ld. a [_Elem vizsgálatok_](../9_0_standard-design/9_1_steel-design.md#elem-vizsgálatok) c. fejezetben!
