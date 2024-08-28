@@ -750,10 +750,9 @@ Tulajdonságok szerinti kijelölés
 Befoglaló nézet (Ctrl+0)
 
 
-### Descript szerkesztő
+### My Descript szerkesztő
 
-[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/2-2-4-Descript-panel-1.png)](./img/wp-content-uploads-2021-04-2-2-4-Descript-panel-1.png)
-
+![alt text](img/mydescript.png)
 
 A képernyő bal alsó sarkában található a Descript szerkesztő panelje, melyet a ![](./img/wp-content-uploads-2022-01-ico_descript_maximize.png) ikonnal nyithatunk meg. A Descript a Consteel programozási felülete, amellyel parametrikus modellek építhetők. A Consteel szinte összes szerkezeti objektuma létrehozható, és ezen objektumok összes paramétere meghatározható/módosítható a Descript segítségével. Részletes leírását ld. a _[Descript - a Consteel programozása](../../descript/15_1_introduction/index.md)_ c. fejezetben!
 
