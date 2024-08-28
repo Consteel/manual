@@ -203,7 +203,7 @@ A _**Szelvénykezelő**_ párbeszédpanelen a szabványos szelvények esetén a 
 
 Makró szelvényt négyféle kategóriában lehet létrehozni:
 
-1\. **Lemezekből hegesztett típusok:**
+1\. **Hegesztett típusok:**
 
 
 [![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/image-1713.png)](./img/wp-content-uploads-2021-04-image-1713.png)
@@ -252,15 +252,13 @@ Makró szelvényt négyféle kategóriában lehet létrehozni:
 
 3\. **Hidegen alakított típusok:**
 
-[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/image-1755.png)](./img/wp-content-uploads-2021-04-image-1755.png)
+![alt text](<img/hidegen alakitott.png>)
 
 - RHS zártszelvény
 
 - Körcső szelvény
 
 - L szelvény
-
-- Nem szimmetrikus U szelvény
 
 - Z szelvény
 

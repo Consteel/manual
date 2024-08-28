@@ -164,12 +164,12 @@ Az automatikus kombinációgenerálás lásd a [**_Teherkombinációk_**](../6_0
 
 - "_A terhek hatása kedvező is lehet egy kombinációban_" - a rendkívüli tehercsoportok kivételével bármely teheresethez megadható.
 
-  - nincs bejelölve (alapértelmezés)
+  - nincs bejelölve 
 
     - állandó tehereset - csak a kedvezőtlen biztonsági tényező lesz alkalmazva
     - esetleges tehereset - az alapértelmezett biztonsági tényező lesz alkalmazva
 
-  - bejelölve
+  - bejelölve (alapértelmezés)
 
     - állandó tehereset - kedvező és kedvezőtlen biztonsági tényezők egyaránt alkalmazva lesznek.
     - esetleges tehereset - a biztonsági tényező nulla is lehet a kombinációkban

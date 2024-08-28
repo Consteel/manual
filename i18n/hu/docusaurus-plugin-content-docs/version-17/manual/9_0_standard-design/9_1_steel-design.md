@@ -168,15 +168,15 @@ A stabilitás vizsgálat elvégzésének előfeltétele a stabilitás-analízis 
 
 Stabilitás vizsgálat esetén, az alábbi paraméterek állíthatók be:
 
-- Rugalmas kritikus teherfaktor acr,op: a minimális teherszorzó, kihajlási analízis sajátértéke. Használható az első kihajlási sajátérték, a tervezési szituációnak megfelelően kézzel kiválasztott sajátérték, illetve érzékenység vizsgálat lefuttatása esetén automatikusan is kiválasztható a szerkezeti elemeknek legmegfelelőbb kritikus teherfaktor is. Kézi kiválasztás esetén, az **Analízis** fül **Kihajlás** eredményeinél minden kombinációhoz kiválasztható a megfelelő sajátérték a modell területre való jobb egérgombbal való kattintással, és a "Sajátérték kiválasztása a tervezéshez" menüpontot választva.  
+- Rugalmas kritikus teherfaktor $\alpha_{cr,op}$  a minimális teherszorzó, kihajlási analízis sajátértéke. Használható az első kihajlási sajátérték, a tervezési szituációnak megfelelően kézzel kiválasztott sajátérték, illetve érzékenység vizsgálat lefuttatása esetén automatikusan is kiválasztható a szerkezeti elemeknek legmegfelelőbb kritikus teherfaktor is. Kézi kiválasztás esetén, az **Analízis** fül **Kihajlás** eredményeinél minden kombinációhoz kiválasztható a megfelelő sajátérték a modell területre való jobb egérgombbal való kattintással, és a "Sajátérték kiválasztása a tervezéshez" menüpontot választva.  
   ![](./img/wp-content-uploads-2022-06-scr_tervezes_globalis_sajatertek_kivalasztasa.png)
 
-- Keresztmetszeti teherbírási szorzótényező ault,k: a stabilitásvesztés szempontjából domináns normálerőből és erős tengelyű hajlításból, karakterisztikus ellenállásokkal számolt kihasználtság reciproka. A kihasználtsági érték figyelembe vehető külön-külön rudanként, vagy részmodellenként a legkisebb érték.  
+- Keresztmetszeti teherbírási szorzótényező $\alpha_{ult,k}$ a stabilitásvesztés szempontjából domináns normálerőből és erős tengelyű hajlításból, karakterisztikus ellenállásokkal számolt kihasználtság reciproka. A kihasználtsági érték figyelembe vehető külön-külön rudanként, vagy részmodellenként a legkisebb érték.  
 
  $$
 \overline{\lambda _{op}}=\sqrt{\frac{\alpha _{ult,k}}{\alpha _{cr,op}}}
 $$
-- Csökkentő tényező cop: a λop karcsúságból megállapított csökkentő tényező. Csökkentő tényező meghatározására két módszert ad az EuroCode. c,cLT értékek közül a kisebb, vagy e kettő érték interpoláltjaként.
+- Csökkentő tényező $\chi_{op}$ a $\alpha_{op}$karcsúságból megállapított csökkentő tényező. Csökkentő tényező meghatározására két módszert ad az EuroCode. $\chi$,$\chi_{LT}$ értékek közül a kisebb, vagy e kettő érték interpoláltjaként.
 
 
 Az ellenőrzés elvégezhető a teljes, vagy részlet modellre.

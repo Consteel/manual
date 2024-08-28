@@ -33,7 +33,7 @@ A szelvénytulajdonságok ezekben a koordinátarendszerekben nézhetők meg.
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Ha a keresztmetszet modul közvetlenül a modellből kerül megnyitásra, akkor az összes teherkombináció és a hozzá tartozó keresztmetszeti igénybevétel is automatikusan betöltődik. A mértékadó teherkombináció automatikusan kiválasztásra kerül, de bármely másik teherkombináció kiválasztható a név után található jelölőnégyzettel. További teherkombinációk hozzáadására is van lehetőség az **Új teherkombináció hozzáadása** ikonra ![new load combination icon](./img/wp-content-uploads-2021-04-section_new_load_combination_icon.png) kattintva.
+Ha a keresztmetszet modul közvetlenül a modellből kerül megnyitásra, akkor az összes teherkombináció és a hozzá tartozó keresztmetszeti igénybevétel is automatikusan betöltődik. A mértékadó teherkombináció automatikusan kiválasztásra kerül, de bármely másik teherkombináció kiválasztható a név után található jelölőnégyzettel. További teherkombinációk hozzáadására is van lehetőség az **Új teherkombináció hozzáadása** ikonra ![alt text](img/newload.png) kattintva.
 
 <!-- /wp:paragraph -->
 

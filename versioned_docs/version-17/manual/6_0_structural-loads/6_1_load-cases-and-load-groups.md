@@ -156,12 +156,12 @@ The automatic combination generation (see _**[Load combinations](../6_0_structur
 
 - "_The action can be favorable in the combination_" - for all load group types except accidental ones. It can be specified per load case.
 
-  - checked (default)
+  - unchecked 
 
     - permanent load group - only the unfavorable safety factor will be used
     - variable load group - default safety factor for the load group type will be used
 
-  - checked
+  - checked (default)
 
     - permanent load group - favorable and unfavorable safety factor will be used as well
     - variable load group - safety factor may be zero in the combination

@@ -77,6 +77,8 @@ Az import funkció a következő _Tekla Structures_ verziókkal kompatibilis.
 - 2019, 2019i
 - 2020
 - 2021
+- 2022
+- 2023
 
 <!-- /wp:list -->
 
@@ -544,6 +546,4 @@ Az utolsó oszlopban lehet kiválasztani, hogy az adott elem mely modellbeli ál
 
 <!-- wp:image {"align":"center","id":7533,"width":423,"height":331,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/3-3-tekla-change-options.png)](./img/wp-content-uploads-2021-04-3-3-tekla-change-options.png)
-
-<!-- /wp:image -->
+![alt text](image.png)

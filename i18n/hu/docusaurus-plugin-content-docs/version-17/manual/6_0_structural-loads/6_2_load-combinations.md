@@ -50,26 +50,27 @@ Határállapot koncepció
 
 - ULS GEO P/T
 
-- ULS STR/GEO P/T (ez egy kombinált határállapot olyan esetekre, amikor az STR és GEO kombinációk azonosak lennének.)
-
 - ULS EQU P/T
 
 - ULS Acc
 
 - ULS Seismic
 
-- ULS Other
 
+- SLS Char G+Q
 
-- SLS Char
+- SLS Char Q
 
-- SLS Freq
+- SLS Freq G+Q
 
-- SLS Q-p
+- SLS Freq Q
+
+- SLS Q-p G+Q
+
+- SLS Q-p Q
 
 - SLS Seismic
 
-- SLS Other
 
 
 A nem szigorúan az Eurocode hatálya alá tartozó esetek számára, és a korábbi verziók fájljainak problémamentes átvétele érdekében az ULS és SLS határállapotok esetében is rendelkezésre áll egy "Egyéb" elnevezésű határállapot is.
