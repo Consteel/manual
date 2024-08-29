@@ -36,7 +36,7 @@
       "description": "The label for category Structural modeling in sidebar manualSideBar"
     },
     "sidebar.manualSideBar.category.Structural modeling.link.generated-index.description": {
-      "message": "A Consteel fejlesztésének előterében a kezdetektől fogva egy felhasználó barát szerkezetmodellezés van, mely során a mérnök valódi szerkezeti elemekből építheti fel modelljét. A felépített mérnöki modellben a szerkezet egész elemekből (gerenda kiékeléssel, változó keresztmetszetű oszlop, húzott rúd, födém stb.) épül fel. Az analízishez és a tervezéshez szükséges, elkülönített számítási végeselemes modell ebből a mérnöki modellből épül fel automatikusan. Ez lehetővé teszi, hogy a mérnök a megfelelő szerkezet modellezésére koncentrálhasson.",
+      "message": " ",
       "description": "The generated-index page description for category Structural modeling in sidebar manualSideBar"
     },
     "sidebar.manualSideBar.category.Structual loads": {
@@ -44,7 +44,7 @@
       "description": "The label for category Structual loads in sidebar manualSideBar"
     },
     "sidebar.manualSideBar.category.Structual loads.link.generated-index.description": {
-      "message": "A teherfelvétel az egyik legfontosabb fázisa a szerkezetek modellezésének. Ellentétben a szerkezet modellezésével, a terhek felvételét a szabványok részletesen meghatározzák, mivel a terhek helyes felvételének döntő szerepe van a szerkezet valósághű viselkedésének elemzését lehetővé tevő számítási modell előállításakor. A Consteel-ban számos funkció segíti a mérnököt. A szerkezeti elemek kezeléséhez hasonlóan, a szabványok által kezelt és meghatározott teher típusok alkalmazhatók. Az alkalmazott terheket a program automatikusan átalakítja véges elemeken ható terhekre a számítási modell részére. A terhek modellezéséhez kapcsolódó funkciók a Terhek fülön találhatók.",
+      "message": "",
       "description": "The generated-index page description for category Structual loads in sidebar manualSideBar"
     },
     "sidebar.manualSideBar.category.Masses": {
@@ -52,7 +52,7 @@
       "description": "The label for category Masses in sidebar manualSideBar"
     },
     "sidebar.manualSideBar.category.Masses.link.generated-index.description": {
-      "message": "A Tömegek fül a dinamikai számításokhoz szükséges funkciókat tartalmazza. Tömegeseteket és tömegkombinációkat lehet létrehozni a modellen manuálisan elhelyezett vagy a terhekből automatikusan tömeggé konvertált tömegekhez.",
+      "message": "",
       "description": "The generated-index page description for category Masses in sidebar manualSideBar"
     },
     "sidebar.manualSideBar.category.Structural analysis": {
