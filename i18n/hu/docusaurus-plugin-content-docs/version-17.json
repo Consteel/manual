@@ -36,7 +36,7 @@
       "description": "The label for category Structural modeling in sidebar manualSideBar"
     },
     "sidebar.manualSideBar.category.Structural modeling.link.generated-index.description": {
-      "message": "",
+      "message": " ",
       "description": "The generated-index page description for category Structural modeling in sidebar manualSideBar"
     },
     "sidebar.manualSideBar.category.Structual loads": {

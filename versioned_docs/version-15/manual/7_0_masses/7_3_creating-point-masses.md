@@ -13,6 +13,7 @@ sidebar_position: 3
 
 <!-- /wp:image -->
 
+
 <!-- wp:paragraph -->
 
 Point mass can be placed on any point of any bar member, snap points, start- and endpoints and intermediate points are all available. After giving the value of the mass in kg dimension, it can be placed with a simple click on the desired member.

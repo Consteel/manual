@@ -1,8 +1,5 @@
 {
   "label": "Tömegek",
-  "position": 9,
-  "link": {
-    "type": "generated-index",
-    "description": "A Tömegek fül olyan funkciókat tartalmaz, amelyek szükségesek a dinamikus számításokhoz. Tömeges eseteket és tömeges kombinációkat lehet létrehozni azokhoz a tömegekhez, amelyeket kézzel helyeztek el a modellen, vagy automatikusan átalakítottak terhelésekből tömegekké."
-  }
+  "position": 9
+ 
 }

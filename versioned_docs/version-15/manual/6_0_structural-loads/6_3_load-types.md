@@ -13,6 +13,7 @@ Any placed load will belong to the load case selected from the list.
 
 <!-- /wp:image -->
 
+
 <!-- wp:heading {"level":3} -->
 
 ### Point load (![](./img/wp-content-uploads-2021-04-cmd_load_point.png))
