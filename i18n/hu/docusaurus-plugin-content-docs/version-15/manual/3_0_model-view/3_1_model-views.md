@@ -50,24 +50,17 @@ A nézet beállítás funkciói a baloldali sávon találhatóak. A szokásos mo
 
 Ahogy a modellépítés során az egyre összetettebbé válik, a részletkezelő segítségével megoldható, hogy csak a modell egy kiválasztott részlete legyen látható. Ehhez válasszuk ki a modell kívánt elemeit, majd kattintsunk a _**Részlet kezelő**_ ablakban a _**Részlet modell nézet**_ ikonra.
 
-
-[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-submodel-select.jpg)](./img/wp-content-uploads-2021-04-4-2-model-view-submodel-select.jpg)
-
-
-[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/02/reszlet_kezelo.png)](./img/wp-content-uploads-2022-02-reszlet_kezelo.png)
-
+![alt text](img/rezsletmodellnezet.png)
 
 A parancs hatására a kiválasztott elemeken kívül minden más rejtetté válik:
 
 
-[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-submodel-1.png)](./img/wp-content-uploads-2021-04-4-2-model-view-submodel-1.png)
+![alt text](img/reszlet.png)
 
 
 Ha az _**Elrejtett részek megjelenítése áttetszően**_ jelölőnégyzetet bekapcsoljuk, a rejtett elemek halvány szürke színnel láthatóvá válnak.
 
-[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-submodel-2.jpg)](./img/wp-content-uploads-2021-04-4-2-model-view-submodel-2.jpg)
-
-
+![alt text](img/hiddenparts.png)
 
 A teljes modell újbóli láthatóvá tételéhez kattintsunk a **_Részlet kezelő_** ablakában a _**Teljes modell**_ nézet parancsra:
 
