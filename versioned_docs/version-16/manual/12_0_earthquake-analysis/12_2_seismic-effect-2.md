@@ -171,7 +171,6 @@ Considered storeys have to be chosen in the _Considered storeys_ for accidental 
 
 <!-- wp:paragraph -->
 
-Consteel 13 User Manual
 
 
 

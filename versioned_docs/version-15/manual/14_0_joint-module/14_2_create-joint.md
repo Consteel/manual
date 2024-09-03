@@ -254,7 +254,7 @@ Documentation of the Joint can be started with the Document… button on the bot
 
 <!-- wp:heading {"level":4} -->
 
-#### Manipulating join
+#### Manipulating joint
 
 <!-- /wp:heading -->
 

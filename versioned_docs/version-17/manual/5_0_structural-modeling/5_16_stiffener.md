@@ -33,7 +33,8 @@ The modeling of various web stiffeners is currently available for welded I- or H
 
 <!-- wp:heading {"level":3} -->
 
-### Creating stiffeners ![](./img/wp-content-uploads-2021-05-cmd_stiffener.png)
+### Creating stiffeners 
+![](./img/wp-content-uploads-2021-05-cmd_stiffener.png)
 
 <!-- /wp:heading -->
 

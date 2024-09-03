@@ -106,7 +106,7 @@ The member segments inside the overlapping zones are separated and handled speci
 <!-- wp:list -->
 
 - _Buckling analysis_: the finite elements belonging to the beam segments inside the overlapping nodes are left out from the buckling analysis (as it would be an unselected model portion). The reason is that in this zone member buckling cannot occur, and the effective buckling lengths of the members actually start outside of this zone
-- Plastic analysis: the plastic hinges cannot be formed inside the corner zone. Accordingly, the plastic hinges are formed at the theoretically exact positions (for instance on the column below the haunch) and not in the connection node where the “virtual” bending moment is the highest
+- _Plastic analysis_: the plastic hinges cannot be formed inside the corner zone. Accordingly, the plastic hinges are formed at the theoretically exact positions (for instance on the column below the haunch) and not in the connection node where the “virtual” bending moment is the highest
 
 <!-- /wp:list -->
 

@@ -148,7 +148,7 @@ Spread footing placed under eccentric column:
 <!-- wp:image {"align":"left","id":44536,"width":138,"height":147,"sizeSlug":"full","linkDestination":"none"} -->
 
 
-:::warning
+:::Danger
 
 The visualization of the spread footing can be the same or very similar with two different eccentricity definitions (combination of eccentricity types), but the finite element models can still be different. It is important to make sure about the correctness of the structural model.
 
@@ -196,7 +196,7 @@ Self-weight of the spread footing is not considered in the analysis, it is calcu
 
 <!-- wp:paragraph -->
 
-:::warning
+:::Danger
 
 It is important to take care of the end releases of the column the spread footing is connected to.
 
@@ -278,7 +278,7 @@ Different verifications are performed in the corresponding limit states.
 
 <!-- wp:image {"align":"left","id":44558,"width":142,"height":151,"sizeSlug":"full","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2023-01-image-16.png)
+
 
 <!-- /wp:image -->
 
@@ -291,7 +291,8 @@ Different verifications are performed in the corresponding limit states.
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
+:::warning
 
 When adjusting the dimensions of the foundation (height, ex, ey) during the design process, the loads become obsolete. It is necessary to run a new analysis in Consteel to get the correct foundation loads
-
+:::
 <!-- /wp:paragraph -->

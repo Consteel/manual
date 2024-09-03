@@ -477,7 +477,7 @@ Rules can be applied to model portions. It means that only the results of the no
 
 When applying more than one rules together, the lists of selected combinations is the sum of the lists that would have been created separately.
 
-:::warning
+:::Danger
 
 The result of filtering by two rules will differ when applying the rules at the same time or one after another because the list of combinations that the filters are applied on are different.
 :::
@@ -756,7 +756,7 @@ Design rules are checked for every FE point of the model portion.
 ![](./img/wp-content-uploads-2023-04-Design-rule.png)
 
 
-:::warning
+:::Danger
 
 
 **_Steel – Dominant results_** are produced the same way as it is done on **Global checks** tab. Except the handling of the equal maximal ratios. On **Global checks** only one maximal is shown, in the filter all is selected.

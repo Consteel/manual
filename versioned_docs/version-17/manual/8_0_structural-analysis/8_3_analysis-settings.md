@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 ---
-# Analysis Settings
+# Analysis settings
 
 The required analysis types can be chosen and configured on the **Set Analysis parameters** dialogue, which can be open from the **Analysis tab** with the ![](./img/wp-content-uploads-2021-04-cmd_anal_set.png) command. This dialogue window consists of an overview page and four subpages. The three main parts of the **[Overview page](#overview-page)** are:
 

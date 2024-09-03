@@ -294,12 +294,6 @@ Loads/supports defined on the Reference line will be positioned to the edge wher
 
 <!-- /wp:image -->
 
-<!-- wp:heading {"level":3} -->
-
-### Analysis
-
-<!-- /wp:heading -->
-
 <!-- wp:paragraph -->
 
 <!-- /wp:paragraph -->

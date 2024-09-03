@@ -18,7 +18,7 @@ The **Auto portions** are generated automatically while modelling the structures
 
 These functions are located on the **Custom portions** and **Auto portions** tab (Located on the right [**_Side panel_**](../1_0_general-description/1_2_the-main-window.md#side-panel) as a default).
 
-### **Custom portions**
+### Custom portions
 
 ![alt text](<img/custom portion cs17.png>)
 

@@ -87,7 +87,7 @@ Here (picture above) it is possible to set connections both to the flanges and t
 
 <!-- wp:paragraph -->
 
-When setting a connection (picture above), the type and the cross section of the connected element has to be set. It can be chosen from the drop down menu, or loaded from the section administrator by clicking the three dot button (![](./img/wp-content-uploads-2021-04-3dots-button.png)). For eligible list of connections, please see [Chapter.](../14_0_joint-module/14_2_create-joint.md)
+When setting a connection (picture above), the type and the cross section of the connected element has to be set. It can be chosen from the drop down menu, or loaded from the section administrator by clicking the three dot button (![](./img/wp-content-uploads-2021-04-3dots-button.png)). For eligible list of connections, please see [the Joint types chapter.](../14_0_joint-module/14_1_joint-types.md)
 
 <!-- /wp:paragraph -->
 
@@ -180,7 +180,7 @@ The other way of placing a joint, is to use Place joint function, which can be f
 
 
 <!-- wp:paragraph {"placeholder":"Content…"} -->
-:::warning
+:::Danger
 
 It should be bear in mind that the settings in the csJoint module (profiles sizes, material grades, etc.) will not effect the 3D model. the changed values will be considered in the joint calculation only! The user has to way to keep the model consistent: 1. After modifying the connection the 3D model has to be changed accordingly, 2. Change the 3D model first run the analysis, redefine the connection.
 :::
@@ -254,7 +254,7 @@ Documentation of the Joint can be started with the Document… button on the bot
 
 <!-- wp:heading {"level":4} -->
 
-#### Manipulating join
+#### Manipulating joint
 
 <!-- /wp:heading -->
 

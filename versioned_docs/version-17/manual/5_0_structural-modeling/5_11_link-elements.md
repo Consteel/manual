@@ -109,7 +109,8 @@ This type of link element can be used for example when connecting a slab eccentr
 
 <!-- wp:heading {"level":3} -->
 
-### Smart Link (![](./img/wp-content-uploads-2021-04-cmd_smartlink.png))
+### Smart Link 
+![](./img/wp-content-uploads-2021-04-cmd_smartlink.png)
 
 <!-- /wp:heading -->
 

@@ -64,7 +64,7 @@ Fire protection can be _Unprotected_ and _Protected_. If Protected is chosen, th
 
 
 <!-- wp:paragraph -->
-:::warning
+:::Danger
 
 Attention! Critical temperature calculation can only be requested for members that have reactive protection!
 

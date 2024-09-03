@@ -92,7 +92,7 @@ There is only one choice available: the _**6 DOF beam element**_ type. This is t
 
 
 
-:::note
+:::Warning
 It should be noted that not only the eccentric axial force influences the analysis (additional bending moments), but also the eccentric bending and torsional moments (additional bending and torsional moments and **bimoment**)!
 :::
 
@@ -105,7 +105,7 @@ As the first step of line member modeling, cross-sections have to be loaded into
 - Macro sections,
 - Drawn sections.
 
-:::note
+:::Warning
 It is important to note that in Consteel, material quality is an attribute of the cross-section, therefore it must be defined when loading the cross-section!
 :::
 
@@ -210,7 +210,7 @@ In the case of cold-formed macros, it is also possible to provide profile stiffe
 For cold-formed macro sections made of coated material, the thickness tolerance category as defined in EN 10143 shall also be provided. There are two categories: normal and special. Accordingly, the design wall thickness of the cross-section is calculated according to EN 1993-1-3 section 3.2.4. In general construction practice, such sections are most often made of coated steel sheets according to the aforementioned EN 10143 standard, and therefore these macros are based on the thickness tolerance categories defined in this standard.
 
 
-:::warning
+:::Danger
 
 
 Important, that if the designer does not choose the coated material from the database and that the selected material has a thickness tolerance of more than 5%, in this case, the calculation will not be exact. To avoid this, you must import the cross-section into the **_Section drafter_** module and provide the real thickness tolerance. (See **_Section drafter_** in the following chapter!)
@@ -331,7 +331,7 @@ The section geometry is edited in the first phase. Stiffeners can be easily and 
 
 
 
-:::note
+:::Warning
 
 In the section drawing window, you must also press ENTER after entering each parameter for the entered value to take effect!
 :::
@@ -683,7 +683,7 @@ Available beam cross-sections are:
 
 - Reverse T shaped section
 
-:::warning
+:::Danger
 
 
 Models created with earlier version of Consteel may use solid rectangular and circular sections without design option. The creation of such sections is not anymore available, but models containing such section will continue to work normally even in newer versions of Consteel.

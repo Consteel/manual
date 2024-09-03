@@ -9,31 +9,31 @@ The primary focus of the year was to make the program easy to use. The new funct
 
 <!-- wp:heading -->
 
-## **Automatic model portions**
+## Automatic model portions
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-To meet our customers' needs, we created a collection of commonly used portion categories and developed a new automatic model portion function beside the existing manual model portion feature. This new functionality automatically generates model portions by grouping members based on the following categories: cross-section, material, placement, utilization for bar members; thickness, material, and placement for plate elements. The [**auto portions**](../manual/3_0_model-view/3_3_portions-manager.md#portions-manager) are updated according to the model's status and can also be used in conjunction with manually created custom portions.
+To meet our customers' needs, we created a collection of commonly used portion categories and developed a new automatic model portion function beside the existing manual model portion feature. This new functionality automatically generates model portions by grouping members based on the following categories: cross-section, material, placement, utilization for bar members; thickness, material, and placement for plate elements. The [**auto portions**](../manual/3_0_model-view/3_3_portions-manager.md#auto-portions) are updated according to the model's status and can also be used in conjunction with manually created custom portions.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
 
-## **X Bracing members**
+## X Bracing members
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-To address potential challenges in handling non-linear tension-only members in linear calculations, a new development has been introduced. With the latest update, users can now designate the finite element type of these members as [**X Brace**](../manual/5_0_structural-modeling/5_2_line-members.md). It is intended to be used for individual members of bracing systems arranged in pairs and always one of them working in tension. This option will linearize the behaviour of such members.
+To address potential challenges in handling non-linear tension-only members in linear calculations, a new development has been introduced. With the latest update, users can now designate the finite element type of these members as [**X Brace**](../manual/5_0_structural-modeling/5_2_line-members.md#line-members). It is intended to be used for individual members of bracing systems arranged in pairs and always one of them working in tension. This option will linearize the behaviour of such members.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
 
-## **Load transfer surface improvements**
+## Load transfer surface improvements
 
 <!-- /wp:heading -->
 
@@ -45,7 +45,7 @@ To enhance the automatic distribution methodology, users now have the capability
 
 <!-- wp:heading -->
 
-## **Extended and unified design results**
+## Extended and unified design results
 
 <!-- /wp:heading -->
 
@@ -57,7 +57,7 @@ The visualization and presentation of design results have been reworked to bette
 
 <!-- wp:heading -->
 
-## **New environment for software interactions**
+## New environment for software interactions
 
 <!-- /wp:heading -->
 
@@ -69,7 +69,7 @@ Interaction capabilities between software have been achieved through the impleme
 
 <!-- wp:heading -->
 
-## **Descript language developments**
+## Descript language developments
 
 <!-- /wp:heading -->
 
@@ -81,7 +81,7 @@ As more people use our [**script system, Descript**](../descript/15_1_introducti
 
 <!-- wp:heading -->
 
-## **Improvements for efficient modelling (user requests)**
+## Improvements for efficient modelling (user requests)
 
 <!-- /wp:heading -->
 
@@ -95,7 +95,7 @@ In response to our customers' requests, this version incorporates several improv
 - quick select by property directly from the [**property tree**](../manual/3_0_model-view/3_2_selection.md) by double-click
 - structural member selection from analysis and [**design result**](../manual/3_0_model-view/3_2_selection.md) tables
 
-## **Detailed model comparison in Steelspace**
+## Detailed model comparison in Steelspace
 
 <!-- /wp:heading -->
 
@@ -107,7 +107,7 @@ Users can compare saved milestones and stages of modelling with the new function
 
 <!-- wp:heading -->
 
-## **Clipping Plane feature in Steelspace**
+## Clipping Plane feature in Steelspace
 
 <!-- /wp:heading -->
 
@@ -119,7 +119,7 @@ For improved visibility, we've introduced the clipping plane feature in Steelspa
 
 <!-- wp:heading -->
 
-## **Improved collaboration management**
+## Improved collaboration management
 
 <!-- /wp:heading -->
 

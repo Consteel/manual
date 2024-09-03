@@ -33,7 +33,8 @@ The modeling of various web cut-outs is currently available for welded I or H ty
 
 <!-- wp:heading {"level":3} -->
 
-### Creating cutouts ![](./img/wp-content-uploads-2021-05-cmd_cutout.png)
+### Creating cutouts 
+![](./img/wp-content-uploads-2021-05-cmd_cutout.png)
 
 <!-- /wp:heading -->
 
@@ -49,7 +50,7 @@ Cut-out can be placed on the webs of welded I or H sections, regardless of wheth
 
 <!-- wp:image {"align":"center","id":11410,"width":237,"height":260,"sizeSlug":"full","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/05/dial_dual_cutout_rect.png)](./img/wp-content-uploads-2021-05-dial_dual_cutout_rect.png)
+![](./img/wp-content-uploads-2021-05-dial_dual_cutout_rect.png)
 
 <!-- /wp:image -->
 
