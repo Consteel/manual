@@ -92,7 +92,7 @@ There is only one choice available: the _**6 DOF beam element**_ type. This is t
 
 
 
-:::Warning
+:::Danger
 It should be noted that not only the eccentric axial force influences the analysis (additional bending moments), but also the eccentric bending and torsional moments (additional bending and torsional moments and **bimoment**)!
 :::
 
@@ -105,7 +105,7 @@ As the first step of line member modeling, cross-sections have to be loaded into
 - Macro sections,
 - Drawn sections.
 
-:::Warning
+:::Danger
 It is important to note that in Consteel, material quality is an attribute of the cross-section, therefore it must be defined when loading the cross-section!
 :::
 
@@ -331,7 +331,7 @@ The section geometry is edited in the first phase. Stiffeners can be easily and 
 
 
 
-:::Warning
+:::Danger
 
 In the section drawing window, you must also press ENTER after entering each parameter for the entered value to take effect!
 :::

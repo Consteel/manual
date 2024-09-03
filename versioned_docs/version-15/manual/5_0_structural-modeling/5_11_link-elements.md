@@ -49,7 +49,8 @@ There are two different types of link element.
 
 <!-- wp:heading {"level":4} -->
 
-#### Connect two structural points (![](./img/wp-content-uploads-2021-04-cmd_link_point.png))
+#### Connect two structural points 
+![](./img/wp-content-uploads-2021-04-cmd_link_point.png)
 
 <!-- /wp:heading -->
 
@@ -79,7 +80,8 @@ For example, if there is a cantilever on a relatively high tapered column (see i
 
 <!-- wp:heading {"level":4} -->
 
-#### Connect two structural edges that are equal length and parallel (![](./img/wp-content-uploads-2021-04-cmd_link_line.png))
+#### Connect two structural edges that are equal length and parallel 
+![](./img/wp-content-uploads-2021-04-cmd_link_line.png)
 
 <!-- /wp:heading -->
 
@@ -109,7 +111,8 @@ This type of link element can be used for example when connecting a slab eccentr
 
 <!-- wp:heading {"level":3} -->
 
-### Smart Link (![](./img/wp-content-uploads-2021-04-cmd_smartlink.png))
+### Smart Link 
+![](./img/wp-content-uploads-2021-04-cmd_smartlink.png)
 
 <!-- /wp:heading -->
 

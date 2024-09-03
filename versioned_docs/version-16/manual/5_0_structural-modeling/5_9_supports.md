@@ -27,7 +27,8 @@ Supports can be placed according to the Point loads can be placed according to t
 
 <!-- wp:heading {"level":3} -->
 
-### Point support (![](./img/wp-content-uploads-2021-04-cmd_supp_point.png))
+### Point support 
+![](./img/wp-content-uploads-2021-04-cmd_supp_point.png)
 
 <!-- /wp:heading -->
 
@@ -340,7 +341,8 @@ Be aware that since the finite element for the steel beams and columns has 7 DOF
 
 <!-- wp:heading {"level":3} -->
 
-### Line support (![](./img/wp-content-uploads-2021-04-cmd_supp_line.png))
+### Line support 
+![](./img/wp-content-uploads-2021-04-cmd_supp_line.png)
 
 <!-- /wp:heading -->
 
@@ -400,7 +402,8 @@ The line support will be placed between the first and the second point defined b
 
 <!-- wp:heading {"level":3} -->
 
-### Surface support (![](./img/wp-content-uploads-2021-04-cmd_supp_surf.png))
+### Surface support 
+![](./img/wp-content-uploads-2021-04-cmd_supp_surf.png)
 
 <!-- /wp:heading -->
 

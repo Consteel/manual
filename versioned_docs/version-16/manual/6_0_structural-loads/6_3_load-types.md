@@ -15,7 +15,8 @@ Any placed load will belong to the load case selected from the list.
 
 <!-- wp:heading {"level":3} -->
 
-### Point load (![](./img/wp-content-uploads-2021-04-cmd_load_point.png))
+### Point load 
+![](./img/wp-content-uploads-2021-04-cmd_load_point.png)
 
 <!-- /wp:heading -->
 
@@ -51,7 +52,8 @@ Eccentricity can be applied on the point load also. The effect of the selected c
 
 <!-- wp:heading {"level":3} -->
 
-### Line load (![](./img/wp-content-uploads-2021-04-cmd_load_line.png))
+### Line load 
+![](./img/wp-content-uploads-2021-04-cmd_load_line.png)
 
 <!-- /wp:heading -->
 
@@ -320,7 +322,8 @@ By clicking on the OK button the line snow loads are created.
 Pressing the Place loads icon (![](./img/wp-content-uploads-2021-04-cmd_placeload_apply.png)) on the Line load dialog the created line snow loads are placed on the selected member(s).
 
 
-### Surface load (![](./img/wp-content-uploads-2021-04-cmd_load_surf.png))
+### Surface load 
+![](./img/wp-content-uploads-2021-04-cmd_load_surf.png)
 
 
 Surface load can be defined in three ways. No surface moment loads can be placed.
@@ -395,7 +398,8 @@ At present, surface wind load can only be defined for Load transfer surface (see
 The definition of the surface wind load should begin by specifying the velocity pressure and the external and internal shape coefficients. For a description of the dialogs (![](./img/wp-content-uploads-2021-04-3dots-button.png)) for each parameter, see the line wind load section (see section 6.4.2.1). After setting the parameters, the load can be placed on the surface by clicking on it.
 
 
-### Load transfer surface (![](./img/wp-content-uploads-2021-04-cmd_load_LTS.png))
+### Load transfer surface 
+![](./img/wp-content-uploads-2021-04-cmd_load_LTS.png)
 
 
 Load transfer surface (LTS) is a special surface that distributes surface loads to members as line loads. This is very useful in those cases when surface load needs to be distributed to members, like floor loads, snow and wind load, etc.
@@ -421,8 +425,9 @@ It is also possible to use the **_Multiple placement of load transfer surfaces_*
 
 [![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-4-Edit-load-transfer-surface_3.png)](./img/wp-content-uploads-2021-04-7-4-Edit-load-transfer-surface_3.png)
 
-
+:::info
 **It is important to know**, that the maximum number of edges that can be selected in one step, is currently limited to 200. If the selected edges exceed the limit of 200, a notification will be shown on the Edit load transfer surface dialog.
+:::
 
 
 There are two visibility options: view the surface load or view the distributed load.
@@ -495,7 +500,8 @@ If selected members option is chosen and then the black arrow is clicked then pr
 
 <!-- wp:heading {"level":3} -->
 
-### Temperature load (![](./img/wp-content-uploads-2021-04-cmd_load_temp_line.png)![](./img/wp-content-uploads-2021-04-cmd_load_temp_surf.png))
+### Temperature load 
+![](./img/wp-content-uploads-2021-04-cmd_load_temp_line.png)![](./img/wp-content-uploads-2021-04-cmd_load_temp_surf.png)
 
 <!-- /wp:heading -->
 
@@ -547,7 +553,8 @@ First choose the type of the temperature load: the temperature can change along 
 
 <!-- wp:heading {"level":3} -->
 
-### Prescribed displacement (![](./img/wp-content-uploads-2021-04-cmd_load_displ.png))
+### Prescribed displacement 
+![](./img/wp-content-uploads-2021-04-cmd_load_displ.png)
 
 <!-- /wp:heading -->
 
@@ -571,7 +578,8 @@ It can be placed according to the **Global (**![](./img/wp-content-uploads-2021-
 
 <!-- wp:heading {"level":3} -->
 
-### Change in length (![](./img/wp-content-uploads-2021-04-cmd_load_dL.png)), tension force (![](./img/wp-content-uploads-2021-04-cmd_load_tensi.png))
+### Change in length 
+![](./img/wp-content-uploads-2021-04-cmd_load_dL.png), tension force (![](./img/wp-content-uploads-2021-04-cmd_load_tensi.png))
 
 <!-- /wp:heading -->
 

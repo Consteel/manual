@@ -26,7 +26,7 @@ Meteorological load generator can generate wind and snow load for the most commo
   - EuroCode 1 (EN 1991-3)
 
 
-:::warning
+:::Danger
 
 Heights of the structure (h) for generating wind loads are calculated from the global z=0 level. therefore the structural model has to be placed to its real height in the modeling area measured from the global z=0 level. For example, the lowest edge of a windward wall cannot be placed below the global z=0 level, or if the model is a roof of a building, then the roof must be placed in the real height measured from the global z=0 level.
 :::
@@ -163,7 +163,7 @@ All of the parameters are loaded from the selected national NA, only the basic w
 
 
 <!-- wp:paragraph -->
-:::warning
+:::Danger
 Velocity pressure dialog and the necessary parameters could be different according to the selected EuroCode national annex.
 :::
 <!-- /wp:paragraph -->

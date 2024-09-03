@@ -9,13 +9,13 @@ In Consteel 16, you can create, view, download, edit and restore previous versio
 
 <!-- wp:heading {"level":3} -->
 
-### **Model history in Consteel**
+### Model history in Consteel
 
 <!-- /wp:heading -->
 
 <!-- wp:heading {"level":4} -->
 
-#### **Creating a history item**
+#### Creating a history item
 
 <!-- /wp:heading -->
 
@@ -103,7 +103,7 @@ _Click the „+ Create history item” button to create a new one_
 
 <!-- wp:heading {"level":4} -->
 
-#### **Downloading a version of a model**
+#### Downloading a version of a model
 
 <!-- /wp:heading -->
 
@@ -115,7 +115,7 @@ When you open the History function click on the Download icon at the desired mod
 
 <!-- wp:heading {"level":4} -->
 
-#### **Editing a history item**
+#### Editing a history item
 
 <!-- /wp:heading -->
 
@@ -127,7 +127,7 @@ When you open the History function click on the Edit icon at the desired model h
 
 <!-- wp:heading {"level":4} -->
 
-#### **Viewing a version of a model**
+#### Viewing a version of a model
 
 <!-- /wp:heading -->
 
@@ -139,7 +139,7 @@ When you open the History function and click on the View icon at the desired mod
 
 <!-- wp:heading {"level":4} -->
 
-#### **Restore a previous version of a model**
+#### Restore a previous version of a model
 
 <!-- /wp:heading -->
 
@@ -177,7 +177,7 @@ _Warning message about restoring to an earlier version_
 
 <!-- wp:heading {"level":3} -->
 
-### **Model history in Steelspace**
+### Model history in Steelspace
 
 <!-- /wp:heading -->
 
@@ -189,7 +189,7 @@ As you can see the History function is fully integrated into Steelspace. You jus
 
 <!-- wp:heading {"level":4} -->
 
-#### **Creating a history item**
+#### Creating a history item
 
 <!-- /wp:heading -->
 
@@ -240,7 +240,7 @@ _Click on the History tab on the right side in the Model viewer screen to access
 
 <!-- wp:heading {"level":4} -->
 
-#### **Downloading a version of a model**
+#### Downloading a version of a model
 
 <!-- /wp:heading -->
 
@@ -252,7 +252,7 @@ Click on the Download icon at the desired model history item in the Document sel
 
 <!-- wp:heading {"level":4} -->
 
-#### **Editing a history item**
+#### Editing a history item
 
 <!-- /wp:heading -->
 
@@ -264,7 +264,7 @@ Click on the Edit icon at the desired model history item in the Document selecto
 
 <!-- wp:heading {"level":4} -->
 
-#### **Viewing a version of a model**
+#### Viewing a version of a model
 
 <!-- /wp:heading -->
 
@@ -276,7 +276,7 @@ In the Document selector just click twice on the card of the model or click on t
 
 <!-- wp:heading {"level":4} -->
 
-#### **Restore a previous version of a model**
+#### Restore a previous version of a model
 
 <!-- /wp:heading -->
 
@@ -288,7 +288,7 @@ Choose the history version you like and click on the Restore icon. A warning mes
 
 <!-- wp:heading {"level":4} -->
 
-#### **Deleting a history item**
+#### Deleting a history item
 
 <!-- /wp:heading -->
 
@@ -300,7 +300,7 @@ Click on the Delete icon at the desired model history item in the Document selec
 
 <!-- wp:heading {"level":3} -->
 
-### **Compare model versions**
+### Compare model versions
 
 <!-- /wp:heading -->
 
@@ -408,7 +408,7 @@ If you switch back to the Model screen, your comparison will be lost and you wil
 
 <!-- wp:heading {"level":3} -->
 
-### **Selection**
+### Selection
 
 <!-- /wp:heading -->
 
@@ -438,7 +438,7 @@ To enhance understanding of the model, users can select objects based on their s
 
 <!-- wp:heading {"level":3} -->
 
-### **Loads**
+### Loads
 
 <!-- /wp:heading -->
 
@@ -456,7 +456,7 @@ The next button in the taskbar is the Loads button. It helps users identify the 
 
 <!-- wp:heading {"level":3} -->
 
-### **Display**
+### Display
 
 <!-- /wp:heading -->
 

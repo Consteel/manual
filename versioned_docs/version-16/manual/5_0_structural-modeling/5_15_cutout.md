@@ -33,7 +33,8 @@ The modeling of various web cut-outs is currently available for welded I or H ty
 
 <!-- wp:heading {"level":3} -->
 
-### Creating cutouts ![](./img/wp-content-uploads-2021-05-cmd_cutout.png)
+### Creating cutouts 
+![](./img/wp-content-uploads-2021-05-cmd_cutout.png)
 
 <!-- /wp:heading -->
 

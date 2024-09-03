@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 ---
-# Moving Load
+# Moving load
 
 EuroCode based or user defined crane and train load can be created and placed on the model manually or by the loading of an influence graph.
 
@@ -15,7 +15,8 @@ EuroCode based or user defined crane and train load can be created and placed on
 
 <!-- wp:heading {"level":3} -->
 
-### Influence line (![](./img/wp-content-uploads-2021-04-cmd_load_path.png))
+### Influence line 
+  ![](./img/wp-content-uploads-2021-04-cmd_load_path.png)
 
 <!-- /wp:heading -->
 
@@ -63,7 +64,8 @@ Double **Influence line** can be created by selecting the check-box in the above
 
 <!-- wp:heading {"level":3} -->
 
-### Influence graph (![](./img/wp-content-uploads-2021-04-cmd_load_influ.png))
+### Influence graph 
+![](./img/wp-content-uploads-2021-04-cmd_load_influ.png)
 
 <!-- /wp:heading -->
 
@@ -187,7 +189,8 @@ To run Influence graph analysis see **[Structural analysis](../8_0_structural-an
 
 <!-- wp:heading {"level":3} -->
 
-### Crane load (![](./img/wp-content-uploads-2021-04-cmd_load_crane.png))
+### Crane load 
+![](./img/wp-content-uploads-2021-04-cmd_load_crane.png)
 
 <!-- /wp:heading -->
 
@@ -455,7 +458,8 @@ The placed load can be saved to a load case by the function of the Save loading 
 
 <!-- wp:heading {"level":3} -->
 
-### Train load (![](./img/wp-content-uploads-2021-04-cmd_load_train.png))
+### Train load 
+![](./img/wp-content-uploads-2021-04-cmd_load_train.png)
 
 <!-- /wp:heading -->
 
