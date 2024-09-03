@@ -179,7 +179,7 @@ Az utolsó fül a **Mellékletek** fül. Ha van már létrehozott csomóponti va
 
 <!-- wp:image {"align":"left","id":21420,"width":76,"height":81,"sizeSlug":"full","linkDestination":"none"} -->
 
-:::warning
+:::danger
 
 <!-- /wp:image -->
 

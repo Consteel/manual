@@ -210,7 +210,7 @@ A második lehetőség a **Szerkezeti elemek** fülön található **Csomópont 
 
 <!-- wp:media-text {"mediaId":9849,"mediaType":"image","mediaWidth":15} -->
 
-:::warning
+:::danger
 
 A Joint modulban végzett módosítások (keresztmetszet vagy anyagminőség változtatás) nem befolyásolja a 3D szerkezeti modellt. Ezek csak Joint számítás eredményeire vannak hatással. A felhasználónak kell a modellt a Joint-ban végzett módosításokkal szinkronban tartania: ha megváltoztatunk valami a kapcsolatban, a 3d modellt is meg kell változtatni annak megfelelően. Ezután a számítást újra kell futtatni, és a kapcsolatot újra ellenőrizni kell.
 :::

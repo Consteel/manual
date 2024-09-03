@@ -19,13 +19,13 @@ A Verzióelőzmények funkció célja, hogy megőrizze a modell különböző á
 
 <!-- wp:heading {"level":3} -->
 
-### **Verzióelőzmények Consteel**ben
+### Verzióelőzmények Consteelben
 
 <!-- /wp:heading -->
 
 <!-- wp:heading {"level":4} -->
 
-#### **Előzményelem létrehozása**
+#### Előzményelem létrehozása
 
 <!-- /wp:heading -->
 
@@ -110,7 +110,7 @@ A verzióelőzmény elem tartalmazza a modell nevét, a verzió számát, a lét
 
 <!-- wp:heading {"level":4} -->
 
-#### **Modellverzió letöltése**
+#### Modellverzió letöltése
 
 <!-- /wp:heading -->
 
@@ -122,7 +122,7 @@ A Verzióelőzmények funkció megnyitásakor kattints a Letöltés ikonra a kí
 
 <!-- wp:heading {"level":4} -->
 
-#### **Verzióelőzmény elem módosítása**
+#### Verzióelőzmény elem módosítása
 
 <!-- /wp:heading -->
 
@@ -134,7 +134,7 @@ A Verzióelőzmények funkció megnyitásakor kattints a Szerkesztés ikonra a k
 
 <!-- wp:heading {"level":4} -->
 
-#### **Modellverzió megtekintése**
+#### Modellverzió megtekintése
 
 <!-- /wp:heading -->
 
@@ -146,7 +146,7 @@ A Verzióelőzmények funkció megnyitásakor kattints a Megtekintés ikonra a k
 
 <!-- wp:heading {"level":4} -->
 
-#### **Modell visszaállítása korábbi verzióra**
+#### Modell visszaállítása korábbi verzióra
 
 <!-- /wp:heading -->
 
@@ -184,7 +184,7 @@ _Figyelmeztető üzenet visszaállítás esetén_
 
 <!-- wp:heading {"level":3} -->
 
-### **Verzióelőzmények a Steelspaceben**
+### Verzióelőzmények a Steelspaceben
 
 <!-- /wp:heading -->
 
@@ -196,7 +196,7 @@ Mint láthatod, a Verzióelőzmények teljesen integrálódtak a Steelspace fel�
 
 <!-- wp:heading {"level":4} -->
 
-#### **Előzményelem létrehozása**
+#### Előzményelem létrehozása
 
 <!-- /wp:heading -->
 
@@ -242,7 +242,7 @@ Kattints a **History** fülre a Modell megtekintő képernyő bal oldalán hogy 
 
 <!-- wp:heading {"level":4} -->
 
-#### **Modellverzió letöltése**
+#### Modellverzió letöltése
 
 <!-- /wp:heading -->
 
@@ -254,7 +254,7 @@ A Dokumentum választó felületen vagy a Modell megtekintőben kattints a kív�
 
 <!-- wp:heading {"level":4} -->
 
-#### **Verzióelőzmény elem módosítása**
+#### Verzióelőzmény elem módosítása
 
 <!-- /wp:heading -->
 
@@ -266,7 +266,7 @@ A Dokumentum választó felületen vagy a Modell megtekintőben kattints a kív�
 
 <!-- wp:heading {"level":4} -->
 
-#### **Modellverzió megtekintése**
+#### Modellverzió megtekintése
 
 <!-- /wp:heading -->
 
@@ -278,7 +278,7 @@ A Dokumentum választó felületen kattints kétszer a választott modell kárty
 
 <!-- wp:heading {"level":4} -->
 
-#### **Modell visszaállítása korábbi verzióra**
+#### Modell visszaállítása korábbi verzióra
 
 <!-- /wp:heading -->
 
@@ -290,7 +290,7 @@ A kívánt modellnél jobb felül kattints az "i" ikonra és a Verzióelőzmény
 
 <!-- wp:heading {"level":4} -->
 
-#### **Verzióelőzmény elem törlése**
+#### Verzióelőzmény elem törlése
 
 <!-- /wp:heading -->
 
@@ -306,7 +306,7 @@ A Dokumentum választó felületen vagy a Modell megtekintőben kattints a vála
 
 <!-- wp:heading {"level":3} -->
 
-### **Modellverziók összehasonlítása**
+### Modellverziók összehasonlítása
 
 <!-- /wp:heading -->
 
@@ -414,7 +414,7 @@ A Modell nézetre visszaváltás esetén elvész az előzőleg kiválasztott mod
 
 <!-- wp:heading {"level":3} -->
 
-### **Kiválasztás (Selection)**
+### Kiválasztás (Selection)
 
 <!-- /wp:heading -->
 
@@ -444,7 +444,7 @@ A modell megértésének elősegítése érdekében a felhasználók kijelölhet
 
 <!-- wp:heading {"level":3} -->
 
-### **Terhek (Loads)**
+### Terhek (Loads)
 
 <!-- /wp:heading -->
 
@@ -462,7 +462,7 @@ Az oldalsávon a következő gomb a Terhek. Segít a felhasználóknak azonosít
 
 <!-- wp:heading {"level":3} -->
 
-### **Megjelenítés (Display)**
+### Megjelenítés (Display)
 
 <!-- /wp:heading -->
 

@@ -22,7 +22,8 @@ A terhek modellezése a Terhek fülön elhelyezett funkciókkal történik. Mind
 
 <!-- wp:heading {"level":3} -->
 
-### Koncentrált teher (![](./img/wp-content-uploads-2021-04-cmd_load_point.png))
+### Koncentrált teher 
+![](./img/wp-content-uploads-2021-04-cmd_load_point.png)
 
 <!-- /wp:heading -->
 
@@ -62,7 +63,8 @@ A koncentrált teher esetében is alkalmazható külpontosság. A kiválasztott 
 
 <!-- wp:heading {"level":3} -->
 
-### Vonalmenti megoszló teher (![](./img/wp-content-uploads-2021-04-cmd_load_line.png))
+### Vonalmenti megoszló teher 
+![](./img/wp-content-uploads-2021-04-cmd_load_line.png)
 
 <!-- /wp:heading -->
 
@@ -286,7 +288,8 @@ A Vonalmenti megoszló teher dialógon található Terhek elhelyezése (![](./im
 
 <!-- wp:heading {"level":3} -->
 
-### Felület teher (![](./img/wp-content-uploads-2021-04-cmd_load_surf.png))
+### Felület teher 
+![](./img/wp-content-uploads-2021-04-cmd_load_surf.png)
 
 
 Felület terhet háromféle módon lehet definiálni. Felületi nyomaték nem hozható létre.
@@ -393,7 +396,8 @@ Felületi szélterhet jelenleg csak teherátadó felületre (ld. **Globális imp
 
 <!-- wp:heading {"level":3} -->
 
-### Teherátadó felület (![](./img/wp-content-uploads-2021-04-cmd_load_LTS.png))
+### Teherátadó felület 
+![](./img/wp-content-uploads-2021-04-cmd_load_LTS.png)
 
 
 Teherátadó felület egy speciális felület, ami a rajta elhelyezett felületi terheket osztja szét rudakra vonalmenti terhekként. Azokban az esetekben, ahol felületi terhet kell szétosztani rudakra, mint például hasznos teher vagy hóteher igen hatékonyan használható ez a funkció.
@@ -559,7 +563,8 @@ Ha hozzárendelésnél a kijelölt rudak van kiválasztva, akkor a fekete nyíl 
 
 <!-- wp:heading {"level":3} -->
 
-### Hőteher (![](./img/wp-content-uploads-2021-04-cmd_load_temp_line.png)![](./img/wp-content-uploads-2021-04-cmd_load_temp_surf.png))
+### Hőteher 
+![](./img/wp-content-uploads-2021-04-cmd_load_temp_line.png)![](./img/wp-content-uploads-2021-04-cmd_load_temp_surf.png)
 
 <!-- /wp:heading -->
 
@@ -599,7 +604,8 @@ Első lépésként ki kell választani a hőteher típusát: a keresztmetszet ma
 
 <!-- wp:heading {"level":3} -->
 
-### Előírt elmozdulás (![](./img/wp-content-uploads-2021-04-cmd_load_displ.png))
+### Előírt elmozdulás 
+![](./img/wp-content-uploads-2021-04-cmd_load_displ.png)
 
 <!-- /wp:heading -->
 
@@ -617,7 +623,8 @@ Pont támaszokra megadható előírt elmozdulás, ami elhelyezhető a **Globáli
 
 <!-- wp:heading {"level":3} -->
 
-### Hosszváltozás (![](./img/wp-content-uploads-2021-04-cmd_load_dL.png)), feszítőerő (![](./img/wp-content-uploads-2021-04-cmd_load_tensi.png))
+### Hosszváltozás 
+![](./img/wp-content-uploads-2021-04-cmd_load_dL.png), feszítőerő (![](./img/wp-content-uploads-2021-04-cmd_load_tensi.png))
 
 <!-- /wp:heading -->
 

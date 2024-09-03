@@ -157,7 +157,7 @@ Pontalap külpontosságának beállítása a Consteel Joint modulban
 
 <!-- wp:image {"align":"left","id":44536,"width":138,"height":147,"sizeSlug":"full","linkDestination":"none","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-:::warning
+:::danger
 
 A pontalap grafikus ábrázolása két különböző külpontosság-megadás esetén is lehet azonos vagy nagyon hasonló (az excentricitás-típusok kombinációja), ám a végeselem-modellek mégis különbözhetnek egymástól. Fontos meggyőződni a szerkezeti modell helyességéről.
 :::
@@ -202,7 +202,7 @@ A szerkezeti analízis nem veszi figyelembe a pontalap önsúlyát, de a Constee
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"left","id":44544,"width":144,"height":153,"sizeSlug":"full","linkDestination":"none","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-:::warning
+:::danger
 
 Fontos ügyelni a pontalaphoz csatlakozó oszlop csatlakozó végének folytonosságára.
 :::
@@ -249,8 +249,9 @@ Különböző ellenőrzések kerülnek elvégzésre a megfelelő határállapoto
 ![Pontalap_vizsgalatok_tablazata](./img/wp-content-uploads-2023-07-Pontalap_vizsgalatok_tablazata-1024x183.png)
 
 
-![](./img/wp-content-uploads-2023-01-image-16.png)
+:::danger
 
 
 
 Ha a tervezési folyamat során módosítjuk a pontalap méreteit (magasság, ex, ey), a terhek elavulttá válnak. A megfelelő alapozási terhekhez új analízist kell futtatni a Consteelben.
+:::

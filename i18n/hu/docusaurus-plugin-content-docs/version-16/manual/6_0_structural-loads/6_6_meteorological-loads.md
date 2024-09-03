@@ -32,13 +32,14 @@ Meteorológiai teher generálás általános szerkezet típusokra végezhetők e
 
 <!-- wp:image {"align":"left","id":6758,"width":88,"height":93,"sizeSlug":"large","linkDestination":"none"} -->
 
-![warning](./img/wp-content-uploads-2021-04-warning_croc.png)
+:::warning
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
 **Fontos!** A szélteher generáláshoz szükséges épület magasságokat (h) a program a globális z=0 szinttől számítja. Ezért az épületet úgy kell modellezni, hogy a modelltérben az épület elemei a globális z=0 szinttől mérve a valós magasságba kerüljenek. Például, egy szél támadta fal alsó éle nem kerülhet a globális z=0 szint alá, illetve, ha csak egy tetőt modellezünk, akkor a tetőt a valós magasságban kell elhelyezni a z=0 szinttől.
+:::
 
 <!-- /wp:paragraph -->
 
@@ -172,7 +173,7 @@ Az összes paraméter automatikusan betöltődik a kiválasztott nemzeti mellék
 
 <!-- wp:image {"align":"left","id":6758,"width":82,"height":87,"sizeSlug":"full","linkDestination":"media"} -->
 
-:::warning
+:::danger
 
 A torlónyomás dialóg és a szükséges paraméterek a különböző Eurocode nemzeti mellékletek esetén eltérők lehetnek
 :::

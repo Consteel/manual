@@ -106,7 +106,7 @@ A vasbeton gerenda tervezés az **Eurocode 1992-1-1** következő vizsgálatait 
 ### Vasbeton oszlopok tervezése
 
 
-:::warning
+:::danger
 
 
 A névleges merevségen alapuló módszer alkalmazásához és a névleges görbületen alapuló módszer automatikus opciójához a megfelelő globális imperfekciók definiálására lehet szükség, lásd [**Globális imperfekciók**](../6_0_structural-loads/6_4_global-imperfections.md**).

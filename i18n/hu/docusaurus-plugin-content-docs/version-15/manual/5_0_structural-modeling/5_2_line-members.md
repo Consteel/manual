@@ -115,7 +115,7 @@ Az elérhető típusok a kiválasztott szelvénytől függenek.
 
   * **Héjelem**: a rúdelem az analízis során a keresztmetszetének megfelelő héjelemmé alakul át. Az alkalmazott terhek, támaszok, merevítő bordák és nyílások is átalakításra kerülnek. Az elem megtartja 1D jellemzőit is, így ez az átalakítás nem végérvényes. Az ilyen elemek bármikor visszaalakíthatók normál rúdelemekké. Ezekre az elemekre a szabványos méretezés jelenleg nem lehetséges.
 
-     :::note
+     :::warning
      Ez a típus nem választható ezen a párbeszédpanelen. Csak a modellben elhelyezett rudakat lehet az **_[Objektum tulajdonságok ablakban](../1_0_general-description/1_2_the-main-window.md#objektum-tulajdonságok-ablak)_** héjelemmé módosítani. További információ erről a **_[Superbeam fejezetben található.](../5_0_structural-modeling/5_14_superbeam.md)_**
      :::
 
@@ -144,7 +144,7 @@ Ilyen típusú keresztmetszetek esetén csak a _6 DOF rúdelem_ elemtípus haszn
 
 - Az ablak alsó része a felhasználókat támogató információk és parancsok kijelzésére szolgál.
 
-:::note
+:::warning
 
 Szükséges megjegyezni, hogy nem csak a külpontos normálerőknek van hatása az analízis eredményére (további nyomaték), hanem a külpontos nyomatéknak és csavarásnak (további nyomaték és csavarás, valamint **bimoment**) is!
 :::
@@ -161,7 +161,7 @@ Első lépésként a keresztmetszet betöltést kell elvégezni. Ez elvégezhet�
 <!-- wp:column {"verticalAlignment":"top","width":"95%"} -->
 
 <!-- wp:paragraph -->
-:::note
+:::warning
 
 Fontos megjegyezni, hogy Consteel-ben az anyagminőség a szelvény egy paramétere, így annak definiálását a szelvény betöltésnél kell megtenni!
 :::
@@ -280,7 +280,7 @@ A hidegen alakított szelvénymakrók utóbbi 5 szelvény típusánál lehetős�
 A hidegen alakított makró szelvényeknél, amennyiben azok bevonatos anyagból készülnek, meg kell adni az EN 10143 szabványban definiált vastagsági tolerancia kategóriát is. Kétféle kategória létezik: normál és speciális. A szelvény tervezési falvastagságát ennek megfelelően az EN 1993-1-3 3.2.4. pont szerint számítja a program. Az általános építési gyakorlatban, az ilyen szelvények leggyakrabban az említett EN 10143 szabvány szerinti, bevonatos acéllemezekből készülnek, ezért ezeknél a makróknál az ebben a szabványban definiált vastagsági tolerancia kategóriákat vettük alapul.
 
 
-:::warning
+:::danger
 
 Fontos, hogy ha a tervező nem az adatbázisban szereplő bevonatos anyagok közül választ, és a választott anyag vastagsági toleranciája nagyobb mint 5%, ebben az esetben a tervezési falvastagság számítása nem lesz pontos. Ennek elkerülésére a szelvényt be kell importálni a szelvény rajzoló modulba, és ott kell megadni a vastagsági toleranciát. (A szelvény rajzolót ld. a következő alfejezetben!)
 :::
@@ -821,7 +821,7 @@ Kiékelés önálló objektumként kijelölhető és módosítható az objektum 
 
 [![](https://www.Consteelsoftware.com/wp-content/uploads/2022/03/kiekeles_parameterek.png)](./img/wp-content-uploads-2022-03-kiekeles_parameterek.png)
 
-:::note
+:::warning
 
 **Fontos tudni,** hogy a kiékelt elem szakaszon az automatikus végeselem generálás során új keresztmetszetek kerülnek előállításra, amely magában foglalja az eredeti szelvényt és a kiékelést. Az új keresztmetszetek külpontosan kerülnek elhelyezésre az elem középvonalán (kivétel szimmetrikus kiékelés esetén).
 :::
@@ -941,7 +941,7 @@ Az ![](./img/wp-content-uploads-2021-04-cmd_draw_get.png) megnyomásával egy ko
 Egy változó keresztmetszetű rúd kiválasztása esetén nemcsak a rúd, hanem a változó szelvényelem is automatikusan kiválasztásra kerül, és a paramétertáblában külön objektumként módosítható.
 
 
-:::warning
+:::danger
 
 
 **Fontos tudni,** hogy változó keresztmetszetű elem esetén az automatikus végeselem generálás során új keresztmetszetek kerülnek előállításra a megfelelő keresztmetszeti magassággal. Az új keresztmetszetek külpontosan kerülnek elhelyezésre az elem középvonalán (kivétel szimmetrikus kiékelés esetén). A keresztmetszetek külpontossága miatt az igénybevételek is külpontossá válnak, amiknek a hatása megjelenik az analízis eredményekben (például változó keresztmetszetű keretsarok esetén, az erős tengelyi hajlító nyomaték egyensúlya csak akkor ál elő, ha figyelembe vesszük a normálerő külpontosságából keletkező extra nyomatékot).

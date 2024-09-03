@@ -182,7 +182,7 @@ A táblázat a _**[Részlet kezelőben](../3_0_model-view/3_3_portions-manager.m
 
 <!-- wp:image {"align":"left","id":21420,"width":76,"height":81,"sizeSlug":"large","linkDestination":"none"} -->
 
-:::warning
+:::danger
 
 <!-- /wp:image -->
 

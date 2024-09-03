@@ -51,7 +51,8 @@ A kapcsolati elemeknek két típusa van a Consteelben. Az egyikkel két szerkeze
 
 <!-- wp:heading {"level":4} -->
 
-#### Két szerkezeti pont összekötése (![](./img/wp-content-uploads-2021-04-cmd_link_point.png))
+#### Két szerkezeti pont összekötése 
+![](./img/wp-content-uploads-2021-04-cmd_link_point.png)
 
 <!-- /wp:heading -->
 
@@ -81,7 +82,8 @@ Például, ha egy jelentős magasságú oszlophoz egy konzol kapcsolódik, akkor
 
 <!-- wp:heading {"level":4} -->
 
-#### Két egyenlő hosszúságú, párhuzamos él összekötése (![](./img/wp-content-uploads-2021-04-cmd_link_line.png))
+#### Két egyenlő hosszúságú, párhuzamos él összekötése 
+![](./img/wp-content-uploads-2021-04-cmd_link_line.png)
 
 <!-- /wp:heading -->
 
@@ -111,7 +113,8 @@ Felhasználható például egy külpontos födém és egy gerenda összekapcsol�
 
 <!-- wp:heading {"level":3} -->
 
-### Okos kapcsolati elem megadása (![](./img/wp-content-uploads-2021-04-cmd_smartlink.png))
+### Okos kapcsolati elem megadása 
+![](./img/wp-content-uploads-2021-04-cmd_smartlink.png)
 
 <!-- /wp:heading -->
 

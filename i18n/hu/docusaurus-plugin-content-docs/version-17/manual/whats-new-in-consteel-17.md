@@ -10,19 +10,19 @@ sidebar_position: 2
 
 <!-- wp:heading -->
 
-## **Automata részletmodellek**
+## Automata részletmodellek
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-Az ügyfeleink igényeinek kielégítése érdekében létrehoztunk egy gyűjteményt a gyakran használt részlet kategóriákból és kifejlesztettünk egy új automata részletmodell funkciót a meglévő funkció mellé. Az [automata részletmodell](../manual/3_0_model-view/3_3_portions-manager.md) automatikusan generál részleteket az alábbi kategóriák alapján csoportosítva: szelvényük, anyagminőségük, térbeli elhelyezkedésük és legnagyobb kihasználtságuk alapján rúdelemek, valamint vastagságuk, anyagminőségük és elhelyezkedésük alapján lemezelemek esetén. Az automata részletek mindig frissülnek a modell állapotának megfelelően és a kézi részletekkel együtt is használhatóak.
+Az ügyfeleink igényeinek kielégítése érdekében létrehoztunk egy gyűjteményt a gyakran használt részlet kategóriákból és kifejlesztettünk egy új automata részletmodell funkciót a meglévő funkció mellé. Az [automata részletmodell](../manual/3_0_model-view/3_3_portions-manager.md#autó-részletek) automatikusan generál részleteket az alábbi kategóriák alapján csoportosítva: szelvényük, anyagminőségük, térbeli elhelyezkedésük és legnagyobb kihasználtságuk alapján rúdelemek, valamint vastagságuk, anyagminőségük és elhelyezkedésük alapján lemezelemek esetén. Az automata részletek mindig frissülnek a modell állapotának megfelelően és a kézi részletekkel együtt is használhatóak.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
 
-## **Húzott rúd (X Brace)**
+## Húzott rúd (X Brace)
 
 <!-- /wp:heading -->
 
@@ -34,7 +34,7 @@ A húzott rúd elemek speciális nemlineáris viselkedése problémákat okozhat
 
 <!-- wp:heading -->
 
-## **Teherátadó felületek továbbfejlesztése**
+## Teherátadó felületek továbbfejlesztése
 
 <!-- /wp:heading -->
 
@@ -46,7 +46,7 @@ A teherátadó [felületi teher](../manual/6_0_structural-loads/6_3_load-types.m
 
 <!-- wp:heading -->
 
-## **Kiterjesztett és egyesített tervezési eredmények**
+## Kiterjesztett és egyesített tervezési eredmények
 
 <!-- /wp:heading -->
 
@@ -58,7 +58,7 @@ A [tervezési eredmények](../manual/9_0_standard-design/9_1_steel-design.md#ere
 
 <!-- wp:heading -->
 
-## **Szoftver interakciók új környezetben**
+## Szoftver interakciók új környezetben
 
 <!-- /wp:heading -->
 
@@ -70,7 +70,7 @@ A szoftverek közötti interakciók lehetőségeinek bővülése egy SDK alapú 
 
 <!-- wp:heading -->
 
-## [**Descript**](https://www.consteelsoftware.com/hu/knowledgebase/mydescript-your-personal-scripting-environment-in-consteel/?search=) **fejlesztések**
+## [Descript](https://www.consteelsoftware.com/hu/knowledgebase/mydescript-your-personal-scripting-environment-in-consteel/?search=) fejlesztések
 
 <!-- /wp:heading -->
 
@@ -78,8 +78,7 @@ A szoftverek közötti interakciók lehetőségeinek bővülése egy SDK alapú 
 
 Ahogy egyre nagyobb népszerűségnek örvend a szkriptnyelvünk, egyre több kérést kapunk. Ezekre a szükségletekre válaszul új funkciókat adtunk hozzá és fejlesztettük a nyelvet. Az újdonságok között vannak új parancsok, például egyedi hidegen alakított keresztmetszet létrehozása vagy objektumhivatkozási lekérdezések; valamint az objektum létrehozás, kezelés és lekérdezés kiterjesztett lehetőségei.
 
-
-## **Hatékony modellezést segítő fejlesztések (felhasználói kérések)**
+## Hatékony modellezést segítő fejlesztések (felhasználói kérések)
 
 
 A felhasználóink kéréseire válaszul ez a verzió több fejlesztést tartalmaz, mely könnyíti a Consteel használatát:
@@ -96,7 +95,7 @@ A felhasználóink kéréseire válaszul ez a verzió több fejlesztést tartalm
 
 - szerkezeti elem kijelölése analízis vagy szabványos tervezési [eredmény táblázatból](../manual/9_0_standard-design/9_1_steel-design.md#eredmények)
 
-## **Részletes modellösszehasonlítás**
+## Részletes modellösszehasonlítás
 
 
 A felhasználók összehasonlíthatják a mentett mérföldköveket és modellezési fázisokat a Steelspace-ben bevezetett új funkcióval. Az összehasonlítás testre szabható a felhasználók számára releváns objektumokra és attribútumokra összpontosítva. Az összehasonlítási eredmények látványosan mutatják a paraméter különbségeket, melyek látványosan ki vannak emelve. A felhasználói felület elemei közül a kiválasztás fül és az objektumtulajdonságok megjelenítője átdolgozásra kerültek annak érdekében, hogy az összehasonlításkor a két verzióban található adatok különbségei könnyen hozzáférhetővé váljanak.
@@ -105,7 +104,7 @@ A felhasználók összehasonlíthatják a mentett mérföldköveket és modellez
 
 <!-- wp:heading -->
 
-## **Elérhető a Metszősík funkció a **[**Steelspace**](https://steelspace.io/)**-ben!**
+## Elérhető a Metszősík funkció a [Steelspace](https://steelspace.io/)-ben!
 
 <!-- /wp:heading -->
 
@@ -117,7 +116,7 @@ A jobb láthatóság érdekében bevezettük a metszősík funkciót a Steelspac
 
 <!-- wp:heading -->
 
-## **Továbbfejlesztett együttműködési lehetőségek**
+## Továbbfejlesztett együttműködési lehetőségek
 
 <!-- /wp:heading -->
 

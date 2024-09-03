@@ -35,7 +35,8 @@ A gerinckivágások modellezése jelenleg hegesztett I vagy H típusú keresztme
 
 <!-- wp:heading {"level":3} -->
 
-### Kivágás létrehozása ![](./img/wp-content-uploads-2021-05-cmd_cutout.png)
+### Kivágás létrehozása 
+![](./img/wp-content-uploads-2021-05-cmd_cutout.png)
 
 <!-- /wp:heading -->
 

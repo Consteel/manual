@@ -29,7 +29,8 @@ Támaszok elhelyezhetők **globális (**![](./img/wp-content-uploads-2021-04-cre
 
 <!-- wp:heading {"level":3} -->
 
-### Pont támasz elhelyezése (![](./img/wp-content-uploads-2021-04-cmd_supp_point.png))
+### Pont támasz elhelyezése
+![](./img/wp-content-uploads-2021-04-cmd_supp_point.png)
 
 <!-- /wp:heading -->
 
@@ -331,7 +332,8 @@ Vegyük figyelembe, hogy az acél rúdelemek végeselemei 7 szabadságfokúak, e
 
 <!-- wp:heading {"level":3} -->
 
-### Vonalmenti támasz elhelyezése (![](./img/wp-content-uploads-2021-04-cmd_supp_line.png))
+### Vonalmenti támasz elhelyezése 
+![](./img/wp-content-uploads-2021-04-cmd_supp_line.png)
 
 <!-- /wp:heading -->
 
@@ -391,7 +393,8 @@ Vonalmenti támasz elhelyezése rajzolással egy rúdelemen vagy felületi eleme
 
 <!-- wp:heading {"level":3} -->
 
-### Felületi támasz elhelyezése (![](./img/wp-content-uploads-2021-04-cmd_supp_surf.png))
+### Felületi támasz elhelyezése 
+![](./img/wp-content-uploads-2021-04-cmd_supp_surf.png)
 
 <!-- /wp:heading -->
 

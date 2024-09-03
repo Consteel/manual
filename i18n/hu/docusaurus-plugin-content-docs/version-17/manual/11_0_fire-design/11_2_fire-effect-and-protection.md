@@ -81,7 +81,7 @@ Ezután ki kell választani a védelem típusát, amely lehet _védetlen_ vagy _
 
 <!-- wp:image {"align":"left","id":21420,"width":68,"height":72,"sizeSlug":"large","linkDestination":"none"} -->
 
-:::warning 
+:::danger 
 Kritikus hőmérséklet számítást csak olyan elemekre lehet kérni, amelyek reaktív védelemmel vannak ellátva!
 :::
 <!-- /wp:paragraph -->

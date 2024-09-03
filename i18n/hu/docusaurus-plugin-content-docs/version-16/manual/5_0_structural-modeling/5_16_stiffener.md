@@ -35,7 +35,8 @@ A gerinc merevítők modellezése jelenleg hegesztett I vagy H típusú keresztm
 
 <!-- wp:heading {"level":3} -->
 
-### Gerinc merevítők létrehozása ![](./img/wp-content-uploads-2021-05-cmd_stiffener.png)
+### Gerinc merevítők létrehozása 
+![](./img/wp-content-uploads-2021-05-cmd_stiffener.png)
 
 <!-- /wp:heading -->
 

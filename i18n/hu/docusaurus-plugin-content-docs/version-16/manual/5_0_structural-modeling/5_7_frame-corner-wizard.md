@@ -130,7 +130,7 @@ A bekötő szerkezeti elemek keretsarok tartományon belüli részei elkülöní
 
 <!-- wp:list -->
 
-- **Szabványos ellenőrzés**: alapértelmezett és speciális keretsarok esetén is a szabványos ellenőrzés a bekötő szerkezeti elemeknek csak a keretsarok tartományon kívüli részén kerülnek elvégzésre. Így a hajlító nyomaték virtuális csúcsa a rúdelemek keretsarok tartományon belüli kapcsolódás pontjában (aminek valójában nincs valóságos mechanikai jelentése) kikerül a szabványos ellenőrzésből. A bekötő szerkezeti elemek szabványos ellenőrzése csak a valóságos és tényleges hajlító nyomatékra (és az egyidejű további igénybevételekre) kerül elvégzésre
+- _Szabványos ellenőrzés_: alapértelmezett és speciális keretsarok esetén is a szabványos ellenőrzés a bekötő szerkezeti elemeknek csak a keretsarok tartományon kívüli részén kerülnek elvégzésre. Így a hajlító nyomaték virtuális csúcsa a rúdelemek keretsarok tartományon belüli kapcsolódás pontjában (aminek valójában nincs valóságos mechanikai jelentése) kikerül a szabványos ellenőrzésből. A bekötő szerkezeti elemek szabványos ellenőrzése csak a valóságos és tényleges hajlító nyomatékra (és az egyidejű további igénybevételekre) kerül elvégzésre
 
 <!-- /wp:list -->
 

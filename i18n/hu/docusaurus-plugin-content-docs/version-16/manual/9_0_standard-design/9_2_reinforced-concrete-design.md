@@ -141,7 +141,7 @@ A Consteel támogatja az EN 1992-1-1 által meghatározott különböző tervez�
 A választott módszer, valamint a szükséges vagy választható paraméterek a vasbeton oszlop típusú keresztmetszettel rendelkező rúdelem tulajdonságaként adhatók meg az Objektum tulajdonságok panel segítségével.
 
 
-:::warning
+:::danger
 
 
 A névleges merevségen alapuló módszer alkalmazásához és a névleges görbületen alapuló módszer automatikus opciójához a megfelelő globális imperfekciók definiálására lehet szükség, lásd [**Globális imperfekciók**](../6_0_structural-loads/6_4_global-imperfections.md**).
@@ -347,7 +347,7 @@ Nem kell tervezési paramétert rendelni a gerendákhoz, ha az oszlopokat a név
 
 <!-- wp:image {"align":"left","id":21420,"sizeSlug":"full","linkDestination":"none"} -->
 
-:::warning
+:::danger
 
 <!-- /wp:image -->
 

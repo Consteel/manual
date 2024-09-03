@@ -15,7 +15,9 @@ A funkció segítségével, EuroCode alapú vagy teljesen felhasználó által d
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
-### Hatásvonal (![](./img/wp-content-uploads-2021-04-cmd_load_path.png))
+### Hatásvonal 
+
+![](./img/wp-content-uploads-2021-04-cmd_load_path.png)
 
 <!-- /wp:heading -->
 
@@ -63,7 +65,8 @@ Kettős hatásvonal is létrehozható a jelölőnégyzet bekattintásával.
 
 <!-- wp:heading {"level":3} -->
 
-### Hatásábra (![](./img/wp-content-uploads-2021-04-cmd_load_influ.png))
+### Hatásábra 
+![](./img/wp-content-uploads-2021-04-cmd_load_influ.png)
 
 <!-- /wp:heading -->
 
@@ -187,7 +190,8 @@ Hatásábra analízis futtatását lásd a _**[Analízis beállítások](../8_0_
 
 <!-- wp:heading {"level":3} -->
 
-### Daruteher (![](./img/wp-content-uploads-2021-04-cmd_load_crane.png))
+### Daruteher 
+![](./img/wp-content-uploads-2021-04-cmd_load_crane.png)
 
 <!-- /wp:heading -->
 
@@ -459,7 +463,8 @@ Az elhelyezett teher elmenthető valamelyik teheresetbe, a _Teherállás mentés
 
 <!-- wp:heading {"level":3} -->
 
-### Vonatteher (![](./img/wp-content-uploads-2021-04-cmd_load_train.png))
+### Vonatteher 
+![](./img/wp-content-uploads-2021-04-cmd_load_train.png)
 
 <!-- /wp:heading -->
 

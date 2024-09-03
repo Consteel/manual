@@ -468,7 +468,7 @@ A szabályok alkalmazhatók részletmodellekre is. Ez azt jelenti, hogy csak a k
 <!-- wp:paragraph -->
 
 Több szabály együttes alkalmazásakor a kiválasztott kombinációk listája a külön-külön előálló listák összesítése lesz.
-:::warning
+:::danger
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -769,7 +769,7 @@ A kihasználtsági szabályok ellenőrzése a részlet modell minden egyes vége
 
 - **Acél – Általános rugalmas szilárdsági ellenállás, tiszta igénybevételi ellenállások, globális stabilitási ellenállás:** az egyes ellenőrzések kihasználtságait tartalmazzák minden egyes teherkombinációban, minden egyes pontban.
 
-:::warning
+:::danger
 
 Az **Acél – Mértékadó vizsgálat** eredménye azonos a **Globális vizsgálatok** fül táblázatának eredményeivel, az azonos legnagyobb értékek kezelését kivéve. Míg a globális vizsgálatoknál csak egy legnagyobb értéket adó kombináció jelenik meg, ebben a szűrőben az összes.
 
