@@ -72,38 +72,50 @@ const config: Config = {
           sidebarId: "manualSideBar",
           position: "left",
           label: "Consteel Manual",
+          className: "text-transform-uppercase",
         },
         {
           type: "docSidebar",
           sidebarId: "descriptSideBar",
           position: "left",
           label: "Descript",
+          className: "text-transform-uppercase",
         },
         {
           type: "dropdown",
           position: "left",
           docId: "plugins",
           label: "Plugins",
+          className: "text-transform-uppercase",
           items: [
             {
               type: "doc",
               docId: "plugins/axis/axisvm-plugin",
               label: "Converter for AXISVM",
+              className: 'text-transform-uppercase',
             },
           ],
         },
         {
-          type: 'docsVersionDropdown',
-          position: 'right'
+          type: "docsVersionDropdown",
+          position: "right",
+          className: "text-transform-uppercase",
         },
         {
           type: "localeDropdown",
           position: "right",
+          className: "text-transform-uppercase",
         },
-        { to: "release-notes", label: "Release Notes", position: "left" },
+        {
+          to: "release-notes",
+          label: "Release Notes",
+          className: "text-transform-uppercase",
+          position: "left",
+        },
         {
           href: "https://consteelsoftware.com",
           label: "Consteel Software",
+          className: "text-transform-uppercase",
           position: "right",
         },
       ],
