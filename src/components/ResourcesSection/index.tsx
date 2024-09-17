@@ -25,9 +25,9 @@ const ResourcesSection = () => {
               "padding--lg",
             ])}
           >
-            <h1 className={clsx([styles["title"], "text--uppercase"])}>
+            <h2 className={clsx([styles["title"], "text--uppercase"])}>
               <Translate>Resources</Translate>
-            </h1>
+            </h2>
             <div>
               <Translate>
                 Discover the key resources in our documentation center

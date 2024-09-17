@@ -17,9 +17,9 @@ const OurPartnersSection = () => {
       ])}
     >
       <div className="container margin-vert--lg">
-        <h1 className={clsx(["text--uppercase", styles["title"]])}>
+        <h2 className={clsx(["text--uppercase", styles["title"]])}>
           <Translate>Our partners who use Consteel</Translate>
-        </h1>
+        </h2>
         <div
           className={clsx("row", styles["logo-container"])}
           style={{ gap: "3rem" }}

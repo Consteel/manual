@@ -77,7 +77,7 @@ export default function HomePageFooter() {
           className={clsx(["padding--md", styles["home-page-footer-column"]])}
         >
           <h3>
-            <Translation>About consteel solutions </Translation>
+            <Translation>About Consteel Solutions </Translation>
           </h3>
           <div>
             <Translation>Consteel Software Manual</Translation>
@@ -129,9 +129,9 @@ export default function HomePageFooter() {
           </div>
         </div>
         <div className={clsx(["padding--md"])}>
-          <h1 className={clsx(["text--uppercase"])}>
+          <h2 className={clsx(["text--uppercase"])}>
             <Translation>Get started with consteel</Translation>
-          </h1>
+          </h2>
           <a href="https://consteelsoftware.com/#tryforfree" target="_blank">
             <Button
               color="secondary"
