@@ -97,6 +97,7 @@ h6 {
   --landing-page-background-color-3: #37465c;
   --landing-page-background-color-3-contrast: white;
   --landing-page-background-color-4: var(--ifm-background-color);
+  --landing-page-background-color-5: var(--ifm-navbar-background-color);
   --landing-page-title-color: var(--ifm-navbar-link-color);
 
 
@@ -143,7 +144,8 @@ h6 {
   --landing-page-background-color-2-contrast: #524F4F;
   --landing-page-background-color-3: #eff1f5;
   --landing-page-background-color-3-contrast: var(--landing-page-background-color-2-contrast);
-  --landing-page-background-color-4: var(--ifm-background-color);
+  --landing-page-background-color-4: var(--ifm-navbar-background-color);
+  --landing-page-background-color-5: var(--ifm-background-color);
   --landing-page-title-color: var(--ifm-navbar-link-color);
   /* CHIP color  */
   --ifm-breadcrumb-item-background-active: #ededed !important;

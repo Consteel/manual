@@ -6,6 +6,7 @@ import WhyChooseConsteelSection from "../components/WhyChooseConsteelSection";
 import SimplifyYourDesignProcessSection from "../components/SimplifyYourDesignProcessSection";
 import ResourcesSection from "../components/ResourcesSection";
 import OurPartnersSection from "../components/OurPartnersSection";
+import HomePageFooter from "../components/HomePageFooter";
 
 export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
@@ -20,6 +21,7 @@ export default function Home(): JSX.Element {
         <WhyChooseConsteelSection />
         <SimplifyYourDesignProcessSection />
         <OurPartnersSection />
+        <HomePageFooter />
       </main>
     </Layout>
   );

@@ -5,11 +5,56 @@
   "Learn how to master advanced steel design in the most rewarding way": {
     "message": "Learn how to master advanced steel design in the most rewarding way"
   },
+  "Documentation": {
+    "message": "Documentation"
+  },
+  "Site": {
+    "message": "Site"
+  },
+  "Terms of use": {
+    "message": "Terms of use"
+  },
+  "Privacy policy": {
+    "message": "Privacy policy"
+  },
+  "The Steel Lion Award notes": {
+    "message": "The Steel Lion Award notes"
+  },
+  "Steelspace": {
+    "message": "Steelspace"
+  },
   "Consteel": {
     "message": "Consteel"
   },
-  "Documentation": {
-    "message": "Documentation"
+  "Solutions": {
+    "message": "Solutions"
+  },
+  "Docs": {
+    "message": "Docs"
+  },
+  "Descript": {
+    "message": "Descript"
+  },
+  "Plugins": {
+    "message": "Plugins"
+  },
+  "Release notes": {
+    "message": "Release notes"
+  },
+  "About Consteel Solutions": {
+    "message": "About Consteel Solutions"
+  },
+  "Consteel Software Manual": {
+    "message": "Consteel Software Manual"
+  },
+  "The ConSteel team’s mission is the general reform of the way structures are designed.": {
+    "message": "The ConSteel team’s mission is the general reform of the way structures are designed."
+  },
+  "About": {
+    "message": "About"
+  },
+  "Contact": {
+    "message": "Contact"
   },
   "Center": {
     "message": "Center"

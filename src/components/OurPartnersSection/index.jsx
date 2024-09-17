@@ -16,7 +16,7 @@ const OurPartnersSection = () => {
         "padding-horiz--md",
       ])}
     >
-      <div className="container">
+      <div className="container margin-vert--lg">
         <h1 className={clsx(["text--uppercase", styles["title"]])}>
           <Translate>Our partners who use Consteel</Translate>
         </h1>

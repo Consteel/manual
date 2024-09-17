@@ -1,0 +1,21 @@
+.home-page-footer {
+  box-shadow: 0px -9px 6.5px 0px #8e737300;
+  background-color: var(--landing-page-background-color-4);
+}
+
+.social-media-icon {
+  transition: all 200ms ease-in-out;
+}
+
+.social-media-icon:hover {
+  transform: scale(1.1);
+}
+
+.margin-0-auto {
+  margin: 0 auto;
+}
+
+.home-page-footer-column {
+  flex: 1;
+  min-width: 8rem;
+}
