@@ -86,6 +86,7 @@ h6 {
   --landing-page-color-primary-2: #1eb4fa;
 
   --landing-page-color-secondary: #1fc897;
+  --landing-page-color-secondary-contrast: white;
   --landing-page-color-secondary-faded: hsl(163, 67%, 29%);
 
   --landing-page-background-color: #eff1f5;

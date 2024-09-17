@@ -1,34 +1,40 @@
 import clsx from "clsx";
 import styles from "./index.module.css";
 import Button from "../Button";
+import Translation from "@docusaurus/Translate";
 
 const SimplifyYourDesignProcessSection = () => {
   return (
     <div
       className={clsx([
         styles["simplify-your-design-process-section-container"],
-        ,
-        "padding--xl",
+        "padding-vert--xl",
+        "padding-horiz--md",
       ])}
     >
       <div
         className={clsx([
           "container",
+          "row",
+          styles["margin-0-auto"],
           styles["simplify-your-design-process-section"],
         ])}
       >
         <div className={clsx([styles["flex-1"]])}>
           <h1 className={clsx(["text--uppercase", styles["title"]])}>
-            SIMPLIFY YOUR DESIGN PROCESS
+            <Translation>Simplify your design process</Translation>
           </h1>
           <a href="https://consteelsoftware.com/#tryforfree" target="_blank">
             <Button variant="outlined" color="secondary" className="margin--md">
-              Try for free
+              <Translation>Try for free</Translation>
             </Button>
           </a>
-          <a href="https://consteelsoftware.com/products/offers-licensing/" target="_blank">
+          <a
+            href="https://consteelsoftware.com/products/offers-licensing/"
+            target="_blank"
+          >
             <Button variant="default" className="margin--md">
-              Plans
+              <Translation>Plans</Translation>
             </Button>
           </a>
         </div>

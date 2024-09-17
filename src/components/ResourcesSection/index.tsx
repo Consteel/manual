@@ -5,11 +5,19 @@ import BullHornOutline from "@site/static/img/bullhorn-outline.svg";
 import CodeBlock from "@site/static/img/code-block-tags.svg";
 import FileDocument from "@site/static/img/file-document-outline.svg";
 import Puzzle from "@site/static/img/puzzle-outline.svg";
+import Translate from "@docusaurus/Translate";
 
 const ResourcesSection = () => {
   return (
     <div className={clsx([styles["resources-section-container"]])}>
-      <div className={clsx(["padding--xl", styles["resources-section"]])}>
+      <div
+        className={clsx([
+          "padding-vert--xl",
+          "padding-horiz--md",
+          styles["resources-section"],
+          "container",
+        ])}
+      >
         <div className={clsx([styles["flex-50"], "padding--md"])}>
           <div
             className={clsx([
@@ -18,9 +26,13 @@ const ResourcesSection = () => {
             ])}
           >
             <h1 className={clsx([styles["title"], "text--uppercase"])}>
-              Resources
+              <Translate>Resources</Translate>
             </h1>
-            <div> Discover the key resources in our documentation center </div>
+            <div>
+              <Translate>
+                Discover the key resources in our documentation center
+              </Translate>{" "}
+            </div>
           </div>
         </div>
 

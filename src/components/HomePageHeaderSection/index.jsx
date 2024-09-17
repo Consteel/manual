@@ -1,20 +1,36 @@
 import clsx from "clsx";
 import Button from "../Button";
 import styles from "./index.module.css";
+import Translate from "@docusaurus/Translate";
 
 const HomePageHeaderSection = () => {
   return (
     <div className={styles["home-page-header-section"]}>
-      <div className="row row--align-center text--left container padding--xl">
+      <div
+        className={clsx([
+          "row",
+          "row--align-center",
+          "text--left",
+          styles["margin-0-auto"],
+          "container",
+          "padding-vert--xl",
+          "padding-horiz--md"
+        ])}
+      >
         <div className="col">
           <div className="margin-bottom--md">
             <h1 className={clsx(["text--uppercase", styles["title"]])}>
-              CONSTEEL <br /> DOCUMENTATION <br /> CENTER
+              <Translate>Consteel</Translate> <br />{" "}
+              <Translate>Documentation</Translate> <br />{" "}
+              <Translate>Center</Translate>
             </h1>
           </div>
 
           <div>
-            Learn how to master advanced steel design in the most rewarding way
+            <Translate>
+              Learn how to master advanced steel design in the most rewarding
+              way
+            </Translate>
           </div>
           <div className="row">
             <a href="docs/manual/intro">
@@ -23,7 +39,7 @@ const HomePageHeaderSection = () => {
                 color="secondary"
                 className="margin--md"
               >
-                Get started
+                <Translate>Get started</Translate>
               </Button>
             </a>
             <a href="https://consteelsoftware.com/#tryforfree" target="_blank">
@@ -32,7 +48,7 @@ const HomePageHeaderSection = () => {
                 color="primary"
                 className="margin-left--md margin-vert--md"
               >
-                Try for free
+                <Translate>Try for free</Translate>
               </Button>
             </a>
           </div>

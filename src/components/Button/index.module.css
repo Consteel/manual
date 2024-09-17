@@ -20,9 +20,11 @@
 
 .landing-button {
   border-radius: 5px;
-  padding-left: 3rem;
-  padding-right: 3rem;
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
   padding-top: 0.625rem;
+  width: 180px;
+  min-width: fit-content;
   padding-bottom: 0.625rem;
   display: inline-block;
   font-size: 1.125rem;
