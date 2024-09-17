@@ -1,0 +1,8 @@
+.home-page-header-section {
+  background-color: var(--landing-page-background-color-3);
+  color: var(--landing-page-background-color-3-contrast);
+}
+
+.title {
+  color: var(--landing-page-title-color);
+}

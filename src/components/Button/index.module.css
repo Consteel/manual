@@ -1,0 +1,61 @@
+.landing-button-primary-outlined {
+  background: transparent;
+  border: 2px solid var(--landing-page-color-primary);
+  color: var(--landing-page-color-primary);
+}
+
+.landing-button-secondary-outlined {
+  background: transparent;
+  border: 2px solid var(--landing-page-color-secondary);
+  color: var(--landing-page-color-secondary);
+}
+
+.landing-button-primary-outlined:hover {
+  background: var(--landing-page-color-primary-faded);
+}
+
+.landing-button-secondary-outlined:hover {
+  background: var(--landing-page-color-secondary-faded);
+}
+
+.landing-button {
+  border-radius: 5px;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+  display: inline-block;
+  font-size: 1.125rem;
+  transition: all 300ms ease-out;
+  box-shadow: 2px 2px 12.2px 0px #0f403242;
+}
+
+.landing-button:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.landing-button-secondary-default {
+  border-width: 0;
+  background-color: var(--landing-page-color-secondary);
+  color: var(--landing-page-color-secondary-contrast);
+}
+
+.landing-button-secondary-default:hover {
+  background: var(--landing-page-color-secondary-faded);
+}
+
+.landing-button-primary-default:hover {
+  opacity: 0.8;
+}
+
+.landing-button-primary-default {
+  border-width: 0;
+  background-color: var(--landing-page-color-primary);
+  color: var(--landing-page-color-primary-contrast);
+  background: linear-gradient(
+    270deg,
+    var(--landing-page-color-primary) 0%,
+    var(--landing-page-color-primary-2) 100%
+  );
+}

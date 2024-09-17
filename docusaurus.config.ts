@@ -8,7 +8,7 @@ const config: Config = {
   title: "Consteel Documentation Center",
   tagline: "Comprehensive guides for structural engineers",
   favicon: "img/favicon.ico",
-
+  
   // Set the production url of your site here
   url: "https://your-docusaurus-site.example.com",
   // Set the /<baseUrl>/ pathname under which your site is served
@@ -92,7 +92,7 @@ const config: Config = {
               type: "doc",
               docId: "plugins/axis/axisvm-plugin",
               label: "Converter for AXISVM",
-              className: 'text-transform-uppercase',
+              className: "text-transform-uppercase",
             },
           ],
         },
