@@ -7,8 +7,9 @@ import {
 } from "fs";
 import path from "node:path";
 
-const imgRegex = /\(https:\/\/consteelsoftware.com\/wp-content\/.*\)/;
-const imgUrlReg = /!\[.*\]\(([^)]+)\)/;
+const foundImgInMdRegex = /\(https:\/\/consteelsoftware.com\/wp-content\/.*\)/;
+const imgUrlRegex = /!\[.*\]\(([^)]+)\)/;
+const imgUrlReplaceRegex = /https:\/\/consteelsoftware\.com\//i;
 
 function runImgUrlGenerator(folderPath: string, extensions: string[]): void {
   const filePaths: string[] = [];
@@ -32,28 +33,30 @@ function runImgUrlGenerator(folderPath: string, extensions: string[]): void {
       originalImagePaths.push(...imgs);
     }
 
-    const splittedFileData = fileData.split("\n").map((line: string) => {
-      const convertedLine = line.toLowerCase();
-      const isMatched = new RegExp(imgRegex, "g").test(convertedLine);
+    const splittedFileData = fileData.split("\n").map((fileLine: string) => {
+      const lowercaseFileData = fileLine.toLowerCase();
+      const isImgExistInMd = new RegExp(foundImgInMdRegex, "g").test(
+        lowercaseFileData
+      );
 
-      if (isMatched) {
-        const matchGroup = line.match(new RegExp(imgUrlReg));
+      if (isImgExistInMd) {
+        const imgUrlMatchGroup = fileLine.match(new RegExp(imgUrlRegex));
 
-        if (!matchGroup) {
-          console.warn(`Match not found! File: ${filePath}, line: ${line}`);
-          return line;
+        if (!imgUrlMatchGroup) {
+          console.log(
+            "\x1b[31m%s\x1b[0m",
+            `Line format not valid!\n - file: ${filePath} \n - line: ${fileLine}\n`
+          );
+          return fileLine;
         }
 
-        const rawImgPath = matchGroup[1].replace(
-          "https://consteelsoftware.com/",
-          ""
-        );
+        const rawImgPath = imgUrlMatchGroup[1].replace(imgUrlReplaceRegex, "");
 
         if (rawImgPath.includes("./img"))
           return `![](${path.join("", rawImgPath)})`;
         else {
-          const replace = rawImgPath.replace(/\//g, "-");
-          const filteredImgUrl = removeResolutionFromImgUrl(replace);
+          const replacedImgPath = rawImgPath.replace(/\//g, "-");
+          const filteredImgUrl = removeResolutionFromImgUrl(replacedImgPath);
 
           const foundImgUrl = originalImagePaths.find(
             (originalImgPath) =>
@@ -61,11 +64,17 @@ function runImgUrlGenerator(folderPath: string, extensions: string[]): void {
           );
 
           if (foundImgUrl) return `![](${path.join("./img", foundImgUrl)})`;
-          else return `![]()`;
+          else {
+            console.log(
+              "\x1b[33m%s\x1b[0m",
+              `Image not found!\n - file: ${filePath} \n - line: ${fileLine}\n`
+            );
+            return `![]()`;
+          }
         }
       }
 
-      return line;
+      return fileLine;
     });
 
     writeFileSync(filePath, splittedFileData.join("\n"), {
@@ -105,4 +114,4 @@ function removeResolutionFromImgUrl(imgUrl: string) {
   return imgUrl.replace(/-\d+x\d+(?=\.(?:png|jpg)$)/, "");
 }
 
-runImgUrlGenerator("../../docs/descript/15_3_user-interface", ["md"]);
+runImgUrlGenerator("../../docs", ["md"]);
