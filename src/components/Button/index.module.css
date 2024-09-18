@@ -16,6 +16,7 @@
 }
 
 .landing-button:hover {
+  font-family: Roboto, sans-serif !important;
   transform: scale(1.05);
   cursor: pointer;
 }
@@ -59,7 +60,6 @@
 /* primary default */
 
 .landing-button-primary-default:hover {
-  opacity: 0.8;
   background: var(--landing-page-button-default-background-primary-hover);
 }
 
