@@ -10,6 +10,7 @@ export default function HomePageFooter() {
   return (
     <div
       className={clsx([
+        "home-page-footer",
         styles["home-page-footer"],
         "padding-vert--xl",
         "padding-horiz--md",
@@ -19,69 +20,122 @@ export default function HomePageFooter() {
         <div
           className={clsx(["padding--md", styles["home-page-footer-column"]])}
         >
-          <h3>
+          <h4 className="text--uppercase">
             <Translation>Site</Translation>
-          </h3>
+          </h4>
           <div>
-            <Translation>Terms of use</Translation>
+            <a className={clsx([styles["home-page-footer-link"]])} href="">
+              <Translation>Terms of use</Translation>{" "}
+            </a>
           </div>
           <div>
-            <Translation>Privacy policy</Translation>
+            <a className={clsx([styles["home-page-footer-link"]])} href="">
+              <Translation>Privacy policy</Translation>{" "}
+            </a>
           </div>
           <div>
-            <Translation>The Steel Lion Award notes</Translation>
+            <a
+              className={clsx([styles["home-page-footer-link"]])}
+              href="https://steellionaward.com/"
+            >
+              <Translation>The Steel Lion Award</Translation>
+            </a>
           </div>
           <div>
-            <Translation>Steelspace</Translation>
+            <a
+              className={clsx([styles["home-page-footer-link"]])}
+              href="https://steelspace.io/"
+            >
+              <Translation>Steelspace</Translation>
+            </a>
           </div>
         </div>
         <div
           className={clsx(["padding--md", styles["home-page-footer-column"]])}
         >
-          <h3>
+          <h4 className="text--uppercase">
             <Translation>Consteel</Translation>
-          </h3>
+          </h4>
           <div>
-            <Translation>Solutions</Translation>
+            <a
+              className={clsx([styles["home-page-footer-link"]])}
+              href="https://consteelsoftware.com/products/consteel/ "
+            >
+              <Translation>Solutions</Translation>
+            </a>
           </div>
           <div>
-            <Translation>Plans</Translation>
+            <a
+              className={clsx([styles["home-page-footer-link"]])}
+              href="https://consteelsoftware.com/products/offers-licensing/ "
+            >
+              <Translation>Plans</Translation>
+            </a>
           </div>
           <div>
-            <Translation>About</Translation>
+            <a
+              className={clsx([styles["home-page-footer-link"]])}
+              href="https://consteelsoftware.com/about/ "
+            >
+              <Translation>About</Translation>
+            </a>
           </div>
           <div>
-            <Translation>Contact</Translation>
+            <a
+              className={clsx([styles["home-page-footer-link"]])}
+              href="https://consteelsoftware.com/contact/ "
+            >
+              <Translation>Contact</Translation>
+            </a>
           </div>
         </div>
         <div
           className={clsx(["padding--md", styles["home-page-footer-column"]])}
         >
-          <h3>
+          <h4 className="text--uppercase">
             <Translation>Docs</Translation>
-          </h3>
+          </h4>
           <div>
-            <Translation>Consteel</Translation>
+            <a
+              className={clsx([styles["home-page-footer-link"]])}
+              href="docs/manual/intro"
+            >
+              <Translation>Consteel</Translation>
+            </a>
+          </div>
+
+          <div>
+            <a
+              className={clsx([styles["home-page-footer-link"]])}
+              href="docs/descript/15_1_introduction/"
+            >
+              <Translation>Descript</Translation>
+            </a>
           </div>
           <div>
-            <Translation>Descript</Translation>
+            <a
+              className={clsx([styles["home-page-footer-link"]])}
+              href="docs/plugins/axis/axisvm-plugin"
+            >
+              <Translation>Plugins</Translation>
+            </a>
           </div>
           <div>
-            <Translation>Plugins</Translation>
-          </div>
-          <div>
-            <Translation>Release notes</Translation>
+            <a
+              className={clsx([styles["home-page-footer-link"]])}
+              href="release-notes"
+            >
+              <Translation>Release notes</Translation>
+            </a>
           </div>
         </div>
         <div
           className={clsx(["padding--md", styles["home-page-footer-column"]])}
         >
-          <h3>
+          <h4 className="text--uppercase">
             <Translation>About Consteel Solutions </Translation>
-          </h3>
-          <div>
-            <Translation>Consteel Software Manual</Translation>
-          </div>
+          </h4>
+
           <div>
             <Translation>
               The ConSteel team’s mission is the general reform of the way
@@ -94,7 +148,10 @@ export default function HomePageFooter() {
               target="_blank"
             >
               <LinkedInIcon
-                className={clsx([styles["social-media-icon"], "margin-right--md"])}
+                className={clsx([
+                  styles["social-media-icon"],
+                  "margin-right--md",
+                ])}
                 width={38}
                 style={{
                   fill: "var(--landing-page-background-color-2-contrast)",
@@ -128,8 +185,8 @@ export default function HomePageFooter() {
             </a>
           </div>
         </div>
-        <div className={clsx(["padding--md"])}>
-          <h2 className={clsx(["text--uppercase"])}>
+        <div className={clsx(["padding--lg"])}>
+          <h2 className={clsx(["text--uppercase", styles["get-started"]])}>
             <Translation>Get started with consteel</Translation>
           </h2>
           <a href="https://consteelsoftware.com/#tryforfree" target="_blank">

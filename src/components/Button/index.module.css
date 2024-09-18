@@ -19,10 +19,13 @@
 }
 
 .landing-button {
+  font-family: Roboto, sans-serif !important;
   border-radius: 5px;
   padding-left: 0.625rem;
   padding-right: 0.625rem;
   padding-top: 0.625rem;
+  font-weight: 700;
+  font-size: 1.125rem;
   width: 180px;
   min-width: fit-content;
   padding-bottom: 0.625rem;

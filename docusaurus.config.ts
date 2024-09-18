@@ -8,7 +8,7 @@ const config: Config = {
   title: "Consteel Documentation Center",
   tagline: "Comprehensive guides for structural engineers",
   favicon: "img/favicon.ico",
-  
+
   // Set the production url of your site here
   url: "https://your-docusaurus-site.example.com",
   // Set the /<baseUrl>/ pathname under which your site is served
@@ -65,6 +65,7 @@ const config: Config = {
       logo: {
         alt: "My Site Logo",
         src: "img/logo.svg",
+        srcDark: "img/logo_white.svg"
       },
       items: [
         {
@@ -120,51 +121,7 @@ const config: Config = {
         },
       ],
     },
-    footer: {
-      style: "dark",
-      links: [
-        {
-          title: "Docs",
-          items: [
-            {
-              label: "Consteel Manual",
-              to: "/docs/manual/intro",
-            },
-            {
-              label: "Descript",
-              to: "/docs/descript/intro",
-            },
-            {
-              label: "Release notes",
-              to: "/release",
-            },
-          ],
-        },
-        {
-          title: "Community",
-          items: [
-            {
-              label: "Steelspace",
-              href: "https://steelspace.io",
-            },
-            {
-              label: "Steel Lion Award",
-              href: "https://steellionaward.com",
-            },
-          ],
-        },
-        {
-          title: "More",
-          items: [
-            {
-              label: "Consteel Software",
-              href: "https://consteelsoftware.com",
-            },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} Consteel Software, Ltd. Built with Docusaurus.`,
-    },
+
     prism: {
       additionalLanguages: ["php"],
       theme: prismThemes.github,
