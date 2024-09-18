@@ -89,7 +89,7 @@ const ResourcesSection = () => {
           />
         </div>
         <div className={clsx(styles["flex-50"], "padding--md")}>
-          <img src="img/shell_element.png" />
+          <img src="img/shell_element.png" height={"100%"} />
         </div>
       </div>
     </div>
