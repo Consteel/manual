@@ -14,7 +14,7 @@ const WhyChooseConsteelSection = () => {
       )}
     >
       <div className="container">
-        <h1
+        <h2
           className={clsx([
             "margin-bottom--lg",
             "text--uppercase",
@@ -22,7 +22,7 @@ const WhyChooseConsteelSection = () => {
           ])}
         >
           <Translation>Why choose Consteel?</Translation>
-        </h1>
+        </h2>
         <div className="row margin-top--lg">
           <div className="col padding--lg">
             <TrustLandingIcon

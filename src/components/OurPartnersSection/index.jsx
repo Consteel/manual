@@ -16,17 +16,17 @@ const OurPartnersSection = () => {
         "padding-horiz--md",
       ])}
     >
-      <div className="container">
-        <h1 className={clsx(["text--uppercase", styles["title"]])}>
+      <div className="container margin-vert--lg">
+        <h2 className={clsx(["text--uppercase", styles["title"]])}>
           <Translate>Our partners who use Consteel</Translate>
-        </h1>
+        </h2>
         <div
           className={clsx("row", styles["logo-container"])}
           style={{ gap: "3rem" }}
         >
           <ArrayTechnologiesLogo
             style={{
-              maxWidth: 200,
+              maxWidth: 160,
               fill: "var(--landing-page-background-color-2-contrast)",
             }}
             fill="var(--landing-page-background-color-2-contrast)"
@@ -35,28 +35,28 @@ const OurPartnersSection = () => {
 
           <SwecoLogo
             style={{
-              maxWidth: 200,
+              maxWidth: 160,
               fill: "var(--landing-page-background-color-2-contrast)",
             }}
             width={"100%"}
           />
           <KeszLogo
             style={{
-              maxWidth: 200,
+              maxWidth: 160,
               fill: "var(--landing-page-background-color-2-contrast)",
             }}
             width={"100%"}
           />
           <OpenConstructionLogo
             style={{
-              maxWidth: 200,
+              maxWidth: 160,
               fill: "var(--landing-page-background-color-2-contrast)",
             }}
             width={"100%"}
           />
           <WolfSystemLogo
             style={{
-              maxWidth: 200,
+              maxWidth: 160,
               fill: "var(--landing-page-background-color-2-contrast)",
             }}
             width={"100%"}

@@ -26,7 +26,7 @@ const HomePageHeaderSection = () => {
             </h1>
           </div>
 
-          <div>
+          <div className="hero__subtitle">
             <Translate>
               Learn how to master advanced steel design in the most rewarding
               way

@@ -8,10 +8,10 @@ const Button = ({
   children,
   className,
 }: {
-  variant: "default" | "outlined";
-  color: "primary" | "secondary";
+  variant?: "default" | "outlined";
+  color?: "primary" | "secondary";
   children: ReactNode;
-  className: string;
+  className?: string;
 }) => {
   return (
     <button

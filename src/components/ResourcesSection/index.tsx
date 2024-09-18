@@ -25,9 +25,9 @@ const ResourcesSection = () => {
               "padding--lg",
             ])}
           >
-            <h1 className={clsx([styles["title"], "text--uppercase"])}>
+            <h2 className={clsx([styles["title"], "text--uppercase"])}>
               <Translate>Resources</Translate>
-            </h1>
+            </h2>
             <div>
               <Translate>
                 Discover the key resources in our documentation center
@@ -89,7 +89,7 @@ const ResourcesSection = () => {
           />
         </div>
         <div className={clsx(styles["flex-50"], "padding--md")}>
-          <img src="img/shell_element.png" />
+          <img src="img/shell_element.png" height={"100%"} />
         </div>
       </div>
     </div>

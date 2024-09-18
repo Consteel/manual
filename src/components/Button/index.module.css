@@ -1,28 +1,11 @@
-.landing-button-primary-outlined {
-  background: transparent;
-  border: 2px solid var(--landing-page-color-primary);
-  color: var(--landing-page-color-primary);
-}
-
-.landing-button-secondary-outlined {
-  background: transparent;
-  border: 2px solid var(--landing-page-color-secondary);
-  color: var(--landing-page-color-secondary);
-}
-
-.landing-button-primary-outlined:hover {
-  background: var(--landing-page-color-primary-faded);
-}
-
-.landing-button-secondary-outlined:hover {
-  background: var(--landing-page-color-secondary-faded);
-}
-
 .landing-button {
+  font-family: Roboto, sans-serif !important;
   border-radius: 5px;
   padding-left: 0.625rem;
   padding-right: 0.625rem;
   padding-top: 0.625rem;
+  font-weight: 700;
+  font-size: 1.125rem;
   width: 180px;
   min-width: fit-content;
   padding-bottom: 0.625rem;
@@ -33,31 +16,55 @@
 }
 
 .landing-button:hover {
+  font-family: Roboto, sans-serif !important;
   transform: scale(1.05);
   cursor: pointer;
 }
 
+/* primary outlined */
+
+.landing-button-primary-outlined {
+  background: transparent;
+  border: 2px solid var(--landing-page-button-outlined-background-primary);
+  color: var(--landing-page-button-outlined-background-primary);
+}
+
+.landing-button-primary-outlined:hover {
+  background: var(--landing-page-button-outlined-background-primary-hover);
+}
+
+/* secondary outlined */
+
+.landing-button-secondary-outlined {
+  background: var(--landing-page-button-outlined-background-secondary);
+  border: 2px solid var(--landing-page-color-secondary);
+  color: var(--landing-page-color-secondary);
+}
+
+.landing-button-secondary-outlined:hover {
+  background: var(--landing-page-button-outlined-background-secondary-hover);
+}
+
+/* secondary default */
+
 .landing-button-secondary-default {
   border-width: 0;
-  background-color: var(--landing-page-color-secondary);
+  background: var(--landing-page-button-default-background-secondary);
   color: var(--landing-page-color-secondary-contrast);
 }
 
 .landing-button-secondary-default:hover {
-  background: var(--landing-page-color-secondary-faded);
+  background: var(--landing-page-button-default-background-secondary-hover);
 }
 
+/* primary default */
+
 .landing-button-primary-default:hover {
-  opacity: 0.8;
+  background: var(--landing-page-button-default-background-primary-hover);
 }
 
 .landing-button-primary-default {
   border-width: 0;
-  background-color: var(--landing-page-color-primary);
   color: var(--landing-page-color-primary-contrast);
-  background: linear-gradient(
-    270deg,
-    var(--landing-page-color-primary) 0%,
-    var(--landing-page-color-primary-2) 100%
-  );
+  background: var(--landing-page-button-default-background-primary);
 }

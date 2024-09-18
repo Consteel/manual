@@ -2,8 +2,11 @@ import clsx from "clsx";
 import styles from "./index.module.css";
 import Button from "../Button";
 import Translation from "@docusaurus/Translate";
+import { useDataTheme } from "../../useDataTheme";
 
 const SimplifyYourDesignProcessSection = () => {
+  const theme = useDataTheme();
+
   return (
     <div
       className={clsx([
@@ -21,11 +24,11 @@ const SimplifyYourDesignProcessSection = () => {
         ])}
       >
         <div className={clsx([styles["flex-1"]])}>
-          <h1 className={clsx(["text--uppercase", styles["title"]])}>
+          <h2 className={clsx(["text--uppercase", styles["title"]])}>
             <Translation>Simplify your design process</Translation>
-          </h1>
+          </h2>
           <a href="https://consteelsoftware.com/#tryforfree" target="_blank">
-            <Button variant="outlined" color="secondary" className="margin--md">
+            <Button variant="default" color="secondary" className="margin--md">
               <Translation>Try for free</Translation>
             </Button>
           </a>
@@ -42,7 +45,11 @@ const SimplifyYourDesignProcessSection = () => {
           <img
             width={300}
             style={{ maxWidth: "100%" }}
-            src={"img/consteel_logo_2022_blue_gradient.png"}
+            src={
+              theme === "dark"
+                ? "img/consteel_logo_2022_white.png"
+                : "img/consteel_logo_2022_blue_gradient.png"
+            }
           />
         </div>
       </div>
