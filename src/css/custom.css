@@ -101,8 +101,30 @@ h3 {
   --landing-page-color-secondary-contrast: white;
   --landing-page-color-secondary-faded: hsl(163, 67%, 29%);
 
+  --landing-page-button-default-background-primary: linear-gradient(
+    270deg,
+    var(--landing-page-color-primary) 0%,
+    var(--landing-page-color-primary-2) 100%
+  );
+  --landing-page-button-default-background-primary-hover: linear-gradient(
+    270deg,
+    #3991e4,
+    #4cc3fa,
+  );
+
+  --landing-page-button-default-background-secondary: var(
+    --landing-page-color-secondary
+  );
+  --landing-page-button-default-background-secondary-hover: #54ddb6;
+
+  --landing-page-button-outlined-background-primary: #49B9F4;
+  --landing-page-button-outlined-background-primary-hover: #71C6F7;
+
+  --landing-page-button-outlined-background-secondary: #54ddb6;
+  --landing-page-button-outlined-background-secondary-hover: #54ddb624;
+
   --landing-page-background-color: #eff1f5;
-  --landing-page-background-color-contrast: #524F4F;
+  --landing-page-background-color-contrast: #524f4f;
   --landing-page-background-color-contrast-2: #2d2d2d;
   --landing-page-background-color-2: #2c2f35;
   --landing-page-background-color-2-contrast: white;
@@ -111,7 +133,6 @@ h3 {
   --landing-page-background-color-4: var(--ifm-background-color);
   --landing-page-background-color-5: var(--ifm-navbar-background-color);
   --landing-page-title-color: var(--ifm-navbar-link-color);
-
 
   body {
     color: #f9f9f9 !important;
@@ -147,15 +168,39 @@ h3 {
   --landing-page-color-primary: var(--ifm-color-primary);
   --landing-page-color-primary-faded: #024181;
 
+  --landing-page-button-default-background-primary: linear-gradient(
+    270deg,
+    var(--landing-page-color-primary) 0%,
+    var(--landing-page-color-primary-2) 100%
+  );
+  --landing-page-button-default-background-primary-hover: linear-gradient(
+    270deg,
+    #3991e4,
+    #4cc3fa
+  );
+
+  --landing-page-button-default-background-secondary: var(
+    --landing-page-color-secondary
+  );
+  --landing-page-button-default-background-secondary-hover: #54ddb6;
+
+  --landing-page-button-outlined-background-primary: var(--ifm-color-primary);
+  --landing-page-button-outlined-background-primary-hover: #D9F6FF;
+
+  --landing-page-button-outlined-background-secondary: var(--landing-page-color-secondary);
+  --landing-page-button-outlined-background-secondary-hover: var(--landing-page-color-secondary-faded);
+
   --landing-page-color-primary-contrast: white;
   --landing-page-color-primary-2: #1eb4fa;
   --landing-page-background-color: #37465c;
-  --landing-page-background-color-contrast: #F9F9F9;
+  --landing-page-background-color-contrast: #f9f9f9;
   --landing-page-background-color-contrast-2: white;
   --landing-page-background-color-2: white;
-  --landing-page-background-color-2-contrast: #524F4F;
+  --landing-page-background-color-2-contrast: #524f4f;
   --landing-page-background-color-3: #eff1f5;
-  --landing-page-background-color-3-contrast: var(--landing-page-background-color-2-contrast);
+  --landing-page-background-color-3-contrast: var(
+    --landing-page-background-color-2-contrast
+  );
   --landing-page-background-color-4: var(--ifm-navbar-background-color);
   --landing-page-background-color-5: var(--ifm-background-color);
   --landing-page-title-color: var(--ifm-navbar-link-color);
