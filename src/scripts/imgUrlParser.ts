@@ -33,51 +33,15 @@ function runImgUrlGenerator(folderPath: string, extensions: string[]): void {
       originalImagePaths.push(...imgs);
     }
 
-    const splittedFileData = fileData.split("\n").map((fileLine: string) => {
-      const lowercaseFileData = fileLine.toLowerCase();
-      const isImgExistInMd = new RegExp(foundImgInMdRegex, "g").test(
-        lowercaseFileData
-      );
+    // parse and replace all img urls
+    const replacedFileData = parseAndReplaceFileData(
+      filePath,
+      fileData,
+      originalImagePaths
+    );
 
-      if (isImgExistInMd) {
-        const imgUrlMatchGroup = fileLine.match(new RegExp(imgUrlRegex));
-
-        if (!imgUrlMatchGroup) {
-          console.log(
-            "\x1b[31m%s\x1b[0m",
-            `Line format not valid!\n - file: ${filePath} \n - line: ${fileLine}\n`
-          );
-          return fileLine;
-        }
-
-        const rawImgPath = imgUrlMatchGroup[1].replace(imgUrlReplaceRegex, "");
-
-        if (rawImgPath.includes("./img"))
-          return `![](${path.join("", rawImgPath)})`;
-        else {
-          const replacedImgPath = rawImgPath.replace(/\//g, "-");
-          const filteredImgUrl = removeResolutionFromImgUrl(replacedImgPath);
-
-          const foundImgUrl = originalImagePaths.find(
-            (originalImgPath) =>
-              removeResolutionFromImgUrl(originalImgPath) === filteredImgUrl
-          );
-
-          if (foundImgUrl) return `![](${path.join("./img", foundImgUrl)})`;
-          else {
-            console.log(
-              "\x1b[33m%s\x1b[0m",
-              `Image not found!\n - file: ${filePath} \n - line: ${fileLine}\n`
-            );
-            return `![]()`;
-          }
-        }
-      }
-
-      return fileLine;
-    });
-
-    writeFileSync(filePath, splittedFileData.join("\n"), {
+    // write file
+    writeFileSync(filePath, replacedFileData, {
       flag: "w",
     });
   });
@@ -110,8 +74,59 @@ function loopThroughDirectory(
   });
 }
 
+function parseAndReplaceFileData(
+  filePath: string,
+  fileData: string,
+  originalImagePaths: string[]
+) {
+  const splittedFileData = fileData.split("\n").map((fileLine: string) => {
+    const lowercaseFileData = fileLine.toLowerCase();
+    const isImgExistInMd = new RegExp(foundImgInMdRegex, "g").test(
+      lowercaseFileData
+    );
+
+    if (isImgExistInMd) {
+      const imgUrlMatchGroup = fileLine.match(new RegExp(imgUrlRegex));
+
+      if (!imgUrlMatchGroup) {
+        console.log(
+          "\x1b[31m%s\x1b[0m",
+          `Line format not valid!\n - file: ${filePath} \n - line: ${fileLine}\n`
+        );
+        return fileLine;
+      }
+
+      const rawImgPath = imgUrlMatchGroup[1].replace(imgUrlReplaceRegex, "");
+
+      if (rawImgPath.includes("./img"))
+        return `![](${path.join("", rawImgPath)})`;
+      else {
+        const foundImgUrl = originalImagePaths.find(
+          (originalImgPath) =>
+            removeResolutionFromImgUrl(originalImgPath) ===
+            removeResolutionFromImgUrl(rawImgPath)
+        );
+
+        if (foundImgUrl) return `![](${path.join("./img", foundImgUrl)})`;
+        else {
+          console.log(
+            "\x1b[33m%s\x1b[0m",
+            `Image not found!\n - file: ${filePath} \n - line: ${fileLine}\n`
+          );
+          return `![]()`;
+        }
+      }
+    }
+
+    return fileLine;
+  });
+
+  return splittedFileData.join("\n");
+}
+
 function removeResolutionFromImgUrl(imgUrl: string) {
-  return imgUrl.replace(/-\d+x\d+(?=\.(?:png|jpg)$)/, "");
+  const replacedImgPath = imgUrl.replace(/\//g, "-");
+  return replacedImgPath.replace(/-\d+x\d+(?=\.(?:png|jpg)$)/, "");
 }
 
 runImgUrlGenerator("../../docs", ["md"]);
