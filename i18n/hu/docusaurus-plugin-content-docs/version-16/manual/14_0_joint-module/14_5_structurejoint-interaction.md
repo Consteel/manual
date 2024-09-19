@@ -22,6 +22,6 @@ Ha csak bizonyos kombinációban van erre szükség, akkor a **Globális beáll�
 
 <!-- wp:image {"align":"center","id":38675,"width":490,"height":226,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/dial_analizis_kapcsolati-merevseg.png)](./img/wp-content-uploads-2022-06-dial_analizis_kapcsolati-merevseg.png)
+![](img\wp-content-uploads-2022-06-dial_analizis_kapcsolati-merevseg.png)
 
 <!-- /wp:image -->

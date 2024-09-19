@@ -23,14 +23,14 @@ In this [example](https://consteelsoftware.com/script/purlin-generator/), purlin
 In case of not too complex, regular structures, it might be useful to create a script that builds it all in one go.  
 In this [example ](https://consteelsoftware.com/script/warehouse-creation-with-excel-control-type-1-tapered/)an entire warehouse building is created with a bracing system, purlins, supports and loads.
 
-[![](./img/wp-content-uploads-2022-02-image-7-1024x407.png)](https://consteelsoftware.com/wp-content/uploads/2022/02/image-7.png)
+![](img\wp-content-uploads-2022-02-image-7-1024x407.png)
 
 ### Automated calculations, iteration
 
 Not only model building, but calculations and model modification can also be scripted. This way, iterative model modification based on results is also possible.  
 In this [example](https://consteelsoftware.com/script/section-optimization-shs/), section sizes are modified based on utilization results until all utilizations are below 100%.
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/10/Sec_Opt_SHS_Featured_Image_v03.png)](./img/wp-content-uploads-2021-10-Sec_Opt_SHS_Featured_Image_v03.png)
+![](img\wp-content-uploads-2021-10-Sec_Opt_SHS_Featured_Image_v03.png)
 
 ### Input / output
 
@@ -43,4 +43,4 @@ In this [example](https://consteelsoftware.com/script/output-results-to-excel-ip
 
 For even more examples and scripts visit our [Script library](https://consteelsoftware.com/script/), or browse scripts from within Consteel's MyDescript interface, where you can try scripts right away:
 
-[![](./img/wp-content-uploads-2022-02-image-8-1024x532.png)](https://consteelsoftware.com/wp-content/uploads/2022/02/image-8.png)
+![](img\wp-content-uploads-2022-02-image-8-1024x532.png)

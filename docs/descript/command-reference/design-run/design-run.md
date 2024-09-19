@@ -32,7 +32,7 @@ ColumnReinforcementCheck
 
 Several options of a design calculation can be controlled by command attributes and parameters. The analogous counterparts of these in the Consteel user interface are the following:
 
-[![](./img/wp-content-uploads-2021-12-image-2-1024x626.png)](https://consteelsoftware.com/wp-content/uploads/2021/12/image-2.png)
+![](img\wp-content-uploads-2021-12-image-2-1024x626.png)
 
 ### Additional command lines
 

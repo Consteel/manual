@@ -22,7 +22,7 @@ Input tables (used in the **[_Load combinations_](../6_0_structural-loads/6_2_lo
 
 <!-- wp:image {"align":"center","id":11132,"width":322,"height":278,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/tables_multi_check.png)](./img/wp-content-uploads-2021-04-tables_multi_check.png)
+![](img\wp-content-uploads-2021-04-tables_multi_check.png)
 
 <!-- /wp:image -->
 
@@ -34,7 +34,7 @@ Input tables (used in the **[_Load combinations_](../6_0_structural-loads/6_2_lo
 
 <!-- wp:image {"align":"center","id":11138,"width":321,"height":276,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/tables_multi_value.png)](./img/wp-content-uploads-2021-04-tables_multi_value.png)
+![](img\wp-content-uploads-2021-04-tables_multi_value.png)
 
 <!-- /wp:image -->
 

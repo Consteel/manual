@@ -111,7 +111,7 @@ Az objektumok nem teljes hossza mentén ható, **részleges vonalmenti teher** f
 A vonalmenti teher esetében is alkalmazható külpontosság. A kiválasztott koordináta rendszer és az alkalmazott külpontosság hatása megegyezik a pontszerű támasznál bemutatottakkal (lásd **Támaszok** fejezet).
 
 
-[![](./img/wp-content-uploads-2021-05-7-4-Line-load-types-edited.png)](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-4-Line-load-types.png)
+![]()
 
 
 Egy előzőleg már elhelyezett teher tulajdonságai beolvashatók a tulajdonságok funkció ![](./img/wp-content-uploads-2021-04-cmd_draw_get.png) kiválasztása után, a beolvasandó teherre kattintva.
@@ -135,7 +135,7 @@ A vonalmenti szélteherhez kapcsolódó funkciók a Vonalmenti megoszló teher d
 Első lépésként a _Torlónyomás_ értékét kell megadni, vagy a három pontos ikonra (![](./img/wp-content-uploads-2021-04-3dots-button.png)) kattintva egy előzőleg létrehozott torlónyomás függvény is kiválasztható a legördülő menü segítségével, vagy a legördülő menü mellett található hárompontos ikonra (![](./img/wp-content-uploads-2021-04-3dots-button.png)) kattintva új torlónyomás függvény is létrehozható. A kiválasztott torlónyomás függvény felhasználásával kerül meghatározásra a megfelelő torlónyomás érték.
 
 
-[![](./img/wp-content-uploads-2022-05-dial_teher_vonal_szel_torlonyom-1024x379.png)](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_vonal_szel_torlonyom.png)
+![](img\wp-content-uploads-2022-05-dial_teher_vonal_szel_torlonyom-1024x379.png)
 
 
 [![](https://www.Consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_vonal_szel_kulsonyomas.png)](./img/wp-content-uploads-2022-05-dial_teher_vonal_szel_kulsonyomas.png)
@@ -198,7 +198,7 @@ A Vonalmenti megoszló teher dialógon található Terhek elhelyezése (![](./im
 
 <!-- wp:image {"align":"center","id":35912,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](./img/wp-content-uploads-2022-05-scr_teher_vonal_szel-1024x519.png)](https://Consteelsoftware.com/wp-content/uploads/2022/05/scr_teher_vonal_szel.png)
+![](img\wp-content-uploads-2022-05-scr_teher_vonal_szel-1024x519.png)
 
 :::warning
 
@@ -424,7 +424,7 @@ Teherátadó felület rajzolási funkciói megegyeznek a síkidomok rajzolási f
 
 <!-- wp:image {"align":"center","id":36351,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2022-05-scr_teher_teheratado-felulet-1-1024x575.png)](https://Consteelsoftware.com/wp-content/uploads/2022/05/scr_teher_teheratado-felulet-1.png)
+![](img\wp-content-uploads-2022-05-scr_teher_teheratado-felulet-1-1024x575.png)
 
 <!-- /wp:image -->
 
@@ -442,7 +442,7 @@ Lehetőség van **teherátadó felületek csoportos elhelyezésére** (![](./img
 
 <!-- wp:image {"align":"center","id":35979,"width":768,"height":368,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2022-05-scr_teher_teheratado-felulet_csoportos-1024x491.png)](https://Consteelsoftware.com/wp-content/uploads/2022/05/scr_teher_teheratado-felulet_csoportos.png)
+![](img\wp-content-uploads-2022-05-scr_teher_teheratado-felulet_csoportos-1024x491.png)
 
 <!-- /wp:image -->
 

@@ -19,7 +19,7 @@ A teherkombinációkat a teherkombinációk táblázatában lehet kezelni, amely
 
 <!-- wp:image {"align":"right","id":35820,"width":512,"height":295,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](./img/wp-content-uploads-2022-05-dial_teherkombinaciok-1024x589.png)](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_teherkombinaciok.png)
+![](img\wp-content-uploads-2022-05-dial_teherkombinaciok-1024x589.png)
 
 <!-- /wp:image -->
 
@@ -73,7 +73,7 @@ A teherkombináció táblázat sárga sorai az automatikusan generált kombinác
 
 <!-- wp:image {"align":"right","id":35828,"width":512,"height":389,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](./img/wp-content-uploads-2022-05-dial_teher_kombinacio_automatikus-1024x777.png)](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_kombinacio_automatikus.png)
+![](img\wp-content-uploads-2022-05-dial_teher_kombinacio_automatikus-1024x777.png)
 
 <!-- /wp:image -->
 

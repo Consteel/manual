@@ -81,7 +81,7 @@ As basic settings the analysis result type (first or second order) should be sel
 
 <!-- wp:image {"align":"center","id":10529,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/10-2-section-check.png)](./img/wp-content-uploads-2021-04-10-2-section-check.png)
+![](img\wp-content-uploads-2021-04-10-2-section-check.png)
 
 <!-- /wp:image -->
 
@@ -111,7 +111,7 @@ If the model also includes cold-formed sections, their cross-sectional dimension
 
 <!-- wp:image {"align":"center","id":10535,"width":685,"height":54,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/10-2-1993-1-3.png)](./img/wp-content-uploads-2021-04-10-2-1993-1-3.png)
+![](img\wp-content-uploads-2021-04-10-2-1993-1-3.png)
 
 <!-- /wp:image -->
 
@@ -168,7 +168,7 @@ $$
 To run the buckling check, it is required to have buckling analysis results.
 
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/10-2-buckling-check.png)](./img/wp-content-uploads-2021-04-10-2-buckling-check.png)
+![](img\wp-content-uploads-2021-04-10-2-buckling-check.png)
 
 
 For the buckling check the following parameters can be set:
@@ -200,7 +200,7 @@ The results of the performed checks are demonstrated with graphical visualizatio
 The shown results can be changed in the drop down menu.
 
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/10-2-buckl-result-pic.png)](./img/wp-content-uploads-2021-04-10-2-buckl-result-pic.png)
+![](img\wp-content-uploads-2021-04-10-2-buckl-result-pic.png)
 
 
 When moving the mouse along the structural elements the result markers continuously appear showing the actual utilization.
@@ -231,7 +231,7 @@ The detail of the results can be seen in the Section module (see section 10 Sect
 
 <!-- wp:image {"align":"center","id":10565,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/10-2-2-member-check-tab.png)](./img/wp-content-uploads-2021-04-10-2-2-member-check-tab.png)
+![](img\wp-content-uploads-2021-04-10-2-2-member-check-tab.png)
 
 <!-- /wp:image -->
 
@@ -279,7 +279,7 @@ To run steel member design go to Member checks tab and select Steel tab in the t
 
 <!-- wp:image {"align":"center","id":10571,"width":700,"height":94,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/10-2-2-member-select.png)](./img/wp-content-uploads-2021-04-10-2-2-member-select.png)
+![](img\wp-content-uploads-2021-04-10-2-2-member-select.png)
 
 <!-- /wp:image -->
 
@@ -291,7 +291,7 @@ If a member is selected, the corresponding row highlighted with green and analys
 
 <!-- wp:image {"align":"center","id":10577,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/image-3519.png)](./img/wp-content-uploads-2021-04-image-3519.png)
+![](img\wp-content-uploads-2021-04-image-3519.png)
 
 <!-- /wp:image -->
 
@@ -303,7 +303,7 @@ Special analysis can be run by clicking on the second icon (#1). Only one load c
 
 <!-- wp:image {"align":"center","id":10583,"width":487,"height":299,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/10-2-2-memb-check-comb.png)](./img/wp-content-uploads-2021-04-10-2-2-memb-check-comb.png)
+![](img\wp-content-uploads-2021-04-10-2-2-memb-check-comb.png)
 
 <!-- /wp:image -->
 
@@ -315,7 +315,7 @@ The next step is to choose the load combination and design type from the options
 
 <!-- wp:image {"align":"center","id":10589,"width":350,"height":419,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/10-2-2-memb-check-des-type.png)](./img/wp-content-uploads-2021-04-10-2-2-memb-check-des-type.png)
+![](img\wp-content-uploads-2021-04-10-2-2-memb-check-des-type.png)
 
 <!-- /wp:image -->
 
@@ -333,7 +333,7 @@ If **strong or weak axis buckling option** is selected then first the design par
 
 <!-- wp:image {"align":"center","id":10595,"width":605,"height":414,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/10-2-2-memb-check-segments-1.png)](./img/wp-content-uploads-2021-04-10-2-2-memb-check-segments-1.png)
+![](img\wp-content-uploads-2021-04-10-2-2-memb-check-segments-1.png)
 
 <!-- /wp:image -->
 
@@ -345,7 +345,7 @@ Among the supports the member is divided to segments. Segments can also be turne
 
 <!-- wp:image {"align":"center","id":10601,"width":377,"height":275,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/10-2-2-memb-check-segments-2.png)](./img/wp-content-uploads-2021-04-10-2-2-memb-check-segments-2.png)
+![](img\wp-content-uploads-2021-04-10-2-2-memb-check-segments-2.png)
 
 <!-- /wp:image -->
 
@@ -363,7 +363,7 @@ If all the design parameters has been properly set then design check can be perf
 
 <!-- wp:image {"align":"center","id":10607,"width":347,"height":511,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/10-2-2-memb-check-results.png)](./img/wp-content-uploads-2021-04-10-2-2-memb-check-results.png)
+![](img\wp-content-uploads-2021-04-10-2-2-memb-check-results.png)
 
 <!-- /wp:image -->
 
@@ -381,7 +381,7 @@ There are three drop down menus in order to view different results. The first on
 
 <!-- wp:image {"align":"center","id":10613,"width":532,"height":440,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/10-2-2-memb-check-LTB.png)](./img/wp-content-uploads-2021-04-10-2-2-memb-check-LTB.png)
+![](img\wp-content-uploads-2021-04-10-2-2-memb-check-LTB.png)
 
 <!-- /wp:image -->
 
@@ -393,7 +393,7 @@ By clicking on the three dots button the design parameters can be altered. The e
 
 <!-- wp:image {"align":"center","id":10619,"width":345,"height":352,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/10-2-2-memb-check-AutoC.png)](./img/wp-content-uploads-2021-04-10-2-2-memb-check-AutoC.png)
+![](img\wp-content-uploads-2021-04-10-2-2-memb-check-AutoC.png)
 
 <!-- /wp:image -->
 
@@ -429,7 +429,7 @@ If the members are selected then the next step is to select the design type and 
 
 <!-- wp:image {"align":"center","id":10625,"width":346,"height":503,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/10-2-2-memb-group.png)](./img/wp-content-uploads-2021-04-10-2-2-memb-group.png)
+![](img\wp-content-uploads-2021-04-10-2-2-memb-group.png)
 
 <!-- /wp:image -->
 
@@ -447,6 +447,6 @@ In the results tab the dominant member is automatically shown. The number next t
 
 <!-- wp:image {"align":"center","id":10517,"width":354,"height":734,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/10-2-2-memb-group-res.png)](./img/wp-content-uploads-2021-04-10-2-2-memb-group-res.png)
+![](img\wp-content-uploads-2021-04-10-2-2-memb-group-res.png)
 
 <!-- /wp:image -->

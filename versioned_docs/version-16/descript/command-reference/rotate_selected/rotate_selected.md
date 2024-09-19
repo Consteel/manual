@@ -61,4 +61,4 @@ SELECT ALL
 ROTATE_SELECTED 0 0 0 5000 0 0 90
 ```
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/08/image-29.png)](./img/wp-content-uploads-2021-08-image-29.png)
+![](img\wp-content-uploads-2021-08-image-29.png)

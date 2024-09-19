@@ -35,7 +35,7 @@ During the process, we have the possibility to import the structural members def
 
 <!-- wp:image {"align":"right","id":7436,"width":354,"height":261,"sizeSlug":"full","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/3-2-tekla-1.jpg)](./img/wp-content-uploads-2021-04-3-2-tekla-1.jpg)
+![](img\wp-content-uploads-2021-04-3-2-tekla-1.jpg)
 
 <!-- /wp:image -->
 
@@ -45,7 +45,7 @@ During the process, we have the possibility to import the structural members def
 
 <!-- wp:image {"align":"left","id":7442,"width":354,"height":261,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/3-2-tekla-2.jpg)](./img/wp-content-uploads-2021-04-3-2-tekla-2.jpg)
+![](img\wp-content-uploads-2021-04-3-2-tekla-2.jpg)
 
 <!-- /wp:image -->
 
@@ -105,7 +105,7 @@ With the import button, the process can be initiated.
 
 <!-- wp:image {"align":"center","id":7456,"width":248,"height":254,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/3-2-tekla-import-dialog.png)](./img/wp-content-uploads-2021-04-3-2-tekla-import-dialog.png)
+![](img\wp-content-uploads-2021-04-3-2-tekla-import-dialog.png)
 
 <!-- /wp:image -->
 
@@ -117,7 +117,7 @@ In the next step, the reference point has to be clicked in Tekla Structures. It 
 
 <!-- wp:image {"align":"center","id":7462,"width":723,"height":343,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/3-2-tekla-conv.png)](./img/wp-content-uploads-2021-04-3-2-tekla-conv.png)
+![](img\wp-content-uploads-2021-04-3-2-tekla-conv.png)
 
 <!-- /wp:image -->
 
@@ -280,7 +280,7 @@ A dialog window opens asking for selecting model parts to be exported. Keep in m
 
 <!-- wp:image {"align":"center","id":7480,"width":273,"height":254,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/3-2-tekla-export-dialog.png)](./img/wp-content-uploads-2021-04-3-2-tekla-export-dialog.png)
+![](img\wp-content-uploads-2021-04-3-2-tekla-export-dialog.png)
 
 <!-- /wp:image -->
 
@@ -292,7 +292,7 @@ After selecting the reference point in _Consteel_ the **Section conversion** dia
 
 <!-- wp:image {"align":"center","id":7486,"width":723,"height":343,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/3-2-tekla-exp-conv.png)](./img/wp-content-uploads-2021-04-3-2-tekla-exp-conv.png)
+![](img\wp-content-uploads-2021-04-3-2-tekla-exp-conv.png)
 
 <!-- /wp:image -->
 
@@ -487,7 +487,7 @@ To update the Tekla model it is important to have running both software at the s
 
 <!-- wp:image {"align":"center","id":7521,"width":273,"height":179,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/3-3-tekla-update-1.png)](./img/wp-content-uploads-2021-04-3-3-tekla-update-1.png)
+![](img\wp-content-uploads-2021-04-3-3-tekla-update-1.png)
 
 <!-- /wp:image -->
 
@@ -505,7 +505,7 @@ During the process _Tekla Structures_ model and parts will be updated. In case o
 
 <!-- wp:image {"align":"center","id":7527,"width":705,"height":304,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/3-3-tekla-update-dialog.png)](./img/wp-content-uploads-2021-04-3-3-tekla-update-dialog.png)
+![](img\wp-content-uploads-2021-04-3-3-tekla-update-dialog.png)
 
 <!-- /wp:image -->
 

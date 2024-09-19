@@ -54,7 +54,7 @@ In the _Settings_ (#1) panel, the main parameters of the seismic analysis can be
 
 <!-- wp:image {"align":"center","id":9431,"width":464,"height":594,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/13-3-seismic.png)](./img/wp-content-uploads-2021-04-13-3-seismic.png)
+![](img\wp-content-uploads-2021-04-13-3-seismic.png)
 
 <!-- /wp:image -->
 
@@ -66,7 +66,7 @@ On the response spectrums panel (#2), the response spectrum can be selected whic
 
 <!-- wp:image {"align":"center","id":9438,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/13-3-seismic2.png)](./img/wp-content-uploads-2021-04-13-3-seismic2.png)
+![](img\wp-content-uploads-2021-04-13-3-seismic2.png)
 
 <!-- /wp:image -->
 
@@ -184,7 +184,7 @@ When specifying the levels, it is important to know that Consteel takes the weig
 
 <!-- wp:image {"align":"center","id":9451,"width":381,"height":487,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/13-3-additional-effects.png)](./img/wp-content-uploads-2021-04-13-3-additional-effects.png)
+![](img\wp-content-uploads-2021-04-13-3-additional-effects.png)
 
 <!-- /wp:image -->
 

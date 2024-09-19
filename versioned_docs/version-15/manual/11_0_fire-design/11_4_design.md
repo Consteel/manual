@@ -236,7 +236,7 @@ The critical temperature calculation can be activated in the design settings win
 
 <!-- wp:image {"align":"center","id":9402,"width":530,"height":370,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/12-4-critical-temperature.png)](./img/wp-content-uploads-2021-04-12-4-critical-temperature.png)
+![](img\wp-content-uploads-2021-04-12-4-critical-temperature.png)
 
 <!-- /wp:image -->
 
@@ -248,13 +248,13 @@ The results of the calculation can be queried in the **Design Parameters** drop-
 
 <!-- wp:image {"align":"center","id":9408,"width":822,"height":365,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](./img/wp-content-uploads-2021-04-12-4-critical-temperature2-1024x455.png)](https://Consteelsoftware.com/wp-content/uploads/2021/04/12-4-critical-temperature2.png)
+![](img\wp-content-uploads-2021-04-12-4-critical-temperature2-1024x455.png)
 
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"center","id":9415,"width":530,"height":378,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/12-4-critical-temperature3.png)](./img/wp-content-uploads-2021-04-12-4-critical-temperature3.png)
+![](img\wp-content-uploads-2021-04-12-4-critical-temperature3.png)
 
 <!-- /wp:image -->
 

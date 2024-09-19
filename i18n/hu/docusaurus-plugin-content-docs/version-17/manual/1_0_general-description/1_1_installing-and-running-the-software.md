@@ -141,7 +141,7 @@ A **_Fiók létrehozása_** ablakban meg kell adni a felhasználó e-mail címé
 
 <!-- wp:image {"align":"left","id":30830,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/01/honlap_login.png)](./img/wp-content-uploads-2022-01-honlap_login.png)
+![](img\wp-content-uploads-2022-01-honlap_login.png)
 
 <!-- /wp:image -->
 
@@ -236,7 +236,7 @@ Diákok, tanárok és próba verziót használók csak online licenszt igényelh
 
 <!-- wp:image {"align":"right","id":30914,"sizeSlug":"medium","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/01/vedelem_valaszt_USB-1-269x300.png)](./img/wp-content-uploads-2022-01-vedelem_valaszt_USB-1-269x300.png)
+![](img\wp-content-uploads-2022-01-vedelem_valaszt_USB-1-269x300.png)
 
 Hardware key dongle
 
@@ -248,7 +248,7 @@ Hardware key dongle
 
 <!-- wp:image {"align":"left","id":30921,"sizeSlug":"medium","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/01/vedelem_valaszt_online-1-269x300.png)](./img/wp-content-uploads-2022-01-vedelem_valaszt_online-1-269x300.png)
+![](img\wp-content-uploads-2022-01-vedelem_valaszt_online-1-269x300.png)
 
 Online license
 
@@ -324,7 +324,7 @@ Ha a Consteel nem talált elérhető szoftver helyet, a megjelenő link segíts�
 
 <!-- wp:image {"align":"center","id":28185,"width":464,"height":381,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/11/seat_selection.png)](./img/wp-content-uploads-2021-11-seat_selection.png)
+![](img\wp-content-uploads-2021-11-seat_selection.png)
 
 Seat selection
 
@@ -422,7 +422,7 @@ A bal oldali menüsávban lehetőség nyílik a Kezdőlapon kívül oktatási an
 
 <!-- wp:image {"align":"center","id":45014,"width":742,"height":438,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2023/02/projectcenter_guide-1-1024x606.png)](./img/wp-content-uploads-2023-02-projectcenter_guide-1-1024x606.png)
+![](img\wp-content-uploads-2023-02-projectcenter_guide-1-1024x606.png)
 
 Projekt Központ nyitó képernyője
 
@@ -436,7 +436,7 @@ A **(3)** Licence gomb megnyomásával egy új ablak jelenik meg, ahol megtalál
 
 <!-- wp:image {"align":"center","id":45021,"width":681,"height":404,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2023/02/licence_menu_projectcenter-1-1024x608.png)](./img/wp-content-uploads-2023-02-licence_menu_projectcenter-1-1024x608.png)
+![](img\wp-content-uploads-2023-02-licence_menu_projectcenter-1-1024x608.png)
 
 Licensz beállítás
 
@@ -456,7 +456,7 @@ A második menüpontból az online [_**Tudásbázis**_](https://Consteelsoftware
 
 <!-- wp:image {"align":"center","id":28198,"width":730,"height":394,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](./img/wp-content-uploads-2021-11-projectcenter3-1024x576.png)](https://Consteelsoftware.com/wp-content/uploads/2021/11/projectcenter3.png)
+![](img\wp-content-uploads-2021-11-projectcenter3-1024x576.png)
 
 Tudásbázis
 
@@ -512,7 +512,7 @@ A modellek megnyitása és megosztása a havi adatforgalmi korlát elérésig le
 
 <!-- wp:image {"align":"center","id":28219,"width":768,"height":402,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/11/cloud-open-manual-1024x536.png)](./img/wp-content-uploads-2021-11-cloud-open-manual-1024x536.png)
+![](img\wp-content-uploads-2021-11-cloud-open-manual-1024x536.png)
 
 A felhőtárhelyet a Steelspace platform biztosítja
 

@@ -9,7 +9,7 @@ EuroCode based or user defined crane and train load can be created and placed on
 
 <!-- wp:image {"align":"center","sizeSlug":"large","linkDestination":"media","className":"caption-align-center","captionAlignment":"center"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-6.1-01-Train-Load.png)](./img/wp-content-uploads-2021-04-6-6.1-01-Train-Load.png)
+![](img\wp-content-uploads-2021-04-6-6.1-01-Train-Load.png)
 
 <!-- /wp:image -->
 
@@ -22,7 +22,7 @@ EuroCode based or user defined crane and train load can be created and placed on
 
 <!-- wp:image {"align":"right","id":10270,"width":426,"height":223,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-6.1-Moving-load-path-1.png)](./img/wp-content-uploads-2021-04-6-6.1-Moving-load-path-1.png)
+![](img\wp-content-uploads-2021-04-6-6.1-Moving-load-path-1.png)
 
 <!-- /wp:image -->
 
@@ -71,7 +71,7 @@ Double **Influence line** can be created by selecting the check-box in the above
 
 <!-- wp:image {"align":"right","id":10277,"width":353,"height":588,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-6-2-Influence-Graph.jpg)](./img/wp-content-uploads-2021-04-6-6-2-Influence-Graph.jpg)
+![](img\wp-content-uploads-2021-04-6-6-2-Influence-Graph.jpg)
 
 <!-- /wp:image -->
 
@@ -210,7 +210,7 @@ Three types of overhead traveling crane load can be defined:
 
 <!-- wp:image {"align":"center","id":10289,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-6-3-Crane-Load-1.png)](./img/wp-content-uploads-2021-04-6-6-3-Crane-Load-1.png)
+![](img\wp-content-uploads-2021-04-6-6-3-Crane-Load-1.png)
 
 <!-- /wp:image -->
 

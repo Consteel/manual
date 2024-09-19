@@ -15,6 +15,6 @@ In order to place a joint to the global model click on the Place Joint (![](./im
 
 <!-- wp:image {"align":"center","id":9830,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/15-6-appl-stiff.png)](./img/wp-content-uploads-2021-04-15-6-appl-stiff.png)
+![](img\wp-content-uploads-2021-04-15-6-appl-stiff.png)
 
 <!-- /wp:image -->

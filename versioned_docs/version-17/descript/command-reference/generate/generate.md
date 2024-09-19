@@ -40,7 +40,7 @@ Generates load combinations.
 
 The command is analogous with this button in Consteel:
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/10/image-8.png)](./img/wp-content-uploads-2021-10-image-8.png)
+![](img\wp-content-uploads-2021-10-image-8.png)
 
 ### Syntax
 
@@ -83,7 +83,7 @@ Type of the combinations to be generated. One ore more combination types can be 
     
 The options of this parameter are analogous with these options in Consteel:
 
-[![](./img/wp-content-uploads-2021-11-Kepernyokep-2022-11-30-150738-1024x476.png)](https://consteelsoftware.com/wp-content/uploads/2021/11/Kepernyokep-2022-11-30-150738.png)
+![](img\wp-content-uploads-2021-11-Kepernyokep-2022-11-30-150738-1024x476.png)
 
 The assignment of the combination type is optional. Default: ULS_PersTrans_CaseA_STR.
 
@@ -100,7 +100,7 @@ Controls the deflection type in case of SLS combinations.
 
 The options of this parameter are analogous with these options in Consteel:
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/08/image-75.png)](./img/wp-content-uploads-2021-08-image-75.png)
+![](img\wp-content-uploads-2021-08-image-75.png)
 
 One or both deflection types can be included in one row after the "DeflectionTypeSLS" within one GENERATE/LoadCombination command.
 

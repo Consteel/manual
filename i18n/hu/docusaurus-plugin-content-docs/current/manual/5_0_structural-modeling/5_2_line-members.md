@@ -177,7 +177,7 @@ Fontos megjegyezni, hogy Consteel-ben az anyagminőség a szelvény egy paramét
 
 <!-- wp:image {"align":"right","id":33694,"width":512,"height":275,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](./img/wp-content-uploads-2022-02-dial_szelvenykezelo_library-1024x549.png)](https://Consteelsoftware.com/wp-content/uploads/2022/02/dial_szelvenykezelo_library.png)
+![](img\wp-content-uploads-2022-02-dial_szelvenykezelo_library-1024x549.png)
 
 
 #### Szelvénykönyvtár
@@ -410,7 +410,7 @@ A szelvény geometriájának szerkesztése történik az első fázisban. A mere
 ![](./img/wp-content-uploads-2021-04-ico_sect_draft_draw_polyline.png) A _**Sokszögvonal rajzolása**_ parancsikonnal indítható a geometria szerkesztése. A rajzolás történhet végpontok kijelölésével a rajztéren, vagy a _**Vonal rajzolás**_ felugró ablakban koordináták megadásával is. Koordinátákat derékszögű ![](./img/wp-content-uploads-2021-04-ico_sect_draft_draw_cart.png) vagy poláris ![](./img/wp-content-uploads-2021-04-ico_sect_draft_draw_polar.png) koordináta rendszerben adhatunk meg, az origó lehet lokális ![](./img/wp-content-uploads-2021-04-ico_sect_draft_draw_local.png) vagy globális ![](./img/wp-content-uploads-2021-04-ico_sect_draft_draw_global.png). Lokális megadás esetén az utoljára megadott pont az origó, globális esetén a rajztér közepén látható Y-Z tengelykereszt. A lemezszegmensek elhelyezése a rajzolt referenciavonalhoz képest lehet központos, balra, vagy jobbra igazított. ![](./img/wp-content-uploads-2021-04-ico_sect_draft_draw_offset.png) Ezt rajzolás közben, vagy utólag, akár egyenként is lehet módosítani az oldalsávon található _**Lemez szegmens paraméterek**_ című panelen. A lekerekítések a lemez szegmensek rajzolásakor automatikusan létrejönnek. A lekerekítési sugarat utólag, a lekerekítést kijelölve, az oldalsávon lehet módosítani egyenként, vagy egységesen megadva az egész szelvényre. Ugyan itt lehet megadni a névleges lemezvastagságot is.
 
 
-[![](./img/wp-content-uploads-2022-03-szelveny_rajzolo_CFS_lemez_parameterek-1024x525.png)](https://Consteelsoftware.com/wp-content/uploads/2022/03/szelveny_rajzolo_CFS_lemez_parameterek.png)
+![](img\wp-content-uploads-2022-03-szelveny_rajzolo_CFS_lemez_parameterek-1024x525.png)
 
 
 [![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/exclam.png)](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/exclam.png)
@@ -598,7 +598,7 @@ A geometria felvétele után a szilárdsági és globális stabilitási határá
 A harmadik, egyben utolsó fázisra lépve ezen szelvények esetében egyedül a keresztmetszet egyes alkotó lemezeinek osztályba sorolását lehet szabályozni az előző fejezetben megismerttel azonos módon. Részletesen ld. az előző fejezetet.
 
 
-[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/03/szelveny_rajzolo_CFS_lemez-osztalyozas-edited.png)](https://Consteelsoftware.com/wp-content/uploads/2022/03/szelveny_rajzolo_CFS_lemez-osztalyozas.png)
+![]()
 
 
 A szerkesztést itt is a _**Ment és kilép**_ paranccsal lehet befejezni.
@@ -735,7 +735,7 @@ Amennyiben több, változó hosszal rendelkező rúdelemre kerül elhelyezésre 
 A _**Vasalás szerkesztő**_ ![](./img/wp-content-uploads-2021-04-cmd_rebareditor.png) dialóg bal oldali paneljén (**#1**) a gerenda vasalás opciót választva érhetők el a lágyvasalás felvételéhez szükséges beállítási és információs lehetőségek.
 
 
-[![](./img/wp-content-uploads-2022-03-dial_vasalas_szerkeszto-1024x771.png)](https://Consteelsoftware.com/wp-content/uploads/2022/03/dial_vasalas_szerkeszto.png)
+![](img\wp-content-uploads-2022-03-dial_vasalas_szerkeszto-1024x771.png)
 
 - **#2** -Amennyiben a modellben van betöltve méretezési opcióval rendelkező vasbeton keresztmetszet, úgy a _**Hozzáadás**_ gombbal új vasalási objektumot vehetünk fel. A **_Másolás_** gomb használatával a másolt objektum örökli az eredeti objektum paramétereit. Több objektum létrehozható, melyek között a váltás a legördülő menü segítségével, törlés pedig a törölni kívánt objektum kiválasztása után a **Törlés** gomb segítségével végezhető el.
 
@@ -817,7 +817,7 @@ Kör szelvényű oszlop vasalás szerkesztője
 A _**Vasalás szerkesztő**_ dialóg bal oldali panelján (**#1**) az oszlop vasalás opciót választva érhetők el a lágyvasalás felvételéhez szükséges beállítási és információs lehetőségek.
 
 
-[![](./img/wp-content-uploads-2022-03-dial_vasalas_szerkeszto_oszlop-1024x771.png)](https://Consteelsoftware.com/wp-content/uploads/2022/03/dial_vasalas_szerkeszto_oszlop.png)
+![](img\wp-content-uploads-2022-03-dial_vasalas_szerkeszto_oszlop-1024x771.png)
 
 - **#2** -Amennyiben a modellben van betöltve méretezési opcióval rendelkező vasbeton keresztmetszet, úgy a **_Hozzáadás_** gombbal új vasalási objektumot vehetünk fel. Több objektum létrehozható, melyek között a váltás a legördülő menü segítségével, törlés pedig a törölni kívánt objektum kiválasztása után a **_Törlés_** gomb segítségével végezhető el.
 

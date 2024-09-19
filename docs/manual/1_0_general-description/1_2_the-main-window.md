@@ -9,7 +9,7 @@ The Consteel window consists of seven separate parts containing different functi
 
 <!-- wp:image {"align":"center","id":6857,"sizeSlug":"large","linkDestination":"media","className":"is-resized is-style-default"} -->
 
-[![](./img/wp-content-uploads-2021-04-Main-window-numbers-1-1024x555.png)](https://Consteelsoftware.com/wp-content/uploads/2021/04/Main-window-numbers-1.png)
+![](img\wp-content-uploads-2021-04-Main-window-numbers-1-1024x555.png)
 
 - The **graphical window** is the area for the 3D structural modeling (#1)
 - The **menu** on the top contains some important commands (#2)
@@ -88,7 +88,7 @@ Consteel 14
 
 <!-- wp:image {"align":"center","id":27754,"sizeSlug":"full","linkDestination":"media","className":"is-resized"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/2-2-File-menu-1.png)](./img/wp-content-uploads-2021-04-2-2-File-menu-1.png)
+![](img\wp-content-uploads-2021-04-2-2-File-menu-1.png)
 
 Consteel 15
 
@@ -202,7 +202,7 @@ Saves the model in another storage space. In Consteel 15, a pop-up window will o
 
 <!-- wp:image {"align":"center","id":27765,"sizeSlug":"full","linkDestination":"media","className":"is-resized"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/11/Save_as_cloud-local.png)](./img/wp-content-uploads-2021-11-Save_as_cloud-local.png)
+![](img\wp-content-uploads-2021-11-Save_as_cloud-local.png)
 
 <!-- /wp:image -->
 
@@ -244,7 +244,7 @@ Import menu contains a wide range of import possibilities from the very basic DX
 
 <!-- wp:image {"align":"center","id":27742,"sizeSlug":"full","linkDestination":"media","className":"is-resized"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/2-2-File-import.png)](./img/wp-content-uploads-2021-04-2-2-File-import.png)
+![](img\wp-content-uploads-2021-04-2-2-File-import.png)
 
 <!-- /wp:image -->
 
@@ -262,7 +262,7 @@ The selected part of the model can be exported to _TEKLA Structures_ or to IFC. 
 
 <!-- wp:image {"align":"center","id":27748,"sizeSlug":"full","linkDestination":"media","className":"is-resized"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/2-2-File-export-1.png)](./img/wp-content-uploads-2021-04-2-2-File-export-1.png)
+![](img\wp-content-uploads-2021-04-2-2-File-export-1.png)
 
 <!-- /wp:image -->
 
@@ -413,7 +413,7 @@ _**Save**_
 
 <!-- wp:image {"align":"center","id":47521,"width":"510px","height":"auto","sizeSlug":"full","linkDestination":"media","className":"is-resized"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2023/04/options_menuCS15.png)](./img/wp-content-uploads-2023-04-options_menuCS15.png)
+![](img\wp-content-uploads-2023-04-options_menuCS15.png)
 
 <!-- /wp:image -->
 
@@ -479,7 +479,7 @@ _**Language**_
 
 <!-- wp:image {"align":"center","id":7017,"width":320,"height":219,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/2-2-options-lang.png)](./img/wp-content-uploads-2021-04-2-2-options-lang.png)
+![](img\wp-content-uploads-2021-04-2-2-options-lang.png)
 
 <!-- /wp:image -->
 
@@ -503,7 +503,7 @@ _Consteel_ has to be restarted after changing the interface language.
 
 <!-- wp:image {"align":"center","id":47529,"width":350,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2023/04/Background_color.png)](./img/wp-content-uploads-2023-04-Background_color.png)
+![](img\wp-content-uploads-2023-04-Background_color.png)
 
 <!-- /wp:image -->
 
@@ -521,7 +521,7 @@ _**Styles**_
 
 <!-- wp:image {"align":"center","id":7025,"width":322,"height":221,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/2-2-Options-styles.png)](./img/wp-content-uploads-2021-04-2-2-Options-styles.png)
+![](img\wp-content-uploads-2021-04-2-2-Options-styles.png)
 
 <!-- /wp:image -->
 
@@ -539,7 +539,7 @@ _**Diagnostics**_
 
 <!-- wp:image {"align":"center","id":7037,"width":322,"height":222,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/2-2-Options-diag-1.png)](./img/wp-content-uploads-2021-04-2-2-Options-diag-1.png)
+![](img\wp-content-uploads-2021-04-2-2-Options-diag-1.png)
 
 <!-- /wp:image -->
 
@@ -593,7 +593,7 @@ The **Automatic load distribution** can be switched off to increase the speed of
 
 <!-- wp:image {"align":"center","id":27734,"width":403,"height":276,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/2-2-Options-export-1.png)](./img/wp-content-uploads-2021-04-2-2-Options-export-1.png)
+![](img\wp-content-uploads-2021-04-2-2-Options-export-1.png)
 
 <!-- /wp:image -->
 
@@ -611,7 +611,7 @@ To establish the link between Consteel and IDEA Statica steel connection design 
 
 <!-- wp:image {"align":"center","id":7050,"width":511,"height":339,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/2-2-Options-standards.png)](./img/wp-content-uploads-2021-04-2-2-Options-standards.png)
+![](img\wp-content-uploads-2021-04-2-2-Options-standards.png)
 
 <!-- /wp:image -->
 
@@ -792,7 +792,7 @@ See the **_[Drawing Geometry](../../category/drawing-geometry)_** chapter for a 
 
 <!-- wp:image {"id":11438,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](./img/wp-content-uploads-2021-04-Tab-struc-memb-v15-1024x50.png)](https://Consteelsoftware.com/wp-content/uploads/2021/04/Tab-struc-memb-v15.png)
+![](img\wp-content-uploads-2021-04-Tab-struc-memb-v15-1024x50.png)
 
 <!-- /wp:image -->
 
@@ -1256,7 +1256,7 @@ _Fit view (Ctrl+0)_
 
 <!-- wp:image {"id":27682,"height":28,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/2-2-4-Descript-panel-1.png)](./img/wp-content-uploads-2021-04-2-2-4-Descript-panel-1.png)
+![](img\wp-content-uploads-2021-04-2-2-4-Descript-panel-1.png)
 
 <!-- /wp:image -->
 
@@ -1278,7 +1278,7 @@ At the bottom left of the screen, the **Descript** control panel can be found. *
 
 <!-- wp:image {"align":"center","id":11096,"width":982,"height":25,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/2-2-6-Status-bar-v15.png)](./img/wp-content-uploads-2021-04-2-2-6-Status-bar-v15.png)
+![](img\wp-content-uploads-2021-04-2-2-6-Status-bar-v15.png)
 
 <!-- /wp:image -->
 
@@ -1368,7 +1368,7 @@ You can also open the window from the View menu. For more information, visit the
 
 <!-- wp:image {"id":27714,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/popup_visi_symb.png)](./img/wp-content-uploads-2021-04-popup_visi_symb.png)
+![](img\wp-content-uploads-2021-04-popup_visi_symb.png)
 
 <!-- /wp:image -->
 
@@ -1407,7 +1407,7 @@ You can also open the window from the View menu. For more information, visit the
 
 <!-- wp:image {"id":27720,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/popup_visi_LCS.png)](./img/wp-content-uploads-2021-04-popup_visi_LCS.png)
+![](img\wp-content-uploads-2021-04-popup_visi_LCS.png)
 
 <!-- /wp:image -->
 ![alt text](<img/Spad Footing.png>)
@@ -1450,7 +1450,7 @@ You can also open the window from the View menu. For more information, visit the
 
 <!-- wp:image {"id":27727,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/popup_visi_names.png)](./img/wp-content-uploads-2021-04-popup_visi_names.png)
+![](img\wp-content-uploads-2021-04-popup_visi_names.png)
 
 <!-- /wp:image -->
 
@@ -1531,7 +1531,7 @@ You can also open the window from the View menu. For more information, visit the
 
 <!-- wp:image {"id":11108,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/obj_color_set_v15.png)](./img/wp-content-uploads-2021-04-obj_color_set_v15.png)
+![](img\wp-content-uploads-2021-04-obj_color_set_v15.png)
 
 <!-- /wp:image -->
 
@@ -1604,7 +1604,7 @@ The last field of the Status bar is the STEP field. Here the given number in mm 
 
 <!-- wp:image {"align":"center","id":7330,"width":274,"height":246,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/2-2-6-lengthen.png)](./img/wp-content-uploads-2021-04-2-2-6-lengthen.png)
+![](img\wp-content-uploads-2021-04-2-2-6-lengthen.png)
 
 <!-- /wp:image -->
 
@@ -1713,7 +1713,7 @@ The default position of the Object tree window is in the upper right corner. It 
 
 <!-- wp:image {"align":"center","id":7342,"sizeSlug":"full","linkDestination":"media","className":"is-resized"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/2-2-7-model-content-tab.png)](./img/wp-content-uploads-2021-04-2-2-7-model-content-tab.png)
+![](img\wp-content-uploads-2021-04-2-2-7-model-content-tab.png)
 
 <!-- /wp:image -->
 
@@ -1731,7 +1731,7 @@ By default, the Model Content tab contains all the predefined basic object types
 
 <!-- wp:image {"align":"center","id":7354,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/2-2-7-portion-manager.png)](./img/wp-content-uploads-2021-04-2-2-7-portion-manager.png)
+![](img\wp-content-uploads-2021-04-2-2-7-portion-manager.png)
 
 <!-- /wp:image -->
 
@@ -1795,7 +1795,7 @@ In the case of geometrical or modeling mistakes (like overlapping two or more ob
 
 <!-- wp:image {"align":"center","id":7336,"sizeSlug":"full","linkDestination":"media","className":"is-resized"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/2-2-7-diag-window.png)](./img/wp-content-uploads-2021-04-2-2-7-diag-window.png)
+![](img\wp-content-uploads-2021-04-2-2-7-diag-window.png)
 
 <!-- /wp:image -->
 
@@ -1883,7 +1883,7 @@ By selecting one object in the model space all the relevant properties will appe
 
 <!-- wp:image {"align":"center","id":11123,"sizeSlug":"full","linkDestination":"media","className":"is-resized"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/wind_obj_prop_v15-1.png)](./img/wp-content-uploads-2021-04-wind_obj_prop_v15-1.png)
+![](img\wp-content-uploads-2021-04-wind_obj_prop_v15-1.png)
 
 <!-- /wp:image -->
 

@@ -15,7 +15,7 @@ The analysis results are displayed in two main forms: a summarized view containi
 
 <!-- wp:image {"align":"center","id":9818,"width":304,"height":442,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/15-5-docu.jpg)](./img/wp-content-uploads-2021-04-15-5-docu.jpg)
+![](img\wp-content-uploads-2021-04-15-5-docu.jpg)
 
 <!-- /wp:image -->
 

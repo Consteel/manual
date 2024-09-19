@@ -9,7 +9,7 @@ New material grades can be defined as one of the three different types of materi
 
 <!-- wp:image {"align":"center","id":8865,"width":469,"height":117,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-8-Material-grades.png)](./img/wp-content-uploads-2021-04-6-8-Material-grades.png)
+![](img\wp-content-uploads-2021-04-6-8-Material-grades.png)
 
 <!-- /wp:image -->
 
@@ -21,7 +21,7 @@ The latter is only used for the rebar reinforcement of concrete or composite cro
 
 <!-- wp:image {"align":"center","id":8871,"width":300,"height":319,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-8-Steel-material.png)](./img/wp-content-uploads-2021-04-6-8-Steel-material.png)
+![](img\wp-content-uploads-2021-04-6-8-Steel-material.png)
 
 <!-- /wp:image -->
 
@@ -37,7 +37,7 @@ In Consteel only elastic material is considered in the analysis, so the calculat
 
 <!-- wp:image {"align":"center","id":8877,"width":361,"height":432,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-8-Concrete-material.png)](./img/wp-content-uploads-2021-04-6-8-Concrete-material.png)
+![](img\wp-content-uploads-2021-04-6-8-Concrete-material.png)
 
 <!-- /wp:image -->
 
@@ -47,7 +47,7 @@ In Consteel only elastic material is considered in the analysis, so the calculat
 
 <!-- wp:image {"align":"center","id":8883,"width":296,"height":230,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-8-Reinforcement-material.png)](./img/wp-content-uploads-2021-04-6-8-Reinforcement-material.png)
+![](img\wp-content-uploads-2021-04-6-8-Reinforcement-material.png)
 
 <!-- /wp:image -->
 

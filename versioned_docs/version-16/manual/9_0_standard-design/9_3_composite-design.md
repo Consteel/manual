@@ -21,7 +21,7 @@ Cross-section of the composite columns can be evaluated on the global checks tab
 
 <!-- wp:image {"align":"center","id":10887,"width":466,"height":410,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/10-3-1-comp-col-dial.png)](./img/wp-content-uploads-2021-04-10-3-1-comp-col-dial.png)
+![](img\wp-content-uploads-2021-04-10-3-1-comp-col-dial.png)
 
 <!-- /wp:image -->
 
@@ -51,7 +51,7 @@ The shown results can be changed in the drop down menu.
 
 <!-- wp:image {"align":"center","id":10893,"width":527,"height":391,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/10-3-1-comp-col-res.png)](./img/wp-content-uploads-2021-04-10-3-1-comp-col-res.png)
+![](img\wp-content-uploads-2021-04-10-3-1-comp-col-res.png)
 
 <!-- /wp:image -->
 
@@ -171,7 +171,7 @@ nact,R: number of shear stud positions in the right direction from the dominant 
 
 <!-- wp:image {"align":"center","id":10899,"width":622,"height":376,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/10-3-2-comp-beam-pic.jpg)](./img/wp-content-uploads-2021-04-10-3-2-comp-beam-pic.jpg)
+![](img\wp-content-uploads-2021-04-10-3-2-comp-beam-pic.jpg)
 
 <!-- /wp:image -->
 
@@ -213,7 +213,7 @@ Calculation of the utilizations of the shear studs are evaluated by the dividing
 
 <!-- wp:image {"align":"center","id":10881,"width":880,"height":458,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/10-3-2-comp-beam-res.png)](./img/wp-content-uploads-2021-04-10-3-2-comp-beam-res.png)
+![](img\wp-content-uploads-2021-04-10-3-2-comp-beam-res.png)
 
 <!-- /wp:image -->
 

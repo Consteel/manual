@@ -15,7 +15,7 @@ A gerinc merevítők modellezése jelenleg hegesztett I vagy H típusú keresztm
 
 <!-- wp:image {"align":"center","id":11456,"width":392,"height":224,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/05/scr_dualbeam_stiff_hidden.png)](./img/wp-content-uploads-2021-05-scr_dualbeam_stiff_hidden.png)
+![](img\wp-content-uploads-2021-05-scr_dualbeam_stiff_hidden.png)
 
 <!-- /wp:image -->
 
@@ -25,7 +25,7 @@ A gerinc merevítők modellezése jelenleg hegesztett I vagy H típusú keresztm
 
 <!-- wp:image {"align":"center","id":11462,"width":389,"height":224,"sizeSlug":"full","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/05/scr_dualbeam_stiff_mesh.png)](./img/wp-content-uploads-2021-05-scr_dualbeam_stiff_mesh.png)
+![](img\wp-content-uploads-2021-05-scr_dualbeam_stiff_mesh.png)
 
 <!-- /wp:image -->
 
@@ -51,7 +51,7 @@ Gerinc merevítők hegesztett I vagy H keresztmetszetű rudakon definiálhatók,
 
 <!-- wp:image {"align":"right","id":39465,"width":294,"height":385,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_superbeam_merevito_lemez.png)](./img/wp-content-uploads-2022-05-dial_superbeam_merevito_lemez.png)
+![](img\wp-content-uploads-2022-05-dial_superbeam_merevito_lemez.png)
 
 <!-- /wp:image -->
 
@@ -61,7 +61,7 @@ Gerinc merevítők hegesztett I vagy H keresztmetszetű rudakon definiálhatók,
 
 <!-- wp:image {"align":"center","id":39457,"width":294,"height":385,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_superbeam_merevito_lemez_parh.png)](./img/wp-content-uploads-2022-05-dial_superbeam_merevito_lemez_parh.png)
+![](img\wp-content-uploads-2022-05-dial_superbeam_merevito_lemez_parh.png)
 
 <!-- /wp:image -->
 
@@ -71,7 +71,7 @@ Gerinc merevítők hegesztett I vagy H keresztmetszetű rudakon definiálhatók,
 
 <!-- wp:image {"align":"left","id":39448,"width":294,"height":385,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_superbeam_merevito_lemez_szelveny.png)](./img/wp-content-uploads-2022-05-dial_superbeam_merevito_lemez_szelveny.png)
+![](img\wp-content-uploads-2022-05-dial_superbeam_merevito_lemez_szelveny.png)
 
 <!-- /wp:image -->
 
@@ -118,7 +118,7 @@ A párbeszédablak _Paraméterek_ szakaszában a merevítő pozícióját és m�
 
 <!-- wp:image {"align":"center","id":39440,"width":159,"height":159,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_superbeam_merevito_illesztes_ref.png)](./img/wp-content-uploads-2022-05-dial_superbeam_merevito_illesztes_ref.png)
+![](img\wp-content-uploads-2022-05-dial_superbeam_merevito_illesztes_ref.png)
 
 <!-- /wp:image -->
 
@@ -128,7 +128,7 @@ A párbeszédablak _Paraméterek_ szakaszában a merevítő pozícióját és m�
 
 <!-- wp:image {"align":"center","id":39432,"width":159,"height":158,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_superbeam_merevito_illesztes_gerinc.png)](./img/wp-content-uploads-2022-05-dial_superbeam_merevito_illesztes_gerinc.png)
+![](img\wp-content-uploads-2022-05-dial_superbeam_merevito_illesztes_gerinc.png)
 
 <!-- /wp:image -->
 
@@ -138,7 +138,7 @@ A párbeszédablak _Paraméterek_ szakaszában a merevítő pozícióját és m�
 
 <!-- wp:image {"align":"center","id":39424,"width":159,"height":159,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_superbeam_merevito_illesztes_felso.png)](./img/wp-content-uploads-2022-05-dial_superbeam_merevito_illesztes_felso.png)
+![](img\wp-content-uploads-2022-05-dial_superbeam_merevito_illesztes_felso.png)
 
 <!-- /wp:image -->
 
@@ -148,7 +148,7 @@ A párbeszédablak _Paraméterek_ szakaszában a merevítő pozícióját és m�
 
 <!-- wp:image {"align":"center","id":39416,"width":156,"height":158,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_superbeam_merevito_illesztes_also.png)](./img/wp-content-uploads-2022-05-dial_superbeam_merevito_illesztes_also.png)
+![](img\wp-content-uploads-2022-05-dial_superbeam_merevito_illesztes_also.png)
 
 <!-- /wp:image -->
 
@@ -164,7 +164,7 @@ A választott referenciavonal nem csak a merevítő pozícionálását határozz
 
 <!-- wp:image {"align":"center","id":11557,"width":380,"height":288,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/05/scr_dualbeam_stiff_ref.png)](./img/wp-content-uploads-2021-05-scr_dualbeam_stiff_ref.png)
+![](img\wp-content-uploads-2021-05-scr_dualbeam_stiff_ref.png)
 
 <!-- /wp:image -->
 

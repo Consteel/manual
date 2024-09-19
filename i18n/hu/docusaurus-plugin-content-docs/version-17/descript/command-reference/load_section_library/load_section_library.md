@@ -13,7 +13,7 @@ Loads a section into the section list from the standard section library.
 
 Sections have to be loaded into the current model file to be able to be used in the model. Initially in a new model file the section list is empty. There are several ways to load in, or create a section: library section, macro section, user drawn section. In this case the library section option is used. The command is analogous with the highlighted "From library..." button at the section administration dialogue in Consteel.
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/08/image-2.png)](./img/wp-content-uploads-2021-08-image-2.png)
+![](img\wp-content-uploads-2021-08-image-2.png)
 
 ### Syntax
 
@@ -51,7 +51,7 @@ LOAD_SECTION_LIBRARY [Object ID] **"IPE 80"** [Material name] [New name]
 
 <span id="section-names" style={{paddingTop: '80px'}}> The section names can be viewed in Consteel at the highlighted area of the section library dialogue after the selection of a section type. </span>
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/08/image.png)](./img/wp-content-uploads-2021-08-image.png)
+![](img\wp-content-uploads-2021-08-image.png)
 
 #### Material name:
 Name of the material to be used for the section. String of characters between apostrophes. Exact match is necessary with the Consteel material names.
@@ -62,22 +62,22 @@ LOAD_SECTION_LIBRARY [Object ID] [Section library name] **"S 235 EN 10025-2"** [
 
 <span id="material-names" style={{paddingTop: '80px'}}> The material names can be viewed in Consteel at the highlighted area of the material dialogue name dropdown. </span>
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/08/image-1.png)](./img/wp-content-uploads-2021-08-image-1.png)
+![](img\wp-content-uploads-2021-08-image-1.png)
 
 The assignment of this parameter is optional. Default value: "S 235 EN 10025-2"
 
 #### New name:
 This optional parameter can be used to give a different name for the section, then its section library name, which is the default. This is typically most useful, if there is a need to load in a specific section with multiple different materials into the same model. In this case, normally a section would load in with the same exact name, but two sections can't have identical names once loaded in. To solve this, as of the time of writing (CS16 build 2119), if this is attempted in Consteel's graphical user interface, the consecutively loaded same sections with different materials get an "\*" at the end of their names:
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/12/image-11.png)](./img/wp-content-uploads-2022-12-image-11.png)
+![](img\wp-content-uploads-2022-12-image-11.png)
 
 Attempting the same in Descript without a different New name added, will result the consecutive section(s) to not load in:
 
-[![](./img/wp-content-uploads-2022-12-image-12-1024x122.png)](https://consteelsoftware.com/wp-content/uploads/2022/12/image-12.png)
+![](img\wp-content-uploads-2022-12-image-12-1024x122.png)
 
 This issue is solved with the New name parameter in Descript:
 
-[![](./img/wp-content-uploads-2022-12-image-13-1024x111.png)](https://consteelsoftware.com/wp-content/uploads/2022/12/image-13.png)
+![](img\wp-content-uploads-2022-12-image-13-1024x111.png)
 
 ```
 LOAD_SECTION_LIBRARY Sec_ID1 "IPE 200" "S 235 EN 10025-2" "IPE 200 S 235"

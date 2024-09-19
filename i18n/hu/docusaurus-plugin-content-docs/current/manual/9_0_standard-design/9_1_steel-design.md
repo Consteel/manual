@@ -515,7 +515,7 @@ Elemtervezés elvégzéséhez először ki kell választani és hozzá kell adni
 
 <!-- wp:image {"align":"center","id":37131,"width":768,"height":104,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](./img/wp-content-uploads-2022-06-tabl_elemvizsgalatok-1024x139.png)](https://Consteelsoftware.com/wp-content/uploads/2022/06/tabl_elemvizsgalatok.png)
+![](img\wp-content-uploads-2022-06-tabl_elemvizsgalatok-1024x139.png)
 
 <!-- /wp:image -->
 
@@ -665,7 +665,7 @@ Az elemek kiválasztása után, a következő lépés, az egyedi elemtervezéshe
 
 <!-- wp:image {"align":"center","id":37151,"width":346,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2022-06-tabl_elemvizsgalatok_csoportos-edited.png)](https://Consteelsoftware.com/wp-content/uploads/2022/06/tabl_elemvizsgalatok_csoportos.png)
+![]()
 
 <!-- /wp:image -->
 

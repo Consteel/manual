@@ -4,7 +4,7 @@ sidebar_position: 4
 # Globális imperfekciók
 <!-- wp:image {"align":"center","id":36054,"width":552,"height":82,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/tab_terhek_imperf.png)](./img/wp-content-uploads-2022-05-tab_terhek_imperf.png)
+![](img\wp-content-uploads-2022-05-tab_terhek_imperf.png)
 
 <!-- /wp:image -->
 
@@ -16,7 +16,7 @@ Három fajta globális imperfekció alkalmazható a modellen a **Globális imper
 
 <!-- wp:image {"align":"right","id":36062,"width":288,"height":438,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_terhek_imperf_helyettesito.png)](./img/wp-content-uploads-2022-05-dial_terhek_imperf_helyettesito.png)
+![](img\wp-content-uploads-2022-05-dial_terhek_imperf_helyettesito.png)
 
 <!-- /wp:image -->
 
@@ -56,7 +56,7 @@ Az **Alkalmaz** vagy a **Rendben** gomb megnyomásával létrehozható a defini�
 
 <!-- wp:image {"align":"right","id":36070,"width":288,"height":438,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_terhek_imperf_kezdetiferdeseg.png)](./img/wp-content-uploads-2022-05-dial_terhek_imperf_kezdetiferdeseg.png)
+![](img\wp-content-uploads-2022-05-dial_terhek_imperf_kezdetiferdeseg.png)
 
 <!-- /wp:image -->
 
@@ -96,7 +96,7 @@ Az **Alkalmaz** vagy a **Rendben** gomb megnyomásával létrehozható a defini�
 
 <!-- wp:image {"align":"right","id":36078,"width":530,"height":354,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/scr_sajatalak_alkalmazasa.png)](./img/wp-content-uploads-2022-05-scr_sajatalak_alkalmazasa.png)
+![](img\wp-content-uploads-2022-05-scr_sajatalak_alkalmazasa.png)
 
 <!-- /wp:image -->
 
@@ -144,7 +144,7 @@ A megjelenő ablakban az alábbi paramétereket lehet megadni:
 
 <!-- wp:image {"align":"right","id":36086,"width":233,"height":416,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_sajatalak_alkalmazasa.png)](./img/wp-content-uploads-2022-05-dial_sajatalak_alkalmazasa.png)
+![](img\wp-content-uploads-2022-05-dial_sajatalak_alkalmazasa.png)
 
 <!-- /wp:image -->
 
@@ -207,7 +207,7 @@ Imperfekció alkalmazása esetén állandó probléma a megfelelő (biztonságos
 
 <!-- wp:image {"align":"right","id":36094,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_sajatalak_amplitudo_ekvi_kezdeti_gorbeseg.png)](./img/wp-content-uploads-2022-05-dial_sajatalak_amplitudo_ekvi_kezdeti_gorbeseg.png)
+![](img\wp-content-uploads-2022-05-dial_sajatalak_amplitudo_ekvi_kezdeti_gorbeseg.png)
 
 <!-- /wp:image -->
 
@@ -225,7 +225,7 @@ Ennek az eljárásnak az EuroCode 1993-1-1 szabvány 5.3.2 (3)b táblázata az a
 
 <!-- wp:image {"align":"right","id":36119,"width":311,"height":306,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_sajatalak_amplitudo_sajatalak_2.png)](./img/wp-content-uploads-2022-05-dial_sajatalak_amplitudo_sajatalak_2.png)
+![](img\wp-content-uploads-2022-05-dial_sajatalak_amplitudo_sajatalak_2.png)
 
 <!-- /wp:image -->
 
@@ -243,7 +243,7 @@ Az eljárás teljesen automatikusan számítja az amplitúdó értékét a kivá
 
 <!-- wp:image {"align":"right","id":36111,"width":312,"height":203,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_sajatalak_amplitudo_sajatalak.png)](./img/wp-content-uploads-2022-05-dial_sajatalak_amplitudo_sajatalak.png)
+![](img\wp-content-uploads-2022-05-dial_sajatalak_amplitudo_sajatalak.png)
 
 <!-- /wp:image -->
 
@@ -269,7 +269,7 @@ Végezetül a számított értéket (hinit,max) a **Rendben** gomb megnyomásáv
 
 <!-- wp:image {"align":"right","id":36103,"width":283,"height":477,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_sajatalak_amplitudo_OIM.png)](./img/wp-content-uploads-2022-05-dial_sajatalak_amplitudo_OIM.png)
+![](img\wp-content-uploads-2022-05-dial_sajatalak_amplitudo_OIM.png)
 
 <!-- /wp:image -->
 
@@ -321,4 +321,4 @@ A **Sor törlése** gomb segítségével a kijelölt imperfekciós esetek törö
 
 <!-- wp:image {"align":"center","id":36128,"width":512,"height":407,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2022-05-tabl_imperfekciok-1024x813.png)](https://Consteelsoftware.com/wp-content/uploads/2022/05/tabl_imperfekciok.png)
+![](img\wp-content-uploads-2022-05-tabl_imperfekciok-1024x813.png)

@@ -58,4 +58,4 @@ SELECT ALL
 MIRROR_SELECTED 0 -2000 0 5000
 ```
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/10/image-10.png)](./img/wp-content-uploads-2021-10-image-10.png)
+![](img\wp-content-uploads-2021-10-image-10.png)

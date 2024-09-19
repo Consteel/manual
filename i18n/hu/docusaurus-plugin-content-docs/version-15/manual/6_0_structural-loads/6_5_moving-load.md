@@ -10,7 +10,7 @@ A funkció segítségével, EuroCode alapú vagy teljesen felhasználó által d
 
 <!-- wp:image {"align":"center","id":36170,"sizeSlug":"full","linkDestination":"media","className":"caption-align-center is-style-editorskit-rounded","captionAlignment":"center"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/tab_terhek_mozgo.png)](./img/wp-content-uploads-2022-05-tab_terhek_mozgo.png)
+![](img\wp-content-uploads-2022-05-tab_terhek_mozgo.png)
 
 <!-- /wp:image -->
 
@@ -23,7 +23,7 @@ A funkció segítségével, EuroCode alapú vagy teljesen felhasználó által d
 
 <!-- wp:image {"align":"right","id":36162,"width":383,"height":203,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_mozgo_hatasvonal.png)](./img/wp-content-uploads-2022-05-dial_teher_mozgo_hatasvonal.png)
+![](img\wp-content-uploads-2022-05-dial_teher_mozgo_hatasvonal.png)
 
 <!-- /wp:image -->
 
@@ -72,7 +72,7 @@ Kettős hatásvonal is létrehozható a jelölőnégyzet bekattintásával.
 
 <!-- wp:image {"align":"right","id":36154,"width":284,"height":471,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_mozgo_hatasabra.png)](./img/wp-content-uploads-2022-05-dial_teher_mozgo_hatasabra.png)
+![](img\wp-content-uploads-2022-05-dial_teher_mozgo_hatasabra.png)
 
 <!-- /wp:image -->
 
@@ -211,7 +211,7 @@ Három típusú fel híddaru definiálható a programban:
 
 <!-- wp:image {"align":"center","id":36179,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_mozgo_daru3.png)](./img/wp-content-uploads-2022-05-dial_teher_mozgo_daru3.png)
+![](img\wp-content-uploads-2022-05-dial_teher_mozgo_daru3.png)
 
 <!-- /wp:image -->
 
@@ -223,7 +223,7 @@ Három típusú fel híddaru definiálható a programban:
 
 <!-- wp:image {"align":"right","id":36146,"width":306,"height":448,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_mozgo_daru.png)](./img/wp-content-uploads-2022-05-dial_teher_mozgo_daru.png)
+![](img\wp-content-uploads-2022-05-dial_teher_mozgo_daru.png)
 
 <!-- /wp:image -->
 
@@ -276,7 +276,7 @@ Az automatikusan előállított kerékterhelések a dialóg alján található t
 
 <!-- wp:image {"align":"right","id":36138,"width":324,"height":443,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_mozgo_daru2.png)](./img/wp-content-uploads-2022-05-dial_teher_mozgo_daru2.png)
+![](img\wp-content-uploads-2022-05-dial_teher_mozgo_daru2.png)
 
 <!-- /wp:image -->
 
@@ -330,7 +330,7 @@ A kerekek nevében az első tag a tengely számát, míg a második a kerék sz�
 
 <!-- wp:image {"align":"right","id":36187,"width":297,"height":238,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_mozgo_daru_egyeni.png)](./img/wp-content-uploads-2022-05-dial_teher_mozgo_daru_egyeni.png)
+![](img\wp-content-uploads-2022-05-dial_teher_mozgo_daru_egyeni.png)
 
 <!-- /wp:image -->
 
@@ -361,7 +361,7 @@ Daruteher kétféle képen helyezhető el a modellen, de mindenekelőtt az **Alk
 
 <!-- wp:image {"align":"right","id":36195,"width":768,"height":388,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2022-05-scr_teher_mozgo_daru_egyeni-1024x517.png)](https://Consteelsoftware.com/wp-content/uploads/2022/05/scr_teher_mozgo_daru_egyeni.png)
+![](img\wp-content-uploads-2022-05-scr_teher_mozgo_daru_egyeni-1024x517.png)
 
 <!-- /wp:image -->
 
@@ -395,7 +395,7 @@ Az elhelyezés iránya, a maximális kerékterhelés pozíciója és az elhelyez
 
 <!-- wp:image {"align":"right","id":36204,"width":490,"height":294,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/scr_teher_mozgo_hatasabraleterheles.png)](./img/wp-content-uploads-2022-05-scr_teher_mozgo_hatasabraleterheles.png)
+![](img\wp-content-uploads-2022-05-scr_teher_mozgo_hatasabraleterheles.png)
 
 <!-- /wp:image -->
 
@@ -425,7 +425,7 @@ Hatásábra leterhelésével való daruteher elhelyezéshez, az **Analízis** f�
 
 <!-- wp:image {"align":"left","id":36212,"width":317,"height":317,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_mozgo_hatasabraleterheles.png)](./img/wp-content-uploads-2022-05-dial_teher_mozgo_hatasabraleterheles.png)
+![](img\wp-content-uploads-2022-05-dial_teher_mozgo_hatasabraleterheles.png)
 
 <!-- /wp:image -->
 
@@ -457,7 +457,7 @@ Az elhelyezett teher elmenthető valamelyik teheresetbe, a _Teherállás mentés
 
 <!-- wp:image {"align":"right","id":36221,"width":360,"height":494,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_mozgo_vonat.png)](./img/wp-content-uploads-2022-05-dial_teher_mozgo_vonat.png)
+![](img\wp-content-uploads-2022-05-dial_teher_mozgo_vonat.png)
 
 <!-- /wp:image -->
 

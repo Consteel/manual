@@ -9,7 +9,7 @@ The functions for the drawing described below are collected on the Geometry tab.
 
 <!-- wp:image {"id":8440,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/5-3-draw-tab.png)](./img/wp-content-uploads-2021-04-5-3-draw-tab.png)
+![](img\wp-content-uploads-2021-04-5-3-draw-tab.png)
 
 <!-- /wp:image -->
 

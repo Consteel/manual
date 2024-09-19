@@ -30,7 +30,7 @@ A **Microsoft Word** funkció kiválasztása után a **Dokumentáció exportál�
 
 <!-- wp:image {"align":"center","id":37826,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/scr_dokument_export_2.png)](./img/wp-content-uploads-2022-06-scr_dokument_export_2.png)
+![](img\wp-content-uploads-2022-06-scr_dokument_export_2.png)
 
 <!-- /wp:image -->
 
@@ -107,7 +107,7 @@ A módosítások elvégzése után a **Fájl – Mentés másként** opciót has
 
 <!-- wp:image {"align":"center","id":37810,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/scr_dokument_export_word_sablon.png)](./img/wp-content-uploads-2022-06-scr_dokument_export_word_sablon.png)
+![](img\wp-content-uploads-2022-06-scr_dokument_export_word_sablon.png)
 
 <!-- /wp:image -->
 

@@ -11,7 +11,7 @@ A főképernyő hét fő részből áll:
 
 <!-- wp:image {"align":"center","id":6857,"width":"1024px","height":"555px","sizeSlug":"large","linkDestination":"media","className":"is-style-default"} -->
 
-[![](./img/wp-content-uploads-2021-04-Main-window-numbers-1-1024x555.png)](https://Consteelsoftware.com/wp-content/uploads/2021/04/Main-window-numbers-1.png)
+![](img\wp-content-uploads-2021-04-Main-window-numbers-1-1024x555.png)
 
 
 - A legnagyobb méretű rész, a [grafikus ablak](#grafikus-ablak) (#1), ami a 3 dimenziós modell elkészítésére, megjelenítésére szolgál.
@@ -220,7 +220,7 @@ A felhőbe mentett modellek megoszthatók más Consteel-felhasználókkal, akik 
 
 <!-- wp:image {"align":"left","id":31121,"sizeSlug":"medium","linkDestination":"media"} -->
 
-[![](./img/wp-content-uploads-2022-01-menu_file_import_hu-300x229.png)](https://Consteelsoftware.com/wp-content/uploads/2022/01/menu_file_import_hu.png)
+![](img\wp-content-uploads-2022-01-menu_file_import_hu-300x229.png)
 
 <!-- /wp:image -->
 
@@ -384,7 +384,7 @@ A részletmodellek kijelölésének megtartása funkció segítségével a felha
 #### Opciók menü - Frissítés
 
 <!-- /wp:image -->
-[![](./img/wp-content-uploads-2022-01-options_frissites_hu-300x206.png)](https://Consteelsoftware.com/wp-content/uploads/2022/01/options_frissites_hu.png)
+![](img\wp-content-uploads-2022-01-options_frissites_hu-300x206.png)
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
 A frissítése funkció minden indításkor ellenőrzi az interneten, hogy elérhető-e újabb verzió. Ez a funkció itt kikapcsolható. Az ellenőrzés manuálisan is elvégezhető a Frissítés keresése most (![](./img/wp-content-uploads-2021-04-2-2-Search-update.png) ) ikonra kattintva..
@@ -411,7 +411,7 @@ A termékeink az alábbi információkat gyűjtik és küldik el: verzióinform�
 
 
 
-[![](./img/wp-content-uploads-2022-01-options_nyelv_hu-300x206.png)](https://Consteelsoftware.com/wp-content/uploads/2022/01/options_nyelv_hu.png)
+![](img\wp-content-uploads-2022-01-options_nyelv_hu-300x206.png)
 
 
 
@@ -429,7 +429,7 @@ A felhasználói felület nyelvének változtatása a program újraindítását 
 
 
 
-[![](./img/wp-content-uploads-2022-01-options_stilus_hu-300x206.png)](https://Consteelsoftware.com/wp-content/uploads/2022/01/options_stilus_hu.png)
+![](img\wp-content-uploads-2022-01-options_stilus_hu-300x206.png)
 
 Opciók menü - Stílusok
 
@@ -443,7 +443,7 @@ A különböző objektumok színeit lehet megadni.
 
 
 
-[![](./img/wp-content-uploads-2022-01-options_diag_hu-300x206.png)](https://Consteelsoftware.com/wp-content/uploads/2022/01/options_diag_hu.png)
+![](img\wp-content-uploads-2022-01-options_diag_hu-300x206.png)
 
 
 
@@ -464,7 +464,7 @@ További infót ld. még: [_Modellvizsgálat_](../8_0_structural-analysis/8_2_mo
 
 
 
-[![](./img/wp-content-uploads-2022-01-options_idea_hu-300x206.png)](https://Consteelsoftware.com/wp-content/uploads/2022/01/options_idea_hu.png)
+![](img\wp-content-uploads-2022-01-options_idea_hu-300x206.png)
 
 Opciók menü - IDEA StatiCa átmenet
 
@@ -478,7 +478,7 @@ A Consteel és az IDEA Statica programok közötti kapcsolat létrehozására it
 
 
 
-[![](./img/wp-content-uploads-2022-01-szabvanyok-300x199.png)](https://Consteelsoftware.com/wp-content/uploads/2022/01/szabvanyok.png)
+![](img\wp-content-uploads-2022-01-szabvanyok-300x199.png)
 
 
 A menü segítségével egyszerűen és gyorsan áttekinthetjük a program által kezelt szabványok paramétereit, illetve létrehozhatunk saját tervezési paramétereket. A használt tervezési szabvány a _[Fájl menüben](#fájl-menü)_ állítható be, a _Modell attribútumok_ segítségével.
@@ -1060,4 +1060,4 @@ Különböző típusú objektumok kiválasztása esetén, azok objektum típuson
 A kijelölés megszüntetése (![](./img/wp-content-uploads-2021-04-2-2-7-unselect.png)) gombbal, az előzőleg kiválasztott objektum típusok kivonhatóak a kiválasztásból.
 
 
-[![](./img/wp-content-uploads-2022-01-objekt_tulajd_nezet-1024x515.png)](https://Consteelsoftware.com/wp-content/uploads/2022/01/objekt_tulajd_nezet.png)
+![](img\wp-content-uploads-2022-01-objekt_tulajd_nezet-1024x515.png)

@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 # Fire load group
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/12-1-fire-load-group-1.png)](./img/wp-content-uploads-2021-04-12-1-fire-load-group-1.png)
+![](img\wp-content-uploads-2021-04-12-1-fire-load-group-1.png)
 
 <!-- /wp:image -->
 
@@ -33,7 +33,7 @@ Fire load group has more options:
 
 <!-- wp:image {"align":"right","id":16725,"width":375,"height":412,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/12-1-fire-load-settings.png)](./img/wp-content-uploads-2021-04-12-1-fire-load-settings.png)
+![](img\wp-content-uploads-2021-04-12-1-fire-load-settings.png)
 
 <!-- /wp:image -->
 

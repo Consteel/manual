@@ -5,7 +5,7 @@ sidebar_position: 14
 
 <!-- wp:image {"align":"center","id":11637,"width":798,"height":350,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/05/scr_dualbeam_demo_res.png)](./img/wp-content-uploads-2021-05-scr_dualbeam_demo_res.png)
+![](img\wp-content-uploads-2021-05-scr_dualbeam_demo_res.png)
 
 <!-- /wp:image -->
 
@@ -58,7 +58,7 @@ Ha a héj modell van kiválasztva egy adott rúdhoz, akkor az analízishez szük
 
 <!-- wp:image {"align":"center","id":11619,"width":338,"height":150,"sizeSlug":"full","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/05/scr_dualbeam_stru.png)](./img/wp-content-uploads-2021-05-scr_dualbeam_stru.png)
+![](img\wp-content-uploads-2021-05-scr_dualbeam_stru.png)
 
 A gerenda 3D nézete
 
@@ -70,7 +70,7 @@ A gerenda 3D nézete
 
 <!-- wp:image {"align":"center","id":11625,"width":338,"height":150,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/05/scr_dualbeam_FE_line.png)](./img/wp-content-uploads-2021-05-scr_dualbeam_FE_line.png)
+![](img\wp-content-uploads-2021-05-scr_dualbeam_FE_line.png)
 
 7SZ rúdmodell öblösödési merevítőkkel
 
@@ -82,7 +82,7 @@ A gerenda 3D nézete
 
 <!-- wp:image {"align":"center","id":11631,"width":338,"height":150,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/05/scr_dualbeam_FE_shell.png)](./img/wp-content-uploads-2021-05-scr_dualbeam_FE_shell.png)
+![](img\wp-content-uploads-2021-05-scr_dualbeam_FE_shell.png)
 
 Héj modell lyukakkal és merevítőkkel
 
@@ -134,7 +134,7 @@ Ahhoz, hogy egy rúdelemen használni lehessen a héjmodell nyújtotta lehetős�
 
 <!-- wp:image {"align":"left","id":35332,"width":272,"height":174,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/04/obj_tul_vegeselem_tipus.png)](./img/wp-content-uploads-2022-04-obj_tul_vegeselem_tipus.png)
+![](img\wp-content-uploads-2022-04-obj_tul_vegeselem_tipus.png)
 
 <!-- /wp:image -->
 
@@ -160,7 +160,7 @@ A legördülő listában elérhető végeselem-típusok a keresztmetszet típus�
 
 <!-- wp:image {"align":"right","id":35340,"width":263,"height":96,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/04/obj_tul_vegeselem_tipus_manualis.png)](./img/wp-content-uploads-2022-04-obj_tul_vegeselem_tipus_manualis.png)
+![](img\wp-content-uploads-2022-04-obj_tul_vegeselem_tipus_manualis.png)
 
 <!-- /wp:image -->
 
@@ -204,7 +204,7 @@ A következő sorban a **kényszerelemek** típusa választható ki, mely lehet
 
 <!-- wp:image {"align":"right","id":21890,"width":340,"height":399,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/05/scr_dualbeam_constraint.png)](./img/wp-content-uploads-2021-05-scr_dualbeam_constraint.png)
+![](img\wp-content-uploads-2021-05-scr_dualbeam_constraint.png)
 
 <!-- /wp:image -->
 

@@ -18,7 +18,7 @@ After pressing the Microsoft Word button, the Documentation export dialogue will
 
 <!-- wp:image {"align":"center","id":9703,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/14-3-documentexport.png)](./img/wp-content-uploads-2021-04-14-3-documentexport.png)
+![](img\wp-content-uploads-2021-04-14-3-documentexport.png)
 
 <!-- /wp:image -->
 
@@ -84,7 +84,7 @@ After the settings are made, the file should be saved in **.dotx** format (as th
 
 <!-- wp:image {"align":"center","id":9716,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/14-3-styles.png)](./img/wp-content-uploads-2021-04-14-3-styles.png)
+![](img\wp-content-uploads-2021-04-14-3-styles.png)
 
 <!-- /wp:image -->
 

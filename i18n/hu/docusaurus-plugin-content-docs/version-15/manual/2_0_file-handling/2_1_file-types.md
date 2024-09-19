@@ -10,7 +10,7 @@ sidebar_position: 1
 
 <!-- wp:image {"align":"left","id":32506,"width":199,"height":110,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/02/fajltipusok_v15.png)](./img/wp-content-uploads-2022-02-fajltipusok_v15.png)
+![](img\wp-content-uploads-2022-02-fajltipusok_v15.png)
 
 <!-- /wp:image -->
 

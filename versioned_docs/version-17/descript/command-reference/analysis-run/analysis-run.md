@@ -27,7 +27,7 @@ MassCombinations [Mass combination]
 
 Several options of an anlysis can be controlled by command attributes and parameters. The analogous counterparts of these in the Consteel user interface are the following:
 
-[![](./img/wp-content-uploads-2021-12-image-1024x529.png)](https://consteelsoftware.com/wp-content/uploads/2021/12/image.png)
+![](img\wp-content-uploads-2021-12-image-1024x529.png)
 
 ### Additional command lines
 

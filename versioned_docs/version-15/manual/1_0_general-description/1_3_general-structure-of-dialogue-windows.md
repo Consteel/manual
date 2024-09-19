@@ -9,7 +9,7 @@ Several dialogue windows – especially the most important ones on the **Structu
 
 <!-- wp:image {"align":"center","id":7409,"width":372,"height":517,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/2-3-dialog-1.png)](./img/wp-content-uploads-2021-04-2-3-dialog-1.png)
+![](img\wp-content-uploads-2021-04-2-3-dialog-1.png)
 
 <!-- /wp:image -->
 

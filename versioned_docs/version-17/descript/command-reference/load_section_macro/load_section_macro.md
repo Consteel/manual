@@ -13,7 +13,7 @@ Loads a macro section into the section list.
 
 Sections have to be loaded into the current model file to be able to be used in the model. Initially in a new model file the section list is empty. There are several ways to load in, or create a section: library section, macro section, user drawn section. In this case the macro section option is used. The command is analogous with the highlighted "Macro section..." button at the section administration dialogue in Consteel.
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/08/image-7.png)](./img/wp-content-uploads-2021-08-image-7.png)
+![](img\wp-content-uploads-2021-08-image-7.png)
 
 ### Syntax
 
@@ -89,7 +89,7 @@ LOAD_SECTION_MACRO [Object ID] [Macro type] [Section name] **"S 235 EN 10025-2"*
 
 <span id="material-names" style={{paddingTop: '80px'}}> The material names can be viewed in Consteel at the highlighted area of the material dialogue name dropdown. </span>
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/08/image-3.png)](./img/wp-content-uploads-2021-08-image-3.png)
+![](img\wp-content-uploads-2021-08-image-3.png)
 
 #### Section parameters:
 Section parameters like height, breadth, thickness, etc.. The quantity and meaning of the parameters depend on the macro type.
@@ -107,7 +107,7 @@ WLD-IH
 
 #### Parameters:
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/08/image-4.png)](./img/wp-content-uploads-2021-08-image-4.png)
+![](img\wp-content-uploads-2021-08-image-4.png)
 
 
 | Notation | Definition             |
@@ -136,7 +136,7 @@ WLD-BOX
 
 #### Parameters:
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/08/image-5.png)](./img/wp-content-uploads-2021-08-image-5.png)
+![](img\wp-content-uploads-2021-08-image-5.png)
 
 | Notation | Definition                      |
 | -------- | ------------------------------- |
@@ -165,7 +165,7 @@ WLD-MALTESE
 
 #### Parameters:
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/08/image-6.png)](./img/wp-content-uploads-2021-08-image-6.png)
+![](img\wp-content-uploads-2021-08-image-6.png)
 
 | Notation | Definition          |
 | -------- | ------------------- |
@@ -195,7 +195,7 @@ WLD-HALFMALTESE
 
 #### Parameters:
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/08/image-8.png)](./img/wp-content-uploads-2021-08-image-8.png)
+![](img\wp-content-uploads-2021-08-image-8.png)
 
 | Notation | Definition          |
 | -------- | ------------------- |
@@ -225,7 +225,7 @@ WLD-HAT
 
 #### Parameters:
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/08/image-9.png)](./img/wp-content-uploads-2021-08-image-9.png)
+![](img\wp-content-uploads-2021-08-image-9.png)
 
 | Notation | Definition              |
 | -------- | ----------------------- |
@@ -252,7 +252,7 @@ WLD-T
 
 #### Parameters:
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/08/image-10.png)](./img/wp-content-uploads-2021-08-image-10.png)
+![](img\wp-content-uploads-2021-08-image-10.png)
 
 | Notation | Definition             |
 | -------- | ---------------------- |
@@ -278,7 +278,7 @@ WLD-WQ
 
 #### Parameters:
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/08/image-11.png)](./img/wp-content-uploads-2021-08-image-11.png)
+![](img\wp-content-uploads-2021-08-image-11.png)
 
 | Notation | Definition                  |
 | -------- | --------------------------- |
@@ -307,7 +307,7 @@ WLD-SLANTIH
 
 #### Parameters:
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/08/image-12.png)](./img/wp-content-uploads-2021-08-image-12.png)
+![](img\wp-content-uploads-2021-08-image-12.png)
 
 | Notation | Definition              |
 | -------- | ----------------------- |
@@ -337,7 +337,7 @@ WLD-C
 
 #### Parameters:
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/08/image-13.png)](./img/wp-content-uploads-2021-08-image-13.png)
+![](img\wp-content-uploads-2021-08-image-13.png)
 
 | Notation | Definition             |
 | -------- | ---------------------- |
@@ -500,7 +500,7 @@ HR-FS
 
 #### Parameters:
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/08/image-14.png)](./img/wp-content-uploads-2021-08-image-14.png)
+![](img\wp-content-uploads-2021-08-image-14.png)
 
 | Notation | Definition      |
 | -------- | --------------- |
@@ -550,7 +550,7 @@ HR-RB
 
 #### Parameters:
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/08/image-15.png)](./img/wp-content-uploads-2021-08-image-15.png)
+![](img\wp-content-uploads-2021-08-image-15.png)
 
 | **Notation** | **Definition** |
 | ------------ | -------------- |
@@ -625,7 +625,7 @@ CF-L
 
 #### Parameters:
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/08/image-16.png)](./img/wp-content-uploads-2021-08-image-16.png)
+![](img\wp-content-uploads-2021-08-image-16.png)
 
 | **Notation** | **Definition**  |
 | ------------ | --------------- |

@@ -46,7 +46,7 @@ To modify a previously defined portion, select the relevant parts of the model w
 The **Modify portion** window will appear with the following options:
 
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/4-4-portions-4.png)](./img/wp-content-uploads-2021-04-4-4-portions-4.png)
+![](img\wp-content-uploads-2021-04-4-4-portions-4.png)
 
 - **Add selected elements to the portion:** by clicking the OK button, the selected members will be added to the active portion. If some members in the selection already belong to the actually modified portion, this operation will have no additional effect.
 

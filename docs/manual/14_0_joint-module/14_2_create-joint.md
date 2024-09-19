@@ -15,7 +15,7 @@ Joint models can be created without global model by clicking on the Edit Joint i
 
 <!-- wp:image {"align":"center","id":9499,"width":696,"height":73,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/14-3-tab.png)](./img/wp-content-uploads-2021-04-14-3-tab.png)
+![](img\wp-content-uploads-2021-04-14-3-tab.png)
 
 <!-- /wp:image -->
 
@@ -39,7 +39,7 @@ After clicking on the Create button (![](./img/wp-content-uploads-2021-04-14-3-c
 
 <!-- wp:image {"align":"center","id":9589,"width":463,"height":362,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/14-3-create-dial1.png)](./img/wp-content-uploads-2021-04-14-3-create-dial1.png)
+![](img\wp-content-uploads-2021-04-14-3-create-dial1.png)
 
 <!-- /wp:image -->
 
@@ -57,7 +57,7 @@ The type of the joint has to be defined on the next dialog. _csJoint_ can handle
 
 <!-- wp:image {"align":"center","id":9595,"width":589,"height":362,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/14-3-create-dial2.png)](./img/wp-content-uploads-2021-04-14-3-create-dial2.png)
+![](img\wp-content-uploads-2021-04-14-3-create-dial2.png)
 
 <!-- /wp:image -->
 
@@ -69,7 +69,7 @@ The type of the joint has to be defined on the next dialog. _csJoint_ can handle
 
 <!-- wp:image {"align":"center","id":9601,"width":464,"height":394,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/14-3-create-dial3.jpg)](./img/wp-content-uploads-2021-04-14-3-create-dial3.jpg)
+![](img\wp-content-uploads-2021-04-14-3-create-dial3.jpg)
 
 <!-- /wp:image -->
 
@@ -81,7 +81,7 @@ Here (picture above) it is possible to set connections both to the flanges and t
 
 <!-- wp:image {"align":"center","id":9565,"width":464,"height":393,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/14-3-create-dial4.png)](./img/wp-content-uploads-2021-04-14-3-create-dial4.png)
+![](img\wp-content-uploads-2021-04-14-3-create-dial4.png)
 
 <!-- /wp:image -->
 
@@ -99,7 +99,7 @@ After the desired connections have been set (picture below), by clicking the Cre
 
 <!-- wp:image {"align":"center","id":9571,"width":463,"height":394,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/14-3-create-dial5.png)](./img/wp-content-uploads-2021-04-14-3-create-dial5.png)
+![](img\wp-content-uploads-2021-04-14-3-create-dial5.png)
 
 <!-- /wp:image -->
 
@@ -135,7 +135,7 @@ Creating joint by the model is simple and easy. Just click on the **_Create join
 
 <!-- wp:image {"align":"center","id":9734,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/15-3-create-model-tab.png)](./img/wp-content-uploads-2021-04-15-3-create-model-tab.png)
+![](img\wp-content-uploads-2021-04-15-3-create-model-tab.png)
 
 <!-- /wp:image -->
 
@@ -147,7 +147,7 @@ The members will be automatically identified and the possible connection types a
 
 <!-- wp:image {"align":"center","id":9728,"width":648,"height":567,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/15-3-create-model-pic.png)](./img/wp-content-uploads-2021-04-15-3-create-model-pic.png)
+![](img\wp-content-uploads-2021-04-15-3-create-model-pic.png)
 
 <!-- /wp:image -->
 
@@ -370,7 +370,7 @@ In the pull down menu the type of the result visualisation can be set to three d
 
 <!-- wp:image {"align":"center","id":9842,"width":455,"height":386,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/15-3-joint-det-7-results.png)](./img/wp-content-uploads-2021-04-15-3-joint-det-7-results.png)
+![](img\wp-content-uploads-2021-04-15-3-joint-det-7-results.png)
 
 <!-- /wp:image -->
 
@@ -400,7 +400,7 @@ _Default joint settings_ can be changed and saved by clicking the Default joint 
 
 <!-- wp:image {"align":"center","id":9812,"width":512,"height":498,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/15-3-def-dial.png)](./img/wp-content-uploads-2021-04-15-3-def-dial.png)
+![](img\wp-content-uploads-2021-04-15-3-def-dial.png)
 
 <!-- /wp:image -->
 

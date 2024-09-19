@@ -229,7 +229,7 @@ With the help of this function we get a summarized view of the buckling shapes o
 
 <!-- wp:image {"align":"center","id":10729,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/8-5-1-4-BUCKLING-SENSITIVITY.png)](./img/wp-content-uploads-2021-04-8-5-1-4-BUCKLING-SENSITIVITY.png)
+![](img\wp-content-uploads-2021-04-8-5-1-4-BUCKLING-SENSITIVITY.png)
 
 <!-- /wp:image -->
 
@@ -313,7 +313,7 @@ To start a plastic analysis go to the **Analysis Settings** window of the **Anal
 
 <!-- wp:image {"align":"right","id":10738,"width":390,"height":388,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/8-5-2-PLASTIC-ANALYSIS.png)](./img/wp-content-uploads-2021-04-8-5-2-PLASTIC-ANALYSIS.png)
+![](img\wp-content-uploads-2021-04-8-5-2-PLASTIC-ANALYSIS.png)
 
 <!-- /wp:image -->
 
@@ -331,7 +331,7 @@ In the first group, the conditions for the development of the plastic hinges can
 
 <!-- wp:image {"align":"right","id":22214,"width":392,"height":388,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/dia_anal_sub_plast.png)](./img/wp-content-uploads-2021-04-dia_anal_sub_plast.png)
+![](img\wp-content-uploads-2021-04-dia_anal_sub_plast.png)
 
 <!-- /wp:image -->
 
@@ -397,7 +397,7 @@ The solution process is as follows:
 
 <!-- wp:image {"align":"center","id":10750,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/8-5-2-2-FIRST-ORDER.png)](./img/wp-content-uploads-2021-04-8-5-2-2-FIRST-ORDER.png)
+![](img\wp-content-uploads-2021-04-8-5-2-2-FIRST-ORDER.png)
 
 <!-- /wp:image -->
 
@@ -433,7 +433,7 @@ You can view the history of each load level step, its associated load factors, a
 
 <!-- wp:image {"align":"center","id":10756,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/8-5-2-2-FIRST-ORDER.2.png)](./img/wp-content-uploads-2021-04-8-5-2-2-FIRST-ORDER.2.png)
+![](img\wp-content-uploads-2021-04-8-5-2-2-FIRST-ORDER.2.png)
 
 <!-- /wp:image -->
 

@@ -129,4 +129,4 @@ function removeResolutionFromImgUrl(imgUrl: string) {
   return replacedImgPath.replace(/-\d+x\d+(?=\.(?:png|jpg)$)/, "");
 }
 
-runImgUrlGenerator("../../docs", ["md"]);
+runImgUrlGenerator("./", ["md"]);

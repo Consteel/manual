@@ -16,7 +16,7 @@ The load combinations can be managed in the table of load combinations which can
 
 <!-- wp:image {"align":"right","id":9943,"width":510,"height":320,"sizeSlug":"full","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-3-Load-combinations.png)](./img/wp-content-uploads-2021-04-7-3-Load-combinations.png)
+![](img\wp-content-uploads-2021-04-7-3-Load-combinations.png)
 
 <!-- /wp:image -->
 
@@ -70,7 +70,7 @@ The yellow rows in the load combination table are the automatically generated co
 
 <!-- wp:image {"align":"right","id":9950,"width":432,"height":326,"sizeSlug":"full","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-3-Automatic-generation-of-load-combinations.png)](./img/wp-content-uploads-2021-04-7-3-Automatic-generation-of-load-combinations.png)
+![](img\wp-content-uploads-2021-04-7-3-Automatic-generation-of-load-combinations.png)
 
 <!-- /wp:image -->
 

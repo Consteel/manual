@@ -8,7 +8,7 @@ After starting Consteel, the Descript panel appears on the bottom left part of t
 
 Descript since Consteel 16 
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/11/image-11.png)](./img/wp-content-uploads-2021-11-image-11.png)
+![](img\wp-content-uploads-2021-11-image-11.png)
 
 Descript in Consteel 15
 
@@ -20,11 +20,11 @@ After opening up the Descript panel to its maximized state, further functionalit
 
 ### MyDescript
 
-[![](./img/wp-content-uploads-2022-12-descript_max-1024x352.jpg)](https://consteelsoftware.com/wp-content/uploads/2022/12/descript_max.jpg)
+![](img\wp-content-uploads-2022-12-descript_max-1024x352.jpg)
 
 MyDescript interface since Consteel 16
 
-[![](./img/wp-content-uploads-2021-11-image-15-1024x323.png)](https://consteelsoftware.com/wp-content/uploads/2021/11/image-15.png)
+![](img\wp-content-uploads-2021-11-image-15-1024x323.png)
 
 MyDescript interface in Consteel 15
 
@@ -78,7 +78,7 @@ _Hover with your mouse cursor over the pinned script to reveal it’s full name_
 
 The code editor is designed to write, modify and debug Descript codes.
 
-[![](./img/wp-content-uploads-2022-03-image-1024x407.png)](https://consteelsoftware.com/wp-content/uploads/2022/03/image.png)
+![](img\wp-content-uploads-2022-03-image-1024x407.png)
 
 In the header on the left there are several buttons with the following functions:
 
@@ -100,7 +100,7 @@ Below the header there is the **code input area**. This is where variables, cycl
 
 The editor applies different colors for commands, variables etc.. The color coding scheme is the following:
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/03/image-3.png)](./img/wp-content-uploads-2022-03-image-3.png)
+![](img\wp-content-uploads-2022-03-image-3.png)
 
 **Code editor features**
 
@@ -112,13 +112,13 @@ If the mouse pointer is placed over a command, a box will appear with basic info
 - Syntax of the command (optional parameters are not shown here)
 - Link to the user manual page of the command
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/03/image-14.png)](./img/wp-content-uploads-2022-03-image-14.png)
+![](img\wp-content-uploads-2022-03-image-14.png)
 
 Auto search
 
 The editor automatically searches within all the already used variable names and all commands for the text already typed. The search results appear in a box around the cursor. The list of results can be navigated with the arrow buttons and an item can be selected with an Enter.
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/03/image-13.png)](./img/wp-content-uploads-2022-03-image-13.png)
+![](img\wp-content-uploads-2022-03-image-13.png)
 
 Autocomplete + insert
 
@@ -135,7 +135,7 @@ Additional code editing features
 
 The code editor provides a lot of additional code editing features to make coding more efficient. To view the full list of code editing features, click with the right mouse button and select Command palette.
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/03/image-15.png)](./img/wp-content-uploads-2022-03-image-15.png)
+![](img\wp-content-uploads-2022-03-image-15.png)
 
 Here is a selection with the most useful ones of these features.
 

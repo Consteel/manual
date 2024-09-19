@@ -10,7 +10,7 @@ To import a dxf drawing file, click on File menu, import tools. Choose DXF from 
 
 <!-- wp:image {"align":"center","id":7574,"width":285,"height":182,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/3-5-DXF-import-menu.png)](./img/wp-content-uploads-2021-04-3-5-DXF-import-menu.png)
+![](img\wp-content-uploads-2021-04-3-5-DXF-import-menu.png)
 
 <!-- /wp:image -->
 
@@ -22,7 +22,7 @@ A windows file opening dialog will pop-up, where the dxf file has to be selected
 
 <!-- wp:image {"align":"center","id":7580,"width":269,"height":375,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/3-5-DXF-import-dialog.png)](./img/wp-content-uploads-2021-04-3-5-DXF-import-dialog.png)
+![](img\wp-content-uploads-2021-04-3-5-DXF-import-dialog.png)
 
 <!-- /wp:image -->
 

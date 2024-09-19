@@ -11,7 +11,7 @@ Szelemen méretezéssel kapcsolatos funkciók 3 nagy egységre különülnek el:
 
 <!-- wp:image {"align":"center","id":35175,"width":768,"height":47,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](./img/wp-content-uploads-2022-04-tab_szelemensor-1024x62.png)](https://Consteelsoftware.com/wp-content/uploads/2022/04/tab_szelemensor.png)
+![](img\wp-content-uploads-2022-04-tab_szelemensor-1024x62.png)
 
 <!-- /wp:image -->
 
@@ -51,7 +51,7 @@ A szelemensor fő dialóg ablakához további négy dialóg panel kapcsolódik k
 
 <!-- wp:image {"align":"right","id":35183,"width":512,"height":358,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2022-04-dial_szelemensor-1024x716.png)](https://Consteelsoftware.com/wp-content/uploads/2022/04/dial_szelemensor.png)
+![](img\wp-content-uploads-2022-04-dial_szelemensor-1024x716.png)
 
 <!-- /wp:image -->
 
@@ -96,7 +96,7 @@ A szelemensor fő dialóg ablakához további négy dialóg panel kapcsolódik k
 
 <!-- wp:image {"align":"right","id":35191,"width":381,"height":296,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/04/dial_szelemensor_elhelyezes.png)](./img/wp-content-uploads-2022-04-dial_szelemensor_elhelyezes.png)
+![](img\wp-content-uploads-2022-04-dial_szelemensor_elhelyezes.png)
 
 <!-- /wp:image -->
 
@@ -222,7 +222,7 @@ Szendvicspanel héjalás esetén a nyírási merevség csak kézzel adható meg.
 
 <!-- wp:image {"align":"right","id":35207,"width":253,"height":134,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/04/dial_szelemensor_merevseg_traplem.png)](./img/wp-content-uploads-2022-04-dial_szelemensor_merevseg_traplem.png)
+![](img\wp-content-uploads-2022-04-dial_szelemensor_merevseg_traplem.png)
 
 <!-- /wp:image -->
 
@@ -232,7 +232,7 @@ Szendvicspanel héjalás esetén a nyírási merevség csak kézzel adható meg.
 
 <!-- wp:image {"align":"left","id":35199,"width":254,"height":136,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/04/dial_szelemensor_merevseg_szendvics.png)](./img/wp-content-uploads-2022-04-dial_szelemensor_merevseg_szendvics.png)
+![](img\wp-content-uploads-2022-04-dial_szelemensor_merevseg_szendvics.png)
 
 <!-- /wp:image -->
 
@@ -260,7 +260,7 @@ Hasonlóan az eltolódási rugóhoz, az elfordulási rugó megadása is opcioná
 
 <!-- wp:image {"align":"right","id":35224,"width":451,"height":145,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/04/dial_szelemensor_rugok_kapcs_merevseg.png)](./img/wp-content-uploads-2022-04-dial_szelemensor_rugok_kapcs_merevseg.png)
+![](img\wp-content-uploads-2022-04-dial_szelemensor_rugok_kapcs_merevseg.png)
 
 <!-- /wp:image -->
 
@@ -282,7 +282,7 @@ Automatikus számítást választva, trapézlemez fedés esetén a ![](./img/wp-
 
 <!-- wp:image {"align":"right","id":35232,"width":385,"height":201,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/04/dial_szelemensor_rugok_kapcs_merevseg_szendvics.png)](./img/wp-content-uploads-2022-04-dial_szelemensor_rugok_kapcs_merevseg_szendvics.png)
+![](img\wp-content-uploads-2022-04-dial_szelemensor_rugok_kapcs_merevseg_szendvics.png)
 
 <!-- /wp:image -->
 
@@ -317,7 +317,7 @@ Kézi megadás esetén a rugómerevségeket be kell írni a külső teher által
 
 <!-- wp:image {"align":"right","id":35241,"width":314,"height":269,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/04/dial_szelemensor_rugok_kapcs_elcsavarodas.png)](./img/wp-content-uploads-2022-04-dial_szelemensor_rugok_kapcs_elcsavarodas.png)
+![](img\wp-content-uploads-2022-04-dial_szelemensor_rugok_kapcs_elcsavarodas.png)
 
 <!-- /wp:image -->
 
@@ -369,7 +369,7 @@ A feltámaszkodási zóna, mint ahogyan az a nevében is megjelenik, a szelemen 
 
 <!-- wp:image {"align":"right","id":35251,"width":379,"height":236,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/04/dial_szelemensor_feltam_zona.png)](./img/wp-content-uploads-2022-04-dial_szelemensor_feltam_zona.png)
+![](img\wp-content-uploads-2022-04-dial_szelemensor_feltam_zona.png)
 
 <!-- /wp:image -->
 
@@ -435,7 +435,7 @@ Az**Elhelyez** parancsra kattintva megnyílik a feltámaszkodási szakasz elhely
 
 <!-- wp:image {"align":"right","id":35259,"width":428,"height":152,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/04/dial_szelemensor_feltam_zona_elhelyez.png)](./img/wp-content-uploads-2022-04-dial_szelemensor_feltam_zona_elhelyez.png)
+![](img\wp-content-uploads-2022-04-dial_szelemensor_feltam_zona_elhelyez.png)
 
 <!-- /wp:image -->
 
@@ -494,7 +494,7 @@ Jelenleg a programban csak átfedéses/átlapolásos toldás elérhető el. A di
 
 <!-- wp:image {"align":"right","id":35268,"width":396,"height":341,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/04/dial_szelemensor_atfedes.png)](./img/wp-content-uploads-2022-04-dial_szelemensor_atfedes.png)
+![](img\wp-content-uploads-2022-04-dial_szelemensor_atfedes.png)
 
 <!-- /wp:image -->
 
@@ -551,7 +551,7 @@ Az **Elhelyez** parancs hatására megnyílik a **Szelemen átlapolás elhelyez�
 
 <!-- wp:image {"align":"right","id":35276,"width":413,"height":148,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/04/dial_szelemensor_atfedes_elhelyez.png)](./img/wp-content-uploads-2022-04-dial_szelemensor_atfedes_elhelyez.png)
+![](img\wp-content-uploads-2022-04-dial_szelemensor_atfedes_elhelyez.png)
 
 <!-- /wp:image -->
 

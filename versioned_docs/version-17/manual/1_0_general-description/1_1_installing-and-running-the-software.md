@@ -129,7 +129,7 @@ To create a new user account, click the **LOG IN** button in the upper right cor
 
 <!-- wp:image {"align":"left","id":6803,"sizeSlug":"full","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/Log-in.jpg)](./img/wp-content-uploads-2021-04-Log-in.jpg)
+![](img\wp-content-uploads-2021-04-Log-in.jpg)
 
 <!-- /wp:image -->
 
@@ -278,7 +278,7 @@ If you have other problems please [contact us](https://Consteelsoftware.com/cont
 
 <!-- wp:image {"align":"center","id":28182,"width":464,"height":381,"sizeSlug":"full","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/11/seat_selection.png)](./img/wp-content-uploads-2021-11-seat_selection.png)
+![](img\wp-content-uploads-2021-11-seat_selection.png)
 
 Seat selection
 
@@ -368,7 +368,7 @@ From the Learn screen, you can access various learning materials and example mod
 
 <!-- wp:image {"align":"center","id":28198,"width":730,"height":394,"sizeSlug":"large","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](./img/wp-content-uploads-2021-11-projectcenter3-e1637836665526-1024x553.png)](https://Consteelsoftware.com/wp-content/uploads/2021/11/projectcenter3.png)
+![]()
 
 Learning Center
 
@@ -424,7 +424,7 @@ Every model opening and sharing cost data bandwidth from your storage. Your mont
 
 <!-- wp:image {"align":"center","id":28219,"width":768,"height":402,"sizeSlug":"large","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](./img/wp-content-uploads-2021-11-cloud-open-manual-1024x536.png)](https://Consteelsoftware.com/wp-content/uploads/2021/11/cloud-open-manual.png)
+![](img\wp-content-uploads-2021-11-cloud-open-manual-1024x536.png)
 
 **Cloud storage provided by the Steelspace platform**
 

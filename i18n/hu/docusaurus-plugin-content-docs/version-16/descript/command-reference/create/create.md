@@ -83,7 +83,7 @@ The available object parameters and their meaning depends on the chosen object t
 
 This command is analogous with the beam creation dialogue in Consteel:
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/09/image-11.png)](./img/wp-content-uploads-2021-09-image-11.png)
+![](img\wp-content-uploads-2021-09-image-11.png)
 
 ### Syntax
 
@@ -236,7 +236,7 @@ AverageEdgeLength_flange 20
 
 This command is analogous with the plate creation dialogue in Consteel, with the "draw polygon" option selected:
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/09/image-14.png)](./img/wp-content-uploads-2021-09-image-14.png)
+![](img\wp-content-uploads-2021-09-image-14.png)
 
 ### Syntax
 
@@ -444,7 +444,7 @@ CREATE Hau_ID2 Haunched_Member Mem_ID2 lower 2000 600 50 6 150 10
 
 This command is analogous with the tapered member creation dialogue in Consteel:
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/09/image-16.png)](./img/wp-content-uploads-2021-09-image-16.png)
+![](img\wp-content-uploads-2021-09-image-16.png)
 
 ### Syntax
 
@@ -670,7 +670,7 @@ CREATE Rebar_Mat_ID1 Rebar "Custom rebar name" 7850 200000 0.3 0.00001 500 0.05
 
 This command is analogous with the point support creation dialogue in Consteel:
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/09/image-20.png)](./img/wp-content-uploads-2021-09-image-20.png)
+![](img\wp-content-uploads-2021-09-image-20.png)
 
 ### Syntax
 
@@ -760,7 +760,7 @@ EccType EccType_TM
 
 This command is analogous with the line support creation dialogue in Consteel:
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/09/image-63.png)](./img/wp-content-uploads-2021-09-image-63.png)
+![](img\wp-content-uploads-2021-09-image-63.png)
 
 ### Syntax
 
@@ -1011,7 +1011,7 @@ CREATE Release_Type_ID1 Release "Custom release type name" Fix Free 1.234 Fix Fi
 
 This command is analogous with the link element creation dialogue in Consteel:
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/09/image-18.png)](./img/wp-content-uploads-2021-09-image-18.png)
+![](img\wp-content-uploads-2021-09-image-18.png)
 
 ### Syntax
 
@@ -1107,7 +1107,7 @@ ToObjectID Member_ID2
 
 This command is analogous with the load group creation button in Consteel:
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/09/image-40.png)](./img/wp-content-uploads-2021-09-image-40.png)
+![](img\wp-content-uploads-2021-09-image-40.png)
 
 ### Syntax
 
@@ -1199,7 +1199,7 @@ Factor_3 0
 
 This command is analogous with the load case creation button in Consteel:
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/09/image-41.png)](./img/wp-content-uploads-2021-09-image-41.png)
+![](img\wp-content-uploads-2021-09-image-41.png)
 
 ### Syntax
 
@@ -1272,7 +1272,7 @@ NotMainInAccidentalCmb 0
 
 This command is analogous with the load combination creation button in Consteel:
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/09/image-42.png)](./img/wp-content-uploads-2021-09-image-42.png)
+![](img\wp-content-uploads-2021-09-image-42.png)
 
 ### Syntax
 
@@ -1354,7 +1354,7 @@ $LCase_ID1 1
 
 This command is analogous with the point load creation dialogue in Consteel:
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/09/image-43.png)](./img/wp-content-uploads-2021-09-image-43.png)
+![](img\wp-content-uploads-2021-09-image-43.png)
 
 ### Syntax
 
@@ -1463,7 +1463,7 @@ EccType EccType_TM
 
 This command is analogous with the line load creation dialogue in Consteel:
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/09/image-44.png)](./img/wp-content-uploads-2021-09-image-44.png)
+![](img\wp-content-uploads-2021-09-image-44.png)
 
 ### Syntax
 
@@ -1584,13 +1584,13 @@ CREATE LLoad_ID1 MemberForce LCase_ID1 Mem_ID1 local
 EccType EccType_TM
 ```
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/01/image.png)](./img/wp-content-uploads-2022-01-image.png)
+![](img\wp-content-uploads-2022-01-image.png)
 
 ## Surface load (uniform)
 
 This command is analogous with the surface load creation dialogue with the uniform tab chosen in Consteel:
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/09/image-55.png)](./img/wp-content-uploads-2021-09-image-55.png)
+![](img\wp-content-uploads-2021-09-image-55.png)
 
 ### Syntax
 
@@ -1664,7 +1664,7 @@ CREATE SLoad_ID1 PlateForce_Uniform LCase_ID1 Plate_ID1 local
 0 3000 0
 ```
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/10/image-6.png)](./img/wp-content-uploads-2021-10-image-6.png)
+![](img\wp-content-uploads-2021-10-image-6.png)
 
 ## Surface load (linear)
 
@@ -1777,13 +1777,13 @@ DistributionType x
 0 3000 0
 ```
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/10/image-7.png)](./img/wp-content-uploads-2021-10-image-7.png)
+![](img\wp-content-uploads-2021-10-image-7.png)
 
 ## Load transfer surface
 
 This command is analogous with the load transfer surface creation dialogue in Consteel, with the "draw polygon" option:
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/09/image-48.png)](./img/wp-content-uploads-2021-09-image-48.png)
+![](img\wp-content-uploads-2021-09-image-48.png)
 
 ### Syntax
 
@@ -1823,7 +1823,7 @@ CREATE LTS_ID1 LoadTransferSurface "LTS 1"
 
 This command is analogous with the mass group creation button in Consteel:
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/09/image-49.png)](./img/wp-content-uploads-2021-09-image-49.png)
+![](img\wp-content-uploads-2021-09-image-49.png)
 
 ### Syntax
 
@@ -1868,7 +1868,7 @@ MassGroupType MGType_EN_P
 
 This command is analogous with the mass case creation button in Consteel:
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/09/image-51.png)](./img/wp-content-uploads-2021-09-image-51.png)
+![](img\wp-content-uploads-2021-09-image-51.png)
 
 ### Syntax
 
@@ -1943,7 +1943,7 @@ FreeVibrationDirection x,y,z
 
 This command is analogous with the mass combination creation button in Consteel:
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/09/image-52.png)](./img/wp-content-uploads-2021-09-image-52.png)
+![](img\wp-content-uploads-2021-09-image-52.png)
 
 ### Syntax
 
@@ -2002,7 +2002,7 @@ MC_ID1 1
 
 This command is analogous with the node mass creation dialogue in Consteel:
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/01/image-1.png)](./img/wp-content-uploads-2022-01-image-1.png)
+![](img\wp-content-uploads-2022-01-image-1.png)
 
 ### Syntax
 
@@ -2069,7 +2069,7 @@ CREATE PMass_ID1 NodeMass MC_ID1 Mem_ID1
 1000
 ```
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/01/image-4.png)](./img/wp-content-uploads-2022-01-image-4.png)
+![](img\wp-content-uploads-2022-01-image-4.png)
 
 ## Portion
 

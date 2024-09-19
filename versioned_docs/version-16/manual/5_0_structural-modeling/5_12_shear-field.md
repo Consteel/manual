@@ -46,7 +46,7 @@ $$S=\dfrac{F}{e} \quad [kN/mm]$$
 
 <!-- wp:image {"align":"center","id":9067,"width":466,"height":405,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-11-Shear-stiffness.png)](./img/wp-content-uploads-2021-04-6-11-Shear-stiffness.png)
+![](img\wp-content-uploads-2021-04-6-11-Shear-stiffness.png)
 
 Shear diaphragm deformation to a given force \[1]
 
@@ -66,7 +66,7 @@ Shear stiffness of a trapezoidal sheet (C) consists of the following components:
 
 <!-- wp:image {"align":"center","id":9073,"width":413,"height":110,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-11-Deformation-of-the-profile.png)](./img/wp-content-uploads-2021-04-6-11-Deformation-of-the-profile.png)
+![](img\wp-content-uploads-2021-04-6-11-Deformation-of-the-profile.png)
 
 <!-- /wp:image -->
 
@@ -78,7 +78,7 @@ Shear stiffness of a trapezoidal sheet (C) consists of the following components:
 
 <!-- wp:image {"align":"center","id":9079,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-11-Shear-deformation-in-the-sheet.png)](./img/wp-content-uploads-2021-04-6-11-Shear-deformation-in-the-sheet.png)
+![](img\wp-content-uploads-2021-04-6-11-Shear-deformation-in-the-sheet.png)
 
 <!-- /wp:image -->
 
@@ -94,7 +94,7 @@ Shear stiffness of a trapezoidal sheet (C) consists of the following components:
 
 <!-- wp:image {"align":"right","id":9085,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-11-Slip-of-the-fastening-elements_1.png)](./img/wp-content-uploads-2021-04-6-11-Slip-of-the-fastening-elements_1.png)
+![](img\wp-content-uploads-2021-04-6-11-Slip-of-the-fastening-elements_1.png)
 
 <!-- /wp:image -->
 
@@ -108,7 +108,7 @@ Shear stiffness of a trapezoidal sheet (C) consists of the following components:
 
 <!-- wp:image {"align":"left","id":9091,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-11-Slip-of-the-fastening-elements_2.png)](./img/wp-content-uploads-2021-04-6-11-Slip-of-the-fastening-elements_2.png)
+![](img\wp-content-uploads-2021-04-6-11-Slip-of-the-fastening-elements_2.png)
 
 <!-- /wp:image -->
 
@@ -124,7 +124,7 @@ Shear stiffness of a trapezoidal sheet (C) consists of the following components:
 
 <!-- wp:image {"align":"center","id":9097,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-11-Displacement-of-the-connections.png)](./img/wp-content-uploads-2021-04-6-11-Displacement-of-the-connections.png)
+![](img\wp-content-uploads-2021-04-6-11-Displacement-of-the-connections.png)
 
 <!-- /wp:image -->
 
@@ -136,7 +136,7 @@ Shear stiffness of a trapezoidal sheet (C) consists of the following components:
 
 <!-- wp:image {"align":"center","id":9103,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-11-Displacement-of-the-beam-purlin-connection.png)](./img/wp-content-uploads-2021-04-6-11-Displacement-of-the-beam-purlin-connection.png)
+![](img\wp-content-uploads-2021-04-6-11-Displacement-of-the-beam-purlin-connection.png)
 
 <!-- /wp:image -->
 
@@ -148,7 +148,7 @@ Shear stiffness of a trapezoidal sheet (C) consists of the following components:
 
 <!-- wp:image {"align":"center","id":9109,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-11-Axial-deformation-in-the-longitudinal-edge-members.png)](./img/wp-content-uploads-2021-04-6-11-Axial-deformation-in-the-longitudinal-edge-members.png)
+![](img\wp-content-uploads-2021-04-6-11-Axial-deformation-in-the-longitudinal-edge-members.png)
 
 <!-- /wp:image -->
 
@@ -260,7 +260,7 @@ _The S value determined with formula (1) is valid if the trapezoidal sheet is fi
 
 <!-- wp:image {"align":"center","id":13640,"width":290,"height":539,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/img_shearfield_explan.png)](./img/wp-content-uploads-2021-04-img_shearfield_explan.png)
+![](img\wp-content-uploads-2021-04-img_shearfield_explan.png)
 
 <!-- /wp:image -->
 
@@ -492,7 +492,7 @@ The dialog of the shear field stiffness definition can be opened with the ![](./
 
 <!-- wp:image {"id":9118,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-11-Shear-field-stiffness-definition.png)](./img/wp-content-uploads-2021-04-6-11-Shear-field-stiffness-definition.png)
+![](img\wp-content-uploads-2021-04-6-11-Shear-field-stiffness-definition.png)
 
 <!-- /wp:image -->
 
@@ -546,7 +546,7 @@ By clicking on the I button, action point of eccentricity can be defined graphic
 
 <!-- wp:image {"align":"center","id":9125,"width":215,"height":268,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-11-Select-section-point.png)](./img/wp-content-uploads-2021-04-6-11-Select-section-point.png)
+![](img\wp-content-uploads-2021-04-6-11-Select-section-point.png)
 
 <!-- /wp:image -->
 
@@ -579,7 +579,7 @@ By clicking on the I button, action point of eccentricity can be defined graphic
 
 <!-- wp:image {"align":"center","id":9131,"width":500,"height":404,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-11-Shear-field.jpg)](./img/wp-content-uploads-2021-04-6-11-Shear-field.jpg)
+![](img\wp-content-uploads-2021-04-6-11-Shear-field.jpg)
 
 <!-- /wp:image -->
 
@@ -591,7 +591,7 @@ By clicking on the I button, action point of eccentricity can be defined graphic
 
 <!-- wp:image {"align":"center","id":9138,"width":628,"height":426,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-11-Shear-field-stiffness-calculation.png)](./img/wp-content-uploads-2021-04-6-11-Shear-field-stiffness-calculation.png)
+![](img\wp-content-uploads-2021-04-6-11-Shear-field-stiffness-calculation.png)
 
 <!-- /wp:image -->
 
@@ -609,7 +609,7 @@ As a first step, a trapeziodal plate profile has to be loaded into the model on 
 
 <!-- wp:image {"align":"center","id":9145,"width":763,"height":398,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-11-Select-trapezoid-plate-section.png)](./img/wp-content-uploads-2021-04-6-11-Select-trapezoid-plate-section.png)
+![](img\wp-content-uploads-2021-04-6-11-Select-trapezoid-plate-section.png)
 
 <!-- /wp:image -->
 
@@ -645,7 +645,7 @@ By clicking the New button, manual trapezoidal sheets can be defined. On the Mac
 
 <!-- wp:image {"align":"center","id":9151,"width":286,"height":409,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/6-11-Macro-section.png)](./img/wp-content-uploads-2021-04-6-11-Macro-section.png)
+![](img\wp-content-uploads-2021-04-6-11-Macro-section.png)
 
 <!-- /wp:image -->
 

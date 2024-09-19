@@ -39,7 +39,7 @@ Ha a keresztmetszet modul közvetlenül a modellből kerül megnyitásra, akkor 
 
 <!-- wp:image {"id":6623,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](./img/wp-content-uploads-2021-04-section_new_load_combination_table-1024x121.png)](https://Consteelsoftware.com/wp-content/uploads/2021/04/section_new_load_combination_table.png)
+![](img\wp-content-uploads-2021-04-section_new_load_combination_table-1024x121.png)
 
 <!-- /wp:image -->
 
@@ -65,7 +65,7 @@ Egyik lehetséges mód, a vizsgálandó szelvényre jobb egér gombbal történ�
 
 <!-- wp:image {"align":"center","id":37520,"width":252,"height":202,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/scr_szelvenyvizsgalat_1.png)](./img/wp-content-uploads-2022-06-scr_szelvenyvizsgalat_1.png)
+![](img\wp-content-uploads-2022-06-scr_szelvenyvizsgalat_1.png)
 
 <!-- /wp:image -->
 
@@ -81,7 +81,7 @@ A másik mód, az eredmény táblázatban a vizsgálandó elem sorára jobb egé
 
 <!-- wp:image {"align":"center","id":37512,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/scr_szelvenyvizsgalat_2.png)](./img/wp-content-uploads-2022-06-scr_szelvenyvizsgalat_2.png)
+![](img\wp-content-uploads-2022-06-scr_szelvenyvizsgalat_2.png)
 
 <!-- /wp:image -->
 
@@ -189,7 +189,7 @@ EPS szelvénymodell használata és a![effective_cross_section_icon](./img/wp-co
 
 <!-- wp:image {"align":"center","id":6710,"width":233,"height":233,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/effective_cross_section_img.png)](./img/wp-content-uploads-2021-04-effective_cross_section_img.png)
+![](img\wp-content-uploads-2021-04-effective_cross_section_img.png)
 
 <!-- /wp:image -->
 
@@ -205,7 +205,7 @@ EPS szelvénymodell használata és a![effective_cross_section_icon](./img/wp-co
 
 <!-- wp:image {"align":"center","id":37504,"width":278,"height":49,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/scr_szelvenyvizsgalat_szabv_teherbiras.png)](./img/wp-content-uploads-2022-06-scr_szelvenyvizsgalat_szabv_teherbiras.png)
+![](img\wp-content-uploads-2022-06-scr_szelvenyvizsgalat_szabv_teherbiras.png)
 
 <!-- /wp:image -->
 
@@ -235,7 +235,7 @@ Az alábbi tervezési eljárások kerülnek kiszámításra:
 
 <!-- wp:image {"align":"center","id":37532,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2022-06-tabl_szelveny_vizsgalatok_acel-367x1024.png)](https://Consteelsoftware.com/wp-content/uploads/2022/06/tabl_szelveny_vizsgalatok_acel.png)
+![](img\wp-content-uploads-2022-06-tabl_szelveny_vizsgalatok_acel-367x1024.png)
 
 <!-- /wp:image -->
 
@@ -257,7 +257,7 @@ Vasalási opcióval nem rendelkező vasbeton keresztmetszet esetén a **Section*
 
 <!-- wp:image {"align":"center","id":37496,"width":748,"height":377,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/scr_szelvenyvizsgalat_teherbiras_felulet.png)](./img/wp-content-uploads-2022-06-scr_szelvenyvizsgalat_teherbiras_felulet.png)
+![](img\wp-content-uploads-2022-06-scr_szelvenyvizsgalat_teherbiras_felulet.png)
 
 <!-- /wp:image -->
 
@@ -269,7 +269,7 @@ Vasalási opcióval nem rendelkező vasbeton keresztmetszet esetén a **Section*
 
 <!-- wp:image {"align":"center","id":37544,"width":448,"height":373,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/tabl_szelveny_vizsgalatok_oszver.png)](./img/wp-content-uploads-2022-06-tabl_szelveny_vizsgalatok_oszver.png)
+![](img\wp-content-uploads-2022-06-tabl_szelveny_vizsgalatok_oszver.png)
 
 <!-- /wp:image -->
 
@@ -287,4 +287,4 @@ A tervezési eredmények összefoglalója a jobb oldalon található. A mérték
 
 <!-- wp:image {"align":"center","id":37488,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/scr_szelvenyvizsgalat_eredmeny_tabl.png)](./img/wp-content-uploads-2022-06-scr_szelvenyvizsgalat_eredmeny_tabl.png)
+![](img\wp-content-uploads-2022-06-scr_szelvenyvizsgalat_eredmeny_tabl.png)

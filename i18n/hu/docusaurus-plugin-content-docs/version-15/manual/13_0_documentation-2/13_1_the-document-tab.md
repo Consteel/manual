@@ -225,7 +225,7 @@ A **Nyomtatás** gomb segítségével a modell aktuális nézete közvetlenül e
 
 <!-- wp:image {"align":"center","id":37882,"width":768,"height":408,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2022-06-scr_dokument_pillanatkep_2-1024x544.png)](https://Consteelsoftware.com/wp-content/uploads/2022/06/scr_dokument_pillanatkep_2.png)
+![](img\wp-content-uploads-2022-06-scr_dokument_pillanatkep_2-1024x544.png)
 
 <!-- /wp:image -->
 
@@ -251,7 +251,7 @@ A harmadik ikon ![](./img/wp-content-uploads-2021-04-14-1-snapshot-manager.png) 
 
 <!-- wp:image {"align":"center","id":37874,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2022-06-dial_dokument_kepkezelo-1024x549.png)](https://Consteelsoftware.com/wp-content/uploads/2022/06/dial_dokument_kepkezelo.png)
+![](img\wp-content-uploads-2022-06-dial_dokument_kepkezelo-1024x549.png)
 
 <!-- /wp:image -->
 
@@ -306,7 +306,7 @@ A Dokumentáció fülön található ötödik parancsikon ![](./img/wp-content-u
 
 <!-- wp:image {"id":38048,"width":"768px","height":"395px","sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](./img/wp-content-uploads-2022-06-dial_dokument_anyaghatekonysag_1-1-1024x527.png)](https://Consteelsoftware.com/wp-content/uploads/2022/06/dial_dokument_anyaghatekonysag_1-1.png)
+![](img\wp-content-uploads-2022-06-dial_dokument_anyaghatekonysag_1-1-1024x527.png)
 
 <!-- /wp:image -->
 

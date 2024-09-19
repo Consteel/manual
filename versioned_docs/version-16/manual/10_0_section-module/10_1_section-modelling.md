@@ -18,7 +18,7 @@ New sections can be loaded or created with **Section administration** command ![
 
 <!-- wp:image {"align":"center","id":8465,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/11-3-eps-model1.png)](./img/wp-content-uploads-2021-04-11-3-eps-model1.png)
+![](img\wp-content-uploads-2021-04-11-3-eps-model1.png)
 
 <!-- /wp:image -->
 
@@ -34,7 +34,7 @@ The _**Elastic Plate Segment (EPS)**_ model is a thin-walled simplification of t
 
 <!-- wp:image {"align":"center","id":8471,"width":195,"height":372,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/11-3-eps-model2.jpg)](./img/wp-content-uploads-2021-04-11-3-eps-model2.jpg)
+![](img\wp-content-uploads-2021-04-11-3-eps-model2.jpg)
 
 <!-- /wp:image -->
 
@@ -44,7 +44,7 @@ The _**Elastic Plate Segment (EPS)**_ model is a thin-walled simplification of t
 
 <!-- wp:image {"align":"center","id":8477,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/11-3-eps-model3.png)](./img/wp-content-uploads-2021-04-11-3-eps-model3.png)
+![](img\wp-content-uploads-2021-04-11-3-eps-model3.png)
 
 <!-- /wp:image -->
 
@@ -54,7 +54,7 @@ The _**Elastic Plate Segment (EPS)**_ model is a thin-walled simplification of t
 
 <!-- wp:image {"align":"center","id":8483,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/11-3-eps-model4.png)](./img/wp-content-uploads-2021-04-11-3-eps-model4.png)
+![](img\wp-content-uploads-2021-04-11-3-eps-model4.png)
 
 <!-- /wp:image -->
 
@@ -64,7 +64,7 @@ The _**Elastic Plate Segment (EPS)**_ model is a thin-walled simplification of t
 
 <!-- wp:image {"id":8495,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](./img/wp-content-uploads-2021-04-11-3-eps-model5-1024x561.jpg)](https://Consteelsoftware.com/wp-content/uploads/2021/04/11-3-eps-model5.jpg)
+![](img\wp-content-uploads-2021-04-11-3-eps-model5-1024x561.jpg)
 
 <!-- /wp:image -->
 
@@ -80,7 +80,7 @@ The _**Elastic Plate Segment (EPS)**_ model is a thin-walled simplification of t
 
 <!-- wp:image {"id":8509,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/11-3-2-gss-model1.png)](./img/wp-content-uploads-2021-04-11-3-2-gss-model1.png)
+![](img\wp-content-uploads-2021-04-11-3-2-gss-model1.png)
 
 <!-- /wp:image -->
 
@@ -100,7 +100,7 @@ The _**General Solid Section (GSS)**_ was created in order to model any kind of 
 
 <!-- wp:image {"id":8502,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/11-3-2-gss-model.jpg)](./img/wp-content-uploads-2021-04-11-3-2-gss-model.jpg)
+![](img\wp-content-uploads-2021-04-11-3-2-gss-model.jpg)
 
 <!-- /wp:image -->
 

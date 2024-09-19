@@ -41,7 +41,7 @@ Amennyiben a vasbeton tervezéshez szükséges bemenő adatok rendelkezésre ál
 
 <!-- wp:image {"align":"center","id":37213,"width":768,"height":497,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](./img/wp-content-uploads-2022-06-scr_tervezes_vb-1024x663.png)](https://Consteelsoftware.com/wp-content/uploads/2022/06/scr_tervezes_vb.png)
+![](img\wp-content-uploads-2022-06-scr_tervezes_vb-1024x663.png)
 
 <!-- /wp:image -->
 

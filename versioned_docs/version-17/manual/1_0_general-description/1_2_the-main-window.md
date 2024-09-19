@@ -169,7 +169,7 @@ Saves the model in another storage space. A pop-up window will open where you ca
 
 <!-- wp:image {"align":"center","id":27765,"sizeSlug":"full","linkDestination":"media","className":"is-resized"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/11/Save_as_cloud-local.png)](./img/wp-content-uploads-2021-11-Save_as_cloud-local.png)
+![](img\wp-content-uploads-2021-11-Save_as_cloud-local.png)
 
 <!-- /wp:image -->
 
@@ -228,7 +228,7 @@ The selected part of the model can be exported to _TEKLA Structures_ or to IFC. 
 
 <!-- wp:image {"align":"center","id":27748,"sizeSlug":"full","linkDestination":"media","className":"is-resized"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/2-2-File-export-1.png)](./img/wp-content-uploads-2021-04-2-2-File-export-1.png)
+![](img\wp-content-uploads-2021-04-2-2-File-export-1.png)
 
 <!-- /wp:image -->
 
@@ -409,7 +409,7 @@ _**Language**_
 
 <!-- wp:image {"align":"center","id":7017,"width":320,"height":219,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/2-2-options-lang.png)](./img/wp-content-uploads-2021-04-2-2-options-lang.png)
+![](img\wp-content-uploads-2021-04-2-2-options-lang.png)
 
 <!-- /wp:image -->
 
@@ -433,7 +433,7 @@ _Consteel_ has to be restarted after changing the interface language.
 
 <!-- wp:image {"align":"center","id":47529,"width":350,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2023/04/Background_color.png)](./img/wp-content-uploads-2023-04-Background_color.png)
+![](img\wp-content-uploads-2023-04-Background_color.png)
 
 <!-- /wp:image -->
 
@@ -451,7 +451,7 @@ _**Styles**_
 
 <!-- wp:image {"align":"center","id":7025,"width":322,"height":221,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/2-2-Options-styles.png)](./img/wp-content-uploads-2021-04-2-2-Options-styles.png)
+![](img\wp-content-uploads-2021-04-2-2-Options-styles.png)
 
 <!-- /wp:image -->
 
@@ -543,7 +543,7 @@ To establish the link between Consteel and IDEA Statica steel connection design 
 
 <!-- wp:image {"align":"center","id":7050,"width":511,"height":339,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/2-2-Options-standards.png)](./img/wp-content-uploads-2021-04-2-2-Options-standards.png)
+![](img\wp-content-uploads-2021-04-2-2-Options-standards.png)
 
 <!-- /wp:image -->
 
@@ -1073,7 +1073,7 @@ At the bottom left of the screen, the **Descript** control panel can be found. *
 
 <!-- wp:image {"align":"center","id":11096,"width":982,"height":25,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/2-2-6-Status-bar-v15.png)](./img/wp-content-uploads-2021-04-2-2-6-Status-bar-v15.png)
+![](img\wp-content-uploads-2021-04-2-2-6-Status-bar-v15.png)
 
 <!-- /wp:image -->
 
@@ -1163,7 +1163,7 @@ You can also open the window from the View menu. For more information, visit the
 
 <!-- wp:image {"id":27714,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/popup_visi_symb.png)](./img/wp-content-uploads-2021-04-popup_visi_symb.png)
+![](img\wp-content-uploads-2021-04-popup_visi_symb.png)
 
 <!-- /wp:image -->
 
@@ -1202,7 +1202,7 @@ You can also open the window from the View menu. For more information, visit the
 
 <!-- wp:image {"id":27720,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/popup_visi_LCS.png)](./img/wp-content-uploads-2021-04-popup_visi_LCS.png)
+![](img\wp-content-uploads-2021-04-popup_visi_LCS.png)
 
 <!-- /wp:image -->
 ![alt text](<img/Spad Footing.png>)
@@ -1245,7 +1245,7 @@ You can also open the window from the View menu. For more information, visit the
 
 <!-- wp:image {"id":27727,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/popup_visi_names.png)](./img/wp-content-uploads-2021-04-popup_visi_names.png)
+![](img\wp-content-uploads-2021-04-popup_visi_names.png)
 
 <!-- /wp:image -->
 
@@ -1326,7 +1326,7 @@ You can also open the window from the View menu. For more information, visit the
 
 <!-- wp:image {"id":11108,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/obj_color_set_v15.png)](./img/wp-content-uploads-2021-04-obj_color_set_v15.png)
+![](img\wp-content-uploads-2021-04-obj_color_set_v15.png)
 
 <!-- /wp:image -->
 
@@ -1399,7 +1399,7 @@ The last field of the Status bar is the STEP field. Here the given number in mm 
 
 <!-- wp:image {"align":"center","id":7330,"width":274,"height":246,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/2-2-6-lengthen.png)](./img/wp-content-uploads-2021-04-2-2-6-lengthen.png)
+![](img\wp-content-uploads-2021-04-2-2-6-lengthen.png)
 
 <!-- /wp:image -->
 
@@ -1511,7 +1511,7 @@ In the case of geometrical or modeling mistakes (like overlapping two or more ob
 
 <!-- wp:image {"align":"center","id":7336,"sizeSlug":"full","linkDestination":"media","className":"is-resized"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/2-2-7-diag-window.png)](./img/wp-content-uploads-2021-04-2-2-7-diag-window.png)
+![](img\wp-content-uploads-2021-04-2-2-7-diag-window.png)
 
 <!-- /wp:image -->
 
@@ -1585,7 +1585,7 @@ By selecting one object in the model space all the relevant properties will appe
 
 <!-- wp:image {"align":"center","id":11123,"sizeSlug":"full","linkDestination":"media","className":"is-resized"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/wind_obj_prop_v15-1.png)](./img/wp-content-uploads-2021-04-wind_obj_prop_v15-1.png)
+![](img\wp-content-uploads-2021-04-wind_obj_prop_v15-1.png)
 
 <!-- /wp:image -->
 

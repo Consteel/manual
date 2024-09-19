@@ -103,7 +103,7 @@ TEXT TextVariable "Text input" textdefault
 
 The above code will result in this input dialogue:
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/08/image-59.png)](./img/wp-content-uploads-2021-08-image-59.png)
+![](img\wp-content-uploads-2021-08-image-59.png)
 
 ## Numerical input
 
@@ -137,7 +137,7 @@ NUMBER NumberVariable "Numerical input" 12345
 
 The above code will result in this input dialogue:
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/08/image-60.png)](./img/wp-content-uploads-2021-08-image-60.png)
+![](img\wp-content-uploads-2021-08-image-60.png)
 
 ## Boolean input
 
@@ -175,7 +175,7 @@ BOOL BoolVariable "Bool input" True
 
 The above code will result in this input dialogue:
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/08/image-61.png)](./img/wp-content-uploads-2021-08-image-61.png)
+![](img\wp-content-uploads-2021-08-image-61.png)
 
 ## Option input
 
@@ -290,7 +290,7 @@ OPTION Output_Var "Dropdown option" Value_array Static_Text_array 1
 
 The above code will result in this input dialogue:
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/09/image-5.png)](https://consteelsoftware.com/wp-content/uploads/2021/09/image-5.png)
+![](img\wp-content-uploads-2021-09-image-5.png)
 
 ## Point input
 
@@ -325,7 +325,7 @@ POINT PointArray "Point select"
 
 The above code will result in this input dialogue:
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/08/image-65.png)](./img/wp-content-uploads-2021-08-image-65.png)
+![](img\wp-content-uploads-2021-08-image-65.png)
 
 The steps of the selection are the following:
 - Click on the select button on the dialogue window
@@ -436,7 +436,7 @@ OBJECT ObjectArray "Object select"
 
 The above code will result in this input dialogue:
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/08/image-68.png)](./img/wp-content-uploads-2021-08-image-68.png)
+![](img\wp-content-uploads-2021-08-image-68.png)
 
 The steps of the selection are the following:
 - Click on the select button on the dialogue window
@@ -444,7 +444,7 @@ The steps of the selection are the following:
 - End the selection with a right click  
   The window after this step should look like this:
 
-&nbsp; &nbsp; &nbsp; [![This image has an empty alt attribute; its file name is image-26.png](https://consteelsoftware.com/wp-content/uploads/2021/08/image-26.png)](./img/wp-content-uploads-2021-08-image-26.png)
+![](img\wp-content-uploads-2021-08-image-26.png)
 - Click on OK
 
 **Command + object ID check:**
@@ -466,7 +466,7 @@ ARRAY_GET ObjectArray 0 Obj_ID1
 GET $Obj_ID1 Name Obj_name
 ```
 
-[![](./img/wp-content-uploads-2023-03-image-4-1024x393.png)](https://consteelsoftware.com/wp-content/uploads/2023/03/image-4.png)
+![](img\wp-content-uploads-2023-03-image-4-1024x393.png)
 
 ## File path input
 
@@ -533,7 +533,7 @@ GET_USER_INPUT
 IMAGE c:\Temp\Sample_Picture.png
 ```
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/09/image-8.png)](./img/wp-content-uploads-2021-09-image-8.png)
+![](img\wp-content-uploads-2021-09-image-8.png)
 
 **Image + all possible input types:**
 

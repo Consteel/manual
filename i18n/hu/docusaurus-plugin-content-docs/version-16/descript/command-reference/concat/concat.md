@@ -64,4 +64,4 @@ This example utilizes the CONCAT command to create unique IDs and names for 5 si
 
 The result of this example in the section list looks like this:
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/08/image-46.png)](./img/wp-content-uploads-2021-08-image-46.png)
+![](img\wp-content-uploads-2021-08-image-46.png)

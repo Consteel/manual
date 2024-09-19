@@ -62,7 +62,7 @@ Local deflection check by members goes through all the beams in the model, check
 Local deflection check by members is not adequate for cantilever beams just for beams supported by two other beams or supports on both ends.
 
 
-![](https://Consteelsoftware.com/wp-content/uploads/2021/04/9-5-4-LOCAL-DEFLECTION-CHECK-BY-MEMBERS.png)
+![](img\wp-content-uploads-2021-04-9-5-4-LOCAL-DEFLECTION-CHECK-BY-MEMBERS.png)
 
 
 ## Relative deflection check for 2 points
@@ -71,7 +71,7 @@ Local deflection check by members is not adequate for cantilever beams just for 
 A relative deflection check for 2 points can be used for two clicked points. The relative horizontal or vertical check can be selected and performed.
 
 
-![](https://Consteelsoftware.com/wp-content/uploads/2021/04/9-5-5-RELATIVE-DEFLECTION-CHECK-FOR-2-POINTS.png)
+![](img\wp-content-uploads-2021-04-9-5-5-RELATIVE-DEFLECTION-CHECK-FOR-2-POINTS.png)
 
 
 ## Seismic interstorey drift verification
@@ -80,4 +80,4 @@ A relative deflection check for 2 points can be used for two clicked points. The
 The prerequisite for performing the check is the existence of the levels defined in the model and the completion of the seismic analysis. The check calculates the horizontal displacements in both directions between all the established adjacent levels and displays the maximum of these displacements, together with the dominant load combination and the names of the levels.
 
 
-![](https://Consteelsoftware.com/wp-content/uploads/2021/04/dial_design_service_seismic.png)
+![](img\wp-content-uploads-2021-04-dial_design_service_seismic.png)

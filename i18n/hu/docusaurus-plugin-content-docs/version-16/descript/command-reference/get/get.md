@@ -148,7 +148,7 @@ Available object attributes:
 
 Explanation for the section Type, GroupName , Source and Parameters attributes:
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/09/image-60.png)](./img/wp-content-uploads-2021-09-image-60.png)
+![](img\wp-content-uploads-2021-09-image-60.png)
 
 ### Sample code
 

@@ -229,7 +229,7 @@ Ezen funkció segítségével összefoglaló képet kapunk a szerkezet kihajlás
 
 <!-- wp:image {"align":"center","id":36820,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/scr_anal_kihajlas.png)](./img/wp-content-uploads-2022-06-scr_anal_kihajlas.png)
+![](img\wp-content-uploads-2022-06-scr_anal_kihajlas.png)
 
 <!-- /wp:image -->
 
@@ -313,7 +313,7 @@ Képlékeny analízis indítására az **Analízis** fül **Analízis beállít�
 
 <!-- wp:image {"align":"right","id":39539,"width":400,"height":397,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/dial_analizis_beallitasok_keplekeny-e1656515363348.png)](./img/wp-content-uploads-2022-06-dial_analizis_beallitasok_keplekeny-e1656515363348.png)
+![](img\wp-content-uploads-2022-06-dial_analizis_beallitasok_keplekeny-e1656515363348.png)
 
 <!-- /wp:image -->
 
@@ -331,7 +331,7 @@ Az első csoportban a képlékeny csuklók kialakulásának feltételei állíth
 
 <!-- wp:image {"align":"right","id":39547,"width":400,"height":397,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/dial_analizis_beallitasok_keplekeny_aloldal-e1656515332804.png)](./img/wp-content-uploads-2022-06-dial_analizis_beallitasok_keplekeny_aloldal-e1656515332804.png)
+![](img\wp-content-uploads-2022-06-dial_analizis_beallitasok_keplekeny_aloldal-e1656515332804.png)
 
 <!-- /wp:image -->
 
@@ -397,7 +397,7 @@ A megoldás folyamata a következő:
 
 <!-- wp:image {"align":"center","id":10750,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/8-5-2-2-FIRST-ORDER.png)](./img/wp-content-uploads-2021-04-8-5-2-2-FIRST-ORDER.png)
+![](img\wp-content-uploads-2021-04-8-5-2-2-FIRST-ORDER.png)
 
 <!-- /wp:image -->
 
@@ -433,7 +433,7 @@ Az egyes teherszint-növelési lépések, a hozzá tartozó teherszorzók és a 
 
 <!-- wp:image {"align":"center","id":39559,"width":286,"height":122,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2022/06/scr_anal_keplekenycsuklok.png)](./img/wp-content-uploads-2022-06-scr_anal_keplekenycsuklok.png)
+![](img\wp-content-uploads-2022-06-scr_anal_keplekenycsuklok.png)
 
 <!-- /wp:image -->
 

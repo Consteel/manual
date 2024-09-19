@@ -3,13 +3,13 @@ sidebar_position: 1
 ---
 # Load cases and load groups
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-2-Loadcase.png)](./img/wp-content-uploads-2021-04-7-2-Loadcase.png)
+![](img\wp-content-uploads-2021-04-7-2-Loadcase.png)
 
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"right","id":22807,"width":375,"height":412,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/dial_LG_Var.png)](./img/wp-content-uploads-2021-04-dial_LG_Var.png)
+![](img\wp-content-uploads-2021-04-dial_LG_Var.png)
 
 <!-- /wp:image -->
 
@@ -45,7 +45,7 @@ There are 9 different load group types in _Consteel_: Permanent, Variable, Meteo
 
 <!-- wp:image {"align":"right","id":19569,"width":260,"height":207,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-2-Load-cases-and-load-groups-e1626273431984.png)](./img/wp-content-uploads-2021-04-7-2-Load-cases-and-load-groups-e1626273431984.png)
+![](img\wp-content-uploads-2021-04-7-2-Load-cases-and-load-groups-e1626273431984.png)
 
 <!-- /wp:image -->
 
@@ -69,13 +69,13 @@ For each load group, safety factors are taken from the actually chosen standard.
 
 <!-- wp:image {"align":"right","id":9934,"width":276,"height":194,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/7-2-Multipliers-of-representative-values.png)](./img/wp-content-uploads-2021-04-7-2-Multipliers-of-representative-values.png)
+![](img\wp-content-uploads-2021-04-7-2-Multipliers-of-representative-values.png)
 
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"right","id":22816,"width":215,"height":172,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/04/dial_LG_Var_LG.png)](./img/wp-content-uploads-2021-04-dial_LG_Var_LG.png)
+![](img\wp-content-uploads-2021-04-dial_LG_Var_LG.png)
 
 <!-- /wp:image -->
 
@@ -93,7 +93,7 @@ For variable type load groups (Variable, Meteorological, Crane) combination fact
 
 <!-- wp:image {"align":"right","id":22823,"width":214,"height":160,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/07/dial_LG_create-_LC.png)](./img/wp-content-uploads-2021-07-dial_LG_create-_LC.png)
+![](img\wp-content-uploads-2021-07-dial_LG_create-_LC.png)
 
 <!-- /wp:image -->
 
@@ -119,7 +119,7 @@ For other options see below.
 
 <!-- wp:image {"align":"right","id":22869,"width":307,"height":47,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://Consteelsoftware.com/wp-content/uploads/2021/07/image-2.png)](./img/wp-content-uploads-2021-07-image-2.png)
+![](img\wp-content-uploads-2021-07-image-2.png)
 
 <!-- /wp:image -->
 
