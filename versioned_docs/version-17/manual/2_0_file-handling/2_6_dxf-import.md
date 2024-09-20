@@ -10,7 +10,7 @@ To import a dxf drawing file, click on File menu, import tools. Choose DXF from 
 
 <!-- wp:image {"align":"center","id":7574,"width":285,"height":182,"sizeSlug":"full","linkDestination":"media"} -->
 
-![alt text](../../../version-15/manual/2_0_file-handling/img/Fileimportdxf.png)
+![alt text](img/dxfimport.png)
 
 <!-- /wp:image -->
 
