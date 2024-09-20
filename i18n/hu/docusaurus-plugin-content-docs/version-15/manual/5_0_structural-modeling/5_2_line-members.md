@@ -592,7 +592,7 @@ A geometria felvétele után a szilárdsági és globális stabilitási határá
 A harmadik, egyben utolsó fázisra lépve ezen szelvények esetében egyedül a keresztmetszet egyes alkotó lemezeinek osztályba sorolását lehet szabályozni az előző fejezetben megismerttel azonos módon. Részletesen ld. az előző fejezetet.
 
 
-![]()
+![alt text](img/lemezosztály.png)
 
 
 A szerkesztést itt is a _**Ment és kilép**_ paranccsal lehet befejezni.

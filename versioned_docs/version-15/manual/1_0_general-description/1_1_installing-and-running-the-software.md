@@ -404,7 +404,7 @@ From the Learn screen, you can access various learning materials and example mod
 
 <!-- wp:image {"align":"center","id":28198,"width":730,"height":394,"sizeSlug":"large","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-![]()
+![alt text](img/learningc.png)
 
 Learning Center
 

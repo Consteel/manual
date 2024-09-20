@@ -146,7 +146,7 @@ Eccentricity can be applied on the line load also. The effect of the selected co
 
 <!-- wp:image {"align":"center","id":13983,"width":323,"sizeSlug":"full","linkDestination":"media"} -->
 
-![]()
+![alt text](img/typel.png)
 
 <!-- /wp:image -->
 

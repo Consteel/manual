@@ -11,7 +11,7 @@ A rajzolás funkciói a _**Geometria**_ fülön találhatóak.
 
 <!-- wp:image {"id":33362,"width":90,"height":56,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-![]()
+![alt text](img/geometria.png)
 
 <!-- /wp:image -->
 

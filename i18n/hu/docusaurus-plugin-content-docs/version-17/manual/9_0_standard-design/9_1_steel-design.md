@@ -603,7 +603,7 @@ Az elemek kiválasztása után, a következő lépés, az egyedi elemtervezéshe
 
 <!-- wp:image {"align":"center","id":37151,"width":346,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-![]()
+![alt text](img/teherkomb.png)
 
 <!-- /wp:image -->
 

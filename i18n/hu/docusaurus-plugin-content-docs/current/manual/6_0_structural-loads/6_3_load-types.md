@@ -109,8 +109,7 @@ Az objektumok nem teljes hossza mentén ható, **részleges vonalmenti teher** f
 A vonalmenti teher esetében is alkalmazható külpontosság. A kiválasztott koordináta rendszer és az alkalmazott külpontosság hatása megegyezik a pontszerű támasznál bemutatottakkal (lásd **Támaszok** fejezet).
 
 
-![]()
-
+![alt text](img/vonalmentiteher.png)
 
 Egy előzőleg már elhelyezett teher tulajdonságai beolvashatók a tulajdonságok funkció ![](./img/wp-content-uploads-2021-04-cmd_draw_get.png) kiválasztása után, a beolvasandó teherre kattintva.
 

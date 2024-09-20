@@ -11,13 +11,13 @@ A rajzolás funkciói a _**Geometria**_ fülön találhatóak.
 
 <!-- wp:image {"id":33362,"width":90,"height":56,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-![]()
+![alt text](img/rajzolás.png)
 
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"right","id":33392,"width":239,"height":102,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-![](img\wp-content-uploads-2022-02-dial_rajzolas_vonal.png)
+
 
 <!-- /wp:image -->
 
