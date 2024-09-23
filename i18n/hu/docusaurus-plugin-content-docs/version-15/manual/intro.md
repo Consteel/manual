@@ -17,7 +17,6 @@ Ha most használod először a platformunkat, javasoljuk, hogy kezdj egy rövid 
 - Építsd meg az első modelled: 
       
     - Kövesd az oktatóanyagunkat, és [tervezz egy rácsos tartót](https://consteelsoftware.com/hu/knowledgebase/racsos-tarto-tervezese-az-en-1993-1-1-szabvany-alapjan/) az EN 1993-1-1 szabvány alapján. 
-    - Tanuld meg lépésről lépésre egy egyszerű keretszerkezet tervezését az EN 1993-1-1 szabvány szerint.
 
 ## Támogatás és további segédletek 
 

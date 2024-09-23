@@ -17,7 +17,7 @@ Here are some key steps to get started:
 - Build your first models:  
       
     - Follow our tutorial to [design lattice girders](https://consteelsoftware.com/knowledgebase/design-of-lattice-girders-based-on-en-1993-1-1-standard/) based on the EN 1993-1-1 standard. 
-    - Learn how to design step by step a simple frame structure based on the EN 1993-1-1 standard.  
+
 
 ## Support and additional resources 
 
