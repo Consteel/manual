@@ -1,7 +1,7 @@
 import clsx from "clsx";
 import Button from "../Button";
 import styles from "./index.module.css";
-import Translate from "@docusaurus/Translate";
+import Translation from "@docusaurus/Translate";
 
 const HomePageHeaderSection = () => {
   return (
@@ -14,23 +14,23 @@ const HomePageHeaderSection = () => {
           styles["margin-0-auto"],
           "container",
           "padding-vert--xl",
-          "padding-horiz--md"
+          "padding-horiz--md",
         ])}
       >
         <div className="col">
           <div className="margin-bottom--md">
             <h1 className={clsx(["text--uppercase", styles["title"]])}>
-              <Translate>Consteel</Translate> <br />{" "}
-              <Translate>Documentation</Translate> <br />{" "}
-              <Translate>Center</Translate>
+              <Translation>Consteel</Translation> <br />{" "}
+              <Translation>Documentation</Translation> <br />{" "}
+              <Translation>Center</Translation>
             </h1>
           </div>
 
           <div className="hero__subtitle">
-            <Translate>
+            <Translation>
               Learn how to master advanced steel design in the most rewarding
               way
-            </Translate>
+            </Translation>
           </div>
           <div className="row">
             <a href="docs/manual/intro">
@@ -39,7 +39,7 @@ const HomePageHeaderSection = () => {
                 color="secondary"
                 className="margin--md"
               >
-                <Translate>Get started</Translate>
+                <Translation>Get started</Translation>
               </Button>
             </a>
             <a href="https://consteelsoftware.com/#tryforfree" target="_blank">
@@ -48,7 +48,7 @@ const HomePageHeaderSection = () => {
                 color="primary"
                 className="margin-left--md margin-vert--md"
               >
-                <Translate>Try for free</Translate>
+                <Translation>Try for free</Translation>
               </Button>
             </a>
           </div>

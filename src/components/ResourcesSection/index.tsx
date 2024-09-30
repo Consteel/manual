@@ -5,7 +5,7 @@ import BullHornOutline from "@site/static/img/bullhorn-outline.svg";
 import CodeBlock from "@site/static/img/code-block-tags.svg";
 import FileDocument from "@site/static/img/file-document-outline.svg";
 import Puzzle from "@site/static/img/puzzle-outline.svg";
-import Translate from "@docusaurus/Translate";
+import Translation from "@docusaurus/Translate";
 
 const ResourcesSection = () => {
   return (
@@ -26,12 +26,12 @@ const ResourcesSection = () => {
             ])}
           >
             <h2 className={clsx([styles["title"], "text--uppercase"])}>
-              <Translate>Resources</Translate>
+              <Translation>Resources</Translation>
             </h2>
             <div>
-              <Translate>
+              <Translation>
                 Discover the key resources in our documentation center
-              </Translate>{" "}
+              </Translation>{" "}
             </div>
           </div>
         </div>
@@ -44,9 +44,14 @@ const ResourcesSection = () => {
         >
           <ResourcesSectionCard
             IconComponent={FileDocument}
-            title="Consteel manual"
+            title={<Translation>Consteel manual</Translation>}
             link="docs/manual/intro"
-            description="Browse our online manual to learn how Consteel works from top to bottom"
+            description={
+              <Translation>
+                Browse our online manual to learn how Consteel works from top to
+                bottom
+              </Translation>
+            }
           />
         </div>
         <div
@@ -58,8 +63,12 @@ const ResourcesSection = () => {
           <ResourcesSectionCard
             IconComponent={CodeBlock}
             link="docs/descript/15_1_introduction"
-            title="Descript documentation"
-            description="Learn how Descript works and how to write scripts in Consteel"
+            title={<Translation>Descript documentation</Translation>}
+            description={
+              <Translation>
+                Learn how Descript works and how to write scripts in Consteel
+              </Translation>
+            }
           />
         </div>
         <div
@@ -71,8 +80,12 @@ const ResourcesSection = () => {
           <ResourcesSectionCard
             IconComponent={Puzzle}
             link="docs/plugins/axis/axisvm-plugin"
-            title="Plugin documentation"
-            description="Find out how our plugins work together with Consteel"
+            title={<Translation>Plugin documentation</Translation>}
+            description={
+              <Translation>
+                Find out how our plugins work together with Consteel
+              </Translation>
+            }
           />
         </div>
         <div
@@ -84,8 +97,13 @@ const ResourcesSection = () => {
           <ResourcesSectionCard
             IconComponent={BullHornOutline}
             link="release-notes"
-            title="Release notes"
-            description="Stay up-to-date about the latest features, bug-fixes and version releases"
+            title={<Translation>Release notes</Translation>}
+            description={
+              <Translation>
+                Stay up-to-date about the latest features, bug-fixes and version
+                releases
+              </Translation>
+            }
           />
         </div>
         <div className={clsx(styles["flex-50"], "padding--md")}>

@@ -4,8 +4,8 @@ import ChevronRight from "@site/static/img/chevron-right.svg";
 import { ReactNode, useState } from "react";
 
 interface ResourcesSectionCardProps {
-  title: string;
-  description: string;
+  title: ReactNode;
+  description: ReactNode;
   link: string;
   IconComponent: React.ComponentType<React.SVGProps<SVGSVGElement>>;
 }

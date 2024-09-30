@@ -5,7 +5,7 @@ import WolfSystemLogo from "@site/static/img/wolf_system_logo.svg";
 import KeszLogo from "@site/static/img/kesz_logo.svg";
 import OpenConstructionLogo from "@site/static/img/open_construction_logo.svg";
 import ArrayTechnologiesLogo from "@site/static/img/array_technologies_logo.svg";
-import Translate from "@docusaurus/Translate";
+import Translation from "@docusaurus/Translate";
 
 const OurPartnersSection = () => {
   return (
@@ -18,7 +18,7 @@ const OurPartnersSection = () => {
     >
       <div className="container margin-vert--lg">
         <h2 className={clsx(["text--uppercase", styles["title"]])}>
-          <Translate>Our partners who use Consteel</Translate>
+          <Translation>Our partners who use Consteel</Translation>
         </h2>
         <div
           className={clsx("row", styles["logo-container"])}

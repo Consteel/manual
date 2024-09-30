@@ -323,5 +323,157 @@
   "theme.unlistedContent.message": {
     "message": "This page is unlisted. Search engines will not index it, and only users having a direct link can access it.",
     "description": "The unlisted content banner message"
+  },
+  "Site": {
+    "message": "Site"
+  },
+  "Terms of use": {
+    "message": "Terms of use"
+  },
+  "Privacy policy": {
+    "message": "Privacy policy"
+  },
+  "The Steel Lion Award": {
+    "message": "The Steel Lion Award"
+  },
+  "Steelspace": {
+    "message": "Steelspace"
+  },
+  "Consteel": {
+    "message": "Consteel"
+  },
+  "Solutions": {
+    "message": "Solutions"
+  },
+  "Plans": {
+    "message": "Plans"
+  },
+  "About": {
+    "message": "About"
+  },
+  "Contact": {
+    "message": "Contact"
+  },
+  "Docs": {
+    "message": "Docs"
+  },
+  "Descript": {
+    "message": "Descript"
+  },
+  "Plugins": {
+    "message": "Plugins"
+  },
+  "Release notes": {
+    "message": "Release notes"
+  },
+  "About Consteel Solutions": {
+    "message": "About Consteel Solutions"
+  },
+  "The ConSteel team’s mission is the general reform of the way structures are designed.": {
+    "message": "The ConSteel team’s mission is the general reform of the way structures are designed."
+  },
+  "Get started with consteel": {
+    "message": "Get started with consteel"
+  },
+  "Try for free": {
+    "message": "Try for free"
+  },
+  "Documentation": {
+    "message": "Documentation"
+  },
+  "Center": {
+    "message": "Center"
+  },
+  "Learn how to master advanced steel design in the most rewarding way": {
+    "message": "Learn how to master advanced steel design in the most rewarding way"
+  },
+  "Get started": {
+    "message": "Get started"
+  },
+  "Resources": {
+    "message": "Resources"
+  },
+  "Discover the key resources in our documentation center": {
+    "message": "Discover the key resources in our documentation center"
+  },
+  "Our partners who use Consteel": {
+    "message": "Our partners who use Consteel"
+  },
+  "Simplify your design process": {
+    "message": "Simplify your design process"
+  },
+  "Why choose Consteel?": {
+    "message": "Why choose Consteel?"
+  },
+  "Trusted experience": {
+    "message": "Trusted experience"
+  },
+  "ConSteel Solutions Ltd. is a software developer company specialized in structural analysis and design for steel, composite structures with more than 25 years of experience in steel design.": {
+    "message": "ConSteel Solutions Ltd. is a software developer company specialized in structural analysis and design for steel, composite structures with more than 25 years of experience in steel design."
+  },
+  "Pioneer innovations": {
+    "message": "Pioneer innovations"
+  },
+  "We continuously research and implement the most modern ways of steel design based on high-level, integrated numerical analysis. We are also seriously dealing with design issues outside of the standard methods in order to offer practical solutions for the engineers in these complex fields as well.": {
+    "message": "We continuously research and implement the most modern ways of steel design based on high-level, integrated numerical analysis. We are also seriously dealing with design issues outside of the standard methods in order to offer practical solutions for the engineers in these complex fields as well."
+  },
+  "Unparalleled support": {
+    "message": "Unparalleled support"
+  },
+  "With Consteel, you benefit from expert local support and valuable guidance at every stage, provided by our highly regarded and experienced support team. We’re proud that our users are satisfied with the support they receive.": {
+    "message": "With Consteel, you benefit from expert local support and valuable guidance at every stage, provided by our highly regarded and experienced support team. We’re proud that our users are satisfied with the support they receive."
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "1 item|{count} items",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} - {nPosts}",
+    "description": "The title of the page for a blog author"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "Authors",
+    "description": "The title of the authors page"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "View all authors",
+    "description": "The label of the link targeting the blog authors page"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "Unlisted page",
+    "description": "The unlisted content banner title"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "This page is unlisted. Search engines will not index it, and only users having a direct link can access it.",
+    "description": "The unlisted content banner message"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "Draft page",
+    "description": "The draft content banner title"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "This page is a draft. It will only be visible in dev and be excluded from the production build.",
+    "description": "The draft content banner message"
+  },
+  "Consteel manual": {
+    "message": "Consteel manual"
+  },
+  "Browse our online manual to learn how Consteel works from top to bottom": {
+    "message": "Browse our online manual to learn how Consteel works from top to bottom"
+  },
+  "Descript documentation": {
+    "message": "Descript documentation"
+  },
+  "Plugin documentation": {
+    "message": "Plugin documentation"
+  },
+  "Find out how our plugins work together with Consteel": {
+    "message": "Find out how our plugins work together with Consteel"
+  },
+  "Learn how Descript works and how to write scripts in Consteel": {
+    "message": "Learn how Descript works and how to write scripts in Consteel"
+  },
+  "Stay up-to-date about the latest features, bug-fixes and version releases": {
+    "message": "Stay up-to-date about the latest features, bug-fixes and version releases"
   }
 }
