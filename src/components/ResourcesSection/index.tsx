@@ -5,7 +5,7 @@ import BullHornOutline from "@site/static/img/bullhorn-outline.svg";
 import CodeBlock from "@site/static/img/code-block-tags.svg";
 import FileDocument from "@site/static/img/file-document-outline.svg";
 import Puzzle from "@site/static/img/puzzle-outline.svg";
-import Translation from "@docusaurus/Translate";
+import Translation, { translate } from "@docusaurus/Translate";
 
 const ResourcesSection = () => {
   return (
@@ -44,14 +44,12 @@ const ResourcesSection = () => {
         >
           <ResourcesSectionCard
             IconComponent={FileDocument}
-            title={<Translation>Consteel manual</Translation>}
+            title={translate({ message: "Consteel manual" })}
             link="docs/manual/intro"
-            description={
-              <Translation>
-                Browse our online manual to learn how Consteel works from top to
-                bottom
-              </Translation>
-            }
+            description={translate({
+              message:
+                "Browse our online manual to learn how Consteel works from top to bottom",
+            })}
           />
         </div>
         <div
@@ -63,12 +61,11 @@ const ResourcesSection = () => {
           <ResourcesSectionCard
             IconComponent={CodeBlock}
             link="docs/descript/15_1_introduction"
-            title={<Translation>Descript documentation</Translation>}
-            description={
-              <Translation>
-                Learn how Descript works and how to write scripts in Consteel
-              </Translation>
-            }
+            title={translate({ message: "Descript documentation" })}
+            description={translate({
+              message:
+                "Learn how Descript works and how to write scripts in Consteel",
+            })}
           />
         </div>
         <div
@@ -80,12 +77,10 @@ const ResourcesSection = () => {
           <ResourcesSectionCard
             IconComponent={Puzzle}
             link="docs/plugins/axis/axisvm-plugin"
-            title={<Translation>Plugin documentation</Translation>}
-            description={
-              <Translation>
-                Find out how our plugins work together with Consteel
-              </Translation>
-            }
+            title={translate({ message: "Plugin documentation" })}
+            description={translate({
+              message: "Find out how our plugins work together with Consteel",
+            })}
           />
         </div>
         <div
@@ -97,13 +92,11 @@ const ResourcesSection = () => {
           <ResourcesSectionCard
             IconComponent={BullHornOutline}
             link="release-notes"
-            title={<Translation>Release notes</Translation>}
-            description={
-              <Translation>
-                Stay up-to-date about the latest features, bug-fixes and version
-                releases
-              </Translation>
-            }
+            title={translate({ message: "Release notes" })}
+            description={translate({
+              message:
+                "Stay up-to-date about the latest features, bug-fixes and version releases",
+            })}
           />
         </div>
         <div className={clsx(styles["flex-50"], "padding--md")}>

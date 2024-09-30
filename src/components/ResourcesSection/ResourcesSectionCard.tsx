@@ -1,11 +1,11 @@
 import clsx from "clsx";
 import styles from "./ResourcesSectionCard.module.css";
 import ChevronRight from "@site/static/img/chevron-right.svg";
-import { ReactNode, useState } from "react";
+import { useState } from "react";
 
 interface ResourcesSectionCardProps {
-  title: ReactNode;
-  description: ReactNode;
+  title: string;
+  description: string;
   link: string;
   IconComponent: React.ComponentType<React.SVGProps<SVGSVGElement>>;
 }
