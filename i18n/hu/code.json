@@ -66,7 +66,7 @@
     "message": "Megbízható szakértelem"
   },
   "ConSteel Solutions Ltd. is a software developer company specialized in structural analysis and design for steel, composite structures with more than 25 years of experience in steel design.": {
-    "message": "ConSteel Solutions Ltd. is a software developer company specialized in structural analysis and design for steel, composite structures with more than 20 years of experience in steel design."
+    "message": "A ConSteel Solutions Kft. szoftverfejlesztő cég több, mint 25 éves tapasztalattal rendelkezik az acél- és kompozit szerkezetek szerkezeti elemzése és tervezése terén."
   },
   "Pioneer innovations": {
     "message": "Úttörő innováció"
@@ -87,7 +87,7 @@
     "message": "Segédletek"
   },
   "Simplify your design process": {
-    "message": "Simplify your design process"
+    "message": "Tervezz egyszerűen"
   },
   "Get started with consteel": {
     "message": "Kezdj el tervezni még ma"
@@ -396,7 +396,7 @@
     "message": "See all results"
   },
   "theme.SearchBar.label": {
-    "message": "Search",
+    "message": "Keresés",
     "description": "The ARIA label and placeholder for search button"
   },
   "theme.SearchPage.existingResultsTitle": {
