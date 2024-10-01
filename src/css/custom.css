@@ -83,8 +83,8 @@ h3 {
   margin: 0 auto;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme="dark"] {
+/* DARK THEME */
+html[data-theme="dark"] {
   --ifm-color-primary: #64bbef;
   --ifm-menu-color: #f9f9f9 !important;
   --ifm-navbar-link-color: #ffffff !important;
@@ -118,7 +118,7 @@ h3 {
   --landing-page-button-default-background-secondary-hover: #54ddb6;
 
   --landing-page-button-outlined-background-primary: #49b9f4;
-  --landing-page-button-outlined-background-primary-hover: #43535C;
+  --landing-page-button-outlined-background-primary-hover: #43535c;
 
   --landing-page-button-outlined-background-secondary: #54ddb6;
   --landing-page-button-outlined-background-secondary-hover: #54ddb624;
@@ -133,31 +133,30 @@ h3 {
   --landing-page-background-color-4: var(--ifm-background-color);
   --landing-page-background-color-5: var(--ifm-navbar-background-color);
   --landing-page-title-color: var(--ifm-navbar-link-color);
-
-  body {
-    color: #f9f9f9 !important;
-  }
-
-  /* CARD VERSION COLOR */
-  .card {
-    background-color: #3f4655 !important;
-  }
-
-  /* BADGE VERSION COLOR */
-  span.theme-doc-version-badge {
-    background-color: #545b61 !important;
-  }
-
-  /* //DRAWER BACKGROUND */
-  .sidebarViewport_node_modules-\@docusaurus-theme-classic-lib-theme-DocRoot-Layout-Sidebar-styles-module {
-    background-color: #3f4655 !important;
-  }
 }
 
-[data-theme="light"] {
+[data-theme="dark"] body {
+  color: #f9f9f9 !important;
+}
+
+[data-theme="dark"] .card {
+  background-color: #3f4655 !important;
+}
+
+[data-theme="dark"] span.theme-doc-version-badge {
+  background-color: #545b61 !important;
+}
+
+[data-theme="dark"] aside.theme-doc-sidebar-container {
+  background-color: #3f4655 !important;
+}
+
+/* LIGHT THEME */
+html[data-theme="light"] {
   --ifm-menu-color: #2d2d2d !important;
   --ifm-color-primary: #066ed6;
-  /* NAVBAR COLOR */
+
+  /* NAVBAR */
   --ifm-navbar-link-color: #2d2d2d !important;
   --ifm-background-color: #f9f9f9 !important;
   --ifm-navbar-background-color: #ffffff !important;
@@ -208,25 +207,23 @@ h3 {
   --landing-page-background-color-4: var(--ifm-navbar-background-color);
   --landing-page-background-color-5: var(--ifm-background-color);
   --landing-page-title-color: var(--ifm-navbar-link-color);
-  /* CHIP color  */
+
+  /* CHIP */
   --ifm-breadcrumb-item-background-active: #ededed !important;
+}
 
-  body {
-    color: #524f4f !important;
-  }
+[data-theme="light"] body {
+  color: #524f4f !important;
+}
 
-  /* CARD VERSION COLOD */
-  .card {
-    background-color: #ffffff !important;
-  }
+[data-theme="light"] .card {
+  background-color: #ffffff !important;
+}
 
-  /* BADGE VERSION COLOR */
-  span.theme-doc-version-badge {
-    background-color: #ebedf0 !important;
-  }
+[data-theme="light"] span.theme-doc-version-badge {
+  background-color: #ebedf0 !important;
+}
 
-  /* //DRAWER BACKGROUND */
-  .sidebarViewport_node_modules-\@docusaurus-theme-classic-lib-theme-DocRoot-Layout-Sidebar-styles-module {
-    background-color: var(--landing-page-background-color-3) !important;
-  }
+[data-theme="light"] aside.theme-doc-sidebar-container {
+  background-color: var(--landing-page-background-color-3) !important;
 }
