@@ -1,7 +1,9 @@
 ---
 sidebar_position: 1
 ---
+
 # Végeselemek
+
 <!-- wp:heading {"level":3} -->
 
 ### Alapok
@@ -84,7 +86,7 @@ A 7 szabadságfokú rúdelemnek egy speciális továbbfejlesztett változatát h
 
 <!-- wp:paragraph -->
 
-Mivel az acél szelvényű rudak általában karcsúak, ezért globális stabilitásvesztésüknek számos változata fordulhat elő: kihajlás, elcsavarodó kihajlás, kifordulás, és ezek együttes hatása. A 7 SZF végeselemeknek köszönhetően mindezen módok számíthatók. Ilyen rudak stabilitásszámításakor ez egy fontos és előnyös lehetőség, de mivel a komplex elcsavarodások pontos számítása nagyban függ a 7. öblösödési szabadságfoktól, ennek hatását már a modell felépítésénél figyelembe kell venni (lásd a _[**Szerkezet modellezése**](../../category/structural-modeling)_ fejezet figyelmeztetéseit).
+Mivel az acél szelvényű rudak általában karcsúak, ezért globális stabilitásvesztésüknek számos változata fordulhat elő: kihajlás, elcsavarodó kihajlás, kifordulás, és ezek együttes hatása. A 7 SZF végeselemeknek köszönhetően mindezen módok számíthatók. Ilyen rudak stabilitásszámításakor ez egy fontos és előnyös lehetőség, de mivel a komplex elcsavarodások pontos számítása nagyban függ a 7. öblösödési szabadságfoktól, ennek hatását már a modell felépítésénél figyelembe kell venni (lásd a _[**Szerkezet modellezése**](../5_0_structural-modeling)_ fejezet figyelmeztetéseit).
 
 <!-- /wp:paragraph -->
 
@@ -95,8 +97,10 @@ A húzott rudak (HR) csak akkor szerepelhetnek az első- és másodrendű analí
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"left","id":6758,"width":122,"height":130,"sizeSlug":"large","linkDestination":"none"} -->
+
 :::warning
 
 Mivel a sajátérték számítás nem hajtható végre iteratív módon, a fenti stratégia nem alkalmazható. A Consteel ehelyett a sajátértékszámításhoz figyelembe veendő teherkombinációra elvégez egy fenti stratégia szerinti analízist, majd a HR rudakra kapott végeredmény szerinti merevséggel (ténylegesen húzott rúd teljes érték, nominálisan nyomott HR rúd fiktív érték) végzi a sajátértékszámítást. hasonlóan problémás a dinamikai számítás HR rudak esetén. Ebben az esetben a sajátértékekhez használt stratégia sem használható. a Consteel minden HR rudat húzott-nyomott rúdként feltételez, de 50% merevséggel. Ez az érték annak a feltételezésével lett felvéve, hogy jellemzően húzott rudas merevítések párban vannak használva és egy adott terhelésben jellemzően csak az egyik “dolgozik” közülük.
 :::
+
 <!-- /wp:paragraph -->

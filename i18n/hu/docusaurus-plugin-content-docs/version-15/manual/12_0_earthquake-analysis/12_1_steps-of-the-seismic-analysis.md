@@ -1,6 +1,7 @@
 ---
 sidebar_position: 2
 ---
+
 # Földrengés analízis lépései
 
 <!-- wp:paragraph -->
@@ -36,6 +37,6 @@ A Modális válaszspektrum-analízis alapú földrengés analízist a Consteel s
 
 5. Tervezés / Globális vizsgálatok, illetve Elemtervező fül
 
-   - Elérhető szabványos vizsgálatokat lásd a **_[Szabványos tervezés fejezetben](../../category/standard-design)_**
+   - Elérhető szabványos vizsgálatokat lásd a **_[Szabványos tervezés fejezetben](../9_0_standard-design)_**
 
 <!-- /wp:list -->

@@ -1,6 +1,7 @@
 ---
 sidebar_position: 2
 ---
+
 # The main window
 
 The Consteel window consists of seven separate parts containing different functionalities.
@@ -18,7 +19,6 @@ The Consteel window consists of seven separate parts containing different functi
 - The **MyDescript** pop-up panel is for parametric modeling (#5)
 - The **status bar** on the bottom makes the drawing phases easier (#6)
 - The **Side Panel** contains the Object and parameter tables and gives always sophisticated information about the model, making fast modifications possible (#7).
-
 
 <!-- wp:heading {"level":3} -->
 
@@ -47,9 +47,7 @@ The structural model appears always in the graphical window. There are no other 
   - **Ctrl+5**: Perpendicular to the actual UCS plane
   - **Ctrl+0**: Quick **zoom all**
 
-
 ### The menu
-
 
 The _Consteel_ menu does not contain many commands since the main functionality is placed to the structured tabs and to the side bars, and the applicability and modeling efficiency does not really need to duplicate the functions. However, six important function groups appear here: [**_File_** ](#file-menu)handling, some [**_Edit_** ](#edit-menu)options (undo-redo), [**_View_** ](#view-menu)and diagnostics, [**_Options_**](#options-menu) for settings (for saving, updating, selecting language, and for model diagnostics), [**_Standards_** ](#standards-menu)for reviewing and defining standard parameters for design and **_[Help](#help-menu)_**.
 
@@ -59,15 +57,13 @@ The _Consteel_ menu does not contain many commands since the main functionality 
 
 #### File menu
 
-
 ![alt text](<img/File menu CS 17.png>)
-
 
 <!-- /wp:columns -->
 
 <!-- wp:paragraph -->
 
-_Project Center_ 
+_Project Center_
 
 <!-- /wp:paragraph -->
 
@@ -109,7 +105,7 @@ The model description and the EN National Annex, or design standard can be chang
 
 <!-- wp:paragraph -->
 
-_Recent models_ 
+_Recent models_
 
 <!-- /wp:paragraph -->
 
@@ -133,7 +129,7 @@ Standard file open dialogue window will open.
 
 <!-- wp:paragraph -->
 
-_Open from Cloud_ 
+_Open from Cloud_
 
 <!-- /wp:paragraph -->
 
@@ -224,6 +220,7 @@ _Export_
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
 The selected part of the model can be exported to _TEKLA Structures_ or to IFC. In the case of a slab reinforcement result, the colored result view can be exported to DXF format as well. See more: _[File handling](../../category/file-handling)_.
+
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":27748,"sizeSlug":"full","linkDestination":"media","className":"is-resized"} -->
@@ -268,7 +265,6 @@ Standard Windows features that do not require special explanation.
 
 <!-- /wp:heading -->
 
-
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":71136,"width":"204px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
@@ -282,8 +278,6 @@ Standard Windows features that do not require special explanation.
 In addition to the several window options, the **Model content** can be switched _on_ and _off_ separately from the **Model portions**.
 
 <!-- /wp:paragraph -->
-
-
 
 The visibility status of several optional windows can be switched _on_ and _off_. See more: _[Side panel](#side-panel)_.  
 With the **Sizes of objects…** function, the size of the model objects can be changed individually.
@@ -300,8 +294,6 @@ With the **Sizes of objects…** function, the size of the model objects can be 
 
 #### Options menu
 
-
-
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":71106,"width":"512px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
@@ -312,7 +304,7 @@ With the **Sizes of objects…** function, the size of the model objects can be 
 
 <!-- wp:paragraph -->
 
-**Keep selections of portions** 
+**Keep selections of portions**
 
 <!-- /wp:paragraph -->
 
@@ -346,7 +338,6 @@ _**Save**_
 
 <!-- /wp:paragraph -->
 
-
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
 If **Autosave** is clicked, the program automatically performs a save periodically in accordance with the adjusted number of minutes. If **Backup** is clicked, _Consteel_ creates a backup file _after a manual save is performed_. The backup model file can be used as a normal model by removing the **_.bak_** extension.
@@ -355,7 +346,7 @@ If **Autosave** is clicked, the program automatically performs a save periodical
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-**Convert previous models to the actual version of Consteel** 
+**Convert previous models to the actual version of Consteel**
 
 <!-- /wp:paragraph -->
 
@@ -457,7 +448,7 @@ _**Styles**_
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-The color of the objects can be changed. - (*This feature will be discontinued!*)
+The color of the objects can be changed. - (_This feature will be discontinued!_)
 
 <!-- /wp:paragraph -->
 
@@ -477,13 +468,12 @@ _**Diagnostics**_
 
 Before the analysis, the program checks the model for possible modeling mistakes. Two different levels of modeling mistakes may occur: errors and warnings.
 
-
 - **Error:** if the distance between the finite element nodes of 1D or 2D elements is more than 0 but less than the given value, the program sends an error message and shows with red sign the relevant members in the diagnostics window and does not perform the analysis.
 - **Warning:** if the distance between the finite element nodes of 1D or 2D elements is more than the defined error level distance but less than the given value here, the program sends a warning message, and shows with a yellow sign the relevant members in the diagnostics window.
 
 See more: **_[Model check](../8_0_structural-analysis/8_2_model-check-diagnostics.md#model-check-diagnostics)_** and _**[Diagnostic window](#diagnostic-window)**_
 
-- The maximum permissible displacement, expressed as a percentage of the largest dimension of the boundary box enclosing the project can be determined in the following box. 
+- The maximum permissible displacement, expressed as a percentage of the largest dimension of the boundary box enclosing the project can be determined in the following box.
 
 <!-- /wp:paragraph -->
 
@@ -531,7 +521,7 @@ The **Automatic load distribution** can be switched off to increase the speed of
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-To establish the link between Consteel and IDEA Statica steel connection design software the installation path of IDEA has to be set in this section. 
+To establish the link between Consteel and IDEA Statica steel connection design software the installation path of IDEA has to be set in this section.
 
 <!-- /wp:paragraph -->
 
@@ -563,12 +553,10 @@ The first row of the Standard tree shows the applied standard which is stored in
 
 For creating a new, user defined standard:
 
-
-
 - Press the **New** button at the bottom left corner.
 
 - Select one of the existing standards from the list.
-   ![](./img/wp-content-uploads-2021-04-2-2-new-standard.png)
+  ![](./img/wp-content-uploads-2021-04-2-2-new-standard.png)
 - Give a new name to your defined standard and click on the green checkmark.
 - The parameters for the newly defined standard can now be changed.
 
@@ -583,8 +571,6 @@ The user defined standards are saved to the following file: C:\\Users\\%USERNAME
 <!-- wp:heading {"level":4} -->
 
 #### Help menu
-
-
 
 <!-- /wp:paragraph -->
 
@@ -645,13 +631,9 @@ In the **Consteel support-center**, additional options will become available:
 
 ![](./img/wp-content-uploads-2021-04-1.2.-steelspace-Support.png)
 
-
-
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-
-
 
 <!-- wp:spacer -->
 
@@ -709,7 +691,7 @@ See the **_[Drawing Geometry](../../category/drawing-geometry)_** chapter for a 
 <!-- wp:paragraph -->
 
 All functions related to structural modeling are included here, such as cross-sections, members, plates and walls, frame corner wizard, diaphragm, and rigid body, supports, and connections, etc. The automatic members to plate conversion function can be also found here.  
-See the **_[Structural modeling](../../category/structural-modeling)_** chapter for a detailed description of these functions.
+See the **_[Structural modeling](../5_0_structural-modeling)_** chapter for a detailed description of these functions.
 
 <!-- /wp:paragraph -->
 
@@ -744,7 +726,7 @@ See the **_[Structural loads](../6_0_structural-loads/6_1_load-cases-and-load-gr
 
 <!-- wp:paragraph -->
 
-Mass cases, mass groups, point masses, response spectrums, and seismic effects can be created on the Mass tab. See the **_[Masses](../../category/masses)_** chapter for a detailed description of these functions.
+Mass cases, mass groups, point masses, response spectrums, and seismic effects can be created on the Mass tab. See the **_[Masses](../7_0_masses)_** chapter for a detailed description of these functions.
 
 <!-- /wp:paragraph -->
 
@@ -787,7 +769,6 @@ See the **_[Structural analysis](../../category/structural-analysis)_** chapter 
 
 #### Global checks tab
 
-
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":71596,"width":"682px","height":"auto","sizeSlug":"large","linkDestination":"none"} -->
@@ -822,11 +803,10 @@ Both verifications can be done separately by pressing their respective rows (the
 
 <!-- wp:paragraph -->
 
-For more detailed information, please visit the **_[Standard design](../../category/standard-design)_** chapter.
-
+For more detailed information, please visit the **_[Standard design](../9_0_standard-design)_** chapter.
 
 The Global checks tab contains the options and results of possible cross-sections checks as well as the global buckling standard checks.  
-See the **_[Standard design](../../category/standard-design)_** chapter for a detailed description of these functions.
+See the **_[Standard design](../9_0_standard-design)_** chapter for a detailed description of these functions.
 
 <!-- /wp:paragraph -->
 
@@ -844,7 +824,6 @@ See the **_[Member checks](../9_0_standard-design/9_1_steel-design.md#member-che
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
-
 
 #### Layers tab
 
@@ -866,13 +845,11 @@ It provides functions for adjusting the layer properties. More info: **_[Layers]
 
 #### Document tab
 
-
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":71636,"width":"166px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
 ![](./img/wp-content-uploads-2021-04-1.2.-The-tabs-document-CS17.png)
-
 
 The functions of the Document tab allow the flexible creation of a detailed statical documentation and contain a model information tool.  
 For detailed description see chapter: [**Documentation**](../13_0_documentation-2/13_1_the-document-tab.md)
@@ -895,8 +872,6 @@ For detailed description see chapter: [**Documentation**](../13_0_documentation-
 
 Clicking on the question mark icon provides access to the same Help page as described in the[ **Help menu.**](#help-menu)
 
-
-
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -909,7 +884,6 @@ The Help tab is for the essential support-related requests like “Get Support�
 
 Clicking on the icon provides access to the same Load combination sets window as described in the[ **Load combinations.**](../6_0_structural-loads/6_2_load-combinations.md#load-combination-sets)
 
-
 ### Side bar
 
 <!-- /wp:heading -->
@@ -917,8 +891,6 @@ Clicking on the icon provides access to the same Load combination sets window as
 <!-- wp:paragraph -->
 
 The side bar at the left of the main screen contains the mostly used functions for modeling.
-
-
 
 <!-- /wp:paragraph -->
 
@@ -929,8 +901,8 @@ The side bar at the left of the main screen contains the mostly used functions f
 <!-- wp:columns -->
 
 <!-- wp:column {"verticalAlignment":"top","width":"10%"} -->
-![alt text](img/sidebarCS17.png)
 
+![alt text](img/sidebarCS17.png)
 
 <!-- wp:column {"verticalAlignment":"center"} -->
 
@@ -991,7 +963,6 @@ _Copy selected objects_
 _Move selected objects_
 
 <!-- /wp:paragraph -->
-
 
 _Mirror the selected objects_
 
@@ -1205,6 +1176,7 @@ You can also open the window from the View menu. For more information, visit the
 ![](img\wp-content-uploads-2021-04-popup_visi_LCS.png)
 
 <!-- /wp:image -->
+
 ![alt text](<img/Spad Footing.png>)
 
 <!-- wp:paragraph -->
@@ -1363,7 +1335,9 @@ The **Action point sets** offer a wide range of setting the point snapping funct
 
 - Snapping the end points of graphical (lines, arcs) and structural (beams, columns) objects
 - Switch divide function ON / OFF
+
   - ON
+
     - When the Divide snap mode is turned ON, a new field will appear on the status bar. There are 3 options for the divide snap point specification. The user can switch cyclically between them by clicking on the icon before the numeric field.>
       - ![](./img/wp-content-uploads-2021-04-2-2-6-divide-percentage.png)The percentage of the length of the approached element will be calculated, and from its approached end this length will be measured by the snapping points. Usually, there is a rest distance at the end of the element
       - ![](./img/wp-content-uploads-2021-04-2-2-6-divide-distance.png)A distance can be specified. This length will be measured by the snapping points from the approached end of the object. Usually, there is a rest distance at the end of the element
@@ -1417,7 +1391,6 @@ The last field of the Status bar is the STEP field. Here the given number in mm 
 
 The visibility of the additional windows can be switched ON / OFF in the [_**View menu**_](#view-menu). Some of this windows is turned ON by default, and all of them has a default position that can be changed with drag&drop operations. The windows can be floating or docked to any side of the Consteel main window.
 
-
 ![alt text](<img/side panel-view.png>)
 
 <!-- /wp:image -->
@@ -1438,13 +1411,11 @@ The default position of the **Portion manager** window is in the upper right cor
 
 ![](./img/wp-content-uploads-2024-01-1.2.7.-CS17-Model-Portions.png)
 
-
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
 For detailed description see [**Model Views**](../3_0_model-view/3_1_model-views.md), and [**Portions Manager**](../3_0_model-view/3_3_portions-manager.md) chapters!
-
 
 **Model Content** tab (Ctrl+Q)
 
@@ -1468,7 +1439,6 @@ See more in the [**_Selection_**](../3_0_model-view/3_2_selection.md) chapter.
 
 <!-- /wp:paragraph -->
 
-
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer -->
@@ -1478,8 +1448,6 @@ See more in the [**_Selection_**](../3_0_model-view/3_2_selection.md) chapter.
 <!-- wp:heading {"level":4} -->
 
 #### Diagnostic window
-
-
 
 <!-- wp:image {"id":71427,"width":"536px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
@@ -1502,8 +1470,6 @@ This type of error occurs when the **automatic load distribution** is turned off
 <!-- wp:paragraph -->
 
 For more information, please go to Options>[Load Distribution.](#loads-tab)
-
-
 
 In the case of geometrical or modeling mistakes (like overlapping two or more objects, missing supports, etc..), the _Diagnostic_ window switches ON automatically listing problematic objects in a tree structure.
 
@@ -1547,8 +1513,6 @@ The selected object can be erased by pressing the Delete button at the bottom of
 
 #### Object properties window
 
-
-
 <!-- wp:image {"id":71386,"width":"260px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
 ![](./img/wp-content-uploads-2024-01-1.2.7.-CS17-View-panel-Object-properties-1.png)
@@ -1576,8 +1540,6 @@ To increase the size of the coloured point in the model, go to the **view panel*
 <!-- wp:image {"id":71396,"width":"427px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
 ![](./img/wp-content-uploads-2024-01-1.2.7.-CS17-View-panel-size-strat-and-end-point-1.png)
-
-
 
 By selecting one object in the model space all the relevant properties will appear in this window (#1). The values of the parameters can be overviewed and in most cases, these parameters can be changed.
 

@@ -1,6 +1,7 @@
 ---
 sidebar_position: 3
 ---
+
 # Földrengés hatás
 
 <!-- wp:paragraph {"align":"justify"} -->
@@ -11,7 +12,7 @@ A Tömegek fülön található **Földrengés hatás** (![](./img/wp-content-upl
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Földregés hatás definiálásához már létrehozott tömegkombináció és válaszspektrum szükséges ( lásd [**Tömegek**](../../category/masses) c. fejezetet)!
+Földregés hatás definiálásához már létrehozott tömegkombináció és válaszspektrum szükséges ( lásd [**Tömegek**](../7_0_masses) c. fejezetet)!
 
 <!-- /wp:paragraph -->
 
@@ -113,8 +114,8 @@ A megadható viselkedési tényezők az alkalmazott válaszspektrum(ok) típusá
 
 <!-- wp:table {"className":"is-style-stripes"} -->
 
-|                                                                           | **Viselkedési tényező (q)**                                                                                  | **Elmozdulási viselkedési tényező (qd)** |
-| ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ---------------------------------------- |
+|                                                                   | **Viselkedési tényező (q)**                                                                                  | **Elmozdulási viselkedési tényező (qd)** |
+| ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ---------------------------------------- |
 | **ULS tervezési spektrum és qd faktor alkalmazása**               | Szabványos spektrum esetén megadható Egyéni tervezési spektrum esetén a spektrum tartalmazza; nem adható meg | Megadható                                |
 | **Külön válaszspektrum alkalmazása ULS és SLS határállapotokhoz** | Szabványos spektrum esetén megadható Egyéni tervezési spektrum esetén a spektrum tartalmazza; nem adható meg | Nem adható meg                           |
 

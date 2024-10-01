@@ -1,6 +1,7 @@
 ---
 sidebar_position: 2
 ---
+
 # The main window
 
 The Consteel window consists of seven separate parts containing different functionalities.
@@ -18,7 +19,6 @@ The Consteel window consists of seven separate parts containing different functi
 - The **csPI editor** pop-up panel is for parametric modeling (#5)
 - The **status bar** on the bottom makes the drawing phases easier (#6)
 - The **Side Panel** contains the Object and parameter tables and gives always sophisticated information about the model, making fast modifications possible (#7).
-
 
 <!-- wp:heading {"level":3} -->
 
@@ -47,9 +47,7 @@ The structural model appears always in the graphical window. There are no other 
   - **Ctrl+5**: Perpendicular to the actual UCS plane
   - **Ctrl+0**: Quick **zoom all**
 
-
 ### The menu
-
 
 The _Consteel_ menu does not contain many commands since the main functionality is placed to the structured tabs and to the side bars, and the applicability and modeling efficiency does not really need to duplicate the functions. However, six important function groups appear here: [**_File_** ](#file-menu)handling, some [**_Edit_** ](#edit-menu)options (undo-redo), [**_View_** ](#view-menu)and diagnostics, [**_Options_**](#options-menu) for settings (for saving, updating, selecting language, and for model diagnostics), [**_Standards_** ](#standards-menu)for reviewing and defining standard parameters for design and **_[Help](#help-menu)_**.
 
@@ -59,11 +57,7 @@ The _Consteel_ menu does not contain many commands since the main functionality 
 
 #### File menu
 
-
-
 ![](img\wp-content-uploads-2021-04-2-2-File-menu-1.png)
-
-
 
 _Project Center_
 
@@ -131,7 +125,7 @@ Standard file open dialogue window will open.
 
 <!-- wp:paragraph -->
 
-_Open from Cloud_ 
+_Open from Cloud_
 
 <!-- /wp:paragraph -->
 
@@ -267,11 +261,7 @@ Standard Windows features that do not require special explanation.
 
 ![alt text](<img/view cs15.png>)
 
-
-
-
 <!-- wp:image {"align":"center","id":71126,"width":"220px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-
 
 <!-- /wp:image -->
 
@@ -292,14 +282,11 @@ With the **Sizes of objects…** function, the size of the model objects can be 
 
 #### Options menu
 
-
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
 _**Save**_
-
-
 
 <!-- wp:image {"align":"center","id":47521,"width":"510px","height":"auto","sizeSlug":"full","linkDestination":"media","className":"is-resized"} -->
 
@@ -387,7 +374,6 @@ _Consteel_ has to be restarted after changing the interface language.
 
 <!-- wp:paragraph -->
 
-
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -404,7 +390,7 @@ _**Styles**_
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-The color of the objects can be changed. - (*This feature will be discontinued!*)
+The color of the objects can be changed. - (_This feature will be discontinued!_)
 
 <!-- /wp:paragraph -->
 
@@ -423,7 +409,6 @@ _**Diagnostics**_
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
 Before the analysis, the program checks the model for possible modeling mistakes. Two different levels of modeling mistakes may occur: errors and warnings.
-
 
 - **Error:** if the distance between the finite element nodes of 1D or 2D elements is more than 0 but less than the given value, the program sends an error message and shows with red sign the relevant members in the diagnostics window and does not perform the analysis.
 - **Warning:** if the distance between the finite element nodes of 1D or 2D elements is more than the defined error level distance but less than the given value here, the program sends a warning message, and shows with a yellow sign the relevant members in the diagnostics window.
@@ -460,12 +445,10 @@ The first row of the Standard tree shows the applied standard which is stored in
 
 For creating a new, user defined standard:
 
-
-
 - Press the **New** button at the bottom left corner.
 
 - Select one of the existing standards from the list.
-   ![](./img/wp-content-uploads-2021-04-2-2-new-standard.png)
+  ![](./img/wp-content-uploads-2021-04-2-2-new-standard.png)
 - Give a new name to your defined standard and click on the green checkmark.
 - The parameters for the newly defined standard can now be changed.
 
@@ -480,7 +463,6 @@ The user defined standards are saved to the following file: C:\\Users\\%USERNAME
 <!-- wp:heading {"level":4} -->
 
 #### Help menu
-
 
 The menu has been divided into two sections, the first includes links to the [Online Manual](../../manual/intro.md), to the [Descript Manual](../../descript/15_1_introduction/index.md), and to a filtered selection of our [Knowledge Base](https://Consteelsoftware.com/knowledgebase/?search=&filters=366,367,399,392,375,372) with tutorials and guides. No need to login to our website as it will be done automatically through Consteel if you use it with online protection.
 
@@ -548,7 +530,7 @@ See the **_[Drawing Geometry](../../category/drawing-geometry)_** chapter for a 
 <!-- wp:paragraph -->
 
 All functions related to structural modeling are included here, such as cross-sections, members, plates and walls, frame corner wizard, diaphragm, and rigid body, supports, and connections, etc. The automatic members to plate conversion function can be also found here.  
-See the **_[Structural modeling](../../category/structural-modeling)_** chapter for a detailed description of these functions.
+See the **_[Structural modeling](../5_0_structural-modeling)_** chapter for a detailed description of these functions.
 
 <!-- /wp:paragraph -->
 
@@ -585,7 +567,7 @@ See the **_[Structural loads](../6_0_structural-loads/6_1_load-cases-and-load-gr
 
 <!-- wp:paragraph -->
 
-Mass cases, mass groups, point masses, response spectrums, and seismic effects can be created on the Mass tab. See the **_[Masses](../../category/masses)_** chapter for a detailed description of these functions.
+Mass cases, mass groups, point masses, response spectrums, and seismic effects can be created on the Mass tab. See the **_[Masses](../7_0_masses)_** chapter for a detailed description of these functions.
 
 <!-- /wp:paragraph -->
 
@@ -637,7 +619,7 @@ See the **_[Structural analysis](../../category/structural-analysis)_** chapter 
 <!-- wp:paragraph -->
 
 The Global checks tab contains the options and results of possible cross-sections checks as well as the global buckling standard checks.  
-See the **_[Standard design](../../category/standard-design)_** chapter for a detailed description of these functions.
+See the **_[Standard design](../9_0_standard-design)_** chapter for a detailed description of these functions.
 
 <!-- /wp:paragraph -->
 
@@ -701,8 +683,6 @@ It provides functions for adjusting the layer properties. More info: **_[Layers]
 
 #### Document tab
 
-
-
 ![](./img/wp-content-uploads-2021-04-2-2-3-Tabs-docu.png)
 
 <!-- /wp:image -->
@@ -718,7 +698,6 @@ For detailed description see chapter: [_**Documentation**_](../13_0_documentatio
 
 #### Help tab
 
-
 <!-- wp:image {"id":37353,"sizeSlug":"full","linkDestination":"none","className":"is-resized"} -->
 
 ![](./img/wp-content-uploads-2021-04-help_tab.png)
@@ -729,8 +708,6 @@ For detailed description see chapter: [_**Documentation**_](../13_0_documentatio
 
 The Help tab is for the essential support-related requests like “Get Support”, “[Report licensing issue” ](https://Consteel.atlassian.net/servicedesk/customer/portal/1/group/22)and “[Send feedback](https://Consteel.atlassian.net/servicedesk/customer/portal/1/group/23/create/60)” to make posting support issues more convenient.
 
-
-
 ### Side bar
 
 <!-- /wp:heading -->
@@ -740,7 +717,6 @@ The Help tab is for the essential support-related requests like “Get Support�
 The side bar at the left of the main screen contains the mostly used functions for modeling.
 
 <!-- /wp:paragraph -->
-
 
 ![](./img/wp-content-uploads-2021-04-2-2-3-side-bar.png)
 
@@ -857,8 +833,6 @@ _Select by properties_
 _Fit view (Ctrl+0)_
 
 <!-- /wp:paragraph -->
-
-
 
 ### Descript panel (previously called 'csPI panel', before version 15)
 
@@ -1019,7 +993,6 @@ You can also open the window from the View menu. For more information, visit the
 
 ![](img\wp-content-uploads-2021-04-popup_visi_LCS.png)
 
-
 <!-- wp:paragraph -->
 
 (Description of the switches in order from the upper left corner to the lower right.)
@@ -1175,7 +1148,9 @@ The **Action point sets** offer a wide range of setting the point snapping funct
 
 - Snapping the end points of graphical (lines, arcs) and structural (beams, columns) objects
 - Switch divide function ON / OFF
+
   - ON
+
     - When the Divide snap mode is turned ON, a new field will appear on the status bar. There are 3 options for the divide snap point specification. The user can switch cyclically between them by clicking on the icon before the numeric field.>
       - ![](./img/wp-content-uploads-2021-04-2-2-6-divide-percentage.png)The percentage of the length of the approached element will be calculated, and from its approached end this length will be measured by the snapping points. Usually, there is a rest distance at the end of the element
       - ![](./img/wp-content-uploads-2021-04-2-2-6-divide-distance.png)A distance can be specified. This length will be measured by the snapping points from the approached end of the object. Usually, there is a rest distance at the end of the element
@@ -1228,7 +1203,6 @@ The last field of the Status bar is the STEP field. Here the given number in mm 
 <!-- wp:paragraph -->
 
 The visibility of the additional windows can be switched ON / OFF in the [_**View menu**_](#view-menu). Some of this windows is turned ON by default, and all of them has a default position that can be changed with drag&drop operations. The windows can be floating or docked to any side of the Consteel main window.
-
 
 #### Object tree window
 
@@ -1284,7 +1258,6 @@ For detailed description see [**Model Views**](../3_0_model-view/3_1_model-views
 
 #### Diagnostic window
 
-
 In the case of geometrical or modeling mistakes (like overlapping two or more objects, missing supports, etc..), the _Diagnostic_ window switches ON automatically listing problematic objects in a tree structure.
 
 <!-- /wp:paragraph -->
@@ -1327,8 +1300,6 @@ The selected object can be erased by pressing the Delete button at the bottom of
 
 #### Object properties window
 
-
-
 In the **Object properties** Tab (located by default on the bottom right side of the window) the start and end points of the elements can be identified, they are marked with yellow and magenta.
 
 <!-- /wp:paragraph -->
@@ -1348,7 +1319,6 @@ To increase the size of the coloured point in the model, go to the **view panel*
 <!-- wp:image {"id":71396,"width":"427px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
 ![](./img/wp-content-uploads-2024-01-1.2.7.-CS17-View-panel-size-strat-and-end-point-1.png)
-
 
 By selecting one object in the model space all the relevant properties will appear in this window (#1). The values of the parameters can be overviewed and in most cases, these parameters can be changed.
 

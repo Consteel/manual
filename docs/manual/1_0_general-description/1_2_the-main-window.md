@@ -1,6 +1,7 @@
 ---
 sidebar_position: 2
 ---
+
 # The main window
 
 The Consteel window consists of seven separate parts containing different functionalities.
@@ -18,7 +19,6 @@ The Consteel window consists of seven separate parts containing different functi
 - The **csPI editor** pop-up panel is for parametric modeling (#5)
 - The **status bar** on the bottom makes the drawing phases easier (#6)
 - The **Side Panel** contains the Object and parameter tables and gives always sophisticated information about the model, making fast modifications possible (#7).
-
 
 <!-- wp:heading {"level":3} -->
 
@@ -47,9 +47,7 @@ The structural model appears always in the graphical window. There are no other 
   - **Ctrl+5**: Perpendicular to the actual UCS plane
   - **Ctrl+0**: Quick **zoom all**
 
-
 ### The menu
-
 
 The _Consteel_ menu does not contain many commands since the main functionality is placed to the structured tabs and to the side bars, and the applicability and modeling efficiency does not really need to duplicate the functions. However, six important function groups appear here: [**_File_** ](#file-menu)handling, some [**_Edit_** ](#edit-menu)options (undo-redo), [**_View_** ](#view-menu)and diagnostics, [**_Options_**](#options-menu) for settings (for saving, updating, selecting language, and for model diagnostics), [**_Standards_** ](#standards-menu)for reviewing and defining standard parameters for design and **_[Help](#help-menu)_**.
 
@@ -60,6 +58,7 @@ The _Consteel_ menu does not contain many commands since the main functionality 
 #### File menu
 
 <!-- /wp:heading -->
+
 Consteel 17
 
 ![alt text](<img/File menu CS 17.png>)
@@ -527,7 +526,7 @@ _**Styles**_
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-The color of the objects can be changed. - (*This feature will be discontinued!*)
+The color of the objects can be changed. - (_This feature will be discontinued!_)
 
 <!-- /wp:paragraph -->
 
@@ -546,7 +545,6 @@ _**Diagnostics**_
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
 Before the analysis, the program checks the model for possible modeling mistakes. Two different levels of modeling mistakes may occur: errors and warnings.
-
 
 - **Error:** if the distance between the finite element nodes of 1D or 2D elements is more than 0 but less than the given value, the program sends an error message and shows with red sign the relevant members in the diagnostics window and does not perform the analysis.
 - **Warning:** if the distance between the finite element nodes of 1D or 2D elements is more than the defined error level distance but less than the given value here, the program sends a warning message, and shows with a yellow sign the relevant members in the diagnostics window.
@@ -631,12 +629,10 @@ The first row of the Standard tree shows the applied standard which is stored in
 
 For creating a new, user defined standard:
 
-
-
 - Press the **New** button at the bottom left corner.
 
 - Select one of the existing standards from the list.
-   ![](./img/wp-content-uploads-2021-04-2-2-new-standard.png)
+  ![](./img/wp-content-uploads-2021-04-2-2-new-standard.png)
 - Give a new name to your defined standard and click on the green checkmark.
 - The parameters for the newly defined standard can now be changed.
 
@@ -733,7 +729,7 @@ Help menu
 
 <!-- wp:paragraph -->
 
-(Only from version 15) The menu has been divided into two sections, the first includes links to the [Online Manual](../../manual/intro.md), to the [Descript Manual](../../descript/15_1_introduction/15_1_1_what-is-descript.md), and to a filtered selection of our [Knowledge Base](https://Consteelsoftware.com/knowledgebase/?search=&filters=366,367,399,392,375,372) with tutorials and guides. No need to login to our website as it will be done automatically through Consteel if you use it with online protection.
+(Only from version 15) The menu has been divided into two sections, the first includes links to the [Online Manual](../../manual/intro.md), to the [Descript Manual](../../descript/15_1_introduction), and to a filtered selection of our [Knowledge Base](https://Consteelsoftware.com/knowledgebase/?search=&filters=366,367,399,392,375,372) with tutorials and guides. No need to login to our website as it will be done automatically through Consteel if you use it with online protection.
 
 <!-- /wp:paragraph -->
 
@@ -799,7 +795,7 @@ See the **_[Drawing Geometry](../../category/drawing-geometry)_** chapter for a 
 <!-- wp:paragraph -->
 
 All functions related to structural modeling are included here, such as cross-sections, members, plates and walls, frame corner wizard, diaphragm, and rigid body, supports, and connections, etc. The automatic members to plate conversion function can be also found here.  
-See the **_[Structural modeling](../../category/structural-modeling)_** chapter for a detailed description of these functions.
+See the **_[Structural modeling](../5_0_structural-modeling)_** chapter for a detailed description of these functions.
 
 <!-- /wp:paragraph -->
 
@@ -836,7 +832,7 @@ See the **_[Structural loads](../6_0_structural-loads/6_1_load-cases-and-load-gr
 
 <!-- wp:paragraph -->
 
-Mass cases, mass groups, point masses, response spectrums, and seismic effects can be created on the Mass tab. See the **_[Masses](../../category/masses)_** chapter for a detailed description of these functions.
+Mass cases, mass groups, point masses, response spectrums, and seismic effects can be created on the Mass tab. See the **_[Masses](../7_0_masses)_** chapter for a detailed description of these functions.
 
 <!-- /wp:paragraph -->
 
@@ -927,7 +923,7 @@ Both verifications can be done separately by pressing their respective rows (the
 
 <!-- wp:paragraph -->
 
-For more detailed information, please visit the **_[Standard design](../../category/standard-design)_** chapter.
+For more detailed information, please visit the **_[Standard design](../9_0_standard-design)_** chapter.
 
 <!-- /wp:paragraph -->
 
@@ -946,7 +942,7 @@ For more detailed information, please visit the **_[Standard design](../../categ
 <!-- wp:paragraph -->
 
 The Global checks tab contains the options and results of possible cross-sections checks as well as the global buckling standard checks.  
-See the **_[Standard design](../../category/standard-design)_** chapter for a detailed description of these functions.
+See the **_[Standard design](../9_0_standard-design)_** chapter for a detailed description of these functions.
 
 <!-- /wp:paragraph -->
 
@@ -1088,7 +1084,6 @@ The Help tab is for the essential support-related requests like â€œGet Supportâ€
 ![alt text](<img/Load combination sets.png>)
 
 Clicking on the icon provides access to the same Load combination sets window as described in the[ **Load combinations.**](../6_0_structural-loads/6_2_load-combinations.md#load-combination-sets)
-
 
 ### Side bar
 
@@ -1262,7 +1257,7 @@ _Fit view (Ctrl+0)_
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-At the bottom left of the screen, the **Descript** control panel can be found. **Descript** is a programming interface of Consteel, with which parametric models can be built. Almost all of the structural objects which can be found in Consteel can be created through Descript, and all of the parameters of these objects are available to set from Descript. Please see **[Chapter 16 Descript-Consteel Programming Interface](../../descript/15_1_introduction/15_1_1_what-is-descript.md)** to know more!
+At the bottom left of the screen, the **Descript** control panel can be found. **Descript** is a programming interface of Consteel, with which parametric models can be built. Almost all of the structural objects which can be found in Consteel can be created through Descript, and all of the parameters of these objects are available to set from Descript. Please see **[Chapter 16 Descript-Consteel Programming Interface](../../descript/15_1_introduction)** to know more!
 
 <!-- /wp:paragraph -->
 
@@ -1410,6 +1405,7 @@ You can also open the window from the View menu. For more information, visit the
 ![](img\wp-content-uploads-2021-04-popup_visi_LCS.png)
 
 <!-- /wp:image -->
+
 ![alt text](<img/Spad Footing.png>)
 
 <!-- wp:paragraph -->
@@ -1568,7 +1564,9 @@ The **Action point sets** offer a wide range of setting the point snapping funct
 
 - Snapping the end points of graphical (lines, arcs) and structural (beams, columns) objects
 - Switch divide function ON / OFF
+
   - ON
+
     - When the Divide snap mode is turned ON, a new field will appear on the status bar. There are 3 options for the divide snap point specification. The user can switch cyclically between them by clicking on the icon before the numeric field.>
       - ![](./img/wp-content-uploads-2021-04-2-2-6-divide-percentage.png)The percentage of the length of the approached element will be calculated, and from its approached end this length will be measured by the snapping points. Usually, there is a rest distance at the end of the element
       - ![](./img/wp-content-uploads-2021-04-2-2-6-divide-distance.png)A distance can be specified. This length will be measured by the snapping points from the approached end of the object. Usually, there is a rest distance at the end of the element
@@ -1657,7 +1655,6 @@ The default position of the **Model portions** window is in the upper right corn
 <!-- wp:paragraph -->
 
 For detailed description see [**Model Views**](../3_0_model-view/3_1_model-views.md), and [**Portions Manager**](../3_0_model-view/3_3_portions-manager.md) chapters!
-
 
 **Model Content** tab (Ctrl+Q)
 
