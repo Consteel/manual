@@ -1,0 +1,8 @@
+{
+  "label": "Joint module",
+  "position": 15,
+  "link": {
+    "type": "generated-index",
+    "description": "Consteel’s design philosophy places great emphasis on integrated modeling and calculation of the global structure and joints. Accordingly, an efficient steel connection design module (csJoint) has been developed."
+  }
+}
