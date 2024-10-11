@@ -1,13 +1,16 @@
 {
   "hosting": {
     "target": "consteel-docs",
-    "source": "build",
+    "public": "build",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "rewrites": [
       {
         "source": "**",
         "destination": "/index.html"
       }
-    ]
+    ],
+    "frameworksBackend": {
+      "region": "europe-west3"
+    }
   }
 }
