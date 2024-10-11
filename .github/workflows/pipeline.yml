@@ -35,3 +35,4 @@ jobs:
         uses: FirebaseExtended/action-hosting-deploy@v0.7.0
         with:
           firebaseServiceAccount: ${{ secrets.FIREBASE_HOSTING_TOKEN }}
+          channelId: live
