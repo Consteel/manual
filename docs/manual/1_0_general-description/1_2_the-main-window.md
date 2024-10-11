@@ -705,7 +705,7 @@ In the **Consteel support-center**, additional options will become available:
 
 <!-- wp:image {"id":71576,"width":"549px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2021-04-1.2.-Consteel-support-central.png)
+![](./img/wp-content-uploads-2021-04-1.2.-consteel-support-central.png)
 
 <!-- /wp:image -->
 
