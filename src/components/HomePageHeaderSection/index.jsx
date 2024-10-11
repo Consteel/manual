@@ -1,0 +1,64 @@
+import clsx from "clsx";
+import Button from "../Button";
+import styles from "./index.module.css";
+import Translation from "@docusaurus/Translate";
+
+const HomePageHeaderSection = () => {
+  return (
+    <div className={styles["home-page-header-section"]}>
+      <div
+        className={clsx([
+          "row",
+          "row--align-center",
+          "text--left",
+          styles["margin-0-auto"],
+          "container",
+          "padding-vert--xl",
+          "padding-horiz--md",
+        ])}
+      >
+        <div className="col">
+          <div className="margin-bottom--md">
+            <h1 className={clsx(["text--uppercase", styles["title"]])}>
+              <Translation>Consteel</Translation> <br />{" "}
+              <Translation>Documentation</Translation> <br />{" "}
+              <Translation>Center</Translation>
+            </h1>
+          </div>
+
+          <div className="hero__subtitle">
+            <Translation>
+              Learn how to master advanced steel design in the most rewarding
+              way
+            </Translation>
+          </div>
+          <div className="row">
+            <a href="docs/manual/intro">
+              <Button
+                variant="default"
+                color="secondary"
+                className="margin--md"
+              >
+                <Translation>Get started</Translation>
+              </Button>
+            </a>
+            <a href="https://consteelsoftware.com/#tryforfree" target="_blank">
+              <Button
+                variant="outlined"
+                color="primary"
+                className="margin-left--md margin-vert--md"
+              >
+                <Translation>Try for free</Translation>
+              </Button>
+            </a>
+          </div>
+        </div>
+        <div className="col">
+          <img src="img/hall_with_podium_buckling.webp"></img>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default HomePageHeaderSection;

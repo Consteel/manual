@@ -11,12 +11,19 @@
     "message": "Descript",
     "description": "Navbar item with label Descript"
   },
+  "item.label.Converter for AXISVM": {
+    "message": "AXISVM konverter"
+  },
   "item.label.Release Notes": {
-    "message": "Release Notes",
+    "message": "Verzió információk",
     "description": "Navbar item with label Release Notes"
   },
   "item.label.Consteel Software": {
     "message": "Consteel Software",
     "description": "Navbar item with label Consteel Software"
+  },
+  "item.label.Plugins": {
+    "message": "Bővítmények",
+    "description": "Navbar item with label Plugins"
   }
 }

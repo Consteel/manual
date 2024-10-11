@@ -1,0 +1,8 @@
+{
+  "label": "Terhek",
+  "position": 8,
+  "link": {
+    "type": "generated-index",
+    "description": "A terhelés meghatározása a szerkezeti modellen az egyik legfontosabb modellezési fázis. Ellentétben a szerkezeti tagok modellezésével, a terhelés modellezése aprólékosan ellenőrzött és támogatott a szerkezeti előírások és szabványok által, mivel a terhelések megfelelő meghatározása jelentős szerepet játszik a szerkezet teljesítményének megbízhatóságában. A ConSteelben számos terhelési opció segíti a mérnök munkáját. A szerkezeti tagok modellezésével összhangban a mérnök dolgozhat a szerkezeti szabványokban meghatározott és kezelt terhelési típusokkal és lehetőségekkel, és az alkalmazott terhelések automatikusan átalakulnak véges elemes terhelésekké a számítási modellben. Az összes terhelésmodellezéssel kapcsolatos funkcionalitás a Terhelések fülön található."
+  }
+}

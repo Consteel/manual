@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 ---
-# Section module
+# Section Module
 
 ### Geometrical calculations
 
@@ -9,7 +9,7 @@ sidebar_position: 2
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-There are three coordinate systems in Section module: main axis system (y,z), section edit system (v,w) and the section edit system moved to the center (C) of the section (Y,Z). The point D is the center of rotation. The section properties can be viewed according to these coordinate systems.
+There are three coordinate systems in Section Module: main axis system (y,z), section edit system (v,w) and the section edit system moved to the center (C) of the section (Y,Z). The point D is the center of rotation. The section properties can be viewed according to these coordinate systems.
 
 <!-- /wp:paragraph -->
 
@@ -25,13 +25,13 @@ There are three coordinate systems in Section module: main axis system (y,z), se
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-If the section module is opened from the model, then all the load combination from the model are automatically imported into the section model. The relevant is chosen but any other can be selected and checked. It is also possible to add load combinations manually by clicking on the _**New** **load combination**_ icon ![new load combination icon](./img/wp-content-uploads-2021-04-section_new_load_combination_icon.png).
+If the Section Module is opened from the model, then all the load combination from the model are automatically imported into the section model. The relevant is chosen but any other can be selected and checked. It is also possible to add load combinations manually by clicking on the _**New** **load combination**_ icon ![new load combination icon](./img/wp-content-uploads-2021-04-section_new_load_combination_icon.png).
 
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":6623,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](./img/wp-content-uploads-2021-04-section_new_load_combination_table-1024x121.png)](https://consteelsoftware.com/wp-content/uploads/2021/04/section_new_load_combination_table.png)
+![](img\wp-content-uploads-2021-04-section_new_load_combination_table-1024x121.png)
 
 <!-- /wp:image -->
 
@@ -41,7 +41,7 @@ If the section module is opened from the model, then all the load combination fr
 
 <!-- wp:paragraph -->
 
-**csSection** can be launched from the model if the **Analysis** or **Global check** tab is chosen and a first- or second-order analysis or standard design has been run. There are two ways to open **csSection** directly for a selected section.
+**Section Module** can be launched from the model if the **Analysis** or **Global check** tab is chosen and a first- or second-order analysis or standard design has been run. There are two ways to open **Section Module** directly for a selected section.
 
 <!-- /wp:paragraph -->
 
@@ -51,13 +51,13 @@ If the section module is opened from the model, then all the load combination fr
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-One possible way is to select **Calculate section **from the pop-up menu that appears by right-clicking over the section to be analyzed.
+One possible way is to select **Calculate section** from the pop-up menu that appears by right-clicking over the section to be analyzed.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":6629,"width":299,"height":224,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/calculate_section_img1.png)](./img/wp-content-uploads-2021-04-calculate_section_img1.png)
+![](img\wp-content-uploads-2021-04-calculate_section_img1.png)
 
 <!-- /wp:image -->
 
@@ -73,7 +73,7 @@ The second way is to select the **Calculate section** option from the pop-up men
 
 <!-- wp:image {"align":"center","id":6635,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](./img/wp-content-uploads-2021-04-calculate_section_img2-1024x238.png)](https://consteelsoftware.com/wp-content/uploads/2021/04/calculate_section_img2.png)
+![](img\wp-content-uploads-2021-04-calculate_section_img2-1024x238.png)
 
 <!-- /wp:image -->
 
@@ -93,14 +93,14 @@ The second way is to select the **Calculate section** option from the pop-up men
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Stresses can be checked by selecting the **Properties **tab and clicking on the **Stresses **icon ![](./img/wp-content-uploads-2021-04-cmd_sectmod_stresses.png). Stresses can be viewed both in the EPS and the GSS model. Stresses can be represented in two ways:
+Stresses can be checked by selecting the **Properties** tab and clicking on the **Stresses** icon ![](./img/wp-content-uploads-2021-04-cmd_sectmod_stresses.png). Stresses can be viewed both in the EPS and the GSS model. Stresses can be represented in two ways:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 
 - ![](./img/wp-content-uploads-2021-04-cmd_sectmod_stress.png) by colored figure
-- ![](./img/wp-content-uploads-2021-04-cmd_sectmod_stress3D.png) by 3D diagram (only from version 15)
+- ![](./img/wp-content-uploads-2021-04-cmd_sectmod_stress3D.png) by 3D diagram 
 
 <!-- /wp:list -->
 
@@ -134,7 +134,7 @@ _3D diagram_
 
 <!-- wp:paragraph -->
 
-The following stresses are calculated by **csSection**:
+The following stresses are calculated by **Section Module**:
 
 <!-- /wp:paragraph -->
 
@@ -181,7 +181,7 @@ If the first icon![effective_cross_section_icon](./img/wp-content-uploads-2021-0
 
 <!-- wp:image {"align":"center","id":6710,"width":233,"height":233,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/effective_cross_section_img.png)](./img/wp-content-uploads-2021-04-effective_cross_section_img.png)
+![](img\wp-content-uploads-2021-04-effective_cross_section_img.png)
 
 <!-- /wp:image -->
 
@@ -197,7 +197,7 @@ If the first icon![effective_cross_section_icon](./img/wp-content-uploads-2021-0
 
 <!-- wp:image {"align":"center","id":6719,"width":346,"height":66,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/standard_resistance_calc_img.png)](./img/wp-content-uploads-2021-04-standard_resistance_calc_img.png)
+![](img\wp-content-uploads-2021-04-standard_resistance_calc_img.png)
 
 <!-- /wp:image -->
 
@@ -221,13 +221,13 @@ The standard design procedures performed on the **EPS** model cover the major pa
 
 <!-- wp:paragraph -->
 
-The following design checks are calculated by **csSection**:
+The following design checks are calculated by **Section Module**:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":22309,"width":626,"height":1849,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/06/tabl_sect_steelsectioncheck.png)](./img/wp-content-uploads-2021-06-tabl_sect_steelsectioncheck.png)
+![](img\wp-content-uploads-2021-06-tabl_sect_steelsectioncheck.png)
 
 <!-- /wp:image -->
 
@@ -243,13 +243,13 @@ The following design checks are calculated by **csSection**:
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-In case of reinforced concrete section, the **CSSECTION** module can perform just the resistance surface of the section. It is also possible to view the resistance line along three different axes and the arbitrary section.
+In case of reinforced concrete section, the **Section Module** module can perform just the resistance surface of the section. It is also possible to view the resistance line along three different axes and the arbitrary section.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":6726,"width":682,"height":338,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](./img/wp-content-uploads-2021-04-standard_resistance_img2-1024x508.png)](https://consteelsoftware.com/wp-content/uploads/2021/04/standard_resistance_img2.png)
+![](img\wp-content-uploads-2021-04-standard_resistance_img2-1024x508.png)
 
 <!-- /wp:image -->
 
@@ -261,13 +261,13 @@ For the composite sections the resistance surface and the part of the EC 4 are p
 
 <!-- wp:paragraph -->
 
-The following design checks are calculated by **CSSECTION** for the composite sections:
+The following design checks are calculated by **Section Module** for the composite sections:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":22316,"width":552,"height":473,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/06/tabl_sect_compsectioncheck.png)](./img/wp-content-uploads-2021-06-tabl_sect_compsectioncheck.png)
+![](img\wp-content-uploads-2021-06-tabl_sect_compsectioncheck.png)
 
 <!-- /wp:image -->
 
@@ -285,10 +285,4 @@ There is a short summary about the calculations on the right and the name of the
 
 <!-- wp:image {"align":"center","id":6734,"width":438,"height":561,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/standard_resistance_img3.png)](./img/wp-content-uploads-2021-04-standard_resistance_img3.png)
-
-<!-- /wp:image -->
-
-<!-- wp:spacer -->
-
-<!-- /wp:spacer -->
+![](img\wp-content-uploads-2021-04-standard_resistance_img3.png)

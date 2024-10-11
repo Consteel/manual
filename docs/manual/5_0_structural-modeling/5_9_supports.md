@@ -3,13 +3,13 @@ sidebar_position: 9
 ---
 # Supports
 
-There are three types of supports in _ConSteel_: point support, line support, and surface support.
+There are three types of supports in _Consteel_: point support, line support, and surface support.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":8891,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-9-Types-of-supports.png)](./img/wp-content-uploads-2021-04-6-9-Types-of-supports.png)
+![](img\wp-content-uploads-2021-04-6-9-Types-of-supports.png)
 
 <!-- /wp:image -->
 
@@ -21,7 +21,7 @@ Supports can be placed according to the Point loads can be placed according to t
 
 <!-- wp:image {"align":"center","id":8897,"width":177,"height":264,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-9-Visibility-of-labels.jpg)](./img/wp-content-uploads-2021-04-6-9-Visibility-of-labels.jpg)
+![](img\wp-content-uploads-2021-04-6-9-Visibility-of-labels.jpg)
 
 <!-- /wp:image -->
 
@@ -33,7 +33,7 @@ Supports can be placed according to the Point loads can be placed according to t
 
 <!-- wp:image {"align":"center","id":13372,"width":360,"height":276,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/dial_supp_point.png)](./img/wp-content-uploads-2021-04-dial_supp_point.png)
+![](img\wp-content-uploads-2021-04-dial_supp_point.png)
 
 <!-- /wp:image -->
 
@@ -51,7 +51,7 @@ With the **_Multiple support_** placement function (![](./img/wp-content-uploads
 
 <!-- wp:image {"align":"center","id":8909,"width":693,"height":385,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-9-Multiple-support.jpg)](./img/wp-content-uploads-2021-04-6-9-Multiple-support.jpg)
+![](img\wp-content-uploads-2021-04-6-9-Multiple-support.jpg)
 
 <!-- /wp:image -->
 
@@ -63,7 +63,7 @@ Supports placed with multiple support function will act like one object. Relativ
 
 <!-- wp:image {"align":"center","id":13316,"width":307,"height":223,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/grid_prop_supp_point.png)](./img/wp-content-uploads-2021-04-grid_prop_supp_point.png)
+![](img\wp-content-uploads-2021-04-grid_prop_supp_point.png)
 
 <!-- /wp:image -->
 
@@ -81,7 +81,7 @@ By positioning, the used coordinate system determines the orientation of constra
 
 <!-- wp:image {"align":"center","id":8923,"width":311,"height":248,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-9-Point-support-orientation.png)](./img/wp-content-uploads-2021-04-6-9-Point-support-orientation.png)
+![](img\wp-content-uploads-2021-04-6-9-Point-support-orientation.png)
 
 <!-- /wp:image -->
 
@@ -93,13 +93,13 @@ By changing the eccentricity of the supported object, the support will keep the 
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-If any special supports are needed during the modeling process different from the predefined support types then click on the support definition button (![](./img/wp-content-uploads-2021-04-3dots-button.png)). With the **New **button, a new type of point support can be defined. 7 DOFs (Degrees of Freedom) can be set to free, fix, or semi-rigid. For semi-rigid DOF the stiffness must also be set in kN/mm, or kNm/rad.
+If any special supports are needed during the modeling process different from the predefined support types then click on the support definition button (![](./img/wp-content-uploads-2021-04-3dots-button.png)). With the **New** button, a new type of point support can be defined. 7 DOFs (Degrees of Freedom) can be set to free, fix, or semi-rigid. For semi-rigid DOF the stiffness must also be set in kN/mm, or kNm/rad.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":13381,"width":389,"height":319,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/dial_supp_point_set.png)](./img/wp-content-uploads-2021-04-dial_supp_point_set.png)
+![](img\wp-content-uploads-2021-04-dial_supp_point_set.png)
 
 <!-- /wp:image -->
 
@@ -117,13 +117,13 @@ Local eccentricity can also be defined for the supports:
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-_(This feature can be used for example for modeling_ the support effect of the bracing which is not connected to the reference line of the member but supports* the flange of the beam.)*
+(_This feature can be used for example for modeling_ the support effect of the bracing which is not connected to the reference line of the member but supports the flange of the beam.)
 
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":13409,"width":362,"height":276,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/dial_supp_point_extr_select.png)](./img/wp-content-uploads-2021-04-dial_supp_point_extr_select.png)
+![](img\wp-content-uploads-2021-04-dial_supp_point_extr_select.png)
 
 <!-- /wp:image -->
 
@@ -145,7 +145,7 @@ Support eccentricity **relative to the section geometry** can be specified in tw
 
 <!-- wp:image {"align":"center","id":13400,"width":362,"height":72,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/dial_supp_point_extr_select_drop.png)](./img/wp-content-uploads-2021-04-dial_supp_point_extr_select_drop.png)
+![](img\wp-content-uploads-2021-04-dial_supp_point_extr_select_drop.png)
 
 <!-- /wp:image -->
 
@@ -155,7 +155,7 @@ Support eccentricity **relative to the section geometry** can be specified in tw
 
 <!-- wp:image {"align":"center","id":13394,"width":255,"height":330,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/dial_supp_point_extr_select_pic.png)](./img/wp-content-uploads-2021-04-dial_supp_point_extr_select_pic.png)
+![](img\wp-content-uploads-2021-04-dial_supp_point_extr_select_pic.png)
 
 <!-- /wp:image -->
 
@@ -171,7 +171,7 @@ Giving value for the y or z parameters for local eccentricity these values will 
 
 <!-- wp:image {"align":"center","id":8954,"width":631,"height":557,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-9-Point-supportEccentricity-Type-Selection.jpg)](./img/wp-content-uploads-2021-04-6-9-Point-supportEccentricity-Type-Selection.jpg)
+![](img\wp-content-uploads-2021-04-6-9-Point-supportEccentricity-Type-Selection.jpg)
 
 <!-- /wp:image -->
 
@@ -219,13 +219,13 @@ Placing support with any of these eccentricity types, for example, changing the 
 
 <!-- wp:paragraph {"align":"justify","editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-\_1. Example: \_Both supports were placed with -150mm eccentricity in the y-direction, but the left one was defined relative to the reference line of the section and the right one was defined relative to the middle-middle point of the section geometry.
+_1. Example:_ Both supports were placed with -150mm eccentricity in the y-direction, but the left one was defined relative to the reference line of the section and the right one was defined relative to the middle-middle point of the section geometry.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":8961,"width":528,"height":417,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-9-1.-example_1.png)](./img/wp-content-uploads-2021-04-6-9-1.-example_1.png)
+![](img\wp-content-uploads-2021-04-6-9-1.-example_1.png)
 
 <!-- /wp:image -->
 
@@ -237,7 +237,7 @@ If the eccentricity of the columns is changed to y= 100mm, the new position of t
 
 <!-- wp:image {"align":"center","id":8968,"width":629,"height":470,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-9-1.example_2.png)](./img/wp-content-uploads-2021-04-6-9-1.example_2.png)
+![](img\wp-content-uploads-2021-04-6-9-1.example_2.png)
 
 <!-- /wp:image -->
 
@@ -249,13 +249,13 @@ In the case of the left column, the position of the support did not change, beca
 
 <!-- wp:paragraph {"align":"justify","editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-\_2. Example: \_The support is placed according to the global coordinate system; the eccentricity is 300 mm in the z-direction of the local coordinate system of the supported column from the reference line.
+_2. Example:_ The support is placed according to the global coordinate system; the eccentricity is 300 mm in the z-direction of the local coordinate system of the supported column from the reference line.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":8975,"width":363,"height":372,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-9-2.example_1.png)](./img/wp-content-uploads-2021-04-6-9-2.example_1.png)
+![](img\wp-content-uploads-2021-04-6-9-2.example_1.png)
 
 <!-- /wp:image -->
 
@@ -267,7 +267,7 @@ If the column is moved with 300mm in the y direction in the local coordinate sys
 
 <!-- wp:image {"align":"center","id":8981,"width":407,"height":458,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-9-2.example_2.png)](./img/wp-content-uploads-2021-04-6-9-2.example_2.png)
+![](img\wp-content-uploads-2021-04-6-9-2.example_2.png)
 
 <!-- /wp:image -->
 
@@ -285,19 +285,19 @@ If the column is rotated with 45 degrees, the support is also rotated accordingl
 
 <!-- wp:image {"align":"center","id":8987,"width":394,"height":464,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-9-2.example_3.png)](./img/wp-content-uploads-2021-04-6-9-2.example_3.png)
+![](img\wp-content-uploads-2021-04-6-9-2.example_3.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"justify","editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-\_3. Example: \_The support is placed according to the global coordinate system, the eccentricity is 300mm in the z-direction of the local coordinate system of the supported column relative to the middle-middle point of the section geometry.
+_3. Example:_ The support is placed according to the global coordinate system, the eccentricity is 300mm in the z-direction of the local coordinate system of the supported column relative to the middle-middle point of the section geometry.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":8994,"width":377,"height":356,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-9-3.example_1.png)](./img/wp-content-uploads-2021-04-6-9-3.example_1.png)
+![](img\wp-content-uploads-2021-04-6-9-3.example_1.png)
 
 <!-- /wp:image -->
 
@@ -309,7 +309,7 @@ If the column is moved with 300mm in the y direction in the local coordinate sys
 
 <!-- wp:image {"align":"center","id":9000,"width":403,"height":446,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-9-3.example_2.png)](./img/wp-content-uploads-2021-04-6-9-3.example_2.png)
+![](img\wp-content-uploads-2021-04-6-9-3.example_2.png)
 
 <!-- /wp:image -->
 
@@ -321,7 +321,7 @@ If the column is rotated with 45 degree, then the support moves together with th
 
 <!-- wp:image {"align":"center","id":9006,"width":391,"height":446,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-9-3.example_3.png)](./img/wp-content-uploads-2021-04-6-9-3.example_3.png)
+![](img\wp-content-uploads-2021-04-6-9-3.example_3.png)
 
 <!-- /wp:image -->
 
@@ -332,8 +332,9 @@ Selecting any of the above eccentricity types for positioning support, changing 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-
-**Warning!** Be aware that since the finite element for the steel beams and columns has 7 DOFs the point support also has 7 DOFs, the 7th DOF represents the warping of the cross-section. Accordingly, if a cross-section on a certain place is considered to be fixed for warping (for instance in heavily stiffened joints) the 7th DOF should also be fixed. In joints consisting of several members (especially when member eccentricities are present), it is recommended to apply for warping support!
+:::warning
+Be aware that since the finite element for the steel beams and columns has 7 DOFs the point support also has 7 DOFs, the 7th DOF represents the warping of the cross-section. Accordingly, if a cross-section on a certain place is considered to be fixed for warping (for instance in heavily stiffened joints) the 7th DOF should also be fixed. In joints consisting of several members (especially when member eccentricities are present), it is recommended to apply for warping support!
+:::
 
 <!-- /wp:paragraph -->
 
@@ -351,7 +352,7 @@ Line supports can be assigned to existing lines (line members or edge of surface
 
 <!-- wp:image {"align":"center","id":13454,"width":361,"height":232,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/dial_supp_line.png)](./img/wp-content-uploads-2021-04-dial_supp_line.png)
+![](img\wp-content-uploads-2021-04-dial_supp_line.png)
 
 <!-- /wp:image -->
 
@@ -363,7 +364,7 @@ There are three default types for line supports the Fixed, the Pinned, and y,xx.
 
 <!-- wp:image {"align":"center","id":9019,"width":314,"height":260,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-9-Line-supports.png)](./img/wp-content-uploads-2021-04-6-9-Line-supports.png)
+![](img\wp-content-uploads-2021-04-6-9-Line-supports.png)
 
 <!-- /wp:image -->
 
@@ -413,20 +414,11 @@ Surface supports can be assigned to existing surfaces.
 
 There are no predefined supports for supporting surfaces. By pressing the ![](./img/wp-content-uploads-2021-04-3dots-button.png) button, the user can create new surface support types for specifying 3 constrains.
 
-<!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":9026,"width":664,"height":442,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-9-Surface-support.png)](./img/wp-content-uploads-2021-04-6-9-Surface-support.png)
+![](img\wp-content-uploads-2021-04-6-9-Surface-support.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
 By clicking on a plate object, the whole surface of this object will be supported.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-<!-- /wp:paragraph -->

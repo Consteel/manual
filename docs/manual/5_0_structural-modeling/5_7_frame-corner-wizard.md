@@ -3,7 +3,7 @@ sidebar_position: 7
 ---
 # Frame corner wizard
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-7-Frame-corner-wizard.png)](./img/wp-content-uploads-2021-04-6-7-Frame-corner-wizard.png)
+![](img\wp-content-uploads-2021-04-6-7-Frame-corner-wizard.png)
 
 <!-- /wp:image -->
 
@@ -27,13 +27,13 @@ Functions of the frame corner wizard dialogue:
 
 <!-- wp:image {"id":8831,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-7-Frame-corner-wizard-dialogue.png)](./img/wp-content-uploads-2021-04-6-7-Frame-corner-wizard-dialogue.png)
+![](img\wp-content-uploads-2021-04-6-7-Frame-corner-wizard-dialogue.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-\#1 - With the button frame corner recognition can be turned on, and off.: By turning on frame corner recognition, frame corner definition can be started. Already defined frame corners can be turned off by clicking the button, and turned on again if it is desired.
+\#1 - With the button frame corner recognition can be turned on, and off: By turning on frame corner recognition, frame corner definition can be started. Already defined frame corners can be turned off by clicking the button, and turned on again if it is desired.
 
 <!-- /wp:paragraph -->
 
@@ -45,7 +45,7 @@ Functions of the frame corner wizard dialogue:
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-\#3 - Displays the model portion tree, in which it can be decided that what type of frame corner should be applied on which portion. It is important to note, that special frame corners (#5, #6, #7) can only be placed on model portions. The default frame corner type can be applied to the whole model. To place a special frame corner, it is necessary to select a model portion, and then with a click on a type of frame corner and on the **Apply button**,\*\* \*\*the frame corner will be placed on the model.
+\#3 - Displays the model portion tree, in which it can be decided that what type of frame corner should be applied on which portion. It is important to note, that special frame corners (#5, #6, #7) can only be placed on model portions. The default frame corner type can be applied to the whole model. To place a special frame corner, it is necessary to select a model portion, and then with a click on a type of frame corner and on the **Apply button**, the frame corner will be placed on the model.
 
 <!-- /wp:paragraph -->
 
@@ -75,13 +75,13 @@ Functions of the frame corner wizard dialogue:
 
 <!-- wp:image {"align":"center","id":8837,"width":990,"height":490,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-7-Frame-corner-zones.png)](./img/wp-content-uploads-2021-04-6-7-Frame-corner-zones.png)
+![](img\wp-content-uploads-2021-04-6-7-Frame-corner-zones.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-After clicking on the **Apply **button the program detects the overlapping zones of the members in the identified connection nodes including occurrent eccentricities, haunches, or tapered members.
+After clicking on the **Apply** button the program detects the overlapping zones of the members in the identified connection nodes including occurrent eccentricities, haunches, or tapered members.
 
 <!-- /wp:paragraph -->
 
@@ -99,7 +99,7 @@ The member segments inside the overlapping zones are separated and handled speci
 
 <!-- wp:image {"align":"center","id":8844,"width":464,"height":300,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-7-Geometry.png)](./img/wp-content-uploads-2021-04-6-7-Geometry.png)
+![](img\wp-content-uploads-2021-04-6-7-Geometry.png)
 
 <!-- /wp:image -->
 
@@ -112,7 +112,7 @@ The member segments inside the overlapping zones are separated and handled speci
 
 <!-- wp:image {"align":"center","id":8850,"width":515,"height":360,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-7-Plasic-analysis.png)](./img/wp-content-uploads-2021-04-6-7-Plasic-analysis.png)
+![](img\wp-content-uploads-2021-04-6-7-Plasic-analysis.png)
 
 <!-- /wp:image -->
 
@@ -124,13 +124,13 @@ The member segments inside the overlapping zones are separated and handled speci
 
 <!-- wp:image {"align":"center","id":8857,"width":383,"height":275,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-7-Global-checks.png)](./img/wp-content-uploads-2021-04-6-7-Global-checks.png)
+![](img\wp-content-uploads-2021-04-6-7-Global-checks.png)
 
 <!-- /wp:image -->
 
 <!-- wp:list -->
 
-- _Connection design_: similarly to the earlier point the design bending moment and shear force values for the connection design are taken from the end of the truncated members where a beam-to-column connection is applied to the connection node where corner zone is defined
+- _Connection design_: similarly to the earlier point the design bending moment and shear force values for the connection design are taken from the end of the truncated members where a beam-to-column connection is applied to the connection node where corner zone is defined.
 
 <!-- /wp:list -->
 

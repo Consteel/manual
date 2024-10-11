@@ -103,7 +103,7 @@ As basic settings the analysis result type (first or second order) should be sel
 
 <!-- wp:image {"align":"center","id":10523,"width":698,"height":50,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/10-2-Glob-design-tab.png)](./img/wp-content-uploads-2021-04-10-2-Glob-design-tab.png)
+![](img\wp-content-uploads-2021-04-10-2-Glob-design-tab.png)
 
 <!-- /wp:image -->
 
@@ -127,7 +127,7 @@ As basic settings the analysis result type (first or second order) should be sel
 
 <!-- wp:image {"align":"center","id":10529,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/10-2-section-check.png)](./img/wp-content-uploads-2021-04-10-2-section-check.png)
+![](img\wp-content-uploads-2021-04-10-2-section-check.png)
 
 <!-- /wp:image -->
 
@@ -157,7 +157,7 @@ If the model also includes cold-formed sections, their cross-sectional dimension
 
 <!-- wp:image {"align":"center","id":10535,"width":685,"height":54,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/10-2-1993-1-3.png)](./img/wp-content-uploads-2021-04-10-2-1993-1-3.png)
+![](img\wp-content-uploads-2021-04-10-2-1993-1-3.png)
 
 <!-- /wp:image -->
 
@@ -175,77 +175,37 @@ According to the Eurocode (1993-1-1 BB3), stable length check can be defined usi
 
 <!-- wp:paragraph -->
 
-During the stable length check, the following checks are performed by ConSteel:
+During the stable length check, the following checks are performed by Consteel:
 
-<!-- /wp:paragraph -->
 
-<!-- wp:list {"ordered":true,"className":"is-style-default"} -->
+1. Automatic recognition of the plastic hinges on the structure
 
-1. <!-- wp:list-item -->
 
-2. Automatic recognition of the plastic hinges on the structure
+2. Searching for the nearest supports of each plastic hinges
 
-3. <!-- /wp:list-item -->
-
-4.
-
-5) <!-- wp:list-item -->
-
-6) Searching for the nearest supports of each plastic hinges
-
-   <!-- wp:list -->
-
-   - <!-- wp:list-item -->
    - Lateral restraint
-   - <!-- /wp:list-item -->
-   -
-   - <!-- wp:list-item -->
+ 
    - Torsional restraint
-   - <!-- /wp:list-item -->
 
-   <!-- /wp:list -->
 
-7) <!-- /wp:list-item -->
+3. Defining the distance between the plastic hinge and the nearest supports
 
-8)
 
-9. <!-- wp:list-item -->
+4. Calculating the stable length (depending on the type of the support) for the plastic segments, between the plastic hinge and the nearest supports
 
-10. Defining the distance between the plastic hinge and the nearest supports
-
-11. <!-- /wp:list-item -->
-
-12.
-
-13) <!-- wp:list-item -->
-
-14) Calculating the stable length (depending on the type of the support) for the plastic segments, between the plastic hinge and the nearest supports
-
-15) <!-- /wp:list-item -->
-
-<!-- /wp:list -->
-
-<!-- wp:paragraph -->
 
 On the elastic segments global stability resistance will be evaluated according to the General method of Eurocode.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4} -->
 
 #### Buckling check
 
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 Buckling check can be evaluated for steel structures according to the EN 1993-1-1 6.3.4.
 
-<!-- /wp:paragraph -->
+$$
+\frac{\chi_{op}*\alpha_{ult,k}}{\gamma_{M1}}\geq 1,0
+$$
 
-<!-- wp:image {"id":10541,"width":"109px","height":"50px","sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/10-2-buckling-formula.png)](./img/wp-content-uploads-2021-04-10-2-buckling-formula.png)
 
 <!-- /wp:image -->
 
@@ -253,87 +213,41 @@ Buckling check can be evaluated for steel structures according to the EN 1993-1-
 
 To run the buckling check, it is required to have buckling analysis results.
 
-<!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":10547,"width":462,"height":214,"sizeSlug":"full","linkDestination":"media"} -->
+![](img\wp-content-uploads-2021-04-10-2-buckling-check.png)
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/10-2-buckling-check.png)](./img/wp-content-uploads-2021-04-10-2-buckling-check.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
 
 For the buckling check the following parameters can be set:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
 - Elastic critical load factor acr,op: eigenvalue of the buckling analysis. It can be the first or the selected eigenvalue according to the design situation or can be automatically selected for each members based on the results of the sensitivity analysis.
-- <!-- /wp:list-item -->
 
-<!-- /wp:list -->
-
-<!-- wp:paragraph -->
 
 Eigenvalue can be selected on the Analysis tab to click in the model area with right click.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
 - Ultimate resistance factor ault,k: reciprocal of utilization calculated with characteristic resistances of axial force and strong axial bending dominant in terms of loss of stability. Value of the utilization can be considered by members or by the model portion.
-- <!-- /wp:list-item -->
 
-<!-- /wp:list -->
 
-<!-- wp:image {"id":10553,"sizeSlug":"large","linkDestination":"media"} -->
+$$
+\overline{\lambda _{op}}=\sqrt{\frac{\alpha _{ult,k}}{\alpha _{cr,op}}}
+$$
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/10-2-lambda-op.png)](./img/wp-content-uploads-2021-04-10-2-lambda-op.png)
-
-<!-- /wp:image -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
 - Reduction factor cop: reduction factor for the lop slenderness. It can be determined from the minimum of (c,cLT) or from the interpolated value of (c,cLT).
-- <!-- /wp:list-item -->
 
-<!-- /wp:list -->
-
-<!-- wp:paragraph -->
 
 Check can be performed for the whole model or partial model.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4} -->
 
 #### Results
 
-<!-- /wp:heading -->
 
-<!-- wp:paragraph -->
+The results of the performed checks are demonstrated with graphical visualization and result tables (for the general functionality of tables used in _Consteel_ see section 1.4 General functions for tables).
 
-The results of the performed checks are demonstrated with graphical visualization and result tables (for the general functionality of tables used in _ConSteel_ see section 1.4 General functions for tables).
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
 
 The shown results can be changed in the drop down menu.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
 
 Consteel 17
 
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":72928,"width":"199px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
 ![](./img/wp-content-uploads-2024-02-9.1.-Design-results-and-predesign-parameters-2.png)
 
@@ -467,7 +381,7 @@ It is possible to select all the chosen members by selecting multiple cells, eve
 
 <!-- wp:paragraph -->
 
-For more detailed information about the selection process, please visit the **[Selection](https://www.consteelsoftware.com/manual/model-view/selection/)** page.
+For more detailed information about the selection process, please visit the **[Selection](../3_0_model-view/3_2_selection.md)** page.
 
 <!-- /wp:paragraph -->
 
@@ -487,55 +401,25 @@ With a right-click on a load combination, an additional option appears: "Select 
 
 For some of the predesign parameters also exist result table:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
 - Sensitivity
-- <!-- /wp:list-item -->
 
-<!-- /wp:list -->
-
-<!-- wp:image {"id":73706,"width":"327px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
 ![](./img/wp-content-uploads-2024-02-9.1.-Sensitivity-1.png)
 
-<!-- /wp:image -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
 - Fire
-- <!-- /wp:list-item -->
 
-<!-- /wp:list -->
-
-<!-- wp:image {"id":73716,"width":"457px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
 ![](./img/wp-content-uploads-2024-02-9.1.-Fire-1.png)
 
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
 
 The right-click function on the cells operates similarly to the design results table.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
 
 Consteel 16
 
-<!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":10559,"width":444,"height":536,"sizeSlug":"full","linkDestination":"media"} -->
+![](img\wp-content-uploads-2021-04-10-2-buckl-result-pic.png)
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/10-2-buckl-result-pic.png)](./img/wp-content-uploads-2021-04-10-2-buckl-result-pic.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
 
 When moving the mouse along the structural elements the result markers continuously appear showing the actual utilization.
 
@@ -565,7 +449,7 @@ The detail of the results can be seen in the Section module (see section 10 Sect
 
 <!-- wp:image {"align":"center","id":10565,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/10-2-2-member-check-tab.png)](./img/wp-content-uploads-2021-04-10-2-2-member-check-tab.png)
+![](img\wp-content-uploads-2021-04-10-2-2-member-check-tab.png)
 
 <!-- /wp:image -->
 
@@ -613,7 +497,7 @@ To run steel member design go to Member checks tab and select Steel tab in the t
 
 <!-- wp:image {"align":"center","id":10571,"width":700,"height":94,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/10-2-2-member-select.png)](./img/wp-content-uploads-2021-04-10-2-2-member-select.png)
+![](img\wp-content-uploads-2021-04-10-2-2-member-select.png)
 
 <!-- /wp:image -->
 
@@ -625,19 +509,19 @@ If a member is selected, the corresponding row highlighted with green and analys
 
 <!-- wp:image {"align":"center","id":10577,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/image-3519.png)](./img/wp-content-uploads-2021-04-image-3519.png)
+![](img\wp-content-uploads-2021-04-image-3519.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-Special analysis can be run by clicking on the second icon (#1). Only one load combination can be selected at the same time. Buckling and lateral torsional buckling analysis is performed just for the selected member. If the normal force is negligible then no buckling analysis can be run. On the basis of these special analysis, _ConSteel_ can determine the factors (effective length factors, warping factor etc.) for the buckling and the lateral-torsion buckling design.
+Special analysis can be run by clicking on the second icon (#1). Only one load combination can be selected at the same time. Buckling and lateral torsional buckling analysis is performed just for the selected member. If the normal force is negligible then no buckling analysis can be run. On the basis of these special analysis, _Consteel_ can determine the factors (effective length factors, warping factor etc.) for the buckling and the lateral-torsion buckling design.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":10583,"width":487,"height":299,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/10-2-2-memb-check-comb.png)](./img/wp-content-uploads-2021-04-10-2-2-memb-check-comb.png)
+![](img\wp-content-uploads-2021-04-10-2-2-memb-check-comb.png)
 
 <!-- /wp:image -->
 
@@ -649,7 +533,7 @@ The next step is to choose the load combination and design type from the options
 
 <!-- wp:image {"align":"center","id":10589,"width":350,"height":419,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/10-2-2-memb-check-des-type.png)](./img/wp-content-uploads-2021-04-10-2-2-memb-check-des-type.png)
+![](img\wp-content-uploads-2021-04-10-2-2-memb-check-des-type.png)
 
 <!-- /wp:image -->
 
@@ -667,7 +551,7 @@ If **strong or weak axis buckling option** is selected then first the design par
 
 <!-- wp:image {"align":"center","id":10595,"width":605,"height":414,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/10-2-2-memb-check-segments-1.png)](./img/wp-content-uploads-2021-04-10-2-2-memb-check-segments-1.png)
+![](img\wp-content-uploads-2021-04-10-2-2-memb-check-segments-1.png)
 
 <!-- /wp:image -->
 
@@ -679,7 +563,7 @@ Among the supports the member is divided to segments. Segments can also be turne
 
 <!-- wp:image {"align":"center","id":10601,"width":377,"height":275,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/10-2-2-memb-check-segments-2.png)](./img/wp-content-uploads-2021-04-10-2-2-memb-check-segments-2.png)
+![](img\wp-content-uploads-2021-04-10-2-2-memb-check-segments-2.png)
 
 <!-- /wp:image -->
 
@@ -697,7 +581,7 @@ If all the design parameters has been properly set then design check can be perf
 
 <!-- wp:image {"align":"center","id":10607,"width":347,"height":511,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/10-2-2-memb-check-results.png)](./img/wp-content-uploads-2021-04-10-2-2-memb-check-results.png)
+![](img\wp-content-uploads-2021-04-10-2-2-memb-check-results.png)
 
 <!-- /wp:image -->
 
@@ -709,13 +593,13 @@ There are three drop down menus in order to view different results. The first on
 
 <!-- wp:paragraph -->
 
-**Lateral torsional buckling design** is more or less the same as the buckling design in _ConSteel_ usage, there are only small differences. New cases can be defined and unnecessary cases can be deleted. For each segment start and end node can be set.
+**Lateral torsional buckling design** is more or less the same as the buckling design in _Consteel_ usage, there are only small differences. New cases can be defined and unnecessary cases can be deleted. For each segment start and end node can be set.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":10613,"width":532,"height":440,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/10-2-2-memb-check-LTB.png)](./img/wp-content-uploads-2021-04-10-2-2-memb-check-LTB.png)
+![](img\wp-content-uploads-2021-04-10-2-2-memb-check-LTB.png)
 
 <!-- /wp:image -->
 
@@ -727,7 +611,7 @@ By clicking on the three dots button the design parameters can be altered. The e
 
 <!-- wp:image {"align":"center","id":10619,"width":345,"height":352,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/10-2-2-memb-check-AutoC.png)](./img/wp-content-uploads-2021-04-10-2-2-memb-check-AutoC.png)
+![](img\wp-content-uploads-2021-04-10-2-2-memb-check-AutoC.png)
 
 <!-- /wp:image -->
 
@@ -763,7 +647,7 @@ If the members are selected then the next step is to select the design type and 
 
 <!-- wp:image {"align":"center","id":10625,"width":346,"height":503,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/10-2-2-memb-group.png)](./img/wp-content-uploads-2021-04-10-2-2-memb-group.png)
+![](img\wp-content-uploads-2021-04-10-2-2-memb-group.png)
 
 <!-- /wp:image -->
 
@@ -781,6 +665,6 @@ In the results tab the dominant member is automatically shown. The number next t
 
 <!-- wp:image {"align":"center","id":10517,"width":354,"height":734,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/10-2-2-memb-group-res.png)](./img/wp-content-uploads-2021-04-10-2-2-memb-group-res.png)
+![](img\wp-content-uploads-2021-04-10-2-2-memb-group-res.png)
 
 <!-- /wp:image -->

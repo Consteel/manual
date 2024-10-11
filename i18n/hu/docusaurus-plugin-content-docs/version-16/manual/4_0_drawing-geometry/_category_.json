@@ -1,0 +1,8 @@
+{
+  "label": "Geometria rajzolása",
+  "position": 6,
+  "link": {
+    "type": "generated-index",
+    "description": "A modellezés fázisának első lépése a szerkezet geometriájának rajzolása. A ConSteelben az összes geometriai objektum könnyen létrehozható és módosítható egy 3D térben. A közönséges CAD rajzolási, módosítási és mozgatási funkciók mellett a haladó rögzítési lehetőségek hatékonyá teszik a modellezést. Az összes CAD funkció a Geometria fülön található, a további nézet, kiválasztás és rögzítési lehetőségek pedig az oldalsávban és az állapotsávban vannak elhelyezve. Továbbá az összes releváns modellezési funkció a szerkezeti tagok, tartók és tehercsoportok párbeszédpanelein találhatóak."
+  }
+}

@@ -1,0 +1,37 @@
+name: Manual pipeline config
+
+# Trigger the pipeline
+on:
+  push:
+    branches:
+      - master
+
+  pull_request:
+    branches:
+      - master
+
+# Steps to execute
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build the project
+        run: npm run build
+
+      - name: Publish the project to firebase
+        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+        uses: FirebaseExtended/action-hosting-deploy@v0.7.0
+        with:
+          firebaseServiceAccount: ${{ secrets.FIREBASE_HOSTING_TOKEN }}

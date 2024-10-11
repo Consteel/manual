@@ -1,0 +1,8 @@
+{
+  "label": "Converter for AxisVM",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "In pursuit of a streamlined workflow, ConSteel has developed a plugin specifically tailored for integration with AXISVM structural analysis and design software. This plugin enables users to seamlessly transfer critical data from AXISVM to ConSteel, facilitating the continuation or verification of structural calculations within the ConSteel environment. Importantly, not only geometry but also loads, combinations, section settings, and materials can be effortlessly imported into ConSteel. This integration empowers users to leverage the strengths of both software platforms, enhancing efficiency and ensuring a smooth transition between analysis and design stages."
+  }
+}

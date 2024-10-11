@@ -1,0 +1,8 @@
+{
+  "label": "Szerkezetmodellezés",
+  "position": 7,
+  "link": {
+    "type": "generated-index",
+    "description": "A Consteel fejlesztésének kezdetétől fogva a felhasználóbarát szerkezetmodellezés volt az elsődleges szempont, lehetővé téve a mérnök számára, hogy valós szerkezeti elemekből építse fel a szerkezetet. A mérnök által készített mérnöki modellben a szerkezet teljes elemekből áll (gerendák kiállásokkal, kúpos gerendák vagy oszlopok, feszítő merevítők, lemezek stb.), teljesen elkülönülve az elemzéshez és tervezéshez szükséges automatikusan generált véges elemes (számítási) modelltől. Ennek megfelelően a mérnök a megfelelő szerkezetmodellezésre tud összpontosítani. A modellezés során a különböző funkciókat és opciókat óvatosan kell alkalmazni, és figyelembe kell venni az alkalmazott elemzési modell korlátait, mert a helytelenül alkalmazott modellezési lehetőségek rossz elemzési és tervezési eredményekhez vezethetnek. Az összes szerkezetmodellezéssel kapcsolatos funkcionalitás a Szerkezeti elemek fülön található. A modellezés széles körű lehetőségeinek és nagy jelentőségének köszönhetően a keresztmetszetek és csomópontok funkciói külön modulokban vannak összegyűjtve."
+  }
+}

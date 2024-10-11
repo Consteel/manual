@@ -35,7 +35,7 @@ Parameters of the link element can be defined in the middle part of the dialog:
 
 <!-- wp:list -->
 
-- \_Position of connection: \_this parameter defines the place where the continuity acts in the percentage of the length of the link element. Value can be between 0 and 1
+- _Position of connection:_ this parameter defines the place where the continuity acts in the percentage of the length of the link element. Value can be between 0 and 1
 - Rotation: rotation value defines the angle of the link element in degrees
 - Release: predefined releases can be assigned to the specified position. If a new release type is needed the **_Release_** dialogue can be called by pressing the button next to the combo
 
@@ -61,7 +61,7 @@ This type of link element can be used to connect two structural points.
 
 <!-- wp:image {"align":"center","id":9034,"width":299,"height":161,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-10-Link-elements.png)](./img/wp-content-uploads-2021-04-6-10-Link-elements.png)
+![](img\wp-content-uploads-2021-04-6-10-Link-elements.png)
 
 <!-- /wp:image -->
 
@@ -73,7 +73,7 @@ For example, if there is a cantilever on a relatively high tapered column (see i
 
 <!-- wp:image {"align":"center","id":9040,"width":699,"height":386,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-10-Connection-element.png)](./img/wp-content-uploads-2021-04-6-10-Connection-element.png)
+![](img\wp-content-uploads-2021-04-6-10-Connection-element.png)
 
 <!-- /wp:image -->
 
@@ -97,13 +97,13 @@ This type of link element can be used for example when connecting a slab eccentr
 
 <!-- wp:image {"align":"center","id":9046,"width":698,"height":296,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-10-slab-to-beam_1.jpg)](./img/wp-content-uploads-2021-04-6-10-slab-to-beam_1.jpg)
+![](img\wp-content-uploads-2021-04-6-10-slab-to-beam_1.jpg)
 
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"center","id":9052,"width":698,"height":295,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-10-slab-to-beam_2.jpg)](./img/wp-content-uploads-2021-04-6-10-slab-to-beam_2.jpg)
+![](img\wp-content-uploads-2021-04-6-10-slab-to-beam_2.jpg)
 
 <!-- /wp:image -->
 
@@ -133,7 +133,7 @@ After starting the command, the Edit smart link dialog box appears:
 
 <!-- wp:image {"align":"center","id":13567,"width":578,"height":475,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/6-10-Edit-smart-link-1.png)](./img/wp-content-uploads-2021-04-6-10-Edit-smart-link-1.png)
+![](img\wp-content-uploads-2021-04-6-10-Edit-smart-link-1.png)
 
 <!-- /wp:image -->
 
@@ -174,9 +174,10 @@ There are two options for placing the smart link element(s).
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify"} -->
+:::info
 
 **It is important to know** that the smart link elements cannot be copied together with the members currently. When copying a member containing smart links already placed on it, the smart links will not be copied together, but they have to be selected and copied separately.
-
+:::
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
@@ -193,8 +194,8 @@ These types of link elements are special since these cannot be created manually,
 
 <!-- wp:list -->
 
-- Frame corners with the help of the [**_Frame corner wizard_**](/manual/structural-modelling/frame-corner-wizard/)
-- If any bar member is set to shell FE representation (see **_[Superbeam](https://consteelsoftware.com/manual/structural-modelling/superbeam/)_** for more info)
+- Frame corners with the help of the [**_Frame corner wizard_**](../5_0_structural-modeling/5_7_frame-corner-wizard.md)
+- If any bar member is set to shell FE representation (see **_[Superbeam](../5_0_structural-modeling/5_14_superbeam.md)_** for more info)
 
 <!-- /wp:list -->
 
@@ -212,7 +213,7 @@ Constraint elements are represented with thick orange lines in the Finite elemen
 
 <!-- wp:paragraph -->
 
-Constraints created in the frame corners transferring only the warping deformations between the beam and the column according to the type of the frame corner object. More information about the frame corner types: [**_Frame corner wizard_**](/manual/structural-modelling/frame-corner-wizard/)
+Constraints created in the frame corners transferring only the warping deformations between the beam and the column according to the type of the frame corner object. More information about the frame corner types: [**_Frame corner wizard_**](../5_0_structural-modeling/5_7_frame-corner-wizard.md)
 
 <!-- /wp:paragraph -->
 
@@ -224,7 +225,7 @@ Constraints created in the frame corners transferring only the warping deformati
 
 <!-- wp:image {"align":"right","id":29490,"width":368,"height":105,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/12/combo_constr_type.png)](./img/wp-content-uploads-2021-12-combo_constr_type.png)
+![](img\wp-content-uploads-2021-12-combo_constr_type.png)
 
 <!-- /wp:image -->
 

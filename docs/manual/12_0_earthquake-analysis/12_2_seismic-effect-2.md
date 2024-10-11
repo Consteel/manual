@@ -9,7 +9,7 @@ Seismic effects can be created with the **Seismic effect** (![](./img/wp-content
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-For the seismic effect creation, the existence of at least one pre-created mass combination and a response spectrum is required. To see how to define these, please go to Chapter [Masses](/manual/masses/)!
+For the seismic effect creation, the existence of at least one pre-created mass combination and a response spectrum is required. To see how to define these, please go to chapter [**Masses**](../7_0_masses/7_4_seismic-effect.md)!
 
 <!-- /wp:paragraph -->
 
@@ -47,14 +47,14 @@ In the _Settings_ (#1) panel, the main parameters of the seismic analysis can be
 <!-- wp:list -->
 
 - _Mass combination:_ Choice of the used mass combination for the dynamic shape evaluation during the modal response spectrum analysis has to be done. The dropdown menu is automatically filled up with the pre-defined mass combinations. **The seismic analysis will only be performed for the mass combination which is selected here!**
-- _Calculation method:_ Choice of the calculation method to be used for the seismic analysis. To see the differences between each calculation method, please see the _**[introductory part](/manual/seismic-analysis/)**_ of this chapter!
+- _Calculation method:_ Choice of the calculation method to be used for the seismic analysis. To see the differences between each calculation method, please see the _**[introductory part](./12_0_earthquake-analysis.md)**_ of this main chapter!
 - Main direction of the structure from X: The main direction of the structure can be seen using the black arrow (![](./img/wp-content-uploads-2021-04-ico-pointer.png)) tool, by clicking the start and end point of a vector in the modeling area. The other option is to set the angle between the main direction and the X-axis manually in the edit box with direct input. The direction, which is given will be the „1” direction, perpendicularly to this will be the „2” direction of the effect. The q1 and q2 factors correspond with these directions too.
 
 <!-- /wp:list -->
 
 <!-- wp:image {"align":"center","id":9431,"width":464,"height":594,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/13-3-seismic.png)](./img/wp-content-uploads-2021-04-13-3-seismic.png)
+![](img\wp-content-uploads-2021-04-13-3-seismic.png)
 
 <!-- /wp:image -->
 
@@ -66,7 +66,7 @@ On the response spectrums panel (#2), the response spectrum can be selected whic
 
 <!-- wp:image {"align":"center","id":9438,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/13-3-seismic2.png)](./img/wp-content-uploads-2021-04-13-3-seismic2.png)
+![](img\wp-content-uploads-2021-04-13-3-seismic2.png)
 
 <!-- /wp:image -->
 
@@ -90,7 +90,7 @@ Handling of the response spectrums in ultimate and serviceability limit states c
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Clicking on the (![](./img/wp-content-uploads-2021-04-13-3-1-3buttons.png)) button will bring up the spectrum definition dialogue, where parameters of a spectrum can be checked, or even new ones can be created (see Chapter [Creating response spectrums](/manual/masses/creating-response-spectrums/))
+Clicking on the (![](./img/wp-content-uploads-2021-04-13-3-1-3buttons.png)) button will bring up the spectrum definition dialogue, where parameters of a spectrum can be checked, or even new ones can be created (see chapter [**Creating response spectrums**](../7_0_masses/7_5_creating-response-spectrums.md))
 
 <!-- /wp:paragraph -->
 
@@ -129,7 +129,7 @@ Behavior factors besides the type of the spectrum, are dependent on the followin
 
 <!-- wp:list -->
 
-- \_Same behavior in Horizontal XY directions: \_If the option is turned on, it is enough to define only one behavior parameter, it will be applied for both X and Y directions
+- _Same behavior in Horizontal XY directions:_ If the option is turned on, it is enough to define only one behavior parameter, it will be applied for both X and Y directions
 
 <!-- /wp:list -->
 
@@ -153,43 +153,40 @@ On the **Additional Effects** tab of the **_Seismic Effect_** dialogue, the foll
 
 <!-- wp:list -->
 
-- Accidental torsional effects: In the case of spatial 3D models, effects of the uncertainties of load placements causing torsional effects also have to be taken into account. ConSteel calculates the effect automatically. For the calculation, storeys have to be defined, where the torsion effect is acting, and the eccentricity value, with which the mass points will be shifted.
+- Accidental torsional effects: In the case of spatial 3D models, effects of the uncertainties of load placements causing torsional effects also have to be taken into account. Consteel calculates the effect automatically. For the calculation, storeys have to be defined, where the torsion effect is acting, and the eccentricity value, with which the mass points will be shifted.
 
 <!-- /wp:list -->
 
 <!-- wp:list -->
 
-- \_Second-order effect: \_Second-order effects have to be taken into account if the coefficient of the shift difference (θ) between the storeys is greater than 0,1. Consteel automatically calculates it and takes it into account. Storeys have to be pre-defined.
+- _Second-order effect:_ Second-order effects have to be taken into account if the coefficient of the shift difference (θ) between the storeys is greater than 0,1. Consteel automatically calculates it and takes it into account. Storeys have to be pre-defined.
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Considered storeys have to be chosen in the \_Considered storeys \_for accidental torsional and second-order effects (#1) panel. If there are storeys defined in the model (see Chapter [Portion Manager](/manual/model-view/portions-manager/)), they will be automatically loaded into the table. If the checkbox is turned on next to a storey, it will be taken into consideration during the seismic analysis.
+Considered storeys have to be chosen in the _Considered storeys_ for accidental torsional and second-order effects (#1) panel. If there are storeys defined in the model (see chapter [**Portion Manager**](../3_0_model-view/3_3_portions-manager.md)), they will be automatically loaded into the table. If the checkbox is turned on next to a storey, it will be taken into consideration during the seismic analysis.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-ConSteel 13 User Manual
+Consteel 13 User Manual
 
-<!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"left","id":21417,"width":76,"height":81,"sizeSlug":"large","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2021-04-warning_croc.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-
-When specifying the levels, it is important to know that consteel takes the weights of the structure below the lowest level all of them to the lowest level by the torsional and second-order effects. This can be avoided by establishing a level 0 in the plane of the supports, so the weight distribution between the support and the first level will also be performed.
+:::warning
+When specifying the levels, it is important to know that Consteel takes the weights of the structure below the lowest level all of them to the lowest level by the torsional and second-order effects. This can be avoided by establishing a level 0 in the plane of the supports, so the weight distribution between the support and the first level will also be performed.
+:::
 
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":9451,"width":381,"height":487,"sizeSlug":"large","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/13-3-additional-effects.png)](./img/wp-content-uploads-2021-04-13-3-additional-effects.png)
+![](img\wp-content-uploads-2021-04-13-3-additional-effects.png)
 
 <!-- /wp:image -->
 

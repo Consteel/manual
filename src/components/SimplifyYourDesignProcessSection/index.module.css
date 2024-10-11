@@ -1,0 +1,22 @@
+.simplify-your-design-process-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.simplify-your-design-process-section-container {
+  background-color: var(--landing-page-background-color-3);
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.margin-0-auto {
+  margin: 0 auto !important;
+}
+
+.title {
+  margin-bottom: 3rem;
+  color: var(--landing-page-title-color);
+}

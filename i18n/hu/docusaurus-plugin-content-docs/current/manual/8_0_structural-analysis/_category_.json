@@ -1,0 +1,8 @@
+{
+  "label": "Szerkezetek analízise",
+  "position": 10,
+  "link": {
+    "type": "generated-index",
+    "description": "A szerkezeti modell elemzése általában a tervezési folyamat legzáróbb és legkevésbé átlátható fázisa lehet a mérnök számára, ráadásul a modern szerkezeti szabványok általában meghatározzák a használt tervezési képlet számára megfelelő és szükséges elemzési típust. A ConSteel minden számítás során véges elemes módszert alkalmaz, két gerendahelyi elem típust használva (a hagyományos 12 szabadsági fokú Timoshenko-t és a 14 DOF vékonyfalú elemet, amely tartalmazza a szakasz peremtorzióját) és két héj elemet (háromszög és négyszög). A számítási lehetőségek széles skálája magában foglalja az első és teljes másodrendű (nem csak P-d hatás) elemzést; hajlító-, torsiós-, és oldaltorsiós instabilitás megoldásokat; karcsú acéltagok helyi instabilitásának elemzését héj elemekből felépített tagoknál; statikus és dinamikus sajátérték elemzést, valamint földrengés számítást az elasztikus válaszspektrum és módozati elemzés alapján. A kivételesen gyors és robusztus egyenletmegoldók optimális számítási időt biztosítanak akár rendkívül hatalmas modellek esetén is. A szerkezeti elemzéssel kapcsolatos funkcionalitások két fülön találhatók: a Véges elem és Analízis fülön. A Véges elem fülön hálózat generálási lehetőségek állnak rendelkezésre felületelemekhez, és megtekinthető a létrehozott véges elem modell. Általában ezt a lépést át lehet ugrani, mivel az elemzés első lépésében a véges elem hálózat generálása automatikusan megtörténik."
+  }
+}

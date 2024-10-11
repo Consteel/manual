@@ -1,0 +1,118 @@
+{
+  "version.label": {
+    "message": "17",
+    "description": "The label for version 17"
+  },
+  "sidebar.manualSideBar.category.General description": {
+    "message": "General description",
+    "description": "The label for category General description in sidebar manualSideBar"
+  },
+  "sidebar.manualSideBar.category.General description.link.generated-index.description": {
+    "message": "General description of the user interface of Consteel software",
+    "description": "The generated-index page description for category General description in sidebar manualSideBar"
+  },
+  "sidebar.manualSideBar.category.File handling": {
+    "message": "File handling",
+    "description": "The label for category File handling in sidebar manualSideBar"
+  },
+  "sidebar.manualSideBar.category.File handling.link.generated-index.description": {
+    "message": "The file handling of ConSteel follows the same usual and simple way of the MS Windows standard. The saved files contain all information about the model, it can be relocated to another folder and opened. By default, the .csm file extension is associated with ConSteel and these files can be opened by double click.",
+    "description": "The generated-index page description for category File handling in sidebar manualSideBar"
+  },
+  "sidebar.manualSideBar.category.Model view": {
+    "message": "Model view",
+    "description": "The label for category Model view in sidebar manualSideBar"
+  },
+  "sidebar.manualSideBar.category.Model view.link.generated-index.description": {
+    "message": "The transparent and multipurpose model views are very important to the user since these views provide the first graphical model survey opportunity. Accordingly, the first and most important objective of the model views to feedback the user with the objects placed, yield a visual proof that the right objects are at the right place.",
+    "description": "The generated-index page description for category Model view in sidebar manualSideBar"
+  },
+  "sidebar.manualSideBar.category.Drawing geometry": {
+    "message": "Drawing geometry",
+    "description": "The label for category Drawing geometry in sidebar manualSideBar"
+  },
+  "sidebar.manualSideBar.category.Drawing geometry.link.generated-index.description": {
+    "message": "The first step of the modeling phase is the geometry drawing of the structure. In ConSteel all the geometrical objects can be easily created and modified in a 3D space. Among the basic CAD drawing, modifying, and moving functionality advanced snap options make the modeling efficient. All the CAD functionality is placed on the Geometry tab, the further view, select and snap options are on the side and status bar. Additionally, all the relevant modeling functions are placed on the dialogues of structural members, supports, and loads.",
+    "description": "The generated-index page description for category Drawing geometry in sidebar manualSideBar"
+  },
+  "sidebar.manualSideBar.category.Structural modeling": {
+    "message": "Structural modeling",
+    "description": "The label for category Structural modeling in sidebar manualSideBar"
+  },
+  "sidebar.manualSideBar.category.Structual loads": {
+    "message": "Structual loads",
+    "description": "The label for category Structual loads in sidebar manualSideBar"
+  },
+  "sidebar.manualSideBar.category.Masses": {
+    "message": "Masses",
+    "description": "The label for category Masses in sidebar manualSideBar"
+  },
+  "sidebar.manualSideBar.category.Structural analysis": {
+    "message": "Structural analysis",
+    "description": "The label for category Structural analysis in sidebar manualSideBar"
+  },
+  "sidebar.manualSideBar.category.Structural analysis.link.generated-index.description": {
+    "message": "The analysis of the structural model can be the most “black box” type phase of the design process for the engineer, and additionally, the modern structural standards usually define the appropriate and required analysis type for the used design formula. The ConSteel applies the finite element method for all the calculations using two beam-column element types (traditional 12 DOF Timoshenko and 14 DOF thin-walled including warping of the section) and two shell elements (triangle and quadrilateral). The great variety of calculation possibilities includes first and complete second-order (not only P-d effect) analysis; flexural-, torsional-, and lateral-torsional buckling solutions; local buckling analysis of slender steel members built from shell elements; static and dynamic eigenvalue analysis and earthquake calculation based on elastic response spectrum and modal analysis. The exceptionally fast and robust equation solvers yield optimal calculation time even for unusually huge models. The functionalities connected with the structural analysis are placed on two tabs: the Finite element and Analysis tab. On the Finite element tab, mesh generation options are available for surface elements, and the generated finite element model can be viewed. Usually, this step can be skipped since in the first step of the analysis the finite element mesh generation is automatically performed.",
+    "description": "The generated-index page description for category Structural analysis in sidebar manualSideBar"
+  },
+  "sidebar.manualSideBar.category.Standard design": {
+    "message": "Standard design",
+    "description": "The label for category Standard design in sidebar manualSideBar"
+  },
+  "sidebar.manualSideBar.category.Section module": {
+    "message": "Section module",
+    "description": "The label for category Section module in sidebar manualSideBar"
+  },
+  "sidebar.manualSideBar.category.Section module.link.generated-index.description": {
+    "message": "Consteel's cross-sections related functionality have been integrated into a separate yet fully integrated module, the Section Module (csSection). This module collects all the tools relate to the creation, property calculation, stress analysis, and standard design of a cross-section. Two parallel cross-sectional modeling works side by side in Consteel: the General Solid Section (GSS) is an accurate, finite element-based surface model for any type of cross-section; the Elastic Plate Segment (EPS) is a section model made of thin plate segments, especially for steel sections. Steel standard design formulas can be easily solved based on the EPS model, including the actual Class 4 effective cross-section produced based on the cross-sectional internal forces determined during structural analysis.",
+    "description": "The generated-index page description for category Section module in sidebar manualSideBar"
+  },
+  "sidebar.manualSideBar.category.Fire design": {
+    "message": "Fire design",
+    "description": "The label for category Fire design in sidebar manualSideBar"
+  },
+  "sidebar.manualSideBar.category.Fire design.link.generated-index.description": {
+    "message": "The Fire design process is an integrated part of the ConSteel automated and efficient design process. In case of fire design situation ConSteel automatically uses and applies propel formulas of EuroCode for steel elements. General information about the design functionalities can be found in the Standard design chapter. This chapter describes the workflow of the Fire design in ConSteel and highlights the differences compared to the general rules. Depending on the designed fire protection solution, the structure can be unprotected or protected, in the latter case, the fire protection can be passive (insulation) or reactive (intumescent painting). The calculation can be performed with material properties at elevated or room temperature. In the case of elevated temperature analysis, the indirect effects of thermal expansion can also be considered separately. The required code checks of the different types of steel structural components – cross sections, members – can be conveniently evaluated based on the following standard: EN 1993-1-2: General rules. Structural fire design.",
+    "description": "The generated-index page description for category Fire design in sidebar manualSideBar"
+  },
+  "sidebar.manualSideBar.category.Earthquake analysis": {
+    "message": "Earthquake analysis",
+    "description": "The label for category Earthquake analysis in sidebar manualSideBar"
+  },
+  "sidebar.manualSideBar.category.Earthquake analysis.link.generated-index.description": {
+    "message": "ConSteels can perform earthquake analysis is based on Modal response spectrum analysis (MRSA). For more details see the next chapter.",
+    "description": "The generated-index page description for category Earthquake analysis in sidebar manualSideBar"
+  },
+  "sidebar.manualSideBar.category.Documentation": {
+    "message": "Documentation",
+    "description": "The label for category Documentation in sidebar manualSideBar"
+  },
+  "sidebar.manualSideBar.category.Documentation.link.generated-index.description": {
+    "message": "In ConSteel there is a powerful and easy-to-use documentation engine in order to create precise, easily editable static documents that meet the requirements of the structural engineers. The static documentation contains the full description of the model and also the results of the analysis and design.",
+    "description": "The generated-index page description for category Documentation in sidebar manualSideBar"
+  },
+  "sidebar.manualSideBar.category.Joint module": {
+    "message": "Joint module",
+    "description": "The label for category Joint module in sidebar manualSideBar"
+  },
+  "sidebar.manualSideBar.category.Joint module.link.generated-index.description": {
+    "message": "Consteel’s design philosophy places great emphasis on integrated modeling and calculation of the global structure and joints. Accordingly, an efficient steel connection design module (csJoint) has been developed.",
+    "description": "The generated-index page description for category Joint module in sidebar manualSideBar"
+  },
+  "sidebar.descriptSideBar.category.Scripting tools": {
+    "message": "Scripting tools",
+    "description": "The label for category Scripting tools in sidebar descriptSideBar"
+  },
+  "sidebar.descriptSideBar.category.Command reference": {
+    "message": "Command reference",
+    "description": "The label for category Command reference in sidebar descriptSideBar"
+  },
+  "sidebar.pluginsSideBar.category.Converter for AxisVM": {
+    "message": "Converter for AxisVM",
+    "description": "The label for category Converter for AxisVM in sidebar pluginsSideBar"
+  },
+  "sidebar.pluginsSideBar.category.Converter for AxisVM.link.generated-index.description": {
+    "message": "In pursuit of a streamlined workflow, ConSteel has developed a plugin specifically tailored for integration with AXISVM structural analysis and design software. This plugin enables users to seamlessly transfer critical data from AXISVM to ConSteel, facilitating the continuation or verification of structural calculations within the ConSteel environment. Importantly, not only geometry but also loads, combinations, section settings, and materials can be effortlessly imported into ConSteel. This integration empowers users to leverage the strengths of both software platforms, enhancing efficiency and ensuring a smooth transition between analysis and design stages.",
+    "description": "The generated-index page description for category Converter for AxisVM in sidebar pluginsSideBar"
+  }
+}

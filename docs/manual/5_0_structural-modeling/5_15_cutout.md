@@ -13,7 +13,7 @@ The modeling of various web cut-outs is currently available for welded I or H ty
 
 <!-- wp:image {"align":"center","id":11447,"width":493,"height":265,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/05/scr_dualbeam_cutouts_2.png)](./img/wp-content-uploads-2021-05-scr_dualbeam_cutouts_2.png)
+![](img\wp-content-uploads-2021-05-scr_dualbeam_cutouts_2.png)
 
 <!-- /wp:image -->
 
@@ -23,7 +23,7 @@ The modeling of various web cut-outs is currently available for welded I or H ty
 
 <!-- wp:image {"align":"center","id":11392,"width":523,"height":265,"sizeSlug":"full","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/05/scr_dualbeam_cutouts.png)](./img/wp-content-uploads-2021-05-scr_dualbeam_cutouts.png)
+![](img\wp-content-uploads-2021-05-scr_dualbeam_cutouts.png)
 
 <!-- /wp:image -->
 
@@ -39,7 +39,7 @@ The modeling of various web cut-outs is currently available for welded I or H ty
 
 <!-- wp:paragraph -->
 
-Cut-out can be placed on the webs of welded I or H sections, regardless of whether the member is set as a normal 7 DOF member or a shell element. The command can be found on the **Structural members **tab. Executing the command, the dialog window shown below will appear where three types of cut-outs can be defined and placed as described below.
+Cut-out can be placed on the webs of welded I or H sections, regardless of whether the member is set as a normal 7 DOF member or a shell element. The command can be found on the **Structural members** tab. Executing the command, the dialog window shown below will appear where three types of cut-outs can be defined and placed as described below.
 
 <!-- /wp:paragraph -->
 
@@ -49,7 +49,7 @@ Cut-out can be placed on the webs of welded I or H sections, regardless of wheth
 
 <!-- wp:image {"align":"center","id":11410,"width":237,"height":260,"sizeSlug":"full","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/05/dial_dual_cutout_rect.png)](./img/wp-content-uploads-2021-05-dial_dual_cutout_rect.png)
+![](img\wp-content-uploads-2021-05-dial_dual_cutout_rect.png)
 
 <!-- /wp:image -->
 
@@ -59,7 +59,7 @@ Cut-out can be placed on the webs of welded I or H sections, regardless of wheth
 
 <!-- wp:image {"align":"center","id":11404,"width":237,"height":260,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/05/dial_dual_cutout_circ.png)](./img/wp-content-uploads-2021-05-dial_dual_cutout_circ.png)
+![](img\wp-content-uploads-2021-05-dial_dual_cutout_circ.png)
 
 <!-- /wp:image -->
 
@@ -69,7 +69,7 @@ Cut-out can be placed on the webs of welded I or H sections, regardless of wheth
 
 <!-- wp:image {"align":"center","id":11398,"width":237,"height":260,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/05/dial_dual_cutout_hex.png)](./img/wp-content-uploads-2021-05-dial_dual_cutout_hex.png)
+![](img\wp-content-uploads-2021-05-dial_dual_cutout_hex.png)
 
 <!-- /wp:image -->
 
@@ -85,7 +85,7 @@ The usual placement options are available at the top of the dialog window:
 
 <!-- wp:list -->
 
-- ![](./img/wp-content-uploads-2021-04-5-3-draw-ico-11.png) the cut-outs can be placed **individually **by clicking on the reference line of the member,
+- ![](./img/wp-content-uploads-2021-04-5-3-draw-ico-11.png) the cut-outs can be placed **individually** by clicking on the reference line of the member,
 - ![](./img/wp-content-uploads-2021-04-cmd_multi_place.png) or by **multiple placement** with relative distances interpreted in the member local coordinate system.
 - ![](./img/wp-content-uploads-2021-04-cmd_draw_get.png) The properties of other cut-outs can get and used for new definitions as well.
 
@@ -93,7 +93,7 @@ The usual placement options are available at the top of the dialog window:
 
 <!-- wp:paragraph -->
 
-In the \_Parameters \_section, the reference line of the cut-out can be defined on the left side of the window (Fit to). The figure shows the selected reference line below the drop-down box. The location of the object can be specified relative to the:
+In the _Parameters_ section, the reference line of the cut-out can be defined on the left side of the window (Fit to). The figure shows the selected reference line below the drop-down box. The location of the object can be specified relative to the:
 
 <!-- /wp:paragraph -->
 
@@ -104,49 +104,20 @@ In the \_Parameters \_section, the reference line of the cut-out can be defined 
 <!-- wp:list {"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
 - reference line of the member,
+
+![](img\wp-content-uploads-2021-05-dial_dual_cutout_fit_refline.png)
+
 - middle line of the web,
+
+![](img\wp-content-uploads-2021-05-dial_dual_cutout_fit_webmid.png)
+
 - top flange,
+
+![](img\wp-content-uploads-2021-05-dial_dual_cutout_fit_top.png)
+
 - bottom flange.
 
-<!-- /wp:list -->
-
-<!-- /wp:column -->
-
-<!-- wp:column {"width":"19%","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-<!-- wp:image {"align":"center","id":11569,"width":131,"height":131,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/05/dial_dual_cutout_fit_refline.png)](./img/wp-content-uploads-2021-05-dial_dual_cutout_fit_refline.png)
-
-<!-- /wp:image -->
-
-<!-- /wp:column -->
-
-<!-- wp:column {"width":"19%","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-<!-- wp:image {"align":"center","id":11587,"width":131,"height":131,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/05/dial_dual_cutout_fit_webmid.png)](./img/wp-content-uploads-2021-05-dial_dual_cutout_fit_webmid.png)
-
-<!-- /wp:image -->
-
-<!-- /wp:column -->
-
-<!-- wp:column {"width":"19%","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-<!-- wp:image {"align":"center","id":11581,"width":131,"height":131,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/05/dial_dual_cutout_fit_top.png)](./img/wp-content-uploads-2021-05-dial_dual_cutout_fit_top.png)
-
-<!-- /wp:image -->
-
-<!-- /wp:column -->
-
-<!-- wp:column {"width":"19%"} -->
-
-<!-- wp:image {"align":"center","id":11575,"width":131,"height":131,"sizeSlug":"full","linkDestination":"media"} -->
-
-[![](https://consteelsoftware.com/wp-content/uploads/2021/05/dial_dual_cutout_fit_bottom.png)](./img/wp-content-uploads-2021-05-dial_dual_cutout_fit_bottom.png)
+![](img\wp-content-uploads-2021-05-dial_dual_cutout_fit_bottom.png)
 
 <!-- /wp:image -->
 
@@ -162,7 +133,7 @@ The selected option not only defines the cutout's reference object but also dete
 
 <!-- wp:image {"align":"center","id":11597,"width":311,"height":313,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/05/scr_dualbeam_cutout_ref.png)](./img/wp-content-uploads-2021-05-scr_dualbeam_cutout_ref.png)
+![](img\wp-content-uploads-2021-05-scr_dualbeam_cutout_ref.png)
 
 <!-- /wp:image -->
 
@@ -227,6 +198,6 @@ Cutouts are not considered in the design verifications at the moment.
 
 <!-- wp:html -->
 
-https://www.youtube.com/watch?v=7osFX9RpGnk
+<YouTubeEmbedded>7osFX9RpGnk</YouTubeEmbedded>
 
 <!-- /wp:html -->

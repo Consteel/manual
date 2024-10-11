@@ -1,0 +1,8 @@
+{
+  "label": "Keresztmetszet modul",
+  "position": 11,
+  "link": {
+    "type": "generated-index",
+    "description": "A Consteel keresztmetszetekkel kapcsolatos funkcionalitása egy különálló, de teljesen integrált modulba került, a Keresztmetszet modulba (csSection). Ez a modul összegyűjti az összes eszközt a keresztmetszet létrehozásához, tulajdonságainak számításához, feszültséganalíziséhez és a keresztmetszetek szabványos tervezéséhez. Két párhuzamos keresztmetszeti modellezés dolgozik együtt a Consteelben: a Általános Szilárd Keresztmetszet (GSS) egy pontos, véges elemes alapú felületmodell bármilyen típusú keresztmetszethez; az Elasztikus Lemez Szegmens (EPS) egy vékony lemez szegmensekből álló keresztmetszet modell, különösen acélszerkezetek esetén. Az acélszerkezetek szabványos tervezési képletei könnyen megoldhatók az EPS modell alapján, ideértve az aktuális 4. osztályú keresztmetszetet is, amelyet a szerkezeti elemzés során meghatározott keresztmetszeti belső erők alapján állítanak elő."
+  }
+}

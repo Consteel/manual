@@ -3,7 +3,7 @@ sidebar_position: 14
 ---
 # Superbeam
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/05/scr_dualbeam_demo_res.png)](./img/wp-content-uploads-2021-05-scr_dualbeam_demo_res.png)
+![](img\wp-content-uploads-2021-05-scr_dualbeam_demo_res.png)
 
 <!-- /wp:image -->
 
@@ -21,7 +21,7 @@ Superbeam is a new feature introduced with Consteel 15. It is developed for the 
 
 <!-- wp:list -->
 
-- The **beam FE model **(with 7DOF beam finite elements) with well-known analysis and design capabilities
+- The **beam FE model** (with 7DOF beam finite elements) with well-known analysis and design capabilities
 - The **shell FE model** (with shell finite elements) consistently connected into the global beam model and including the additional holes (web cut-outs) and stiffeners in the mesh.
 
 <!-- /wp:list -->
@@ -38,7 +38,7 @@ If the shell FE model (mesh) is selected for the analysis, it is automatically c
 
 <!-- wp:image {"align":"center","id":11619,"width":338,"height":150,"sizeSlug":"full","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/05/scr_dualbeam_stru.png)](./img/wp-content-uploads-2021-05-scr_dualbeam_stru.png)
+![](img\wp-content-uploads-2021-05-scr_dualbeam_stru.png)
 
 Bar member model of the beam
 
@@ -50,7 +50,7 @@ Bar member model of the beam
 
 <!-- wp:image {"align":"center","id":11625,"width":338,"height":150,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/05/scr_dualbeam_FE_line.png)](./img/wp-content-uploads-2021-05-scr_dualbeam_FE_line.png)
+![](img\wp-content-uploads-2021-05-scr_dualbeam_FE_line.png)
 
 7DOF beam model with warping stiffeners
 
@@ -62,7 +62,7 @@ Bar member model of the beam
 
 <!-- wp:image {"align":"center","id":11631,"width":338,"height":150,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/05/scr_dualbeam_FE_shell.png)](./img/wp-content-uploads-2021-05-scr_dualbeam_FE_shell.png)
+![](img\wp-content-uploads-2021-05-scr_dualbeam_FE_shell.png)
 
 Shell model with holes and stiffeners
 
@@ -74,19 +74,19 @@ Shell model with holes and stiffeners
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Several new adaptive detailing features are also available in addition to the Superbeam function: **stiffeners **and **web cutouts**. These objects are described in the following chapters:
+Several new adaptive detailing features are also available in addition to the Superbeam function: **stiffeners** and **web cutouts**. These objects are described in the following chapters:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-**\_**_[Stiffener](https://consteelsoftware.com/manual/structural-modelling/stiffener/)_**\_**
+**_[Stiffener](../5_0_structural-modeling/5_16_stiffener.md)_**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-_**[Web cutout](https://consteelsoftware.com/manual/structural-modelling/cutout/)**_
+_**[Web cutout](../5_0_structural-modeling/5_15_cutout.md)**_
 
 <!-- /wp:paragraph -->
 
@@ -104,7 +104,7 @@ Currently, these objects are only taken into account during analysis and design 
 
 <!-- wp:paragraph -->
 
-To use the capabilities of a shell model on a bar member, you have to change the type of the finite element model of a beam. First, you have to select the beam in the model space and then click on the "_Type of finite element_" field on the right _[Objects properties window](https://consteelsoftware.com/manual/how-to-open-consteel/the-main-window/#Object-properties-window)_ (see below).
+To use the capabilities of a shell model on a bar member, you have to change the type of the finite element model of a beam. First, you have to select the beam in the model space and then click on the "_Type of finite element_" field on the right _[Objects properties window](../1_0_general-description/1_2_the-main-window.md#object-properties-window)_ (see below).
 
 <!-- /wp:paragraph -->
 
@@ -114,7 +114,7 @@ To use the capabilities of a shell model on a bar member, you have to change the
 
 <!-- wp:image {"align":"left","id":11647,"width":231,"height":242,"sizeSlug":"full","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/05/grid_member_FE_type.png)](./img/wp-content-uploads-2021-05-grid_member_FE_type.png)
+![](img\wp-content-uploads-2021-05-grid_member_FE_type.png)
 
 <!-- /wp:image -->
 
@@ -124,7 +124,7 @@ To use the capabilities of a shell model on a bar member, you have to change the
 
 <!-- wp:paragraph -->
 
-The available types of finite elements in the drop-down list depend on the cross-section type (see chapter **_[Line members](https://consteelsoftware.com/manual/structural-modelling/line-members/#type-of-member)_** too). Currently, only welded I or H type sections can be changed to **shell element**. Other types of sections will be available later. After changing the FE model to shell element, a small symbol will appear on the member's reference line as a confirmation.
+The available types of finite elements in the drop-down list depend on the cross-section type (see chapter **_[Line members](../5_0_structural-modeling/5_2_line-members.md#line-members)_** too). Currently, only welded I or H type sections can be changed to **shell element**. Other types of sections will be available later. After changing the FE model to shell element, a small symbol will appear on the member's reference line as a confirmation.
 
 <!-- /wp:paragraph -->
 
@@ -140,13 +140,13 @@ The available types of finite elements in the drop-down list depend on the cross
 
 <!-- wp:image {"align":"left","id":21879,"width":287,"height":92,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/05/grid_member_shell.png)](./img/wp-content-uploads-2021-05-grid_member_shell.png)
+![](img\wp-content-uploads-2021-05-grid_member_shell.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-In the next row, the _Finite element generation_ type determines whether the **size of finite elements** will be _Automatic \_or \_Manual_. Finite element size can be specified separately for the web and the flanges. Choosing the automatic mode, the FE generation will follow the rules below:
+In the next row, the _Finite element generation_ type determines whether the **size of finite elements** will be _Automatic_ or _Manual_. Finite element size can be specified separately for the web and the flanges. Choosing the automatic mode, the FE generation will follow the rules below:
 
 <!-- /wp:paragraph -->
 
@@ -165,19 +165,11 @@ In the case of manual FE generation type, the size of the finite elements can be
 
 <!-- wp:separator {"align":"center"} -->
 
----
+:::info
 
-<!-- /wp:separator -->
+Please note, that by choosing a very different finite element size for the flanges and the web, the FE generation may lead to distorted elements, which may make the calculation less accurate.
+:::
 
-<!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-_Please note, that by choosing a very different finite element size for the flanges and the web, the FE generation may lead to distorted elements, which may make the calculation less accurate._
-
-<!-- /wp:paragraph -->
-
-<!-- wp:separator {"align":"center"} -->
-
----
 
 <!-- /wp:separator -->
 
@@ -189,7 +181,7 @@ In the next row, the type of **constraint elements** can be chosen, that can be
 
 <!-- wp:image {"align":"right","id":21887,"width":340,"height":399,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/05/scr_dualbeam_constraint.png)](./img/wp-content-uploads-2021-05-scr_dualbeam_constraint.png)
+![](img\wp-content-uploads-2021-05-scr_dualbeam_constraint.png)
 
 <!-- /wp:image -->
 
@@ -202,7 +194,7 @@ In the next row, the type of **constraint elements** can be chosen, that can be
 
 <!-- wp:paragraph -->
 
-The constraint elements are special model elements generated automatically during the member to shell conversion, connecting the FE nodes of the shell model to the other part of the model, e.g. to a continuously connected bar member. Constraints elements are drawn with orange lines in the Finite element view of the model (see picture). See more: [**_Constraints_**](/manual/structural-modelling/link-elements/#constraints)
+The constraint elements are special model elements generated automatically during the member to shell conversion, connecting the FE nodes of the shell model to the other part of the model, e.g. to a continuously connected bar member. Constraints elements are drawn with orange lines in the Finite element view of the model (see picture). See more: [**_Constraints_**](../5_0_structural-modeling/5_11_link-elements.md#constraints)
 
 <!-- /wp:paragraph -->
 
@@ -244,7 +236,7 @@ In the present version, the shell FE representation Of Superbeam is not compatib
 
 <!-- wp:paragraph -->
 
-Consteel uses a well defined logic to handle member to shell conversions automatically. If the automatic conversion results an unexpected or unwanted solution, the user can „explode” the converted member and place the eccentric objects directly on the shell representation, as normal. See **_[Chapter 5.5 Convert members to plates](/manual/structural-modelling/convert-members-to-plates/)_** for how to do this.
+Consteel uses a well defined logic to handle member to shell conversions automatically. If the automatic conversion results an unexpected or unwanted solution, the user can „explode” the converted member and place the eccentric objects directly on the shell representation, as normal. See **_[Chapter Convert members to plates](../5_0_structural-modeling/5_6_convert-members-to-plates.md)_** for how to do this.
 
 <!-- /wp:paragraph -->
 
@@ -320,6 +312,6 @@ Loads/supports defined on the Reference line will be positioned to the edge wher
 
 <!-- wp:html -->
 
-https://www.youtube.com/watch?v=3eTiNTNFI-g
+<YouTubeEmbedded>3eTiNTNFI-g</YouTubeEmbedded>
 
 <!-- /wp:html -->

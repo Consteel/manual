@@ -3,6 +3,6 @@
   "position": 9,
   "link": {
     "type": "generated-index",
-    "description": "The **_Mass _**tab contains functions, that are necessary for dynamic calculations. Mass cases and mass combinations can be created for masses that were placed on the model manually or converted automatically from loads into masses.<br>[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-1-Basics-1.png)](./img/wp-content-uploads-2021-04-7-1-Basics-1.png)</br>"
+    "description": "The Mass tab contains functions, that are necessary for dynamic calculations. Mass cases and mass combinations can be created for masses that were placed on the model manually or converted automatically from loads into masses."
   }
 }

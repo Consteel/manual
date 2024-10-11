@@ -1,0 +1,13 @@
+.our-partners-section {
+  background-color: var(--landing-page-background-color-5);
+}
+
+.title {
+  margin-bottom: 5rem;
+  color: var(--landing-page-title-color)
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-around;
+}

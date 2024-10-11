@@ -47,133 +47,55 @@ Limit states introduced in Consteel are combination of limit states and design s
 
 ![](./img/wp-content-uploads-2022-12-image-1.png)
 
-<!-- /wp:image -->
-
-<!-- wp:columns -->
-
-<!-- wp:column {"width":"100%"} -->
-
-<!-- wp:group {"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-<!-- wp:group {"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
 - ULS STR P/T
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
+
 - ULS GEO P/T
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
+
 - ULS STR/GEO P/T (this is a combined limit state for cases when STR and GEO combinations would be the same)
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
+
 - ULS EQU P/T
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
+
 - ULS Acc
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
+
 - ULS Seismic
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
+
 - ULS Other
-- <!-- /wp:list-item -->
 
-<!-- /wp:list -->
-
-<!-- /wp:group -->
-
-<!-- /wp:group -->
-
-<!-- /wp:column -->
-
-<!-- /wp:columns -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
 - SLS Char
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
+
 - SLS Freq
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
+
 - SLS Q-p
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
+
 - SLS Seismic
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
+
 - SLS Other
-- <!-- /wp:list-item -->
 
-<!-- /wp:list -->
-
-<!-- wp:paragraph -->
 
 In order to cover cases not strictly under EC scope, and make sure of smooth transition of old files, there is an ‘Other’ limit state for ULS and SLS too.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
 
 When opening models saved in previous Consteel versions, the limit states will be converted as follows:
 
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
 - ULS -> ULS Other
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
+
 - SLS -> SLS Other
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
+
 - ULS EQ (Seismic generated) -> ULS Seismic
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
+
 - SLS EQ (Seismic generated) -> SLS Seismic
-- <!-- /wp:list-item -->
 
-<!-- /wp:list -->
-
-<!-- wp:paragraph -->
 
 For manually defined load combinations, the limit states can be selected. Seismic combinations can not be defined manually, they can be created only by automatic generation. Load combinations in ULS GEO P/T and ULS EQU P/T limit states are used only for foundation design. Consequently, global design checks will not be performed in these limit states and analysis results are not transferred for connection design (except for spread footing).
 
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3,"editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
 ### **Load combinations**
 
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
 
 **Consteel 16**
 
-<!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"align":"justify"} -->
-
-According to the actual _[structural design code](/manual/how-to-open-consteel/the-main-window/#Standards-menu)_, load case combinations must be created from the _[load cases](/manual/structural-loads/load-cases-and-load-groups/)_. Load combinations can be created manually by defining the combination factors manually for each load case or can be created automatically by using the **Automatic load combination generation** function of _ConSteel_.
+According to the actual _[structural design code](../1_0_general-description/1_2_the-main-window.md)_, load case combinations must be created from the _[load cases](./6_1_load-cases-and-load-groups.md#create-new-load-group)_. Load combinations can be created manually by defining the combination factors manually for each load case or can be created automatically by using the **Automatic load combination generation** function of _Consteel_.
 
 <!-- /wp:paragraph -->
 
@@ -185,7 +107,7 @@ The load combinations can be managed in the table of load combinations which can
 
 <!-- wp:image {"align":"right","id":43854,"sizeSlug":"full","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/12/Kep1.png)](./img/wp-content-uploads-2022-12-Kep1.png)
+![](img\wp-content-uploads-2022-12-Kep1.png)
 
 <!-- /wp:image -->
 
@@ -239,13 +161,13 @@ The yellow rows in the load combination table are the automatically generated co
 
 <!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2021-04-cmd_LCC_new.png)**Automatic generation of load combination** - according to the design standard and the _[settings of load groups and load cases](/manual/structural-loads/load-cases-and-load-groups/#LCC-options)_. A new window will appear where the desired combination creating formulas can be selected. The ULS and SLS combinations are placed on two separate tabs. To create combinations according to the desired formula, select the checkbox before it. The load cases to be combined can be selected from the tree structure on the right. Press **Apply **to create the combinations.
+![](./img/wp-content-uploads-2021-04-cmd_LCC_new.png)**Automatic generation of load combination** - according to the design standard and the _[settings of load groups and load cases](../6_0_structural-loads/6_1_load-cases-and-load-groups.md#load-cases-and-load-groups)_. A new window will appear where the desired combination creating formulas can be selected. The ULS and SLS combinations are placed on two separate tabs. To create combinations according to the desired formula, select the checkbox before it. The load cases to be combined can be selected from the tree structure on the right. Press **Apply** o create the combinations.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":43861,"sizeSlug":"full","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2022/12/Kep2.png)](./img/wp-content-uploads-2022-12-Kep2.png)
+![](img\wp-content-uploads-2022-12-Kep2.png)
 
 <!-- /wp:image -->
 
@@ -261,7 +183,7 @@ The yellow rows in the load combination table are the automatically generated co
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-According to the actual _[structural design code](/manual/how-to-open-consteel/the-main-window/#Standards-menu)_, load case combinations must be created from the _[load cases](/manual/structural-loads/load-cases-and-load-groups/)_. Load combinations can be created manually by defining the combination factors manually for each load case or can be created automatically by using the **Automatic load combination generation** function of _ConSteel_.
+According to the actual _[structural design code](../1_0_general-description/1_2_the-main-window.md)_, load case combinations must be created from the _[load cases](./6_1_load-cases-and-load-groups.md#creating-new-load-case)_. Load combinations can be created manually by defining the combination factors manually for each load case or can be created automatically by using the **Automatic load combination generation** function of _Consteel_.
 
 <!-- /wp:paragraph -->
 
@@ -273,7 +195,7 @@ The load combinations can be managed in the table of load combinations which can
 
 <!-- wp:image {"align":"right","id":9943,"width":510,"height":320,"sizeSlug":"full","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-3-Load-combinations.png)](./img/wp-content-uploads-2021-04-7-3-Load-combinations.png)
+![](img\wp-content-uploads-2021-04-7-3-Load-combinations.png)
 
 <!-- /wp:image -->
 
@@ -327,13 +249,13 @@ The yellow rows in the load combination table are the automatically generated co
 
 <!-- wp:image {"align":"right","id":9950,"width":432,"height":326,"sizeSlug":"full","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](https://consteelsoftware.com/wp-content/uploads/2021/04/7-3-Automatic-generation-of-load-combinations.png)](./img/wp-content-uploads-2021-04-7-3-Automatic-generation-of-load-combinations.png)
+![](img\wp-content-uploads-2021-04-7-3-Automatic-generation-of-load-combinations.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2021-04-cmd_LCC_new.png)**Automatic generation of load combination** - according to the design standard and the _[settings of load groups and load cases](/manual/structural-loads/load-cases-and-load-groups/#LCC-options)_. A new window will appear where the desired combination creating formulas can be selected. The ULS and SLS combinations are placed on two separate tabs. To create combinations according to the desired formula, select the checkbox before it. The load cases to be combined can be selected from the tree structure on the right. Press **Apply **to create the combinations.
+![](./img/wp-content-uploads-2021-04-cmd_LCC_new.png)**Automatic generation of load combination** - according to the design standard and the _[settings of load groups and load cases](../6_0_structural-loads/6_1_load-cases-and-load-groups.md)_. A new window will appear where the desired combination creating formulas can be selected. The ULS and SLS combinations are placed on two separate tabs. To create combinations according to the desired formula, select the checkbox before it. The load cases to be combined can be selected from the tree structure on the right. Press **Apply** to create the combinations.
 
 <!-- /wp:paragraph -->
 
@@ -365,9 +287,9 @@ From Consteel 16, it is possible to create load combination sets for different p
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"textColor":"consteel-blue"} -->
+<!-- wp:paragraph {"textColor":"Consteel-blue"} -->
 
-To use the load combination set for the analysis, select it from the drop-down menu on **Analysis parameters - [Subpage of load combinations](https://consteelsoftware.com/manual/structural-analysis/analysis-settings/#subpage-of-load-combinations)**.
+To use the load combination set for the analysis, select it from the drop-down menu on **Analysis parameters - [Subpage of load combinations](../8_0_structural-analysis/8_3_analysis-settings.md#subpage-of-load-combinations)**.
 
 <!-- /wp:paragraph -->
 
@@ -489,6 +411,8 @@ All existing load combinations are listed here. The goal is to create reduced li
 
 \-In the upper right corner of the table, the eye-shaped icon regulates the visibility of the load combinations. The two options are: show all and show only selected
 
+![alt text](img/showall.png)    ![alt text](img/showselected.png)
+
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -599,7 +523,7 @@ The checkboxes are indicators of the content of the list below and also the tool
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"textColor":"consteel-blue"} -->
+<!-- wp:paragraph {"textColor":"Consteel-blue"} -->
 
 For definition of the rules, see **_Chapter [Rules](#rules)_**.
 
@@ -624,14 +548,14 @@ Rules can be applied by checking in the checkbox in the first column of the summ
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-
-**Rules can only be applied on calculation results. If the result necessary for the applied rule is not existent in some load combinations, then those load combinations will be turned off.**
-
+:::info
+Rules can only be applied on calculation results. If the result necessary for the applied rule is not existent in some load combinations, then those load combinations will be turned off.
+:::
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-When a rule is applied, all the load combinations which are selected on the \***\*Load combination set definition\*\*** dialog are examined at every position the rule indicates, then the load combinations which corresponds to the rule are selected (remain checked) and those which do not, become unchecked. Consequently, the number of selected load combinations before filtering by rules is always greater than or equal to the number after filter. Filter by rules will never select a load combination which was not selected on the **Load combination set definition** dialog before the filter.
+When a rule is applied, all the load combinations which are selected on the **Load combination set definition** dialog are examined at every position the rule indicates, then the load combinations which corresponds to the rule are selected (remain checked) and those which do not, become unchecked. Consequently, the number of selected load combinations before filtering by rules is always greater than or equal to the number after filter. Filter by rules will never select a load combination which was not selected on the **Load combination set definition** dialog before the filter.
 
 <!-- /wp:paragraph -->
 
@@ -645,18 +569,10 @@ Rules can be applied to model portions. It means that only the results of the no
 
 When applying more than one rules together, the lists of selected combinations is the sum of the lists that would have been created separately.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"left","id":47266,"width":156,"height":166,"sizeSlug":"full","linkDestination":"none","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-![](./img/wp-content-uploads-2023-04-image-8.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
+:::warning
 
 The result of filtering by two rules will differ when applying the rules at the same time or one after another because the list of combinations that the filters are applied on are different.
-
+:::
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -885,178 +801,58 @@ With analysis rules, load combinations can be selected based on deformations or 
 
 \-_Limitations for analysis rules:_
 
-<!-- /wp:paragraph -->
-
-<!-- wp:list -->
-
-- <!-- wp:list-item -->
 - **_Maximum:_** to select the combinations which cause the maximum deformation or internal force (whichever is chosen at Result type) at all of the positions.
-- <!-- /wp:list-item -->
--
-- <!-- wp:list-item -->
+
 - **_More than % of maximum:_** to select the combinations as ’Maximum’ plus those which cause deformation or internal force that is more than the given percentage of the maximum. E.g. at a certain point Mymax=50kNm, Limitation= More than 90% of maximum. This rule will select all the load combinations which cause My=45-50kNm.
-- <!-- /wp:list-item -->
 
-<!-- /wp:list -->
-
-<!-- /wp:column -->
-
-<!-- wp:column -->
-
-<!-- wp:image {"align":"right","id":47468,"width":393,"height":388,"sizeSlug":"full","linkDestination":"none","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
 ![](./img/wp-content-uploads-2023-04-Analysis-rule-1.png)
 
-<!-- /wp:image -->
-
-<!-- /wp:column -->
-
-<!-- /wp:columns -->
-
-<!-- wp:paragraph -->
-
 **Buckling rule**
 
-<!-- /wp:paragraph -->
-
-<!-- wp:columns -->
-
-<!-- wp:column {"width":"60%"} -->
-
-<!-- wp:paragraph -->
 
 _-Buckling rules_: It is possible to select those ULS load combinations where the elastic critical load factor (first buckling eigenvalue) is less than the given value.
 
-<!-- /wp:paragraph -->
-
-<!-- /wp:column -->
-
-<!-- wp:column -->
-
-<!-- wp:image {"align":"right","id":47452,"width":393,"height":318,"sizeSlug":"full","linkDestination":"none","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
 ![](./img/wp-content-uploads-2023-04-Buckling-rule.png)
 
-<!-- /wp:image -->
-
-<!-- /wp:column -->
-
-<!-- /wp:columns -->
-
-<!-- wp:paragraph -->
 
 **Design rule**
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
 
 With design rules, load combinations can be selected based on utility ratios. Utilizations are available from several design checks: dominant results and detailed verifications for steel elements such as general elastic cross-section check, pure resistances, interactions and global stability. Only ULS combinations can be filtered with design rules.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:columns -->
-
-<!-- wp:column {"width":"60%"} -->
-
-<!-- wp:paragraph -->
 
 Design rules are checked for every FE point of the model portion.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
 
 \- _Utilization type:_
 
-<!-- /wp:paragraph -->
 
-<!-- wp:list -->
 
-- <!-- wp:list-item -->
+- **_Maximum of dominant results_:** it contains utility ratios of only one dominant load combination at every point, exactly the same as the dominant result table on Global checks tab. Consequently, there is only one option for limitation, ’More than’ the given utility ratio (%).
 
-- **_Maximum of dominant results_: **it contains utility ratios of only one dominant load combination at every point, exactly the same as the dominant result table on Global checks tab. Consequently, there is only one option for limitation, ’More than’ the given utility ratio (%).
-
-- <!-- /wp:list-item -->
-
--
-
-* <!-- wp:list-item -->
 
 * **_Steel – Dominant results_**: it contains utility ratios of the dominant check at every point, in all load combinations. Limitations:
 
-  <!-- wp:list -->
-
-  - <!-- wp:list-item -->
   - **_Maximum_**: to select the combinations which cause the maximum utilization. It can be the same as Maximum of dominant results, except if there are combinations where the utilization is the same and it is maximal.
-  - <!-- /wp:list-item -->
-  -
-  - <!-- wp:list-item -->
+
   - **_More than % of maximum_:** to select the combinations as in ’Maximum’ plus those which cause utilization that is more than the given percentage of the maximum. E.g. at a certain point max utility ratio is 80%, Limitation= More than 90% of maximum. This rule will select all the load combinations which cause utility ratios between 0,9\*80=72% and 80%.
-  - <!-- /wp:list-item -->
-  -
-  - <!-- wp:list-item -->
+
   - **_More than_**: to select the combinations which cause utilization more than the defined value at any point.
-  - <!-- /wp:list-item -->
 
-  <!-- /wp:list -->
 
-* <!-- /wp:list-item -->
+- **Steel – General elastic cross-section resistance, Pure resistances….Global stability resistance:** they contain the ratios of the concrete checks in every load combination at every point.
 
-*
-
-- <!-- wp:list-item -->
-
-- **_Steel – General elastic cross-section resistance, Pure resistances….Global stability resistance: _**they contain the ratios of the concrete checks in every load combination at every point.
-
-- <!-- /wp:list-item -->
-
-<!-- /wp:list -->
-
-<!-- /wp:column -->
-
-<!-- wp:column -->
-
-<!-- wp:image {"align":"right","id":47460,"width":393,"height":291,"sizeSlug":"full","linkDestination":"none","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
 ![](./img/wp-content-uploads-2023-04-Design-rule.png)
 
-<!-- /wp:image -->
 
-<!-- /wp:column -->
+:::warning
 
-<!-- /wp:columns -->
-
-<!-- wp:paragraph -->
-
-<!-- /wp:paragraph -->
-
-<!-- wp:columns -->
-
-<!-- wp:column -->
-
-<!-- wp:image {"id":47368,"sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2023-04-image-20.png)
-
-<!-- /wp:image -->
-
-<!-- /wp:column -->
-
-<!-- wp:column {"width":"75%"} -->
-
-<!-- wp:paragraph -->
 
 **_Steel – Dominant results_** are produced the same way as it is done on **Global checks** tab. Except the handling of the equal maximal ratios. On **Global checks** only one maximal is shown, in the filter all is selected.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
 
 The dominant check is not always the check which gives the maximal ratio: e.g. if plastic interaction formulas are valid, those results will be dominant over general elastic cross-section check results, although the latter are higher. If there are only cross-section check results available, the **_Steel – Dominant results_** will consider only those.
-
-<!-- /wp:paragraph -->
-
-<!-- /wp:column -->
-
-<!-- /wp:columns -->
+:::
