@@ -36,3 +36,5 @@ jobs:
         with:
           firebaseServiceAccount: ${{ secrets.FIREBASE_HOSTING_TOKEN }}
           channelId: live
+        env:
+          FIREBASE_CLI_EXPERIMENTS: webframeworks
