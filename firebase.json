@@ -1,17 +1,19 @@
 {
-  "hosting": {
-    "target": "consteel-docs",
-    "source": "build",
-    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
+  "hosting": [
+    {
+      "target": "consteel-docs",
+      "source": "build",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "frameworksBackend": {
+        "region": "europe-west3",
+        "memory": "512"
       }
-    ],
-    "frameworksBackend": {
-      "region": "europe-west3",
-      "memory": 512
     }
-  }
+  ]
 }
