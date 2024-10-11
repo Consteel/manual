@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "consteel-site"
+  },
+  "targets": {
+    "consteel-site": {
+      "hosting": {
+        "consteel-docs": [
+          "consteel-docs"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

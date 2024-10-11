@@ -1,11 +1,14 @@
 name: Manual pipeline config
 
-# Trigger the pipeline on push
+# Trigger the pipeline
 on:
   push:
     branches:
       - master
-      - development
+
+  pull_request:
+    branches:
+      - master
 
 # Steps to execute
 jobs:
@@ -26,3 +29,9 @@ jobs:
 
       - name: Build the project
         run: npm run build
+
+      - name: Publish the project to firebase
+        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+        uses: FirebaseExtended/action-hosting-deploy@v0.7.0
+        with:
+          firebaseServiceAccount: ${{ secrets.FIREBASE_HOSTING_TOKEN }}
