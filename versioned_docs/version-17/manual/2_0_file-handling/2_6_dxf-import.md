@@ -1,8 +1,8 @@
 ---
 sidebar_position: 6
 ---
-# DXF import
 
+# DXF import
 
 To import a dxf drawing file, click on File menu, import tools. Choose DXF from the available import functions.
 
@@ -10,7 +10,7 @@ To import a dxf drawing file, click on File menu, import tools. Choose DXF from 
 
 <!-- wp:image {"align":"center","id":7574,"width":285,"height":182,"sizeSlug":"full","linkDestination":"media"} -->
 
-![alt text](img/dxfimport.png)
+![alt text](img/DXFimport.png)
 
 <!-- /wp:image -->
 
