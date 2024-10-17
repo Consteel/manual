@@ -10,7 +10,7 @@ const config: Config = {
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-site.example.com",
+  url: "https://docs.consteelsoftware.com",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -25,7 +25,6 @@ const config: Config = {
     defaultLocale: "en",
     locales: ["en", "hu"],
   },
-  themes: ["@easyops-cn/docusaurus-search-local"],
 
   presets: [
     [
@@ -59,8 +58,17 @@ const config: Config = {
   ],
 
   themeConfig: {
+    algolia: {
+      appId: 'RYDLO2Z3D4',
+      apiKey: '24e69435851dc2b9d9c09ae4c7d0a08a',
+      indexName: 'consteelsoftware',
+      contextualSearch: true
+    },
+    metadata: [
+      {name: 'description', content: 'Discover the Consteel Documentation Center—your go-to resource for mastering structural design. Access the Consteel user manual, plugin documentation, and release notes, and stay up to date with the latest software developments and expert guides.'}
+    ],
     // Replace with your project's social card
-    image: "img/docusaurus-social-card.jpg",
+    image: "img/logo.svg",
     navbar: {
       logo: {
         alt: "My Site Logo",

@@ -10,12 +10,9 @@ import clsx from "clsx";
 import styles from "./index.module.css";
 
 export default function Home(): JSX.Element {
-  const { siteConfig } = useDocusaurusContext();
-
   return (
     <Layout
-      title={`${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      title={`Home`}
     >
       <main className={clsx([styles["landing-page"]])}>
         <HomePageHeaderSection />
