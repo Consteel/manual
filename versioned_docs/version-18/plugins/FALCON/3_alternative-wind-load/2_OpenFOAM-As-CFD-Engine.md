@@ -38,26 +38,21 @@ Therefore, the meshing process involves the following stages:
 - Cell Layer Addition: After the surface snapping, a layer of prismatic or hexahedral cells can be added near the geometry's surface to capture boundary layer effects.
 
 - Mesh Refinement: Localized mesh refinements can be applied to regions of interest, ensuring higher mesh resolution where necessary.
-
  
+![alt text](<img/meshing procedure.png>)
+_The overview of the meshing procedure via OpenFOAM_
 
-Open image-20240117-114836.png
-image-20240117-114836.png
-The overview of the meshing procedure via OpenFOAM
-Turbulence modelling
+### Turbulence modelling
+
 Turbulence modelling is an essential component of Computational Fluid Dynamics (CFD) simulations used to predict the behaviour of fluid flows in various engineering applications. Turbulence refers to the chaotic change of field values in space and time at high velocities, a challenging phenomenon to accurately model and predict using traditional methods. CFD simulations aim to capture the complex interactions and fluctuations that arise in turbulent flows by employing various turbulence models.
 
- 
 
 In real-world scenarios, turbulence is ubiquitous and significantly impacts fluid behaviour, heat transfer, and mass transport.
 
 Accurate prediction of turbulence effects is crucial for designing efficient and safe engineering systems, such as aircraft, vehicles, buildings, and industrial processes. However, simulating turbulence directly requires solving the Navier-Stokes equations for every individual turbulent eddy, which is computationally prohibitive for most practical applications. Turbulence models offer a compromise between accuracy and computational cost.
 
- 
-
-Open image-20240117-115515.png
-image-20240117-115515.png
-Overview of turbulence modelling approaches
+![alt text](<img/modelling approach.png>) 
+_Overview of turbulence modelling approaches_
  
 
 Turbulence models can be categorized into two main types: Reynolds-Averaged Navier-Stokes (RANS) models and Large Eddy Simulation (LES) models. RANS models average the flow variables over time and space to obtain the mean flow properties. These models solve for the mean flow field while providing additional equations to predict the turbulent fluctuations. While LES models simulate larger eddies explicitly while modelling smaller eddies. This approach is computationally more demanding than RANS models but can provide higher accuracy for complex flows. LES is suitable for capturing large-scale turbulence structures.
@@ -78,7 +73,8 @@ The k-epsilon model solves transport equations for k and epsilon, considering th
 
 The k-epsilon model is relatively simple and computationally efficient, making it a popular choice for a wide range of engineering simulations. However, it may not accurately capture the complexities of certain turbulent flows, especially those with strong swirling or anisotropic behaviour. In such cases, more advanced turbulence models like the Reynolds Stress Model (RSM) or Large Eddy Simulation (LES) may be more appropriate. The choice of turbulence model depends on the specific flow characteristics and the level of accuracy required for the simulation.
 
-Solvers            
+### Solvers        
+    
 Computational Fluid Dynamics (CFD) solvers are pivotal components of numerical simulations that enable the study and analysis of fluid flow and its interactions with solid structures. These solvers encompass a diverse range of mathematical and computational techniques, offering the capability to simulate complex fluid dynamics scenarios that may be challenging or impractical to study through physical experiments alone.
 
 CFD solvers work by discretizing the governing equations of fluid motion (Navier-Stokes equations) into a numerical grid or mesh that spans the computational domain. This mesh is composed of discrete cells or elements where fluid properties are computed and updated at discrete time steps. The choice of solver depends on the type of flow being simulated, the level of accuracy required, and computational resources available.
