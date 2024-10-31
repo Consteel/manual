@@ -59,13 +59,17 @@ const config: Config = {
 
   themeConfig: {
     algolia: {
-      appId: 'RYDLO2Z3D4',
-      apiKey: '24e69435851dc2b9d9c09ae4c7d0a08a',
-      indexName: 'consteelsoftware',
-      contextualSearch: true
+      appId: "RYDLO2Z3D4",
+      apiKey: "24e69435851dc2b9d9c09ae4c7d0a08a",
+      indexName: "consteelsoftware",
+      contextualSearch: true,
     },
     metadata: [
-      {name: 'description', content: 'Discover the Consteel Documentation Center—your go-to resource for mastering structural design. Access the Consteel user manual, plugin documentation, and release notes, and stay up to date with the latest software developments and expert guides.'}
+      {
+        name: "description",
+        content:
+          "Discover the Consteel Documentation Center—your go-to resource for mastering structural design. Access the Consteel user manual, plugin documentation, and release notes, and stay up to date with the latest software developments and expert guides.",
+      },
     ],
     // Replace with your project's social card
     image: "img/logo.svg",
@@ -73,7 +77,7 @@ const config: Config = {
       logo: {
         alt: "My Site Logo",
         src: "img/logo.svg",
-        srcDark: "img/logo_white.svg"
+        srcDark: "img/logo_white.svg",
       },
       items: [
         {
@@ -101,6 +105,12 @@ const config: Config = {
               type: "doc",
               docId: "plugins/axis/axisvm-plugin",
               label: "Converter for AXISVM",
+              className: "text-transform-uppercase",
+            },
+            {
+              type: "doc",
+              docId: "plugins/FALCON/introduction/index",
+              label: "Falcon",
               className: "text-transform-uppercase",
             },
           ],
