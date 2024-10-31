@@ -1,3 +1,4 @@
-# Scripting tools
+# Alternative wind load evaluation
 
-Apart from commands that correspond to actions and features features in Consteel, Descript provides a set of other tools to make scripting more powerful. These involve certain programming tools, like various data containers that can hold values (eg: variables), basic mathematical operators, and tools for cyclical and conditional code execution (for loop and if statement). A detailed description of these tools can be found in the following chapters.
+
+This chapter is intended to offer a basic theoretical background for the Wind Load Generator Service.
