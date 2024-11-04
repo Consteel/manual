@@ -13,7 +13,7 @@ After downloading the plugin .exe file, ensure that you check the “Install Ope
 
 ### YES
 *** 
-![alt text](image-4.png)
+![alt text](img/image-4.png)
 
 -  If OpenFOAM is already installed but you check the checkbox anyway, the following message will appear:
 
@@ -27,12 +27,12 @@ If you press Install, a new OpenFOAM instance will be installed, which will **sl
 
 -  On the final window, _Completing the FalconPlugin 1 Setup Wizard_, press **Finish**.
 
- ![alt text](image-3.png)
+ ![alt text](img/image-3.png)
 
 ### NO
 
 *** 
-![alt text](image-5.png)
+![alt text](img/image-5.png)
 
 •	If OpenFOAM is **not** already installed, the following message will appear:
 
@@ -47,18 +47,18 @@ _"The following applications are using files that need to be updated by Setup. I
 •	On the _Welcome to OpenFOAM_ for Windows Setup window, press **Next**.
 
 •	On the _Preliminaries_ window, check the **Skip this feature** checkbox and press **Next**.
-![alt text](image-7.png)
+![alt text](img/image-7.png)
  
 •	On the following seven windows, press **Next** and **Install** without changing the default settings.
 •	When you reach the Complete the Microsoft MPI Setup Wizard window, press **Finish**.
 
- ![alt text](image-8.png)
+ ![alt text](img/image-8.png)
 
 •	After the Microsoft MPI installation is completed by pressing **OK**, Cygwin and OpenFOAM need to be installed in five steps:
 - 	Step 1: Installing Open FOAM
 - 	Step 2: Install ParaView – It is recommended only for research purposes; for regular engineering projects, users can skip the installation of ParaView.
 
-   ![alt text](image-9.png)
+   ![alt text](img/image-9.png)
 
 - 	Step 3: Install swak4Foam
 - 	Step 4: Install PyFoam
@@ -78,12 +78,12 @@ _"The following applications are using files that need to be updated by Setup. I
 
 •	Press **Next** on the Information window, then **Finish**.
    
-   ![alt text](image-10.png)
+   ![alt text](img/image-10.png)
  
 
 If the installation was **successful**, upon opening **Consteel 18**, two new FALCON icons will appear on the Loads tab.
--	**FALCON – Wind simulation**  ![alt text](image-14.png)
--	**FALCON- Wind Load generation from simulation results** ![alt text](image-15.png)
+-	**FALCON – Wind simulation**  ![alt text](img/image-14.png)
+-	**FALCON- Wind Load generation from simulation results** ![alt text](img/image-15.png)
 
 
-![alt text](image-13.png)
+![alt text](img/image-13.png)
