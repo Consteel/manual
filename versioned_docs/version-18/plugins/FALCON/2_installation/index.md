@@ -82,9 +82,15 @@ _"The following applications are using files that need to be updated by Setup. I
    ![alt text](img/image-10.png)
  
 
-If the installation was **successful**, upon opening **Consteel 18**, two new FALCON icons will appear on the Loads tab.
+If the installation is successful, two new **FALCON icons** on the _Loads tab_ will be functional when **Consteel 18** is opened:
 -	**FALCON – Wind simulation**  ![alt text](img/image-14.png)
 -	**FALCON- Wind Load generation from simulation results** ![alt text](img/image-15.png)
 
 
 ![alt text](img/image-13.png)
+
+:::info
+Since this initial stage of the **FALCON plugin** is a free beta version available for for preliminary testing and use, please ensure that you [register](https://share.hsforms.com/1ryjbZxr3S1OFOKhEjZhtzQ2irg2) before starting. 
+
+Following a fine-tuning phase in collaboration with our dedicated users, the final version is scheduled for release next year.
+:::
