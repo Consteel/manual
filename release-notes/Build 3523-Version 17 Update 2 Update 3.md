@@ -1,6 +1,6 @@
 ---
-slug: Version 17 Update 2 Hotfix 3
-title: Version 17 Update 2 Hotfix 3
+slug: Build 3523-Version 17 Update 2 Update 3
+title: Build 3523-Version 17 Update 2 Update 3
 
 tags: [consteel, update]
 ---
