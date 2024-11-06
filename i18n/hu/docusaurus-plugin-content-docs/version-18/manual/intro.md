@@ -2,35 +2,37 @@
 sidebar_position: 1
 ---
 
-# Introduction
+# Bevezetés
 
-Welcome to the Consteel software manual for structural engineers, your comprehensive guide for using the Consteel analysis and design software. If you are new to Consteel and would like to know more, visit our [website](https://consteelsoftware.com/). 
+Üdvözlünk a Consteel szoftver kézikönyvben, amely átfogó útmutatót nyújt a Consteel szerkezeti analízis és méretező szoftver használatához statikus tervezők számára. Látogass el [weboldalunkra](https://consteelsoftware.com/hu/), ha új vagy még a Consteel világában, és szeretnél többet megtudni róla. 
 
-## Getting started with Consteel 
+## Első lépések a Consteellel 
 
-If this is your first time using our platform, we recommend starting with a brief tour to familiarize yourself with the user interface and navigation. In addition to exploring the Documentation Center pages, you should also check out our tutorial exercises to get hands-on experience. 
+Ha most használod először a platformunkat, javasoljuk, hogy kezdj egy rövid bemutatóval, amely segít megismerni a felhasználói felületet és a navigációt. A Dokumentációs Center oldalainak tanulmányozása mellett próbáld ki az oktatóanyagokat is, hogy gyakorlati tapasztalatot szerezhess. 
 
-Here are some key steps to get started: 
+Íme néhány fontos lépés a kezdéshez: 
 
-- [Explore the User Interface](https://youtu.be/--DiQUZgvBI?si=MH0h-Ml1GEn5hOgQ): Get to know the layout and features of Consteel to navigate the software efficiently. 
+- [Ismerd meg a felhasználói felületet](https://www.youtube.com/watch?v=--DiQUZgvBI): Fedezd fel a Consteel felületét és funkcióit, hogy könnyedén navigálhass a szoftverben. 
 
-- Build your first models:  
+- Építsd meg az első modelled: 
       
-    - Follow our tutorial to [design lattice girders](https://consteelsoftware.com/knowledgebase/design-of-lattice-girders-based-on-en-1993-1-1-standard/) based on the EN 1993-1-1 standard. 
+    - Kövesd az oktatóanyagunkat, és [tervezz egy rácsos tartót](https://consteelsoftware.com/hu/knowledgebase/racsos-tarto-tervezese-az-en-1993-1-1-szabvany-alapjan/) az EN 1993-1-1 szabvány alapján. 
 
-## Support and additional resources 
+## Támogatás és további segédletek 
 
-Starting with a new analysis and design software can be challenging. If you encounter any issues or bugs while setting up your model and the Documentation Center does not provide the answers you need, don’t hesitate to reach out to our support team. We are here to assist you and will do our best to resolve your issues promptly.  
+Egy új analízis és tervező szoftver elsajátítása kihívást jelenthet. Ha bármilyen problémával találkozol a modell építése során, és nem találsz választ a Dokumentációs Centerben, ne habozz kapcsolatba lépni ügyfélszolgálatunkkal. Igyekszünk mindent megtenni és segíteni, hogy gyorsan megoldjuk a problémákat. 
 
-For troubleshooting and support, you can explore the following resources:  
+További támogatásért és segítségért az alábbi segédleteket ajánljuk: 
 
-- [Help Center](https://consteelsoftware.com/servicecenter/support/): If you need help or have a great feature idea, just post a ticket through the Help Center and our support team will contact you soon. 
+- [Help Center](https://consteelsoftware.com/hu/servicecenter/consteel-support-services-and-help-center/): Ha segítségre van szükséged, vagy megosztanál egy nagyszerű funkcióötletet, csak küldd be a kérésed a Help Center portálon, és a támogató csapatunk hamarosan felveszi veled a kapcsolatot. 
 
-- [Knowledge Base](https://consteelsoftware.com/knowledgebase/): Access a well-curated collection of learning materials and models of different types and levels to help your understanding of how to develop an effective design workflow in Consteel. 
+- [Tudásbázis](https://consteelsoftware.com/hu/knowledgebase/): Gondosan összeállított tananyagok és különböző típusú modellek tára, hogy jobban megértsd, hogyan fejlessz ki egy hatékony tervezési munkafolyamatot a Consteellel. 
 
-- [Script Library](https://consteelsoftware.com/script/): Explore an all-around selection of multilevel scripting solutions. Includes a wide range of prepared Descript examples which are ready to go to use in Consteel and speed up the workflow. 
+- [Script könyvtár](https://consteelsoftware.com/script/): Fedezd fel a több szintű szkriptmegoldások széles választékát. Az előre elkészített Descript példák gyorsan alkalmazhatóak a Consteelben, hogy felgyorsítsák a munkafolyamatot. 
 
-- [YouTube channel](https://www.youtube.com/@ConSteelSolutions): By subscribing, you will gain access to webinars, tutorials, and major version updates, ensuring you stay informed about the latest developments.  
+- [YouTube csatorna](https://www.youtube.com/@ConSteelSolutions): Iratkozz fel a YouTube csatornánkra, hogy hozzáférhess webinárokhoz, oktatóvideókhoz és verziófrissítésekhez, és mindig naprakész legyél a legújabb fejlesztésekkel. 
 
 
-Feel free to contact support anytime for further assistance.
+Bármikor kereshetsz minket, ha további segítségre van szükséged. 
+      
+

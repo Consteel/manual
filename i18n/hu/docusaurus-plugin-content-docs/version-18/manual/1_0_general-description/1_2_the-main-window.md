@@ -2,1563 +2,950 @@
 sidebar_position: 2
 ---
 
-# The main window
-
-The Consteel window consists of seven separate parts containing different functionalities.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":6857,"sizeSlug":"large","linkDestination":"media","className":"is-resized is-style-default"} -->
-
-![alt text](<img/the main window.png>)
-
-- The **graphical window** is the area for the 3D structural modeling (#1)
-- The **menu** on the top contains some important commands (#2)
-- **Tabs** from left to right lead the user through the steps of structural design (#3)
-- **Sidebar** on the left contains functions for grids, views, most commonly used transformations, and selections (#4)
-- The **MyDescript** pop-up panel is for parametric modeling (#5)
-- The **status bar** on the bottom makes the drawing phases easier (#6)
-- The **Side Panel** contains the Object and parameter tables and gives always sophisticated information about the model, making fast modifications possible (#7).
-
-<!-- wp:heading {"level":3} -->
-
-### The graphical window
-
-<!-- /wp:heading -->
-
-<!-- wp:columns -->
-
-<!-- wp:column {"width":"95%"} -->
-
-<!-- wp:paragraph {"align":"justify"} -->
-
-The structural model appears always in the graphical window. There are no other window opening options; however, there are lots of viewing possibilities in this single window. The graphical window supports the modeling by the global coordinate system (_GCS_) and a moveable, rotatable, and size adjustable grid. The [_**coordinate system**_](../4_0_drawing-geometry/4_1_coordinate-systems.md) at the left bottom corner denotes always the unchangeable _GCS_; the origin of the [_**user coordinate system (UCS)**_](../4_0_drawing-geometry/4_1_coordinate-systems.md#user-coordinate-system) takes place at the middle point of the grid which is always the plane “XY” of the _UCS_. The following moving possibilities and quick view settings can be used during the structural model manipulation:
-
-- **Move**: push and hold down the middle mouse button or use the four arrow buttons on the keyboard to move the model on the screen
-- **Rotate**: hold down the **_Alt_** key and the left mouse button. The center of rotation is always adapting the actual model view
-- **Scaling**: spin the middle mouse button forth and back or use the **_+_** and **_-_** buttons on the keyboard or hold down the Alt key and the right mouse button
-- **Zoom window**: window drawing by the left mouse button, while pressing **_Shift+Alt_** keys
-- **Hotkeys for views**:
-
-  - **Ctrl+1**: Switch to **top view**
-  - **Ctrl+2**: Switch to **front view**
-  - **Ctrl+3**: Switch to **side view**
-  - **Ctrl+4**: Switch to **axonometric view**
-  - **Ctrl+5**: Perpendicular to the actual UCS plane
-  - **Ctrl+0**: Quick **zoom all**
-
-### The menu
-
-The _Consteel_ menu does not contain many commands since the main functionality is placed to the structured tabs and to the side bars, and the applicability and modeling efficiency does not really need to duplicate the functions. However, six important function groups appear here: [**_File_** ](#file-menu)handling, some [**_Edit_** ](#edit-menu)options (undo-redo), [**_View_** ](#view-menu)and diagnostics, [**_Options_**](#options-menu) for settings (for saving, updating, selecting language, and for model diagnostics), [**_Standards_** ](#standards-menu)for reviewing and defining standard parameters for design and **_[Help](#help-menu)_**.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4} -->
-
-#### File menu
-
-![alt text](<img/File menu CS 17.png>)
-
-<!-- /wp:columns -->
+# A Főképernyő
 
 <!-- wp:paragraph -->
+
+A főképernyő hét fő részből áll:
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":6857,"width":"1024px","height":"555px","sizeSlug":"large","linkDestination":"media","className":"is-style-default"} -->
+
+![alt text](image.png)
+
+- A legnagyobb méretű rész, a [grafikus ablak](#grafikus-ablak) (#1), ami a 3 dimenziós modell elkészítésére, megjelenítésére szolgál.
+
+- A felső [főmenü ](#a-menü)tartalmazza az alapvető parancsokat (#2)
+
+- A tervezés menetének megfelelő sorrendben elhelyezett [füleken ](#fülek)találhatóak az egyes lépések során használatos funkciók. (#3)
+
+- A [bal oldali sáv](#oldalsáv) (#3) tartalmazza a modellezés során legtöbbször használt funkciókat: pl.: raszter-, koordináta-rendszer-, és nézetváltoztatás, objektumok kijelölése, mozgatása/másolása.
+
+- A [My Descript ](#descript-szerkesztő14-es-vagy-korábbi-verziókban-cspi)felugró panel a parametrikus programozásra szolgál (#5)
+
+- A képernyő alján található [állapotsávon ](#állapotsor)(#6) érhetőek el a modellezést segítő beállítási lehetőségek és a különböző objektumok, adatok láthatóságát szabályozó kapcsolók.
+
+- A [jobb oldali paneleken](#objektumfa-objektum-tulajdonságok-és-diagnosztika-ablakok) (#7) fent az objektum ablak biztosítja a modell gyors áttekintését, és a részmodellek kezelési funkcióit is. Alatta található, a kiválasztott objektumok paramétereit tartalmazó ablak, amely a paraméterek áttekintését és gyors módosítását teszi lehetővé.
+
+### Grafikus ablak
+
+A 3D modell megjelenítése történik a grafikus ablakban. A megjelenítési módok széleskörűen változtathatók. A grafikus ablak a globális koordináta-rendszer (_GKR_) tengelyeinek bal alsó sarokban történő kijelzésével, a mozgatható, forgatható és átméretezhető raszter hálóval a rajzolást és a modellezést nagyban segíti. A [_globális koordináta-rendszer (GKR)_](../4_0_drawing-geometry/4_1_coordinate-systems.md#felhasználói-koordinátarendszer-lokális-koordináta-rendszer) helyzete és tengelyirányai nem változtathatóak. A _[felhasználói koordináta-rendszer (FKR)](../4_0_drawing-geometry/4_1_coordinate-systems.md#lokális-koordináta-rendszerek-módosítása)_ középpontja mindig a raszter háló középpontjában helyezkedik el, illetve a raszter háló síkja az _FKR_ „XY” síkjával esik egybe. Szerkesztés ás modellezés során az alábbi mozgatási és gyors nézet beállítások, használhatóak:
+
+- A képernyőablak mozgatása\: a középső egérgomb lenyomva tartása mellett az egér mozgatásával, vagy a billentyűzet nyíl billentyűinek használatával
+
+* Nézet forgatása: az Alt billentyű és bal egérgomb nyomva tartása mellett az egérmozgatásával. A forgatás középpontja mindig az adott nézet középpontjával egyezik meg
+
+- Nagyítás, kicsinyítés: középső egérgomb (görgő) forgatásával vagy a + és - gombokkal, illetve az Alt billentyű és a jobb egérgomb egyidejű lenyomásával és mozgatásával
+
+* Ablakos nagyítás: Shift+Alt billentyűk lenyomása mellett, a bal egérgombbal történő ablakos kijelöléssel
+
+- Nézetváltás 5 gyorsbillentyű parancsa:
+
+  - Ctrl+1: Felülnézet
+
+  - Ctrl+2: Elölnézet
+
+  - Ctrl+3: Oldalnézet
+
+  - Ctrl+4: Axonometria
+
+  - Ctrl+5: Aktuális raszter síkra merőleges nézet
+
+  - Ctrl+0: Teljes nézet
+
+### A menü
+
+A _Consteel_ menüi tartalmazzák az összes parancsot. A legtöbb funkció a füleken és az oldalsávokon elhelyezett ikonokkal érhetőek el. A menüsoron 6 fontos funkciócsoport található: [_Fájl_](#fájl-menü) műveletek, néhány [_Szerkesztési_](#edit-menü) opció (visszavonás-ismétlés), [_Nézet_](#nézet-menü) beállítások és diagnosztika, [_Opciók_](#opciók-menü) a beállításhoz (mentés, programfrissítés, program nyelv és modell diagnosztika), [_Szabványok_](#szabványok-menü) a tervezési paraméterek áttekintése és új paraméterek létrehozása, és a [_Súgó_](#súgó-menü). A Consteel 14 és Consteel 15 bizonyos menüi eltérnek egymástól. A menüpont után zárójelben van jelezve, melyik verzióra érvényes.
+
+#### Fájl menü
+
+![alt text](<img/file menu cs17.png>)
 
 _Project Center_
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-The Project Center will be opened. See more [here](./1_1_installing-and-running-the-software.md#project-center).
+A _[Project Center](./1_1_installing-and-running-the-software.md#home)_-t lehet innen megnyitni.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-_New model_
+_Új modell_
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-A new Consteel applications launches and a new structural model can be created.
+Új modell létrehozása egy új Consteel példány elindításával. (Minden modell külön Consteel példányban fut.)
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
+<!-- wp:image {"align":"right","id":31108,"sizeSlug":"full","linkDestination":"media"} -->
 
-_Model attribute_
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-The model description and the EN National Annex, or design standard can be changed here. (These parameters can be set at first by creating a new model.)
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":6962,"sizeSlug":"full","linkDestination":"none","className":"is-resized"} -->
-
-![](./img/wp-content-uploads-2021-04-2-2-model-attri.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/01/modell_attrib.png)](./img/wp-content-uploads-2022-01-modell_attrib.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-_Recent models_
+Modell attribútum
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-Opens the Project Center with the Recent models saved at your computer in focus.
+A modell rövid leírása és a tervezési szabvány adható meg, illetve változtatható meg. A modell ezen adatai munka során bármikor módosíthatók.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-_Open and Open from Computer_
+_Legutóbbi modellek_
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-Standard file open dialogue window will open.
+Megnyitja a _[Project Center](./1_1_installing-and-running-the-software.md#home)_ legutóbbi modellek nézetét.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-_Open from Cloud_
+_Megnyitás és Megnyitás a számítógépről_
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-Open your cloud storage. Cloud functions are provided by the Steelspace platform. See more: _[Open from Cloud.](./1_1_installing-and-running-the-software.md#cloud-open)_
+A normál Windows file megnyitási dialóg jelenik meg.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-_Save_
+_Megnyitás a felhőből_
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-Saves the current model to the previously defined storage space. For the first save a pop-up window will open where you can select between Local and Cloud storage.
+Megnyitja a felhő tárhelyet. A felhő szolgáltatásokat a Steelspace platform biztosítja. További információ: _[Felhőszolgáltatások](./1_1_installing-and-running-the-software.md#a-szoftver-telepítése-és-futtatása)_
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
+<!-- wp:image {"align":"right","id":27768,"width":"219px","height":"171px","sizeSlug":"full","linkDestination":"media"} -->
 
-_Save_ as
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-Saves the model in another storage space. A pop-up window will open where you can select between Local and Cloud storage.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":27765,"sizeSlug":"full","linkDestination":"media","className":"is-resized"} -->
-
-![](img\wp-content-uploads-2021-11-Save_as_cloud-local.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-Choosing the Local computer, the common dialogue of Windows will open.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-Choosing the Cloud (Beta), the cloud model directory powered by Steelspace will open where you can save your model. See more: [Cloud save.](../2_0_file-handling/2_2_cloud-save-and-sharing-models.md#cloud-save-and-sharing-models)
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-_Share_
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-Models saved to the Cloud can be shared with other Consteel users who have an online account. For more details regarding sharing see here: _[Sharing models](../2_0_file-handling/2_2_cloud-save-and-sharing-models.md#sharing-models)_.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-_Import_
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-Import menu contains a wide range of import possibilities from the very basic DXF wireframe import to the widespread IFC, furthermore the complex Dlubal and SAP2000 model import including the loadings as well. See more: _[File handling](../../category/file-handling)_.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":27742,"sizeSlug":"full","linkDestination":"media","className":"is-resized"} -->
-
-![alt text](img/import.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/11/Save_as_cloud-local.png)](./img/wp-content-uploads-2021-11-Save_as_cloud-local.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-_Export_
+_Mentés_
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-The selected part of the model can be exported to _TEKLA Structures_ or to IFC. In the case of a slab reinforcement result, the colored result view can be exported to DXF format as well. See more: _[File handling](../../category/file-handling)_.
+Elmenti a modellt a korábban megadott helyre. A Consteel 15 esetében, az első mentés előtt egy felugró ablakban választani kell lokális és felhő mentés között.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":27748,"sizeSlug":"full","linkDestination":"media","className":"is-resized"} -->
-
-![](img\wp-content-uploads-2021-04-2-2-File-export-1.png)
-
-<!-- /wp:image -->
-
 <!-- wp:paragraph -->
 
-_Update_
+_Mentés másként..._
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-In the case of a connected Tekla model (previously Tekla import or export is needed), the connected Tekla model can be updated and modified acc. to the actual Consteel model. See more: _[Tekla model update](../2_0_file-handling/2_3_tekla-structures-model-import-export-and-update.md)_.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4} -->
-
-#### Edit menu
-
-<!-- /wp:heading -->
-
-<!-- wp:image {"align":"center","id":6976,"sizeSlug":"large","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2021-04-2-2-Edit-menu.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-Standard Windows features that do not require special explanation.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4} -->
-
-#### View menu
-
-<!-- /wp:heading -->
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":71136,"width":"204px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2024-01-1.2.2.3.-CS17-View-menu-1.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-In addition to the several window options, the **Model content** can be switched _on_ and _off_ separately from the **Model portions**.
-
-<!-- /wp:paragraph -->
-
-The visibility status of several optional windows can be switched _on_ and _off_. See more: _[Side panel](#side-panel)_.  
-With the **Sizes of objects…** function, the size of the model objects can be changed individually.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":6992,"sizeSlug":"large","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2021-04-2-2-Size-of-object.png)
-
-<!-- /wp:image -->
-
-<!-- wp:heading {"level":4} -->
-
-#### Options menu
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":71106,"width":"512px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2024-01-Options-menu-CS17-1.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-**Keep selections of portions**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":71116,"width":"140px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2024-01-Options-keep-portion-CS17-1.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-By utilizing the **Keep selection of portions** feature, one can maintain the same portion selection even when closing and reopening the model, assuming it was saved previously. In contrast, reopening the model will display the full view.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-In the pop up Options window the following settings can be found: Save, Update, Language, Background color, Styles, Diagnostics, and IDEA Statica Interface.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-In the pop up Options window the following settings can be found: Save, Update, Language, Styles, Diagnostics, and IDEA Statica Interface.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-_**Save**_
+Elmenti a modellt új néven, új helyre.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-If **Autosave** is clicked, the program automatically performs a save periodically in accordance with the adjusted number of minutes. If **Backup** is clicked, _Consteel_ creates a backup file _after a manual save is performed_. The backup model file can be used as a normal model by removing the **_.bak_** extension.
+Saves the model in another storage space. A mentés előtt egy felugró ablakban választani kell lokális és felhő mentés között.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-**Convert previous models to the actual version of Consteel**
+Lokális mentést választva a szokásos Windows '_Fájl mentése_' párbeszédablak jelenik meg.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-When the backup feature is active, the first time you save a model from a previous Consteel version, a backup is automatically created retaining the original version. The file name of this backup copy is created according to the following scheme: model_filename - Consteel XX.bak (where XX = the version number).
+Felhő mentést (Beta) választva a Steelspace által szolgáltatott felhőtárhely modell könyvtára jelenik meg, ahová el lehet menteni a modellt. További információ: [Cloud save](../2_0_file-handling/2_2_cloud-save-and-sharing-models.md)
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-_**Update**_
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":37343,"width":350,"height":239,"sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2022-06-update.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-If the **Automatic search for updates** is checked _Consteel_ searches the web for an available new version at every startup. It can be turned off anytime. The check for a new version can also be performed manually by clicking on the **Search for updates now** (![](./img/wp-content-uploads-2021-04-2-2-Search-update.png) ) button.
+_Megosztás_
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-**Customer experience improvement**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-In order to make our products meet the expectations of our customers as much as possible, our software collects and sends us usage statistics. Consteel Solutions Ltd. uses this information to improve the products and features customers use the most often and to help to solve problems. Our product collects and sends the following information: software version, used functionalities, running time, and location. Sent information does not contain any personal information (such as your name, address, or phone number) and is not used to identify you.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-In the case of commercial licenses, the collection of usage statistics can be turn off anytime by turning off the checkbox. In the case of a trial or an educational license, the collection of usage statistics is continuous.
+A felhőbe mentett modellek megoszthatók más Consteel-felhasználókkal, akik rendelkeznek online fiókkal. A megosztással kapcsolatos további részletek itt találhatók: _[modell megosztás](../2_0_file-handling/2_2_cloud-save-and-sharing-models.md#modell-megosztása)_.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-_**Language**_
+#### _Import_
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":7017,"width":320,"height":219,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"left","id":31121,"sizeSlug":"medium","linkDestination":"media"} -->
 
-![](img\wp-content-uploads-2021-04-2-2-options-lang.png)
+![alt text](img/importúj.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-The language of the user interface can be chosen here from the following list: Hungarian, English, French, Rumanian, German, Russian, Slovenian, Polish, Spanish, Slovak, Portuguese, Serbian, Turkish, Chinese, Bulgarian, Greek, Italian, and Croatian.
+Az Import menü számos modell importálási lehetőséget tartalmaz, a legegyszerűbb DXF formátumú drótváz importálásától, a széles körben használt IFC-n keresztül egészen a teljes, terhelést is magában foglaló Dlubal és SAP2000 modellek importálásáig. További infó: _[Fájlkezelés](../../category/file-handling)_.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-_Consteel_ has to be restarted after changing the interface language.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-**_Background color_**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":47529,"width":350,"sizeSlug":"full","linkDestination":"media"} -->
-
-![](img\wp-content-uploads-2023-04-Background_color.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-The background color of the model definition tabs can be set here.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-_**Styles**_
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":7025,"width":322,"height":221,"sizeSlug":"full","linkDestination":"media"} -->
-
-![](img\wp-content-uploads-2021-04-2-2-Options-styles.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-The color of the objects can be changed. - (_This feature will be discontinued!_)
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-_**Diagnostics**_
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":7037,"width":322,"height":222,"sizeSlug":"full","linkDestination":"media"} -->
-
-![alt text](img/Diagnostics.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-Before the analysis, the program checks the model for possible modeling mistakes. Two different levels of modeling mistakes may occur: errors and warnings.
-
-- **Error:** if the distance between the finite element nodes of 1D or 2D elements is more than 0 but less than the given value, the program sends an error message and shows with red sign the relevant members in the diagnostics window and does not perform the analysis.
-- **Warning:** if the distance between the finite element nodes of 1D or 2D elements is more than the defined error level distance but less than the given value here, the program sends a warning message, and shows with a yellow sign the relevant members in the diagnostics window.
-
-See more: **_[Model check](../8_0_structural-analysis/8_2_model-check-diagnostics.md#model-check-diagnostics)_** and _**[Diagnostic window](#diagnostic-window)**_
-
-- The maximum permissible displacement, expressed as a percentage of the largest dimension of the boundary box enclosing the project can be determined in the following box.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-**_Load distribution_**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":71096,"width":"452px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2024-01-Options-menu-CS17-load-distribution-1.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-This function belongs to the **Model settings** category, together with the **Diagnostics.**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"align":"justify"} -->
-
-The **Automatic load distribution** can be switched off to increase the speed of modelling. In general, distribution of surface loads to bar members of the **Load Transfer Surfaces** is done automatically by the software and also the redistribution is immediate after any change on the model that indicates it. In case of large models with several LTS's, it can lead to slow model handling. By switching off automatic load distribution for the time of model adjustments, can speed up the process. Please note, that when the function is switched off, the **Distributed Line Loads** will not be valid any more in case of a change of the LTS or the surface load. As a consequence, analysis can not be run in this state of the model. A Diagnostic error will warn you on that. To update the loads according to the new model state, either check in the check-box or click on the Update button appearing with the Diagnostic error.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":71253,"width":"510px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2021-04-Diagnostic-messages.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-#### _**IDEA StatiCa Interface**_
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":27734,"width":403,"height":276,"sizeSlug":"full","linkDestination":"media"} -->
-
-![alt text](<img/Idea statica interface.png>)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-To establish the link between Consteel and IDEA Statica steel connection design software the installation path of IDEA has to be set in this section.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4} -->
-
-#### Standards menu
-
-<!-- /wp:heading -->
-
-<!-- wp:image {"align":"center","id":7050,"width":511,"height":339,"sizeSlug":"full","linkDestination":"media"} -->
-
-![](img\wp-content-uploads-2021-04-2-2-Options-standards.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-The menu provides an opportunity to view the parameters of the existing standards and to create new ones in an easy way. The used standard can be chosen in the **_[File menu](#file-menu)_** - **_Model attribute_**.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-The first row of the Standard tree shows the applied standard which is stored in the model.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-For creating a new, user defined standard:
-
-- Press the **New** button at the bottom left corner.
-
-- Select one of the existing standards from the list.
-  ![](./img/wp-content-uploads-2021-04-2-2-new-standard.png)
-- Give a new name to your defined standard and click on the green checkmark.
-- The parameters for the newly defined standard can now be changed.
-
-The user defined standards are saved to the following file: C:\\Users\\%USERNAME%_\\Documents\\Consteel\\ver\\UserStandard.xml_ (Where "C" can be different according to the install drive and "ver" has to be changed to the actual Consteel version number (e.g.:14))
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4} -->
-
-#### Help menu
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":71616,"width":"415px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2021-04-1.2.-Help-menu.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-The menu is divided into two categories, distinguished by the longitudinal bar as shown in the picture. Information regarding the first part can be found below.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-In addition to the already existing functions, with the help of the **Getting Started** button, easy access to the software's YouTube page is possible. By pressing **Hotkeys**, a list of all the most important commands and their corresponding hotkeys will appear.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":71606,"width":"506px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2021-04-1.2.-Help-center.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-The second category can be accessed by clicking on **Get Support**. The online window opens, and two options will appear. Depending on the issue, users can choose either **Consteel Support-Central** or **Steelspace Support**.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-In the **Consteel support-center**, additional options will become available:
-
-<!-- /wp:paragraph -->
-
-- _Support Request_: The most general option when technical support engineers are needed.
-- _Licensing, Protection, and Update Issues._
-- _Feature Request_: For suggesting new features or improvements to existing ones.
-
-**Steelspace support** is designed for the following purposes:
-
-- To _get help_ with specific problems.
-- To _report a bug_ when issues are experienced in Steelspace.
-- _Feature request_ for suggesting new features or the development of existing ones.
-- _Requesting more bandwidth_
-
-<!-- wp:image {"id":71576,"width":"549px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2021-04-1.2.-consteel-support-central.png)
-
-<!-- /wp:image -->
-
-<!-- wp:image {"id":71626,"width":"544px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2021-04-1.2.-steelspace-Support.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-<!-- wp:spacer -->
+<!-- wp:spacer {"height":"1px"} -->
 
 <!-- /wp:spacer -->
 
-<!-- wp:heading {"level":3} -->
-
-### The Tabs
-
-<!-- /wp:heading -->
-
 <!-- wp:paragraph -->
 
-The tabs contain the systematically collected functions of modeling, analysis and design, leading the engineers through the logical steps of the structural design. The number of available functions depends on the version number of the currently used software. The pictures and descriptions below always correspond to the latest version of Consteel.
+#### _Export_
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
+<!-- wp:image {"align":"left","id":27751,"width":"295px","height":"218px","sizeSlug":"full","linkDestination":"media"} -->
 
-By approaching any of the icons with the cursor, the short name of the function will be appeared.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4} -->
-
-#### Geometry tab
-
-<!-- /wp:heading -->
-
-<!-- wp:image {"id":7064,"width":612,"height":54,"sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2021-04-2-2-3-Tabs-geom.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/2-2-File-export-1.png)](./img/wp-content-uploads-2021-04-2-2-File-export-1.png)
 
 <!-- /wp:image -->
 
-<!-- wp:paragraph -->
+<!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-It contains all the important CAD drawing and modification functions as well as dimensioning and measuring tools.  
-See the **_[Drawing Geometry](../../category/drawing-geometry)_** chapter for a detailed description of these functions.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4} -->
-
-#### Structural members tab
-
-<!-- /wp:heading -->
-
-<!-- wp:image {"id":11438,"sizeSlug":"large","linkDestination":"media"} -->
-
-![alt text](<img/Structural members tab.png>)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-All functions related to structural modeling are included here, such as cross-sections, members, plates and walls, frame corner wizard, diaphragm, and rigid body, supports, and connections, etc. The automatic members to plate conversion function can be also found here.  
-See the **_[Structural modeling](../5_0_structural-modeling)_** chapter for a detailed description of these functions.
+A funkciók segítségével, a kiválasztott modellrész kiexportálható _TEKLA Structures_ programba vagy IFC formátumban, illetve számított födém vasmennyiség esetén, a színezett eredménymegjelenítés kiexportálható DXF formátumba. További infó: _[Fájlkezelés](../../category/file-handling)_.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":4} -->
-
-#### Loads tab
-
-<!-- /wp:heading -->
-
-<!-- wp:image {"id":7076,"sizeSlug":"large","linkDestination":"none"} -->
-
-![alt text](<img/loads tab.png>)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-All functions related to creating loads can be found on this tab including load cases, load groups, combinations. The functions of meteorological load generation, crane and train load, and fire effect and protection can also be found here.  
-See the **_[Structural loads](../6_0_structural-loads/6_1_load-cases-and-load-groups.md)_** chapter for a detailed description of these functions.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4} -->
-
-#### Mass tab
-
-<!-- /wp:heading -->
-
-<!-- wp:image {"id":7082,"sizeSlug":"large","linkDestination":"none"} -->
-
-![alt text](<img/mass tab.png>)
-
-<!-- wp:paragraph -->
-
-Mass cases, mass groups, point masses, response spectrums, and seismic effects can be created on the Mass tab. See the **_[Masses](../7_0_masses)_** chapter for a detailed description of these functions.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4} -->
-
-#### Finite element tab
-
-<!-- /wp:heading -->
-
-<!-- wp:image {"id":7094,"sizeSlug":"large","linkDestination":"none"} -->
-
-![alt text](<img/finite element tab.png>)
-
-<!-- wp:paragraph -->
-
-It contains functions connected with the finite element mesh generation and modification and a model check option indicating possible modeling mistakes.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4} -->
-
-#### Analysis tab
-
-<!-- /wp:heading -->
-
-<!-- wp:image {"id":7106,"sizeSlug":"large","linkDestination":"none"} -->
-
-![alt text](<img/analysis tab.png>)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-The types of structural analysis can be set and executed, the results can be viewed and labeled in various forms.  
-See the **_[Structural analysis](../../category/structural-analysis)_** chapter for a detailed description of these functions.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4} -->
-
-#### Global checks tab
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":71596,"width":"682px","height":"auto","sizeSlug":"large","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2021-04-1.2.-Global-checks-1024x48.png)
-
-<!-- /wp:image -->
-
-<!-- wp:image {"id":71656,"width":"279px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2021-04-1.2.-ultimate-limit-state-check-CS17.png)
-
-<!-- /wp:image -->
-
-<!-- wp:image {"id":71668,"sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2021-04-Picture1.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-The **Serviceability limit state check**, along with the **Ultimate limit state check** is included in the **Global checks** tab.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-Both verifications can be done separately by pressing their respective rows (the blue and the green), and together by clicking on the icon![](./img/wp-content-uploads-2021-04-1.2.-Global-check-ikon-CS17.png) .
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-For more detailed information, please visit the **_[Standard design](../9_0_standard-design)_** chapter.
-
-The Global checks tab contains the options and results of possible cross-sections checks as well as the global buckling standard checks.  
-See the **_[Standard design](../9_0_standard-design)_** chapter for a detailed description of these functions.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4} -->
-
-#### Member checks tab
-
-![alt text](<img/member checkCS17.png>)
-
-<!-- wp:paragraph -->
-
-Steel member design related checks functions (buckling, lateral-torsional buckling, and interaction stability) and the composite beam design related functions can be found on the Member design tab.  
-See the **_[Member checks](../9_0_standard-design/9_1_steel-design.md#member-checks)_** chapter for a detailed description of these functions.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4} -->
-
-#### Layers tab
-
-<!-- /wp:heading -->
-
-<!-- wp:image {"id":7124,"sizeSlug":"large","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2021-04-2-2-3-Tabs-layers.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-It provides functions for adjusting the layer properties. More info: **_[Layers](../4_0_drawing-geometry/4_4_layers.md)_**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4} -->
-
-#### Document tab
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":71636,"width":"166px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2021-04-1.2.-The-tabs-document-CS17.png)
-
-The functions of the Document tab allow the flexible creation of a detailed statical documentation and contain a model information tool.  
-For detailed description see chapter: [**Documentation**](../13_0_documentation-2/13_1_the-document-tab.md)
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4} -->
-
-#### Help tab
-
-<!-- /wp:heading -->
-
-<!-- wp:image {"id":71646,"width":"181px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2021-04-1.2.-The-tabs-help-menu.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-Clicking on the question mark icon provides access to the same Help page as described in the[ **Help menu.**](#help-menu)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-The Help tab is for the essential support-related requests like “Get Support”, “[Report licensing issue” ](https://Consteel.atlassian.net/servicedesk/customer/portal/1/group/22)and “[Send feedback](https://Consteel.atlassian.net/servicedesk/customer/portal/1/group/23/create/60)” to make posting support issues more convenient.
-
-#### Load combination sets tab
-
-![alt text](<img/Load combination sets.png>)
-
-Clicking on the icon provides access to the same Load combination sets window as described in the[ **Load combinations.**](../6_0_structural-loads/6_2_load-combinations.md#load-combination-sets)
-
-### Side bar
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-The side bar at the left of the main screen contains the mostly used functions for modeling.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-<!-- /wp:paragraph -->
-
-<!-- wp:columns -->
-
-<!-- wp:column {"verticalAlignment":"top","width":"10%"} -->
-
-![alt text](img/sidebarCS17.png)
-
-<!-- wp:column {"verticalAlignment":"center"} -->
-
-<!-- wp:paragraph -->
-
-_Save model/History_
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-_Undo/Redo_
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-_Settings for the coordinate system, and snapping grids_
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-_Model views: **Top, Front, Side, Isometric, Perpendicular to raster**_
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-_Line view visualization of the model_
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-_Wireframe visualization of the model_
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-_Hidden line view visualization of the model_
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-_Solid view visualization of the model_
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-_Move point and edge_
-
-_Copy selected objects_
-
-_Move selected objects_
-
-<!-- /wp:paragraph -->
-
-_Mirror the selected objects_
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-_Rotate the selected objects_
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-_Make a section (works on shell models only)_
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-_Select all objects_
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-_Deselect all objects_
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-_Invert selection_
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-_Select by properties_
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-_Fit view (Ctrl+0)_
-
-<!-- /wp:paragraph -->
-
-<!-- /wp:column -->
-
-<!-- /wp:columns -->
-
-<!-- wp:paragraph -->
-
-### My Descript
-
-<!-- /wp:heading -->
-
-<!-- wp:image {"id":27682,"height":28,"sizeSlug":"full","linkDestination":"media"} -->
-
-![alt text](<img/My Descript.png>)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph {"align":"justify"} -->
-
-At the bottom left of the screen, the **Descript** control panel can be found. **Descript** is a programming interface of Consteel, with which parametric models can be built. Almost all of the structural objects which can be found in Consteel can be created through Descript, and all of the parameters of these objects are available to set from Descript. Please see **[Descript-Consteel Programming Interface](../../descript/15_1_introduction/index.md)** to know more!
-
-<!-- /wp:paragraph -->
-
-<!-- wp:spacer -->
+<!-- wp:spacer {"height":"1px"} -->
 
 <!-- /wp:spacer -->
 
-<!-- wp:heading {"level":3} -->
-
-### Status bar
-
-<!-- /wp:heading -->
-
-<!-- wp:image {"align":"center","id":11096,"width":982,"height":25,"sizeSlug":"full","linkDestination":"media"} -->
-
-![](img\wp-content-uploads-2021-04-2-2-6-Status-bar-v15.png)
-
-<!-- /wp:image -->
-
 <!-- wp:paragraph -->
 
-The first field is a progress bar showing the progress of the actions.
+#### _Update_
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
+<!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-The next 3 icons on the status bar ( ![](./img/wp-content-uploads-2021-04-2-2-6-status-bar2.png)) determine the interpretation of the manually entered coordinates during drawing/modeling operations. To enter a coordinate value click on the input box or press the corresponding key on the keyboard (“X, Y, Z, L” for the coordinate axis or a length into a direction, or “a, b, L” for polar coordinates). The user can change the interpretation of the manually entered values by clicking on these three icons. Each click changes the state of this switches:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-Coordinates can be entered in the ![](./img/wp-content-uploads-2021-04-2-2-6-status-bar3.png) **Global** (GCS), or in the ![](./img/wp-content-uploads-2021-04-2-2-6-status-bar4.png) **User** (UCS) coordinate system.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-The entered value can be an ![](./img/wp-content-uploads-2021-04-2-2-6-status-bar5.png) **Absolute** value measured from the origin of the coordinate system or a ![](./img/wp-content-uploads-2021-04-2-2-6-status-bar6.png) **Relative** one measured from the ![](./img/wp-content-uploads-2021-04-Insertion-point.png) insertion point ( the yellow dot in the model space).
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-Finally, coordinates can be entered in a ![](./img/wp-content-uploads-2021-04-2-2-6-status-bar7.png) **Descartes**, or in a ![](./img/wp-content-uploads-2021-04-2-2-6-status-bar8.png) **Polar** coordinate system.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-Even when using the Descartes coordinate system, it is possible to define a point by specifying a direction and a distance as follows. If you have already picked the first point e.g of a new structural beam, while approaching another point with your cursor in the model space, after typing “L” (lowercase), you can enter the length of your beam manually into the L field. By pressing the Enter key the beam will be created with the given length ("L" value) and the direction defined by the two points.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-By moving the slider (![](./img/wp-content-uploads-2021-04-slider-v15.png)), the size representation of the objects can be changed. Clicking on it with the right mouse button the sizes can be changed individually by object types. The next four icons ( ![](./img/wp-content-uploads-2021-04-2-2-6-status-bar10.png)) allow the sophisticated visibility adjustment. By approaching any of these icons with the cursor a group of graphic symbols will appear ordered into a matrix shape.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-Clicking the first icon on each of these four visibility setting matrix the scope of the settings will be changed between global (![](./img/wp-content-uploads-2021-04-2-2-6-status-bar11.png)) (valid for all tabs), or valid only for the current tab (![](./img/wp-content-uploads-2021-04-2-2-6-status-bar12.png)). Changing this option on any of the 4 visibility matrixes, the selected scope will also change on all the other three accordingly. Changing this scope will also change the visibility between the previously adjusted global and the current tab visibility settings.
+Csatlakoztatott Tekla modell esetén (korábbi Tekla export vagy import után), a Consteel modell változásainak megfelelően frissíthető a Tekla modell ezzel a paranccsal. További információ: _[Tekla model update](../2_0_file-handling/2_3_tekla-structures-model-import-export-and-update.md#Consteel-és-tekla-structures-modellek-változás-követése-tekla-update)_.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
 
-#### **Sizing of objects**
+#### Edit menü
 
 <!-- /wp:heading -->
 
-<!-- wp:image {"id":71276,"width":"113px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:image {"align":"left","id":31080,"sizeSlug":"full","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2024-01-1.2-Sizing-of-objects-CS17.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-By right-clicking on the slider, the object dimensions window will open. In this window, the size of individual model objects can be changed.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":71266,"width":"313px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2024-01-1.2-Object-dimensions-CS17.png)
+![](./img/wp-content-uploads-2022-01-menu_szerk_hu.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-You can also open the window from the View menu. For more information, visit the [View menu.](#viewmenu)
+Szokásos Windows szolgáltatások, amelyek nem igényelnek különösebb magyarázatot. A Kivágás, Másolás és Beillesztés parancsok csak a táblázatokban használhatók.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":4} -->
-
-#### Visibility options of graphic symbols
-
-<!-- /wp:heading -->
-
-<!-- wp:image {"id":27714,"sizeSlug":"full","linkDestination":"media"} -->
-
-![](img\wp-content-uploads-2021-04-popup_visi_symb.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-(Description of the switches in order from the upper left corner to the lower right.)
-
-- Visibility of lines, created with line, circle and arc function of Geometry tab
-- Visibility of structural members created with the beam or column function in the Structural members tab; switching these members to non-visible their centerlines might still be visible accordingly to the status of line visibility settings
-- Visibility of hinges (end releases)
-- Visibility of the 2D shapes; switching these 2D shapes to non-visible their surrounding lines might still be visible accordingly to the status of line visibility settings
-- Visibility of the 3D objects (plates, slabs and walls); switching these 3D objects to non-visible the surrounding lines and 2D shape components might still be visible accordingly to the status of the visibility settings of lines and 2d shapes
-- Visibility of supports
-- Visibility of link elements
-- Visibility of smart link elements
-- Visibility of placed joints symbols
-- Visibility of initial bow imperfection
-- Visibility of shear fields
-- Visibility of frame corners
-- Visibility of loads
-- Visibility of load transfer surfaces (LTS); switching these load transfer surfaces to non-visible their surrounding lines might still be visible accordingly to the setting of visibility of the lines
-- Visibility of distributed representation of surface loads (by LTS loads)
-- Visibility of masses
-- Visibility of constraints
-- Visibility of rigid bodies
-- Visibility of diaphragms
-- Visibility of purlin lines
-- Visibility of stiffeners
-- Visibility of cutouts
-
-<!-- wp:heading {"level":4} -->
-
-#### Visibility options of the grid and the local coordinate system (LCS)
-
-<!-- /wp:heading -->
-
-<!-- wp:image {"id":27720,"sizeSlug":"full","linkDestination":"media"} -->
-
-![](img\wp-content-uploads-2021-04-popup_visi_LCS.png)
-
-<!-- /wp:image -->
-
-![alt text](<img/Spad Footing.png>)
-
-<!-- wp:paragraph -->
-
-(Description of the switches in order from the upper left corner to the lower right.)
-
-- Visibility of the raster grid
-- Visibility of the model grid
-- Visibility of the LCS of 1D members (beams and columns)
-- Visibility of the LCS of 2D members (plates, slabs and walls)
-- Visibility of the LCS of supports
-- Visibility of the LCS of spread footing
-- Visibility of the LCS of link elements
-- Visibility of the LCS of smart link elements
-- Visibility of the LCS of the load transfer surfaces
-
-<!-- wp:quote {"editorskit":{"indent":20,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-> <!-- wp:paragraph -->
->
-> **NOTE:**
->
-> <!-- /wp:paragraph -->
->
-> <!-- wp:paragraph -->
->
-> _When the visibility of an object is off, also the local coordinate system of the object will be invisible!_
->
-> <!-- /wp:paragraph -->
-
-<!-- /wp:quote -->
-
-<!-- wp:heading {"level":4} -->
-
-#### Visibility options of object names
-
-<!-- /wp:heading -->
-
-<!-- wp:image {"id":27727,"sizeSlug":"full","linkDestination":"media"} -->
-
-![](img\wp-content-uploads-2021-04-popup_visi_names.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-(Description of the switches in order from the upper left corner to the lower right.)
-
-- Show finite element point numbering (visible only on the **Finite element** and **Analysis** tabs)
-- Show bar member names
-- Show shell member (plates, slabs and walls)
-- Show support names
-- Show hinges names (end releases)
-- Show link element names
-- Show smart link element names
-- Show placed joint model names
-- Show load transfer surface names
-- Show shear field names
-- Show reinforcement object names
-- Show constraint names
-- Show rigid body names
-- Show diaphragm names
-- Show purline line names
-- Show stiffener names
-- Show cutout names
-- Show model grid names
-
-<!-- wp:quote {"editorskit":{"indent":20,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-> <!-- wp:paragraph -->
->
-> **NOTE:**
->
-> <!-- /wp:paragraph -->
->
-> <!-- wp:paragraph -->
->
-> _When the visibility of an object is off, also the name of it will be invisible!_
->
-> <!-- /wp:paragraph -->
-
-<!-- /wp:quote -->
-
-<!-- wp:heading {"level":4} -->
-
-#### Visibility options of labels
-
-<!-- /wp:heading -->
-
-<!-- wp:image {"id":7292,"width":115,"height":153,"sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2021-04-2-2-6-visibility-labels.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-(Description of the switches in order from the upper left corner to the lower right.)
-
-<!-- /wp:paragraph -->
-
-<!-- wp:list {"className":"is-style-arrow"} -->
-
-- Show material grades
-- Show profile names
-- Show the thickness of plates in mm
-- Show the load intensity
-- Show the masses
-- Show initial bow imperfections
-- Show the type of frame corners
-- Show the units of quantities
-- Show labels of the local coordinate systems
-
-<!-- wp:heading {"level":4} -->
-
-#### Object color setting
-
-<!-- /wp:heading -->
-
-<!-- wp:image {"id":11108,"sizeSlug":"large","linkDestination":"media"} -->
-
-![](img\wp-content-uploads-2021-04-obj_color_set_v15.png)
-
-<!-- /wp:image -->
-
-<!-- wp:list {"className":"is-style-arrow"} -->
-
-- Colors of members according to the default settings (layer styles)
-- Colors of members according to the section colors (see _**[Section administration](../10_0_section-module/10_1_section-modelling.md)**_ for information on how to change colors.)
-
-<!-- wp:heading {"level":4} -->
-
-#### Action point sets
-
-<!-- /wp:heading -->
-
-<!-- wp:image {"id":7298,"sizeSlug":"large","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2021-04-2-2-6-action-oints-sets.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-The **Action point sets** offer a wide range of setting the point snapping functions.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-(Description of the switches in order from the upper left corner to the lower right.)
-
-<!-- /wp:paragraph -->
-
-<!-- wp:list {"className":"is-style-arrow"} -->
-
-- Snapping the end points of graphical (lines, arcs) and structural (beams, columns) objects
-- Switch divide function ON / OFF
-
-  - ON
-
-    - When the Divide snap mode is turned ON, a new field will appear on the status bar. There are 3 options for the divide snap point specification. The user can switch cyclically between them by clicking on the icon before the numeric field.>
-      - ![](./img/wp-content-uploads-2021-04-2-2-6-divide-percentage.png)The percentage of the length of the approached element will be calculated, and from its approached end this length will be measured by the snapping points. Usually, there is a rest distance at the end of the element
-      - ![](./img/wp-content-uploads-2021-04-2-2-6-divide-distance.png)A distance can be specified. This length will be measured by the snapping points from the approached end of the object. Usually, there is a rest distance at the end of the element
-      - ![](./img/wp-content-uploads-2021-04-2-2-6-divide-number.png)The number of divisions can be specified. The created snapping points are the intersection points of subdivided lengths. There is no rest distance at the end of the element
-
-  - OFF: The field of division will disappear from the bottom status bar
-
-- Snapping the intersection points of graphical (lines, circles, arcs) and structural (beams, columns) objects
-- Snapping the parallel point to a linear object (Its use is recommended only for smaller models.)
-- Snapping edges and line object
-- Snapping the lengthened point of a linear object. The system is showing the actual distance of the snapping point in \[mm] from the endpoint of a linear element. The lengthening distance can be set in steps given in the last field of the status bar (see below).
-- Snap to points.
-- Snap to raster points.
-- Snapping point to create a tangent of an Arc / Circle from one point
-- Snapping point to create a perpendicular from one point to an object (Line or Arc/Circle )
-- Snapping the Center point of Arc / Circle.
-
-For snapping the center of linear elements, you have to use the appropriate settings of snap divided points, see above!
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4} -->
-
-#### Step field
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-The last field of the Status bar is the STEP field. Here the given number in mm is the snapping distance towards the length direction of line and bar elements when the lengthening snapping point is ON.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":7330,"width":274,"height":246,"sizeSlug":"full","linkDestination":"media"} -->
-
-![](img\wp-content-uploads-2021-04-2-2-6-lengthen.png)
-
-<!-- /wp:image -->
-
-<!-- wp:spacer -->
-
-<!-- /wp:spacer -->
-
-<!-- wp:heading {"level":3} -->
-
-### Side panel
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-The visibility of the additional windows can be switched ON / OFF in the [_**View menu**_](#view-menu). Some of this windows is turned ON by default, and all of them has a default position that can be changed with drag&drop operations. The windows can be floating or docked to any side of the Consteel main window.
-
-![alt text](<img/side panel-view.png>)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-**Portion manager** tab
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-The default position of the **Portion manager** window is in the upper right corner. It is divided into **Custom portions** and **Auto portions.**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":71076,"width":"245px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2024-01-1.2.7.-CS17-Model-Portions.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-For detailed description see [**Model Views**](../3_0_model-view/3_1_model-views.md), and [**Portions Manager**](../3_0_model-view/3_3_portions-manager.md) chapters!
-
-**Model Content** tab (Ctrl+Q)
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":71066,"width":"266px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2024-01-1.2.7.-CS17-Model-Content.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-The **Model Content** tab contains all the predefined basic object types which can be used to build up a structural model.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-See more in the [**_Selection_**](../3_0_model-view/3_2_selection.md) chapter.
-
-<!-- /wp:paragraph -->
-
-<!-- /wp:paragraph -->
-
-<!-- wp:spacer -->
+<!-- wp:spacer {"height":"1px"} -->
 
 <!-- /wp:spacer -->
 
 <!-- wp:heading {"level":4} -->
 
-#### Diagnostic window
+#### Nézet menü
 
-<!-- wp:image {"id":71427,"width":"536px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<!-- /wp:paragraph -->
 
-![](./img/wp-content-uploads-2024-01-1.2.-Diagnostics-Window-CS17.png)
+<!-- wp:image {"id":71855,"width":"226px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+
+![](./img/wp-content-uploads-2024-01-1.2.2.3.-CS17-View-menu-HU.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-In addition to the already existing error messages starting from Consteel 17, the orange-coloured error message will appear.
+A többi ablak mellett a Modell tartalma ablak is külön be- és kikapcsolható a Részletmodellek ablaktól függetlenül.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-This type of error occurs when the **automatic load distribution** is turned off. To update the loads according to the new model state, either check in the check-box or click on the **Update** button that appearing with the Diagnostic error.
+<!-- wp:paragraph -->
+
+A nézet funkciók segítségével megjeleníthető vagy kikapcsolható az Objektumfa és az Objektumok tulajdonsága ablakok (Oldalpanel), valamint a Státusz sor, a Diagnosztika ablak, az Analízis visszajelzések, illetve a Descript felülete.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-For more information, please go to Options>[Load Distribution.](#loads-tab)
-
-In the case of geometrical or modeling mistakes (like overlapping two or more objects, missing supports, etc..), the _Diagnostic_ window switches ON automatically listing problematic objects in a tree structure.
+Az Objektum méretei… funkcióval az alábbi objektumok megjelenítési méretei állíthatóak be:
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":7336,"sizeSlug":"full","linkDestination":"media","className":"is-resized"} -->
+<!-- wp:image {"align":"center","id":31150,"sizeSlug":"full","linkDestination":"none"} -->
 
-![](img\wp-content-uploads-2021-04-2-2-7-diag-window.png)
+![](./img/wp-content-uploads-2022-01-objekt_meretei_hu.png)
 
 <!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-The first type of diagnostic result is the **error** messages appearing in **red** color.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-The second type of diagnostic result is **possible errors** in **yellow** color.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-By clicking on any of the object names in the tree structure, and pressing the Select button, the object will be selected and highlighted in the model and the properties of it will be displayed as well in the Object properties window (see below). You can select more objects at the same time by clicking their name while pressing the Shift or Ctrl key or you can select a whole group of objects by clicking on the problem description.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-The selected object can be erased by pressing the Delete button at the bottom of the Diagnostic window or using the Delete key on the keyboard.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:spacer -->
-
-<!-- /wp:spacer -->
 
 <!-- wp:heading {"level":4} -->
 
-#### Object properties window
+#### Opciók menü
 
-<!-- wp:image {"id":71386,"width":"260px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<!-- /wp:heading -->
 
-![](./img/wp-content-uploads-2024-01-1.2.7.-CS17-View-panel-Object-properties-1.png)
+<!-- wp:paragraph -->
+
+Az Opciók menüben a következő beállítási lehetőségek találhatóak:
+
+_Mentés_, _Frissítés_, _Nyelv_, _Stílusok_, _Diagnosztika_ és _Idea StatiCa átmenet_.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+_Mentés_
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"left","id":31094,"width":"322px","height":"221px","sizeSlug":"full","linkDestination":"media"} -->
+
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/01/options_hu.png)](./img/wp-content-uploads-2022-01-options_hu.png)
+
+#### Opciók menü - Mentés
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-In the **Object properties** Tab (located by default on the bottom right side of the window) the start and end points of the elements can be identified, they are marked with yellow and magenta.
+Ha az Automatikus mentés funkció be van kapcsolva, a program a megadott időközönként automatikus mentéseket készít. Ha a Biztonsági másolat funkció be van kapcsolva, akkor a _Consteel_ biztonsági másolatot hoz létre a modellről, _de csak az első manuális mentést követően_! A biztonsági mentési fájl tartalma azonos a mentéskori modellfájl tartalmával, a fájl kiterjesztése azonban a .bak kiterjesztéssel bővül, melynek eltávolításával a biztonsági mentési fájl a _Consteel_-ba betölthető.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"id":71376,"width":"264px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-![](./img/wp-content-uploads-2024-01-1.2.7.-CS17-View-panel-Object-properties-start-and-end-point-1.png)
+Korábbi modellek konvertálása az aktuális verzióba (csak a 14-es verziótól)
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+
+Ha a biztonsági másolat funkció aktív, valamely korábbi verzióban készült modell aktuális Consteel verzióban történő első elmentésekor automatikusan készül egy biztonsági másolat az eredeti verzió formátumában. Ennek a másolatnak a fájlneve az alábbi séma alapján jön létre: _modell fájl név Consteel XX.bak_ (ahol XX = az adott verzió száma).
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+_Részletmodellek kijelölésének megtartása (csak a 17-es verziótól)_
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":71865,"width":"191px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+
+![](./img/wp-content-uploads-2024-01-Options-keep-portion-HU-CS17.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-To increase the size of the coloured point in the model, go to the **view panel**, **object dimensions,** and change it from the **local system**, as shown in the picture below:
+A részletmodellek kijelölésének megtartása funkció segítségével a felhasználó megőrizheti ugyanazt a részletmodell kiválasztást, amikor, ha bezárja és újra megnyitja a modellt, feltéve, hogy azt korábban elmentette. Ellenben a modell újbóli megnyitásakor teljes nézet jelenik meg.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"id":71396,"width":"427px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2024-01-1.2.7.-CS17-View-panel-size-strat-and-end-point-1.png)
-
-By selecting one object in the model space all the relevant properties will appear in this window (#1). The values of the parameters can be overviewed and in most cases, these parameters can be changed.
+_Frissítés_
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":11123,"sizeSlug":"full","linkDestination":"media","className":"is-resized"} -->
+<!-- wp:image {"align":"left","id":31087,"sizeSlug":"medium","linkDestination":"media"} -->
 
-![](img\wp-content-uploads-2021-04-wind_obj_prop_v15-1.png)
+![alt text](img/frissítés.png)
+
+#### Opciók menü - Frissítés
 
 <!-- /wp:image -->
 
-<!-- wp:paragraph -->
+<!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-All selected objects (and sub-object) appear in the table. Selecting different types of objects (e.g. members and supports) the objects will be shown in groups. By expanding any of the groups all of the object's parameters can be seen and modified if possible. In the case of multiple selections, a replacement value ("different") will be displayed for different values. However, the different ones can also be changed. In this case, the new value will be applied to all of the selected objects.
+A frissítése funkció minden indításkor ellenőrzi az interneten, hogy elérhető-e újabb verzió. Ez a funkció itt kikapcsolható. Az ellenőrzés manuálisan is elvégezhető a Frissítés keresése most (![](./img/wp-content-uploads-2021-04-2-2-Search-update.png) ) ikonra kattintva..
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+
+Felhasználói élmény fokozása
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
+<!-- wp:paragraph {"align":"justify","editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-With the unselect button (![](./img/wp-content-uploads-2021-04-2-2-7-unselect.png)) the previously selected object type can be removed from the selection.
+Azért, hogy termékeink minél jobban megfeleljenek a felhasználóink elvárásainak, a szoftverjeink a használat során anonim információkat gyűjtenek és küldenek arról, hogy felhasználóink miként használják a Consteel és csJoint programokat. A Consteel Solutions Zrt. ezeket az adatokat a termékek továbbfejlesztése, illetve problémamegoldás céljából használja.
 
 <!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+
+A termékeink az alábbi információkat gyűjtik és küldik el: verzióinformáció, használt funkciók, használati időtartam, földrajzi hely. A küldött információk semmilyen személyes adatot nem tartalmaznak (például név, cím, telefon), a felhasználók azonosítására a Consteel Solutions Zrt. nem használja. Kereskedelmi Consteel és csJoint verziók esetén az információk gyűjtése kikapcsolható az Opciók/Frissítés menüpontban. Kipróbálási és diák verziók esetén az információküldés nem kapcsolható ki.
+
+#### _Nyelv_
+
+![alt text](img/nyelv.png)
+
+Opciók menü - Nyelv
+
+Itt állítható be a felhasználói felület nyelve, ami a következő nyelvek közül választható: magyar, angol, német, spanyol, olasz, görög, portugál, orosz, kínai, török, lengyel, szlovák, szlovén, román, bolgár, szerb és horvát.
+
+A felhasználói felület nyelvének változtatása a program újraindítását követően érvényesül.
+
+#### _Háttérszín_
+
+[![Opciók párbeszédablak - háttérszín](https://www.Consteelsoftware.com/wp-content/uploads/2023/01/Opciok_dialog_hatterszin_j.png)](./img/wp-content-uploads-2023-01-Opciok_dialog_hatterszin_j.png)
+
+Opciók menü - Háttérszín
+
+A modell képernyő háttérszíne állítható itt be.
+
+#### _Stílusok_
+
+![alt text](img/stílusok.png)
+
+Opciók menü - Stílusok
+
+A különböző objektumok színeit lehet megadni.
+
+#### _Diagnosztika_
+
+![alt text](image-1.png)
+
+Opciók menü - Diagnosztika
+
+Analízis indítása előtt, a program ellenőrzi az esetleges modellezési hibákat. Két jelzési szint létezik, amivel a program figyelmeztetheti a felhasználót az esetleges modellezési hibákról:
+
+- Hiba: ha két rúd vagy objektum végpontjainak távolsága 0 és a beállított érték közé esik, a program hibaüzenetet küld, a diagnosztika ablakban piros jelzéssel felsorolja ezeket az elemeket és nem hatja végre a kért analízist.
+
+- Figyelmeztetés: ha két rúd vagy objektum végpontjainak távolsága a hiba beállításnál megadott érték és a figyelmeztetés beállításnál megadott érték közé esik, a program figyelmeztető üzenetet küld és a diagnosztika ablakban sárga jelzéssel felsorolja ezeket az elemeket.
+
+További infót ld. még: [_Modellvizsgálat_](../8_0_structural-analysis/8_2_model-check-diagnostics.md) és _[Diagnosztika ablak](#diagnosztika-ablak)_
+
+- Meghatározható a legnagyobb megengedett elmozdulás, a modell köré rajzolt befoglaló doboz leghosszabb méretének százalékában (%).
+
+#### _Teherszétosztás_
+
+![](./img/wp-content-uploads-2024-01-Options-menu-HU-CS17-load-distribution.png)
+
+Consteel 17-től ez a funkció a Modell beállítások kategóriához tartozik, együtt a Diagnosztikával.
+
+Az Automatikus teherszétosztás kikapcsolható a modellezés sebességének növelése érdekében.
+
+Általában a szoftver automatikusan elosztja a felületi terheket a teher átadó felület segítségével, és az elosztás azonnal megtörténik bármilyen változás után, amely azt indokolja.
+
+Nagy modellek esetén, amelyek több teher átadó felülettel rendelkeznek, ez lassíthatja a modellezési folyamatot. Az automatikus teherszétosztás kikapcsolása a modellezés idejére felgyorsíthatja a folyamatot.
+
+Fontos megjegyezni, hogy amikor ez a funkció ki van kapcsolva, a vonalmenti megoszló teher már nem érvényesek egy új TÁF vagy a felületi teher változásakor. Ennek eredményeként a modellt ebben az állapotban nem lehet analízisnek alávetni. Egy diagnosztika figyelmeztetés jelenik meg. A terhek frissítéséhez, jelölje be a jelölőnégyzetet, vagy kattintson a Diagnosztika figyelmeztetés alatt megjelenő Frissítés gombra.
+
+#### _IDEA StatiCa átmenet_
+
+![alt text](img/Ideastatica.png)
+
+Opciók menü - IDEA StatiCa átmenet
+
+A Consteel és az IDEA Statica programok közötti kapcsolat létrehozására itt kell megadni az IDEA telepítési mappáját. A mappa kiválasztásához a beviteli mező végén található mappa ![](./img/wp-content-uploads-2022-01-ico_folder.png) ikonra kell kattintani.
+
+#### Szabványok menü
+
+![alt text](img/szabványok.png)
+
+A menü segítségével egyszerűen és gyorsan áttekinthetjük a program által kezelt szabványok paramétereit, illetve létrehozhatunk saját tervezési paramétereket. A használt tervezési szabvány a _[Fájl menüben](#fájl-menü)_ állítható be, a _Modell attribútumok_ segítségével.
+
+A szabványfa első sora az alkalmazott tervezési szabványt mutatja, ami a modellbe kerül eltárolásra.
+
+Egyéni szabványbeállítás létrehozása:
+
+- a létrehozás az ablak alján található Új gomb megnyomásával indítható el
+
+az egyéni szabvány, egy már meglévő szabvány módosításával jön létre, ezért ki kell választani egy már meglévő szabványt
+
+- ![](./img/wp-content-uploads-2022-01-sajat_szabvany_hu.png)
+
+- a név mezőbe meg kell adni az új szabvány nevét, majd a zöld pipára kattintva létrejön az új szabvány
+
+* ezután az új szabvány paraméterei megadhatók
+
+Az egyéni szabványbeállítást a program az alábbi fájlba menti: _\Dokumentumok\Consteel\UserStandard.xml_: C:\Users\%USERNAME%_\Dokumentumok\Consteel\ver\UserStandard.xml_ (ahol a "ver" az aktuális Consteel verziószámát jelöli)
+
+#### Súgó menü
+
+![](./img/wp-content-uploads-2024-01-1.2.-Help-menu-HU.png)
+
+A menü két kategóriára van osztva, amit a hosszanti sáv választ el, ahogy a képen látható. Az első részre vonatkozó információk találhatók.
+
+Az első tartalmazza az elérhetőségeket az “[Consteel kézikönyvhöz](../../manual/intro.md)” és a “[Descript kézikönyvhöz](../../descript/15_1_introduction//index.md)“, valamint az “[Oktatói anyagok](https://Consteelsoftware.com/knowledgebase/?search=&filters=366,367,399,392,375,372)” almenüpont segítségével egy előszűrt tudásbázis anyagokat tartalmazó oldal érhető el. Ilyenkor nincs szükség külön bejelentkezésre a honlapunkon, mert a Consteel-t online védelemmel használó felhasználóinkat automatikusan felismeri az oldal.
+
+Az Első lépések gomb segítségével könnyen elérhető a szoftver YouTube oldala. A Gyorsbillentyűk lenyomásával megjelenik egy lista az összes fontos parancsról és azok megfelelő billentyűparancsairól.
+
+![](./img/wp-content-uploads-2024-01-1.2.-Help-center-HU-1024x683.png)
+
+A második kategóriához a Support kérdés beküldése gombra kattintva lehet eljutni. Az online ablak megnyílik, és két lehetőség jelenik meg. A problémától függően a felhasználók választhatnak a Consteel támogatás vagy a Steelspace támogatás között.
+
+![](./img/wp-content-uploads-2024-01-1.2.-Consteel-tamogatas-HU.png)
+
+A Consteel támogatás központban további lehetőségek válnak elérhetővé:
+
+• Támogatási kérés: A legáltalánosabb lehetőség, amikor műszaki támogatásra van szükség.
+
+• Engedélyezési, védelem és frissítési problémák.
+
+• Funkciókérés: Új funkciók vagy meglévők javításának javaslatához.
+
+![](./img/wp-content-uploads-2024-01-1.2.-Steelspace-tamogatas-HU.png)
+
+A Steelspace támogatás a következő célokra szolgál:
+
+• Kaphat segítséget konkrét problémák esetén.
+
+• Hiba bejelentés, amikor problémák merülnek fel a Steelspace használata során.
+
+• Funkciókérés, új funkciók vagy meglévők fejlesztéséhez.
+
+• Kérjen nagyobb sávszélességet.
+
+### Fülek
+
+A fülek tartalmazzák a modellezés, analízis és tervezés szisztematikusan összegyűjtött funkcióit, végigvezetve a mérnököt a tervezés lépésein. Az elérhető parancsok Consteel verziónként eltérőek lehetnek. Itt mindig az aktuális legújabb verziónak megfelelően mutatjuk be a parancsokat.
+
+A képernyőn megjelenik az ikon neve, ha az egér mutatója az ikon fölött áll.
+
+#### Geometria fül
+
+![alt text](img/geometriaful.png)
+
+A szerkesztéshez szükséges rajzolási, módosítási, méretezési és mérési funkciókat tartalmazza. A funkciók részletes bemutatását ld. a [_Geometria rajzolása_](../../category/drawing-geometry) c. fejezetben!
+
+#### Szerkezeti elemek fül
+
+![alt text](<img/szerkezeti elemek.png>)
+
+A keresztmetszetek kiválasztásával, definiálásával, szerkezeti oszlopok, gerendák, födémek, falak, illetve a támaszok és a kapcsolatok létrehozásához szükséges funkciók találhatóak a fülön. A fenti funkciók mellett, ezen a fülön kaptak helyet további modellezési funkciók is, úgymint a diafragma és merevtest szerkesztő funkciók, keretsarok varázsló, nyírási mező, szelemensor, kivágás és borda, illetve a rúdelemeket lemezelemekké konvertáló funkció is. Az utolsó három parancs a kapcsolatok létrehozására és elhelyezésére szolgál. A funkciók részletes bemutatását ld. a [_Szerkezet modellezése_](../5_0_structural-modeling) c. fejezetben!
+
+#### Terhek fül
+
+![alt text](img/terhek.png)
+
+Különböző teher típusok, illetve teheresetek, tehercsoportok és teherkombinációk létrehozását lehetővé tevő funkciók találhatóak a fülön. Az automatikus meteorológiai teher generálás, daru és vonatteher, és a tűzteher, illetve tűzvédelem funkciói is itt kaptak helyet. A funkciók részletes bemutatását ld. a [_Terhek_](../6_0_structural-loads/6_1_load-cases-and-load-groups.md) c. fejezetben!
+
+#### Tömegek fül
+
+![alt text](img/tomegek.png)
+
+Tömegesetek, tömegkombinációk létrehozását lehetővé tévő funkciók találhatóak ezen a fülön. Emellett itt kapott helyet a koncentrált tömeg elhelyezése, földrengés hatás és válaszspektrum felvétele funkció is. A funkciók részletes bemutatását ld. a [_Tömegek_](../7_0_masses) c. fejezetben!
+
+#### Végeselem fül
+
+![alt text](img/vegselem.png)
+
+A végeselem generálás létrehozásához és módosításához szükséges funkciókat tartalmazza a fül, illetve az itt található modell ellenőrzés funkció segítségével kiszűrhetőek az esetleges modellezési hibák.
+
+#### Analízis fül
+
+![alt text](img/analizis.png)
+
+A különböző szerkezeti analízis típusok beállítása és végrehajtása végezhető el. A számítás eredményei megtekinthetőek és feliratozhatóak számos megjelenítési mód alapján. A funkciók részletes bemutatását ld. a [_Szerkezetek analízise_](../../category/structural-analysis) c. fejezetben!
+
+#### Globális vizsgálatok fül
+
+![alt text](<img/globalis vizsgalatok.png>)
+
+A használhatósági határállapotok vizsgálata, valamint a teherbírási határállapotok vizsgálata is be van építve a Globális vizsgálatok fülbe.
+
+Mindkét ellenőrzést külön-külön el lehet végezni, azok megfelelő nyilainak (a kék és a zöld) lenyomásával, illetve együttesen ![](./img/wp-content-uploads-2021-04-1.2.-Global-check-ikon-CS17.png) ikonra kattintva. További részletes információkért látogasson el a [_Standard design_](../9_0_standard-design) _(Szabványos tervezés)_ fejezetbe.
+
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/01/tab_glob_hu.png)](./img/wp-content-uploads-2022-01-tab_glob_hu.png)
+
+A Globális vizsgálatok fül tartalmazza a stabilitás és keresztmetszeti vizsgálat eredményeit, öszvér oszlop ellenőrzéséből kapott eredményeket, illetve vasbeton elemek esetén végeselemes tartományokra vonatkoztatott szükséges vasmennyiség értékét. A funkciók részletes bemutatását ld. a [_Szabványos tervezés_](../9_0_standard-design) c. fejezetben!
+
+#### Elem vizsgálatok fül
+
+![alt text](<img/elem vizsgalatok.png>)
+
+Az elkülönített elemtervezéshez kapcsolódó (kihajlás, kifordulás és interaktív stabilitás), illetve öszvérgerenda méretezésével kapcsolatos funkciók találhatóak a fülön. A funkciók részletes bemutatását ld. a [_Elem vizsgálatok_](../9_0_standard-design/9_1_steel-design.md#elem-vizsgálatok) c. fejezetben!
+
+#### Használhatósági vizsgálatok fül
+
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/01/tab_serv_hu.png)](./img/wp-content-uploads-2022-01-tab_serv_hu.png)
+
+A használhatósági határállapotok ellenőrzéséhez kapcsolódó funkciók találhatóak a fülön. A funkciók részletes bemutatását ld. a [Használhatósági vizsgálatok ](../9_0_standard-design/9_4_serviceability-checks.md) c. fejezetben!
+
+#### Fóliák fül
+
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/01/tab_layer_hu.png)](./img/wp-content-uploads-2022-01-tab_layer_hu.png)
+
+Fóliák kezeléséhez és beállításához tartozó funkciók találhatóak a fülön. További infó a _[Fóliák](../4_0_drawing-geometry/4_4_layers.md)_ c. fejezetben.
+
+#### Dokumentálás fül
+
+![](./img/wp-content-uploads-2024-01-1.2.-The-tabs-document-HU-CS17.png)
+
+A Dokumentálás fül funkciói segítségével hozható létre a részletes statikai dokumentáció, illetve itt található a modell információ is. A használhatósági határállapotok ellenőrzéséhez kapcsolódó funkciók találhatóak a fülön. A funkciók részletes bemutatását ld. a [Dokumentálás ](../13_0_documentation-2/13_1_the-document-tab.md) c. fejezetben!
+
+#### Súgó fül
+
+![](./img/wp-content-uploads-2024-01-1.2.-The-tabs-help-menu-HU.png)
+
+A kérdőjel ikonra kattintva ugyanazt a Súgó oldalt érheti el, mint amit a [Súgó menüben](#súgó-menü) leírva található.
+
+#### Teherkombináció csomagok
+
+![alt text](img/tkcsomagok.png)
+
+Az ikonra kattintva ugyanazt a Teherkombináció csomagok ablakot érheti el, mint ami [itt](../6_0_structural-loads/6_2_load-combinations.md#teherkombináció-csomagok) leírva található.
+
+### Oldalsáv
+
+Az oldalsáv a modellezés során leggyakrabban használt funkciókat tartalmazza.
+
+![alt text](<img/oldalsáv CS17.png>)
+
+Modell mentése/ Verzióelőzmények
+
+Visszavonás/Ismétlés
+
+Koordináta-rendszer és a raszter háló beállítása
+
+Modell nézetek: Felül-, Elöl-, Oldal-, Izometrikus-, Raszterre merőleges nézet
+
+Egyvonalas megjelenítés
+
+Drótváz modell megjelenítés
+
+Takart vonalas megjelenítés
+
+Test nézet megjelenítés
+
+Pont, és él mozgatása
+
+Másolás
+
+Mozgatás
+
+Tükrözés
+
+Forgatás
+
+Metszősík elhelyezése (csak héjmodelleknél)
+
+Összes objektum kijelölése
+
+Összes kijelölés megszüntetése
+
+Kijelölés megfordítása
+
+Tulajdonságok szerinti kijelölés
+
+Befoglaló nézet (Ctrl+0)
+
+### My Descript szerkesztő
+
+![alt text](img/mydescript.png)
+
+A képernyő bal alsó sarkában található a Descript szerkesztő panelje, melyet a ![](./img/wp-content-uploads-2022-01-ico_descript_maximize.png) ikonnal nyithatunk meg. A Descript a Consteel programozási felülete, amellyel parametrikus modellek építhetők. A Consteel szinte összes szerkezeti objektuma létrehozható, és ezen objektumok összes paramétere meghatározható/módosítható a Descript segítségével. Részletes leírását ld. a _[Descript - a Consteel programozása](../../descript/15_1_introduction/index.md)_ c. fejezetben!
+
+### Állapotsor
+
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/01/allapotsor.png)](./img/wp-content-uploads-2022-01-allapotsor.png)
+
+Az állapotsor első mezője egy állapot csík, amely az aktuális folyamatok futásának állapotát jelzi.
+
+Az állapotsor következő 3 ikonja ( ![](./img/wp-content-uploads-2021-04-2-2-6-status-bar2.png)) a modellezés, rajzolás során megadott koordinátaértékek térbeli irányának meghatározását teszik lehetővé. A koordináta értékek manuális megadása a megfelelő billentyű megnyomásával történik (“X, Y, Z, L” billentyűk a derékszögű koordináta-rendszer és hossz megadása esetén, “a, b, L” pedig polár koordináta-rendszer esetén). A következő beállítások döntik el a megadott koordináták értelmezését:
+
+Koordináták megadása ![](./img/wp-content-uploads-2021-04-2-2-6-status-bar3.png) globális (GCS), vagy ![](./img/wp-content-uploads-2021-04-2-2-6-status-bar4.png) felhasználói (UCS) koordináta-rendszerben lehetséges, ![](./img/wp-content-uploads-2021-04-2-2-6-status-bar5.png) abszolút (a koordináta-rendszer origójától értelmezve), vagy ![](./img/wp-content-uploads-2021-04-2-2-6-status-bar6.png) relatív (az aktuális beillesztési ponttól) értelemben. ( a beillesztési pontot ![](./img/wp-content-uploads-2021-04-Insertion-point.png) sárga pötty jelöli a grafikus térben, módosítani az Insert billentyűvel lehet). Végül a harmadik ikonnal válthatunk ![](./img/wp-content-uploads-2021-04-2-2-6-status-bar7.png) derékszögű, vagy ![](./img/wp-content-uploads-2021-04-2-2-6-status-bar8.png) poláris bevitel között.
+
+Hasonlóan a poláris bevitelhez, a derékszögű rendszerben is lehetséges egy pont meghatározása irány és távolság megadásával. Az első pont megadása után, például egy új gerenda rajzolásánál, a következő pont megadásához a kurzort a kívánt irányba mozgatva és az 'L' billentyűt lenyomva, a kurzor az "L" mezőbe ugrik, ahol manuálisan meg lehet adni a kívánt hosszt. Az ENTER lenyomására a gerenda létrejön az adott irányban és a beírt hosszal.
+
+A csúszka (![](./img/wp-content-uploads-2021-04-slider-v15.png)) mozgatásával az objektumok megjelenítési méretei változtathatóak. Jobb egérgombbal történő rákkattintás esetén az egyes objektum típusok külön-külön is módosíthatók. A következő ( ![](./img/wp-content-uploads-2021-04-2-2-6-status-bar10.png)) ikonok a különböző objektumok láthatóságát szabályozzák. Ezen ikonok egérrel történő megközelítése esetén megjelennek a láthatóság ki-/bekapcsolásának ikoncsoportjai.
+
+Mindegyik csoport bal szélén található a beállítás érvényességét meghatározó ikon, mely lehet ![](./img/wp-content-uploads-2021-04-2-2-6-status-bar11.png)globális (érvényes az összes fülön), vagy ![](./img/wp-content-uploads-2021-04-2-2-6-status-bar12.png) lokális (csak az aktuális fülön érvényes). A módosítás az összes láthatósági ikoncsoportra vonatkozik. Ez a hatókör változtatás megváltoztatja a fülekre korábban alkalmazott globális és a fülre alkalmazott lokális beállításokat is.
+
+Objektumok méretezése
+
+![](./img/wp-content-uploads-2024-01-1.2-Sizing-of-objects-HU-CS17.png)
+
+A csúszkára jobb kattintással megnyílik az objektum méretezési ablak. Ebben az ablakban az egyes modellobjektumok méretét lehet módosítani.
+
+![](./img/wp-content-uploads-2024-01-1.2-Object-dimensions-HU-CS17.png)
+
+Az ablakot a Nézet menüből is megnyithatja. További információkért látogasson el a Nézet menübe.
+
+#### Grafikus szimbólumok láthatósága ![](./img/wp-content-uploads-2022-01-ico_visibility_graph.png)
+
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/popup_visi_symb.png)](./img/wp-content-uploads-2021-04-popup_visi_symb.png)
+
+- ![](./img/wp-content-uploads-2022-01-visi_graph_lines.png) Vonalak láthatósága. A Geometria fül vonal, kör és körív funkcióival rajzolt elemeket érinti.
+
+- ![](./img/wp-content-uploads-2022-01-visi_graph_memb.png) Szerkezeti elemek láthatósága. A Szerkezeti elemek fül oszlop vagy gerenda szerkesztés funkciójával létrehozott elemekre vonatkozik. Kikapcsolt állapotban a szerkezeti elemek középvonalai láthatók maradnak, ha a vonalak (![](./img/wp-content-uploads-2022-01-visi_graph_lines.png)) láthatósága be van kacsolva
+
+- ![](./img/wp-content-uploads-2022-01-visi_graph_hinge.png) Csuklók láthatósága (vég folytonosság)
+
+- ![](./img/wp-content-uploads-2022-01-visi_graph_2D.png) Síkidomok láthatósága. Kikapcsolt állapotban a síkidomok határoló vonalai láthatók maradnak, ha a vonalak (![](./img/wp-content-uploads-2022-01-visi_graph_lines.png)) láthatósága be van kapcsolva
+
+- ![](./img/wp-content-uploads-2022-01-visi_graph_plate.png) A 3D felületi elemek (lemez és fal) láthatósága. Kikapcsolt állapotban a 3D felület határoló vonalai és síkidom komponense láthatóak maradnak, ha a vonalak (![](./img/wp-content-uploads-2022-01-visi_graph_lines.png)) és síkidomok (![](./img/wp-content-uploads-2022-01-visi_graph_2D.png)) láthatósága be van kapcsolva
+
+- ![](./img/wp-content-uploads-2022-01-visi_graph_supp.png) Támaszok láthatósága
+
+- ![](./img/wp-content-uploads-2022-01-visi_graph_link.png) Kapcsolati elemek láthatósága  
+  ![](./img/wp-content-uploads-2022-01-visi_graph_smartlink.png) Okos kapcsolati elem láthatósága  
+  ![](./img/wp-content-uploads-2022-01-visi_graph_joint.png) Elhelyezett csomópontok szimbólumának láthatósága
+
+- ![](./img/wp-content-uploads-2022-01-visi_graph_curv.png) Elhelyezett kezdeti görbeség szimbólumának láthatósága
+
+- ![](./img/wp-content-uploads-2022-01-visi_graph_shear.png) Nyírási mező szimbólumának láthatósága
+
+- ![](./img/wp-content-uploads-2022-01-visi_graph_frame.png) Keretsarok szimbólumának láthatósága
+
+- ![](./img/wp-content-uploads-2022-01-visi_graph_load.png) Terhek láthatósága (pont, vonal és felületi teher)
+
+- ![](./img/wp-content-uploads-2022-01-visi_graph_LTS.png) Teherátadó felület láthatósága. Kikapcsolt állapotban a síkidomok határoló vonalai láthatók maradnak, ha a vonalak (![](./img/wp-content-uploads-2022-01-visi_graph_lines.png)) láthatósága be van kacsolva
+
+- ![](./img/wp-content-uploads-2022-01-visi_graph_distr_load.png) Szétosztott felületi teher megjelenítése
+
+- ![](./img/wp-content-uploads-2022-01-visi_graph_mass.png) Tömegek megjelenítése
+
+- ![](./img/wp-content-uploads-2022-01-visi_graph_constr.png) Kényszerek láthatósága
+
+- ![](./img/wp-content-uploads-2022-01-visi_graph_rigid.png) Merev testek láthatósága  
+  ![](./img/wp-content-uploads-2022-01-visi_graph_diaph.png) Diafragmák láthatósága  
+  ![](./img/wp-content-uploads-2022-01-visi_graph_purl.png) Szelemensorok láthatósága
+
+- ![](./img/wp-content-uploads-2022-01-visi_graph_rib.png) Merevítők láthatósága
+
+- ![](./img/wp-content-uploads-2022-01-visi_graph_cut.png) Gerinckivágások láthatósága
+
+#### Lokális koordináta-rendszerek láthatósága (LCS) ![](./img/wp-content-uploads-2022-01-ico_visibility_coord.png)
+
+![alt text](img/lokaliskoordlat.png)
+
+- ![](./img/wp-content-uploads-2022-01-visi_coord_rast.png) Raszter láthatósága
+
+- ![](./img/wp-content-uploads-2022-01-visi_coord_grid.png) Modell raszter láthatósága
+
+- ![](./img/wp-content-uploads-2022-01-visi_coord_memb.png) A szerkezeti elemek lokális koordináta-rendszerének láthatósága (gerenda, oszlop)
+
+- ![](./img/wp-content-uploads-2022-01-visi_coord_plate.png) 3D felületi elemek lokális koordináta-rendszerének láthatósága (lemez, fal)
+
+- ![](./img/wp-content-uploads-2022-01-visi_coord_supp.png) Támaszok lokális koordináta-rendszerének láthatósága
+
+- ![alt text](img/spreadf.png) Pontalap
+
+- ![](./img/wp-content-uploads-2022-01-visi_coord_link.png) Kapcsolati elemek lokális koordináta-rendszerének láthatósága
+
+- ![](./img/wp-content-uploads-2022-01-visi_coord_smartlink.png) Okos kapcsolati elem lokális koordináta-rendszerének láthatósága
+
+- ![](./img/wp-content-uploads-2022-01-visi_coord_LTS.png) Teher átadó felületek lokális koordináta-rendszerének láthatósága
+
+> Megjegyzés:
+
+> Ha egy objektumok láthatóságát kikapcsoljuk, akkor az objektum lokális koordináta-rendszerének láthatósága is megszűnik!
+
+#### Azonosítók láthatósága ![](./img/wp-content-uploads-2022-01-ico_visibility_names.png)
+
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/popup_visi_names.png)](./img/wp-content-uploads-2021-04-popup_visi_names.png)
+
+- ![](./img/wp-content-uploads-2022-01-visi_names_point.png) Végeselem pontok sorszámainak láthatósága. (Csak a Végeselem és az Analízis fülön látható!)
+
+- ![](./img/wp-content-uploads-2022-01-visi_coord_memb.png) Rúdelemek neveinek láthatósága
+
+- ![](./img/wp-content-uploads-2022-01-visi_coord_plate.png) 3D felületelemek neveinek láthatósága (lemez, fal)
+
+- ![](./img/wp-content-uploads-2022-01-visi_coord_supp.png) Támaszok neveinek láthatósága
+
+- ![](./img/wp-content-uploads-2022-01-visi_graph_hinge.png) Csuklók (vég folytonosság) neveinek láthatósága
+
+- ![](./img/wp-content-uploads-2022-01-visi_coord_link.png) Kapcsolati elemek neveinek láthatósága
+
+- ![](./img/wp-content-uploads-2022-01-visi_coord_smartlink.png) Okos kapcsolati elem neveinek láthatósága
+
+- ![](./img/wp-content-uploads-2022-01-visi_graph_joint.png) Elhelyezett csomópontok neveinek láthatósága
+
+- ![](./img/wp-content-uploads-2022-01-visi_coord_LTS.png) Teherátadó felületek neveinek láthatósága
+
+- ![](./img/wp-content-uploads-2022-01-visi_graph_shear.png) Nyírási mező azonosítójának láthatósága
+
+- ![](./img/wp-content-uploads-2022-01-visi_names_reinf.png) Vasalási objektum azonosítójának láthatósága
+
+- ![](./img/wp-content-uploads-2022-01-visi_graph_constr.png) Kényszerek neveinek láthatósága
+
+- ![](./img/wp-content-uploads-2022-01-visi_graph_rigid.png) Merev testek neveinek láthatósága
+
+- ![](./img/wp-content-uploads-2022-01-visi_graph_diaph.png) Diafragmák neveinek láthatósága
+
+- ![](./img/wp-content-uploads-2022-01-visi_graph_purl.png) Szelemensorok neveinek láthatósága
+
+- ![](./img/wp-content-uploads-2022-01-visi_graph_rib.png) Merevítők neveinek láthatósága
+
+- ![](./img/wp-content-uploads-2022-01-visi_graph_cut.png) Gerinckivágások neveinek láthatósága
+
+- ![](./img/wp-content-uploads-2022-01-visi_coord_grid.png) Modell raszter neveinek láthatósága
+
+:::info
+Ha egy objektumok láthatóságát kikapcsoljuk, akkor az objektum nevének láthatósága is megszűnik!
+:::
+
+#### Feliratok láthatósága ![](./img/wp-content-uploads-2022-01-ico_visibility_numbs.png)
+
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/01/visibility_numbs_2.png)](./img/wp-content-uploads-2022-01-visibility_numbs_2.png)
+
+- ![](./img/wp-content-uploads-2022-01-visi_names_mat.png) Anyagminőségek láthatósága
+
+- ![](./img/wp-content-uploads-2022-01-visi_names_prof.png) Szelvénynevek láthatósága
+
+- ![](./img/wp-content-uploads-2022-01-visi_names_thick.png) Lemezvastagságok láthatósága (mm)
+
+- ![](./img/wp-content-uploads-2022-01-visi_graph_load.png) Teherintenzitás láthatósága
+
+- ![](./img/wp-content-uploads-2022-01-visi_graph_mass.png) Tömegek feliratának megjelenítése
+
+- ![](./img/wp-content-uploads-2022-01-visi_graph_curv.png) Kezdeti görbeség láthatósága
+
+- ![](./img/wp-content-uploads-2022-01-visi_graph_frame.png) Keretsarok feliratának láthatósága
+
+- ![](./img/wp-content-uploads-2022-01-visi_names_units.png) Mértékegységek láthatósága
+
+- ![](./img/wp-content-uploads-2022-01-ico_visibility_coord.png) Lokális koordináta-rendszerek tengelyneveinek láthatósága
+
+#### Objektumok színének meghatározása
+
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/obj_color_set_v15.png)](./img/wp-content-uploads-2021-04-obj_color_set_v15.png)
+
+- ![](./img/wp-content-uploads-2022-01-visi_color_def.png) Szerkezeti elemek színezése az alapértelmezett módon (layer vagy anyag színek)
+
+- ![](./img/wp-content-uploads-2022-01-visi_color_prof.png) Szerkezeti elemek színezése szelvény színek alapján (további infót ld. a _[Szelvénykezelő](../5_0_structural-modeling/5_1_section-administration.md)_ c. fejezetben!)
+
+#### Fogópont beállítások
+
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/01/visibility_snaps.png)](./img/wp-content-uploads-2022-01-visibility_snaps.png)
+
+A Fogópont beállítások ikoncsoport funkciói számos beállítási lehetőséget kínálnak a hatékony modellezés elősegítéséhez:
+
+- ![](./img/wp-content-uploads-2022-01-visi_snap_end.png) Végponti fogópontok (vonalak, ívek, szerkezeti elemek)
+
+* ![](./img/wp-content-uploads-2022-01-visi_snap_sect.png) Felosztási funkció Be / Ki
+
+  - Be
+
+    - Bekapcsolt állapotban megjelenik a felosztási mező az állapotsoron. Osztópontok megadása háromféle képen történhet. A felhasználó a mező előtt látható ikonra kattintással választhat ezek közül:
+
+      - ![](./img/wp-content-uploads-2021-04-2-2-6-divide-percentage.png) a megadott százalékos érték alapján kerülnek elhelyezésre az osztópontok a szerkezeti elemek hossza mentén. A távolságokat a kurzorral megközelített végponttól jelöli ki a program. Általában maradéktávolság adódik.
+
+      - ![](./img/wp-content-uploads-2021-04-2-2-6-divide-distance.png) távolság érték adható meg. A kurzorral megközelített végponttól kerülnek felmérésre a fogópontok. Általában maradéktávolság adódik.
+
+      - ![](./img/wp-content-uploads-2021-04-2-2-6-divide-number.png) a felosztás darabszáma adható meg. Ez esetben nincs maradék távolság.
+
+  * Ki: A mező eltűnik az állapotsorból
+
+- ![](./img/wp-content-uploads-2022-01-visi_snap_inters.png) Grafikai vagy szerkezeti elemek metszéspontjai. Vonalak, körök, ívek, szerkezeti elemek (gerendák, oszlopok)
+
+* ![](./img/wp-content-uploads-2022-01-visi_snap_paral.png) Egyenes objektummal párhuzamos fogópontok megjelenítése (csak kisebb modellek esetén javasoljuk a bekapcsolását)
+
+- ![](./img/wp-content-uploads-2022-01-visi_snap_line.png) A kurzorhoz legközelebbi elemhez tartozó fogópont megjelenítése
+
+* ![](./img/wp-content-uploads-2022-01-visi_snap_length.png) Egyenes elem meghosszabbítása adott távolsággal. A rendszer mutatja az aktuális pont távolságát (mm). A meghosszabbítás értékének lépéseit az állapotsor utolsó mezőjében lehet megadni (mm)
+
+- ![](./img/wp-content-uploads-2022-01-visi_snap_point.png) Szerkezeti pontok
+
+* ![](./img/wp-content-uploads-2022-01-visi_snap_rast.png) Raszterháló pontjai
+
+- ![](./img/wp-content-uploads-2022-01-visi_snap_tang.png) Ív/kör érintő pontjainak meghatározása adott pontból
+
+* ![](./img/wp-content-uploads-2022-01-visi_snap_perp.png) Egy pontból egy egyenesre, ívre, körre merőleges pont kijelölése
+
+- ![](./img/wp-content-uploads-2022-01-visi_snap_circ.png) Ív/kör középpontjának kijelölése
+
+Egyenes elemek középpontjának megfogása a felosztás ![](./img/wp-content-uploads-2022-01-visi_snap_sect.png) funkció megfelelő beállításával érhető el. Ld. fentebb
+
+#### Meghosszabbítás lépésköze
+
+Az állapotsor utolsó mezője a meghosszabbítás lépésköze. A mezőben megadott szám, a meghosszabbítás lépésközét adja meg mm-ben, amennyiben a meghosszabbítás ![](./img/wp-content-uploads-2022-01-visi_snap_length.png) funkció aktív.
+
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/2-2-6-lengthen.png)](./img/wp-content-uploads-2021-04-2-2-6-lengthen.png)
+
+### Objektumfa, Objektum tulajdonságok és Diagnosztika ablakok
+
+Ezek az ablakok a [Nézet ](#nézet-menü)menüben kapcsolhatók ki/be. A program indításánál alapértelmezetten a Diagnosztika ablaka kikapcsolt állapotban, a másik kettő bekapcsolt állapotban van, és a képernyő jobb szélén jelennek meg. Az ablakok a címsoron történő Fogd-és-vidd művelettel (drag&drop) áthelyezhetők, és a képernyő bármely széléhez dokkolhatók.
+
+![alt text](img/nezet.png)
+
+Részletmodellek fül
+
+A Modellrészek ablak alapértelmezett pozíciója a jobb felső sarokban található. Két részre oszlik: Egyedi részletek és Auto részletek.
+
+![](./img/wp-content-uploads-2024-01-HU-1.2.7.-CS17-Model-Portions.png)
+
+Részletes leírásért lásd a Modellnézeteket és a Részletek kezelőjét!
+
+Objektum tulajdonságok
+
+![](./img/wp-content-uploads-2024-01-HU-1.2.7.-CS17-View-panel-Object-properties.png)
+
+Az Objektum tulajdonságok fülön (alapértelmezetten az ablak jobb alsó részén) az elemek kezdeti és végpontjai azonosíthatók; ezeket sárgával és magentával jelzik.
+
+![](./img/wp-content-uploads-2024-01-HU-1.2.7.-CS17-View-panel-Object-properties-start-and-end-point.png)
+
+A színes pont méretének növeléséhez menjen a nézet panelre, objektumok méreteire, és módosítsa azt a lokálrendszerből, ahogy azt a lenti képen láthatja:
+
+![](./img/wp-content-uploads-2024-01-HU-1.2.7.-CS17-View-panel-size-strat-and-end-point.png)
+
+Modell tartalma fül (Ctrl+Q)
+
+![](./img/wp-content-uploads-2024-01-HU-1.2.7.-CS17-Model-Content.png)
+
+A Modell tartalma fül tartalmazza az összes előre meghatározott alap objektumtípust, amelyekkel szerkezeti modellt lehet építeni. További részletekért lásd a Kiválasztás fejezetet.
+
+#### Diagnosztika ablak
+
+![](./img/wp-content-uploads-2024-01-1.2.-Diagnostics-Window-HU-CS17.png)
+
+A Consteel 17-től kezdve a már meglévő hibaüzenetek mellett megjelenik egy narancssárga színű hibaüzenet is.
+
+Ez a hiba akkor jelentkezik, amikor az automatikus terheléselosztás ki van kapcsolva és a modellben olyan változás történik, amely indokolja a terhek újraosztását a helyes eredmény eléréséhez. A terheléseket a modell új állapotához való frissítéshez jelölje be a négyzetet, vagy kattintson a diagnosztika üzenet alatt megjelenő Frissítés gombra.
+
+További információkért kérjük, látogasson el az Opciók>[Terheszétosztás](#teherszétosztás) menüpontba.
+
+Geometriai vagy modellezési hibák (egy vagy több elem átfedése, hiányzó támasz stb…) észlelése esetén a Diagnosztika ablak automatikusan megjelenik, kijelezve a problémás elemeket.
+
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/01/diag_ablak.png)](./img/wp-content-uploads-2022-01-diag_ablak.png)
+
+A Diagnosztika ablakban a hiba üzenetek piros színnel, a figyelmeztetések pedig sárga színnel kerülnek megjelenítésre.
+
+A Diagnosztika ablakban kiválasztott objektum a _Kijelöl_ gomb megnyomásával a modelltérben is kijelölésre kerül. A SHIFT vagy CTRL billentyűk egyidejű lenyomásával a többszörös kijelölés is lehetséges. Egy probléma címsorára kattintva az összes hozzá tartozó objektum kijelölésre kerül. A kiválasztott objektum/ok a _Töröl_ gomb, vagy a Delete billentyű segítségével kitörölhető(ek).
+
+#### Objektum tulajdonságok ablak
+
+Az ablak alapértelmezett helye a jobb alsó sarok. Minden kiválasztott objektum (és alobjektum) összes tulajdonsága megjelenik az Objektum tulajdonságok ablakban (#1). Az egyes paraméterek megtekinthetők, illetve a legtöbb paraméter módosítható is. Ha több azonos csoportba tartozó objektumot választunk ki, akkor a kiválasztott objektumok azonos paraméterei olvashatóak, az eltérőek helyén az „eltérő” szöveg kerül kijelzésre. Az eltérő értékek is átírhatók, és így az összes kijelölt objektumra megadható egy egységes, új érték.
+
+Különböző típusú objektumok kiválasztása esetén, azok objektum típusonként csoportosítva jelennek meg. Az egyes csoportok az előttük található kis "+" ikonnal nyithatók ki, "-" ikonnal zárhatók be.
+
+A kijelölés megszüntetése (![](./img/wp-content-uploads-2021-04-2-2-7-unselect.png)) gombbal, az előzőleg kiválasztott objektum típusok kivonhatóak a kiválasztásból.
+
+![alt text](img/hallgerenda.png)

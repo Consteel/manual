@@ -4,7 +4,9 @@ sidebar_position: 1
 # Section administration
 
 
-Sections must be loaded into the model database in order to use them in the model. This can be done in the Section administration dialogue. The Section dialogue can be opened by clicking the ![](./img/wp-content-uploads-2021-04-cmd_section_admin.png) command on the **Structural members** tab. The dialogue can also be reached from the member creating dialogues (Beam and Column) with the ![](./img/wp-content-uploads-2021-04-3dots-button.png) command besides the section drop-down menu. In this dialogue window, you can see all the previously loaded sections and new sections can be loaded or created by clicking the appropriate buttons on the right.
+Sections must be loaded into the model database in order to use them in the model. This can be done in the Section administration dialogue. The Section dialogue can be opened by clicking the ![](./img/wp-content-uploads-2021-04-cmd_section_admin.png) command on the **Structural members** tab. The dialogue can also be reached from the member creating dialogues (Beam and Column) with the ![](./img/wp-content-uploads-2021-04-3dots-button.png) command besides the section drop-down menu. 
+![alt text](img/beamandcolumn.png)
+In this dialogue window, you can see all the previously loaded sections and new sections can be loaded or created by clicking the appropriate buttons on the right.
 
 <!-- /wp:paragraph -->
 

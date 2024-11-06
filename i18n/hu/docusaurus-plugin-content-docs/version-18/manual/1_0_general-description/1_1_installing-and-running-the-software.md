@@ -1,8 +1,7 @@
 ---
 sidebar_position: 1
 ---
-# Installing and running the software
-
+# A szoftver telepítése és futtatása
 
 <!-- wp:Consteel/content-block -->
 
@@ -10,13 +9,19 @@ sidebar_position: 1
 
 <!-- wp:paragraph -->
 
-Please ensure that the following software and hardware requirements are met in order to run the Consteel program. Otherwise, it may not run at the expected speed or may not run at all.
+**Hardver követelmények**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-**Minimum hardware requirements:**
+A Consteel program futtatásához az alábbi szoftver és hardver követelmények teljesítése szükséges. Ezek hiányában a program nem, vagy nem az elvárt gyorsasággal futtatható.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+**Minimális konfiguráció:**
 
 <!-- /wp:paragraph -->
 
@@ -24,11 +29,15 @@ Please ensure that the following software and hardware requirements are met in o
 
 <!-- wp:column {"verticalAlignment":"top","width":"20%"} -->
 
-- Processor
-- Memory
+<!-- wp:list -->
+
+- Processzor
+- Memória
 - HDD
-- Video-card
-- Operating system
+- Videó-kártya
+- Operációs rendszer
+
+<!-- /wp:list -->
 
 <!-- /wp:column -->
 
@@ -36,21 +45,15 @@ Please ensure that the following software and hardware requirements are met in o
 
 <!-- wp:paragraph -->
 
-Intel Core i5 or equivalent  
+Intel Core i5 vagy ennek megfelelő  
 4 GB  
 300 MB  
-512 MB non-integrated  
+512 MB nem alaplapra integrált  
 64-bit MS Windows 10
 
-<!-- /wp:paragraph -->
 
-<!-- /wp:column -->
 
-<!-- /wp:columns -->
-
-<!-- wp:paragraph -->
-
-**Recommended hardware:**
+**Ajánlott konfiguráció:**
 
 <!-- /wp:paragraph -->
 
@@ -60,11 +63,12 @@ Intel Core i5 or equivalent
 
 <!-- wp:list -->
 
+- Processzor
+- Memória
+- Videó-kártya
+- Operációs rendszer
 
-- Processor
-- Memory
-- Video-card
-- Operating system
+<!-- /wp:list -->
 
 <!-- /wp:column -->
 
@@ -72,9 +76,9 @@ Intel Core i5 or equivalent
 
 <!-- wp:paragraph -->
 
-Intel Core i7 or equivalent  
+Intel Core i7 vagy ennek megfelelő  
 32 GB  
-2 GB non-integrated  
+2 GB nem alaplapra integrált  
 64-bit Windows 10
 
 <!-- /wp:paragraph -->
@@ -85,31 +89,38 @@ Intel Core i7 or equivalent
 
 <!-- wp:paragraph -->
 
-Installation needs administrative or power user rights. Without that, the hard lock driver and those .**dll** files, which are indispensable for the system is cannot be installed.
+**Telepítés**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-#### **Downloading the install package**
+A telepítéshez rendszergazdai jogosultság szükséges. Rendszergazdai jogok nélkül a hardverkulcs és a program működéséhez elengedhetetlen .dll fájlok nem telepíthetőek.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The ConSteel install package can be downloaded from the [Downloads/Install packages](https://consteelsoftware.com/downloads/) section of the ConSteel website  (https://consteelsoftware.com/downloads/) for registered users only.
+**A telepítő fájl letöltése**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-**Registration process**
+A Consteel szoftver telepítő csomagja elérhető a Consteel honlap [_Letöltések_](https://Consteelsoftware.com/hu/letoltesek) (_Downloads_) menüpontjából   regisztrált felhasználók számára.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":27672,"sizeSlug":"large","linkDestination":"none","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+<!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2021-04-Main-menubar-1-1024x38.png)
+**A regisztráció menete**
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":30803,"sizeSlug":"large","linkDestination":"none"} -->
+
+
+![](./img/wp-content-uploads-2022-01-honlap_menu-1024x38.png)
 
 <!-- /wp:image -->
 
@@ -119,7 +130,8 @@ The ConSteel install package can be downloaded from the [Downloads/Install packa
 
 <!-- wp:paragraph -->
 
-To create a new user account, click the **LOG IN** button in the upper right corner of the Consteel website, then click **Register** at the bottom of the pop-up window. Then enter your email address, your name, and a chosen password in the **_Create Account_** window that appears. It is important to enter a real email address because you will receive an email to confirm it as the next step. At the bottom of the window, it is possible to subscribe to Consteel's professional newsletter and you must accept the terms of use and privacy policy. You can then click on the **_Register_** button to proceed, and another window will inform you that the registration confirmation e-mail has been sent to the specified e-mail address and the registration must be completed using the link included in the email. If you don't receive the email in a long time, you may need to check your spam and promotional folders in your email system. If the email is not found there either, you can request to send the confirmation email again if you try to login with your email address and password, then clicking on the **_Send confirmation email again_** text. After confirming the registration, you can log in to your user account.
+Új felhasználói fiók létrehozásához a weboldal jobb felső sarkában található **Belépés** gombra, majd a megjelenő ablak alján a **Regisztrálj** feliratra kell kattintani.  
+A **_Fiók létrehozása_** ablakban meg kell adni a felhasználó e-mail címét, nevét és egy választott jelszót. Fontos, hogy valós email címet adjunk meg, mert ezután egy automatikusan kiküldött email üzenetben meg kell erősíteni az e-mail címünket. Az ablak alján lehetőség van feliratkozni a Consteel szakmai hírlevelére, valamint el kell fogadni a felhasználási és adatvédelmi feltételeket, végül a **Regisztrálok** gombra kattintva lehet a regisztrációt befejezni. Ezután egy újabb ablak jelenik meg, mely arról tájékoztat, hogy a rendszer a regisztrációs visszaigazoló emailt elküldte a megadott email címre, és az abban található link segítségével kell a regisztrációt befejezni. Ha hosszabb idő eltelte után sem érkezik meg a visszaigazoló email, érdemes ellenőrizni a levélszemét és promóciós mappákat is levelező rendszerünkben. Ha ott sem található meg az email, akkor az előbbi tájékoztató ablakban kérhető a **megerősítő email újbóli kiküldése**. (Ha már bezártuk a regisztrációs ablakot, akkor újból a belépésre kattintva adjuk meg ismét az email címünket és választott jelszavunkat, hogy megjelenjen az üzenet újbóli kiküldése parancs.) A regisztráció megerősítése után már be lehet lépni a felhasználói fiókba.
 
 <!-- /wp:paragraph -->
 
@@ -127,11 +139,15 @@ To create a new user account, click the **LOG IN** button in the upper right cor
 
 <!-- wp:column {"verticalAlignment":"bottom","width":"30%"} -->
 
-<!-- wp:image {"align":"left","id":6803,"sizeSlug":"full","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+<!-- wp:image {"align":"left","id":30830,"sizeSlug":"full","linkDestination":"media"} -->
 
-![](img\wp-content-uploads-2021-04-Log-in.jpg)
+![](img\wp-content-uploads-2022-01-honlap_login.png)
 
 <!-- /wp:image -->
+
+<!-- wp:paragraph -->
+
+<!-- /wp:paragraph -->
 
 <!-- /wp:column -->
 
@@ -139,19 +155,19 @@ To create a new user account, click the **LOG IN** button in the upper right cor
 
 <!-- wp:paragraph -->
 
-**Installing Consteel**
+**A Consteel telepítése**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-To install Consteel, start the downloaded installation file and follow the instructions. As a first step, the language of the setup must be set. *Consteel* will use this language for the first time you start it, but you may switch to another language later. The installing program will copy the elements of the software into the directory you have specified (default directory: C:\\Program Files\\Consteel xx - where xx=version number), then it will position the Menu of the program onto the selected place of the „START”-menu. Finally, the install shield will place the desktop shortcut onto the desktop. The last step of the setup is the hard lock driver installation. This has no progress signal, so you have to wait until it finishes.
+A telepítéshez el kell indítani a letöltött Consteel telepítő fájlt, és követni kell a telepítő instrukcióit. Első lépésként ki kell választani a telepítő nyelvét. A kiválasztott nyelvet fogja használni a Consteel az első indítás során is, amely szükség esetén megváltoztatható. A telepítő a megadott mappába (alapesetben a C:\\Program Files\\Consteel xx mappába, ahol xx=verzió száma) másolja a szükséges fájlokat, a választott beállításoknak megfelelően elhelyezi a program ikonját az asztalra és a „START” menüben. A telepítés utolsó fázisa a hardverkulcs szoftverének installálása. Ez a folyamat nem kerül kijelzésre, és hosszabb ideig is eltarthat.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-#### **Network operation**
+**Hálózatos működés**
 
 <!-- /wp:paragraph -->
 
@@ -161,38 +177,56 @@ To install Consteel, start the downloaded installation file and follow the instr
 
 <!-- wp:paragraph -->
 
-If you have purchased a network-enabled hardware key, it can be connected to any computer on the internal network with a free USB port on which the hardware key driver has been pre-installed. This driver is also part of the Consteel installation package, which is installed on the computer by default (see the previous section), but it is also possible to install it independently if you want to connect the hardware key to a server computer. The hardlock driver is available from our website Downloads menu. After downloading the exe file, install the driver on the usual way.
+Hálózatos licensz vásárlása esetén a program használatához szükséges hardverkulcsot a belső hálózat bármelyik, szabad USB csatlakozóval rendelkező számítógépéhez lehet csatlakoztatni, amelyen előzetesen telepítésre került a hardverkulcs kezelő szoftver (driver). Ez a driver is a Consteel telepítő csomag része, mely alapértelmezés szerint a programmal együtt települ a számítógépre (ld. előző pont), de lehetőség van annak önálló telepítésére is, ha a hardverkulcsot egy központi szervergépre szeretnénk csatlakoztatni. Ehhez el kell indítani a Consteel telepítőcsomagját a fentebb leírtak szerint, majd az **Összetevők kiválasztása** ablakban elegendő csak a _Hardverkulcs illesztőprogram_ pontot kiválasztani, a többit üresen hagyni, és a Tovább gombra kattintva befejezni a telepítést.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":38168,"sizeSlug":"full","linkDestination":"none","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+<!-- /wp:column -->
 
-![alt text](<img/CS17 downloads.png>)
+<!-- wp:column {"width":"50%","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+
+<!-- wp:image {"align":"left","id":30886,"sizeSlug":"full","linkDestination":"media"} -->
+
+
+<!-- /wp:image -->
+
+<!-- /wp:column -->
+
+<!-- /wp:columns -->
+
+<!-- wp:paragraph -->
+
+A Consteel 15 Update 6 verzió kiadásával a hardverkulcs illesztőprogram a honlapunkról a Letöltések menüből érhető el. Letöltés után a szokásos módon kell telepíteni a drivert.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":38178,"sizeSlug":"full","linkDestination":"none"} -->
+
+![alt text](img/Letoltesek.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-#### **Starting the program**
-
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-Launching the program for the first time you have to select whether you use Consteel with a hardware key dongle or with an online license. You have to select it according to your contract. **If you own a hardware key dongle you have to select USB dongle.** If you have already switched to the new online license and have already sent back your dongle, then you can select the Online license.
+**A program indítása**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-You can save this setting as a default setting. **Do this only if you are sure about your choice!** (If you have accidentally saved the online license as default but you do not have it the solution is at the moment only reinstalling Consteel.)
+A program első indításakor ki kell választani a szoftvervédelem típusát a felhasználói szerződésnek megfelelően. **Amennyiben rendelkezel hardverkulccsal, akkor válaszd az USB dongle opciót**! Csak akkor válaszd az Online licenszt, ha már átváltottál az új online védelemre, valamint a hardverkulcsot is visszaküldted a forgalmazónak.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Students, teachers, or trial users only can request an online license. Please for trial users read our guide [here](https://Consteelsoftware.com/how-licensing-works/#trialuser), for educational members, read the steps [here](https://Consteelsoftware.com/student-and-education/).
+Ezt a beállítást el lehet menteni alapértelmezett beállításként. **Ezt csak akkor tedd meg, ha biztos vagy a választásban!** (Ha véletlenül elmentetted az online licenszt alapértelmezettként, de nem rendelkezel vele, akkor jelenleg csak a Consteel újratelepítésével tudsz visszatérni a hardverkulcs használatára.)
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+Diákok, tanárok és próba verziót használók csak online licenszt igényelhetnek. Próba licensz igénylésének menete [itt olvasható](https://Consteelsoftware.com/hu/how-licensing-works/#trialuserhun), oktatási verzióval kapcsolatban pedig [ebben a leírásban tájékozódhatsz](https://Consteelsoftware.com/hu/diak-es-oktatas/).
 
 <!-- /wp:paragraph -->
 
@@ -200,9 +234,9 @@ Students, teachers, or trial users only can request an online license. Please fo
 
 <!-- wp:column -->
 
-<!-- wp:image {"align":"right","id":28965,"sizeSlug":"medium","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+<!-- wp:image {"align":"right","id":30914,"sizeSlug":"medium","linkDestination":"media"} -->
 
-![alt text](<img/select protection USB.png>)
+![](img\wp-content-uploads-2022-01-vedelem_valaszt_USB-1-269x300.png)
 
 Hardware key dongle
 
@@ -212,9 +246,9 @@ Hardware key dongle
 
 <!-- wp:column -->
 
-<!-- wp:image {"align":"left","id":28971,"sizeSlug":"medium","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+<!-- wp:image {"align":"left","id":30921,"sizeSlug":"medium","linkDestination":"media"} -->
 
-![alt text](<img/Select protection Onile.png>)
+![](img\wp-content-uploads-2022-01-vedelem_valaszt_online-1-269x300.png)
 
 Online license
 
@@ -230,35 +264,41 @@ Online license
 
 <!-- wp:paragraph -->
 
-#### **Selecting USB Dongle**
+**Indítás hardverkulcsos védelemmel**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Before starting the program, you must plug the hardware key (dongle) into an empty USB port on your computer, or in the case of a network key, the key must be available on a computer on the local network. If, after startup, Consteel cannot find the correct hardware key connected to the computer (or over the network), a login window will appear to launch the program using the online license assigned to the Consteel user account.
+A program indítása előtt a hardverkulcsot (USB dongle) be kell dugni a számítógép egy üres USB portjába, vagy hálózati kulcs esetén a kulcsnak elérhetőnek kell lennie a helyi hálózaton lévő valamelyik számítógépen. A megfelelő hardverkulcs felismerés után a Consteel elindul. A továbbiakat ld. a _Projekt Központ fejezetben_!
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-#### **Selecting Online**
+Ha az indítás után a Consteel nem találja a számítógéphez (vagy a hálózaton keresztül) csatlakoztatott megfelelő hardverkulcsot, megjelenik az online licensz bejelentkezési ablaka, amely lehetővé teszi a program indítását a Consteel felhasználói fiókhoz rendelt online licenc használatával (amennyiben elérhető).
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-You will need to log in with your online account to use Consteel with your online protection. If you are on a Personal plan you can choose the available seat then start Consteel. In the Team plan, each software seat comes with two software accesses by default, but more software accesses can be requested for an additional fee if required. Therefore, if you are on a Team plan, you can select from different seats if your license holder has been given access to multiple seats. For more information about how to give access to seats: read [here](#end-user-management-tool-for-teams).
+**Indítás online védelemmel**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-According to your membership level, you can take the chosen seat as an offline seat for 72 hours maximum. To do this, select the check box behind the selected seat and enter the length of offline use by clicking the clock icon that appears. (You can also do this later, while the program is running, using the License menu item in the main menu.)
+A Consteel online védelemmel való használatához be kell jelentkezned online fiókoddal. Ha személyes előfizetéssel (**Personal plan**) rendelkezel, a szabad hely kiválasztása után azonnal indítható a Consteelt. Csapat előfizetésben (**Team plan**) minden _**szoftver helyhez**_ (_**seat**_) alapértelmezés szerint két szoftver **_hozzáférés_** (_**access**_) tartozik, de igény esetén további hozzáférés is kérhető felár ellenében. Csapat előfizetés használatakor ezért különböző szoftver helyek közül választhatsz, attól függően, hogy a licensz tulajdonosa hány helyhez adott hozzáférést. Előfizetési csomagokkal és tagsági szintekkel kapcsolatos fogalmak magyarázata az **_[Ajánlatok és csomagok](https://Consteelsoftware.com/hu/termekek/ajanlatok-csomagok/#ccm)_** oldalon olvashatók. Hozzáférések adminisztrációjával kapcsolatos további információkért [kattints ide](#csomag-és-felhasználó-menedzsment).
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":30934,"sizeSlug":"full","linkDestination":"none","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+<!-- wp:paragraph -->
+
+Pro vagy Premium tagság esetén a választott szoftver helyet offline használatra is ki lehet venni. Ehhez a kiválasztás sorában el kell helyezni a pipát a jelölőnégyzetben, majd a megjelenő óra ikonra kattintva az offline használat hosszát kell megadni. (Ezt később, a program futása során is meg lehet tenni a _főmenü Licence menüpontja segítségével_.)
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":30938,"sizeSlug":"full","linkDestination":"none"} -->
 
 ![](./img/wp-content-uploads-2022-01-offline-seat.png)
 
@@ -266,17 +306,23 @@ According to your membership level, you can take the chosen seat as an offline s
 
 <!-- wp:paragraph -->
 
-After selecting the desired seat the Project Center will appear. If Consteel hasn't found an available seat you can check your account on our website to request to see your license status or ask your license holder to give you access and seat to use Consteel.
+A megfelelő szoftverhely kiválasztása után a _**[Projekt Központ](#home)**_ ablaka jelenik meg.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-If you have other problems please [contact us](https://Consteelsoftware.com/contact/).
+Ha a Consteel nem talált elérhető szoftver helyet, a megjelenő link segítségével megnyithatjuk a weboldalon a felhasználói fiókunkat, ahol ellenőrizhető a licensz állapota. Megkérhetjük a licensz birtokosát, hogy adjon hozzáférést a licenszhez, vagy saját hozzáférést kell rendelnünk.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":28182,"width":464,"height":381,"sizeSlug":"full","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+<!-- wp:paragraph -->
+
+[Fordulj hozzánk](https://Consteelsoftware.com/hu/kapcsolat/), ha további segítségre van szükséged!
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":28185,"width":464,"height":381,"sizeSlug":"full","linkDestination":"media"} -->
 
 ![](img\wp-content-uploads-2021-11-seat_selection.png)
 
@@ -286,153 +332,194 @@ Seat selection
 
 <!-- wp:paragraph -->
 
-#### **End-user management tool for teams**
+#### **Csomag és felhasználó menedzsment**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Regarding teams, any access can be flexibly connected to any seat in the End-user management tool by the License holder. The End-user management tool is located at the license holder's online account/subscription submenu under the My account tab.
-![alt text](<img/my account.png>)
+A felhasználói fiók _Előfizetés_ menüpontjából elérhető _Csomag és felhasználó menedzsment_ eszköz segítségével a licensz tulajdonosa bármely szoftver hozzáférést (access) hozzárendelhet bármely, a licenszen belül elérhető szoftver helyhez (seat).
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
--  **Software access** covers license-related information together with the End Use Agreement. Some of our latest articles can also be found on this first panel.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-- **Plan and Pricing** on this page the following can be verified: 
-the license plan, available membership, Team plan, Billing and Pricing details.
+A _Csomag és felhasználó menedzsment_ eszköz képernyője az alábbi három nagy részből tevődik össze:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-- **User Management** here the License holder has to assign users to software accesses. Every access is connected to a Consteel Community Membership level. Cloud services available in Consteel are set by these [membership levels](https://Consteelsoftware.com/products/offers-licensing/#ccm).
-By clicking on the "Add user" card the license holder can type the user's email address registered as a Consteel account then click add to assign that particular access. By clicking on the three-dotted icon the license holder can move a user to another available membership or remove the user. One user can be assigned to only one software access at a time. After assigning users to software accesses the license holder can give online seat access to these users. By clicking on a seat's panel the panel will open and the license holder can select a user from the list of assigned users to give access to that particular user. After selecting a user the "Give access" button will be active and clickable. Users can be removed from a seat by clicking on the "X" icon. One user can be assigned to multiple seats.
+- A **Szoftver hozzáférés** tartalmaz licensszel kapcsolatos információtkat: licensz típusa, szoftver-hozzáférések (access) és szoftver-helyek (seat) száma, megtekinthető a Felhasználói szoftver hozzáférési szerződés.A szoftver licensz a szoftver-hozzáférések és szoftver-helyek segítségével biztosítja a program használatát. Csapat előfizetés esetén a következő két szakaszban lehet a hozzáféréseket kiosztani a felhasználók között.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":28339,"width":855,"height":767,"sizeSlug":"large","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+<!-- wp:paragraph -->
 
-![alt text](img/Subscriptions.png)
+- Az **Előfizetés és csomag** szakaszban lehet megtekinteni a Szoftverlicenc csomaggal kapcsolatos információkat, Elérhető tagsági szinteket, Számlázást és Díjszabás részleteket. Amennyiben Team csomaggal rendelkeznek, az ezzel kapcsolatos információk is itt jelennek meg. 
 
-Subscription plan information and end-user management
+
+
+- A **Felhasználó menedzsment**-ben lehet a felhasználókat rendelni az egyes szoftver-hozzáférésekhez. Minden szoftver-hozzáférés egy adott [Consteel Felhasználó Közösségi](https://Consteelsoftware.com/hu/termekek/ajanlatok-csomagok/#ccm) tagsági szinthez kötődik. Az elérhető online szolgáltatások körét a tagsági szint határozza meg.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+Szabad szoftver-hozzáférés felhasználóhoz rendeléséhez a "Felhasználó hozzáadása" kártyát kell választani. A megjelenő mezőben meg kell adni a felhasználó Consteel honlapon már előzetesen regisztrált e-mail címét, majd a Hozzáadás gomb megnyomásával véglegesíteni azt.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":31005,"sizeSlug":"full","linkDestination":"none"} -->
+
+![](./img/wp-content-uploads-2022-01-user_manage_add_user_3.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-#### **Project Center**
+Már hozzárendelt felhasználó kártyáján a 3 pont ikonra kattintva át lehet helyezni a felhasználót egy másik szoftver-hozzáférésbe vagy el is lehet őt távolítani az adott hozzáférésből. Egy felhasználót egyidőben csak egy hozzáféréshez lehet hozzárendelni.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The Project Center unites all the functionalities for model and account management.
+Ahhoz, hogy a felhasználó használni tudja a szoftvert, a  szoftver-hozzáférést kapott felhasználókat még hozzá kell rendelni egy vagy több szoftver-helyhez (Seat) is. Az elérhető szoftver-helyek (seat) listáján valamely hely kártyájára kattintva megjelennek az adott helyhez rendelt szoftver-hozzáférések. Új felhasználót a legördülő menüből lehet kiválasztani, majd a "Hozzáférés adása" gombra kattintva rendelhető hozzá az adott szoftver-helyhez. Felhasználókat eltávolítani a sor végén található "x" gombbal lehet. Egy felhasználót egyszerre több szoftver-helyhez is hozzá lehet rendelni.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
+<!-- wp:image {"align":"center","id":30966,"sizeSlug":"large","linkDestination":"media"} -->
 
-On the left side of the screen, you can view learning materials on the Learn tab, or open a model from your computer or from the cloud if you are logged into your Consteel account **(1)**. On the Home tab, you can create **(2)** New model, access your **(4)** Recent models from your computer and read news and updates from the **(5)** Info hub. You can access your license information and change the online protection setting to offline mode by clicking on the Licence button **(3)**. You can log in to your account at the top right corner if you haven't logged in already **(3)**. The top bar will have an active button as well when a new update is available to download or your access will expire soon. Support options are also available from the left bottom side of the Project Center **(6)**.
+![alt text](img/üdv.png)
 
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":45006,"width":783,"height":463,"sizeSlug":"large","linkDestination":"none","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-![](./img/wp-content-uploads-2023-02-projectcenter_guide-1024x606.png)
+Előfizetés és felhasználó menedzsment
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-At the Licence settings **(3)**, you can access your license information and also go offline mode if it's available or change the launch settings.
+**Projekt Központ**
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":44998,"width":726,"height":431,"sizeSlug":"large","linkDestination":"none","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+<!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2023-02-licence_menu_projectcenter-1024x608.png)
+A Projekt Központ egyesíti magában a modell- és a felhasználói fiókkezelés összes funkcióját. A szoftvervédelem megadása után ezzel az ablakkal indul a program, melynek bal oldali főmenüjében 4 nézet érhető el.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"fontSize":"medium"} -->
+
+#### **Home**
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+A bal oldali menüsávban lehetőség nyílik a Kezdőlapon kívül oktatási anyagokat felfedezni vagy modellfájlokat megnyitni számítógépről vagy a felhőből **(1)**. A Home nézetben lehetőség van (**2**) **új modell** létrehozására, (**4**) **korábbi modellek** megnyitására, valamint (**5**) **hírek** és friss információk megjelenítésére. A **(3)** **Licence** gombbal a használt licensz információi jeleníthetők meg, a jobb felső sarokban pedig a **felhasználói fiók**ba történő belépés lehetséges és itt érhető el az offline használatra váltás is. A bal alsó sarokban a szoftver támogatási rendszerünk érhető el közvetlenül **(6)**. Ha van elérhető frissítés a programhoz vagy a hozzáférés hamarosan lejár, az is a Projekt Központ ablak felső sorában jelenik meg.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":45014,"width":742,"height":438,"sizeSlug":"large","linkDestination":"media"} -->
+
+![](img\wp-content-uploads-2023-02-projectcenter_guide-1-1024x606.png)
+
+Projekt Központ nyitó képernyője
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-From the Learn screen, you can access various learning materials and example models from the [Knowledge base](https://Consteelsoftware.com/knowledgebase/).
+A **(3)** Licence gomb megnyomásával egy új ablak jelenik meg, ahol megtalálhatók a licensz információi, aktiválhatjuk az offline használatot, illetve megváltoztathatjuk az indítási alapértelmezett beállításokat.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":28198,"width":730,"height":394,"sizeSlug":"large","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+<!-- wp:image {"align":"center","id":45021,"width":681,"height":404,"sizeSlug":"large","linkDestination":"media"} -->
 
-![alt text](img/learningc.png)
+![](img\wp-content-uploads-2023-02-licence_menu_projectcenter-1-1024x608.png)
 
-Learning Center
+Licensz beállítás
 
 <!-- /wp:image -->
 
-<!-- wp:paragraph -->
+<!-- wp:paragraph {"fontSize":"medium"} -->
 
-#### **Opening models**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-To access your models from your computer just click the "Open from Computer" button.
+**Learn**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-#### **Cloud open**
+A második menüpontból az online [_**Tudásbázis**_](https://Consteelsoftware.com/hu/knowledgebase/) különböző cikkei és példa modelljei érhetők el.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":28198,"width":730,"height":394,"sizeSlug":"large","linkDestination":"media"} -->
+
+![](img\wp-content-uploads-2021-11-projectcenter3-1024x576.png)
+
+Tudásbázis
+
+<!-- /wp:image -->
+
+<!-- wp:paragraph {"fontSize":"medium"} -->
+
+**Megnyitás számítógépről**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-If you have models in your cloud storage or someone shared a model with you, you can access those models by clicking on the "Open from Cloud" button.
+A számítógépen tárolt modellek megnyitása a főmenü negyedik, "_Open from Computer_" parancsával lehetséges.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"fontSize":"medium"} -->
+
+**Felhőtárhely**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The folder tree can be seen on the left side of the screen **(1)**.
+A főmenü harmadik pontjával ("_**Open from Cloud**_") megnyíló nézetben a felhőtárhelyen tárolt modelljeinket, valamint a más által velünk megosztott modelleket érhetjük el.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-You can execute different actions **(2)** in your cloud storage from left to right: "_create new folder_", "_move_", "_share model_", "_delete_", "_search_", "_sort by date or name_", "_list or card view_", and switch "_model or folder information_" on or off.
+A saját modellek a felhőtárhelyen is hierarchikus mappastruktúrában tárolhatók, ez látható a képernyő bal szélén ("My models") **(1)** .
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-A descriptive panel will appear regarding the selected model or folder if the _model information_ is switched on **(3)**.
+A jobb felső menüben **(2)** található parancsokkal balról jobbra haladva új mappát hozhatunk létre, áthelyezhetjük, megoszthatjuk vagy törölhetjük a modellt. Kereshetünk a tárhelyen, rendezhetjük a listát különböző tulajdonságok szerint, válthatunk a lista vagy a kártya nézet között, végül be-, vagy kikapcsolhatjuk a modell és mappa információs panelt.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Every model opening and sharing cost data bandwidth from your storage. Your monthly bandwidth limit is set by your membership level. You can monitor your current bandwidth usage at the left bottom corner **(4)**.
+A kiválasztott modell vagy mappa részletes tulajdonság panelje **(3)** a képernyő jobb szélén jelenik meg, ha be van kapcsolva.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":28219,"width":768,"height":402,"sizeSlug":"large","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+<!-- wp:paragraph -->
+
+A modellek megnyitása és megosztása a havi adatforgalmi korlát elérésig lehetséges, ennek alakulását a bal alsó sarokban **(4)** követhetjük nyomon. A felhasználható havi adatmennyiséget a [_tagsági szint_](https://Consteelsoftware.com/hu/termekek/ajanlatok-csomagok/#ccm) határozza meg, mely minden hónap elején megújul.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":28219,"width":768,"height":402,"sizeSlug":"large","linkDestination":"media"} -->
 
 ![](img\wp-content-uploads-2021-11-cloud-open-manual-1024x536.png)
 
-**Cloud storage provided by the Steelspace platform**
+A felhőtárhelyet a Steelspace platform biztosítja
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-When you open a model from the cloud it is always downloaded to the local device into the folder: C:\\Users(username)\\AppData\\Local\\Consteel\\CloudModels and kept synchronized. The amount of data bandwidth is set by your subscription's membership level and it will renew every month.
+A felhőtárhelyről megnyitott modellek minden esetben letöltésre kerülnek az alábbi mappába: C:\\Users\\\{username\}\\AppData\\Local\\Consteel\\CloudModels, és a munka során folyamatosan szinkronizált kapcsolatban maradnak a felhőben tárolt változattal.
 
 <!-- /wp:paragraph -->
-

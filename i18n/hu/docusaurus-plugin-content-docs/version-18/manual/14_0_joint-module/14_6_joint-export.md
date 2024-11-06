@@ -1,12 +1,18 @@
 ---
 sidebar_position: 6
 ---
+# Kapcsolatok exportálása
+<!-- wp:paragraph -->
 
-# Joint export
+A modellben létrehozott csomópontok exportálhatók a _TEKLA Structures_ programba. Ennek módját részletesen lásd [_**Tekla Structures import és export**_](../2_0_file-handling/2_3_tekla-structures-model-import-export-and-update.md) fejezetben!
 
-All joints can be exported to _TEKLA Structures_ steel detailing software. See chapter [File handling](../2_0_file-handling/2_3_tekla-structures-model-import-export-and-update.md) for more detailed information.
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":9836,"width":467,"height":212,"sizeSlug":"full","linkDestination":"media"} -->
 
 ![alt text](img/cstotekla.png)
+
+<!-- /wp:image -->
 
 <!-- wp:paragraph -->
 

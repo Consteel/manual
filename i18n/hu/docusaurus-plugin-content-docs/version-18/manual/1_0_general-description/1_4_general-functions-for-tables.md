@@ -1,59 +1,62 @@
 ---
 sidebar_position: 4
+
 ---
-# General functions for tables
+# Táblázatok általános funkciói
 
-Basically, there are two types of tables in _Consteel_: the input tables and the output tables. Since tables are usually for working with a large amount of data, both table types have special features making the data managing more comfortable.
+<!-- wp:paragraph -->
+
+A _Consteel_-ben kétféle táblázattípus található: az adatbeviteli és az eredmény táblázat. A táblázatok általában nagy mennyiségű adatokat tartalmaznak. Ezen adatok kezelésének kényelmesebbé tételét a következő funkciók segítik.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Input tables (used in the **[_Load combinations_](../6_0_structural-loads/6_2_load-combinations.md)** and **_[Analysis parameters](../8_0_structural-analysis/8_3_analysis-settings.md)_** dialogues) have the following common features:
+Adatbeviteli táblázatok (a **[Teherkombinációk](../6_0_structural-loads/6_2_load-combinations.md)** és az _**[Analízis beállításai](../8_0_structural-analysis/8_3_analysis-settings.md)**_ ablakok használják) funkciói:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"className":"is-style-arrow","editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-- clicking on the heading cells the whole column will be selected
-- multiple checking is possible for the selected cells clicking the right mouse button on any of the selected cells
+- egész oszlop kiválasztása a fejléccellára való kattintással
+- jelölő négyzetes opció esetén is lehetséges egyidejűleg kiválasztott több cella kijelölése. Először a SHFT vagy a CTR billentyűk segítségével ki kell jelölni a kívánt cellákat, majd a kijelölt cellákra jobb egérgombbal kell kattintani
 
 <!-- /wp:list -->
 
-<!-- wp:image {"align":"center","id":11132,"width":322,"height":278,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":31986,"width":488,"height":162,"sizeSlug":"full","linkDestination":"media"} -->
 
-![](img\wp-content-uploads-2021-04-tables_multi_check.png)
+![](img\wp-content-uploads-2022-01-tablazat_tobbes_kivalasztas.png)
 
 <!-- /wp:image -->
 
 <!-- wp:list {"className":"is-style-arrow","editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-- if there is a value entry option in the table cells, multiple value entry is possible for the selected cells clicking the right mouse button and entering the value
+- az előzőhöz hasonlóan azonos érték bevitele is történhet az egyidejűleg kiválasztott több cellába. A kiválasztott cellákra jobb egérgombbal kattintva az érték megadható a megjelenő ablakban
 
 <!-- /wp:list -->
 
-<!-- wp:image {"align":"center","id":11138,"width":321,"height":276,"sizeSlug":"full","linkDestination":"media"} -->
+<!-- wp:image {"align":"center","id":31979,"width":490,"height":238,"sizeSlug":"full","linkDestination":"media"} -->
 
-![](img\wp-content-uploads-2021-04-tables_multi_value.png)
+![](img\wp-content-uploads-2022-01-tablazat_tobbes_ertekmegadas.png)
 
 <!-- /wp:image -->
 
 <!-- wp:list {"className":"is-style-arrow","editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-- The content of selected cells can be copied by pressing Ctrl+C and paste by pressing Ctrl+V in the table or to MS Excel or to other spreadsheet applications
+- Módosítható táblázatok esetén, a cella tartalmak _**CTRL+C**_ billentyű kombinációkkal másolhatóak és _**CTRL+V**_ billentyű kombinációkkal beszúrhatóak táblázaton belül, vagy Excel, vagy más táblázat kezelő programokba
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
-Output tables (used on the **Analysis** and **Global checks** tabs and in the **Dominant values** and **Model information** dialogues) have the following common features:
+Az eredmény táblázatoknál (**Analízis** és **Globális vizsgálatok** fülek és a **Mértékadó értékek** és a **Modell információs adatlap**ablakok használják) a következő lehetőségek érhetőek el:
 
 <!-- /wp:paragraph -->
 
-<!-- wp:list {"className":"is-style-arrow"} -->
+<!-- wp:list -->
 
-- the rows of the table can be ordered by any column (increasing or decreasing order) clicking to its heading cell
-- the actual table can be saved for Excel into a **.csv** file
-- the actual table can be saved for the documentation which can be later inserted into the report in the documentation module (see chapter **_[Documentation](../13_0_documentation-2/13_1_the-document-tab.md)_** for more info)
+- az oszlopok fejlécére kattintva a sorok rendezhetőek növekvő, csökkenő és ABC sorrendbe
+- az aktuális táblázat Excel fájlba menthető
+- az aktuális táblázat elmenthető a dokumentációba való beillesztés céljából (lásd [_**Dokumentálás**_ ](../13_0_documentation-2/13_1_the-document-tab.md)fejezet)
 
 <!-- /wp:list -->

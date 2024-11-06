@@ -2,47 +2,55 @@
 sidebar_position: 1
 ---
 
-# Finite Elements
+# Végeselemek
 
-### Basics
+<!-- wp:heading {"level":3} -->
+
+### Alapok
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-The mechanical performance of the calculated model is always highly influenced and limited by the applied finite element type. The considered displacements, forces, shape functions, and second-order effects within the finite element model determine the quality of the analysis, the expectable results, and the applicable standard verification methods. On the other hand, the engineer should be aware of the important characteristics of the used finite elements already at the model building phase to avoid the non-expected structural behavior and calculate the mechanical performance of the imagined structure as accurately as possible. In Consteel, the models always have the real 3D behavior; there are no options for special reduced degree-of-freedom calculations (like 2D frames, plate or membrane surfaces, etc.). If this is required appropriate support and/or load system should be applied. All the defined loads and supports are converted to nodal forces and nodal supports; no forces or supports are considered along with the finite elements. This conversation is performed automatically during the FE mesh generation.
+A mechanikai eredmények és a számítás korlátai nagyban függenek a számított modellben alkalmazott végeselemek típusától. Az analízis minőségét, a várható eredményeket és ezzel összhangban az alkalmazható szabványos ellenőrzéseket, a figyelembe vett elmozdulások, erők, keresztmetszeti funkciók és másodrendű hatások határozzák meg. Annak érdekében, hogy a mérnök a szerkezet „működését” a lehető legpontosabban meghatározhassa, és hogy elkerülje a szerkezet nem várt viselkedését, a mérnöknek a modellezés során ügyelnie kell az egyes alkalmazott végeselemek jellemzőire. A _Consteel_ programban minden végeselemes modell a tényleges 3D-ben működik; nincs mód a szabadságfokok korlátozására (síkbeli keret stb.). Ha szükséges, támaszok és/vagy teherrendszerek alkalmazásával megoldható. Az összes teher és támasz, teheresetenként csomóponti erőkké és csomóponti támasszá kerülnek konvertálásra, végeselem mentén megoszló erő és támasz nem alkalmazható. A konvertálást a végeselem generálás során automatikusan végzi a program.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The subsequent sections do not intend to introduce the deep theory behind the applied finite elements – it can be found in the literature – only the most significant features are presented and explained which are important to know for the appropriate interpretation of the results.
+A következő fejezet nem törekszik az alkalmazott végeselemeket megalapozó elméletek bemutatására, mert ezek a szakirodalmakban megtalálhatók. Mindössze azokat a tulajdonságokat mutatja be, amelyek ismerete az eredmények helyes értelmezéséhez szükségesek.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
 
-### Line elements
+### Vonalelemek
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-There are three options for line elements:
+Három végeselem típus használható:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true,"type":"a"} -->
 
-1. a 6 degrees-of-freedom (6DOF) general beam-column element for the bars subjected to axial force, shear force, bending moment, torsion or any interaction of these
-2. a 7 degrees-of-freedom (7DOF) beam-column with warping element for the bars subjected same as 6DOF element + warping effect
-3. a tension-only (TO) element for bars subjected by tension force
+1. 6 szabadságfokú (6SZF) általános elem, olyan rudak modellezésére, amelyeken tengelyirányú erő, nyíróerő, nyomaték, csavarás vagy ezek tetszőleges interakciója működik
+2. 7 szabadságfokú (7SZF) rúdelem öblösödéssel elem, működése megegyezik a 6SZF elemmel, kiegészítve az öblösödés hatásával
+3. húzott rúd (HR) elem, olyan 1 szabadságfokú rudak modellezésére, amelyek nyomást nem tudnak felvenni
 
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
 
-The 7DOF element is specially developed for thin-walled members where the warping of the cross-section is of high importance in the behavior, this effect is considered by the 7th DOF. In the following figure the considered nodal displacements are illustrated:
+6 szabadságfokú rúdelemet használ a Consteel a vasbeton elemek és öszvér gerendák modellezésére. A Consteel által alkalmazott 6 szabadságfokú rúdelem a nyírási alakváltozásokat is figyelembe tudja venni.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+A 7SZF elem speciálisan olyan vékonyfalú rudakhoz került kifejlesztésre, ahol a keresztmetszet öblösödésének figyelembevétele különösen fontos a viselkedés során. Ez a hatás jelenik meg a hetedik szabadságfokban. A következő ábra bemutatja a csomóponti elmozdulásokat:
 
 <!-- /wp:paragraph -->
 
@@ -54,7 +62,7 @@ The 7DOF element is specially developed for thin-walled members where the warpin
 
 <!-- wp:paragraph -->
 
-The first 6 DOF are the conventional displacements (Ux, Uy, Uz) and rotations (Φx, Φy, Φz) according to the local coordinate system of the member (see chapter **[Coordinate systems](../4_0_drawing-geometry/4_1_coordinate-systems.md)**). What needs more explanation is the 7th DOF which is mathematically the first derivative of the twist about the longitudinal axis (Φ'x); mechanically it represents the warping of the section which is a straight consequence of torsion on thin-walled members. The next figure illustrates the warping effect of I shaped cross-section when the flanges step out of the original plane of the section.
+Az első 6 SZF a hagyományos elmozdulásokat (Ux, Uy, Uz) és elfordulásokat (Fx, Fy, Fz) tartalmazza, a rúd helyi koordinátarendszerében (lásd _[**Koordináta rendszerek**](../4_0_drawing-geometry/4_1_coordinate-systems.md)_). A hetedik szabadságfok több magyarázatot igényel. Ez szabadságfok a hossztengely menti elfordulás első deriváltját (F'x) jelenti matematikailag, mechanikailag a szelvény öblösödését jelenti, amely egyenes következménye a vékonyfalú szelvény torzulásának. Az alábbi ábra az öblösödést igyekszik bemutatni. Az öv kilép a szelvény eredeti síkjából.
 
 <!-- /wp:paragraph -->
 
@@ -66,24 +74,33 @@ The first 6 DOF are the conventional displacements (Ux, Uy, Uz) and rotations (�
 
 <!-- wp:paragraph -->
 
-In this case the warping DOF can be considered as a dual and opposite rotation of the flanges about the axis perpendicular to their width (in this case the local axis “z”).
+Ebben az esetben az öblösödés szabadságfoka, mint két, ellentétes irányú az öv tengelyére merőleges tengely körüli elfordulásként értelmezhető.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-Since steel members are usually relatively slender, various modes of global stability failure can occur: flexural buckling, torsional buckling, lateral-torsional buckling, and any interactions of these, all modes can be calculated by the 7DOF element. It is a quite important and advantageous feature in the stability design of these members. Since the accurate calculation of all the torsional modes is highly dependent on the 7th warping DOF it is essential to consider this effect already in the modeling phase (see _**[Structural modeling](../5_0_structural-modeling)**_ for the modeling warnings).
+A 7 szabadságfokú rúdelemnek egy speciális továbbfejlesztett változatát használja a Consteel lineárisan változó keresztmetszetű rudak modellezésére.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The tension only (TO) elements are only considered in the first- and second-order analysis if they are subjected to tension. Accordingly, the calculation is iterative if TO members are present in the model. In the calculation that takes place as the first step of the iteration, all the TO members are taken into account as a single normal finite element that can withstand both tension and pressure. Next, the axial DOF (Ux) of TO members loaded with compression force will be freed and the calculation runs again with this modified FE model. This iterative procedure runs until the state of any of the TO members no longer changes (it means, it not becomes compressed from tensioned or vice versa). If the iteration does not lead to a result because it does not reach a final model state in certain steps (1000 iterations), the procedure starts all over again with a small modification. In this next round, the TO members become compressed are replaced by a fictitious nominal stiffness (E\*A/L/50) in every iterative step until a stable model state is reached, similar to the first round.
+Mivel az acél szelvényű rudak általában karcsúak, ezért globális stabilitásvesztésüknek számos változata fordulhat elő: kihajlás, elcsavarodó kihajlás, kifordulás, és ezek együttes hatása. A 7 SZF végeselemeknek köszönhetően mindezen módok számíthatók. Ilyen rudak stabilitásszámításakor ez egy fontos és előnyös lehetőség, de mivel a komplex elcsavarodások pontos számítása nagyban függ a 7. öblösödési szabadságfoktól, ennek hatását már a modell felépítésénél figyelembe kell venni (lásd a _[**Szerkezet modellezése**](../5_0_structural-modeling)_ fejezet figyelmeztetéseit).
 
-:::Danger
+<!-- /wp:paragraph -->
 
-Because the eigenvalue calculations cannot be performed iteratively, the above strategy cannot be applied in the buckling and the dynamic calculations. Therefore, in the buckling analysis Consteel considers the stiffness of TO members according to the result of the above procedure but members subjected to compression are considered always with the nominal small fictitious stiffness. In the case of dynamic calculation the strategy used by buckling analysis cannot be used either. Consteel consider all TO members as normal members but with a stiffness reduced to 50%. This value has been assumed on the assumption that tension bar bracings are typically used in pair and only one of them is "working" at a time.
+<!-- wp:paragraph {"align":"justify"} -->
 
+A húzott rudak (HR) csak akkor szerepelhetnek az első- és másodrendű analízisben, ha húzásnak vannak kitéve. Ennek megfelelően a számítás iteratív, ha HR elemek vannak a modellben. Az iteráció első lépéseként végzett számításban az összes HR elem a hossza mentén egyetlen normál végeselemként szerepel, amely mind a húzó-, mind a nyomó igénybevételnek ellenáll. Ezután a nyomóerővel terhelt HR elemek tengelyirányú szabadságfoka (Ux) felszabadításra kerül, és a számítás, ezzel a módosított modellel újra lefut. Ez az iteratív eljárás addig tart, amíg egyik HR elem állapota sem változik tovább (vagyis nem válik húzottból nyomottá, vagy fordítva). Ha az iteráció nem vezet eredményre, mert 1000 lépésben sem éri el a modell a végső állapotát, akkor az eljárás egy kis módosítással kezdődik elölről. Ebben a következő fordulóban a nyomottá vált HR elemeket minden iterációs lépésben egy fiktív névleges merevséggel (E\*A/L/50) helyettesítjük, amíg az első fordulóhoz hasonlóan el nem érjük a stabil modellállapotot. A sajátérték számítás erre a módosított végeselem modellre kerül elvégzésre.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"left","id":6758,"width":122,"height":130,"sizeSlug":"large","linkDestination":"none"} -->
+
+:::danger
+
+Mivel a sajátérték számítás nem hajtható végre iteratív módon, a fenti stratégia nem alkalmazható. A Consteel ehelyett a sajátértékszámításhoz figyelembe veendő teherkombinációra elvégez egy fenti stratégia szerinti analízist, majd a HR rudakra kapott végeredmény szerinti merevséggel (ténylegesen húzott rúd teljes érték, nominálisan nyomott HR rúd fiktív érték) végzi a sajátértékszámítást. hasonlóan problémás a dinamikai számítás HR rudak esetén. Ebben az esetben a sajátértékekhez használt stratégia sem használható. a Consteel minden HR rudat húzott-nyomott rúdként feltételez, de 50% merevséggel. Ez az érték annak a feltételezésével lett felvéve, hogy jellemzően húzott rudas merevítések párban vannak használva és egy adott terhelésben jellemzően csak az egyik “dolgozik” közülük.
 :::
 
 <!-- /wp:paragraph -->
