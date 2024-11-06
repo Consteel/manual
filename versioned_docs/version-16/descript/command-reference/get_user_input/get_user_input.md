@@ -1,10 +1,10 @@
 ---
-title: 'GET_USER_INPUT'
+title: "GET_USER_INPUT"
 description: ""
 published: 2023-08-22
-redirect_from: 
-            - https://www.consteelsoftware.com/manual/descript-cspi/get_user_input/
-hero: ./img/wp-content-uploads-2024-02-image-7.png
+redirect_from:
+  - https://www.consteelsoftware.com/manual/descript-cspi/get_user_input/
+hero: ./img/Get_User_Input_Point_Fig04_v01.png
 ---
 
 Requests input from the user during the script run.
@@ -29,8 +29,7 @@ OPTION [Variable name] [Dialogue text] [Default value]
 [Option 2 value] [Option 2 dropdown text]  
 ENDOPTION  
 POINT [Array name] [Dialogue text]  
-OBJECT [Array name] [Dialogue text] [Object type]  
-FILE_PATH [Variable name] [Dialogue text] [Default value]  
+OBJECT [Array name] [Dialogue text] [Object type]
 
 ### Input types
 
@@ -38,17 +37,17 @@ One or more input types can be requested within one GET_USER_INPUT command in ar
 
 Available input types:
 
-| **Input type**                | **Description**                                    |
-| ----------------------------- | -------------------------------------------------- |
-| [Text](#text-input)           | Text input                                         |
-| [Number](#numerical-input)    | Numerical input                                    |
-| [Bool](#boolean-input)        | Boolean input                                      |
-| [Option](#option-input)       | Option choice from dropdown                        |
-| [Point](#point-input)         | x,y,z coordinates of a point selected in the model |
-| [Object](#object-input)       | Object IDs of model objects selected in the model  |
-| [File path](#file-path-input) | File path input with file open button              |
+| **Input type**             | **Description**                                    |
+| -------------------------- | -------------------------------------------------- |
+| [Text](#text-input)        | Text input                                         |
+| [Number](#numerical-input) | Numerical input                                    |
+| [Bool](#boolean-input)     | Boolean input                                      |
+| [Option](#option-input)    | Option choice from dropdown                        |
+| [Point](#point-input)      | x,y,z coordinates of a point selected in the model |
+| [Object](#object-input)    | Object IDs of model objects selected in the model  |
 
 ### Sample code
+
 ```
 GET_USER_INPUT
 TEXT TextVariable "Text input" textdefault
@@ -61,14 +60,14 @@ Opt_Value2 "Option 2"
 ENDOPTION
 POINT PointArray "Point select"
 OBJECT ObjectArray "Object select"
-FILE_PATH file_path "File path"
 ```
 
 The above code will result in this input dialogue:
 
-[![](./img/wp-content-uploads-2024-02-image-7.png)](./img/wp-content-uploads-2024-02-image-7.png)
+[![](./img/Get_User_Input_Point_Fig04_v01.png)](./img/Get_User_Input_Point_Fig04_v01.png)
 
 ---
+
 ## Detailed description of input types
 
 ## Text input
@@ -87,15 +86,19 @@ TEXT [Variable name] [Dialogue text] [Default value]
 | [Default value](#Default-value-txt) | Optional       | String           | Local, variable   |
 
 #### Variable name: {#Variable-name-txt}
+
 Name of the variable that will contain the requested input.
 
 #### Dialogue text: {#Dialogue-text-txt}
+
 Text that will appear on the dialogue window.
 
 #### Default value: {#Default-value-txt}
+
 Default value of the requested input variable.
 
 ### Sample code
+
 ```
 GET_USER_INPUT
 TEXT TextVariable "Text input" textdefault
@@ -121,15 +124,19 @@ NUMBER [Variable name] [Dialogue text] [Default value]
 | [Default value](#Default-value-num) | Optional       | Integer, float   | Local, variable   |
 
 #### Variable name: {#Variable-name-num}
+
 Name of the variable that will contain the requested input.
 
 #### Dialogue text: {#Dialogue-text-num}
+
 Text that will appear on the dialogue window.
 
 #### Default value: {#Default-value-num}
+
 Default value of the requested input variable.
 
 ### Sample code
+
 ```
 GET_USER_INPUT
 NUMBER NumberVariable "Numerical input" 12345
@@ -155,19 +162,24 @@ BOOL [Variable name] [Dialogue text] [Default value]
 | [Default value](#Default-value-bool) | Optional       | [Predefined strings](#Accepted-inputs-bool) | Local, variable   |
 
 #### Variable name: {#Variable-name-bool}
+
 Name of the variable that will contain the requested input.
 
 #### Dialogue text: {#Dialogue-text-bool}
+
 Text that will appear on the dialogue window.
 
 #### Default value: {#Default-value-bool}
+
 Default value of the requested input variable.
 
 <span id="Accepted-inputs-bool" style={{paddingTop: '80px'}}> Accepted inputs: </span>
+
 - Positive: "True" or "1"
 - Negative: "False" or "0"
 
 ### Sample code
+
 ```
 GET_USER_INPUT
 BOOL BoolVariable "Bool input" True
@@ -181,12 +193,6 @@ The above code will result in this input dialogue:
 
 The option input creates a dropdown list on the dialogue, from where the user can choose 1 option.
 
-There are 2 ways to set up an option input:
-- [Local list](#option-input-defined-by-local-list) in multiple rows closed by "ENDOPTION" line
-- [Defined by arrays](#option-input-defined-by-arrays) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
-
-## Option input defined by local list
-
 One option input takes up several rows within the GET_USER_INPUT command. After the line starting with "OPTION" all dropdown options have to be listed in separate rows. After the row of the last dropdown option, the "OPTION" input is closed with an additional "ENDOPTION" line.
 
 ### Syntax
@@ -197,7 +203,7 @@ OPTION [Variable name] [Dialogue text] [Default value]
 [Option 1 value] [Option 1 dropdown text]  
 [Option 2 value] [Option 2 dropdown text]  
 etc.  
-ENDOPTION  
+ENDOPTION
 
 ### Command parameters
 
@@ -210,21 +216,27 @@ ENDOPTION
 | [Option dropdown texts](#Option-dropdown-texts-opt) | Required       | String           | Local, variable   |
 
 #### Variable name: {#Variable-name-opt}
+
 Name of the variable that will contain the chosen option value.
 
 #### Dialogue text: {#Dialogue-text-opt}
+
 Text that will appear on the dialogue window.
 
 #### Default value: {#Default-value-opt}
+
 Number of the default input option. The numbering of the options starts with 0.
 
 #### Option values: {#Option-values-opt}
+
 The values associated with the individual dropdown options. If a certain option is selected, then its value will be assigned to the resulting variable of the option input.
 
 #### Option dropdown texts: {#Option-dropdown-texts-opt}
+
 Text that will appear within the dropdown of the dialogue window.
 
 ### Sample code
+
 ```
 GET_USER_INPUT
 OPTION OptionVariable "Dropdown option" 1
@@ -237,60 +249,6 @@ ENDOPTION
 The above code will result in this input dialogue:
 
 [![](./img/wp-content-uploads-2021-09-image-5.png)](./img/wp-content-uploads-2021-09-image-5.png)
-
-## Option input defined by arrays
-
-With this syntax, the value and text for the items in the dropdown list are given by 2 arrays. These arrays must be the same size. This syntax allows to create dropdown lists with a number of items that are not known at the time of coding.
-
-### Syntax
-
-**GET_USER_INPUT**  
-OPTION [Variable name] [Dialogue text] [Value array] [Text array] [Default value]
-
-### Command parameters
-
-| **Command parameter**                  | **Assignment** | **Value format** | **Input options** |
-| -------------------------------------- | -------------- | ---------------- | ----------------- |
-| [Variable name](#Variable-name-optarr) | Required       | String           | Local, variable   |
-| [Dialogue text](#Dialogue-text-optarr) | Required       | String           | Local, variable   |
-| [Value array](#Value-array-optarr)     | Required       | String           | Local, variable   |
-| [Text array](#Text-array-optarr)       | Required       | String           | Local, variable   |
-| [Default value](#Default-value-optarr) | Optional       | Integer          | Local, variable   |
-
-#### Variable name: {#Variable-name-optarr}
-Name of the variable that will contain the chosen option value.
-
-#### Dialogue text: {#Dialogue-text-optarr}
-Text that will appear on the dialogue window.
-
-#### Value array: {#Value-array-optarr}
-An array that contains the corresponding values for each item in the dropdown list.
-
-#### Text array: {#Text-array-optarr}
-An array that containst the texts that will be shown in the dropdown UI element for each list item.
-
-#### Default value: {#Default-value-optarr}
-Number of the default input option. The numbering of the options starts with 0.
-
-### Sample code
-```
-ARRAY_CREATE Value_array
-ARRAY_ADD Value_array Value1
-ARRAY_ADD Value_array Value2
-ARRAY_ADD Value_array Value3
-
-ARRAY_CREATE Static_Text_array
-ARRAY_ADD Static_Text_array "Option 1"
-ARRAY_ADD Static_Text_array "Option 2"
-ARRAY_ADD Static_Text_array "Option 3"
-
-GET_USER_INPUT
-OPTION Output_Var "Dropdown option" Value_array Static_Text_array 1
-```
-
-The above code will result in this input dialogue:
-
-![](img\wp-content-uploads-2021-09-image-5.png)
 
 ## Point input
 
@@ -309,9 +267,11 @@ POINT [Array name] [Dialogue text]
 | [Dialogue text](#Dialogue-text-point-pnt) | Required       | String           | Local, variable   |
 
 #### Array name: {#Array-name-pnt}
+
 Name of the array that will contain the coordinates of the selected point.
 
 #### Dialogue text: {#Dialogue-text-point-pnt}
+
 Text that will appear on the dialogue window.
 
 ### Sample code
@@ -328,6 +288,7 @@ The above code will result in this input dialogue:
 ![](img\wp-content-uploads-2021-08-image-65.png)
 
 The steps of the selection are the following:
+
 - Click on the select button on the dialogue window
 - Click on the point in the model
 - Click on OK
@@ -357,15 +318,19 @@ OBJECT [Array name] [Dialogue text] [Object type]
 | [Object type](#Object-type-obj)     | Optional       | [Predefined strings](#Available-object-types-obj) | Local, variable   |
 
 #### Array name: {#Array-name-obj}
+
 Name of the array that will store the IDs of the selected objects.
 
 #### Dialogue text: {#Dialogue-text-obj}
+
 Text that will appear on the dialogue window.
 
 #### Object type: {#Object-type-obj}
+
 Restricts the selectable object types to 1 type.
 
 <span id="Available-object-types-obj" style={{paddingTop: '80px'}}> Available object types: </span>
+
 <div style={{paddingBottom: '20px'}}> </div>
 
 | **Object type name**            | **Object type**           |
@@ -439,12 +404,14 @@ The above code will result in this input dialogue:
 ![](img\wp-content-uploads-2021-08-image-68.png)
 
 The steps of the selection are the following:
+
 - Click on the select button on the dialogue window
 - Select objects in the model
 - End the selection with a right click  
   The window after this step should look like this:
 
 ![](img\wp-content-uploads-2021-08-image-26.png)
+
 - Click on OK
 
 **Command + object ID check:**
@@ -468,42 +435,6 @@ GET $Obj_ID1 Name Obj_name
 
 ![](img\wp-content-uploads-2023-03-image-4-1024x393.png)
 
-## File path input
-
-The file path input is similar to the text input, but with an additional file open button on the right side of the input field. After clicking the file open button, a file explorer window will open, where a file can be selected and opened, which copies the file path into the input field. Alternatively a file path can also be typed or pasted into the input field.
-
-### Syntax
-
-**GET_USER_INPUT**  
-FILE_PATH [Variable name] [Dialogue text] [Default value]
-
-### Command parameters
-
-| **Command parameter**              | **Assignment** | **Value format** | **Input options** |
-| ---------------------------------- | -------------- | ---------------- | ----------------- |
-| [Variable name](#Variable-name-fp) | Required       | String           | Local, variable   |
-| [Dialogue text](#Dialogue-text-fp) | Required       | String           | Local, variable   |
-| [Default value](#Default-value-fp) | Optional       | String           | Local, variable   |
-
-#### Variable name: {#Variable-name-fp}
-Name of the variable that will contain the requested input.
-
-#### Dialogue text: {#Dialogue-text-fp}
-Text that will appear on the dialogue window.
-
-#### Default value: {#Default-value-fp}
-Default value of the requested input variable.
-
-### Sample code
-```
-GET_USER_INPUT
-FILE_PATH file_path "File path"
-```
-
-The above code will result in this input dialogue:
-
-[![](./img/wp-content-uploads-2024-02-image-8.png)](./img/wp-content-uploads-2024-02-image-8.png)
-
 ## Additional content on dialogue window
 
 ## Picture
@@ -522,6 +453,7 @@ IMAGE [File path]
 | [File path](#File-path-pic) | Required       | String           | Local, variable   |
 
 #### File path: {#File-path-pic}
+
 Path, file name and extension of the image.
 
 ### Sample code
@@ -539,7 +471,7 @@ IMAGE c:\Temp\Sample_Picture.png
 
 ```
 GET_USER_INPUT
-IMAGE c:\Temp\Sample_Picture_v02_Wide.png
+IMAGE c:\Temp\Sample_Picture.png
 TEXT TextVariable "Text input" textdefault
 NUMBER NumberVariable "Numerical input" 12345
 BOOL BoolVariable "Bool input" True
@@ -550,9 +482,8 @@ Opt_Value2 "Option 2"
 ENDOPTION
 POINT PointArray "Point select"
 OBJECT ObjectArray "Object select"
-FILE_PATH file_path "File path"
 ```
 
 The above code will result in this input dialogue:
 
-[![](./img/wp-content-uploads-2024-02-image-9.png)](./img/wp-content-uploads-2024-02-image-9.png)
+[![](./img/Get_User_Input_Point_Fig05_v01.png)](./img/Get_User_Input_Point_Fig05_v01.png)
