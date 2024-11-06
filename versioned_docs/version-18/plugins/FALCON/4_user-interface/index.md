@@ -33,6 +33,8 @@ For the wind load simulation, the **Velocity Pressure** and **Geometric Paramete
 
 For more information on meteorological effects, please refer to the [_Load chapter_](../../../manual/6_0_structural-loads/6_6_meteorological-loads.md) in the Consteel manual.
 
+
+
 ### 2.	Meteorological surfaces
 
 ![alt text](img/image-3.png)
@@ -60,6 +62,14 @@ Simulation surfaces can only be applied to load transfer surfaces, including dia
 
 ### 3.	FALCON-Wind simulation
  
+ :::info
+   ![alt text](img/image-12.png)
+   If a green checkmark appears next to the three-dot button, it indicates that the previous steps were completed successfully, allowing users to proceed with the wind simulation process.
+   
+  ![alt text](img/image-13.png)
+  The Info button provides detailed information about each step. Pressing it opens a window with comprehensive guidance.
+:::
+
 ![alt text](img/image-5.png)
 
 The third step is running the wind simulation with FALCON. Use the **FALCON-Wind Simulation** button in the _Loads tab_ to open the dialog.
@@ -149,10 +159,3 @@ If the wind load generation completes successfully, new wind load cases will app
  
 ![alt text](img/image-11.png)
 
-:::info
-   ![alt text](img/image-12.png)
-   If a green checkmark appears next to the three-dot button, it indicates that the previous steps were completed successfully, allowing users to proceed with the wind simulation process.
-   
-  ![alt text](img/image-13.png)
-  The Info button provides detailed information about each step. Pressing it opens a window with comprehensive guidance.
-:::

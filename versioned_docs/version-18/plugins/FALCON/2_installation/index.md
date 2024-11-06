@@ -50,6 +50,7 @@ _"The following applications are using files that need to be updated by Setup. I
 ![alt text](img/image-7.png)
  
 •	On the following seven windows, press **Next** and **Install** without changing the default settings.
+
 •	When you reach the Complete the Microsoft MPI Setup Wizard window, press **Finish**.
 
  ![alt text](img/image-8.png)
