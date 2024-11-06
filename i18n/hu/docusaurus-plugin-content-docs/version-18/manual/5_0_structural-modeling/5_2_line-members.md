@@ -154,7 +154,7 @@ Szükséges megjegyezni, hogy nem csak a külpontos normálerőknek van hatása 
 :::
 
 
-### Acél rúdelemek
+## Acél rúdelemek
 
 
 Első lépésként a keresztmetszet betöltést kell elvégezni. Ez elvégezhető mind a [**szelvénykezelőből**](../5_0_structural-modeling/5_1_section-administration.md) (![](./img/wp-content-uploads-2021-04-cmd_section_admin.png))közvetlenül, mind pedig a **rúd szerkesztő** dialógról is. Acél keresztmetszetek betöltéséhez a Consteel, a szabványos szelvénytárban megtalálható szelvényeken és a makró szelvényeken túl, rajzolt (egyedi) szelvények betöltésére is lehetőséget ad.
@@ -180,7 +180,7 @@ Fontos megjegyezni, hogy Consteel-ben az anyagminőség a szelvény egy paramét
 ![](img\wp-content-uploads-2022-02-dial_szelvenykezelo_library-1024x549.png)
 
 
-#### Szelvénykönyvtár
+### Szelvénykönyvtár
 
 
 A _**Szelvénykezelő**_ párbeszédpanelen a szabványos szelvények esetén a következő könyvtárak érhetők el:
@@ -188,17 +188,24 @@ A _**Szelvénykezelő**_ párbeszédpanelen a szabványos szelvények esetén a 
 - Standard (európai) szelvénykönyvtár
 
 - Amerikai szelvénykönyvtár (metrikus és angolszász méretekkel)
+- Ayrshire szelvény 
+- Brausa szelvény 
+
 
 - Brit szelvénykönyvtár
 
 - Kínai szelvénykönyvtár
+- Continental Steel szelvény
+- Lindab szelvény
 
 - Orosz szelvénykönyvtár
+- SBE szelvény
+- Swedsteel szelvény
 
 - Gyártói szelvények (különböző gyártók egyedi szelvény katalógusai)
 
 
-#### Makró szelvények
+### Makró szelvények
 
 
 Makró szelvényt négyféle kategóriában lehet létrehozni:
@@ -252,7 +259,7 @@ Makró szelvényt négyféle kategóriában lehet létrehozni:
 
 3\. **Hidegen alakított típusok:**
 
-![alt text](<img/hidegen alakitott.png>)
+![alt text](img/hidegenhajlitottduplac.png)
 
 - RHS zártszelvény
 
@@ -269,6 +276,11 @@ Makró szelvényt négyféle kategóriában lehet létrehozni:
 - Zeta szelvény
 
 - Kalap szelvény
+
+-	dupla C szelvény
+-	dupla szigma szelvény
+-	dupla egyedi szelvény
+
 
 
 A hidegen alakított szelvénymakrók utóbbi 5 szelvény típusánál lehetőség van merevítők megadására is. Az öveken egyszer vagy kétszer hajlított élmerevítőt, és kétféle közbenső merevítőt, a gerinceken pedig háromféle különböző típusú közbenső merevítőt lehet definiálni. A gerincmerevítők esetén lehetőség van a merevítők kettőzésére is. Az így definiált merevítőket az EN 1993-1-3 szabványban meghatározott módon, a torzulásos horpadás (distortional buckling) számításánál veszi figyelembe a program.
@@ -333,7 +345,7 @@ Fontos, hogy ha a tervező nem az adatbázisban szereplő bevonatos anyagok köz
 - Hevederezett keresztmetszet
 
 
-#### Szelvény rajzolás
+### Szelvény rajzolás
 
 
 
@@ -600,8 +612,39 @@ A harmadik, egyben utolsó fázisra lépve ezen szelvények esetében egyedül a
 
 A szerkesztést itt is a _**Ment és kilép**_ paranccsal lehet befejezni.
 
+### Saját könyvtár szelvények
 
-### Vasbeton keresztmetszetek
+A korábban létrehozott és elmentett szelvények különböző modellekben is felhasználhatók az új, **Saját könyvtár** funkcióval.
+
+A **Saját könyvtár** gomb megnyomásával a Saját könyvtár mappa nyílik meg, ahol minden mentett mappa és szelvény megjelenik. A mappák között a bal felső sarokban található ikonokkal lehet navigálni (1).
+
+Az alábbi módosítások végezhetők el (2):
+
+- Új mappák létrehozása
+
+- Mappák átnevezése
+
+- Elemek áthelyezése mappákba vagy mappákból
+
+- Mappák vagy szelvények törlése
+
+![alt text](img/sajatkonyvtar.png)
+ 
+A szelvények kereshetőek, ezek nevének beírásával (3).
+
+Kétféle nézet közül lehet választani: Rács vagy Lista (4).
+
+A főablakon megjelenik az összes mappa és szelvény, amely a kiválasztott mappában található (5).
+
+Egy szelvény kiválasztása során, a hozzá tartozó összes releváns tulajdonság megjelenik az ablak jobb oldalán (6).
+
+Ctrl vagy Shift+kattintással a szelvények kiválasztása után, az ablak jobb alsó sarkában megjelenik a Betöltés gomb (Load). A zárójelben lévő szám a kiválasztott szelvényeket jelöli. A Betöltés gombra kattintva az elemek átkerülnek a **Szelvénykezelőbe**, és használhatóvá válik a modellben. A Mégse gomb lenyomása megszakítja a kiválasztást (7).
+
+:::info
+Csak **acélszelvények** menthetők a Saját könyvtárba.
+:::
+
+## Vasbeton keresztmetszetek
 
 Oszlop és gerenda vasbeton keresztmetszetek definiálását a **_Makró szelvények_** között lehet elvégezni. **A vasbeton keresztmetszetek két fő típusa választható**: a méretezési opcióval rendelkező _(#1)_, és a méretezési opcióval nem rendelkező keresztmetszeti típus _(#2)_.
 
@@ -616,7 +659,7 @@ Vasbeton oszlop makró szelvények
 Vasbeton gerenda makró szelvények
 
 
-#### Méretezési opcióval rendelkező vasbeton keresztmetszetek (#1)
+### Méretezési opcióval rendelkező vasbeton keresztmetszetek (#1)
 
 
 [![](./img/wp-content-uploads-2022-03-dial_makro_vb_meretezesi.png)](./img/wp-content-uploads-2022-03-dial_makro_vb_meretezesi.png)
@@ -646,7 +689,7 @@ melyek a **Szerkezeti elemek** fülön találhatók. A betonvasalásokat ezután
 
 
 
-#### Gerenda vasalás definiálása
+### Gerenda vasalás definiálása
 
 
 
@@ -692,7 +735,7 @@ Amennyiben több, változó hosszal rendelkező rúdelemre kerül elhelyezésre 
 
 
 
-#### Oszlop vasalás definiálása
+### Oszlop vasalás definiálása
 
 
 
@@ -741,7 +784,7 @@ Kör szelvényű oszlop vasalás szerkesztője
 
 
 
-#### Méretezési opcióval nem rendelkező vasbeton keresztmetszetek (#2)
+### Méretezési opcióval nem rendelkező vasbeton keresztmetszetek (#2)
 
 
 Az ezzel a típussal létrehozott rúdelemek vasbeton tervezésre és vasbetétek ellenőrzésére nem alkalmasak, az ilyen keresztmetszetből felépített rúdelemek analízis eredményeket (lásd **[_**Eredmények megjelenítése**_](../8_0_structural-analysis/8_5_analysis-results.md)**), illetve teherbírási görbéket (lásd _[**Öszvér és vasbeton keresztmetszet**](../10_0_section-module/10_2_section-module.md#öszvér-és-vasbeton-keresztmetszet)_) tudnak szolgáltatni (az alkalmazott vasalásnak, és egyéb keresztmetszeti beállításoknak megfelelő merevséggel számolva).
@@ -782,7 +825,7 @@ A Consteel korábbi verziójával készített modellek tartalmazhatnak méretez�
 
 
 
-### Öszvér oszlop keresztmetszetek
+## Öszvér oszlop keresztmetszetek
 
 
 Első lépésként definiálni kell az öszvér oszlop keresztmetszetét. Öt típusú keresztmetszet használható: betonba foglalt I profil, betonnal kitöltött I profil, betonnal kitöltött máltai kereszt, zártszelvénybe foglalt I profil, körcső szelvénybe foglalt I profil. A keresztmetszeti makrók a _**Makró szelvény**_ típusok között találhatók.
@@ -803,7 +846,7 @@ Az analízis során öszvér szerkezeti elemek esetén két fajta rugalmassági 
 A keresztmetszetek létrehozása során megadható szabványos kezdeti görbeség is y és z irányokba, amik a felvett szerkezeti elemeken kerülnek alkalmazásra. Kezdeti görbeség alkalmazása mellet öszvér keresztmetszetű oszlopok esetén a keresztmetszeti vizsgálat elegendő az EuroCode szerint. Stabilitás vizsgálat nem szükséges.
 
 
-### Öszvér gerenda keresztmetszetek
+## Öszvér gerenda keresztmetszetek
 
 
 Első lépésként definiálni kell az öszvér gerenda keresztmetszetét. Kettő fajta keresztmetszet használható: öszvér gerenda állandó vastagságú betonlemezzel és öszvér gerenda trapézlemezzel. A keresztmetszeti makrók a _**Makró szelvény**_ típusok között találhatók.
@@ -836,7 +879,7 @@ A keletkező igénybevétel függvényében addig növeli a nyírócsapok szám�
 [![](https://www.Consteelsoftware.com/wp-content/uploads/2022/03/dial_szelveny_makro_oszver_gerenda_tervezesi-beallitasok.png)](./img/wp-content-uploads-2022-03-dial_szelveny_makro_oszver_gerenda_tervezesi-beallitasok.png)
 
 
-### Kiékelés
+## Kiékelés
 
 
 [![](https://www.Consteelsoftware.com/wp-content/uploads/2022/03/dial_kiekeles_hengerelt.png)](./img/wp-content-uploads-2022-03-dial_kiekeles_hengerelt.png)
@@ -893,7 +936,7 @@ Kiékelés önálló objektumként kijelölhető és módosítható az objektum 
 A keresztmetszetek külpontossága miatt az igénybevételek is külpontossá válnak, amiknek a hatása megjelenik az analízis eredményekben (például kiékelt keretsarok esetén, az erős tengelyi hajlító nyomaték egyensúlya csak akkor ál elő, ha figyelembe vesszük a normálerő külpontosságából keletkező extra nyomatékot).
 
 
-### Változó keresztmetszetű elemek
+## Változó keresztmetszetű elemek
 
 
 [![](https://www.Consteelsoftware.com/wp-content/uploads/2022/03/dial_valtozo_szelveny.png)](./img/wp-content-uploads-2022-03-dial_valtozo_szelveny.png)
