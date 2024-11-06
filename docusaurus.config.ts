@@ -28,7 +28,7 @@ const config: Config = {
 
   presets: [
     [
-      "classic",
+      "@docusaurus/preset-classic",
       {
         docs: {
           remarkPlugins: [remarkMath],
@@ -44,6 +44,10 @@ const config: Config = {
         theme: {
           customCss: "./src/css/custom.css",
         },
+        gtag: {
+           trackingID: 'G-NNX6CY7HK5',
+          anonymizeIP: true,
+        }
       } satisfies Preset.Options,
     ],
   ],
