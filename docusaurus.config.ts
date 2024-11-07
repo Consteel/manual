@@ -40,6 +40,7 @@ const config: Config = {
           showReadingTime: true,
           routeBasePath: "release-notes",
           path: "release-notes",
+          blogSidebarCount: "ALL", // list all release note items
         },
         theme: {
           customCss: "./src/css/custom.css",
