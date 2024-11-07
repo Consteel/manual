@@ -4,13 +4,7 @@
 
 After starting Consteel, the Descript panel appears on the bottom left part of the window in its minimized state.
 
-[![](./img/wp-content-uploads-2022-12-Mydescript_mini-1.jpg)](./img/wp-content-uploads-2022-12-Mydescript_mini-1.jpg)
-
-Descript since Consteel 16 
-
 ![](img\wp-content-uploads-2021-11-image-11.png)
-
-Descript in Consteel 15
 
 For any further action the Descript panel has to be opened up with this button: ![](./img/wp-content-uploads-2021-11-image-12.png)
 
@@ -20,13 +14,7 @@ After opening up the Descript panel to its maximized state, further functionalit
 
 ### MyDescript
 
-![](img\wp-content-uploads-2022-12-descript_max-1024x352.jpg)
-
-MyDescript interface since Consteel 16
-
 ![](img\wp-content-uploads-2021-11-image-15-1024x323.png)
-
-MyDescript interface in Consteel 15
 
 This interface is designed to manage your own scripts stored on your computer and to access online scripts provided by Consteel.
 
@@ -56,25 +44,7 @@ In the main body to the right there is the **Description area**. Here a picture 
 
 After either starting a new script or editing one from the list the Descript panel switches to the code editor view.
 
-### Quick launch toolbar (Consteel 16 and up)
-
-In Consteel 16, you can select your favorite Descript scripts and pin them to the bottom bar to make them instantly available and ready for your work.
-
-**Creating a quick launch option for scripts**
-
-Open the MyDescript screen and click on the Pin icon next to the chosen script and the script will be available to start instantly for the Descript bar at the left bottom. Click on the Pin icon again to unpin the script.
-
-[![](./img/wp-content-uploads-2022-12-descript_pin.jpg)](./img/wp-content-uploads-2022-12-descript_pin.jpg)
-
-_Click on the Pin icon to pin a script to the quick launch bar_
-
-Pinned scripts will have a two letter mosaic word from their names and a cloud or computer icon which indicates if they are cloud or local scripts. Hovering with the mouse cursor over the pinned scripts will show their full name. You can also unpin scripts while hovering as an “unpin” icon will appear next to the script’s name.
-
-[![](./img/wp-content-uploads-2022-12-descript_hover.jpg)](./img/wp-content-uploads-2022-12-descript_hover.jpg)
-
-_Hover with your mouse cursor over the pinned script to reveal it’s full name_
-
-### Code editor (Consteel 15 build 1484 and up)
+### Code editor
 
 The code editor is designed to write, modify and debug Descript codes.
 

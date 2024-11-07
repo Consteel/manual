@@ -1,9 +1,9 @@
 ---
-title: 'LOAD_SECTION_MACRO'
+title: "LOAD_SECTION_MACRO"
 description: ""
 published: 2023-08-24
-redirect_from: 
-            - https://www.consteelsoftware.com/manual/descript-cspi/load_section_macro/
+redirect_from:
+  - https://www.consteelsoftware.com/manual/descript-cspi/load_section_macro/
 hero: ./img/wp-content-uploads-2021-08-image-3.png
 ---
 
@@ -21,24 +21,25 @@ Sections have to be loaded into the current model file to be able to be used in 
 
 ### Command parameters
 
-| **Command parameter**                      | **Assignment** | **Value format**                        | **Input options** |
-| ------------------------------------------ | -------------- | --------------------------------------- | ----------------- |
-| [Object ID](#object-id)                    | Required       | String                                  | Local, variable   |
-| [Macro type](#macro-type)                  | Required       | [Predefined strings](#macro-type-table) | Local, variable   |
-| [Section name](#section-name)              | Required       | String                                  | Local, variable   |
-| [Material name](#material-name)            | Required       | [Predefined strings](#material-names)   | Local, variable   |
-| [Section parameters](#section-parameters)  | Required       | Numerical or string                     | Local, variable   |
+| **Command parameter**                     | **Assignment** | **Value format**                        | **Input options** |
+| ----------------------------------------- | -------------- | --------------------------------------- | ----------------- |
+| [Object ID](#object-id)                   | Required       | String                                  | Local, variable   |
+| [Macro type](#macro-type)                 | Required       | [Predefined strings](#macro-type-table) | Local, variable   |
+| [Section name](#section-name)             | Required       | String                                  | Local, variable   |
+| [Material name](#material-name)           | Required       | [Predefined strings](#material-names)   | Local, variable   |
+| [Section parameters](#section-parameters) | Required       | Numerical or string                     | Local, variable   |
 
 #### Object ID:
+
 A string of characters that is used to identify the object that is being created. The string can contain letters, numbers and special characters as well. It can be defined as a variable that contains the string or directly as a string of characters between apostrophes.
 
 For example:
 
-LOAD_SECTION_MACRO **\$Section_ID** [Macro type] [Section name] [Material name] [parameter1] [parameter2] _etc._
+LOAD*SECTION_MACRO **\$Section_ID** [Macro type] [Section name] [Material name] [parameter1] [parameter2] \_etc.*
 
 or
 
-LOAD_SECTION_MACRO **“Section ID 1”** [Macro type] [Section name] [Material name] [parameter1] [parameter2] _etc._
+LOAD*SECTION_MACRO **“Section ID 1”** [Macro type] [Section name] [Material name] [parameter1] [parameter2] \_etc.*
 
 Object ID-s have to be unique for every object across all object types (eg.: sections, members, plates, loads, etc.).
 
@@ -47,6 +48,7 @@ Object ID-s have to be unique for every object across all object types (eg.: sec
 Type of macro to be used.
 
 <span id="macro-type-table" style={{paddingTop: '80px'}}> Available macro types: </span>
+
 <div style={{paddingBottom: '20px'}}> </div>
 
 | **Macro type name**                                                               | **Macro type**  |
@@ -74,27 +76,29 @@ Type of macro to be used.
 | [Cold-formed rectangular hollow section](#cold-formed-rectangular-hollow-section) | CF-RHS          |
 | [Cold-formed circular hollow section](#cold-formed-circular-hollow-section)       | CF-CHS          |
 | [Cold-formed L](#cold-formed-l)                                                   | CF-L            |
-| [Cold-formed C](#cold-formed-c) (simplified) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>                      | CF-C            |
-| [Cold-formed Z](#cold-formed-z) (simplified) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>                      | CF-Z            |
 
 #### Section name:
+
 Name of the section that will appear in the section list in Consteel. String of characters between apostrophes.
 
 #### Material name:
+
 Name of the material to be used for the section. String of characters between apostrophes. Exact match is necessary with the Consteel material names.
 
 For example:
 
-LOAD_SECTION_MACRO [Object ID] [Macro type] [Section name] **"S 235 EN 10025-2"** \[parameter1] \[parameter2] _etc._
+LOAD*SECTION_MACRO [Object ID] [Macro type] [Section name] **"S 235 EN 10025-2"** \[parameter1] \[parameter2] \_etc.*
 
 <span id="material-names" style={{paddingTop: '80px'}}> The material names can be viewed in Consteel at the highlighted area of the material dialogue name dropdown. </span>
 
 ![](img\wp-content-uploads-2021-08-image-3.png)
 
 #### Section parameters:
+
 Section parameters like height, breadth, thickness, etc.. The quantity and meaning of the parameters depend on the macro type.
 
 ---
+
 ## Detailed description of macro types
 
 ## Welded sections
@@ -108,7 +112,6 @@ WLD-IH
 #### Parameters:
 
 ![](img\wp-content-uploads-2021-08-image-4.png)
-
 
 | Notation | Definition             |
 | -------- | ---------------------- |
@@ -124,6 +127,7 @@ Parameter notations substituted into the command syntax:
 LOAD_SECTION_MACRO [Object ID] [Macro type] [Section name] [Material name] \[b1] \[tf1] \[h] \[tw] \[b2] \[tf2]
 
 #### Sample code
+
 ```
 LOAD_SECTION_MACRO Sec_ID1 WLD-IH "WLD-IH (Descript)" "S 235 EN 10025-2" 100 10 200 6 100 10
 ```
@@ -153,6 +157,7 @@ Parameter notations substituted into the command syntax:
 LOAD_SECTION_MACRO [Object ID] [Macro type] [Section name] [Material name] \[h] \[b] \[bw] \[tf1] \[tf2] \[tw1] \[tw2]
 
 #### Sample code
+
 ```
 LOAD_SECTION_MACRO Sec_ID1 WLD-BOX "WLD-BOX (Descript)" "S 235 EN 10025-2" 300 400 200 12 12 10 10
 ```
@@ -183,6 +188,7 @@ Parameter notations substituted into the command syntax:
 LOAD_SECTION_MACRO [Object ID] [Macro type] [Section name] [Material name] \[h1] \[tw1] \[b1] \[tf1] \[h2] \[tw2] \[b2] \[tf2]
 
 #### Sample code
+
 ```
 LOAD_SECTION_MACRO Sec_ID1 WLD-MALTESE "WLD-MALTESE (Descript)" "S 235 EN 10025-2" 400 10 200 20 300 8 150 16
 ```
@@ -213,6 +219,7 @@ Parameter notations substituted into the command syntax:
 LOAD_SECTION_MACRO [Object ID] [Macro type] [Section name] [Material name] \[h1] \[tw1] \[b1] \[tf1] \[h2] \[tw2] \[b2] \[tf2]
 
 #### Sample code
+
 ```
 LOAD_SECTION_MACRO Sec_ID1 WLD-HALFMALTESE "WLD-HALFMALTESE (Descript)" "S 235 EN 10025-2" 400 10 200 20 150 8 150 16
 ```
@@ -240,6 +247,7 @@ Parameter notations substituted into the command syntax:
 LOAD_SECTION_MACRO [Object ID] [Macro type] [Section name] [Material name] \[h] \[b] \[bw] \[tf] \[tw]
 
 #### Sample code
+
 ```
 LOAD_SECTION_MACRO Sec_ID1 WLD-HAT "WLD-HAT (Descript)" "S 235 EN 10025-2" 400 500 300 30 15
 ```
@@ -266,6 +274,7 @@ Parameter notations substituted into the command syntax:
 LOAD_SECTION_MACRO [Object ID] [Macro type] [Section name] [Material name] \[b] \[tf] \[h] \[tw]
 
 #### Sample code
+
 ```
 LOAD_SECTION_MACRO Sec_ID1 WLD-T "WLD-T (Descript)" "S 235 EN 10025-2" 100 10 200 6
 ```
@@ -295,6 +304,7 @@ Parameter notations substituted into the command syntax:
 LOAD_SECTION_MACRO [Object ID] [Macro type] [Section name] [Material name] \[h] \[b] \[bw] \[tf1] \[tf2] \[tw] \[c]
 
 #### Sample code
+
 ```
 LOAD_SECTION_MACRO Sec_ID1 WLD-WQ "WLD-WQ (Descript)" "S 235 EN 10025-2" 300 300 180 15 20 10 25
 ```
@@ -325,6 +335,7 @@ Parameter notations substituted into the command syntax:
 LOAD_SECTION_MACRO [Object ID] [Macro type] [Section name] [Material name] \[b1] \[tf1] \[h] \[tw] \[b2] \[tf2] \[Alpha] \[b12]
 
 #### Sample code
+
 ```
 LOAD_SECTION_MACRO Sec_ID1 WLD-SLANTIH "WLD-SLANTIH (Descript)" "S 235 EN 10025-2" 414 30 397 15 296 30 73 144
 ```
@@ -353,6 +364,7 @@ Parameter notations substituted into the command syntax:
 LOAD_SECTION_MACRO [Object ID] [Macro type] [Section name] [Material name] \[h] \[t3] \[b1] \[t1] \[b2] \[t2]
 
 #### Sample code
+
 ```
 LOAD_SECTION_MACRO Sec_ID1 WLD-C "WLD-C (Descript)" "S 235 EN 10025-2" 200 6 60 10 100 12
 ```
@@ -382,6 +394,7 @@ Parameter notations substituted into the command syntax:
 LOAD_SECTION_MACRO [Object ID] [Macro type] [Section name] [Material name] \[h] \[b] \[tw] \[tf] \[r]
 
 #### Sample code
+
 ```
 LOAD_SECTION_MACRO Sec_ID1 HR-IH "HR-IH (Descript)" "S 235 EN 10025-2" 200 100 6 10 15
 ```
@@ -410,6 +423,7 @@ Parameter notations substituted into the command syntax:
 LOAD_SECTION_MACRO [Object ID] [Macro type] [Section name] [Material name] \[h] \[b] \[tw] \[tf] \[r1] \[r2]
 
 #### Sample code
+
 ```
 LOAD_SECTION_MACRO Sec_ID1 HR-L "HR-L (Descript)" "S 235 EN 10025-2" 100 100 10 10 12 6
 ```
@@ -437,6 +451,7 @@ Parameter notations substituted into the command syntax:
 LOAD_SECTION_MACRO [Object ID] [Macro type] [Section name] [Material name] \[h] \[b] \[tw] \[tf] \[r1]
 
 #### Sample code
+
 ```
 LOAD_SECTION_MACRO Sec_ID1 HR-U "HR-U (Descript)" "S 235 EN 10025-2" 200 80 6 11 13
 ```
@@ -461,6 +476,7 @@ Parameter notations substituted into the command syntax:
 LOAD_SECTION_MACRO [Object ID] [Macro type] [Section name] [Material name] \[d] \[t]
 
 #### Sample code
+
 ```
 LOAD_SECTION_MACRO Sec_ID1 HR-CHS "HR-CHS (Descript)" "S 235 EN 10025-2" 300 18
 ```
@@ -488,6 +504,7 @@ Parameter notations substituted into the command syntax:
 LOAD_SECTION_MACRO [Object ID] [Macro type] [Section name] [Material name] \[h] \[b] \[tf] \[tw] \[r]
 
 #### Sample code
+
 ```
 LOAD_SECTION_MACRO Sec_ID1 HR-T "HR-T (Descript)" "S 235 EN 10025-2" 200 100 10 6 12
 ```
@@ -512,6 +529,7 @@ Parameter notations substituted into the command syntax:
 LOAD_SECTION_MACRO [Object ID] [Macro type] [Section name] [Material name] \[h] \[t]
 
 #### Sample code
+
 ```
 LOAD_SECTION_MACRO Sec_ID1 HR-FS "HR-FS (Descript)" "S 235 EN 10025-2" 300 25
 ```
@@ -538,6 +556,7 @@ Parameter notations substituted into the command syntax:
 LOAD_SECTION_MACRO [Object ID] [Macro type] [Section name] [Material name] \[h] \[b] \[t] \[r]
 
 #### Sample code
+
 ```
 LOAD_SECTION_MACRO Sec_ID1 HR-RHS "HR-RHS (Descript)" "S 235 EN 10025-2" 100 80 8 20
 ```
@@ -561,6 +580,7 @@ Parameter notations substituted into the command syntax:
 LOAD_SECTION_MACRO [Object ID] [Macro type] [Section name] [Material name] \[d]
 
 #### Sample code
+
 ```
 LOAD_SECTION_MACRO Sec_ID1 HR-RB "HR-RB (Descript)" "S 235 EN 10025-2" 20
 ```
@@ -589,6 +609,7 @@ Parameter notations substituted into the command syntax:
 LOAD_SECTION_MACRO [Object ID] [Macro type] [Section name] [Material name] \[h] \[b] \[t] \[r]
 
 #### Sample code
+
 ```
 LOAD_SECTION_MACRO Sec_ID1 CF-RHS "CF-RHS (Descript)" "S 235 EN 10025-2" 100 80 5 15
 ```
@@ -613,6 +634,7 @@ Parameter notations substituted into the command syntax:
 LOAD_SECTION_MACRO [Object ID] [Macro type] [Section name] [Material name] \[d] \[t]
 
 #### Sample code
+
 ```
 LOAD_SECTION_MACRO Sec_ID1 CF-CHS "CF-CHS (Descript)" "S 235 EN 10025-2" 300 18
 ```
@@ -639,115 +661,7 @@ Parameter notations substituted into the command syntax:
 LOAD_SECTION_MACRO [Object ID] [Macro type] [Section name] [Material name] \[h] \[b] \[t] \[r]
 
 #### Sample code
+
 ```
 LOAD_SECTION_MACRO Sec_ID1 CF-L "CF-L (Descript)" "S 235 EN 10025-2" 400 300 20 30
-```
-
-### Cold-formed C
-<span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
-
-A simplified version for loading cold-formed C sections is available within the LOAD_SECTION_MACRO command. This simplified version has limited options for stiffener definition. The cold-formed C section can only be defined with single folded edge stiffeners witin the LOAD_SECTION_MACRO command. For more detailed stiffener options use the [LOAD_SECTION_MACRO_STIFFENED ](/docs/descript/command-reference/load_section_macro_stiffened/)command.
-
-#### Macro type:
-
-CF-C
-
-#### Parameters:
-
-[![](https://www.consteelsoftware.com/wp-content/uploads/2023/08/image-17.png)](./img/wp-content-uploads-2023-08-image-17.png)
-
-| Notation            | Definition                               |
-| ------------------- | ---------------------------------------- |
-| h                   | Section height \[mm]                     |
-| b1                  | Upper flange width \[mm]                 |
-| b2                  | Lower flange width \[mm]                 |
-| t                   | Thickness \[mm]                          |
-| R                   | Rounding radius \[mm]                    |
-| c1                  | Top edge stiffener length \[mm]          |
-| alpha1              | Top edge stiffener folding angle \[°]    |
-| c2                  | Bottom edge stiffener length \[mm]       |
-| alpha2              | Bottom edge stiffener folding angle \[°] |
-| Forming method      | Forming method (optional parameter)      |
-| Thickness tolerance | Thickness tolerance (optional parameter) |
-
-Parameter notations substituted into the command syntax:
-
-LOAD_SECTION_MACRO [Object ID] CF-C [Section name] [Material name] \[h] \[b1] \[b2] \[t] \[R] \[c1] \[alpha1] \[c2] \[alpha2] [Forming method] [Thickness tolerance]
-
-#### Forming method:
-Valid inputs:
-- Cold rolled (default)
-- Press broken
-- Other cold formed
-
-#### Thickness tolerance:
-Valid inputs:
-- Normal (default)
-- Special
-
-#### Sample code
-
-**Minimal parameters:**
-```
-LOAD_SECTION_MACRO  Sec_ID1  CF-C "CF C (Descript)" "S350GD+Z EN10346" 150 90 100 2 4 20 120 30 90
-```
-
-**All parameters:**
-```
-LOAD_SECTION_MACRO  Sec_ID1  CF-C "CF C (Descript)" "S350GD+Z EN10346" 150 90 100 2 4 20 120 30 90 "Cold rolled" Normal
-```
-
-### Cold-formed Z
-<span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
-
-A simplified version for loading cold-formed Z sections is available within the LOAD_SECTION_MACRO command. This simplified version has limited options for stiffener definition. The cold-formed Z section can only be defined with single folded edge stiffeners witin the LOAD_SECTION_MACRO command. For more detailed stiffener options use the [LOAD_SECTION_MACRO_STIFFENED ](/docs/descript/command-reference/load_section_macro_stiffened/)command.
-
-
-#### Macro type:
-
-CF-Z
-
-#### Parameters:
-
-[![](https://www.consteelsoftware.com/wp-content/uploads/2023/08/image-27.png)](./img/wp-content-uploads-2023-08-image-27.png)
-
-| Notation            | Definition                               |
-| ------------------- | ---------------------------------------- |
-| h                   | Section height \[mm]                     |
-| b1                  | Upper flange width \[mm]                 |
-| b2                  | Lower flange width \[mm]                 |
-| t                   | Thickness \[mm]                          |
-| R                   | Rounding radius \[mm]                    |
-| c1                  | Top edge stiffener length \[mm]          |
-| alpha1              | Top edge stiffener folding angle \[°]    |
-| c2                  | Bottom edge stiffener length \[mm]       |
-| alpha2              | Bottom edge stiffener folding angle \[°] |
-| Forming method      | Forming method (optional parameter)      |
-| Thickness tolerance | Thickness tolerance (optional parameter) |
-
-Parameter notations substituted into the command syntax:
-
-LOAD_SECTION_MACRO [Object ID] CF-Z [Section name] [Material name] \[h] \[b1] \[b2] \[t] \[R] \[c1] \[alpha1] \[c2] \[alpha2] [Forming method] [Thickness tolerance]
-
-#### Forming method:
-Valid inputs:
-- Cold rolled (default)
-- Press broken
-- Other cold formed
-
-#### Thickness tolerance:
-Valid inputs:
-- Normal (default)
-- Special
-
-#### Sample code
-
-**Minimal parameters:**
-```
-LOAD_SECTION_MACRO  Sec_ID1  CF-Z "CF Z (Descript)" "S350GD+Z EN10346" 150 90 100 2 4 20 120 30 90
-```
-
-**All parameters:**
-```
-LOAD_SECTION_MACRO  Sec_ID1  CF-Z "CF Z (Descript)" "S350GD+Z EN10346" 150 90 100 2 4 20 120 30 90 "Cold rolled" Normal
 ```
