@@ -77,15 +77,15 @@ Type of the combinations to be generated. One ore more combination types can be 
 
 <div style={{paddingBottom: '20px'}}> </div>
 
-| **Design situation**                                          | **Limit state**                                  | **Combination type** |
-| ------------------------------------------------------------- | ------------------------------------------------ | -------------------- |
-| Persistent or transient a) (EC 1990-2005 6.4.3.2 6.10)        | ULS <br /> ULS STR <br /> ULS GEO <br /> ULS EQU | ULS_PersTrans_CaseA  |
-| Persistent or transient b) (EC 1990-2005 6.4.3.2 6.10a 6.10b) | ULS <br /> ULS STR <br /> ULS GEO                | ULS_PersTrans_CaseB  |
-| Accidental (EC 1990-2005 6.4.3.3 6.11b)                       | SLS                                              | ULS_Accidental       |
-| Seismic (EC 1990-2005 6.4.3.4 6.12b)                          | SLS                                              | ULS_Seismic          |
-| Characteristic (EC 1990-2005 6.5.3 6.14a)                     | SLS                                              | SLS_Characteristic   |
-| Frequent (EC 1990-2005 6.5.3 6.15a)                           | SLS                                              | SLS_Frequent         |
-| Quasi-static (EC 1990-2005 6.5.3 6.16a)                       | SLS                                              | SLS_QuasiPermanent   |
+| **Design situation**                                          | **Limit state** | **Combination type** |
+| ------------------------------------------------------------- | --------------- | -------------------- |
+| Persistent or transient a) (EC 1990-2005 6.4.3.2 6.10)        | ULS             | ULS_PersTrans_CaseA  |
+| Persistent or transient b) (EC 1990-2005 6.4.3.2 6.10a 6.10b) | ULS             | ULS_PersTrans_CaseB  |
+| Accidental (EC 1990-2005 6.4.3.3 6.11b)                       | SLS             | ULS_Accidental       |
+| Seismic (EC 1990-2005 6.4.3.4 6.12b)                          | SLS             | ULS_Seismic          |
+| Characteristic (EC 1990-2005 6.5.3 6.14a)                     | SLS             | SLS_Characteristic   |
+| Frequent (EC 1990-2005 6.5.3 6.15a)                           | SLS             | SLS_Frequent         |
+| Quasi-static (EC 1990-2005 6.5.3 6.16a)                       | SLS             | SLS_QuasiPermanent   |
 
 The options of this parameter are analogous with these options in Consteel:
 
