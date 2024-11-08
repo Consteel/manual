@@ -159,5 +159,5 @@ If the wind load generation completes successfully, new wind load cases will app
  
 ![alt text](img/image-11.png)
 
-All wind load cases will contain the generated wind loads from the simulation. 
+All wind load cases will contain the corresponding wind loads generated from the simulation.
 
