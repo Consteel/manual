@@ -1,23 +1,23 @@
 ---
 sidebar_position: 6
 ---
-# Postprocessor
+# **Postprocesszor**
 
-The development aimed a main feature which offers an automated conversion from the resulted pressure values to usable surface loads according to the users’ preferences. It is possible to directly assign the simulation results to the structure via the premesh, or to apply a zoning logic, similar to the standard, or even define loads on specific zones (i.e., Eurocode zones).
+A fejlesztés célja egy olyan fő funkció biztosítása volt, amely automatikusan átalakítja az eredményül kapott nyomásértékeket használható felületi terhelésekké a felhasználók preferenciái szerint. Lehetőség van közvetlenül hozzárendelni a szimulációs eredményeket az épülethez a premesh-en keresztül, vagy alkalmazni egy zónázási logikát, hasonlóan a szabványhoz, vagy akár terheléseket definiálni specifikus zónákra (pl. Eurocode zónák).
 
-![alt text](img/image-11.png)
-_Different posprocess to obtain surface loads using the same simulation result_
+![alt text](img/image-11.png)  
+_Különböző posztprocesszor lépések a felületi terhelések megalkotásához ugyanazon szimulációs eredmény felhasználásával_
 
-The load generation procedures of the postprocessor are the following:
+A postprocesszor terhelésgenerálási eljárásai a következőek:
 
-- Uniform surface loads on faces
+- Egyenletes felületi terhelések a felületeken
 
-- Linear surface loads on faces
+- Lineáris felületi terhelések a felületeken
 
-- Uniform surface loads on automatic zones
+- Egyenletes felületi terhelések automatikus zónákban
 
-- Linear surface loads on zones
+- Lineáris felületi terhelések zónákban
 
-- Uniform surface loads on specific zones
+- Egyenletes felületi terhelések specifikus zónákban
 
-It is also possible to retrieve field results in specific points (i.e. velocity, turbulent kinetic energy).
+Ezen kívül lehetőség van eredménymezők lekérdezésére specifikus pontokban (pl. sebesség, turbulens kinetikus energia).

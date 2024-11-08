@@ -1,4 +1,3 @@
-# Alternative wind load evaluation
+# Alternatív szélterhelés-értékelés
 
-
-This chapter is intended to offer a basic theoretical background for the Wind Load Generator Service.
+Ez a fejezet alapvető elméleti háttérrel szolgál a Szélterhelés-generáló Szolgáltatás számára.

@@ -7,7 +7,7 @@ A plugin a Consteel 18-tól kezdve kompatibilis.
 
 ![alt text](<img/Dowloads 18.png>)
  
-A plugin .exe fájl letöltése után győződj meg róla, hogy bepipáltad az „OpenFOAM telepítése” jelölőnégyzetet, ha az előzőleg nem lett telepítve. Ezután kattints a „Tovább” gombra.
+A plugin .exe fájl letöltése után győződj meg róla, hogy bepipáltad az „OpenFOAM telepítése” jelölőnégyzetet, ha az előzőleg **nem** lett telepítve. Ezután kattints a „Tovább” gombra.
 
 ## Van OpenFOAM telepítve a számítógépére?
 ### IGEN
@@ -18,13 +18,13 @@ Ha az OpenFOAM már telepítve van, de mégis bepipálod a jelölőnégyzetet, a
 
 "OpenFOAM telepítése már megtörtént az eszközén. Szeretné egy másik példányt telepíteni? Telepítse az OpenFOAM-ot."
 
-Ha a Telepítés gombra kattintasz, egy új OpenFOAM példány lesz telepítve, ami lassítani fogja a telepítési folyamatot. Ajánlott a Vissza gombra kattintani, és eltávolítani a jelölést a telepítéshez.
+Ha a Telepítés gombra kattintasz, egy új OpenFOAM példány lesz telepítve, ami **lassítani** fogja a telepítési folyamatot. Ajánlott a **Vissza** gombra kattintani, és eltávolítani a jelölést a telepítéshez.
 
-Kattints a Tovább gombra a Kiegészítő Feladatok kiválasztása ablakban.
+- Kattints a **Tovább** gombra a Kiegészítő Feladatok kiválasztása ablakban.
 
-A Kész a telepítésre oldalon kattints a Telepítés gombra.
+- A Készen áll a telepítésre oldalon kattints a **Telepítés** gombra.
 
-A végső ablakban, a FALCON Plugin 1 Telepítő varázsló befejezése oldalnál kattints a Befejezés gombra.
+- Az utolsó ablakban, a FALCON Plugin 1 Telepítő varázsló befejezése oldalnál kattints a **Befejezés** gombra.
 
  ![alt text](img/image-3.png)
 
@@ -33,19 +33,19 @@ A végső ablakban, a FALCON Plugin 1 Telepítő varázsló befejezése oldalná
 *** 
 ![alt text](img/image-5.png)
 
-Ha az OpenFOAM nincs telepítve, az alábbi üzenet jelenik meg:
+Ha az OpenFOAM **nincs** telepítve, az alábbi üzenet jelenik meg:
 
-"Nem található OpenFOAM telepítés az eszközén. A folytatáshoz először telepítenie kell. Telepítse az OpenFOAM-ot."
+"Nem található OpenFOAM az eszközén. A folytatáshoz először telepítenie kell. Telepítse az OpenFOAM-ot."
 
-- Ne használja a Consteel-t a plugin telepítése közben. Ha a szoftver nyitva van, az alábbi üzenet jelenik meg:
+- **Ne használj a Consteel**-t a plugin telepítése közben. Ha a szoftver nyitva van, az alábbi üzenet jelenik meg:
 
 "Az alábbi alkalmazások olyan fájlokat használnak, amelyeket a telepítő frissíteni szeretne. Ajánlott engedélyezni, hogy a telepítő automatikusan bezárja ezeket az alkalmazásokat. A telepítés befejezése után a telepítő megpróbálja újraindítani az alkalmazásokat."
 
-- Kattintson a Telepítés gombra a telepítés folytatásához.
+- Kattints a **Telepítés** gombra a telepítés folytatásához.
 
-- A Üdvözöljük az OpenFOAM Windows telepítőjében ablakban kattintson a Tovább gombra.
+- A Üdvözöljük az OpenFOAM Windows telepítőjében ablakban kattints a **Tovább** gombra.
 
-- A Kezdő lépések ablakban pipálja be a Ez a funkció kihagyása jelölőnégyzetet, majd kattintson a Tovább gombra.
+- A Kezdő lépések ablakban pipáld be az ,,Ez a funkció **kihagyása**" jelölőnégyzetet, majd kattints a **Tovább** gombra.
 
 :::note
 Az OpenFOAM Linuxon fejlesztett rendszer, amely érzékeny a kis- és nagybetűkre, míg a Windows alapértelmezetten nem érzékeny rá. Azok számára, akik az OpenFOAM további fejlesztését tervezik, szükséges a Windows beállításainak módosítása. Azonban a legtöbb felhasználó számára biztonságos ezt a lépést kihagyni.
@@ -53,15 +53,16 @@ Az OpenFOAM Linuxon fejlesztett rendszer, amely érzékeny a kis- és nagybetűk
 
 ![alt text](img/image-7.png)
  
-- A következő hét ablakban kattintson a **Tovább** és **Telepítés** gombra anélkül, hogy módosítaná az alapértelmezett beállításokat.
+- A következő hét ablakban kattints a **Tovább** és **Telepítés** gombra anélkül, hogy módosítanád az alapértelmezett beállításokat.
 
-- Amikor elérkezik a Microsoft MPI telepítő varázsló befejezése ablakhoz, kattintson a **Befejezés** gombra.
+- Amikor a Microsoft MPI telepítő varázsló befejezése ablakhoz érsz, kattints a **Befejezés** gombra.
 
  ![alt text](img/image-8.png)
 
-- A Microsoft MPI telepítése után, a OK gombra kattintva, a Cygwin és az OpenFOAM telepítésére van szükség, öt lépésben:
+- A Microsoft MPI telepítése után, a **OK** gombra kattintva, a Cygwin és az OpenFOAM telepítésére van szükség, öt lépésben:
 
 Lépés 1: OpenFOAM telepítése
+
 :::info
 Az alábbi 4 lépést csak kutatási célokra ajánljuk; a szokásos mérnöki projektekhez a felhasználók kihagyhatják a ParaView, swak4Foam, PyFoam és Gnuplot telepítését.
 :::
@@ -74,22 +75,22 @@ Az alábbi 4 lépést csak kutatási célokra ajánljuk; a szokásos mérnöki p
 - Lépés 5: Gnuplot telepítése
 - Ezután ki kell választani a telepítés nyelvét. Kattintson a **OK** gombra.
 
-- A következő ablakban el kell fogadni az Licencszerződést. Kattintson a Tovább gombra.
+- A következő ablakban el kell fogadni az Licencszerződést. Kattints a **Tovább** gombra.
 
-- Kattintson a Tovább gombra az Információ ablakban.
+- Kattints a **Tovább** gombra az Információ ablakban.
 
-- Válassza ki a célmappát és a komponenseket, majd kattintson a Tovább gombra.
+- Válaszd ki a célmappát és a komponenseket, majd kattints a **Tovább** gombra.
 
-- Válassza ki a Start menü mappát, majd kattintson a Tovább gombra.
+- Válaszd ki a Start menü mappát, majd kattints a **Tovább** gombra.
 
-- További feladatok választhatók, majd kattintson a Telepítés gombra a Kész a telepítéshez ablakban.
+- További feladatok választhatók, majd kattints a **Telepítés** gombra a Kész a telepítéshez ablakban.
 
-- Kattintson a Tovább gombra az Információ ablakban, majd kattintson a Befejezés gombra.
+- Kattints a **Tovább** gombra az Információ ablakban, majd kattintson a Befejezés gombra.
    
    ![alt text](img/image-10.png)
  
 
-Ha a telepítés sikeres, két új FALCON ikon lesz elérhető a Teher fülön, amikor a Consteel 18 meg van nyitva:
+Ha a telepítés sikeres, két új FALCON ikon lesz elérhető a Teher fülön:
 
 - FALCON – Szél szimuláció![alt text](img/image-14.png)
 - FALCON – Szélteher generálás szimulációs eredményekből ![alt text](img/image-15.png)
