@@ -1,127 +1,115 @@
 ---
 sidebar_position: 2
 ---
-# A Consteel 17 újdonságai
+# A Consteel 18 újdonságai
 <!-- wp:paragraph -->
 
-2023-ban elsődlegesen egy központi témakörre, a szoftver használatának megkönnyítésére összpontosítottunk. Az újdonságok között olyan praktikus funkciókat találunk, melyek a hatékony modell használatot, könnyű módosíthatóságot és világos adatszolgáltatást segítik elő mind a Consteel-ben, mind Descript-ben és felhőalapú platformunkon, a Steelspace-en is.
+Ebben az évben megkönnyítettük a **Consteel-lel való ismerkedést** a kollégáktól egészen **más szoftverekkel való zökkenőmentes együttműködésig**, valamint jelentős előrelépéseket tettünk a **használhatóság**, a **szkriptek** és a **mérnöki funkciók** terén is. Ezenkívül hosszú távú fejlesztési projektünk első verzióját: a **FALCON bővítményt** mutatjuk be, amely egy átfogó, áramlástani szimuláción alapuló szélteher-generáló eszköz. 
 
-<!-- /wp:paragraph -->
+## Ismerkedés a Consteel-lel
 
-<!-- wp:heading -->
+### Az új Project center
 
-## Automata részletmodellek
+A **modellkezelési lehetőségeket** kibővítettük, a fejlesztés célja egy zökkenőmentes és testre szabott **navigációs folyamat** létrehozása volt. A két alapvető lehetőség elkülönül, kibővített alternatívákkal:
 
-<!-- /wp:heading -->
+**Új modell létrehozása:**
 
-<!-- wp:paragraph -->
+- Üres modellel kezdés a nulláról
+- Gyors paraméteres modell építése az új Paraméteres modellek könyvtárából
+- Modell importálása más formátumból (IFC, smadsteel, SAF)
 
-Az ügyfeleink igényeinek kielégítése érdekében létrehoztunk egy gyűjteményt a gyakran használt részlet kategóriákból és kifejlesztettünk egy új automata részletmodell funkciót a meglévő funkció mellé. Az [automata részletmodell](../manual/3_0_model-view/3_3_portions-manager.md#autó-részletek) automatikusan generál részleteket az alábbi kategóriák alapján csoportosítva: szelvényük, anyagminőségük, térbeli elhelyezkedésük és legnagyobb kihasználtságuk alapján rúdelemek, valamint vastagságuk, anyagminőségük és elhelyezkedésük alapján lemezelemek esetén. Az automata részletek mindig frissülnek a modell állapotának megfelelően és a kézi részletekkel együtt is használhatóak.
+**Meglévő modell megnyitása:**
 
-<!-- /wp:paragraph -->
+- Fájlok böngészése a helyi számítógépen
+- Modellek elérése a felhőalapú tárhelyről
+- A legutóbb mentett modellek közül választás
+- Az új Példamodellek könyvtárából való választás
+- Az új Oktatómodellek könyvtárának felfedezése
 
-<!-- wp:heading -->
+Továbbá az új *Kezdőlap* nézetben a felkínált modellkezelési lehetőségek a bejelentkezett felhasználó profilja és munkafolyamata alapján testre szabhatók. 
 
-## Húzott rúd (X Brace)
+Ezenkívül egy **személyre szabott hírcsatorna** is megjelenik, ahol értesülhetsz hírekről, újdonságokról, hibajavításokról és egyéb tartalmakról, de tájékozódhatsz az aktuális szoftverlicencről is.
 
-<!-- /wp:heading -->
+![alt text](img/image.png)
+ 
+### Navigációs áttekintés
+ 
+A modell létrehozásakor vagy megnyitásakor  megjelenik a *Navigációs áttekintés* ablak, amely részletes információkat nyújt a modellben való navigációról, a kijelölésről, a modellnézetekről, a háttérbeállításokról és a Súgó funkciókról. 
 
-<!-- wp:paragraph -->
+Emellett navigációs preferenciáidat testre is szabhatod – például a mozgatást, forgatást és nagyítást – több népszerű szoftverplatform beállításai közül választva. Az ablak bármikor megnyitható a Súgó menüből.
 
-A húzott rúd elemek speciális nemlineáris viselkedése problémákat okozhat a lineáris számításokban. Ezen kihívások kezelésére bevezettünk egy új fejlesztést. A legújabb frissítéssel a felhasználó most már a [Húzott rúd](../manual/5_0_structural-modeling/5_2_line-members.md#rúdelemek) (pótátlós merevítés) végeselem típust állíthat be ezeknek az elemeknek. Az így megjelölt elemek a rugalmas sajátérték számításhoz szükséges linearizálás miatt, mint húzott-nyomott elemek lesznek figyelembevéve, 50%-ra csökkentett keresztmetszeti jellemzőkkel.
+![alt text](img/image-1.png)
+ 
+## Együttműködést segítő újdonságok
 
-<!-- /wp:paragraph -->
+### Import Center
 
-<!-- wp:heading -->
+A Consteel 18-ban az **import és export** funkciók egy új *Import Center* területen találhatók, hogy megkönnyítsék a különböző forrásokból származó modellek koordinációját és egységesítsék az importálási folyamatot.
 
-## Teherátadó felületek továbbfejlesztése
+A kiválasztott mappában megjelennek a kompatibilis fájlok (.IFC, .smadsteel, .xlsx). A modell kiválasztása után elindul a konverzió, amely Consteel-kompatibilis modellt hoz létre a munkaterületen.
 
-<!-- /wp:heading -->
+A konverziós folyamatról átfogó dokumentáció biztosítja a jobb átláthatóságot.
+  
+![alt text](img/image-2.png)
 
-<!-- wp:paragraph -->
+### Általánosított modellkonverzió
 
-A teherátadó [felületi teher](../manual/6_0_structural-loads/6_3_load-types.md#teherátadó-felület) szétosztásának javítása érdekében most már a felhasználók képesek szerkeszteni a keletkező vonalmenti terhek tulajdonságait azoknak a felületi teherről való leválasztása után. Ezenkívül a felhasználók szabályozhatják a vonalmenti terhek újragenerálását.
+A **smadsteel** mind a Consteel-lel, mind pedig a Steelspace-szel kompatibilis. 
 
-<!-- /wp:paragraph -->
+Korábban ez a technológia kizárólag AxisVM modellek átalakítására volt használható, de továbbfejlesztésének köszönhetően már IFC és SAF modellek konvertálására is alkalmas.
 
-<!-- wp:heading -->
+Az általánosított modellkonverzió többlépcsős módszerrel alakítja át a szelvényeket, naplózva a forrás- és célattribútumokat, valamint az esetleges hibákat.
 
-## Kiterjesztett és egyesített tervezési eredmények
+### Felhőalapú együttműködéshez kapcsolódó fejlesztések
 
-<!-- /wp:heading -->
+Ebben a verzióban bevezettük a többszintű **kommentelési** lehetőséget a felhőben tárolt és megosztott modellekheza **Steelspace** platformunkon. A megjegyzések egyes modellelemekhez, specifikus modellrészekhez vagy az egész modellhez kapcsolhatók. Minden résztvevőt (legyen az tulajdonos vagy közreműködő) értesítünk a megjegyzésekről.
+ 
+![alt text](img/image-3.png)
 
-<!-- wp:paragraph -->
+## Szoftver használat
 
-A [tervezési eredmények](../manual/9_0_standard-design/9_1_steel-design.md#eredmények) megjelenítését és kezelését módosítottuk a felhasználói igényeknek megfelelően. Összevontuk az ULS és az SLS vizsgálatok végrehajtását és az eredmények megjelenítését. Ennek megfelelően a mértékadó tervezési eredmények közvetlenül elérhetőek az összes határállapot figyelembevételével. Ezenkívül minden teherkombinációból az összes kihasználtság mentésre került és megjeleníthető, lehetővé téve a szerkezet megfelelőségének részletesebb vizsgálatát.
+### Új dokumentációs központ
 
-<!-- /wp:paragraph -->
+A **Dokumentációs Center** egyesíti a **Consteel kézikönyvet**, a **Descript kézikönyvet**, a **bővítmények dokumentációit** és a **kiadási jegyzeteket** egy központi helyen.
 
-<!-- wp:heading -->
+Az új platform számos fejlett funkciót vezet be, beleértve a sötét és világos módot a testre szabható megjelenítési élmény érdekében, a fejlett keresési lehetőségeket, amelyekkel gyorsan megtalálhatók a releváns információk, valamint a több szoftververzió támogatását. 
+ 
+![alt text](img/image-4.png)
 
-## Szoftver interakciók új környezetben
+### Keresztmetszetek kezelése
 
-<!-- /wp:heading -->
+Az acél keresztmetszetek kezelésére egy új, rugalmas megoldást fejlesztettünk a hatékonyság növelésére. Létrehozható **Saját szelvénykönyvtár**, amelyben a gyakran használt szelvények – legyenek ezek könyvtári, makró- vagy rajzolt szelvények – menthetők és egy szabadon megadható mappastruktúrába rendezhetők.
 
-<!-- wp:paragraph -->
+Ez a könyvtár a lokális számítógépre mentődik, tehát különböző munkák során is gyorsan elérhetők általa a gyakran használt szelvények.
+ 
+![alt text](img/image-5.png)
 
-A szoftverek közötti interakciók lehetőségeinek bővülése egy SDK alapú környezet bevezetésével valósult meg, melynek segítségével mind a Consteellel, mind a Steelspace-szel kompatibilis általános formátumba (.smadsteel) való konverzió vált lehetővé. Az új környezetben először az [AXISVM](../plugins/axis/axisvm-plugin.md) szerkezeti analízis szoftverhez került kifejlesztésre egy plugin. Ezzel a megközelítéssel az AXISVM modellek most már konvertálhatók .smadsteel formátumba, lehetővé téve azok megnyitását a Consteelben. A konverzió nem csak geometriai és szelvény adatokra, hanem mechanikai objektumokra (támaszok, kényszerek stb.), terhekre és teherkombinációkra is kiterjed. A környezet továbbá lehetőséget teremt különböző szintű szelvény és anyag konverzióra, valamint az folyamat sikerességéről szóló átfogó dokumentáció elkészítésére, mely magában foglalja a problémás modellobjektumok vizualizációját is.
+### Descript fejlesztések
 
-<!-- /wp:paragraph -->
+A Constel 18-ban az új Descript funkciók mellett teljesen új felhasználói felület komponenseket is találhatsz a szkriptek által létrehozott dialógokon. Ezeket a frissítéseket úgy terveztük, hogy a szkriptelést intuitívabbá és hatékonyabbá tegyük.
 
-<!-- wp:heading -->
+### Felhőalapú modellkezelés
 
-## [Descript](https://www.consteelsoftware.com/hu/knowledgebase/mydescript-your-personal-scripting-environment-in-consteel/?search=) fejlesztések
+A [Steelspace](https://steelspace.io/explorer) platformunk számos frissítést kapott a felhőalapú modellnézegető és kezelési funkciók terén. A nézegető mostantól támogatja a Consteel modellek változó keresztmetszetű és kiékelt elemeinek megjelenítését. Emellett az **egyedi részletmodellek** is hozzáférhetők a Steelspace-en belül, így lehetőség van ezek megtekintésére. 
+ 
+![alt text](img/image-6.png)
 
-<!-- /wp:heading -->
+## Mérnöki fejlesztések
 
-<!-- wp:paragraph -->
+### Új szerkezeti elem objektum: dupla C-profilú rúdelem
 
-Ahogy egyre nagyobb népszerűségnek örvend a szkriptnyelvünk, egyre több kérést kapunk. Ezekre a szükségletekre válaszul új funkciókat adtunk hozzá és fejlesztettük a nyelvet. Az újdonságok között vannak új parancsok, például egyedi hidegen alakított keresztmetszet létrehozása vagy objektumhivatkozási lekérdezések; valamint az objektum létrehozás, kezelés és lekérdezés kiterjesztett lehetőségei.
+A hidegen alakított acélszerkezetekben gyakori **dupla C (vagy szigma)** szelvények tervezése és elemzése összetett feladat. Új szerkezeti elemünk pontosan számítja ezek tulajdonságait, beleértve az öblösödés, csavarás és kihajlás hatásait, és a két szelvényt egyetlen rúdelemként kezeli a könnyebb modellezés érdekében.
+ 
+![alt text](img/image-7.png)
 
-## Hatékony modellezést segítő fejlesztések (felhasználói kérések)
+## Új támasz típus: csak nyomást felvevő támasz
 
+Bevezetésre került egy új támasztípus: a **csak nyomást felvevő támasz**. Ez az iteratív eljárással működik, hasonlóan a húzott rúd számításához, hogy az első- és másodrendű analízis során meghatározza a valós állapotot. Segítségével olyan helyzetek modellezhetők, amikor az objektumok nem kapcsolódnak valódi módon, csupán egymáson nyugszanak.
 
-A felhasználóink kéréseire válaszul ez a verzió több fejlesztést tartalmaz, mely könnyíti a Consteel használatát:
+## A FALCON plugin
 
-- kiválasztott elemek [elrejtése](../manual/3_0_model-view/3_1_model-views.md#modell-nézetek)
+Az elmúlt években a CFD szimulációk fejlesztésére összpontosítottunk, hogy **nem szabványos épületek szélterhelését generáljuk**. Célunk egy egyszerűen használható eszköz biztosítása, amely automatikusan létrehozza a szabványos szélzónákat és terheket.
 
-- [másolás és mozgatás](../manual/1_0_general-description/1_2_the-main-window.md#oldalsáv) funkció szétválasztása
+A **FALCON bővítmény** ingyenes béta verziója a Consteel 18-ban elérhető, lehetőséget adva tesztelésre és visszajelzésre. A végleges verzió jövőre kerül kiadásra.
 
-- [anyagminőség](../manual/5_0_structural-modeling/5_1_section-administration.md#szelvénykezelő) módosítása egyszerre több acélszelvényre
-
-- [rúdelemeken](../manual/1_0_general-description/1_2_the-main-window.md#objektumfa-objektum-tulajdonságok-és-diagnosztika-ablakok) színezett kezdő és végpontok
-
-- gyors [kiválasztás](../manual/3_0_model-view/3_1_model-views.md) tulajdonság alapján duplaklikkel az objektum tulajdonság ablakban
-
-- szerkezeti elem kijelölése analízis vagy szabványos tervezési [eredmény táblázatból](../manual/9_0_standard-design/9_1_steel-design.md#eredmények)
-
-## Részletes modellösszehasonlítás
-
-
-A felhasználók összehasonlíthatják a mentett mérföldköveket és modellezési fázisokat a Steelspace-ben bevezetett új funkcióval. Az összehasonlítás testre szabható a felhasználók számára releváns objektumokra és attribútumokra összpontosítva. Az összehasonlítási eredmények látványosan mutatják a paraméter különbségeket, melyek látványosan ki vannak emelve. A felhasználói felület elemei közül a kiválasztás fül és az objektumtulajdonságok megjelenítője átdolgozásra kerültek annak érdekében, hogy az összehasonlításkor a két verzióban található adatok különbségei könnyen hozzáférhetővé váljanak.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-
-## Elérhető a Metszősík funkció a [Steelspace](https://steelspace.io/)-ben!
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-A jobb láthatóság érdekében bevezettük a metszősík funkciót a Steelspace-be. Ez az eszköz lehetővé teszi a felhasználók számára, hogy létrehozzanak egy metszősík objektumot, ami egy síkot képvisel, és levágja az adott nézetablakban található geometriai elemeket.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-
-## Továbbfejlesztett együttműködési lehetőségek
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-A modell verzióelőzmények bevezetésével ügyfeleink mostantól különböző jogosultsági szintekkel testre szabott hozzáférést biztosíthatnak modelljeikhez több mérnök vagy csapattag számára. Ennek a módszernek a segítségével több ember menthet új verziókat ugyanazon projekt verzióelőzményébe, minden verzió tartalmazza a létrehozó adatait.
-
-<!-- /wp:paragraph -->
+![alt text](img/image-8.png)

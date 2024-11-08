@@ -46,7 +46,10 @@ _"The following applications are using files that need to be updated by Setup. I
 
 •	On the _Welcome to OpenFOAM_ for Windows Setup window, press **Next**.
 
-•	On the _Preliminaries_ window, check the **Skip this feature** checkbox and press **Next**.
+•	On the _Preliminaries_ window, check the **Skip this feature** checkbox and press **Next**. 
+:::note
+ OpenFOAM is developed on Linux, a case-sensitive system, while Windows is not case-sensitive by default. For those intending to further develop OpenFOAM, changing Windows settings would be necessary. However, for most users, it is safe to skip this step.
+ :::
 ![alt text](img/image-7.png)
  
 •	On the following seven windows, press **Next** and **Install** without changing the default settings.

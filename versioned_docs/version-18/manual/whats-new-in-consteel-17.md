@@ -1,130 +1,118 @@
 ---
 sidebar_position: 2
 ---
-# What's new in Consteel 17?
+# What's new in Consteel 18?
 
-The primary focus of the year was to make the program easy to use. The new functions increase usability across the software, enhancing model manipulation, modification, and information clarity in Consteel, Descript, and Steelspace.
+This year, we made it easier to get started with **Consteel**, from helping colleagues familiarize themselves with the software to ensuring **seamless integration with other tools**, and we've made significant strides in improving **usability**, **scripting**, and **engineering functions**. Additionally, we introduced the first version of our long-term development project: the **FALCON plugin**, a comprehensive wind load generation tool based on fluid dynamics simulation.
 
-<!-- /wp:paragraph -->
+## Onboarding
+### New Project center
 
-<!-- wp:heading -->
+The goal of renewing our *Project Center* was to create a seamless and tailored flow for **navigating** the expanded **model management** options. The two main options are clearly separated, with extended alternatives provided:
 
-## Automatic model portions
+**Creating a new model:**
 
-<!-- /wp:heading -->
+- Start from scratch with an empty model
 
-<!-- wp:paragraph -->
+- Build a parametric model quickly from the new Parametric Models Library
 
-To meet our customers' needs, we created a collection of commonly used portion categories and developed a new automatic model portion function beside the existing manual model portion feature. This new functionality automatically generates model portions by grouping members based on the following categories: cross-section, material, placement, utilization for bar members; thickness, material, and placement for plate elements. The [**auto portions**](../manual/3_0_model-view/3_3_portions-manager.md#auto-portions) are updated according to the model's status and can also be used in conjunction with manually created custom portions.
+- Import a model in another format (IFC, Smadsteel, SAF)
 
-<!-- /wp:paragraph -->
+**Opening an existing model:**
 
-<!-- wp:heading -->
+- Browse files on your local computer.
 
-## X Bracing members
+- Access models from your cloud storage
 
-<!-- /wp:heading -->
+- Select from your recently saved models
 
-<!-- wp:paragraph -->
+- Choose from the new Example Models Library
 
-To address potential challenges in handling non-linear tension-only members in linear calculations, a new development has been introduced. With the latest update, users can now designate the finite element type of these members as [**X Brace**](../manual/5_0_structural-modeling/5_2_line-members.md#line-members). It is intended to be used for individual members of bracing systems arranged in pairs and always one of them working in tension. This option will linearize the behaviour of such members.
+- Explore the new Tutorial Models Library
 
-<!-- /wp:paragraph -->
+Moreover, in the new *Home* view, the offered model management options are customized based on the profile and workflow type of the logged-in user.
 
-<!-- wp:heading -->
+You’ll also find a **personalized feed of news**, release notes, bug fixes, and additional content, along with information about your current software license.
 
-## Load transfer surface improvements
+![alt text](img/image-1.png)
+ 
+### Navigation overview
 
-<!-- /wp:heading -->
+When creating or opening a model, the *Navigation overview* window will appear, providing detailed information on navigation, selection, model views, background settings, and help functions. 
 
-<!-- wp:paragraph -->
+You can also customize your navigation preferences — such as movement, rotation, and zoom — by choosing from settings used by several popular software platforms. The window can be called up at any time from the Help menu.
 
-To enhance the automatic distribution methodology, users now have the capability to edit the properties of the generated line loads after detaching them from [**surface loads**](../manual/6_0_structural-loads/6_3_load-types.md#load-transfer-surface). Additionally, users can control the regeneration of the line loads function according to their preferences.
+![alt text](img/image-2.png)
+ 
+## Collaboration
 
-<!-- /wp:paragraph -->
+### New Import Center
 
-<!-- wp:heading -->
+In Consteel 18, the **import and export** functionalities are located in the new *Import Center* area to help coordinate models from different sources and unify the model import workflow.
 
-## Extended and unified design results
+The selected folder displays compatible files (.IFC, .smadsteel, .xlsx). Once a model is selected, the conversion process starts, generating a Consteel-compatible model in the workspace.
 
-<!-- /wp:heading -->
+A comprehensive documentation of the conversion process ensures better transparency.
 
-<!-- wp:paragraph -->
+  ![alt text](img/image-3.png)
 
-The visualization and presentation of design results have been reworked to better suit user preferences. Ultimate Limit State (ULS) and Serviceability Limit State (SLS) [**design checks**](../manual/9_0_standard-design/9_1_steel-design.md#results) have been unified in terms of execution and result display. Users can now access all significant results on the Global checks tab regardless of the limit state. Additionally, all utilizations from various load combinations are saved and displayed, allowing a more detailed investigation of structural adequacy.
+### Generalized model conversion
 
-<!-- /wp:paragraph -->
+The **smadsteel** is compatible with both Consteel and Steelspace.
 
-<!-- wp:heading -->
+Previously, this technology was only used for converting AxisVM models, but due to its further development, it is now also capable of converting IFC and SAF models.
 
-## New environment for software interactions
+The generalized model conversion uses a multi-step method to transform the cross-sections, logging the source and target attributes, as well as any potential errors.
 
-<!-- /wp:heading -->
+### Cloud collaboration developments
 
-<!-- wp:paragraph -->
+In this version, we introduce a multilevel **commenting** tool for cloud-saved and shared models on our Steelspace platform. Comments can be linked to individual model elements, specific model parts, or the entire model. All participants (whether owner or contributor) are notified of any comments made.
 
-Interaction capabilities between software have been achieved through the implementation of an SDK-based environment. Translation to a general format (.smadsteel) compatible with Consteel and Steelspace has been facilitated. Additionally, a [**plugin for AXISVM**](../plugins/axis/axisvm-plugin.md) structural analysis has been developed. With this approach, AXISVM models can now be converted into .smadsteel format, allowing them to be opened in Consteel. The conversion process has been developed to include mechanical objects (such as supports and releases), loads, and load combinations, in addition to geometry and sectional properties. The environment also provides tools for cross-section and material conversion at various levels, along with a comprehensive import report that includes visualization of problematic objects in the model.
+![alt text](img/image-4.png)
+ 
+## Software use
+### New Documentation Center
 
-<!-- /wp:paragraph -->
+The **Documentation Center** consolidates the **Consteel manual**, **Descript manual**, **Plugin documentation**, and **Release notes** into one centralized resource.
 
-<!-- wp:heading -->
+The updated platform introduces several enhanced features, including a dark and light mode for a customizable viewing experience, advanced search capabilities to quickly locate relevant information, and support for multiple software versions. 
+ 
+ ![alt text](img/image-5.png)
 
-## Descript language developments
+### Cross-section handling
+We’ve introduced a new method for managing steel cross-sections and profiles, offering greater flexibility and efficiency. You can now create a **personalized section library** that includes your frequently used sections—whether they are standard, macro, or manually drawn—and organize them within a custom folder structure. 
 
-<!-- /wp:heading -->
+This library is saved locally on your computer, allowing you to quickly access your preferred sections across multiple projects.
 
-<!-- wp:paragraph -->
+![alt text](img/image-6.png)
+ 
+### Descript improvements
 
-As more people use our [**script system, Descript**](../descript/15_1_introduction/index.md), we keep receiving new requests for different kinds of programs. To address these needs, we're adding new features and improving the language. For example, we've enhanced object creation (CREATE), manipulation (SET, FILTER), and querying (GET). Additionally, users can now create custom cold-formed cross-sections.
+In Consteel 18, in addition to the new Descript functions added to our library, you’ll find entirely new user interface components within dialogues created by scripts. These updates are designed to make your scripting more intuitive and effective.
 
-<!-- /wp:paragraph -->
+### Cloud model handling
 
-<!-- wp:heading -->
+Our [Steelspace](https://steelspace.io/explorer) platform has seen several upgrades in its cloud-based model viewer and management functions. The viewer now supports visualization of tapered and haunched members from Consteel models. Additionally, **custom model portions** can be accessed within Steelspace, allowing you to view these portions alone or with a transparent overlay of the rest of the model.
+ 
+ ![alt text](img/image-7.png)
 
-## Improvements for efficient modelling (user requests)
+## Engineering developments
 
-<!-- /wp:heading -->
+### New structural member object: member with double C profile
 
-<!-- wp:paragraph -->
+Designing and analyzing **double C (or Sigma)** profiles is a complex task in cold-formed steel structures. Our new structural member object accurately calculates all properties, including the effects of warping, torsion, and buckling, and treats the two sections as a single member for easier modeling.
 
-In response to our customers' requests, this version incorporates several improvements to make Consteel even more user-friendly:
-- [**hiding**](../manual/3_0_model-view/3_1_model-views.md) of selected objects
-- [**separation**](../manual/1_0_general-description/1_2_the-main-window.md#side-bar) of copy and move functions
-- bulk material [**modification**](../manual/5_0_structural-modeling/5_1_section-administration.md) for steel cross-sections
-- [**highlighted**](../manual/1_0_general-description/1_2_the-main-window.md#object-properties-window) start and end points for structural members
-- quick select by property directly from the [**property tree**](../manual/3_0_model-view/3_2_selection.md) by double-click
-- structural member selection from analysis and [**design result**](../manual/3_0_model-view/3_2_selection.md) tables
+![alt text](img/image-8.png)
 
-## Detailed model comparison in Steelspace
+### New support type: compression-only support
 
-<!-- /wp:heading -->
+A new point support type is introduced: the **compression-only support**. This support involves an iterative process during the first and second order analysis to find the real state, similarly as the tension-only element. With this support you can model situations when there are no real connectivity between objects they merely rest on each other.
 
-<!-- wp:paragraph -->
+## The FALCON plugin
 
-Users can compare saved milestones and stages of modelling with the new function implemented in [**Steelspace**](https://steelspace.io). The comparison can be customized by users focusing solely on relevant objects and attributes. From the comparison, users can identify parameter differences since designated objects and attributes are highlighted. Some elements of the user interface, such as the selection tab and object properties, have been redesigned to facilitate easier access.
+In recent years, we have focused on the development of CFD simulations to **generate wind loads on buildings with non-standard geometries**. Our goal has been to provide an easy-to-use tool that automatically creates standard wind zones and loads.
 
-<!-- /wp:paragraph -->
+The **FALCON plugin** is available as a free beta version in Consteel 18, offering the opportunity for testing and feedback. The final version will be released next year.
+ 
+![alt text](img/image-9.png)
 
-<!-- wp:heading -->
-
-## Clipping Plane feature in Steelspace
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-For improved visibility, we've introduced the clipping plane feature in Steelspace. This tool enables users to create a clipping plane object, which selectively hides parts of geometry from view within a specific viewpoint in the model.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-
-## Improved collaboration management
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-With the implementation of Model Version History, our customers can now grant access, customized with different permission levels, to their models for multiple engineers or team members. Using this method, more people can save new versions into the model history of the same project, with each version now including the creator's information.
-
-<!-- /wp:paragraph -->
