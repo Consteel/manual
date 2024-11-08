@@ -60,7 +60,12 @@ _"The following applications are using files that need to be updated by Setup. I
 
 •	After the Microsoft MPI installation is completed by pressing **OK**, Cygwin and OpenFOAM need to be installed in five steps:
 - 	Step 1: Installing Open FOAM
-- 	Step 2: Install ParaView – It is recommended only for research purposes; for regular engineering projects, users can skip the installation of ParaView.
+
+:::info
+The following 4 steps are recommended only for research purposes; for regular engineering projects, users can **skip** the installation of ParaView, swak4Foam, PyFoam and Gnuplot
+:::
+
+- 	Step 2: Install ParaView 
 
    ![alt text](img/image-9.png)
 
