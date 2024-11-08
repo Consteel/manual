@@ -1,6 +1,6 @@
-# Introduction
+# Bevezetés
 
-### What is FALCON?
+### FALCON 
 
 A FALCON (Fluid-dynamics Aided Loads in Consteel) egy áramlástani szimulációval támogatott **univerzális tehermeghatározó eszköz**. Célja, hogy tetszőleges épület típusok esetén lehetőséget biztosítson a tartószerkezet-tervezők számára szabványokkal összevethető, ténylegesen alkalmazható szélterhek meghatározására. 
 
