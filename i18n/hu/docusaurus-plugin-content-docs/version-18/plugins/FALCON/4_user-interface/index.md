@@ -2,34 +2,34 @@
 
 ![alt text](img/image.png)
 
-A szél szimulációs folyamat megkezdése előtt az első és legfontosabb lépés a **Teherátviteli Felületek** létrehozása, amelyeken a szimuláció végrehajtásra kerül.
+A szél szimulációs folyamat elkezdése előtt az első és legfontosabb lépés a **Terh átadó Felületek** létrehozása, amelyeken a szimuláció végrehajtásra kerül.
 
-A teherátviteli felületet többféleképpen is létrehozhatod:
+A teherátadó felületet többféleképpen is létrehozhatod:
 
-- A **Teherátviteli Felület** lehetőséggel az _Árnyékolások fülön_
-- **Diafragma** létrehozásával a Szerkezeti _Tagok fülön_
+- A **Teherátadó Felület** lehetőséggel a _Terhek fülön_
+- **Diafragma** létrehozásával a _Szerkezeti elemek fülön_
 
-A teherátviteli felületek létrehozása után megkezdődhet a szél szimulációs folyamata.
+A teherátadó felületek létrehozása után kezdődhet a szél szimulációs folyamat.
 
 ![alt text](img/image-1.png)
 
-Minden **FALCON-szél szimuláció**-val kapcsolatos funkció az _Árnyékolások fülön_ található.
+Minden **FALCON-szél szimuláció**-val kapcsolatos funkció a _Terhek fülön_ található.
 
 ### 1. Meteorológiai hatások
 
 ![alt text](img/image-2.png)
 
-Az első lépés a **szél szimuláció** során a **meteorológiai hatások** meghatározása. Ehhez használd a speciálisan tervezett ikont az Árnyékolások fülön.  
-A szélterhelés szimulációhoz a **Sebesség Nyomás** és a **Geometriai Paraméterek** meghatározása szükséges:
+Az első lépés a **szél szimuláció** során a **meteorológiai hatások** meghatározása. Ehhez használd a speciálisan tervezett ikont a Terhek fülön.  
+A szélterhelés szimulációhoz a **Torlónyomás** és a **Geometriai Paraméterek** meghatározása szükséges:
 
-- **Sebesség Nyomás**:
-  - Területi kategória
-  - Alap szélsebesség
-- **Szélterhelés Generálás Geometriai Paraméterei**:
+- **Torlónyomás**:
+  - Beépítettségi osztály
+  - Szélsebesség alapértéke
+- **Szélteher generálás geometriai paraméterei**:
   - Az épület méretei a fő szél irányához képest
   - A terhelési terület pontos dimenziója nem releváns a szél szimulációban a béta verzióban.
 
-A meteorológiai hatásokkal kapcsolatos további információkért tekintsd meg a [_Terhelések fejezetet_](../../../manual/6_0_structural-loads/6_6_meteorological-loads.md) a Consteel kézikönyvben.
+A meteorológiai hatásokkal kapcsolatos további információkért tekintsd meg a [_Terhek fejezetet_](../../../manual/6_0_structural-loads/6_6_meteorological-loads.md) a Consteel kézikönyvben.
 
 ### 2. Meteorológiai felületek
 
@@ -43,7 +43,7 @@ Ebben az ablakban visszatérhetsz az első lépéshez, ha rákattintasz a három
 A **Standard Felület** szekció nem befolyásolja a szél szimulációt; csupán a szabványos szélgenerálást szolgálja Eurocode szerint.
 :::
 
-A szél szimulációhoz használd az ablak végső szekcióját, amely a **Szimulációs Felület** névre hallgat, és válaszd ki a megfelelő felület kategóriát:
+A szél szimulációhoz használd az ablak végső szekcióját, amely a **Szimulációs Felület** néven, és válaszd ki a megfelelő felület kategóriát:
 
 - **Általános** – a tervezett épület számára
 - **Akadály** – bármely környező épület számára, amely modellezve van, és hatással lehet a szél szimulációra
@@ -53,7 +53,7 @@ A felület kategória kiválasztása után az összes releváns felületet ki ke
 ![alt text](img/image-4.png)
 
 :::note
-A szimulációs felületek csak teherátviteli felületekre alkalmazhatók, beleértve a diafragmákat.
+Az Általános felületek csak Terh átadó felületekre alkalmazhatók, beleértve a diafragmákat.
 :::
 
 ### 3. FALCON-Wind szimuláció
@@ -68,7 +68,7 @@ Az Info gomb részletes információkat ad minden lépésről. A gomb megnyomás
 
 ![alt text](img/image-5.png)
 
-A harmadik lépés a szél szimuláció futtatása a FALCON-nal. Használd a **FALCON-Szél szimuláció** gombot az _Árnyékolások fülön_, hogy megnyisd az ablakot.
+A harmadik lépés a szél szimuláció futtatása a FALCON-nal. Használd a **FALCON-Szél szimuláció** gombot a _Terhek fülön_, hogy megnyisd az ablakot.
 
 Ez az ablak négy szekcióra van osztva, amelyek végigvezetik a beállításokon és a szimuláción:
 
