@@ -1,12 +1,13 @@
 ---
-title: 'DELETE'
+title: "DELETE"
 description: ""
 published: 2023-08-18
-redirect_from: 
-            - https://www.consteelsoftware.com/manual/descript-cspi/delete/
+redirect_from:
+  - https://www.consteelsoftware.com/manual/descript-cspi/delete/
 hero: ../../../defaultHero.jpg
 ---
-Deletes an object. <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+
+Deletes an object.
 
 ### Description
 
@@ -27,6 +28,7 @@ Objects that are in use can not be deleted. For example if a section is used by 
 #### Selection type:
 
 <span id="Available-selection-types" style={{paddingTop: '80px'}}> Available selection types: </span>
+
 <div style={{paddingBottom: '20px'}}> </div>
 
 | **Selection type**         | **Description**         |
@@ -35,6 +37,7 @@ Objects that are in use can not be deleted. For example if a section is used by 
 | [By_Type](#delete-by_type) | Deletion by object type |
 
 #### Selection parameter(s):
+
 The available selection parameters and their meaning depends on the chosen selection type. [Detailed description](#detailed-description-of-selection-types) of all selection parameters for each individual selection type can be found below.
 
 ### Sample code
@@ -44,6 +47,7 @@ DELETE By_ID ID1
 ```
 
 ---
+
 ## Detailed description of selection types
 
 ## DELETE By_ID
@@ -61,6 +65,7 @@ Deletes specific objects in the model by ID.
 | [IDs](#ids)           | Required       | String           | Local, variable   |
 
 #### IDs:
+
 Exact identification strings of the objects chosen for deletion. Multiple IDs can be given within one DELETE BY_ID command. IDs need to be separated by spaces.
 
 ### Sample code
@@ -102,18 +107,20 @@ If there is at least one object within the given type, that is used by another o
 
 ### Syntax
 
-**DELETE By_Type** \[Object type]  
+**DELETE By_Type** \[Object type]
 
 ### Command parameters
 
-| **Command parameter**               | **Assignment** | **Value format**                            | **Input options** |
-| ----------------------------------- | -------------- | ------------------------------------------- | ----------------- |
-| [Object type](#object-type)         | Required       | [Predefined strings](#object-types-By_Type) | Local, variable   |
+| **Command parameter**       | **Assignment** | **Value format**                            | **Input options** |
+| --------------------------- | -------------- | ------------------------------------------- | ----------------- |
+| [Object type](#object-type) | Required       | [Predefined strings](#object-types-By_Type) | Local, variable   |
 
 #### Object type:
+
 The type of objects to be deleted. Only 1 object type can be given within one DELETE By_Type command.
 
 <span id="object-types-By_Type" style={{paddingTop: '80px'}}> Available object types: </span>
+
 <div style={{paddingBottom: '20px'}}> </div>
 
 | **Object type name**   | **Object type**     |

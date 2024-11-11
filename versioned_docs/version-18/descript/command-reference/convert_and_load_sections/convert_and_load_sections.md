@@ -1,13 +1,13 @@
 ---
-title: 'CONVERT_AND_LOAD_SECTIONS'
+title: "CONVERT_AND_LOAD_SECTIONS"
 description: ""
 published: 2024-02-26
-redirect_from: 
-            - https://www.consteelsoftware.com/manual/descript-cspi/convert_and_load_sections/
+redirect_from:
+  - https://www.consteelsoftware.com/manual/descript-cspi/convert_and_load_sections/
 hero: ./img/wp-content-uploads-2024-01-image-7.png
 ---
 
-Converts and loads sections from section bank. <span style={{color:"MediumSeaGreen"}}>(since CS 17 build 3303)</span>
+Converts and loads sections from section bank.
 
 ### Description
 
@@ -23,20 +23,23 @@ The command opens a dialogue window, where the section conversions can be review
 
 ### Command parameters
 
-| **Command parameter**               | **Assignment** | **Value format**                        | **Input options** |
-| ----------------------------------- | -------------- | --------------------------------------- | ----------------- |
-| [Section array](#section-array)     | Required       | String                                  | Local, variable   |
-| [Conversion file](#conversion-file) | Required       | [Predefined strings](#convFiles)        | Local, variable   |
+| **Command parameter**               | **Assignment** | **Value format**                 | **Input options** |
+| ----------------------------------- | -------------- | -------------------------------- | ----------------- |
+| [Section array](#section-array)     | Required       | String                           | Local, variable   |
+| [Conversion file](#conversion-file) | Required       | [Predefined strings](#convFiles) | Local, variable   |
 
 #### Section array:
+
 Name of the array of sections to be converted. In the array the name of the sections have to be listed.
 
 #### Conversion file:
+
 There are section and material conversion files in the '... / [Consteel installation directory] / Data / Export' folder for all the supported softwares. These files contain section type and material conversions between a particular software and Consteel, thus telling Consteel that which section type in a particular software should be converted to which section type in Consteel.
 
 [![](./img/wp-content-uploads-2024-01-image-7.png)](./img/wp-content-uploads-2024-01-image-7.png)
 
 <span id="convFiles" style={{paddingTop: '80px'}}>Available inputs:</span>
+
 - Bocad
 - Dlubal
 - SAP2000
@@ -46,6 +49,7 @@ There are section and material conversion files in the '... / [Consteel installa
 ### Sample code
 
 **SAP2000 model import with only 1 section:**
+
 ```
 CONVERT_AND_LOAD_SECTIONS section_names SAP2000
 ```
@@ -55,6 +59,7 @@ CONVERT_AND_LOAD_SECTIONS section_names SAP2000
 [![](./img/wp-content-uploads-2024-02-image-1-1024x225.png)](./img/wp-content-uploads-2024-02-image-1-1024x225.png)
 
 **RFEM (Dlubal) model import with several sections:**
+
 ```
 CONVERT_AND_LOAD_SECTIONS section_names DLUBAL
 ```
