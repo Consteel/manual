@@ -1,54 +1,54 @@
 ---
 sidebar_position: 5
 ---
-# Preprocessor
+# **Előfeldolgozás**
 
-The preprocessor can be referred as an operational phase, or as a collection of methods with two main tasks. One is to convert the input geometry to a specific mesh format, which can be described as a traditional mesh with triangular or quadrilateral faces and vertices, but it is also possible to interpret a mesh with polygon faces (“Ngons”).
+Az előfeldolgozó egy működési fázisként is említhető, vagy egy olyan módszerek gyűjteményeként, amelyeknek két fő feladata van. Az egyik feladat az, hogy az input geometriát egy specifikus háló formátumba konvertálja, amelyet hagyományos hálóként lehet leírni, háromszög vagy négyszög alakú felületekkel és csomópontokkal, de lehetséges a polygonális (Ngon) felületekkel rendelkező háló értelmezése is.
 
-Nevertheless, for representation purposes a “Foam Mesh” can also be interpreted as a list of polylines. The other task is to generate a virtual wind tunnel, which consist of the wind profile according to the parameters, and geometrically by blocks (finite volume elements) and boundaries. Having these two it is possible to create the simulation case contents similar to the OpenFOAM hierarchy. The wind flow parameters are stored in “zero” folder, mesh generation both in “constant” and “system”, while solution and result query parameters in “system”.
+Mindazonáltal reprezentációs célokra egy "Foam Mesh" is értelmezhető, mint polilíniák listája. A másik feladat a virtuális szélcsatorna létrehozása, amely a paraméterek szerinti szélprofilt tartalmazza, valamint geometriailag blokkokból (véges térfogatú elemek) és határokról. Ezen két információ birtokában lehetséges létrehozni a szimulációs eset tartalmát, hasonlóan az OpenFOAM hierarchiájához. A széláramlás paraméterei a "zero" mappában, a háló generálása pedig a "constant" és "system" mappákban található, míg a megoldás és az eredmény lekérdezési paraméterek a "system" mappában helyezkednek el.
+![alt text](img/image.png)  
+_Előfeldolgozó áttekintése_  
 
- ![alt text](img/image.png)
-_An overview of the preprocessor_
+Bár az előfeldolgozó kulcsfontosságú jellemzője a szélprofil meghatározása az Eurocode kontextusában, amely tartalmazza a 3.2.1 fejezetben bemutatott összes szempontot. A világos cél az, hogy olyan szélprofilt vezessünk be, amely a kód által meghatározott csúcsnyomás-profilt adja. Azonban ennek a profilnak a meghatározása nem egyszerű. Az alábbi 4-4 ábra különböző megközelítéseket mutat, ahol a Qp.EC függvény mutatja az Eurocode által használt általános „célt” profilját. Azonban fontos figyelembe venni a nemzeti mellékletek szempontjait is, például a román szabvány (Qp.Ro) egy speciális megközelítést tartalmaz, amely bevezeti a turbulenciaintenzitás arányossági tényezőjét, β. Egy másik szempont, hogy az Eurocode általában figyelmen kívül hagyja a turbulenciaintenzitás másodrendű tagját, amelyet a 3.2.1.2 fejezet tartalmaz, figyelembe véve, hogy az ebből az approximációból adódó hiba 3-4%-nál alacsonyabb. Azonban ha a csúcsnyomást közvetlenül a csúcssebesség alapján számítják ki (QpEC.V és QpRO.V), a különbség jelentősebbnek tűnik.
 
-Although, the key feature of the preprocessor is the wind profile determination in the context of the Eurocode, which includes all the aspects presented in chapter 3.2.1.  The clear goal is to introduce a wind profile which produces the peak pressure profile obtained by the code. However, the definition of this profile is not straightforward. The figure 4-4 below shows the different approaches, where the Qp.EC function shows the general “goal” profile of Eurocode. But it could be important to consider the aspects of national annexes, for instance the Romanian standard (Qp.Ro) includes a specific approach by introducing a proportionality factor, β for the turbulence intensity. Another aspect is that the Eurocode generally neglects the 2nd order term of the turbulence intensity presented in chapter 3.2.1.2, considering that the error introduced by this approximation is below 3-4%. But if the peak pressure is calculated directly according to the peak velocity (QpEC.V and QpRO.V) the difference seems to be more significant.
+![alt text](img/image-1.png)  
 
-![alt text](img/image-1.png)
- _Peak pressure profiles_
+_Csúcsnyomás profilok_  
 
-On top of it is important to be aware of the fact that OpenFOAM offers only a simplified logarithmic approach which is based the friction velocity U* calculated at a reference height, which results a slightly different velocity profile, U.abl, resulting a different pressure profile, Qp.abl which is practically similar to a pressure profile, calculated according to the properties (turbulence intensity, thereby the exposure factor) at a reference height, Qp.zRef.
+Ezenfelül fontos tisztában lenni azzal a ténnyel, hogy az OpenFOAM csak egy egyszerűsített logaritmikus megközelítést kínál, amely a referencia magasságban számított súrlódási sebességen, U*-n alapul, ami egy kissé eltérő sebességprofilt, U.abl-t eredményez, amely egy eltérő nyomásprofilt, Qp.abl-t ad, amely gyakorlatilag megegyezik egy nyomásprofilal, amelyet a referencia magasságban a tulajdonságok (turbulenciaintenzitás, ezáltal az expozíciós tényező) alapján számítanak ki, Qp.zRef.
 
-![alt text](img/image-2.png)
-_Peak velocity profiles for a terrain with category II_ 
+![alt text](img/image-2.png)  
+_Csúcssebesség profilok II. kategóriájú terepen_  
 
-The logarithmic profile evaluated by the atmospheric boundary layer approach of the OpenFOAM is according to the followings:
+Az OpenFOAM légköri határréteg megközelítése által kiértékelt logaritmikus profil a következő szerint van:
 
 ![alt text](img/image-3.png)
 
 ![alt text](img/image-4.png)
 
-Therefore, it was necessary to develop a unique solution within OpenFOAM for the determination of the U.in as the inlet peak velocity profile, which produces the desired Qp.EC. This uses the following formula:
+Ezért szükséges volt egy egyedi megoldás kidolgozása az OpenFOAM-on belül az U.in meghatározására, mint a beömlési csúcssebesség profilja, amely a kívánt Qp.EC-t eredményezi. Ehhez a következő képletet alkalmazzák:
 
 ![alt text](img/image-5.png)
 
-For an inlet wind profile using the k-ε turbulence model the initialization of the k and ε field values is also necessary. For this, there are also different approaches to consider. The basic atmospheric boundary layer of OpenFOAM calculates a constant value along the height automatically, according to:
- 
+A beömlő szélprofilhoz k-ε turbulenciamodellel a k és ε mezőértékek inicializálása is szükséges. Ehhez is különböző megközelítéseket kell figyelembe venni. Az OpenFOAM alapvető légköri határrétege automatikusan kiszámít egy állandó értéket a magasság mentén, az alábbiak szerint:
+
 ![alt text](img/image-6.png)
 
-However, the inlet turbulent kinetic energy is generally calculated based on the inlet reference velocity and the turbulence intensity, which is defined by Eurocode according to the terrain parameters:
+Azonban a beömlő turbulens kinetikus energia jellemzően a beömlési referencia sebesség és a turbulencia intenzitás alapján kerül kiszámításra, amelyet az Eurocode a terepparaméterek alapján határoz meg:
 
 ![alt text](img/image-7.png)
 
-Similarly for the inlet ε there is a default automatic way used by the OpenFOAM based on the friction velocity:
+Hasonlóképpen, az ε beömlő értékéhez egy alapértelmezett automatikus módot használ az OpenFOAM, amely a súrlódási sebességen alapul:
 
 ![alt text](img/image-8.png)
 
-:::info
- And there is also an approach considering the turbulent length intensity which can be evaluated according to a Eurocode procedure:
+:::info  
+És van egy másik megközelítés is, amely figyelembe veszi a turbulens hosszúság intenzitását, amely az Eurocode eljárásai szerint értékelhető:  
 :::
 
 ![alt text](img/image-9.png)
 
-These approaches were compared, both for the mean velocity and the peak velocity profile, presented in Figure 4-6. The peak pressures are corresponding to the pressure values measured on the windward wall of a simple 8 m x 8 m x 8 m cuboid. The profile naming convection is the following: inlet velocity profile – inlet turbulent kinetic energy (automatic or calculated) – inlet turbulent dissipation rate (automatic or calculated).
+Ezeket a megközelítéseket összehasonlították, mind a középsebesség, mind a csúcssebesség profilok számára, amelyeket a 4-6. ábrán mutatunk be. A csúcsnyomások azoknak a nyomásértékeknek felelnek meg, amelyek egy egyszerű 8 m x 8 m x 8 m kocka szélvédett falán lettek mérve. A profilnevezési konvenció a következő: beömlő sebességprofil – beömlő turbulens kinetikus energia (automatikus vagy számított) – beömlő turbulens disszipációs ráta (automatikus vagy számított).
 
-![alt text](img/image-10.png)
-_Peak pressures measured on a windward wall_
+![alt text](img/image-10.png)  
+_Csúcsnyomások mérve a szélvédett falon_

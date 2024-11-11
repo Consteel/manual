@@ -1,56 +1,54 @@
 ---
 sidebar_position: 3
 ---
-# Wind load generator service development
+# Szélterhelési generátor szolgáltatás fejlesztése
 
-In the early stages of the implementation of simulation methodologies a clear need has been formulated to develop a service which is capable to provide a solution specifically for structural engineers to effectively and conveniently use the OpenFOAM CFD toolbox.
+A szimulációs módszertanok alkalmazásának korai szakaszaiban világos igény merült fel egy olyan szolgáltatás kifejlesztésére, amely kifejezetten a szerkezetépítő mérnökök számára biztosít megoldást az OpenFOAM CFD eszköztár hatékony és kényelmes használatához.
 
-Prior to development a strict line was drawn regarding some features to consider specific limitations or simplifications on different approaches:
+A fejlesztés előtt szigorú szabály vonatkozott néhány jellemzőre, amelyek figyelembevételével a különböző megközelítések korlátozásait vagy egyszerűsítéseit figyelembe kellett venni:
 
-1. The underlying logic of input handling, wind profile definition, and result interpretation is correlated with the Eurocode approaches mainly because of convenience, but also because it can be considered the most conservative approach as presented in chapter 3.2.
+1. Az inputkezelés, szélprofil meghatározás és eredmények értelmezésének alapvető logikája az Eurocode megközelítésekkel van összhangban, elsősorban a kényelem, de másodsorban azért, mert ez tekinthető a legkonzervatívabb megközelítésnek, amint azt a 3.2. fejezetben bemutattuk.
 
-2. Because the main direction is to offer solutions for surface elements the focus is on such buildings that can be considered closed or “air-tight”. Therefore, no inner pressure is evaluated.
+2. Mivel a fő irányvonal a felületi elemekhez kapcsolódó megoldások kínálata, a fókuszálás olyan épületekre irányul, amelyek zártak vagy „légtömör” szerkezetűek. Ezért belső nyomás nem kerül figyelembevételre.
 
-3. The buildings are considered as incompressible and rigid bodies.
+3. Az épületek kompresszibilitás nélküli és merev testeknek tekinthetők.
 
-4. The effect of turbulence is considered via RANS type stationary turbulence models, according to professional literature 5 of them offered by OpenFOAM was selected for implementation: k-epsilon, k-omega, k-omega SST, realizableKE and RNGkEpsilon. These are all handling the partial differential equations of the TKE; therefore, the turbulence is calculated by the turbulent viscosity.
+4. A turbulencia hatását RANS típusú állandó turbulencia modelleken keresztül veszik figyelembe, a szakirodalom szerint az OpenFOAM által kínált 5 modell került kiválasztásra a megvalósításhoz: k-epsilon, k-omega, k-omega SST, realizálható KE és RNGkEpsilon. Mindegyikük a TKE parciális differenciálegyenleteivel dolgozik, tehát a turbulenciát a turbulens viszkozitás segítségével számolják.
 
-5. To solve the fluid flow governing equations the simpleFOAM (SIMPLE = Semi - Implicit Method for Pressure Linked Equations) solver is used. This is a steady-state solver, without partial time derivatives, therefore no physical time is taken into consideration. This leads to quasi-static pressure values.
+5. A folyadékáramlás irányító egyenleteinek megoldásához a simpleFOAM (SIMPLE = Fél-implicit módszer a nyomás-kapcsolt egyenletekhez) szimulátort alkalmazzák. Ez egy állandó állapotú szimulátor, amely nem tartalmaz parciális időbeli deriváltakat, ezért nem veszi figyelembe a fizikai időt. Ez kvázi-statikus nyomásértékekhez vezet.
 
-To assure the possibility of these simplifications several validations are required. Most importantly, according to the Eurocode recommendations checks are performed to ensure that the building in question can be considered as a rigid body. Therefore, if the service is called by a structural analysis software, which is capable to calculate dynamic properties, by performing free vibration analysis, a preliminary check for the limit frequency value (1 Hz) is performed and the cd structural factor is evaluated to make sure that there is no need for dynamic assumptions. Otherwise, the service is not offering postprocessed load values, only the result fields can be investigated.
+Ezen egyszerűsítések lehetőségének biztosítása érdekében több validációra van szükség. A legfontosabb, hogy az Eurocode ajánlásainak megfelelően ellenőrzések történnek annak biztosítására, hogy az adott épület merev testként tekinthető. Ezért, ha a szolgáltatást egy szerkezetanalitikai szoftver hívja meg, amely képes dinamikai tulajdonságok számítására, szabad rezgési analízist végezve előzetes ellenőrzést hajtanak végre a határfrekvencia értékre (1 Hz), és a cd szerkezeti tényezőt is értékelik, hogy megbizonyosodjanak arról, hogy nincs szükség dinamikai feltételezésekre. Ha nem, akkor a szolgáltatás nem kínál post-processzált terhelési értékeket, csak az eredménymezők vizsgálhatók.
 
-The development has begun with the preparation of a functionality plan, to determine the main tasks for the service and the broad operational logic, therefore three consecutive phases has been clearly distinguished.
+A fejlesztés egy funkcionális terv előkészítésével kezdődött, hogy meghatározzák a szolgáltatás fő feladatait és az átfogó működési logikát, így három egymást követő szakasz lett világosan elkülönítve.
 
-### Preprocessing phase:
+### Előfeldolgozási szakasz:
 
-- Collecting, interpreting, and structuring the relevant input data (building geometry / load bearing objects, simulation settings)
+- A releváns bemeneti adatok gyűjtése, értelmezése és strukturálása (épület geometriája / teherhordó elemek, szimulációs beállítások)
 
-- Validating the input according to the limitations mentioned before and regarding the geometrical correctness.
+- A bemenetek validálása a fent említett korlátozások és a geometriai helyesség figyelembevételével.
 
-- Converting the geometry to a specific mesh instance, which is capable to handle any type of mesh regardless of mesh face shapes (Ngon mesh), it can also be interpreted by OpenFOAM, but most importantly it can store the simulation results.
+- A geometria átalakítása egy specifikus hálós példányra, amely képes kezelni bármilyen típusú hálót a hálófelületek alakjától függetlenül (Ngon háló), azt is képes értelmezni az OpenFOAM, de ami a legfontosabb, tárolni tudja a szimuláció eredményeit.
 
-- Ensuring the serialization and creation of a simulation case, which consists of a specific file hierarchy that OpenFOAM requires.
+- A szimulációs eset szerializálásának és létrehozásának biztosítása, amely egy speciális fájlhierarchiát tartalmaz, amelyet az OpenFOAM igényel.
 
-### Dataprocessing phase:
+### Adatfeldolgozási szakasz:
 
-- Calling synchronously the specific applications, continuously offering feedback about the actual state:
+- A specifikus alkalmazások szinkron hívása, folyamatos visszajelzést adva az aktuális állapotról:
 
-  -  Discretizing the calculation domain to obtain the base finite volume mesh.
+  - Az számítási tartomány diszkretizálása a végső térfogatú alap háló létrehozásához.
 
-  - Inserting and refining the building geometry inside the domain.
-  
-  - Running the simulation
+  - Az épület geometria beszúrása és finomítása a tartományba.
 
+  - A szimuláció futtatása.
 
-- Reading the created finite volume mesh with the results belonging to it
+- A létrehozott végső térfogatú háló olvasása az ahhoz tartozó eredményekkel.
 
-- Querying results according to the need (specific points or result fields)
+- Az eredmények lekérdezése szükség szerint (specifikus pontok vagy eredménymezők).
 
-### Postprocessing phase:
+### Utófeldolgozási szakasz:
 
-- Displaying the results in a meaningful way
+- Az eredmények értelmes módon történő megjelenítése.
 
-- Converting the results to specific load objects according to the needs
+- Az eredmények átalakítása specifikus terhelési objektumokká az igények szerint.
 
-
-From a technical point of view the service is a standalone project based on the .NET development framework by Microsoft, written in the C# object-oriented programming language. The choice to use this framework had several reasons. Firstly, because it provides a convenient platform for building and running various types of applications, including desktop applications, cloud services, and many more. Besides, in the AEC industry it is a common phenomenon that the software providers are using C# for the development of their application programming interface (API). Therefore, the sticking to the principle of interoperability is ensured. In addition, because the development consists of the implementation of the service as a Grasshopper plugin also, as a separate project, presented in later chapters, it was a straightforward decision.
+Műszaki szempontból a szolgáltatás egy önálló projekt, amely a Microsoft .NET fejlesztési keretrendszerére épül, és C# objektum-orientált programozási nyelven íródott. A keretrendszer használatának több oka is van. Először is, mert kényelmes platformot biztosít különféle alkalmazások, például asztali alkalmazások, felhőszolgáltatások és más típusú alkalmazások fejlesztésére és futtatására. Emellett az AEC iparágban gyakori jelenség, hogy a szoftverszolgáltatók C#-t használnak az alkalmazásprogramozási interfészük (API) fejlesztésére. Ezáltal biztosított a hordozhatóság elve. Továbbá, mivel a fejlesztés a szolgáltatás Grasshopper pluginként való megvalósításából is áll, mint külön projekt, amit a későbbi fejezetekben bemutatunk, ez egyértelmű döntés volt.
