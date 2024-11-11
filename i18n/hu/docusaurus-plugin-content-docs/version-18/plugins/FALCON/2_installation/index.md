@@ -1,96 +1,105 @@
-# Installing FALCON
+# FALCON telepítése és futtatása
 
 
-To utilize the wind simulation feature initially, users are required to install the **FALCON plugin**. This plugin can be accessed via the Consteel website under the “Downloads” section. Within the plugins category, select  “Consteel 18” and proceed to download the “FALCON” plugin.
-Starting from Consteel 18 the Plugin is compatible. 
+A szél-szimulációs funkció használatához a felhasználóknak először telepíteniük kell a **FALCON plugint**. Ez a plugin a Consteel weboldalán, a „Letöltések” menüpont alatt érhető el. A bővítmények kategóriájában válaszd ki a „Consteel 18” opciót, majd töltsd le a „FALCON” plugint.
 
-![alt text](img/downloads.png)
+A plugin a Consteel 18-tól kezdve kompatibilis.
+
+![alt text](<img/Dowloads 18.png>)
  
-After downloading the plugin .exe file, ensure that you check the “Install OpenFOAM” checkbox if it was **not** installed previously. Then, press “Next.”
+A plugin .exe fájl letöltése után győződj meg róla, hogy bepipáltad az „OpenFOAM telepítése” jelölőnégyzetet, ha az előzőleg **nem** lett telepítve. Ezután kattints a „Tovább” gombra.
 
-### Is there an OpenFOAM installation on your computer?
-
-
-### YES
+## Van OpenFOAM telepítve a számítógépére?
+### IGEN
 *** 
 ![alt text](img/image-4.png)
 
--  If OpenFOAM is already installed but you check the checkbox anyway, the following message will appear:
+Ha az OpenFOAM már telepítve van, de mégis bepipálod a jelölőnégyzetet, az alábbi üzenet jelenik meg:
 
-_"An OpenFOAM installation is already detected on your device. Would you like to install another instance? Install OpenFOAM."_
+"OpenFOAM telepítése már megtörtént az eszközén. Szeretné egy másik példányt telepíteni? Telepítse az OpenFOAM-ot."
 
-If you press Install, a new OpenFOAM instance will be installed, which will **slow down** the installation process. It is recommended to go **Back** and uncheck the installation checkbox.
+Ha a Telepítés gombra kattintasz, egy új OpenFOAM példány lesz telepítve, ami **lassítani** fogja a telepítési folyamatot. Ajánlott a **Vissza** gombra kattintani, és eltávolítani a jelölést a telepítéshez.
 
--  Press **Next** on the Select _Additional Tasks_ window.
+- Kattints a **Tovább** gombra a Kiegészítő Feladatok kiválasztása ablakban.
 
--  On the _Ready to Install_ page, press **Install**.
+- A Készen áll a telepítésre oldalon kattints a **Telepítés** gombra.
 
--  On the final window, _Completing the FalconPlugin 1 Setup Wizard_, press **Finish**.
+- Az utolsó ablakban, a FALCON Plugin 1 Telepítő varázsló befejezése oldalnál kattints a **Befejezés** gombra.
 
  ![alt text](img/image-3.png)
 
-### NO
+### NEM
 
 *** 
 ![alt text](img/image-5.png)
 
-•	If OpenFOAM is **not** already installed, the following message will appear:
+Ha az OpenFOAM **nincs** telepítve, az alábbi üzenet jelenik meg:
 
-_"No OpenFOAM installation was found on your device. You need to install it before proceeding. Install OpenFOAM."_
+"Nem található OpenFOAM az eszközén. A folytatáshoz először telepítenie kell. Telepítse az OpenFOAM-ot."
 
-• **Do not use Consteel** while installing the plugin. If the software is open, the following message will appear:
+- **Ne használj a Consteel**-t a plugin telepítése közben. Ha a szoftver nyitva van, az alábbi üzenet jelenik meg:
 
-_"The following applications are using files that need to be updated by Setup. It is recommended that you allow Setup to automatically close these applications. After the installation has completed, Setup will attempt to restart the applications."_
+"Az alábbi alkalmazások olyan fájlokat használnak, amelyeket a telepítő frissíteni szeretne. Ajánlott engedélyezni, hogy a telepítő automatikusan bezárja ezeket az alkalmazásokat. A telepítés befejezése után a telepítő megpróbálja újraindítani az alkalmazásokat."
 
-•	Press **Install** to continue the installation.
+- Kattints a **Telepítés** gombra a telepítés folytatásához.
 
-•	On the _Welcome to OpenFOAM_ for Windows Setup window, press **Next**.
+- A Üdvözöljük az OpenFOAM Windows telepítőjében ablakban kattints a **Tovább** gombra.
 
-•	On the _Preliminaries_ window, check the **Skip this feature** checkbox and press **Next**.
+- A Kezdő lépések ablakban pipáld be az ,,Ez a funkció **kihagyása**" jelölőnégyzetet, majd kattints a **Tovább** gombra.
+
+:::note
+Az OpenFOAM Linuxon fejlesztett rendszer, amely érzékeny a kis- és nagybetűkre, míg a Windows alapértelmezetten nem érzékeny rá. Azok számára, akik az OpenFOAM további fejlesztését tervezik, szükséges a Windows beállításainak módosítása. Azonban a legtöbb felhasználó számára biztonságos ezt a lépést kihagyni.
+:::
+
 ![alt text](img/image-7.png)
  
-•	On the following seven windows, press **Next** and **Install** without changing the default settings.
+- A következő hét ablakban kattints a **Tovább** és **Telepítés** gombra anélkül, hogy módosítanád az alapértelmezett beállításokat.
 
-•	When you reach the Complete the Microsoft MPI Setup Wizard window, press **Finish**.
+- Amikor a Microsoft MPI telepítő varázsló befejezése ablakhoz érsz, kattints a **Befejezés** gombra.
 
  ![alt text](img/image-8.png)
 
-•	After the Microsoft MPI installation is completed by pressing **OK**, Cygwin and OpenFOAM need to be installed in five steps:
-- 	Step 1: Installing Open FOAM
-- 	Step 2: Install ParaView – It is recommended only for research purposes; for regular engineering projects, users can skip the installation of ParaView.
+- A Microsoft MPI telepítése után, a **OK** gombra kattintva, a Cygwin és az OpenFOAM telepítésére van szükség, öt lépésben:
+
+Lépés 1: OpenFOAM telepítése
+
+:::info
+Az alábbi 4 lépést csak kutatási célokra ajánljuk; a szokásos mérnöki projektekhez a felhasználók kihagyhatják a ParaView, swak4Foam, PyFoam és Gnuplot telepítését.
+:::
+
+- Lépés 2: ParaView telepítése
 
    ![alt text](img/image-9.png)
+- Lépés 3: swak4Foam telepítése
+- Lépés 4: PyFoam telepítése
+- Lépés 5: Gnuplot telepítése
+- Ezután ki kell választani a telepítés nyelvét. Kattintson a **OK** gombra.
 
-- 	Step 3: Install swak4Foam
-- 	Step 4: Install PyFoam
-- 	Step 5: Install Gnuplot
+- A következő ablakban el kell fogadni az Licencszerződést. Kattints a **Tovább** gombra.
 
-•	Next, the language needs to be selected for the installation. Press **OK**.
+- Kattints a **Tovább** gombra az Információ ablakban.
 
-•	On the following window, the _License Agreement_ has to be accepted. Press **Next**.
+- Válaszd ki a célmappát és a komponenseket, majd kattints a **Tovább** gombra.
 
-•	Press **Next** on the _Information_ window.
+- Válaszd ki a Start menü mappát, majd kattints a **Tovább** gombra.
 
-•	Select the destination location and components, then press **Next**.
+- További feladatok választhatók, majd kattints a **Telepítés** gombra a Kész a telepítéshez ablakban.
 
-•	Select the _Start Menu Folder_, and press **Next**.
-
-•	Additional tasks can be selected; then press **Install** on the _Ready to Install_ window.
-
-•	Press **Next** on the Information window, then **Finish**.
+- Kattints a **Tovább** gombra az Információ ablakban, majd kattintson a Befejezés gombra.
    
    ![alt text](img/image-10.png)
  
 
-If the installation is successful, two new **FALCON icons** on the _Loads tab_ will be functional when **Consteel 18** is opened:
--	**FALCON – Wind simulation**  ![alt text](img/image-14.png)
--	**FALCON- Wind Load generation from simulation results** ![alt text](img/image-15.png)
+Ha a telepítés sikeres, két új FALCON ikon lesz elérhető a Teher fülön:
+
+- FALCON – Szél szimuláció![alt text](img/image-14.png)
+- FALCON – Szélteher generálás szimulációs eredményekből ![alt text](img/image-15.png)
 
 
 ![alt text](img/image-13.png)
 
 :::info
-Since this initial stage of the **FALCON plugin** is a free beta version available for for preliminary testing and use, please ensure that you [register](https://share.hsforms.com/1ryjbZxr3S1OFOKhEjZhtzQ2irg2) before starting. 
+Mivel a FALCON bővítmény kezdeti verziója egy ingyenes bétaverzió, amely előzetes tesztelésre és használatra áll rendelkezésre, kérjük, hogy kezdés előtt [regisztrálj](https://share.hsforms.com/1Csz6iiSBRE2N3K6Y8fiGYA2irg2).
 
-Following a fine-tuning phase in collaboration with our dedicated users, the final version is scheduled for release next year.
+A finomhangolási fázist követően, együttműködve elkötelezett felhasználóinkkal, a végleges verzió kiadása jövőre várható.
 :::

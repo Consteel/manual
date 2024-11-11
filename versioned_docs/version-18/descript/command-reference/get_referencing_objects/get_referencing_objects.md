@@ -1,19 +1,20 @@
 ---
-title: 'GET_REFERENCING_OBJECTS'
+title: "GET_REFERENCING_OBJECTS"
 description: ""
 published: 2023-08-22
-redirect_from: 
-            - https://www.consteelsoftware.com/manual/descript-cspi/get_referencing_objects/
+redirect_from:
+  - https://www.consteelsoftware.com/manual/descript-cspi/get_referencing_objects/
 hero: ./img/wp-content-uploads-2023-08-image-2-1024x640.png
 ---
 
-Gets the IDs of objects referencing the input object. <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+Gets the IDs of objects referencing the input object.
 
 ### Description
 
 In Consteel, if one object is "attached to" another object (eg. a support to a beam), the attached object (the support) is referencing the other object (the beam) it is attached to. In other words, in the definition of the attached object a reference to the database ID of the other object is present. With this command, we can query the list of objects that are referencing an object that we specified with the "Input object ID" parameter.
 
 This command is a tool that reveals object releations, and lets us perform instructions like: "only delete those support points that are attached to this beam", or "only modify those loads that are on this structural plate" in a scripted form.
+
 ### Syntax
 
 **GET_REFERENCING_OBJECTS** [Input object ID] [Output array name] [Output object type]
@@ -27,13 +28,16 @@ This command is a tool that reveals object releations, and lets us perform instr
 | [Output object type](#output-object-type) | Optional       | [Predefined strings](#Available-object-types) | Local, variable   |
 
 #### Input object ID:
+
 ID of the inspected object.
 
 Avaible input object types:
+
 - Structural member
 - Structural Plate
 
 #### Output array name:
+
 Name of the array that will contain the IDs of the objects referencing the input object.
 
 #### Output object type:
@@ -41,6 +45,7 @@ Name of the array that will contain the IDs of the objects referencing the input
 The type of the output objects can be restricted with this optional parameter. If defined, only those referencing objects will be listed in the output array that has the type given by this parameter.
 
 <span id="Available-object-types" style={{paddingTop: '80px'}}> Available object types: </span>
+
 <div style={{paddingBottom: '20px'}}> </div>
 
 | **Object type name**                        | **Object type** |
@@ -59,6 +64,7 @@ The type of the output objects can be restricted with this optional parameter. I
 ### Sample code
 
 #### Command only:
+
 ```
 GET_REFERENCING_OBJECTS Member_ID1 Object_ID_Result_array
 ```
@@ -79,7 +85,6 @@ RETURN
 ```
 
 [![](./img/wp-content-uploads-2023-08-image-2-1024x640.png)](https://www.consteelsoftware.com/wp-content/uploads/2023/08/image-2.png)
-
 
 **Example 2:** (structural member, support point only)
 

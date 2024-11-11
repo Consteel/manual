@@ -1,78 +1,77 @@
 ---
 sidebar_position: 4
 ---
-# Clients and parameters
+# Kliensek és paraméterek
 
-To support the principle of interoperability any platform which can offer the input parameters in SAF or SMADSTEEL format can be a client for the service. The geometry must be defined as a collection of load transfer surfaces. To assign multiple pressure values to one load transfer surface a premeshing is required, which is practically a traditional finite element mesh of the surface always consisting planar faces. There are multiple choices regarding the type of finite faces of the mesh. Triangular meshes are flexible in terms of geometry (e.g., rounded, pitched-in corners) and always produce a regular mesh. Quadrilateral meshes are less flexible but tend to produce better results for load generation. Combined meshes try to combine the advantages of triangular and quadrilateral meshes. But in many cases, they produce an irregular mesh.
+A hordozhatóság elvének támogatása érdekében bármely olyan platform, amely képes biztosítani a bemeneti paramétereket SAF vagy SMADSTEEL formátumban, lehet a szolgáltatás kliensje. A geometria egy teherátadó felületek gyűjteményeként kell definiálni. Ahhoz, hogy több nyomásértéket rendelhessünk egy teherátadó felülethez, előzetes hálózásra van szükség, amely gyakorlatilag egy hagyományos véges elemes háló a felületen, amely mindig sík felületekből áll. Többféle választási lehetőség van a háló véges felületeinek típusával kapcsolatban. A háromszögletű hálók rugalmasak a geometria szempontjából (például lekerekített, befelé hajló sarkok), és mindig szabályos hálót eredményeznek. A négyszögletes hálók kevésbé rugalmasak, de hajlamosak jobb eredményeket adni a terhelés generálásában. A kombinált hálók megpróbálják ötvözni a háromszögletű és négyszögletes hálók előnyeit, de sok esetben szabálytalan hálót eredményeznek.
 
-A simulation case starts from a set of parameters. The number of parameters can vary depending on the geometry and computational complexity, but even the simplest simulation requires a minimum of around 250 parameters which can be distinguished in four categories. Of course, a significant part of the parameters is redundant, so there is room for automation, which require a deliberate serialization process.
+A szimulációs eset egy paraméterkészletből indul. A paraméterek száma a geometria és a számítási összetettség függvényében változhat, de még a legegyszerűbb szimuláció is minimum körülbelül 250 paramétert igényel, amelyek négy kategóriába sorolhatók. Természetesen a paraméterek jelentős része redundáns, így van hely az automatizálásra, amely megköveteli a tudatos szerializálási folyamatot.
 
 ![alt text](img/distributionprecentage.png)
 
-_Distribution percentage of parameters_
- 
+**A paraméterek eloszlásának százaléka**
 
-However, experience has shown that almost 80 % of the parameters can be fixed, for structural engineering purposes. This means that a default value is assigned. The necessary parameters are the following:
+A tapasztalatok szerint a paraméterek közel 80%-a rögzíthető szerkezeti mérnöki célokra. Ez azt jelenti, hogy alapértelmezett értéket rendelnek hozzájuk. A szükséges paraméterek a következők:
 
-- Wind flow
+- **Széláramlás**
 
-  - Basic wind velocity according to EC
-  - Terrain category according to EC
-  - Wind direction vector
-  - Reference height – if it is not provided it is automatically calculated according to the top height of the building’s bounding box.
+  - Alap szélsebesség az EC szerint
+  - Területi kategória az EC szerint
+  - Szélirány vektor
+  - Referencia magasság – ha nincs megadva, automatikusan kiszámításra kerül az épület körvonalának legmagasabb pontja alapján.
 
-- Mesh generation
+- **Háló generálás**
 
-  - Load transfer surfaces
-  - Flag for premeshing - if the structure is considered premeshed or not.
-  - Mesh type – the mesh face type if premesh is requested.
-  
-    - Triangular
-    - Quadrilateral
-    - Combined
+  - Teherátadó felületek
+  - Előzetes hálózás flag – annak meghatározása, hogy a szerkezet előzetes hálózással rendelkezik-e vagy sem.
+  - Háló típusa – a háló felületének típusa, ha előzetes hálózás kérhető.
 
-  - Load cell size – the desired face / cell size for load generation if premesh is requested.
+    - Háromszögű
+    - Négyszögletes
+    - Kombinált
 
-  - Refinement – The refinement value according to the load cell size
+  - Terhelési cella mérete – a kívánt felület/cella mérete a terhelés generálásához, ha előzetes hálózás kérhető.
 
-  - Cell number between refinement levels
+  - Finomítás – A finomítási érték a terhelési cella méretéhez képest.
 
-- Solution
+  - Cellák száma a finomítási szintek között
 
-  - Turbulence model
+- **Megoldás**
 
-  - Processor count for parallel computing
+  - Turbulencia modell
 
-  - Iteration End
+  - Processzorok száma párhuzamos számításhoz
 
-  - Convergence criteria
+  - Iteráció vége
 
-- Result query
+  - Konvergenciakritériumok
 
-  - Load evaluation type
+- **Eredmény lekérdezés**
 
-    - Mean
+  - Terhelés értékelés típusa
+
+    - Átlagos
 
     - Maximum
 
     - Minimum
 
-  - Load generation type
+  - Terhelés generálás típusa
 
-    - Node loads on vertices
+    - Csúcs terhelés csomópontoknál
 
-    - Linear loads on beams
+    - Lineáris terhelés gerendákon
 
-    - Uniform surface loads on faces
+    - Egységes felületi terhelés síkokon
 
-    - Linear surface loads on faces
+    - Lineáris felületi terhelés síkokon
 
-    - Uniform surface loads on zones
+    - Egységes felületi terhelés zónákban
 
-    - Linear surface loads on zones
+    - Lineáris felületi terhelés zónákban
 
-    - Uniform surface loads on specific zones
+    - Egységes felületi terhelés specifikus zónákban
 
-  - Zone interval for zone type load creation
+  - Zóna intervallum a zónatípusú terhelés létrehozásához
 
-  - Specific zones
+  - Specifikus zónák

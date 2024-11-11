@@ -29,7 +29,7 @@ For the wind load simulation, the **Velocity Pressure** and **Geometric Paramete
   - Basic wind velocity
 - **Wind Load Generation Geometric Parameters**:
   - Building dimensions relative to the primary wind direction
-  - Note if the load Aria is higher than 10 m2 the exact dimension will be relevant in the wind simulation. 
+  - The exact dimension of the load area is not relevant in the wind simulation in the beta version.
 
 For more information on meteorological effects, please refer to the [_Load chapter_](../../../manual/6_0_structural-loads/6_6_meteorological-loads.md) in the Consteel manual.
 
@@ -158,4 +158,6 @@ In this final step, FALCON generates loads from the simulation results that can 
 If the wind load generation completes successfully, new wind load cases will appear in the _Load Cases and Groups_ section.
  
 ![alt text](img/image-11.png)
+
+All wind load cases will contain the corresponding wind loads generated from the simulation.
 

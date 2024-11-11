@@ -1,13 +1,13 @@
 ---
-title: 'MSG_BOX'
+title: "MSG_BOX"
 description: ""
 published: 2023-08-14
-redirect_from: 
-            - https://www.consteelsoftware.com/manual/descript-cspi/msg_box/
+redirect_from:
+  - https://www.consteelsoftware.com/manual/descript-cspi/msg_box/
 hero: ./img/wp-content-uploads-2023-08-Error.png
 ---
 
-Pops up a message box. <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+Pops up a message box.
 
 ### Description
 
@@ -31,7 +31,8 @@ Available additional command lines:
 | [Icon](#icon)             | Optional      | Adds an icon to the message |
 
 #### Icon:
-An icon can be added in front of the message title with this additional line immediately after the MSG_BOX command. If the "Icon ..." line is added then the _Icon type_ parameter have to be given.
+
+An icon can be added in front of the message title with this additional line immediately after the MSG*BOX command. If the "Icon ..." line is added then the \_Icon type* parameter have to be given.
 
 ### Command parameters
 
@@ -42,15 +43,19 @@ An icon can be added in front of the message title with this additional line imm
 | [Icon type](<#icon type>)                   | Optional       | [Predefined strings](#Available-icon-types) | Local, variable   |
 
 #### Message title:
+
 Title of the message.
 
 #### Message description:
+
 Body of the message.
 
 #### Icon type:
+
 Specifies the type of the optional icon in front of the message title.
 
 <span id="Available-icon-types" style={{paddingTop: '80px'}}> Available icon types: </span>
+
 <div style={{paddingBottom: '20px'}}> </div>
 
 | **Icon** **type** | **Icon**                                              |
@@ -63,6 +68,7 @@ Specifies the type of the optional icon in front of the message title.
 ### Sample code
 
 **Simplest form:** (minimal parameters)
+
 ```
 MSG_BOX "Message title" "Message description"
 ```

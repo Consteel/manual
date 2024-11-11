@@ -1,9 +1,9 @@
 ---
-title: 'SET'
+title: "SET"
 description: ""
 published: 2023-08-17
-redirect_from: 
-            - https://www.consteelsoftware.com/manual/descript-cspi/set/
+redirect_from:
+  - https://www.consteelsoftware.com/manual/descript-cspi/set/
 hero: ../../../defaultHero.jpg
 ---
 
@@ -15,51 +15,55 @@ Sets or modifies an attribute value of an object.
 
 ### Command parameters
 
-| **Command parameter**                 | **Assignment** | **Value format**                         | **Input options** |
-| ------------------------------------- | -------------- | ---------------------------------------- | ----------------- |
-| [Object ID](#object-id)               | Required       | String                                   | Local, variable   |
-| [Object attribute](#object-attribute) | Required       | Predefined strings                       | Local, variable   |
-| [New value](#new-value)               | Required       | String                                   | Local, variable   |
+| **Command parameter**                 | **Assignment** | **Value format**   | **Input options** |
+| ------------------------------------- | -------------- | ------------------ | ----------------- |
+| [Object ID](#object-id)               | Required       | String             | Local, variable   |
+| [Object attribute](#object-attribute) | Required       | Predefined strings | Local, variable   |
+| [New value](#new-value)               | Required       | String             | Local, variable   |
 
 #### Object ID:
+
 The ID of the object.
 
 Object IDs from the following object types are accepted:
-- Structural members tab:  
+
+- Structural members tab:
   - [Structural member](#structural-member)
   - [Structural plate](#structural-plate)
-  - [Haunched member](#haunched-member) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
-  - [Tapered member](#tapered-member) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
-  - [Steel material](#steel-material) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
-  - [Coated steel material](#coated-steel-material) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
-  - [Concrete material](#concrete-material) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
-  - [Rebar material](#rebar-material) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+  - [Haunched member](#haunched-member)
+  - [Tapered member](#tapered-member)
+  - [Steel material](#steel-material)
+  - [Coated steel material](#coated-steel-material)
+  - [Concrete material](#concrete-material)
+  - [Rebar material](#rebar-material)
   - [Point support](#point-support)
   - [Line support](#line-support)
-  - [Surface support](#surface-support) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
-  - [Support type](#support-type) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
-  - [Release type](#release-type) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
-  - [Link ](#link)<span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+  - [Surface support](#surface-support)
+  - [Support type](#support-type)
+  - [Release type](#release-type)
+  - [Link ](#link)
 - Loads tab:
-  - [Load group](#load-group) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
-  - [Load case](#load-case) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
-  - [Load combination](#load-combination) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+  - [Load group](#load-group)
+  - [Load case](#load-case)
+  - [Load combination](#load-combination)
   - [Point load](#point-load)
   - [Line load](#line-load)
-  - [Surface load](#surface-load) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
-  - [Load transfer surface](#load-transfer-surface) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+  - [Surface load](#surface-load)
+  - [Load transfer surface](#load-transfer-surface)
 - Mass tab:
-  - [Mass group](#mass-group) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
-  - [Mass case](#mass-case) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
-  - [Mass combination](#mass-combination) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
-  - [Point mass](#point-mass) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+  - [Mass group](#mass-group)
+  - [Mass case](#mass-case)
+  - [Mass combination](#mass-combination)
+  - [Point mass](#point-mass)
 - Other:
-  - [Portion ](#portion)<span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+  - [Portion ](#portion)
 
 #### Object attribute:
+
 The object attribute to be set. The available selection of object attributes depends on the object type, which is autmatically determined based on the object ID. The available object attributes can be found at the [detailed description of object](#detailed-description-of-object-types) types below.
 
 #### New value:
+
 The new value of the specified attribute.
 
 ### Sample code
@@ -83,32 +87,35 @@ SET Mem_ID1 Name "New name"
 ```
 
 ---
+
 ## Detailed description of object types
 
 ## Structural member
 
 Available object attributes:
 
-| **Object attribute name**                                                                        | **Object attribute** (type this into Descript) | **Value format**                                            |
-| ------------------------------------------------------------------------------------------------ | ---------------------------------------------- | ----------------------------------------------------------- |
-| Name                                                                                             | Name                                           | String                                                      |
-| Section ID                                                                                       | sectionid                                      | Section ID or name                                          |
-| Eccentricity - y                                                                                 | eccentricity_y                                 | Numerical                                                   |
-| Eccentricity - z                                                                                 | eccentricity_z                                 | Numerical                                                   |
-| Rotation                                                                                         | Rotation                                       | Numerical                                                   |
-| Initial bow imperfection L/y                                                                     | geomimpv                                       | Numerical                                                   |
-| Initial bow imperfection L/y                                                                     | geomimpw                                       | Numerical                                                   |
-| Release start point                                                                              | ReleaseID_A                                    | Release ID or name                                          |
-| Release end point                                                                                | ReleaseID_B                                    | Release ID or name                                          |
-| Finite element type <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>                  | FE_Type                                        | [Predefined strings](#Finite-element-type-sm)               |
-| FE generation type <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>                   | ConvergenceType                                | [Predefined strings](#FE-generation-type-sm)                |
-| Number of finite elements <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>            | Convergence                                    | Numerical                                                   |
-| Avearage shell FE size in web <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>        | AverageEdgeLength_Web                          | Numerical                                                   |
-| Avearage shell FE size in flange <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>     | AverageEdgeLength_Flange                       | Numerical                                                   |
-| Type of the shell constraint element <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span> | ShellDOFConstraint                             | [Predefined strings](#Type-of-the-shell-constraint-element) |
+| **Object attribute name**            | **Object attribute** (type this into Descript) | **Value format**                                            |
+| ------------------------------------ | ---------------------------------------------- | ----------------------------------------------------------- |
+| Name                                 | Name                                           | String                                                      |
+| Section ID                           | sectionid                                      | Section ID or name                                          |
+| Eccentricity - y                     | eccentricity_y                                 | Numerical                                                   |
+| Eccentricity - z                     | eccentricity_z                                 | Numerical                                                   |
+| Rotation                             | Rotation                                       | Numerical                                                   |
+| Initial bow imperfection L/y         | geomimpv                                       | Numerical                                                   |
+| Initial bow imperfection L/y         | geomimpw                                       | Numerical                                                   |
+| Release start point                  | ReleaseID_A                                    | Release ID or name                                          |
+| Release end point                    | ReleaseID_B                                    | Release ID or name                                          |
+| Finite element type                  | FE_Type                                        | [Predefined strings](#Finite-element-type-sm)               |
+| FE generation type                   | ConvergenceType                                | [Predefined strings](#FE-generation-type-sm)                |
+| Number of finite elements            | Convergence                                    | Numerical                                                   |
+| Avearage shell FE size in web        | AverageEdgeLength_Web                          | Numerical                                                   |
+| Avearage shell FE size in flange     | AverageEdgeLength_Flange                       | Numerical                                                   |
+| Type of the shell constraint element | ShellDOFConstraint                             | [Predefined strings](#Type-of-the-shell-constraint-element) |
 
 #### Finite element type:
+
 <span id="Finite-element-type-sm" style={{paddingTop: '80px'}}> Valid inputs: </span>
+
 - 6DOFelem
 - 7DOFelem
 - TensionBar
@@ -116,20 +123,25 @@ Available object attributes:
 - XBrace
 
 #### FE generation type:
+
 <span id="FE-generation-type-sm" style={{paddingTop: '80px'}}> Valid inputs: </span>
+
 - Automatic
 - Manual
 
 #### Type of the shell constraint element:
+
 Only applies if _FE_Type_ is set to Shell.
 
 <span id="Type-of-the-shell-constraint-element" style={{paddingTop: '80px'}}> Valid inputs: </span>
+
 - Trans
 - TransAndRot
 
 ### Sample code
 
 **All available attributes + object creation:**
+
 ```
 LOAD_SECTION_LIBRARY Sec_ID1 "HEA 200"
 LOAD_SECTION_MACRO Sec_ID2 WLD-IH "WLD-IH (Descript)" "S 355 EN 10025-2" 100 10 200 6 100 10
@@ -147,12 +159,12 @@ SET Mem_ID1 GeomImpV 200
 SET Mem_ID1 GeomImpW 300
 SET Mem_ID1 ReleaseID_A yy
 SET Mem_ID1 ReleaseID_B zz
-SET Mem_ID1 FE_Type Shell                       //(since CS 17)
-SET Mem_ID1 ConvergenceType Manual              //(since CS 17)
-SET Mem_ID1 Convergence 13                      //(since CS 17)
-SET Mem_ID1 AverageEdgeLength_Web 23            //(since CS 17)
-SET Mem_ID1 AverageEdgeLength_Flange 13         //(since CS 17)
-SET Mem_ID1 ShellDOFConstraint TransAndRot      //(since CS 17)
+SET Mem_ID1 FE_Type Shell
+SET Mem_ID1 ConvergenceType Manual
+SET Mem_ID1 Convergence 13
+SET Mem_ID1 AverageEdgeLength_Web 23
+SET Mem_ID1 AverageEdgeLength_Flange 13
+SET Mem_ID1 ShellDOFConstraint TransAndRot
 ```
 
 ## Structural Plate
@@ -169,6 +181,7 @@ Available object attributes:
 ### Sample code
 
 **All available attributes + object creation:**
+
 ```
 CREATE Plate_ID1 Structural_Plate "C20/25 EN 1992-1-1:2010" 200
 0 0 0
@@ -203,12 +216,16 @@ Available object attributes:
 | Start position along member length | StartX                                         | Numerical                                 |
 
 #### Section type:
+
 <span id="Section-type-hm" style={{paddingTop: '80px'}}> Valid inputs: </span>
+
 - HaunchWelded
 - HaunchRolled
 
 #### Haunch position:
+
 <span id="Haunch-position-hm" style={{paddingTop: '80px'}}> Valid inputs: </span>
+
 - Bottom
 - Centric
 - Top
@@ -216,6 +233,7 @@ Available object attributes:
 ### Sample code
 
 **All available attributes + object creation:**
+
 ```
 LOAD_SECTION_LIBRARY Sec_ID1 "IPE 300"
 LOAD_SECTION_MACRO Sec_ID2 WLD-IH "WLD-IH (Descript)" "S 355 EN 10025-2" 100 10 200 6 100 10
@@ -259,7 +277,9 @@ Available object attributes:
 | Beam eccentricity         | Format                                         | [Predefined strings](#Beam-eccentricity-tm) |
 
 #### Beam eccentricity:
+
 <span id="Beam-eccentricity-tm" style={{paddingTop: '80px'}}> Valid inputs: </span>
+
 - Bottom
 - Centric
 - Top
@@ -267,6 +287,7 @@ Available object attributes:
 ### Sample code
 
 **All available attributes + object creation:**
+
 ```
 LOAD_SECTION_MACRO Sec_ID1 WLD-IH Descript_Section "S 235 EN 10025-2" 100 10 200 6 100 10
 LOAD_SECTION_MACRO Sec_ID2 WLD-MALTESE "WLD-MALTESE (Descript)" "S 235 EN 10025-2" 400 10 200 20 300 8 150 16
@@ -311,6 +332,7 @@ Available object attributes:
 ### Sample code
 
 **All available attributes + object creation:**
+
 ```
 CREATE Steel_Mat_ID1 Steel "Custom steel name" 7850 210000 0.3 0.000012 0.000014 235 215 360 360 40 40
 
@@ -347,6 +369,7 @@ Available object attributes:
 ### Sample code
 
 **All available attributes + object creation:**
+
 ```
 CREATE CSteel_Mat_ID1 Coated_Steel "Custom coated steel name" 7850 210000 0.3 0.000012 0.000014 350 420 0.02
 
@@ -387,7 +410,9 @@ Available object attributes:
 | Exponent                              | Exp                                            | Numerical                                     |
 
 #### Material model:
+
 <span id="Material-model-concmat" style={{paddingTop: '80px'}}> Valid inputs: </span>
+
 - DiagramRectangle
 - DiagramBilinear
 - DiagramParabolaRect
@@ -395,6 +420,7 @@ Available object attributes:
 ### Sample code
 
 **All available attributes + object creation:**
+
 ```
 CREATE Concrete_Mat_ID1 Concrete "Custom concrete name" 2500 31476 25 1.8 2.6 2.35 0.2 0.00001 DiagramRectangle 0.0007 0.0035 1 0.002 0.0035 0.00175 0.0035 2
 
@@ -435,6 +461,7 @@ Available object attributes:
 ### Sample code
 
 **All available attributes + object creation:**
+
 ```
 CREATE Rebar_Mat_ID1 Rebar "Custom rebar name" 7850 200000 0.3 0.00001 500 0.05
 
@@ -460,7 +487,9 @@ Available object attributes:
 | Eccentricity - z          | EccZ                                           | Numerical                                          |
 
 #### Eccentricity reference:
+
 <span id="Eccentricity-reference-psup" style={{paddingTop: '80px'}}> Valid inputs: </span>
+
 <div style={{paddingBottom: '20px'}}> </div>
 
 | **Eccentricity reference name** | **Eccentricity reference** (type this into Descript) |
@@ -479,6 +508,7 @@ Available object attributes:
 ### Sample code
 
 **All available attributes + object creation:**
+
 ```
 LOAD_SECTION_MACRO Sec_ID1 WLD-IH "Descript Section" "S 235 EN 10025-2" 100 10 200 6 100 10
 
@@ -511,6 +541,7 @@ Available object attributes:
 #### Eccentricity reference:
 
 <span id="Eccentricity-reference-lsup" style={{paddingTop: '80px'}}> Valid inputs: </span>
+
 <div style={{paddingBottom: '20px'}}> </div>
 
 | **Eccentricity reference name** | **Eccentricity reference** (type this into Descript) |
@@ -529,6 +560,7 @@ Available object attributes:
 ### Sample code
 
 **All available attributes + object creation:**
+
 ```
 LOAD_SECTION_MACRO Sec_ID1 WLD-IH "WLD-IH (Descript)" "S 235 EN 10025-2" 100 10 200 6 100 10
 
@@ -559,7 +591,9 @@ Available object attributes:
 | Coordinate system         | DirType                                        | [Predefined strings](#Coordinate-system-ssup) |
 
 #### Coordinate system:
+
 <span id="Coordinate-system-ssup" style={{paddingTop: '80px'}}> Valid inputs: </span>
+
 - Local
 - Global
 
@@ -567,6 +601,7 @@ Available object attributes:
 
 **All available attributes + object creation:**
 2 new surface support types with the name of "Fixed" and "z" have to be created manually before runnnig this code.
+
 ```
 CREATE Plate_ID1 Structural_Plate "C25/30 EN 1992-1-1:2010" 200
 0 0 0
@@ -609,6 +644,7 @@ Available object attributes:
 ### Sample code
 
 **All available attributes + object creation:**
+
 ```
 CREATE PSup_Type_ID1 Support "Custom support type name" Fix 1234 Fix Fix Fix Fix Fix
 
@@ -640,6 +676,7 @@ Available object attributes:
 ### Sample code
 
 **All available attributes + object creation:**
+
 ```
 CREATE Release_Type_ID1 Release "Custom release type name" Fix 1234 Fix Fix Fix Fix Fix
 
@@ -667,6 +704,7 @@ Available object attributes:
 ### Sample code
 
 **All available attributes + object creation:**
+
 ```
 LOAD_SECTION_MACRO Sec_ID1 WLD-IH "Descript Section" "S 235 EN 10025-2" 100 10 200 6 100 10
 
@@ -705,7 +743,9 @@ Available object attributes:
 | Factor of quasi-permanent load level | Factor_3                                       | Numerical                                 |
 
 #### Load group type:
+
 <span id="Load-group-type-lg" style={{paddingTop: '80px'}}> Valid inputs: </span>
+
 <div style={{paddingBottom: '20px'}}> </div>
 
 | **Load group type name**            | **Load group type** |
@@ -737,6 +777,7 @@ Available object attributes:
 ### Sample code
 
 **All available attributes + object creation:**
+
 ```
 CREATE LG_ID1 LoadGroup
 Name "Variable (Descript)"
@@ -753,6 +794,7 @@ SET LG_ID1 Factor_1 1.1
 SET LG_ID1 Factor_2 0.98
 SET LG_ID1 Factor_3 0.1
 ```
+
 ## Load case
 
 Available object attributes:
@@ -768,6 +810,7 @@ Available object attributes:
 ### Sample code
 
 **All available attributes + object creation:**
+
 ```
 CREATE LG_ID1 LoadGroup
 Name "Permanent (Descript)"
@@ -801,27 +844,28 @@ Available object attributes:
 | Combination type          | Type                                           | [Predefined strings](#Combination-type-lcomb) |
 
 #### Combination type:
+
 <span id="Combination-type-lcomb" style={{paddingTop: '80px'}}> Valid inputs: </span>
-- ULS (default) <span style={{color:"Chocolate"}}>(until CS 16)</span>
-- SLS <span style={{color:"Chocolate"}}>(until CS 16)</span>
-- ULS_STR_PersistentOrTransient <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
-- ULS_GEO_PersistentOrTransient <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
-- ULS_EQU_PersistentOrTransient <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
-- ULS_Accidental <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
-- ULS_Seismic <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
-- ULS_Other (default) <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
-- SLS_Cheracteristic_GQ <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
-- SLS_Frequent_GQ <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
-- SLS_QuasiPermanent_GQ <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
-- SLS_Cheracteristic_Q <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
-- SLS_Frequent_Q <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
-- SLS_QuasiPermanent_Q <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
-- SLS_Seismic <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
-- SLS_Other <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>
+
+- ULS_STR_PersistentOrTransient
+- ULS_GEO_PersistentOrTransient
+- ULS_EQU_PersistentOrTransient
+- ULS_Accidental
+- ULS_Seismic
+- ULS_Other (default)
+- SLS_Cheracteristic_GQ
+- SLS_Frequent_GQ
+- SLS_QuasiPermanent_GQ
+- SLS_Cheracteristic_Q
+- SLS_Frequent_Q
+- SLS_QuasiPermanent_Q
+- SLS_Seismic
+- SLS_Other
 
 ### Sample code
 
 **All available attributes + object creation:**
+
 ```
 CREATE LG_ID1 LoadGroup
 Name "Permanent (Descript)"
@@ -863,7 +907,9 @@ Available object attributes:
 | Eccentricity - z          | EccZ                                           | Numerical                                           |
 
 #### Eccentricity reference:
+
 <span id="Eccentricity-reference-pload" style={{paddingTop: '80px'}}> Valid inputs: </span>
+
 <div style={{paddingBottom: '20px'}}> </div>
 
 | **Eccentricity reference name** | **Eccentricity reference** (type this into Descript) |
@@ -882,6 +928,7 @@ Available object attributes:
 ### Sample code
 
 **All available attributes + object creation:**
+
 ```
 LOAD_SECTION_LIBRARY Sec_ID1 "HEA 200"
 
@@ -938,18 +985,24 @@ Available object attributes:
 | Eccentricity - z                       | EccZ                                           | Numerical                                           |
 
 #### Reference point 1:
+
 <span id="Reference-point-1-lload" style={{paddingTop: '80px'}}> Valid inputs: </span>
+
 - EndA (or 0) → from end A
 - EndB (or 1) → from end B
 
 #### Reference point 2:
+
 <span id="Reference-point-2-lload" style={{paddingTop: '80px'}}> Valid inputs: </span>
+
 - EndA (or 0) → from end A
 - EndB (or 1) → from end B
 - Relative (or 2) → Relative
 
 #### Eccentricity reference:
+
 <span id="Eccentricity-reference-lload" style={{paddingTop: '80px'}}> Valid inputs: </span>
+
 <div style={{paddingBottom: '20px'}}> </div>
 
 | **Eccentricity reference name** | **Eccentricity reference** (type this into Descript) |
@@ -968,6 +1021,7 @@ Available object attributes:
 ### Sample code
 
 **All available attributes + object creation:**
+
 ```
 LOAD_SECTION_LIBRARY Sec_ID1 "HEA 200"
 
@@ -1029,19 +1083,24 @@ Available object attributes:
 | Load intensity at point 3 _(linear distr.)_ | LoadValue_3                                    | Numerical                                      |
 
 #### Load direction:
+
 <span id="Load-direction-sload" style={{paddingTop: '80px'}}> Valid inputs: </span>
+
 - X
 - Y
 - Z
 
 #### Coordinate system:
+
 <span id="Coordinate-system-sload" style={{paddingTop: '80px'}}> Valid inputs: </span>
+
 - Local
 - Global
 
 ### Sample code
 
 **All available attributes + object creation:**
+
 ```
 CREATE LG_ID1 LoadGroup
 Name "Permanent (Descript)"
@@ -1116,18 +1175,23 @@ Available object attributes:
 | Load eccentricity z       | LoadEccZ                                       | Numerical                                        |
 
 #### Member selection type:
+
 <span id="Member-selection-type-lts" style={{paddingTop: '80px'}}> Valid inputs: </span>
+
 - Selected
 - Planar
 
 #### Distribution method:
+
 <span id="Distribution-method-lts" style={{paddingTop: '80px'}}> Valid inputs: </span>
+
 - DisMethodUniform
 - DisMethodStructPoint
 
 ### Sample code
 
 **All available attributes + object creation:**
+
 ```
 CREATE LTS_ID1 LoadTransferSurface "LTS 1"
 0 0 0
@@ -1161,7 +1225,9 @@ Available object attributes:
 | Mass group type           | MassGroupType                                  | [Predefined strings](#Mass-group-type-mg) |
 
 #### Mass group type:
+
 <span id="Mass-group-type-mg" style={{paddingTop: '80px'}}> Valid inputs: </span>
+
 - MGType_EN_P (Permanent)
 - MGType_EN_T (Transient or Variable)
 - MGType_EN_S (Snow)
@@ -1169,6 +1235,7 @@ Available object attributes:
 ### Sample code
 
 **All available attributes + object creation:**
+
 ```
 CREATE MG_ID1 MassGroup
 Name "Mass group 1 (Descript)"
@@ -1190,12 +1257,16 @@ Available object attributes:
 | Considered direction in free vibration analysis | FreeVibrationDirection                         | [Predefined strings](#Considered-direction-in-free-vibration-analysis-mc) |
 
 #### Considered direction in seismic analysis:
+
 <span id="Considered-direction-in-seismic-analysis-mc" style={{paddingTop: '80px'}}> Valid inputs: </span>
+
 - Z
 - 0
 
 #### Considered direction in free vibration analysis:
+
 <span id="Considered-direction-in-free-vibration-analysis-mc" style={{paddingTop: '80px'}}> Valid inputs: </span>
+
 - X
 - Y
 - Z
@@ -1207,6 +1278,7 @@ Available object attributes:
 ### Sample code
 
 **All available attributes + object creation:**
+
 ```
 CREATE MG_ID1 MassGroup
 Name "Mass group 1 (Descript)"
@@ -1239,6 +1311,7 @@ Available object attributes:
 ### Sample code
 
 **All available attributes + object creation:**
+
 ```
 CREATE MG_ID1 MassGroup
 Name "Mass group 1 (Descript)"
@@ -1269,6 +1342,7 @@ Available object attributes:
 ### Sample code
 
 **All available attributes + object creation:**
+
 ```
 CREATE MG_ID1 MassGroup
 Name "Mass group 1 (Descript)"
@@ -1310,6 +1384,7 @@ Available object attributes:
 ### Sample code
 
 **All available attributes + object creation:**
+
 ```
 LOAD_SECTION_LIBRARY Sec_ID1 "HEA 200"
 

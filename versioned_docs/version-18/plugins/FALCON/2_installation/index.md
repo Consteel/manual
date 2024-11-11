@@ -4,7 +4,7 @@
 To utilize the wind simulation feature initially, users are required to install the **FALCON plugin**. This plugin can be accessed via the Consteel website under the “Downloads” section. Within the plugins category, select  “Consteel 18” and proceed to download the “FALCON” plugin.
 Starting from Consteel 18 the Plugin is compatible. 
 
-![alt text](img/downloads.png)
+![alt text](<../../../../../i18n/hu/docusaurus-plugin-content-docs/version-18/plugins/FALCON/2_installation/img/Dowloads 18.png>)
  
 After downloading the plugin .exe file, ensure that you check the “Install OpenFOAM” checkbox if it was **not** installed previously. Then, press “Next.”
 
@@ -46,7 +46,10 @@ _"The following applications are using files that need to be updated by Setup. I
 
 •	On the _Welcome to OpenFOAM_ for Windows Setup window, press **Next**.
 
-•	On the _Preliminaries_ window, check the **Skip this feature** checkbox and press **Next**.
+•	On the _Preliminaries_ window, check the **Skip this feature** checkbox and press **Next**. 
+:::note
+ OpenFOAM is developed on Linux, a case-sensitive system, while Windows is not case-sensitive by default. For those intending to further develop OpenFOAM, changing Windows settings would be necessary. However, for most users, it is safe to skip this step.
+ :::
 ![alt text](img/image-7.png)
  
 •	On the following seven windows, press **Next** and **Install** without changing the default settings.
@@ -57,7 +60,12 @@ _"The following applications are using files that need to be updated by Setup. I
 
 •	After the Microsoft MPI installation is completed by pressing **OK**, Cygwin and OpenFOAM need to be installed in five steps:
 - 	Step 1: Installing Open FOAM
-- 	Step 2: Install ParaView – It is recommended only for research purposes; for regular engineering projects, users can skip the installation of ParaView.
+
+:::info
+The following 4 steps are recommended only for research purposes; for regular engineering projects, users can **skip** the installation of ParaView, swak4Foam, PyFoam and Gnuplot
+:::
+
+- 	Step 2: Install ParaView 
 
    ![alt text](img/image-9.png)
 

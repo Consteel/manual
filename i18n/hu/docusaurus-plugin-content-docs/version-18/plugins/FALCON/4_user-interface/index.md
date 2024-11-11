@@ -1,161 +1,159 @@
-# User interface
+# **Felhasználói felület**
 
 ![alt text](img/image.png)
 
-Before starting the wind simulation process, the first and most important step is to create **Load Transfer Surfaces** on which the simulation will be conducted.
+A szél szimulációs folyamat elkezdése előtt az első és legfontosabb lépés a **Terh átadó Felületek** létrehozása, amelyeken a szimuláció végrehajtásra kerül.
 
-You can create the transfer surface in several ways:
+A teherátadó felületet többféleképpen is létrehozhatod:
 
-- 	By using the **Load Transfer Surface** option in the _Loads tab_
+- A **Teherátadó Felület** lehetőséggel a _Terhek fülön_
+- **Diafragma** létrehozásával a _Szerkezeti elemek fülön_
 
--	By creating a **Diaphragm** in the Structural _Members tab_
-
-After creating the transfer surfaces, the wind simulation process can begin. 
+A teherátadó felületek létrehozása után kezdődhet a szél szimulációs folyamat.
 
 ![alt text](img/image-1.png)
 
-All **FALCON-wind simulation** related features can be found on the _Loads tab_.
+Minden **FALCON-szél szimuláció**-val kapcsolatos funkció a _Terhek fülön_ található.
 
-### 1.	Meteorological effects
- 
+### 1. Meteorológiai hatások
+
 ![alt text](img/image-2.png)
 
-The first step in **wind simulation** is to define the **meteorological effects**. To do this, use the specially designed icon in the Loads tab.
-For the wind load simulation, the **Velocity Pressure** and **Geometric Parameters** must be specified:
+Az első lépés a **szél szimuláció** során a **meteorológiai hatások** meghatározása. Ehhez használd a speciálisan tervezett ikont a Terhek fülön.  
+A szélterhelés szimulációhoz a **Torlónyomás** és a **Geometriai Paraméterek** meghatározása szükséges:
 
-- **Velocity Pressure**:
+- **Torlónyomás**:
+  - Beépítettségi osztály
+  - Szélsebesség alapértéke
+- **Szélteher generálás geometriai paraméterei**:
+  - Az épület méretei a fő szél irányához képest
+  - A terhelési terület pontos dimenziója nem releváns a szél szimulációban a béta verzióban.
 
-  - Terrain category
-  - Basic wind velocity
-- **Wind Load Generation Geometric Parameters**:
-  - Building dimensions relative to the primary wind direction
-  - Note if the load Aria is higher than 10 m2 the exact dimension will be relevant in the wind simulation. 
+A meteorológiai hatásokkal kapcsolatos további információkért tekintsd meg a [_Terhek fejezetet_](../../../manual/6_0_structural-loads/6_6_meteorological-loads.md) a Consteel kézikönyvben.
 
-For more information on meteorological effects, please refer to the [_Load chapter_](../../../manual/6_0_structural-loads/6_6_meteorological-loads.md) in the Consteel manual.
-
-
-
-### 2.	Meteorological surfaces
+### 2. Meteorológiai felületek
 
 ![alt text](img/image-3.png)
- 
-The next step is to define the **Meteorological Surface**.
 
-In this window, users can return to the first step by pressing the three dots button next to **Meteorological Effects**.
+A következő lépés a **Meteorológiai Felület** meghatározása.
+
+Ebben az ablakban visszatérhetsz az első lépéshez, ha rákattintasz a három pont ikonra a **Meteorológiai Hatások** mellett.
 
 :::info
- The **Standard Surface** section does not affect the wind simulation; it is only used for standardized wind generation according to Eurocode. 
+A **Standard Felület** szekció nem befolyásolja a szél szimulációt; csupán a szabványos szélgenerálást szolgálja Eurocode szerint.
 :::
 
-For the wind simulation, use the final section of the window, labeled **Simulation Surface**, and select the appropriate surface category:
+A szél szimulációhoz használd az ablak végső szekcióját, amely a **Szimulációs Felület** néven, és válaszd ki a megfelelő felület kategóriát:
 
-- 	**General** – for the building being designed
-- 	**Obstacle** – for any surrounding buildings that are modeled and may impact the wind simulation
+- **Általános** – a tervezett épület számára
+- **Akadály** – bármely környező épület számára, amely modellezve van, és hatással lehet a szél szimulációra
 
-After selecting the surface category, all relevant surfaces must be selected. If the simulation surface is applied correctly, this icon will appear at the center of each surface:
+A felület kategória kiválasztása után az összes releváns felületet ki kell választani. Ha a szimulációs felület helyesen van alkalmazva, az alábbi ikon jelenik meg a felületek közepén:
 
- ![alt text](img/image-4.png)
+![alt text](img/image-4.png)
 
 :::note
-Simulation surfaces can only be applied to load transfer surfaces, including diaphragms.
+Az Általános felületek csak Terh átadó felületekre alkalmazhatók, beleértve a diafragmákat.
 :::
 
-### 3.	FALCON-Wind simulation
- 
- :::info
-   ![alt text](img/image-12.png)
-   If a green checkmark appears next to the three-dot button, it indicates that the previous steps were completed successfully, allowing users to proceed with the wind simulation process.
-   
-  ![alt text](img/image-13.png)
-  The Info button provides detailed information about each step. Pressing it opens a window with comprehensive guidance.
+### 3. FALCON-Wind szimuláció
+
+:::info
+![alt text](img/image-12.png)
+Ha zöld pipa jelenik meg a három pont ikon mellett, az azt jelzi, hogy az előző lépések sikeresen befejeződtek, így folytathatod a szél szimulációs folyamatot.
+
+![alt text](img/image-13.png)
+Az Info gomb részletes információkat ad minden lépésről. A gomb megnyomásával megnyílik egy ablak, amely átfogó útmutatást tartalmaz.
 :::
 
 ![alt text](img/image-5.png)
 
-The third step is running the wind simulation with FALCON. Use the **FALCON-Wind Simulation** button in the _Loads tab_ to open the dialog.
+A harmadik lépés a szél szimuláció futtatása a FALCON-nal. Használd a **FALCON-Szél szimuláció** gombot a _Terhek fülön_, hogy megnyisd az ablakot.
 
-This dialog is divided into four sections to guide users through the settings and simulation process:
+Ez az ablak négy szekcióra van osztva, amelyek végigvezetik a beállításokon és a szimuláción:
 
-#### A. Effects and Surfaces
+#### A. Hatások és Felületek
 
-- **Meteorological Effect**: If not previously defined, users can navigate back to this setting by pressing the three-dots button.
+- **Meteorológiai Hatás**: Ha előzőleg nem lett meghatározva, visszatérhetsz ehhez a beállításhoz a három pont gombra kattintva.
 
-- **Simulation Surfaces**: The number below this section indicates how many simulation surfaces are currently placed in the model. If no surfaces are defined, use the three-dots button to navigate back and define them.
+- **Szimulációs Felületek**: Az alatta lévő szám azt jelzi, hány szimulációs felület van jelenleg elhelyezve a modellben. Ha nincs felület meghatározva, használd a három pont gombot a visszalépéshez és azok meghatározásához.
 
-#### B. Simulation Settings
-- **Mesh Size on Simulation Surface**: Adjusts the mesh size applied to the simulation surface.
-- **Mesh Size on Structure**: Controls the automatic generation of two meshes:
+#### B. Szimulációs Beállítások
 
-	- **The Finite Element Mesh (FEM)**, generated specifically for post-processing, applies only to the building with planar faces suitable for load creation.
-    - **The Finite Volume Mesh (FVM)**, generated by the simulation solver, contains polygonal faces across the entire simulation domain and adapts to wind direction. FVM results are projected onto the FEM mesh for simulation purposes.
+- **Háló Mérete a Szimulációs Felületen**: A szimulációs felületen alkalmazott háló méretének beállítása.
+- **Háló Mérete a Szerkezeten**: Az automatikus hálógenerálás két hálót hoz létre:
 
-- **Mesh Refinement Factor**: The refinement factor (r) increases cell edge sizes (c) at the simulation domain’s boundaries to speed up calculations by reducing detail farther from the building. The cell size at boundaries is calculated as:
+    - **A Végeselem Háló (FEM)**, amelyet kifejezetten a poszt-feldolgozáshoz hoznak létre, és csak az épülethez alkalmazzák, amely sík felületekkel rendelkezik, amelyek alkalmasak a terhelés létrehozására.
+    - **A Végeselem Volumen Háló (FVM)**, amelyet a szimulációs megoldó generál, és amely a teljes szimulációs tartományban poligonális felületeket tartalmaz, alkalmazkodva a szél irányához. Az FVM eredmények a FEM hálóra vetítődnek a szimulációs célból.
 
-  c=s×2^r
+- **Háló Finomítási Tényező**: A finomítási tényező (r) növeli a cella éleinek méretét (c) a szimulációs tartomány határain, hogy gyorsítsa a számításokat azzal, hogy csökkenti a távolabbi részletezést az épülettől. A cellaméret a határokon kiszámítható a következőképpen:
 
-  Here, (s) is the mesh size on structure, and each refinement halves cells in all three directions, creating a refined mesh near the building.
+  c = s × 2^r
 
-- **Advanced Settings**: Default settings are generally suitable, but advanced parameters can be adjusted if needed. Use the three dots button to modify:
+  Itt (s) a szerkezeten alkalmazott háló mérete, és minden finomítás a cellákat minden irányban felére csökkenti, létrehozva egy finomított hálót az épület közelében.
 
-  - **Temperature**: Sets ambient temperature for simulation.
-  - **Turbulence Model**: Predicts turbulence effects.
-  - **Number of Processors**: Defines processors for parallel simulations.
-  - **Number of Iterations**: Specifies the iteration count.
-  - **Convergence Criteria**: Sets convergence standards for calculated fields.
-  - **Domain Dimension Parameters**: Adjusts the simulation domain dimensions using height multipliers for each direction:
-    - **Windward** (w)
+- **Fejlett Beállítások**: Az alapértelmezett beállítások általában megfelelőek, de szükség esetén módosíthatók. A három pont gombra kattintva módosíthatók:
+
+  - **Hőmérséklet**: A szimulációhoz beállított környezeti hőmérséklet.
+  - **Turbulenciás Modell**: A turbulencia hatásainak előrejelzése.
+  - **Processzorok Száma**: A párhuzamos szimulációkhoz használt processzorok száma.
+  - **Iterációk Száma**: Az iterációk számának meghatározása.
+  - **Konvergencia Kritériumok**: A kiszámított mezők konvergenciájának szabványai.
+  - **Tartomány Dimenzió Paraméterei**: A szimulációs tartomány dimenzióinak beállítása a magasság szorzóival minden irányban:
+    - **Széloldal** (w)
     - **Leeward** (l)
-    - **Side** (s)
-    - **Top** (t)
+    - **Oldal** (s)
+    - **Felső** (t)
 
-#### C. Wind Directions Relative to Θ₀ (Max 12)
-In this section, specify all wind directions in the XY plane relative to Θ₀, with a maximum of 12 directions at a time. After entering each new direction in the input box, press **Enter**.
+#### C. Szélirányok Θ₀-hoz képest (Max 12)
+Ebben a szekcióban add meg az összes szélirányt az XY síkban Θ₀-hoz képest, legfeljebb 12 irány egyidejű megadásával. Minden új irányt az input mezőbe való beírás után nyomd meg az **Enter** billentyűt.
 
-The Θ₀ direction is visible in the lower-right corner of the simulated structure top view, along with the wind simulation directions. The colored arrows indicate the simulated wind direction relative to the structure.
+A Θ₀ irány a szimulált szerkezet tetejének nézetében, a szél szimulációs irányaival együtt látható. A színes nyilak jelzik a szimulált szél irányát a szerkezethez képest.
 
 ![alt text](img/image-6.png)
 
-#### D. Run steady-state simulation
-On the last sections the state of the simulation and direction can be observed:
- 
+#### D. Folyamatos állapotú szimuláció futtatása
+Az utolsó szekciókban a szimuláció állapota és az irány figyelemmel kísérhető:
+
 ![alt text](img/image-7.png)
 
-After pressing the Run button at the bottom of the dialog, two loading bars display the wind directions being simulated and their progress percentage.
+A "Run" gombra kattintás után két betöltési sáv jelenik meg, amelyek a szimulált szélirányokat és azok előrehaladási százalékát mutatják.
 
 :::info
- While the wind simulations are running, Consteel remains fully functional, allowing you to continue working.
- :::
+Amíg a szél szimulációk futnak, a Consteel teljes mértékben működőképes marad, így továbbra is dolgozhatsz.
+:::
 
-To monitor the simulation progress, open the **Logs** dropdown window. The simulation can be stopped at any time by pressing **Cancel**.
+A szimuláció előrehaladásának nyomon követéséhez nyisd meg a **Naplók** legördülő ablakot. A szimuláció bármikor leállítható a **Mégse** gombra kattintva.
 
 ![alt text](img/image-9.png)
 
 
-### 4.	FALCON-Wind load generation from simulation results. 
+### 4. FALCON-Wind terhelés generálása a szimulációs eredményekből
 
 ![alt text](img/image-10.png)
- 
-In this final step, FALCON generates loads from the simulation results that can be used as regular loads in your model. The window will guide you through the steps to generate the wind loads:
 
-- **Perform Wind Simulation**: If the wind simulation has not been completed, use the three dots button to return to the previous step and run it.
+Az utolsó lépésben a FALCON generálja a szimulációs eredményekből származó terheléseket, amelyek a modellben rendes terhelésként használhatók. Az ablak végigvezet a szélterhelések generálásának lépésein:
 
-- **Load Evaluation**: During mesh generation, the finite volume mesh undergoes additional refinement, ensuring each finite element mesh face has at least four stored results. This allows for various result evaluation methods to verify load convergence and add conservatism as needed.
+- **Szél szimuláció végrehajtása**: Ha a szél szimuláció nem lett végrehajtva, használd a három pont ikont, hogy visszatérj az előző lépéshez és futtasd azt.
 
-- **Set External Pressure Limits**: Define upper limits for both pressure and suction coefficients.
+- **Terhelés Értékelés**: A háló generálása során a véges térfogatú háló további finomításon megy keresztül, biztosítva, hogy minden véges elem háló felületén legalább négy tárolt eredmény legyen. Ez különböző eredményértékelési módszereket tesz lehetővé a terhelés konvergenciájának ellenőrzésére, és szükség esetén konzervativizmus hozzáadására.
 
-- **Set Wind and Internal Pressure Directions**: Adjust the wind and internal pressure directions for load generation, based on the simulation results.
+- **Külső Nyomáskorlátok beállítása**: Állítsd be a nyomás és szívóerő együtthatóinak felső határértékeit.
 
-- **Select Generated load type- Uniform Surface Loads**:
+- **Szél és Belső Nyomás Irányok beállítása**: Állítsd be a szél- és belső nyomás irányokat a terhelés generálásához, a szimulációs eredmények alapján.
 
-  - **On Mesh Elements**: Generates loads directly on the finite element mesh.
+- **Generált terhelési típus kiválasztása - Egyenletes Felületi Terhelések**:
 
-  - **On Zones**: Creates loads based on the defined number of wind zone categories, resulting in zoned loads.
+  - **Háló Elemein**: Terhelések generálása közvetlenül a véges elem háló elemein.
+  
+  - **Zónákban**: Terhelések generálása a meghatározott szélzóna kategóriák számának alapján, ami zónás terheléseket eredményez.
 
-  - **On Specific Zones**: Applies zoned loads to specific portions of the model.
+  - **Specifikus Zónákban**: Zónás terhelések alkalmazása a modell meghatározott részein.
 
-- **Run Load Generation**: Press the Run button at the bottom of the window to start generating loads.
+- **Terhelés Generálás Futtatása**: Nyomd meg az ablak alján található "Futtatás" gombot a terhelések generálásának elindításához.
 
-If the wind load generation completes successfully, new wind load cases will appear in the _Load Cases and Groups_ section.
- 
+Ha a szélterhelés generálása sikeresen befejeződik, új szélterhelési esetek jelennek meg a _Terhelési Esetek és Csoportok_ szekcióban.
+
 ![alt text](img/image-11.png)
 
+Minden szélterhelési eset tartalmazza a szimulációból generált megfelelő szélterheléseket.
