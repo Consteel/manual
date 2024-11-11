@@ -26,6 +26,7 @@ Return
 ```
     RETURN
 ```
+
 These are all fine, because the command is the first non-whitespace content within the line, and there is nothing within the line after the command.
 
 **However these forms are all erroneous:** ❌
@@ -33,11 +34,13 @@ These are all fine, because the command is the first non-whitespace content with
 ```
 $variable=1 RETURN
 ```
+
 We tried to assign a value to a variable named _\$variable_ in the same line we wrote a command. This will result in _\$variable_ having the value _1RETURN_, which is probably not what we wanted.
 
 ```
 RETURN RETURN
 ```
+
 We tried to put 2 commands in one line. In this case the second _RETURN_ is thought to be a parameter of the first _RETURN_ command by Descript, but the RETURN command can't have any parameters, so Descript will give us an error.
 But what are command parameters?
 
@@ -58,11 +61,13 @@ However, these forms are erroneous: ❌
 ```
 EXCEL_OPEN, c:\Temp\Sample_Excel.xlsx
 ```
+
 We tried to separate the command and its parameter with a "," (comma character), which is syntactically incorrect in Descript. Now Descript is looking for a command named "_EXCEL_OPEN,_", which doesn't exist, so we will get an error.
 
 ```
 EXCEL_OPEN c:\Temp\Sample Excel.xlsx
 ```
+
 Here, we gave a file path in the parameter that contains a space, but spaces are used in Descript to separate parameters, so Descript interprets this as if we were trying to give 2 parameters after the command, but the EXCEL_OPEN command can only have 1 parameter, so we will get an error.
 
 But then, how do we give a parameter input that contains a space?
@@ -72,6 +77,7 @@ But then, how do we give a parameter input that contains a space?
 Parameters that contain spaces can be forced to be interpreted as one entry, if the parameter input is put between apostrophes (").
 
 So the previous example can be fixed like this: ✅
+
 ```
 EXCEL_OPEN "c:\Temp\Sample Excel.xlsx"
 ```
@@ -87,16 +93,19 @@ As an example, let's look at the [LOAD_SECTION_LIBRARY](/docs/descript/command-r
 All the following forms are valid ways to use the LOAD_SECTION_LIBRARY command: ✅
 
 Specifying only the first 2, required parameters:
+
 ```
 LOAD_SECTION_LIBRARY Sec_ID1 "IPE 200"
 ```
 
 Specifying the 2 required, and 1 optional parameters:
+
 ```
 LOAD_SECTION_LIBRARY Sec_ID1 "IPE 200" "S 235 EN 10025-2"
 ```
 
 Specifying all parameters:
+
 ```
 LOAD_SECTION_LIBRARY Sec_ID1 "IPE 200" "S 235 EN 10025-2" "IPE 300 S 235" European
 ```
@@ -109,16 +118,15 @@ If we would want to specify, let's say the 3. optional parameter, but not the 2 
 
 In Descript, some commands can take up more than one line. In these cases the additional lines come immediately after the line, where the command is written. Some of these commands can optionally have additional lines, others are invalid without certain additional lines.
 
-The following commands can have additional lines (as of Consteel 17 build 3325):
+The following commands can have additional lines:
+
 - ANALYSIS RUN
 - CREATE
 - DESIGN RUN
-- FILTER 
+- FILTER
 - GENERATE
-- GET_RESULT 
+- GET_RESULT
 - GET_USER_INPUT
-- LOAD_SECTION_MACRO_STIFFENED 
-- MSG_BOX  
 
 As an example let's look at the [CREATE](/docs/descript/command-reference/create/) command (creates an object in Consteel):
 
@@ -130,19 +138,22 @@ CREATE Mem_ID1 Structural_Member "HEA 200"
 0 0 1000
 ```
 
-:::warning 
+:::warning
 If Descript sees one of these commands, then it tries to interpret any following non-empty line as an additional line to that command. Therefore **after we have finished writing any additional lines after one of these commands it is necessary to put an empty line**, to tell Descript that we have finished adding additional lines to the current command, and the following line of code after the empty line should not be considered as part of the command.
 :::
 
 For example, this code will give us an error: ❌
+
 ```
 FILTER Steel_IDs
 Objecttypes Steel
 RETURN
 ```
+
 Since the [FILTER](/docs/descript/command-reference/filter/) command has no additional lines, for which the _RETURN_ would be a valid input.
 
 However, if we put an empty line before the _RETURN_, the code will run correctly: ✅
+
 ```
 FILTER Steel_IDs
 Objecttypes Steel

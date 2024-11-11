@@ -1,9 +1,9 @@
 ---
-title: 'FILTER'
+title: "FILTER"
 description: ""
 published: 2023-08-18
-redirect_from: 
-            - https://www.consteelsoftware.com/manual/descript-cspi/filter/
+redirect_from:
+  - https://www.consteelsoftware.com/manual/descript-cspi/filter/
 hero: ../../../defaultHero.jpg
 ---
 
@@ -32,52 +32,43 @@ _etc._
 | [Filter values](#filter-values) | Optional       | String, integer, float                  | Local, variable   |
 
 #### Result array:
+
 The array that will contain the IDs of objects that are the result of the filtering.
 
 #### Object type:
+
 Object types the command will filter within. One ore more object types can be given for one FILTER command within the objecttypes row.
 
 <span id="Object-type-name" style={{paddingTop: '80px'}}> Available object types: </span>
+
 <div style={{paddingBottom: '20px'}}> </div>
 
-| **Object type name**                                                              | **Object type**     |
-| --------------------------------------------------------------------------------- | ------------------- |
-| Structural members tab                                                            | -                   |
-| Section <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>               | Section             |
-| Structural member                                                                 | Structural_Member   |
-| Structural Plate                                                                  | Structural_Plate    |
-| Haunch <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>                | Haunched_Member     |
-| Tapered member <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>        | Tapered_Member      |
-| Steel material <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>        | Steel               |
-| Coated steel material <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span> | Coated_Steel        |
-| Concrete material <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>     | Concrete            |
-| Rebar material <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>        | Rebar               |
-| Point support                                                                     | Support_Point       |
-| Line support                                                                      | Support_Edge        |
-| Surface support                                                                   | Support_Plate       |
-| Point support type <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>    | Support             |
-| Release type <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>          | Release             |
-| Link <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>                  | Link                |
-| Loads tab                                                                         | -                   |
-| Load group <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>            | LoadGroup           |
-| Load case                                                                         | LoadCase            |
-| Load combination                                                                  | LoadCombination     |
-| Point load                                                                        | NodeForce           |
-| Line load                                                                         | MemberForce         |
-| Surface load                                                                      | PlateForce          |
-| Load transfer surface <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span> | LoadTransferSurface |
-| Mass tab                                                                          | -                   |
-| Mass group <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>            | MassGroup           |
-| Mass case                                                                         | MassCase            |
-| Mass combination                                                                  | MassCombination     |
-| Point mass <span style={{color:"MediumSeaGreen"}}>(since CS 17)</span>            | NodeMass            |
-| Other                                                                             | -                   |
-| Portion                                                                           | Portion             |
+| **Object type name**   | **Object type**   |
+| ---------------------- | ----------------- |
+| Structural members tab | -                 |
+| Structural member      | Structural_Member |
+| Structural Plate       | Structural_Plate  |
+| Point support          | Support_Point     |
+| Line support           | Support_Edge      |
+| Surface support        | Support_Plate     |
+| Loads tab              | -                 |
+| Load case              | LoadCase          |
+| Load combination       | LoadCombination   |
+| Point load             | NodeForce         |
+| Line load              | MemberForce       |
+| Surface load           | PlateForce        |
+| Mass tab               | -                 |
+| Mass case              | MassCase          |
+| Mass combination       | MassCombination   |
+| Other                  | -                 |
+| Portion                | Portion           |
 
 #### Filters:
+
 The object attributes based on which the filtering will be executed.
 
 <span id="Filter-name" style={{paddingTop: '80px'}}> Available object attributes for filtering: </span>
+
 <div style={{paddingBottom: '20px'}}> </div>
 
 | **Filter name** | **Filter**     | **Applicable object types**         |
@@ -90,6 +81,7 @@ The object attributes based on which the filtering will be executed.
 | Section group   | sectiontype    | Structural_Member, Section          |
 
 #### Filter values:
+
 The attribute values that will be used for filtering.
 
 ### Sample code
