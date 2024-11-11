@@ -1,96 +1,77 @@
 ---
 sidebar_position: 1
 ---
-# Model views
+# Modell nézetek
 
-<!-- wp:paragraph -->
+A modell helyességének elsődleges ellenőrzési eszköze a grafikus felület. Az ellenőrzéshez elengedhetetlenek az átlátható és széleskörűen felhasználható modell nézetek. A grafikus ellenőrzéssel egyszerűen eldönthetjük, hogy a megfelelő objektum került-e a megfelelő helyre. 
 
-The model viewing functions can be found on the left side bar.
+<!-- wp:image {"align":"left","id":7682,"width":182,"height":209,"sizeSlug":"full","linkDestination":"media"} -->
 
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"id":7682,"width":"243px","height":"279px","sizeSlug":"full","linkDestination":"media"} -->
-
-![](img\wp-content-uploads-2021-04-4-2-model-view-side-bar.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-In addition to the standard model view options (top view, front view, side view, axonometric view, perpendicular to UCS view), four display options for the objects are available:
-
-
-- **line view** ![](./img/wp-content-uploads-2021-04-4-2-model-view-line-view-icon.png): the simplest model view. The members are represented by single lines, the surfaces by 2D figures without thickness, and the supports also by lines only. Recommended using in the model building phase, since the clear visualization of the member snap points makes the modeling more easier.
-
-
-![](img\wp-content-uploads-2021-04-4-2-model-view-lv1.jpg)
-
-<!-- /wp:image -->
-
-<!-- /wp:column -->
-
-<!-- wp:column -->
-
-<!-- wp:image {"align":"center","id":7700,"width":546,"height":284,"sizeSlug":"full","linkDestination":"media"} -->
-
-![](img\wp-content-uploads-2021-04-4-2-model-view-lv-2.png)
-
-
-- **wireframe view** ![](./img/wp-content-uploads-2021-04-4-2-model-view-wireframe-icon.png): in the wireframe view the lines of the cross-sections and plate thickness appear. The supports are represented by lines only.
-
-
-![](img\wp-content-uploads-2021-04-4-2-model-view-wf1.jpg)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-side-bar.png)](./img/wp-content-uploads-2021-04-4-2-model-view-side-bar.png)
 
 
 
-![](img\wp-content-uploads-2021-04-4-2-model-view-wf2.jpg)
-
-- **hidden line view** ![](./img/wp-content-uploads-2021-04-4-2-model-view-hidden-icon.png): the cross-sections and plates appear in a solid form without shading and sparkling effects; the supports are represented by solid objects.
+A nézet beállítás funkciói a baloldali sávon találhatóak. A szokásos modellnézeteken (felülnézet, elölnézet, oldalnézet, izometrikus nézet) túl, négy megjelenítési lehetőség használható az objektumok megjelenítésére:
 
 
-![](img\wp-content-uploads-2021-04-4-2-model-view-hl1.jpg)
+- **Szerkesztő nézet** ![](./img/wp-content-uploads-2021-04-4-2-model-view-line-view-icon.png): a legegyszerűbb modellnézet, ahol a rudakat egyenesek (vagy ívek), a lemezeket vastagság nélküli síkidomok, a támaszokat tengelyeik reprezentálják. _Használata a modellépítés során ajánlott, mert a megjelenő fogópontok ebben a nézetben láthatóak a legtisztábban, elősegítve az elemek pontos elhelyezését._
 
-
-![](img\wp-content-uploads-2021-04-4-2-model-view-hl2.jpg)
-
-- **solid view** ![](./img/wp-content-uploads-2021-04-4-2-model-view-solid-icon.png): the cross-sections and plates appear in a solid form with shading and sparkling effects, the supports as well.
-
-
-![](img\wp-content-uploads-2021-04-4-2-model-view-sv1.jpg)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-lv1.jpg)](./img/wp-content-uploads-2021-04-4-2-model-view-lv1.jpg)
 
 
 
-![](img\wp-content-uploads-2021-04-4-2-model-view-sv2.jpg)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-lv-2.png)](./img/wp-content-uploads-2021-04-4-2-model-view-lv-2.png)
 
 
-When the model tends to be more and more complicated and you only want to see part of the model then the **Submodel** **view** should be applied. To do this select the required objects in the model and click on the **Submodel view** icon in the **[_Portions Manager_](./3_3_portions-manager.md)** window, which can be found on the **_[Side panel](../1_0_general-description/1_2_the-main-window.md#side-panel)_** at the right side of the Consteel main window. See the pictures below:
+- **Drótvázas nézet** ![](./img/wp-content-uploads-2021-04-4-2-model-view-wireframe-icon.png): megjelennek a szelvények alakjai és a lemezek vastagságai, támaszokat továbbra is tengelyeik reprezentálják.
 
-![alt text](img/submodelwiew.png)
-
-
-After activating the Submodel view only the selected parts of the model are visible on every tabs:
-
-![alt text](img/submodelsee.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-wf1.jpg)](./img/wp-content-uploads-2021-04-4-2-model-view-wf1.jpg)
 
 
-If the _**Show hidden parts of the structure translucently**_ checkbox is checked at the bottom of the Portions Manager, then the other model parts are also visible with faint grey lines:
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-wf2.jpg)](./img/wp-content-uploads-2021-04-4-2-model-view-wf2.jpg)
 
 
-![](img\wp-content-uploads-2021-04-4-2-model-view-submodel-2.jpg)
+- **Takartvonalas nézet** ![](./img/wp-content-uploads-2021-04-4-2-model-view-hidden-icon.png): a keresztmetszetek és a lemezek tükröződések nélküli, testnézettel jelennek meg. A támaszok is testnézetben jelennek meg.
 
 
-**The Hide function** (Alt+H). Select the elements slated for concealment and engage the hide icon or Alt+H for implementation.
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-hl1.jpg)](./img/wp-content-uploads-2021-04-4-2-model-view-hl1.jpg)
 
 
-![](./img/wp-content-uploads-2024-02-3.1.Hide-CS17.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-hl2.jpg)](./img/wp-content-uploads-2021-04-4-2-model-view-hl2.jpg)
 
 
-To let the whole model visible again click the _**Full view**_ command button on the **Portions Manager** window:
+- **Test nézet** ![](./img/wp-content-uploads-2021-04-4-2-model-view-solid-icon.png): a keresztmetszetek és a lemezek tükröződéssel és csillogással kiegészített testnézettel jelennek meg. A támaszok is testnézetben jelennek meg.
 
-<!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":7676,"width":271,"height":148,"sizeSlug":"full","linkDestination":"media"} -->
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-sv1.jpg)](./img/wp-content-uploads-2021-04-4-2-model-view-sv1.jpg)
 
-![](img\wp-content-uploads-2021-04-4-2-model-view-full-view.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-sv2.jpg)](./img/wp-content-uploads-2021-04-4-2-model-view-sv2.jpg)
 
-<!-- /wp:image -->
+
+Ahogy a modellépítés során az egyre összetettebbé válik, a részletkezelő segítségével megoldható, hogy csak a modell egy kiválasztott részlete legyen látható. Ehhez válasszuk ki a modell kívánt elemeit, majd kattintsunk a _**Részlet kezelő**_ ablakban a _**Részlet modell nézet**_ ikonra.
+
+
+![alt text](img/reszletmodellnezet.png)
+
+
+A parancs hatására a kiválasztott elemeken kívül minden más rejtetté válik:
+
+
+![alt text](img/reszlet.png)
+
+
+Ha az _**Elrejtett részek megjelenítése áttetszően**_ jelölőnégyzetet bekapcsoljuk, a rejtett elemek halvány szürke színnel láthatóvá válnak.
+
+![alt text](img/hidden.png)
+
+**Consteel 17**-től elérhető a **Elrejtés** funkció (Alt+H). Válassza ki azokat az elemeket, amelyeket el szeretne rejteni, majd aktiválja a elrejtés ikont vagy használd az Alt+H billentyűkombinációt a végrehajtáshoz.
+
+![](./img/wp-content-uploads-2024-02-3.1.Hide-CS17-HU.png)
+
+A teljes modell újbóli láthatóvá tételéhez kattintsunk a **_Részlet kezelő_** ablakában a _**Teljes modell**_ nézet parancsra:
+
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/02/reszlet_kezelo_teljes_modell.png)](./img/wp-content-uploads-2022-02-reszlet_kezelo_teljes_modell.png)
+
+
+
+További információt ld. a **_[Részlet kezelő](../3_0_model-view/3_3_portions-manager.md)_** fejezetben!

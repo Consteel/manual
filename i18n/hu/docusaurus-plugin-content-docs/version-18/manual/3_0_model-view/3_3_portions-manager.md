@@ -1,115 +1,252 @@
 ---
 sidebar_position: 3
 ---
-# Portions manager
+# Részlet kezelő
 
+<!-- wp:paragraph -->
 
-The Portions Manager is a great tool to manage complicated models. Parts of the model ie. floors, frames, columns, bracings, beams, etc. This function can be achieved on the **Portions Manager** tab (Located on the right **_[Side panel](../1_0_general-description/1_2_the-main-window.md#side-panel)_** as a default.).
+A _**Részlet kezelő**_ egy igen hasznos eszköz, a modell különböző részleteinek (mint például szintek, oszlopok, merevítés, gerendák stb.) csoportosítására és kezelésére. A funkció a _**Részlet kezelő**_ fülön található, ami alapértelmezésben a képernyő jobb oldalán jelenik meg.
 
 
-The **Custom portions** tab is used to define manually Portions and Storeys from the existing model. For analysis, only custom-created portions can be used.
 
-The **Auto portions** are generated automatically while modelling the structures. These are always updated to the current state of the model. This tab divides the model into portions according to their properties.
+<!-- /wp:paragraph -->
 
-- in case of **Bar members,** the automatic separation can be done according to their Section, Material, Placement, and Dominant utilization.
+<!-- wp:paragraph -->
+### Egyedi részletek
 
-- for the **Plate elements**, Auto portions are created conforming to their Thickness, Material, and Placement.
+Az **Egyedi részletek** fül arra szolgál, hogy manuálisan definiáljunk Részleteket és Szinteket a meglévő modellből. Analízis csak az egyedi részleteken végezhető.
 
+![](./img/wp-content-uploads-2024-01-HU-Custom-portions-and-Auto-Portions.png)
 
-These functions are located on the **Custom portions** and **Auto portions** tab (Located on the right [**_Side panel_**](../1_0_general-description/1_2_the-main-window.md#side-panel) as a default).
 
-### Custom portions
 
-![alt text](<img/custom portion cs17.png>)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/4-4-portions-1.png)](./img/wp-content-uploads-2021-04-4-4-portions-1.png)
 
+<!-- /wp:image -->
 
+<!-- /wp:column -->
 
+<!-- /wp:columns -->
 
-A new portion can be added by clicking the **New Portion** icon (#2) and entering the name of it. If part of the model has been previously selected, these objects will be added to the new portion at the same time.
+<!-- wp:image {"align":"right","id":18012,"width":298,"height":239,"sizeSlug":"full","linkDestination":"media"} -->
 
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-submodel-1.png)](./img/wp-content-uploads-2021-04-4-2-model-view-submodel-1.png)
 
-The portions can be arranged into folders. A new folder can be created by clicking the **New folder** icon (#1).
+<!-- /wp:image -->
 
+<!-- wp:image {"align":"right","id":18024,"width":398,"height":280,"sizeSlug":"full","linkDestination":"media"} -->
 
-To turn on a portion, check the check-box in front of the name of the portion. More portions can be turned on at the same time by checking more check-boxes or also by checking folders.
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/4-2-model-view-submodel-select.jpg)](./img/wp-content-uploads-2021-04-4-2-model-view-submodel-select.jpg)
 
+<!-- /wp:image -->
 
-Any objects of the structural model can be part of more portions at the same time.
+<!-- wp:paragraph -->
 
+- ![](./img/wp-content-uploads-2022-02-reszlet_kezelo_reszet_modell_nezet.png) Nagy modelleknél gyakran van szükség arra, hogy a modellnek csak egy része kerüljön megjelenítésre. Ilyenkor használható a _**Részlet modell nézet**_ funkció. A funkció hatására az összes fülön csak a kiválasztott elemek maradnak láthatók.
 
-To modify a previously defined portion, select the relevant parts of the model which will be the subject of the modification, then select the portion you are going to modify, and finally click on the **Modify** icon (#3).
 
+- ![alt text](<img/elrejtés cs17.png>) Az **Elrejtés** ikonra kattintva a kiválasztott elemek tűnnek el. 
 
-![alt text](img/modify.png)
 
+- ![](./img/wp-content-uploads-2022-02-reszlet_kezelo_teljes_modell_nezet.png) A _**Teljes modell nézet**_ ikonra kattintva a teljes modell újra láthatóvá válik.
 
-The **Modify portion** window will appear with the following options:
+<!-- /wp:paragraph -->
 
 
-![](img\wp-content-uploads-2021-04-4-4-portions-4.png)
+<!-- wp:paragraph -->
 
-- **Add selected elements to the portion:** by clicking the OK button, the selected members will be added to the active portion. If some members in the selection already belong to the actually modified portion, this operation will have no additional effect.
+- ![](./img/wp-content-uploads-2022-02-reszlet_kezelo_uj_mappa.png) A létrehozott részletek (ld. később) mappákba is rendezhetők. Az _**Új mappa**_ gombra kattintással a Részleteken belül többszintű struktúrába rendezve hozhatóak létre a mappák.
 
-- **Remove selected elements from the portion:** all those selected elements will be removed from the modified portion.
+<!-- /wp:paragraph -->
 
-- **Assign only the selected elements to the portion:** the modified portion will contain only the selected elements.
+<!-- wp:image {"align":"right","id":32694,"width":443,"height":346,"sizeSlug":"full","linkDestination":"media"} -->
 
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/02/reszlet_kezelo_kivalaszt.png)](./img/wp-content-uploads-2022-02-reszlet_kezelo_kivalaszt.png)
 
-Renaming the Portion can be done by clicking the name of the portion and clicking on the **Rename** icon (#5).
+<!-- /wp:image -->
 
+<!-- wp:image {"align":"right","id":32680,"width":263,"height":110,"sizeSlug":"full","linkDestination":"media"} -->
 
-A portion can be deleted by clicking the name of the portion and clicking the **Delete** button (#4).
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/02/reszlet_kezelo_reszet_neve.png)](./img/wp-content-uploads-2022-02-reszlet_kezelo_reszet_neve.png)
 
-![alt text](img/showhidden.png)
+<!-- /wp:image -->
 
-If the _Show hidden parts of the structure translucently_ check box is clicked at the bottom of the **Portions Manager** tab, then the hidden parts of the model are also shown with faint grey lines.
+<!-- wp:paragraph -->
 
-### **Auto portions**
+- ![](./img/wp-content-uploads-2022-02-reszlet_kezelo_uj_reszlet.png) Az _**Új részlet**_ gombra kattintással új részlet hozható létre abban a mappában, amelyik épp ki van jelölve. Ha előzőleg megtörtént az elemek kiválasztása is, úgy azok egyből hozzá is rendelődnek az új részletmodellhez. A felugró ablakban meg kell adni az új részlet nevét, majd a **Rendben** gombra kattintva a részlet létrejön.
 
-![](./img/wp-content-uploads-2024-01-Auto-Portions-and-Custom-portions.png)
+<!-- /wp:paragraph -->
 
+<!-- wp:paragraph -->
 
-By clicking on the + icon in front of each category of **Auto portions**, the automatically generated portions will appear. They contain only the bar members with their lines or plate elements with their polygon. No support, load, link element, etc. can be part of the auto portions.
+Egy részlet modell bekapcsolásához be kell jelölni a részlet neve előtt található jelölő négyzetet. Egyszerre több részletmodell is bekapcsolható, és egy objektum egyszerre több részletmodellnek is része lehet.
 
+<!-- /wp:paragraph -->
 
-The **Placement** of the elements indicates the orientation and plane in which the members are positioned.
+<!-- wp:paragraph -->
 
+- Ha a _**Részlet kezelő**_ fül alján található _„Az elrejtett részek megjelenítése áttetszően”_ jelölő négyzet be van kapcsolva, akkor a modell elrejtett része is megjelenik áttetsző halvány szürke színnel.
 
-The **Dominant utilization** category can only be used after obtaining results from global checks. Elements are included in the auto portions based on their dominant utilization, no matter which result is visualized on them.
+<!-- /wp:paragraph -->
 
+<!-- wp:spacer {"height":"1px"} -->
 
-To turn on a portion, check the check-box in front of the name of the portion. More **Auto portions** can be turned on at the same time by checking more check-boxes.
+<!-- /wp:spacer -->
 
+<!-- wp:image {"align":"right","id":32602,"width":256,"height":190,"sizeSlug":"full","linkDestination":"media"} -->
 
-**Custom portions** and **Auto portions** can be used at the same time. In this case only those members will appear that match both criteria in the same time.
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/02/reszlet_kezelo_modositas_tipus.png)](./img/wp-content-uploads-2022-02-reszlet_kezelo_modositas_tipus.png)
 
+<!-- /wp:image -->
 
-For example, if in the **Custom portions** the ‘_main structure_’ is turned on, all the members that are included in the portion will be visible.
+<!-- wp:paragraph -->
 
+- ![](./img/wp-content-uploads-2022-02-reszlet_kezelo_modosit.png) Lehetőség van létrehozott részletmodellek módosítására is. A meglévő részlethez hozzáadhatunk vagy elvehetünk elemeket. Ehhez először ki kell választani a modell megfelelő részét, majd a módosítani kívánt részletmodell nevét is. Végül a _**Módosítás**_ gombra kattintva megjelenik a _**Részlet módosítása**_ ablak a következő opciókkal:
 
-![](./img/wp-content-uploads-2024-01-Custom-portions-example.png)
 
+1. **Kijelölt elemek hozzáadása a részlethez:** a _**Rendben**_ gombra kattintva a kijelölt elemek az aktív részmodellhez hozzáadódnak. Ha a kijelölt elemek közül néhány eleve ehhez a részmodellhez tartozott, akkor ezek státusza nem változik.
 
-Maintaining the **Custom portion** criteria while concurrently enabling the **Auto portions** of ‘_Section IPE400’_ only those elements will be shown, that pertain to both the ‘_main structure’_ and satisfy the criteria of Section IPE400. (see picture below)
+2. **Kijelölt elemek kivonása a részletből:** a kijelölt elemek nem lesznek részei az aktuális részletmodellnek.
 
+3. **Részlet módosítása csak kijelölt elemekre:** az aktuális részmodell csak a kijelölt elemeket fogja tartalmazni.
 
-![](./img/wp-content-uploads-2024-01-Auto-portions-example.png)
 
+- ![](./img/wp-content-uploads-2022-02-reszlet_kezelo_torol.png) A törlés gombbal a kijelölt részlet törölhető.
 
-If the Show hidden parts of the structure translucently check box is clicked at the bottom of the **Auto portions** tab, then the hidden parts of the model are also shown with faint grey lines.
+<!-- /wp:paragraph -->
 
+<!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2024-01-Auto-Portions-category.png)
+- ![](./img/wp-content-uploads-2022-02-reszlet_kezelo_atnevez.png) A részletmodell átnevezése az átnevezendő részlet kiválasztása után az _**Átnevezés**_ gombra kattintással történik.
 
+<!-- /wp:paragraph -->
 
-To turn off all portions, click on the **Full view** (Alt+W) icon. ( ![](./img/wp-content-uploads-2024-01-Auto-Portions-Full-view-tab.png) ) (It is located on the top left side of the **Auto portions** tab).
+<!-- wp:image {"align":"right","id":32687,"width":229,"height":152,"sizeSlug":"full","linkDestination":"media"} -->
 
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/02/reszlet_kezelo_szint_neve.png)](./img/wp-content-uploads-2022-02-reszlet_kezelo_szint_neve.png)
 
-In addition, **plate elements** are grouped by thickness of the elements, as shown in the figure below:
+<!-- /wp:image -->
 
+<!-- wp:paragraph -->
 
-![](./img/wp-content-uploads-2024-01-Auto-Portions-Plate-element.png)
+- Részlet modellek szintek alapján is létrehozhatók. Szint részleteket az _**Új szint**_ gombra kattintva ![](./img/wp-content-uploads-2022-02-reszlet_kezelo_uj_szint.png) lehet létrehozni. A felugró „Szint felvétele” ablakban megadható a szint neve és a magassága. A magasság felvehető a fekete nyílra kattintás után a modell egy pontjának a kijelölésével is. A szint magassága megjelenik a szint neve után. Minden olyan szerkezeti elem része lesz a szint részletnek, ami az adott szinten helyezkedik el. Amennyiben vannak a modellben az adott szintnél magasabban elhelyezkedő elemek is, melyek nem tartoznak más szintbe, azok automatikusan az adott szinthez fognak tartozni.
 
+<!-- /wp:paragraph -->
 
-If modifications are needed to be made on the elements in the selected portions, please note that the portion selection is not identical with the object selection. This tool is only to be used for visual purposes and to facilitate the selection of elements.
+<!-- wp:paragraph -->
+### Autó részletek
 
+Az **Auto részletek** automatikusan generálódnak, amikor a szerkezeteket modellezzük. Ezek mindig frissülnek a modell aktuális állapotára. Ez a fül a modellt részekre osztja azok tulajdonságai szerint.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+• **Rúd elemek** esetében az automatikus szétválasztás a **Szelvény**, **Anyag**, **Elhelyezkedés** és **Mértékadó kihasználtság** szerint történhet.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+• A **lemez elemek** esetében az Automatikus részeket a **Vastagság**, **Anyag** és **Elhelyezkedés** alapján hozzák létre.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+Ezek a funkciók az **Egyedi részletek** és **Auto részletek** füleken találhatók (alapértelmezés szerint a jobb oldali panelen).
+
+
+<!-- wp:image {"id":72005,"width":"257px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+
+![](./img/wp-content-uploads-2024-01-HU-Auto-Portions-and-Custom-portions.png)
+
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+
+Az **Auto részletek** kategóriában minden egyes alkategória előtt lévő + ikonra kattintva megjelennek az automatikusan generált modellrészletek. Ezek csak a rudakat tartalmazzák a vonalaikkal vagy a poligonjukkal. _Nem tartalmazhatnak_ támaszt, terhelést, kapcsoló elemet stb.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+Az elemek **Elhelyezkedése** azt mutatja, hogy az elemek melyik orientációban és síkban vannak elhelyezve.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+A **Mértékadó kihasználtság** kategória csak a _globális vizsgálatok_ elvégzését követően használható. Az elemek az **Auto részletbe** a mértékadó kihasználtságuk alapján kerülnek be, függetlenül attól, hogy melyik eredmény van megjelenítve rajtuk.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+Egy **részlet** bekapcsolásához jelölje be a név előtti jelölőnégyzetet. Több **Auto részlet** is bekapcsolható egyszerre, több jelölőnégyzet bejelölésével.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+Az Egyéni részek és az **Auto részletek** egyidejűleg használhatók. Ebben az esetben csak azok a elemek jelennek meg, amelyek mindkét kritériumnak megfelelnek _egyszerre._
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+Például, ha az **Egyedi részletben** bekapcsoljuk a ,,Fő szerkezetet”, akkor azon részhez tartozó összes elem látható lesz.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":71965,"width":"404px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+
+![](./img/wp-content-uploads-2024-01-HU-Custom-portions-example.png)
+
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+
+Az **Egyedi részletek** kritériumainak megtartásával, egyszerre engedélyezzük a ,,HEA160 szelvény” **Auto részletet**, csak azok az elemek jelennek meg, amelyek mind a ,,Fő szerkezethez” tartoznak, mind pedig kielégítik a ,,HEA160 Szelvény” kritériumait. (lásd a lenti képet)
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":71985,"width":"407px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+
+![](./img/wp-content-uploads-2024-01-HU-Auto-portions-example.png)
+
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+
+A Részlet ablak alsó részén ,,**Az elrejtett részek megjelentése áttetszően**" jelölőnégyzetet bejelöljük, akkor a modell rejtett részei is láthatóvá válnak halvány szürke vonalakkal.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":71975,"width":"412px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+
+![](./img/wp-content-uploads-2024-01-HU-hidden-lines-example.png)
+
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+
+Az összes részlet kikapcsolásához kattintson a **Teljes modell nézet** (Alt+W) ikonra. ( ![](./img/wp-content-uploads-2024-01-Auto-Portions-Full-view-tab.png) ) (Ez a **Részletmodellek** fül bal felső részén található.)
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+Ezenkívül a **lemez elemeket** a lemez vastagsága alapján is lehet csoportosítani, ahogy az a lenti ábrán látható:
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":71995,"width":"409px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+
+![](./img/wp-content-uploads-2024-01-HU-Auto-Portions-Plate-element.png)
+
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+
+Ha módosításokra van szükség az elemeken a kiválasztott **részletekben**, vegye figyelembe, hogy a részlet megjelenítése nem azonos az objektum kiválasztásával. Ezt az eszközt csak _vizuális célokra_ és az elemek kiválasztásának megkönnyítésére lehet használni.

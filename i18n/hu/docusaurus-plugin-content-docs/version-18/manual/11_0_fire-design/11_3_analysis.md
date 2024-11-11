@@ -1,9 +1,11 @@
 ---
-sidebar_position: 3
+sidebar_position: 2
 ---
-# Analysis
+# Analízis
 
-During the finite element generation _**Consteel**_ calculates the steel temperature and the reduced modulus of elasticity. These values can be viewed in the **Finite element** tab by selecting the appropriate load case.
+<!-- wp:paragraph {"align":"justify"} -->
+
+Amennyiben az emelt hőmérséklethez tartozó anyagjellemzőkkel végezzük a számítást, a végeselem generálás során a _Consteel_ meghatározza az acél hőmérsékletet a megkívánt tűzállósági időtartam végén, és ennek megfelelően csökkenti az anyag rugalmassági modulusát. Az értékek megtekinthetők a Végeselem fülön, a megfelelő terhelési eset kiválasztásával.
 
 <!-- /wp:paragraph -->
 
@@ -15,6 +17,6 @@ During the finite element generation _**Consteel**_ calculates the steel tempera
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-The analysis for the fire load combinations are performed in global level. Therefore the calculated deformations and internal forces possibly include the effect of the expansion and decreased elasticity modulus of those members which are subjected to fire.
+A tűz teherkombinációk analízise globális szinten történik, ezért a számított alakváltozások és igénybevételek tartalmazhatják a tűz okozta hőtágulás hatását, illetve a rugalmassági modulus csökkenésének a hatását, azokon az elemeken, ahol elhelyezésre került a tűzhatás.
 
 <!-- /wp:paragraph -->

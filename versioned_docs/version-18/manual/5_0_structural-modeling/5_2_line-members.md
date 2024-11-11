@@ -100,7 +100,7 @@ There is only one choice available: the _**6 DOF beam element**_ type. This is t
 It should be noted that not only the eccentric axial force influences the analysis (additional bending moments), but also the eccentric bending and torsional moments (additional bending and torsional moments and **bimoment**)!
 :::
 
-### Steel members
+## Steel members
 
 
 As the first step of line member modeling, cross-sections have to be loaded into the model. This can be performed either from the **_Section administrator_** directly or from the **_Beam_** dialogue window. In Consteel, there are three options for defining cross-sections:
@@ -113,7 +113,7 @@ As the first step of line member modeling, cross-sections have to be loaded into
 It is important to note that in Consteel, material quality is an attribute of the cross-section, therefore it must be defined when loading the cross-section!
 :::
 
-#### Cross section libraries
+### Cross section libraries
 
 
 In _Consteel_, the following standard cross-section libraries are available:
@@ -122,16 +122,28 @@ In _Consteel_, the following standard cross-section libraries are available:
 
 - American cross-section library (metric and imperial)
 
+- Ayrshire cross-section library 
+
+- Brausa cross-section library
+
 - British cross-section library
 
 - Chinese cross-section library
 
+- Continental Steel cross-section library
+
+- Lindab cross-section library
+
 - Russian cross-section library
+
+- SBE cross-section library
+
+- Swedsteel cross-section library
 
 - Manufacturers 'profiles (catalogs of individual manufacturers' profiles)
 
 
-#### Macro sections
+### Macro sections
 
 
 In _Consteel_, the following macro sections are available organized into 4 groups:
@@ -184,7 +196,7 @@ In _Consteel_, the following macro sections are available organized into 4 group
 
 3\. **Cold-formed types**
 
-![alt text](<img/cold-formed types.png>)
+![alt text](img/cold-fomedduplac.png)
 
 - RHS
 
@@ -200,7 +212,11 @@ In _Consteel_, the following macro sections are available organized into 4 group
 
 - Zeta section
 
-- Slope omega section
+-  	Hat section with stiffeners
+- 	double C section
+- 	double Sigma section
+- 	double user defined section
+
 
 In the case of cold-formed macros, it is also possible to provide profile stiffeners for the last 5 profile types. On the flanges, single or double folded edge stiffeners, and two different types of intermediate stiffeners can be defined. On the webs, three different types of intermediate stiffeners can be defined, and web stiffeners can also be double stiffeners. The stiffeners defined this way are taken into account in the calculation of distortional buckling as defined in EN 1993-1-3. I
 
@@ -255,7 +271,7 @@ Important, that if the designer does not choose the coated material from the dat
 - Battened section
 
 
-#### Section drafter
+### Section drafter
 
 
 The third option for creating a cross-section is the section drawing in the **Section drafter** module. The function can be started by pressing the **Draw section** button in the Section Administration dialog box.
@@ -519,8 +535,39 @@ By moving to the third and final phase, the classification of the segments has t
 
 You can finish editing with the **_SAVE EXIT_** button.
 
+### My library sections 
 
-### Reinforced concrete members
+Previously created and saved sections can be used in different projects through the new user section library feature, called **My library**. The button will open the My Library folder, where all previously saved folders or sections will appear. Navigation between the folders is possible using the top icons in the left corner (1). 
+
+Users can (2):
+
+- 	Create new folders
+
+- 	Rename folders
+
+- 	Move items into or out of folders
+
+- 	Delete folders or sections
+ 
+![alt text](<img/My library window.png>)
+
+Users can search for sections by typing the name of the desired sections (3).
+
+There are two available views that users can choose from: Grid or List (4). 
+
+In the main window, all the folders and sections included in the selected folder will appear (5). 
+
+If a section is selected, all relevant details about it will appear on the right side of the window (6).
+
+After selecting by Ctrl or Shift-clicking on the items, the Load button will become available in the bottom right corner. The number in brackets represents the selected sections. After pressing Load, the sections will transfer into the Section Administrator and can be used in the model. Pressing Cancel will cancel the selection (7).
+
+:::info
+All types of **steel sections**, whether defined from the library, macro sections, or user-defined with regular or custom materials, can be saved to and opened from _My Library_.
+:::
+
+
+
+## Reinforced concrete members
 
 Definition of reinforced macro sections to be used for columns and beams can be performed from the **_Macro dialogue._** There are two main types of reinforced concrete sections. **_Sections with design option_** (#1) and **_sections without design option_** (#2).
 
@@ -558,7 +605,7 @@ on the Structural members tab. Reinforcements should be assigned to members with
 ![](./img/wp-content-uploads-2022-12-image-7.png)
 
 
-#### Beam reinforcement definition
+### Beam reinforcement definition
 
 
 Starting the **_Beam rebar editor_**![](./img/wp-content-uploads-2021-04-BeamRebarEditorIcon.jpg), which can be found on the Structural members tab, the Rebar editor dialog appears.
@@ -610,7 +657,7 @@ A reinforcement object can be assigned to more members if the members have the s
 
 If a reinforcement object is placed on more members with different lengths, a copy of the original reinforcement object will automatically be created for each different member's length.
 
-#### Column reinforcement definition
+### Column reinforcement definition
 
 
 A Consteel model may contain several column reinforcement definition sets which can be assigned to the relevant members. All the actually defined sets are shown in a summary screen.
@@ -653,7 +700,7 @@ In case of Reinforcement sets of circular cross-sections only one type of longit
 
 
 
-#### Reinforced concrete cross sections without design option
+### Reinforced concrete cross sections without design option
 
 
 
@@ -695,7 +742,7 @@ Models created with earlier version of Consteel may use solid rectangular and ci
 :::
 
 
-### Composite columns
+## Composite columns
 
 
 The first step is to define a composite column cross-section. Five types of cross-sections are available: fully encased I-section in concrete partially encased I-section in concrete, encased Maltese cross-section in concrete, fully encased I-section in hollow section, and fully encased I-section in circular hollow section. The cross-section macros can be found among the **_Macro sections_**.
@@ -716,7 +763,7 @@ For the structural analysis, two types of elastic modulus can be used which can 
 Standard initial sways can also be defined both in y and z directions. With the use of initial sway, for columns with composite cross-section, the cross-section check is sufficient according to the Eurocode, and a stability check is not necessary.
 
 
-### Composite beams
+## Composite beams
 
 
 The first step is to define a composite beam cross-section. There are two types available: composite beam with solid concrete slab and composite beam with profiled steel sheeting. The cross-section macros can be found among the **_Macro sections_**.
@@ -749,7 +796,7 @@ You can create more design parameters and assign them to different members. You 
 ![](img\wp-content-uploads-2021-04-6-2-Design-settings.png)
 
 
-### Haunched members
+## Haunched members
 
 
 The created members can be strengthened, if necessary, by using the **_Haunch_** function (![](./img/wp-content-uploads-2021-04-cmd_haunch.png)).
@@ -804,7 +851,7 @@ The haunches can be selected and modified in the parameter table as separate obj
 This eccentricity causes additional effects in the analysis results due to the eccentric position of the sectional forces (for instance at the beam-to-column connection point of a frame with haunched beams and/or columns the equilibrium of the in-plane bending moments exists only if the additional moments from the eccentric axial forces are taken into account).
 
 
-### Tapered members
+## Tapered members
 
 
 Tapered members are often used in the economic design of steel-framed structures, so the fast and simple modeling of tapered members is of high importance. For the definition of a tapered member, a line member with welded I or H, box, or cold-formed C section should be created in the model.

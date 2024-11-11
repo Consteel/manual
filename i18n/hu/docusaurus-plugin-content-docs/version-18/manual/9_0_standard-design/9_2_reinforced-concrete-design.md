@@ -2,236 +2,376 @@
 sidebar_position: 2
 ---
 
-# Reinforced concrete design
+# Vasbeton szerkezetek tervezése
 
-Design of concrete members are available at the Global checks tab. By clicking on the ![](./img/wp-content-uploads-2021-04-DesignSettingsIcon.jpg) button, the Design… dialog will appear, where below the _Steel_ and _Composite design_, the Concrete design EN 1992-1-1 panel can be found. On the panel, Beam, Column design and slab reinforcement calculations are available. If the necessary input parameters for these calculations are available _(cross sections, reinforcement data, design parameters and analysis results)_, the checkboxes for the different design options are active, and choosing the desired item. Calculation can be initiated to obtain utilizations.
+A vasbeton szerkezetek tervezése a globális vizsgálatok fülről érhető el. A globális tervezés ikonra kattintva ![](./img/wp-content-uploads-2021-04-DesignSettingsIcon.jpg) , a megjelenő **Tervezés…** dialógon az acél, illetve öszvér tervezési lehetőségek alatt, a **Vasbeton tervezés** EN1992-1-1 csoportban található meg a **Gerenda tervezés**, **Oszlop tervezés**, illetve **Lemezek minimális vashányad számítása** opció. Amennyiben rendelkezésre állnak a tervezéshez szükséges bemeneti adatok _(keresztmetszetek, vasalási paraméterek, tervezési paraméterek és analízis eredmények)_, úgy a jelölőnégyzetek aktívak, és bejelölhetők. Ezután a **Számítás** gombra kattintva a kiválasztott teherkombinációkra a szabványos vizsgálatok végrehajtásra kerülnek.
 
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":44239,"width":441,"height":424,"sizeSlug":"full","linkDestination":"none","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+<!-- wp:image {"id":51850,"width":430,"height":411,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-![](./img/wp-content-uploads-2022-12-image-14.png)
+[![Tervezési beállítások - vasbeton](https://www.Consteelsoftware.com/wp-content/uploads/2023/07/tervezes_beallitas_vasbeton-1.png)](./img/wp-content-uploads-2023-07-tervezes_beallitas_vasbeton-1.png)
+
+Tervezési beállítások - vasbeton szerkezetek
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-Required input parameters for reinforced concrete design are the following (see Chapter Concrete Reinforced members for details):
+A vasbeton tervezéshez a szükséges bemenő paraméterek a következők (részletesen lásd a **_[Vasbeton keresztmetszetek](../5_0_structural-modeling/5_2_line-members.md#vasbeton-keresztmetszetek)_** fejezetben):
 
-1. In case of reinforced concrete beam
+- Vasbeton gerendák esetében:
 
-   - Reinforced concrete cross sections with [design option](../5_0_structural-modeling/5_2_line-members.md)
+  - _[Méretezési opcióval rendelkező vasbeton keresztmetszet](../5_0_structural-modeling/5_2_line-members.md#méretezési-opcióval-nem-rendelkező-vasbeton-keresztmetszetek-2)_
 
-   - Beam reinforcement object assigned to the concrete member
+  - _[Vasbeton gerendához rendelt gerendavasalási objektum](../5_0_structural-modeling/5_2_line-members.md#gerenda-vasalás-definiálása)_
 
-   - First or second order analysis [result](../8_0_structural-analysis/8_5_analysis-results.md)
+  - _[Első vagy másodrendű analízis eredmények](../8_0_structural-analysis/8_5_analysis-results.md#eredmény-típusok)_
 
-2. In case of reinforced concrete columns
+* Vasbeton oszlopok esetében:
 
-   - Reinforced concrete cross sections with design option
+  - _[Méretezési opcióval rendelkező vasbeton keresztmetszet](../5_0_structural-modeling/5_2_line-members.md#méretezési-opcióval-rendelkező-vasbeton-keresztmetszetek-1)_
 
-   - Column reinforcements set assigned to the concrete member
+  - _[Vasbeton oszlophoz rendelt oszlopvasalási objektum](../5_0_structural-modeling/5_2_line-members.md#oszlop-vasalás-definiálása)_
 
-   - Design parameter to control design settings assigned to the concrete member
+  - A vasbeton oszlophoz rendelt tervezési paraméter (lásd _[lejjebb](#vasbeton-oszlopok-tervezési-paraméterei)_)
 
-   - Appropriate global imperfections if required
+  - _[Globális imperfekciók](../6_0_structural-loads/6_4_global-imperfections.md)_ (szükség esetén)
 
-   - First or second order analysis results
+  - _[Első vagy másodrendű analízis eredmények](../8_0_structural-analysis/8_5_analysis-results.md#eredmény-típusok)_
 
-3. In case of reinforced concrete slabs
+- Vasbeton lemezek esetében:
 
-   - Defined reinforcement schemes in the [main directions](../5_0_structural-modeling/5_3_surface-members.md)
+  - _[Egyes főirányokhoz tartozó vasalási paraméterek](../5_0_structural-modeling/5_3_surface-members.md#felületi-elemek)_
 
-   - First or second order shell [results](../8_0_structural-analysis/8_5_analysis-results.md)
+  - _[Első vagy másodrendű héj elem analízis eredmények](../8_0_structural-analysis/8_5_analysis-results.md)_
 
-During the design, Consteel will perform the available standard checks according to EN1992-1-1 for all of the cross sections automatically. Cross sections with their dominant utilizations will be collected into the results grid, and will be shown using the color-coded visualization in the modeling area.
+Amennyiben a vasbeton tervezéshez szükséges bemenő adatok rendelkezésre állnak, a számítás gombra kattintva a szabványos ellenőrzéseket a Consteel minden keresztmetszetre automatikusan elvégzi. A keresztmetszetekhez tartozó mértékadó kihasználtságokat eredményező vizsgálatokat a Consteel, a **Mértékadó kihasználtságok** táblázatban automatikusan kigyűjti, a modell grafikán pedig színkódos ábrázolással megjeleníti.
 
-[![](./img/wp-content-uploads-2021-04-10-4-rc-design-res.jpg)](./img/wp-content-uploads-2021-04-10-4-rc-design-res.jpg)
+<!-- /wp:paragraph -->
 
-![](img\wp-content-uploads-2021-04-10-4-rc-design-res.jpg)
+<!-- wp:image {"align":"center","id":37213,"width":768,"height":497,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-Results of the individual standard checks can also be obtained using the dropdown menu in the upper left corner of the design tab.
+![](img\wp-content-uploads-2022-06-scr_tervezes_vb-1024x663.png)
 
-### Reinforced concrete beam design
+<!-- /wp:image -->
 
-In case of concrete beam design, the following checks of EN1992-1-1 will be performed:
+<!-- wp:paragraph -->
 
-- Longitudinal reinforcement
+A képernyő bal felső sarkában található legördülő menüben az egyes vizsgálatok eredményei külön-külön is lekérhetők:
 
-  - EN1992-1-1 9.2.1.1 (1) (9.1.n) formula - Minimum longitudinal reinforcement
+<!-- /wp:paragraph -->
 
-  - EN1992-1-1 9.2.1.1 (3) formula - Maximum longitudinal reinforcement
+<!-- wp:image {"id":37205,"sizeSlug":"full","linkDestination":"none"} -->
 
-  - EN1992-1-1 6.1 – Major axis bending
+![](./img/wp-content-uploads-2022-06-scr_tervezes_vb_vizsgalatok.png)
 
-* Shear reinforcement
+<!-- /wp:image -->
 
-  - EN1992-1-1 9.2.2. (6) (9.6.N) formula – Maximim stirrup distance
+<!-- wp:paragraph -->
 
-  - EN1992-1-1 9.2.2 (5) (9.5.n) formula – Minimum percentage of reinforcement
+### Vasbeton gerendák tervezése
 
-  - EN1992-1-1 6.2.2. (1) (6.2.a) and (6.2.b) formula – Shear resistance without shear reinforcement
+<!-- /wp:heading -->
 
-  - EN1992-1-1 6.2.3. (3) (6.8) and (6.9) formula – Shear resistance with shear reinforcement
+<!-- wp:spacer {"height":"1px"} -->
 
-- Interaction of shear and torsion
+<!-- /wp:spacer -->
 
-  - EN1992-1-1 6.3.2. (4) (6.29) formula – Resistance of inclined compression concrete bars
+<!-- wp:paragraph -->
 
-  - EN1992-1-1 6.3.2. (5) (6.31) formula – Required longitudinal torsion reinforcement
+A vasbeton gerenda tervezés az **Eurocode 1992-1-1** következő vizsgálatait hajtja végre:
 
-  - EN 1992-1-1 6.3.2. (3) (6.28) formula – Applied longitudinal torsion reinforcement
+- Szerkesztési szabályok
 
-### Reinforced concrete column design
+  - EN 1992-1-1 9.2.1.1. (1) (9.1.n) formula, Minimális hosszirányú vasmennyiség ellenőrzés
 
-![](./img/wp-content-uploads-2022-12-image-16.png)
+  - EN 1992-1-1 9.2.1.1. (3) formula, Maximális hosszirányú vasmennyiség ellenőrzés
 
-Consteel supports different design methods defined by EN 1992-1-1, including
+* Hajlítás
 
-- Method based on nominal stiffness (EN 1992-1-1 5.8.7)
+  - EN 1992-1-1 6.1, Nagytengely körüli hajlítás ellenőrzés
 
-* Method based on nominal curvature (EN 1992-1-1 5.8.8)
+- Nyírás
 
-  - design with manually controlled parameters
+  - EN 1992-1-1 9.2.2. (6) (9.6.N) formula, Maximális kengyeltávolság ellenőrzés
 
-  - design with automatically set parameters
+  - EN 1992-1-1 9.2.2. (5) (9.5.n) formula, Minimális fajlagos kengyel mennyiség ellenőrzés
 
-The type of method and additionally required or optional parameters can be specified as a property of a member assigned with a reinforced concrete column type cross-section.
+  - EN 1992-1-1 6.2.2. (1) (6.2.a) és (6.2.b) formula, Nyírási teherbírás tervezési értéke nyírási vasalás nélkül
 
-:::Danger
+  - EN 1992-1-1 6.2.3. (3) (6.8) és (6.9) formula, Nyírási teherbírás tervezési értéke nyírási vasalással
 
-For the use of method based on nominal stiffness and for the automatic option of the method based on nominal curvature the definition of appropriate global imperfections might be required. (see Global imperfections)
+* Nyírás és csavarás interakciója
+
+  - EN 1992-1-1 6.3.2. (4) (6.29) formula, Ferde nyomott betonzónák teherbírása
+
+  - EN 1992-1-1 6.3.2 (5) (6.31) formula, Szükséges csavarási hosszvasalás
+
+  - EN 1992-1-1 6.3.2. (3) (6.28) formula, Alkalmazott csavarási hosszvasalás ellenőrzés
+
+### Vasbeton oszlopok tervezése
+
+[![objektum_tulajdonsagok_tervezesi_parameter_oszlop](https://www.Consteelsoftware.com/wp-content/uploads/2023/07/objektum_tulajdonsagok_tervezesi_parameter_oszlop-1.png)](./img/wp-content-uploads-2023-07-objektum_tulajdonsagok_tervezesi_parameter_oszlop-1.png)
+
+Vasbeton oszlop objektum tulajdonságai
+
+A Consteel támogatja az EN 1992-1-1 által meghatározott különböző tervezési módszereket, köztük a következőket
+
+- Névleges merevségen alapuló módszer (EN 1992-1-1 5.8.7)
+
+* Névleges görbületen alapuló módszer (EN 1992-1-1 5.8.8)
+
+  - tervezés manuálisan megadott paraméterekkel
+
+  - tervezés a globális modell alapján kapott automata értékekkel
+
+A választott módszer, valamint a szükséges vagy választható paraméterek a vasbeton oszlop típusú keresztmetszettel rendelkező rúdelem tulajdonságaként adhatók meg az Objektum tulajdonságok panel segítségével.
+
+:::danger
+
+A névleges merevségen alapuló módszer alkalmazásához és a névleges görbületen alapuló módszer automatikus opciójához a megfelelő globális imperfekciók definiálására lehet szükség, lásd [**Globális imperfekciók**](../6_0_structural-loads/6_4_global-imperfections.md).
 :::
 
-#### **Design parameters for reinforced concrete columns**
+A vasbeton oszlop tervezés az **Eurocode 1992-1-1** következő vizsgálatait hajtja végre:
 
-A Consteel model may contain several column design parameter sets, which can be assigned to concrete column members. All the actually defined sets are shown in a Summary screen. **_Parameter sets for concrete column design_** dialog can be opened by clicking on the ... in the _Design parameters_ row in the property tree of a bar member with reinforced concrete column cross section.
+- Szerkesztési szabályok
 
-![](./img/wp-content-uploads-2022-12-image-27.png)
+  - EN 1992-1-1 9.5.2 (1), Hosszirányú acélbetétek minimális átmérője
 
-The definition of a new design parameter set can be initiated with the **_+ Create new_** button. A new set can also be defined starting from an already existing set using the **_+ Create from selected_** button.
+  - EN 1992-1-1 9.5.2 (2), (9.12.N) formula, Minimális hosszirányú vasmennyiség
 
-First the applied design method is set
+  - EN 1992-1-1 9.5.2 (3), Maximális hosszirányú vasmennyiség
 
-![](./img/wp-content-uploads-2022-12-image-18.png)
+  - EN 1992-1-1 9.5.3. (1), Kengyel minimális átmérője
 
-Depending on this selection, the dialog will ask for additional information
+  - EN 1992-1-1 9.5.3 (2), Maximális kengyeltávolság
 
-**Method based on nominal curvature**
+* Hajlítás
 
-![](./img/wp-content-uploads-2022-12-image-19.png)
+  - EN 1992-1-1 5.8.3, 5.8.8, Ferde hajlítás
 
-The automatic option is based on additional analysis results, such as Buckling analysis and Buckling sensitivity analysis.
+- Nyírás
 
-The selection of custom value is recommended when the designer wants to manually control important design input parameters such as buckling lengths
+  - EN 1992-1-1 6.2.2 (1) (6.2.a) és (6.2.b) formula, Nyírási teherbírás tervezési értéke nyírási vasalás nélkül
 
-![](./img/wp-content-uploads-2022-12-image-20.png)
+  - EN 1992-1-1 6.2.3. (3) (6.8) és (6.9) formula, Nyírási teherbírás tervezési értéke nyírási vasalással
 
-or directly modify the parameters responsible to calculate the considered maximum curvature value:
+#### **_Vasbeton oszlopok tervezési paraméterei_**
 
-![](./img/wp-content-uploads-2022-12-image-21.png)
+Egy Consteel modell több vasbeton oszlop tervezési paraméterkészletet is tartalmazhat, amelyek hozzárendelhetők a vasbeton oszlopokhoz. A **Paraméter csomagok vasbeton oszlop tervezéshez** párbeszédpanel a vasbeton oszlop keresztmetszetű rúdelem tulajdonságfájában, a Tervezési paraméterek sorban, a ![](./img/wp-content-uploads-2021-04-3dots-button.png) gombra kattintva nyitható meg. A már létrehozott csomagokat a párbeszédpanel összefoglaló képernyője jeleníti meg.
 
-The automatic option does not require such definitions.
+[![Vasbeton oszlop tervezési paraméterei - táblázat](https://www.Consteelsoftware.com/wp-content/uploads/2023/07/tervezesi_parameter_oszlop_tablazat-1-1024x375.png)](./img/wp-content-uploads-2023-07-tervezesi_parameter_oszlop_tablazat-1-1024x375.png)
 
-In addition, optional stiffness reduction values can be specified
+Paraméter csomagok vasbeton oszlop tervezéshez
 
-![](./img/wp-content-uploads-2022-12-image-22.png)
+Egy új tervezési paraméter csomag definiálása az **+ Új létrehozása** gombbal indítható el. Új paraméter csomagot egy már meglévő alapján is lehet definiálni a **+ Új létrehozása meglévőből** gomb segítségével.
 
-**Method based on nominal stiffness**
+Egy csomagot a soron való dupla kattintással vagy a ![](./img/wp-content-uploads-2021-04-Pencil.png)ikonnal lehet módosítani, és a ![Trash bin](./img/wp-content-uploads-2021-04-Bin.png) ikonnal lehet törölni.
 
-Using this method, it is compulsory to define the applicable stiffness values, not only to column, but also to connected beam elements. There are 2 options available.
+Először az alkalmazott tervezési módszert határozzuk meg:
 
-Through the definition of _Ks_ and _Kc_ factors (see EN 1992-1-1 5.8.7.2)
+[![Vasbeton oszlop tervezési módszer](https://www.Consteelsoftware.com/wp-content/uploads/2022/06/tervezesi_parameter_oszlop_tervezesi-modszer.png)](./img/wp-content-uploads-2022-06-tervezesi_parameter_oszlop_tervezesi-modszer.png)
 
-![](./img/wp-content-uploads-2022-12-image-23.png)
+Tervezési módszer kiválasztása vasbeton oszlop tervezéshez
+
+A választástól függően a párbeszédpanel további bevitelt fog kérni.
+
+**A névleges görbületen alapuló módszer**
+
+[![Oszlop tervezési paraméterei - tervezési mód](https://www.Consteelsoftware.com/wp-content/uploads/2023/07/tervezesi_parameter_oszlop_gorbuleti_egyedi.png)](./img/wp-content-uploads-2023-07-tervezesi_parameter_oszlop_gorbuleti_egyedi.png)
+
+Névleges másodrendű hatások meghatározása vasbeton oszlop tervezéshez
+
+Az automatikus opció további analízis eredményeken alapul, mint például a stabilitási és a stabilitás érzékenységi analízis.
+
+Az egyedi érték kiválasztása akkor ajánlott, ha a tervező manuálisan kívánja szabályozni a fontos tervezési bemeneti paramétereket, mint például a kihajlási hosszakat,
+
+[![Oszlop tervezési paraméterei - kihajlási paraméterek](https://www.Consteelsoftware.com/wp-content/uploads/2023/07/tervezesi_parameter_oszlop_megadas_egyedi_kihajlasi-1.png)](./img/wp-content-uploads-2023-07-tervezesi_parameter_oszlop_megadas_egyedi_kihajlasi-1.png)
+
+Kihajlási paraméterek megadása vasbeton oszlop tervezéshez
+
+vagy közvetlenül szeretné meghatározni a figyelembe vett maximális görbületi érték kiszámításához szükséges paramétereket:
+
+[![Oszlop tervezési paraméterei - görbületi paraméterek](https://www.Consteelsoftware.com/wp-content/uploads/2023/07/tervezesi_parameter_oszlop_gorbuleti_parameterek.png)](./img/wp-content-uploads-2023-07-tervezesi_parameter_oszlop_gorbuleti_parameterek.png)
+
+Görbületi paraméterek vasbeton oszlop tervezéshez
+
+Az automatikus opció nem igényel ilyen meghatározásokat. Ezenkívül opcionálisan merevségcsökkentő értékek is megadhatók.
+
+[![Oszlop tervezési paraméterei - merevségcsökkentés](https://www.Consteelsoftware.com/wp-content/uploads/2023/07/tervezesi_parameter_oszlop_megadas_merevsegcsokkentes-1.png)](./img/wp-content-uploads-2023-07-tervezesi_parameter_oszlop_megadas_merevsegcsokkentes-1.png)
+
+Merevségcsökkentés megadása analízishez
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-or through the definition of direct stiffness reduction factors to be applied to _EIy_ and _EIz_ bending stiffness quantities of the member.
+**Névleges merevségen alapuló módszer**
 
-![](./img/wp-content-uploads-2023-07-Direct_Stiffness_Modification_NominalStiffnessMethod.png)
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+Ennek a módszernek a használatához feltétlenül meg kell határozni az alkalmazandó merevségi értékeket, nemcsak az oszlopokra, hanem a kapcsolódó gerendaelemekre is. Két lehetőség áll rendelkezésre.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+Az egyik a Ks és Kc tényezők meghatározása (lásd az EN 1992-1-1 5.8.7.2. pontját).
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":51895,"width":329,"height":215,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![Oszlop tervezési paraméterei - tervezési módszer - névleges másodrendű hatások - egyedi értékek](https://www.Consteelsoftware.com/wp-content/uploads/2023/07/tervezesi_parameter_merevsegcsokkentes.png)](./img/wp-content-uploads-2023-07-tervezesi_parameter_merevsegcsokkentes.png)
+
+Analízishez alkalmazott merevségcsökkentés megadása
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-The values to be introduced shall be defined by the user. In case of using direct stiffness modification factors, the introduced values will be automatically reduced to contain the effect of creep.
+A másik a rúdelem Ely és Elz hajlító merevségeire alkalmazott közvetlen merevségcsökkentő tényezők meghatározásával.
 
-#### **Design parameters for reinforced concrete beams**
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":51868,"width":324,"height":221,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![Tervezési paraméterek - vasbeton gerenda - merevségcsökkentés - Közvetlen](https://www.Consteelsoftware.com/wp-content/uploads/2023/07/tervezesi_parameter_gerenda_merevsegcsokkentes_kozvetlen-1.png)](./img/wp-content-uploads-2023-07-tervezesi_parameter_gerenda_merevsegcsokkentes_kozvetlen-1.png)
+
+Analízishez alkalmazott merevségcsökkentés megadása
+
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+
+A bevitt értékeket a felhasználónak kell meghatároznia. Közvetlen merevség-módosító tényezők használata esetén a megadott értékek automatikusan csökkentésre kerülnek a kúszás hatásának figyelembevétele érdekében.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":4} -->
+
+#### **_Vasbeton gerendák tervezési paraméterei_**
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-Similarly to column design parameters, several concrete beam parameter sets can be present in a Consteel model and they can be assigned to concrete beam members at the Property tree. All the actually defined sets are shown in a Summary screen. **_Parameter sets for concrete beams_** dialog can be opened by clicking on the ... in the _Design parameters_ row in the property tree of a bar member with reinforced concrete beam cross section.
+Az _[oszloptervezési paraméterekhez](../9_0_standard-design/9_2_reinforced-concrete-design.md#vasbeton-oszlopok-tervezési-paraméterei)_ hasonlóan egy Consteel modell több vasbeton gerenda tervezési paramétert tartalmazhat, melyek a tulajdonságfán a vasbeton gerenda elemekhez rendelhetők. A **Paraméter csomagok vasbeton gerenda tervezéshez** párbeszédpanel a vasbeton gerenda keresztmetszetű rúdelem tulajdonságfájában, a Tervezési paraméterek sorban, a ![](./img/wp-content-uploads-2021-04-3dots-button.png) gombra kattintva nyitható meg. A létrehozott paramétereket az összefoglaló képernyő mutatja be:
 
-![](./img/wp-content-uploads-2022-12-image-28-1024x375.png)
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":51886,"width":768,"height":282,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![Tervezési paraméterek - vasbeton gerenda - táblázat](https://www.Consteelsoftware.com/wp-content/uploads/2023/07/tervezesi_parameter_gerenda_tablazat-1-1024x376.png)](./img/wp-content-uploads-2023-07-tervezesi_parameter_gerenda_tablazat-1-1024x376.png)
+
+Tervezési paraméter csomagok vasbeton gerendákhoz
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-The definition of a new design parameter set can be initiated with the **_+ Create new_** button. A new set can also be defined starting from an already existing set using the **_+ Create from selected_** button.
+Egy új tervezési paraméter csomag definiálása az **+ Új létrehozása** gombbal indítható el. Új paraméter csomagot egy már meglévő alapján is lehet definiálni a **+ Új létrehozása meglévőből** gomb segítségével.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+Egy csomagot a soron való dupla kattintással vagy a ![](./img/wp-content-uploads-2021-04-Pencil.png)ikonnal lehet módosítani, és a ![Trash bin](./img/wp-content-uploads-2021-04-Bin.png) ikonnal lehet törölni.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
 
 :::info
-
-When the method based on nominal stiffness is used for the design of reinforced concrete columns, an appropriate stiffness reduction must be assigned also to every reinforced concrete beam contributing to the stiffness of the structure.
+Ha a vasbeton oszlopok tervezéséhez a névleges merevségen alapuló módszert alkalmazzuk, akkor a szerkezet merevségéhez hozzájáruló vasbeton gerendákhoz is hozzá kell rendelni egy megfelelő merevségcsökkentő értéket.
 :::
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-The dialog is similar to that of the columns', but contains only the part related to the definition of the stiffness reduction parameters.
+A párbeszédpanel hasonló az _[oszlopokéhoz](../9_0_standard-design/9_2_reinforced-concrete-design.md#vasbeton-oszlopok-tervezési-paraméterei)_, de csak a merevségcsökkentő paraméterek meghatározásával kapcsolatos részt tartalmazza.
 
-![](./img/wp-content-uploads-2022-12-image-25-928x1024.png)
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":51931,"width":336,"height":370,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+
+[![Tervezési paraméterek - vasbeton gerenda](https://www.Consteelsoftware.com/wp-content/uploads/2023/07/tervezesi_parameter_gerenda_megadas-2.png)](./img/wp-content-uploads-2023-07-tervezesi_parameter_gerenda_megadas-2.png)
+
+Tervezési paraméterek megadása vasbeton gerenda tervezéshez
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-No design parameter is required to be assigned to beams when columns are designed with the method based on nominal curvature.
+Nem kell tervezési paramétert rendelni a gerendákhoz, ha az oszlopokat a névleges görbület alapján tervezzük.
 
-:::Danger
+<!-- /wp:paragraph -->
 
-Although for each member a design parameter specifying different design methods can be assigned, mixing of these design methods must be done carefully. The method based on nominal stiffness assumes that every member contributing to the stiffness of the structure has been assigned with adequate stiffness reduction values.
+<!-- wp:image {"align":"left","id":21420,"sizeSlug":"full","linkDestination":"none"} -->
 
+:::danger
+
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+
+Bár az elemekhez különböző tervezési módszereket meghatározó tervezési paraméterek rendelhetők, a tervezési módszerek keverésével óvatosan kell bánni. A névleges merevségen alapuló módszer feltételezi, hogy a szerkezet merevségéhez hozzájáruló minden egyes elemhez egy megfelelő merevségcsökkentő érték van rendelve.
 :::
 
-In case of concrete column design, the following checks of EN1992-1-1 will be performed:
+A vasbeton oszlop tervezés az **Eurocode 1992-1-1** következő vizsgálatait hajtja végre:
 
-- Longitudinal reinforcement
+- Szerkesztési szabályok
 
-  - EN1992-1-1 9.5.2 (1) formula – Minimum diameter of longitudinal reinforcement
+  - EN 1992-1-1 9.5.2 (1), Hosszirányú acélbetétek minimális átmérője
 
-  - EN1992-1-1 9.5.2 (2) formula – Minimum longitudinal reinforcement
+  - EN 1992-1-1 9.5.2 (2), (9.12.N) formula, Minimális hosszirányú vasmennyiség
 
-  - EN1992-1-1 9.5.2 (3) formula – Maximum longitudinal reinforcement
+  - EN 1992-1-1 9.5.2 (3), Maximális hosszirányú vasmennyiség
 
-  - EN1992-1-1 5.8.3 and 5.8.8 – Biaxial bending
+  - EN 1992-1-1 9.5.3. (1), Kengyel minimális átmérője
 
-* Shear reinforcement
+  - EN 1992-1-1 9.5.3 (2), Maximális kengyeltávolság
 
-  - EN1992-1-1 9.5.3 (1) formula – Minimum diameter of stirrup
+* Hajlítás
 
-  - EN1992-1-1 9.5.3 (2) formula - Maximum distance of stirrups
+  - EN 1992-1-1 5.8.3, 5.8.8, Ferde hajlítás
 
-  - EN1992-1-1 6.2.2 (1) (6.2.a) and (6.2.b) formula – Shear resistance without shear reinforcement
+- Nyírás
 
-  - EN1992-1-1 6.2.3 (3) (6.8) and (6.9) formula – Shear resistance with shear reinforcement
+  - EN 1992-1-1 6.2.2 (1) (6.2.a) és (6.2.b) formula, Nyírási teherbírás tervezési értéke nyírási vasalás nélkül
 
-### Reinforced concrete slab design
+  - EN 1992-1-1 6.2.3. (3) (6.8) és (6.9) formula, Nyírási teherbírás tervezési értéke nyírási vasalással
 
-If there is a concrete slab placed in the model, with applied reinforcement in the main directions (see chapter 5.3), the slab reinforcement calculation option will be available in the Design… dialogue.
+Vasbeton oszlopoknál megjeleníthető a **[teherbírási felület](../10_0_section-module/10_2_section-module.md)** is.
 
-Result of the calculation is the required area of reinforcement \[mm2/m] in each of the main directions, both in upper and lower positions. Change between the visualization of the directions is possible with the dropdown menu in the upper left corner. Results are represented with contour surface visualization:
+### Vasbeton lemezek tervezése
 
-![](img\wp-content-uploads-2021-04-10-4-rc-slab-reinf.png)
+Amennyiben a modellben létrehozott vasbeton lemezhez az **_[Felületi elemek fejezetben](../5_0_structural-modeling/5_3_surface-members.md#felületi-elemek)_** részletesen bemutatott módon megadásra kerültek x és y irányban az alsó és felső vasalási paraméterek, úgy a **Globális vizsgálatok** fül **Tervezés…** dialógján a vasbeton lemezek minimális vashányad számítása opció aktív, és a jelölőnégyzet bekapcsolásával a számítás elvégezhető.
 
-By clicking ont he colour palette with the right mouse button, properties (such as scale division, values of divisions) can be modified:
+A számítás eredménye a lemez igénybevételei alapján számolt szükséges vasmennyiségek \[mm2/m] a főirányokban, alsó és felső pozícióra külön-külön meghatározva. A főirányok között a legördülő menü segítségével van lehetőség váltani, az eredmények kijelzése pedig szintfelületes ábrázolással történik:
 
-![](img\wp-content-uploads-2021-04-10-4-rc-design-palette.png)
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/10-4-rc-slab-reinf.png)](./img/wp-content-uploads-2021-04-10-4-rc-slab-reinf.png)
 
-The result of the calculation, the contour surface with the colour palette itself can be exported into dxf form from File/Export menu (see Chapter 2.6).
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+
+A jobb oldalon található színpalettán jobb egérgombot kattintva annak tulajdonságai (osztások száma, osztások értékei, vasmennyiség vagy vas távolság kijelzése) módosíthatók:
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":37197,"width":354,"height":400,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+
+[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/06/scr_tervezes_vb_szinskala.png)](./img/wp-content-uploads-2022-06-scr_tervezes_vb_szinskala.png)
+
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+
+A főirányokhoz tartozó szükséges vasmennyiség ábrák dxf formátumba exportálhatók, a **_[DXF import fejezetben](../2_0_file-handling/2_6_dxf-import.md)_** bemutatott módon.
+
+<!-- /wp:paragraph -->

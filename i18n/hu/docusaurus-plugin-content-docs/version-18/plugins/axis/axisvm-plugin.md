@@ -1,10 +1,9 @@
-# Converter for AXISVM
+# Converter for AXISVM'
 
 ## 1. AxisVM Plugin Installation: A Step-by-Step Guide
 
 
 To utilize the import feature initially, users are required to install the AXISVM plugin. This plugin can be accessed via the Consteel website under the 'Downloads' section. Within the plugins category, select 'Consteel 17' and proceed to download the 'Consteel Converter for AXISVM' plugin.
-
 
 Starting from Consteel 17 and AXISVM X7, the Plugin is compatible. For older Consteel versions, it's possible to open the converted .smadsteel files from AXISVM, but the Import log will not appear. For older AXISVM versions, we cannot guarantee proper functioning. The variation of AXISVM API can influence the quality of the import.
 
@@ -52,11 +51,11 @@ After the conversion process is completed, the file can be opened in Consteel. U
 ![](./img/wp-content-uploads-2024-02-AXISVM-open-from-computer.png)
 
 
-Consteel files are typically saved with the extension .csm, which stands for ConSteel Model. However, since we are working with files transformed from AXISVM, we need to select the .smadsteel format. Locate the file that was just converted from AXISVM and select it.
+Consteel files are typically saved with the extension .csm, which stands for Consteel Model. However, since we are working with files transformed from AXISVM, we need to select the .smadsteel format. Locate the file that was just converted from AXISVM and select it.
 
 ![](./img/wp-content-uploads-2024-02-AXISVM-file-type-1.png)
 
-After selecting the .smadsteel file, the 'Create a new model' window will appear. Despite already being saved as an .smadsteel file, ConSteel will utilize the information within to generate a new model in the .csm file format. Within this window, users have the option to modify the model's name, description, and, most importantly, specify the design standard and language for names. In the end, press ‘OK’.
+After selecting the .smadsteel file, the 'Create a new model' window will appear. Despite already being saved as an .smadsteel file, Consteel will utilize the information within to generate a new model in the .csm file format. Within this window, users have the option to modify the model's name, description, and, most importantly, specify the design standard and language for names. In the end, press ‘OK’.
 
 ![](./img/wp-content-uploads-2024-02-AXISVM-open-design-standard.png)
 
