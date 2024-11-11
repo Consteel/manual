@@ -67,7 +67,7 @@ FILE_PATH file_path "File path" c:\Temp\
 
 The above code will result in this input dialogue:
 
-[![](./img/Get_User_Input_Dlg_Fig01_v01.png)](./Get_User_Input_Dlg_Fig01_v01.png)
+[![](./img/Get_User_Input_Dlg_Fig01_v01.png)](./img/Get_User_Input_Dlg_Fig01_v01.png)
 
 ---
 
