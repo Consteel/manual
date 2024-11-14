@@ -15,7 +15,7 @@ Ebben a párbeszédablakban látható az összes korábban betöltött szelvény
 
 <!-- wp:image {"align":"center","id":33574,"width":734,"height":440,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/02/dial_szelvenykezelo.png)](./img/wp-content-uploads-2022-02-dial_szelvenykezelo.png)
+![alt text](img/szelvenykezelo18.png)
 
 Az ablak legnagyobb részét a szelvények táblázata foglalja el a bal oldalon, amely a következő oszlopokat tartalmazza:
 
