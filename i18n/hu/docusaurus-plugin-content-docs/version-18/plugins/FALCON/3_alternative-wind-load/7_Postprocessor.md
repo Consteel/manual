@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 ---
-# **Postprocesszor**
+# Postprocesszor
 
 A fejlesztés célja egy olyan fő funkció biztosítása volt, amely automatikusan átalakítja az eredményül kapott nyomásértékeket használható felületi terhelésekké a felhasználók preferenciái szerint. Lehetőség van közvetlenül hozzárendelni a szimulációs eredményeket az épülethez a premesh-en keresztül, vagy alkalmazni egy zónázási logikát, hasonlóan a szabványhoz, vagy akár terheléseket definiálni specifikus zónákra (pl. Eurocode zónák).
 

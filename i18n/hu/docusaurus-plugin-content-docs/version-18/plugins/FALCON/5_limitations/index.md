@@ -1,3 +1,3 @@
-# Limitations of FALCON
+# A FALCON korlátai
 
 ## 
