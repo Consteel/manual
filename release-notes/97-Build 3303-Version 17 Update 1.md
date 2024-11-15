@@ -1,5 +1,5 @@
 ---
-slug: Build 3303-Version 17 Update 1
+slug: 97-Build 3303-Version 17 Update 1
 title: Build 3303-Version 17 Update 1
 
 tags: [consteel, update, hotfix]
