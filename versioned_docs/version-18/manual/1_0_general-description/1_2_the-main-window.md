@@ -298,7 +298,7 @@ With the **Sizes of objects…** function, the size of the model objects can be 
 
 <!-- wp:image {"id":71106,"width":"512px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2024-01-Options-menu-CS17-1.png)
+![alt text](<img/cs18 options.png>)
 
 <!-- /wp:image -->
 
@@ -364,7 +364,7 @@ _**Update**_
 
 <!-- wp:image {"align":"center","id":37343,"width":350,"height":239,"sizeSlug":"full","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2022-06-update.png)
+![alt text](<img/cs18 options.png>)
 
 <!-- /wp:image -->
 
@@ -400,7 +400,7 @@ _**Language**_
 
 <!-- wp:image {"align":"center","id":7017,"width":320,"height":219,"sizeSlug":"full","linkDestination":"media"} -->
 
-![](img\wp-content-uploads-2021-04-2-2-options-lang.png)
+![alt text](img/cs18language.png)
 
 <!-- /wp:image -->
 
@@ -417,6 +417,11 @@ _Consteel_ has to be restarted after changing the interface language.
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
+**_Navigation_**
+
+![alt text](img/cs18navigation.png)
+
+On the navigation tab, users can select a preset. They can choose from various presets that correspond to different software they are familiar with. Below the dropdown menu for the selected preset, users can view the keyboard combinations for Pan, Rotate, and Zoom actions.
 
 **_Background color_**
 
@@ -424,7 +429,7 @@ _Consteel_ has to be restarted after changing the interface language.
 
 <!-- wp:image {"align":"center","id":47529,"width":350,"sizeSlug":"full","linkDestination":"media"} -->
 
-![](img\wp-content-uploads-2023-04-Background_color.png)
+![alt text](<img/cs18 backgroundcolor.png>)
 
 <!-- /wp:image -->
 
@@ -442,7 +447,7 @@ _**Styles**_
 
 <!-- wp:image {"align":"center","id":7025,"width":322,"height":221,"sizeSlug":"full","linkDestination":"media"} -->
 
-![](img\wp-content-uploads-2021-04-2-2-Options-styles.png)
+![alt text](img/cs18styles.png)
 
 <!-- /wp:image -->
 
@@ -460,7 +465,7 @@ _**Diagnostics**_
 
 <!-- wp:image {"align":"center","id":7037,"width":322,"height":222,"sizeSlug":"full","linkDestination":"media"} -->
 
-![alt text](img/Diagnostics.png)
+![alt text](img/cs18diagnostics.png)
 
 <!-- /wp:image -->
 
@@ -485,7 +490,7 @@ See more: **_[Model check](../8_0_structural-analysis/8_2_model-check-diagnostic
 
 <!-- wp:image {"id":71096,"width":"452px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2024-01-Options-menu-CS17-load-distribution-1.png)
+![alt text](img/cs18loaddistribution.png)
 
 <!-- /wp:image -->
 
@@ -515,7 +520,7 @@ The **Automatic load distribution** can be switched off to increase the speed of
 
 <!-- wp:image {"align":"center","id":27734,"width":403,"height":276,"sizeSlug":"full","linkDestination":"media"} -->
 
-![alt text](<img/Idea statica interface.png>)
+![alt text](img/cs18ideastatica.png)
 
 <!-- /wp:image -->
 
@@ -576,20 +581,26 @@ The user defined standards are saved to the following file: C:\\Users\\%USERNAME
 
 <!-- wp:image {"id":71616,"width":"415px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2021-04-1.2.-Help-menu.png)
+![alt text](img/cs18helpmenu.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-The menu is divided into two categories, distinguished by the longitudinal bar as shown in the picture. Information regarding the first part can be found below.
+The menu is divided into two categories, distinguished by the longitudinal bar as shown in the picture. Information regarding the first part can be found below:
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
+- The first function, or the F1 hotkey, opens the **Consteel Manual** (the page you are reading right now) for detailed descriptions of all functions in Consteel.
+- The second button opens the **Descript Manual** (Ctrl+D).
+- The **Getting Started** button provides easy access to the software's YouTube page.
+- **Navigation Overview** is the first window that appears after opening the program. It helps new users familiarize themselves with the program (Shift+N).
+- The **Tutorials** button links to our Knowledge Base webpage, where articles and example models can be found.
+- By pressing **Hotkeys**, a list of all the most important commands and their corresponding hotkeys will appear.
+---
 
-In addition to the already existing functions, with the help of the **Getting Started** button, easy access to the software's YouTube page is possible. By pressing **Hotkeys**, a list of all the most important commands and their corresponding hotkeys will appear.
-
+The second category can be accessed by clicking on **Get Support**. The online window opens, and two options will appear. Depending on the issue, users can choose either **Consteel Support-Central** or **Steelspace Support**.
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":71606,"width":"506px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
@@ -600,7 +611,7 @@ In addition to the already existing functions, with the help of the **Getting St
 
 <!-- wp:paragraph -->
 
-The second category can be accessed by clicking on **Get Support**. The online window opens, and two options will appear. Depending on the issue, users can choose either **Consteel Support-Central** or **Steelspace Support**.
+
 
 <!-- /wp:paragraph -->
 

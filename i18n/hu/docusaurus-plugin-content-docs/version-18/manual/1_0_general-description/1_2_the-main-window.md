@@ -506,13 +506,14 @@ Az egyéni szabványbeállítást a program az alábbi fájlba menti: _\Dokument
 
 ![alt text](img/cs18sugomenu.png)
 
-A menü két kategóriára van osztva, amit a hosszanti sáv választ el, ahogy a képen látható. 
+A menü két kategóriára van osztva, amit a hosszanti sáv választ el, ahogy a képen látható. Az első rész tartalmazza a következőket:
 
-- Az első rész tartalmazza az elérhetőségeket a [Consteel kézikönyvhöz](../../manual/intro.md) és a [Descript kézikönyvhöz](../../descript/15_1_introduction//index.md), valamint az [Oktatói anyagok](https://Consteelsoftware.com/knowledgebase/?search=&filters=366,367,399,392,375,372) almenüpont segítségével egy előszűrt tudásbázis anyagokat tartalmazó oldal érhető el. Ilyenkor nincs szükség külön bejelentkezésre a honlapunkon, mert a Consteel-t online védelemmel használó felhasználóinkat automatikusan felismeri az oldal.
-
-- Az **Első lépések** gomb segítségével könnyen elérhető a szoftver YouTube oldala. 
+- Az első funkció, vagy az F1 gyorsbillentyű megnyitja a [Consteel kézikönyvhöz](../../manual/intro.md) (az oldalt, amelyet most olvasol), ahol a Consteel összes funkciójának részletes leírása található.
+- A második gomb a [Descript kézikönyvhöz](../../descript/15_1_introduction//index.md) (Ctrl+D) nyitja meg.
+- Az **Első lépések** gomb segítségével könnyen elérhető a szoftver YouTube oldala.
 - A **Navigációs áttekintés** az első ablak, amely a program megnyitása után megjelenik. Segít az új felhasználóknak megismerkedni a programmal (Shift+N).
-- A **Gyorsbillentyűk** lenyomásával megjelenik egy lista az összes fontos parancsról és azok megfelelő billentyűparancsairól.
+- Az [Oktatói anyagok](https://Consteelsoftware.com/knowledgebase/?search=&filters=366,367,399,392,375,372) gomb a Knowledge Base weboldalunkra mutat, ahol cikkek és példamodellek találhatók.
+- A **Gyorsbillentyűk** gomb megnyomásával megjelenik a legfontosabb parancsok és a hozzájuk tartozó gyorsbillentyűk listája.
 ---
 A második kategóriához a **Support kérdés beküldése** gombra kattintva lehet eljutni. Az online ablak megnyílik, és két lehetőség jelenik meg. A problémától függően a felhasználók választhatnak a Consteel támogatás vagy a Steelspace támogatás között.
 

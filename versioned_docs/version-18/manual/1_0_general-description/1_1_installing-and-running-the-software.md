@@ -436,3 +436,15 @@ When you open a model from the cloud it is always downloaded to the local device
 
 <!-- /wp:paragraph -->
 
+### Navigation overview
+
+After opening the model, the first window that will pop up is the Navigation Overview. This window will help new users to familiarize themselves with the 
+-	**Navigation**: you can customize your navigation preferences — such as movement, rotation, and zoom — by choosing from settings used by several popular software platforms.
+-	**Selection**: the most useful selection types are presented
+-	**Model views**: Hide, Submodel view, Full view and Fit view
+-	**Background options**: Default, Light, Dark
+-	**Help**:  Support, hot keys and learning materials provided by Consteel.
+ 
+![alt text](img/image.png)
+
+For more experienced users this window can be closed permanently by pressing the ‘Do not show this message again’ checkbox.  The window can be called up at any time from the Help menu. `Shift + N`
