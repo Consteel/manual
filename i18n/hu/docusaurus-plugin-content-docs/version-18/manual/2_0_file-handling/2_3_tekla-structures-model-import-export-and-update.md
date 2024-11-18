@@ -57,7 +57,7 @@ Az import során lehetőségünk van a _Tekla Structures_ programban definiált 
 
 <!-- wp:image {"align":"right","id":32079,"width":284,"height":226,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](./img/wp-content-uploads-2022-02-Fajl_import_Tekla.png)](./img/wp-content-uploads-2022-02-Fajl_import_Tekla.png)
+![alt text](<img/cs18 tekla import.png>)
 
 <!-- /wp:image -->
 
@@ -285,7 +285,7 @@ A _Consteel _modell_ Tekla Structures_-be való exportálásához elengedhetetle
 
 <!-- wp:image {"align":"center","id":32079,"sizeSlug":"full","linkDestination":"media"} -->
 
-![](img\wp-content-uploads-2022-02-Fajl_import_Tekla.png)
+![alt text](img/cs18teklaexport.png)
 
 <!-- /wp:image -->
 

@@ -59,7 +59,7 @@ Alatta a már felhőben tárolt modelleken és mappákon elérhető parancsok ik
 
 <!-- wp:paragraph -->
 
-Alul, jobb oldalon láthatók az éppen kiválasztott modell részletes információi, amennyiben a panel be van kapcsolva (ld. előző bekezdés) **(4)**.
+Ha a modellinformáció be van kapcsolva, egy új ablak nyílik, amely tartalmazza a kiválasztott modell részleteit és az összes mentett verzióelőzményt. **(4)**.
 
 <!-- /wp:paragraph -->
 

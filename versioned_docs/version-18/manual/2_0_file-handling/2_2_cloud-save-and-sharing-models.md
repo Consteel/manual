@@ -39,7 +39,7 @@ You can execute additional actions to your saved models or to your storage. Thes
 
 <!-- wp:paragraph -->
 
-If the model information is switched on, a panel will be seen on the right side regarding the information of the selected model **(4)**.
+If the model information is switched on, a new window will open displaying the information of the selected model and all saved histories. **(4)**.
 
 <!-- /wp:paragraph -->
 
