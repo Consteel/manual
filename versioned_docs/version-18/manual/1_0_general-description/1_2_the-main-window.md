@@ -57,7 +57,7 @@ The _Consteel_ menu does not contain many commands since the main functionality 
 
 #### File menu
 
-![alt text](<img/File menu CS 17.png>)
+![alt text](img/Filecs18.png)
 
 <!-- /wp:columns -->
 
@@ -195,19 +195,23 @@ Models saved to the Cloud can be shared with other Consteel users who have an on
 
 <!-- wp:paragraph -->
 
+_Import Center_ 
+
+The [Import Center](../2_0_file-handling/2_8_import-center.md) streamlines the model import process by consolidating the import and export functionalities into one area, supporting various file types like .IFC, .smadsteel, and .xlsx. Once a model is selected, it undergoes a transparent conversion process, ensuring seamless integration into the Consteel workspace.
+
 _Import_
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-Import menu contains a wide range of import possibilities from the very basic DXF wireframe import to the widespread IFC, furthermore the complex Dlubal and SAP2000 model import including the loadings as well. See more: _[File handling](../../category/file-handling)_.
+Import menu contains some import possibilities like the very basic DXF wireframe import and Tekla Structures Import. See more: _[File handling](../../category/file-handling)_.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":27742,"sizeSlug":"full","linkDestination":"media","className":"is-resized"} -->
 
-![alt text](img/import.png)
+![alt text](img/cs18import.png)
 
 <!-- /wp:image -->
 
@@ -225,7 +229,7 @@ The selected part of the model can be exported to _TEKLA Structures_ or to IFC. 
 
 <!-- wp:image {"align":"center","id":27748,"sizeSlug":"full","linkDestination":"media","className":"is-resized"} -->
 
-![](img\wp-content-uploads-2021-04-2-2-File-export-1.png)
+![alt text](<img/cs18 export.png>)
 
 <!-- /wp:image -->
 
