@@ -60,7 +60,7 @@ A _Consteel_ menüi tartalmazzák az összes parancsot. A legtöbb funkció a f�
 
 #### Fájl menü
 
-![alt text](<img/file menu cs17.png>)
+![alt text](img/cs18%20fajl%20menu.png)
 
 _Project Center_
 
@@ -195,6 +195,9 @@ A felhőbe mentett modellek megoszthatók más Consteel-felhasználókkal, akik 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
+#### _Import Center_
+
+Az [Import Center](../2_0_file-handling/2_8_Import-center.md) egyesíti az importálási és exportálási funkciókat, így egyszerűsíti a különböző forrásokból származó modellek kezelését és az egységes munkafolyamatot. A kiválasztott mappában található kompatibilis fájlok (.IFC, .smadsteel, .xlsx) automatikusan konvertálódnak, és a folyamat végén Consteel-kompatibilis modell jelenik meg a munkaterületen.
 
 #### _Import_
 
@@ -208,7 +211,7 @@ A felhőbe mentett modellek megoszthatók más Consteel-felhasználókkal, akik 
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-Az Import menü számos modell importálási lehetőséget tartalmaz, a legegyszerűbb DXF formátumú drótváz importálásától, a széles körben használt IFC-n keresztül egészen a teljes, terhelést is magában foglaló Dlubal és SAP2000 modellek importálásáig. További infó: _[Fájlkezelés](../../category/file-handling)_.
+Az Import menü tartalmaz pár importálási lehetőséget, a legegyszerűbb DXF formátumú drótváz importálását és Tekla Struktur importálást. További infó: _[Fájlkezelés](../../category/file-handling)_.
 
 <!-- /wp:paragraph -->
 
@@ -224,7 +227,7 @@ Az Import menü számos modell importálási lehetőséget tartalmaz, a legegysz
 
 <!-- wp:image {"align":"left","id":27751,"width":"295px","height":"218px","sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/2-2-File-export-1.png)](./img/wp-content-uploads-2021-04-2-2-File-export-1.png)
+![alt text](img/cs18export.png)
 
 <!-- /wp:image -->
 
