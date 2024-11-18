@@ -546,4 +546,4 @@ Az utolsó oszlopban lehet kiválasztani, hogy az adott elem mely modellbeli ál
 
 <!-- wp:image {"align":"center","id":7533,"width":423,"height":331,"sizeSlug":"full","linkDestination":"media"} -->
 
-![alt text](image.png)
+![alt text](img/tekla%20structures%20vs%20consteel.png)
