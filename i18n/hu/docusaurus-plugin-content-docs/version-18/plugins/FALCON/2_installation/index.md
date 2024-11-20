@@ -1,7 +1,7 @@
 # FALCON telepítése és futtatása
 
 
-A szél-szimulációs funkció használatához a felhasználóknak először telepíteniük kell a **FALCON plugint**. Ez a plugin a Consteel weboldalán, a „Letöltések” menüpont alatt érhető el. A bővítmények kategóriájában válaszd ki a „Consteel 18” opciót, majd töltsd le a „FALCON” plugint.
+A szél-szimulációs funkció használatához a felhasználóknak először telepíteniük kell a **FALCON plugint**. Ez a bővítmény a Consteel weboldalán, a „Letöltések” menüpont alatt érhető el. A bővítmények kategóriájában válaszd ki a „Consteel 18” opciót, majd töltsd le a „FALCON” plugint.
 
 A plugin a Consteel 18-tól kezdve kompatibilis.
 
@@ -9,7 +9,7 @@ A plugin a Consteel 18-tól kezdve kompatibilis.
  
 A plugin .exe fájl letöltése után győződj meg róla, hogy bepipáltad az „OpenFOAM telepítése” jelölőnégyzetet, ha az előzőleg **nem** lett telepítve. Ezután kattints a „Tovább” gombra.
 
-## Van OpenFOAM telepítve a számítógépére?
+## Van OpenFOAM telepítve a számítógépedre?
 ### IGEN
 *** 
 ![alt text](img/image-4.png)

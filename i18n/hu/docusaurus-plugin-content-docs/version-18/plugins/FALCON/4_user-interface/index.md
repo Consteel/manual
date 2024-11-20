@@ -1,17 +1,17 @@
-# **Felhasználói felület**
+# Felhasználói felület
 
-![alt text](img/image.png)
+![alt text](img/teheratadofelulethu.png)
 
-A szél szimulációs folyamat elkezdése előtt az első és legfontosabb lépés a **Terh átadó Felületek** létrehozása, amelyeken a szimuláció végrehajtásra kerül.
+A szél szimulációs folyamat elkezdése előtt az első és legfontosabb lépés a **Teher átadó felületek** létrehozása, amelyeken a szimuláció végrehajtásra kerül.
 
-A teherátadó felületet többféleképpen is létrehozhatod:
+A teher átadó felületet többféleképpen is létrehozhatod:
 
-- A **Teherátadó Felület** lehetőséggel a _Terhek fülön_
+- A **Teher átadó felület** lehetőséggel a _Terhek fülön_
 - **Diafragma** létrehozásával a _Szerkezeti elemek fülön_
 
-A teherátadó felületek létrehozása után kezdődhet a szél szimulációs folyamat.
+A teher átadó felületek létrehozása után kezdődhet a szél szimulációs folyamat.
 
-![alt text](img/image-1.png)
+![alt text](img/falconalkapcsolatosikonokhu.png)
 
 Minden **FALCON-szél szimuláció**-val kapcsolatos funkció a _Terhek fülön_ található.
 
@@ -43,17 +43,17 @@ Ebben az ablakban visszatérhetsz az első lépéshez, ha rákattintasz a három
 A **Standard Felület** szekció nem befolyásolja a szél szimulációt; csupán a szabványos szélgenerálást szolgálja Eurocode szerint.
 :::
 
-A szél szimulációhoz használd az ablak végső szekcióját, amely a **Szimulációs Felület** néven, és válaszd ki a megfelelő felület kategóriát:
+A szél szimulációhoz használd az ablak utolsó szegmensét, a **Szimulációs Felület**et, és válaszd ki a megfelelő felület kategóriát:
 
 - **Általános** – a tervezett épület számára
 - **Akadály** – bármely környező épület számára, amely modellezve van, és hatással lehet a szél szimulációra
 
-A felület kategória kiválasztása után az összes releváns felületet ki kell választani. Ha a szimulációs felület helyesen van alkalmazva, az alábbi ikon jelenik meg a felületek közepén:
+A felület kategória kiválasztása után az összes releváns felületet ki kell jelölni. Ha a szimulációs felület helyesen van alkalmazva, az alábbi ikon jelenik meg a felületek közepén:
 
 ![alt text](img/image-4.png)
 
 :::note
-Az Általános felületek csak Terh átadó felületekre alkalmazhatók, beleértve a diafragmákat.
+Az Általános felületek csak **teher átadó** felületekre alkalmazhatók, beleértve a **diafragmákat**.
 :::
 
 ### 3. FALCON-Wind szimuláció
@@ -70,7 +70,7 @@ Az Info gomb részletes információkat ad minden lépésről. A gomb megnyomás
 
 A harmadik lépés a szél szimuláció futtatása a FALCON-nal. Használd a **FALCON-Szél szimuláció** gombot a _Terhek fülön_, hogy megnyisd az ablakot.
 
-Ez az ablak négy szekcióra van osztva, amelyek végigvezetik a beállításokon és a szimuláción:
+Ez az ablak négy részre van bontva, amelyek végigvezetnek a beállításokon és a szimuláción:
 
 #### A. Hatások és Felületek
 
@@ -83,8 +83,8 @@ Ez az ablak négy szekcióra van osztva, amelyek végigvezetik a beállításoko
 - **Háló Mérete a Szimulációs Felületen**: A szimulációs felületen alkalmazott háló méretének beállítása.
 - **Háló Mérete a Szerkezeten**: Az automatikus hálógenerálás két hálót hoz létre:
 
-    - **A Végeselem Háló (FEM)**, amelyet kifejezetten a poszt-feldolgozáshoz hoznak létre, és csak az épülethez alkalmazzák, amely sík felületekkel rendelkezik, amelyek alkalmasak a terhelés létrehozására.
-    - **A Végeselem Volumen Háló (FVM)**, amelyet a szimulációs megoldó generál, és amely a teljes szimulációs tartományban poligonális felületeket tartalmaz, alkalmazkodva a szél irányához. Az FVM eredmények a FEM hálóra vetítődnek a szimulációs célból.
+    - **A Végeselem Háló (FEM)**, amelyet kifejezetten a utófeldolgozáshoz hoznak létre, és csak az épülethez alkalmazzák, amely sík felületekkel rendelkezik, amelyek alkalmasak a terhelés létrehozására.
+    - **A Végeselem Volumen Háló (FVM)**, amelyet a szimulációs megoldó generál, és amely a teljes szimulációs tartományban poligonális felületeket tartalmaz, alkalmazkodva a szél irányához. Az FVM eredmények a FEM hálóra vetítődnek szimulációs célból.
 
 - **Háló Finomítási Tényező**: A finomítási tényező (r) növeli a cella éleinek méretét (c) a szimulációs tartomány határain, hogy gyorsítsa a számításokat azzal, hogy csökkenti a távolabbi részletezést az épülettől. A cellaméret a határokon kiszámítható a következőképpen:
 
@@ -92,7 +92,7 @@ Ez az ablak négy szekcióra van osztva, amelyek végigvezetik a beállításoko
 
   Itt (s) a szerkezeten alkalmazott háló mérete, és minden finomítás a cellákat minden irányban felére csökkenti, létrehozva egy finomított hálót az épület közelében.
 
-- **Fejlett Beállítások**: Az alapértelmezett beállítások általában megfelelőek, de szükség esetén módosíthatók. A három pont gombra kattintva módosíthatók:
+- **Magasabb szintű Beállítások**: Az alapértelmezett beállítások általában megfelelőek, de szükség esetén módosíthatók, a három pont gombra kattintva:
 
   - **Hőmérséklet**: A szimulációhoz beállított környezeti hőmérséklet.
   - **Turbulenciás Modell**: A turbulencia hatásainak előrejelzése.
@@ -100,24 +100,24 @@ Ez az ablak négy szekcióra van osztva, amelyek végigvezetik a beállításoko
   - **Iterációk Száma**: Az iterációk számának meghatározása.
   - **Konvergencia Kritériumok**: A kiszámított mezők konvergenciájának szabványai.
   - **Tartomány Dimenzió Paraméterei**: A szimulációs tartomány dimenzióinak beállítása a magasság szorzóival minden irányban:
-    - **Széloldal** (w)
-    - **Leeward** (l)
+    - **Szélfelőli oldal** (w)
+    - **Szélárnyékos oldal** (l)
     - **Oldal** (s)
-    - **Felső** (t)
+    - **Csúcs** (t)
 
 #### C. Szélirányok Θ₀-hoz képest (Max 12)
-Ebben a szekcióban add meg az összes szélirányt az XY síkban Θ₀-hoz képest, legfeljebb 12 irány egyidejű megadásával. Minden új irányt az input mezőbe való beírás után nyomd meg az **Enter** billentyűt.
+Ebben a szekcióban add meg az összes szélirányt az XY síkban Θ₀-hoz képest, legfeljebb 12 irány egyidejű megadásával. Minden új irányt írj be az input mezőbe, majd nyomd meg az **Enter** billentyűt.
 
-A Θ₀ irány a szimulált szerkezet tetejének nézetében, a szél szimulációs irányaival együtt látható. A színes nyilak jelzik a szimulált szél irányát a szerkezethez képest.
+A Θ₀ irány a szimulált szerkezet felülnézetben, a szél szimulációs irányaival együtt látható. A színes nyilak jelzik a szimulált szél irányát a szerkezethez képest.
 
 ![alt text](img/image-6.png)
 
 #### D. Folyamatos állapotú szimuláció futtatása
-Az utolsó szekciókban a szimuláció állapota és az irány figyelemmel kísérhető:
+Az utolsó részben a szimuláció állapota és az irány figyelemmel kísérhető:
 
 ![alt text](img/image-7.png)
 
-A "Run" gombra kattintás után két betöltési sáv jelenik meg, amelyek a szimulált szélirányokat és azok előrehaladási százalékát mutatják.
+A "Futtatás" gombra kattintás után két betöltési sáv jelenik meg, amelyek a szimulált szélirányokat és azok előrehaladási százalékát mutatják.
 
 :::info
 Amíg a szél szimulációk futnak, a Consteel teljes mértékben működőképes marad, így továbbra is dolgozhatsz.
@@ -128,11 +128,11 @@ A szimuláció előrehaladásának nyomon követéséhez nyisd meg a **Naplók**
 ![alt text](img/image-9.png)
 
 
-### 4. FALCON-Wind terhelés generálása a szimulációs eredményekből
+### 4. FALCON-Szélteher generálása a szimulációs eredményekből
 
 ![alt text](img/image-10.png)
 
-Az utolsó lépésben a FALCON generálja a szimulációs eredményekből származó terheléseket, amelyek a modellben rendes terhelésként használhatók. Az ablak végigvezet a szélterhelések generálásának lépésein:
+Az utolsó lépésben a FALCON a szimulációs eredmények alapján generálja a terheket, amelyeket a modellben normál teherként használhatunk. Az ablak végigvezet a szélterhek generálásának folyamatán:
 
 - **Szél szimuláció végrehajtása**: Ha a szél szimuláció nem lett végrehajtva, használd a három pont ikont, hogy visszatérj az előző lépéshez és futtasd azt.
 
@@ -142,7 +142,7 @@ Az utolsó lépésben a FALCON generálja a szimulációs eredményekből szárm
 
 - **Szél és Belső Nyomás Irányok beállítása**: Állítsd be a szél- és belső nyomás irányokat a terhelés generálásához, a szimulációs eredmények alapján.
 
-- **Generált terhelési típus kiválasztása - Egyenletes Felületi Terhelések**:
+- **Generált teher típus kiválasztása - Egyenletes Felületi Terhek**:
 
   - **Háló Elemein**: Terhelések generálása közvetlenül a véges elem háló elemein.
   
@@ -150,10 +150,10 @@ Az utolsó lépésben a FALCON generálja a szimulációs eredményekből szárm
 
   - **Specifikus Zónákban**: Zónás terhelések alkalmazása a modell meghatározott részein.
 
-- **Terhelés Generálás Futtatása**: Nyomd meg az ablak alján található "Futtatás" gombot a terhelések generálásának elindításához.
+- **Teher Generálás Futtatása**: Nyomd meg az ablak alján található "Futtatás" gombot a terhek generálásának elindításához.
 
-Ha a szélterhelés generálása sikeresen befejeződik, új szélterhelési esetek jelennek meg a _Terhelési Esetek és Csoportok_ szekcióban.
+Ha a szélteher generálása sikeresen befejeződik, új szélteher esetek jelennek meg a _Teher Esetek és Csoportok_ szekcióban.
 
 ![alt text](img/image-11.png)
 
-Minden szélterhelési eset tartalmazza a szimulációból generált megfelelő szélterheléseket.
+Minden szélteher eset tartalmazza a szimulációból generált megfelelő szélterheket.
