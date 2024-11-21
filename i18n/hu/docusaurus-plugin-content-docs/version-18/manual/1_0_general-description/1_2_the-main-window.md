@@ -195,9 +195,10 @@ A felhőbe mentett modellek megoszthatók más Consteel-felhasználókkal, akik 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
+
 #### _Import Center_
 
-Az [Import Center](../2_0_file-handling/2_8_Import-center.md) egyesíti az importálási és exportálási funkciókat, így egyszerűsíti a különböző forrásokból származó modellek kezelését és az egységes munkafolyamatot. A kiválasztott mappában található kompatibilis fájlok (.IFC, .smadsteel, .xlsx) automatikusan konvertálódnak, és a folyamat végén Consteel-kompatibilis modell jelenik meg a munkaterületen.
+Az [Import Center](../2_0_file-handling/2_8_import-center.md) egyesíti az importálási és exportálási funkciókat, így egyszerűsíti a különböző forrásokból származó modellek kezelését és az egységes munkafolyamatot. A kiválasztott mappában található kompatibilis fájlok (.IFC, .smadsteel, .xlsx) automatikusan konvertálódnak, és a folyamat végén Consteel-kompatibilis modell jelenik meg a munkaterületen.
 
 #### _Import_
 
@@ -517,7 +518,9 @@ A menü két kategóriára van osztva, amit a hosszanti sáv választ el, ahogy 
 - A **Navigációs áttekintés** az első ablak, amely a program megnyitása után megjelenik. Segít az új felhasználóknak megismerkedni a programmal (Shift+N).
 - Az [Oktatói anyagok](https://Consteelsoftware.com/knowledgebase/?search=&filters=366,367,399,392,375,372) gomb a Knowledge Base weboldalunkra mutat, ahol cikkek és példamodellek találhatók.
 - A **Gyorsbillentyűk** gomb megnyomásával megjelenik a legfontosabb parancsok és a hozzájuk tartozó gyorsbillentyűk listája.
+
 ---
+
 A második kategóriához a **Support kérdés beküldése** gombra kattintva lehet eljutni. Az online ablak megnyílik, és két lehetőség jelenik meg. A problémától függően a felhasználók választhatnak a Consteel támogatás vagy a Steelspace támogatás között.
 
 ![](./img/wp-content-uploads-2024-01-1.2.-Help-center-HU-1024x683.png)

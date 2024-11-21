@@ -1,12 +1,10 @@
 ---
 sidebar_position: 1
 ---
+
 # The Document tab
 
-
-
 <!-- wp:paragraph -->
-
 
 <!-- /wp:paragraph -->
 
@@ -186,14 +184,14 @@ The last tab is the **Appendices**. If any joint or section documentation had be
 
 <!-- wp:image {"align":"left","id":21417,"width":76,"height":81,"sizeSlug":"full","linkDestination":"none"} -->
 
-
-
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-:::Danger
+
+:::danger
 It should be bear in mind that the documentation needs to be regenerated to be up to date after any changes have been made to the model. If there are snapshots in the documentation these snapshots should be taken again and need to be added to the documentation.
 :::
+
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"25px"} -->

@@ -1,6 +1,7 @@
 ---
 sidebar_position: 6
 ---
+
 # Meteorological loads
 
 All of the meteorological load generator-related functions (_**[Meteorological surface](#meteorological-surfaces)**_ ![](./img/wp-content-uploads-2021-04-cmd_load_met_surf.png), **[Meteorological load generator](#meteorological-load-generator)** ![](./img/wp-content-uploads-2021-04-cmd_load_met_gen.png)) can be found on the **Loads** tab.
@@ -25,8 +26,7 @@ Meteorological load generator can generate wind and snow load for the most commo
 
   - EuroCode 1 (EN 1991-3)
 
-
-:::Danger
+:::danger
 
 Heights of the structure (h) for generating wind loads are calculated from the global z=0 level. therefore the structural model has to be placed to its real height in the modeling area measured from the global z=0 level. For example, the lowest edge of a windward wall cannot be placed below the global z=0 level, or if the model is a roof of a building, then the roof must be placed in the real height measured from the global z=0 level.
 :::
@@ -161,11 +161,12 @@ Roughness length (z0) and the minimum height (zmin) are loaded from the selected
 
 All of the parameters are loaded from the selected national NA, only the basic wind velocity (vb) has to be set. By clicking the three-dot button (![](./img/wp-content-uploads-2021-04-3dots-button.png)) the fundamental value (vb,0) of wind velocity also can set manually or by using one of the implemented wind maps. In this case, the basic wind velocity pressure is automatically calculated.
 
-
 <!-- wp:paragraph -->
-:::Danger
+
+:::danger
 Velocity pressure dialog and the necessary parameters could be different according to the selected EuroCode national annex.
 :::
+
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"17px","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false},"editorskit_typography":{"name":"","family":"","weight":""},"extUtilities":[]} -->

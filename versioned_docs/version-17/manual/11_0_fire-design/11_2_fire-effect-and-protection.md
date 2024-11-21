@@ -1,6 +1,7 @@
 ---
 sidebar_position: 2
 ---
+
 # Fire effect and protection
 
 The fire effect and protection can be defined by clicking the **Define fire effect and fire protection** (![](./img/wp-content-uploads-2021-04-12-2-fire.png)) icon on the **Loads** tab.
@@ -61,10 +62,9 @@ Fire protection can be _Unprotected_ and _Protected_. If Protected is chosen, th
 
 <!-- /wp:list -->
 
-
-
 <!-- wp:paragraph -->
-:::Danger
+
+:::danger
 
 Attention! Critical temperature calculation can only be requested for members that have reactive protection!
 
