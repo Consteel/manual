@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import styles from "./index.modules.css";
+import styles from "./index.module.css";
 import Translation from "@docusaurus/Translate";
 import Button from "../Button";
 import FacebookIcon from "@site/static/img/social_media_icons_facebook.svg";
