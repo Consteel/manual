@@ -98,7 +98,7 @@ Consteel supports different design methods defined by EN 1992-1-1, including
 
 The type of method and additionally required or optional parameters can be specified as a property of a member assigned with a reinforced concrete column type cross-section.
 
-:::Danger
+:::danger
 
 For the use of method based on nominal stiffness and for the automatic option of the method based on nominal curvature the definition of appropriate global imperfections might be required. (see Global imperfections)
 :::
@@ -194,7 +194,7 @@ The dialog is similar to that of the columns', but contains only the part relate
 
 No design parameter is required to be assigned to beams when columns are designed with the method based on nominal curvature.
 
-:::Danger
+:::danger
 
 Although for each member a design parameter specifying different design methods can be assigned, mixing of these design methods must be done carefully. The method based on nominal stiffness assumes that every member contributing to the stiffness of the structure has been assigned with adequate stiffness reduction values.
 

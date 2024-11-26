@@ -12,7 +12,7 @@ A főképernyő hét fő részből áll:
 
 <!-- wp:image {"align":"center","id":6857,"width":"1024px","height":"555px","sizeSlug":"large","linkDestination":"media","className":"is-style-default"} -->
 
-![alt text](image.png)
+![alt text](img/image.png)
 
 - A legnagyobb méretű rész, a [grafikus ablak](#grafikus-ablak) (#1), ami a 3 dimenziós modell elkészítésére, megjelenítésére szolgál.
 
@@ -56,11 +56,11 @@ A 3D modell megjelenítése történik a grafikus ablakban. A megjelenítési m�
 
 ### A menü
 
-A _Consteel_ menüi tartalmazzák az összes parancsot. A legtöbb funkció a füleken és az oldalsávokon elhelyezett ikonokkal érhetőek el. A menüsoron 6 fontos funkciócsoport található: [_Fájl_](#fájl-menü) műveletek, néhány [_Szerkesztési_](#edit-menü) opció (visszavonás-ismétlés), [_Nézet_](#nézet-menü) beállítások és diagnosztika, [_Opciók_](#opciók-menü) a beállításhoz (mentés, programfrissítés, program nyelv és modell diagnosztika), [_Szabványok_](#szabványok-menü) a tervezési paraméterek áttekintése és új paraméterek létrehozása, és a [_Súgó_](#súgó-menü). A Consteel 14 és Consteel 15 bizonyos menüi eltérnek egymástól. A menüpont után zárójelben van jelezve, melyik verzióra érvényes.
+A _Consteel_ menüi tartalmazzák az összes parancsot. A legtöbb funkció a füleken és az oldalsávokon elhelyezett ikonokkal érhetőek el. A menüsoron 6 fontos funkciócsoport található: [_Fájl_](#fájl-menü) műveletek, néhány [_Szerkesztési_](#edit-menü) opció (visszavonás-ismétlés), [_Nézet_](#nézet-menü) beállítások és diagnosztika, [_Beállítások_](#opciók-menü) a beállításhoz (mentés, programfrissítés, program nyelv és modell diagnosztika), [_Szabványok_](#szabványok-menü) a tervezési paraméterek áttekintése és új paraméterek létrehozása, és a [_Súgó_](#súgó-menü). A Consteel 14 és Consteel 15 bizonyos menüi eltérnek egymástól. A menüpont után zárójelben van jelezve, melyik verzióra érvényes.
 
 #### Fájl menü
 
-![alt text](<img/file menu cs17.png>)
+![alt text](img/cs18%20fajl%20menu.png)
 
 _Project Center_
 
@@ -196,6 +196,10 @@ A felhőbe mentett modellek megoszthatók más Consteel-felhasználókkal, akik 
 
 <!-- wp:paragraph -->
 
+#### _Import Center_
+
+Az [Import Center](../2_0_file-handling/2_8_import-center.md) egyesíti az importálási és exportálási funkciókat, így egyszerűsíti a különböző forrásokból származó modellek kezelését és az egységes munkafolyamatot. A kiválasztott mappában található kompatibilis fájlok (.IFC, .smadsteel, .xlsx) automatikusan konvertálódnak, és a folyamat végén Consteel-kompatibilis modell jelenik meg a munkaterületen.
+
 #### _Import_
 
 <!-- /wp:paragraph -->
@@ -208,7 +212,7 @@ A felhőbe mentett modellek megoszthatók más Consteel-felhasználókkal, akik 
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-Az Import menü számos modell importálási lehetőséget tartalmaz, a legegyszerűbb DXF formátumú drótváz importálásától, a széles körben használt IFC-n keresztül egészen a teljes, terhelést is magában foglaló Dlubal és SAP2000 modellek importálásáig. További infó: _[Fájlkezelés](../../category/file-handling)_.
+Az Import menü tartalmaz pár importálási lehetőséget, a legegyszerűbb DXF formátumú drótváz importálását és Tekla Struktur importálást. További infó: _[Fájlkezelés](../../category/file-handling)_.
 
 <!-- /wp:paragraph -->
 
@@ -224,7 +228,7 @@ Az Import menü számos modell importálási lehetőséget tartalmaz, a legegysz
 
 <!-- wp:image {"align":"left","id":27751,"width":"295px","height":"218px","sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/2-2-File-export-1.png)](./img/wp-content-uploads-2021-04-2-2-File-export-1.png)
+![alt text](img/cs18export.png)
 
 <!-- /wp:image -->
 
@@ -312,15 +316,15 @@ Az Objektum méretei… funkcióval az alábbi objektumok megjelenítési méret
 
 <!-- wp:heading {"level":4} -->
 
-#### Opciók menü
+#### Beállítások menü
 
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
 
-Az Opciók menüben a következő beállítási lehetőségek találhatóak:
+A Beállítások menüben a következő lehetőségek találhatóak:
 
-_Mentés_, _Frissítés_, _Nyelv_, _Stílusok_, _Diagnosztika_ és _Idea StatiCa átmenet_.
+_Mentés_, _Frissítés_, _Nyelv_,_Navigáció_,_Háttérszín_, _Stílusok_, _Diagnosztika_, _Teherszétosztás_ és _Idea StatiCa átmenet_.
 
 <!-- /wp:paragraph -->
 
@@ -332,9 +336,9 @@ _Mentés_
 
 <!-- wp:image {"align":"left","id":31094,"width":"322px","height":"221px","sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/01/options_hu.png)](./img/wp-content-uploads-2022-01-options_hu.png)
+![alt text](<img/CS18 Mentés.png>)
 
-#### Opciók menü - Mentés
+#### Beállítások menü - Mentés
 
 <!-- /wp:image -->
 
@@ -382,9 +386,9 @@ _Frissítés_
 
 <!-- wp:image {"align":"left","id":31087,"sizeSlug":"medium","linkDestination":"media"} -->
 
-![alt text](img/frissítés.png)
+![alt text](<img/cs18 frissites.png>)
 
-#### Opciók menü - Frissítés
+#### Beállítások menü - Frissítés
 
 <!-- /wp:image -->
 
@@ -408,23 +412,29 @@ Azért, hogy termékeink minél jobban megfeleljenek a felhasználóink elvárá
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-A termékeink az alábbi információkat gyűjtik és küldik el: verzióinformáció, használt funkciók, használati időtartam, földrajzi hely. A küldött információk semmilyen személyes adatot nem tartalmaznak (például név, cím, telefon), a felhasználók azonosítására a Consteel Solutions Zrt. nem használja. Kereskedelmi Consteel és csJoint verziók esetén az információk gyűjtése kikapcsolható az Opciók/Frissítés menüpontban. Kipróbálási és diák verziók esetén az információküldés nem kapcsolható ki.
+A termékeink az alábbi információkat gyűjtik és küldik el: verzióinformáció, használt funkciók, használati időtartam, földrajzi hely. A küldött információk semmilyen személyes adatot nem tartalmaznak (például név, cím, telefon), a felhasználók azonosítására a Consteel Solutions Zrt. nem használja. Kereskedelmi Consteel és csJoint verziók esetén az információk gyűjtése kikapcsolható az Beállítások/Frissítés menüpontban. Kipróbálási és diák verziók esetén az információküldés nem kapcsolható ki.
 
 #### _Nyelv_
 
 ![alt text](img/nyelv.png)
 
-Opciók menü - Nyelv
+Beállítások menü - Nyelv
 
 Itt állítható be a felhasználói felület nyelve, ami a következő nyelvek közül választható: magyar, angol, német, spanyol, olasz, görög, portugál, orosz, kínai, török, lengyel, szlovák, szlovén, román, bolgár, szerb és horvát.
 
 A felhasználói felület nyelvének változtatása a program újraindítását követően érvényesül.
 
+### _Navigáció_
+
+![alt text](img/cs18navigacio.png)
+
+A navigációs fülön a felhasználók kiválaszthatják a kívánt beállítást. Különböző beállítások közül választhatnak, amelyek megfelelnek az általuk már ismert szoftvereknek. A beállítás legördülő menüje alatt a felhasználók megtekinthetik a Mozgatás, Forgatás és Nagyítás billentyűkombinációkat.
+
 #### _Háttérszín_
 
-[![Opciók párbeszédablak - háttérszín](https://www.Consteelsoftware.com/wp-content/uploads/2023/01/Opciok_dialog_hatterszin_j.png)](./img/wp-content-uploads-2023-01-Opciok_dialog_hatterszin_j.png)
+![alt text](img/cs18hatterszin.png)
 
-Opciók menü - Háttérszín
+Beállítások menü - Háttérszín
 
 A modell képernyő háttérszíne állítható itt be.
 
@@ -432,15 +442,15 @@ A modell képernyő háttérszíne állítható itt be.
 
 ![alt text](img/stílusok.png)
 
-Opciók menü - Stílusok
+Beállítások menü - Stílusok
 
 A különböző objektumok színeit lehet megadni.
 
 #### _Diagnosztika_
 
-![alt text](image-1.png)
+![alt text](img/image-1.png)
 
-Opciók menü - Diagnosztika
+Beállítások menü - Diagnosztika
 
 Analízis indítása előtt, a program ellenőrzi az esetleges modellezési hibákat. Két jelzési szint létezik, amivel a program figyelmeztetheti a felhasználót az esetleges modellezési hibákról:
 
@@ -470,7 +480,7 @@ Fontos megjegyezni, hogy amikor ez a funkció ki van kapcsolva, a vonalmenti meg
 
 ![alt text](img/Ideastatica.png)
 
-Opciók menü - IDEA StatiCa átmenet
+Beállítások menü - IDEA StatiCa átmenet
 
 A Consteel és az IDEA Statica programok közötti kapcsolat létrehozására itt kell megadni az IDEA telepítési mappáját. A mappa kiválasztásához a beviteli mező végén található mappa ![](./img/wp-content-uploads-2022-01-ico_folder.png) ikonra kell kattintani.
 
@@ -498,17 +508,22 @@ Az egyéni szabványbeállítást a program az alábbi fájlba menti: _\Dokument
 
 #### Súgó menü
 
-![](./img/wp-content-uploads-2024-01-1.2.-Help-menu-HU.png)
+![alt text](img/cs18sugomenu.png)
 
-A menü két kategóriára van osztva, amit a hosszanti sáv választ el, ahogy a képen látható. Az első részre vonatkozó információk találhatók.
+A menü két kategóriára van osztva, amit a hosszanti sáv választ el, ahogy a képen látható. Az első rész tartalmazza a következőket:
 
-Az első tartalmazza az elérhetőségeket az “[Consteel kézikönyvhöz](../../manual/intro.md)” és a “[Descript kézikönyvhöz](../../descript/15_1_introduction//index.md)“, valamint az “[Oktatói anyagok](https://Consteelsoftware.com/knowledgebase/?search=&filters=366,367,399,392,375,372)” almenüpont segítségével egy előszűrt tudásbázis anyagokat tartalmazó oldal érhető el. Ilyenkor nincs szükség külön bejelentkezésre a honlapunkon, mert a Consteel-t online védelemmel használó felhasználóinkat automatikusan felismeri az oldal.
+- Az első funkció, vagy az F1 gyorsbillentyű megnyitja a [Consteel kézikönyvhöz](../../manual/intro.md) (az oldalt, amelyet most olvasol), ahol a Consteel összes funkciójának részletes leírása található.
+- A második gomb a [Descript kézikönyvhöz](../../descript/15_1_introduction//index.md) (Ctrl+D) nyitja meg.
+- Az **Első lépések** gomb segítségével könnyen elérhető a szoftver YouTube oldala.
+- A **Navigációs áttekintés** az első ablak, amely a program megnyitása után megjelenik. Segít az új felhasználóknak megismerkedni a programmal (Shift+N).
+- Az [Oktatói anyagok](https://Consteelsoftware.com/knowledgebase/?search=&filters=366,367,399,392,375,372) gomb a Knowledge Base weboldalunkra mutat, ahol cikkek és példamodellek találhatók.
+- A **Gyorsbillentyűk** gomb megnyomásával megjelenik a legfontosabb parancsok és a hozzájuk tartozó gyorsbillentyűk listája.
 
-Az Első lépések gomb segítségével könnyen elérhető a szoftver YouTube oldala. A Gyorsbillentyűk lenyomásával megjelenik egy lista az összes fontos parancsról és azok megfelelő billentyűparancsairól.
+---
+
+A második kategóriához a **Support kérdés beküldése** gombra kattintva lehet eljutni. Az online ablak megnyílik, és két lehetőség jelenik meg. A problémától függően a felhasználók választhatnak a Consteel támogatás vagy a Steelspace támogatás között.
 
 ![](./img/wp-content-uploads-2024-01-1.2.-Help-center-HU-1024x683.png)
-
-A második kategóriához a Support kérdés beküldése gombra kattintva lehet eljutni. Az online ablak megnyílik, és két lehetőség jelenik meg. A problémától függően a felhasználók választhatnak a Consteel támogatás vagy a Steelspace támogatás között.
 
 ![](./img/wp-content-uploads-2024-01-1.2.-Consteel-tamogatas-HU.png)
 
@@ -930,7 +945,7 @@ A Consteel 17-től kezdve a már meglévő hibaüzenetek mellett megjelenik egy 
 
 Ez a hiba akkor jelentkezik, amikor az automatikus terheléselosztás ki van kapcsolva és a modellben olyan változás történik, amely indokolja a terhek újraosztását a helyes eredmény eléréséhez. A terheléseket a modell új állapotához való frissítéshez jelölje be a négyzetet, vagy kattintson a diagnosztika üzenet alatt megjelenő Frissítés gombra.
 
-További információkért kérjük, látogasson el az Opciók>[Terheszétosztás](#teherszétosztás) menüpontba.
+További információkért kérjük, látogasson el az Beállítások>[Terheszétosztás](#teherszétosztás) menüpontba.
 
 Geometriai vagy modellezési hibák (egy vagy több elem átfedése, hiányzó támasz stb…) észlelése esetén a Diagnosztika ablak automatikusan megjelenik, kijelezve a problémás elemeket.
 

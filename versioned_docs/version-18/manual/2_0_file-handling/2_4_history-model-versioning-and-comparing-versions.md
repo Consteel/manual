@@ -31,7 +31,7 @@ You can find the feature as an icon when hovering the Save icon or in the File m
 
 <!-- wp:image {"align":"center","id":44033,"sizeSlug":"full","linkDestination":"none"} -->
 
-![](./img/wp-content-uploads-2022-12-history_menu.jpg)
+![alt text](img/cs18history.png)
 
 History command within the File menu
 
@@ -478,3 +478,54 @@ Additionally, the Clip Plane checkbox allows users to gain a better perspective 
 ![](./img/wp-content-uploads-2024-03-Display.png)
 
 <!-- /wp:image -->
+
+### Comments
+
+The comments function can be used for the global structure, specific objects, or specific groups of objects.
+
+![alt text](img/cs18%20steelspacecomments.png)
+
+To **create** a comment, first [select](#selection) the object, group of objects, or if no selection is made, it will be a global comment referring to the entire model.
+
+Next, on the bottom right side of the window, you will find the "Comment Creation" button. Press it, and depending on the selected element, you will be able to write the comment.
+
+![alt text](img/cs18create%20comment.png)
+
+To **view** the assigned comments, go to the Visibility settings, and on the right side of the window, enable the visibility for comments.
+
+![alt text](img/cs18%20comment%20visibility.png)
+
+Select the Comment Type:
+In the **Comments panel**, choose the type of comment you want to view.
+
+- **Global** comments will be listed in the panel.
+  - Object-specific comments will appear on the model interface, associated with the respective objects.
+
+- **Object-Specific** Comments:
+  - To view the comments for a specific object, click the icon on the assigned object in the model.
+  - The Model Information window will automatically open, displaying the details for the selected section along with the relevant comments.
+
+![alt text](img/cs18%20model%20and%20comment%20info.png)
+
+- **Object group-specific** comments
+  - The comments will appear only after selecting the comment icon in the model interface.
+
+You can **delete**, **modify**, or **reply** to existing comments.
+
+  ![alt text](img/cs18%20comment%20reply.png)
+
+  ### Portions
+
+In the **Portions tab**, you can find all the created portions and storeys imported from other structural design and analysis software.
+
+![alt text](img/cs18portionsSteelspace.png)
+
+To **view** the portions, check the checkbox that appears in the panel and select the appropriate portions or storeys.
+
+You can **adjust the visibility** settings on the right side of the window, where you can choose from three options:
+
+- Model view - portions cannot be distinguished
+- Portion only view
+- Portions with transparent view
+
+![alt text](img/cs18portionsvisibility.png)

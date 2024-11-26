@@ -492,3 +492,54 @@ Ezenkívül a ,,Clip plane” jelölőnégyzet egy metszősíkot hoz létre a mo
 ![](./img/wp-content-uploads-2024-03-Display-1.png)
 
 <!-- /wp:image -->
+
+### Kommentek
+
+A kommentek funkció a globális struktúrára, specifikus objektumokra vagy specifikus objektumcsoportokra használható.
+
+![alt text](img/cs18%20kommentek.png)
+
+A komment **létrehozásához** először válaszd ki az objektumot, objektumcsoportot, vagy ha nincs kijelölve semmi, akkor globális kommentet hozhatsz létre, amely az egész modellre vonatkozik.
+
+Ezután az ablak jobb alsó sarkában megtalálod a "Komment létrehozása" gombot. Kattints rá, és a kijelölt elemek függvényében lehetőséged lesz a komment írására.
+
+![alt text](img/cs18create%20global%20comment.png)
+
+A hozzárendelt kommentek megtekintéséhez menj a **Láthatósági beállításokhoz**, és az ablak jobb oldalán engedélyezd a kommentek láthatóságát.
+
+![alt text](img/cs18kommentláthatóság.png)
+
+Válaszd ki a Komment Típusát:
+A Kommentek panelen válaszd ki azt a komment típust, amelyet meg szeretnél tekinteni.
+
+- **Globális** kommentek a panelen lesznek felsorolva.
+
+- Az **objektum-specifikus** kommentek a modell felületén jelennek meg, az adott objektumokhoz rendelve.
+
+ - Ha egy specifikus objektum kommentjeit szeretnéd megnézni, kattints a modellben az objektumhoz rendelt ikonra.
+ - A Modell információ ablak automatikusan megnyílik, és megjeleníti az adott szakasz részleteit és a kapcsolódó kommenteket.
+
+ ![alt text](img/cs18modelinfocomment.png)
+
+- **Objektumcsoport-specifikus** kommentek:
+ - A kommentek csak akkor jelennek meg, ha kiválasztod a komment ikont a modell felületén.
+
+A kommenteket **törölheted**, **módosíthatod** vagy **válaszolhatsz** rájuk.
+
+![alt text](img/cs18commentsreply.png)
+
+### Részletek
+
+A **Részletek fülön** megtalálhatók az összes létrehozott részlet és emelet, amelyeket más szerkezeti tervező és részletező szoftverekből importáltak.
+
+![alt text](img/cs18részletekelso.png)
+
+A részletek **megtekintéséhez** jelöld be a panelen megjelenő jelölőnégyzetet, és válaszd ki a megfelelő részletet vagy emeleteket.
+
+A **láthatósági beállításokat** a képernyő jobb oldalán érheted el, ahol három lehetőség közül választhatsz:
+
+- **Modell nézet** – a portiók nem különböztethetők meg
+- **Csak részlet nézet**
+- **Részletek átlátszó nézetben**
+
+![alt text](img/cs18portionsview.png)

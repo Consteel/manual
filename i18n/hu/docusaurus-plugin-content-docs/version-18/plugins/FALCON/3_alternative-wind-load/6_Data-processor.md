@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 ---
-# **Adatfeldolgozó**
+# Adatfeldolgozó
 
 Az adatfeldolgozó egy szekvenciális kliens, amely a széláramlás szimulálásához szükséges specifikus OpenFOAM alkalmazásokat használ az épületek körüli széláramlás szimulációjához, és az alábbi szakaszokat tartalmazza:
 

@@ -1,6 +1,7 @@
 ---
 sidebar_position: 3
 ---
+
 # Seismic effect
 
 Seismic effects can be created with the **Seismic effect** (![](./img/wp-content-uploads-2021-04-13-3-Seismic-effect.png)) function which can be found on the **Mass** tab. On the Seismic effect dialogue, all parameters can be set, which are required for the seismic analysis.
@@ -171,13 +172,11 @@ Considered storeys have to be chosen in the _Considered storeys_ for accidental 
 
 <!-- wp:paragraph -->
 
-
-
-
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-:::Danger
+
+:::danger
 When specifying the levels, it is important to know that Consteel takes the weights of the structure below the lowest level all of them to the lowest level by the torsional and second-order effects. This can be avoided by establishing a level 0 in the plane of the supports, so the weight distribution between the support and the first level will also be performed.
 :::
 

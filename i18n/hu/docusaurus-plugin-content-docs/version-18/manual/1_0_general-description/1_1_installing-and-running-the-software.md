@@ -523,3 +523,18 @@ A felhőtárhelyet a Steelspace platform biztosítja
 A felhőtárhelyről megnyitott modellek minden esetben letöltésre kerülnek az alábbi mappába: C:\\Users\\\{username\}\\AppData\\Local\\Consteel\\CloudModels, és a munka során folyamatosan szinkronizált kapcsolatban maradnak a felhőben tárolt változattal.
 
 <!-- /wp:paragraph -->
+
+### Navigációs áttekintés
+
+A modell megnyitása után az első felugró ablak a Navigációs áttekintés. Ez az ablak segít az új felhasználóknak abban, hogy megismerkedjenek a Consteel által biztosított funkciókkal:
+- 	**Navigáció**: navigációs preferenciáidat testre is szabhatod – például a mozgatást, forgatást és nagyítást – több népszerű szoftverplatform beállításai közül választva
+- 	**Kijelölés**: a leggyakrabban használt kijelölési típusok bemutatása
+- 	**Modell nézetek**: Elrejtés, Részlet modell nézet és Teljes modell nézet
+- 	**Háttér**: Alapértelmezett, Világos, Sötét
+- 	**Segítség**: Támogatás, gyorsbillentyűk és oktató anyagok
+
+ ![alt text](img/image-2.png)
+
+Tapasztaltabb felhasználók számára ez az ablak véglegesen bezárható a „Ne mutassa ezt az üzenetet többször” jelölőnégyzet megnyomásával. Az ablak bármikor megnyitható a Súgó menüből. `Shift + N`
+
+![alt text](img/image-3.png)

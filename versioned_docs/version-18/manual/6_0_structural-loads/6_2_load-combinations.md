@@ -1,11 +1,10 @@
 ---
 sidebar_position: 2
 ---
+
 # Load combinations
 
 ### **Limit states**
-
-
 
 <!-- /wp:paragraph -->
 
@@ -69,7 +68,6 @@ Limit states introduced in Consteel are combination of limit states and design s
 
 In order to cover cases not strictly under EC scope, and make sure of smooth transition of old files, there is an ‘Other’ limit state for ULS and SLS too.
 
-
 When opening models saved in previous Consteel versions, the limit states will be converted as follows:
 
 - ULS -> ULS Other
@@ -80,12 +78,9 @@ When opening models saved in previous Consteel versions, the limit states will b
 
 - SLS EQ (Seismic generated) -> SLS Seismic
 
-
 For manually defined load combinations, the limit states can be selected. Seismic combinations can not be defined manually, they can be created only by automatic generation. Load combinations in ULS GEO P/T and ULS EQU P/T limit states are used only for foundation design. Consequently, global design checks will not be performed in these limit states and analysis results are not transferred for connection design (except for spread footing).
 
-
 ### **Load combinations**
-
 
 According to the actual _[structural design code](../1_0_general-description/1_2_the-main-window.md)_, load case combinations must be created from the _[load cases](./6_1_load-cases-and-load-groups.md#create-new-load-group)_. Load combinations can be created manually by defining the combination factors manually for each load case or can be created automatically by using the **Automatic load combination generation** function of _Consteel_.
 
@@ -166,8 +161,6 @@ The yellow rows in the load combination table are the automatically generated co
 <!-- wp:paragraph -->
 
 <!-- /wp:paragraph -->
-
-
 
 A huge number of load combinations needs a long period of time to be calculated in the analysis. So it is good to keep the number of the load combinations to the minimum. If the automatic load combination feature is used, it is advisable to filter the unnecessary load cases before the generation. A ticked checkbox means, that the load case will be used for the load combination generation.
 
@@ -319,7 +312,7 @@ All existing load combinations are listed here. The goal is to create reduced li
 
 \-In the upper right corner of the table, the eye-shaped icon regulates the visibility of the load combinations. The two options are: show all and show only selected
 
-![alt text](img/showall.png)    ![alt text](img/showselected.png)
+![alt text](img/showall.png) ![alt text](img/showselected.png)
 
 <!-- /wp:paragraph -->
 
@@ -456,9 +449,11 @@ Rules can be applied by checking in the checkbox in the first column of the summ
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
+
 :::info
 Rules can only be applied on calculation results. If the result necessary for the applied rule is not existent in some load combinations, then those load combinations will be turned off.
 :::
+
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"justify"} -->
@@ -477,10 +472,11 @@ Rules can be applied to model portions. It means that only the results of the no
 
 When applying more than one rules together, the lists of selected combinations is the sum of the lists that would have been created separately.
 
-:::Danger
+:::danger
 
 The result of filtering by two rules will differ when applying the rules at the same time or one after another because the list of combinations that the filters are applied on are different.
 :::
+
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -713,33 +709,23 @@ With analysis rules, load combinations can be selected based on deformations or 
 
 - **_More than % of maximum:_** to select the combinations as ’Maximum’ plus those which cause deformation or internal force that is more than the given percentage of the maximum. E.g. at a certain point Mymax=50kNm, Limitation= More than 90% of maximum. This rule will select all the load combinations which cause My=45-50kNm.
 
-
 ![](./img/wp-content-uploads-2023-04-Analysis-rule-1.png)
 
 **Buckling rule**
 
-
 _-Buckling rules_: It is possible to select those ULS load combinations where the elastic critical load factor (first buckling eigenvalue) is less than the given value.
-
 
 ![](./img/wp-content-uploads-2023-04-Buckling-rule.png)
 
-
 **Design rule**
-
 
 With design rules, load combinations can be selected based on utility ratios. Utilizations are available from several design checks: dominant results and detailed verifications for steel elements such as general elastic cross-section check, pure resistances, interactions and global stability. Only ULS combinations can be filtered with design rules.
 
-
 Design rules are checked for every FE point of the model portion.
-
 
 \- _Utilization type:_
 
-
-
 - **_Maximum of dominant results_:** it contains utility ratios of only one dominant load combination at every point, exactly the same as the dominant result table on Global checks tab. Consequently, there is only one option for limitation, ’More than’ the given utility ratio (%).
-
 
 * **_Steel – Dominant results_**: it contains utility ratios of the dominant check at every point, in all load combinations. Limitations:
 
@@ -749,18 +735,13 @@ Design rules are checked for every FE point of the model portion.
 
   - **_More than_**: to select the combinations which cause utilization more than the defined value at any point.
 
-
 - **Steel – General elastic cross-section resistance, Pure resistances….Global stability resistance:** they contain the ratios of the concrete checks in every load combination at every point.
-
 
 ![](./img/wp-content-uploads-2023-04-Design-rule.png)
 
-
-:::Danger
-
+:::danger
 
 **_Steel – Dominant results_** are produced the same way as it is done on **Global checks** tab. Except the handling of the equal maximal ratios. On **Global checks** only one maximal is shown, in the filter all is selected.
-
 
 The dominant check is not always the check which gives the maximal ratio: e.g. if plastic interaction formulas are valid, those results will be dominant over general elastic cross-section check results, although the latter are higher. If there are only cross-section check results available, the **_Steel – Dominant results_** will consider only those.
 :::

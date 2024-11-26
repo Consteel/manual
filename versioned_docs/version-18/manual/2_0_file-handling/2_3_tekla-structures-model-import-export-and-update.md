@@ -82,7 +82,8 @@ For the import process from Tekla Structures, it is indispensable to run Tekla a
 
 <!-- wp:image {"align":"center","id":7450,"width":281,"height":212,"sizeSlug":"full","linkDestination":"media"} -->
 
-![alt text](<img/CS17 uj logo.png>)
+![alt text](img/cs18teklaimport.png)
+
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -269,7 +270,7 @@ To export a model from Consteel it is important to run both programs at the same
 
 <!-- wp:image {"align":"center","id":7474,"width":335,"height":199,"sizeSlug":"full","linkDestination":"media"} -->
 
-![alt text](<img/tela export cs17.png>)
+![alt text](img/cs18teklaexport.png)
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->

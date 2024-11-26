@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 ---
-# **Előfeldolgozás**
+# Előfeldolgozás
 
 Az előfeldolgozó egy működési fázisként is említhető, vagy egy olyan módszerek gyűjteményeként, amelyeknek két fő feladata van. Az egyik feladat az, hogy az input geometriát egy specifikus háló formátumba konvertálja, amelyet hagyományos hálóként lehet leírni, háromszög vagy négyszög alakú felületekkel és csomópontokkal, de lehetséges a polygonális (Ngon) felületekkel rendelkező háló értelmezése is.
 

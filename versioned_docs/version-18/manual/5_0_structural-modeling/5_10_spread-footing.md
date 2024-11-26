@@ -1,9 +1,10 @@
 ---
 sidebar_position: 10
 ---
+
 # Spread footing
 
- **_Spread footing_** function is available on **_Structural members_** tab. It is a targeted function only for shallow spread foundations of separate columns.
+**_Spread footing_** function is available on **_Structural members_** tab. It is a targeted function only for shallow spread foundations of separate columns.
 
 <!-- /wp:paragraph -->
 
@@ -147,14 +148,14 @@ Spread footing placed under eccentric column:
 
 <!-- wp:image {"align":"left","id":44536,"width":138,"height":147,"sizeSlug":"full","linkDestination":"none"} -->
 
-
-:::Danger
+:::danger
 
 The visualization of the spread footing can be the same or very similar with two different eccentricity definitions (combination of eccentricity types), but the finite element models can still be different. It is important to make sure about the correctness of the structural model.
 
 Punching shear verification considers the eccentricities defined in Consteel Joint when calculating the perimeters.
 
 :::
+
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -191,12 +192,11 @@ Self-weight of the spread footing is not considered in the analysis, it is calcu
 
 <!-- wp:image {"align":"left","id":44544,"width":144,"height":153,"sizeSlug":"full","linkDestination":"none"} -->
 
-
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-:::Danger
+:::danger
 
 It is important to take care of the end releases of the column the spread footing is connected to.
 
@@ -278,8 +278,6 @@ Different verifications are performed in the corresponding limit states.
 
 <!-- wp:image {"align":"left","id":44558,"width":142,"height":151,"sizeSlug":"full","linkDestination":"none"} -->
 
-
-
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -291,8 +289,10 @@ Different verifications are performed in the corresponding limit states.
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
+
 :::warning
 
 When adjusting the dimensions of the foundation (height, ex, ey) during the design process, the loads become obsolete. It is necessary to run a new analysis in Consteel to get the correct foundation loads
 :::
+
 <!-- /wp:paragraph -->

@@ -12,7 +12,7 @@ In this dialogue window, you can see all the previously loaded sections and new 
 
 <!-- wp:image {"align":"center","id":21905,"sizeSlug":"full","linkDestination":"media"} -->
 
-![](img\wp-content-uploads-2021-04-dial_section_admin.png)
+![alt text](<img/Section administartion18.png>)
 
 
 The main part of the window is the table of sections that contains the following columns:

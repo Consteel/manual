@@ -1,6 +1,7 @@
 ---
 sidebar_position: 2
 ---
+
 # Create joint
 
 ### Create joint without model
@@ -51,7 +52,7 @@ After clicking on the Create button (![](./img/wp-content-uploads-2021-04-14-3-c
 
 <!-- wp:paragraph -->
 
-The type of the joint has to be defined on the next dialog. _csJoint_ can handle great variety of joint types, which covers nearly the whole joint standard Eurocode 3 Part 1-8. 
+The type of the joint has to be defined on the next dialog. _csJoint_ can handle great variety of joint types, which covers nearly the whole joint standard Eurocode 3 Part 1-8.
 
 <!-- /wp:paragraph -->
 
@@ -172,18 +173,21 @@ After creating the joint it is advisable to place it in the global model. There 
 The fastest way of placing a joint, is to place it from the Joint details dialog directly, right after when it is been created. Place… button can be found at the bottom left corner of Joint details dialog (see picture below). By choosing it, it is possible to place the joint to several places by single clicks on the 3D structural model where the same geometry exists. By clicking End joint placement button (see picture below), loads will automatically imported from the model if analysis results are available.
 
 <!-- /wp:paragraph -->
+
 ![alt text](img/jointplacement.png)
 ![alt text](img/endjointplacement.png)
+
 <!-- wp:paragraph -->
 
 The other way of placing a joint, is to use Place joint function, which can be found on the Structural members tab. This function is useful when more previously created joints have to be placed. One joint can be placed to several places in the model where the same geometry exists. After the joint is placed, _csJoint_ automatically import the loads from the global model if analysis results are available.
 
-
 <!-- wp:paragraph {"placeholder":"Content…"} -->
-:::Danger
+
+:::danger
 
 It should be bear in mind that the settings in the csJoint module (profiles sizes, material grades, etc.) will not effect the 3D model. the changed values will be considered in the joint calculation only! The user has to way to keep the model consistent: 1. After modifying the connection the 3D model has to be changed accordingly, 2. Change the 3D model first run the analysis, redefine the connection.
 :::
+
 <!-- /wp:paragraph -->
 
 <!-- /wp:media-text -->
@@ -208,7 +212,6 @@ No matter if a joint is created with or without model manipulating the joint is 
 
 Select the joint from the tree structure on the Joint dialog, and press Details (![](./img/wp-content-uploads-2021-04-15-3-place-det-button.png)) button, or double click on the name of the joint.
 
-
 ![alt text](img/jointeditdial.png)
 
 <!-- wp:heading {"level":4} -->
@@ -220,7 +223,6 @@ Select the joint from the tree structure on the Joint dialog, and press Details 
 <!-- wp:paragraph -->
 
 After the creation of a new joint, or opening an existing one for modification, the Joint details dialog appears, which can be separated into four parts. The window contains the general information about the joint: Joint name, project, engineer, date, etc. These properties will appear in the joint documentation and also useful to distinguish joints from each other.
-
 
 ![alt text](img/jointdetaldial.png)
 
@@ -271,6 +273,7 @@ If the _Column_ is selected in the connection tree, then column related properti
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":9746,"width":686,"height":494,"sizeSlug":"full","linkDestination":"media"} -->
+
 ![alt text](img/jointcolumn.png)
 
 <!-- wp:paragraph -->
@@ -287,8 +290,8 @@ Stiffeners can be added if _Stiffeners_ is clicked in the connection tree. Upper
 
 <!-- wp:image {"align":"center","id":9752,"width":680,"height":477,"sizeSlug":"full","linkDestination":"media"} -->
 
-
 ![alt text](img/jointstiffener.png)
+
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -300,8 +303,6 @@ Stiffeners can be added if _Stiffeners_ is clicked in the connection tree. Upper
 <!-- wp:paragraph -->
 
 If _Joint loading_ is selected, it is possible to choose from two options (#1). When “User defined joint loading” is selected, joint loads can be given manually by defining load cases, and internal forces (#2). If “Model based joint loading” is selected, _csJoint_ automatically imports the internal forces from all of the combinations after the joint is placed in the modelling area.
-
-
 
 ![alt text](img/jointloads.png)
 
@@ -319,8 +320,8 @@ If the _Beam_ is selected in the connection tree, then beam related properties o
 
 <!-- /wp:paragraph -->
 
-
 ![alt text](img/jointbeam.png)
+
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -335,9 +336,8 @@ _End plate_ properties (geometry, material) can be edited in the #1 part of the 
 
 <!-- /wp:paragraph -->
 
-
-
 ![alt text](img/jointendplate.png)
+
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
