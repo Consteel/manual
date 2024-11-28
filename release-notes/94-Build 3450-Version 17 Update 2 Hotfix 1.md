@@ -9,5 +9,5 @@ tags: [consteel, update]
 
 _**Bug fixes:**_
 
--Fixes on usage statistic data collection.
+- Fixes on usage statistic data collection.
 

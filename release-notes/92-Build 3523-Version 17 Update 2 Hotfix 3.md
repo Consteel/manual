@@ -8,4 +8,4 @@ tags: [consteel, update]
 
 **_Bug fixes:_**
 
--There was a bug causing seemingly random problems of dialog update including import and material definition dialog issues. The bug has been fixed. 
+- There was a bug causing seemingly random problems of dialog update including import and material definition dialog issues. The bug has been fixed. 

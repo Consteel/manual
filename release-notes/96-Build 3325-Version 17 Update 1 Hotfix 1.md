@@ -8,4 +8,4 @@ tags: [consteel, update]
 **11-03-2023 	build 3325**
 
 **_Bug fixes:_**
--In some cases, Consteel did not start because of missing dll files. The bug has been fixed. 
+- In some cases, Consteel did not start because of missing dll files. The bug has been fixed. 
