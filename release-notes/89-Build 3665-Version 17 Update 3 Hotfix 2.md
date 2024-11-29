@@ -12,13 +12,13 @@ tags: [consteel, update]
 
 _**Bug fixes:**_
 
--In some models, the display of the sensitivity results took unnecessarily long time. The bug has been fixed. 
+- In some models, the display of the sensitivity results took unnecessarily long time. The bug has been fixed. 
 
--Design of concrete columns has also become faster.
+- Design of concrete columns has also become faster.
 
--Diagnostic differences in case of Polish and Slovanian language have been fixed. 
+- Diagnostic differences in case of Polish and Slovanian language have been fixed. 
 
--Design of Class 4 tube sections has been fixed. 
+- Design of Class 4 tube sections has been fixed. 
 
 
 

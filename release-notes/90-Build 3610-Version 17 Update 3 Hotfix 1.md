@@ -12,8 +12,8 @@ tags: [consteel, update]
 
 _**Bug fixes:**_
 
--There was an error in the analysis in some cases when tension-only rods were loaded with temperature load. The bug has been fixed.  
+- There was an error in the analysis in some cases when tension-only rods were loaded with temperature load. The bug has been fixed.  
 
--More e-mail addresses are accepted in the crash report sender. 
+- More e-mail addresses are accepted in the crash report sender. 
 
 
