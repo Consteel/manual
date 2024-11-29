@@ -8,8 +8,7 @@ tags: [consteel, update]
 **21-11-2024    build 3866**
 
 
-
-[_**New Consteel version 18**_](../versioned_docs/version-18/manual/whats-new-in-consteel-18.md)
+**New Consteel version 18**
 
 - New onboarding options, including the new Project Center and Navigation Overview, have been added.
 -  Interoperability has been improved with the new Import Center and generalized model conversion.
