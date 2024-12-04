@@ -1101,7 +1101,7 @@ Even when using the Descartes coordinate system, it is possible to define a poin
 
 <!-- wp:paragraph -->
 
-By moving the slider (![](./img/wp-content-uploads-2021-04-slider-v15.png)), the size representation of the objects can be changed. Clicking on it with the right mouse button the sizes can be changed individually by object types. The next four icons ( ![](./img/wp-content-uploads-2021-04-2-2-6-status-bar10.png)) allow the sophisticated visibility adjustment. By approaching any of these icons with the cursor a group of graphic symbols will appear ordered into a matrix shape.
+By moving the slider (![](./img/wp-content-uploads-2021-04-slider-v15.png)), the size representation of the objects can be changed. Clicking on it with the right mouse button the sizes can be changed individually by object types. The next four icons ( ![alt text](img/icons.png)) allow the sophisticated visibility adjustment. By approaching any of these icons with the cursor a group of graphic symbols will appear ordered into a matrix shape.
 
 <!-- /wp:paragraph -->
 
@@ -1321,6 +1321,7 @@ You can also open the window from the View menu. For more information, visit the
 
 - Colors of members according to the default settings (layer styles)
 - Colors of members according to the section colors (see _**[Section administration](../10_0_section-module/10_1_section-modelling.md)**_ for information on how to change colors.)
+- ![alt text](img/colorFE.png) Colors of members according to the type of finite element
 
 <!-- wp:heading {"level":4} -->
 
