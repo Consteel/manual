@@ -198,7 +198,7 @@ Ha a rúd középvonala függőleges (oszlopok esetében), akkor a rúd lokális
 
 <!-- wp:media-text {"align":"","mediaId":8290,"linkDestination":"media","mediaType":"image","mediaWidth":23,"mediaSizeSlug":"full","verticalAlignment":"top","imageFill":false} -->
 
-![](img\wp-content-uploads-2021-04-image-3.png)
+![alt text](img/lokalisxcoord.png)
 
 <!-- wp:paragraph {"placeholder":"Content…"} -->
 

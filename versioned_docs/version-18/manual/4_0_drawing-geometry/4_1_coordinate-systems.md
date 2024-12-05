@@ -211,7 +211,7 @@ In the case of a vertical reference line (column members) the local axis “y”
 
 <!-- wp:media-text {"align":"","mediaId":8290,"linkDestination":"media","mediaType":"image","mediaWidth":23,"mediaSizeSlug":"full","imageFill":false} -->
 
-![](img\wp-content-uploads-2021-04-image-3.png)
+![alt text](img/localxcoored.png)
 
 <!-- wp:paragraph {"placeholder":"Content…"} -->
 
