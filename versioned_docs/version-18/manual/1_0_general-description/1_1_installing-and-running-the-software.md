@@ -326,7 +326,7 @@ Subscription plan information and end-user management
 
 <!-- wp:paragraph -->
 
-#### **Project Center**
+### **Project Center**
 
 <!-- /wp:paragraph -->
 
@@ -335,106 +335,89 @@ Subscription plan information and end-user management
 The Project Center unites all the functionalities for model and account management.
 
 <!-- /wp:paragraph -->
-
+![alt text](img/projet%20center%20cs18.png)
 <!-- wp:paragraph -->
 
-On the left side of the screen, you can view learning materials on the Learn tab, or open a model from your computer or from the cloud if you are logged into your Consteel account **(1)**. On the Home tab, you can create **(2)** New model, access your **(4)** Recent models from your computer and read news and updates from the **(5)** Info hub. You can access your license information and change the online protection setting to offline mode by clicking on the Licence button **(3)**. You can log in to your account at the top right corner if you haven't logged in already **(3)**. The top bar will have an active button as well when a new update is available to download or your access will expire soon. Support options are also available from the left bottom side of the Project Center **(6)**.
+In the top-right corner, you can access and open the following:
+- **News** : Display news that are relevant and engaging for the users.
+- **Notifications**: Lists all general public announcements, such as reminders or notifications about temporary updates, possibly including a link.
+- **Protection Type**: Indicates whether the protection is online or USB dongle.
+- **Licence Window**: Allows you to access your licence information and change protection settings or go offline.
+![alt text](img/licencecs18.png)
 
-<!-- /wp:paragraph -->
+![alt text](img/generalinfocs18.png)
 
-<!-- wp:image {"align":"center","id":45006,"width":783,"height":463,"sizeSlug":"large","linkDestination":"none","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+In the top-left side you can choose between opening options from the computer or from the cloud.
 
-![](./img/wp-content-uploads-2023-02-projectcenter_guide-1024x606.png)
+![alt text](img/openfromcs18.png)
 
-<!-- /wp:image -->
+In the middle-left side you can navigate to Home, + Create New, Open and Learn tabs.
 
-<!-- wp:paragraph -->
+![alt text](img/tabspccs18.png)
 
-At the Licence settings **(3)**, you can access your license information and also go offline mode if it's available or change the launch settings.
+#### Home tab
 
-<!-- /wp:paragraph -->
+This is the screen that appears when opening Consteel. It differs depending on whether you are a **commercial** or **trial** user. In the trial version, since you do not yet have any recent models, **example models** are displayed in the top section to help you get familiar with the software.
 
-<!-- wp:image {"align":"center","id":44998,"width":726,"height":431,"sizeSlug":"large","linkDestination":"none","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+For commercial users, their **recent models** appear in the same section. The bottom part is the same for all users, where all options for **Creating new** models are provided.
 
-![](./img/wp-content-uploads-2023-02-licence_menu_projectcenter-1024x608.png)
+#### Create new tab
 
-<!-- /wp:image -->
+![alt text](img/createnewcs18.png)
 
-<!-- wp:paragraph -->
+New models can be created by entering a name, selecting a design standard, and choosing the model language. You can choose from the following options:
+- **Start from the begining**: Create a new empty model with no predefined structural members.
+- **Import**: Opens a new model, and it will automatically trigger the Import Center window, allowing you to import models from various file formats.
+- **Start with predefined parameters**: Open a project and select a model from the parametric model library, where you can filter and choose the preferred model.
 
-From the Learn screen, you can access various learning materials and example models from the [Knowledge base](https://Consteelsoftware.com/knowledgebase/).
+![alt text](img/opentabcs18.png)
 
-<!-- /wp:paragraph -->
+#### Open tab
 
-<!-- wp:image {"align":"center","id":28198,"width":730,"height":394,"sizeSlug":"large","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+![alt text](img/thisisopencs18.png)
 
-![alt text](img/learningc.png)
+You can choose between Open from computer, Open from Cloud and Recent files. 
 
-Learning Center
+**Could open**
 
-<!-- /wp:image -->
+If you have models in your cloud storage or someone shared a model with you, you can access those models by clicking on the _"Open from Cloud"_ button.
 
-<!-- wp:paragraph -->
+On the top left corner, you can choose between the following folders: My Models, Shared with Me, and Public Models. Clicking on any of these will open the corresponding folder. (1).
 
-#### **Opening models**
+You can execute different actions (2) in your cloud storage from left to right: _"create new folder", "move", "share model", "delete", "search", "sort by date or name", "list or card view"_, and switch _"model or folder information"_ on or off.
 
-<!-- /wp:paragraph -->
+The **Model Details** window will appear after selecting a model or folder and clicking the _"Model Information"_ button. In this window, you can view details such as the _folder's creation date, parent folder,_ and _size_. 
 
-<!-- wp:paragraph -->
+If a model is selected, it will display information including _the model name, storage used, location, owner, creation date, last modification date,_ and _model description_. For models in the **History tab**, you can navigate through all the created histories of the current model. In the case of folders, the History tab is inactive. (3).
 
-To access your models from your computer just click the "Open from Computer" button.
+Every model opening and sharing cost data bandwidth from your storage. Your monthly bandwidth limit is set by your membership level. You can monitor your current bandwidth usage at the left bottom corner (4).
 
-<!-- /wp:paragraph -->
+![alt text](img/steelspacecs18pc.png)
 
-<!-- wp:paragraph -->
+Cloud storage provided by the Steelspace platform
+When you open a model from the cloud it is always downloaded to the local device into the folder: C:\Users(username)\AppData\Local\Consteel\CloudModels and kept synchronized. The amount of data bandwidth is set by your subscription's membership level, and it will renew every month.
 
-#### **Cloud open**
+#### Learn tab
 
-<!-- /wp:paragraph -->
+![alt text](img/learnatbcs18.png)
 
-<!-- wp:paragraph -->
+In this window, you can filter between model examples and learning materials according to your needs. Several tutorials are already available, providing step-by-step instructions for specific modeling or design phases, focusing on important features. Our tutorial library will be expanded soon.
 
-If you have models in your cloud storage or someone shared a model with you, you can access those models by clicking on the "Open from Cloud" button.
+On the left side, you can filter by design problem, structure type, and building type. Multiple categories can be selected at once.
 
-<!-- /wp:paragraph -->
+Once you select an example model, a description will appear on the right side, providing all the relevant information about the model. Below the description is the **Open** button; pressing it will open a Consteel project containing the selected model.
 
-<!-- wp:paragraph -->
+If you select learning material, a description of the article will appear on the right side. Below the description is the **Learn More** button, which will guide you to our Knowledge Base platform, where you can read the full article based on your membership type.
 
-The folder tree can be seen on the left side of the screen **(1)**.
+#### Getting Started and Help
 
-<!-- /wp:paragraph -->
+At the bottom-left corner of the Project Center, you will find the **Getting Started** and **Help** buttons.
 
-<!-- wp:paragraph -->
+Clicking the **Getting Started** button will direct you to our YouTube channel, where you can find videos about new features and tutorials on how to use the software.
 
-You can execute different actions **(2)** in your cloud storage from left to right: "_create new folder_", "_move_", "_share model_", "_delete_", "_search_", "_sort by date or name_", "_list or card view_", and switch "_model or folder information_" on or off.
+The **Help** button will take you to the Consteel Help Center, where you can access support for both Consteel and Steelspace. To use the Consteel Support Center or the Steelspace support, you need to register separately.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-A descriptive panel will appear regarding the selected model or folder if the _model information_ is switched on **(3)**.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-Every model opening and sharing cost data bandwidth from your storage. Your monthly bandwidth limit is set by your membership level. You can monitor your current bandwidth usage at the left bottom corner **(4)**.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":28219,"width":768,"height":402,"sizeSlug":"large","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-![](img\wp-content-uploads-2021-11-cloud-open-manual-1024x536.png)
-
-**Cloud storage provided by the Steelspace platform**
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-When you open a model from the cloud it is always downloaded to the local device into the folder: C:\\Users(username)\\AppData\\Local\\Consteel\\CloudModels and kept synchronized. The amount of data bandwidth is set by your subscription's membership level and it will renew every month.
-
-<!-- /wp:paragraph -->
+![alt text](image.png)
 
 ### Navigation overview
 

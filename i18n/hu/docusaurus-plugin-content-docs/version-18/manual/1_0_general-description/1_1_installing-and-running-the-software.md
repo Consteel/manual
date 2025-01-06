@@ -404,125 +404,94 @@ Előfizetés és felhasználó menedzsment
 
 <!-- wp:paragraph -->
 
-A Projekt Központ egyesíti magában a modell- és a felhasználói fiókkezelés összes funkcióját. A szoftvervédelem megadása után ezzel az ablakkal indul a program, melynek bal oldali főmenüjében 4 nézet érhető el.
+A Projekt Központ egyesíti magában a modell- és a felhasználói fiókkezelés összes funkcióját.
 
 <!-- /wp:paragraph -->
+
+![alt text](img/homepccs18.png)
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
 
-#### **Home**
+A jobb felső sarokban az alábbiakhoz férhetsz hozzá:
+- **Hírek**: Itt jelennek meg a felhasználók számára releváns és érdekes hírek.
+- **Értesítések**: Itt jelennek meg az általános közérdekű közlemények, például emlékeztetők vagy értesítések ideiglenes frissítésekről, esetleg egy linkkel együtt.
+- **Védelem típusa**: Jelzi, hogy a védelem online vagy USB dongle védelem.
+- **Általános információk ablak**: Lehetővé teszi a licencinformációk elérését és az online védelem offline módra történő váltását.
 
-<!-- /wp:paragraph -->
+![alt text](img/licenc2cs18.png)
 
-<!-- wp:paragraph -->
+![alt text](img/licenccs18.png)
 
-A bal oldali menüsávban lehetőség nyílik a Kezdőlapon kívül oktatási anyagokat felfedezni vagy modellfájlokat megnyitni számítógépről vagy a felhőből **(1)**. A Home nézetben lehetőség van (**2**) **új modell** létrehozására, (**4**) **korábbi modellek** megnyitására, valamint (**5**) **hírek** és friss információk megjelenítésére. A **(3)** **Licence** gombbal a használt licensz információi jeleníthetők meg, a jobb felső sarokban pedig a **felhasználói fiók**ba történő belépés lehetséges és itt érhető el az offline használatra váltás is. A bal alsó sarokban a szoftver támogatási rendszerünk érhető el közvetlenül **(6)**. Ha van elérhető frissítés a programhoz vagy a hozzáférés hamarosan lejár, az is a Projekt Központ ablak felső sorában jelenik meg.
+A bal felső sarokban választhatsz a számítógépről vagy a felhőből történő megnyitás között. 
 
-<!-- /wp:paragraph -->
+![alt text](img/imagemegnyitás.png)
 
-<!-- wp:image {"align":"center","id":45014,"width":742,"height":438,"sizeSlug":"large","linkDestination":"media"} -->
+A bal oldalon, a középső részen navigálhatsz a Kezdőlap, + Új létrehozása, Megnyitás és Tanulás fülek között.
 
-![](img\wp-content-uploads-2023-02-projectcenter_guide-1-1024x606.png)
+![alt text](img/kezdolapesmas.png)
 
-Projekt Központ nyitó képernyője
+#### Kezdőlap fül 
+Ez a képernyő jelenik meg a Consteel megnyitásakor. Különbség van a kereskedelmi és a trial verzió felhasználói között. A **trial** verzióban, mivel még nem tartalmaz korábban elmentett modelleket, **példamodellek** jelennek meg a felső részen, hogy segítsenek megismerkedni a szoftverrel.
 
-<!-- /wp:image -->
 
-<!-- wp:paragraph -->
+A **kereskedelmi** felhasználók esetén az ő **legutóbbi modelljeik** jelennek meg ugyanitt. Az alsó rész minden felhasználó számára ugyanaz, ahol az összes lehetőség elérhető **új modellek létrehozásához**.
 
-A **(3)** Licence gomb megnyomásával egy új ablak jelenik meg, ahol megtalálhatók a licensz információi, aktiválhatjuk az offline használatot, illetve megváltoztathatjuk az indítási alapértelmezett beállításokat.
+#### Új Létrehozása fül 
 
-<!-- /wp:paragraph -->
+![alt text](img/létrehozascs18.png)
 
-<!-- wp:image {"align":"center","id":45021,"width":681,"height":404,"sizeSlug":"large","linkDestination":"media"} -->
+Új modelleket hozhatsz létre a név megadásával, a tervezési szabvány kiválasztásával és a modell nyelvének megadásával. Az alábbi lehetőségek közül választhatsz:
 
-![](img\wp-content-uploads-2023-02-licence_menu_projectcenter-1-1024x608.png)
+- **Új üres modell indítása**: Olyan új modellt hozhatsz létre, amely nem tartalmaz előre definiált szerkezeti elemeket.
+-** Import**: Az új modell megnyitásával automatikusan megnyílik az Import Center, amely lehetővé teszi a modellek importálását különböző fájlformátumokból.
+- **Parametrikus modell indítása**: A projekt megnyitásával a parametrikus modell könyvtárból kiválaszthatsz egy modellt, a modellek szűrhetőek.
 
-Licensz beállítás
+![alt text](img/szurescs18.png)
 
-<!-- /wp:image -->
+#### Megnyitás fül
+![alt text](img/megnyitaslegutobbics18.png)
 
-<!-- wp:paragraph {"fontSize":"medium"} -->
-
-**Learn**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-A második menüpontból az online [_**Tudásbázis**_](https://Consteelsoftware.com/hu/knowledgebase/) különböző cikkei és példa modelljei érhetők el.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":28198,"width":730,"height":394,"sizeSlug":"large","linkDestination":"media"} -->
-
-![](img\wp-content-uploads-2021-11-projectcenter3-1024x576.png)
-
-Tudásbázis
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph {"fontSize":"medium"} -->
-
-**Megnyitás számítógépről**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-A számítógépen tárolt modellek megnyitása a főmenü negyedik, "_Open from Computer_" parancsával lehetséges.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"fontSize":"medium"} -->
+Választhatsz a Számítógépről való megnyitás, Felhőből való megnyitás és Legutóbbi fájlok lehetőségek közül.
 
 **Felhőtárhely**
 
-<!-- /wp:paragraph -->
+A főmenü harmadik pontjával (_"Open from Cloud"_) megnyíló nézetben a felhőtárhelyen tárolt modelljeinket, valamint a más által velünk megosztott modelleket érhetjük el.
 
-<!-- wp:paragraph -->
+Az ablak bal felső sarkában választhatsz a következő mappák közül: *Saját modellek, Megosztva velem* és *Nyilvános modellek*. Bármelyikre kattintva megnyílik a megfelelő mappa. **(1)** .
 
-A főmenü harmadik pontjával ("_**Open from Cloud**_") megnyíló nézetben a felhőtárhelyen tárolt modelljeinket, valamint a más által velünk megosztott modelleket érhetjük el.
+A jobb felső menüben **(2)** található parancsokkal balról jobbra haladva *új mappát hozhatunk létre, áthelyezhetjük, megoszthatjuk* vagy *törölhetjük a modellt*. Kereshetünk a tárhelyen, rendezhetjük a listát különböző tulajdonságok szerint, válthatunk a lista vagy a kártya nézet között, végül be-, vagy kikapcsolhatjuk a modell és mappa információs panelt.
 
-<!-- /wp:paragraph -->
+A kiválasztott modell vagy mappa részletes tulajdonságai ablak a modell vagy mappa kiválasztása után és a *Modell információ* gombra kattintva jelenik meg. Ebben az ablakban megtekinthetők a mappa létrehozásának dátuma, a felette lévő mappa és a méret. **(3)** 
 
-<!-- wp:paragraph -->
+Ha egy modellt választasz, a következő információk jelennek meg: a modell neve, a használt tároló, a hely, a tulajdonos, a létrehozás dátuma, az utolsó módosítás dátuma és a modell leírása. A Történet fülön a jelenlegi modell összes korábbi verziója között navigálhatsz. Mappák esetén a Történet fül nem aktív.
 
-A saját modellek a felhőtárhelyen is hierarchikus mappastruktúrában tárolhatók, ez látható a képernyő bal szélén ("My models") **(1)** .
+A modellek megnyitása és megosztása a havi adatforgalmi korlát elérésig lehetséges, ennek alakulását a bal alsó sarokban **(4)** követhetjük nyomon. A felhasználható havi adatmennyiséget a tagsági szint határozza meg, mely minden hónap elején megújul.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-A jobb felső menüben **(2)** található parancsokkal balról jobbra haladva új mappát hozhatunk létre, áthelyezhetjük, megoszthatjuk vagy törölhetjük a modellt. Kereshetünk a tárhelyen, rendezhetjük a listát különböző tulajdonságok szerint, válthatunk a lista vagy a kártya nézet között, végül be-, vagy kikapcsolhatjuk a modell és mappa információs panelt.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-A kiválasztott modell vagy mappa részletes tulajdonság panelje **(3)** a képernyő jobb szélén jelenik meg, ha be van kapcsolva.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-A modellek megnyitása és megosztása a havi adatforgalmi korlát elérésig lehetséges, ennek alakulását a bal alsó sarokban **(4)** követhetjük nyomon. A felhasználható havi adatmennyiséget a [_tagsági szint_](https://Consteelsoftware.com/hu/termekek/ajanlatok-csomagok/#ccm) határozza meg, mely minden hónap elején megújul.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":28219,"width":768,"height":402,"sizeSlug":"large","linkDestination":"media"} -->
-
-![](img\wp-content-uploads-2021-11-cloud-open-manual-1024x536.png)
+![alt text](img/steelspacecs18.png)
 
 A felhőtárhelyet a Steelspace platform biztosítja
+A felhőtárhelyről megnyitott modellek minden esetben letöltésre kerülnek az alábbi mappába: C:\Users\{username}\AppData\Local\Consteel\CloudModels, és a munka során folyamatosan szinkronizált kapcsolatban maradnak a felhőben tárolt változattal.
 
-<!-- /wp:image -->
+#### Tanulás fül
 
-<!-- wp:paragraph -->
+![alt text](img/anulasfulcs18.png)
 
-A felhőtárhelyről megnyitott modellek minden esetben letöltésre kerülnek az alábbi mappába: C:\\Users\\\{username\}\\AppData\\Local\\Consteel\\CloudModels, és a munka során folyamatosan szinkronizált kapcsolatban maradnak a felhőben tárolt változattal.
+Ebben az ablakban szűrhetsz a **Példamodellek** és **Oktató Anyagok** között a szükségeidnek megfelelően. Több tutorial már elérhető, amelyek lépésről lépésre bemutatják a specifikus modellezési vagy tervezési fázisokat, kiemelve a fontosabb funkciókat. A tutorial könyvtárunk hamarosan bővülni fog.
 
-<!-- /wp:paragraph -->
+A bal oldalon a következő szűrőket alkalmazhatod: _Tervezési kérdések, Szerkezettípusok_ és _Építménytípusok_.
+
+Több kategóriát egyszerre is választhatsz. Ha egy példamodellt kiválasztasz, a jobb oldalon megjelenik a modell leírása, amely minden releváns információt tartalmaz róla. A leírás alatt található a **Megnyitás gomb**; ha rákattintasz, megnyílik egy Consteel projekt, amely tartalmazza a választott modellt.
+
+Ha Oktató Anyagot választasz, a cikk leírása jelenik meg a jobb oldalon. A leírás alatt található a **Tudj meg többet** gomb, amely a tudásbázis platformunkra irányít, ahol a teljes cikket elolvashatod a tagságod típusának megfelelően.
+
+#### Első Lépések és Súgó
+A **Projektközpont** bal alsó sarkában megtalálhatod az **Első lépések** és a **Súgó** gombokat.
+
+Ha az **Első lépések** gombra kattintasz, a YouTube csatornánkhoz irányítunk, ahol új funkciókról és a szoftver használatáról szóló videókat találsz.
+
+A **Súgó** gomb megnyomásával elérheted a Consteel Súgóközpontot, ahol a Consteel és Steelspace támogatása érhető el. A Consteel Support Center vagy a Steelspace támogatás használatához külön regisztráció szükséges.
+
+![alt text](img/elsolepesekessugocs18.png)
 
 ### Navigációs áttekintés
 

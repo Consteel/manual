@@ -699,7 +699,7 @@ Koordináták megadása ![](./img/wp-content-uploads-2021-04-2-2-6-status-bar3.p
 
 Hasonlóan a poláris bevitelhez, a derékszögű rendszerben is lehetséges egy pont meghatározása irány és távolság megadásával. Az első pont megadása után, például egy új gerenda rajzolásánál, a következő pont megadásához a kurzort a kívánt irányba mozgatva és az 'L' billentyűt lenyomva, a kurzor az "L" mezőbe ugrik, ahol manuálisan meg lehet adni a kívánt hosszt. Az ENTER lenyomására a gerenda létrejön az adott irányban és a beírt hosszal.
 
-A csúszka (![](./img/wp-content-uploads-2021-04-slider-v15.png)) mozgatásával az objektumok megjelenítési méretei változtathatóak. Jobb egérgombbal történő rákkattintás esetén az egyes objektum típusok külön-külön is módosíthatók. A következő ( ![](./img/wp-content-uploads-2021-04-2-2-6-status-bar10.png)) ikonok a különböző objektumok láthatóságát szabályozzák. Ezen ikonok egérrel történő megközelítése esetén megjelennek a láthatóság ki-/bekapcsolásának ikoncsoportjai.
+A csúszka (![](./img/wp-content-uploads-2021-04-slider-v15.png)) mozgatásával az objektumok megjelenítési méretei változtathatóak. Jobb egérgombbal történő rákkattintás esetén az egyes objektum típusok külön-külön is módosíthatók. A következő ( ![alt text](img/ikonok.png)) ikonok a különböző objektumok láthatóságát szabályozzák. Ezen ikonok egérrel történő megközelítése esetén megjelennek a láthatóság ki-/bekapcsolásának ikoncsoportjai.
 
 Mindegyik csoport bal szélén található a beállítás érvényességét meghatározó ikon, mely lehet ![](./img/wp-content-uploads-2021-04-2-2-6-status-bar11.png)globális (érvényes az összes fülön), vagy ![](./img/wp-content-uploads-2021-04-2-2-6-status-bar12.png) lokális (csak az aktuális fülön érvényes). A módosítás az összes láthatósági ikoncsoportra vonatkozik. Ez a hatókör változtatás megváltoztatja a fülekre korábban alkalmazott globális és a fülre alkalmazott lokális beállításokat is.
 
@@ -851,11 +851,12 @@ Ha egy objektumok láthatóságát kikapcsoljuk, akkor az objektum nevének lát
 
 #### Objektumok színének meghatározása
 
-[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/obj_color_set_v15.png)](./img/wp-content-uploads-2021-04-obj_color_set_v15.png)
+![alt text](img/objszinek.png)
 
 - ![](./img/wp-content-uploads-2022-01-visi_color_def.png) Szerkezeti elemek színezése az alapértelmezett módon (layer vagy anyag színek)
 
 - ![](./img/wp-content-uploads-2022-01-visi_color_prof.png) Szerkezeti elemek színezése szelvény színek alapján (további infót ld. a _[Szelvénykezelő](../5_0_structural-modeling/5_1_section-administration.md)_ c. fejezetben!)
+- ![alt text](img/szinFE.png) Szerkezeti elemek színezése végeselem típusa alapján
 
 #### Fogópont beállítások
 
