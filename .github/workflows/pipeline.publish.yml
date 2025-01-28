@@ -6,13 +6,9 @@ on:
     branches:
       - master
 
-  pull_request:
-    branches:
-      - master
-
 # Steps to execute
 jobs:
-  build:
+  manual-build-and-publish:
     runs-on: ubuntu-latest
 
     steps:
