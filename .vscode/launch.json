@@ -23,7 +23,7 @@
       "type": "node-terminal",
       "request": "launch",
       "name": "Teszt környezet",
-      "command": "npm run build && npm run serve",
+      "command": "npm run build-serve",
       "skipFiles": ["<node_internals>/**"]
     }
   ]

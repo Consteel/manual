@@ -25,6 +25,9 @@ const config: Config = {
     defaultLocale: "en",
     locales: ["en", "hu"],
   },
+   future: {
+    experimental_faster: true, // turns Docusaurus Faster on globally
+  },
 
   presets: [
     [
@@ -32,7 +35,7 @@ const config: Config = {
       {
         docs: {
           remarkPlugins: [remarkMath],
-          rehypePlugins: [rehypeKatex],
+          rehypePlugins: [[rehypeKatex, {strict: false}]],
           sidebarPath: "./sidebars.ts",
           includeCurrentVersion: false,
         },
