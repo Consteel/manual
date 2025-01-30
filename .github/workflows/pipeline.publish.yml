@@ -1,4 +1,4 @@
-name: Manual pipeline config
+name: Manual publish
 
 # Trigger the pipeline
 on:
