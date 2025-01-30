@@ -1430,10 +1430,10 @@ Type of the combination.
 - ULS_Accidental
 - ULS_Seismic
 - ULS_Other (default)
-- SLS_Cheracteristic_GQ
+- SLS_Characteristic_GQ
 - SLS_Frequent_GQ
 - SLS_QuasiPermanent_GQ
-- SLS_Cheracteristic_Q
+- SLS_Characteristic_Q
 - SLS_Frequent_Q
 - SLS_QuasiPermanent_Q
 - SLS_Seismic
@@ -1466,7 +1466,7 @@ ARRAY_GET LCase_IDs 0 LCase_ID1
 
 CREATE LComb_ID1 LoadCombination
 Name "Load combination (Descript)"
-Type ULS
+Type ULS_STR_PersistentOrTransient
 $LCase_ID1 1
 ```
 

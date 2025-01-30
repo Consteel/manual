@@ -81,15 +81,15 @@ Type of the combinations to be generated. One ore more combination types can be 
 | ------------------------------------------------------------- | ------------------------------------- | ------------------------------------------------------------------------------------- |
 | Persistent or transient a) (EC 1990-2005 6.4.3.2 6.10)        | ULS STR <br /> ULS GEO <br /> ULS EQU | ULS_PersTrans_CaseA_STR <br /> ULS_PersTrans_CaseA_GEO <br /> ULS_PersTrans_CaseA_EQU |
 | Persistent or transient b) (EC 1990-2005 6.4.3.2 6.10a 6.10b) | ULS STR <br /> ULS GEO                | ULS_PersTrans_CaseB_STR <br /> ULS_PersTrans_CaseB_GEO                                |
-| Accidental (EC 1990-2005 6.4.3.3 6.11b)                       | SLS                                   | ULS_Accidental                                                                        |
-| Seismic (EC 1990-2005 6.4.3.4 6.12b)                          | SLS                                   | ULS_Seismic                                                                           |
-| Characteristic (EC 1990-2005 6.5.3 6.14a)                     | SLS                                   | SLS_Characteristic                                                                    |
-| Frequent (EC 1990-2005 6.5.3 6.15a)                           | SLS                                   | SLS_Frequent                                                                          |
-| Quasi-static (EC 1990-2005 6.5.3 6.16a)                       | SLS                                   | SLS_QuasiPermanent                                                                    |
+| Accidental (EC 1990-2005 6.4.3.3 6.11b)                       | ULS                                   | ULS_Accidental                                                                        |
+| Seismic (EC 1990-2005 6.4.3.4 6.12b)                          | ULS                                   | ULS_Seismic                                                                           |
+| Characteristic (EC 1990-2005 6.5.3 6.14a)                     | SLS                                   | SLS_Characteristic_GQ <br /> SLS_Characteristic_Q                                     |
+| Frequent (EC 1990-2005 6.5.3 6.15a)                           | SLS                                   | SLS_Frequent_GQ <br /> SLS_Frequent_Q                                                 |
+| Quasi-static (EC 1990-2005 6.5.3 6.16a)                       | SLS                                   | SLS_QuasiPermanent_GQ <br /> SLS_QuasiPermanent_Q                                     |
 
 The options of this parameter are analogous with these options in Consteel:
 
-![](img\wp-content-uploads-2021-11-Kepernyokep-2022-11-30-150738-1024x476.png)
+![](img\GENERATE_LC_Types_Img_v03.png)
 
 The assignment of the combination type is optional. Default: ULS_PersTrans_CaseA_STR.
 
@@ -159,6 +159,6 @@ LoadGroupID LoadGroupID3
 
 //Load combination generation
 GENERATE LC_IDs_Array LoadCombination
-CombinationTypes ULS_PersTrans_CaseA_STR SLS_Characteristic
+CombinationTypes ULS_PersTrans_CaseA_STR SLS_Characteristic_GQ
 DeflectionTypeSLS VerticalHorizontal
 ```
