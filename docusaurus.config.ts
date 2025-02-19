@@ -25,17 +25,17 @@ const config: Config = {
     defaultLocale: "en",
     locales: ["en", "hu"],
   },
-   future: {
+  future: {
     experimental_faster: true, // turns Docusaurus Faster on globally
   },
-
+  plugins: ["docusaurus-plugin-hotjar"],
   presets: [
     [
       "@docusaurus/preset-classic",
       {
         docs: {
           remarkPlugins: [remarkMath],
-          rehypePlugins: [[rehypeKatex, {strict: false}]],
+          rehypePlugins: [[rehypeKatex, { strict: false }]],
           sidebarPath: "./sidebars.ts",
           includeCurrentVersion: false,
         },
@@ -49,9 +49,9 @@ const config: Config = {
           customCss: "./src/css/custom.css",
         },
         gtag: {
-           trackingID: 'G-NNX6CY7HK5',
+          trackingID: "G-NNX6CY7HK5",
           anonymizeIP: true,
-        }
+        },
       } satisfies Preset.Options,
     ],
   ],
@@ -64,8 +64,10 @@ const config: Config = {
       crossorigin: "anonymous",
     },
   ],
-
   themeConfig: {
+    hotjar: {
+      applicationId: 5173839,
+    },
     algolia: {
       appId: "RYDLO2Z3D4",
       apiKey: "24e69435851dc2b9d9c09ae4c7d0a08a",
