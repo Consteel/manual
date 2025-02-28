@@ -1,22 +1,20 @@
-# Converter for AXISVM
+# AXISVM Konverter
 
-## 1. AxisVM Plugin Installation: A Step-by-Step Guide
+## 1. AxisVM plugin letöltése, lépésről lépésre
 
+Az importálási funkció használatához először telepíteni kell az AXISVM bővítményt. Ez letölthető a Consteel weboldaláról a „Letöltések” menüpontra kattintva. A bővítmények között a „Consteel 17”-et kell választani, majd letölteni a „Consteel Converter for AXISVM” bővítményt.
 
-To utilize the import feature initially, users are required to install the AXISVM plugin. This plugin can be accessed via the Consteel website under the 'Downloads' section. Within the plugins category, select 'Consteel 17' and proceed to download the 'Consteel Converter for AXISVM' plugin.
+A Consteel 17-től és az AXISVM X7-től kezdődően a bővítmény kompatibilis. Régebbi Consteel verziók esetén lehetséges az AXISVM-ből konvertált .smadsteel fájlok megnyitása, de az importálási napló nem fog megjelenni. Régebbi AXISVM verziók esetén nem garantálható a megfelelő működés. Az AXISVM API változása befolyásolhatja az import minőségét.
 
-Starting from Consteel 17 and AXISVM X7, the Plugin is compatible. For older Consteel versions, it's possible to open the converted .smadsteel files from AXISVM, but the Import log will not appear. For older AXISVM versions, we cannot guarantee proper functioning. The variation of AXISVM API can influence the quality of the import.
+![alt text](img/letoltesAxisVM.png)
 
-![](./img/wp-content-uploads-2024-02-AXISVM-Plugins-download-1024x463.png)
-
-
-After downloading the plugin .exe file, ensure that you install it in the same directory where the AXISVM program file is located. Press ‘Next’.
+A bővítmény .exe fájl letöltése után győződj meg róla, hogy ugyanabba a mappába telepíted, ahol az AXISVM programfájl található. Kattints a „Tovább” gombra.
 
 
 ![](./img/wp-content-uploads-2024-02-AXISVM-Plugin-setup.png)
 
 
-In the subsequent window, users can verify whether the installation location settings point to the correct folder. If everything appears correct, users can proceed with the installation by clicking 'Install' and then 'Finish' on the following window.
+A következő ablakban ellenőrizheted, hogy az telepítési hely beállításai a megfelelő mappára mutatnak-e. Ha minden rendben van, folytathatod a telepítést a „Telepítés” gombra kattintva, majd az ezt következő ablakban kattints a „Befejezés” gombra.
 
 
 ![](./img/wp-content-uploads-2024-02-AXISVM-Plugin-setup-check.png)
@@ -25,52 +23,54 @@ In the subsequent window, users can verify whether the installation location set
 ![](./img/wp-content-uploads-2024-02-AXISVM-Plugin-setup-finish.png)
 
 
-If the installation was successful, upon opening the AXISVM program, users can locate the 'Consteel Converter 1.0.0' option under the 'Plugins' tab.
+Amennyiben a telepítés sikeres volt, az AXISVM program megnyitása után a „Consteel Converter 1.0.0” opció a „Bővítmények” fül alatt található.
 
 
 ![](./img/wp-content-uploads-2024-02-AXISVM-Plugins.png)
 
-## 2. Converting AXISVM Models to Consteel
+## 2. AXISVM modellek konvertálása Consteel-be:
 
-By utilizing the 'Consteel Converter 1.0.0' option, users can export the created model into a .smadsteel file format, which is compatible with Consteel. Users have the flexibility to convert either the entire model or only selected members. If opting for selected member conversion, users must make their selections prior to initiating the Consteel conversion process.
+A 'Consteel Converter 1.0.0' funkcióval exportálhatod az elkészített modellt .smadsteel fájlformátumba, amely kompatibilis a Consteel-lel. Lehetőség van az egész modell, vagy csak kiválasztott elemek konvertálására. Ha csak kiválasztott elemeket szeretnél konvertálni, azokat a Consteel konvertálási folyamat elindítása előtt kell kiválasztanod.
 
-Next, users can specify the file name in the adjacent field, followed by appending the file type '.smadsteel'. This format ensures compatibility with Consteel. Additionally, users can designate the export path by browsing and selecting the desired folder.
+Ezután megadhatod a fájl nevét a mellette lévő mezőben, melyhez a '.smadsteel' fájlkiterjesztés tartozik. Ezen kívül beállíthatod a mentési helyet is, ha böngészel és kiválasztod a kívánt mappát.
 
-In the final checkbox, users can choose whether to automatically open the folder containing the exported file after completion. Finally, clicking 'Export' initiates the process.
+A végső jelölőnégyzetben eldöntheted, hogy szeretnéd-e automatikusan megnyitni a mappát, amely a kiexportált fájlt tartalmazza. Végül az 'Export' gombra kattintva elindíthatod a folyamatot.
 
-It's important to note that a model can only be exported once after it has been saved or opened. If users wish to export it again, the model should be closed and reopened.
+::: info
+ Fontos megjegyezni, hogy egy modellt csak egyszer lehet exportálni, miután el lett mentve vagy meg lett nyitva. Ha újra szeretnéd exportálni, a modellt be kell zárni, majd újra meg kell nyitni.
+:::
 
 ![](./img/wp-content-uploads-2024-02-AXISVM-export-file-1.png)
 
-## 3.Opening and Diagnosing a New Model
+## 3.Új modell megnyitása és diagnosztizálása:
 
-After the conversion process is completed, the file can be opened in Consteel. Users have the option to open it immediately after launching Consteel by selecting 'Open from Computer'. Alternatively, if Consteel is already open with a different model, users can access the 'Open from Computer' option from the File tab or use the shortcut Ctrl+O to open the converted file.
+A konvertálási folyamat befejezése után a fájl megnyitható a Consteel-ben. A fájlt közvetlenül a Consteel indítása után is megnyithatod az „Megnyitás számítógépről”  opcióval. Ha a Consteel már nyitva van egy másik modellel, a fájlt a Fájl fülről is megnyithatod az „Megnyitás számítógépről” opción keresztül, vagy használhatod a Ctrl+O gyorsbillentyűt a konvertált fájl megnyitásához.
 
 ![](./img/wp-content-uploads-2024-02-AXISVM-open-from-computer-2.png)
 
 ![](./img/wp-content-uploads-2024-02-AXISVM-open-from-computer.png)
 
 
-Consteel files are typically saved with the extension .csm, which stands for Consteel Model. However, since we are working with files transformed from AXISVM, we need to select the .smadsteel format. Locate the file that was just converted from AXISVM and select it.
+A Consteel fájlokat .csm kiterjesztéssel mentjük, ami a Consteel Model-t jelenti. Mivel AXISVM-ből konvertált fájlokkal dolgozunk, a .smadsteel formátumot kell választani. Keresd meg a konvertált fájlt, és válaszd ki.
 
 ![](./img/wp-content-uploads-2024-02-AXISVM-file-type-1.png)
 
-After selecting the .smadsteel file, the 'Create a new model' window will appear. Despite already being saved as an .smadsteel file, Consteel will utilize the information within to generate a new model in the .csm file format. Within this window, users have the option to modify the model's name, description, and, most importantly, specify the design standard and language for names. In the end, press ‘OK’.
+A .smadsteel fájl kiválasztása után megjelenik az „Új modell létrehozása” ablak. Bár már .smadsteel fájlként van elmentve, a Consteel az abban lévő információk felhasználásával egy új modellt generál .csm fájlformátumban. Az ablakon lehetőség van a modell nevének, leírásának módosítására, valamint a legfontosabb beállítások, mint a tervezési szabvány és a nevek nyelve megadására. Végül kattints az „OK” gombra.
 
 ![](./img/wp-content-uploads-2024-02-AXISVM-open-design-standard.png)
 
-Within the Document tab, the Import Log button is active only when an .smadsteel file has been imported but not yet saved. Once the file is saved, its format changes to .csm, and the Import Log button becomes inactive.
+A Dokumentálás fülön az Importálási napló gomb csak akkor aktív, ha egy .smadsteel fájl importálva lett, de még nincs elmentve. Miután a fájl el lett mentve, a formátuma .csm-ra változik, és az Importálási napló gomb inaktívvá válik.
 
 ![](./img/wp-content-uploads-2024-02-AXISVM-Import-log.png)
 
-In the Import Objects list, three types of signs are used to indicate the import status:
+Az Importálás objektumai listában háromféle jelzés található, amelyek az importálás állapotát mutatják:
 
-- **green** ![](./img/wp-content-uploads-2024-02-AXISVM-Import-log-zold-pipa.png)signifies a successful import with no issues in that category.
-- **orange** ![](./img/wp-content-uploads-2024-02-AXISVM-Import-log-narancssarga-haromszog.png)warns users of potential missing attributes.
-- **red**![](./img/wp-content-uploads-2024-02-AXISVM-Import-log-piros-x.png)indicates that the program couldn’t recognize certain elements, necessitating manual specification.
+- **zöld** ![](./img/wp-content-uploads-2024-02-AXISVM-Import-log-zold-pipa.png) sikeres importálást jelent, amelyben nem jelent meg probléma.
+- **narancssárga** ![](./img/wp-content-uploads-2024-02-AXISVM-Import-log-narancssarga-haromszog.png)figyelmeztet a potenciálisan hiányzó attribútumokról.
+- **piros**![](./img/wp-content-uploads-2024-02-AXISVM-Import-log-piros-x.png)jelzi, hogy a program nem ismerte fel bizonyos elemeket, ezért azok kézi megadása szükséges.
 
 
-The import log provides detailed information regarding structural, sections, material, load, and geometry-related problems encountered during the import process. It helps users to identify elements; by selecting them in the import log, they will be selected in the model.
+Az importálási napló részletes információkat nyújt a szerkezeti, szelvényekkel, anyagokkal, terhekkel és geometriával kapcsolatos problémákról, amelyek az importálási folyamat során felmerültek. Segít a felhasználóknak az elemek azonosításában; az importálási naplóban való kiválasztásukkal azok a modellben is ki lesznek választva.
 
 ![](./img/wp-content-uploads-2024-02-AXISVM-Import-log-objects.png)
 
