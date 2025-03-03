@@ -791,6 +791,8 @@ LOAD_SECTION_MACRO  Sec_ID1  CF-Z "CF Z (Descript)" "S350GD+Z EN10346" 150 90 10
 LOAD_SECTION_MACRO  Sec_ID1  CF-Z "CF Z (Descript)" "S350GD+Z EN10346" 150 90 100 2 4 20 120 30 90 "Cold rolled" Normal
 ```
 
+## Duble mirrored sections
+
 ### Duble mirrored C
 
 Double mirrored cold-formed C section.
