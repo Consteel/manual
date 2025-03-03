@@ -149,6 +149,9 @@ Available object attributes:
 | Comment                                                                   | Comment                                        |
 | Origin                                                                    | Origin                                         |
 | Parameters                                                                | Parameters                                     |
+| Base section ID (only valid in case of double mirrored section)           | BaseSectionID                                  |
+| Gap (only valid in case of double mirrored section)                       | Gap                                            |
+| Consider Eff DeltaMz (only valid in case of double mirrored section)      | ConsiderEffDeltaMz                             |
 
 Explanation for the section Type, GroupName , Source and Parameters attributes:
 
@@ -156,7 +159,7 @@ Explanation for the section Type, GroupName , Source and Parameters attributes:
 
 ### Sample code
 
-**All available attributes + object creation:**
+**All available attributes + object creation (single section):**
 
 ```
 LOAD_SECTION_LIBRARY Sec_ID1 "HEA 200"
@@ -208,6 +211,18 @@ GET Sec_ID1 GroupName GroupName
 GET Sec_ID1 Comment Comment
 GET Sec_ID1 Origin Origin
 GET Sec_ID1 Parameters Parameters
+```
+
+**Additional attributes for double mirrored sections + object creation:**
+
+```
+LOAD_SECTION_MACRO Sec_ID1 CF-C "CF C (Descript)" "S350GD+Z EN10346" 150 90 100 2 4 20 120 30 90
+LOAD_SECTION_MACRO Sec_ID2 DM-C "Double mirrored C (Descript)" Sec_ID1 10
+
+GET Sec_ID2 BaseSectionID BaseSectionID
+GET Sec_ID2 Gap Gap
+GET Sec_ID2 ConsiderEffDeltaMz ConsiderEffDeltaMz
+
 ```
 
 ## Structural member
