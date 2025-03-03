@@ -26,7 +26,7 @@ Sections have to be loaded into the current model file to be able to be used in 
 | [Object ID](#object-id)                   | Required       | String                                  | Local, variable   |
 | [Macro type](#macro-type)                 | Required       | [Predefined strings](#macro-type-table) | Local, variable   |
 | [Section name](#section-name)             | Required       | String                                  | Local, variable   |
-| [Material name](#material-name)           | Required       | [Predefined strings](#material-names)   | Local, variable   |
+| [Material name](#material-name)           | Optional       | [Predefined strings](#material-names)   | Local, variable   |
 | [Section parameters](#section-parameters) | Required       | Numerical or string                     | Local, variable   |
 
 #### Object ID:
@@ -78,6 +78,10 @@ Type of macro to be used.
 | [Cold-formed L](#cold-formed-l)                                                   | CF-L            |
 | [Cold-formed C](#cold-formed-c) (simplified)                                      | CF-C            |
 | [Cold-formed Z](#cold-formed-z) (simplified)                                      | CF-Z            |
+| Duble mirrored sections                                                           | DM-...          |
+| [Duble mirrored C](#couble-mirrored-c)                                            | DM-C            |
+| [Duble mirrored SIGMA](#couble-mirrored-sigma)                                    | DM-SIGMA        |
+| [Duble mirrored user drawn](#couble-mirrored-user-drawn)                          | DM-UD           |
 
 #### Section name:
 
@@ -86,6 +90,7 @@ Name of the section that will appear in the section list in Consteel. String of 
 #### Material name:
 
 Name of the material to be used for the section. String of characters between apostrophes. Exact match is necessary with the Consteel material names.
+This parameter is required for every macro type, except for the double mirrored macro types, where there is no material name parameter. Double mirrored macro sections inherit their material from their base section.
 
 For example:
 
@@ -785,3 +790,168 @@ LOAD_SECTION_MACRO  Sec_ID1  CF-Z "CF Z (Descript)" "S350GD+Z EN10346" 150 90 10
 ```
 LOAD_SECTION_MACRO  Sec_ID1  CF-Z "CF Z (Descript)" "S350GD+Z EN10346" 150 90 100 2 4 20 120 30 90 "Cold rolled" Normal
 ```
+
+### Duble mirrored C
+
+Double mirrored cold-formed C section.
+
+#### Macro type:
+
+DM-C
+
+#### Parameters:
+
+![](img\Double_Mirrored_C_Params_v01.png)
+
+| Notation             | Definition                                |
+| -------------------- | ----------------------------------------- |
+| Base section ID      | Base section ID                           |
+| a                    | Gap \[mm]                                 |
+| Consider Eff DeltaMz | Consider Eff DeltaMz (optional parameter) |
+
+Parameter notations substituted into the command syntax:
+
+LOAD_SECTION_MACRO [Object ID] DM-C [Section name] [Base section ID] [Gap] [Consider Eff DeltaMz]
+
+#### Base section ID:
+
+Two sections with this ID will form the double mirrored section. Only cold-formed C sections are accepted. The double mirrored section will inherit its material from this section. Section ID or section name is accepted with this syntax: "NAME: [SectionName]".
+
+#### Consider Eff DeltaMz:
+
+This setting controls if the shift of the effective centroid around the weak axis should be considered for the effective section model. This is an optional parameter.
+
+Valid inputs:
+
+- 1 (default)
+- 0
+
+If it is set to "1" then the shift will be considered.
+
+#### Sample code
+
+**Minimal parameters:**
+
+```
+LOAD_SECTION_MACRO Sec_ID2 DM-C "Double mirrored C (Descript)" Sec_ID1 10
+```
+
+**All parameters + prerequisites (loading base section):**
+
+```
+LOAD_SECTION_MACRO Sec_ID1 CF-C "CF C (Descript)" "S350GD+Z EN10346" 150 90 100 2 4 20 120 30 90
+
+LOAD_SECTION_MACRO Sec_ID2 DM-C "Double mirrored C (Descript)" Sec_ID1 10 0
+```
+
+### Duble mirrored Sigma
+
+Double mirrored cold-formed Sigma section.
+
+#### Macro type:
+
+DM-SIGMA
+
+#### Parameters:
+
+![](img\Double_Mirrored_Sigma_Params_v01.png)
+
+| Notation             | Definition                                |
+| -------------------- | ----------------------------------------- |
+| Base section ID      | Base section ID                           |
+| a                    | Gap \[mm]                                 |
+| Consider Eff DeltaMz | Consider Eff DeltaMz (optional parameter) |
+
+Parameter notations substituted into the command syntax:
+
+LOAD_SECTION_MACRO [Object ID] DM-SIGMA [Section name] [Base section ID] [Gap] [Consider Eff DeltaMz]
+
+#### Base section ID:
+
+Two sections with this ID will form the double mirrored section. Only cold-formed Sigma sections are accepted. The double mirrored section will inherit its material from this section. Section ID or section name is accepted with this syntax: "NAME: [SectionName]".
+
+#### Consider Eff DeltaMz:
+
+This setting controls if the shift of the effective centroid around the weak axis should be considered for the effective section model. This is an optional parameter.
+
+Valid inputs:
+
+- 1 (default)
+- 0
+
+If it is set to "1" then the shift will be considered.
+
+#### Sample code
+
+**Minimal parameters:**
+
+```
+LOAD_SECTION_MACRO Sec_ID4 DM-SIGMA "Double mirrored sigma (Descript)" Sec_ID3 11
+```
+
+**All parameters + prerequisites (loading base section):**
+
+```
+LOAD_SECTION_MACRO_STIFFENED Sec_ID3 CF-SIGMA "CF SIGMA (Descript)" "S350GD+Z EN10346" 150 90 90 2 4 40 40 50 20
+
+LOAD_SECTION_MACRO Sec_ID4 DM-SIGMA "Double mirrored sigma (Descript)" Sec_ID3 11 0
+```
+
+### Duble mirrored user drawn
+
+Double mirrored cold-formed user drawn section.
+
+#### Macro type:
+
+DM-UD
+
+#### Parameters:
+
+![](img\Double_Mirrored_UD_Params_v01.png)
+
+| Notation             | Definition                                |
+| -------------------- | ----------------------------------------- |
+| Base section ID      | Base section ID                           |
+| a                    | Gap \[mm]                                 |
+| Consider Eff DeltaMz | Consider Eff DeltaMz (optional parameter) |
+
+Parameter notations substituted into the command syntax:
+
+LOAD_SECTION_MACRO [Object ID] DM-UD [Section name] [Base section ID] [Gap] [Consider Eff DeltaMz]
+
+#### Base section ID:
+
+Two sections with this ID will form the double mirrored section. Only cold-formed user drawn sections are accepted. The double mirrored section will inherit its material from this section. Section ID or section name is accepted with this syntax: "NAME: [SectionName]".
+
+#### Consider Eff DeltaMz:
+
+This setting controls if the shift of the effective centroid around the weak axis should be considered for the effective section model. This is an optional parameter.
+
+Valid inputs:
+
+- 1 (default)
+- 0
+
+If it is set to "1" then the shift will be considered.
+
+#### Sample code
+
+**Minimal parameters:**
+
+```
+LOAD_SECTION_MACRO Sec_ID5 DM-UD "Double mirrored User drawn (Descript)" $Sec_ID 12
+```
+
+**All parameters + prerequisites (retrieving base section ID):**
+
+A user drawn section can not be created from Descript code as of Consteel 18 build 4001, so this step has to be done manually. Although, if you create a cold-formed user drawn section, which is now the only section in the model, you can create the double mirrored section from it with the following code:
+
+```
+GET_LOADED_SECTIONS Loaded_Sections
+
+ARRAY_GET Loaded_Sections 0 Base_Sec_ID
+
+LOAD_SECTION_MACRO Sec_ID5 DM-UD "Double mirrored User drawn (Descript)" $Base_Sec_ID 12 0
+```
+
+The code lists all the sections present in the model, retrieves the ID of the first one, and uses that as a base section to create the double mirrored section.
