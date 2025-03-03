@@ -25,8 +25,7 @@ A következő ablakban ellenőrizheted, hogy az telepítési hely beállításai
 
 Amennyiben a telepítés sikeres volt, az AXISVM program megnyitása után a „Consteel Converter 1.0.0” opció a „Bővítmények” fül alatt található.
 
-
-![](./img/wp-content-uploads-2024-02-AXISVM-Plugins.png)
+![alt text](<img/Consteel converter-AxisVM.png>)
 
 ## 2. AXISVM modellek konvertálása Consteel-be:
 
@@ -42,26 +41,19 @@ A végső jelölőnégyzetben eldöntheted, hogy szeretnéd-e automatikusan megn
 
 ![](./img/wp-content-uploads-2024-02-AXISVM-export-file-1.png)
 
-## 3.Új modell megnyitása és diagnosztizálása:
+## 3.Új modell megnyitása és diagnosztika:
 
-A konvertálási folyamat befejezése után a fájl megnyitható a Consteel-ben. A fájlt közvetlenül a Consteel indítása után is megnyithatod az „Megnyitás számítógépről”  opcióval. Ha a Consteel már nyitva van egy másik modellel, a fájlt a Fájl fülről is megnyithatod az „Megnyitás számítógépről” opción keresztül, vagy használhatod a Ctrl+O gyorsbillentyűt a konvertált fájl megnyitásához.
+A konvertálási folyamat befejezése után a fájl megnyitható a Consteel-ben. A fájlt közvetlenül a Consteel indítása után is megnyithatod a „Modell Importálása”  opcióval. Ha a Consteel már nyitva van egy másik modellel, a fájlt a Fájl fülről is megnyithatod az „Import Center” opción keresztül, vagy használhatod a Ctrl+Shift+I gyorsbillentyűt a konvertált fájl megnyitásához.
 
-![](./img/wp-content-uploads-2024-02-AXISVM-open-from-computer-2.png)
+![alt text](<img/Megnyitás-AxisVM CS18.png>)
 
-![](./img/wp-content-uploads-2024-02-AXISVM-open-from-computer.png)
+![alt text](<img/import center-AxisVM .png>)
 
-
-A Consteel fájlokat .csm kiterjesztéssel mentjük, ami a Consteel Model-t jelenti. Mivel AXISVM-ből konvertált fájlokkal dolgozunk, a .smadsteel formátumot kell választani. Keresd meg a konvertált fájlt, és válaszd ki.
-
-![](./img/wp-content-uploads-2024-02-AXISVM-file-type-1.png)
-
-A .smadsteel fájl kiválasztása után megjelenik az „Új modell létrehozása” ablak. Bár már .smadsteel fájlként van elmentve, a Consteel az abban lévő információk felhasználásával egy új modellt generál .csm fájlformátumban. Az ablakon lehetőség van a modell nevének, leírásának módosítására, valamint a legfontosabb beállítások, mint a tervezési szabvány és a nevek nyelve megadására. Végül kattints az „OK” gombra.
-
-![](./img/wp-content-uploads-2024-02-AXISVM-open-design-standard.png)
+További információkat az importálási folyamatról az [Import Center](../../manual/2_0_file-handling/2_8_import-center.md) fejezetben találhatsz.
 
 A Dokumentálás fülön az Importálási napló gomb csak akkor aktív, ha egy .smadsteel fájl importálva lett, de még nincs elmentve. Miután a fájl el lett mentve, a formátuma .csm-ra változik, és az Importálási napló gomb inaktívvá válik.
 
-![](./img/wp-content-uploads-2024-02-AXISVM-Import-log.png)
+![alt text](<img/CS17 import log HUAxisVM.png>)
 
 Az Importálás objektumai listában háromféle jelzés található, amelyek az importálás állapotát mutatják:
 
@@ -72,82 +64,76 @@ Az Importálás objektumai listában háromféle jelzés található, amelyek az
 
 Az importálási napló részletes információkat nyújt a szerkezeti, szelvényekkel, anyagokkal, terhekkel és geometriával kapcsolatos problémákról, amelyek az importálási folyamat során felmerültek. Segít a felhasználóknak az elemek azonosításában; az importálási naplóban való kiválasztásukkal azok a modellben is ki lesznek választva.
 
-![](./img/wp-content-uploads-2024-02-AXISVM-Import-log-objects.png)
+![alt text](img/importloginconsteelcs17.png)
 
-![](./img/wp-content-uploads-2024-02-AXISVM-Import-Log-identify.png)
+## 4. Az import korlátozásai 
 
+- **Anyagok**
 
-## 4. Limitations of the import
+- A program az **acél** és **beton anyagokat** a nevük alapján konvertálja, ha az algoritmus megtalálja a hozzájuk tartozó megfeleltetett elemet az adatbázisban.
 
-- **Materials**
+  -  Ha az első megoldás nem lehetséges, a program megpróbál új anyagot létrehozni az összes új információval. Ebben az esetben az anyag neve tartalmazni fogja a '(AXISVM)' jelzést.
 
-- Steel and concrete materials are converted according to their name if the algorithm finds a matching one in the database.
+  -   Ha egyik fenti megoldás sem alkalmazható, a program az alapértelmezett helyettesítő anyagot, az S235 EN 100025-2-t helyettesíti. Ha a 'Placeholder (AXISVM)' szimbólum megjelenik, cseréld ki az anyagot a helyesre.
 
-  - If the first solution is not possible, the program attempts to create a material with all the new information. In this case, the material's name will include the '(AXISVM)' mark.
-
-  - If none of the above solutions are applicable, it substitutes the default placeholder material S235 EN 100025-2. If the 'Placeholder (AXISVM)' symbol appears, users should replace the material with the correct one.
-
-  - To verify imported materials, go to the section administration (Shift+A) or access the Auto Portions Material section. Here, you'll find a comprehensive list of all materials included in the model.
+  -   Az importált anyagok ellenőrzéséhez lépj a **szelvénykezelőre** (Shift+A) vagy nyisd meg az Auto részletek Anyagok szekcióját. Itt megtalálod a modellhez tartozó összes anyag átfogó listáját.
 
 ![](./img/wp-content-uploads-2024-02-Import-material1.png)
 
 ![](./img/wp-content-uploads-2024-02-Import-material2.png)
 
-- **Sections**
+- **Szelvények**
 
-  - Bar member sections are primarily converted based on their names. If this is not possible, the converter will attempt to create the section as a Consteel macro using the available attributes. In such cases, a '(AXISVM)’ marker will be added to the section name.
+  - A rúd szelvényeket elsősorban a nevük alapján konvertálja a program. Ha ez nem lehetséges, a konvertáló megpróbálja a szelvényt Consteel makróként létrehozni a rendelkezésre álló attribútumokkal. Ilyen esetekben a szelvény nevéhez hozzá lesz adva a '(AXISVM)' jelzés.
 
-  - If a section cannot be found by name or created as a macro, the program will substitute it with a placeholder. These placeholder (dummy) sections are easily identifiable in the model as unrealistically large circular sections with 'Placeholder (AXISVM)' in their name. Users will need to manually replace these placeholder sections with the correct ones.
+  - Ha egy szelvény nem található név alapján, vagy nem hozható létre makróként, a program helyettesíti egy helyettesítő szelvénnyel. Ezek a helyettesítő (dummy) szelvények könnyen felismerhetők a modellben, mivel irreálisan nagy kör alakú szelvények, és a nevükben ott szerepel a 'Placeholder (AXISVM)'. A felhasználóknak manuálisan kell kicserélniük ezeket a helyettesítő szelvényeket a helyesekre.
 
 ![](./img/wp-content-uploads-2024-02-Import-section1.png)
 
 
-- **Bar members**
+- **Rúd elemek**
+  -  Az egyik legnagyobb különbség a Consteel és az AXISVM között, hogy a Consteel 7 szabadságfokkal dolgozik, míg az AXISVM főként csak 6-tal. Ezért, amikor Consteel-ba konvertálsz, a program kiválasztja a 7. szabadságfokot, amit mindenképp ellenőrizni kell.
 
-  - One of the most significant differences between Consteel and AXISVM is that in Consteel, is working with 7 degrees of freedom, whereas AXISVM, mostly works with only 6. Therefore, when converting to Consteel, the program selects the 7th degree of freedom, making it essential to verify before proceeding with further calculations.
+  -  A rúdak esetében a legfontosabb tulajdonságok, amelyeket át lehet vinni a Consteel-ba, a folytonosság típusa, a végeselem típus, a forgatás, és a legtöbb szelvény esetében a külpontosság. Azonban érdemes a külpontosságot ellenőrizni aszimmetrikus vagy különleges formájú szelvények esetén.
 
-  - For bar members, the most important properties that can be transferred to Consteel include the release type, the finite element type, rotation, and also the eccentricity for most sections. However, it is best to verify eccentricity in the case of nonsymmetrical or unusual shaped sections.
+* **Lemez elemek**
+  - A lemez elemek a Consteel-ba az anyaguk, méretük és elhelyezkedésük alapján kerülnek átvitelre.
+ 
 
-* **Plate element**
+- **Támaszok**
 
-  - Plate elements are transferred to Consteel with respect to their materials, dimensions, and placements.
+ - Az AXISVM összes támasztípusa, beleértve a ponttámaszt, él menti támaszt és felületi támaszt, átválthatóak Consteel-ba.
 
-![](./img/wp-content-uploads-2024-02-Import-plate-element.png)
+ - Ne feledd, hogy a Consteel 7 szabadságfokkal (7DOF) működik, míg az AXISVM csak 6-ot használ. A program meghatározza a 7. értéket, így azt mindenképp ellenőrizni kell.
 
-![](./img/wp-content-uploads-2024-02-Import-plate-element2-1024x457.png)
+- **Teher átadó felület**
 
-- **Supports**
-
-  - All types of supports from AXISVM, including Point supports/Nodal support, Line supports, and Surface supports, can be converted to Consteel.
-  - Do not forget that Consteel operates with 7 degrees of freedom (7DOF), whereas AXISVM only utilizes 6. The program will define the 7th value, so users need to verify it.
-
-- **Loads transfer surface**
-
-  - Load panels can be seamlessly transferred from AXISVM to Consteel.
+ - A teherátadó felületek problémamentesen átvihetőek az AXISVM-ből a Consteel-ba.
 
 
-- **Loads**
+- **Terhek**
 
-  - Conversion of various types of point loads, line loads, and surface loads is possible within load cases, provided they are organized into load groups: Permanent, Variable, and Accidental.
+ - Különböző típusú pontterhek, vonalmenti terhek és felületi terhek átvitele lehetséges a tehereseteken belül, amennyiben azok tehercsoportokba vannak rendezve: Állandó, Esetleges és Rendkívüli.
 
 ![](./img/wp-content-uploads-2024-02-AXISVM-load-typles-that-can-be-converted.png)
 
-- Ungrouped loads will not be converted.
+- Az önálló terhek nem kerülnek átvitelre.
 
-![](./img/wp-content-uploads-2024-02-AXISVM-ungrupped-loads.png)
+![alt text](<img/onallo teher-AxisVM.png>)
 
-- Automatically generated load cases like Wind, and Snow can only be exported if they were previously converted into regular load cases:
+- Az automatikusan generált terhelési esetek, mint például a Szél és a Hó, csak akkor exportálhatók, ha előzőleg szabályos terhelési esetekké lettek átalakítva.
 
 ![](./img/wp-content-uploads-2024-02-AXISVM-snow-and-wind-auto-loads.png)
 
-![](./img/wp-content-uploads-2024-02-AXISVM-szel-conversion-button-1.png)
+![alt text](img/axisvmterhekhozzaadas.png)
 
-
-- Some specific loads currently cannot be converted, such as: tension/compression, thermal load, fluid loads, seismic loads, support displacement etc.
+ - Néhány különleges teher jelenleg nem konvertálható, például: feszítőerő, hőterhelés, folyadékterhelés, földrengésből származó teher, támasz elmozdulás stb.
 
 ![](./img/wp-content-uploads-2024-02-AXISVM-loads-cant-be-converted.png)
 
 
-- **Load combinations**
+- **Teherkombinációk**
 
-  - manually created load combinations can be converted.
+  - A manuálisan létrehozott teherkombinációk konvertálhatók.
+
+
