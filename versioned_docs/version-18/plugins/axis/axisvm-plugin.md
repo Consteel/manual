@@ -45,20 +45,13 @@ It's important to note that a model can only be exported once after it has been 
 
 ## 3.Opening and Diagnosing a New Model
 
-After the conversion process is completed, the file can be opened in Consteel. Users have the option to open it immediately after launching Consteel by selecting 'Open from Computer'. Alternatively, if Consteel is already open with a different model, users can access the 'Open from Computer' option from the File tab or use the shortcut Ctrl+O to open the converted file.
+After the conversion process is completed, the file can be opened in Consteel. Users have the option to open it immediately after launching Consteel by selecting 'Import model'. Alternatively, if Consteel is already open with a different model, users can access the 'Import Center' option from the File tab or use the shortcut Ctrl+Shift+I to open the converted file.
 
-![](./img/wp-content-uploads-2024-02-AXISVM-open-from-computer-2.png)
+![alt text](<img/import modelEMCS18.png>)
 
-![](./img/wp-content-uploads-2024-02-AXISVM-open-from-computer.png)
+![alt text](img/openfromimoprtcentercs18.png)
 
-
-Consteel files are typically saved with the extension .csm, which stands for ConSteel Model. However, since we are working with files transformed from AXISVM, we need to select the .smadsteel format. Locate the file that was just converted from AXISVM and select it.
-
-![](./img/wp-content-uploads-2024-02-AXISVM-file-type-1.png)
-
-After selecting the .smadsteel file, the 'Create a new model' window will appear. Despite already being saved as an .smadsteel file, ConSteel will utilize the information within to generate a new model in the .csm file format. Within this window, users have the option to modify the model's name, description, and, most importantly, specify the design standard and language for names. In the end, press ‘OK’.
-
-![](./img/wp-content-uploads-2024-02-AXISVM-open-design-standard.png)
+You can find more information about the import process in the [Import Center](../../manual/2_0_file-handling/2_8_import-center.md) chapter.
 
 Within the Document tab, the Import Log button is active only when an .smadsteel file has been imported but not yet saved. Once the file is saved, its format changes to .csm, and the Import Log button becomes inactive.
 
