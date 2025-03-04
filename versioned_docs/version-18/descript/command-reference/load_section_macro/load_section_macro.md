@@ -78,10 +78,10 @@ Type of macro to be used.
 | [Cold-formed L](#cold-formed-l)                                                   | CF-L            |
 | [Cold-formed C](#cold-formed-c) (simplified)                                      | CF-C            |
 | [Cold-formed Z](#cold-formed-z) (simplified)                                      | CF-Z            |
-| Duble mirrored sections                                                           | DM-...          |
-| [Duble mirrored C](#couble-mirrored-c)                                            | DM-C            |
-| [Duble mirrored SIGMA](#couble-mirrored-sigma)                                    | DM-SIGMA        |
-| [Duble mirrored user drawn](#couble-mirrored-user-drawn)                          | DM-UD           |
+| Double mirrored sections                                                          | DM-...          |
+| [Double mirrored C](#couble-mirrored-c)                                           | DM-C            |
+| [Double mirrored SIGMA](#couble-mirrored-sigma)                                   | DM-SIGMA        |
+| [Double mirrored user drawn](#couble-mirrored-user-drawn)                         | DM-UD           |
 
 #### Section name:
 
@@ -791,9 +791,9 @@ LOAD_SECTION_MACRO  Sec_ID1  CF-Z "CF Z (Descript)" "S350GD+Z EN10346" 150 90 10
 LOAD_SECTION_MACRO  Sec_ID1  CF-Z "CF Z (Descript)" "S350GD+Z EN10346" 150 90 100 2 4 20 120 30 90 "Cold rolled" Normal
 ```
 
-## Duble mirrored sections
+## Double mirrored sections
 
-### Duble mirrored C
+### Double mirrored C
 
 Double mirrored cold-formed C section.
 
@@ -846,7 +846,7 @@ LOAD_SECTION_MACRO Sec_ID1 CF-C "CF C (Descript)" "S350GD+Z EN10346" 150 90 100 
 LOAD_SECTION_MACRO Sec_ID2 DM-C "Double mirrored C (Descript)" Sec_ID1 10 0
 ```
 
-### Duble mirrored Sigma
+### Double mirrored Sigma
 
 Double mirrored cold-formed Sigma section.
 
@@ -899,7 +899,7 @@ LOAD_SECTION_MACRO_STIFFENED Sec_ID3 CF-SIGMA "CF SIGMA (Descript)" "S350GD+Z EN
 LOAD_SECTION_MACRO Sec_ID4 DM-SIGMA "Double mirrored sigma (Descript)" Sec_ID3 11 0
 ```
 
-### Duble mirrored user drawn
+### Double mirrored user drawn
 
 Double mirrored cold-formed user drawn section.
 
