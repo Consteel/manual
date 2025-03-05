@@ -35,7 +35,7 @@ Ezután megadhatod a fájl nevét a mellette lévő mezőben, melyhez a '.smadst
 
 A végső jelölőnégyzetben eldöntheted, hogy szeretnéd-e automatikusan megnyitni a mappát, amely a kiexportált fájlt tartalmazza. Végül az 'Export' gombra kattintva elindíthatod a folyamatot.
 
-::: info
+:::info
  Fontos megjegyezni, hogy egy modellt csak egyszer lehet exportálni, miután el lett mentve vagy meg lett nyitva. Ha újra szeretnéd exportálni, a modellt be kell zárni, majd újra meg kell nyitni.
 :::
 
@@ -51,20 +51,6 @@ A konvertálási folyamat befejezése után a fájl megnyitható a Consteel-ben.
 
 További információkat az importálási folyamatról az [Import Center](../../manual/2_0_file-handling/2_8_import-center.md) fejezetben találhatsz.
 
-A Dokumentálás fülön az Importálási napló gomb csak akkor aktív, ha egy .smadsteel fájl importálva lett, de még nincs elmentve. Miután a fájl el lett mentve, a formátuma .csm-ra változik, és az Importálási napló gomb inaktívvá válik.
-
-![alt text](<img/CS17 import log HUAxisVM.png>)
-
-Az Importálás objektumai listában háromféle jelzés található, amelyek az importálás állapotát mutatják:
-
-- **zöld** ![](./img/wp-content-uploads-2024-02-AXISVM-Import-log-zold-pipa.png) sikeres importálást jelent, amelyben nem jelent meg probléma.
-- **narancssárga** ![](./img/wp-content-uploads-2024-02-AXISVM-Import-log-narancssarga-haromszog.png)figyelmeztet a potenciálisan hiányzó attribútumokról.
-- **piros**![](./img/wp-content-uploads-2024-02-AXISVM-Import-log-piros-x.png)jelzi, hogy a program nem ismerte fel bizonyos elemeket, ezért azok kézi megadása szükséges.
-
-
-Az importálási napló részletes információkat nyújt a szerkezeti, szelvényekkel, anyagokkal, terhekkel és geometriával kapcsolatos problémákról, amelyek az importálási folyamat során felmerültek. Segít a felhasználóknak az elemek azonosításában; az importálási naplóban való kiválasztásukkal azok a modellben is ki lesznek választva.
-
-![alt text](img/importloginconsteelcs17.png)
 
 ## 4. Az import korlátozásai 
 
@@ -102,32 +88,32 @@ Az importálási napló részletes információkat nyújt a szerkezeti, szelvén
 
 - **Támaszok**
 
- - Az AXISVM összes támasztípusa, beleértve a ponttámaszt, él menti támaszt és felületi támaszt, átválthatóak Consteel-ba.
+  - Az AXISVM összes támasztípusa, beleértve a ponttámaszt, él menti támaszt és felületi támaszt, átválthatóak Consteel-ba.
 
- - Ne feledd, hogy a Consteel 7 szabadságfokkal (7DOF) működik, míg az AXISVM csak 6-ot használ. A program meghatározza a 7. értéket, így azt mindenképp ellenőrizni kell.
+  - Ne feledd, hogy a Consteel 7 szabadságfokkal (7DOF) működik, míg az AXISVM csak 6-ot használ. A program meghatározza a 7. értéket, így azt mindenképp ellenőrizni kell.
 
 - **Teher átadó felület**
 
- - A teherátadó felületek problémamentesen átvihetőek az AXISVM-ből a Consteel-ba.
+  - A teherátadó felületek problémamentesen átvihetőek az AXISVM-ből a Consteel-ba.
 
 
 - **Terhek**
 
- - Különböző típusú pontterhek, vonalmenti terhek és felületi terhek átvitele lehetséges a tehereseteken belül, amennyiben azok tehercsoportokba vannak rendezve: Állandó, Esetleges és Rendkívüli.
+  - Különböző típusú pontterhek, vonalmenti terhek és felületi terhek átvitele lehetséges a tehereseteken belül, amennyiben azok tehercsoportokba vannak rendezve: Állandó, Esetleges és Rendkívüli.
 
 ![](./img/wp-content-uploads-2024-02-AXISVM-load-typles-that-can-be-converted.png)
 
-- Az önálló terhek nem kerülnek átvitelre.
+-  - Az önálló terhek nem kerülnek átvitelre.
 
 ![alt text](<img/onallo teher-AxisVM.png>)
 
-- Az automatikusan generált terhelési esetek, mint például a Szél és a Hó, csak akkor exportálhatók, ha előzőleg szabályos terhelési esetekké lettek átalakítva.
+ - - Az automatikusan generált terhelési esetek, mint például a Szél és a Hó, csak akkor exportálhatók, ha előzőleg szabályos terhelési esetekké lettek átalakítva.
 
 ![](./img/wp-content-uploads-2024-02-AXISVM-snow-and-wind-auto-loads.png)
 
 ![alt text](img/axisvmterhekhozzaadas.png)
 
- - Néhány különleges teher jelenleg nem konvertálható, például: feszítőerő, hőterhelés, folyadékterhelés, földrengésből származó teher, támasz elmozdulás stb.
+ - -  Néhány különleges teher jelenleg nem konvertálható, például: feszítőerő, hőterhelés, folyadékterhelés, földrengésből származó teher, támasz elmozdulás stb.
 
 ![](./img/wp-content-uploads-2024-02-AXISVM-loads-cant-be-converted.png)
 

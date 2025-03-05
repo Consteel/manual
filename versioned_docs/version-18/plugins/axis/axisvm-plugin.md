@@ -39,7 +39,9 @@ Next, users can specify the file name in the adjacent field, followed by appendi
 
 In the final checkbox, users can choose whether to automatically open the folder containing the exported file after completion. Finally, clicking 'Export' initiates the process.
 
+:::info
 It's important to note that a model can only be exported once after it has been saved or opened. If users wish to export it again, the model should be closed and reopened.
+:::
 
 ![](./img/wp-content-uploads-2024-02-AXISVM-export-file-1.png)
 
@@ -52,23 +54,6 @@ After the conversion process is completed, the file can be opened in Consteel. U
 ![alt text](img/openfromimoprtcentercs18.png)
 
 You can find more information about the import process in the [Import Center](../../manual/2_0_file-handling/2_8_import-center.md) chapter.
-
-Within the Document tab, the Import Log button is active only when an .smadsteel file has been imported but not yet saved. Once the file is saved, its format changes to .csm, and the Import Log button becomes inactive.
-
-![](./img/wp-content-uploads-2024-02-AXISVM-Import-log.png)
-
-In the Import Objects list, three types of signs are used to indicate the import status:
-
-- **green** ![](./img/wp-content-uploads-2024-02-AXISVM-Import-log-zold-pipa.png)signifies a successful import with no issues in that category.
-- **orange** ![](./img/wp-content-uploads-2024-02-AXISVM-Import-log-narancssarga-haromszog.png)warns users of potential missing attributes.
-- **red**![](./img/wp-content-uploads-2024-02-AXISVM-Import-log-piros-x.png)indicates that the program couldn’t recognize certain elements, necessitating manual specification.
-
-
-The import log provides detailed information regarding structural, sections, material, load, and geometry-related problems encountered during the import process. It helps users to identify elements; by selecting them in the import log, they will be selected in the model.
-
-![](./img/wp-content-uploads-2024-02-AXISVM-Import-log-objects.png)
-
-![](./img/wp-content-uploads-2024-02-AXISVM-Import-Log-identify.png)
 
 
 ## 4. Limitations of the import
