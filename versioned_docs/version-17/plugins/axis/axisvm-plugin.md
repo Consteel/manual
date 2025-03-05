@@ -39,7 +39,9 @@ Next, users can specify the file name in the adjacent field, followed by appendi
 
 In the final checkbox, users can choose whether to automatically open the folder containing the exported file after completion. Finally, clicking 'Export' initiates the process.
 
+:::Info
 It's important to note that a model can only be exported once after it has been saved or opened. If users wish to export it again, the model should be closed and reopened.
+:::
 
 ![](./img/wp-content-uploads-2024-02-AXISVM-export-file-1.png)
 
