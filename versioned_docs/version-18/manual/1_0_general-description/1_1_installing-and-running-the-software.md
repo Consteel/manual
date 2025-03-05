@@ -301,24 +301,30 @@ Regarding teams, any access can be flexibly connected to any seat in the End-use
 
 -  **Software access** covers license-related information together with the End Use Agreement. Some of our latest articles can also be found on this first panel.
 
+![alt text](img/Subscriptions.png)
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 - **Plan and Pricing** on this page the following can be verified: 
 the license plan, available membership, Team plan, Billing and Pricing details.
 
+![alt text](<img/plan and pricing.png>)
+
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
 - **User Management** here the License holder has to assign users to software accesses. Every access is connected to a Consteel Community Membership level. Cloud services available in Consteel are set by these [membership levels](https://Consteelsoftware.com/products/offers-licensing/#ccm).
-By clicking on the "Add user" card the license holder can type the user's email address registered as a Consteel account then click add to assign that particular access. By clicking on the three-dotted icon the license holder can move a user to another available membership or remove the user. One user can be assigned to only one software access at a time. After assigning users to software accesses the license holder can give online seat access to these users. By clicking on a seat's panel the panel will open and the license holder can select a user from the list of assigned users to give access to that particular user. After selecting a user the "Give access" button will be active and clickable. Users can be removed from a seat by clicking on the "X" icon. One user can be assigned to multiple seats.
+By clicking on the "Add user" card the license holder can type the user's email address registered as a Consteel account then click add to assign that particular access. ![alt text](<img/Add user.png>)
+By clicking on the three-dotted icon the license holder can move a user to another available membership or remove the user. ![alt text](<img/three-dotted icon.png>) One user can be assigned to only one software access at a time. After assigning users to software accesses the license holder can give online seat access to these users. By clicking on a seat's panel the panel will open and the license holder can select a user from the list of assigned users to give access to that particular user. After selecting a user the "Give access" button will be active and clickable. Users can be removed from a seat by clicking on the "X" icon. One user can be assigned to multiple seats.
+
+![alt text](<img/user management.png>)
 
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":28339,"width":855,"height":767,"sizeSlug":"large","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-![alt text](img/Subscriptions.png)
+
 
 Subscription plan information and end-user management
 
