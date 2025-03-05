@@ -337,11 +337,6 @@ Seat selection
 <!-- wp:paragraph -->
 
 #### **Csomag és felhasználó menedzsment**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
 A felhasználói fiók _Előfizetés_ menüpontjából elérhető _Csomag és felhasználó menedzsment_ eszköz segítségével a licensz tulajdonosa bármely szoftver hozzáférést (access) hozzárendelhet bármely, a licenszen belül elérhető szoftver helyhez (seat).
 
 <!-- /wp:paragraph -->
@@ -354,49 +349,23 @@ A _Csomag és felhasználó menedzsment_ eszköz képernyője az alábbi három 
 
 <!-- wp:paragraph -->
 
-**(1)** "The Subscription plan details" tartalmazza a licensszel kapcsolatos összes információt: licensz típusa, szoftver-hozzáférések (access) és szoftver-helyek (seat) száma, elérhető tagsági szintek, cég adatok. A szoftver licensz a szoftver-hozzáférések és szoftver-helyek segítségével biztosítja a program használatát. Csapat előfizetés esetén a következő két szakaszban lehet a hozzáféréseket kiosztani a felhasználók között.
+- A **Szoftver hozzáférés** tartalmaz licensszel kapcsolatos információtkat: licensz típusa, szoftver-hozzáférések (access) és szoftver-helyek (seat) száma, megtekinthető a Felhasználói szoftver hozzáférési szerződés.A szoftver licensz a szoftver-hozzáférések és szoftver-helyek segítségével biztosítja a program használatát. Csapat előfizetés esetén a következő két szakaszban lehet a hozzáféréseket kiosztani a felhasználók között. ![alt text](<img/HU szoftver hozzaferes.png>)
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-**(2)** A 'User management' szakaszban lehet felhasználókat rendelni az egyes szoftver-hozzáférésekhez. Minden szoftver-hozzáférés egy adott [Consteel Felhasználó Közösségi](https://Consteelsoftware.com/hu/termekek/ajanlatok-csomagok/#ccm) tagsági szinthez kötődik. Az elérhető online szolgáltatások körét a tagsági szint határozza meg.
+- Az **Előfizetés és csomag** szakaszban lehet megtekinteni a Szoftverlicenc csomaggal kapcsolatos információkat, Elérhető tagsági szinteket, Számlázást és Díjszabás részleteket. Amennyiben Team csomaggal rendelkeznek, az ezzel kapcsolatos információk is itt jelennek meg. ![alt text](<img/HU plan and pricing.png>)
 
-<!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
 
-Szabad szoftver-hozzáférés felhasználóhoz rendeléséhez a "Felhasználó hozzáadása" kártyát kell választani. A megjelenő mezőben meg kell adni a felhasználó Consteel honlapon már előzetesen regisztrált e-mail címét, majd a Hozzáadás gomb megnyomásával véglegesíteni azt.
+- A **Felhasználó menedzsment**-ben lehet a felhasználókat rendelni az egyes szoftver-hozzáférésekhez. Minden szoftver-hozzáférés egy adott [Consteel Felhasználó Közösségi](https://Consteelsoftware.com/hu/termekek/ajanlatok-csomagok/#ccm) tagsági szinthez kötődik. Az elérhető online szolgáltatások körét a tagsági szint határozza meg. ![alt text](<img/HU user management.png>) Szabad szoftver-hozzáférés felhasználóhoz rendeléséhez a "Felhasználó hozzáadása" kártyát kell választani. A megjelenő mezőben meg kell adni a felhasználó Consteel honlapon már előzetesen regisztrált e-mail címét, majd a Hozzáadás gomb megnyomásával véglegesíteni azt. ![](./img/wp-content-uploads-2022-01-user_manage_add_user_3.png)
+Már hozzárendelt felhasználó kártyáján a 3 pont ikonra kattintva át lehet helyezni a felhasználót egy másik szoftver-hozzáférésbe vagy el is lehet őt távolítani az adott hozzáférésből. ![alt text](<img/HU three-dotted icon.png>)
+Egy felhasználót egyidőben csak egy hozzáféréshez lehet hozzárendelni. Ahhoz, hogy a felhasználó használni tudja a szoftvert, a  szoftver-hozzáférést kapott felhasználókat még hozzá kell rendelni egy vagy több szoftver-helyhez (Seat) is. Az elérhető szoftver-helyek (seat) listáján valamely hely kártyájára kattintva megjelennek az adott helyhez rendelt szoftver-hozzáférések. Új felhasználót a legördülő menüből lehet kiválasztani, majd a "Hozzáférés adása" gombra kattintva rendelhető hozzá az adott szoftver-helyhez. ![alt text](<img/HU seats.png>) Felhasználókat eltávolítani a sor végén található "x" gombbal lehet. Egy felhasználót egyszerre több szoftver-helyhez is hozzá lehet rendelni.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":31005,"sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2022-01-user_manage_add_user_3.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-Már hozzárendelt felhasználó kártyáján a 3 pont ikonra kattintva át lehet helyezni a felhasználót egy másik szoftver-hozzáférésbe vagy el is lehet őt távolítani az adott hozzáférésből. Egy felhasználót egyidőben csak egy hozzáféréshez lehet hozzárendelni.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-**(3)** Ahhoz, hogy a felhasználó használni tudja a szoftvert, a következő szakaszban a szoftver-hozzáférést kapott felhasználókat még hozzá kell rendelni egy vagy több szoftver-helyhez (Seat) is. Az elérhető szoftver-helyek (seat) listáján valamely hely kártyájára kattintva megjelennek az adott helyhez rendelt szoftver-hozzáférések. Új felhasználót a legördülő menüből lehet kiválasztani, majd a "Hozzáférés adása" gombra kattintva rendelhető hozzá az adott szoftver-helyhez. Felhasználókat eltávolítani a sor végén található "x" gombbal lehet. Egy felhasználót egyszerre több szoftver-helyhez is hozzá lehet rendelni.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":30966,"sizeSlug":"large","linkDestination":"media"} -->
-
-![](img\wp-content-uploads-2022-01-online_licensemanagement_hun-1024x919.png)
 
 Előfizetés és felhasználó menedzsment
 
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
 
 **Projekt Központ**
 
