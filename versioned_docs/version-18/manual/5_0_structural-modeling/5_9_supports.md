@@ -100,7 +100,13 @@ If any special supports are needed during the modeling process different from th
 
 <!-- wp:image {"align":"center","id":13381,"width":389,"height":319,"sizeSlug":"full","linkDestination":"media"} -->
 
-![](img\wp-content-uploads-2021-04-dial_supp_point_set.png)
+![alt text](<img/compression only point support.png>)
+
+At the bottom of the window, you'll find a checkbox for the Compression-Only Support. When enabled, this support type uses an iterative process during both the first and second-order analysis to determine the actual state of the system. It works in a similar way to the Tension-Only Element.
+
+:::info
+This support is useful for modeling situations where objects do not have direct connectivity, but simply rest on each other.
+:::
 
 <!-- /wp:image -->
 

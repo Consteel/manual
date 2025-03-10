@@ -102,8 +102,13 @@ Ha a modellezés során olyan új, speciális támasz alkalmazása válik szüks
 
 <!-- wp:image {"align":"center","id":34904,"width":386,"height":317,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-![](img\wp-content-uploads-2022-04-dial_tamasz_merevsegek.png)
+![alt text](<img/HU compression only point support.png>)
 
+Az ablak alján található egy jelölőnégyzet a csak nyomást felvevő támasz beállításhoz. Ehhez a támaszhoz egy, a húzott rúd számításához hasonló iteratív eljárás tartozik az első- és másodrendű analízis során a valós állapot megtalálásának érdekében. 
+
+info:::
+Segítségével olyan helyzetek modellezhetők, amikor nincs valódi kapcsolat az objektumok között, csupán egymáson nyugszanak.
+:::
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"justify"} -->
