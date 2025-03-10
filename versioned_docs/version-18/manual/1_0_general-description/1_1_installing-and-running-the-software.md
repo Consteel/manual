@@ -340,8 +340,8 @@ Subscription plan information and end-user management
 
 The Project Center unites all the functionalities for model and account management.
 
-<!-- /wp:paragraph -->
-![alt text](img/projet%20center%20cs18.png)
+![alt text](<img/Project cenetr.png>)
+
 <!-- wp:paragraph -->
 
 In the top-right corner, you can access and open the following:
