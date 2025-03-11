@@ -529,3 +529,235 @@ You can **adjust the visibility** settings on the right side of the window, wher
 - Portions with transparent view
 
 ![alt text](img/cs18portionsvisibility.png)
+
+### Model history in Steelspace
+
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+
+As you can see the History function is fully integrated into Steelspace. You just need to log in to Steelspace at steelspace.io and you can access your models' version history even when you don’t open Consteel.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":4} -->
+
+#### Creating a history item
+
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+
+You can only create a history item if the latest cloud saved state is not identical to the last history item state.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+Select the desired model in the Document selector screen and then click on the „i” icon on the right side of the screen and click on the „History” tab to access the version history of that model.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":44083,"width":829,"height":417,"sizeSlug":"large","linkDestination":"none"} -->
+
+![](./img/wp-content-uploads-2022-12-steelspace_history_manual-1024x515.jpg)
+
+_Click on the „i” icon on the right side of the screen to access the version history of a model_
+
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+
+If you opened your model, click on the History tab on the right side of the Model viewer screen.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+To create the latest history item just click on the „+ Create history item” button on the first card in the timeline.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+All team members can save new versions to the model history according to their permission levels. Information regarding the person who created the model version, along with the date and exact time of saving, will appear underneath the name of the history.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":44093,"width":800,"height":401,"sizeSlug":"large","linkDestination":"none"} -->
+
+![](./img/wp-content-uploads-2022-12-Screenshot_7-1024x513.jpg)
+
+_Click on the History tab on the right side in the Model viewer screen to access the version history of a model_
+
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":4} -->
+
+#### Downloading a version of a model
+
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+
+Click on the Download icon at the desired model history item in the Document selector or in the Model viewer and it will download it to your computer with the name of the history item.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":4} -->
+
+#### Editing a history item
+
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+
+Click on the Edit icon at the desired model history item in the Document selector or in the Model viewer and it you can edit the name and the description field of the selected history item.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":4} -->
+
+#### Viewing a version of a model
+
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+
+In the Document selector just click twice on the card of the model or click on the View icon at the desired model history item and it will open the model version in the Model viewer.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":4} -->
+
+#### Restore a previous version of a mode
+
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+
+Choose the history version you like and click on the Restore icon. A warning message will appear not to restore a version by accident. After restoring, the selected version will be the latest state of that model. You can also do it in the Model viewer.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":4} -->
+
+#### Deleting a history item
+
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+
+Click on the Delete icon at the desired model history item in the Document selector or in the Model viewer and it will delete the selected history item permanently. A warning message will appear not to delete a version by accident.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+
+### Compare model versions
+
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+
+As an addition to the model history function, we have introduced the compare feature, which allows comparing two versions of the same model. Comparing takes place in Steelspace where you can select easily which versions would you like to compare.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+When opening a model in Steelspace you can find the „Compare version” button at the top within the History tab. Clicking the button will start the compare feature and the opened model version becomes automatically one of the selected versions, a hint will appear and you just have to select another version to compare with.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":44101,"width":402,"height":397,"sizeSlug":"full","linkDestination":"none"} -->
+
+![](./img/wp-content-uploads-2022-12-steelspace_comparemessage.jpg)
+
+_When starting the compare function, a hint will appear under the Compare version button_
+
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+
+After clicking, a dialog will appear where you can change what model versions you would like to compare then hit the compare button.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":44108,"width":894,"height":452,"sizeSlug":"large","linkDestination":"none"} -->
+
+![](./img/wp-content-uploads-2022-12-steelspace_compare_dialog-1024x518.jpg)
+
+_Dialog for selecting which versions to compare_
+
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+
+Starting from the new version, criteria for comparison can be set. Users can select, with the help of dropdown menus, the objects to display status changes on, and the selected objects will be colored in the following manner:
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+\- Green for the objects that have been added to the model
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+\- Red for objects that are deleted
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+\- Yellow for the changed objects.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+Additionally, more detailed selection can be performed on all the selected objects with the following checkboxes. Here, users can set the criteria after which the comparison has to be done.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":75975,"width":"748px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+
+![](./img/wp-content-uploads-2024-03-Compare-version-1.png)
+
+<!-- /wp:image -->
+
+<!-- wp:image {"align":"center","id":75985,"width":"748px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+
+![](./img/wp-content-uploads-2024-03-Compare-version-2.png)
+
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+
+The screen will switch from the Model screen to the Compare screen where a slider will appear. Using the slider you can change which model version you would like to inspect. Within the History tab, light blue and yellow dots are showing which versions are being compared.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":44116,"width":858,"height":430,"sizeSlug":"large","linkDestination":"none"} -->
+
+![](./img/wp-content-uploads-2022-12-steelspace_compared-1024x513.jpg)
+
+_Using the slider you can change which model version you would like to inspect_
+
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+
+You can start a new comparison by clicking on the New compare button at the top of the History tab.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+If you switch back to the Model screen, your comparison will be lost and you will need to start a new one.
+
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
