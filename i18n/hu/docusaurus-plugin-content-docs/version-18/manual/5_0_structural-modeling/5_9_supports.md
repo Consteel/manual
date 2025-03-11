@@ -109,6 +109,8 @@ Az ablak alján található egy jelölőnégyzet a csak nyomást felvevő támas
 info:::
 Segítségével olyan helyzetek modellezhetők, amikor nincs valódi kapcsolat az objektumok között, csupán egymáson nyugszanak.
 :::
+
+A jelölőnégyzet bejelölése deaktiválja a Z irányt a támasz számára, így a támasz jelen lesz a Z+ irányban és hiányozni fog a Z- irányban, szabad elmozdulást engedve.
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"justify"} -->
