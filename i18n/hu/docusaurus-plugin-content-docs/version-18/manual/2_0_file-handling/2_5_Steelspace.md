@@ -3,235 +3,51 @@ sidebar_position: 5
 ---
 # Steelspace 
 
-### Verzióelőzmények a Steelspaceben
+A [Steelspace](https://steelspace.io/login) egy folyamatosan fejlődő, nyílt platform a statikus mérnökök számára, amely megkönnyíti a tudásmegosztást és az együttműködést. Felhőalapú együttműködést kínál, zökkenőmentes kompatibilitást biztosít a Consteel modelljeivel, javítja a munkafolyamatokat különböző hasznos funkciók révén, és ideális platform a tudásmegosztó környezet kialakításához.
+
+### Bejelentkezés a Steelspace-be
+A Steelspace fiókba a meglévő Consteel fiókoddal vagy a Microsoft fiókoddal jelentkezhetsz be.
+
+![alt text](<img/steelspace login.png>)
+
+### Steelspace fájlkezelő
+
+Bejelentkezés után megjelenik a Steelspace fájlkezelő ablak:
+
+A bal felső sarokban választhatsz a következő mappák közül: Saját modellek, Megosztva velem és Nyilvános modellek. Bármelyikre kattintva megnyílik a megfelelő mappa (1).
+
+Az „Új hozzáadása” gombbal új mappát hozhatsz létre, vagy új fájlt importálhatsz. Jelenleg .ifc és a Consteel által használt általános .smadsteel fájlformátumok támogatottak.
+
+A felhő tárolódban különböző műveleteket végezhetsz (2) balról jobbra haladva: „Új mappa létrehozása,” „Áthelyezés,” „Modell megosztása,” „Törlés,” „Keresés,” „Rendezés dátum vagy név szerint,” „Lista vagy Kártya nézet,” és a „Modell vagy Mappa információ” be- vagy kikapcsolása.
+
+A Modell részletei ablak akkor jelenik meg, ha kiválasztasz egy modellt vagy mappát, majd rákattintasz a „Modell információ” gombra. Ebben az ablakban megtekinthetők olyan részletek, mint a mappa létrehozásának dátuma, a szülő mappa és a méret.
+
+Ha modellt választasz, a következő információk jelennek meg: a modell neve, a felhasznált tároló, a hely, a tulajdonos, a létrehozás dátuma, az utolsó módosítás dátuma és a modell leírása. A Történet fülön a jelenlegi modell összes korábbi verziója között navigálhatsz. Mappák esetén a Történet fül nem aktív (3).
+
+Minden modell megnyitása és megosztása adatforgalmat használ a tárolódból. A havi adatforgalmi korlátot a tagsági szint határozza meg. A havi adatforgalom aktuális használatát a bal alsó sarokban (4) követheted nyomon. A nézetet is át tudod váltani sötét vagy világos módra.
+
+A Steelspace-szel kapcsolatos további részletes információkat, működését, a támogatott tagokat, árakat és korlátozásokat a súgó gomb megnyomásával találhatod meg (5). Ha szeretnéd megtekinteni a fiókadataidat vagy kijelentkezni, kattints a profilodra.
+
+![alt text](<img/steelspace explorer.png>)
+
+### Steelspace modell megtekintő
+
+A vizsgált modellre való kétszeri kattintással megnyílik a Steelspace platformon. A 3D struktúra azonnal megjelenik a grafikus ablakon, és több lehetőség is látható az oldalsó paneleken.
+
+### Verzióelőzmények 
+
+A [verzióelőzmények](../2_0_file-handling/2_4_history-model-versioning-and-comparing-versions%20copy.md) funkció teljes mértékben integrálva van a Steelspace-be, ahogy azt az előző fejezetben ismertetve van. További részletes információkért kérjük, nézd meg azt.
+
+A Verzióelőzmények fülön megtekintheted egy modell összes verzióelőzményeit, és újakat hozhatsz létre. Szükség esetén letöltheted, visszaállíthatod vagy törölheted a modell verzióit.
 
 <!-- /wp:heading -->
 
-<!-- wp:paragraph -->
-
-Mint láthatod, a Verzióelőzmények teljesen integrálódtak a Steelspace felületébe is. Csak jelenkezz be a Steelspacere a steelspace.io oldalon és hozzáférhetsz a modelljeid verzióelőzményéhez anélkül, hogy meg kellene nyitnod a Consteelt.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4} -->
-
-#### Előzményelem létrehozása
-
-<!-- /wp:heading -->
+![alt text](<img/steelspace history.png>)
 
 <!-- wp:paragraph -->
 
-Csak akkor hozhatsz létre verzióelőzményt ha az utolsó felhőbe mentésed nem egyezik az utolsó verzióelőzmény elem állapotával.
+**Verzió összehasonlítása** (Compare) gombot az oldal tetején bal oldalon találod. A gombra kattintva aktiválódik az összehasonlító funkció, és a jelenlegi modell verziója automatikusan az egyik kiválasztott verzióval lesz összehasonlítva. Egy javaslat fog megjelenni, de egyszerűen kiválaszthatod a másik verziót, amellyel össze szeretnéd hasonlítani.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-Ilyen esetben válaszd ki a kívánt modellt a Dokumentum választó felületen és jobb felül kattints az "i" ikonra, majd a History fülre hogy hozzáférj az adott modell verzióihoz.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":44083,"width":829,"height":417,"sizeSlug":"large","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2022-12-steelspace_history_manual-1024x515.jpg)
-
-_Kattints az "i" ikonra jobb felül, hogy hozzáférj az adott modell verzióelőzményeihez_
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-Modell megnyitásakor kattints a History fülre bal oldalt a Model megtekintő képernyőn.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-Ilyenkor a legfrissebb verzióelem létrehozásához kattints az idővonal legfelső kártyáján a „+ Create history item” gombra.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":44093,"width":800,"height":401,"sizeSlug":"large","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2022-12-Screenshot_7-1024x513.jpg)
-
-Kattints a **History** fülre a Modell megtekintő képernyő bal oldalán hogy hozzáférj az adott modell verzióelőzményeihez*
-
-<!-- /wp:image -->
-
-<!-- wp:heading {"level":4} -->
-
-#### Modellverzió letöltése
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-A Dokumentum választó felületen vagy a Modell megtekintőben kattints a kívánt modell verzióelpzménykártyáján a Download ikonra és a verzió letöltődik a számítógépedre.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4} -->
-
-#### Verzióelőzmény elem módosítása
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-A Dokumentum választó felületen vagy a Modell megtekintőben kattints a kívánt modell verzióelpzménykártyáján az Edit ikonra és módosíthatod az adott verzióelem nevét és leírását.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4} -->
-
-#### Modellverzió megtekintése
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-A Dokumentum választó felületen kattints kétszer a választott modell kártyájára vagy a kártyán lévő View ikonra hogy egy adott verziót nyiss meg a Modell megtekintőben.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4} -->
-
-#### Modell visszaállítása korábbi verzióra
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-A kívánt modellnél jobb felül kattints az "i" ikonra és a Verzióelőzmények fülre, hogy hozzáférj az adott modell verzióelőzményeihez. Válaszd ki a számodra szimpatikus verziót és kattints a Visszaállítás ikonra. Visszaállításkor egy figyelmeztető üzenet fog megjelenni, hogy nehogy véletlenül történjen a visszaállítás. A visszaállítás után a választott verzió lesz az aktuális verziója a modellnek.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":4} -->
-
-#### Verzióelőzmény elem törlése
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-A Dokumentum választó felületen vagy a Modell megtekintőben kattints a választott modell verzióinak a kártyáján a Delete ikonra a törléshez. Törlés esetén egy figyelmeztető üzenet fog megjelenni, hogy nehogy véletlenül történjen az eltávolítás.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:spacer {"height":"36px"} -->
-
-<!-- /wp:spacer -->
-
-<!-- wp:heading {"level":3} -->
-
-### Modellverziók összehasonlítása
-
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-
-A Verzióelőzmények kiegészítő funkciójaként bevezetjük a Modellverziók összehasonlításának lehetőségét, ami lehetővé teszi egy adott modell két különböző állapotú verziójának összehasonlítását egymással. Az összehasonlítás Steelspace felületén történik ahol könnyen kiválaszthatod, hogy melyik verziókat szeretnéd összehasonlítani.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-Egy modell megnyitásakor a History fül tetején találod a Compare version gombot. Kattintáskor bekapcsol a funkció és automatikusan az adott kiválasztott verzió lesz kiválasztva egyik modellverzióként az összehasonlításhoz. Emellett egy magyarázó szöveg is megjelenik a gomb alatt, hogy csak válassz ki egy másik verziót az összehasonlítás másik elemének.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":44104,"width":402,"height":397,"sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2022-12-steelspace_comparemessage.jpg)
-
-_Az összehasonlítás funkció bekapcsolásakor egy segítő szöveg jelenik meg a Compare version gomb alatt._
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-Kattintás után az összehasonlítás véglegesítéséhez szükséges dialóg jelenik meg, ahol még lehetőség van a verziók kiválasztásának a módosítására. Kattints a Compare gombra az összehasonlításhoz.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":44108,"width":894,"height":452,"sizeSlug":"large","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2022-12-steelspace_compare_dialog-1024x518.jpg)
-
-_Verziók kiválasztását segítő dialóg_
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-A legújabb verziótól kezdve összehasonlítási szempontokat lehet beállítani. A felhasználók legördülő menük segítségével kiválaszthatják, mely objektumok állapotváltozásait szeretnék megjeleníteni. A kiválasztott objektumokat az alábbi módon színezi:
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-\- Zöld szín jelöli azokat az objektumokat, amelyeket hozzáadtak a modellhez
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-\- Piros szín jelöli azokat az objektumokat, amelyeket töröltek
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-\- Sárga szín jelöli azokat az objektumokat, amelyeken változás történt.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-Továbbá, a kiválasztott összes objektumon részletesebb kiválasztás is elvégezhető az alábbi jelölőnégyzetek segítségével. Itt a felhasználók beállíthatják azokat a szempontokat, amelyek alapján az összehasonlítást kívánják végezni.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":76077,"width":"577px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2024-03-Compare-version-1-1.png)
-
-<!-- /wp:image -->
-
-<!-- wp:image {"align":"center","id":76087,"width":"573px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2024-03-Compare-version-2-1.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-A képernyő automatikusan Modell nézetről a Compare nézetre vált, ahol egy csúszka segítségével választhatod ki, hogy melyik verziót szeretnéd megtekinteni. A History fülön belül egy világoskék és egy sárga színezés jelzi az éppen összehasonlításra kiválasztott verziókat.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":44116,"width":858,"height":430,"sizeSlug":"large","linkDestination":"none"} -->
-
-![](./img/wp-content-uploads-2022-12-steelspace_compared-1024x513.jpg)
-
-_A csúszkát használva kiválaszthatod, hogy melyik modellverziót szeretnéd megtekinteni_
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-Új összehasonlítást a New compare gombra kattintva indíthatsz el.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-A Modell nézetre visszaváltás esetén elvész az előzőleg kiválasztott modellösszehasonlítás és új összehasonlítás indítására lesz szükséged.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
 
 ### Kiválasztás (Selection)
 

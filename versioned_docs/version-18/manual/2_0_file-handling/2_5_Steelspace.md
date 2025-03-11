@@ -11,9 +11,9 @@ You can sign in to your Steelspace account using your existing **Consteel accoun
 
 ![alt text](<img/steelspace login.png>)
 
-## Steelspace Explorer
+## Steelspace explorer
 
-After logging in, you will see the Steelspace Explorer window:
+After logging in, you will see the Steelspace explorer window:
 
 In the top left corner, you can choose between the following folders: My Models, Shared with Me, and Public Models. Clicking on any of these will open the corresponding folder (1).
 
@@ -31,7 +31,7 @@ More detailed information about Steelspace, how it works, supported members, pri
 
 ![alt text](<img/steelspace explorer.png>)
 
-## Model handling in Steelspace
+## Steelspace model viewer
 
 Double-clicking on the investigated model will open it in the Steelspace platform. The 3D structure will appear immediately in the graphical window, with several options displayed on the sides.
 
