@@ -198,7 +198,7 @@ A felhőbe mentett modellek megoszthatók más Consteel-felhasználókkal, akik 
 
 #### _Import Center_
 
-Az [Import Center](../2_0_file-handling/2_8_import-center.md) egyesíti az importálási és exportálási funkciókat, így egyszerűsíti a különböző forrásokból származó modellek kezelését és az egységes munkafolyamatot. A kiválasztott mappában található kompatibilis fájlok (.IFC, .smadsteel, .xlsx) automatikusan konvertálódnak, és a folyamat végén Consteel-kompatibilis modell jelenik meg a munkaterületen.
+Az [Import Center](../2_0_file-handling/2_9_import-center.md) egyesíti az importálási és exportálási funkciókat, így egyszerűsíti a különböző forrásokból származó modellek kezelését és az egységes munkafolyamatot. A kiválasztott mappában található kompatibilis fájlok (.IFC, .smadsteel, .xlsx) automatikusan konvertálódnak, és a folyamat végén Consteel-kompatibilis modell jelenik meg a munkaterületen.
 
 #### _Import_
 

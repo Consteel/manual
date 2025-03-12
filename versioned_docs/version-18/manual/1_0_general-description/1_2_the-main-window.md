@@ -197,7 +197,7 @@ Models saved to the Cloud can be shared with other Consteel users who have an on
 
 _Import Center_ 
 
-The [Import Center](../2_0_file-handling/2_8_import-center.md) streamlines the model import process by consolidating the import and export functionalities into one area, supporting various file types like .IFC, .smadsteel, and .xlsx. Once a model is selected, it undergoes a transparent conversion process, ensuring seamless integration into the Consteel workspace.
+The [Import Center](../2_0_file-handling/2_9_import-center.md) streamlines the model import process by consolidating the import and export functionalities into one area, supporting various file types like .IFC, .smadsteel, and .xlsx. Once a model is selected, it undergoes a transparent conversion process, ensuring seamless integration into the Consteel workspace.
 
 _Import_
 

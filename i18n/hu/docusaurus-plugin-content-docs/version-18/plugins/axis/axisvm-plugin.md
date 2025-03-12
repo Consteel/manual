@@ -49,7 +49,7 @@ A konvertálási folyamat befejezése után a fájl megnyitható a Consteel-ben.
 
 ![alt text](<img/import center-AxisVM .png>)
 
-További információkat az importálási folyamatról az [Import Center](../../manual/2_0_file-handling/2_8_import-center.md) fejezetben találhatsz.
+További információkat az importálási folyamatról az [Import Center](../../manual/2_0_file-handling/2_9_import-center.md) fejezetben találhatsz.
 
 
 ## 4. Az import korlátozásai 

@@ -372,6 +372,6 @@ A jobb oldalon található színpalettán jobb egérgombot kattintva annak tulaj
 
 <!-- wp:paragraph -->
 
-A főirányokhoz tartozó szükséges vasmennyiség ábrák dxf formátumba exportálhatók, a **_[DXF import fejezetben](../2_0_file-handling/2_6_dxf-import.md)_** bemutatott módon.
+A főirányokhoz tartozó szükséges vasmennyiség ábrák dxf formátumba exportálhatók, a **_[DXF import fejezetben](../2_0_file-handling/2_7_dxf-import.md)_** bemutatott módon.
 
 <!-- /wp:paragraph -->
