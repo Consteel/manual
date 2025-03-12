@@ -53,7 +53,7 @@ After the conversion process is completed, the file can be opened in Consteel. U
 
 ![alt text](img/openfromimoprtcentercs18.png)
 
-You can find more information about the import process in the [Import Center](../../manual/2_0_file-handling/2_8_import-center.md) chapter.
+You can find more information about the import process in the [Import Center](../../manual/2_0_file-handling/2_9_import-center.md) chapter.
 
 
 ## 4. Limitations of the import

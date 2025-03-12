@@ -384,9 +384,7 @@ Előfizetés és felhasználó menedzsment
 
 A Projekt Központ egyesíti magában a modell- és a felhasználói fiókkezelés összes funkcióját.
 
-<!-- /wp:paragraph -->
-
-![alt text](img/homepccs18.png)
+![alt text](<img/HU Project cenetr.png>)
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
 
