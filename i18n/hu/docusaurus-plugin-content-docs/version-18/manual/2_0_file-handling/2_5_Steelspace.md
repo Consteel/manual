@@ -36,7 +36,7 @@ A vizsgált modellre való kétszeri kattintással megnyílik a Steelspace platf
 
 #### Verzióelőzmények 
 
-A verzióelőzmények funkció teljes mértékben integrálva van a Steelspace-be, ahogy azt az előző fejezetben ismertetve van. További részletes információkért kérjük, nézd meg azt.
+A [verzióelőzmények](./2_4_history-model-versioning-and-comparing-versions.md#verzióelőzmények-a-steelspaceben) funkció teljes mértékben integrálva van a Steelspace-be, ahogy azt az előző fejezetben ismertetve van. További részletes információkért kérjük, nézd meg azt.
 
 A Verzióelőzmények fülön megtekintheted egy modell összes verzióelőzményeit, és újakat hozhatsz létre. Szükség esetén letöltheted, visszaállíthatod vagy törölheted a modell verzióit.
 
