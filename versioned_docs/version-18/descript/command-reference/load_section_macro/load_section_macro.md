@@ -79,9 +79,9 @@ Type of macro to be used.
 | [Cold-formed C](#cold-formed-c) (simplified)                                      | CF-C            |
 | [Cold-formed Z](#cold-formed-z) (simplified)                                      | CF-Z            |
 | Double mirrored sections                                                          | DM-...          |
-| [Double mirrored C](#couble-mirrored-c)                                           | DM-C            |
-| [Double mirrored SIGMA](#couble-mirrored-sigma)                                   | DM-SIGMA        |
-| [Double mirrored user drawn](#couble-mirrored-user-drawn)                         | DM-UD           |
+| [Double mirrored C](#double-mirrored-c)                                           | DM-C            |
+| [Double mirrored SIGMA](#double-mirrored-sigma)                                   | DM-SIGMA        |
+| [Double mirrored user drawn](#double-mirrored-user-drawn)                         | DM-UD           |
 
 #### Section name:
 
