@@ -5,12 +5,12 @@ sidebar_position: 5
 
 A [Steelspace](https://steelspace.io/login) egy folyamatosan fejlődő, nyílt platform a statikus mérnökök számára, amely megkönnyíti a tudásmegosztást és az együttműködést. Felhőalapú együttműködést kínál, zökkenőmentes kompatibilitást biztosít a Consteel modelljeivel, javítja a munkafolyamatokat különböző hasznos funkciók révén, és ideális platform a tudásmegosztó környezet kialakításához.
 
-### Bejelentkezés a Steelspace-be
+## Bejelentkezés a Steelspace-be
 A Steelspace fiókba a meglévő Consteel fiókoddal vagy a Microsoft fiókoddal jelentkezhetsz be. Amennyiben a Microsoftos belépést választod, automatikusan regisztrálsz a Steelspace-re, de csak Basic tagsággal érheted el a funkciókat. További funkciókhoz mindenképp Consteel előfizetés szükséges.
 
 ![alt text](<img/steelspace login.png>)
 
-### Steelspace fájlkezelő
+## Steelspace fájlkezelő
 
 Bejelentkezés után megjelenik a Steelspace fájlkezelő ablak:
 
@@ -30,11 +30,11 @@ A Steelspace-szel kapcsolatos további részletes információkat, működését
 
 ![alt text](<img/steelspace explorer.png>)
 
-### Steelspace modell megtekintő
+## Steelspace modell megtekintő
 
 A vizsgált modellre való kétszeri kattintással megnyílik a Steelspace platformon. A 3D struktúra azonnal megjelenik a grafikus ablakon, és több lehetőség is látható az oldalsó paneleken.
 
-#### Verzióelőzmények 
+### Verzióelőzmények 
 
 A [verzióelőzmények](./2_4_history-model-versioning-and-comparing-versions.md#verzióelőzmények-a-steelspaceben) funkció teljes mértékben integrálva van a Steelspace-be, ahogy azt az előző fejezetben ismertetve van. További részletes információkért kérjük, nézd meg azt.
 
@@ -49,7 +49,7 @@ A Verzióelőzmények fülön megtekintheted egy modell összes verzióelőzmén
 **Verzió összehasonlítása** (Compare) gombot az oldal tetején bal oldalon találod. A gombra kattintva aktiválódik az összehasonlító funkció, és a jelenlegi modell verziója automatikusan az egyik kiválasztott verzióval lesz összehasonlítva. Egy javaslat fog megjelenni, de egyszerűen kiválaszthatod a másik verziót, amellyel össze szeretnéd hasonlítani.
 
 
-#### Kiválasztás (Selection)
+### Kiválasztás (Selection)
 
 <!-- /wp:heading -->
 
@@ -79,7 +79,7 @@ A modell megértésének elősegítése érdekében a felhasználók kijelölhet
 
 <!-- wp:heading {"level":3} -->
 
-#### Terhek (Loads)
+### Terhek (Loads)
 
 <!-- /wp:heading -->
 
@@ -97,7 +97,7 @@ Az oldalsávon a következő gomb a Terhek. Segít a felhasználóknak azonosít
 
 <!-- wp:heading {"level":3} -->
 
-#### Megjelenítés (Display)
+### Megjelenítés (Display)
 
 <!-- /wp:heading -->
 
@@ -119,7 +119,7 @@ Ezenkívül a ,,Clip plane” jelölőnégyzet egy metszősíkot hoz létre a mo
 
 <!-- /wp:image -->
 
-#### Kommentek
+### Kommentek
 
 A kommentek funkció a globális struktúrára, specifikus objektumokra vagy specifikus objektumcsoportokra használható.
 
