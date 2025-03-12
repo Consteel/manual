@@ -7,7 +7,7 @@ sidebar_position: 5
 
 ## Login to Steelspace
 
-You can sign in to your Steelspace account using your existing **Consteel account** or your **Microsoft account**.
+You can log into your Steelspace account with your existing **Consteel account** or your **Microsoft account**. If you choose the Microsoft login, you will be automatically registered on Steelspace, but you will only have access to the features with a Basic membership. To access additional features, a Consteel subscription is required.
 
 ![alt text](<img/steelspace login.png>)
 
