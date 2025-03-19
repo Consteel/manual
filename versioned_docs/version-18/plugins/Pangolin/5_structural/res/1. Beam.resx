@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BeamParam_Layer_Description" xml:space="preserve">
+    <value>The layer of the beam.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="BeamParam_Layer_Name" xml:space="preserve">
+    <value>Layer</value>
+    <comment>Input</comment>
+  </data>
+  <data name="BeamParam_Layer_NickName" xml:space="preserve">
+    <value>L</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Beam_ComponentDescription" xml:space="preserve">
+    <value>Creates a ConSteel Beam.</value>
+    <comment>Component</comment>
+  </data>
+  <data name="Beam_ComponentName" xml:space="preserve">
+    <value>Beam On IEdge</value>
+    <comment>Component</comment>
+  </data>
+  <data name="Beam_Description" xml:space="preserve">
+    <value>Represents a beam structural member in ConSteel model.</value>
+    <comment>Component</comment>
+  </data>
+  <data name="Beam_Name" xml:space="preserve">
+    <value>ConSteel Beam</value>
+    <comment>Component</comment>
+  </data>
+  <data name="Beam_Nick" xml:space="preserve">
+    <value>B</value>
+    <comment>Component</comment>
+  </data>
+  <data name="BowImperfectionY_Description" xml:space="preserve">
+    <value>Bow imperfection L/Y. (in the section's coordinate system).</value>
+    <comment>Input</comment>
+  </data>
+  <data name="BowImperfectionY_Name" xml:space="preserve">
+    <value>BowImperfectionY</value>
+    <comment>Input</comment>
+  </data>
+  <data name="BowImperfectionY_NickName" xml:space="preserve">
+    <value>BY</value>
+    <comment>Input</comment>
+  </data>
+  <data name="BowImperfectionZ_Description" xml:space="preserve">
+    <value>Bow imperfection L/Z. (in the section's coordinate system).</value>
+    <comment>Input</comment>
+  </data>
+  <data name="BowImperfectionZ_Name" xml:space="preserve">
+    <value>BowImperfectionZ</value>
+    <comment>Input</comment>
+  </data>
+  <data name="BowImperfectionZ_NickName" xml:space="preserve">
+    <value>BZ</value>
+    <comment>Input</comment>
+  </data>
+  <data name="CSBeam_Description" xml:space="preserve">
+    <value>The beam whose attributes you wish to deconstruct.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="CSBeam_Name" xml:space="preserve">
+    <value>Beam</value>
+    <comment>Output</comment>
+  </data>
+  <data name="CSBeam_NickName" xml:space="preserve">
+    <value>B</value>
+    <comment>Output</comment>
+  </data>
+  <data name="DirectionDegree_Description" xml:space="preserve">
+    <value>Direction degree pf beam.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="DirectionDegree_Name" xml:space="preserve">
+    <value>Direction Degree</value>
+    <comment>Input</comment>
+  </data>
+  <data name="DirectionDegree_NickName" xml:space="preserve">
+    <value>DD</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Direction_Rad_Description" xml:space="preserve">
+    <value>Direction of the section's Z axis as measured from the reference edge's Z axis, in radians.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Direction_Rad_Name" xml:space="preserve">
+    <value>DirectionRAD</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Direction_Rad_NickName" xml:space="preserve">
+    <value>DR</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Eccentricity_Y_Description" xml:space="preserve">
+    <value>Eccentricity of the beam in the Y direction. Note: this attribute of beams is deprecated, and should not be used.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Eccentricity_Y_Name" xml:space="preserve">
+    <value>EccentricityY</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Eccentricity_Y_NickName" xml:space="preserve">
+    <value>EY</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Eccentricity_Z_Description" xml:space="preserve">
+    <value>Eccentricity of the beam in the Z direction. Note: this attribute of beams is deprecated, and should not be used.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Eccentricity_Z_Name" xml:space="preserve">
+    <value>EccentricityZ</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Eccentricity_Z_NickName" xml:space="preserve">
+    <value>EZ</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Edge_Description" xml:space="preserve">
+    <value>ConSteel IEdge.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Edge_Name" xml:space="preserve">
+    <value>IEdge</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Edge_NickName" xml:space="preserve">
+    <value>E</value>
+    <comment>Input</comment>
+  </data>
+  <data name="FiniteElementCount_Description" xml:space="preserve">
+    <value>Number of finite elements. 0 means auto determined, maximum is 32.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="FiniteElementCount_Name" xml:space="preserve">
+    <value>FiniteElementCount</value>
+    <comment>Input</comment>
+  </data>
+  <data name="FiniteElementCount_NickName" xml:space="preserve">
+    <value>FC</value>
+    <comment>Input</comment>
+  </data>
+  <data name="FiniteElementType_Description" xml:space="preserve">
+    <value>Finite element type of the beam. Right click for possible values.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="FiniteElementType_Name" xml:space="preserve">
+    <value>FiniteElementType</value>
+    <comment>Input</comment>
+  </data>
+  <data name="FiniteElementType_NickName" xml:space="preserve">
+    <value>FT</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Name_Description" xml:space="preserve">
+    <value>Name of the created structural member. If left empty, once loaded into ConSteel, it will create autoincremented name for it based on the actual open ConSteel model.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Name_Name" xml:space="preserve">
+    <value>Name</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Name_NickName" xml:space="preserve">
+    <value>N</value>
+    <comment>Input</comment>
+  </data>
+  <data name="ReleaseEnd_Description" xml:space="preserve">
+    <value>ConSteel release at the beam end point. If left empty, initialized to continuous.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="ReleaseEnd_Name" xml:space="preserve">
+    <value>ReleaseEnd</value>
+    <comment>Input</comment>
+  </data>
+  <data name="ReleaseEnd_NickName" xml:space="preserve">
+    <value>RE</value>
+    <comment>Input</comment>
+  </data>
+  <data name="ReleaseStart_Description" xml:space="preserve">
+    <value>ConSteel release at the beam start point. If left empty, initialized to continuous.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="ReleaseStart_Name" xml:space="preserve">
+    <value>ReleaseStart</value>
+    <comment>Input</comment>
+  </data>
+  <data name="ReleaseStart_NickName" xml:space="preserve">
+    <value>RS</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Section_Description" xml:space="preserve">
+    <value>ConSteel Section.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Section_Name" xml:space="preserve">
+    <value>Section</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Section_NickName" xml:space="preserve">
+    <value>S</value>
+    <comment>Input</comment>
+  </data>
+  <data name="StructuralGroup_Description" xml:space="preserve">
+    <value>ConSteel StructuralGroup. By default does not belong to any.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="StructuralGroup_Name" xml:space="preserve">
+    <value>StructuralGroup</value>
+    <comment>Input</comment>
+  </data>
+  <data name="StructuralGroup_NickName" xml:space="preserve">
+    <value>SG</value>
+    <comment>Input</comment>
+  </data>
+</root>

@@ -1,0 +1,612 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Arc_Description" xml:space="preserve">
+    <value>Represents an Arc in ConSteel model.</value>
+  </data>
+  <data name="Arc_Name" xml:space="preserve">
+    <value>Arc</value>
+  </data>
+  <data name="Arc_NickName" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="BeamThermal_Description" xml:space="preserve">
+    <value>The created ConSteel beam thermal Load.</value>
+  </data>
+  <data name="BeamThermal_Name" xml:space="preserve">
+    <value>Beam Thermal</value>
+  </data>
+  <data name="BeamThermal_NickName" xml:space="preserve">
+    <value>BT</value>
+  </data>
+  <data name="Beam_Description" xml:space="preserve">
+    <value>Reperesents a ConSteel Beam in ConSteel Model. </value>
+  </data>
+  <data name="Beam_Name" xml:space="preserve">
+    <value>Beam</value>
+  </data>
+  <data name="Beam_NickName" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="Concrete_Description" xml:space="preserve">
+    <value>Represents a Concrete Material in ConSteel model</value>
+  </data>
+  <data name="Concrete_Name" xml:space="preserve">
+    <value>Concrete</value>
+  </data>
+  <data name="Concrete_NickName" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="ConSteelModelComponent_Guid" xml:space="preserve">
+    <value>d89099ac-7397-4777-b721-8a5afc81abe3</value>
+  </data>
+  <data name="ConSteelModelComponent_Guid_3_1" xml:space="preserve">
+    <value>5f9fcf8b-ed32-4926-b4b4-4f091d9be009</value>
+  </data>
+  <data name="Diaphragm_Description" xml:space="preserve">
+    <value>Represents a Diaphragm Object in ConSteel model</value>
+  </data>
+  <data name="Diaphragm_Name" xml:space="preserve">
+    <value>Diaphragm</value>
+  </data>
+  <data name="Diaphragm_NickName" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="DisplacementResult_Description" xml:space="preserve">
+    <value>Gets the displacement results calculated by ConSteel analysis on the input beams.</value>
+  </data>
+  <data name="DisplacementResult_Name" xml:space="preserve">
+    <value>Displacement Results</value>
+  </data>
+  <data name="DisplacementResult_NickName" xml:space="preserve">
+    <value>DR</value>
+  </data>
+  <data name="EdgeStiffener_Description" xml:space="preserve">
+    <value>Represents an Edge Stiffener in ConSteel model.</value>
+  </data>
+  <data name="EdgeStiffener_Name" xml:space="preserve">
+    <value>Edge Stiffener</value>
+  </data>
+  <data name="EdgeStiffener_NickName" xml:space="preserve">
+    <value>ES</value>
+  </data>
+  <data name="Elongation_Description" xml:space="preserve">
+    <value>Represents a Elongation Load in ConSteel model</value>
+  </data>
+  <data name="Elongation_Name" xml:space="preserve">
+    <value>Elongation Load</value>
+  </data>
+  <data name="Elongation_NickName" xml:space="preserve">
+    <value>E</value>
+  </data>
+  <data name="GlobalSettingsObject_Description" xml:space="preserve">
+    <value>Represents global model settings in ConSteel model.</value>
+  </data>
+  <data name="GlobalSettingsObject_Name" xml:space="preserve">
+    <value>Global Settings Object</value>
+  </data>
+  <data name="GlobalSettingsObject_NickName" xml:space="preserve">
+    <value>GSO</value>
+  </data>
+  <data name="HaunchMember_Description" xml:space="preserve">
+    <value>Represents a Haunch on a beam in ConSteel model.</value>
+  </data>
+  <data name="HaunchMember_Name" xml:space="preserve">
+    <value>Haunch</value>
+  </data>
+  <data name="HaunchMember_NickName" xml:space="preserve">
+    <value>H</value>
+  </data>
+  <data name="IEdge_Description" xml:space="preserve">
+    <value>Represents a general edge geometry in ConSteel model (eg line, or circle arc).</value>
+  </data>
+  <data name="IEdge_Name" xml:space="preserve">
+    <value>IEdge</value>
+  </data>
+  <data name="IEdge_NickName" xml:space="preserve">
+    <value>IE</value>
+  </data>
+  <data name="IModelObject_Description" xml:space="preserve">
+    <value>Represents a ModelObject in ConSteel model.</value>
+  </data>
+  <data name="IModelObject_Name" xml:space="preserve">
+    <value>Model Object</value>
+  </data>
+  <data name="IModelObject_NickName" xml:space="preserve">
+    <value>MO</value>
+  </data>
+  <data name="IntermediateStiffener_Description" xml:space="preserve">
+    <value>Represents an Intermediate Stiffener in ConSteel model.</value>
+  </data>
+  <data name="IntermediateStiffener_Name" xml:space="preserve">
+    <value>Intermediate Stiffener</value>
+  </data>
+  <data name="IntermediateStiffener_NickName" xml:space="preserve">
+    <value>IS</value>
+  </data>
+  <data name="IStructuralObject_Description" xml:space="preserve">
+    <value>Represents a general structural object in ConSteel model (eg structural beam, or plate).</value>
+  </data>
+  <data name="IStructuralObject_Name" xml:space="preserve">
+    <value>Structural Object</value>
+  </data>
+  <data name="IStructuralObject_NickName" xml:space="preserve">
+    <value>SO</value>
+  </data>
+  <data name="ISurfaceLoadBearing_Description" xml:space="preserve">
+    <value>Represents an object on which surface loads can act, (eg.: a structural plate, or a load transfer surface) in ConSteel model.</value>
+  </data>
+  <data name="ISurfaceLoadBearing_Name" xml:space="preserve">
+    <value>Surface Load Bearing Object</value>
+  </data>
+  <data name="ISurfaceLoadBearing_NickName" xml:space="preserve">
+    <value>SLBO</value>
+  </data>
+  <data name="Layer_Description" xml:space="preserve">
+    <value>The created ConSteel layer.</value>
+  </data>
+  <data name="Layer_Name" xml:space="preserve">
+    <value>Layer</value>
+  </data>
+  <data name="Layer_NickName" xml:space="preserve">
+    <value>La</value>
+  </data>
+  <data name="LinearSurfaceLoad_Description" xml:space="preserve">
+    <value>The created ConSteel Linear Surface Load.</value>
+  </data>
+  <data name="LinearSurfaceLoad_Name" xml:space="preserve">
+    <value>Linear Surface Load</value>
+  </data>
+  <data name="LinearSurfaceLoad_NickName" xml:space="preserve">
+    <value>LSL</value>
+  </data>
+  <data name="LineLoad_Description" xml:space="preserve">
+    <value>The created ConSteel Line Load.</value>
+  </data>
+  <data name="LineLoad_Name" xml:space="preserve">
+    <value>Line Load</value>
+  </data>
+  <data name="LineLoad_NickName" xml:space="preserve">
+    <value>LL</value>
+  </data>
+  <data name="Line_Description" xml:space="preserve">
+    <value>Represents a Line in ConSteel model.</value>
+  </data>
+  <data name="Line_Name" xml:space="preserve">
+    <value>Line</value>
+  </data>
+  <data name="Line_NickName" xml:space="preserve">
+    <value>L</value>
+  </data>
+  <data name="Link_Description" xml:space="preserve">
+    <value>Represents a Link in ConSteel model.</value>
+  </data>
+  <data name="Link_Name" xml:space="preserve">
+    <value>Link</value>
+  </data>
+  <data name="Link_NickName" xml:space="preserve">
+    <value>Li</value>
+  </data>
+  <data name="LoadCase_Description" xml:space="preserve">
+    <value>The created ConSteel Load Case.</value>
+  </data>
+  <data name="LoadCase_Name" xml:space="preserve">
+    <value>Load Case</value>
+  </data>
+  <data name="LoadCase_NickName" xml:space="preserve">
+    <value>LC</value>
+  </data>
+  <data name="LoadCombination_Description" xml:space="preserve">
+    <value>The created ConSteel Load Combination.</value>
+  </data>
+  <data name="LoadCombination_Name" xml:space="preserve">
+    <value>Load Combination</value>
+  </data>
+  <data name="LoadCombination_NickName" xml:space="preserve">
+    <value>LCo</value>
+  </data>
+  <data name="LoadGroupData_AccidentalSnow_Description" xml:space="preserve">
+    <value>The created ConSteel AccidentalSnow Load Group.</value>
+  </data>
+  <data name="LoadGroupData_AccidentalSnow_Name" xml:space="preserve">
+    <value>Accidental Snow Load Group</value>
+  </data>
+  <data name="LoadGroupData_AccidentalSnow_NickName" xml:space="preserve">
+    <value>LGAccSnow</value>
+  </data>
+  <data name="LoadGroupData_Accidental_Description" xml:space="preserve">
+    <value>The created ConSteel Accidental Load Group.</value>
+  </data>
+  <data name="LoadGroupData_Accidental_Name" xml:space="preserve">
+    <value>Accidental Load Group</value>
+  </data>
+  <data name="LoadGroupData_Accidental_NickName" xml:space="preserve">
+    <value>LGAcc</value>
+  </data>
+  <data name="LoadGroupData_Crane_Description" xml:space="preserve">
+    <value>The created ConSteel Crane Load Group.</value>
+  </data>
+  <data name="LoadGroupData_Crane_Name" xml:space="preserve">
+    <value>Crane Load Group</value>
+  </data>
+  <data name="LoadGroupData_Crane_NickName" xml:space="preserve">
+    <value>LGCrane</value>
+  </data>
+  <data name="LoadGroupData_Fire_Description" xml:space="preserve">
+    <value>The created ConSteel Fire Load Group.</value>
+  </data>
+  <data name="LoadGroupData_Fire_Name" xml:space="preserve">
+    <value>Fire Load Group</value>
+  </data>
+  <data name="LoadGroupData_Fire_NickName" xml:space="preserve">
+    <value>LGFire</value>
+  </data>
+  <data name="LoadGroupData_Meteorological_Description" xml:space="preserve">
+    <value>The created ConSteel Meteorological Load Group.</value>
+  </data>
+  <data name="LoadGroupData_Meteorological_Name" xml:space="preserve">
+    <value>Meteorological Load Group</value>
+  </data>
+  <data name="LoadGroupData_Meteorological_NickName" xml:space="preserve">
+    <value>LGMeteo</value>
+  </data>
+  <data name="LoadGroupData_Permanent_Description" xml:space="preserve">
+    <value>The created ConSteel Permanent Load Group.</value>
+  </data>
+  <data name="LoadGroupData_Permanent_Name" xml:space="preserve">
+    <value>Permanent Load Group</value>
+  </data>
+  <data name="LoadGroupData_Permanent_NickName" xml:space="preserve">
+    <value>LGPerm</value>
+  </data>
+  <data name="LoadGroupData_Snow_Description" xml:space="preserve">
+    <value>The created ConSteel Snow Load Group.</value>
+  </data>
+  <data name="LoadGroupData_Snow_Name" xml:space="preserve">
+    <value>Snow Load Group</value>
+  </data>
+  <data name="LoadGroupData_Snow_NickName" xml:space="preserve">
+    <value>LGSnow</value>
+  </data>
+  <data name="LoadGroupData_Variable_Description" xml:space="preserve">
+    <value>The created ConSteel Variable Load Group.</value>
+  </data>
+  <data name="LoadGroupData_Variable_Name" xml:space="preserve">
+    <value>Variable Load Group</value>
+  </data>
+  <data name="LoadGroupData_Variable_NickName" xml:space="preserve">
+    <value>LGVar</value>
+  </data>
+  <data name="LoadGroupData_Wind_Description" xml:space="preserve">
+    <value>The created ConSteel Wind Load Group.</value>
+  </data>
+  <data name="LoadGroupData_Wind_Name" xml:space="preserve">
+    <value>Wind Load Group</value>
+  </data>
+  <data name="LoadGroupData_Wind_NickName" xml:space="preserve">
+    <value>LGWind</value>
+  </data>
+  <data name="LoadTransferSurface_Description" xml:space="preserve">
+    <value>Represents a Load Transfer Surface in ConSteel model.</value>
+  </data>
+  <data name="LoadTransferSurface_Name" xml:space="preserve">
+    <value>Load Transfer Surface</value>
+  </data>
+  <data name="LoadTransferSurface_NickName" xml:space="preserve">
+    <value>LTS</value>
+  </data>
+  <data name="ModelDescription" xml:space="preserve">
+    <value>A ConSteel Model</value>
+  </data>
+  <data name="ModelName" xml:space="preserve">
+    <value>ConSteel Model</value>
+  </data>
+  <data name="ModelNick" xml:space="preserve">
+    <value>CSM</value>
+  </data>
+  <data name="ModelPortion_Description" xml:space="preserve">
+    <value>The created ConSteel ModelPortion.</value>
+  </data>
+  <data name="ModelPortion_Name" xml:space="preserve">
+    <value>Model Portion</value>
+  </data>
+  <data name="ModelPortion_NickName" xml:space="preserve">
+    <value>MP</value>
+  </data>
+  <data name="NodeLoad_Description" xml:space="preserve">
+    <value>The created ConSteel Node Load.</value>
+  </data>
+  <data name="NodeLoad_Name" xml:space="preserve">
+    <value>Node Load</value>
+  </data>
+  <data name="NodeLoad_NickName" xml:space="preserve">
+    <value>NL</value>
+  </data>
+  <data name="Node_Description" xml:space="preserve">
+    <value>Represents a Point in ConSteel model.</value>
+  </data>
+  <data name="Node_Name" xml:space="preserve">
+    <value>Point</value>
+  </data>
+  <data name="Node_NickName" xml:space="preserve">
+    <value>Po</value>
+  </data>
+  <data name="PlateThermalLoad_Description" xml:space="preserve">
+    <value>Represents a Thermal Load on a plate in ConSteel model.</value>
+  </data>
+  <data name="PlateThermalLoad_Name" xml:space="preserve">
+    <value>Plate Thermal Load</value>
+  </data>
+  <data name="PlateThermalLoad_NickName" xml:space="preserve">
+    <value>PTL</value>
+  </data>
+  <data name="Plate_Description" xml:space="preserve">
+    <value>Represents a Plate structural member in ConSteel model.</value>
+  </data>
+  <data name="Plate_Name" xml:space="preserve">
+    <value>Plate</value>
+  </data>
+  <data name="Plate_NickName" xml:space="preserve">
+    <value>Pl</value>
+  </data>
+  <data name="Polygon_Description" xml:space="preserve">
+    <value>Represents a Polygon in ConSteel model (closed, and simple).</value>
+  </data>
+  <data name="Polygon_Name" xml:space="preserve">
+    <value>Polygon</value>
+  </data>
+  <data name="Polygon_NickName" xml:space="preserve">
+    <value>Pol</value>
+  </data>
+  <data name="PortionFolder_Description" xml:space="preserve">
+    <value>A Portion Folder can contain portions or other portion folders.</value>
+  </data>
+  <data name="PortionFolder_Name" xml:space="preserve">
+    <value>Portion Folder</value>
+  </data>
+  <data name="PortionFolder_NickName" xml:space="preserve">
+    <value>PF</value>
+  </data>
+  <data name="PrescribedDisplacement_Description" xml:space="preserve">
+    <value>Represents a Prescribed Displacement in ConSteel model.</value>
+  </data>
+  <data name="PrescribedDisplacement_Name" xml:space="preserve">
+    <value>Prescribed Displacement Load</value>
+  </data>
+  <data name="PrescribedDisplacement_NickName" xml:space="preserve">
+    <value>PD</value>
+  </data>
+  <data name="Pretension_Description" xml:space="preserve">
+    <value>Represents a Pretension Load in ConSteel model.</value>
+  </data>
+  <data name="Pretension_Name" xml:space="preserve">
+    <value>Pretension Load</value>
+  </data>
+  <data name="Pretension_NickName" xml:space="preserve">
+    <value>Pre</value>
+  </data>
+  <data name="ReferenceParameter_Description" xml:space="preserve">
+    <value>Set true to collect and add referenced objects to the ConSteel model.</value>
+  </data>
+  <data name="ReferenceParameter_Name" xml:space="preserve">
+    <value>Collect References</value>
+  </data>
+  <data name="ReferenceParameter_NickName" xml:space="preserve">
+    <value>CR</value>
+  </data>
+  <data name="Release_Description" xml:space="preserve">
+    <value>The created ConSteel Release type.</value>
+  </data>
+  <data name="Release_Name" xml:space="preserve">
+    <value>Release</value>
+  </data>
+  <data name="Release_NickName" xml:space="preserve">
+    <value>R</value>
+  </data>
+  <data name="RigidBody_Description" xml:space="preserve">
+    <value>Represents a Rigid Body Object in ConSteel model.</value>
+  </data>
+  <data name="RigidBody_Name" xml:space="preserve">
+    <value>Rigid Body</value>
+  </data>
+  <data name="RigidBody_NickName" xml:space="preserve">
+    <value>RB</value>
+  </data>
+  <data name="Section_Description" xml:space="preserve">
+    <value>Represents a Section in ConSteel model.</value>
+  </data>
+  <data name="Section_Name" xml:space="preserve">
+    <value>Section</value>
+  </data>
+  <data name="Section_NickName" xml:space="preserve">
+    <value>Sec</value>
+  </data>
+  <data name="Steel_Description" xml:space="preserve">
+    <value>The created ConSteel Steel material.</value>
+  </data>
+  <data name="Steel_Name" xml:space="preserve">
+    <value>Steel</value>
+  </data>
+  <data name="Steel_NickName" xml:space="preserve">
+    <value>St</value>
+  </data>
+  <data name="StructuralGroup_Description" xml:space="preserve">
+    <value>Represents a Structural Group in ConSteel model.</value>
+  </data>
+  <data name="StructuralGroup_Name" xml:space="preserve">
+    <value>Structural Group</value>
+  </data>
+  <data name="StructuralGroup_NickName" xml:space="preserve">
+    <value>SG</value>
+  </data>
+  <data name="SupportEdge_Description" xml:space="preserve">
+    <value>Represents an IEdge Support in ConSteel model.</value>
+  </data>
+  <data name="SupportEdge_Name" xml:space="preserve">
+    <value>Support IEdge</value>
+  </data>
+  <data name="SupportEdge_NickName" xml:space="preserve">
+    <value>SE</value>
+  </data>
+  <data name="SupportPlate_Description" xml:space="preserve">
+    <value>Represents a Plate Support in ConSteel model.</value>
+  </data>
+  <data name="SupportPlate_Name" xml:space="preserve">
+    <value>Support Plate</value>
+  </data>
+  <data name="SupportPlate_NickName" xml:space="preserve">
+    <value>SPl</value>
+  </data>
+  <data name="SupportPoint_Description" xml:space="preserve">
+    <value>The created ConSteel Support Point.</value>
+  </data>
+  <data name="SupportPoint_Name" xml:space="preserve">
+    <value>Support Point</value>
+  </data>
+  <data name="SupportPoint_NickName" xml:space="preserve">
+    <value>SupPo</value>
+  </data>
+  <data name="Support_Description" xml:space="preserve">
+    <value>The created ConSteel support type.</value>
+  </data>
+  <data name="Support_Name" xml:space="preserve">
+    <value>Support</value>
+  </data>
+  <data name="Support_NickName" xml:space="preserve">
+    <value>Sup</value>
+  </data>
+  <data name="TaperedMember_Description" xml:space="preserve">
+    <value>Represents a Tapering on a beam in ConSteel model.</value>
+  </data>
+  <data name="TaperedMember_Name" xml:space="preserve">
+    <value>Tapering</value>
+  </data>
+  <data name="TaperedMember_NickName" xml:space="preserve">
+    <value>T</value>
+  </data>
+  <data name="UniformSurfaceLoad_Description" xml:space="preserve">
+    <value>The created ConSteel Uniform Surface Load.</value>
+  </data>
+  <data name="UniformSurfaceLoad_Name" xml:space="preserve">
+    <value>Uniform Surface Load</value>
+  </data>
+  <data name="UniformSurfaceLoad_NickName" xml:space="preserve">
+    <value>USL</value>
+  </data>
+</root>

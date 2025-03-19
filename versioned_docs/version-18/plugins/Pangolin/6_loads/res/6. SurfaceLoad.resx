@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DirectionType_Description" xml:space="preserve">
+    <value>Load direction type: Global=global coord sys, Local=structural object's coord sys, User=provided coord sys in next param, Projection=the force is projected onto the global coordinate system (eg EN snow load).</value>
+  </data>
+  <data name="DirectionType_Name" xml:space="preserve">
+    <value>DirectionType</value>
+  </data>
+  <data name="DirectionType_NickName" xml:space="preserve">
+    <value>DT</value>
+  </data>
+  <data name="LinearSurfaceLoadComponent_Desc" xml:space="preserve">
+    <value>Creates a Surface Load in ConSteel model with linearly changing intensity, from 3 points</value>
+  </data>
+  <data name="LinearSurfaceLoadComponent_Name" xml:space="preserve">
+    <value>Linear Surface Load 3Pts</value>
+  </data>
+  <data name="Load1_Description" xml:space="preserve">
+    <value>Force in kN/m2 -s acting on P1 point.</value>
+  </data>
+  <data name="Load1_Name" xml:space="preserve">
+    <value>Q1 [kN/m2]</value>
+  </data>
+  <data name="Load1_NickName" xml:space="preserve">
+    <value>Q1</value>
+  </data>
+  <data name="Load2_Description" xml:space="preserve">
+    <value>Force in kN/m2 -s acting on P2 point.</value>
+  </data>
+  <data name="Load2_Name" xml:space="preserve">
+    <value>Q2 [kN/m2]</value>
+  </data>
+  <data name="Load2_NickName" xml:space="preserve">
+    <value>Q2</value>
+  </data>
+  <data name="Load3_Description" xml:space="preserve">
+    <value>Force in kN/m2 -s acting on P3 point.</value>
+  </data>
+  <data name="Load3_Name" xml:space="preserve">
+    <value>Q3 [kN/m2]</value>
+  </data>
+  <data name="Load3_NickName" xml:space="preserve">
+    <value>Q3</value>
+  </data>
+  <data name="LoadBearingObject_Description" xml:space="preserve">
+    <value>The object on which this load should act. Eg.: a structural plate, or load transfer surface.</value>
+  </data>
+  <data name="LoadBearingObject_Name" xml:space="preserve">
+    <value>Load Bearing Object</value>
+  </data>
+  <data name="LoadBearingObject_NickName" xml:space="preserve">
+    <value>LO</value>
+  </data>
+  <data name="LoadCase_Description" xml:space="preserve">
+    <value>The Case which this load should belong to.</value>
+  </data>
+  <data name="LoadCase_Name" xml:space="preserve">
+    <value>LoadCase</value>
+  </data>
+  <data name="LoadCase_NickName" xml:space="preserve">
+    <value>LC</value>
+  </data>
+  <data name="LoadDirection_Description" xml:space="preserve">
+    <value>The axis on which the load acts.</value>
+  </data>
+  <data name="LoadDirection_Name" xml:space="preserve">
+    <value>LoadAxis</value>
+  </data>
+  <data name="LoadDirection_NickName" xml:space="preserve">
+    <value>LA</value>
+  </data>
+  <data name="LocalCoordinateSystem_Description" xml:space="preserve">
+    <value>The coordinate system in which the load is interpreted. Note: Only taken into account if DirectionType is set to UserCoordinateSystem. The provided coordinate system will be projected so that is's Z axis is paralell with the reference polygon's normal axis.</value>
+  </data>
+  <data name="LocalCoordinateSystem_Name" xml:space="preserve">
+    <value>CoordinateSystem</value>
+  </data>
+  <data name="LocalCoordinateSystem_NickName" xml:space="preserve">
+    <value>CS</value>
+  </data>
+  <data name="Multiplier_Description" xml:space="preserve">
+    <value>Multiplication factor for the forces. Eg.: setting this to 2 is the same as doubling all the forces.</value>
+  </data>
+  <data name="Multiplier_Name" xml:space="preserve">
+    <value>Multiplier</value>
+  </data>
+  <data name="Multiplier_NickName" xml:space="preserve">
+    <value>Mul</value>
+  </data>
+  <data name="Name_Description" xml:space="preserve">
+    <value>Name of the created Surface load.</value>
+  </data>
+  <data name="Name_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Name_NickName" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="Point1_Description" xml:space="preserve">
+    <value>First point where the load is specified. Note: the point will be projected onto the plane.</value>
+  </data>
+  <data name="Point1_Name" xml:space="preserve">
+    <value>Point1</value>
+  </data>
+  <data name="Point1_NickName" xml:space="preserve">
+    <value>P1</value>
+  </data>
+  <data name="Point2_Description" xml:space="preserve">
+    <value>Second point where the load is specified. Note: the point will be projected onto the plane. Note: if left unset, the first and third points will be used interpreting the load as linearly changing in the local Y direction. (with the points being projected to the local Y axis).</value>
+  </data>
+  <data name="Point2_Name" xml:space="preserve">
+    <value>Point2</value>
+  </data>
+  <data name="Point2_NickName" xml:space="preserve">
+    <value>P2</value>
+  </data>
+  <data name="Point3_Description" xml:space="preserve">
+    <value>Third point where the load is specified. Note: the point will be projected onto the plane.</value>
+  </data>
+  <data name="Point3_Name" xml:space="preserve">
+    <value>Point3</value>
+  </data>
+  <data name="Point3_NickName" xml:space="preserve">
+    <value>P3</value>
+  </data>
+  <data name="PolygonParam_Description" xml:space="preserve">
+    <value>The polygon on which this load should act. Note: If left empty the load will act on the bearing object's whole reference polygon. Only specify this if you wish to act on a smaller part of the bearing object's surfac</value>
+  </data>
+  <data name="PolygonParam_Name" xml:space="preserve">
+    <value>Polygon</value>
+  </data>
+  <data name="PolygonParam_NickName" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="SurfaceLoadComponent_Desc" xml:space="preserve">
+    <value>Creates a Surface Load in ConSteel model.</value>
+  </data>
+  <data name="SurfaceLoadComponent_Name" xml:space="preserve">
+    <value>Surface Load</value>
+  </data>
+  <data name="SurfaceLoadDesc" xml:space="preserve">
+    <value>Represents a Surface Load in ConSteel model</value>
+  </data>
+  <data name="SurfaceLoadName" xml:space="preserve">
+    <value>ConSteel Surface Load</value>
+  </data>
+  <data name="SurfaceLoadNick" xml:space="preserve">
+    <value>SL</value>
+  </data>
+  <data name="X_Description" xml:space="preserve">
+    <value>Force in kN/m2 -s acting along the x axis.</value>
+  </data>
+  <data name="X_Name" xml:space="preserve">
+    <value>X [kN/m2]</value>
+  </data>
+  <data name="X_NickName" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="Y_Description" xml:space="preserve">
+    <value>Force in kN/m2 -s acting along the y axis.</value>
+  </data>
+  <data name="Y_Name" xml:space="preserve">
+    <value>Y [kN/m2]</value>
+  </data>
+  <data name="Y_NickName" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Force in kN/m2 -s acting along the z axis.</value>
+  </data>
+  <data name="Z_Name" xml:space="preserve">
+    <value>Z [kN/m2]</value>
+  </data>
+  <data name="Z_NickName" xml:space="preserve">
+    <value>Z</value>
+  </data>
+</root>
