@@ -125,4 +125,64 @@
     <value>Displacement Results</value>
     <comment>Component</comment>
   </data>
+  <data name="CSBeam_Description" xml:space="preserve">
+    <value>Beam returned from ConSteel.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="CSBeam_Name" xml:space="preserve">
+    <value>CSBeam</value>
+    <comment>Input</comment>
+  </data>
+  <data name="CSBeam_Nick" xml:space="preserve">
+    <value>B</value>
+    <comment>Input</comment>
+  </data>
+  <data name="LComb_Description" xml:space="preserve">
+    <value>Load Combination of the results.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="LComb_Name" xml:space="preserve">
+    <value>CSLoadCombination</value>
+    <comment>Input</comment>
+  </data>
+  <data name="LComb_Nick" xml:space="preserve">
+    <value>LComb</value>
+    <comment>Input</comment>
+  </data>
+  <data name="CalcOrder_Description" xml:space="preserve">
+    <value>First or second order calculation results.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="CalcOrder_Name" xml:space="preserve">
+    <value>CalcOrder</value>
+    <comment>Input</comment>
+  </data>
+  <data name="CalcOrder_Nick" xml:space="preserve">
+    <value>O</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Parameters_Description" xml:space="preserve">
+    <value>Displacement along global Y axis, in mm.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Parameters_Name" xml:space="preserve">
+    <value>Parameters</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Parameters_Nick" xml:space="preserve">
+    <value>P</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Displacement_Description" xml:space="preserve">
+    <value>Displacement object, use this to generate a deformed mesh for the beam.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Displacement_Name" xml:space="preserve">
+    <value>Displacement</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Displacement_Nick" xml:space="preserve">
+    <value>D</value>
+    <comment>Input</comment>
+  </data>
 </root>
