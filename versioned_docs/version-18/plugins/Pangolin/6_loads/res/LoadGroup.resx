@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!-- 
-    Microsoft ResX Schema 
-    
+  <!--
+    Microsoft ResX Schema
+
     Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
     associated with the data types.
-    
+
     Example:
-    
+
     ... ado.net/XML headers & schema ...
     <resheader name="resmimetype">text/microsoft-resx</resheader>
     <resheader name="version">2.0</resheader>
@@ -26,79 +26,79 @@
         <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
         <comment>This is a comment</comment>
     </data>
-                
-    There are any number of "resheader" rows that contain simple 
+
+    There are any number of "resheader" rows that contain simple
     name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
     mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
     extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
     read any of the formats listed below.
-    
+
     mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
+    value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
-    
+
     mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
+    value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
             : and then encoded with base64 encoding.
 
     mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
+    value   : The object must be serialized into a byte array
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
               </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string" />
-              <xsd:attribute name="type" type="xsd:string" />
-              <xsd:attribute name="mimetype" type="xsd:string" />
-              <xsd:attribute ref="xml:space" />
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
             <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string" />
-              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="data">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-              <xsd:attribute ref="xml:space" />
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
             </xsd:complexType>
           </xsd:element>
         </xsd:choice>
@@ -119,173 +119,230 @@
   </resheader>
   <data name="CombinableCases_Description" xml:space="preserve">
     <value>The load cases can be applied along with each other.</value>
+    <comment>Input</comment>
   </data>
   <data name="CombinableCases_Name" xml:space="preserve">
     <value>Combinable Cases</value>
+    <comment>Input</comment>
   </data>
   <data name="CombinableCases_NickName" xml:space="preserve">
     <value>CC</value>
+    <comment>Input</comment>
   </data>
   <data name="CombinationFactor_Description" xml:space="preserve">
     <value>Combination factor (psi.0)</value>
+    <comment>Input</comment>
   </data>
   <data name="CombinationFactor_Name" xml:space="preserve">
     <value>Combination</value>
+    <comment>Input</comment>
   </data>
   <data name="CombinationFactor_NickName" xml:space="preserve">
     <value>C</value>
+    <comment>Input</comment>
   </data>
   <data name="CSLGCraneComponent_Desc" xml:space="preserve">
     <value>Creates a Crane Load Group in ConSteel model.</value>
+    <comment>Input</comment>
   </data>
   <data name="CSLGCraneComponent_Name" xml:space="preserve">
     <value>Load Group Crane</value>
+    <comment>Input</comment>
   </data>
   <data name="CSLGCraneComponent_Nick" xml:space="preserve">
     <value>CSLGCra</value>
+    <comment>Input</comment>
   </data>
   <data name="CSLGMeteorologicalComponent_Desc" xml:space="preserve">
     <value>Creates a Meteorological Load Group in ConSteel model</value>
+    <comment>Input</comment>
   </data>
   <data name="CSLGMeteorologicalComponent_Name" xml:space="preserve">
     <value>Load Group Meteorological</value>
+    <comment>Input</comment>
   </data>
   <data name="CSLGMeteorologicalComponent_Nick" xml:space="preserve">
     <value>CSLGMet</value>
+    <comment>Input</comment>
   </data>
   <data name="CSLGSnowComponent_Desc" xml:space="preserve">
     <value>Creates a Snow Load Group in ConSteel model.</value>
+    <comment>Input</comment>
   </data>
   <data name="CSLGSnowComponent_Name" xml:space="preserve">
     <value>Load Group Snow</value>
+    <comment>Input</comment>
   </data>
   <data name="CSLGSnowComponent_Nick" xml:space="preserve">
     <value>CSLGSno</value>
+    <comment>Input</comment>
   </data>
   <data name="CSLGVariableComponent_Desc" xml:space="preserve">
     <value>Creates a Variable Load Group in ConSteel model.</value>
+    <comment>Input</comment>
   </data>
   <data name="CSLGVariableComponent_Name" xml:space="preserve">
     <value>Load Group Variable</value>
+    <comment>Input</comment>
   </data>
   <data name="CSLGVariableComponent_Nick" xml:space="preserve">
     <value>CSLGVar</value>
+    <comment>Input</comment>
   </data>
   <data name="CSLGWindComponent_Desc" xml:space="preserve">
     <value>Creates a Wind Load Group in ConSteel model.</value>
+    <comment>Input</comment>
   </data>
   <data name="CSLGWindComponent_Name" xml:space="preserve">
     <value>Load Group Wind</value>
+    <comment>Input</comment>
   </data>
   <data name="CSLGWindComponent_Nick" xml:space="preserve">
     <value>CSLGWin</value>
+    <comment>Input</comment>
   </data>
   <data name="FireCombinationFacQ1_Description" xml:space="preserve">
     <value>Factor for representative value of Q1 variable action.</value>
+    <comment>Input</comment>
   </data>
   <data name="FireCombinationFacQ1_Name" xml:space="preserve">
     <value>Q1 factor</value>
+    <comment>Input</comment>
   </data>
   <data name="FireCombinationFacQ1_NickName" xml:space="preserve">
     <value>Q1</value>
+    <comment>Input</comment>
   </data>
   <data name="Fire_Expansion_Description" xml:space="preserve">
     <value>Consider indirect actions caused by thermal expansion</value>
+    <comment>Input</comment>
   </data>
   <data name="Fire_Expansion_Name" xml:space="preserve">
     <value>Fire Expansion</value>
+    <comment>Input</comment>
   </data>
   <data name="Fire_Expansion_NickName" xml:space="preserve">
     <value>FE</value>
+    <comment>Input</comment>
   </data>
   <data name="FrequentLoadFactor_Description" xml:space="preserve">
     <value>Frequent load level factor (psi.1)</value>
+    <comment>Input</comment>
   </data>
   <data name="FrequentLoadFactor_Name" xml:space="preserve">
     <value>Frequent</value>
+    <comment>Input</comment>
   </data>
   <data name="FrequentLoadFactor_NickName" xml:space="preserve">
     <value>F</value>
+    <comment>Input</comment>
   </data>
   <data name="LGAccidentalComponent_Desc" xml:space="preserve">
     <value>Creates a Accidental Load Group in ConSteel model.</value>
+    <comment>Input</comment>
   </data>
   <data name="LGAccidentalComponent_Name" xml:space="preserve">
     <value>Load Group Accidental</value>
+    <comment>Input</comment>
   </data>
   <data name="LGAccidentalComponent_Nick" xml:space="preserve">
     <value>CSLGAcc</value>
+    <comment>Input</comment>
   </data>
   <data name="LGAccidentalSnowComponent_Desc" xml:space="preserve">
     <value>Creates a AccidentalSnow Load Group in ConSteel model.</value>
+    <comment>Input</comment>
   </data>
   <data name="LGAccidentalSnowComponent_Name" xml:space="preserve">
     <value>Load Group Accidental Snow</value>
+    <comment>Input</comment>
   </data>
   <data name="LGAccidentalSnowComponent_Nick" xml:space="preserve">
     <value>CSLGAcS</value>
+    <comment>Input</comment>
   </data>
   <data name="LGFireComponent_Desc" xml:space="preserve">
     <value>Creates a Fire Load Group in ConSteel model.</value>
+    <comment>Input</comment>
   </data>
   <data name="LGFireComponent_Name" xml:space="preserve">
     <value>Load Group Fire</value>
+    <comment>Input</comment>
   </data>
   <data name="LGFireComponent_Nick" xml:space="preserve">
     <value>CSLGFir</value>
+    <comment>Input</comment>
   </data>
   <data name="LGPermanentComponent_Desc" xml:space="preserve">
     <value>Creates a Permanent Load Group in ConSteel model.</value>
+    <comment>Input</comment>
   </data>
   <data name="LGPermanentComponent_Name" xml:space="preserve">
     <value>Load Group Permanent</value>
+    <comment>Input</comment>
   </data>
   <data name="LGPermanentComponent_Nick" xml:space="preserve">
     <value>CSLGPer</value>
+    <comment>Input</comment>
   </data>
   <data name="LG_Description" xml:space="preserve">
     <value>Represents a Load Group in ConSteel model.</value>
+    <comment>Output</comment>
   </data>
   <data name="LG_Name" xml:space="preserve">
     <value>ConSteel Load Group</value>
+    <comment>Output</comment>
   </data>
   <data name="LG_NickName" xml:space="preserve">
     <value>LG</value>
+    <comment>Output</comment>
   </data>
   <data name="LoadGroupDesc" xml:space="preserve">
     <value>Represents a Load Group in ConSteel model.</value>
+    <comment>Input</comment>
   </data>
   <data name="LoadGroupName" xml:space="preserve">
     <value>ConSteel Load Group</value>
+    <comment>Input</comment>
   </data>
   <data name="LoadGroupNick" xml:space="preserve">
     <value>LG</value>
+    <comment>Input</comment>
   </data>
   <data name="Name_Description" xml:space="preserve">
     <value>Name of the created load group.</value>
+    <comment>Input</comment>
   </data>
   <data name="Name_Name" xml:space="preserve">
     <value>Name</value>
+    <comment>Input</comment>
   </data>
   <data name="Name_NickName" xml:space="preserve">
     <value>N</value>
+    <comment>Input</comment>
   </data>
   <data name="QuasiPermanentFactor_Description" xml:space="preserve">
     <value>Quasi permanent load level factor (psi.2)</value>
+    <comment>Input</comment>
   </data>
   <data name="QuasiPermanentFactor_Name" xml:space="preserve">
     <value>Quasi</value>
+    <comment>Input</comment>
   </data>
   <data name="QuasiPermanentFactor_NickName" xml:space="preserve">
     <value>Q</value>
+    <comment>Input</comment>
   </data>
   <data name="SafetyFactor_Description" xml:space="preserve">
     <value>Safety factor (gamma.Q)</value>
+    <comment>Input</comment>
   </data>
   <data name="SafetyFactor_Name" xml:space="preserve">
     <value>Safety factor (gamma.Q)</value>
+    <comment>Input</comment>
   </data>
   <data name="SafetyFactor_NickName" xml:space="preserve">
     <value>SF</value>
+    <comment>Input</comment>
   </data>
 </root>
