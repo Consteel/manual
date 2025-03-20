@@ -185,4 +185,16 @@
     <value>D</value>
     <comment>Input</comment>
   </data>
+  <data name="_Description" xml:space="preserve">
+    <value>Rotation around local x axis, in degrees.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="_Name" xml:space="preserve">
+    <value>Rxx [deg]</value>
+    <comment>Output</comment>
+  </data>
+  <data name="_Nick" xml:space="preserve">
+    <value>Rxx</value>
+    <comment>Output</comment>
+  </data>
 </root>
