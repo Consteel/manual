@@ -125,4 +125,40 @@
     <value>Displaced Mesh</value>
     <comment>Component</comment>
   </data>
+  <data name="DR_Description" xml:space="preserve">
+    <value>Displacement Results</value>
+    <comment>Input</comment>
+  </data>
+  <data name="DR_Name" xml:space="preserve">
+    <value>DisplacementResults</value>
+    <comment>Input</comment>
+  </data>
+  <data name="DR_Nick" xml:space="preserve">
+    <value>DR</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Scale_Description" xml:space="preserve">
+    <value>Scaling of the displacement, use to exagerate displacement shapes for visual inspection of the displacement trends.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Scale_Name" xml:space="preserve">
+    <value>Scale</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Scale_Nick" xml:space="preserve">
+    <value>S</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Mesh_Description" xml:space="preserve">
+    <value>Displaced mesh.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="Mesh_Name" xml:space="preserve">
+    <value>Mesh</value>
+    <comment>Output</comment>
+  </data>
+  <data name="Mesh_Nick" xml:space="preserve">
+    <value>M</value>
+    <comment>Output</comment>
+  </data>
 </root>
