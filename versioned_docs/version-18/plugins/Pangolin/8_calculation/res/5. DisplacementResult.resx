@@ -185,15 +185,99 @@
     <value>D</value>
     <comment>Input</comment>
   </data>
-  <data name="_Description" xml:space="preserve">
+  <data name="X_Description" xml:space="preserve">
+    <value>Displacement along global X axis, in mm.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="X_Name" xml:space="preserve">
+    <value>X [mm]</value>
+    <comment>Output</comment>
+  </data>
+  <data name="X_Nick" xml:space="preserve">
+    <value>X</value>
+    <comment>Output</comment>
+  </data>
+  <data name="Y_Description" xml:space="preserve">
+    <value>Displacement along global Y axis, in mm.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="Y_Name" xml:space="preserve">
+    <value>Y [mm]</value>
+    <comment>Output</comment>
+  </data>
+  <data name="Y_Nick" xml:space="preserve">
+    <value>Y</value>
+    <comment>Output</comment>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Displacement along global Z axis, in mm.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="Z_Name" xml:space="preserve">
+    <value>Z [mm]</value>
+    <comment>Output</comment>
+  </data>
+  <data name="Z_Nick" xml:space="preserve">
+    <value>Z</value>
+    <comment>Output</comment>
+  </data>
+  <data name="Rx_Description" xml:space="preserve">
+    <value>Rotation around global X axis, in degrees.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="Rx_Name" xml:space="preserve">
+    <value>Rx [deg]</value>
+    <comment>Output</comment>
+  </data>
+  <data name="Rx_Nick" xml:space="preserve">
+    <value>Rx</value>
+    <comment>Output</comment>
+  </data>
+  <data name="Ry_Description" xml:space="preserve">
+    <value>Rotation around global Y axis, in degrees.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="Ry_Name" xml:space="preserve">
+    <value>Ry [deg]</value>
+    <comment>Output</comment>
+  </data>
+  <data name="Ry_Nick" xml:space="preserve">
+    <value>Ry</value>
+    <comment>Output</comment>
+  </data>
+  <data name="Rz_Description" xml:space="preserve">
+    <value>Rotation around global Z axis, in degrees.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="Rz_Name" xml:space="preserve">
+    <value>Rz [deg]</value>
+    <comment>Output</comment>
+  </data>
+  <data name="Rz_Nick" xml:space="preserve">
+    <value>Rz</value>
+    <comment>Output</comment>
+  </data>
+  <data name="W_Description" xml:space="preserve">
+    <value>Warping, in rad/m.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="W_Name" xml:space="preserve">
+    <value>W [rad/m]</value>
+    <comment>Output</comment>
+  </data>
+  <data name="W_Nick" xml:space="preserve">
+    <value>W</value>
+    <comment>Output</comment>
+  </data>
+  <data name="Rxx_Description" xml:space="preserve">
     <value>Rotation around local x axis, in degrees.</value>
     <comment>Output</comment>
   </data>
-  <data name="_Name" xml:space="preserve">
+  <data name="Rxx_Name" xml:space="preserve">
     <value>Rxx [deg]</value>
     <comment>Output</comment>
   </data>
-  <data name="_Nick" xml:space="preserve">
+  <data name="Rxx_Nick" xml:space="preserve">
     <value>Rxx</value>
     <comment>Output</comment>
   </data>
