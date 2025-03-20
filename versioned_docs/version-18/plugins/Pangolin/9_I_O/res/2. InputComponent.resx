@@ -149,4 +149,16 @@
     <value>OT</value>
     <comment>Input</comment>
   </data>
+  <data name="Cs_Description" xml:space="preserve">
+    <value>ConSteel model</value>
+    <comment>Output</comment>
+  </data>
+  <data name="Cs_Name" xml:space="preserve">
+    <value>ConSteel Model</value>
+    <comment>Output</comment>
+  </data>
+  <data name="Cs_NickName" xml:space="preserve">
+    <value>csm</value>
+    <comment>Output</comment>
+  </data>
 </root>

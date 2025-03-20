@@ -137,4 +137,8 @@
     <value>.smadsteel loader</value>
     <comment>Component</comment>
   </data>
+  <data name="Cs_NickName" xml:space="preserve">
+    <value>csm</value>
+    <comment>Output</comment>
+  </data>
 </root>

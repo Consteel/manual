@@ -125,8 +125,28 @@
     <value>Get CS Beam's Mesh</value>
     <comment>Component</comment>
   </data>
-  <data name="GetBeamMeshComponent_Nick" xml:space="preserve">
-    <value>GetBeamMesh</value>
-    <comment>Component</comment>
+  <data name="CSBeam_Desc" xml:space="preserve">
+    <value>Consteel beam object</value>
+    <comment>Input</comment>
+  </data>
+  <data name="CSBeam_Name" xml:space="preserve">
+    <value>Beam</value>
+    <comment>Input</comment>
+  </data>
+  <data name="CSBeam_Nick" xml:space="preserve">
+    <value>B</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Mesh_Desc" xml:space="preserve">
+    <value>Meshes describing the beam. Note: can be multiple meshes in case of complex cross sections.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="Mesh_Name" xml:space="preserve">
+    <value>Mesh</value>
+    <comment>Output</comment>
+  </data>
+  <data name="Mesh_Nick" xml:space="preserve">
+    <value>M</value>
+    <comment>Output</comment>
   </data>
 </root>

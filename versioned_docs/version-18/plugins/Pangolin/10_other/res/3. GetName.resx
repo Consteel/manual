@@ -125,8 +125,28 @@
     <value>Get CS Name</value>
     <comment>Component</comment>
   </data>
-  <data name="GetNameComponent_Nick" xml:space="preserve">
-    <value>GetName</value>
-    <comment>Component</comment>
+  <data name="CSObject_Desc" xml:space="preserve">
+    <value>Consteel model object with name attribute</value>
+    <comment>Input</comment>
+  </data>
+  <data name="CSObject_Name" xml:space="preserve">
+    <value>ModelObject</value>
+    <comment>Input</comment>
+  </data>
+  <data name="CSObject_Nick" xml:space="preserve">
+    <value>O</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Name_Desc" xml:space="preserve">
+    <value>Name of the given object. Note: unlike GUIDs, names are not forced to be unique in Consteel.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="Name_Name" xml:space="preserve">
+    <value>Name</value>
+    <comment>Output</comment>
+  </data>
+  <data name="Name_Nick" xml:space="preserve">
+    <value>N</value>
+    <comment>Output</comment>
   </data>
 </root>

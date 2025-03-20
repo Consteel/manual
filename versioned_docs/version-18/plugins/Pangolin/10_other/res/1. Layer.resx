@@ -125,10 +125,6 @@
     <value>CSLayer</value>
     <comment>Component</comment>
   </data>
-  <data name="Layer_ComponentDescription" xml:space="preserve">
-    <value>Creates a layer object in ConSteel model.</value>
-    <comment>Input</comment>
-  </data>
   <data name="Layer_Description" xml:space="preserve">
     <value>Represents a Layer in ConSteel model.</value>
     <comment>Output</comment>
@@ -140,10 +136,6 @@
   <data name="Layer_Nick" xml:space="preserve">
     <value>CSL</value>
     <comment>Output</comment>
-  </data>
-  <data name="Layer_ParameterDescription" xml:space="preserve">
-    <value>Represents a Layer in ConSteel model, if left empty, objects will be created on default layer.</value>
-    <comment>Input</comment>
   </data>
   <data name="L_Description" xml:space="preserve">
     <value>Should be the layer locked?</value>
@@ -191,6 +183,18 @@
   </data>
   <data name="V_Nickname" xml:space="preserve">
     <value>V</value>
+    <comment>Input</comment>
+  </data>
+  <data name="C_Description" xml:space="preserve">
+    <value>Color of the layer style.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="C_Name" xml:space="preserve">
+    <value>Color</value>
+    <comment>Input</comment>
+  </data>
+  <data name="C_Nickname" xml:space="preserve">
+    <value>C</value>
     <comment>Input</comment>
   </data>
 </root>
