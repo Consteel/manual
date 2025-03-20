@@ -125,4 +125,136 @@
     <value>Internal Force Results</value>
     <comment>Component</comment>
   </data>
+  <data name="Csbeam_Description" xml:space="preserve">
+    <value>Beam returned from ConSteel.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Csbeam_Name" xml:space="preserve">
+    <value>CSBeam</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Csbeam_NickName" xml:space="preserve">
+    <value>B</value>
+    <comment>Input</comment>
+  </data>
+  <data name="LComb_Description" xml:space="preserve">
+    <value>Load Combination of the results.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="LComb_Name" xml:space="preserve">
+    <value>CSLoadCombination</value>
+    <comment>Input</comment>
+  </data>
+  <data name="LComb_NickName" xml:space="preserve">
+    <value>LComb</value>
+    <comment>Input</comment>
+  </data>
+  <data name="CalcOrder_Description" xml:space="preserve">
+    <value>First or second order calculation results.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="CalcOrder_Name" xml:space="preserve">
+    <value>CalcOrder</value>
+    <comment>Input</comment>
+  </data>
+  <data name="CalcOrder_NickName" xml:space="preserve">
+    <value>O</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Parameters_Description" xml:space="preserve">
+    <value>Parameters of the result point on the beam's edge.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Parameters_Name" xml:space="preserve">
+    <value>Parameters</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Parameters_NickName" xml:space="preserve">
+    <value>P</value>
+    <comment>Input</comment>
+  </data>
+  <data name="N_Description" xml:space="preserve">
+    <value>Normal force, in kN.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="N_Name" xml:space="preserve">
+    <value>N [kN]</value>
+    <comment>Input</comment>
+  </data>
+  <data name="N_NickName" xml:space="preserve">
+    <value>N</value>
+    <comment>Input</comment>
+  </data>
+  <data name="VY_Description" xml:space="preserve">
+    <value>Shear force in local y direction, in kN.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="VY_Name" xml:space="preserve">
+    <value>Vy [kN]</value>
+    <comment>Input</comment>
+  </data>
+  <data name="VY_NickName" xml:space="preserve">
+    <value>Vy</value>
+    <comment>Input</comment>
+  </data>
+  <data name="VZ_Description" xml:space="preserve">
+    <value>Shear force in local z direction, in kN.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="VZ_Name" xml:space="preserve">
+    <value>Vz [kN]</value>
+    <comment>Input</comment>
+  </data>
+  <data name="VZ_NickName" xml:space="preserve">
+    <value>Vz </value>
+    <comment>Input</comment>
+  </data>
+  <data name="MY_Description" xml:space="preserve">
+    <value>Bending moment around local y, in kNm.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="MY_Name" xml:space="preserve">
+    <value>My [kNm]</value>
+    <comment>Input</comment>
+  </data>
+  <data name="MY_NickName" xml:space="preserve">
+    <value>My</value>
+    <comment>Input</comment>
+  </data>
+  <data name="MZ_Description" xml:space="preserve">
+    <value>Bending moment around local z, in kNm.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="MZ_Name" xml:space="preserve">
+    <value>Mz [kNm]</value>
+    <comment>Input</comment>
+  </data>
+  <data name="MZ_NickName" xml:space="preserve">
+    <value>Mz </value>
+    <comment>Input</comment>
+  </data>
+  <data name="T_Description" xml:space="preserve">
+    <value>Torsion around local x, in kNm.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="T_Name" xml:space="preserve">
+    <value>T [kNm]</value>
+    <comment>Input</comment>
+  </data>
+  <data name="T_NickName" xml:space="preserve">
+    <value>T </value>
+    <comment>Input</comment>
+  </data>
+  <data name="B_Description" xml:space="preserve">
+    <value>Bimoment, in kNm2.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="B_Name" xml:space="preserve">
+    <value>B [kNm2]</value>
+    <comment>Input</comment>
+  </data>
+  <data name="B_NickName" xml:space="preserve">
+    <value>B</value>
+    <comment>Input</comment>
+  </data>
 </root>
