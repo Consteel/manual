@@ -149,4 +149,76 @@
     <value>Section</value>
     <comment>Output</comment>
   </data>
+  <data name="N_Descrition" xml:space="preserve">
+    <value>Name of the section.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="N_Name" xml:space="preserve">
+    <value>Name</value>
+    <comment>Input</comment>
+  </data>
+  <data name="N_Nick" xml:space="preserve">
+    <value>N</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Height _Descrition" xml:space="preserve">
+    <value>Height of the section.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Height _Name" xml:space="preserve">
+    <value>Height </value>
+    <comment>Input</comment>
+  </data>
+  <data name="Height _Nick" xml:space="preserve">
+    <value>H</value>
+    <comment>Input</comment>
+  </data>
+  <data name="FlangeWidth_Descrition" xml:space="preserve">
+    <value>FlangeWidth of the section.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="FlangeWidth_Name" xml:space="preserve">
+    <value>FlangeWidth </value>
+    <comment>Input</comment>
+  </data>
+  <data name="FlangeWidth_Nick" xml:space="preserve">
+    <value>FW</value>
+    <comment>Input</comment>
+  </data>
+  <data name="WT_Descrition" xml:space="preserve">
+    <value>WebThickness</value>
+    <comment>Input</comment>
+  </data>
+  <data name="WT_Name" xml:space="preserve">
+    <value>WebThickness</value>
+    <comment>Input</comment>
+  </data>
+  <data name="WT_Nick" xml:space="preserve">
+    <value>WT</value>
+    <comment>Input</comment>
+  </data>
+  <data name="FT_Descrition" xml:space="preserve">
+    <value>FlangeThickness of the section.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="FT_Name" xml:space="preserve">
+    <value>FlangeThickness</value>
+    <comment>Input</comment>
+  </data>
+  <data name="FT_Nick" xml:space="preserve">
+    <value>FT</value>
+    <comment>Input</comment>
+  </data>
+  <data name="R_Descrition" xml:space="preserve">
+    <value>Radius of the section.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="R_Name" xml:space="preserve">
+    <value>Radius mm]</value>
+    <comment>Input</comment>
+  </data>
+  <data name="R_Nick" xml:space="preserve">
+    <value>R</value>
+    <comment>Input</comment>
+  </data>
 </root>
