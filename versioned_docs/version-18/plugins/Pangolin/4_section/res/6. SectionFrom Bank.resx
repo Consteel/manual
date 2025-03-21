@@ -117,60 +117,36 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="SectionBankPreviewComponent_Desc" xml:space="preserve">
-    <value>Gets previews of the sections in the section bank. \r\n Note: actually loading the sections in is resource intensive, if possible filter the previews out. \r\n Load in the previews with the SectionFromBank component.</value>
-    <comment>Component</comment>
-  </data>
   <data name="SectionBankPreviewComponent_Name" xml:space="preserve">
-    <value>Section Bank previews</value>
+    <value>Section From Bank </value>
     <comment>Component</comment>
   </data>
   <data name="SectionPreview_Desc" xml:space="preserve">
-    <value>Represents a Section preview from a ConSteel section bank.</value>
+    <value>The loaded in section.</value>
     <comment>Output</comment>
   </data>
   <data name="SectionPreview_Name" xml:space="preserve">
-    <value>ConSteel Section preview</value>
-    <comment>Output</comment>
+    <value>SectionPreview</value>
+    <comment>Input</comment>
   </data>
   <data name="SectionPreview_Nick" xml:space="preserve">
-    <value>SectPrev</value>
-    <comment>Output</comment>
-  </data>
-  <data name="MacroFilter_Description" xml:space="preserve">
-    <value>Filter out section previews by the provided macro codes. If left at unset, no filter is active.</value>
+    <value>SP</value>
     <comment>Input</comment>
   </data>
-  <data name="MacroFilte_Name" xml:space="preserve">
-    <value>MacroFilter</value>
+  <data name="SectionPreview_Description" xml:space="preserve">
+    <value>he section preview of a section from the bank. Get and filter previews using the SectionBankPreview component. Loading excessive ammounts of sections is slow.</value>
     <comment>Input</comment>
   </data>
-  <data name="MacroFilte_Nick" xml:space="preserve">
-    <value>MF</value>
+  <data name="Material_Description" xml:space="preserve">
+    <value>The material of the section.</value>
     <comment>Input</comment>
   </data>
-  <data name="NameFilte_Description" xml:space="preserve">
-    <value>Filter by the section's name (eg.: \"IPE 180\") or by a regular expression that matches the name (eg.: \"" + @"IPE [12][\d]{2}\b\" + "\"). If left empty, no filter is active.</value>
+  <data name="Material_Name" xml:space="preserve">
+    <value>Material</value>
     <comment>Input</comment>
   </data>
-  <data name="NameFilte_Name" xml:space="preserve">
-    <value>NameFilte</value>
-    <comment>Input</comment>
-  </data>
-  <data name="NameFilte_Nick" xml:space="preserve">
-    <value>N</value>
-    <comment>Input</comment>
-  </data>
-  <data name="OriginFilter_Description" xml:space="preserve">
-    <value>Filter by the section bank origin, eg \"European\". If left empty no filter is active.</value>
-    <comment>Input</comment>
-  </data>
-  <data name="OriginFilter_Name" xml:space="preserve">
-    <value>OriginFilter</value>
-    <comment>Input</comment>
-  </data>
-  <data name="OriginFilter_Nick" xml:space="preserve">
-    <value>OF</value>
+  <data name="Material_Nick" xml:space="preserve">
+    <value>M</value>
     <comment>Input</comment>
   </data>
 </root>
