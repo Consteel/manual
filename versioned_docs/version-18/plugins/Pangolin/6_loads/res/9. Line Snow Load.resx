@@ -149,4 +149,28 @@
     <value>N</value>
     <comment>Input</comment>
   </data>
+  <data name="LoadCase_Description" xml:space="preserve">
+    <value>The Case which this load should belong to.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="LoadCase_Name" xml:space="preserve">
+    <value>LoadCase</value>
+    <comment>Input</comment>
+  </data>
+  <data name="LoadCase_NickName" xml:space="preserve">
+    <value>LC</value>
+    <comment>Input</comment>
+  </data>
+  <data name="SO_Description" xml:space="preserve">
+    <value>The structural object on which this load should act.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="SO_Name" xml:space="preserve">
+    <value>StructuralObject</value>
+    <comment>Input</comment>
+  </data>
+  <data name="SO_NickName" xml:space="preserve">
+    <value>SO</value>
+    <comment>Input</comment>
+  </data>
 </root>
