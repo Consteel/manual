@@ -129,50 +129,6 @@
     <value>DT</value>
     <comment>Input</comment>
   </data>
-  <data name="LinearSurfaceLoadComponent_Desc" xml:space="preserve">
-    <value>Creates a Surface Load in ConSteel model with linearly changing intensity, from 3 points</value>
-    <comment>Component</comment>
-  </data>
-  <data name="LinearSurfaceLoadComponent_Name" xml:space="preserve">
-    <value>Linear Surface Load 3Pts</value>
-    <comment>Component</comment>
-  </data>
-  <data name="Load1_Description" xml:space="preserve">
-    <value>Force in kN/m2 -s acting on P1 point.</value>
-    <comment>Component</comment>
-  </data>
-  <data name="Load1_Name" xml:space="preserve">
-    <value>Q1 [kN/m2]</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Load1_NickName" xml:space="preserve">
-    <value>Q1</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Load2_Description" xml:space="preserve">
-    <value>Force in kN/m2 -s acting on P2 point.</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Load2_Name" xml:space="preserve">
-    <value>Q2 [kN/m2]</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Load2_NickName" xml:space="preserve">
-    <value>Q2</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Load3_Description" xml:space="preserve">
-    <value>Force in kN/m2 -s acting on P3 point.</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Load3_Name" xml:space="preserve">
-    <value>Q3 [kN/m2]</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Load3_NickName" xml:space="preserve">
-    <value>Q3</value>
-    <comment>Input</comment>
-  </data>
   <data name="LoadBearingObject_Description" xml:space="preserve">
     <value>The object on which this load should act. Eg.: a structural plate, or load transfer surface.</value>
     <comment>Input</comment>
@@ -195,18 +151,6 @@
   </data>
   <data name="LoadCase_NickName" xml:space="preserve">
     <value>LC</value>
-    <comment>Input</comment>
-  </data>
-  <data name="LoadDirection_Description" xml:space="preserve">
-    <value>The axis on which the load acts.</value>
-    <comment>Input</comment>
-  </data>
-  <data name="LoadDirection_Name" xml:space="preserve">
-    <value>LoadAxis</value>
-    <comment>Input</comment>
-  </data>
-  <data name="LoadDirection_NickName" xml:space="preserve">
-    <value>LA</value>
     <comment>Input</comment>
   </data>
   <data name="LocalCoordinateSystem_Description" xml:space="preserve">
@@ -243,42 +187,6 @@
   </data>
   <data name="Name_NickName" xml:space="preserve">
     <value>N</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Point1_Description" xml:space="preserve">
-    <value>First point where the load is specified. Note: the point will be projected onto the plane.</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Point1_Name" xml:space="preserve">
-    <value>Point1</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Point1_NickName" xml:space="preserve">
-    <value>P1</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Point2_Description" xml:space="preserve">
-    <value>Second point where the load is specified. Note: the point will be projected onto the plane. Note: if left unset, the first and third points will be used interpreting the load as linearly changing in the local Y direction. (with the points being projected to the local Y axis).</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Point2_Name" xml:space="preserve">
-    <value>Point2</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Point2_NickName" xml:space="preserve">
-    <value>P2</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Point3_Description" xml:space="preserve">
-    <value>Third point where the load is specified. Note: the point will be projected onto the plane.</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Point3_Name" xml:space="preserve">
-    <value>Point3</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Point3_NickName" xml:space="preserve">
-    <value>P3</value>
     <comment>Input</comment>
   </data>
   <data name="PolygonParam_Description" xml:space="preserve">
