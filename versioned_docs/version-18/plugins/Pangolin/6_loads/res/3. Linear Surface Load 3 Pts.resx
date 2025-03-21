@@ -145,4 +145,160 @@
     <value>LC</value>
     <comment>Input</comment>
   </data>
+  <data name="LO_Description" xml:space="preserve">
+    <value>The object on which this load should act. Eg.: a structural plate, or load transfer surface.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="LO_Name" xml:space="preserve">
+    <value>LoadBearingObject</value>
+    <comment>Input</comment>
+  </data>
+  <data name="LO_NickName" xml:space="preserve">
+    <value>LO</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Polygon_Description" xml:space="preserve">
+    <value>The polygon on which this load should act. Note: If left empty the load will act on the bearing object's whole reference polygon. Only specify this if you wish to act on a smaller part of the bearing object's surface.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Polygon_Name" xml:space="preserve">
+    <value>Polygon</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Polygon_NickName" xml:space="preserve">
+    <value>P</value>
+    <comment>Input</comment>
+  </data>
+  <data name="DirectionType_Description" xml:space="preserve">
+    <value>Load direction type: Global=global coord sys, Local=structural object's coord sys, User=provided coord sys in next param, Projection=the force is projected onto the global coordinate system (eg EN snow load).</value>
+    <comment>Input</comment>
+  </data>
+  <data name="DirectionType_Name" xml:space="preserve">
+    <value>DirectionType</value>
+    <comment>Input</comment>
+  </data>
+  <data name="DirectionType_NickName" xml:space="preserve">
+    <value>DT</value>
+    <comment>Input</comment>
+  </data>
+  <data name="CoordinateSystem_Description" xml:space="preserve">
+    <value>The coordinate system in which the load is interpreted. Note: Only taken into account if DirectionType is set to UserCoordinateSystem. The provided coordinate system will be projected so that is's Z axis is paralell with the reference polygon's normal axis.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="CoordinateSystem_Name" xml:space="preserve">
+    <value>CoordinateSystem</value>
+    <comment>Input</comment>
+  </data>
+  <data name="CoordinateSystem_NickName" xml:space="preserve">
+    <value>CS</value>
+    <comment>Input</comment>
+  </data>
+  <data name="LoadAxis_Desc" xml:space="preserve">
+    <value>The axis on which the load acts.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="LoadAxis_Name" xml:space="preserve">
+    <value>LoadAxis</value>
+    <comment>Input</comment>
+  </data>
+  <data name="LoadAxis_Nick" xml:space="preserve">
+    <value>LA</value>
+    <comment>Input</comment>
+  </data>
+  <data name="P1_Desc" xml:space="preserve">
+    <value>First point where the load is specified. Note: the point will be projected onto the plane.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="P1_Name" xml:space="preserve">
+    <value>Point1</value>
+    <comment>Input</comment>
+  </data>
+  <data name="P1_NickName" xml:space="preserve">
+    <value>P1</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Q1_Description" xml:space="preserve">
+    <value>Force in kN/m2 -s acting on P1 point.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Q1_Name" xml:space="preserve">
+    <value>Q1 [kN/m2]</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Q1_NickName" xml:space="preserve">
+    <value>Q1</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Point2_Description" xml:space="preserve">
+    <value>Second point where the load is specified. Note: the point will be projected onto the plane.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Point2_Name" xml:space="preserve">
+    <value>Point2</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Point2_NickName" xml:space="preserve">
+    <value>P2</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Q2_Description" xml:space="preserve">
+    <value>Force in kN/m2 -s acting on P2 point.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Q2_Name" xml:space="preserve">
+    <value>Q2 [kN/m2]</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Q2_NickName" xml:space="preserve">
+    <value>Q2</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Point3_Description" xml:space="preserve">
+    <value>Third point where the load is specified. Note: the point will be projected onto the plane.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Point3_Name" xml:space="preserve">
+    <value>Point3</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Point3_NickName" xml:space="preserve">
+    <value>P3</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Q3_Description" xml:space="preserve">
+    <value>Force in kN/m2 -s acting on P3 point.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Q3_Name" xml:space="preserve">
+    <value>Q3 [kN/m2]</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Q3_NickName" xml:space="preserve">
+    <value>Q3</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Multiplier_Description" xml:space="preserve">
+    <value>Multiplication factor for the forces. Eg.: setting this to 2 is the same as doubling all the forces.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Multiplier_Name" xml:space="preserve">
+    <value>Multiplier</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Multiplier_NickName" xml:space="preserve">
+    <value>Mul</value>
+    <comment>Input</comment>
+  </data>
+  <data name="SL_Description" xml:space="preserve">
+    <value>The created ConSteel Surface Load.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="SL_Name" xml:space="preserve">
+    <value>CSSurfaceLoad</value>
+    <comment>Output</comment>
+  </data>
+  <data name="SL_NickName" xml:space="preserve">
+    <value>SL</value>
+    <comment>Output</comment>
+  </data>
 </root>
