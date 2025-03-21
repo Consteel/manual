@@ -137,4 +137,80 @@
     <value>B</value>
     <comment>Input</comment>
   </data>
+  <data name="Parameters_Description" xml:space="preserve">
+    <value>Parameters of the result point on the beam's edge.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="Parameters" xml:space="preserve">
+    <value>P</value>
+    <comment>Output</comment>
+  </data>
+  <data name="Combinations_Description" xml:space="preserve">
+    <value>Significant combinations.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="Combinations_Name" xml:space="preserve">
+    <value>Combinations</value>
+    <comment>Output</comment>
+  </data>
+  <data name="Combinations_NickName" xml:space="preserve">
+    <value>C</value>
+    <comment>Output</comment>
+  </data>
+  <data name="Sign. Result_Description" xml:space="preserve">
+    <value>Significant results.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="Sign. Result_Name" xml:space="preserve">
+    <value>Sign. Result</value>
+    <comment>Output</comment>
+  </data>
+  <data name="Sign. Result_NickName" xml:space="preserve">
+    <value>RS</value>
+    <comment>Output</comment>
+  </data>
+  <data name="Sign. check_Description" xml:space="preserve">
+    <value>Describes which design check's result is the significant result.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="Sign. check_Name" xml:space="preserve">
+    <value>Sign. check</value>
+    <comment>Output</comment>
+  </data>
+  <data name="Sign. check_NickName" xml:space="preserve">
+    <value>SC</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RStab_Description" xml:space="preserve">
+    <value>Global Stability check results.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RStab_Name" xml:space="preserve">
+    <value>Stab. Result</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RStab_NickName" xml:space="preserve">
+    <value>RStab</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RPlast_Description" xml:space="preserve">
+    <value>Plastic interaction check results.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RPlast_Name" xml:space="preserve">
+    <value>Plast. Result</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RPlast_NickName" xml:space="preserve">
+    <value>RPlast</value>
+    <comment>Output</comment>
+  </data>
+  <data name="SPC_Description" xml:space="preserve">
+    <value>Describes which plastic interaction check's result is the significant plastic result.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="SPC" xml:space="preserve">
+    <value>SPC</value>
+    <comment>Output</comment>
+  </data>
 </root>
