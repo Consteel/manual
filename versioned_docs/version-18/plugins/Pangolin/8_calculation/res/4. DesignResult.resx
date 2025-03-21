@@ -281,4 +281,52 @@
     <value>RMy</value>
     <comment>Output</comment>
   </data>
+  <data name="RMz_Description" xml:space="preserve">
+    <value>Pure Mz bending check results.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RMz_Name" xml:space="preserve">
+    <value>Pure Mz Result</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RMz_NickName" xml:space="preserve">
+    <value>RMz</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RVy_Description" xml:space="preserve">
+    <value>Pure Vy shear check results.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RVy_Name" xml:space="preserve">
+    <value>Pure Vy Result</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RVy_NickName" xml:space="preserve">
+    <value>RVy</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RVz_Description" xml:space="preserve">
+    <value>Pure Vz shear check results.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RVz_Name" xml:space="preserve">
+    <value>Pure Vz Result</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RVz_NickName" xml:space="preserve">
+    <value>RVz</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RT_Description" xml:space="preserve">
+    <value>Pure torsion check results.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RT_Name" xml:space="preserve">
+    <value>Pure T Result</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RT_NickName" xml:space="preserve">
+    <value>RT</value>
+    <comment>Output</comment>
+  </data>
 </root>
