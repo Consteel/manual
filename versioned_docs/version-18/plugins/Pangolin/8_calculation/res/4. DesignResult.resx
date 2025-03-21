@@ -137,14 +137,6 @@
     <value>B</value>
     <comment>Input</comment>
   </data>
-  <data name="Parameters_Description" xml:space="preserve">
-    <value>Parameters of the result point on the beam's edge.</value>
-    <comment>Output</comment>
-  </data>
-  <data name="Parameters" xml:space="preserve">
-    <value>P</value>
-    <comment>Output</comment>
-  </data>
   <data name="Combinations_Description" xml:space="preserve">
     <value>Significant combinations.</value>
     <comment>Output</comment>
@@ -209,8 +201,84 @@
     <value>Describes which plastic interaction check's result is the significant plastic result.</value>
     <comment>Output</comment>
   </data>
-  <data name="SPC" xml:space="preserve">
+  <data name="SPC_Name" xml:space="preserve">
+    <value>Sign. plast. check</value>
+    <comment>Output</comment>
+  </data>
+  <data name="SPC_NickName" xml:space="preserve">
     <value>SPC</value>
+    <comment>Output</comment>
+  </data>
+  <data name="Parameters_Description" xml:space="preserve">
+    <value>Parameters of the result point on the beam's edge.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="Parameters_Name" xml:space="preserve">
+    <value>Parameters</value>
+    <comment>Output</comment>
+  </data>
+  <data name="Parameters_NickName" xml:space="preserve">
+    <value>P</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RCons_Description" xml:space="preserve">
+    <value>Conservative interaction check results.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RCons_Name" xml:space="preserve">
+    <value>Cons. Result</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RCons_NickName" xml:space="preserve">
+    <value>RCons</value>
+    <comment>Output</comment>
+  </data>
+  <data name="REl_Description" xml:space="preserve">
+    <value>Elastic check results.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="REl_Name" xml:space="preserve">
+    <value>El. Result</value>
+    <comment>Output</comment>
+  </data>
+  <data name="REl_NickName" xml:space="preserve">
+    <value>REl</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RPure_Description" xml:space="preserve">
+    <value>Pure (internal force) check results.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RPure_Name" xml:space="preserve">
+    <value>Pure Result</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RPure_NickName" xml:space="preserve">
+    <value>RPure</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RN" xml:space="preserve">
+    <value>Pure normal force check results.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RN_Name" xml:space="preserve">
+    <value>Pure N Result</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RN_NickName" xml:space="preserve">
+    <value>RN</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RMy_Description" xml:space="preserve">
+    <value>Pure My bending check results.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RMy_Name" xml:space="preserve">
+    <value>Pure My Result</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RMy_NickName" xml:space="preserve">
+    <value>RMy</value>
     <comment>Output</comment>
   </data>
 </root>
