@@ -117,11 +117,11 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="DescriptComponentDesc" xml:space="preserve">
+  <data name="DescriptComponent_Desc" xml:space="preserve">
     <value>Reads Descript file.</value>
     <comment>Component</comment>
   </data>
-  <data name="DescriptComponentName" xml:space="preserve">
+  <data name="DescriptComponent_Name" xml:space="preserve">
     <value>Descript</value>
     <comment>Component</comment>
   </data>
@@ -137,27 +137,27 @@
     <value>DFP</value>
     <comment>Input</comment>
   </data>
-  <data name="OutParamDescription" xml:space="preserve">
+  <data name="OutParam_Description" xml:space="preserve">
     <value>The descript code.</value>
     <comment>Output</comment>
   </data>
-  <data name="OutParamName" xml:space="preserve">
+  <data name="OutParam_Name" xml:space="preserve">
     <value>Descript code</value>
     <comment>Output</comment>
   </data>
-  <data name="OutParamNick" xml:space="preserve">
+  <data name="OutParam_Nick" xml:space="preserve">
     <value>DC</value>
     <comment>Output</comment>
   </data>
-  <data name="PreDefParamDescription" xml:space="preserve">
+  <data name="PreDefParam_Description" xml:space="preserve">
     <value>Creates 1 or more variables with their given values in the beginning of the Descript code. Input example: “variable=value” or “$variable=value”. For multiple variables use more lines in the input string or multiple panels.</value>
     <comment>Input</comment>
   </data>
-  <data name="PreDefParamName" xml:space="preserve">
+  <data name="PreDefParam_Name" xml:space="preserve">
     <value>Predefined Variables</value>
     <comment>Input</comment>
   </data>
-  <data name="PreDefParamNick" xml:space="preserve">
+  <data name="PreDefParam_Nick" xml:space="preserve">
     <value>PV</value>
     <comment>Input</comment>
   </data>

@@ -257,7 +257,7 @@
     <value>RPure</value>
     <comment>Output</comment>
   </data>
-  <data name="RN" xml:space="preserve">
+  <data name="RN_Description" xml:space="preserve">
     <value>Pure normal force check results.</value>
     <comment>Output</comment>
   </data>

@@ -145,7 +145,7 @@
     <value>Polygon</value>
     <comment>Input</comment>
   </data>
-  <data name="Polygon" xml:space="preserve">
+  <data name="Polygon_NickName" xml:space="preserve">
     <value>P</value>
     <comment>Input</comment>
   </data>

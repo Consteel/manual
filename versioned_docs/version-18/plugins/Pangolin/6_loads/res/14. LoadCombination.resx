@@ -197,21 +197,17 @@
     <value>Load Combination</value>
     <comment>Component</comment>
   </data>
-  <data name="LoadCombinationDesc" xml:space="preserve">
+  <data name="LoadCombination_Desc" xml:space="preserve">
     <value>Represents a Load Combination in ConSteel model.</value>
     <comment>Output</comment>
   </data>
-  <data name="LoadCombinationName" xml:space="preserve">
+  <data name="LoadCombination_Name" xml:space="preserve">
     <value>CS Load Combination</value>
     <comment>Output</comment>
   </data>
-  <data name="LoadCombinationNick" xml:space="preserve">
+  <data name="LoadCombination_Nick" xml:space="preserve">
     <value>CSLC</value>
     <comment>Output</comment>
-  </data>
-  <data name="MismatchGuidExceptionMessage" xml:space="preserve">
-    <value>Component instance-object owner object GUID mismatch!</value>
-    <comment>Input</comment>
   </data>
   <data name="Name_Description" xml:space="preserve">
     <value>Name of the created load combination.</value>
