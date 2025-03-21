@@ -133,4 +133,28 @@
     <value>GMS</value>
     <comment>Output</comment>
   </data>
+  <data name="SWC_Description" xml:space="preserve">
+    <value>Load case that should contain auto generated self weight of structural objects.</value>
+    <comment/>
+  </data>
+  <data name="SWC_Name" xml:space="preserve">
+    <value>SelfWeightCase</value>
+    <comment/>
+  </data>
+  <data name="SWC:NickName" xml:space="preserve">
+    <value>SWC</value>
+    <comment/>
+  </data>
+  <data name="EL_Description" xml:space="preserve">
+    <value>The upper limit of relevant eigenvalues during buckling calculation.</value>
+    <comment/>
+  </data>
+  <data name="EL_Name" xml:space="preserve">
+    <value>EigenValUpperLimit</value>
+    <comment/>
+  </data>
+  <data name="EL_NickName" xml:space="preserve">
+    <value>EL</value>
+    <comment/>
+  </data>
 </root>
