@@ -209,4 +209,40 @@
     <value>Sk</value>
     <comment>Input</comment>
   </data>
+  <data name="Ce_Description" xml:space="preserve">
+    <value>Wind factor according to Eurocode</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Ce_Name" xml:space="preserve">
+    <value>WindFactor [-]</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Ce_NickName" xml:space="preserve">
+    <value>Ce</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Ct_Description" xml:space="preserve">
+    <value>Temperature factor according to Eurocode</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Ct_Name" xml:space="preserve">
+    <value>TemperatureFactor [-]</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Ct_NickName" xml:space="preserve">
+    <value>Ct</value>
+    <comment>Input</comment>
+  </data>
+  <data name="u1_Description" xml:space="preserve">
+    <value>Shape factor according to Eurocode at End A</value>
+    <comment>Input</comment>
+  </data>
+  <data name="u1_Name" xml:space="preserve">
+    <value>ShapeFactor 1 [-]</value>
+    <comment>Input</comment>
+  </data>
+  <data name="u1_NickName" xml:space="preserve">
+    <value>u1</value>
+    <comment>Input</comment>
+  </data>
 </root>
