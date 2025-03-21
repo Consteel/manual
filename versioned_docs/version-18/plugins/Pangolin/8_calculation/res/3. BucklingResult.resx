@@ -149,4 +149,40 @@
     <value>CSLC</value>
     <comment>Input</comment>
   </data>
+  <data name="A_Description" xml:space="preserve">
+    <value>Alpha crit eigen factors of the buckling shapes.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="A_Name" xml:space="preserve">
+    <value>Alpha.crit</value>
+    <comment>Output</comment>
+  </data>
+  <data name="A_NickName" xml:space="preserve">
+    <value>A</value>
+    <comment>Output</comment>
+  </data>
+  <data name="Sensitivity_Description" xml:space="preserve">
+    <value>Model Relevance Factors, Buckling sensitivity of the specified beam for the buckling shapes.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="Sensitivity_Name" xml:space="preserve">
+    <value>Sensitivity</value>
+    <comment>Output</comment>
+  </data>
+  <data name="Sensitivity_NickName" xml:space="preserve">
+    <value>MRF</value>
+    <comment>Output</comment>
+  </data>
+  <data name="BS_Description" xml:space="preserve">
+    <value>Buckling shape displacements.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="BS_Name" xml:space="preserve">
+    <value>Buckling shape</value>
+    <comment>Output</comment>
+  </data>
+  <data name="BS_NickName" xml:space="preserve">
+    <value>BS</value>
+    <comment>Output</comment>
+  </data>
 </root>
