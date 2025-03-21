@@ -117,30 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Attributes_Description" xml:space="preserve">
-    <value>The attributes of the section, eg.: name, origin, etc.</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Attributes_Name" xml:space="preserve">
-    <value>Attributes</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Attributes_NickName" xml:space="preserve">
-    <value>A</value>
-    <comment>Input</comment>
-  </data>
-  <data name="DeconstructSection_Description" xml:space="preserve">
-    <value>Deconstructs a ConSteel Section into it's outline(s) and parameter list if any.</value>
-    <comment>Input</comment>
-  </data>
-  <data name="DeconstructSection_Name" xml:space="preserve">
-    <value>Deconstruct Section</value>
-    <comment>Input</comment>
-  </data>
-  <data name="DeconstructSection_NickName" xml:space="preserve">
-    <value>CSDecSec</value>
-    <comment>Input</comment>
-  </data>
   <data name="MacroSectionComponent_Desc" xml:space="preserve">
     <value>Creates a section in ConSteel model based on selected macro.</value>
     <comment>Component</comment>
@@ -161,72 +137,16 @@
     <value>M</value>
     <comment>Input</comment>
   </data>
-  <data name="Parameters_Description" xml:space="preserve">
-    <value>The numeric parameters of the section, if it is based on a section macro (or possibly a combination of macros).</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Parameters_Name" xml:space="preserve">
-    <value>Parameters</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Parameters_NickName" xml:space="preserve">
-    <value>P</value>
-    <comment>Input</comment>
-  </data>
-  <data name="RCMacroComponent_Desc" xml:space="preserve">
-    <value>Creates a reinforced concrete rectangular section in ConSteel model.</value>
-    <comment>Input</comment>
-  </data>
-  <data name="RCMacroComponent_Name" xml:space="preserve">
-    <value>RCRectangularSection</value>
-    <comment>Input</comment>
-  </data>
-  <data name="SectionDesc" xml:space="preserve">
-    <value>Represents a Section in ConSteel model.</value>
-    <comment>Input</comment>
-  </data>
-  <data name="SectionFromBankComponent_Desc" xml:space="preserve">
-    <value>Loads a section from the section bank, based on the section preview.</value>
-    <comment>Input</comment>
-  </data>
-  <data name="SectionFromBankComponent_Name" xml:space="preserve">
-    <value>Section From Bank</value>
-    <comment>Input</comment>
-  </data>
-  <data name="SectionFromBankComponent_Nick" xml:space="preserve">
-    <value>S</value>
-    <comment>Input</comment>
-  </data>
-  <data name="SectionName" xml:space="preserve">
+  <data name="Section_Descrition" xml:space="preserve">
     <value>ConSteel Section</value>
     <comment>Output</comment>
   </data>
-  <data name="SectionNick" xml:space="preserve">
-    <value>S</value>
+  <data name="Section_Name" xml:space="preserve">
+    <value>ConSteel Section</value>
     <comment>Output</comment>
   </data>
-  <data name="Section_Description" xml:space="preserve">
-    <value>Section to be deconstructed.</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Section_Name" xml:space="preserve">
+  <data name="Section_Nick" xml:space="preserve">
     <value>Section</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Section_NickName" xml:space="preserve">
-    <value>S</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Surfaces_Description" xml:space="preserve">
-    <value>The outlines of the section's section items.</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Surfaces_Name" xml:space="preserve">
-    <value>Outline(s)</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Surfaces_NickName" xml:space="preserve">
-    <value>O</value>
-    <comment>Input</comment>
+    <comment>Output</comment>
   </data>
 </root>
