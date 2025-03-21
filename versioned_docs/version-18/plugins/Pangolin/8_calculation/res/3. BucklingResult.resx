@@ -125,8 +125,28 @@
     <value>Buckling Results</value>
     <comment>Component</comment>
   </data>
-  <data name="BucklingResultComponent_Nick" xml:space="preserve">
-    <value>BR</value>
-    <comment>Component</comment>
+  <data name="Beam_Description" xml:space="preserve">
+    <value>Beam returned from ConSteel.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Beam_Name" xml:space="preserve">
+    <value>CSBeam</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Beam_NickName" xml:space="preserve">
+    <value>CSB</value>
+    <comment>Input</comment>
+  </data>
+  <data name="CSLC_Description" xml:space="preserve">
+    <value>Load combination from Consteel.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="CSLC_Name" xml:space="preserve">
+    <value>CSLoadCombination</value>
+    <comment>Input</comment>
+  </data>
+  <data name="CSLC_NickName" xml:space="preserve">
+    <value>CSLC</value>
+    <comment>Input</comment>
   </data>
 </root>
