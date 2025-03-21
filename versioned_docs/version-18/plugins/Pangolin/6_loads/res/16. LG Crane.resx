@@ -181,4 +181,8 @@
     <value>SF</value>
     <comment>Input</comment>
   </data>
+  <data name="LG_Description" xml:space="preserve">
+    <value>Represents a Load Group in ConSteel model.</value>
+    <comment>Output</comment>
+  </data>
 </root>
