@@ -197,4 +197,16 @@
     <value>UD</value>
     <comment>Input</comment>
   </data>
+  <data name="CSLTS_Description" xml:space="preserve">
+    <value>Consteel Load Transfer Surface.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="CSLTS_Name" xml:space="preserve">
+    <value>CSLoadTransferSurface</value>
+    <comment>Output</comment>
+  </data>
+  <data name="CSLTS_NickName" xml:space="preserve">
+    <value>CSLTS</value>
+    <comment>Output</comment>
+  </data>
 </root>
