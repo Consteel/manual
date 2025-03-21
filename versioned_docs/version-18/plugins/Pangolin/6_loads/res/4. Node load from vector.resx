@@ -205,4 +205,60 @@
     <value>F</value>
     <comment>Input</comment>
   </data>
+  <data name="M_Description" xml:space="preserve">
+    <value>The sum vector of the bending moments acting at this point. Note: this will be disassembeld into it's component vectors according to the used coordinate system.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="M_Name" xml:space="preserve">
+    <value>BendingMomentVector</value>
+    <comment>Input</comment>
+  </data>
+  <data name="M_NickName" xml:space="preserve">
+    <value>M</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Multiplier_Description" xml:space="preserve">
+    <value>Multiplication factor for the forces. Eg.: setting this to 2 is the same as doubling all the forces.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Multiplier_Name" xml:space="preserve">
+    <value>Multiplier</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Multiplier_NickName" xml:space="preserve">
+    <value>Mul</value>
+    <comment>Input</comment>
+  </data>
+  <data name="E_Description" xml:space="preserve">
+    <value>Type of the eccentricity, eg as measured from the beam's reference line, cross section middle point, top-left edge, etc.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="E_Name" xml:space="preserve">
+    <value>Eccentricity type</value>
+    <comment>Input</comment>
+  </data>
+  <data name="E_NickName" xml:space="preserve">
+    <value>E</value>
+    <comment>Input</comment>
+  </data>
+  <data name="EY_Description" xml:space="preserve">
+    <value>Eccentricity in Y direction.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="EY_Name" xml:space="preserve">
+    <value>Eccentricity Y</value>
+    <comment>Input</comment>
+  </data>
+  <data name="EY_NickName" xml:space="preserve">
+    <value>EY</value>
+    <comment>Input</comment>
+  </data>
+  <data name="EZ_Description" xml:space="preserve">
+    <value>EZ</value>
+    <comment>Input</comment>
+  </data>
+  <data name="EZ_Name" xml:space="preserve">
+    <value>Eccentricity Z</value>
+    <comment>Input</comment>
+  </data>
 </root>
