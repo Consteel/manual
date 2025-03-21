@@ -125,28 +125,16 @@
     <value>Configuration</value>
     <comment>Component</comment>
   </data>
-  <data name="PreviewMode_Description" xml:space="preserve">
-    <value>Toggle the preview mode</value>
+  <data name="FPS_Description" xml:space="preserve">
+    <value>Scaling factor for the force preview arrows.</value>
     <comment>Input</comment>
   </data>
-  <data name="PreviewMode_Name" xml:space="preserve">
-    <value>PreviewMode</value>
+  <data name="FPS_Name" xml:space="preserve">
+    <value>ForcePreviewScale</value>
     <comment>Input</comment>
   </data>
-  <data name="PreviewMode_NickName" xml:space="preserve">
-    <value>PM</value>
+  <data name="FPS_NickName" xml:space="preserve">
+    <value>FPS</value>
     <comment>Input</comment>
-  </data>
-  <data name="WindLoadValue_Description" xml:space="preserve">
-    <value>Toggle the wind load value</value>
-    <comment>Output</comment>
-  </data>
-  <data name="WindLoadValue_Name" xml:space="preserve">
-    <value>WindLoadValue</value>
-    <comment>Output</comment>
-  </data>
-  <data name="WindLoadValue_NickName" xml:space="preserve">
-    <value>WLV</value>
-    <comment>Output</comment>
   </data>
 </root>
