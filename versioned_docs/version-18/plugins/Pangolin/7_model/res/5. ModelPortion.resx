@@ -181,4 +181,16 @@
     <value>V</value>
     <comment>Input</comment>
   </data>
+  <data name="CSModelPortion_Description" xml:space="preserve">
+    <value>The created ConSteel ModelPortion.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="CSModelPortion_Name" xml:space="preserve">
+    <value>CSModelPortion</value>
+    <comment>Output</comment>
+  </data>
+  <data name="CSModelPortion_NickName" xml:space="preserve">
+    <value>La</value>
+    <comment>Output</comment>
+  </data>
 </root>
