@@ -221,4 +221,16 @@
     <value>RS</value>
     <comment>Input</comment>
   </data>
+  <data name="Coloring_Description" xml:space="preserve">
+    <value>Coloring of the load case</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Coloring_Name" xml:space="preserve">
+    <value>Coloring</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Coloring_NickName" xml:space="preserve">
+    <value>C</value>
+    <comment>Input</comment>
+  </data>
 </root>
