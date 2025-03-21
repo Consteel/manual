@@ -169,4 +169,40 @@
     <value>P</value>
     <comment>Input</comment>
   </data>
+  <data name="LCS_Description" xml:space="preserve">
+    <value>If set to true, the load will be interpreted in the given structural object's own local coordinate system, and the passed in coordinate system parameter will be ignored.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="LCS_Name" xml:space="preserve">
+    <value>Use LCS</value>
+    <comment>Input</comment>
+  </data>
+  <data name="LCS_NickName" xml:space="preserve">
+    <value>LCS</value>
+    <comment>Input</comment>
+  </data>
+  <data name="CS_Description" xml:space="preserve">
+    <value>The coordinate system in which the load is interpreted. Note: if use local coordinate system is true, this will have no effect. If left empty and use LCS is false, defaults to World XY.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="CS_Name" xml:space="preserve">
+    <value>CoordinateSystem</value>
+    <comment>Input</comment>
+  </data>
+  <data name="CS_NickName" xml:space="preserve">
+    <value>CS</value>
+    <comment>Input</comment>
+  </data>
+  <data name="ForceVector_Description" xml:space="preserve">
+    <value>The sum vector of forces acting at this point. Note: this will be disassembeld into it's component vectors according to the used coordinate system.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="ForceVector_Name" xml:space="preserve">
+    <value>ForceVector</value>
+    <comment>Input</comment>
+  </data>
+  <data name="ForceVector_NickName" xml:space="preserve">
+    <value>F</value>
+    <comment>Input</comment>
+  </data>
 </root>
