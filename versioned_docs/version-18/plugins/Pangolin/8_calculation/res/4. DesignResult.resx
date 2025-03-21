@@ -125,15 +125,15 @@
     <value>Design check Results</value>
     <comment>Component</comment>
   </data>
-  <data name="_Description" xml:space="preserve">
-    <value>Describes which design check's result is the significant result.</value>
-    <comment>Output</comment>
+  <data name="CSBeam_Description" xml:space="preserve">
+    <value>Beam returned from ConSteel.</value>
+    <comment>Input</comment>
   </data>
-  <data name="_Name" xml:space="preserve">
+  <data name="CSBeam_Name" xml:space="preserve">
     <value>CSBeam</value>
     <comment>Input</comment>
   </data>
-  <data name="_NickName" xml:space="preserve">
+  <data name="CSBeam_NickName" xml:space="preserve">
     <value>B</value>
     <comment>Input</comment>
   </data>
