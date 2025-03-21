@@ -117,16 +117,64 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Calculate_Description" xml:space="preserve">
+    <value>Whether this load case should be calculated in itself in first order, additionally to the load combination analysis. Note: this does not influence whether the loadcase will be calculated as part of a load combination!</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Calculate_Name" xml:space="preserve">
+    <value>CalculateAsCase</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Calculate_NickName" xml:space="preserve">
+    <value>CC</value>
+    <comment>Input</comment>
+  </data>
+  <data name="CanBeFavourable_Description" xml:space="preserve">
+    <value>Whether this load case can be favourable in a load combination.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="CanBeFavourable_Name" xml:space="preserve">
+    <value>CanBeFavourable</value>
+    <comment>Input</comment>
+  </data>
+  <data name="CanBeFavourable_NickName" xml:space="preserve">
+    <value>CF</value>
+    <comment>Input</comment>
+  </data>
   <data name="LoadCaseComponent_Desc" xml:space="preserve">
-    <value>Load Transfer Surface</value>
+    <value>Creates a Load Case in ConSteel model.</value>
     <comment>Component</comment>
   </data>
   <data name="LoadCaseComponent_Name" xml:space="preserve">
-    <value>Load Transfer Surface</value>
+    <value>Load Case Component</value>
     <comment>Component</comment>
   </data>
+  <data name="LoadCaseDesc" xml:space="preserve">
+    <value>Looks up a localized string similar to Represents a Load Case in ConSteel model.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="LoadCaseName" xml:space="preserve">
+    <value>ConSteel Load Case</value>
+    <comment>Output</comment>
+  </data>
+  <data name="LoadCaseNick" xml:space="preserve">
+    <value>LC</value>
+    <comment>Output</comment>
+  </data>
+  <data name="LoadGroup_Description" xml:space="preserve">
+    <value>The Load Group which this case should belong to.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="LoadGroup_Name" xml:space="preserve">
+    <value>Load Group</value>
+    <comment>Input</comment>
+  </data>
+  <data name="LoadGroup_NickName" xml:space="preserve">
+    <value>LG</value>
+    <comment>Input</comment>
+  </data>
   <data name="Name_Description" xml:space="preserve">
-    <value>Name of the created object in ConSteel model.</value>
+    <value>Name of the created load case.</value>
     <comment>Input</comment>
   </data>
   <data name="Name_Name" xml:space="preserve">
@@ -137,64 +185,52 @@
     <value>N</value>
     <comment>Input</comment>
   </data>
-  <data name="Polygon_Description" xml:space="preserve">
-    <value>The ConSteel Polygon which describes the load transfer surface.</value>
+  <data name="NotMainInAccidentalComb_Description" xml:space="preserve">
+    <value>Whether this load case can be the main one in an accidental combination.</value>
     <comment>Input</comment>
   </data>
-  <data name="Polygon_Name" xml:space="preserve">
-    <value>Polygon</value>
+  <data name="NotMainInAccidentalComb_Name" xml:space="preserve">
+    <value>NotMainInAccidental</value>
     <comment>Input</comment>
   </data>
-  <data name="Polygon" xml:space="preserve">
-    <value>P</value>
+  <data name="NotMainInAccidentalComb_NickName" xml:space="preserve">
+    <value>NA</value>
     <comment>Input</comment>
   </data>
-  <data name="SelectedBeams_Description" xml:space="preserve">
-    <value>If set to true, only the beams provided in the next parameter will be considered for load distribution. If set to false, the next parameter is not taken into account.</value>
+  <data name="NotMainInTransientComb_Description" xml:space="preserve">
+    <value>Whether this load case can be the main one in a transient combination.</value>
     <comment>Input</comment>
   </data>
-  <data name="SelectedBeams_Name" xml:space="preserve">
-    <value>SelectedBeams</value>
+  <data name="NotMainInTransientComb_Name" xml:space="preserve">
+    <value>NotMainInTransient</value>
     <comment>Input</comment>
   </data>
-  <data name="SelectedBeams_NickName" xml:space="preserve">
-    <value>SB</value>
+  <data name="NotMainInTransientComb_NickName" xml:space="preserve">
+    <value>NT</value>
     <comment>Input</comment>
   </data>
-  <data name="Beams_Description" xml:space="preserve">
-    <value>If SelectedBeams is true, the load will only be distributed to the beams specified here.</value>
+  <data name="ResultSettings_Description" xml:space="preserve">
+    <value>Specifies which results to include in analysis calculation. Default contains all results.</value>
     <comment>Input</comment>
   </data>
-  <data name="Beams_Name" xml:space="preserve">
-    <value>Beams</value>
+  <data name="ResultSettings_Name" xml:space="preserve">
+    <value>ResultSettings</value>
     <comment>Input</comment>
   </data>
-  <data name="Beams_NickName" xml:space="preserve">
-    <value>B</value>
+  <data name="ResultSettings_NickName" xml:space="preserve">
+    <value>RS</value>
     <comment>Input</comment>
   </data>
-  <data name="EZ_Description" xml:space="preserve">
-    <value>Load eccentricity in Z direction in mm-s.</value>
+  <data name="Coloring_Description" xml:space="preserve">
+    <value>Coloring of the load case</value>
     <comment>Input</comment>
   </data>
-  <data name="EZ_Name" xml:space="preserve">
-    <value>EccZ [mm]</value>
+  <data name="Coloring_Name" xml:space="preserve">
+    <value>Coloring</value>
     <comment>Input</comment>
   </data>
-  <data name="EZ_NickName" xml:space="preserve">
-    <value>EZ</value>
-    <comment>Input</comment>
-  </data>
-  <data name="UD_Description" xml:space="preserve">
-    <value>If set to true, the loads will be uniformly distributed</value>
-    <comment>Input</comment>
-  </data>
-  <data name="UD_Name" xml:space="preserve">
-    <value>UniformDistribution</value>
-    <comment>Input</comment>
-  </data>
-  <data name="UD_NickName" xml:space="preserve">
-    <value>UD</value>
+  <data name="Coloring_NickName" xml:space="preserve">
+    <value>C</value>
     <comment>Input</comment>
   </data>
 </root>
