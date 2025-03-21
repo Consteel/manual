@@ -117,14 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AlphaUlt_Description" xml:space="preserve">
-    <value>Alpha.ult stress reduction factor.</value>
-    <comment>Input</comment>
-  </data>
-  <data name="AlphaUlt_NickName" xml:space="preserve">
-    <value>A</value>
-    <comment>Input</comment>
-  </data>
   <data name="BucklingCheck_Description" xml:space="preserve">
     <value>Include buckling checks.</value>
     <comment>Input</comment>
@@ -135,14 +127,6 @@
   </data>
   <data name="BucklingCheck_NickName" xml:space="preserve">
     <value>BC</value>
-    <comment>Input</comment>
-  </data>
-  <data name="BucklingFactor_Description" xml:space="preserve">
-    <value>Which buckling factor should be used.</value>
-    <comment>Input</comment>
-  </data>
-  <data name="BucklingFactor_NickName" xml:space="preserve">
-    <value>BF</value>
     <comment>Input</comment>
   </data>
   <data name="BucklingPortion_Description" xml:space="preserve">
@@ -251,6 +235,30 @@
   </data>
   <data name="UseGm1_NickName" xml:space="preserve">
     <value>GM1</value>
+    <comment>Input</comment>
+  </data>
+  <data name="AlphaUlt_Description" xml:space="preserve">
+    <value>Alpha.ult stress reduction factor.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="AlphaUlt_Name" xml:space="preserve">
+    <value>AlphaUlt</value>
+    <comment>Input</comment>
+  </data>
+  <data name="AlphaUlt_NickName" xml:space="preserve">
+    <value>A</value>
+    <comment>Input</comment>
+  </data>
+  <data name="BucklingFactor_Description" xml:space="preserve">
+    <value>Which buckling factor should be used.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="BucklingFactor_Name" xml:space="preserve">
+    <value>BucklingFactor</value>
+    <comment>Input</comment>
+  </data>
+  <data name="BucklingFactor_NickName" xml:space="preserve">
+    <value>BF</value>
     <comment>Input</comment>
   </data>
 </root>
