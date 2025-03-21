@@ -129,4 +129,52 @@
     <value>ARS</value>
     <comment>Output</comment>
   </data>
+  <data name="BeamForces_Description" xml:space="preserve">
+    <value>Enable Beam force results</value>
+    <comment>Input</comment>
+  </data>
+  <data name="BeamForces_Name" xml:space="preserve">
+    <value>BeamForces</value>
+    <comment>Input</comment>
+  </data>
+  <data name="BeamForces_NickName" xml:space="preserve">
+    <value>BF</value>
+    <comment>Input</comment>
+  </data>
+  <data name="PlateForces_Description" xml:space="preserve">
+    <value>Enable Plate force results</value>
+    <comment>Input</comment>
+  </data>
+  <data name="PlateForces_Name" xml:space="preserve">
+    <value>PlateForces</value>
+    <comment>Input</comment>
+  </data>
+  <data name="PlateForces_NickName" xml:space="preserve">
+    <value>PF</value>
+    <comment>Input</comment>
+  </data>
+  <data name="PlateStresses_Description" xml:space="preserve">
+    <value>Enable Plate stress results</value>
+    <comment>Input</comment>
+  </data>
+  <data name="PlateStresses_Name" xml:space="preserve">
+    <value>PlateStresses</value>
+    <comment>Input</comment>
+  </data>
+  <data name="PlateStresses_NickName" xml:space="preserve">
+    <value>PS</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Reaction_Description" xml:space="preserve">
+    <value>Enable Reaction results</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Reaction_Name" xml:space="preserve">
+    <value>Reaction</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Reaction_NickName" xml:space="preserve">
+    <value>R</value>
+    <comment>Input</comment>
+  </data>
 </root>
