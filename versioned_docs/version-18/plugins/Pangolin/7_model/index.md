@@ -22,7 +22,7 @@ Configurations, model portions, model create and deconstruct.
 
 ![alt text](<img/model 5.png>) 
 
-
+### Structural Group
 
 ![alt text](<img/model 6.png>) 
 

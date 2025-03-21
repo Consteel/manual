@@ -137,4 +137,16 @@
     <value>CSStructuralGroup</value>
     <comment>Output</comment>
   </data>
+  <data name="Name_Description" xml:space="preserve">
+    <value>Name of the created Structural Group</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Name_Name" xml:space="preserve">
+    <value>Name</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Name_NickName" xml:space="preserve">
+    <value>N</value>
+    <comment>Input</comment>
+  </data>
 </root>
