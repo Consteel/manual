@@ -173,4 +173,40 @@
     <value>SO</value>
     <comment>Input</comment>
   </data>
+  <data name="AE_Description" xml:space="preserve">
+    <value>The edge on which this load should act. Note: only taken into account in case of structural plates.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="AE_Name" xml:space="preserve">
+    <value>ActionEdge</value>
+    <comment>Input</comment>
+  </data>
+  <data name="AE_NickName" xml:space="preserve">
+    <value>AE</value>
+    <comment>Input</comment>
+  </data>
+  <data name="DOP_Description" xml:space="preserve">
+    <value>Load direction type: Global=global coord sys, Local=structural object's coord sys</value>
+    <comment>Input</comment>
+  </data>
+  <data name="DOP_Name" xml:space="preserve">
+    <value>DirectionOfPlacement</value>
+    <comment>Input</comment>
+  </data>
+  <data name="DOP_NickName" xml:space="preserve">
+    <value>DOP</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Sk_Description" xml:space="preserve">
+    <value>Characteristic snow load according to Eurocode</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Sk_Name" xml:space="preserve">
+    <value>CharacteristicSnowLoad [kN/m2]</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Sk_NickName" xml:space="preserve">
+    <value>Sk</value>
+    <comment>Input</comment>
+  </data>
 </root>
