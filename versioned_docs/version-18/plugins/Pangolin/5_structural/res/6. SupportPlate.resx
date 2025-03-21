@@ -185,4 +185,16 @@
     <value>S</value>
     <comment>Input</comment>
   </data>
+  <data name="LCS_Description" xml:space="preserve">
+    <value>Use Local Coordinate System. If set to true, the reference edge's local coordinate system will be used for the support, at the given point, overriding the provided coordinate system.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="LCS_Name" xml:space="preserve">
+    <value>Use LCS</value>
+    <comment>Input</comment>
+  </data>
+  <data name="LCS_NickName" xml:space="preserve">
+    <value>L</value>
+    <comment>Input</comment>
+  </data>
 </root>
