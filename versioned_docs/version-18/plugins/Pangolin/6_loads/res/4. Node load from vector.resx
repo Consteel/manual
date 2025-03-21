@@ -133,116 +133,40 @@
     <value>N</value>
     <comment>Input</comment>
   </data>
-  <data name="CoordinateSystem_NickName" xml:space="preserve">
-    <value>CS</value>
+  <data name="LoadCase_Desc" xml:space="preserve">
+    <value>The Case which this load should belong to.</value>
     <comment>Input</comment>
   </data>
-  <data name="LoadAxis_Desc" xml:space="preserve">
-    <value>The axis on which the load acts.</value>
+  <data name="LoadCase_Name" xml:space="preserve">
+    <value>LoadCase</value>
     <comment>Input</comment>
   </data>
-  <data name="LoadAxis_Name" xml:space="preserve">
-    <value>LoadAxis</value>
+  <data name="LoadCase_Nick" xml:space="preserve">
+    <value>LC</value>
     <comment>Input</comment>
   </data>
-  <data name="LoadAxis_Nick" xml:space="preserve">
-    <value>LA</value>
+  <data name="StructuralObject_Desc" xml:space="preserve">
+    <value>The structural object on which this load should act.</value>
     <comment>Input</comment>
   </data>
-  <data name="P1_Desc" xml:space="preserve">
-    <value>First point where the load is specified. Note: the point will be projected onto the plane.</value>
+  <data name="StructuralObject_Name" xml:space="preserve">
+    <value>StructuralObject</value>
     <comment>Input</comment>
   </data>
-  <data name="P1_Name" xml:space="preserve">
-    <value>Point1</value>
+  <data name="StructuralObject_NickName" xml:space="preserve">
+    <value>SO</value>
     <comment>Input</comment>
   </data>
-  <data name="P1_NickName" xml:space="preserve">
-    <value>P1</value>
+  <data name="ActionPoint_Description" xml:space="preserve">
+    <value>The action point of this load. Note: the action point must be on the structural object's reference geometry. (Hint: you can connect a CSPointSupport or other point like objects directly here.)</value>
     <comment>Input</comment>
   </data>
-  <data name="Q1_Description" xml:space="preserve">
-    <value>Force in kN/m2 -s acting on P1 point.</value>
+  <data name="ActionPoint_Name" xml:space="preserve">
+    <value>ActionPoint</value>
     <comment>Input</comment>
   </data>
-  <data name="Q1_Name" xml:space="preserve">
-    <value>Q1 [kN/m2]</value>
+  <data name="ActionPoint_NickName" xml:space="preserve">
+    <value>P</value>
     <comment>Input</comment>
-  </data>
-  <data name="Q1_NickName" xml:space="preserve">
-    <value>Q1</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Point2_Description" xml:space="preserve">
-    <value>Second point where the load is specified. Note: the point will be projected onto the plane.</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Point2_Name" xml:space="preserve">
-    <value>Point2</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Point2_NickName" xml:space="preserve">
-    <value>P2</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Q2_Description" xml:space="preserve">
-    <value>Force in kN/m2 -s acting on P2 point.</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Q2_Name" xml:space="preserve">
-    <value>Q2 [kN/m2]</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Q2_NickName" xml:space="preserve">
-    <value>Q2</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Point3_Description" xml:space="preserve">
-    <value>Third point where the load is specified. Note: the point will be projected onto the plane.</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Point3_Name" xml:space="preserve">
-    <value>Point3</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Point3_NickName" xml:space="preserve">
-    <value>P3</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Q3_Description" xml:space="preserve">
-    <value>Force in kN/m2 -s acting on P3 point.</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Q3_Name" xml:space="preserve">
-    <value>Q3 [kN/m2]</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Q3_NickName" xml:space="preserve">
-    <value>Q3</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Multiplier_Description" xml:space="preserve">
-    <value>Multiplication factor for the forces. Eg.: setting this to 2 is the same as doubling all the forces.</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Multiplier_Name" xml:space="preserve">
-    <value>Multiplier</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Multiplier_NickName" xml:space="preserve">
-    <value>Mul</value>
-    <comment>Input</comment>
-  </data>
-  <data name="SL_Description" xml:space="preserve">
-    <value>The created ConSteel Surface Load.</value>
-    <comment>Output</comment>
-  </data>
-  <data name="SL_Name" xml:space="preserve">
-    <value>CSSurfaceLoad</value>
-    <comment>Output</comment>
-  </data>
-  <data name="SL_NickName" xml:space="preserve">
-    <value>SL</value>
-    <comment>Output</comment>
   </data>
 </root>
