@@ -117,18 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="DeconstructSection_Description" xml:space="preserve">
-    <value>Deconstructs a ConSteel Section into it's outline(s) and parameter list if any.</value>
-    <comment>Input</comment>
-  </data>
-  <data name="DeconstructSection_Name" xml:space="preserve">
-    <value>Deconstruct Section</value>
-    <comment>Input</comment>
-  </data>
-  <data name="DeconstructSection_NickName" xml:space="preserve">
-    <value>CSDecSec</value>
-    <comment>Input</comment>
-  </data>
   <data name="MacroSectionComponent_Desc" xml:space="preserve">
     <value>Creates a section in ConSteel model based on selected macro.</value>
     <comment>Component</comment>
@@ -149,72 +137,112 @@
     <value>M</value>
     <comment>Input</comment>
   </data>
-  <data name="Parameters_Description" xml:space="preserve">
-    <value>The numeric parameters of the section, if it is based on a section macro (or possibly a combination of macros).</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Parameters_Name" xml:space="preserve">
-    <value>Parameters</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Parameters_NickName" xml:space="preserve">
-    <value>P</value>
-    <comment>Input</comment>
-  </data>
-  <data name="RCMacroComponent_Desc" xml:space="preserve">
-    <value>Creates a reinforced concrete rectangular section in ConSteel model.</value>
-    <comment>Input</comment>
-  </data>
-  <data name="RCMacroComponent_Name" xml:space="preserve">
-    <value>RCRectangularSection</value>
-    <comment>Input</comment>
-  </data>
-  <data name="SectionDesc" xml:space="preserve">
-    <value>Represents a Section in ConSteel model.</value>
-    <comment>Input</comment>
-  </data>
-  <data name="SectionFromBankComponent_Desc" xml:space="preserve">
-    <value>Loads a section from the section bank, based on the section preview.</value>
-    <comment>Input</comment>
-  </data>
-  <data name="SectionFromBankComponent_Name" xml:space="preserve">
-    <value>Section From Bank</value>
-    <comment>Input</comment>
-  </data>
-  <data name="SectionFromBankComponent_Nick" xml:space="preserve">
-    <value>S</value>
-    <comment>Input</comment>
-  </data>
-  <data name="SectionName" xml:space="preserve">
+  <data name="Section_Descrition" xml:space="preserve">
     <value>ConSteel Section</value>
     <comment>Output</comment>
   </data>
-  <data name="SectionNick" xml:space="preserve">
-    <value>S</value>
+  <data name="Section_Name" xml:space="preserve">
+    <value>ConSteel Section</value>
     <comment>Output</comment>
   </data>
-  <data name="Section_Description" xml:space="preserve">
-    <value>Section to be deconstructed.</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Section_Name" xml:space="preserve">
+  <data name="Section_Nick" xml:space="preserve">
     <value>Section</value>
+    <comment>Output</comment>
+  </data>
+  <data name="N_Descrition" xml:space="preserve">
+    <value>Name of the section.</value>
     <comment>Input</comment>
   </data>
-  <data name="Section_NickName" xml:space="preserve">
-    <value>S</value>
+  <data name="N_Name" xml:space="preserve">
+    <value>Name</value>
     <comment>Input</comment>
   </data>
-  <data name="Surfaces_Description" xml:space="preserve">
-    <value>The outlines of the section's section items.</value>
+  <data name="N_Nick" xml:space="preserve">
+    <value>N</value>
     <comment>Input</comment>
   </data>
-  <data name="Surfaces_Name" xml:space="preserve">
-    <value>Outline(s)</value>
+  <data name="Height _Descrition" xml:space="preserve">
+    <value>Height of the section.</value>
     <comment>Input</comment>
   </data>
-  <data name="Surfaces_NickName" xml:space="preserve">
-    <value>O</value>
+  <data name="Height _Name" xml:space="preserve">
+    <value>Height </value>
+    <comment>Input</comment>
+  </data>
+  <data name="Height _Nick" xml:space="preserve">
+    <value>H</value>
+    <comment>Input</comment>
+  </data>
+  <data name="FlangeWidth_Descrition" xml:space="preserve">
+    <value>FlangeWidth 1 of the section.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="FlangeWidth_Name" xml:space="preserve">
+    <value>FlangeWidth 1</value>
+    <comment>Input</comment>
+  </data>
+  <data name="FlangeWidth_Nick" xml:space="preserve">
+    <value>FW1</value>
+    <comment>Input</comment>
+  </data>
+  <data name="WT_Descrition" xml:space="preserve">
+    <value>Thickness  of the section.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="WT_Name" xml:space="preserve">
+    <value>ThicknessF1</value>
+    <comment>Input</comment>
+  </data>
+  <data name="WT_Nick" xml:space="preserve">
+    <value>TF1</value>
+    <comment>Input</comment>
+  </data>
+  <data name="FT_Descrition" xml:space="preserve">
+    <value>Thickness of the section.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="FT_Name" xml:space="preserve">
+    <value>ThicknessW</value>
+    <comment>Input</comment>
+  </data>
+  <data name="FT_Nick" xml:space="preserve">
+    <value>TW2</value>
+    <comment>Input</comment>
+  </data>
+  <data name="R_Descrition" xml:space="preserve">
+    <value>FlangeWidth 2 of the section.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="R_Name" xml:space="preserve">
+    <value>FlangeWidth 1</value>
+    <comment>Input</comment>
+  </data>
+  <data name="R_Nick" xml:space="preserve">
+    <value>FW1</value>
+    <comment>Input</comment>
+  </data>
+  <data name="TF2_Descrition" xml:space="preserve">
+    <value>Thickness of the section.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="TF2_Name" xml:space="preserve">
+    <value>ThicknessF2</value>
+    <comment>Input</comment>
+  </data>
+  <data name="TF2_Nick" xml:space="preserve">
+    <value>TF2</value>
+    <comment>Input</comment>
+  </data>
+  <data name="E_Descrition" xml:space="preserve">
+    <value>Equivalent (booolean)</value>
+    <comment>Input</comment>
+  </data>
+  <data name="E_Name" xml:space="preserve">
+    <value>Equivalent (booolean)</value>
+    <comment>Input</comment>
+  </data>
+  <data name="E_Nick" xml:space="preserve">
+    <value>E</value>
     <comment>Input</comment>
   </data>
 </root>

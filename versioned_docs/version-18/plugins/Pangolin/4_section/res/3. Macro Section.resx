@@ -214,7 +214,7 @@
     <comment>Input</comment>
   </data>
   <data name="R_Name" xml:space="preserve">
-    <value>Radius mm]</value>
+    <value>Radius </value>
     <comment>Input</comment>
   </data>
   <data name="R_Nick" xml:space="preserve">
