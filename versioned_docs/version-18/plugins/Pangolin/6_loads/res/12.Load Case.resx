@@ -117,12 +117,64 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="LinesurfaceLoadComponent_Name" xml:space="preserve">
-    <value>Linear Surface Load 3 Pts</value>
+  <data name="Calculate_Description" xml:space="preserve">
+    <value>Whether this load case should be calculated in itself in first order, additionally to the load combination analysis. Note: this does not influence whether the loadcase will be calculated as part of a load combination!</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Calculate_Name" xml:space="preserve">
+    <value>CalculateAsCase</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Calculate_NickName" xml:space="preserve">
+    <value>CC</value>
+    <comment>Input</comment>
+  </data>
+  <data name="CanBeFavourable_Description" xml:space="preserve">
+    <value>Whether this load case can be favourable in a load combination.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="CanBeFavourable_Name" xml:space="preserve">
+    <value>CanBeFavourable</value>
+    <comment>Input</comment>
+  </data>
+  <data name="CanBeFavourable_NickName" xml:space="preserve">
+    <value>CF</value>
+    <comment>Input</comment>
+  </data>
+  <data name="LoadCaseComponent_Desc" xml:space="preserve">
+    <value>Creates a Load Case in ConSteel model.</value>
     <comment>Component</comment>
   </data>
+  <data name="LoadCaseComponent_Name" xml:space="preserve">
+    <value>Load Case Component</value>
+    <comment>Component</comment>
+  </data>
+  <data name="LoadCaseDesc" xml:space="preserve">
+    <value>Looks up a localized string similar to Represents a Load Case in ConSteel model.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="LoadCaseName" xml:space="preserve">
+    <value>ConSteel Load Case</value>
+    <comment>Output</comment>
+  </data>
+  <data name="LoadCaseNick" xml:space="preserve">
+    <value>LC</value>
+    <comment>Output</comment>
+  </data>
+  <data name="LoadGroup_Description" xml:space="preserve">
+    <value>The Load Group which this case should belong to.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="LoadGroup_Name" xml:space="preserve">
+    <value>Load Group</value>
+    <comment>Input</comment>
+  </data>
+  <data name="LoadGroup_NickName" xml:space="preserve">
+    <value>LG</value>
+    <comment>Input</comment>
+  </data>
   <data name="Name_Description" xml:space="preserve">
-    <value>Name of the created node load.</value>
+    <value>Name of the created load case.</value>
     <comment>Input</comment>
   </data>
   <data name="Name_Name" xml:space="preserve">
@@ -133,140 +185,52 @@
     <value>N</value>
     <comment>Input</comment>
   </data>
-  <data name="LoadCase_Desc" xml:space="preserve">
-    <value>The Case which this load should belong to.</value>
+  <data name="NotMainInAccidentalComb_Description" xml:space="preserve">
+    <value>Whether this load case can be the main one in an accidental combination.</value>
     <comment>Input</comment>
   </data>
-  <data name="LoadCase_Name" xml:space="preserve">
-    <value>LoadCase</value>
+  <data name="NotMainInAccidentalComb_Name" xml:space="preserve">
+    <value>NotMainInAccidental</value>
     <comment>Input</comment>
   </data>
-  <data name="LoadCase_Nick" xml:space="preserve">
-    <value>LC</value>
+  <data name="NotMainInAccidentalComb_NickName" xml:space="preserve">
+    <value>NA</value>
     <comment>Input</comment>
   </data>
-  <data name="StructuralObject_Desc" xml:space="preserve">
-    <value>The structural object on which this load should act.</value>
+  <data name="NotMainInTransientComb_Description" xml:space="preserve">
+    <value>Whether this load case can be the main one in a transient combination.</value>
     <comment>Input</comment>
   </data>
-  <data name="StructuralObject_Name" xml:space="preserve">
-    <value>StructuralObject</value>
+  <data name="NotMainInTransientComb_Name" xml:space="preserve">
+    <value>NotMainInTransient</value>
     <comment>Input</comment>
   </data>
-  <data name="StructuralObject_NickName" xml:space="preserve">
-    <value>SO</value>
+  <data name="NotMainInTransientComb_NickName" xml:space="preserve">
+    <value>NT</value>
     <comment>Input</comment>
   </data>
-  <data name="ActionPoint_Description" xml:space="preserve">
-    <value>The action point of this load. Note: the action point must be on the structural object's reference geometry. (Hint: you can connect a CSPointSupport or other point like objects directly here.)</value>
+  <data name="ResultSettings_Description" xml:space="preserve">
+    <value>Specifies which results to include in analysis calculation. Default contains all results.</value>
     <comment>Input</comment>
   </data>
-  <data name="ActionPoint_Name" xml:space="preserve">
-    <value>ActionPoint</value>
+  <data name="ResultSettings_Name" xml:space="preserve">
+    <value>ResultSettings</value>
     <comment>Input</comment>
   </data>
-  <data name="ActionPoint_NickName" xml:space="preserve">
-    <value>P</value>
+  <data name="ResultSettings_NickName" xml:space="preserve">
+    <value>RS</value>
     <comment>Input</comment>
   </data>
-  <data name="LCS_Description" xml:space="preserve">
-    <value>If set to true, the load will be interpreted in the given structural object's own local coordinate system, and the passed in coordinate system parameter will be ignored.</value>
+  <data name="Coloring_Description" xml:space="preserve">
+    <value>Coloring of the load case</value>
     <comment>Input</comment>
   </data>
-  <data name="LCS_Name" xml:space="preserve">
-    <value>Use LCS</value>
+  <data name="Coloring_Name" xml:space="preserve">
+    <value>Coloring</value>
     <comment>Input</comment>
   </data>
-  <data name="LCS_NickName" xml:space="preserve">
-    <value>LCS</value>
+  <data name="Coloring_NickName" xml:space="preserve">
+    <value>C</value>
     <comment>Input</comment>
-  </data>
-  <data name="CS_Description" xml:space="preserve">
-    <value>The coordinate system in which the load is interpreted. Note: if use local coordinate system is true, this will have no effect. If left empty and use LCS is false, defaults to World XY.</value>
-    <comment>Input</comment>
-  </data>
-  <data name="CS_Name" xml:space="preserve">
-    <value>CoordinateSystem</value>
-    <comment>Input</comment>
-  </data>
-  <data name="CS_NickName" xml:space="preserve">
-    <value>CS</value>
-    <comment>Input</comment>
-  </data>
-  <data name="ForceVector_Description" xml:space="preserve">
-    <value>The sum vector of forces acting at this point. Note: this will be disassembeld into it's component vectors according to the used coordinate system.</value>
-    <comment>Input</comment>
-  </data>
-  <data name="ForceVector_Name" xml:space="preserve">
-    <value>ForceVector</value>
-    <comment>Input</comment>
-  </data>
-  <data name="ForceVector_NickName" xml:space="preserve">
-    <value>F</value>
-    <comment>Input</comment>
-  </data>
-  <data name="M_Description" xml:space="preserve">
-    <value>The sum vector of the bending moments acting at this point. Note: this will be disassembeld into it's component vectors according to the used coordinate system.</value>
-    <comment>Input</comment>
-  </data>
-  <data name="M_Name" xml:space="preserve">
-    <value>BendingMomentVector</value>
-    <comment>Input</comment>
-  </data>
-  <data name="M_NickName" xml:space="preserve">
-    <value>M</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Multiplier_Description" xml:space="preserve">
-    <value>Multiplication factor for the forces. Eg.: setting this to 2 is the same as doubling all the forces.</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Multiplier_Name" xml:space="preserve">
-    <value>Multiplier</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Multiplier_NickName" xml:space="preserve">
-    <value>Mul</value>
-    <comment>Input</comment>
-  </data>
-  <data name="E_Description" xml:space="preserve">
-    <value>Type of the eccentricity, eg as measured from the beam's reference line, cross section middle point, top-left edge, etc.</value>
-    <comment>Input</comment>
-  </data>
-  <data name="E_Name" xml:space="preserve">
-    <value>Eccentricity type</value>
-    <comment>Input</comment>
-  </data>
-  <data name="E_NickName" xml:space="preserve">
-    <value>E</value>
-    <comment>Input</comment>
-  </data>
-  <data name="EY_Description" xml:space="preserve">
-    <value>Eccentricity in Y direction.</value>
-    <comment>Input</comment>
-  </data>
-  <data name="EY_Name" xml:space="preserve">
-    <value>Eccentricity Y</value>
-    <comment>Input</comment>
-  </data>
-  <data name="EY_NickName" xml:space="preserve">
-    <value>EY</value>
-    <comment>Input</comment>
-  </data>
-  <data name="EZ_Description" xml:space="preserve">
-    <value>EZ</value>
-    <comment>Input</comment>
-  </data>
-  <data name="EZ_Name" xml:space="preserve">
-    <value>Eccentricity Z</value>
-    <comment>Input</comment>
-  </data>
-  <data name="NL_Description" xml:space="preserve">
-    <value>NL</value>
-    <comment>Output</comment>
-  </data>
-  <data name="NL_Name" xml:space="preserve">
-    <value>CSNodeLoad</value>
-    <comment>Output</comment>
   </data>
 </root>

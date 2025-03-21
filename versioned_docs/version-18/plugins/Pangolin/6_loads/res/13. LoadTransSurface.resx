@@ -117,12 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="LinesurfaceLoadComponent_Name" xml:space="preserve">
-    <value>Linear Surface Load 3 Pts</value>
+  <data name="LoadCaseComponent_Desc" xml:space="preserve">
+    <value>Load Transfer Surface</value>
+    <comment>Component</comment>
+  </data>
+  <data name="LoadCaseComponent_Name" xml:space="preserve">
+    <value>Load Transfer Surface</value>
     <comment>Component</comment>
   </data>
   <data name="Name_Description" xml:space="preserve">
-    <value>Name of the created node load.</value>
+    <value>Name of the created object in ConSteel model.</value>
     <comment>Input</comment>
   </data>
   <data name="Name_Name" xml:space="preserve">
@@ -133,140 +137,76 @@
     <value>N</value>
     <comment>Input</comment>
   </data>
-  <data name="LoadCase_Desc" xml:space="preserve">
-    <value>The Case which this load should belong to.</value>
+  <data name="Polygon_Description" xml:space="preserve">
+    <value>The ConSteel Polygon which describes the load transfer surface.</value>
     <comment>Input</comment>
   </data>
-  <data name="LoadCase_Name" xml:space="preserve">
-    <value>LoadCase</value>
+  <data name="Polygon_Name" xml:space="preserve">
+    <value>Polygon</value>
     <comment>Input</comment>
   </data>
-  <data name="LoadCase_Nick" xml:space="preserve">
-    <value>LC</value>
-    <comment>Input</comment>
-  </data>
-  <data name="StructuralObject_Desc" xml:space="preserve">
-    <value>The structural object on which this load should act.</value>
-    <comment>Input</comment>
-  </data>
-  <data name="StructuralObject_Name" xml:space="preserve">
-    <value>StructuralObject</value>
-    <comment>Input</comment>
-  </data>
-  <data name="StructuralObject_NickName" xml:space="preserve">
-    <value>SO</value>
-    <comment>Input</comment>
-  </data>
-  <data name="ActionPoint_Description" xml:space="preserve">
-    <value>The action point of this load. Note: the action point must be on the structural object's reference geometry. (Hint: you can connect a CSPointSupport or other point like objects directly here.)</value>
-    <comment>Input</comment>
-  </data>
-  <data name="ActionPoint_Name" xml:space="preserve">
-    <value>ActionPoint</value>
-    <comment>Input</comment>
-  </data>
-  <data name="ActionPoint_NickName" xml:space="preserve">
+  <data name="Polygon" xml:space="preserve">
     <value>P</value>
     <comment>Input</comment>
   </data>
-  <data name="LCS_Description" xml:space="preserve">
-    <value>If set to true, the load will be interpreted in the given structural object's own local coordinate system, and the passed in coordinate system parameter will be ignored.</value>
+  <data name="SelectedBeams_Description" xml:space="preserve">
+    <value>If set to true, only the beams provided in the next parameter will be considered for load distribution. If set to false, the next parameter is not taken into account.</value>
     <comment>Input</comment>
   </data>
-  <data name="LCS_Name" xml:space="preserve">
-    <value>Use LCS</value>
+  <data name="SelectedBeams_Name" xml:space="preserve">
+    <value>SelectedBeams</value>
     <comment>Input</comment>
   </data>
-  <data name="LCS_NickName" xml:space="preserve">
-    <value>LCS</value>
+  <data name="SelectedBeams_NickName" xml:space="preserve">
+    <value>SB</value>
     <comment>Input</comment>
   </data>
-  <data name="CS_Description" xml:space="preserve">
-    <value>The coordinate system in which the load is interpreted. Note: if use local coordinate system is true, this will have no effect. If left empty and use LCS is false, defaults to World XY.</value>
+  <data name="Beams_Description" xml:space="preserve">
+    <value>If SelectedBeams is true, the load will only be distributed to the beams specified here.</value>
     <comment>Input</comment>
   </data>
-  <data name="CS_Name" xml:space="preserve">
-    <value>CoordinateSystem</value>
+  <data name="Beams_Name" xml:space="preserve">
+    <value>Beams</value>
     <comment>Input</comment>
   </data>
-  <data name="CS_NickName" xml:space="preserve">
-    <value>CS</value>
-    <comment>Input</comment>
-  </data>
-  <data name="ForceVector_Description" xml:space="preserve">
-    <value>The sum vector of forces acting at this point. Note: this will be disassembeld into it's component vectors according to the used coordinate system.</value>
-    <comment>Input</comment>
-  </data>
-  <data name="ForceVector_Name" xml:space="preserve">
-    <value>ForceVector</value>
-    <comment>Input</comment>
-  </data>
-  <data name="ForceVector_NickName" xml:space="preserve">
-    <value>F</value>
-    <comment>Input</comment>
-  </data>
-  <data name="M_Description" xml:space="preserve">
-    <value>The sum vector of the bending moments acting at this point. Note: this will be disassembeld into it's component vectors according to the used coordinate system.</value>
-    <comment>Input</comment>
-  </data>
-  <data name="M_Name" xml:space="preserve">
-    <value>BendingMomentVector</value>
-    <comment>Input</comment>
-  </data>
-  <data name="M_NickName" xml:space="preserve">
-    <value>M</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Multiplier_Description" xml:space="preserve">
-    <value>Multiplication factor for the forces. Eg.: setting this to 2 is the same as doubling all the forces.</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Multiplier_Name" xml:space="preserve">
-    <value>Multiplier</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Multiplier_NickName" xml:space="preserve">
-    <value>Mul</value>
-    <comment>Input</comment>
-  </data>
-  <data name="E_Description" xml:space="preserve">
-    <value>Type of the eccentricity, eg as measured from the beam's reference line, cross section middle point, top-left edge, etc.</value>
-    <comment>Input</comment>
-  </data>
-  <data name="E_Name" xml:space="preserve">
-    <value>Eccentricity type</value>
-    <comment>Input</comment>
-  </data>
-  <data name="E_NickName" xml:space="preserve">
-    <value>E</value>
-    <comment>Input</comment>
-  </data>
-  <data name="EY_Description" xml:space="preserve">
-    <value>Eccentricity in Y direction.</value>
-    <comment>Input</comment>
-  </data>
-  <data name="EY_Name" xml:space="preserve">
-    <value>Eccentricity Y</value>
-    <comment>Input</comment>
-  </data>
-  <data name="EY_NickName" xml:space="preserve">
-    <value>EY</value>
+  <data name="Beams_NickName" xml:space="preserve">
+    <value>B</value>
     <comment>Input</comment>
   </data>
   <data name="EZ_Description" xml:space="preserve">
-    <value>EZ</value>
+    <value>Load eccentricity in Z direction in mm-s.</value>
     <comment>Input</comment>
   </data>
   <data name="EZ_Name" xml:space="preserve">
-    <value>Eccentricity Z</value>
+    <value>EccZ [mm]</value>
     <comment>Input</comment>
   </data>
-  <data name="NL_Description" xml:space="preserve">
-    <value>NL</value>
+  <data name="EZ_NickName" xml:space="preserve">
+    <value>EZ</value>
+    <comment>Input</comment>
+  </data>
+  <data name="UD_Description" xml:space="preserve">
+    <value>If set to true, the loads will be uniformly distributed</value>
+    <comment>Input</comment>
+  </data>
+  <data name="UD_Name" xml:space="preserve">
+    <value>UniformDistribution</value>
+    <comment>Input</comment>
+  </data>
+  <data name="UD_NickName" xml:space="preserve">
+    <value>UD</value>
+    <comment>Input</comment>
+  </data>
+  <data name="CSLTS_Description" xml:space="preserve">
+    <value>Consteel Load Transfer Surface.</value>
     <comment>Output</comment>
   </data>
-  <data name="NL_Name" xml:space="preserve">
-    <value>CSNodeLoad</value>
+  <data name="CSLTS_Name" xml:space="preserve">
+    <value>CSLoadTransferSurface</value>
+    <comment>Output</comment>
+  </data>
+  <data name="CSLTS_NickName" xml:space="preserve">
+    <value>CSLTS</value>
     <comment>Output</comment>
   </data>
 </root>

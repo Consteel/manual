@@ -117,80 +117,56 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Color_Description" xml:space="preserve">
-    <value>The color which belongs to the load.</value>
+  <data name="EccType_Description" xml:space="preserve">
+    <value>Type of the eccentricity, eg as measured from the beam's reference line, cross section middle point, top-left edge, etc.</value>
     <comment>Input</comment>
   </data>
-  <data name="Color_Name" xml:space="preserve">
-    <value>Color</value>
+  <data name="EccType_Name" xml:space="preserve">
+    <value>Eccentricity type</value>
     <comment>Input</comment>
   </data>
-  <data name="Color_NickName" xml:space="preserve">
+  <data name="EccType_NickName" xml:space="preserve">
+    <value>E</value>
+    <comment>Input</comment>
+  </data>
+  <data name="EccY_Description" xml:space="preserve">
+    <value>Eccentricity in Y direction.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="EccY_Name" xml:space="preserve">
+    <value>Eccentricity Y</value>
+    <comment>Input</comment>
+  </data>
+  <data name="EccY_NickName" xml:space="preserve">
+    <value>EY</value>
+    <comment>Input</comment>
+  </data>
+  <data name="EccZ_Description" xml:space="preserve">
+    <value>Eccentricity in Z direction.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="EccZ_Name" xml:space="preserve">
+    <value>Eccentricity Z</value>
+    <comment>Input</comment>
+  </data>
+  <data name="EccZ_NickName" xml:space="preserve">
+    <value>EZ</value>
+    <comment>Input</comment>
+  </data>
+  <data name="LocalCoordinateSystem_Description" xml:space="preserve">
+    <value>The coordinate system of the support. If left empty, default world XY is used. If you wish to use the structural member's local coordinate system, Specify true for "Use Local Coordinate System" in that case, this is ignored.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="LocalCoordinateSystem_Name" xml:space="preserve">
+    <value>Coordinate System</value>
+    <comment>Input</comment>
+  </data>
+  <data name="LocalCoordinateSystem_NickName" xml:space="preserve">
     <value>C</value>
     <comment>Input</comment>
   </data>
-  <data name="Cpe_Description" xml:space="preserve">
-    <value>External pressure coefficient</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Cpe_Name" xml:space="preserve">
-    <value>Cpe [-]</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Cpe_NickName" xml:space="preserve">
-    <value>Cpe</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Cpi_Description" xml:space="preserve">
-    <value>Internal pressure coefficient</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Cpi_Name" xml:space="preserve">
-    <value>Cpi [-]</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Cpi_NickName" xml:space="preserve">
-    <value>Cpi</value>
-    <comment>Input</comment>
-  </data>
-  <data name="LoadBearingObject_Description" xml:space="preserve">
-    <value>The object on which this load should act. Eg.: a structural plate, or load transfer surface.</value>
-    <comment>Input</comment>
-  </data>
-  <data name="LoadBearingObject_Name" xml:space="preserve">
-    <value>Load Bearing Object</value>
-    <comment>Input</comment>
-  </data>
-  <data name="LoadBearingObject_NickName" xml:space="preserve">
-    <value>LO</value>
-    <comment>Input</comment>
-  </data>
-  <data name="LoadCase_Description" xml:space="preserve">
-    <value>The Case which this load should belong to.</value>
-    <comment>Input</comment>
-  </data>
-  <data name="LoadCase_Name" xml:space="preserve">
-    <value>LoadCase</value>
-    <comment>Input</comment>
-  </data>
-  <data name="LoadCase_NickName" xml:space="preserve">
-    <value>LC</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Multiplier_Description" xml:space="preserve">
-    <value>Multiplication factor for the forces. Eg.: setting this to 2 is the same as doubling all the forces.</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Multiplier_Name" xml:space="preserve">
-    <value>Multiplier</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Multiplier_NickName" xml:space="preserve">
-    <value>Mul</value>
-    <comment>Input</comment>
-  </data>
   <data name="Name_Description" xml:space="preserve">
-    <value>Name of the created Surface Wind load.</value>
+    <value>Name of the support point. If left empty, ConSteel will autogenerate an enumerated name based on the actual modell at import.</value>
     <comment>Input</comment>
   </data>
   <data name="Name_Name" xml:space="preserve">
@@ -201,60 +177,60 @@
     <value>N</value>
     <comment>Input</comment>
   </data>
-  <data name="PolygonParam_Description" xml:space="preserve">
-    <value>The polygon on which this load should act. Note: If left empty the load will act on the bearing object's whole reference polygon. Only specify this if you wish to act on a smaller part of the bearing object's surfac</value>
+  <data name="StructuralObject_Description" xml:space="preserve">
+    <value>The supported structural object.</value>
     <comment>Input</comment>
   </data>
-  <data name="PolygonParam_Name" xml:space="preserve">
-    <value>Polygon</value>
+  <data name="StructuralObject_Name" xml:space="preserve">
+    <value>Structural object</value>
     <comment>Input</comment>
   </data>
-  <data name="PolygonParam_NickName" xml:space="preserve">
-    <value>P</value>
+  <data name="StructuralObject_NickName" xml:space="preserve">
+    <value>SO</value>
     <comment>Input</comment>
   </data>
-  <data name="Qpz_Description" xml:space="preserve">
-    <value>Velocity pressure</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Qpz_Name" xml:space="preserve">
-    <value>Qpz [kN/m2]</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Qpz_NickName" xml:space="preserve">
-    <value>Qpz</value>
-    <comment>Input</comment>
-  </data>
-  <data name="SurfaceWindLoadComponent_Desc" xml:space="preserve">
-    <value>Creates a Surface Wind Load in ConSteel model.</value>
+  <data name="SupportIEdgeComponent_Desc" xml:space="preserve">
+    <value>Creates a support IEdge in ConSteel model.</value>
     <comment>Component</comment>
   </data>
-  <data name="SurfaceWindLoadComponent_Name" xml:space="preserve">
-    <value>Surface Wind Load</value>
+  <data name="SupportIEdgeComponent_Name" xml:space="preserve">
+    <value>Support IEdge</value>
     <comment>Component</comment>
   </data>
-  <data name="SurfaceWindLoadDesc" xml:space="preserve">
-    <value>Represents a Surface Wind Load in ConSteel model</value>
+  <data name="SupportPointDesc" xml:space="preserve">
+    <value>Represents a IEdge Support in ConSteel model.</value>
     <comment>Output</comment>
   </data>
-  <data name="SurfaceWindLoadName" xml:space="preserve">
-    <value>ConSteel Surface Wind Load</value>
+  <data name="SupportPointName" xml:space="preserve">
+    <value>ConSteel SupportI Edge</value>
     <comment>Output</comment>
   </data>
-  <data name="SurfaceWindLoadNick" xml:space="preserve">
-    <value>SWL</value>
+  <data name="SupportPointNick" xml:space="preserve">
+    <value>SE</value>
     <comment>Output</comment>
   </data>
-  <data name="UseOwnColor_Description" xml:space="preserve">
-    <value>True to use the assigned color instead the color of the loadcase.</value>
+  <data name="Support_Description" xml:space="preserve">
+    <value>The support model used for this support.</value>
     <comment>Input</comment>
   </data>
-  <data name="UseOwnColor_Name" xml:space="preserve">
-    <value>UseOwnColor</value>
+  <data name="Support_Name" xml:space="preserve">
+    <value>Support model</value>
     <comment>Input</comment>
   </data>
-  <data name="UseOwnColor_NickName" xml:space="preserve">
-    <value>UOC</value>
+  <data name="Support_NickName" xml:space="preserve">
+    <value>S</value>
+    <comment>Input</comment>
+  </data>
+  <data name="SupportedIEdge_Description" xml:space="preserve">
+    <value>The edge to be supported. Only relevant in case of plate members. In case of structural beams, always the whole beam reference edge is used.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="SupportedIEdge_Name" xml:space="preserve">
+    <value>Supported IEdge</value>
+    <comment>Input</comment>
+  </data>
+  <data name="SupportedIEdge_NickName" xml:space="preserve">
+    <value>SE</value>
     <comment>Input</comment>
   </data>
 </root>

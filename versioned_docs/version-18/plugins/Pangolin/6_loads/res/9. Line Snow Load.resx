@@ -117,12 +117,28 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="LinesurfaceLoadComponent_Name" xml:space="preserve">
-    <value>Linear Surface Load 3 Pts</value>
+  <data name="SnowLoadComponent_Desc" xml:space="preserve">
+    <value>Line Snow Load</value>
     <comment>Component</comment>
   </data>
+  <data name="SnowLoadComponent_Name" xml:space="preserve">
+    <value>Line Snow Load</value>
+    <comment>Component</comment>
+  </data>
+  <data name="LSL_Desc" xml:space="preserve">
+    <value>The created ConSteel Line Snow Load.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="LSL_Name" xml:space="preserve">
+    <value>CSLineSnowLoad</value>
+    <comment>Output</comment>
+  </data>
+  <data name="LSL_Nick" xml:space="preserve">
+    <value>LSL</value>
+    <comment>Output</comment>
+  </data>
   <data name="Name_Description" xml:space="preserve">
-    <value>Name of the created node load.</value>
+    <value>Name of the created Line load.</value>
     <comment>Input</comment>
   </data>
   <data name="Name_Name" xml:space="preserve">
@@ -133,7 +149,7 @@
     <value>N</value>
     <comment>Input</comment>
   </data>
-  <data name="LoadCase_Desc" xml:space="preserve">
+  <data name="LoadCase_Description" xml:space="preserve">
     <value>The Case which this load should belong to.</value>
     <comment>Input</comment>
   </data>
@@ -141,100 +157,112 @@
     <value>LoadCase</value>
     <comment>Input</comment>
   </data>
-  <data name="LoadCase_Nick" xml:space="preserve">
+  <data name="LoadCase_NickName" xml:space="preserve">
     <value>LC</value>
     <comment>Input</comment>
   </data>
-  <data name="StructuralObject_Desc" xml:space="preserve">
+  <data name="SO_Description" xml:space="preserve">
     <value>The structural object on which this load should act.</value>
     <comment>Input</comment>
   </data>
-  <data name="StructuralObject_Name" xml:space="preserve">
+  <data name="SO_Name" xml:space="preserve">
     <value>StructuralObject</value>
     <comment>Input</comment>
   </data>
-  <data name="StructuralObject_NickName" xml:space="preserve">
+  <data name="SO_NickName" xml:space="preserve">
     <value>SO</value>
     <comment>Input</comment>
   </data>
-  <data name="ActionPoint_Description" xml:space="preserve">
-    <value>The action point of this load. Note: the action point must be on the structural object's reference geometry. (Hint: you can connect a CSPointSupport or other point like objects directly here.)</value>
+  <data name="AE_Description" xml:space="preserve">
+    <value>The edge on which this load should act. Note: only taken into account in case of structural plates.</value>
     <comment>Input</comment>
   </data>
-  <data name="ActionPoint_Name" xml:space="preserve">
-    <value>ActionPoint</value>
+  <data name="AE_Name" xml:space="preserve">
+    <value>ActionEdge</value>
     <comment>Input</comment>
   </data>
-  <data name="ActionPoint_NickName" xml:space="preserve">
-    <value>P</value>
+  <data name="AE_NickName" xml:space="preserve">
+    <value>AE</value>
     <comment>Input</comment>
   </data>
-  <data name="LCS_Description" xml:space="preserve">
-    <value>If set to true, the load will be interpreted in the given structural object's own local coordinate system, and the passed in coordinate system parameter will be ignored.</value>
+  <data name="DOP_Description" xml:space="preserve">
+    <value>Load direction type: Global=global coord sys, Local=structural object's coord sys</value>
     <comment>Input</comment>
   </data>
-  <data name="LCS_Name" xml:space="preserve">
-    <value>Use LCS</value>
+  <data name="DOP_Name" xml:space="preserve">
+    <value>DirectionOfPlacement</value>
     <comment>Input</comment>
   </data>
-  <data name="LCS_NickName" xml:space="preserve">
-    <value>LCS</value>
+  <data name="DOP_NickName" xml:space="preserve">
+    <value>DOP</value>
     <comment>Input</comment>
   </data>
-  <data name="CS_Description" xml:space="preserve">
-    <value>The coordinate system in which the load is interpreted. Note: if use local coordinate system is true, this will have no effect. If left empty and use LCS is false, defaults to World XY.</value>
+  <data name="Sk_Description" xml:space="preserve">
+    <value>Characteristic snow load according to Eurocode</value>
     <comment>Input</comment>
   </data>
-  <data name="CS_Name" xml:space="preserve">
-    <value>CoordinateSystem</value>
+  <data name="Sk_Name" xml:space="preserve">
+    <value>CharacteristicSnowLoad [kN/m2]</value>
     <comment>Input</comment>
   </data>
-  <data name="CS_NickName" xml:space="preserve">
-    <value>CS</value>
+  <data name="Sk_NickName" xml:space="preserve">
+    <value>Sk</value>
     <comment>Input</comment>
   </data>
-  <data name="ForceVector_Description" xml:space="preserve">
-    <value>The sum vector of forces acting at this point. Note: this will be disassembeld into it's component vectors according to the used coordinate system.</value>
+  <data name="Ce_Description" xml:space="preserve">
+    <value>Wind factor according to Eurocode</value>
     <comment>Input</comment>
   </data>
-  <data name="ForceVector_Name" xml:space="preserve">
-    <value>ForceVector</value>
+  <data name="Ce_Name" xml:space="preserve">
+    <value>WindFactor [-]</value>
     <comment>Input</comment>
   </data>
-  <data name="ForceVector_NickName" xml:space="preserve">
-    <value>F</value>
+  <data name="Ce_NickName" xml:space="preserve">
+    <value>Ce</value>
     <comment>Input</comment>
   </data>
-  <data name="M_Description" xml:space="preserve">
-    <value>The sum vector of the bending moments acting at this point. Note: this will be disassembeld into it's component vectors according to the used coordinate system.</value>
+  <data name="Ct_Description" xml:space="preserve">
+    <value>Temperature factor according to Eurocode</value>
     <comment>Input</comment>
   </data>
-  <data name="M_Name" xml:space="preserve">
-    <value>BendingMomentVector</value>
+  <data name="Ct_Name" xml:space="preserve">
+    <value>TemperatureFactor [-]</value>
     <comment>Input</comment>
   </data>
-  <data name="M_NickName" xml:space="preserve">
-    <value>M</value>
+  <data name="Ct_NickName" xml:space="preserve">
+    <value>Ct</value>
     <comment>Input</comment>
   </data>
-  <data name="Multiplier_Description" xml:space="preserve">
-    <value>Multiplication factor for the forces. Eg.: setting this to 2 is the same as doubling all the forces.</value>
+  <data name="u1_Description" xml:space="preserve">
+    <value>Shape factor according to Eurocode at End A</value>
     <comment>Input</comment>
   </data>
-  <data name="Multiplier_Name" xml:space="preserve">
-    <value>Multiplier</value>
+  <data name="u1_Name" xml:space="preserve">
+    <value>ShapeFactor 1 [-]</value>
     <comment>Input</comment>
   </data>
-  <data name="Multiplier_NickName" xml:space="preserve">
-    <value>Mul</value>
+  <data name="u1_NickName" xml:space="preserve">
+    <value>u1</value>
+    <comment>Input</comment>
+  </data>
+  <data name="u2_Description" xml:space="preserve">
+    <value>Shape factor according to Eurocode at End B</value>
+    <comment>Input</comment>
+  </data>
+  <data name="u2_Name" xml:space="preserve">
+    <value>ShapeFactor 2 [-]</value>
+    <comment>Input</comment>
+  </data>
+  <data name="u2_NickName" xml:space="preserve">
+    <value>u2</value>
     <comment>Input</comment>
   </data>
   <data name="E_Description" xml:space="preserve">
-    <value>Type of the eccentricity, eg as measured from the beam's reference line, cross section middle point, top-left edge, etc.</value>
+    <value>Type of the eccentricity, eg as measured from the beam's reference line, cross section middle point</value>
     <comment>Input</comment>
   </data>
   <data name="E_Name" xml:space="preserve">
-    <value>Eccentricity type</value>
+    <value>EccentricityType</value>
     <comment>Input</comment>
   </data>
   <data name="E_NickName" xml:space="preserve">
@@ -246,7 +274,7 @@
     <comment>Input</comment>
   </data>
   <data name="EY_Name" xml:space="preserve">
-    <value>Eccentricity Y</value>
+    <value>EccentricityY [mm]</value>
     <comment>Input</comment>
   </data>
   <data name="EY_NickName" xml:space="preserve">
@@ -254,19 +282,63 @@
     <comment>Input</comment>
   </data>
   <data name="EZ_Description" xml:space="preserve">
-    <value>EZ</value>
+    <value>Eccentricity in Z direction.</value>
     <comment>Input</comment>
   </data>
   <data name="EZ_Name" xml:space="preserve">
-    <value>Eccentricity Z</value>
+    <value>EccentricityZ [mm]</value>
     <comment>Input</comment>
   </data>
-  <data name="NL_Description" xml:space="preserve">
-    <value>NL</value>
-    <comment>Output</comment>
+  <data name="EZ_NickName" xml:space="preserve">
+    <value>EZ</value>
+    <comment>Input</comment>
   </data>
-  <data name="NL_Name" xml:space="preserve">
-    <value>CSNodeLoad</value>
-    <comment>Output</comment>
+  <data name="E1_Description" xml:space="preserve">
+    <value>From which end is the line load startpoint offset by the Pos1 distance below.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="E1_Name" xml:space="preserve">
+    <value>End1</value>
+    <comment>Input</comment>
+  </data>
+  <data name="E1_NickName" xml:space="preserve">
+    <value>E1</value>
+    <comment>Input</comment>
+  </data>
+  <data name="P1_Description" xml:space="preserve">
+    <value>Offset position of the line load's startpoint</value>
+    <comment>Input</comment>
+  </data>
+  <data name="P1_Name" xml:space="preserve">
+    <value>Pos1 [mm]</value>
+    <comment>Input</comment>
+  </data>
+  <data name="P1_NickName" xml:space="preserve">
+    <value>P1</value>
+    <comment>Input</comment>
+  </data>
+  <data name="E2_Description" xml:space="preserve">
+    <value>From which end is the line load endpoint offset by the Pos2 distance below.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="E2_Name" xml:space="preserve">
+    <value>End2</value>
+    <comment>Input</comment>
+  </data>
+  <data name="E2_NickName" xml:space="preserve">
+    <value>E2</value>
+    <comment>Input</comment>
+  </data>
+  <data name="P2_Description" xml:space="preserve">
+    <value>Offset position of the line load's endpoint</value>
+    <comment>Input</comment>
+  </data>
+  <data name="P2_Name" xml:space="preserve">
+    <value>Pos2 [mm]</value>
+    <comment>Input</comment>
+  </data>
+  <data name="P2_NickName" xml:space="preserve">
+    <value>P2</value>
+    <comment>Input</comment>
   </data>
 </root>

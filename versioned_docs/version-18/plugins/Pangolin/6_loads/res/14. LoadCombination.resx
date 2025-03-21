@@ -202,24 +202,12 @@
     <comment>Output</comment>
   </data>
   <data name="LoadCombinationName" xml:space="preserve">
-    <value>ConSteel Load Combination</value>
+    <value>CS Load Combination</value>
     <comment>Output</comment>
   </data>
   <data name="LoadCombinationNick" xml:space="preserve">
     <value>CSLC</value>
     <comment>Output</comment>
-  </data>
-  <data name="LoadModifiers_Description" xml:space="preserve">
-    <value>A list of the combination factors correspoinding to the list of load cases.</value>
-    <comment>Input</comment>
-  </data>
-  <data name="LoadModifiers_Name" xml:space="preserve">
-    <value>Factors</value>
-    <comment>Input</comment>
-  </data>
-  <data name="LoadModifiers_NickName" xml:space="preserve">
-    <value>F</value>
-    <comment>Input</comment>
   </data>
   <data name="MismatchGuidExceptionMessage" xml:space="preserve">
     <value>Component instance-object owner object GUID mismatch!</value>
@@ -235,26 +223,6 @@
   </data>
   <data name="Name_NickName" xml:space="preserve">
     <value>N</value>
-    <comment>Input</comment>
-  </data>
-  <data name="NegativeEigenValueWarningMessage" xml:space="preserve">
-    <value>Warning: negative number of buckling shapes is not sensible. \n Using a value of 0 instead.</value>
-    <comment>Input</comment>
-  </data>
-  <data name="NumberErrorMessage" xml:space="preserve">
-    <value>Error: Number of load cases and corresponding combination factors do not match!</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Output_LoadCombinationDescription" xml:space="preserve">
-    <value>The created ConSteel Load Combination.</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Output_LoadCombinationName" xml:space="preserve">
-    <value>Load Combination</value>
-    <comment>Input</comment>
-  </data>
-  <data name="Output_LoadCombinationNickName" xml:space="preserve">
-    <value>LComb</value>
     <comment>Input</comment>
   </data>
   <data name="ResultSettings_Description" xml:space="preserve">

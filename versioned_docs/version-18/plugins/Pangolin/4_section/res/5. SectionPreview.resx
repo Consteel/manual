@@ -125,15 +125,15 @@
     <value>Section Bank previews</value>
     <comment>Component</comment>
   </data>
-  <data name="SectionPreviewDesc" xml:space="preserve">
+  <data name="SectionPreview_Desc" xml:space="preserve">
     <value>Represents a Section preview from a ConSteel section bank.</value>
     <comment>Output</comment>
   </data>
-  <data name="SectionPreviewName" xml:space="preserve">
+  <data name="SectionPreview_Name" xml:space="preserve">
     <value>ConSteel Section preview</value>
     <comment>Output</comment>
   </data>
-  <data name="SectionPreviewNick" xml:space="preserve">
+  <data name="SectionPreview_Nick" xml:space="preserve">
     <value>SectPrev</value>
     <comment>Output</comment>
   </data>
