@@ -245,4 +245,40 @@
     <value>u1</value>
     <comment>Input</comment>
   </data>
+  <data name="u2_Description" xml:space="preserve">
+    <value>Shape factor according to Eurocode at End B</value>
+    <comment>Input</comment>
+  </data>
+  <data name="u2_Name" xml:space="preserve">
+    <value>ShapeFactor 2 [-]</value>
+    <comment>Input</comment>
+  </data>
+  <data name="u2_NickName" xml:space="preserve">
+    <value>u2</value>
+    <comment>Input</comment>
+  </data>
+  <data name="E_Description" xml:space="preserve">
+    <value>Type of the eccentricity, eg as measured from the beam's reference line, cross section middle point</value>
+    <comment>Input</comment>
+  </data>
+  <data name="E_Name" xml:space="preserve">
+    <value>EccentricityType</value>
+    <comment>Input</comment>
+  </data>
+  <data name="E_NickName" xml:space="preserve">
+    <value>E</value>
+    <comment>Input</comment>
+  </data>
+  <data name="EY_Description" xml:space="preserve">
+    <value>Eccentricity in Y direction.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="EY_Name" xml:space="preserve">
+    <value>EccentricityY [mm]</value>
+    <comment>Input</comment>
+  </data>
+  <data name="EY_NickName" xml:space="preserve">
+    <value>EY</value>
+    <comment>Input</comment>
+  </data>
 </root>
