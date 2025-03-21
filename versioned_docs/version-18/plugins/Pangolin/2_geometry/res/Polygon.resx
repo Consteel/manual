@@ -127,7 +127,7 @@
   </data>
   <data name="Polygon_Description" xml:space="preserve">
     <value>Represents a polygon in ConSteel model (closed, and simple.)</value>
-    <comment>Component</comment>
+    <comment>Output</comment>
   </data>
   <data name="Polygon_Name" xml:space="preserve">
     <value>ConSteel Polygon</value>
@@ -159,6 +159,18 @@
   </data>
   <data name="Hole_Nick" xml:space="preserve">
     <value>H</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Layer_Descr" xml:space="preserve">
+    <value>Represents a Layer in ConSteel model.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Layer_Name" xml:space="preserve">
+    <value>CSLayer</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Layer_NickName" xml:space="preserve">
+    <value>CSL</value>
     <comment>Input</comment>
   </data>
 </root>
