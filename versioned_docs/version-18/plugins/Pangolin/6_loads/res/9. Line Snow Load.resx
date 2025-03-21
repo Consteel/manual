@@ -281,4 +281,64 @@
     <value>EY</value>
     <comment>Input</comment>
   </data>
+  <data name="EZ_Description" xml:space="preserve">
+    <value>Eccentricity in Z direction.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="EZ_Name" xml:space="preserve">
+    <value>EccentricityZ [mm]</value>
+    <comment>Input</comment>
+  </data>
+  <data name="EZ_NickName" xml:space="preserve">
+    <value>EZ</value>
+    <comment>Input</comment>
+  </data>
+  <data name="E1_Description" xml:space="preserve">
+    <value>From which end is the line load startpoint offset by the Pos1 distance below.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="E1_Name" xml:space="preserve">
+    <value>End1</value>
+    <comment>Input</comment>
+  </data>
+  <data name="E1_NickName" xml:space="preserve">
+    <value>E1</value>
+    <comment>Input</comment>
+  </data>
+  <data name="P1_Description" xml:space="preserve">
+    <value>Offset position of the line load's startpoint</value>
+    <comment>Input</comment>
+  </data>
+  <data name="P1_Name" xml:space="preserve">
+    <value>Pos1 [mm]</value>
+    <comment>Input</comment>
+  </data>
+  <data name="P1_NickName" xml:space="preserve">
+    <value>P1</value>
+    <comment>Input</comment>
+  </data>
+  <data name="E2_Description" xml:space="preserve">
+    <value>From which end is the line load endpoint offset by the Pos2 distance below.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="E2_Name" xml:space="preserve">
+    <value>End2</value>
+    <comment>Input</comment>
+  </data>
+  <data name="E2_NickName" xml:space="preserve">
+    <value>E2</value>
+    <comment>Input</comment>
+  </data>
+  <data name="P2_Description" xml:space="preserve">
+    <value>Offset position of the line load's endpoint</value>
+    <comment>Input</comment>
+  </data>
+  <data name="P2_Name" xml:space="preserve">
+    <value>Pos2 [mm]</value>
+    <comment>Input</comment>
+  </data>
+  <data name="P2_NickName" xml:space="preserve">
+    <value>P2</value>
+    <comment>Input</comment>
+  </data>
 </root>
