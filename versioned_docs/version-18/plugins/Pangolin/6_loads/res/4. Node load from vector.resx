@@ -261,4 +261,12 @@
     <value>Eccentricity Z</value>
     <comment>Input</comment>
   </data>
+  <data name="NL_Description" xml:space="preserve">
+    <value>NL</value>
+    <comment>Output</comment>
+  </data>
+  <data name="NL_Name" xml:space="preserve">
+    <value>CSNodeLoad</value>
+    <comment>Output</comment>
+  </data>
 </root>
