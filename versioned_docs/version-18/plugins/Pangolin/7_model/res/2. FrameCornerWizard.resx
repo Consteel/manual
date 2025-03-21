@@ -129,4 +129,28 @@
     <value>FCW</value>
     <comment>Output</comment>
   </data>
+  <data name="On_Description" xml:space="preserve">
+    <value>Should be the FrameCornerWizard be on or off?</value>
+    <comment>Input</comment>
+  </data>
+  <data name="On_Name" xml:space="preserve">
+    <value>On</value>
+    <comment>Input</comment>
+  </data>
+  <data name="On_NickName" xml:space="preserve">
+    <value>O</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Portions_Description" xml:space="preserve">
+    <value>Which model portions should be considered by the wizard.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Portions_Name" xml:space="preserve">
+    <value>Portions</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Portions_NickName" xml:space="preserve">
+    <value>P</value>
+    <comment>Input</comment>
+  </data>
 </root>
