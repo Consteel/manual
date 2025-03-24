@@ -4,21 +4,23 @@
 
 ### CS Arc From Arc
 
-### Outputs
-
-| Name         | Id | Description                          |
-| ------------ | -- | ------------------------------------ |
-| ConSteel Arc | A  | Represents an arc in ConSteel model. |
-
 ### Inputs
 
 | Name | Id | Description        |
 | ---- | -- | ------------------ |
 | Arc  | A  | Standard Rhino arc |
 
+### Outputs
+
+| Name         | Id | Description                          |
+| ------------ | -- | ------------------------------------ |
+| ConSteel Arc | A  | Represents an arc in ConSteel model. |
+
 ![alt text](<img/geometry 1.png>)
 
 ### CS Line From Line
+
+See the component in use in the script library: [Simple Cantilever Beam](https://consteelsoftware.com/script/simple-cantilever-beam/?search=).
 
 ### Inputs
 
@@ -37,11 +39,6 @@
 
 ### CS Polygon From Polygon
 
-### Outputs
-
-| Name             | Id | Description                                                  |
-| ---------------- | -- | ------------------------------------------------------------ |
-| ConSteel Polygon | P  | Represents a polygon in ConSteel model (closed, and simple.) |
 
 ### Inputs
 
@@ -50,5 +47,12 @@
 | Polyline | P   | Standard Rhino polyline curve         |
 | Hole     | H   | Standard Rhino polyline curve         |
 | CSLayer  | CSL | Represents a Layer in ConSteel model. |
+
+### Outputs
+
+| Name             | Id | Description                                                  |
+| ---------------- | -- | ------------------------------------------------------------ |
+| ConSteel Polygon | P  | Represents a polygon in ConSteel model (closed, and simple.) |
+
 
 ![alt text](<img/geometry 3.png>)

@@ -4,7 +4,7 @@
 
 ## Nodal Load
 
-
+See the component in use in the script library: [Simple Cantilever Beam](https://consteelsoftware.com/script/simple-cantilever-beam/?search=).
 
 ### Inputs
 
@@ -37,7 +37,7 @@
 
 ## Line Load
 
-
+See the component in use in the script library: [Continuous multispan beam](https://consteelsoftware.com/script/continuous-3-span-beam/).
 
 ### Inputs
 
@@ -309,7 +309,7 @@
 
 ## Load Case
 
-
+See the component in use in the script library: [Simple Cantilever Beam](https://consteelsoftware.com/script/simple-cantilever-beam/?search=).
 
 ### Inputs
 
@@ -505,7 +505,7 @@
 
 ## LG Permanent
 
-
+See the component in use in the script library: [Haunched frame](https://consteelsoftware.com/script/haunched-frame/).
 
 ### Outputs
 
@@ -523,7 +523,7 @@
 
 ## LG Variable
 
-
+See the component in use in the script library: [Simple Cantilever Beam](https://consteelsoftware.com/script/simple-cantilever-beam/?search=).
 
 ### Inputs
 

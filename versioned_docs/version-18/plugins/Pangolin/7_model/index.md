@@ -4,6 +4,8 @@ Configurations, model portions, model create and deconstruct.
 
 ## Configuration 
 
+See the component in use in the script library: [Continuous multispan beam](https://consteelsoftware.com/script/continuous-3-span-beam/).
+
 ### Inputs
 
 | Name              | Id  | Description                                  |
@@ -54,7 +56,6 @@ Configurations, model portions, model create and deconstruct.
 ## Portion Folder
 
 
-
 ### Inputs
 
 | Name    | Id | Description                           |
@@ -72,7 +73,6 @@ Configurations, model portions, model create and deconstruct.
 ![alt text](<img/model 4.png>) 
 
 ## Model Portion
-
 
 
 ### Inputs
@@ -109,5 +109,7 @@ Configurations, model portions, model create and deconstruct.
 ![alt text](<img/model 6.png>) 
 
 ## Consteel Model
+
+See the component in use in the script library: [Simple Cantilever Beam](https://consteelsoftware.com/script/simple-cantilever-beam/?search=).
 
 ![alt text](<img/model 7.png>)

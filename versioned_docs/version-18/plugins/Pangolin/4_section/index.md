@@ -4,6 +4,8 @@
 
 ## IEdge Stiffener
 
+See the component in use in the script library: [Continuous multispan beam](https://consteelsoftware.com/script/continuous-3-span-beam/).
+
 ### Inputs
 
 | Name         | Id | Description                                                                               |
@@ -25,6 +27,8 @@
 ![alt text](<img/section 1.png>) 
 
 ## Intermediate Stiffener
+
+See the component in use in the script library: [Continuous multispan beam](https://consteelsoftware.com/script/continuous-3-span-beam/).
 
 ### Inputs
 
@@ -52,6 +56,8 @@
 ![alt text](<img/section 2.png>) 
 
 ## Macro Section
+
+See the component in use in the script library: [Simple Cantilever Beam](https://consteelsoftware.com/script/simple-cantilever-beam/?search=).
 
 ### Inputs
 
@@ -99,6 +105,7 @@
 
 ## Section Bank previews
 
+See the component in use in the script library: [Haunched frame](https://consteelsoftware.com/script/haunched-frame/).
 
 ### Inputs
 
@@ -122,6 +129,7 @@
 
 ## Section From Bank
 
+See the component in use in the script library: [Haunched frame](https://consteelsoftware.com/script/haunched-frame/).
 
 ### Inputs
 

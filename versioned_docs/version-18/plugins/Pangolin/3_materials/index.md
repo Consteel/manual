@@ -4,6 +4,8 @@
 
 ## Create Steel
 
+See the component in use in the script library: [Simple Cantilever Beam](https://consteelsoftware.com/script/simple-cantilever-beam/?search=).
+
 ### Inputs
 
 | Name                   | Id  | Description                                               |

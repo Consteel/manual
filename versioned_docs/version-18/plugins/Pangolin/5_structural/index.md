@@ -4,6 +4,9 @@
 
 
 ## Beam On IEdge
+
+See the component in use in the script library: [Simple Cantilever Beam](https://consteelsoftware.com/script/simple-cantilever-beam/?search=).
+
 ### Inputs
 
 | Name               | Id | Description                                                                                                                                                          |
@@ -86,7 +89,7 @@
 
 ## Support Point
 
-
+See the component in use in the script library: [Simple Cantilever Beam](https://consteelsoftware.com/script/simple-cantilever-beam/?search=).
 
 ### Inputs
 
@@ -111,7 +114,7 @@
 
 ## Support IEdge
 
-
+See the component in use in the script library: [Simple Cantilever Beam](https://consteelsoftware.com/script/simple-cantilever-beam/?search=).
 
 ### Inputs
 
@@ -270,7 +273,7 @@
 
 ## Create Haunch
 
-
+See the component in use in the script library: [Haunched frame](https://consteelsoftware.com/script/haunched-frame/).
 
 ### Inputs
 
