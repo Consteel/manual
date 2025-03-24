@@ -4,6 +4,9 @@ Load from file, load from Consteel, save to file or Consteel, send and execute D
 
 ## Smadsteel Loader
 
+See the component in use in the script library: [Continuous multispan beam](https://consteelsoftware.com/script/continuous-3-span-beam/).
+
+
 ### Inputs
 
 | Name      | Id | Description                                                                                                            |

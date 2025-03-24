@@ -4,6 +4,7 @@ Analysis and design result return.
 
 ## Analysis Result Settings
 
+See the component in use in the script library: [Tapered frame with results](https://consteelsoftware.com/script/tapered-frame-with-results/).
 
 ### Inputs
 
@@ -26,6 +27,7 @@ Analysis and design result return.
 
 ## Design Settings
 
+See the component in use in the script library: [Tapered frame with results](https://consteelsoftware.com/script/tapered-frame-with-results/).
 
 ### Inputs
 
@@ -53,7 +55,7 @@ Analysis and design result return.
 
 ## Buckling Results
 
-
+See the component in use in the script library: [Tapered frame with results](https://consteelsoftware.com/script/tapered-frame-with-results/).
 
 ### Inputs
 
@@ -74,7 +76,7 @@ Analysis and design result return.
 
 ## Design Check Results
 
-
+See the component in use in the script library: [Tapered frame with results](https://consteelsoftware.com/script/tapered-frame-with-results/).
 
 ### Inputs
 
@@ -107,7 +109,7 @@ Analysis and design result return.
 
 ## Displacement Results
 
-
+See the component in use in the script library: [Tapered frame with results](https://consteelsoftware.com/script/tapered-frame-with-results/).
 
 ### Inputs
 
@@ -136,7 +138,7 @@ Analysis and design result return.
 
 ## Displaced Mesh
 
-
+See the component in use in the script library: [Tapered frame with results](https://consteelsoftware.com/script/tapered-frame-with-results/).
 
 ### Inputs
 
@@ -154,6 +156,8 @@ Analysis and design result return.
 ![alt text](<img/calculation 6.png>) 
 
 ## Internal Force Results
+
+See the component in use in the script library: [Tapered frame with results](https://consteelsoftware.com/script/tapered-frame-with-results/).
 
 ### Inputs
 

@@ -16,6 +16,7 @@ See the component in use in the script library: [Continuous multispan beam](http
 
 ## Frame corner wizzard
 
+See the component in use in the script library: [Tapered frame with results](https://consteelsoftware.com/script/tapered-frame-with-results/).
 
 ### Inputs
 
@@ -35,6 +36,7 @@ See the component in use in the script library: [Continuous multispan beam](http
 
 ## Consteel Global Model Settings
 
+See the component in use in the script library: [Tapered frame with results](https://consteelsoftware.com/script/tapered-frame-with-results/).
 
 ### Inputs
 
@@ -55,6 +57,7 @@ See the component in use in the script library: [Continuous multispan beam](http
 
 ## Portion Folder
 
+See the component in use in the script library: [Purlin distribution, evaluation and model merging](https://consteelsoftware.com/script/purlin-distribution-evaluation-and-model-merging/).
 
 ### Inputs
 
@@ -74,6 +77,7 @@ See the component in use in the script library: [Continuous multispan beam](http
 
 ## Model Portion
 
+See the component in use in the script library: [Tapered frame with results](https://consteelsoftware.com/script/tapered-frame-with-results/).
 
 ### Inputs
 

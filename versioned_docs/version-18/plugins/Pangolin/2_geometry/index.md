@@ -39,6 +39,7 @@ See the component in use in the script library: [Simple Cantilever Beam](https:/
 
 ### CS Polygon From Polygon
 
+See the component in use in the script library: [Purlin distribution, evaluation and model merging](https://consteelsoftware.com/script/purlin-distribution-evaluation-and-model-merging/).
 
 ### Inputs
 

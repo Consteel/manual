@@ -74,7 +74,7 @@ See the component in use in the script library: [Continuous multispan beam](http
 
 ## Linear Surface Load 3 Pts
 
-
+See the component in use in the script library: [Purlin distribution, evaluation and model merging](https://consteelsoftware.com/script/purlin-distribution-evaluation-and-model-merging/).
 
 ### Inputs
 
@@ -105,6 +105,7 @@ See the component in use in the script library: [Continuous multispan beam](http
 
 ## Node Load From Vector
 
+See the component in use in the script library: [Truss configurator - Basic](https://consteelsoftware.com/script/truss-configurator-basic/).
 
 
 ### Inputs
@@ -233,6 +234,7 @@ See the component in use in the script library: [Continuous multispan beam](http
 
 ## Line Snow Load
 
+See the component in use in the script library: [Simple multispan frame structure](https://consteelsoftware.com/script/simple-multispan-frame-structure/).
 
 ### Inputs
 
@@ -334,7 +336,7 @@ See the component in use in the script library: [Simple Cantilever Beam](https:/
 
 ## Load Transfer Surface
 
-
+See the component in use in the script library: [Purlin distribution, evaluation and model merging](https://consteelsoftware.com/script/purlin-distribution-evaluation-and-model-merging/).
 
 ### Inputs
 
@@ -357,7 +359,7 @@ See the component in use in the script library: [Simple Cantilever Beam](https:/
 
 ## Load Combination
 
-
+See the component in use in the script library: [Tapered frame with results](https://consteelsoftware.com/script/tapered-frame-with-results/).
 
 ### Inputs
 

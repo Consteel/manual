@@ -64,7 +64,7 @@ See the component in use in the script library: [Simple Cantilever Beam](https:/
 
 ## Create Release
 
-
+See the component in use in the script library: [Simple multispan frame structure](https://consteelsoftware.com/script/simple-multispan-frame-structure/).
 
 ### Inputs
 
@@ -199,7 +199,7 @@ See the component in use in the script library: [Simple Cantilever Beam](https:/
 
 ## New Link 2 Points
 
-
+See the component in use in the script library: [Simple multispan frame structure](https://consteelsoftware.com/script/simple-multispan-frame-structure/).
 
 ### Inputs
 
@@ -301,7 +301,7 @@ See the component in use in the script library: [Haunched frame](https://constee
 
 ## Create Tapering
 
-
+See the component in use in the script library: [Tapered frame with results](https://consteelsoftware.com/script/tapered-frame-with-results/).
 
 ### Inputs
 

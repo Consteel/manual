@@ -4,6 +4,7 @@ Layer, dynamic model object deconstruct.
 
 ## Consteel Layer
 
+See the component in use in the script library: [Truss configurator - Advanced](https://consteelsoftware.com/script/truss-configurator-advanced/).
 
 ### Inputs
 
@@ -25,7 +26,7 @@ Layer, dynamic model object deconstruct.
 
 ## Get CS Beam's Mesh
 
-
+See the component in use in the script library: [Tapered frame with results](https://consteelsoftware.com/script/tapered-frame-with-results/).
 
 ### Inputs
 
@@ -43,7 +44,7 @@ Layer, dynamic model object deconstruct.
 
 ## Get CS Name
 
-
+See the component in use in the script library: [Purlin distribution, evaluation and model merging](https://consteelsoftware.com/script/purlin-distribution-evaluation-and-model-merging/).
 
 ### Inputs
 
