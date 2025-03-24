@@ -321,3 +321,19 @@ See the component in use in the script library: [Tapered frame with results](htt
 
 ![alt text](<img/Create Tapering.png>)
 
+## Deconstruct Component
+
+See the component in use in the script library: [Simple multispan frame structure](https://consteelsoftware.com/script/simple-multispan-frame-structure/) and [Purlin distribution, evaluation and model merging](https://consteelsoftware.com/script/purlin-distribution-evaluation-and-model-merging/).
+
+### Inputs
+
+| Name | Id | Description                          |
+| ---- | -- | ------------------------------------ |
+| Model Object | MO  | Model Object |
+
+### Outputs
+
+Dynamically can change depending on the model objects.
+
+![alt text](<img/Deconstruct Component.png>)
+

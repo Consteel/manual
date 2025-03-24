@@ -112,6 +112,22 @@ See the component in use in the script library: [Tapered frame with results](htt
 
 ![alt text](<img/model 6.png>) 
 
+## Deconstruct Component
+
+See the component in use in the script library: [Continuous multispan beam](https://consteelsoftware.com/script/continuous-3-span-beam/).
+
+### Inputs
+
+| Name | Id | Description                          |
+| ---- | -- | ------------------------------------ |
+| Model Object | MO  | Model Object |
+
+### Outputs
+
+Dynamically can change depending on the model objects.
+
+![alt text](<img/Model Deconstruct Component.png>)
+
 ## Consteel Model
 
 See the component in use in the script library: [Simple Cantilever Beam](https://consteelsoftware.com/script/simple-cantilever-beam/?search=).
