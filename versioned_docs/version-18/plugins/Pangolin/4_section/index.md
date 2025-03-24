@@ -99,11 +99,6 @@
 
 ## Section Bank previews
 
-### Outputs
-
-| Name                     | Id       | Description                                                |
-| ------------------------ | -------- | ---------------------------------------------------------- |
-| ConSteel Section preview | SectPrev | Represents a Section preview from a ConSteel section bank. |
 
 ### Inputs
 
@@ -114,15 +109,19 @@
 | NameFilte    | N  | Filter by the section's name (eg.: \"IPE 180\") or by a regular expression that matches the name (eg.: \"" + @"IPE [12][\d]{2}\b\" + "\"). If left empty, no filter is active. |
 | OriginFilter | OF | Filter by the section bank origin, eg \"European\". If left empty no filter is active.                                                                                         |
 
+
+### Outputs
+
+| Name                     | Id       | Description                                                |
+| ------------------------ | -------- | ---------------------------------------------------------- |
+| ConSteel Section preview | SectPrev | Represents a Section preview from a ConSteel section bank. |
+
+
+
 ![alt text](<img/section 8.png>) 
 
 ## Section From Bank
 
-### Outputs
-
-| Name | Id | Description            |
-| ---- | -- | ---------------------- |
-|      |    | The loaded in section. |
 
 ### Inputs
 
@@ -130,5 +129,12 @@
 | -------------- | -- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | SectionPreview | SP | he section preview of a section from the bank. Get and filter previews using the SectionBankPreview component. Loading excessive ammounts of sections is slow. |
 | Material       | M  | The material of the section.                                                                                                                                   |
+
+### Outputs
+
+| Name | Id | Description            |
+| ---- | -- | ---------------------- |
+|      |    | The loaded in section. |
+
 
 ![alt text](<img/Section From Bank.png>)

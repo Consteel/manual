@@ -2,7 +2,7 @@
 
 **Steel, concrete**
 
-### Create Steel
+## Create Steel
 
 ### Inputs
 
@@ -29,13 +29,7 @@
 
 ![alt text](<img/material 1.png>)
 
-### Create Concrete
-
-### Outputs
-
-| Name              | Id | Description                                       |
-| ----------------- | -- | ------------------------------------------------- |
-| ConSteel Concrete | C  | Represents a Concrete material in ConSteel model. |
+## Create Concrete
 
 ### Inputs
 
@@ -58,5 +52,12 @@
 | Name                     | N      | Name of the concrete material              |
 | PoissonFactor            | V      | Poisson factor                             |
 | ThermalExp [1/°C]        | TE     | Thermal expansion coefficient, in 1/°C.    |
+
+### Outputs
+
+| Name              | Id | Description                                       |
+| ----------------- | -- | ------------------------------------------------- |
+| ConSteel Concrete | C  | Represents a Concrete material in ConSteel model. |
+
 
 ![alt text](<img/material 2.png>)

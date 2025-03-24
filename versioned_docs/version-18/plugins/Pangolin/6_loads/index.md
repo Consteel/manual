@@ -20,8 +20,7 @@
 | My [kNm]           | My  | Bending moment in kNm -s acting around the y axis.                                                                                                                                               |
 | Mz [kNm]           | Mz  | Bending moment in kNm -s acting around the z axis.                                                                                                                                               |
 | Name               | N   | Name of the created point load in ConSteel model.                                                                                                                                                |
-|                    |     | Represents a Node Load in ConSteel model.                                                                                                                                                        |
-|                    |     | Creates a Node Load in ConSteel model using the given resultant vectors.                                                                                                                         |
+|       Use LCS             |  LCS   | If set to true, the load will be interpreted in the given structural object's own local coordinate system, and the passed in coordinate system parameter will be ignored.                                                                                                                                                        |                                                                                                                      |
 | ActionPoint        | P   | The action point of this load. Note: the action point must be on the structural object's reference geometry. (Hint: you can connect a CSPointSupport or other point like objects directly here.) |
 | StructuralObject   | SO  | The structural object on which this load should act.                                                                                                                                             |
 | X [kN]             | X   | Force in kN/m -s acting along the x axis, at the line load's start point.                                                                                                                        |
@@ -32,8 +31,7 @@
 
 | Name                  | Id         | Description |
 | --------------------- | ---------- | ----------- |
-| Node Load From Vector |            |             |
-| ConSteel Node Load    | CSNodeLoad |             |
+| ConSteel Node Load    | CSNodeLoad |  ConSteel Node Load       |
 
 ![alt text](<img/load 8.png>) 
 
@@ -50,9 +48,8 @@
 | EccentricityY [mm] | EY  | Eccentricity in Y direction.                                                                                                                                                                                                                               |
 | EccentricityZ [mm] | EZ  | Eccentricity in Z direction.                                                                                                                                                                                                                               |
 | ActionEdge         | AE  | The edge on which this load should act. Note: only taken into account in case of structural plates. In case of structural beams, the load always acts on the beam's reference edge.                                                                        |
-| End1               |     | From which end is the line load startpoint offset by the Pos1 distance below.                                                                                                                                                                              |
-| End2               |     | From which end is the line load endpoint offset by the Pos2 distance below. Note: the endpoint can be relative to the startpoint.                                                                                                                          |
-| Line Snow Load     |     | Creates a Line Load in ConSteel model.                                                                                                                                                                                                                     |
+| End1               |  E1   | From which end is the line load startpoint offset by the Pos1 distance below.                                                                                                                                                                              |
+| End2               |  E2   | From which end is the line load endpoint offset by the Pos2 distance below. Note: the endpoint can be relative to the startpoint.                                                                                                                          |                                                                                                                                                                                                                   |
 | LoadCase           | LC  | The Case which this load should belong to.                                                                                                                                                                                                                 |
 | CoordinateSystem   | CS  | The coordinate system in which the load is interpreted. Note: Only taken into account if DirectionType is set to UserCoordinateSystem. The provided coordinate system will be projected so that it's X axis is tangential to the referenced edge's X axis. |
 | Multiplier         | Mul | Multiplication factor for the forces. Eg.: setting this to 2 is the same as doubling all the forces.                                                                                                                                                       |
@@ -125,13 +122,13 @@
 | Multiplier          | Mul | Multiplication factor for the forces. Eg.: setting this to 2 is the same as doubling all the forces.                                                                                             |
 | Eccentricity type   | E   | Type of the eccentricity, eg as measured from the beam's reference line, cross section middle point, top-left edge, etc.                                                                         |
 | Eccentricity Y      | EY  | Eccentricity in Y direction.                                                                                                                                                                     |
-| Eccentricity Z      |     | EZ                                                                                                                                                                                               |
+| Eccentricity Z      | EZ    | Eccentricity in Z direction.                                                                                                                                                                                               |
 
 ### Outputs
 
 | Name       | Id | Description |
 | ---------- | -- | ----------- |
-| CSNodeLoad |    | NL          |
+| CSNodeLoad | NL | Consteel Node Load from Vector         |
 
 ![alt text](<img/load 4.png>) 
 
@@ -237,13 +234,6 @@
 ## Line Snow Load
 
 
-
-### Outputs
-
-| Name           | Id  | Description                          |
-| -------------- | --- | ------------------------------------ |
-| CSLineSnowLoad | LSL | The created ConSteel Line Snow Load. |
-
 ### Inputs
 
 | Name                           | Id  | Description                                                                                         |
@@ -261,15 +251,20 @@
 | EccentricityType               | E   | Type of the eccentricity, eg as measured from the beam's reference line, cross section middle point |
 | EccentricityY [mm]             | EY  | Eccentricity in Y direction.                                                                        |
 | EccentricityZ [mm]             | EZ  | Eccentricity in Z direction.                                                                        |
-| End1                           |     | From which end is the line load startpoint offset by the Pos1 distance below.                       |
+| End1                           |   E1  | From which end is the line load startpoint offset by the Pos1 distance below.                       |
 | Pos1 [mm]                      | P1  | Offset position of the line load's startpoint                                                       |
-| End2                           |     | From which end is the line load endpoint offset by the Pos2 distance below.                         |
+| End2                           |  E2   | From which end is the line load endpoint offset by the Pos2 distance below.                         |
 | Pos2 [mm]                      | P2  | Offset position of the line load's endpoint                                                         |
+
+### Outputs
+
+| Name           | Id  | Description                          |
+| -------------- | --- | ------------------------------------ |
+| CSLineSnowLoad | LSL | The created ConSteel Line Snow Load. |
 
 ![alt text](<img/load 7.png>) 
 
 ## Plate thermal Load
-
 
 
 ### Inputs
@@ -390,18 +385,18 @@
 ## LG Accidental
 
 
+### Inputs
+
+| Name | Id | Description                     |
+| ---- | -- | ------------------------------- |
+| Name | N  | Name of the created load group. |
+
 
 ### Outputs
 
 | Name                | Id | Description                                |
 | ------------------- | -- | ------------------------------------------ |
 | ConSteel Load Group | LG | Represents a Load Group in ConSteel model. |
-
-### Inputs
-
-| Name | Id | Description                     |
-| ---- | -- | ------------------------------- |
-| Name | N  | Name of the created load group. |
 
 ![alt text](<img/load 14.png>) 
 
@@ -437,7 +432,6 @@
 | ---------------- | -- | ------------------------------------------------------ |
 | Combinable Cases | CC | The load cases can be applied along with each other.   |
 | Combination      | C  | Combination factor (psi.0)                             |
-|                  |    | Factor for representative value of Q1 variable action. |
 | Frequent         | F  | Frequent load level factor (psi.1)                     |
 | Name             | N  | Name of the created load group.                        |
 | Quasi            | Q  | Quasi permanent load level factor (psi.2)              |
@@ -498,8 +492,7 @@
 | Name           | Id | Description                                            |
 | -------------- | -- | ------------------------------------------------------ |
 | Q1 factor      | Q1 | Factor for representative value of Q1 variable action. |
-| Fire Expansion |    | Consider indirect actions caused by thermal expansion  |
-| FE             |    |                                                        |
+| Fire Expansion |  FE  | Consider indirect actions caused by thermal expansion  |
 | Name           | N  | Name of the created load group.                        |
 
 ### Outputs
