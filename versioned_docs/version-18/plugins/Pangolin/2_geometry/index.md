@@ -4,6 +4,8 @@
 
 ### CS Arc From Arc
 
+See the component in use in the script library: [Silo structure](https://consteelsoftware.com/script/silo-structure/?search=).
+
 ### Inputs
 
 | Name | Id | Description        |
