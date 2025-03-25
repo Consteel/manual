@@ -1,6 +1,6 @@
 # Model
 
-Configurations, model portions, model create and deconstruct.
+**Configurations, model portions, model create and deconstruct.**
 
 ## Configuration 
 
