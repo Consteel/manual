@@ -41,6 +41,7 @@ See the component in use in the script library: [Simple Cantilever Beam](https:/
 
 ## ConSteel Plate
 
+See the component in use in the script library: [Silo structure](https://consteelsoftware.com/script/silo-structure/?search=).
 
 ### Inputs
 
@@ -139,7 +140,7 @@ See the component in use in the script library: [Simple Cantilever Beam](https:/
 
 ## Support Plate
 
-
+See the component in use in the script library: [Silo structure](https://consteelsoftware.com/script/silo-structure/?search=).
 
 ### Inputs
 

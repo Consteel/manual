@@ -74,7 +74,7 @@ See the component in use in the script library: [Continuous multispan beam](http
 
 ## Linear Surface Load 3 Pts
 
-See the component in use in the script library: [Purlin distribution, evaluation and model merging](https://consteelsoftware.com/script/purlin-distribution-evaluation-and-model-merging/).
+See the component in use in the script library: [Purlin distribution, evaluation and model merging](https://consteelsoftware.com/script/purlin-distribution-evaluation-and-model-merging/) and  [Silo structure](https://consteelsoftware.com/script/silo-structure/?search=).
 
 ### Inputs
 

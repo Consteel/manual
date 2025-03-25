@@ -25,6 +25,8 @@ See the component in use in the script library: [Simple Cantilever Beam](https:/
 
 ### Outputs
 
+See the component in use in the script library: [Silo structure](https://consteelsoftware.com/script/silo-structure/?search=).
+
 | Name           | Id | Description                                    |
 | -------------- | -- | ---------------------------------------------- |
 | ConSteel Steel | S  | Represents a Steel material in ConSteel model. |
