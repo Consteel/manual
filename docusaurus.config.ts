@@ -123,6 +123,12 @@ const config: Config = {
               label: "Falcon",
               className: "text-transform-uppercase",
             },
+            {
+              type: "doc",
+              docId: "plugins/Pangolin/introduction/index",
+              label: "Pangolin",
+              className: "text-transform-uppercase",
+            },
           ],
         },
         {
