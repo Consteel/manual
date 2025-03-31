@@ -111,8 +111,7 @@ See the component in use in the script library: [Haunched frame](https://constee
 
 | Name         | Id | Description                                                                                                                                                                    |
 | ------------ | -- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-|              |    | Filter out section previews by the provided macro codes. If left at unset, no filter is active.                                                                                |
-| MacroFilter  | MF |                                                                                                                                                                                |
+|      MacroFilter        | MF   | Filter out section previews by the provided macro codes. If left at unset, no filter is active.                                                       |                                                                                                                                                                                |
 | NameFilte    | N  | Filter by the section's name (eg.: \"IPE 180\") or by a regular expression that matches the name (eg.: \"" + @"IPE [12][\d]{2}\b\" + "\"). If left empty, no filter is active. |
 | OriginFilter | OF | Filter by the section bank origin, eg \"European\". If left empty no filter is active.                                                                                         |
 
@@ -142,7 +141,7 @@ See the component in use in the script library: [Haunched frame](https://constee
 
 | Name | Id | Description            |
 | ---- | -- | ---------------------- |
-|      |    | The loaded in section. |
+|  Section    | S | The loaded in section. |
 
 
 ![alt text](<img/Section From Bank.png>)

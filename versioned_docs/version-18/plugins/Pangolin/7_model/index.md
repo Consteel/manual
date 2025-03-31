@@ -42,8 +42,7 @@ See the component in use in the script library: [Tapered frame with results](htt
 
 | Name               | Id | Description                                                                     |
 | ------------------ | -- | ------------------------------------------------------------------------------- |
-| SelfWeightCase     |    | Load case that should contain auto generated self weight of structural objects. |
-| SWC                |    |                                                                                 |
+| SelfWeightCase     | SWC    | Load case that should contain auto generated self weight of structural objects. |                                                                           |
 | EigenValUpperLimit | EL | The upper limit of relevant eigenvalues during buckling calculation.            |
 
 
