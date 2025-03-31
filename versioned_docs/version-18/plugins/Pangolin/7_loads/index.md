@@ -414,7 +414,7 @@ See the component in use in the script library: [Tapered frame with results](htt
 | Frequent    | F  | Frequent load level factor (psi.1)        |
 | Name        | N  | Name of the created load group.           |
 | Quasi       | Q  | Quasi permanent load level factor (psi.2) |
-| SF          |    | Safty Factor                              |
+| Safty Factor          |   SF | Safty Factor                              |
 
 ### Outputs
 

@@ -11,17 +11,13 @@ See the component in use in the script library: [Simple Cantilever Beam](https:/
 
 | Name               | Id | Description                                                                                                                                                          |
 | ------------------ | -- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Layer              |    | The layer of the beam.                                                                                                                                               |
-| L                  |    |                                                                                                                                                                      |
+| Layer              | L   | The layer of the beam.                                                                                                                                                                                                                      |
 | BowImperfectionY   | BY | Bow imperfection L/Y. (in the section's coordinate system).                                                                                                          |
 | BowImperfectionZ   | BZ | Bow imperfection L/Z. (in the section's coordinate system).                                                                                                          |
 | Direction Degree   | DD | Direction degree pf beam.                                                                                                                                            |
-| DirectionRAD       |    | Direction of the section's Z axis as measured from the reference edge's Z axis, in radians.                                                                          |
-| DR                 |    |                                                                                                                                                                      |
-| EccentricityY      |    | Eccentricity of the beam in the Y direction. Note: this attribute of beams is deprecated, and should not be used.                                                    |
-| EY                 |    |                                                                                                                                                                      |
-| EccentricityZ      |    | Eccentricity of the beam in the Z direction. Note: this attribute of beams is deprecated, and should not be used.                                                    |
-| EZ                 |    |                                                                                                                                                                      |
+| DirectionRAD       |   DR | Direction of the section's Z axis as measured from the reference edge's Z axis, in radians.                                                                                                                                                                                                                        |
+| EccentricityY      |  EY  | Eccentricity of the beam in the Y direction. Note: this attribute of beams is deprecated, and should not be used.                                                    |                                                                                          |
+| EccentricityZ      | EZ   | Eccentricity of the beam in the Z direction. Note: this attribute of beams is deprecated, and should not be used.                                                    |                                                                                                   |
 | IEdge              | E  | ConSteel IEdge.                                                                                                                                                      |
 | FiniteElementCount | FC | Number of finite elements. 0 means auto determined, maximum is 32.                                                                                                   |
 | FiniteElementType  | FT | Finite element type of the beam. Right click for possible values.                                                                                                    |
@@ -50,8 +46,7 @@ See the component in use in the script library: [Silo structure](https://constee
 | Average FE Size | F  | The avereage finite element edge size.                                                                                                                               |
 | Material        | M  | ConSteel release at the beam start point. If left empty, initialized to continuous.                                                                                  |
 | Name            | N  | Name of the created structural member. If left empty, once loaded into ConSteel, it will create autoincremented name for it based on the actual open ConSteel model. |
-|                 | P  | ConSteel Polygon.                                                                                                                                                    |
-|                 |    | Creates a ConSteel Plate from a ConSteel polygon.                                                                                                                    |
+| ConSteel Polygon.      | P  |      reates a ConSteel Plate from a ConSteel polygon.                                                          | C                                                                                                                   |
 | StructuralGroup | SG | ConSteel StructuralGroup. By default does not belong to any.                                                                                                         |
 | Thickness       | T  | Thickness of the plate. The reference polygon is always at the middle line of the plate solid.                                                                       |
 
