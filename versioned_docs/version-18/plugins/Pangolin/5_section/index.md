@@ -64,12 +64,10 @@ See the component in use in the script library: [Simple Cantilever Beam](https:/
 | Name            | Id | Description                     |
 | --------------- | -- | ------------------------------- |
 | Material        | M  | The material of the section.    |
-| Name            | N  | Name of the section.            |
-| Height          | H  | Height of the section.          |
-| FlangeWidth     | FW | FlangeWidth of the section.     |
-| WebThickness    | WT | WebThickness                    |
-| FlangeThickness | FT | FlangeThickness of the section. |
-| Radius          | R  | Radius of the section.          |
+| Name            | N  | Name of the section.            |        
+
+The rest of the inputs can dynamically change depending on the selected macro.
+
 
 ### Outputs
 
@@ -79,29 +77,6 @@ See the component in use in the script library: [Simple Cantilever Beam](https:/
 
 ![alt text](<img/section 2a.png>) 
 
-## Macro Section
-
-### Inputs
-
-| Name                  | Id  | Description                   |
-| --------------------- | --- | ----------------------------- |
-| Material              | M   | The material of the section.  |
-| Name                  | N   | Name of the section.          |
-| Height                | H   | Height of the section.        |
-| FlangeWidth 1         | FW1 | FlangeWidth 1 of the section. |
-| ThicknessF1           | TF1 | Thickness  of the section.    |
-| ThicknessW            | TW2 | Thickness of the section.     |
-| FlangeWidth 1         | FW1 | FlangeWidth 2 of the section. |
-| ThicknessF2           | TF2 | Thickness of the section.     |
-| Equivalent (booolean) | E   | Equivalent (booolean)         |
-
-### Outputs
-
-| Name             | Id      | Description      |
-| ---------------- | ------- | ---------------- |
-| ConSteel Section | Section | ConSteel Section |
-
-![alt text](<img/section 2b.png>) 
 
 ## Section Bank previews
 

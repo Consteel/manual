@@ -1,26 +1,8 @@
 # Geometry
 
-**Arcs, lines, polygons.**
+**Lines, arcs polygons.**
 
-### CS Arc From Arc
-
-See the component in use in the script library: [Silo structure](https://consteelsoftware.com/script/silo-structure/?search=).
-
-### Inputs
-
-| Name | Id | Description        |
-| ---- | -- | ------------------ |
-| Arc  | A  | Standard Rhino arc |
-
-### Outputs
-
-| Name         | Id | Description                          |
-| ------------ | -- | ------------------------------------ |
-| ConSteel Arc | A  | Represents an arc in ConSteel model. |
-
-![alt text](<img/geometry 1.png>)
-
-### CS Line From Line
+## CS Line From Line
 
 See the component in use in the script library: [Simple Cantilever Beam](https://consteelsoftware.com/script/simple-cantilever-beam/?search=).
 
@@ -39,7 +21,26 @@ See the component in use in the script library: [Simple Cantilever Beam](https:/
 
 ![alt text](<img/geometry 2.png>)
 
-### CS Polygon From Polygon
+## CS Arc From Arc
+
+See the component in use in the script library: [Silo structure](https://consteelsoftware.com/script/silo-structure/?search=).
+
+### Inputs
+
+| Name | Id | Description        |
+| ---- | -- | ------------------ |
+| Arc  | A  | Standard Rhino arc |
+
+### Outputs
+
+| Name         | Id | Description                          |
+| ------------ | -- | ------------------------------------ |
+| ConSteel Arc | A  | Represents an arc in ConSteel model. |
+
+![alt text](<img/geometry 1.png>)
+
+
+## CS Polygon From Polygon
 
 See the component in use in the script library: [Purlin distribution, evaluation and model merging](https://consteelsoftware.com/script/purlin-distribution-evaluation-and-model-merging/).
 
