@@ -59,3 +59,19 @@ See the component in use in the script library: [Purlin distribution, evaluation
 | Name | N  | Name of the given object. Note: unlike GUIDs, names are not forced to be unique in Consteel. |
 
 ![alt text](<img/other 2.png>)
+
+## Deconstruct Component
+
+See the component in use in the script library: [Continuous multispan beam](https://consteelsoftware.com/script/continuous-3-span-beam/).
+
+### Inputs
+
+| Name | Id | Description                          |
+| ---- | -- | ------------------------------------ |
+| Model Object | MO  | Model Object |
+
+### Outputs
+
+Dynamically can change depending on the model objects.
+
+![alt text](<img/Model Deconstruct Component.png>)
