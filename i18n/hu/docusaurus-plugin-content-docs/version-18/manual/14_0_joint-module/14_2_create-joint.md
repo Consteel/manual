@@ -66,7 +66,7 @@ Második lépésként ki kell választani a csomópont típusát. A _csJoint_ mo
 
 <!-- wp:image {"align":"center","id":38420,"width":671,"height":335,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-![](img\wp-content-uploads-2022-06-dial_csomop_letrehozas_tipusok.png)
+![alt text](<img/Select joint type-HU.png>)
 
 <!-- /wp:image -->
 
@@ -155,7 +155,7 @@ _Consteel_ modell alapján gyorsan és egyszerűen hozható létre csomópont a 
 
 <!-- wp:paragraph -->
 
-A kapcsolódó elemeket a program automatikusan felismeri és felkínálja a lehetséges csomópont típusokat. A felismerés után lehetőség van eltávolítani rudakat a létrehozandó kapcsolatból a rudak nevei előtt lévő jelölőnégyzetek kikapcsolásával.
+A kapcsolódó elemeket a program automatikusan felismeri és felkínálja a lehetséges csomópont típusokat. További információ a **Fiktív Csomópontról** és az **Idea StatiCa Connection** típusokról a [Kapcsolatok exportálása](../14_0_joint-module/14_6_joint-export.md) című fejezetben található A felismerés után lehetőség van eltávolítani rudakat a létrehozandó kapcsolatból a rudak nevei előtt lévő jelölőnégyzetek kikapcsolásával.
 
 <!-- /wp:paragraph -->
 
