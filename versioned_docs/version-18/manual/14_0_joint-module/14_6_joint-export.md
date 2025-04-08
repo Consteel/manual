@@ -50,6 +50,7 @@ The entire model, including analysis results, can be exported in .xml format, wh
 - 	Locate and select the previously saved IOM file.
 - 	Wait for the structural model to be imported, then begin your connection design.
 
+
 For more detailed information about the IDEA StatiCa Checkbot workflow, please visit their [Support Center](https://www.ideastatica.com/support-center/checkbot-bulk-bim-workflows).
 
 ![alt text](<img/IDEA Checkbot.png>)
