@@ -58,7 +58,7 @@ The type of the joint has to be defined on the next dialog. _csJoint_ can handle
 
 <!-- wp:image {"align":"center","id":9595,"width":589,"height":362,"sizeSlug":"full","linkDestination":"media"} -->
 
-![](img\wp-content-uploads-2021-04-14-3-create-dial2.png)
+![alt text](<img/Select joint type.png>)
 
 <!-- /wp:image -->
 
@@ -142,7 +142,8 @@ Creating joint by the model is simple and easy. Just click on the **_Create join
 
 <!-- wp:paragraph -->
 
-The members will be automatically identified and the possible connection types are offered. Here is possibility to remove some members from the identified connection by removing the appropriate tick.
+The members will be automatically identified and the possible connection types are offered. More detailed information regarding the **Fictive Joint** and **Idea StatiCa Connection** can be found in the [Joint Export chapter](../14_0_joint-module/14_6_joint-export.md). 
+Here is possibility to remove some members from the identified connection by removing the appropriate tick.
 
 <!-- /wp:paragraph -->
 
