@@ -50,6 +50,7 @@ The entire model, including analysis results, can be exported in .xml format, wh
 - 	Locate and select the previously saved IOM file.
 - 	Wait for the structural model to be imported, then begin your connection design.
 
+
 For more detailed information about the IDEA StatiCa Checkbot workflow, please visit their [Support Center](https://www.ideastatica.com/support-center/checkbot-bulk-bim-workflows).
 
 ![alt text](<img/IDEA Checkbot.png>)
@@ -60,7 +61,7 @@ For more detailed information about the IDEA StatiCa Checkbot workflow, please v
 
 Due to certain limitations and potential issues, this feature is released as a **beta** version.
 
-## 2.	Joint export into detailing software
+### 2.	Joint export into detailing software
 
 All joints can be exported to _TEKLA Structures_ steel detailing software. See chapter [File handling](../2_0_file-handling/2_3_tekla-structures-model-import-export-and-update.md) for more detailed information.
 
