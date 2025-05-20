@@ -265,9 +265,7 @@ This command is analogous with the plate creation dialogue in Consteel, with the
 
 ### Syntax
 
-**CREATE** \[Object ID] **Structural_Plate** \[Material name] \[Plate thickness] \[FE size]
-Name [Object name]
-Group [Group ID]  
+**CREATE** \[Object ID] **Structural_Plate** \[Material name] \[Plate thickness] \[FE size] [Object name] [Group ID]  
 \[x1] \[y1] \[z1]  
 \[x2] \[y2] \[z2]  
 \[x3] \[y3] \[z3]  
