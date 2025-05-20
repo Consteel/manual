@@ -12,7 +12,7 @@ Starts an analysis run.
 ### Syntax
 
 **ANALYSIS RUN**  
-Type [Analysis type]
+Type [Analysis type]  
 LoadCombinations [Load Combination]  
 LoadCases [Load cases]  
 FirstOrder  
