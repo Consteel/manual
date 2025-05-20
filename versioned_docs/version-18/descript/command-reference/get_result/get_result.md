@@ -1,15 +1,16 @@
 ---
-title: 'GET_RESULT'
+title: "GET_RESULT"
 description: ""
 published: 2021-09-15
-redirect_from: 
-            - https://www.consteelsoftware.com/manual/descript-cspi/get_result/
+redirect_from:
+  - https://www.consteelsoftware.com/manual/descript-cspi/get_result/
 hero: ./img/wp-content-uploads-2021-09-image-38-1024x477.png
 ---
 
 Queries results from an analysis or design run.
 
 ### Description
+
 Queries results from an analysis or design run. The syntax, attributes and parameters of the GET_RESULT command differs significantly depending on the calculation type, therefore both calculation types are described in detail separately in the [Detailed description of calculation](#detailed-description-of-calculation-types) types chapter below.
 
 The result searching algorithm is the following:
@@ -28,13 +29,16 @@ _Command attributes..._
 #### Calculation type:
 
 Available calculation types:
+
 - [Analysis](#analysis)
 - [Design](#design)
 
 #### Main result:
+
 Variable that will contain the main result.
 
 ---
+
 ## Detailed description of calculation types
 
 ## Analysis
@@ -47,7 +51,7 @@ ResultType [Result category] [Result type] [Plate layer] [Dynamic direction] [Ob
 Combination [Combination ID]  
 Filter [Filter type 1] [Filter value 1] [Filter type 2] [Filter value 2] _etc._  
 Location [Location type] [Location value]  
-TogetherWith [Supplementary result category] [Supplementary result type] [Plate layer] [Dynamic direction] [Supplementary result]  
+TogetherWith [Supplementary result category] [Supplementary result type] [Plate layer] [Dynamic direction] [Supplementary result]
 
 ### Additional command lines
 
@@ -65,12 +69,15 @@ Available additional command lines:
 | [TogetherWith](#TogetherWith-an) | Optional      | Requests supplementary results |
 
 #### Filter: {#Filter-an}
+
 Results can be filtered based on certain attributes. Multiple filters can be used for one GET_RESULT command with having multiple filter type-value pairs listed one after another in the Filter attribute line. In case of multiple filters the result will be queried from the intersection set of all filters.
 
 #### Location: {#Location-an}
+
 A location can be specified from where results should be queried within an object.
 
 #### TogetherWith: {#TogetherWith-an}
+
 With the TogetherWith attribute supplementary results can be queried. Multiple TogetherWith attribute lines can be added to one GET_RESULT command.
 
 ### Command parameters
@@ -96,22 +103,27 @@ With the TogetherWith attribute supplementary results can be queried. Multiple T
 | [Supplementary result](#Supplementary-result-an)                   | Optional       | String                                          | Local, variable   |
 
 #### Main result: {#Main-result-an}
+
 Variable that will contain the main result.
 
 #### Object ID: {#Object-ID-an}
+
 Variable that will contain the ID of the object where the queried result originates from.
 
 The assignment of this parameter is optional.
 
 #### x, y, z: {#x,-y,-z-an}
+
 3 variables that will contain the global coordinates of the queried result's location.
 
 The assignment of these parameters is optional.
 
 #### Analysis type: {#Analysis-type-an}
+
 Type of the analysis.
 
 <span id="analysis-types" style={{paddingTop: '80px'}}> Available analysis types: </span>
+
 - FirstOrder
 - SecondOrder
 - Buckling
@@ -119,7 +131,9 @@ Type of the analysis.
   - : Dir1, Dir2, Z
 
 #### Result category: {#Result-category-an}
+
 <span id="result-categories-an" style={{paddingTop: '80px'}}> Available result categories: </span>
+
 - Deformation
 - InternalForces
 - ForcesOnShell
@@ -130,7 +144,9 @@ Type of the analysis.
 - PlasticHinge
 
 #### Result type: {#Result-type-an}
+
 <span id="result-types-an" style={{paddingTop: '80px'}}> Available result types: </span>
+
 - Deformation: X, Y, Z, Rx, Ry, Rz, W
 - InternalForces: N, Vy, Vz, T, My, Mz, B
 - ForcesOnShell: Mx, My, Mxy, Nx, Ny, Nxy, Qxz, Qyz, QRz
@@ -140,33 +156,42 @@ Type of the analysis.
 - PlasticHinge: positive integer
 
 #### Plate layer: {#Plate-layer-an}
+
 Only active if Result category = StressesOnShell.
 
 <span id="plate-layer-inputs" style={{paddingTop: '80px'}}> Available inputs: </span>
+
 - Top
 - Middle
 - Bottom
 
 #### Dynamic direction: {#Dynamic-direction-an}
+
 Only active if Analysis type = Dynamics.
 
 <span id="dynamic-direction-inputs" style={{paddingTop: '80px'}}> Available inputs: </span>
+
 - Dir1
 - Dir2
 - Z
 
 #### Object select: {#Object-select-an}
+
 In case there are multiple objects to query results from, with this parameter it can be defined if the result should come from the object that has the maximal or minimal result value.
 
 <span id="object-select-an" style={{paddingTop: '80px'}}> Available inputs: </span>
+
 - Min
 - Max
 
 #### Combination ID: {#Combination-ID-an}
+
 Load or mass combination ID based on which the result is queried. The accepted input is either a single mass or load combination ID or the name of the combination with this syntax: "NAME: [Combination name]"
 
 #### Filter types: {#Filter-types-an}
+
 <span id="filter-types-an" style={{paddingTop: '80px'}}> Available filter types: </span>
+
 - ID
 - SectionType
 - Material
@@ -176,10 +201,13 @@ Load or mass combination ID based on which the result is queried. The accepted i
 - GroupID
 
 #### Filter values: {#Filter-values-an}
+
 Filter values paired to their filter types.
 
 #### Location type: {#Location-type-an}
+
 <span id="location-types-an" style={{paddingTop: '80px'}}> Available location types: </span>
+
 - Min/Max: location of minimal/maximal result within an object. In this case the Location value parameter has to stay undefined
 - EndA/EndB: result location measured from one end of the object. In this case the Location value parameter has to be set to a distance in milimeters.
 - Ratio: result location at a certain length ratio of the object. In this case the Location value parameter has to be set to a ratio number between 0 and 1.
@@ -188,15 +216,19 @@ Filter values paired to their filter types.
 If not specified the defult location type is "Max".
 
 #### Location value: {#Location-value-an}
+
 Value paired to the Location type.
 
 #### Supplementary result category: {#Supplementary-result-category-an}
+
 The same categories apply here as in case of the [Result category](#Result-category-an) parameter.
 
 #### Supplementary result type: {#Supplementary-result-type-an}
+
 The same types apply here as in case of the [Result type ](#Result-type-an)parameter.
 
 #### Supplementary result: {#Supplementary-result-an}
+
 Variable that will conatin the supplementary result.
 
 ### Sample code
@@ -281,7 +313,7 @@ ResultType [Result category] [Result type] [Object select]
 Combination [Combination ID]  
 Filter [Filter type 1] [Filter value 1] [Filter type 2] [Filter value 2] etc.  
 Location [Location type] [Location value]  
-TogetherWith [Supplementary result category] [Supplementary result type] [Supplementary result]  
+TogetherWith [Supplementary result category] [Supplementary result type] [Supplementary result]
 
 ### Additional command lines
 
@@ -298,12 +330,15 @@ Available additional command lines:
 | [TogetherWith](#TogetherWith-de) | Optional      | Requests supplementary results |
 
 #### Filter: {#Filter-de}
+
 Results can be filtered based on certain attributes. Multiple filters can be used for one GET_RESULT command with having multiple filter type-value pairs listed one after another in the Filter attribute line. In case of multiple filters the result will be queried from the intersection set of all filters.
 
 #### Location: {#Location-de}
+
 A location can be specified from where results should be queried within an object.
 
 #### TogetherWith: {#TogetherWith-de}
+
 With the TogetherWith attribute supplementary results can be queried. Multiple TogetherWith attribute lines can be added to one GET_RESULT command.
 
 ### Command parameters
@@ -316,7 +351,7 @@ With the TogetherWith attribute supplementary results can be queried. Multiple T
 | [Result combination ID](#Result-combination-ID-de)                 | Optional       | String                                         | Local, variable   |
 | [Result category](#Result-category-de)                             | Required       | [Predefined strings](#result-categories-de)    | Local, variable   |
 | [Result type](#Result-type-de)                                     | Required       | [Predefined strings](#result-types-de)         | Local, variable   |
-| [Object select](#Object-select-de)                                 | Optional       | [Predefined strings](#Object-select-inputs-de) | Local, variable   |
+| [Object select](#Object-select-de)                                 | Required       | [Predefined strings](#Object-select-inputs-de) | Local, variable   |
 | [Combination ID](#Combination-ID-de)                               | Optional       | Load combination name or ID                    | Local, variable   |
 | [Filter types](#Filter-types-de)                                   | Optional       | [Predefined strings](#filter-types-de)         | Local, variable   |
 | [Filter values](#Filter-values-de)                                 | Optional       | String                                         | Local, variable   |
@@ -327,23 +362,29 @@ With the TogetherWith attribute supplementary results can be queried. Multiple T
 | [Supplementary result](#Supplementary-result-de)                   | Optional       | String                                         | Local, variable   |
 
 #### Main result: {#Main-result-de}
+
 Variable that will contain the main result.
 
 #### Object ID: {#Object-ID-de}
+
 Variable that will contain the ID of the object where the queried result originates from.
 
 The assignment of this parameter is optional.
 
 #### x, y, z: {#x,-y,-z-de}
+
 3 variables that will contain the global coordinates of the queried result's location.
 
 The assignment of these parameters is optional.
 
 #### Result combination ID: {#Result-combination-ID-de}
+
 Variable that will contain the ID of the load combination that produced the queried result. The assigment of this parameter is optional.
 
 #### Result category: {#Result-category-de}
+
 <span id="result-categories-de" style={{paddingTop: '80px'}}> Available result categories: </span>
+
 - Dominant
 - Steel
 - ConcBeam
@@ -352,7 +393,9 @@ Variable that will contain the ID of the load combination that produced the quer
 - AlphaUlt
 
 #### Result type: {#Result-type-de}
+
 <span id="result-types-de" style={{paddingTop: '80px'}}> Available result types: </span>
+
 - Dominant: All, Steel, Concrete, CompositeColumn
 - Steel: General, Pure, Plastic, Conservative, Stability, Stablelength
 - ConcBeam: Mrd, Vrdc, Vrd, VrdTrd, VrdTrdc, Asl
@@ -361,19 +404,24 @@ Variable that will contain the ID of the load combination that produced the quer
 - AlphaUlt: Steel
 
 #### Object select: {#Object-select-de}
+
 In case there are multiple objects to query results from, with this parameter it can be defined if the result should come from the object that has the maximal or minimal result value.
 
 <span id="Object-select-inputs-de" style={{paddingTop: '80px'}}> Available inputs: </span>
+
 - Min
 - Max
 
 #### Combination ID: {#Combination-ID-de}
+
 Only required if Result category=AlphaUlt.
 
 Load combination ID based on which the result is queried. The accepted input is either a single load combination ID or the name of the combination with this syntax: "NAME: [Load combination name]"
 
 #### Filter types: {#Filter-types-de}
+
 <span id="filter-types-de" style={{paddingTop: '80px'}}> Available filter types: </span>
+
 - ID
 - SectionType
 - Material
@@ -383,10 +431,13 @@ Load combination ID based on which the result is queried. The accepted input is 
 - GroupID
 
 #### Filter values: {#Filter-values-de}
+
 Filter values paired to their filter types.
 
 #### Location type: {#Location-type-de}
+
 <span id="location-types-de" style={{paddingTop: '80px'}}> Available location types: </span>
+
 - Min/Max: location of minimal/maximal result within an object. In this case the Location value parameter has to stay undefined
 - EndA/EndB: result location measured from one end of the object. In this case the Location value parameter has to be set to a distance in milimeters.
 - Ratio: result location at a certain length ratio of the object. In this case the Location value parameter has to be set to a ratio number between 0 and 1.
@@ -395,20 +446,25 @@ Filter values paired to their filter types.
 If not specified the defult location type is "Max".
 
 #### Location value: {#Location-value-de}
+
 Value paired to the Location type.
 
 #### Supplementary result category: {#Supplementary-result-category-de}
+
 The same categories apply here as in case of the [Result category](#Result-category-de) parameter.
 
 #### Supplementary result type: {#Supplementary-result-type-de}
+
 The same types apply here as in case of the [Result type ](#Result-type-de)parameter.
 
 #### Supplementary result: {#Supplementary-result-de}
+
 Variable that will conatin the supplementary result.
 
 ### Sample code
 
 **Example 1:** (Steel pure resistance utilization)
+
 ```
 GET_RESULT Design Result_Variable
 ResultType Steel Pure Max
