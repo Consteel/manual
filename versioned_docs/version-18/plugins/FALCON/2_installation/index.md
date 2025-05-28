@@ -4,7 +4,7 @@
 To utilize the wind simulation feature initially, users are required to install the **FALCON plugin**. This plugin can be accessed via the Consteel website under the “Downloads” section. Within the plugins category, select  “Consteel 18” and proceed to download the “FALCON” plugin.
 Starting from Consteel 18 the Plugin is compatible. 
 
-![alt text](img/Downloads.png)
+![alt text](img/1Downloads.png)
  
 
 ### License Agreement
