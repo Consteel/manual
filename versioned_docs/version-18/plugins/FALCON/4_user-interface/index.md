@@ -133,25 +133,13 @@ To monitor the simulation progress, open the **Logs** dropdown window. The simul
 
 ### 4.	FALCON-Wind load generation from simulation results. 
 
-![alt text](img/image-10.png)
+![alt text](img/Falcon.png)
  
 In this final step, FALCON generates loads from the simulation results that can be used as regular loads in your model. The window will guide you through the steps to generate the wind loads:
 
-- **Perform Wind Simulation**: If the wind simulation has not been completed, use the three dots button to return to the previous step and run it.
+- **Wind simulation parameters**: If the wind simulation has not been completed, use the three dots button to return to the previous step and run it.
 
-- **Load Evaluation**: During mesh generation, the finite volume mesh undergoes additional refinement, ensuring each finite element mesh face has at least four stored results. This allows for various result evaluation methods to verify load convergence and add conservatism as needed.
-
-- **Set External Pressure Limits**: Define upper limits for both pressure and suction coefficients.
-
-- **Set Wind and Internal Pressure Directions**: Adjust the wind and internal pressure directions for load generation, based on the simulation results.
-
-- **Select Generated load type- Uniform Surface Loads**:
-
-  - **On Mesh Elements**: Generates loads directly on the finite element mesh.
-
-  - **On Zones**: Creates loads based on the defined number of wind zone categories, resulting in zoned loads.
-
-  - **On Specific Zones**: Applies zoned loads to specific portions of the model.
+- **Load evaluation**: During mesh generation, the finite volume mesh undergoes additional refinement, ensuring each finite element mesh face has at least four stored results. This allows for various result evaluation methods to verify load convergence and add conservatism as needed.
 
 - **Run Load Generation**: Press the Run button at the bottom of the window to start generating loads.
 
