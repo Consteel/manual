@@ -11,11 +11,12 @@ Starting from Consteel 18 the Plugin is compatible.
 
 In order to start the installation process, the licensing agreement must be accepted.
 
-![alt text](<img/License Agreement.png>)
 
 ### Setup
 
 ![alt text](img/3readytoinstall.png)
+
+![alt text](img/3installing.png)
 
 ![alt text](img/4installing.png)
 
