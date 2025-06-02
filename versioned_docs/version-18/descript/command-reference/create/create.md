@@ -2264,14 +2264,16 @@ This command is analogous with the portion creation button in Consteel:
 ### Syntax
 
 **CREATE** \[Object ID] **Portion** \[Object name] \[Content array]
+CornerType \[Corner type]
 
 ### Command parameters
 
-| **Command parameter**               | **Assignment** | **Value format** | **Input options** |
-| ----------------------------------- | -------------- | ---------------- | ----------------- |
-| [Object ID](#Object-ID-por)         | Required       | String           | Local, variable   |
-| [Object name](#Object-name-por)     | Required       | String           | Local, variable   |
-| [Content array](#Content-array-por) | Required       | Object ID(s)     | Array             |
+| **Command parameter**                                                                                  | **Assignment** | **Value format**                               | **Input options** |
+| ------------------------------------------------------------------------------------------------------ | -------------- | ---------------------------------------------- | ----------------- |
+| [Object ID](#Object-ID-por)                                                                            | Required       | String                                         | Local, variable   |
+| [Object name](#Object-name-por)                                                                        | Required       | String                                         | Local, variable   |
+| [Content array](#Content-array-por)                                                                    | Required       | Object ID(s)                                   | Array             |
+| [Corner type](#Corner-type-por) <span style={{color:"MediumSeaGreen"}}>(since CS 18 build 4124)</span> | Optional       | [Predefined strings](#Corner-type-options-por) | Local, variable   |
 
 #### Object ID: {#Object-ID-por}
 
@@ -2285,12 +2287,32 @@ Name of the portion.
 
 The name of the array that contains the IDs of the objects that will be part of the created portion. This array substitutes the manual object selection that is necessary before the portion creation in Consteel. The object IDs have to be collected and put into an array before the execution of this command.
 
+#### Corner type: {#Corner-type-por}
+
+Corner type of the portion. This setting can be modified from the frame corner wizard dialogue in the Consteel UI.
+
+<span id="Corner-type-options-por" style={{paddingTop: '80px'}}>Available input options: </span>
+
+- Warping_NotSet
+- Warping_Reverse
+- Warping_Equal
+- Warping_Zero
+
+The definition of this parameter is optional. Default value: Warping_NotSet.
+
 ### Sample code
 
-**Command only:**
+**Command only:** (minimal parameters)
 
 ```
 CREATE Portion_ID1 portion "Portion 1 (Descript)" ObjIDs_to_portion
+```
+
+**Command only:** (all parameters)
+
+```
+CREATE Portion_ID1 portion "Portion 1 (Descript)" ObjIDs_to_portion
+CornerType Warping_Reverse
 ```
 
 **With object and array creation:**

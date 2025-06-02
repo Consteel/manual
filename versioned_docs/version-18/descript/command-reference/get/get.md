@@ -1300,12 +1300,13 @@ GET PMass_ID1 MulFac MulFac
 
 Available object attributes:
 
-| **Object attribute name**                 | **Object attribute** (type this into Descript) |
-| ----------------------------------------- | ---------------------------------------------- |
-| Name                                      | Name                                           |
-| Object type                               | Object_Type                                    |
-| Portion type (Portion, storey, 2DPortion) | Type                                           |
-| Items                                     | Items                                          |
+| **Object attribute name**                                                          | **Object attribute** (type this into Descript) |
+| ---------------------------------------------------------------------------------- | ---------------------------------------------- |
+| Name                                                                               | Name                                           |
+| Object type                                                                        | Object_Type                                    |
+| Portion type (Portion, storey, 2DPortion)                                          | Type                                           |
+| Items                                                                              | Items                                          |
+| Corner type <span style={{color:"MediumSeaGreen"}}>(since CS 18 build 4124)</span> | CornerType                                     |
 
 ### Sample code
 
@@ -1339,4 +1340,5 @@ GET Portion_ID1 Name Name
 GET Portion_ID1 Object_Type Object_Type
 GET Portion_ID1 Type Type
 GET Portion_ID1 Items Items
+GET Portion_ID1 CornerType CornerType
 ```
