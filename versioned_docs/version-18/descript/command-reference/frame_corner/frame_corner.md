@@ -11,7 +11,7 @@ Switches the frame corner on or off. <span style={{color:"MediumSeaGreen"}}>(sin
 
 ### Description
 
-This command controls the on-off switch for the frame corner fuctionality, found in the frame corner wizard within the Consteel UI.
+This command controls the on-off switch for the frame corner functionality. The command is analogous with the on-off switch found in the frame corner wizard dialogue within the Consteel UI.
 
 ![](img\Frame_Corner_Img_01.png)
 

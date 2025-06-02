@@ -2263,7 +2263,7 @@ This command is analogous with the portion creation button in Consteel:
 
 ### Syntax
 
-**CREATE** \[Object ID] **Portion** \[Object name] \[Content array]
+**CREATE** \[Object ID] **Portion** \[Object name] \[Content array]  
 CornerType \[Corner type]
 
 ### Command parameters
@@ -2289,7 +2289,8 @@ The name of the array that contains the IDs of the objects that will be part of 
 
 #### Corner type: {#Corner-type-por}
 
-Corner type of the portion. This setting can be modified from the frame corner wizard dialogue in the Consteel UI.
+Corner type of the portion. This setting can be accessed from the frame corner wizard dialogue in the Consteel UI.
+The definition of this parameter also switches on frame corner functionality, which can also be controlled by the [FRAME_CORNER](/docs/descript/command-reference/frame_corner/) command in Descript.
 
 <span id="Corner-type-options-por" style={{paddingTop: '80px'}}>Available input options: </span>
 
