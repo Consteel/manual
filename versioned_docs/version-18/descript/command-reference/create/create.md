@@ -496,17 +496,19 @@ This command is analogous with the tapered member creation dialogue in Consteel:
 ### Syntax
 
 **CREATE** \[Object ID] **Tapered_Member** \[Member ID] \[Start height] \[End height]  
-Format \[Format]
+Format \[Format]  
+ModEccentricity \[Mod eccentricity]
 
 ### Command parameters
 
-| **Command parameter**               | **Assignment** | **Value format**                         | **Input options** |
-| ----------------------------------- | -------------- | ---------------------------------------- | ----------------- |
-| [Object ID](#Object-ID-tm)          | Required       | String                                   | Local, variable   |
-| [Member ID](#Member-ID-tm)          | Required       | String                                   | Local, variable   |
-| [Start height](#Starting-height-tm) | Required       | Numerical                                | Local, variable   |
-| [End height](#End-height-tm)        | Required       | Numerical                                | Local, variable   |
-| [Format](#Format-tm)                | Optional       | [Predefined strings](#Format-options-tm) | Local, variable   |
+| **Command parameter**                                                                                           | **Assignment** | **Value format**                                   | **Input options** |
+| --------------------------------------------------------------------------------------------------------------- | -------------- | -------------------------------------------------- | ----------------- |
+| [Object ID](#Object-ID-tm)                                                                                      | Required       | String                                             | Local, variable   |
+| [Member ID](#Member-ID-tm)                                                                                      | Required       | String                                             | Local, variable   |
+| [Start height](#Starting-height-tm)                                                                             | Required       | Numerical                                          | Local, variable   |
+| [End height](#End-height-tm)                                                                                    | Required       | Numerical                                          | Local, variable   |
+| [Format](#Format-tm)                                                                                            | Optional       | [Predefined strings](#Format-options-tm)           | Local, variable   |
+| [Mod eccentricity](#Mod-eccentricity-tm) <span style={{color:"MediumSeaGreen"}}>(since CS 18 build 4124)</span> | Optional       | [Predefined strings](#Mod-eccentricity-options-tm) | Local, variable   |
 
 #### Object ID: {#Object-ID-tm}
 
@@ -534,6 +536,16 @@ Alignment of the axis of the tapered member.
 - Centric
 - Top
 
+#### Mod eccentricity: {#Mod-eccentricity-tm}
+
+Eccentricity modifier option, such that the axis of the beam would coincide with the centroid of the smaller, bigger or original section.
+
+<span id="Mod-eccentricity-options-tm" style={{paddingTop: '80px'}}>Available input options: </span>
+
+- SecSmaller (default)
+- SecBigger
+- SecOriginal
+
 ### Sample code
 
 **Command only:** (minimal parameters)
@@ -553,6 +565,7 @@ CREATE Mem_ID1 Structural_Member Descript_Section
 
 CREATE Tapered_ID1 Tapered_Member Mem_ID1 400 200
 Format Centric
+ModEccentricity SecBigger
 ```
 
 ## Steel material
