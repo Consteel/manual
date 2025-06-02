@@ -367,14 +367,15 @@ GET Hau_ID1 StartX StartX
 
 Available object attributes:
 
-| **Object attribute name** | **Object attribute** (type this into Descript) |
-| ------------------------- | ---------------------------------------------- |
-| Name                      | Name                                           |
-| Object type               | Object_Type                                    |
-| Member ID                 | OnMemberID                                     |
-| Start height              | Hstart                                         |
-| End height                | Hend                                           |
-| Beam eccentricity         | Format                                         |
+| **Object attribute name**                                                               | **Object attribute** (type this into Descript) |
+| --------------------------------------------------------------------------------------- | ---------------------------------------------- |
+| Name                                                                                    | Name                                           |
+| Object type                                                                             | Object_Type                                    |
+| Member ID                                                                               | OnMemberID                                     |
+| Start height                                                                            | Hstart                                         |
+| End height                                                                              | Hend                                           |
+| Beam eccentricity                                                                       | Format                                         |
+| Mod eccentricity <span style={{color:"MediumSeaGreen"}}>(since CS 18 build 4124)</span> | ModEccentricity                                |
 
 ### Sample code
 
@@ -396,6 +397,7 @@ GET Tapered_ID1 OnMemberID OnMemberID
 GET Tapered_ID1 Hstart Hstart
 GET Tapered_ID1 Hend Hend
 GET Tapered_ID1 Format Format
+GET Tapered_ID1 ModEccentricity ModEccentricity
 ```
 
 ## Steel material
