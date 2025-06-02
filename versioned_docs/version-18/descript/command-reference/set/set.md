@@ -1376,10 +1376,20 @@ SET PMass_ID1 MulFac 10
 
 Available object attributes:
 
-| **Object attribute name** | **Object attribute** (type this into Descript) | **Value format**    |
-| ------------------------- | ---------------------------------------------- | ------------------- |
-| Name                      | Name                                           | String              |
-| Items                     | Items                                          | Object IDs in array |
+| **Object attribute name**                                                          | **Object attribute** (type this into Descript) | **Value format**                               |
+| ---------------------------------------------------------------------------------- | ---------------------------------------------- | ---------------------------------------------- |
+| Name                                                                               | Name                                           | String                                         |
+| Items                                                                              | Items                                          | Object IDs in array                            |
+| Corner type <span style={{color:"MediumSeaGreen"}}>(since CS 18 build 4124)</span> | CornerType                                     | [Predefined strings](#Corner-type-options-por) |
+
+#### Corner type:
+
+<span id="Corner-type-options-por" style={{paddingTop: '80px'}}> Valid inputs: </span>
+
+- Warping_NotSet
+- Warping_Reverse
+- Warping_Equal
+- Warping_Zero
 
 ### Sample code
 
@@ -1412,4 +1422,5 @@ ARRAY_ADD ObjIDs_to_portion Mem_ID2
 
 SET Portion_ID1 Name "New portion name"
 SET Portion_ID1 Items ObjIDs_to_portion
+SET Portion_ID1 CornerType Warping_Equal
 ```
