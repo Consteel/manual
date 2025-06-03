@@ -39,6 +39,7 @@ Object IDs from the following object types are accepted:
   - [Point support](#point-support)
   - [Line support](#line-support)
   - [Surface support](#surface-support)
+  - [Shear field](#shear-field)
   - [Support type](#support-type)
   - [Release type](#release-type)
   - [Link ](#link)
@@ -624,6 +625,74 @@ SET SurfSup_ID1 Name "New surface support name"
 SET SurfSup_ID1 SupportID z
 SET SurfSup_ID1 PlateID Plate_ID2
 SET SurfSup_ID1 DirType Global
+```
+
+## Shear field
+
+Available object attributes:
+
+| **Object attribute name** | **Object attribute** (type this into Descript) | **Value format**                          |
+| ------------------------- | ---------------------------------------------- | ----------------------------------------- |
+| Name                      | Name                                           | String                                    |
+| Member ID                 | BeamID                                         | Member name or ID                         |
+| Stiffness                 | StiffnessValue                                 | Numerical                                 |
+| Effective width           | EffectiveWidth                                 | Numerical                                 |
+| Eccentricity - z          | EccZ                                           | Numerical                                 |
+| Reference point 1         | End1                                           | Integer                                   |
+| Reference point 2         | End2                                           | Integer                                   |
+| Distance 1                | Pos1                                           | Numerical                                 |
+| Distance 2                | Pos2                                           | Numerical                                 |
+| Eccentricity reference    | EccType                                        | [Predefined strings](#Ecctype-options-sf) |
+
+#### Eccentricity reference:
+
+<span id="Ecctype-options-sf" style={{paddingTop: '80px'}}> Valid inputs: </span>
+
+| **Eccentricity reference name** | **Eccentricity reference** (type this into Descript) |
+| ------------------------------- | ---------------------------------------------------- |
+| Reference line (0)              | EccType_C                                            |
+| Bottom Middle (2)               | EccType_BM                                           |
+| Middle Middle (5)               | EccType_MM                                           |
+| Top Middle (8)                  | EccType_TM                                           |
+
+### Sample code
+
+**All available attributes + object creation:**
+
+```
+LOAD_SECTION_MACRO SecID WLD-IH "I 200 Welded" "S 235 EN 10025-2" 100 10 200 6 100 10
+
+CREATE Member_ID1 Structural_member "I 200 Welded"
+0 0 0
+6000 0 0
+
+CREATE SF_ID1 ShearField Member_ID1 Manual 1000 5 10
+0 1
+200 400
+EccType EccType_TM
+
+SET SF_ID1 Name "New name"
+SET SF_ID1 BeamID Member_ID2
+SET SF_ID1 StiffnessValue 1234
+SET SF_ID1 EffectiveWidth 6
+SET SF_ID1 EccZ 20
+SET SF_ID1 End1 EndB
+SET SF_ID1 End2 Relative
+SET SF_ID1 Pos1 300
+SET SF_ID1 Pos2 500
+SET SF_ID1 EccType EccType_BM
+
+GET SF_ID1 Name Name
+GET SF_ID1 Object_Type Object_Type
+GET SF_ID1 BeamID BeamID
+GET SF_ID1 StiffnessValue StiffnessValue
+GET SF_ID1 EffectiveWidth EffectiveWidth
+GET SF_ID1 EccZ EccZ
+GET SF_ID1 End1 End1
+GET SF_ID1 End2 End2
+GET SF_ID1 Pos1 Pos1
+GET SF_ID1 Pos2 Pos2
+GET SF_ID1 EccType EccType
 ```
 
 ## Support type
