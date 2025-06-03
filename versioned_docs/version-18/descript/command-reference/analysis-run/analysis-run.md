@@ -14,6 +14,7 @@ Starts an analysis run.
 **ANALYSIS RUN**  
 Type [Analysis type]  
 LoadCombinations [Load Combination]  
+GlobalImperfection [Imperfection ID]  
 LoadCases [Load cases]  
 FirstOrder  
 SecondOrder  
@@ -28,7 +29,7 @@ MassCombinations [Mass combination]
 
 Several options of an anlysis can be controlled by command attributes and parameters. The analogous counterparts of these in the Consteel user interface are the following:
 
-![](img\wp-content-uploads-2021-12-image-1024x529.png)
+[![](./img\Analysis_Settings_Explanation_v01.png)](./img\Analysis_Settings_Explanation_v01.png)
 
 ### Additional command lines
 
@@ -36,19 +37,20 @@ Code lines directly after the ANALYSIS RUN command can set certain attributes of
 
 Available additional command lines:
 
-| **Line starting keyword** | **Inclusion** | **Description**                                                |
-| ------------------------- | ------------- | -------------------------------------------------------------- |
-| Type                      | Required      | Controls the static analysis type                              |
-| LoadCombinations          | Required      | Controls the considered load combinations                      |
-| LoadCases                 | Optional      | Requests the separate analysis of load cases                   |
-| FirstOrder                | Optional      | Requests first order analysis                                  |
-| SecondOrder               | Optional      | Requests second order analysis                                 |
-| Portion_SecondOrder       | Optional      | Sets portion used for second order analysis                    |
-| Buckling                  | Optional      | Requests buckling analysis                                     |
-| Portion_Buckling          | Optional      | Sets portion used for buckling analysis                        |
-| Sensitivity               | Optional      | Requests buckling sensitivity analysis                         |
-| Dynamic                   | Optional      | Requests dynamic analysis                                      |
-| MassCombinations          | Optional      | Controls the considered mass combinations for dynamic analysis |
+| **Line starting keyword**                                                                 | **Inclusion** | **Description**                                                |
+| ----------------------------------------------------------------------------------------- | ------------- | -------------------------------------------------------------- |
+| Type                                                                                      | Required      | Controls the static analysis type                              |
+| LoadCombinations                                                                          | Required      | Controls the considered load combinations                      |
+| GlobalImperfection <span style={{color:"MediumSeaGreen"}}>(since CS 18 build 4124)</span> | Optional      | Sets global imperfection used for analysis                     |
+| LoadCases                                                                                 | Optional      | Requests the separate analysis of load cases                   |
+| FirstOrder                                                                                | Optional      | Requests first order analysis                                  |
+| SecondOrder                                                                               | Optional      | Requests second order analysis                                 |
+| Portion_SecondOrder                                                                       | Optional      | Sets portion used for second order analysis                    |
+| Buckling                                                                                  | Optional      | Requests buckling analysis                                     |
+| Portion_Buckling                                                                          | Optional      | Sets portion used for buckling analysis                        |
+| Sensitivity                                                                               | Optional      | Requests buckling sensitivity analysis                         |
+| Dynamic                                                                                   | Optional      | Requests dynamic analysis                                      |
+| MassCombinations                                                                          | Optional      | Controls the considered mass combinations for dynamic analysis |
 
 ### Command parameters
 
@@ -56,6 +58,7 @@ Available additional command lines:
 | ----------------------------------------------------------------------------------- | -------------- | --------------------------------------- | ----------------- |
 | [Analysis type](#analysis-type)                                                     | Required       | [Predefined strings](#analTypes)        | Local, variable   |
 | [Load Combination](#load-combination)                                               | Required       | Load combination name or ID(s)          | Local, variable   |
+| [Imperfection ID](#Imperfection-ID)                                                 | Optional       | Imperfection name or ID                 | Local, variable   |
 | [Load cases](#load-cases)                                                           | Optional       | Load case name or ID(s)                 | Local, variable   |
 | [Second order portion](#second-order-portion)                                       | Optional       | Portion ID                              | Local, variable   |
 | [Number of buckling shapes](#number-of-buckling-shapes)                             | Optional       | Integer                                 | Local, variable   |
@@ -76,13 +79,21 @@ Type of the analysis.
 
 #### Load combination:
 
-Load combinations considered during the analysis run. The accepted input is either a single load combination ID or an array containing multiple load combination IDs. The name of the load combination is also an accepted input with this syntax: "NAME: "
+Load combinations considered during the analysis run. The accepted input is either a single load combination ID or an array containing multiple load combination IDs. The name of the load combination is also an accepted input with this syntax: "NAME: ".
+
+#### Imperfection ID:
+
+Global imperfection considered during the analysis run. The accepted input is a single global imperfection ID. The name of the global imperfection is also an accepted input with this syntax: "NAME: ".
+
+<span id="analTypes" style={{paddingTop: '80px'}}>Accepted global imperfection types: </span>
+
+- Initial sway
 
 #### Load cases:
 
 If the "LoadCases" line is included after the ANALYSIS RUN command, then the elastic calculation of certain load cases can be requested as a part of the analysis run.
 
-The accepted input after the "LoadCases" is either a single load case ID or an array containing multiple load case IDs. The name of the load case is also an accepted input with this syntax: "NAME: "
+The accepted input after the "LoadCases" is either a single load case ID or an array containing multiple load case IDs. The name of the load case is also an accepted input with this syntax: "NAME: ".
 
 #### Second order portion:
 
@@ -113,13 +124,13 @@ Controls the number of vibration modes calculated for dynamic analysis.
 
 This parameter is only required if the parameter is set to "SecondOrderStiffness". In this case the stiffnesses considered in the dynamic analysis are going to be influenced by the loading, therefore a load combination has to be chosen, from which the loading is taken into account.
 
-The accepted input is a single load combination ID or the name of the load combination with this syntax: "NAME: "
+The accepted input is a single load combination ID or the name of the load combination with this syntax: "NAME: ".
 
 #### Mass combination:
 
 This is only used if dynamic analysis is requested with the line starting with "Dynamic". In that case it has to be specified which mass combinations are to be used for the dynamic analysis.
 
-The accepted input after the "MassCombinations" is either a single mass combination ID or an array containing multiple mass combination IDs. The name of the mass combination is also an accepted input with this syntax: "NAME: "
+The accepted input after the "MassCombinations" is either a single mass combination ID or an array containing multiple mass combination IDs. The name of the mass combination is also an accepted input with this syntax: "NAME: ".
 
 ### Sample code
 
@@ -184,4 +195,17 @@ MassCombinations "NAME: Mass combination"
 FirstOrder
 SecondOrder
 Dynamic SecondOrderStiffness 3 "NAME: Load Combination-1"
+```
+
+**Example 5** (With creation and setting of initial sway global imperfection):
+
+```
+CREATE InitSway_ID1 InitialSway +X BottomNode 200
+Name "Init Sway +x (Descript)"
+
+ANALYSIS RUN
+Type Elastic
+LoadCombinations "NAME: Lc-1"
+GlobalImperfection InitSway_ID1
+FirstOrder
 ```

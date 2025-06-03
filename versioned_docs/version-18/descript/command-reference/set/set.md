@@ -51,6 +51,7 @@ Object IDs from the following object types are accepted:
   - [Line load](#line-load)
   - [Surface load](#surface-load)
   - [Load transfer surface](#load-transfer-surface)
+  - [Initial sway](#nitial-sway) <span style={{color:"MediumSeaGreen"}}>(since CS 18 build 4124)</span>
 - Mass tab:
   - [Mass group](#mass-group)
   - [Mass case](#mass-case)
@@ -1282,6 +1283,40 @@ SET LTS_ID1 BeamDefType Selected
 SET LTS_ID1 BeamIDs arrBeamIDs
 SET LTS_ID1 DistribMethod DisMethodStructPoint
 SET LTS_ID1 LoadEccZ 123
+```
+
+## Initial sway
+
+<span style={{color:"MediumSeaGreen"}}>(since CS 18 build 4124)</span>
+
+Available object attributes:
+
+| **Object attribute name** | **Object attribute** (type this into Descript) | **Value format**                                            |
+| ------------------------- | ---------------------------------------------- | ----------------------------------------------------------- |
+| Name                      | Name                                           | String                                                      |
+| Angle                     | Angle                                          | Numerical                                                   |
+| Bottom height             | BottomHeight                                   | [Predefined strings](#Distribution-method-lts) or numerical |
+| Sway denominator          | Sway                                           | Numerical                                                   |
+
+#### Bottom height :
+
+<span id="Bottom-height-is" style={{paddingTop: '80px'}}> Valid inputs: </span>
+
+- BottomNode -> BaseHeight = h of bot node
+- \[Number] -> BaseHeight = \[Number] (unique height)
+
+### Sample code
+
+**All available attributes + object creation:**
+
+```
+CREATE InitSway_ID1 InitialSway -X BottomNode 200
+Name "Init Sway -x (Descript)"
+
+SET InitSway_ID1 Name "New name"
+SET InitSway_ID1 Angle 123
+SET InitSway_ID1 BottomHeight 1.3
+SET InitSway_ID1 Sway 234
 ```
 
 ## Mass group

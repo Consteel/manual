@@ -40,40 +40,41 @@ The type of object to be created.
 
 <div style={{paddingBottom: '20px'}}> </div>
 
-| **Object type name**                                                                               | **Object type**     |
-| -------------------------------------------------------------------------------------------------- | ------------------- |
-| Structural members tab                                                                             | -                   |
-| [Structural member](#structural-member)                                                            | Structural_Member   |
-| [Structural Plate](#structural-plate)                                                              | Structural_Plate    |
-| [Haunch](#haunch)                                                                                  | Haunched_Member     |
-| [Tapered member](#tapered-member)                                                                  | Tapered_Member      |
-| [Steel material](#steel-material)                                                                  | Steel               |
-| [Coated steel material](#coated-steel-material)                                                    | Coated_Steel        |
-| [Concrete material](#concrete-material)                                                            | Concrete            |
-| [Rebar material](#rebar-material)                                                                  | Rebar               |
-| [Point support](#point-support)                                                                    | Support_Point       |
-| [Line support](#line-support)                                                                      | Support_Edge        |
-| [Surface support](#surface-support)                                                                | Support_Plate       |
-| [Shear field](#shear-field) <span style={{color:"MediumSeaGreen"}}>(since CS 18 build 4124)</span> | ShearField          |
-| [Point support type](#point-support-type)                                                          | Support             |
-| [Release type](#release-type)                                                                      | Release             |
-| [Link](#link)                                                                                      | Link                |
-| Loads tab                                                                                          | -                   |
-| [Load group](#load-Group)                                                                          | LoadGroup           |
-| [Load case](#load-Case)                                                                            | LoadCase            |
-| [Load combination](#load-combination)                                                              | LoadCombination     |
-| [Point load](#point-load)                                                                          | NodeForce           |
-| [Line load](#line-load)                                                                            | MemberForce         |
-| [Surface load (uniform)](<#surface-load-(uniform)>)                                                | PlateForce_Uniform  |
-| [Surface load (linear)](<#surface-load-(linear)>)                                                  | PlateForce_Linear   |
-| [Load transfer surface](#load-transfer-surface)                                                    | LoadTransferSurface |
-| Mass tab                                                                                           | -                   |
-| [Mass group](#mass-group)                                                                          | MassGroup           |
-| [Mass case](#mass-case)                                                                            | MassCase            |
-| [Mass combination](#mass-combination)                                                              | MassCombination     |
-| [Point mass](#point-mass)                                                                          | NodeMass            |
-| Other                                                                                              | -                   |
-| [Portion](#portion)                                                                                | Portion             |
+| **Object type name**                                                                                 | **Object type**     |
+| ---------------------------------------------------------------------------------------------------- | ------------------- |
+| Structural members tab                                                                               | -                   |
+| [Structural member](#structural-member)                                                              | Structural_Member   |
+| [Structural Plate](#structural-plate)                                                                | Structural_Plate    |
+| [Haunch](#haunch)                                                                                    | Haunched_Member     |
+| [Tapered member](#tapered-member)                                                                    | Tapered_Member      |
+| [Steel material](#steel-material)                                                                    | Steel               |
+| [Coated steel material](#coated-steel-material)                                                      | Coated_Steel        |
+| [Concrete material](#concrete-material)                                                              | Concrete            |
+| [Rebar material](#rebar-material)                                                                    | Rebar               |
+| [Point support](#point-support)                                                                      | Support_Point       |
+| [Line support](#line-support)                                                                        | Support_Edge        |
+| [Surface support](#surface-support)                                                                  | Support_Plate       |
+| [Shear field](#shear-field) <span style={{color:"MediumSeaGreen"}}>(since CS 18 build 4124)</span>   | ShearField          |
+| [Point support type](#point-support-type)                                                            | Support             |
+| [Release type](#release-type)                                                                        | Release             |
+| [Link](#link)                                                                                        | Link                |
+| Loads tab                                                                                            | -                   |
+| [Load group](#load-Group)                                                                            | LoadGroup           |
+| [Load case](#load-Case)                                                                              | LoadCase            |
+| [Load combination](#load-combination)                                                                | LoadCombination     |
+| [Point load](#point-load)                                                                            | NodeForce           |
+| [Line load](#line-load)                                                                              | MemberForce         |
+| [Surface load (uniform)](<#surface-load-(uniform)>)                                                  | PlateForce_Uniform  |
+| [Surface load (linear)](<#surface-load-(linear)>)                                                    | PlateForce_Linear   |
+| [Load transfer surface](#load-transfer-surface)                                                      | LoadTransferSurface |
+| [Initial sway](#initial-sway) <span style={{color:"MediumSeaGreen"}}>(since CS 18 build 4124)</span> | InitialSway         |
+| Mass tab                                                                                             | -                   |
+| [Mass group](#mass-group)                                                                            | MassGroup           |
+| [Mass case](#mass-case)                                                                              | MassCase            |
+| [Mass combination](#mass-combination)                                                                | MassCombination     |
+| [Point mass](#point-mass)                                                                            | NodeMass            |
+| Other                                                                                                | -                   |
+| [Portion](#portion)                                                                                  | Portion             |
 
 #### Object parameters:
 
@@ -2115,6 +2116,77 @@ CREATE LTS_ID1 LoadTransferSurface "LTS 1"
 3000 0 0
 3000 3000 0
 0 3000 0
+```
+
+## Initial sway
+
+<span style={{color:"MediumSeaGreen"}}>(since CS 18 build 4124)</span>
+
+This command is analogous with the iitial sway tab of the global imperfections dialogue in Consteel:
+
+![](img\Create_InitialSway_Img_v01.png)
+
+### Syntax
+
+**CREATE** \[Object ID] **InitialSway** \[Direction] \[Bottom height] \[Sway denominator]
+Name \[Object Name]
+
+### Command parameters
+
+| **Command parameter**                    | **Assignment** | **Value format**                                        | **Input options** |
+| ---------------------------------------- | -------------- | ------------------------------------------------------- | ----------------- |
+| [Object ID](#Object-ID-is)               | Required       | String                                                  | Local, variable   |
+| [Direction](#Direction-is)               | Required       | [Predefined strings](#mass-group-types-mg) or numerical | Local, variable   |
+| [Bottom height](#Bottom-height-is)       | Required       | [Predefined strings](#mass-group-types-mg) or numerical | Local, variable   |
+| [Sway denominator](#Sway-denominator-is) | Required       | Numerical                                               | Local, variable   |
+| [Object name](#Object-name-is)           | Optional       | String                                                  | Local, variable   |
+
+#### Object ID: {#Object-ID-is}
+
+A string of characters that is used to identify the object that is being created.
+
+#### Direction: {#Direction-is}
+
+Direction of the initial sway.
+
+<span id="mass-group-types-mg" style={{paddingTop: '80px'}}> Available inputs: </span>
+
+- +X -> angle = 0
+- -X -> angle = 180
+- +Y -> angle = 270
+- -Y -> angle = 90
+- \[Number] -> angle = \[Number] (unique angle from axis "x")
+
+#### Bottom height: {#Bottom-height-is}
+
+Height of base level.
+
+<span id="mass-group-types-mg" style={{paddingTop: '80px'}}> Available inputs: </span>
+
+- BottomNode -> BaseHeight = h of bot node
+- \[Number] -> BaseHeight = \[Number] (unique height)
+
+#### Sway denominator: {#Sway-denominator-is}
+
+Extent of the initial sway (1/φi).
+
+#### Object name: {#Object-name-is}
+
+Name of the initial sway.
+
+### Sample code
+
+**Command only:** (minimal parameters)
+
+```
+CREATE InitSway_ID1 InitialSway +X BottomNode 200
+```
+
+**Command only:** (all parameters)
+
+```
+CREATE InitSway_ID1 InitialSway -X BottomNode 200
+Name "Init Sway -x (Descript)"
 ```
 
 ## Mass group
