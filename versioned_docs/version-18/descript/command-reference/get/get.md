@@ -52,7 +52,7 @@ Object IDs from the following object types are accepted:
   - [Line load](#line-load)
   - [Surface load](#surface-load)
   - [Load transfer surface](#Load-transfer-surface)
-  - [Initial sway](#nitial-sway) <span style={{color:"MediumSeaGreen"}}>(since CS 18 build 4124)</span>
+  - [Initial sway](#initial-sway) <span style={{color:"MediumSeaGreen"}}>(since CS 18 build 4124)</span>
 - Mass tab:
   - [Mass group](#mass-group)
   - [Mass case](#mass-case)
