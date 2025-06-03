@@ -2128,18 +2128,18 @@ This command is analogous with the iitial sway tab of the global imperfections d
 
 ### Syntax
 
-**CREATE** \[Object ID] **InitialSway** \[Direction] \[Bottom height] \[Sway denominator]
+**CREATE** \[Object ID] **InitialSway** \[Direction] \[Bottom height] \[Sway denominator]  
 Name \[Object Name]
 
 ### Command parameters
 
-| **Command parameter**                    | **Assignment** | **Value format**                                        | **Input options** |
-| ---------------------------------------- | -------------- | ------------------------------------------------------- | ----------------- |
-| [Object ID](#Object-ID-is)               | Required       | String                                                  | Local, variable   |
-| [Direction](#Direction-is)               | Required       | [Predefined strings](#mass-group-types-mg) or numerical | Local, variable   |
-| [Bottom height](#Bottom-height-is)       | Required       | [Predefined strings](#mass-group-types-mg) or numerical | Local, variable   |
-| [Sway denominator](#Sway-denominator-is) | Required       | Numerical                                               | Local, variable   |
-| [Object name](#Object-name-is)           | Optional       | String                                                  | Local, variable   |
+| **Command parameter**                    | **Assignment** | **Value format**                                            | **Input options** |
+| ---------------------------------------- | -------------- | ----------------------------------------------------------- | ----------------- |
+| [Object ID](#Object-ID-is)               | Required       | String                                                      | Local, variable   |
+| [Direction](#Direction-is)               | Required       | [Predefined strings](#Direction-inputs-is) or numerical     | Local, variable   |
+| [Bottom height](#Bottom-height-is)       | Required       | [Predefined strings](#Bottom-height-inputs-is) or numerical | Local, variable   |
+| [Sway denominator](#Sway-denominator-is) | Required       | Numerical                                                   | Local, variable   |
+| [Object name](#Object-name-is)           | Optional       | String                                                      | Local, variable   |
 
 #### Object ID: {#Object-ID-is}
 
@@ -2149,7 +2149,7 @@ A string of characters that is used to identify the object that is being created
 
 Direction of the initial sway.
 
-<span id="mass-group-types-mg" style={{paddingTop: '80px'}}> Available inputs: </span>
+<span id="Direction-inputs-is" style={{paddingTop: '80px'}}> Available inputs: </span>
 
 - +X -> angle = 0
 - -X -> angle = 180
@@ -2161,7 +2161,7 @@ Direction of the initial sway.
 
 Height of base level.
 
-<span id="mass-group-types-mg" style={{paddingTop: '80px'}}> Available inputs: </span>
+<span id="Bottom-height-inputs-is" style={{paddingTop: '80px'}}> Available inputs: </span>
 
 - BottomNode -> BaseHeight = h of bot node
 - \[Number] -> BaseHeight = \[Number] (unique height)
