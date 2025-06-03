@@ -52,6 +52,7 @@ Object IDs from the following object types are accepted:
   - [Line load](#line-load)
   - [Surface load](#surface-load)
   - [Load transfer surface](#Load-transfer-surface)
+  - [Initial sway](#nitial-sway) <span style={{color:"MediumSeaGreen"}}>(since CS 18 build 4124)</span>
 - Mass tab:
   - [Mass group](#mass-group)
   - [Mass case](#mass-case)
@@ -1212,6 +1213,35 @@ GET LTS_ID1 BeamDefType BeamDefType
 GET LTS_ID1 BeamIDs BeamIDs
 GET LTS_ID1 DistribMethod DistribMethod
 GET LTS_ID1 LoadEccZ LoadEccZ
+```
+
+## Initial sway
+
+<span style={{color:"MediumSeaGreen"}}>(since CS 18 build 4124)</span>
+
+Available object attributes:
+
+| **Object attribute name** | **Object attribute** (type this into Descript) |
+| ------------------------- | ---------------------------------------------- |
+| Name                      | Name                                           |
+| Object type               | Object_Type                                    |
+| Angle                     | Angle                                          |
+| Bottom height             | BottomHeight                                   |
+| Sway denominator          | Sway                                           |
+
+### Sample code
+
+**All available attributes + object creation:**
+
+```
+CREATE InitSway_ID1 InitialSway -X BottomNode 200
+Name "Init Sway -x (Descript)"
+
+GET InitSway_ID1 Name Name
+GET InitSway_ID1 Object_Type Object_Type
+GET InitSway_ID1 Angle Angle
+GET InitSway_ID1 BottomHeight BottomHeight
+GET InitSway_ID1 Sway Sway
 ```
 
 ## Mass group
