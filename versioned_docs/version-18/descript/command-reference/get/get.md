@@ -40,7 +40,7 @@ Object IDs from the following object types are accepted:
   - [Point support](#point-support)
   - [Line support](#line-support)
   - [Surface support](#surface-support)
-  - [Shear field](#shear-field)
+  - [Shear field](#shear-field) <span style={{color:"MediumSeaGreen"}}>(since CS 18 build 4124)</span>
   - [Support type](#support-type)
   - [Release type](#release-type)
   - [Link ](#link)

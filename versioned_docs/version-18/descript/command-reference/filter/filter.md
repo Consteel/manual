@@ -43,40 +43,40 @@ Object types the command will filter within. One ore more object types can be gi
 
 <div style={{paddingBottom: '20px'}}> </div>
 
-| **Object type name**   | **Object type**     |
-| ---------------------- | ------------------- |
-| Structural members tab | -                   |
-| Section                | Section             |
-| Structural member      | Structural_Member   |
-| Structural Plate       | Structural_Plate    |
-| Haunch                 | Haunched_Member     |
-| Tapered member         | Tapered_Member      |
-| Steel material         | Steel               |
-| Coated steel material  | Coated_Steel        |
-| Concrete material      | Concrete            |
-| Rebar material         | Rebar               |
-| Point support          | Support_Point       |
-| Line support           | Support_Edge        |
-| Surface support        | Support_Plate       |
-| Shear field            | ShearField          |
-| Point support type     | Support             |
-| Release type           | Release             |
-| Link                   | Link                |
-| Loads tab              | -                   |
-| Load group             | LoadGroup           |
-| Load case              | LoadCase            |
-| Load combination       | LoadCombination     |
-| Point load             | NodeForce           |
-| Line load              | MemberForce         |
-| Surface load           | PlateForce          |
-| Load transfer surface  | LoadTransferSurface |
-| Mass tab               | -                   |
-| Mass group             | MassGroup           |
-| Mass case              | MassCase            |
-| Mass combination       | MassCombination     |
-| Point mass             | NodeMass            |
-| Other                  | -                   |
-| Portion                | Portion             |
+| **Object type name**                                                               | **Object type**     |
+| ---------------------------------------------------------------------------------- | ------------------- |
+| Structural members tab                                                             | -                   |
+| Section                                                                            | Section             |
+| Structural member                                                                  | Structural_Member   |
+| Structural Plate                                                                   | Structural_Plate    |
+| Haunch                                                                             | Haunched_Member     |
+| Tapered member                                                                     | Tapered_Member      |
+| Steel material                                                                     | Steel               |
+| Coated steel material                                                              | Coated_Steel        |
+| Concrete material                                                                  | Concrete            |
+| Rebar material                                                                     | Rebar               |
+| Point support                                                                      | Support_Point       |
+| Line support                                                                       | Support_Edge        |
+| Surface support                                                                    | Support_Plate       |
+| Shear field <span style={{color:"MediumSeaGreen"}}>(since CS 18 build 4124)</span> | ShearField          |
+| Point support type                                                                 | Support             |
+| Release type                                                                       | Release             |
+| Link                                                                               | Link                |
+| Loads tab                                                                          | -                   |
+| Load group                                                                         | LoadGroup           |
+| Load case                                                                          | LoadCase            |
+| Load combination                                                                   | LoadCombination     |
+| Point load                                                                         | NodeForce           |
+| Line load                                                                          | MemberForce         |
+| Surface load                                                                       | PlateForce          |
+| Load transfer surface                                                              | LoadTransferSurface |
+| Mass tab                                                                           | -                   |
+| Mass group                                                                         | MassGroup           |
+| Mass case                                                                          | MassCase            |
+| Mass combination                                                                   | MassCombination     |
+| Point mass                                                                         | NodeMass            |
+| Other                                                                              | -                   |
+| Portion                                                                            | Portion             |
 
 #### Filters:
 
