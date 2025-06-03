@@ -138,6 +138,7 @@ The type of objects to be deleted. Only 1 object type can be given within one DE
 | Point support          | Support_Point       |
 | Line support           | Support_Edge        |
 | Surface support        | Support_Plate       |
+| Shear field            | ShearField          |
 | Point support type     | Support             |
 | Release type           | Release             |
 | Link                   | Link                |

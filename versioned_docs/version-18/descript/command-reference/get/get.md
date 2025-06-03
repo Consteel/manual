@@ -40,6 +40,7 @@ Object IDs from the following object types are accepted:
   - [Point support](#point-support)
   - [Line support](#line-support)
   - [Surface support](#surface-support)
+  - [Shear field](#shear-field)
   - [Support type](#support-type)
   - [Release type](#release-type)
   - [Link ](#link)
@@ -681,6 +682,53 @@ GET SurfSup_ID1 Object_Type Object_Type
 GET SurfSup_ID1 SupportID SupportID
 GET SurfSup_ID1 PlateID PlateID
 GET SurfSup_ID1 DirType DirType
+```
+
+## Shear field
+
+Available object attributes:
+
+| **Object attribute name** | **Object attribute** (type this into Descript) |
+| ------------------------- | ---------------------------------------------- |
+| Name                      | Name                                           |
+| Object type               | Object_Type                                    |
+| Member ID                 | BeamID                                         |
+| Stiffness                 | StiffnessValue                                 |
+| Effective width           | EffectiveWidth                                 |
+| Eccentricity - z          | EccZ                                           |
+| Reference point 1         | End1                                           |
+| Reference point 2         | End2                                           |
+| Distance 1                | Pos1                                           |
+| Distance 2                | Pos2                                           |
+| Eccentricity reference    | EccType                                        |
+
+### Sample code
+
+**All available attributes + object creation:**
+
+```
+LOAD_SECTION_MACRO SecID WLD-IH "I 200 Welded" "S 235 EN 10025-2" 100 10 200 6 100 10
+
+CREATE Member_ID1 Structural_member "I 200 Welded"
+0 0 0
+6000 0 0
+
+CREATE SF_ID1 ShearField Member_ID1 Manual 1000 5 10
+0 1
+200 400
+EccType EccType_TM
+
+GET SF_ID1 Name Name
+GET SF_ID1 Object_Type Object_Type
+GET SF_ID1 BeamID BeamID
+GET SF_ID1 StiffnessValue StiffnessValue
+GET SF_ID1 EffectiveWidth EffectiveWidth
+GET SF_ID1 EccZ EccZ
+GET SF_ID1 End1 End1
+GET SF_ID1 End2 End2
+GET SF_ID1 Pos1 Pos1
+GET SF_ID1 Pos2 Pos2
+GET SF_ID1 EccType EccType
 ```
 
 ## Support type

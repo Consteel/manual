@@ -54,6 +54,7 @@ The type of object to be created.
 | [Point support](#point-support)                     | Support_Point       |
 | [Line support](#line-support)                       | Support_Edge        |
 | [Surface support](#surface-support)                 | Support_Plate       |
+| [Shear field](#shear-field)                         | ShearField          |
 | [Point support type](#point-support-type)           | Support             |
 | [Release type](#release-type)                       | Release             |
 | [Link](#link)                                       | Link                |
@@ -118,8 +119,8 @@ AverageEdgeLength_flange [FE size flange]
 | [Object name](#Object-name-mem)                                   | Optional       | String                                  | Local, variable   |
 | [Release start](#Release-start-mem)                               | Optional       | String                                  | Local, variable   |
 | [Release end](#Release-end-mem)                                   | Optional       | String                                  | Local, variable   |
-| [Eccentricity y](#Eccentricity-y-mem)                             | Optional       | Integer                                 | Local, variable   |
-| [Eccentricity z](#ccentricity-z-mem)                              | Optional       | Integer                                 | Local, variable   |
+| [Eccentricity y](#Eccentricity-y-mem)                             | Optional       | Numerical                               | Local, variable   |
+| [Eccentricity z](#ccentricity-z-mem)                              | Optional       | Numerical                               | Local, variable   |
 | [Rotation](#Rotation-mem)                                         | Optional       | Numerical                               | Local, variable   |
 | [Initial bow imperfection L/y](#Initial-bow-imperfection-L/y-mem) | Optional       | Numerical                               | Local, variable   |
 | [Initial bow imperfection L/z](#Initial-bow-imperfection-L/z-mem) | Optional       | Numerical                               | Local, variable   |
@@ -1001,6 +1002,126 @@ CREATE Plate_ID1 Structural_Plate "C25/30 EN 1992-1-1:2010" 200
 CREATE SurfSup_ID1 Support_Plate Plate_ID1 Fixed
 Name "Surface support 1"
 CoordSys Local
+```
+
+## Shear field
+
+This command is analogous with the shear field creation dialogue in Consteel:
+
+[![](./img/Create_ShearField_Img_v01.png)](./img/Create_ShearField_Img_v01.png)
+
+### Syntax
+
+**CREATE** \[Object ID] **ShearField** \[Member ID] \[Stiffness definition type] \[Stiffness] \[Effective width] \[Eccentricity z]  
+[Reference point 1] [Reference point 2]  
+[Distance 1] [Distance 2]  
+EccType [Eccentricity reference]
+
+### Command parameters
+
+| **Command parameter**                                      | **Assignment** | **Value format**                                | **Input options** |
+| ---------------------------------------------------------- | -------------- | ----------------------------------------------- | ----------------- |
+| [Object ID](#Object-ID-sf)                                 | Required       | String                                          | Local, variable   |
+| [Member ID](#Member-ID-sf)                                 | Required       | Member name or ID                               | Local, variable   |
+| [Stiffness definition type](#Stiffness-definition-type-sf) | Required       | [Predefined strings](#Stiff-DefTypes-inputs-sf) | Local, variable   |
+| [Stiffness](#Stiffness-sf)                                 | Required       | Numerical                                       | Local, variable   |
+| [Effective width](#Effective-width-sf)                     | Required       | Numerical                                       | Local, variable   |
+| [Eccentricity z](#Eccentricity-z-sf)                       | Optional       | Numerical                                       | Local, variable   |
+| [Reference point 1](#Reference-point-1-sf)                 | Required       | Numerical                                       | Local, variable   |
+| [Reference point 2](#Reference-point-2-sf)                 | Required       | Numerical                                       | Local, variable   |
+| [Distance 1](#Distance-1-sf)                               | Required       | Numerical                                       | Local, variable   |
+| [Distance 2](#Distance-2-sf)                               | Required       | Numerical                                       | Local, variable   |
+| [Eccentricity reference](#Eccentricity-reference-sf)       | Optional       | [Predefined strings](#Ecctype-options-sf)       | Local, variable   |
+
+#### Object ID: {#Object-ID-sf}
+
+A string of characters that is used to identify the object that is being created.
+
+#### Member ID: {#Member-ID-sf}
+
+ID of the member to which the shear field will be attached. The accepted input is either a member ID or the name of the member with this syntax: "NAME: [Member name]"
+
+#### Stiffness definition type: {#Stiffness-definition-type-sf}
+
+<span id="Stiff-DefTypes-inputs-sf" style={{paddingTop: '80px'}}> Available inputs: </span>
+
+- Manual
+
+#### Stiffness: {#Stiffness-sf}
+
+Stiffness value of the shear field in \[kN/m]. Must be a positive number.
+
+#### Effective width: {#Effective-width-sf}
+
+Effective width of the sehar field in \[m]. Must be a non-negative number.
+
+#### Eccentricity z: {#Eccentricity-z-sf}
+
+Shear field eccentricity in the local z direction.
+
+#### Reference point 1: {#Reference-point-1-sf}
+
+Parameter that controls the starting location of the shear field.
+
+Available inputs:
+
+- 0 → from end A
+- 1 → from end B
+
+#### Reference point 2: {#Reference-point-2-sf}
+
+Parameter that controls the end location of the shear field.
+
+Available inputs:
+
+- 0 → from end A
+- 1 → from end B
+- 2 → Relative
+
+#### Distance 1: {#Distance-1-sf}
+
+Distance of the start of the shear field from the member end set by the Reference point 1 parameter.
+
+#### Distance 2: {#Distance-2-sf}
+
+Distance of the end of the shear field from the member end set by the Reference point 2 parameter. If Reference point 2 = 2 (Relative), then the length of the shear field is measured from the starting point.
+
+#### Eccentricity reference: {#Eccentricity-reference-sf}
+
+<span id="Ecctype-options-sf" style={{paddingTop: '80px'}}> Available inputs: </span>
+
+<div style={{paddingBottom: '20px'}}> </div>
+
+| **Eccentricity reference name** | **Eccentricity reference** |
+| ------------------------------- | -------------------------- |
+| Reference line (0)              | EccType_C                  |
+| Bottom Middle (2)               | EccType_BM                 |
+| Middle Middle (5)               | EccType_MM                 |
+| Top Middle (8)                  | EccType_TM                 |
+
+### Sample code
+
+**Command only:** (minimal parameters)
+
+```
+CREATE SF_ID1 ShearField Member_ID1 Manual 1000 5
+0 1
+0 0
+```
+
+**With section, member creation and all parameters:**
+
+```
+LOAD_SECTION_MACRO SecID WLD-IH "I 200 Welded" "S 235 EN 10025-2" 100 10 200 6 100 10
+
+CREATE Member_ID1 Structural_member "I 200 Welded"
+0 0 0
+6000 0 0
+
+CREATE SF_ID1 ShearField Member_ID1 Manual 1000 5 10
+0 1
+200 400
+EccType EccType_TM
 ```
 
 ## Point support type
