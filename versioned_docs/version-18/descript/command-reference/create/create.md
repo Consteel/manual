@@ -59,8 +59,8 @@ The type of object to be created.
 | [Release type](#release-type)                                                                        | Release             |
 | [Link](#link)                                                                                        | Link                |
 | Loads tab                                                                                            | -                   |
-| [Load group](#load-Group)                                                                            | LoadGroup           |
-| [Load case](#load-Case)                                                                              | LoadCase            |
+| [Load group](#load-group)                                                                            | LoadGroup           |
+| [Load case](#load-case)                                                                              | LoadCase            |
 | [Load combination](#load-combination)                                                                | LoadCombination     |
 | [Point load](#point-load)                                                                            | NodeForce           |
 | [Line load](#line-load)                                                                              | MemberForce         |
