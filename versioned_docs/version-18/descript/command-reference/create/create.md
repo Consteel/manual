@@ -358,13 +358,13 @@ Hot rolled or welded haunch
 
 #### Hot rolled haunch:
 
-**CREATE** \[Object ID] **Haunched_Member** \[Member ID] \[Format] \[L] \[hs] \[he] \[Section name]
+**CREATE** \[Object ID] **Haunched_Member** \[Member ID] \[Format] \[L] \[hs] \[he] \[Section name]  
 \[x1] \[y1] \[z1]  
 \[x2] \[y2] \[z2]
 
 #### Welded haunch:
 
-**CREATE** \[Object ID] **Haunched_Member** \[Member ID] \[Format] \[L] \[hs] \[he] \[tw] \[b] \[tf]
+**CREATE** \[Object ID] **Haunched_Member** \[Member ID] \[Format] \[L] \[hs] \[he] \[tw] \[b] \[tf]  
 \[x1] \[y1] \[z1]  
 \[x2] \[y2] \[z2]
 
