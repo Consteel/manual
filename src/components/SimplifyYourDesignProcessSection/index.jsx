@@ -44,7 +44,7 @@ const SimplifyYourDesignProcessSection = () => {
                   </Button>
                 </a>
                 <a
-                  href="https://consteelsoftware.com/products/offers-licensing/"
+                  href="https://consteelsoftware.com/offers-licensing/"
                   target="_blank"
                 >
                   <Button variant="default" className="margin--md">
