@@ -319,7 +319,7 @@ the license plan, available membership, Team plan, Billing and Pricing details.
 
 <!-- wp:paragraph -->
 
-- **User Management** here the License holder has to assign users to software accesses. Every access is connected to a Consteel Community Membership level. Cloud services available in Consteel are set by these [membership levels](https://Consteelsoftware.com/products/offers-licensing/#ccm).
+- **User Management** here the License holder has to assign users to software accesses. Every access is connected to a Consteel Community Membership level. Cloud services available in Consteel are set by these [membership levels](https://consteelsoftware.com/offers-licensing/#ccm).
 By clicking on the "Add user" card the license holder can type the user's email address registered as a Consteel account then click add to assign that particular access. ![alt text](<img/Add user.png>)
 By clicking on the three-dotted icon the license holder can move a user to another available membership or remove the user. ![alt text](<img/three-dotted icon.png>) One user can be assigned to only one software access at a time. After assigning users to software accesses the license holder can give online seat access to these users. By clicking on a seat's panel the panel will open and the license holder can select a user from the list of assigned users to give access to that particular user. After selecting a user the "Give access" button will be active and clickable. Users can be removed from a seat by clicking on the "X" icon. One user can be assigned to multiple seats.
 

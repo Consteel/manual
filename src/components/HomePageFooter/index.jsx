@@ -67,7 +67,7 @@ export default function HomePageFooter() {
           <div>
             <a
               className={clsx([styles["home-page-footer-link"]])}
-              href="https://consteelsoftware.com/products/offers-licensing/ "
+              href="https://consteelsoftware.com/offers-licensing/ "
             >
               <Translation>Plans</Translation>
             </a>

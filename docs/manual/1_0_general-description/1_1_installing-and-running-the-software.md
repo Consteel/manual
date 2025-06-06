@@ -341,7 +341,7 @@ The software license grants the use by software accesses and software seats, the
 
 <!-- wp:paragraph -->
 
-**(2)** First the License holder has to assign users to software accesses. Every access is connected to a Consteel Community Membership level. Cloud services available in Consteel are set by these [membership levels](https://Consteelsoftware.com/products/offers-licensing/#ccm).
+**(2)** First the License holder has to assign users to software accesses. Every access is connected to a Consteel Community Membership level. Cloud services available in Consteel are set by these [membership levels](https://consteelsoftware.com/offers-licensing/#ccm).
 
 <!-- /wp:paragraph -->
 
