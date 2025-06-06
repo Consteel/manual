@@ -198,7 +198,7 @@ export default function HomePageFooter() {
             </Button>
           </a>
           <a
-            href="https://consteelsoftware.com/products/offers-licensing/"
+            href="https://consteelsoftware.com/offers-licensing/"
             target="_blank"
           >
             <Button className="margin-vert--md">
