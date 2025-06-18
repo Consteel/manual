@@ -34,7 +34,7 @@ For the wind load simulation, the **Velocity Pressure** and **Geometric Paramete
   - Building dimensions relative to the primary wind direction
   - The exact dimension of the load area is not relevant in the wind simulation in the beta version.
 
-For more information on meteorological effects, please refer to the [_Load chapter_](../../../manual/6_0_structural-loads/6_6_meteorological-loads.md) in the Consteel manual.
+For more information on meteorological effects, please refer to the **Load chapter** in the Consteel manual.
 
 
 
