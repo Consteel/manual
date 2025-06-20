@@ -3,6 +3,11 @@ sidebar_position: 1
 ---
 # Installing and running the software
 
+A valid subscription plan—Trial, Educational, or part of a paid subscription—is required to use the software. A Consteel account is also needed to install Consteel, access the installer files, and use the online services included in your subscription plan. You can create your Consteel account on our website. 
+
+:::info
+[Students](https://consteelsoftware.com/student-and-education/), [teachers](https://consteelsoftware.com/student-and-education/), and trial users must request a subscription online. Please read the steps [here](https://consteelsoftware.com/offers-licensing/licensing-faq/). 
+:::
 
 <!-- wp:Consteel/content-block -->
 
@@ -11,6 +16,8 @@ sidebar_position: 1
 <!-- wp:paragraph -->
 
 Please ensure that the following software and hardware requirements are met in order to run the Consteel program. Otherwise, it may not run at the expected speed or may not run at all.
+
+## **Requirements**
 
 <!-- /wp:paragraph -->
 
@@ -91,7 +98,7 @@ Installation needs administrative or power user rights. Without that, the hard l
 
 <!-- wp:paragraph -->
 
-#### **Downloading the install package**
+## **Downloading the install package**
 
 <!-- /wp:paragraph -->
 
@@ -103,7 +110,7 @@ The ConSteel install package can be downloaded from the [Downloads/Install packa
 
 <!-- wp:paragraph -->
 
-**Registration process**
+## **Create an account**
 
 <!-- /wp:paragraph -->
 
@@ -139,7 +146,7 @@ To create a new user account, click the **LOG IN** button in the upper right cor
 
 <!-- wp:paragraph -->
 
-**Installing Consteel**
+## **Installing Consteel**
 
 <!-- /wp:paragraph -->
 
@@ -151,7 +158,7 @@ To install Consteel, start the downloaded installation file and follow the instr
 
 <!-- wp:paragraph -->
 
-#### **Network operation**
+### **Network operation**
 
 <!-- /wp:paragraph -->
 
@@ -173,8 +180,7 @@ If you have purchased a network-enabled hardware key, it can be connected to any
 
 <!-- wp:paragraph -->
 
-#### **Starting the program**
-
+## **Starting the program for the first time**
 
 <!-- /wp:paragraph -->
 
@@ -192,8 +198,6 @@ You can save this setting as a default setting. **Do this only if you are sure a
 
 <!-- wp:paragraph -->
 
-Students, teachers, or trial users only can request an online license. Please for trial users read our guide [here](https://Consteelsoftware.com/how-licensing-works/#trialuser), for educational members, read the steps [here](https://Consteelsoftware.com/student-and-education/).
-
 <!-- /wp:paragraph -->
 
 <!-- wp:columns -->
@@ -204,7 +208,7 @@ Students, teachers, or trial users only can request an online license. Please fo
 
 ![alt text](<img/select protection USB.png>)
 
-Hardware key dongle
+USB dongle
 
 <!-- /wp:image -->
 
@@ -216,7 +220,7 @@ Hardware key dongle
 
 ![alt text](<img/Select protection Onile.png>)
 
-Online license
+Online protection
 
 <!-- /wp:image -->
 
@@ -230,7 +234,7 @@ Online license
 
 <!-- wp:paragraph -->
 
-#### **Selecting USB Dongle**
+### **Selecting USB Dongle**
 
 <!-- /wp:paragraph -->
 
@@ -242,7 +246,7 @@ Before starting the program, you must plug the hardware key (dongle) into an emp
 
 <!-- wp:paragraph -->
 
-#### **Selecting Online**
+### **Selecting Online**
 
 <!-- /wp:paragraph -->
 
@@ -253,6 +257,8 @@ You will need to log in with your online account to use Consteel with your onlin
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
+
+## **How to use Consteel offline**
 
 According to your membership level, you can take the chosen seat as an offline seat for 72 hours maximum. To do this, select the check box behind the selected seat and enter the length of offline use by clicking the clock icon that appears. (You can also do this later, while the program is running, using the License menu item in the main menu.)
 
@@ -282,17 +288,32 @@ If you have other problems please [contact us](https://Consteelsoftware.com/cont
 
 Seat selection
 
+## **Subscription information**
+
+The general Subscription page covers software access-related information together with the End Use Agreement. Some of our latest articles can also be found on this first panel.
+
+![alt text](<img/subscription information.png>)
+
+![alt text](<img/general Subscription page.png>)
+
+## **Subscription admin details**
+
+Subscription plan admins can verify the following on the Details page: details of the purchased plans, available memberships, and billing information.
+
+![alt text](<img/User management1.png>)
+
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 
-#### **End-user management tool for teams**
+## **User management**
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
 Regarding teams, any access can be flexibly connected to any seat in the End-user management tool by the License holder. The End-user management tool is located at the license holder's online account/subscription submenu under the My account tab.
+
 ![alt text](<img/my account.png>)
 
 <!-- /wp:paragraph -->
@@ -315,10 +336,21 @@ the license plan, available membership, Team plan, Billing and Pricing details.
 <!-- wp:paragraph -->
 
 - **User Management** here the License holder has to assign users to software accesses. Every access is connected to a Consteel Community Membership level. Cloud services available in Consteel are set by these [membership levels](https://consteelsoftware.com/offers-licensing/#ccm).
-By clicking on the "Add user" card the license holder can type the user's email address registered as a Consteel account then click add to assign that particular access. ![alt text](<img/Add user.png>)
-By clicking on the three-dotted icon the license holder can move a user to another available membership or remove the user. ![alt text](<img/three-dotted icon.png>) One user can be assigned to only one software access at a time. After assigning users to software accesses the license holder can give online seat access to these users. By clicking on a seat's panel the panel will open and the license holder can select a user from the list of assigned users to give access to that particular user. After selecting a user the "Give access" button will be active and clickable. Users can be removed from a seat by clicking on the "X" icon. One user can be assigned to multiple seats.
+By clicking on the "Add user" card the license holder can type the user's email address registered as a Consteel account then click add to assign that particular access. 
 
-![alt text](<img/user management.png>)
+![alt text](<img/User management2.png>) ![alt text](<img/User management3.png>)
+
+By clicking on the three-dotted icon the license holder can move a user to another available membership or remove the user. 
+
+![alt text](<img/three-dotted icon.png>) 
+
+One user can be assigned to only one software access at a time. After assigning users to software accesses the license holder can give online seat access to these users. By clicking on a seat's panel the panel will open and the license holder can select a user from the list of assigned users to give access to that particular user. After selecting a user the "Give access" button will be active and clickable. Users can be removed from a seat by clicking on the "X" icon. One user can be assigned to multiple seats.
+
+![alt text](<img/sermanagement 0.png>)
+
+
+
+![alt text](<img/User management4.png>)
 
 <!-- /wp:paragraph -->
 
@@ -332,7 +364,7 @@ Subscription plan information and end-user management
 
 <!-- wp:paragraph -->
 
-### **Project Center**
+## **Project Center**
 
 <!-- /wp:paragraph -->
 
@@ -361,13 +393,13 @@ In the middle-left side you can navigate to Home, + Create New, Open and Learn t
 
 ![alt text](img/tabspccs18.png)
 
-#### Home tab
+### **Home tab**
 
 This is the screen that appears when opening Consteel. It differs depending on whether you are a **commercial** or **trial** user. In the trial version, since you do not yet have any recent models, **example models** are displayed in the top section to help you get familiar with the software.
 
 For commercial users, their **recent models** appear in the same section. The bottom part is the same for all users, where all options for **Creating new** models are provided.
 
-#### Create new tab
+### **Create new tab**
 
 ![alt text](img/createnewcs18.png)
 
@@ -378,13 +410,13 @@ New models can be created by entering a name, selecting a design standard, and c
 
 ![alt text](img/opentabcs18.png)
 
-#### Open tab
+### **Open tab**
 
 ![alt text](img/thisisopencs18.png)
 
 You can choose between Open from computer, Open from Cloud and Recent files. 
 
-**Could open**
+### **Could open**
 
 If you have models in your cloud storage or someone shared a model with you, you can access those models by clicking on the _"Open from Cloud"_ button.
 
@@ -403,7 +435,7 @@ Every model opening and sharing cost data bandwidth from your storage. Your mont
 Cloud storage provided by the Steelspace platform
 When you open a model from the cloud it is always downloaded to the local device into the folder: C:\Users(username)\AppData\Local\Consteel\CloudModels and kept synchronized. The amount of data bandwidth is set by your subscription's membership level, and it will renew every month.
 
-#### Learn tab
+### **Learn tab**
 
 ![alt text](img/learnatbcs18.png)
 
@@ -415,7 +447,7 @@ Once you select an example model, a description will appear on the right side, p
 
 If you select learning material, a description of the article will appear on the right side. Below the description is the **Learn More** button, which will guide you to our Knowledge Base platform, where you can read the full article based on your membership type.
 
-#### Getting Started and Help
+### **Getting Started and Help**
 
 At the bottom-left corner of the Project Center, you will find the **Getting Started** and **Help** buttons.
 
@@ -425,7 +457,7 @@ The **Help** button will take you to the Consteel Help Center, where you can acc
 
 ![alt text](image.png)
 
-### Navigation overview
+## **Navigation overview**
 
 After opening the model, the first window that will pop up is the Navigation Overview. This window will help new users to familiarize themselves with the 
 -	**Navigation**: you can customize your navigation preferences — such as movement, rotation, and zoom — by choosing from settings used by several popular software platforms.
