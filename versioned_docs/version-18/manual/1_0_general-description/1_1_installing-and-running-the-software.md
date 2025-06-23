@@ -314,22 +314,18 @@ Subscription plan admins can verify the following on the Details page: details o
 
 Regarding teams, any access can be flexibly connected to any seat in the End-user management tool by the License holder. The End-user management tool is located at the license holder's online account/subscription submenu under the My account tab.
 
-![alt text](<img/my account.png>)
-
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
 -  **Software access** covers license-related information together with the End Use Agreement. Some of our latest articles can also be found on this first panel.
 
-![alt text](img/Subscriptions.png)
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 - **Plan and Pricing** on this page the following can be verified: 
 the license plan, available membership, Team plan, Billing and Pricing details.
 
-![alt text](<img/plan and pricing.png>)
 
 <!-- /wp:paragraph -->
 
@@ -338,13 +334,13 @@ the license plan, available membership, Team plan, Billing and Pricing details.
 - **User Management** here the License holder has to assign users to software accesses. Every access is connected to a Consteel Community Membership level. Cloud services available in Consteel are set by these [membership levels](https://consteelsoftware.com/offers-licensing/#ccm).
 By clicking on the "Add user" card the license holder can type the user's email address registered as a Consteel account then click add to assign that particular access. 
 
+![alt text](<img/sermanagement 0.png>)
+
 ![alt text](<img/User management2.png>) ![alt text](<img/User management3.png>)
 
 By clicking on the three-dotted icon the license holder can move a user to another available membership or remove the user. 
 
 One user can be assigned to only one software access at a time. After assigning users to software accesses the license holder can give online seat access to these users. By clicking on a seat's panel the panel will open and the license holder can select a user from the list of assigned users to give access to that particular user. After selecting a user the "Give access" button will be active and clickable. Users can be removed from a seat by clicking on the "X" icon. One user can be assigned to multiple seats.
-
-![alt text](<img/sermanagement 0.png>)
 
 
 ![alt text](<img/User management4.png>)
@@ -450,7 +446,7 @@ At the bottom-left corner of the Project Center, you will find the **Getting Sta
 
 Clicking the **Getting Started** button will direct you to our YouTube channel, where you can find videos about new features and tutorials on how to use the software.
 
-The **Help** button will take you to the Consteel Help Center, where you can access support for both Consteel and Steelspace. To use the Consteel Support Center or the Steelspace support, you need to register separately.
+The **Help** button will take you to the [Consteel Help Center](https://consteel.atlassian.net/servicedesk/customer/user/login?destination=portals), where you can access support for both Consteel and Steelspace. To use the [Consteel Support Center or the Steelspace support](https://consteelsoftware.com/servicecenter/support/), you need to register separately.
 
 ![alt text](image.png)
 

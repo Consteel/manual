@@ -362,14 +362,13 @@ A _Csomag és felhasználó menedzsment_ eszköz képernyője az alábbi három 
 
 <!-- wp:paragraph -->
 
-- A **Szoftver hozzáférés** tartalmaz licensszel kapcsolatos információtkat: licensz típusa, szoftver-hozzáférések (access) és szoftver-helyek (seat) száma, megtekinthető a Felhasználói szoftver hozzáférési szerződés.A szoftver licensz a szoftver-hozzáférések és szoftver-helyek segítségével biztosítja a program használatát. Csapat előfizetés esetén a következő két szakaszban lehet a hozzáféréseket kiosztani a felhasználók között. ![alt text](img/üdv.png)
+- A **Szoftver hozzáférés** tartalmaz licensszel kapcsolatos információtkat: licensz típusa, szoftver-hozzáférések (access) és szoftver-helyek (seat) száma, megtekinthető a Felhasználói szoftver hozzáférési szerződés.A szoftver licensz a szoftver-hozzáférések és szoftver-helyek segítségével biztosítja a program használatát. Csapat előfizetés esetén a következő két szakaszban lehet a hozzáféréseket kiosztani a felhasználók között. 
 
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
-- Az **Előfizetés és csomag** szakaszban lehet megtekinteni a Szoftverlicenc csomaggal kapcsolatos információkat, Elérhető tagsági szinteket, Számlázást és Díjszabás részleteket. Amennyiben Team csomaggal rendelkeznek, az ezzel kapcsolatos információk is itt jelennek meg. ![alt text](<img/HU plan and pricing.png>)
-
+- Az **Előfizetés és csomag** szakaszban lehet megtekinteni a Szoftverlicenc csomaggal kapcsolatos információkat, Elérhető tagsági szinteket, Számlázást és Díjszabás részleteket. Amennyiben Team csomaggal rendelkeznek, az ezzel kapcsolatos információk is itt jelennek meg. 
 
 
 - A **Felhasználó menedzsment**-ben lehet a felhasználókat rendelni az egyes szoftver-hozzáférésekhez. Minden szoftver-hozzáférés egy adott [Consteel Felhasználó Közösségi](https://Consteelsoftware.com/hu/termekek/ajanlatok-csomagok/#ccm) tagsági szinthez kötődik. Az elérhető online szolgáltatások körét a tagsági szint határozza meg. 
@@ -484,7 +483,7 @@ A **Projektközpont** bal alsó sarkában megtalálhatod az **Első lépések** 
 
 Ha az **Első lépések** gombra kattintasz, a YouTube csatornánkhoz irányítunk, ahol új funkciókról és a szoftver használatáról szóló videókat találsz.
 
-A **Súgó** gomb megnyomásával elérheted a Consteel Súgóközpontot, ahol a Consteel és Steelspace támogatása érhető el. A Consteel Support Center vagy a Steelspace támogatás használatához külön regisztráció szükséges.
+A **Súgó** gomb megnyomásával elérheted a [Consteel Súgóközpontot](https://consteel.atlassian.net/servicedesk/customer/user/login?destination=portals), ahol a Consteel és Steelspace támogatása érhető el. A [Consteel Support Center vagy a Steelspace támogatás](https://consteelsoftware.com/hu/servicecenter/consteel-support-services-and-help-center/) használatához külön regisztráció szükséges.
 
 ![alt text](img/elsolepesekessugocs18.png)
 
