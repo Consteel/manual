@@ -158,7 +158,7 @@ To install Consteel, start the downloaded installation file and follow the instr
 
 <!-- wp:paragraph -->
 
-### **Network operation**
+#### **Network operation**
 
 <!-- /wp:paragraph -->
 
@@ -234,7 +234,7 @@ Online protection
 
 <!-- wp:paragraph -->
 
-### **Selecting USB Dongle**
+#### **Selecting USB Dongle**
 
 <!-- /wp:paragraph -->
 
@@ -246,7 +246,7 @@ Before starting the program, you must plug the hardware key (dongle) into an emp
 
 <!-- wp:paragraph -->
 
-### **Selecting Online**
+#### **Selecting Online**
 
 <!-- /wp:paragraph -->
 
