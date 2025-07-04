@@ -17,14 +17,15 @@ Use the **FALCON-Wind Simulation** button in the _Loads tab_ to open the dialog.
 
 This dialog is divided into four sections to guide users through the settings and simulation process:
 
-#### A. Effects and Surfaces
+### A. Effects and Surfaces
 
-- **Meteorological Effect**: If not previously defined, users can navigate back to this setting by pressing the three-dots button.
+ - **Meteorological Effect**: If not previously defined, users can navigate back to this setting by pressing the three-dots button.
 
-- **Simulation Surfaces**: The number below this section indicates how many simulation surfaces are currently placed in the model. If no surfaces are defined, use the three-dots button to navigate back and define them.
+ - **Simulation Surfaces**: The number below this section indicates how many simulation surfaces are currently placed in the model. If no surfaces are defined, use the three-dots button to navigate back and define them.
 
-#### B. Simulation Settings
-- **Mesh size on structure [mm]**: Adjusts the mesh size applied to the simulation surface.
+### B. Simulation Settings
+#### **Mesh size on structure [mm]**
+  - Adjusts the mesh size applied to the simulation surface.
 
   - The average edge size of the generated meshes.
 
@@ -32,7 +33,7 @@ This dialog is divided into four sections to guide users through the settings an
 
   - The displayed recommended value is the minimum of two values: half of the shortest edge length among all the edges of the simulation surfaces or one-tenth of the smaller of the perpendicular and parallel dimensions of the building's bounding box.
 
-- **Mesh refinement factor**
+#### **Mesh refinement factor**
 
 
   - The refinement factor (r) is used to increase the finite volume cell edge sizes (c) at the boundaries of the simulation domain, which are considered to be far enough from the building, therefore it is not necessary to calculate field values as densely as it is calculated around the building according to the mesh size on structure (s) parameter, which leads to quicker simulations. The formula to calculate the cell size at the boundaries is the following:
@@ -41,30 +42,37 @@ This dialog is divided into four sections to guide users through the settings an
 
   - The refinement is performed by cutting cells/finite volumes in half in each direction, i.e. a 3-D cell is transformed into 8 cells. In other words from the domain boundaries to the building in question the cell sizes are gradually decreasing to produce a refined mesh around the investigated building.
 
-- **Meshing on simulation surface**
+#### **Meshing on simulation surface**
   - This setting affects only FEM generation. Disable it when working with buildings made up of multiple smaller simulation surfaces which can be considered as faces that together form a mesh and no extra refinement is needed.
 
-- **Advanced Settings**: Default settings are generally suitable, but advanced parameters can be adjusted if needed. Use the three dots button to modify:
+ **Advanced Settings**: Default settings are generally suitable, but advanced parameters can be adjusted if needed. Use the three dots button to modify:
 
-  - **Temperature**: The air temperature around the building to calculate kinematic viscosity required for simulation
-  - **Turbulence Model**: The mathematical model applied to predict the effects of turbulence during simulation.
-  - **Number of Processors**: The number of processors to run simulations in parallel.
-  - **Number of Iterations**: The last iteration step, in case of non-convergence.
-  - **Convergence Criteria**: The criteria of convergence for the calculated fields.
-  - **Domain Dimension Parameters**: A set of dimensional multipliers. These values are used to multiply the height of the bounding box to obtain the actual dimensions of the finite simulation domain. 
+  #### **Temperature**
+  - The air temperature around the building to calculate kinematic viscosity required for simulation
+  #### **Turbulence Model**
+  - The mathematical model applied to predict the effects of turbulence during simulation.
+  #### **Number of Processors**
+  - The number of processors to run simulations in parallel.
+  #### **Number of Iterations**
+  - The last iteration step, in case of non-convergence.
+ #### **Convergence Criteria**
+  - The criteria of convergence for the calculated fields.
+ #### **Show sind tunnels**
+
+  - **Domain Dimension Parameters**- A set of dimensional multipliers. These values are used to multiply the height of the bounding box to obtain the actual dimensions of the finite simulation domain. 
     - **Windward** (w)
     - **Leeward** (l)
     - **Side** (s)
     - **Top** (t)
 
-#### C. Wind Directions Relative to Θ₀ (Max 12)
+### C. Wind Directions Relative to Θ₀ (Max 12)
 In this section, specify all wind directions in the XY plane relative to Θ₀, with a maximum of 12 directions at a time. After entering each new direction in the input box, press **Enter**.
 
 The Θ₀ direction is visible in the lower-right corner of the simulated structure top view, along with the wind simulation directions. The colored arrows indicate the simulated wind direction relative to the structure.
 
 ![alt text](img/image-6.png)
 
-#### D. Run steady-state simulation
+### D. Run steady-state simulation
 On the last sections the state of the simulation and direction can be observed:
  
 ![alt text](img/image-7.png)
