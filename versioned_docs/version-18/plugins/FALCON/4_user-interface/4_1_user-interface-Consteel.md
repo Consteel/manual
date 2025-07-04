@@ -1,17 +1,17 @@
 ---
 sidebar_position: 1
 ---
-# Consteel Wind Settings
+# Meteorological effects definition 
 
 ![alt text](img/image.png)
 
 Before starting the wind simulation process, the first and most important step is to create **Load Transfer Surfaces** on which the simulation will be conducted.
 
-You can create the transfer surface in several ways:
+You can create the transfer surface by using the **Load Transfer Surface** option in the _Loads tab_
 
-- 	By using the **Load Transfer Surface** option in the _Loads tab_
-
--	By creating a **Diaphragm** in the Structural _Members tab_
+:::note
+Simulation surfaces can only be applied to load transfer surfaces.
+:::
 
 After creating the transfer surfaces, the wind simulation process can begin. 
 
@@ -59,6 +59,4 @@ After selecting the surface category, all relevant surfaces must be selected. If
 
  ![alt text](img/image-4.png)
 
-:::note
-Simulation surfaces can only be applied to load transfer surfaces, including diaphragms.
-:::
+
