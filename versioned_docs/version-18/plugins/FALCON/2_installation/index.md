@@ -27,8 +27,3 @@ If the installation is successful, two new **FALCON icons** on the _Loads tab_ w
 
 ![alt text](img/image-13.png)
 
-:::info
-Since this initial stage of the **FALCON plugin** is a free beta version available for for preliminary testing and use, please ensure that you [register](https://share.hsforms.com/1ryjbZxr3S1OFOKhEjZhtzQ2irg2) before starting. 
-
-Following a fine-tuning phase in collaboration with our dedicated users, the final version is scheduled for release next year.
-:::

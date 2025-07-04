@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 ---
-#	FALCON-Wind simulation
+#	Wind pressure simulation 
  
  :::info
    ![alt text](img/image-12.png)
@@ -24,7 +24,7 @@ This dialog is divided into four sections to guide users through the settings an
  - **Simulation Surfaces**: The number below this section indicates how many simulation surfaces are currently placed in the model. If no surfaces are defined, use the three-dots button to navigate back and define them.
 
 ### B. Simulation Settings
-#### **Mesh size on structure [mm]**
+#### **Mesh size on structure**
   - Adjusts the mesh size applied to the simulation surface.
 
   - The average edge size of the generated meshes.
@@ -49,23 +49,23 @@ This dialog is divided into four sections to guide users through the settings an
 
   #### **Temperature**
   - The air temperature around the building to calculate kinematic viscosity required for simulation
-  #### **Turbulence Model**
+  #### **Turbulence model**
   - The mathematical model applied to predict the effects of turbulence during simulation.
-  #### **Number of Processors**
+  #### **Number of processors**
   - The number of processors to run simulations in parallel.
-  #### **Number of Iterations**
+  #### **Number of iterations**
   - The last iteration step, in case of non-convergence.
- #### **Convergence Criteria**
+ #### **Convergence criteria**
   - The criteria of convergence for the calculated fields.
- #### **Show sind tunnels**
+ #### **Show wind tunnels**
 
-  - **Domain Dimension Parameters**- A set of dimensional multipliers. These values are used to multiply the height of the bounding box to obtain the actual dimensions of the finite simulation domain. 
+  - **Domain dimension parameters**- A set of dimensional multipliers. These values are used to multiply the height of the bounding box to obtain the actual dimensions of the finite simulation domain. 
     - **Windward** (w)
     - **Leeward** (l)
     - **Side** (s)
     - **Top** (t)
 
-### C. Wind Directions Relative to Θ₀ (Max 12)
+### C. Wind Directions 
 In this section, specify all wind directions in the XY plane relative to Θ₀, with a maximum of 12 directions at a time. After entering each new direction in the input box, press **Enter**.
 
 The Θ₀ direction is visible in the lower-right corner of the simulated structure top view, along with the wind simulation directions. The colored arrows indicate the simulated wind direction relative to the structure.
