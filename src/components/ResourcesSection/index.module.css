@@ -1,15 +1,10 @@
-.resources-section-container {
-  background-color: var(--landing-page-background-color-2);
-}
-
 .resources-section {
   display: flex;
   flex-wrap: wrap;
 }
 
 .resources-section-title-card {
-  background-color: var(--landing-page-background-color-3);
-  color: var(--landing-page-background-color-3-contrast);
+  background-color: var(--landing-page-secondary-background);
   height: 100%;
   justify-content: center;
   display: flex;
@@ -18,7 +13,7 @@
 }
 
 .title {
-  color: var(--landing-page-title-color);
+  color: var(--landing-page-title);
 }
 
 .flex-50 {

@@ -29,12 +29,20 @@ const ResourcesSectionCard = ({
         className="margin-bottom--md"
         width={40}
         height={40}
-        style={{ fill: "var(--landing-page-background-color-contrast-2)" }}
+        style={{ fill: "var(--landing-page-card-title)" }}
       />
-      <h3 className={clsx(["text--uppercase", "margin-bottom--md"])}>
+      <h3
+        className={clsx([
+          "cs-web-heading-l",
+          "margin-bottom--md",
+          styles["card-title"],
+        ])}
+      >
         {title}
       </h3>
-      <div className={clsx(styles["card-description"])}>{description}</div>
+      <div className={clsx(styles["card-description"], "cs-web-body-l")}>
+        {description}
+      </div>
       <div
         className={clsx(
           styles["chevron-right"],
@@ -42,7 +50,7 @@ const ResourcesSectionCard = ({
         )}
       >
         <ChevronRight
-          style={{ fill: "var(--landing-page-background-color-contrast)" }}
+          style={{ fill: "var(--landing-page-card-title)" }}
           height={30}
           width={30}
         />

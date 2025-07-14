@@ -2,6 +2,7 @@ import clsx from "clsx";
 import Button from "../Button";
 import styles from "./index.module.css";
 import Translation from "@docusaurus/Translate";
+import WindowsIcon from "@site/static/img/microsoft-windows.svg";
 
 const HomePageHeaderSection = () => {
   return (
@@ -19,14 +20,14 @@ const HomePageHeaderSection = () => {
       >
         <div className="col">
           <div className="margin-bottom--md">
-            <h1 className={clsx(["text--uppercase", styles["title"]])}>
+            <h1 className={clsx(["cs-web-heading-xxl", styles["title"]])}>
               <Translation>Consteel</Translation> <br />{" "}
               <Translation>Documentation</Translation> <br />{" "}
               <Translation>Center</Translation>
             </h1>
           </div>
 
-          <div className="hero__subtitle">
+          <div className="cs-web-body-xl">
             <Translation>
               Learn how to master advanced steel design in the most rewarding
               way
@@ -48,7 +49,10 @@ const HomePageHeaderSection = () => {
                 color="primary"
                 className="margin-left--md margin-vert--md"
               >
-                <Translation>Try for free</Translation>
+                <div className={clsx([styles["try-for-free-btn"]])}>
+                  <WindowsIcon className="margin-right--md" height={18} />
+                  <Translation>Try for free</Translation>
+                </div>
               </Button>
             </a>
           </div>

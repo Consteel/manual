@@ -1,10 +1,13 @@
-body {
+html {
   /* Brand colors */
+  --brand-50: #e8f7fe;
   --brand-200: #89dfff;
+  --brand-400: #4ac2fa;
   --brand-500: #1eb4fa;
   --brand-600: #1e9efa;
   --brand-700: #066ed6;
   --brand-800: #0053a0;
+  --brand-900: #034077;
 
   /* Neutral colors */
   --neutral-50: #ffffff;
@@ -18,18 +21,28 @@ body {
   --neutral-900: #2c2f35;
 
   /* Warning colors */
+  --warning-50: #fff7e6;
   --warning-200: #ffd88c;
+  --warning-400: #ffbb36;
   --warning-600: #e88b00;
   --warning-800: #8c5400;
+  --warning-900: #6b4000;
 
   /* Accent colors */
+  --success-50: #e9faf5;
   --success-100: #baeedf;
+  --success-400: #4cd3ac;
   --success-500: #1fc897;
   --success-600: #1cb689;
+  --success-700: #168e6b;
   --success-800: #116e53;
+  --success-900: #0d543f;
 
   /* Error colors */
+  --error-50: #f8e6e6;
+  --error-400: #c83333;
   --error-500: #ba0000;
+  --error-900: #4e0000;
 }
 
 /* Brand color classes */
@@ -207,6 +220,7 @@ body {
 }
 
 .cs-web.v-application .text-h2,
+main.docMainContainer_TBSr h1,
 .cs-web-heading-xl {
   font-size: 2.313rem !important;
   font-weight: 700;
@@ -216,6 +230,7 @@ body {
 }
 
 .cs-web.v-application .text-h3,
+main.docMainContainer_TBSr h3,
 .cs-web-heading-l {
   font-size: 1.625rem !important;
   font-weight: 700;
@@ -225,6 +240,8 @@ body {
 }
 
 .cs-web.v-application .text-h4,
+main.docMainContainer_TBSr h2,
+.admonitionHeading_Gvgb,
 .cs-web-heading-m {
   font-size: 1rem !important;
   font-weight: 700;
@@ -243,6 +260,7 @@ body {
 }
 
 .cs-web.v-application .text-h6,
+.theme-doc-sidebar-container .menu__link,
 .cs-web-heading-xs {
   font-size: 0.875rem !important;
   font-weight: 700;
@@ -270,6 +288,8 @@ body {
 }
 
 .cs-web.v-application .text-body-1,
+main.docMainContainer_TBSr p,
+.admonitionContent_BuS1,
 .cs-web-body-m {
   font-size: 1rem !important;
   font-weight: 400;
@@ -297,6 +317,10 @@ body {
 }
 
 .cs-web.v-application .text-caption,
+main.docMainContainer_TBSr .cardContainer_fWXF p,
+span.theme-doc-version-badge,
+main.docMainContainer_TBSr span.breadcrumbs__link,
+.docMainContainer_TBSr .table-of-contents,
 .cs-web-body-xs {
   font-size: 0.75rem !important;
   font-weight: 400;

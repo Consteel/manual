@@ -1,10 +1,10 @@
 .our-partners-section {
-  background-color: var(--landing-page-background-color-5);
+  background-color: var(--landing-page-secondary-background);
 }
 
 .title {
   margin-bottom: 5rem;
-  color: var(--landing-page-title-color)
+  color: var(--landing-page-title);
 }
 
 .logo-container {
