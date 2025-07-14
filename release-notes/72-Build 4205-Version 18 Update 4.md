@@ -1,11 +1,11 @@
 ---
-slug: 72-Build 4205-Version 18 Update 4
-title: Build 4205-Version 18 Update 4
+slug: 72-Build 4209-Version 18 Update 4
+title: Build 4209-Version 18 Update 4
 
 tags: [consteel, update]
 ---
 
-**04-07-2025 	build 4206**
+**04-07-2025 	build 4209**
 
 
 _**Bug fixes:**_
@@ -27,3 +27,4 @@ _**Improvements:**_
 
 - Compatibility granted with newly released FALCON plugin (FALCON beta versions will not start from this Consteel version). 
 - Navigation overview is extended with videos of different presets. 
+- Consideration of the effect of hot-dip galvanizing in fire design is implemented. 
