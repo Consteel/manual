@@ -1,0 +1,355 @@
+html {
+  /* Brand colors */
+  --brand-50: #e8f7fe;
+  --brand-200: #89dfff;
+  --brand-400: #4ac2fa;
+  --brand-500: #1eb4fa;
+  --brand-600: #1e9efa;
+  --brand-700: #066ed6;
+  --brand-800: #0053a0;
+  --brand-900: #034077;
+
+  /* Neutral colors */
+  --neutral-50: #ffffff;
+  --neutral-100: #f9f9f9;
+  --neutral-300: #f3f3f3;
+  --neutral-400: #dfdfdf;
+  --neutral-500: #cccccc;
+  --neutral-600: #8e8e8e;
+  --neutral-700: #575756;
+  --neutral-800: #333840;
+  --neutral-900: #2c2f35;
+
+  /* Warning colors */
+  --warning-50: #fff7e6;
+  --warning-200: #ffd88c;
+  --warning-400: #ffbb36;
+  --warning-600: #e88b00;
+  --warning-800: #8c5400;
+  --warning-900: #6b4000;
+
+  /* Accent colors */
+  --success-50: #e9faf5;
+  --success-100: #baeedf;
+  --success-400: #4cd3ac;
+  --success-500: #1fc897;
+  --success-600: #1cb689;
+  --success-700: #168e6b;
+  --success-800: #116e53;
+  --success-900: #0d543f;
+
+  /* Error colors */
+  --error-50: #f8e6e6;
+  --error-400: #c83333;
+  --error-500: #ba0000;
+  --error-900: #4e0000;
+}
+
+/* Brand color classes */
+.brand-200 {
+  color: var(--brand-200) !important;
+}
+.bg-brand-200 {
+  background-color: var(--brand-200) !important;
+}
+
+.brand-500 {
+  color: var(--brand-500) !important;
+}
+.bg-brand-500 {
+  background-color: var(--brand-500) !important;
+}
+
+.brand-600 {
+  color: var(--brand-600) !important;
+}
+.bg-brand-600 {
+  background-color: var(--brand-600) !important;
+}
+
+.brand-700 {
+  color: var(--brand-700) !important;
+}
+.bg-brand-700 {
+  background-color: var(--brand-700) !important;
+}
+
+.brand-800 {
+  color: var(--brand-800) !important;
+}
+.bg-brand-800 {
+  background-color: var(--brand-800) !important;
+}
+
+/* Neutral color classes */
+.neutral-50 {
+  color: var(--neutral-50) !important;
+}
+.bg-neutral-50 {
+  background-color: var(--neutral-50) !important;
+}
+
+.neutral-100 {
+  color: var(--neutral-100) !important;
+}
+.bg-neutral-100 {
+  background-color: var(--neutral-100) !important;
+}
+
+.neutral-300 {
+  color: var(--neutral-300) !important;
+}
+.bg-neutral-300 {
+  background-color: var(--neutral-300) !important;
+}
+
+.neutral-400 {
+  color: var(--neutral-400) !important;
+}
+.bg-neutral-400 {
+  background-color: var(--neutral-400) !important;
+}
+
+.neutral-500 {
+  color: var(--neutral-500) !important;
+}
+.bg-neutral-500 {
+  background-color: var(--neutral-500) !important;
+}
+
+.neutral-600 {
+  color: var(--neutral-600) !important;
+}
+.bg-neutral-600 {
+  background-color: var(--neutral-600) !important;
+}
+
+.neutral-700 {
+  color: var(--neutral-700) !important;
+}
+.bg-neutral-700 {
+  background-color: var(--neutral-700) !important;
+}
+
+.neutral-800 {
+  color: var(--neutral-800) !important;
+}
+.bg-neutral-800 {
+  background-color: var(--neutral-800) !important;
+}
+
+.neutral-900 {
+  color: var(--neutral-900) !important;
+}
+.bg-neutral-900 {
+  background-color: var(--neutral-900) !important;
+}
+
+/* Warning color classes */
+.warning-200 {
+  color: var(--warning-200) !important;
+}
+.bg-warning-200 {
+  background-color: var(--warning-200) !important;
+}
+
+.warning-600 {
+  color: var(--warning-600) !important;
+}
+.bg-warning-600 {
+  background-color: var(--warning-600) !important;
+}
+
+.warning-800 {
+  color: var(--warning-800) !important;
+}
+.bg-warning-800 {
+  background-color: var(--warning-800) !important;
+}
+
+/* Accent color classes */
+.success-100 {
+  color: var(--success-100) !important;
+}
+.bg-success-100 {
+  background-color: var(--success-100) !important;
+}
+
+.success-500 {
+  color: var(--success-500) !important;
+}
+.bg-success-500 {
+  background-color: var(--success-500) !important;
+}
+
+.success-600 {
+  color: var(--success-600) !important;
+}
+.bg-success-600 {
+  background-color: var(--success-600) !important;
+}
+
+.success-800 {
+  color: var(--success-800) !important;
+}
+.bg-success-800 {
+  background-color: var(--success-800) !important;
+}
+
+/* Error color classes */
+.error-500 {
+  color: var(--error-500) !important;
+}
+.bg-error-500 {
+  background-color: var(--error-500) !important;
+}
+
+/* Utils classes */
+.clickable-text {
+  cursor: pointer;
+}
+
+/* Overwrite vuetify classes */
+.cs-web.v-application .text-h1,
+.cs-web-heading-xxl {
+  font-size: 2.688rem !important;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0 !important;
+  text-transform: uppercase;
+}
+
+.cs-web.v-application .text-h2,
+main.docMainContainer_TBSr h1,
+.cs-web-heading-xl {
+  font-size: 2.313rem !important;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0 !important;
+  text-transform: uppercase;
+}
+
+.cs-web.v-application .text-h3,
+main.docMainContainer_TBSr h3,
+.cs-web-heading-l {
+  font-size: 1.625rem !important;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 0 !important;
+  text-transform: uppercase;
+}
+
+.cs-web.v-application .text-h4,
+main.docMainContainer_TBSr h2,
+.admonitionHeading_Gvgb,
+.cs-web-heading-m {
+  font-size: 1rem !important;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0 !important;
+  text-transform: uppercase;
+}
+
+.cs-web.v-application .text-h5,
+.cs-web-heading-s {
+  font-size: 1rem !important;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0 !important;
+  text-transform: none !important;
+}
+
+.cs-web.v-application .text-h6,
+.theme-doc-sidebar-container .menu__link,
+.cs-web-heading-xs {
+  font-size: 0.875rem !important;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0 !important;
+  text-transform: none !important;
+}
+
+.cs-web.v-application .text-subtitle-1,
+.cs-web-body-xl {
+  font-size: 1.25rem !important;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0 !important;
+  text-transform: none !important;
+}
+
+.cs-web.v-application .text-subtitle-2,
+.cs-web-body-l {
+  font-size: 1.125rem !important;
+  font-weight: 400;
+  line-height: 180%;
+  letter-spacing: 0 !important;
+  text-transform: none !important;
+}
+
+.cs-web.v-application .text-body-1,
+main.docMainContainer_TBSr p,
+.admonitionContent_BuS1,
+.cs-web-body-m {
+  font-size: 1rem !important;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0 !important;
+  text-transform: none !important;
+}
+
+.cs-web.v-application .text-body-2,
+.cs-web-body-s {
+  font-size: 0.875rem !important;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0 !important;
+  text-transform: none !important;
+}
+
+.cs-web.v-application .text-button,
+.cs-web-button-m {
+  font-size: 1rem !important;
+  font-weight: 700;
+  line-height: 114%;
+  letter-spacing: 0 !important;
+  text-transform: none !important;
+}
+
+.cs-web.v-application .text-caption,
+main.docMainContainer_TBSr .cardContainer_fWXF p,
+span.theme-doc-version-badge,
+main.docMainContainer_TBSr span.breadcrumbs__link,
+.docMainContainer_TBSr .table-of-contents,
+.cs-web-body-xs {
+  font-size: 0.75rem !important;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0 !important;
+  text-transform: none !important;
+}
+
+.cs-web.v-application .text-overline,
+.cs-web-overline {
+  font-size: 0.875rem !important;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0 !important;
+  text-transform: uppercase;
+}
+
+/* vuetify overwrites */
+.v-text-field input,
+.v-text-field__slot textarea {
+  color: var(--neutral-800) !important;
+}
+
+.v-text-field input::placeholder,
+.v-text-field__slot textarea::placeholder {
+  color: var(--neutral-600) !important;
+}
+
+.v-select__selection {
+  color: var(--neutral-800) !important;
+  padding-left: 0.75rem;
+}

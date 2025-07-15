@@ -1,10 +1,7 @@
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
+@import "./consteel.css";
+@import "./light.css";
+@import "./dark.css";
 
-/* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #3578e5; /*#25c2a0;*/
   --ifm-color-primary-dark: #1d68e1; /*rgb(33, 175, 144);*/
@@ -15,14 +12,22 @@
   --ifm-color-primary-lightest: #80aaef; /*rgb(146, 224, 208);*/
   --ifm-code-font-size: 90%; /*95%;*/
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-menu-link-sublist-icon: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24"><path fill="rgba(0,0,0,1)" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path></svg>');
 }
 
 .text-transform-uppercase {
   text-transform: uppercase;
 }
 
-.menu__caret:before {
-  background: var(--ifm-menu-link-sublist-icon);
+.table-of-contents li:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.menu__caret:before,
+.menu__link--sublist-caret::after {
+  -webkit-mask-image: var(--ifm-menu-link-sublist-icon);
+  mask-image: var(--ifm-menu-link-sublist-icon);
+  filter: none;
 }
 
 .dropdown > .navbar__link:after {
@@ -60,18 +65,6 @@ h6 {
   font-family: Roboto, sans-serif !important;
 }
 
-h1 {
-  font-size: 2.688rem;
-}
-
-h2 {
-  font-size: 2.31rem;
-}
-
-h3 {
-  font-size: 1.625rem;
-}
-
 /* MAIN CONTENT ALIGN */
 .docMainContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocRoot-Layout-Main-styles-module
   > .container
@@ -83,147 +76,22 @@ h3 {
   margin: 0 auto;
 }
 
-/* DARK THEME */
-html[data-theme="dark"] {
-  --ifm-color-primary: #64bbef;
-  --ifm-menu-color: #f9f9f9 !important;
-  --ifm-navbar-link-color: #ffffff !important;
-  --ifm-background-color: #22272b !important;
-  --ifm-navbar-background-color: #2c2f35 !important;
-  --ifm-breadcrumb-item-background-active: #353e46 !important;
-
-  --landing-page-color-primary-contrast: white;
-  --landing-page-color-primary-faded: #024181;
-  --landing-page-color-primary: var(--ifm-color-primary);
-  --landing-page-color-primary-2: #1eb4fa;
-
-  --landing-page-color-secondary: #1fc897;
-  --landing-page-color-secondary-contrast: white;
-  --landing-page-color-secondary-faded: hsl(163, 67%, 29%);
-
-  --landing-page-button-default-background-primary: linear-gradient(
-    270deg,
-    #066ed6 0%,
-    #1eb4fa 100%
-  );
-  --landing-page-button-default-background-primary-hover: linear-gradient(
-    270deg,
-    #3991e4 0%,
-    #4cc3fa 100%
-  );
-
-  --landing-page-button-default-background-secondary: var(
-    --landing-page-color-secondary
-  );
-  --landing-page-button-default-background-secondary-hover: #54ddb6;
-
-  --landing-page-button-outlined-background-primary: #49b9f4;
-  --landing-page-button-outlined-background-primary-hover: #43535c;
-
-  --landing-page-button-outlined-background-secondary: #54ddb6;
-  --landing-page-button-outlined-background-secondary-hover: #54ddb624;
-
-  --landing-page-background-color: #eff1f5;
-  --landing-page-background-color-contrast: #524f4f;
-  --landing-page-background-color-contrast-2: #2d2d2d;
-  --landing-page-background-color-2: #2c2f35;
-  --landing-page-background-color-2-contrast: white;
-  --landing-page-background-color-3: #37465c;
-  --landing-page-background-color-3-contrast: white;
-  --landing-page-background-color-4: var(--ifm-background-color);
-  --landing-page-background-color-5: var(--ifm-navbar-background-color);
-  --landing-page-title-color: var(--ifm-navbar-link-color);
+.alert--danger {
+  --ifm-alert-border-color: var(--error-400);
 }
 
-[data-theme="dark"] body {
-  color: #f9f9f9 !important;
+.alert--warning {
+  --ifm-alert-border-color: var(--warning-400);
 }
 
-[data-theme="dark"] .card {
-  background-color: #3f4655 !important;
+.alert--info {
+  --ifm-alert-border-color: var(--brand-400);
 }
 
-[data-theme="dark"] span.theme-doc-version-badge {
-  background-color: #545b61 !important;
+.alert--secondary {
+  --ifm-alert-border-color: var(--neutral-400);
 }
 
-[data-theme="dark"] aside.theme-doc-sidebar-container {
-  background-color: #3f4655 !important;
-}
-
-/* LIGHT THEME */
-html[data-theme="light"] {
-  --ifm-menu-color: #2d2d2d !important;
-  --ifm-color-primary: #066ed6;
-
-  /* NAVBAR */
-  --ifm-navbar-link-color: #2d2d2d !important;
-  --ifm-background-color: #f9f9f9 !important;
-  --ifm-navbar-background-color: #ffffff !important;
-  --landing-page-color-secondary: #1fc897;
-  --landing-page-color-secondary-faded: hsl(163, 67%, 29%);
-
-  --landing-page-color-secondary-contrast: white;
-  --landing-page-color-primary: var(--ifm-color-primary);
-  --landing-page-color-primary-faded: #024181;
-
-  --landing-page-button-default-background-primary: linear-gradient(
-    270deg,
-    #066ed6 0%,
-    #1eb4fa 100%
-  );
-  --landing-page-button-default-background-primary-hover: linear-gradient(
-    270deg,
-    #3991e4,
-    #4cc3fa
-  );
-
-  --landing-page-button-default-background-secondary: var(
-    --landing-page-color-secondary
-  );
-  --landing-page-button-default-background-secondary-hover: #54ddb6;
-
-  --landing-page-button-outlined-background-primary: var(--ifm-color-primary);
-  --landing-page-button-outlined-background-primary-hover: #d9f6ff;
-
-  --landing-page-button-outlined-background-secondary: var(
-    --landing-page-color-secondary
-  );
-  --landing-page-button-outlined-background-secondary-hover: var(
-    --landing-page-color-secondary-faded
-  );
-
-  --landing-page-color-primary-contrast: white;
-  --landing-page-color-primary-2: #1eb4fa;
-  --landing-page-background-color: #37465c;
-  --landing-page-background-color-contrast: #f9f9f9;
-  --landing-page-background-color-contrast-2: white;
-  --landing-page-background-color-2: white;
-  --landing-page-background-color-2-contrast: #524f4f;
-  --landing-page-background-color-3: #eff1f5;
-  --landing-page-background-color-3-contrast: var(
-    --landing-page-background-color-2-contrast
-  );
-  --landing-page-background-color-4: var(--ifm-navbar-background-color);
-  --landing-page-background-color-5: var(--ifm-background-color);
-  --landing-page-title-color: var(--ifm-navbar-link-color);
-
-  /* CHIP */
-  --ifm-breadcrumb-item-background-active: #ededed !important;
-}
-
-[data-theme="light"] body {
-  color: #524f4f !important;
-}
-
-[data-theme="light"] .card {
-  background-color: #ffffff !important;
-}
-
-[data-theme="light"] span.theme-doc-version-badge {
-  background-color: #ebedf0 !important;
-}
-
-[data-theme="light"] aside.theme-doc-sidebar-container {
-  background-color: var(--landing-page-background-color-3) !important;
+.alert--success {
+  --ifm-alert-border-color: var(--success-400);
 }

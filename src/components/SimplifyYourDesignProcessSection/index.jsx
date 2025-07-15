@@ -28,7 +28,7 @@ const SimplifyYourDesignProcessSection = () => {
               ])}
             >
               <div className={clsx([styles["flex-1"]])}>
-                <h2 className={clsx(["text--uppercase", styles["title"]])}>
+                <h2 className={clsx(["cs-web-heading-xl", styles["title"]])}>
                   <Translation>Simplify your design process</Translation>
                 </h2>
                 <a
@@ -38,7 +38,7 @@ const SimplifyYourDesignProcessSection = () => {
                   <Button
                     variant="default"
                     color="secondary"
-                    className="margin--md"
+                    className="margin-right--md"
                   >
                     <Translation>Try for free</Translation>
                   </Button>
@@ -47,7 +47,7 @@ const SimplifyYourDesignProcessSection = () => {
                   href="https://consteelsoftware.com/offers-licensing/"
                   target="_blank"
                 >
-                  <Button variant="default" className="margin--md">
+                  <Button variant="default" className="margin-left--md">
                     <Translation>Plans</Translation>
                   </Button>
                 </a>

@@ -26,7 +26,25 @@ const config: Config = {
     locales: ["en", "hu"],
   },
   future: {
-    experimental_faster: true, // turns Docusaurus Faster on globally
+    v4: {
+      removeLegacyPostBuildHeadAttribute: true,
+      useCssCascadeLayers: true,
+    },
+    experimental_faster: {
+      swcJsLoader: true,
+      swcJsMinimizer: true,
+      swcHtmlMinimizer: true,
+      lightningCssMinimizer: true,
+      rspackBundler: true,
+      rspackPersistentCache: true,
+      ssgWorkerThreads: true,
+      mdxCrossCompilerCache: true,
+    },
+    experimental_storage: {
+      type: "localStorage",
+      namespace: true,
+    },
+    experimental_router: "hash",
   },
   plugins: ["docusaurus-plugin-hotjar"],
   presets: [
@@ -106,28 +124,26 @@ const config: Config = {
         },
         {
           type: "dropdown",
-          position: "left",
-          docId: "plugins",
           label: "Plugins",
           className: "text-transform-uppercase",
           items: [
             {
-              type: "doc",
-              docId: "plugins/axis/axisvm-plugin",
               label: "Converter for AXISVM",
+              to: "/docs/plugins/axis/axisvm-plugin",
               className: "text-transform-uppercase",
+              activeBaseRegex: "^/docs/plugins/axis/",
             },
             {
-              type: "doc",
-              docId: "plugins/FALCON/introduction/index",
               label: "Falcon",
+              to: "/docs/plugins/FALCON/introduction",
               className: "text-transform-uppercase",
+              activeBaseRegex: "^/docs/plugins/FALCON/",
             },
             {
-              type: "doc",
-              docId: "plugins/Pangolin/introduction/index",
               label: "Pangolin",
+              to: "/docs/plugins/Pangolin/introduction",
               className: "text-transform-uppercase",
+              activeBaseRegex: "^/docs/plugins/Pangolin/",
             },
           ],
         },
