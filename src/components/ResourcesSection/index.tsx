@@ -25,13 +25,13 @@ const ResourcesSection = () => {
               "padding--lg",
             ])}
           >
-            <h2 className={clsx([styles["title"], "text--uppercase"])}>
+            <h2 className={clsx([styles["title"], "cs-web-heading-xl"])}>
               <Translation>Resources</Translation>
             </h2>
-            <div>
+            <div className="cs-web-body-l">
               <Translation>
                 Discover the key resources in our documentation center
-              </Translation>{" "}
+              </Translation>
             </div>
           </div>
         </div>

@@ -5,6 +5,7 @@ import Button from "../Button";
 import FacebookIcon from "@site/static/img/social_media_icons_facebook.svg";
 import LinkedInIcon from "@site/static/img/social_media_icons_linkedin.svg";
 import YoutubeIcon from "@site/static/img/social_media_icons_youtube.svg";
+import WindowsIcon from "@site/static/img/microsoft-windows.svg";
 
 export default function HomePageFooter() {
   return (
@@ -18,22 +19,26 @@ export default function HomePageFooter() {
     >
       <div className={clsx(["container", "row", styles["margin-0-auto"]])}>
         <div
-          className={clsx(["padding--md", styles["home-page-footer-column"]])}
+          className={clsx([
+            "padding--md",
+            "cs-web-body-s",
+            styles["home-page-footer-column"],
+          ])}
         >
-          <h4 className="text--uppercase">
+          <h4 className="cs-web-heading-m">
             <Translation>Site</Translation>
           </h4>
-          <div>
+          <div className="margin-bottom--md">
             <a className={clsx([styles["home-page-footer-link"]])} href="">
               <Translation>Terms of use</Translation>{" "}
             </a>
           </div>
-          <div>
+          <div className="margin-bottom--md">
             <a className={clsx([styles["home-page-footer-link"]])} href="">
               <Translation>Privacy policy</Translation>{" "}
             </a>
           </div>
-          <div>
+          <div className="margin-bottom--md">
             <a
               className={clsx([styles["home-page-footer-link"]])}
               href="https://steellionaward.com/"
@@ -51,12 +56,16 @@ export default function HomePageFooter() {
           </div>
         </div>
         <div
-          className={clsx(["padding--md", styles["home-page-footer-column"]])}
+          className={clsx([
+            "padding--md",
+            "cs-web-body-s",
+            styles["home-page-footer-column"],
+          ])}
         >
-          <h4 className="text--uppercase">
+          <h4 className="cs-web-heading-m">
             <Translation>Consteel</Translation>
           </h4>
-          <div>
+          <div className="margin-bottom--md">
             <a
               className={clsx([styles["home-page-footer-link"]])}
               href="https://consteelsoftware.com/products/consteel/ "
@@ -64,7 +73,7 @@ export default function HomePageFooter() {
               <Translation>Solutions</Translation>
             </a>
           </div>
-          <div>
+          <div className="margin-bottom--md">
             <a
               className={clsx([styles["home-page-footer-link"]])}
               href="https://consteelsoftware.com/offers-licensing/ "
@@ -72,7 +81,7 @@ export default function HomePageFooter() {
               <Translation>Plans</Translation>
             </a>
           </div>
-          <div>
+          <div className="margin-bottom--md">
             <a
               className={clsx([styles["home-page-footer-link"]])}
               href="https://consteelsoftware.com/about/ "
@@ -90,12 +99,16 @@ export default function HomePageFooter() {
           </div>
         </div>
         <div
-          className={clsx(["padding--md", styles["home-page-footer-column"]])}
+          className={clsx([
+            "padding--md",
+            "cs-web-body-s",
+            styles["home-page-footer-column"],
+          ])}
         >
-          <h4 className="text--uppercase">
+          <h4 className="cs-web-heading-m">
             <Translation>Docs</Translation>
           </h4>
-          <div>
+          <div className="margin-bottom--md">
             <a
               className={clsx([styles["home-page-footer-link"]])}
               href="docs/manual/intro"
@@ -104,7 +117,7 @@ export default function HomePageFooter() {
             </a>
           </div>
 
-          <div>
+          <div className="margin-bottom--md">
             <a
               className={clsx([styles["home-page-footer-link"]])}
               href="docs/descript/15_1_introduction/"
@@ -112,7 +125,7 @@ export default function HomePageFooter() {
               <Translation>Descript</Translation>
             </a>
           </div>
-          <div>
+          <div className="margin-bottom--md">
             <a
               className={clsx([styles["home-page-footer-link"]])}
               href="docs/plugins/axis/axisvm-plugin"
@@ -130,18 +143,26 @@ export default function HomePageFooter() {
           </div>
         </div>
         <div
-          className={clsx(["padding--md", styles["home-page-footer-column"]])}
+          className={clsx([
+            "padding--md",
+            "cs-web-body-s",
+            styles["about"],
+            styles["home-page-footer-column"],
+          ])}
         >
-          <h4 className="text--uppercase">
-            <Translation>About Consteel Solutions </Translation>
-          </h4>
-
           <div>
-            <Translation>
-              The ConSteel team’s mission is the general reform of the way
-              structures are designed.
-            </Translation>
+            <h4 className="cs-web-heading-m">
+              <Translation>About Consteel Solutions </Translation>
+            </h4>
+
+            <div className="cs-web-body-m">
+              <Translation>
+                The mission behind all developments of Consteel team is the
+                overall reform of the way of structural design in all aspects.
+              </Translation>
+            </div>
           </div>
+
           <div className="margin-vert--md">
             <a
               href="https://www.linkedin.com/company/consteel-software/mycompany/"
@@ -153,9 +174,6 @@ export default function HomePageFooter() {
                   "margin-right--md",
                 ])}
                 width={38}
-                style={{
-                  fill: "var(--landing-page-background-color-2-contrast)",
-                }}
               />
             </a>
             <a
@@ -166,9 +184,6 @@ export default function HomePageFooter() {
               <FacebookIcon
                 width={38}
                 className={clsx([styles["social-media-icon"]])}
-                style={{
-                  fill: "var(--landing-page-background-color-2-contrast)",
-                }}
               />
             </a>
             <a
@@ -178,33 +193,36 @@ export default function HomePageFooter() {
               <YoutubeIcon
                 className={clsx([styles["social-media-icon"]])}
                 width={38}
-                style={{
-                  fill: "var(--landing-page-background-color-2-contrast)",
-                }}
               />
             </a>
           </div>
         </div>
-        <div className={clsx(["padding--lg"])}>
-          <h2 className={clsx(["text--uppercase", styles["get-started"]])}>
+        <div className={clsx(["padding--md", styles["get-started-container"]])}>
+          <h2 className={clsx(["cs-web-heading-xl", styles["get-started"]])}>
             <Translation>Get started with consteel</Translation>
           </h2>
-          <a href="https://consteelsoftware.com/#tryforfree" target="_blank">
-            <Button
-              color="secondary"
-              className="margin-right--lg margin-vert--md"
+          <div className={clsx([styles["get-started-buttons"]])}>
+            <a
+              href="https://consteelsoftware.com/contact/#request"
+              target="_blank"
             >
-              <Translation>Try for free</Translation>
-            </Button>
-          </a>
-          <a
-            href="https://consteelsoftware.com/offers-licensing/"
-            target="_blank"
-          >
-            <Button className="margin-vert--md">
-              <Translation>Plans</Translation>
-            </Button>
-          </a>
+              <Button
+                className="margin-vert--md margin-right--lg"
+                variant="outlined"
+              >
+                <Translation>Request offer</Translation>
+              </Button>
+            </a>
+
+            <a href="https://consteelsoftware.com/#tryforfree" target="_blank">
+              <Button color="secondary" className="margin-vert--md">
+                <div className={clsx([styles["try-for-free-btn"]])}>
+                  <WindowsIcon className="margin-right--md" height={18} />
+                  <Translation>Try for free</Translation>
+                </div>
+              </Button>
+            </a>
+          </div>
         </div>
       </div>
     </div>

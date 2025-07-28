@@ -18,6 +18,7 @@ const Button = ({
       className={clsx(
         styles["landing-button"],
         styles[`landing-button-${color}-${variant}`],
+        "cs-web-button-m",
         className
       )}
     >

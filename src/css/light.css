@@ -1,0 +1,124 @@
+html[data-theme="light"] {
+  /* NAVBAR */
+  --ifm-navbar-shadow: 0px 4px 11.7px 0
+    color-mix(in srgb, var(--neutral-900) 7%, transparent);
+  --ifm-navbar-background-color: var(--neutral-100) !important;
+
+  /* MANUAL */
+  --ifm-menu-color: var(--neutral-900) !important;
+  --ifm-menu-color-active: var(--brand-700);
+  --ifm-breadcrumb-item-background-active: var(--neutral-300) !important;
+  --ifm-font-color-base: var(--neutral-900) !important;
+  --ifm-color-primary: var(--brand-700);
+  --ifm-link-color: var(--brand-700);
+  --ifm-background-color: var(--neutral-100) !important;
+  --ifm-color-content-secondary: var(--neutral-700);
+  --ifm-heading-color: var(--neutral-900);
+  --ifm-card-background-color: var(--neutral-50);
+
+  /* SEARCH */
+  --docsearch-searchbox-background: var(--neutral-300) !important;
+  --docsearch-searchbox-focus-background: var(--neutral-300) !important;
+  --docsearch-text-color: var(--neutral-900) !important;
+  --docsearch-muted-color: var(--neutral-700) !important;
+  --docsearch-key-gradient: var(--neutral-500) !important;
+  --docsearch-key-shadow: 0 3px 0 0 var(--neutral-600) !important;
+
+  /* BTNS */
+  --landing-page-button-color-primary: var(--neutral-50);
+  --landing-page-button-color-secondary: var(--brand-700);
+  --landing-page-button-color-third: var(--success-700);
+
+  --landing-page-button-default-background-primary: linear-gradient(
+    270deg,
+    var(--brand-700) 0%,
+    var(--brand-500) 100%
+  );
+  --landing-page-button-default-background-primary-hover: linear-gradient(
+    270deg,
+    var(--brand-600) 0%,
+    var(--brand-400) 100%
+  );
+
+  --landing-page-button-default-background-secondary: var(--success-500);
+  --landing-page-button-default-background-secondary-hover: var(--success-400);
+
+  --landing-page-button-outlined-background-primary: var(--brand-700);
+  --landing-page-button-outlined-background-primary-hover: var(--brand-700);
+
+  --landing-page-button-outlined-background-secondary: var(--success-700);
+  --landing-page-button-outlined-background-secondary-hover: var(--success-400);
+
+  /* LANDING COLORS*/
+  --landing-page-secondary-background: var(--neutral-300);
+  --landing-page-secondary-background-gradient: linear-gradient(
+    var(--neutral-300),
+    var(--neutral-100)
+  );
+
+  --landing-page-title: var(--neutral-900);
+
+  --landing-page-card-background: var(--neutral-800);
+  --landing-page-card-title: var(--neutral-50);
+  --landing-page-card-text: var(--neutral-100);
+
+  --landing-page-footer-shadow: 7px -7px 34.5px 0 color-mix(in srgb, var(
+          --neutral-900
+        )
+        5%, transparent);
+  --landing-page-button-shadow: 2px 2px 12.2px 0px
+    color-mix(in srgb, var(--neutral-900) 13%, transparent);
+}
+
+[data-theme="light"] main {
+  color: var(--neutral-700) !important;
+  fill: var(--neutral-700) !important;
+  background-color: var(--neutral-100) !important;
+}
+
+[data-theme="light"] span.theme-doc-version-badge {
+  background-color: var(--neutral-300);
+  border-color: var(--neutral-300);
+  color: var(--neutral-700);
+  margin-bottom: 1rem;
+}
+
+[data-theme="light"] aside.theme-doc-sidebar-container {
+  background-color: var(--neutral-300) !important;
+}
+
+[data-theme="light"] main.docMainContainer_TBSr h1,
+[data-theme="light"] main.docMainContainer_TBSr h2,
+[data-theme="light"] main.docMainContainer_TBSr h3 {
+  color: var(--neutral-900) !important;
+}
+
+[data-theme="dark"] .menu__caret:before,
+[data-theme="dark"] .menu__link--sublist-caret::after {
+  background: var(--neutral-900) !important;
+}
+
+[data-theme="light"] .alert--danger {
+  --ifm-alert-background-color: var(--error-50);
+  --ifm-alert-foreground-color: var(--error-900);
+}
+
+[data-theme="light"] .alert--warning {
+  --ifm-alert-background-color: var(--warning-50);
+  --ifm-alert-foreground-color: var(--warning-900);
+}
+
+[data-theme="light"] .alert--info {
+  --ifm-alert-background-color: var(--brand-50);
+  --ifm-alert-foreground-color: var(--brand-900);
+}
+
+[data-theme="light"] .alert--secondary {
+  --ifm-alert-background-color: var(--neutral-50);
+  --ifm-alert-foreground-color: var(--neutral-900);
+}
+
+[data-theme="light"] .alert--success {
+  --ifm-alert-background-color: var(--success-50);
+  --ifm-alert-foreground-color: var(--success-900);
+}
