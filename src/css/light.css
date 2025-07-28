@@ -14,6 +14,7 @@ html[data-theme="light"] {
   --ifm-background-color: var(--neutral-100) !important;
   --ifm-color-content-secondary: var(--neutral-700);
   --ifm-heading-color: var(--neutral-900);
+  --ifm-card-background-color: var(--neutral-50);
 
   /* SEARCH */
   --docsearch-searchbox-background: var(--neutral-300) !important;
@@ -72,7 +73,7 @@ html[data-theme="light"] {
 [data-theme="light"] main {
   color: var(--neutral-700) !important;
   fill: var(--neutral-700) !important;
-  background-color: var(--neutral-50) !important;
+  background-color: var(--neutral-100) !important;
 }
 
 [data-theme="light"] span.theme-doc-version-badge {

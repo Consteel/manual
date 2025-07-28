@@ -7,6 +7,10 @@ a.resources-section-card {
   text-decoration: none !important;
 }
 
+.card-title {
+  color: var(--landing-page-card-title);
+}
+
 .card-description {
   flex: 1;
   color: var(--landing-page-card-text);
