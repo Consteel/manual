@@ -26,25 +26,8 @@ const config: Config = {
     locales: ["en", "hu"],
   },
   future: {
-    v4: {
-      removeLegacyPostBuildHeadAttribute: true,
-      useCssCascadeLayers: true,
-    },
-    experimental_faster: {
-      swcJsLoader: true,
-      swcJsMinimizer: true,
-      swcHtmlMinimizer: true,
-      lightningCssMinimizer: true,
-      rspackBundler: true,
-      rspackPersistentCache: true,
-      ssgWorkerThreads: true,
-      mdxCrossCompilerCache: true,
-    },
-    experimental_storage: {
-      type: "localStorage",
-      namespace: true,
-    },
-    experimental_router: "hash",
+    v4: true,
+    experimental_faster: true,
   },
   plugins: ["docusaurus-plugin-hotjar"],
   presets: [
