@@ -23,74 +23,39 @@ Please ensure that the following software and hardware requirements are met in o
 
 <!-- wp:paragraph -->
 
-**Minimum hardware requirements:**
+### **Minimum hardware requirements:**
 
-<!-- /wp:paragraph -->
+**Processor**
+Intel Core i5 (gen 10 or newer) or AMD Ryzen 5 (at least 4 cores, 2.5–3.0 GHz)
 
-<!-- wp:columns {"align":"wide"} -->
+**Memory**
+16 GB
 
-<!-- wp:column {"verticalAlignment":"top","width":"20%"} -->
+**HDD space**
+512 MB
 
-- Processor
-- Memory
-- HDD
-- Video-card
-- Operating system
+**Graphic card**
+2 GB non-integrated
 
-<!-- /wp:column -->
+**Operating system**
+Windows 10/11 64-bit
 
-<!-- wp:column {"width":"66.66%"} -->
+### **Recommended hardware:**
 
-<!-- wp:paragraph -->
+**Processor**
+Intel Core i7 / i9 (gen 10 or newer) or AMD Ryzen 7
 
-Intel Core i5 or equivalent  
-4 GB  
-300 MB  
-512 MB non-integrated  
-64-bit MS Windows 10
+**Memory**
+32 GB
 
-<!-- /wp:paragraph -->
+**HDD space**
+512 MB
 
-<!-- /wp:column -->
+**Graphic card**
+4 GB non-integrated
 
-<!-- /wp:columns -->
-
-<!-- wp:paragraph -->
-
-**Recommended hardware:**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:columns -->
-
-<!-- wp:column {"width":"20%"} -->
-
-<!-- wp:list -->
-
-
-- Processor
-- Memory
-- Video-card
-- Operating system
-
-<!-- /wp:column -->
-
-<!-- wp:column {"width":"66.66%"} -->
-
-<!-- wp:paragraph -->
-
-Intel Core i7 or equivalent  
-32 GB  
-2 GB non-integrated  
-64-bit Windows 10
-
-<!-- /wp:paragraph -->
-
-<!-- /wp:column -->
-
-<!-- /wp:columns -->
-
-<!-- wp:paragraph -->
+**Operating system**
+Windows 10/11 64-bit
 
 Installation needs administrative or power user rights. Without that, the hard lock driver and those .**dll** files, which are indispensable for the system is cannot be installed.
 
@@ -152,7 +117,11 @@ To create a new user account, click the **LOG IN** button in the upper right cor
 
 <!-- wp:paragraph -->
 
-To install Consteel, start the downloaded installation file and follow the instructions. As a first step, the language of the setup must be set. *Consteel* will use this language for the first time you start it, but you may switch to another language later. The installing program will copy the elements of the software into the directory you have specified (default directory: C:\\Program Files\\Consteel xx - where xx=version number), then it will position the Menu of the program onto the selected place of the „START”-menu. Finally, the install shield will place the desktop shortcut onto the desktop. The last step of the setup is the hard lock driver installation. This has no progress signal, so you have to wait until it finishes.
+To install Consteel, start the downloaded installation file and follow the on-screen instructions. The program can be installed for your user account only (recommended) or for all users (requires administrative privileges). In the next step, you must accept the license agreement. The installer will then copy the software components into the specified directory (default: C:\Users\<Username>\AppData\Programs\Consteel xx, where xx is the version number). By default, all components are selected.
+
+Clicking "Next" allows you to choose the Start Menu folder where the program’s shortcuts will be placed. Finally, the installer will create a desktop shortcut if selected. The last step is the actual installation.
+
+After installation, the Completing the Consteel 18 Setup Wizard window will appear, where you can choose to launch Consteel immediately by selecting the Launch Consteel option.
 
 <!-- /wp:paragraph -->
 
