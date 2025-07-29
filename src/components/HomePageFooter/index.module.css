@@ -1,12 +1,15 @@
 .home-page-footer {
-  box-shadow: 0px -9px 6.5px 0px #8e737300;
-  background-color: var(--landing-page-background-color-4);
-  font-size: 0.875rem;
+  box-shadow: var(--landing-page-footer-shadow);
+}
+
+.home-page-footer h2,
+.home-page-footer h4 {
+  color: var(--landing-page-title);
 }
 
 a.home-page-footer-link {
   text-decoration: none;
-  color: currentColor;
+  color: inherit;
 }
 
 .social-media-icon {
@@ -26,6 +29,32 @@ a.home-page-footer-link {
   min-width: 8rem;
 }
 
+.about {
+  min-width: 18rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .get-started {
   max-width: 22rem;
+}
+
+.get-started-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.get-started-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.try-for-free-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }

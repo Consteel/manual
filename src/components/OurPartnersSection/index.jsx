@@ -17,7 +17,7 @@ const OurPartnersSection = () => {
       ])}
     >
       <div className="container margin-vert--lg">
-        <h2 className={clsx(["text--uppercase", styles["title"]])}>
+        <h2 className={clsx(["cs-web-heading-xl", styles["title"]])}>
           <Translation>Our partners who use Consteel</Translation>
         </h2>
         <div
@@ -27,37 +27,37 @@ const OurPartnersSection = () => {
           <ArrayTechnologiesLogo
             style={{
               maxWidth: 160,
-              fill: "var(--landing-page-background-color-2-contrast)",
+              fill: "var(--landing-page-title)",
             }}
-            fill="var(--landing-page-background-color-2-contrast)"
+            fill="var(--landing-page-title)"
             width={"100%"}
           />
 
           <SwecoLogo
             style={{
               maxWidth: 160,
-              fill: "var(--landing-page-background-color-2-contrast)",
+              fill: "var(--landing-page-title)",
             }}
             width={"100%"}
           />
           <KeszLogo
             style={{
               maxWidth: 160,
-              fill: "var(--landing-page-background-color-2-contrast)",
+              fill: "var(--landing-page-title)",
             }}
             width={"100%"}
           />
           <OpenConstructionLogo
             style={{
               maxWidth: 160,
-              fill: "var(--landing-page-background-color-2-contrast)",
+              fill: "var(--landing-page-title)",
             }}
             width={"100%"}
           />
           <WolfSystemLogo
             style={{
               maxWidth: 160,
-              fill: "var(--landing-page-background-color-2-contrast)",
+              fill: "var(--landing-page-title)",
             }}
             width={"100%"}
           />

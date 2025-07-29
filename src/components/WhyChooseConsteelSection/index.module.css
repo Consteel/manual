@@ -1,8 +1,7 @@
 .why-choose-consteel-section {
-  background-color: var(--landing-page-background-color);
-  color: var(--landing-page-background-color-contrast);
+  background-color: var(--landing-page-secondary-background);
 }
 
 .why-choose-consteel-section--title {
-  color: var(--landing-page-background-color-contrast-2);
+  color: var(--landing-page-title);
 }
