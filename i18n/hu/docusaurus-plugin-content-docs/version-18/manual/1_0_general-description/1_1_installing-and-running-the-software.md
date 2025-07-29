@@ -163,13 +163,6 @@ A telepítés befejezése után megjelenik a Consteel 18 Telepítő varázsló b
 
 **Hálózatos működés**
 
-<!-- /wp:paragraph -->
-
-<!-- wp:columns -->
-
-<!-- wp:column {"width":"50%"} -->
-
-<!-- wp:paragraph -->
 
 Hálózatos licensz vásárlása esetén a program használatához szükséges hardverkulcsot a belső hálózat bármelyik, szabad USB csatlakozóval rendelkező számítógépéhez lehet csatlakoztatni, amelyen előzetesen telepítésre került a hardverkulcs kezelő szoftver (driver). Ez a driver is a Consteel telepítő csomag része, mely alapértelmezés szerint a programmal együtt települ a számítógépre (ld. előző pont), de lehetőség van annak önálló telepítésére is, ha a hardverkulcsot egy központi szervergépre szeretnénk csatlakoztatni. Ehhez el kell indítani a Consteel telepítőcsomagját a fentebb leírtak szerint, majd az **Összetevők kiválasztása** ablakban elegendő csak a _Hardverkulcs illesztőprogram_ pontot kiválasztani, a többit üresen hagyni, és a Tovább gombra kattintva befejezni a telepítést.
 
