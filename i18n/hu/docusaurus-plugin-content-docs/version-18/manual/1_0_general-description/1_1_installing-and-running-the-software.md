@@ -27,7 +27,7 @@ A Consteel program futtatásához az alábbi szoftver és hardver követelménye
 
 <!-- wp:paragraph -->
 
-**Minimális konfiguráció:**
+### **Minimális konfiguráció:**
 
 <!-- /wp:paragraph -->
 
@@ -37,26 +37,20 @@ A Consteel program futtatásához az alábbi szoftver és hardver követelménye
 
 <!-- wp:list -->
 
-- Processzor
-- Memória
-- HDD
-- Videó-kártya
-- Operációs rendszer
+**Processzor**
+Intel Core i5 (gen 10 or newer) or AMD Ryzen 5 (at least 4 cores, 2.5–3.0 GHz)
 
-<!-- /wp:list -->
+**Memória**
+16 GB
 
-<!-- /wp:column -->
+**HDD**
+512 MB
 
-<!-- wp:column {"width":"66.66%"} -->
+**Videó-kártya**
+2 GB non-integrated
 
-<!-- wp:paragraph -->
-
-Intel Core i5 vagy ennek megfelelő  
-4 GB  
-300 MB  
-512 MB nem alaplapra integrált  
-64-bit MS Windows 10
-
+**Operációs rendszer**
+Windows 10/11 64-bit
 
 
 **Ajánlott konfiguráció:**
@@ -69,23 +63,16 @@ Intel Core i5 vagy ennek megfelelő
 
 <!-- wp:list -->
 
-- Processzor
-- Memória
-- Videó-kártya
-- Operációs rendszer
+**Processzor**Intel Core i7 / i9 (gen 10 or newer) or AMD Ryzen 7
 
-<!-- /wp:list -->
+**Memória** 32 GB
 
-<!-- /wp:column -->
+**HDD** 512 MB
 
-<!-- wp:column {"width":"66.66%"} -->
+**Videó-kártya** 4 GB non-integrated
 
-<!-- wp:paragraph -->
+**Operációs rendszer**  Windows 10/11 64-bit
 
-Intel Core i7 vagy ennek megfelelő  
-32 GB  
-2 GB nem alaplapra integrált  
-64-bit Windows 10
 
 <!-- /wp:paragraph -->
 
@@ -165,21 +152,17 @@ A **_Fiók létrehozása_** ablakban meg kell adni a felhasználó e-mail címé
 
 <!-- wp:paragraph -->
 
-A telepítéshez el kell indítani a letöltött Consteel telepítő fájlt, és követni kell a telepítő instrukcióit. Első lépésként ki kell választani a telepítő nyelvét. A kiválasztott nyelvet fogja használni a Consteel az első indítás során is, amely szükség esetén megváltoztatható. A telepítő a megadott mappába (alapesetben a C:\\Program Files\\Consteel xx mappába, ahol xx=verzió száma) másolja a szükséges fájlokat, a választott beállításoknak megfelelően elhelyezi a program ikonját az asztalra és a „START” menüben. A telepítés utolsó fázisa a hardverkulcs szoftverének installálása. Ez a folyamat nem kerül kijelzésre, és hosszabb ideig is eltarthat.
+A Consteel telepítéséhez indítsa el a letöltött telepítőfájlt, és kövesse a képernyőn megjelenő utasításokat. A program telepíthető kizárólag az Ön felhasználói fiókjára (ajánlott), vagy minden felhasználó számára (ehhez rendszergazdai jogosultság szükséges). A következő lépésben el kell fogadnia a licencszerződést. A telepítő ezután a program elemeit a megadott könyvtárba másolja (alapértelmezett könyvtár: C:\Users\<Felhasználónév>\AppData\Programs\Consteel xx, ahol az xx a verziószámot jelöli). Alapértelmezetten minden komponens ki van jelölve.
 
+A „Tovább” gombra kattintva kiválaszthatja, hogy a Start menüben hová kerüljön a program parancsikonja. Végül a telepítő létrehozza az asztali parancsikont, amennyiben ezt bejelöli. Az utolsó lépés maga a telepítés.
+
+A telepítés befejezése után megjelenik a Consteel 18 Telepítő varázsló befejezése ablak, ahol lehetősége van azonnal elindítani a Consteel programot a Consteel indítása opció kiválasztásával.
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
 **Hálózatos működés**
 
-<!-- /wp:paragraph -->
-
-<!-- wp:columns -->
-
-<!-- wp:column {"width":"50%"} -->
-
-<!-- wp:paragraph -->
 
 Hálózatos licensz vásárlása esetén a program használatához szükséges hardverkulcsot a belső hálózat bármelyik, szabad USB csatlakozóval rendelkező számítógépéhez lehet csatlakoztatni, amelyen előzetesen telepítésre került a hardverkulcs kezelő szoftver (driver). Ez a driver is a Consteel telepítő csomag része, mely alapértelmezés szerint a programmal együtt települ a számítógépre (ld. előző pont), de lehetőség van annak önálló telepítésére is, ha a hardverkulcsot egy központi szervergépre szeretnénk csatlakoztatni. Ehhez el kell indítani a Consteel telepítőcsomagját a fentebb leírtak szerint, majd az **Összetevők kiválasztása** ablakban elegendő csak a _Hardverkulcs illesztőprogram_ pontot kiválasztani, a többit üresen hagyni, és a Tovább gombra kattintva befejezni a telepítést.
 
@@ -199,8 +182,6 @@ Hálózatos licensz vásárlása esetén a program használatához szükséges h
 <!-- /wp:columns -->
 
 <!-- wp:paragraph -->
-
-A Consteel 15 Update 6 verzió kiadásával a hardverkulcs illesztőprogram a honlapunkról a Letöltések menüből érhető el. Letöltés után a szokásos módon kell telepíteni a drivert.
 
 <!-- /wp:paragraph -->
 

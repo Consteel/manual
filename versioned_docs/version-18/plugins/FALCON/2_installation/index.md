@@ -18,6 +18,8 @@ In order to start the installation process, the licensing agreement must be acce
 
 ![alt text](img/3installing.png)
 
+FALCON installation location: C:\Users[username]\AppData\Local\ConSteel\Plugins\FALCON\1...
+
 ![alt text](img/4installing.png)
 
 If the installation is successful, two new **FALCON icons** on the _Loads tab_ will be functional when **Consteel 18** is opened:
