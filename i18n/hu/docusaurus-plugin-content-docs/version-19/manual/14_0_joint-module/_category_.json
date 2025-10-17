@@ -1,0 +1,8 @@
+{
+  "label": "Csomópont modul",
+  "position": 15,
+  "link": {
+    "type": "generated-index",
+    "description": "A Consteel tervezési filozófiája nagy hangsúlyt fektet a globális szerkezet és csomópontok integrált modellezésére és számítására. Ennek megfelelően hatékony acél csomóponttervező modult (csJoint) fejlesztettünk ki."
+  }
+}
