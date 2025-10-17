@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DesignResultComponent_Desc" xml:space="preserve">
+    <value>Gets design check results on the input beams.</value>
+    <comment>Component</comment>
+  </data>
+  <data name="DesignResultComponent_Name" xml:space="preserve">
+    <value>Design check Results</value>
+    <comment>Component</comment>
+  </data>
+  <data name="CSBeam_Description" xml:space="preserve">
+    <value>Beam returned from ConSteel.</value>
+    <comment>Input</comment>
+  </data>
+  <data name="CSBeam_Name" xml:space="preserve">
+    <value>CSBeam</value>
+    <comment>Input</comment>
+  </data>
+  <data name="CSBeam_NickName" xml:space="preserve">
+    <value>B</value>
+    <comment>Input</comment>
+  </data>
+  <data name="Combinations_Description" xml:space="preserve">
+    <value>Significant combinations.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="Combinations_Name" xml:space="preserve">
+    <value>Combinations</value>
+    <comment>Output</comment>
+  </data>
+  <data name="Combinations_NickName" xml:space="preserve">
+    <value>C</value>
+    <comment>Output</comment>
+  </data>
+  <data name="Sign. Result_Description" xml:space="preserve">
+    <value>Significant results.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="Sign. Result_Name" xml:space="preserve">
+    <value>Sign. Result</value>
+    <comment>Output</comment>
+  </data>
+  <data name="Sign. Result_NickName" xml:space="preserve">
+    <value>RS</value>
+    <comment>Output</comment>
+  </data>
+  <data name="Sign. check_Description" xml:space="preserve">
+    <value>Describes which design check's result is the significant result.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="Sign. check_Name" xml:space="preserve">
+    <value>Sign. check</value>
+    <comment>Output</comment>
+  </data>
+  <data name="Sign. check_NickName" xml:space="preserve">
+    <value>SC</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RStab_Description" xml:space="preserve">
+    <value>Global Stability check results.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RStab_Name" xml:space="preserve">
+    <value>Stab. Result</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RStab_NickName" xml:space="preserve">
+    <value>RStab</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RPlast_Description" xml:space="preserve">
+    <value>Plastic interaction check results.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RPlast_Name" xml:space="preserve">
+    <value>Plast. Result</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RPlast_NickName" xml:space="preserve">
+    <value>RPlast</value>
+    <comment>Output</comment>
+  </data>
+  <data name="SPC_Description" xml:space="preserve">
+    <value>Describes which plastic interaction check's result is the significant plastic result.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="SPC_Name" xml:space="preserve">
+    <value>Sign. plast. check</value>
+    <comment>Output</comment>
+  </data>
+  <data name="SPC_NickName" xml:space="preserve">
+    <value>SPC</value>
+    <comment>Output</comment>
+  </data>
+  <data name="Parameters_Description" xml:space="preserve">
+    <value>Parameters of the result point on the beam's edge.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="Parameters_Name" xml:space="preserve">
+    <value>Parameters</value>
+    <comment>Output</comment>
+  </data>
+  <data name="Parameters_NickName" xml:space="preserve">
+    <value>P</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RCons_Description" xml:space="preserve">
+    <value>Conservative interaction check results.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RCons_Name" xml:space="preserve">
+    <value>Cons. Result</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RCons_NickName" xml:space="preserve">
+    <value>RCons</value>
+    <comment>Output</comment>
+  </data>
+  <data name="REl_Description" xml:space="preserve">
+    <value>Elastic check results.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="REl_Name" xml:space="preserve">
+    <value>El. Result</value>
+    <comment>Output</comment>
+  </data>
+  <data name="REl_NickName" xml:space="preserve">
+    <value>REl</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RPure_Description" xml:space="preserve">
+    <value>Pure (internal force) check results.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RPure_Name" xml:space="preserve">
+    <value>Pure Result</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RPure_NickName" xml:space="preserve">
+    <value>RPure</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RN_Description" xml:space="preserve">
+    <value>Pure normal force check results.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RN_Name" xml:space="preserve">
+    <value>Pure N Result</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RN_NickName" xml:space="preserve">
+    <value>RN</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RMy_Description" xml:space="preserve">
+    <value>Pure My bending check results.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RMy_Name" xml:space="preserve">
+    <value>Pure My Result</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RMy_NickName" xml:space="preserve">
+    <value>RMy</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RMz_Description" xml:space="preserve">
+    <value>Pure Mz bending check results.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RMz_Name" xml:space="preserve">
+    <value>Pure Mz Result</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RMz_NickName" xml:space="preserve">
+    <value>RMz</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RVy_Description" xml:space="preserve">
+    <value>Pure Vy shear check results.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RVy_Name" xml:space="preserve">
+    <value>Pure Vy Result</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RVy_NickName" xml:space="preserve">
+    <value>RVy</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RVz_Description" xml:space="preserve">
+    <value>Pure Vz shear check results.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RVz_Name" xml:space="preserve">
+    <value>Pure Vz Result</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RVz_NickName" xml:space="preserve">
+    <value>RVz</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RT_Description" xml:space="preserve">
+    <value>Pure torsion check results.</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RT_Name" xml:space="preserve">
+    <value>Pure T Result</value>
+    <comment>Output</comment>
+  </data>
+  <data name="RT_NickName" xml:space="preserve">
+    <value>RT</value>
+    <comment>Output</comment>
+  </data>
+</root>

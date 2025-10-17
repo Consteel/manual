@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Analysis_Description" xml:space="preserve">
+    <value>If set to true, ConSteel will automatically start the analysis calculation after the model is sent over. After the analysis is finished, the component imports the results from ConSteel. Only works with live connection!</value>
+    <comment/>
+  </data>
+  <data name="Analysis_Name" xml:space="preserve">
+    <value>Start Analysis</value>
+    <comment/>
+  </data>
+  <data name="Analysis_NickName" xml:space="preserve">
+    <value>SA</value>
+    <comment/>
+  </data>
+  <data name="BeamResult_Description" xml:space="preserve">
+    <value>New Beam objects, with the calculated results. You can pair the results with the origin object using the GUIDs. Note: do not mix these in with the beams created inside Grasshopper.</value>
+    <comment/>
+  </data>
+  <data name="BeamResult_Name" xml:space="preserve">
+    <value>Beams With Results</value>
+    <comment/>
+  </data>
+  <data name="BeamResult_NickName" xml:space="preserve">
+    <value>BR</value>
+    <comment/>
+  </data>
+  <data name="Component_Description" xml:space="preserve">
+    <value>Handles the connection between ConSteel and Grasshopper</value>
+    <comment/>
+  </data>
+  <data name="Component_Name" xml:space="preserve">
+    <value>ConSteel Connection</value>
+    <comment/>
+  </data>
+  <data name="Component_NickName" xml:space="preserve">
+    <value>CS Conn</value>
+    <comment/>
+  </data>
+  <data name="Descript_Description" xml:space="preserve">
+    <value>Data about the descript file to execute.</value>
+    <comment/>
+  </data>
+  <data name="Descript_Name" xml:space="preserve">
+    <value>Descript</value>
+    <comment/>
+  </data>
+  <data name="Descript_NickName" xml:space="preserve">
+    <value>D</value>
+    <comment/>
+  </data>
+  <data name="Design_Description" xml:space="preserve">
+    <value>If set to true, ConSteel will automatically start the analysis and design calculation after the model is sent over. After the design is finished, the component imports the results from ConSteel. Only works with live connection!</value>
+    <comment/>
+  </data>
+  <data name="Design_Name" xml:space="preserve">
+    <value>Start Design</value>
+    <comment/>
+  </data>
+  <data name="Design_NickName" xml:space="preserve">
+    <value>SD</value>
+    <comment/>
+  </data>
+  <data name="ExecuteDescript_Description" xml:space="preserve">
+    <value>ConSteel will automatically execute the descript code after the model is sent over and the analysis / design is executed. After the descript is executed, the component imports the results from ConSteel. Only works with live connection!</value>
+    <comment/>
+  </data>
+  <data name="ExecuteDescript_Name" xml:space="preserve">
+    <value>Execute Descript</value>
+    <comment/>
+  </data>
+  <data name="ExecuteDescript_NickName" xml:space="preserve">
+    <value>ED</value>
+    <comment/>
+  </data>
+  <data name="FilePath_Description" xml:space="preserve">
+    <value>The path for the saved file. If left empty, will prompt for a path. If set to false, you can manually save a file by right clicking on the send button.</value>
+    <comment/>
+  </data>
+  <data name="FilePath_Name" xml:space="preserve">
+    <value>File Path</value>
+    <comment/>
+  </data>
+  <data name="FilePath_NickName" xml:space="preserve">
+    <value>FP</value>
+    <comment/>
+  </data>
+  <data name="LiveConnection_Description" xml:space="preserve">
+    <value>If set to true, the component will automatically send the objects every time there is a change upstream. If set to false, you have to manually send the objects by right clicking on the send button.</value>
+    <comment/>
+  </data>
+  <data name="LiveConnection_Name" xml:space="preserve">
+    <value>Live Connection</value>
+    <comment/>
+  </data>
+  <data name="LiveConnection_NickName" xml:space="preserve">
+    <value>LCon</value>
+    <comment/>
+  </data>
+  <data name="Model_Description" xml:space="preserve">
+    <value>Objects to send to ConSteel. Note: you only have to specify the top level objects, Pangolin will automatically send all other required objects referenced by the ones specified manually.</value>
+    <comment/>
+  </data>
+  <data name="Model_Name" xml:space="preserve">
+    <value>Model</value>
+    <comment/>
+  </data>
+  <data name="Model_NickName" xml:space="preserve">
+    <value>M</value>
+    <comment/>
+  </data>
+  <data name="PointSupportResult_Description" xml:space="preserve">
+    <value>New Point support objects, with the calculated results. You can pair the results with the origin object using the GUIDs. Note: do not mix these in with the beams created inside Grasshopper.</value>
+    <comment/>
+  </data>
+  <data name="PointSupportResult_Name" xml:space="preserve">
+    <value>Point Supports With Results</value>
+    <comment/>
+  </data>
+  <data name="PointSupportResult_NickName" xml:space="preserve">
+    <value>PSR</value>
+    <comment/>
+  </data>
+  <data name="Save_Description" xml:space="preserve">
+    <value>If set to true, the component will also save a .smadsteel file every time it is run. If set to false, you can manually save a file from the right-click menu.</value>
+    <comment/>
+  </data>
+  <data name="Save_Name" xml:space="preserve">
+    <value>Save File</value>
+    <comment/>
+  </data>
+  <data name="Save_NickName" xml:space="preserve">
+    <value>SF</value>
+    <comment/>
+  </data>
+  <data name="Sendables_Description" xml:space="preserve">
+    <value>Objects to send to ConSteel. Note: you only have to specify the top level objects, Pangolin will automatically send all other required objects referenced by the ones specified manually.</value>
+    <comment/>
+  </data>
+  <data name="Sendables_Name" xml:space="preserve">
+    <value>Sendables</value>
+    <comment/>
+  </data>
+  <data name="Sendables_NickName" xml:space="preserve">
+    <value>S</value>
+    <comment/>
+  </data>
+  <data name="Timeout_Description" xml:space="preserve">
+    <value>The calculation is considered failed after this number of seconds.</value>
+    <comment/>
+  </data>
+  <data name="Timeout_Name" xml:space="preserve">
+    <value>Calculation Timeout Seconds</value>
+    <comment/>
+  </data>
+  <data name="Timeout_NickName" xml:space="preserve">
+    <value>CT [Seconds]</value>
+    <comment/>
+  </data>
+</root>
