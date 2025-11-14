@@ -99,7 +99,7 @@ The model description and the EN National Annex, or design standard can be chang
 
 <!-- wp:image {"align":"center","id":6962,"sizeSlug":"full","linkDestination":"none","className":"is-resized"} -->
 
-![](./img/wp-content-uploads-2021-04-2-2-model-attri.png)
+![alt text](img/szabványokEN.png)
 
 <!-- /wp:image -->
 
@@ -542,7 +542,7 @@ To establish the link between Consteel and IDEA Statica steel connection design 
 
 <!-- wp:image {"align":"center","id":7050,"width":511,"height":339,"sizeSlug":"full","linkDestination":"media"} -->
 
-![](img\wp-content-uploads-2021-04-2-2-Options-standards.png)
+![alt text](<img/szabványok 2EN.png>)
 
 <!-- /wp:image -->
 

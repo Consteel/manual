@@ -82,7 +82,7 @@ _Új modell_
 
 <!-- wp:image {"align":"right","id":31108,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/01/modell_attrib.png)](./img/wp-content-uploads-2022-01-modell_attrib.png)
+
 
 <!-- /wp:image -->
 
@@ -91,6 +91,8 @@ _Új modell_
 Modell attribútum
 
 <!-- /wp:paragraph -->
+
+![alt text](img/szabványokHU.png)
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
@@ -486,7 +488,7 @@ A Consteel és az IDEA Statica programok közötti kapcsolat létrehozására it
 
 #### Szabványok menü
 
-![alt text](img/szabványok.png)
+![alt text](<img/szabványok 2HU.png>)
 
 A menü segítségével egyszerűen és gyorsan áttekinthetjük a program által kezelt szabványok paramétereit, illetve létrehozhatunk saját tervezési paramétereket. A használt tervezési szabvány a _[Fájl menüben](#fájl-menü)_ állítható be, a _Modell attribútumok_ segítségével.
 
