@@ -17,6 +17,8 @@ The **_Frame corner wizard_** is an optional function for modeling and calculati
 
 The main mechanical background is that these – generally stiffened – corner zones have usually significantly different behavior than the connected beam members. Since these zones are very short the behavior is influenced dominantly by the shear effect while the connected members have beam-column behavior with a dominant bending effect.
 
+The function can be applied to member continuities that may be either **continuous** or **semi-rigid** (with the user specifying the end stiffness), ensuring that the behavior of the corner region can be reliably evaluated.
+
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
