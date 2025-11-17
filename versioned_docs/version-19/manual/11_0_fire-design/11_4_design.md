@@ -247,22 +247,19 @@ The critical temperature calculation can be activated in the design settings win
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-The results of the calculation can be queried in the **Design Parameters** drop-down menu. The results are displayed in a colored graphic. You can also open the **Section Module** from here by right-clicking on a given section, where the details of the critical temperature calculation can be found. The first line of the summary reads whether the profile should be protected or not, and the critical temperature field contains the relevant part of EC, the applied fire curve, the unprotected fire resistance time and temperature reached of the profile and the required fire resistance time.
+The results of the calculation can be queried in the **Predesign Parameters** drop-down menu. The results are displayed in a colored graphic. 
+
+![alt text](<img/Design results.png>)
+
+In case _Determination of the required thickness of the fire resistant coating_ was required, the product name and the necessary coating thickness is shown in the design result table.  
+
+You can also open the **Section Module** from here by right-clicking on a given section, where the details of the critical temperature calculation can be found. The first line of the summary reads whether the profile should be protected or not, and the critical temperature field contains the relevant part of EC, the applied fire curve, the unprotected fire resistance time and temperature reached of the profile and the required fire resistance time.
 
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":9408,"width":822,"height":365,"sizeSlug":"large","linkDestination":"media"} -->
 
-![](img\wp-content-uploads-2021-04-12-4-critical-temperature2-1024x455.png)
+![alt text](<img/Section modul.png>)
 
-<!-- /wp:image -->
 
-<!-- wp:image {"align":"center","id":9415,"width":530,"height":378,"sizeSlug":"large","linkDestination":"media"} -->
 
-![](img\wp-content-uploads-2021-04-12-4-critical-temperature3.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-<!-- /wp:paragraph -->
