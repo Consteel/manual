@@ -25,10 +25,6 @@ const config: Config = {
     defaultLocale: "en",
     locales: ["en", "hu"],
   },
-  future: {
-    v4: true,
-    experimental_faster: true,
-  },
   plugins: ["docusaurus-plugin-hotjar"],
   presets: [
     [
