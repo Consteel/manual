@@ -41,41 +41,30 @@ Második lépésként meg kell adni az elvárt tűzállósági időt, amelye 15 
 
 <!-- wp:image {"align":"right","id":37660,"width":643,"height":321,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-![](img\wp-content-uploads-2022-06-dial_tuz_vedelem.png)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Harmadik lépésként a _Tűzvédelem_ mező mellett található hárompontos ![](./img/wp-content-uploads-2021-04-3dots-button.png) gombra kattintva, különböző tűzvédelem felvételére van lehetőség. A megjelenő dialógon, ha még nincs létrehozva tűzvédelem típus, először az **Új** gombra kattintva lehet egy új védelmet definiálni. Legfelül lehet nevet adni az új definíciónak.
+Harmadik lépésként a _Tűzvédelem_ mező mellett található hárompontos ![](./img/wp-content-uploads-2021-04-3dots-button.png) gombra kattintva, különböző tűzvédelem felvételére van lehetőség. 
 
-<!-- /wp:paragraph -->
+![alt text](<img/Tűzvédelem megadása dialóg.png>)
 
-<!-- wp:spacer {"height":"10px"} -->
+A megjelenő dialógon, ha még nincs létrehozva tűzvédelem típus, először az **Új** gombra kattintva lehet egy új védelmet definiálni. Legfelül lehet nevet adni az új definíciónak.
 
-<!-- /wp:spacer -->
+Ezután ki kell választani a védelem típusát, amely lehet _Védetlen_, _Tűzihorganyzott_ – EN ISO 1461 szerint vagy _Védett_.  
 
-<!-- wp:paragraph {"align":"justify"} -->
+A _Védetlen_ azt jelenti, hogy az elemre nincs alkalmazva semmilyen tűzvédelem. A védelmet azonban ennek ellenére definiálni kell és el kell helyezni a Consteelben ahhoz, hogy az elemre tűzvédelmi számítás indítható legyen. 
 
-Ezután ki kell választani a védelem típusát, amely lehet _védetlen_ vagy _védett_. Védett típus választása esetén a védelem lehet _passzív_ vagy _reaktív_.
+A DASt Richtlinie 027 irányelv szerint az emisszivitási tényező (εₘ) – amelyet az elem tűz hatására megemelkedő hőmérsékletének meghatározásához használnak – módosítható az alapértelmezett (EN 1993-1-2 szerinti, nem tűzihorganyzott acélra vonatkozó) 0,7-es értékről 0,35-re, amennyiben az elem tűzihorganyzott, és az acél hőmérséklete 500 °C alatt marad. Amikor a _Tűzihorganyzott_ – EN ISO 1461 szerint opció van kiválasztva, az εₘ mező szerkeszthetővé válik, és a megadott értéket használja a program az acélhőmérséklet számításához 500°C alatt. 
 
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"right","id":37676,"width":238,"height":163,"sizeSlug":"full","linkDestination":"none","className":"is-style-editorskit-rounded"} -->
-
-![](./img/wp-content-uploads-2022-06-dial_tuz_vedelem_passziv.png)
-
-<!-- /wp:image -->
-
-<!-- wp:list -->
+Védett típus választása esetén a védelem lehet _Passzív_ vagy _Reaktív_. 
 
 - **Passzív védelem**: ebben az esetben meg kell adni a tűzvédő anyag típusát és a szigetelés vastagságát. A típushoz van több előre definiált anyag, illetve a legördülő menü melletti ![](./img/wp-content-uploads-2021-04-3dots-button.png) ikonnal új anyagot is definiálhatunk.
 
-<!-- /wp:list -->
+- **Reaktív védelem**: ezt kell választani, ha az adott szerkezet(rész) tűzvédelmét tűzvédő festékbevonat fogja biztosítani, és a festék kiválasztásához a kritikus hőmérséklet kiszámítására van szükség. 
 
-<!-- wp:list -->
-
-- **Reaktív védelem**: ezt kell választani, ha az adott szerkezet(rész) tűzvédelmét tűzvédő festékbevonat fogja biztosítani, és a festék kiválasztásához a kritikus hőmérséklet kiszámítására van szükség.
+ - A Szükséges tűzgátló festékréteg vastagság meghatározása opcionális. A második legördülő menüben több termék közül lehet választani. Meg kell adni a Környezeti kitettségi kategóriát és a Szerkezeti elem jellegét is, hogy a szoftver a beépített terméktáblázatok alapján meg tudja határozni a szükséges bevonatvastagságot. Az eredmények a Globális vizsgálatok fül eredménytáblázatában lesznek láthatóak. 
 
 <!-- /wp:list -->
 
