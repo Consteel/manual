@@ -24,7 +24,7 @@
       "description": "The generated-index page description for category Model view in sidebar manualSideBar"
     },
     "sidebar.manualSideBar.category.Drawing geometry": {
-      "message": "Geometria rajzolása",
+      "message": "Geometria",
       "description": "The label for category Drawing geometry in sidebar manualSideBar"
     },
     "sidebar.manualSideBar.category.Drawing geometry.link.generated-index.description": {

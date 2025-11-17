@@ -27,7 +27,7 @@ Repair methods consider every point placed in the model space. This includes the
 
 ### Methods:
 
-- **Move points within tolerance to the same location** - Moves points within tolerance distance to each other to the same location. This location will be the location of one of these points. If there are more other points near one of these points (within 0.01 mm distance), then the final location is going to be the coordinates of the point that has the most other points nearby. In case of standalone points, the choice of the final location between the two points is random
+- **Move points within tolerance to the same location** - Moves points within tolerance distance to each other to the same location. This location will be the location of one of these points. If there are more other points near one of these points (within 0.01 mm distance), then the final location is going to be the coordinates of the point that has the most other points nearby. In case of standalone points, the choice of the final location between the two points is random.
 
 - **Correct verticality of columns** - Makes almost vertical structural members perfectly vertical. A structural member is considered almost vertical if the difference between its start- and endpoints’ x and y coordinates are below the given tolerance.
 
