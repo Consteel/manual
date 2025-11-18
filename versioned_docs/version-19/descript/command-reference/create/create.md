@@ -40,41 +40,41 @@ The type of object to be created.
 
 <div style={{paddingBottom: '20px'}}> </div>
 
-| **Object type name**                                                                                 | **Object type**     |
-| ---------------------------------------------------------------------------------------------------- | ------------------- |
-| Structural members tab                                                                               | -                   |
-| [Structural member](#structural-member)                                                              | Structural_Member   |
-| [Structural Plate](#structural-plate)                                                                | Structural_Plate    |
-| [Haunch](#haunch)                                                                                    | Haunched_Member     |
-| [Tapered member](#tapered-member)                                                                    | Tapered_Member      |
-| [Steel material](#steel-material)                                                                    | Steel               |
-| [Coated steel material](#coated-steel-material)                                                      | Coated_Steel        |
-| [Concrete material](#concrete-material)                                                              | Concrete            |
-| [Rebar material](#rebar-material)                                                                    | Rebar               |
-| [Point support](#point-support)                                                                      | Support_Point       |
-| [Line support](#line-support)                                                                        | Support_Edge        |
-| [Surface support](#surface-support)                                                                  | Support_Plate       |
-| [Shear field](#shear-field) <span style={{color:"MediumSeaGreen"}}>(since CS 18 build 4124)</span>   | ShearField          |
-| [Point support type](#point-support-type)                                                            | Support             |
-| [Release type](#release-type)                                                                        | Release             |
-| [Link](#link)                                                                                        | Link                |
-| Loads tab                                                                                            | -                   |
-| [Load group](#load-group)                                                                            | LoadGroup           |
-| [Load case](#load-case)                                                                              | LoadCase            |
-| [Load combination](#load-combination)                                                                | LoadCombination     |
-| [Point load](#point-load)                                                                            | NodeForce           |
-| [Line load](#line-load)                                                                              | MemberForce         |
-| [Surface load (uniform)](<#surface-load-(uniform)>)                                                  | PlateForce_Uniform  |
-| [Surface load (linear)](<#surface-load-(linear)>)                                                    | PlateForce_Linear   |
-| [Load transfer surface](#load-transfer-surface)                                                      | LoadTransferSurface |
-| [Initial sway](#initial-sway) <span style={{color:"MediumSeaGreen"}}>(since CS 18 build 4124)</span> | InitialSway         |
-| Mass tab                                                                                             | -                   |
-| [Mass group](#mass-group)                                                                            | MassGroup           |
-| [Mass case](#mass-case)                                                                              | MassCase            |
-| [Mass combination](#mass-combination)                                                                | MassCombination     |
-| [Point mass](#point-mass)                                                                            | NodeMass            |
-| Other                                                                                                | -                   |
-| [Portion](#portion)                                                                                  | Portion             |
+| **Object type name**                                | **Object type**     |
+| --------------------------------------------------- | ------------------- |
+| Structural members tab                              | -                   |
+| [Structural member](#structural-member)             | Structural_Member   |
+| [Structural Plate](#structural-plate)               | Structural_Plate    |
+| [Haunch](#haunch)                                   | Haunched_Member     |
+| [Tapered member](#tapered-member)                   | Tapered_Member      |
+| [Steel material](#steel-material)                   | Steel               |
+| [Coated steel material](#coated-steel-material)     | Coated_Steel        |
+| [Concrete material](#concrete-material)             | Concrete            |
+| [Rebar material](#rebar-material)                   | Rebar               |
+| [Point support](#point-support)                     | Support_Point       |
+| [Line support](#line-support)                       | Support_Edge        |
+| [Surface support](#surface-support)                 | Support_Plate       |
+| [Shear field](#shear-field)                         | ShearField          |
+| [Point support type](#point-support-type)           | Support             |
+| [Release type](#release-type)                       | Release             |
+| [Link](#link)                                       | Link                |
+| Loads tab                                           | -                   |
+| [Load group](#load-group)                           | LoadGroup           |
+| [Load case](#load-case)                             | LoadCase            |
+| [Load combination](#load-combination)               | LoadCombination     |
+| [Point load](#point-load)                           | NodeForce           |
+| [Line load](#line-load)                             | MemberForce         |
+| [Surface load (uniform)](<#surface-load-(uniform)>) | PlateForce_Uniform  |
+| [Surface load (linear)](<#surface-load-(linear)>)   | PlateForce_Linear   |
+| [Load transfer surface](#load-transfer-surface)     | LoadTransferSurface |
+| [Initial sway](#initial-sway)                       | InitialSway         |
+| Mass tab                                            | -                   |
+| [Mass group](#mass-group)                           | MassGroup           |
+| [Mass case](#mass-case)                             | MassCase            |
+| [Mass combination](#mass-combination)               | MassCombination     |
+| [Point mass](#point-mass)                           | NodeMass            |
+| Other                                               | -                   |
+| [Portion](#portion)                                 | Portion             |
 
 #### Object parameters:
 
@@ -503,14 +503,14 @@ ModEccentricity \[Mod eccentricity]
 
 ### Command parameters
 
-| **Command parameter**                                                                                           | **Assignment** | **Value format**                                   | **Input options** |
-| --------------------------------------------------------------------------------------------------------------- | -------------- | -------------------------------------------------- | ----------------- |
-| [Object ID](#Object-ID-tm)                                                                                      | Required       | String                                             | Local, variable   |
-| [Member ID](#Member-ID-tm)                                                                                      | Required       | String                                             | Local, variable   |
-| [Start height](#Starting-height-tm)                                                                             | Required       | Numerical                                          | Local, variable   |
-| [End height](#End-height-tm)                                                                                    | Required       | Numerical                                          | Local, variable   |
-| [Format](#Format-tm)                                                                                            | Optional       | [Predefined strings](#Format-options-tm)           | Local, variable   |
-| [Mod eccentricity](#Mod-eccentricity-tm) <span style={{color:"MediumSeaGreen"}}>(since CS 18 build 4124)</span> | Optional       | [Predefined strings](#Mod-eccentricity-options-tm) | Local, variable   |
+| **Command parameter**                    | **Assignment** | **Value format**                                   | **Input options** |
+| ---------------------------------------- | -------------- | -------------------------------------------------- | ----------------- |
+| [Object ID](#Object-ID-tm)               | Required       | String                                             | Local, variable   |
+| [Member ID](#Member-ID-tm)               | Required       | String                                             | Local, variable   |
+| [Start height](#Starting-height-tm)      | Required       | Numerical                                          | Local, variable   |
+| [End height](#End-height-tm)             | Required       | Numerical                                          | Local, variable   |
+| [Format](#Format-tm)                     | Optional       | [Predefined strings](#Format-options-tm)           | Local, variable   |
+| [Mod eccentricity](#Mod-eccentricity-tm) | Optional       | [Predefined strings](#Mod-eccentricity-options-tm) | Local, variable   |
 
 #### Object ID: {#Object-ID-tm}
 
@@ -1007,7 +1007,6 @@ CoordSys Local
 
 ## Shear field
 
-<span style={{color:"MediumSeaGreen"}}>(since CS 18 build 4124)</span>  
 This command is analogous with the shear field creation dialogue in Consteel:
 
 [![](./img/Create_ShearField_Img_v01.png)](./img/Create_ShearField_Img_v01.png)
@@ -2120,8 +2119,6 @@ CREATE LTS_ID1 LoadTransferSurface "LTS 1"
 
 ## Initial sway
 
-<span style={{color:"MediumSeaGreen"}}>(since CS 18 build 4124)</span>
-
 This command is analogous with the iitial sway tab of the global imperfections dialogue in Consteel:
 
 ![](img\Create_InitialSway_Img_v01.png)
@@ -2475,12 +2472,12 @@ CornerType \[Corner type]
 
 ### Command parameters
 
-| **Command parameter**                                                                                  | **Assignment** | **Value format**                               | **Input options** |
-| ------------------------------------------------------------------------------------------------------ | -------------- | ---------------------------------------------- | ----------------- |
-| [Object ID](#Object-ID-por)                                                                            | Required       | String                                         | Local, variable   |
-| [Object name](#Object-name-por)                                                                        | Required       | String                                         | Local, variable   |
-| [Content array](#Content-array-por)                                                                    | Required       | Object ID(s)                                   | Array             |
-| [Corner type](#Corner-type-por) <span style={{color:"MediumSeaGreen"}}>(since CS 18 build 4124)</span> | Optional       | [Predefined strings](#Corner-type-options-por) | Local, variable   |
+| **Command parameter**               | **Assignment** | **Value format**                               | **Input options** |
+| ----------------------------------- | -------------- | ---------------------------------------------- | ----------------- |
+| [Object ID](#Object-ID-por)         | Required       | String                                         | Local, variable   |
+| [Object name](#Object-name-por)     | Required       | String                                         | Local, variable   |
+| [Content array](#Content-array-por) | Required       | Object ID(s)                                   | Array             |
+| [Corner type](#Corner-type-por)     | Optional       | [Predefined strings](#Corner-type-options-por) | Local, variable   |
 
 #### Object ID: {#Object-ID-por}
 

@@ -31,6 +31,7 @@ Object IDs from the following object types are accepted:
   - [Section](#section)
   - [Structural member](#structural-member)
   - [Structural plate](#structural-plate)
+  - [Frame corner wizard](#frame-corner-wizard)
   - [Haunched member](#haunched-member)
   - [Tapered member](#tapered-member)
   - [Steel material](#steel-material)
@@ -40,7 +41,7 @@ Object IDs from the following object types are accepted:
   - [Point support](#point-support)
   - [Line support](#line-support)
   - [Surface support](#surface-support)
-  - [Shear field](#shear-field) <span style={{color:"MediumSeaGreen"}}>(since CS 18 build 4124)</span>
+  - [Shear field](#shear-field)
   - [Support type](#support-type)
   - [Release type](#release-type)
   - [Link ](#link)
@@ -52,7 +53,7 @@ Object IDs from the following object types are accepted:
   - [Line load](#line-load)
   - [Surface load](#surface-load)
   - [Load transfer surface](#Load-transfer-surface)
-  - [Initial sway](#initial-sway) <span style={{color:"MediumSeaGreen"}}>(since CS 18 build 4124)</span>
+  - [Initial sway](#initial-sway)
 - Mass tab:
   - [Mass group](#mass-group)
   - [Mass case](#mass-case)
@@ -315,6 +316,32 @@ GET SPID1 Thickness Thickness
 GET SPID1 AverageEdgeLength AverageEdgeLength
 ```
 
+## Frame corner wizard
+
+The frame corner wizard is a special type of object, since there can be only 1 frame corner wizard in a Consteel model database. Because of this reason, this object is identified by its object type name instead of a user defined or program generated string referring to a specific instance of this object type. Therefore the **Object ID** parameter of the **GET** command in case of a frame corner wizard object type always has to be "**FRAMECORNERWIZARD**".
+
+Available object attributes:
+
+| **Object attribute name** | **Object attribute** (type this into Descript) |
+| ------------------------- | ---------------------------------------------- |
+| On                        | On                                             |
+
+### Sample code
+
+**Command only:**
+
+```
+GET FRAMECORNERWIZARD On Is_Frame_Corner_On
+```
+
+**Modify by SET command + query by GET command:**
+
+```
+SET FRAMECORNERWIZARD On On
+
+GET FRAMECORNERWIZARD On Is_Frame_Corner_On
+```
+
 ## Haunched member
 
 Available object attributes:
@@ -369,15 +396,15 @@ GET Hau_ID1 StartX StartX
 
 Available object attributes:
 
-| **Object attribute name**                                                               | **Object attribute** (type this into Descript) |
-| --------------------------------------------------------------------------------------- | ---------------------------------------------- |
-| Name                                                                                    | Name                                           |
-| Object type                                                                             | Object_Type                                    |
-| Member ID                                                                               | OnMemberID                                     |
-| Start height                                                                            | Hstart                                         |
-| End height                                                                              | Hend                                           |
-| Beam eccentricity                                                                       | Format                                         |
-| Mod eccentricity <span style={{color:"MediumSeaGreen"}}>(since CS 18 build 4124)</span> | ModEccentricity                                |
+| **Object attribute name** | **Object attribute** (type this into Descript) |
+| ------------------------- | ---------------------------------------------- |
+| Name                      | Name                                           |
+| Object type               | Object_Type                                    |
+| Member ID                 | OnMemberID                                     |
+| Start height              | Hstart                                         |
+| End height                | Hend                                           |
+| Beam eccentricity         | Format                                         |
+| Mod eccentricity          | ModEccentricity                                |
 
 ### Sample code
 
@@ -1217,8 +1244,6 @@ GET LTS_ID1 LoadEccZ LoadEccZ
 
 ## Initial sway
 
-<span style={{color:"MediumSeaGreen"}}>(since CS 18 build 4124)</span>
-
 Available object attributes:
 
 | **Object attribute name** | **Object attribute** (type this into Descript) |
@@ -1380,13 +1405,13 @@ GET PMass_ID1 MulFac MulFac
 
 Available object attributes:
 
-| **Object attribute name**                                                          | **Object attribute** (type this into Descript) |
-| ---------------------------------------------------------------------------------- | ---------------------------------------------- |
-| Name                                                                               | Name                                           |
-| Object type                                                                        | Object_Type                                    |
-| Portion type (Portion, storey, 2DPortion)                                          | Type                                           |
-| Items                                                                              | Items                                          |
-| Corner type <span style={{color:"MediumSeaGreen"}}>(since CS 18 build 4124)</span> | CornerType                                     |
+| **Object attribute name**                 | **Object attribute** (type this into Descript) |
+| ----------------------------------------- | ---------------------------------------------- |
+| Name                                      | Name                                           |
+| Object type                               | Object_Type                                    |
+| Portion type (Portion, storey, 2DPortion) | Type                                           |
+| Items                                     | Items                                          |
+| Corner type                               | CornerType                                     |
 
 ### Sample code
 

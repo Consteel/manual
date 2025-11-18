@@ -30,6 +30,7 @@ Object IDs from the following object types are accepted:
 - Structural members tab:
   - [Structural member](#structural-member)
   - [Structural plate](#structural-plate)
+  - [Frame corner wizard](#frame-corner-wizard)
   - [Haunched member](#haunched-member)
   - [Tapered member](#tapered-member)
   - [Steel material](#steel-material)
@@ -39,7 +40,7 @@ Object IDs from the following object types are accepted:
   - [Point support](#point-support)
   - [Line support](#line-support)
   - [Surface support](#surface-support)
-  - [Shear field](#shear-field) <span style={{color:"MediumSeaGreen"}}>(since CS 18 build 4124)</span>
+  - [Shear field](#shear-field)
   - [Support type](#support-type)
   - [Release type](#release-type)
   - [Link ](#link)
@@ -51,7 +52,7 @@ Object IDs from the following object types are accepted:
   - [Line load](#line-load)
   - [Surface load](#surface-load)
   - [Load transfer surface](#load-transfer-surface)
-  - [Initial sway](#initial-sway) <span style={{color:"MediumSeaGreen"}}>(since CS 18 build 4124)</span>
+  - [Initial sway](#initial-sway)
 - Mass tab:
   - [Mass group](#mass-group)
   - [Mass case](#mass-case)
@@ -196,6 +197,37 @@ SET Plate_ID1 Name "New plate name"
 SET Plate_ID1 MaterialID Concrete_Mat_ID1       // or: SET Plate_ID1 MaterialID "NAME: Custom concrete C25"
 SET Plate_ID1 Thickness 234
 SET Plate_ID1 AverageEdgeLength 456
+```
+
+## Frame corner wizard
+
+The frame corner wizard is a special type of object, since there can be only 1 frame corner wizard in a Consteel model database. Because of this reason, this object is identified by its object type name instead of a user defined or program generated string referring to a specific instance of this object type. Therefore the **Object ID** parameter of the **SET** command in case of a frame corner wizard object type always has to be "**FRAMECORNERWIZARD**".
+
+Available object attributes:
+
+| **Object attribute name** | **Object attribute** (type this into Descript) | **Value format**                              |
+| ------------------------- | ---------------------------------------------- | --------------------------------------------- |
+| On                        | On                                             | [Predefined strings](#frame-corner-wizard-on) |
+
+#### On:
+
+<span id="frame-corner-wizard-on" style={{paddingTop: '80px'}}> Valid inputs: </span>
+
+- On / 1
+- Off / 0
+
+### Sample code
+
+**Attribute value given by string:**
+
+```
+SET FRAMECORNERWIZARD On On
+```
+
+**Attribute value given by number:**
+
+```
+SET FRAMECORNERWIZARD On 1
 ```
 
 ## Haunched Member
@@ -1287,8 +1319,6 @@ SET LTS_ID1 LoadEccZ 123
 
 ## Initial sway
 
-<span style={{color:"MediumSeaGreen"}}>(since CS 18 build 4124)</span>
-
 Available object attributes:
 
 | **Object attribute name** | **Object attribute** (type this into Descript) | **Value format**                                     |
@@ -1480,11 +1510,11 @@ SET PMass_ID1 MulFac 10
 
 Available object attributes:
 
-| **Object attribute name**                                                          | **Object attribute** (type this into Descript) | **Value format**                               |
-| ---------------------------------------------------------------------------------- | ---------------------------------------------- | ---------------------------------------------- |
-| Name                                                                               | Name                                           | String                                         |
-| Items                                                                              | Items                                          | Object IDs in array                            |
-| Corner type <span style={{color:"MediumSeaGreen"}}>(since CS 18 build 4124)</span> | CornerType                                     | [Predefined strings](#Corner-type-options-por) |
+| **Object attribute name** | **Object attribute** (type this into Descript) | **Value format**                               |
+| ------------------------- | ---------------------------------------------- | ---------------------------------------------- |
+| Name                      | Name                                           | String                                         |
+| Items                     | Items                                          | Object IDs in array                            |
+| Corner type               | CornerType                                     | [Predefined strings](#Corner-type-options-por) |
 
 #### Corner type:
 
