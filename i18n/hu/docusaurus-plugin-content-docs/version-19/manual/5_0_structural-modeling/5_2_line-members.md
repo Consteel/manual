@@ -61,7 +61,7 @@ Rúdelem paramétereinek megadása a dialóg középső részén történik:
 
 <!-- wp:image {"align":"center","id":33627,"width":362,"height":355,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/02/dial_rud_szerk_gerenda.png)](./img/wp-content-uploads-2022-02-dial_rud_szerk_gerenda.png)
+![alt text](<img/HU Beam.png>)
 
 <!-- /wp:image -->
 
@@ -71,7 +71,7 @@ Rúdelem paramétereinek megadása a dialóg középső részén történik:
 
 <!-- wp:image {"align":"center","id":33634,"width":361,"height":383,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/02/dial_rud_szerk_oszlop.png)](./img/wp-content-uploads-2022-02-dial_rud_szerk_oszlop.png)
+![alt text](<img/HU Column.png>)
 
 <!-- /wp:image -->
 
@@ -144,7 +144,7 @@ Ilyen típusú keresztmetszetek esetén csak a _6 DOF rúdelem_ elemtípus haszn
 
 - _Végeselemek száma_: a megadott végeselem számot használja a program az analízis során. Alapesetben az automatikus van beállítva, amely a legtöbb esetben a legoptimálisabb megoldást adja.
 
-- _Lokális külpontosság_: lokális külpontosság definiálható az elem lokális koordinátarendszerében („y, z”), illetve megadható elforgatás is a lokális „x” tengely körül.
+- _Lokális külpontosság_: az elem lokális külpontossága a szelvény geometriájához vagy a lokális „y–z” koordinátarendszerhez viszonyítva adható meg, a szelvény a lokális „x” tengely körül is elforgatható. További részletek a [ponttámaszok](../5_0_structural-modeling/5_9_supports.md#pont-támasz-elhelyezése) fejezetben találhatók.
 
 - Az ablak alsó része a felhasználókat támogató információk és parancsok kijelzésére szolgál.
 
@@ -939,19 +939,21 @@ A keresztmetszetek külpontossága miatt az igénybevételek is külpontossá v�
 ## Változó keresztmetszetű elemek
 
 
-[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/03/dial_valtozo_szelveny.png)](./img/wp-content-uploads-2022-03-dial_valtozo_szelveny.png)
+![alt text](<img/HU Tapered member old.png>)
 
 
 Változó keresztmetszetű elemek használata acélszerkezetek gazdaságos tervezésnél kerülnek előtérbe, emiatt különösen fontos, hogy változó keresztmetszetű elemek modellezése gyors és egyszerű legyen. Változó keresztmetszetű elem létrehozásához először egy hegesztett I, H, doboz vagy hidegen hajlított C szelvényű rudat kell felvenni.
 
 
-**Melegen hengerelt vagy egyéb makró keresztmetszetű rúd nem alakítható át változó keresztmetszetű rúddá.**
+:::info 
+Melegen hengerelt vagy egyéb makró keresztmetszetű rúd nem alakítható át változó keresztmetszetű rúddá. 
+:::
 
 
 A _**Változó keresztmetszet**_ ![](./img/wp-content-uploads-2021-04-cmd_tapered.png) funkció segítségével kezdő- és végponti keresztmetszeti magasság adható meg. A két pont között a magasság lineárisan változik az elem hossza mentén.
 
 
-Változó keresztmetszet létrehozásához a _**Változó keresztmetszetű rúd**_ dialógon először meg kell adni a keresztmetszet magassági paramétereit és a külpontosság igazítását.
+Változó keresztmetszet létrehozásához a _**Változó keresztmetszetű rúd**_ dialógon először meg kell adni a keresztmetszet magassági paramétereit.
 
 
 A kezdő (H1) és végponti (H2) keresztmetszeti magasság nem teljesen független az eredeti keresztmetszet magasságától. Tanácsos az eredeti szelvényt úgy felvenni, hogy a magassága megközelítőleg megegyezzen a változó keresztmetszet legkisebb magasságával. Ha H1 vagy H2 közül valamelyik kisebb, mint az eredeti szelvény magasságának a fele, akkor a szoftver automatikusan felülírja ezt az értéket az eredeti magasság felére.
@@ -960,65 +962,11 @@ A kezdő (H1) és végponti (H2) keresztmetszeti magasság nem teljesen függetl
 A kezdőponti keresztmetszeti magasság az elem kezdőpontján, a végponti érték pedig az elem végpontján kerül alkalmazásra. A H1 és H2 értékek a ![](./img/wp-content-uploads-2021-04-tapered_cmd_change.png) gomb megnyomásával megcserélhetők. Az értékek megcserélése után újra ki kell választani az elemet, hogy a változtatás megtörténjen.
 
 
-A változó keresztmetszetű rúd külpontos elhelyezésének szabálya összefügg az eredeti rúd tengelyének helyzetével.
-
-
-[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/03/dial_valtozo_szelveny_kulpontossag-igazitasa.png)](./img/wp-content-uploads-2022-03-dial_valtozo_szelveny_kulpontossag-igazitasa.png)
-
-1. _A kisebbik szelvény súlypontja legyen a tengelyvonalon:_ a kisebb H értékű rúdvég középpontján átmenő tengelyt helyezi az eredeti rúd tengelyére
-
-2. _A nagyobbik szelvény súlypontja legyen a tengelyvonalon:_ a nagyobb H értékű rúdvég középpontján átmenő tengelyt helyezi az eredeti rúd tengelyére
-
-3. _Az eredeti szelvény súlypontja legyen a tengelyvonalon:_ a változó keresztmetszetű rúd szélét helyezi az eredeti rúd szélére
+A változó keresztmetszetű rúd külpontos elhelyezésének szabálya az eredeti rúd tengelyének helyzetéhez igazodik: az eredeti szelvény súlypontjának a tengelyvonalra kell kerülnie, így a változó keresztmetszetű rúd széle az eredeti rúd széléhez illeszkedik.
 
 
 A változó keresztmetszet helyzete lehet –z (a változó keresztmetszetű rúd bal oldala lesz párhuzamos az eredeti rúd tengelyével), szimmetrikus vagy +z (a változó keresztmetszetű rúd jobb oldala lesz párhuzamos az eredeti rúd tengelyével). A fenti definíciók határozzák meg a megadott magasságok külpontosságát a változó keresztmetszetű rúd helyi „z” koordinátatengelye mentén.
 
-
-Az alábbi ábrák a különböző paraméterek alkalmazásának hatásait mutatják:
-
-1. _A kisebbik szelvény súlypontja legyen a tengelyvonalon_: a kisebb H értékű rúdvég középpontján átmenő tengelyt helyezi az eredeti rúd tengelyére
-
-
-**-z**
-
-
-**szimmetrikus**
-
-
-**+z**
-
-
-[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/6-2-1-z-1.png)](./img/wp-content-uploads-2021-04-6-2-1-z-1.png)
-
-
-
-![](./img/wp-content-uploads-2021-04-6-2-1symmetric.png)
-
-
-[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/6-2-1z.png)](./img/wp-content-uploads-2021-04-6-2-1z.png)
-
-2. _A nagyobbik szelvény súlypontja legyen a tengelyvonalon_: a nagyobb H értékű rúdvég középpontján átmenő tengelyt helyezi az eredeti rúd tengelyére
-
-
-**-z**
-
-
-**szimmetrikus**
-
-
-**+z**
-
-
-[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/6-2-2-z.png)](./img/wp-content-uploads-2021-04-6-2-2-z.png)
-
-
-[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/6-2-2symmetric.png)](./img/wp-content-uploads-2021-04-6-2-2symmetric.png)
-
-
-[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/6-2-2z.png)](./img/wp-content-uploads-2021-04-6-2-2z.png)
-
-3. _Az eredeti szelvény súlypontja legyen a tengelyvonalon:_ a változó keresztmetszetű rúd szélét helyezi az eredeti rúd szélére
 
 **-z**
 

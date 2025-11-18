@@ -43,19 +43,9 @@ Koncentrált teher elhelyezhető **Globális (**![](./img/wp-content-uploads-202
 
 A koncentrált teher esetében is alkalmazható külpontosság. A kiválasztott koordináta rendszer és az alkalmazott külpontosság hatása megegyezik a pontszerű támaszoknál bemutatottakkal (lásd **Támaszok** fejezet).
 
-<!-- /wp:paragraph -->
 
-<!-- wp:image {"align":"center","id":35856,"width":360,"height":304,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+![alt text](<img/HU Point load.png>)
 
-[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_koncentralt_kulpontossag.png)](./img/wp-content-uploads-2022-05-dial_teher_koncentralt_kulpontossag.png)
-
-<!-- /wp:image -->
-
-<!-- wp:spacer {"height":"1px"} -->
-
-<!-- /wp:spacer -->
-
-<!-- wp:image {"align":"right","id":35864,"width":271,"height":376,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
 [![](https://www.Consteelsoftware.com/wp-content/uploads/2022/05/dial_teher_vonal.png)](./img/wp-content-uploads-2022-05-dial_teher_vonal.png)
 

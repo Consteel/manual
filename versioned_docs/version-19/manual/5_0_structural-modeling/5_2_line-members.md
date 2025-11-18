@@ -20,9 +20,9 @@ The dialogue allows the following modelling options for creating line members:
 
 Member parameters can be defined in the middle part of the dialogs:
 
-![](img\wp-content-uploads-2022-12-Beam.jpg)
+![alt text](<img/EN Beam.png>)
 
-![](img\wp-content-uploads-2022-12-Column.jpg)
+![alt text](<img/EN Column.png>)
 
 - _Section:_ the appropriate cross-section can be selected from the drop-down box. If no section has been loaded into the model, the **_Section_** dialogue should be opened by pressing the three dots button (![](./img/wp-content-uploads-2021-04-3dots-button.png)) next to the drop-down box. For more information about **Section administration** and for details on the section models and standard tests used in Consteel, see **_[Section module](../10_0_section-module/10_1_section-modelling.md)_**.
 
@@ -67,7 +67,7 @@ There is only one choice available: the _**6 DOF beam element**_ type. This is t
 
 - _Number of finite elements_: the required number of finite elements used on the member in the analysis can be set. I The default _automatic_ option gives a sufficient result in the most cases.
 
-- _Local eccentricity_: member eccentricity can be defined in the local coordinate system (“y, z”) of the member, and the section can be rotated about the local coordinate “x”.
+- The _local eccentricity_ of a member can be specified relative to the section geometry or its local “y–z” coordinate system, the section can also be rotated about the local x-axis. More details are provided in the [point-support](../5_0_structural-modeling/5_9_supports.md#point-support) chapter.
 
 - At the bottom of this dialog there is an instruction and command area for guiding the user.
 
@@ -666,57 +666,17 @@ Tapered members are often used in the economic design of steel-framed structures
 
 With the **_Tapered member_** function (![](./img/wp-content-uploads-2021-04-cmd_tapered.png)) the section height of these sections can be set to linearly varying along the member length.
 
-![](img\wp-content-uploads-2021-04-6-2-Tapered-member.png)
+![alt text](<img/EN Tapered member old.png>)
 
-First, the user has to specify the parameters and beam eccentricity options for the member to be tapered on the **_Tapered member_** dialogue.
+First, the user has to specify the parameters for the member to be tapered on the **_Tapered member_** dialogue.
 
 Specification of the start (H1) and end section height (H2) is not totally independent from the original section height of the cross-section. It is adviseable to define the original section with approximately the smaller height of the tapered member. If either H1 or H2 is smaller than 0.5 times the original height, the software will automatically overwrite the height to be the half of the orginal section height.
 
 The start value for section height is applied at the start point of the member, the end value is applied at the other end. To change the H1 and H2 values click the ![](./img/wp-content-uploads-2021-04-tapered_cmd_change.png) icon. The values will be changed, and selecting again the member for tapering, the sizes of the tapering will change adequately.
 
-The rules for the beam eccentricity of the tapered member relate to the axis of the originally positioned member to be tapered.
-
-![](img\wp-content-uploads-2021-04-6-2-Set-beam-eccentricity.png)
-
-1. _Place the centroid of the smaller section to the axis of the beam:_ the centre of smaller H value of the tapered member will be positioned to the axis of the original beam.
-
-2. _Place the centroid of the bigger section to the axis of the beam:_ the centre of bigger H value of the tapered member will be positioned to the axis of the original beam.
-
-3. _Place the centroid of the original section to the axis of the beam:_ the edge of the tapered member is coincident with the original member end and the tapering will start from this position.
+The centroid of the original section will be aligned with the beam axis. The edge of the tapered member is coincident with the original member end and the tapering will start from this position.
 
 The relative position of the tapering can be –z (the left side of the tapered member will be parallel to the axis of the originally placed member), symmetric or +z (the right side of the tapered member will be parallel to the axis of the originally placed member). These definitions regulate the directions of the offset of the given height values along the local “z” axis of the tapered beam.
-
-Below shown the effect of the different relative positioning by the chosen eccentricity:
-
-1. _Place the centroid of the smaller section to the axis of the beam:_ the centre of smaller H value of the tapered member will be positioned to the axis of the original beam.
-
-**-z**
-
-**symmetric**
-
-**+z**
-
-![](img\wp-content-uploads-2021-04-6-2-1-z-1.png)
-
-![](./img/wp-content-uploads-2021-04-6-2-1symmetric.png)
-
-![](img\wp-content-uploads-2021-04-6-2-1z.png)
-
-2\. _Place the centroid of the bigger section to the axis of the beam:_ the center of the bigger H value of the tapered member will be positioned to the axis of the original beam.
-
-**-z**
-
-**symmetric**
-
-**+z**
-
-![](img\wp-content-uploads-2021-04-6-2-2-z.png)
-
-![](img\wp-content-uploads-2021-04-6-2-2symmetric.png)
-
-![](img\wp-content-uploads-2021-04-6-2-2z.png)
-
-3\. _Place the centroid of the original section to the axis of the beam:_ The edge of the tapered member is coincident with the original member end the tapering starts from this position.
 
 **-z**
 
@@ -730,10 +690,10 @@ Below shown the effect of the different relative positioning by the chosen eccen
 
 ![](img\wp-content-uploads-2021-04-6-2-3z.png)
 
-Activating the ![](./img/wp-content-uploads-2021-04-cmd_draw_get.png) icon, by clicking an earlier created tapered member in the model, the values, the eccentricity, and the relative positioning will be read out of that clicked, and appear in the dialog box. By clicking another member for taper, these parameters will be applied.
+Activating the ![](./img/wp-content-uploads-2021-04-cmd_draw_get.png) icon, by clicking an earlier created tapered member in the model, the values and the relative positioning will be read out of that clicked, and appear in the dialog box. By clicking another member for taper, these parameters will be applied.
 
 In the case of selecting a tapered member, not only the member but the tapering will be selected automatically and can be modified in the parameter table as a separate object.
 
 :::info
-**Important to know** that for the tapered members, new sections are created during the automatic finite element generation with appropriate section heights. These new sections are placed eccentrically on the reference line of the member (except the symmetrical tapering). This eccentricity causes additional effects in the analysis results due to the eccentric position of the sectional forces (for instance at the beam-to-column connection point of a frame with tapered beams and/or columns the equilibrium of the in-plane bending moments exists only if the additional moments from the eccentric axial forces are taken into account).
+New sections are created during the automatic finite element generation with appropriate section heights. These new sections are placed eccentrically on the reference line of the member (except the symmetrical tapering). This eccentricity causes additional effects in the analysis results due to the eccentric position of the sectional forces (for instance at the beam-to-column connection point of a frame with tapered beams and/or columns the equilibrium of the in-plane bending moments exists only if the additional moments from the eccentric axial forces are taken into account).
 :::
