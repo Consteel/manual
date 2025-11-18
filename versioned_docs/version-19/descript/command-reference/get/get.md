@@ -31,6 +31,7 @@ Object IDs from the following object types are accepted:
   - [Section](#section)
   - [Structural member](#structural-member)
   - [Structural plate](#structural-plate)
+  - [Frame corner wizard](#frame-corner-wizard)
   - [Haunched member](#haunched-member)
   - [Tapered member](#tapered-member)
   - [Steel material](#steel-material)
@@ -313,6 +314,32 @@ GET SPID1 Object_Type Object_Type
 GET SPID1 MaterialID MaterialID
 GET SPID1 Thickness Thickness
 GET SPID1 AverageEdgeLength AverageEdgeLength
+```
+
+## Frame corner wizard
+
+The frame corner wizard is a special type of object, since there can be only 1 frame corner wizard in a Consteel model database. Because of this reason, this object is identified by its object type name instead of a user defined or program generated string referring to a specific instance of this object type. Therefore the **Object ID** parameter of the **GET** command in case of a frame corner wizard object type always has to be "**FRAMECORNERWIZARD**".
+
+Available object attributes:
+
+| **Object attribute name** | **Object attribute** (type this into Descript) |
+| ------------------------- | ---------------------------------------------- |
+| On                        | On                                             |
+
+### Sample code
+
+**Command only:**
+
+```
+GET FRAMECORNERWIZARD On Is_Frame_Corner_On
+```
+
+**Modify by SET command + query by GET command:**
+
+```
+SET FRAMECORNERWIZARD On On
+
+GET FRAMECORNERWIZARD On Is_Frame_Corner_On
 ```
 
 ## Haunched member
