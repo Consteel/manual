@@ -46,7 +46,7 @@ Eccentricity can be applied on the point load also. The effect of the selected c
 
 <!-- wp:image {"align":"center","id":9971,"width":300,"height":244,"sizeSlug":"full","linkDestination":"media"} -->
 
-![](img\wp-content-uploads-2021-04-7-4-Point-load-types.png)
+![alt text](<img/EN Point load.png>)
 
 <!-- /wp:image -->
 

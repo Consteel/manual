@@ -20,9 +20,9 @@ The dialogue allows the following modelling options for creating line members:
 
 Member parameters can be defined in the middle part of the dialogs:
 
-![](img\wp-content-uploads-2022-12-Beam.jpg)
+![alt text](<img/EN Beam.png>)
 
-![](img\wp-content-uploads-2022-12-Column.jpg)
+![alt text](<img/EN Column.png>)
 
 - _Section:_ the appropriate cross-section can be selected from the drop-down box. If no section has been loaded into the model, the **_Section_** dialogue should be opened by pressing the three dots button (![](./img/wp-content-uploads-2021-04-3dots-button.png)) next to the drop-down box. For more information about **Section administration** and for details on the section models and standard tests used in Consteel, see **_[Section module](../10_0_section-module/10_1_section-modelling.md)_**.
 
@@ -67,7 +67,7 @@ There is only one choice available: the _**6 DOF beam element**_ type. This is t
 
 - _Number of finite elements_: the required number of finite elements used on the member in the analysis can be set. I The default _automatic_ option gives a sufficient result in the most cases.
 
-- _Local eccentricity_: member eccentricity can be defined in the local coordinate system (“y, z”) of the member, and the section can be rotated about the local coordinate “x”.
+- The _local eccentricity_ of a member can be specified relative to the section geometry or its local “y–z” coordinate system, the section can also be rotated about the local x-axis. More details are provided in the [point-support](../5_0_structural-modeling/5_9_supports.md#point-support) chapter.
 
 - At the bottom of this dialog there is an instruction and command area for guiding the user.
 
