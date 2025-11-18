@@ -697,3 +697,60 @@ In the case of selecting a tapered member, not only the member but the tapering 
 :::info
 New sections are created during the automatic finite element generation with appropriate section heights. These new sections are placed eccentrically on the reference line of the member (except the symmetrical tapering). This eccentricity causes additional effects in the analysis results due to the eccentric position of the sectional forces (for instance at the beam-to-column connection point of a frame with tapered beams and/or columns the equilibrium of the in-plane bending moments exists only if the additional moments from the eccentric axial forces are taken into account).
 :::
+
+## Web tapered welded I/H member
+
+In welded built-up members commonly used in metal buildings, the flange and web plate thicknesses often vary along the member length to optimize material usage according to internal force demands.
+
+The Web Tapered Welded I/H Member function allows users to define editable lists of flange and web plates with varying thicknesses along the member. Consteel automatically generates the corresponding finite element model based on these lists, allowing efficient and flexible modeling without dividing the element.
+
+:::info
+
+The function is available exclusively for welded I or H members and can be used only when the member’s local eccentricity matches the selected tapered shape.
+
+- **Top**: Bottom Left, Bottom Middle, Bottom Right, Bottom of the Web
+
+- **Symmetric**: Middle Left, Middle Middle, Middle Right, Middle of the Web
+
+- **Bottom**: Top Left, Top Middle, Top Right, Top of the Web
+
+:::
+
+
+![alt text](<img/EN Web tapered welded I H member.png>)
+
+The function window is divided into two main sections: the first for member parameters and the second for plate parameters. All parameters must be set before placing the web tapered member.
+
+1. **Member parametes**
+
+In this section, all parameters related to the member must be set. Note that for a predefined welded I or H member, only the material parameter remains as originally defined; all other parameters must be specified:
+
+- **Shape**: Can be Top, Symmetric, or Bottom, depending on the member’s local eccentricity.
+
+- **Start and end of the web height**: Can be exchanged using the two-arrow button.
+
+- **Top and bottom flange width**
+
+2. **Plate parameters**: 
+
+The **reference point** can be selected either at the start or at the end of the member.
+
+Users can define the **plate segments** using the ![alt text](img/plus.png) button by specifying the thickness and length of each segment separately for the top flange, web, and bottom flange.
+
+In addition, the remaining part of each segment can be edited at the end of the line by clicking the edit icon ![alt text](img/edit.png).
+
+![alt text](<img/EN Plate parameters.png>)
+
+After setting the parameters, the web-tapered welded I or H member can be placed on an existing welded member in the model using the Place button.
+
+![alt text](<img/EN place tapered I H.png>)
+
+If the selected tapered type does not match the welded member’s local eccentricity, the following error message will appear:
+
+![alt text](<img/EN Place web tapered welded I H.png>)
+
+If the placement is successful, users can select the member and modify its plate and member parameters in the Object Properties panel.
+
+![alt text](<img/EN member properties.png>)
+
+![alt text](<img/EN modify bootom flange.png>)
