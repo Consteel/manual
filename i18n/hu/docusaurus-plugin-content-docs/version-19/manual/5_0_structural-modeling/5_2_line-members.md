@@ -61,7 +61,7 @@ Rúdelem paramétereinek megadása a dialóg középső részén történik:
 
 <!-- wp:image {"align":"center","id":33627,"width":362,"height":355,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/02/dial_rud_szerk_gerenda.png)](./img/wp-content-uploads-2022-02-dial_rud_szerk_gerenda.png)
+![alt text](<img/HU Beam.png>)
 
 <!-- /wp:image -->
 
@@ -71,7 +71,7 @@ Rúdelem paramétereinek megadása a dialóg középső részén történik:
 
 <!-- wp:image {"align":"center","id":33634,"width":361,"height":383,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/02/dial_rud_szerk_oszlop.png)](./img/wp-content-uploads-2022-02-dial_rud_szerk_oszlop.png)
+![alt text](<img/HU Column.png>)
 
 <!-- /wp:image -->
 
@@ -144,7 +144,7 @@ Ilyen típusú keresztmetszetek esetén csak a _6 DOF rúdelem_ elemtípus haszn
 
 - _Végeselemek száma_: a megadott végeselem számot használja a program az analízis során. Alapesetben az automatikus van beállítva, amely a legtöbb esetben a legoptimálisabb megoldást adja.
 
-- _Lokális külpontosság_: lokális külpontosság definiálható az elem lokális koordinátarendszerében („y, z”), illetve megadható elforgatás is a lokális „x” tengely körül.
+- _Lokális külpontosság_: az elem lokális külpontossága a szelvény geometriájához vagy a lokális „y–z” koordinátarendszerhez viszonyítva adható meg, a szelvény a lokális „x” tengely körül is elforgatható. További részletek a [ponttámaszok](../5_0_structural-modeling/5_9_supports.md#pont-támasz-elhelyezése) fejezetben találhatók.
 
 - Az ablak alsó része a felhasználókat támogató információk és parancsok kijelzésére szolgál.
 

@@ -134,13 +134,13 @@ Ez a funkció használható, olyan merevítések megtámasztó hatásának a mod
 
 <!-- wp:image {"align":"center","id":34929,"width":357,"height":274,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-![](img\wp-content-uploads-2022-04-dial_tamasz_lokal_exc.png)
+![alt text](<img/HU Point support.png>)
 
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"right","id":34947,"width":168,"height":218,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-![](img\wp-content-uploads-2022-04-dial_tamasz_szelvpontkival.png)
+![alt text](<img/HU Select section point.png>)
 
 <!-- /wp:image -->
 
@@ -150,9 +150,17 @@ A támasz külpontosság megadható a **szelvény középvonalától**, vagy a *
 
 <!-- /wp:paragraph -->
 
+**Támasz külpontosság típusai**
+
+- **0 – Referenciavonal**: A szelvény súlypontjaiból képzett középvonalat jelöli.
+
+- **1–9. pontok**: A szelvény geometriájának tipikus pontjai, amelyek minden szelvénytípushoz használhatók. Ezek a szelvényt befoglaló kontúrdoboz kilenc jellegzetes pontját jelentik.
+
+- **10–12. pontok**: Csak hegesztett I-szelvények esetén relevánsak, a gerinc menti pozíciókat jelölik: felső, középső és alsó.
+
 <!-- wp:paragraph -->
 
-A lokális külpontosság a **szelvény geometriáján** két módon adható meg. Egyik lehetséges mód, hogy a legördülő menüből kerül kiválasztásra a szelvény geometriájának egyik tipikus pontja (1-9), vagy a három pontos ikonra ![](./img/wp-content-uploads-2021-04-3dots-button.png) kattintva a megjelenő ábrán kerül kiválasztásra az egyik tipikus szelvény pont (1-9).
+A lokális külpontosság a **szelvény geometriáján** két módon adható meg. Egyik lehetséges mód, hogy a legördülő menüből kerül kiválasztásra a szelvény geometriájának egyik tipikus pontja (1-12), vagy a három pontos ikonra ![](./img/wp-content-uploads-2021-04-3dots-button.png) kattintva a megjelenő ábrán kerül kiválasztásra az egyik tipikus szelvény pont (1-12).
 
 <!-- /wp:paragraph -->
 
@@ -164,7 +172,7 @@ Az y és z mezőkben megadható lokális külpontosság értékek a fent beáll�
 
 <!-- wp:image {"align":"center","id":34979,"width":497,"height":471,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-![](img\wp-content-uploads-2022-04-scr_tamasz_kulp.png)
+![alt text](<img/HU Point support top right.png>)
 
 <!-- /wp:image -->
 
