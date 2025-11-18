@@ -37,20 +37,20 @@ Code lines directly after the ANALYSIS RUN command can set certain attributes of
 
 Available additional command lines:
 
-| **Line starting keyword**                                                                 | **Inclusion** | **Description**                                                |
-| ----------------------------------------------------------------------------------------- | ------------- | -------------------------------------------------------------- |
-| Type                                                                                      | Required      | Controls the static analysis type                              |
-| LoadCombinations                                                                          | Required      | Controls the considered load combinations                      |
-| GlobalImperfection <span style={{color:"MediumSeaGreen"}}>(since CS 18 build 4124)</span> | Optional      | Sets global imperfection used for analysis                     |
-| LoadCases                                                                                 | Optional      | Requests the separate analysis of load cases                   |
-| FirstOrder                                                                                | Optional      | Requests first order analysis                                  |
-| SecondOrder                                                                               | Optional      | Requests second order analysis                                 |
-| Portion_SecondOrder                                                                       | Optional      | Sets portion used for second order analysis                    |
-| Buckling                                                                                  | Optional      | Requests buckling analysis                                     |
-| Portion_Buckling                                                                          | Optional      | Sets portion used for buckling analysis                        |
-| Sensitivity                                                                               | Optional      | Requests buckling sensitivity analysis                         |
-| Dynamic                                                                                   | Optional      | Requests dynamic analysis                                      |
-| MassCombinations                                                                          | Optional      | Controls the considered mass combinations for dynamic analysis |
+| **Line starting keyword** | **Inclusion** | **Description**                                                |
+| ------------------------- | ------------- | -------------------------------------------------------------- |
+| Type                      | Required      | Controls the static analysis type                              |
+| LoadCombinations          | Required      | Controls the considered load combinations                      |
+| GlobalImperfection        | Optional      | Sets global imperfection used for analysis                     |
+| LoadCases                 | Optional      | Requests the separate analysis of load cases                   |
+| FirstOrder                | Optional      | Requests first order analysis                                  |
+| SecondOrder               | Optional      | Requests second order analysis                                 |
+| Portion_SecondOrder       | Optional      | Sets portion used for second order analysis                    |
+| Buckling                  | Optional      | Requests buckling analysis                                     |
+| Portion_Buckling          | Optional      | Sets portion used for buckling analysis                        |
+| Sensitivity               | Optional      | Requests buckling sensitivity analysis                         |
+| Dynamic                   | Optional      | Requests dynamic analysis                                      |
+| MassCombinations          | Optional      | Controls the considered mass combinations for dynamic analysis |
 
 ### Command parameters
 
