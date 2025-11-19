@@ -490,15 +490,8 @@ See more: **_[Model check](../8_0_structural-analysis/8_2_model-check-diagnostic
 
 **_Load distribution_**
 
-<!-- /wp:paragraph -->
+![alt text](<img/EN Options load distribution.png>)
 
-<!-- wp:image {"id":71096,"width":"452px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-
-![alt text](img/cs18loaddistribution.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
 
 This function belongs to the **Model settings** category, together with the **Diagnostics.**
 
@@ -514,9 +507,10 @@ The **Automatic load distribution** can be switched off to increase the speed of
 
 ![](./img/wp-content-uploads-2021-04-Diagnostic-messages.png)
 
-<!-- /wp:image -->
 
-<!-- wp:paragraph -->
+The second part of the dialog refers to **Proximity Limitations**. Limitations to consider the bar members in proximity to the Load Transfer Surfaces in case of load distribution to selected members can be defined.
+
+Two parameters can be specified: Maximum allowable distance between the bar member and the Load Transfer Surface [mm], and Maximum allowable angle between the bar member and its projection on the Load Transfer Surface [°].
 
 #### _**IDEA StatiCa Interface**_
 
