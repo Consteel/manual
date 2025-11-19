@@ -38,7 +38,7 @@ Intel Core i5 (gen 10 or newer) or AMD Ryzen 5 (at least 4 cores, 2.5–3.0 GHz)
 2 GB non-integrated
 
 **Operating system**
-Windows 10/11 64-bit
+Windows 11 64-bit
 
 ### **Recommended hardware:**
 
@@ -55,7 +55,7 @@ Intel Core i7 / i9 (gen 10 or newer) or AMD Ryzen 7
 4 GB non-integrated
 
 **Operating system**
-Windows 10/11 64-bit
+Windows 11 64-bit
 
 Installation needs administrative or power user rights. Without that, the hard lock driver and those .**dll** files, which are indispensable for the system is cannot be installed.
 

@@ -37,27 +37,11 @@ A Consteel program futtatásához az alábbi szoftver és hardver követelménye
 
 <!-- wp:list -->
 
-- Processzor
-- Memória
-- HDD
-- Videó-kártya
-- Operációs rendszer
-
-<!-- /wp:list -->
-
-<!-- /wp:column -->
-
-<!-- wp:column {"width":"66.66%"} -->
-
-<!-- wp:paragraph -->
-
-Intel Core i5 vagy ennek megfelelő  
-4 GB  
-300 MB  
-512 MB nem alaplapra integrált  
-64-bit MS Windows 10
-
-
+- **Processzor** Intel Core i5 vagy ennek megfelelő  
+- **Memória** 4 GB  
+- **HDD** 300 MB  
+- **Videó-kártya** 512 MB nem alaplapra integrált  
+- **Operációs rendszer** 64-bit MS Windows 11
 
 **Ajánlott konfiguráció:**
 
@@ -69,31 +53,11 @@ Intel Core i5 vagy ennek megfelelő
 
 <!-- wp:list -->
 
-- Processzor
-- Memória
-- Videó-kártya
-- Operációs rendszer
+- **Processzor** Intel Core i7 vagy ennek megfelelő  
+- **Memória** 32 GB  
+- **Videó-kártya** 2 GB nem alaplapra integrált  
+- **Operációs rendszer** 64-bit Windows 11
 
-<!-- /wp:list -->
-
-<!-- /wp:column -->
-
-<!-- wp:column {"width":"66.66%"} -->
-
-<!-- wp:paragraph -->
-
-Intel Core i7 vagy ennek megfelelő  
-32 GB  
-2 GB nem alaplapra integrált  
-64-bit Windows 10
-
-<!-- /wp:paragraph -->
-
-<!-- /wp:column -->
-
-<!-- /wp:columns -->
-
-<!-- wp:paragraph -->
 
 ## **A telepítő fájl letöltése**
 

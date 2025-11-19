@@ -50,7 +50,7 @@ Intel Core i5 (gen 10 or newer) or AMD Ryzen 5 (at least 4 cores, 2.5–3.0 GHz)
 2 GB non-integrated
 
 **Operációs rendszer**
-Windows 10/11 64-bit
+Windows 11 64-bit
 
 
 **Ajánlott konfiguráció:**
@@ -71,7 +71,7 @@ Windows 10/11 64-bit
 
 **Videó-kártya** 4 GB non-integrated
 
-**Operációs rendszer**  Windows 10/11 64-bit
+**Operációs rendszer**  Windows 11 64-bit
 
 
 <!-- /wp:paragraph -->
