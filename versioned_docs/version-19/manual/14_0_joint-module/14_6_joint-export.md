@@ -56,7 +56,7 @@ For more detailed information about the IDEA StatiCa Checkbot workflow, please v
 ![alt text](<img/IDEA Checkbot.png>)
 
 :::info
- This is a one-way link, not a live interface, and is only compatible with **IDEA StatiCa 24.1.** Additionally, the export is only possible when there are no SLS results in the model.
+ This is a one-way link, not a live interface, and is only compatible with **IDEA StatiCa 24.1. and 25.0** Additionally, the export is only possible when there are no SLS results in the model.
 :::
 
 Due to certain limitations and potential issues, this feature is released as a **beta** version.

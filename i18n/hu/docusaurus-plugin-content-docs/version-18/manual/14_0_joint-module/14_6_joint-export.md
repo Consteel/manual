@@ -54,7 +54,7 @@ A modell importálása:
 A IDEA StatiCa Checkbot munkafolyamatának részletesebb információiért kérjük, látogasson el a [támogatási központjukba](https://www.ideastatica.com/support-center/checkbot-bulk-bim-workflows).
 
 :::info
-Ez egy egyirányú kapcsolat és csak az IDEA StatiCa 24.1 verzióval kompatibilis. Továbbá, az exportálás csak akkor lehetséges, ha a modellben nincsenek SLS eredmények.
+Ez egy egyirányú kapcsolat és csak az IDEA StatiCa 24.1 és 25.0 verziókkal kompatibilis. Továbbá, az exportálás csak akkor lehetséges, ha a modellben nincsenek SLS eredmények.
 :::
 
 Bizonyos korlátozások és esetleges problémák miatt ez a funkció béta verzióként került kiadásra.
