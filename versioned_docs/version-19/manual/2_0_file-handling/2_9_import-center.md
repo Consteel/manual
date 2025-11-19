@@ -10,7 +10,8 @@ Starting with Consteel 18, the primary import functionalities have been relocate
 
 To begin, go to the **File** menu and select **Import Center**, or press the `Ctrl+Shift+I` hotkey to open the window.
 
-![alt text](img/image.png)
+![alt text](<img/File import center open.png>)
+![alt text](<img/EN Import Center  cs19.png>)
 
 ---
 

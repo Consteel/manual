@@ -10,7 +10,7 @@ A Consteel 18-tól kezdődően az importálási funkciók átkerültek az új **
 A folyamat elindításához nyisd meg a **Fájl** menüt, és válaszd az **Import Központ** opciót, vagy nyomd meg a `Ctrl+Shift+I` gyorsbillentyűt az ablak megnyitásához.
 
 ![alt text](img/image-1.png)
-![alt text](img/image-2.png)
+![alt text](<img/HU Import Center  cs19.png>)
 
 ---
 
