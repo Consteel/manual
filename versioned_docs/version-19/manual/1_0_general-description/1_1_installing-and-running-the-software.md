@@ -47,7 +47,7 @@ Intel Core i5 or equivalent
 4 GB  
 300 MB  
 512 MB non-integrated  
-64-bit MS Windows 10
+64-bit MS Windows 11
 
 <!-- /wp:paragraph -->
 
@@ -68,29 +68,11 @@ Intel Core i5 or equivalent
 <!-- wp:list -->
 
 
-- Processor
-- Memory
-- Video-card
-- Operating system
+- **Processor** Intel Core i7 or equivalent  
+- **Memory** 32 GB  
+- **Video-card** 2 GB non-integrated  
+- **Operating system** 64-bit Windows 11
 
-<!-- /wp:column -->
-
-<!-- wp:column {"width":"66.66%"} -->
-
-<!-- wp:paragraph -->
-
-Intel Core i7 or equivalent  
-32 GB  
-2 GB non-integrated  
-64-bit Windows 10
-
-<!-- /wp:paragraph -->
-
-<!-- /wp:column -->
-
-<!-- /wp:columns -->
-
-<!-- wp:paragraph -->
 
 Installation needs administrative or power user rights. Without that, the hard lock driver and those .**dll** files, which are indispensable for the system is cannot be installed.
 
