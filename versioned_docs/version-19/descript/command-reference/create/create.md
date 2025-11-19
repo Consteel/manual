@@ -58,6 +58,7 @@ The type of object to be created.
 | [Point support type](#point-support-type)           | Support             |
 | [Release type](#release-type)                       | Release             |
 | [Link](#link)                                       | Link                |
+| [Smart link](#smart-link)                           | SmartLink           |
 | Loads tab                                           | -                   |
 | [Load group](#load-group)                           | LoadGroup           |
 | [Load case](#load-case)                             | LoadCase            |
@@ -1336,6 +1337,177 @@ InterfacePos 0.5
 ReleaseID yy
 FromObjectID Member_ID1
 ToObjectID Member_ID2
+```
+
+## Smart link
+
+This command is analogous with the smart link creation dialogue in Consteel:
+
+![](img\Create_SmartLink_Img_v01.png)
+
+### Syntax
+
+**CREATE** \[Object ID] **SmartLink** \[Member ID]  
+\[x] \[y] \[z]  
+MainBeamEccType \[Main beam eccentricity type]  
+MainBeamEccY \[Main beam eccentricity y]  
+MainBeamEccZ \[Main beam eccentricity z]  
+ReleaseID \[Release]  
+InterfacePos_CalcType \[Interface position calculation type]  
+InterfacePos \[Interface position]  
+IsSubBeam \[Is Subbeam]  
+SubBeamSectionID \[SubBeam section ID]  
+SubBeamEccType \[SubBeam eccentricity type]
+
+### Command parameters
+
+| **Command parameter**                                                   | **Assignment** | **Value format**                                               | **Input options** |
+| ----------------------------------------------------------------------- | -------------- | -------------------------------------------------------------- | ----------------- |
+| [Object ID](#Object-ID-smartlink)                                       | Required       | String                                                         | Local, variable   |
+| [Member ID](#Member-ID-smartlink)                                       | Required       | String                                                         | Local, variable   |
+| [x, y, z](#x,-y,-z-smartlink)                                           | Required       | Numerical                                                      | Local, variable   |
+| [Main beam eccentricity type](#MainBeamEccType-smartlink)               | Optional       | [Predefined strings](#MainBeamEccType-options-sl)              | Local, variable   |
+| [Main beam eccentricity y](#MainBeamEccY-smartlink)                     | Optional       | Numerical                                                      | Local, variable   |
+| [Main beam eccentricity z](#MainBeamEccZ-smartlink)                     | Optional       | Numerical                                                      | Local, variable   |
+| [Release ID](#Release-id-smartlink)                                     | Optional       | Release name or ID                                             | Local, variable   |
+| [Interface position calculation type](#InterfacePos_CalcType-smartlink) | Optional       | [Predefined strings](#InterfacePos_CalcType-smartlink-options) | Local, variable   |
+| [Interface position](#Interface-position-smartlink)                     | Optional       | Numerical                                                      | Local, variable   |
+| [Is Subbeam](#IsSubBeam-smartlink)                                      | Optional       | [Predefined strings](#IsSubBeam-smartlink-options)             | Local, variable   |
+| [SubBeam section ID](#SubBeamSectionID-smartlink)                       | Optional       | Section name or ID                                             | Local, variable   |
+| [SubBeam eccentricity type](#Object-ID-smartlink)                       | Optional       | [Predefined strings](#SubBeamEccType-smartlink-options)        | Local, variable   |
+
+#### Object ID: {#Object-ID-smartlink}
+
+A string of characters that is used to identify the object that is being created.
+
+#### Member ID: {#Member-ID-smartlink}
+
+A string of characters that is used to identify the structural member that the smart link connects to. This member will have the "Main section (A)".
+
+#### x, y, z: {#x,-y,-z-smartlink}
+
+Coordinates of the insertion point of the smart link.
+
+#### Main beam eccentricity type: {#MainBeamEccType-smartlink}
+
+Eccentricity reference for the main beam.
+
+<span id="MainBeamEccType-options-sl" style={{paddingTop: '80px'}}> Available inputs: </span>
+
+<div style={{paddingBottom: '20px'}}> </div>
+
+| **Eccentricity reference name** | **Eccentricity reference** |
+| ------------------------------- | -------------------------- |
+| Reference line (0)              | EccType_C                  |
+| Bottom Left (1)                 | EccType_BL                 |
+| Bottom Middle (2)               | EccType_BM                 |
+| Bottom Right (3)                | EccType_BR                 |
+| Middle Left (4)                 | EccType_ML                 |
+| Middle Middle (5)               | EccType_MM                 |
+| Middle Right (6)                | EccType_MR                 |
+| Top Left (7)                    | EccType_TL                 |
+| Top Middle (8)                  | EccType_TM                 |
+| Top Right (9)                   | EccType_TR                 |
+| Top of Web (10)                 | EccType_TWeb               |
+| Middle of Web (11)              | EccType_MWeb               |
+| Bottom of Web (12)              | EccType_BWeb               |
+
+#### Main beam eccentricity y: {#MainBeamEccY-smartlink}
+
+Connection eccentricity to the main section in the local y direction.
+
+#### Main beam eccentricity z: {#MainBeamEccZ-smartlink}
+
+Connection eccentricity to the main section in the local z direction.
+
+#### Release ID: {#Release-id-smartlink}
+
+The type of release at the interface position. Any previously created release type name can be used. If release type name is used, then it should be prefixed with "NAME: ".
+
+Consteel has these release types already created by default:
+
+- Continuous (default)
+- w
+- xx,yy,zz,w
+- yy
+- yy,zz
+- yy,zz,w
+- zz
+
+#### Interface position calculation type: {#InterfacePos_CalcType-smartlink}
+
+Calculation type of the interface position.
+
+<span id="InterfacePos_CalcType-smartlink-options" style={{paddingTop: '80px'}}>Available inputs: </span>
+
+- Automatic
+- Manual
+
+#### Interface position: {#Interface-position-smartlink}
+
+The position of the interface, or release along the length of the smart link. Acceptable inputs are decimal fraction numbers from 0 to 1. Default: 0.
+
+#### Is Subbeam: {#IsSubBeam-smartlink}
+
+Setting that switches on or off the eccentricity options for the connecting section.
+
+<span id="IsSubBeam-smartlink-options" style={{paddingTop: '80px'}}>Available inputs: </span>
+
+- 1 / Yes
+- 0 / No
+
+#### Subbeam section ID: {#SubBeamSectionID-smartlink}
+
+ID of the connecting section. The name or ID of any previously loaded section might be used. If section name is used, then it should be prefixed with "NAME: ".
+
+#### Subbeam eccentricity type: {#SubBeamEccType-smartlink}
+
+Eccentricity reference for the connecting section.
+
+<span id="SubBeamEccType-smartlink-options" style={{paddingTop: '80px'}}> Available inputs: </span>
+
+<div style={{paddingBottom: '20px'}}> </div>
+
+| **Eccentricity reference name** | **Eccentricity reference** |
+| ------------------------------- | -------------------------- |
+| Reference line (0)              | EccType_C                  |
+| Bottom Middle (2)               | EccType_BM                 |
+| Middle Middle (5)               | EccType_MM                 |
+| Top Middle (8)                  | EccType_TM                 |
+
+### Sample code
+
+**Command only:** (minimal parameters)
+
+```
+CREATE SmartLinkID SmartLink Mem_ID1
+2500 0 0
+```
+
+**With added prerequisites (section and member definition) and all parameters:**
+
+```
+LOAD_SECTION_LIBRARY Sec_ID1 "IPE 200"
+
+LOAD_SECTION_LIBRARY Sec_ID2 "IPE 100"
+
+CREATE Release_Type_ID1 Release "Custom release type name" Fix Free 1.234 Fix Fix Fix Fix
+
+CREATE Mem_ID1 Structural_member "IPE 200"
+0 0 0
+5000 0 0
+
+CREATE SmartLinkID SmartLink Mem_ID1
+2500 0 0
+MainBeamEccType EccType_TM
+MainBeamEccY 10
+MainBeamEccZ 20
+ReleaseID Release_Type_ID1
+InterfacePos_CalcType Manual
+InterfacePos 0.7
+IsSubBeam Yes
+SubBeamSectionID Sec_ID2
+SubBeamEccType EccType_BM
 ```
 
 ## Load group

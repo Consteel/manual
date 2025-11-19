@@ -45,6 +45,7 @@ Object IDs from the following object types are accepted:
   - [Support type](#support-type)
   - [Release type](#release-type)
   - [Link ](#link)
+  - [Smart link](#smart-link)
 - Loads tab:
   - [Load group](#load-group)
   - [Load case](#load-case)
@@ -868,6 +869,65 @@ GET Link_ID1 Object_Type Object_Type
 GET Link_ID1 ReleaseID ReleaseID
 GET Link_ID1 InterfacePos InterfacePos
 GET Link_ID1 Rotation Rotation
+```
+
+## Smart link
+
+Available object attributes:
+
+| **Object attribute name**           | **Object attribute** (type this into Descript) |
+| ----------------------------------- | ---------------------------------------------- |
+| Name                                | Name                                           |
+| Main beam eccentricity type         | MainBeamEccType                                |
+| Main beam eccentricity y            | MainBeamEccY                                   |
+| Main beam eccentricity z            | MainBeamEccZ                                   |
+| Release ID                          | ReleaseID                                      |
+| Interface position calculation type | InterfacePos_CalcType                          |
+| Position of connection              | InterfacePos                                   |
+| Is Subbeam                          | IsSubBeam                                      |
+| Subbeam section ID                  | SubBeamSectionID                               |
+| Subbeam eccentricity type           | SubBeamEccType                                 |
+
+### Sample code
+
+**All available attributes + object creation:**
+
+```
+LOAD_SECTION_LIBRARY Sec_ID1 "IPE 200"
+
+LOAD_SECTION_MACRO Sec_ID2 WLD-IH "WLD-IH (Descript)" "S 235 EN 10025-2" 100 10 200 6 100 10
+
+CREATE Release_Type_ID1 Release "Custom RelType 1" Fix Free 1.234 Fix Fix Fix Fix
+
+CREATE Mem_ID1 Structural_member "IPE 200"
+0 0 0
+5000 0 0
+
+CREATE SmartLinkID SmartLink Mem_ID1
+2500 0 0
+MainBeamEccType EccType_BL
+MainBeamEccY 111
+MainBeamEccZ 222
+ReleaseID Release_Type_ID1
+InterfacePos_CalcType Manual
+InterfacePos 0.7
+IsSubBeam Yes
+SubBeamSectionID Sec_ID2
+SubBeamEccType EccType_BWeb
+
+SET SmartLinkID Name "New name"
+
+GET SmartLinkID Name Name
+GET SmartLinkID Object_Type Object_Type
+GET SmartLinkID MainBeamEccType MainBeamEccType
+GET SmartLinkID MainBeamEccY MainBeamEccY
+GET SmartLinkID MainBeamEccZ MainBeamEccZ
+GET SmartLinkID ReleaseID ReleaseID
+GET SmartLinkID InterfacePos_CalcType InterfacePos_CalcType
+GET SmartLinkID InterfacePos InterfacePos
+GET SmartLinkID IsSubBeam IsSubBeam
+GET SmartLinkID SubBeamSectionID SubBeamSectionID
+GET SmartLinkID SubBeamEccType SubBeamEccType
 ```
 
 ## Load group
