@@ -142,6 +142,7 @@ The type of objects to be deleted. Only 1 object type can be given within one DE
 | Point support type     | Support             |
 | Release type           | Release             |
 | Link                   | Link                |
+| Smart link             | SmartLink           |
 | Loads tab              | -                   |
 | Load group             | LoadGroup           |
 | Load case              | LoadCase            |

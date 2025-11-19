@@ -62,6 +62,7 @@ Object types the command will filter within. One ore more object types can be gi
 | Point support type     | Support             |
 | Release type           | Release             |
 | Link                   | Link                |
+| Smart link             | SmartLink           |
 | Loads tab              | -                   |
 | Load group             | LoadGroup           |
 | Load case              | LoadCase            |
