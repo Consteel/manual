@@ -83,9 +83,9 @@ Type of macro to be used.
 | [Double mirrored SIGMA](#double-mirrored-sigma)                                   | DM-SIGMA        |
 | [Double mirrored user drawn](#double-mirrored-user-drawn)                         | DM-UD           |
 | Reinforced concrete sections                                                      | RC-...          |
-| [Rectangular beam section](#)                                                     | RC-BeamRect     |
-| [Rectangular column section](#)                                                   | RC-ColRect      |
-| [Circular column section](#)                                                      | RC-ColCirc      |
+| [Rectangular beam section](#rectangular-beam-section)                             | RC-BeamRect     |
+| [Rectangular column section](#rectangular-column-section)                         | RC-ColRect      |
+| [Circular column section](#circular-column-section)                               | RC-ColCirc      |
 
 #### Section name:
 
