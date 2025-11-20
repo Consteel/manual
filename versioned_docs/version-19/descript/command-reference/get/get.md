@@ -242,6 +242,7 @@ Available object attributes:
 | Length                            | Length                                         |
 | Release start point               | ReleaseID_A                                    |
 | Release end point                 | ReleaseID_B                                    |
+| Eccentricity reference            | EccType                                        |
 | Eccentricity - y                  | Eccentricity_y                                 |
 | Eccentricity - z                  | Eccentricity_z                                 |
 | Axial rotation                    | Rotation                                       |
@@ -273,6 +274,7 @@ GET Mem_ID1 SectionID SectionID
 GET Mem_ID1 Length Length
 GET Mem_ID1 Release_A Release_A
 GET Mem_ID1 Release_B Release_B
+GET Mem_ID1 EccType EccType
 GET Mem_ID1 Eccentricity_y Eccentricity_y
 GET Mem_ID1 Eccentricity_z Eccentricity_z
 GET Mem_ID1 Rotation Rotation

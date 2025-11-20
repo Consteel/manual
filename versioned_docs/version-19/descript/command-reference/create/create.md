@@ -102,6 +102,7 @@ This command is analogous with the beam creation dialogue in Consteel:
 Name [Object name]  
 ReleaseID_A [Release start]  
 ReleaseID_B [Release end]  
+EccType [Eccentricity reference]  
 Eccentricity_y [Eccentricity y]  
 Eccentricity_z [Eccentricity z]  
 Rotation \[Rotation]  
@@ -115,25 +116,26 @@ AverageEdgeLength_flange [FE size flange]
 
 ### Command parameters
 
-| **Command parameter**                                             | **Assignment** | **Value format**                        | **Input options** |
-| ----------------------------------------------------------------- | -------------- | --------------------------------------- | ----------------- |
-| [Object ID](#Object-ID-mem)                                       | Required       | String                                  | Local, variable   |
-| [Section name](#Section-name-mem)                                 | Required       | String                                  | Local, variable   |
-| [x1, y1, z1](#x1,-y1,-z1-mem)                                     | Required       | Integer                                 | Local, variable   |
-| [x2, y2, z2](#x2,-y2,-z2-mem)                                     | Required       | Integer                                 | Local, variable   |
-| [Object name](#Object-name-mem)                                   | Optional       | String                                  | Local, variable   |
-| [Release start](#Release-start-mem)                               | Optional       | String                                  | Local, variable   |
-| [Release end](#Release-end-mem)                                   | Optional       | String                                  | Local, variable   |
-| [Eccentricity y](#Eccentricity-y-mem)                             | Optional       | Numerical                               | Local, variable   |
-| [Eccentricity z](#ccentricity-z-mem)                              | Optional       | Numerical                               | Local, variable   |
-| [Rotation](#Rotation-mem)                                         | Optional       | Numerical                               | Local, variable   |
-| [Initial bow imperfection L/y](#Initial-bow-imperfection-L/y-mem) | Optional       | Numerical                               | Local, variable   |
-| [Initial bow imperfection L/z](#Initial-bow-imperfection-L/z-mem) | Optional       | Numerical                               | Local, variable   |
-| [FE type](#FE-type-mem)                                           | Optional       | [Predefined strings](#FE-types-mem)     | Local, variable   |
-| [FE generation type](#FE-generation-type-mem)                     | Optional       | [Predefined strings](#FE-gen-types-mem) | Local, variable   |
-| [Number of FEs](#Number-of-FEs-mem)                               | Optional       | Integer                                 | Local, variable   |
-| [FE size web](#FE-size-web-mem)                                   | Optional       | Numerical                               | Local, variable   |
-| [FE size flange](#FE-size-flange-mem)                             | Optional       | Numerical                               | Local, variable   |
+| **Command parameter**                                             | **Assignment** | **Value format**                           | **Input options** |
+| ----------------------------------------------------------------- | -------------- | ------------------------------------------ | ----------------- |
+| [Object ID](#Object-ID-mem)                                       | Required       | String                                     | Local, variable   |
+| [Section name](#Section-name-mem)                                 | Required       | String                                     | Local, variable   |
+| [x1, y1, z1](#x1,-y1,-z1-mem)                                     | Required       | Integer                                    | Local, variable   |
+| [x2, y2, z2](#x2,-y2,-z2-mem)                                     | Required       | Integer                                    | Local, variable   |
+| [Object name](#Object-name-mem)                                   | Optional       | String                                     | Local, variable   |
+| [Release start](#Release-start-mem)                               | Optional       | String                                     | Local, variable   |
+| [Release end](#Release-end-mem)                                   | Optional       | String                                     | Local, variable   |
+| [Eccentricity reference](#Eccentricity-reference-mem)             | Optional       | [Predefined strings](#Ecctype-options-mem) | Local, variable   |
+| [Eccentricity y](#Eccentricity-y-mem)                             | Optional       | Numerical                                  | Local, variable   |
+| [Eccentricity z](#ccentricity-z-mem)                              | Optional       | Numerical                                  | Local, variable   |
+| [Rotation](#Rotation-mem)                                         | Optional       | Numerical                                  | Local, variable   |
+| [Initial bow imperfection L/y](#Initial-bow-imperfection-L/y-mem) | Optional       | Numerical                                  | Local, variable   |
+| [Initial bow imperfection L/z](#Initial-bow-imperfection-L/z-mem) | Optional       | Numerical                                  | Local, variable   |
+| [FE type](#FE-type-mem)                                           | Optional       | [Predefined strings](#FE-types-mem)        | Local, variable   |
+| [FE generation type](#FE-generation-type-mem)                     | Optional       | [Predefined strings](#FE-gen-types-mem)    | Local, variable   |
+| [Number of FEs](#Number-of-FEs-mem)                               | Optional       | Integer                                    | Local, variable   |
+| [FE size web](#FE-size-web-mem)                                   | Optional       | Numerical                                  | Local, variable   |
+| [FE size flange](#FE-size-flange-mem)                             | Optional       | Numerical                                  | Local, variable   |
 
 #### Object ID: {#Object-ID-mem}
 
@@ -172,6 +174,28 @@ Consteel has these release types already created by default:
 #### Release end: {#Release-end-mem}
 
 Release type at the end point of the structural member. Any previously created release type name can be used. The premade and default parameter inputs are the same as in case of the [Release start](#Release-start-mem) parameter.
+
+#### Eccentricity reference: {#Eccentricity-reference-mem}
+
+<span id="Ecctype-options-mem" style={{paddingTop: '80px'}}> Available inputs: </span>
+
+<div style={{paddingBottom: '20px'}}> </div>
+
+| **Eccentricity reference name** | **Eccentricity reference** |
+| ------------------------------- | -------------------------- |
+| Reference line (0)              | EccType_C                  |
+| Bottom Left (1)                 | EccType_BL                 |
+| Bottom Middle (2)               | EccType_BM                 |
+| Bottom Right (3)                | EccType_BR                 |
+| Middle Left (4)                 | EccType_ML                 |
+| Middle Middle (5)               | EccType_MM                 |
+| Middle Right (6)                | EccType_MR                 |
+| Top Left (7)                    | EccType_TL                 |
+| Top Middle (8)                  | EccType_TM                 |
+| Top Right (9)                   | EccType_TR                 |
+| Top of Web (10)                 | EccType_TWeb               |
+| Middle of Web (11)              | EccType_MWeb               |
+| Bottom of Web (12)              | EccType_BWeb               |
 
 #### Eccentricity y: {#Eccentricity-y-mem}
 
@@ -251,6 +275,7 @@ CREATE Mem_ID1 Structural_Member "HEA 200"
 Name "Member 1"
 ReleaseID_A Continuous
 ReleaseID_B Continuous
+EccType EccType_TM
 Eccentricity_y 0
 Eccentricity_z 0
 Rotation 0
