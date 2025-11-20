@@ -997,3 +997,68 @@ Egy változó keresztmetszetű rúd kiválasztása esetén nemcsak a rúd, hanem
 
 **Fontos tudni,** hogy változó keresztmetszetű elem esetén az automatikus végeselem generálás során új keresztmetszetek kerülnek előállításra a megfelelő keresztmetszeti magassággal. Az új keresztmetszetek külpontosan kerülnek elhelyezésre az elem középvonalán (kivétel szimmetrikus kiékelés esetén). A keresztmetszetek külpontossága miatt az igénybevételek is külpontossá válnak, amiknek a hatása megjelenik az analízis eredményekben (például változó keresztmetszetű keretsarok esetén, az erős tengelyi hajlító nyomaték egyensúlya csak akkor ál elő, ha figyelembe vesszük a normálerő külpontosságából keletkező extra nyomatékot).
 :::
+
+## Változó gerincmagasságú hegesztett I/H rúdelem
+
+![alt text](<img/New tapered.png>)
+
+Acélszerkezeteknél gyakran alkalmaznak hegesztett, lemezekből kialakított főtartókat, ahol a gerinc- és övlemezek vastagsága a tartó hosszában változhat, hogy az anyagfelhasználás a belső erőkhöz igazodva legyen optimalizálva.
+
+A „Változó gerincmagasságú hegesztett I/H rúdelem” funkció lehetővé teszi a gerinc- és övlemezek szerkeszthető listájának megadását, amelyek mentén a lemezvastagság változhat. A Consteel ezekből a listákból automatikusan létrehozza a megfelelő végeselem-modellt, így az elem felosztása nélkül teszi lehetővé a hatékony és rugalmas modellezést.
+
+A funkció használatához **hegesztett makró I- vagy H-szelvényű elemet kell elhelyezni a modellben**. Csak az elem **anyag** paramétere marad az eredeti értéken, minden más paramétert a funkció beállításai határoznak meg.
+
+:::info
+
+A funkció kizárólag hegesztett I- vagy H-szelvényű elemeken használható, és csak akkor, ha az elem helyi excentricitása megfelel a kiválasztott formának.
+
+- **Felső**: Bal-Lent, Közép-Lent, Jobb-Lent, Gerinc alsó pontja, Referencia vonal
+
+- **Szimmetrikus**: Bal-Közép, Közép-Közép, Jobb-Közép, Gerinc középső pontja, Referencia vonal
+
+- **Alsó**: Bal-Fent, Középső-Fent, Jobb-Fent, Gerinc felső pontja, Referencia vonal
+
+:::
+
+
+![alt text](<img/EN Web tapered welded I H member.png>)
+
+A funkcióablak két fő részre oszlik: az első az elem paraméterek, a második a lemez paraméterek számára. Minden paramétert be kell állítani az elhelyezés előtt.
+
+1. **Elem paraméterek**
+
+ Ebben a részben a rúdelemhez kapcsolódó paramétereket kell megadni:
+
+ - **Forma**: Lehet Felső, Szimmetrikus vagy Alsó, az elem lokális külpontosságától függően.
+
+ - **Gerinclemez magasságának kezdete és vége**: A kétirányú nyíl gombbal felcserélhető.
+
+ - **Felső és alsó övlemez szélessége**
+
+2. **Lemez paraméterek**: 
+
+ A **referencia pont** lehet az elem elején vagy végén.
+
+ A **lemez részeket** a ![alt text](img/plus.png)
+ gomb segítségével lehet megadni, külön-külön meghatározva a vastagságot és hosszúságot a felső övnél, a gerincnél és az alsó övnél.
+
+ A lemez részek definiálása után azok sorrendje húzással módosítható.
+
+ Emellett minden lemez fennmaradó részét a sor végén található szerkesztés ikonra kattintva lehet módosítani ![alt text](img/edit.png).
+
+ ![alt text](<img/EN Plate parameters.png>)
+
+A paraméterek beállítása után a Változó gerincmagasságú hegesztett I/H rúdelem az **Elhelyezés** gomb segítségével helyezhető el a modellben a már meglévő hegesztett elemen.
+
+![alt text](<img/EN place tapered I H.png>)
+
+Ha a kiválasztott forma nem egyezik meg a hegesztett elem lokális külpontosságával, a következő hibaüzenet jelenik meg:
+
+![alt text](<img/EN Place web tapered welded I H.png>)
+
+
+Sikeres elhelyezés esetén az elemet kijelölve az Objektum tulajdonságai panelen módosíthatók a lemez- és elem paraméterek a kék színű likekre kattintva.
+
+![alt text](<img/EN member properties.png>)
+
+![alt text](<img/EN modify bootom flange.png>)

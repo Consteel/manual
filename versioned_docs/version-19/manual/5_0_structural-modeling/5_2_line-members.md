@@ -727,25 +727,25 @@ The function window is divided into two main sections: the first for member para
 
 1. **Member parametes**
 
-In this section, all parameters related to the member must be set. 
+ In this section, all parameters related to the member must be set. 
 
-- **Shape**: Can be Top, Symmetric, or Bottom, depending on the member’s local eccentricity.
+ - **Shape**: Can be Top, Symmetric, or Bottom, depending on the member’s local eccentricity.
 
-- **Start and end of the web height**: Can be exchanged using the two-arrow button.
+ - **Start and end of the web height**: Can be exchanged using the two-arrow button.
 
-- **Top and bottom flange width**
+ - **Top and bottom flange width**
 
 2. **Plate parameters**: 
 
-The **reference point** can be selected either at the start or at the end of the member.
+ The **reference point** can be selected either at the start or at the end of the member.
 
-Users can define the **plate segments** using the ![alt text](img/plus.png) button by specifying the thickness and length of each segment separately for the top flange, web, and bottom flange.
+ Users can define the **plate segments** using the ![alt text](img/plus.png) button by specifying the thickness and length of each segment separately for the top flange, web, and bottom flange.
 
-After defining the plate segments, their order can be changed by dragging and dropping them.
+ After defining the plate segments, their order can be changed by dragging and dropping them.
 
-In addition, the remaining part of each segment can be edited at the end of the line by clicking the edit icon ![alt text](img/edit.png).
+ In addition, the remaining part of each segment can be edited at the end of the line by clicking the edit icon ![alt text](img/edit.png).
 
-![alt text](<img/EN Plate parameters.png>)
+ ![alt text](<img/EN Plate parameters.png>)
 
 After setting the parameters, the web-tapered welded I or H member can be placed on an existing welded member in the model using the Place button.
 
