@@ -102,6 +102,7 @@ Available object attributes:
 | ------------------------------------ | ---------------------------------------------- | ----------------------------------------------------------- |
 | Name                                 | Name                                           | String                                                      |
 | Section ID                           | sectionid                                      | Section ID or name                                          |
+| Eccentricity reference               | EccType                                        | [Predefined strings](#EccType-options-mem)                  |
 | Eccentricity - y                     | eccentricity_y                                 | Numerical                                                   |
 | Eccentricity - z                     | eccentricity_z                                 | Numerical                                                   |
 | Rotation                             | Rotation                                       | Numerical                                                   |
@@ -115,6 +116,30 @@ Available object attributes:
 | Avearage shell FE size in web        | AverageEdgeLength_Web                          | Numerical                                                   |
 | Avearage shell FE size in flange     | AverageEdgeLength_Flange                       | Numerical                                                   |
 | Type of the shell constraint element | ShellDOFConstraint                             | [Predefined strings](#Type-of-the-shell-constraint-element) |
+| Reinforcement ID                     | ReinforcementID                                | Reinforcement ID or name                                    |
+| Design parameter ID                  | DesignParamID                                  | Design parameter ID or name                                 |
+
+#### Eccentricity type: {#EccType-mem}
+
+<span id="EccType-options-mem" style={{paddingTop: '80px'}}> Available inputs: </span>
+
+<div style={{paddingBottom: '20px'}}> </div>
+
+| **Eccentricity reference name** | **Eccentricity reference** |
+| ------------------------------- | -------------------------- |
+| Reference line (0)              | EccType_C                  |
+| Bottom Left (1)                 | EccType_BL                 |
+| Bottom Middle (2)               | EccType_BM                 |
+| Bottom Right (3)                | EccType_BR                 |
+| Middle Left (4)                 | EccType_ML                 |
+| Middle Middle (5)               | EccType_MM                 |
+| Middle Right (6)                | EccType_MR                 |
+| Top Left (7)                    | EccType_TL                 |
+| Top Middle (8)                  | EccType_TM                 |
+| Top Right (9)                   | EccType_TR                 |
+| Top of Web (10)                 | EccType_TWeb               |
+| Middle of Web (11)              | EccType_MWeb               |
+| Bottom of Web (12)              | EccType_BWeb               |
 
 #### Finite element type:
 
@@ -144,7 +169,7 @@ Only applies if _FE_Type_ is set to Shell.
 
 ### Sample code
 
-**All available attributes + object creation:**
+**All available attributes + object creation with steel section:**
 
 ```
 LOAD_SECTION_LIBRARY Sec_ID1 "HEA 200"
@@ -156,6 +181,7 @@ CREATE Mem_ID1 Structural_Member "HEA 200"
 
 SET Mem_ID1 Name "New name (Descript)"
 SET Mem_ID1 SectionID Sec_ID2                   // or: SET Mem_ID1 SectionID "NAME: WLD-IH (Descript)"
+SET Mem_ID1 EccType EccType_TM
 SET Mem_ID1 Eccentricity_Y 100
 SET Mem_ID1 Eccentricity_Z 100
 SET Mem_ID1 Rotation 45
@@ -169,6 +195,25 @@ SET Mem_ID1 Convergence 13
 SET Mem_ID1 AverageEdgeLength_Web 23
 SET Mem_ID1 AverageEdgeLength_Flange 13
 SET Mem_ID1 ShellDOFConstraint TransAndRot
+```
+
+**Extra attributes for concrete section + object creation:**
+
+```
+LOAD_SECTION_MACRO Sec_ID1 RC-ColRect "RC-ColRect (Descript)" "C25/30 EN 1992-1-1:2010" 255 567
+
+CREATE Mem_ID1 Structural_Member "RC-ColRect (Descript)"
+0 0 0
+0 0 1000
+
+CREATE ReinfColRect_ID1 RectangularColumnReinforcement Sec_ID1 22
+Name "Reinforcement col rect 1"
+
+CREATE DesParam_ID1 Design_Parameters_RCC
+Name "Design param 1"
+
+SET Mem_ID1 ReinforcementID ReinfColRect_ID1
+SET Mem_ID1 DesignParamID DesParam_ID1
 ```
 
 ## Structural Plate
