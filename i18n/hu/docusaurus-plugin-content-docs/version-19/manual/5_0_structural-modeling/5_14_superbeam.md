@@ -248,7 +248,7 @@ Jelenleg a Superbeam héjmodell használata nem kompatibilis az alábbi Consteel
 - elhelyezett csomópont
 - szelemensor és szelemen toldás
 - hatásvonal
-
+- változó gerincmagasságú hegesztett I/H rúdelem
 <!-- /wp:list -->
 
 <!-- wp:heading {"level":3} -->

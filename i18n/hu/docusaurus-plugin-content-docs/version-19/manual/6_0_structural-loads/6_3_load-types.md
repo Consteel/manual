@@ -386,11 +386,11 @@ Felületi szélterhet jelenleg csak teherátadó felületre (ld. **Globális imp
 
 <!-- wp:heading {"level":3} -->
 
-### Teherátadó felület 
+### Teher átadó felület 
 ![](./img/wp-content-uploads-2021-04-cmd_load_LTS.png)
 
 
-Teherátadó felület egy speciális felület, ami a rajta elhelyezett felületi terheket osztja szét rudakra vonalmenti terhekként. Azokban az esetekben, ahol felületi terhet kell szétosztani rudakra, mint például hasznos teher vagy hóteher igen hatékonyan használható ez a funkció.
+Teher átadó felület egy speciális felület, ami a rajta elhelyezett felületi terheket osztja szét rudakra vonalmenti terhekként. Azokban az esetekben, ahol felületi terhet kell szétosztani rudakra, mint például hasznos teher vagy hóteher igen hatékonyan használható ez a funkció.
 
 <!-- /wp:paragraph -->
 
@@ -408,7 +408,9 @@ A Terhek fülön található Teher átadó felület (![](./img/wp-content-upload
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Teherátadó felület rajzolási funkciói megegyeznek a síkidomok rajzolási funkcióival (téglalap, döntött téglalap, kör és zárt poligon rajzolása). A felület megrajzolása után megadható, hogy mely rudakra ossza szét a felület a felületi terhet. A felületi teher szétosztható csak a kijelölt elemekre, vagy az összes elemre, ami a teherátadó felület síkjában fekszik. Utóbbi esetben a megfelelő elemek kijelölésre kerülnek a modellben.
+Teherátadó felület rajzolási funkciói megegyeznek a síkidomok rajzolási funkcióival (téglalap, döntött téglalap, kör és zárt poligon rajzolása). A felület megrajzolása után megadható, hogy mely rudakra ossza szét a felület a felületi terhet. 
+
+A felületi teher szétosztható csak a **kijelölt elemekre**, vagy az **összes elemre, ami a teherátadó felület síkjában fekszik**. Utóbbi esetben a megfelelő elemek kijelölésre kerülnek a modellben.
 
 <!-- /wp:paragraph -->
 
@@ -421,6 +423,11 @@ Teherátadó felület rajzolási funkciói megegyeznek a síkidomok rajzolási f
 <!-- wp:paragraph {"align":"justify"} -->
 
 Az első opció kiválasztása esetén ki kell jelölni a modellben a felületi teher hordására szolgáló elemeket (a SHIFT + bal kattintással lehet elemeket eltávolítani a kijelölésből). A megfelelő elemek kiválasztása, majd a **Rendben** gomb megnyomása után létrejön a teherátadó felület.
+
+:::info
+Amennyiben a teher a **kijelölt elemekre** kerül szétosztásra, nemcsak a felület síkjában, hanem kissé attól eltérő rúdelemek is bevonhatók. A [teherszétosztás beállításainál](../1_0_general-description/1_2_the-main-window.md#beállítások-menü) megadható a közelségi tűréshatár. 
+:::
+
 
 <!-- /wp:paragraph -->
 

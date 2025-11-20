@@ -100,45 +100,45 @@ Az egyes adatmezők értelmezése fentről lefelé haladva az alábbi:
 - _Végeselem típusa_
 
 
-Az elérhető típusok a kiválasztott szelvénytől függenek.
+ Az elérhető típusok a kiválasztott szelvénytől függenek.
 
-**Acélszelvények esetén:**
-
-
-
-- Egyszeresen vagy kétszeresen szimmetrikus hegesztett (makró) szelvények esetén négy lehetőség közül kell választani:
+ **Acélszelvények esetén:**
 
 
 
-  - **7 DOF rúdelem**: az öblösödés hatását is tartalmazó, 7 szabadságfokú (SZF) csomópontokból álló rúdelem. Az öblösödés figyelembevétele különösen a normál, nyitott szelvényű acélszelvényekből felépített szerkezetekben lehet jelentős.
+ - Egyszeresen vagy kétszeresen szimmetrikus hegesztett (makró) szelvények esetén négy lehetőség közül kell választani:
 
 
-  * **Héjelem**: a rúdelem az analízis során a keresztmetszetének megfelelő héjelemmé alakul át. Az alkalmazott terhek, támaszok, merevítő bordák és nyílások is átalakításra kerülnek. Az elem megtartja 1D jellemzőit is, így ez az átalakítás nem végérvényes. Az ilyen elemek bármikor visszaalakíthatók normál rúdelemekké. Ezekre az elemekre a szabványos méretezés jelenleg nem lehetséges.
+
+   - **7 DOF rúdelem**: az öblösödés hatását is tartalmazó, 7 szabadságfokú (SZF) csomópontokból álló rúdelem. Az öblösödés figyelembevétele különösen a normál, nyitott szelvényű acélszelvényekből felépített szerkezetekben lehet jelentős.
+
+
+   * **Héjelem**: a rúdelem az analízis során a keresztmetszetének megfelelő héjelemmé alakul át. Az alkalmazott terhek, támaszok, merevítő bordák és nyílások is átalakításra kerülnek. Az elem megtartja 1D jellemzőit is, így ez az átalakítás nem végérvényes. Az ilyen elemek bármikor visszaalakíthatók normál rúdelemekké. Ezekre az elemekre a szabványos méretezés jelenleg nem lehetséges.
 
      :::wanrning
      Ez a típus nem választható ezen a párbeszédpanelen. Csak a modellben elhelyezett rudakat lehet az **_[Objektum tulajdonságok ablakban](../1_0_general-description/1_2_the-main-window.md#objektum-tulajdonságok-ablak)_** héjelemmé módosítani. További információ erről a **_[Superbeam fejezetben található.](../5_0_structural-modeling/5_14_superbeam.md)_**
      :::
 
 
-  - **Húzott rúd**: tengelyirányú nyomást nem tud felvenni. Ha az analízis során nyomás lép fel egy ilyen elemben, a program figyelmen kívül hagyja az elemet.
+   - **Húzott rúd**: tengelyirányú nyomást nem tud felvenni. Ha az analízis során nyomás lép fel egy ilyen elemben, a program figyelmen kívül hagyja az elemet.
 
 
-  * **Húzott rúd (pótátlós merevítés)** húzott pótátlós merevítési rendszer egyedi húzott elemeire alkalmazható opció, amely során azt feltételezzük, hogy a merevítő elemek párosan vannak úgy elhelyezve, hogy mindig csak az egyik dolgozik húzásra, a másik pedig nyomás hatására kihajlik. Az így megjelölt elemek a rugalmas sajátérték számításhoz szükséges linearizálás miatt, mint húzott-nyomott elemek lesznek figyelembevéve, 50%-ra csökkentett keresztmetszeti jellemzőkkel.
+   * **Húzott rúd (pótátlós merevítés)** húzott pótátlós merevítési rendszer egyedi húzott elemeire alkalmazható opció, amely során azt feltételezzük, hogy a merevítő elemek párosan vannak úgy elhelyezve, hogy mindig csak az egyik dolgozik húzásra, a másik pedig nyomás hatására kihajlik. Az így megjelölt elemek a rugalmas sajátérték számításhoz szükséges linearizálás miatt, mint húzott-nyomott elemek lesznek figyelembevéve, 50%-ra csökkentett keresztmetszeti jellemzőkkel.
 
 
-* Minden más szelvény típus esetén a fentiekből csak az alábbi három típus választható:
+ * Minden más szelvény típus esetén a fentiekből csak az alábbi három típus választható:
 
-  - **7 DOF rúdelem**
+   - **7 DOF rúdelem**
 
-  - **Húzott rúd**
+   - **Húzott rúd**
  
-  - **Húzott rúd (pótátlós merevítés)** 
+   - **Húzott rúd (pótátlós merevítés)** 
  
 
-**Vasbeton vagy Öszvér keresztmetszet esetén:**
+ **Vasbeton vagy Öszvér keresztmetszet esetén:**
 
 
-Ilyen típusú keresztmetszetek esetén csak a _6 DOF rúdelem_ elemtípus használható, ami egy hagyományos, 6 szabadságfokú végeselem típust jelent.
+ Ilyen típusú keresztmetszetek esetén csak a _6 DOF rúdelem_ elemtípus használható, ami egy hagyományos, 6 szabadságfokú végeselem típust jelent.
 
 - _Elemcsoport_: a szerkezeti elemek különböző szempontok szerinti csoportosítására szolgál (kiválasztás, mértékadó eredmény, érzékenységvizsgálat stb.). A három pontos ![](./img/wp-content-uploads-2021-04-3dots-button.png) ikonra kattintva a _**Szerkezeti elemek csoportjai**_ dialógon új elemcsoportok definiálhatók.
 
@@ -997,3 +997,68 @@ Egy változó keresztmetszetű rúd kiválasztása esetén nemcsak a rúd, hanem
 
 **Fontos tudni,** hogy változó keresztmetszetű elem esetén az automatikus végeselem generálás során új keresztmetszetek kerülnek előállításra a megfelelő keresztmetszeti magassággal. Az új keresztmetszetek külpontosan kerülnek elhelyezésre az elem középvonalán (kivétel szimmetrikus kiékelés esetén). A keresztmetszetek külpontossága miatt az igénybevételek is külpontossá válnak, amiknek a hatása megjelenik az analízis eredményekben (például változó keresztmetszetű keretsarok esetén, az erős tengelyi hajlító nyomaték egyensúlya csak akkor ál elő, ha figyelembe vesszük a normálerő külpontosságából keletkező extra nyomatékot).
 :::
+
+## Változó gerincmagasságú hegesztett I/H rúdelem
+
+![alt text](<img/New tapered.png>)
+
+Acélszerkezeteknél gyakran alkalmaznak hegesztett, lemezekből kialakított főtartókat, ahol a gerinc- és övlemezek vastagsága a tartó hosszában változhat, hogy az anyagfelhasználás a belső erőkhöz igazodva legyen optimalizálva.
+
+A „Változó gerincmagasságú hegesztett I/H rúdelem” funkció lehetővé teszi a gerinc- és övlemezek szerkeszthető listájának megadását, amelyek mentén a lemezvastagság változhat. A Consteel ezekből a listákból automatikusan létrehozza a megfelelő végeselem-modellt, így az elem felosztása nélkül teszi lehetővé a hatékony és rugalmas modellezést.
+
+A funkció használatához **hegesztett makró I- vagy H-szelvényű elemet kell elhelyezni a modellben**. Csak az elem **anyag** paramétere marad az eredeti értéken, minden más paramétert a funkció beállításai határoznak meg.
+
+:::info
+
+A funkció kizárólag hegesztett I- vagy H-szelvényű elemeken használható, és csak akkor, ha az elem helyi excentricitása megfelel a kiválasztott formának.
+
+- **Felső**: Bal-Lent, Közép-Lent, Jobb-Lent, Gerinc alsó pontja, Referencia vonal
+
+- **Szimmetrikus**: Bal-Közép, Közép-Közép, Jobb-Közép, Gerinc középső pontja, Referencia vonal
+
+- **Alsó**: Bal-Fent, Középső-Fent, Jobb-Fent, Gerinc felső pontja, Referencia vonal
+
+:::
+
+
+![alt text](<img/EN Web tapered welded I H member.png>)
+
+A funkcióablak két fő részre oszlik: az első az elem paraméterek, a második a lemez paraméterek számára. Minden paramétert be kell állítani az elhelyezés előtt.
+
+1. **Elem paraméterek**
+
+ Ebben a részben a rúdelemhez kapcsolódó paramétereket kell megadni:
+
+ - **Forma**: Lehet Felső, Szimmetrikus vagy Alsó, az elem lokális külpontosságától függően.
+
+ - **Gerinclemez magasságának kezdete és vége**: A kétirányú nyíl gombbal felcserélhető.
+
+ - **Felső és alsó övlemez szélessége**
+
+2. **Lemez paraméterek**: 
+
+ A **referencia pont** lehet az elem elején vagy végén.
+
+ A **lemez részeket** a ![alt text](img/plus.png)
+ gomb segítségével lehet megadni, külön-külön meghatározva a vastagságot és hosszúságot a felső övnél, a gerincnél és az alsó övnél.
+
+ A lemez részek definiálása után azok sorrendje húzással módosítható.
+
+ Emellett minden lemez fennmaradó részét a sor végén található szerkesztés ikonra kattintva lehet módosítani ![alt text](img/edit.png).
+
+ ![alt text](<img/EN Plate parameters.png>)
+
+A paraméterek beállítása után a Változó gerincmagasságú hegesztett I/H rúdelem az **Elhelyezés** gomb segítségével helyezhető el a modellben a már meglévő hegesztett elemen.
+
+![alt text](<img/EN place tapered I H.png>)
+
+Ha a kiválasztott forma nem egyezik meg a hegesztett elem lokális külpontosságával, a következő hibaüzenet jelenik meg:
+
+![alt text](<img/EN Place web tapered welded I H.png>)
+
+
+Sikeres elhelyezés esetén az elemet kijelölve az Objektum tulajdonságai panelen módosíthatók a lemez- és elem paraméterek a kék színű likekre kattintva.
+
+![alt text](<img/EN member properties.png>)
+
+![alt text](<img/EN modify bootom flange.png>)

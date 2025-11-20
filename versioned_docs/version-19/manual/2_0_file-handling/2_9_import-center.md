@@ -10,7 +10,8 @@ Starting with Consteel 18, the primary import functionalities have been relocate
 
 To begin, go to the **File** menu and select **Import Center**, or press the `Ctrl+Shift+I` hotkey to open the window.
 
-![alt text](img/image.png)
+![alt text](<img/File import center open.png>)
+![alt text](<img/EN Import Center  cs19.png>)
 
 ---
 
@@ -24,8 +25,7 @@ To begin, go to the **File** menu and select **Import Center**, or press the `Ct
 While browsing, files will not be visible in the folder. The browser only searches for folders and does not display files with other extensions.
 :::
 
-![alt text](img/image-5.png)
-
+![alt text](<img/EN import center preview.png>)
 ---
 
 ### 2. File Selection
@@ -35,6 +35,7 @@ After selecting the folder, all the convertible files will appear in the main wi
 - The files can be organized alphabetically (A-Z) or by recent use. The view can be switched between **grid** or **list** formats.
 - The **eye icon** next to each file indicates whether the model can be previewed. Clicking on the model will activate the **View Model** button. Currently, only `.ifc` and `.smadsteel` files can be previewed.
 - The Import Center can identify the source of the files, indicated by icons in grid view and listed in the table in list view.
+- The „_adjust member lengths with fittings and end cuts_” checkbox controls whether Consteel should use the members’ theoretical lengths or their actual cut lengths during import. By default, all members are brought into Consteel with their full modeled (theoretical) lengths, and any elements that are cut in the IFC model (but whose cuts are not applied during import) are placed in a separate group called Elements with converted lengths. When this checkbox is enabled, Consteel adjusts these members according to the cuts and fittings defined in the IFC model, ensuring that they appear in the project with their true, modified lengths.
 - After selecting the file from which the model should be imported, press **Next**.
 
 ---

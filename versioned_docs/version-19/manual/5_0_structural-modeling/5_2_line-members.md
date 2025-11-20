@@ -34,11 +34,11 @@ Member parameters can be defined in the middle part of the dialogs:
 
 - _Type of finite element_:
 
-**For steel members:**
+ **For steel members:**
 
-The available element types depend on the chosen section.
+ The available element types depend on the chosen section.
 
-- For welded single or double symmetrical cross-sections (macro section) there are four choices possible:
+ - For welded single or double symmetrical cross-sections (macro section) there are four choices possible:
 
   - **7 DOF beam element**: element with nodes of 7 degrees of freedom, including the warping of the thin-walled cross-section. It is an important effect in the case of structures with standard, open steel profiles.
 
@@ -50,20 +50,20 @@ The available element types depend on the chosen section.
 
   * **Tension bar (X Brace)** used for individual members of bracing systems made of elements working in tension only which are arranged in a way, that from a pair of members always just one is working in tension and the another is assumed to be efficient due to buckling. This option will linearize the behaviour of such members for a linear buckling eigenvalue calculation by considering the member working in both tension and compression, but with half cross-section properties.
 
-* For any other steel cross-sections, three of the above mentioned possible choices are available:
+ * For any other steel cross-sections, three of the above mentioned possible choices are available:
 
-  - 7 DOF beam element
+   - 7 DOF beam element
 
-  - Tension bar
+   - Tension bar
 
-  - Tension bar (X Brace)
+   - Tension bar (X Brace)
 
-**For reinforced concrete or composite members:**
+ **For reinforced concrete or composite members:**
 
-There is only one choice available: the _**6 DOF beam element**_ type. This is the commonly used finite element with nodes of 6 degrees of freedom.
+ There is only one choice available: the _**6 DOF beam element**_ type. This is the commonly used finite element with nodes of 6 degrees of freedom.
 
 - _Element group_: the members can be sorted out into element groups for various purposes (selection, dominant results, sensitivity analysis, etc.).  
-  if new element group is needed the **_Groups of structural members_** dialogue can be called by pressing the ![](./img/wp-content-uploads-2021-04-3dots-button.png) button next to the combo.
+   if new element group is needed the **_Groups of structural members_** dialogue can be called by pressing the ![](./img/wp-content-uploads-2021-04-3dots-button.png) button next to the combo.
 
 - _Number of finite elements_: the required number of finite elements used on the member in the analysis can be set. I The default _automatic_ option gives a sufficient result in the most cases.
 
@@ -700,19 +700,23 @@ New sections are created during the automatic finite element generation with app
 
 ## Web tapered welded I/H member
 
+![alt text](<img/New tapered.png>)
+
 In welded built-up members commonly used in metal buildings, the flange and web plate thicknesses often vary along the member length to optimize material usage according to internal force demands.
 
 The Web Tapered Welded I/H Member function allows users to define editable lists of flange and web plates with varying thicknesses along the member. Consteel automatically generates the corresponding finite element model based on these lists, allowing efficient and flexible modeling without dividing the element.
+
+For the function to operate correctly, **a welded macro I- or H-section member must be placed in the model**. Only the **material** parameter of the member remains as originally defined, all other parameters are assigned according to the settings of this function.
 
 :::info
 
 The function is available exclusively for welded I or H members and can be used only when the member’s local eccentricity matches the selected tapered shape.
 
-- **Top**: Bottom Left, Bottom Middle, Bottom Right, Bottom of the Web
+- **Top**: Bottom Left, Bottom Middle, Bottom Right, Bottom of the Web, Reference line
 
-- **Symmetric**: Middle Left, Middle Middle, Middle Right, Middle of the Web
+- **Symmetric**: Middle Left, Middle Middle, Middle Right, Middle of the Web, Reference line
 
-- **Bottom**: Top Left, Top Middle, Top Right, Top of the Web
+- **Bottom**: Top Left, Top Middle, Top Right, Top of the Web, Reference line
 
 :::
 
@@ -723,23 +727,25 @@ The function window is divided into two main sections: the first for member para
 
 1. **Member parametes**
 
-In this section, all parameters related to the member must be set. Note that for a predefined welded I or H member, only the material parameter remains as originally defined; all other parameters must be specified:
+ In this section, all parameters related to the member must be set. 
 
-- **Shape**: Can be Top, Symmetric, or Bottom, depending on the member’s local eccentricity.
+ - **Shape**: Can be Top, Symmetric, or Bottom, depending on the member’s local eccentricity.
 
-- **Start and end of the web height**: Can be exchanged using the two-arrow button.
+ - **Start and end of the web height**: Can be exchanged using the two-arrow button.
 
-- **Top and bottom flange width**
+ - **Top and bottom flange width**
 
 2. **Plate parameters**: 
 
-The **reference point** can be selected either at the start or at the end of the member.
+ The **reference point** can be selected either at the start or at the end of the member.
 
-Users can define the **plate segments** using the ![alt text](img/plus.png) button by specifying the thickness and length of each segment separately for the top flange, web, and bottom flange.
+ Users can define the **plate segments** using the ![alt text](img/plus.png) button by specifying the thickness and length of each segment separately for the top flange, web, and bottom flange.
 
-In addition, the remaining part of each segment can be edited at the end of the line by clicking the edit icon ![alt text](img/edit.png).
+ After defining the plate segments, their order can be changed by dragging and dropping them.
 
-![alt text](<img/EN Plate parameters.png>)
+ In addition, the remaining part of each segment can be edited at the end of the line by clicking the edit icon ![alt text](img/edit.png).
+
+ ![alt text](<img/EN Plate parameters.png>)
 
 After setting the parameters, the web-tapered welded I or H member can be placed on an existing welded member in the model using the Place button.
 
@@ -749,7 +755,7 @@ If the selected tapered type does not match the welded member’s local eccentri
 
 ![alt text](<img/EN Place web tapered welded I H.png>)
 
-If the placement is successful, users can select the member and modify its plate and member parameters in the Object Properties panel.
+If the placement is successful, users can select the member and modify its plate and member parameters in the Object Properties panel by clicking on the blue-colored dimensions.
 
 ![alt text](<img/EN member properties.png>)
 

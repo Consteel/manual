@@ -225,6 +225,7 @@ In the present version, the shell FE representation Of Superbeam is not compatib
 - Placed joint
 - Purlin line and Purlin joint
 - Influence line
+- Web tapered welded I/H member
 
 <!-- /wp:list -->
 

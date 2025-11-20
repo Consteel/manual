@@ -411,7 +411,9 @@ Load transfer surface (LTS) is a special surface that distributes surface loads 
 After clicking on the **_Load transfer surface_** (![](./img/wp-content-uploads-2021-04-cmd_load_LTS.png)) icon on the **Loads** tab a dialog window appears.
 
 
-Just like in the two-dimensional figure drawing there are different possibilities to draw the surface: draw a rectangle, draw a leaning rectangle, draw a circle, or draw a polygon. After drawing the surface it is possible to select the members to which the surface distributes the load. There are two options: distribute the load to the selected members or distribute the load to all members covered by the surface in the surface plane. If the second option is clicked then the appropriate members will be highlighted. If none of the options is clicked, then the second one will be applied as a default.
+Just like in the two-dimensional figure drawing there are different possibilities to draw the surface: draw a rectangle, draw a leaning rectangle, draw a circle, or draw a polygon. After drawing the surface it is possible to select the members to which the surface distributes the load. 
+
+There are two options: **distribute the load to the selected members** or **distribute the load to all members covered by the surface in the surface plane**. If the second option is clicked then the appropriate members will be highlighted. If none of the options is clicked, then the second one will be applied as a default.
 
 
 ![](img\wp-content-uploads-2021-04-7-4-Edit-load-transfer-surface_2.jpg)
@@ -419,6 +421,9 @@ Just like in the two-dimensional figure drawing there are different possibilitie
 
 It is possible to choose the first option and select members for carrying the surface load or remove members from the selection using the SHIFT + Left click. After the corresponding members have been selected and _**OK**_ is clicked then the surface is created.
 
+:::info 
+When **distributing the load to selected members**, bar members that are slightly offset from the surface can also be included in the load distribution, within a [user-defined tolerance](../1_0_general-description/1_2_the-main-window.md#options-menu). This flexibility ensures an intuitive and adaptable load assignment for complex geometries.
+:::
 
 It is also possible to use the **_Multiple placement of load transfer surfaces_** by clicking on the (![](./img/wp-content-uploads-2021-04-cmd_LTS_multi.png)) icon. This function is used to define multiple load transfer surfaces with a simple selection (rectangle selection, or by clicking the border edges). Edges of a load transfer surface have to be in the same plane.
 
