@@ -189,15 +189,14 @@ A **kereskedelmi** felhasználók esetén az ő **legutóbbi modelljeik** jelenn
 
 #### **Új Létrehozása fül** 
 
-![alt text](img/létrehozascs18.png)
+![alt text](img/szurescs18.png)
 
 Új modelleket hozhatsz létre a név megadásával, a tervezési szabvány kiválasztásával és a modell nyelvének megadásával. Az alábbi lehetőségek közül választhatsz:
 
 - **Új üres modell indítása**: Olyan új modellt hozhatsz létre, amely nem tartalmaz előre definiált szerkezeti elemeket.
 - **Import**: Az új modell megnyitásával automatikusan megnyílik az Import Center, amely lehetővé teszi a modellek importálását különböző fájlformátumokból.
-- **Parametrikus modell indítása**: A projekt megnyitásával a parametrikus modell könyvtárból kiválaszthatsz egy modellt, a modellek szűrhetőek.
+- **Parametrikus modell indítása**: A projekt megnyitásával a parametrikus modell könyvtárból kiválaszthatsz egy modellt, a modellek szűrhetőek.![alt text](img/létrehozascs18.png)
 
-![alt text](img/szurescs18.png)
 
 #### **Megnyitás fül**
 ![alt text](img/megnyitaslegutobbics18.png)
