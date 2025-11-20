@@ -100,45 +100,45 @@ Az egyes adatmezők értelmezése fentről lefelé haladva az alábbi:
 - _Végeselem típusa_
 
 
-Az elérhető típusok a kiválasztott szelvénytől függenek.
+ Az elérhető típusok a kiválasztott szelvénytől függenek.
 
-**Acélszelvények esetén:**
-
-
-
-- Egyszeresen vagy kétszeresen szimmetrikus hegesztett (makró) szelvények esetén négy lehetőség közül kell választani:
+ **Acélszelvények esetén:**
 
 
 
-  - **7 DOF rúdelem**: az öblösödés hatását is tartalmazó, 7 szabadságfokú (SZF) csomópontokból álló rúdelem. Az öblösödés figyelembevétele különösen a normál, nyitott szelvényű acélszelvényekből felépített szerkezetekben lehet jelentős.
+ - Egyszeresen vagy kétszeresen szimmetrikus hegesztett (makró) szelvények esetén négy lehetőség közül kell választani:
 
 
-  * **Héjelem**: a rúdelem az analízis során a keresztmetszetének megfelelő héjelemmé alakul át. Az alkalmazott terhek, támaszok, merevítő bordák és nyílások is átalakításra kerülnek. Az elem megtartja 1D jellemzőit is, így ez az átalakítás nem végérvényes. Az ilyen elemek bármikor visszaalakíthatók normál rúdelemekké. Ezekre az elemekre a szabványos méretezés jelenleg nem lehetséges.
+
+   - **7 DOF rúdelem**: az öblösödés hatását is tartalmazó, 7 szabadságfokú (SZF) csomópontokból álló rúdelem. Az öblösödés figyelembevétele különösen a normál, nyitott szelvényű acélszelvényekből felépített szerkezetekben lehet jelentős.
+
+
+   * **Héjelem**: a rúdelem az analízis során a keresztmetszetének megfelelő héjelemmé alakul át. Az alkalmazott terhek, támaszok, merevítő bordák és nyílások is átalakításra kerülnek. Az elem megtartja 1D jellemzőit is, így ez az átalakítás nem végérvényes. Az ilyen elemek bármikor visszaalakíthatók normál rúdelemekké. Ezekre az elemekre a szabványos méretezés jelenleg nem lehetséges.
 
      :::wanrning
      Ez a típus nem választható ezen a párbeszédpanelen. Csak a modellben elhelyezett rudakat lehet az **_[Objektum tulajdonságok ablakban](../1_0_general-description/1_2_the-main-window.md#objektum-tulajdonságok-ablak)_** héjelemmé módosítani. További információ erről a **_[Superbeam fejezetben található.](../5_0_structural-modeling/5_14_superbeam.md)_**
      :::
 
 
-  - **Húzott rúd**: tengelyirányú nyomást nem tud felvenni. Ha az analízis során nyomás lép fel egy ilyen elemben, a program figyelmen kívül hagyja az elemet.
+   - **Húzott rúd**: tengelyirányú nyomást nem tud felvenni. Ha az analízis során nyomás lép fel egy ilyen elemben, a program figyelmen kívül hagyja az elemet.
 
 
-  * **Húzott rúd (pótátlós merevítés)** húzott pótátlós merevítési rendszer egyedi húzott elemeire alkalmazható opció, amely során azt feltételezzük, hogy a merevítő elemek párosan vannak úgy elhelyezve, hogy mindig csak az egyik dolgozik húzásra, a másik pedig nyomás hatására kihajlik. Az így megjelölt elemek a rugalmas sajátérték számításhoz szükséges linearizálás miatt, mint húzott-nyomott elemek lesznek figyelembevéve, 50%-ra csökkentett keresztmetszeti jellemzőkkel.
+   * **Húzott rúd (pótátlós merevítés)** húzott pótátlós merevítési rendszer egyedi húzott elemeire alkalmazható opció, amely során azt feltételezzük, hogy a merevítő elemek párosan vannak úgy elhelyezve, hogy mindig csak az egyik dolgozik húzásra, a másik pedig nyomás hatására kihajlik. Az így megjelölt elemek a rugalmas sajátérték számításhoz szükséges linearizálás miatt, mint húzott-nyomott elemek lesznek figyelembevéve, 50%-ra csökkentett keresztmetszeti jellemzőkkel.
 
 
-* Minden más szelvény típus esetén a fentiekből csak az alábbi három típus választható:
+ * Minden más szelvény típus esetén a fentiekből csak az alábbi három típus választható:
 
-  - **7 DOF rúdelem**
+   - **7 DOF rúdelem**
 
-  - **Húzott rúd**
+   - **Húzott rúd**
  
-  - **Húzott rúd (pótátlós merevítés)** 
+   - **Húzott rúd (pótátlós merevítés)** 
  
 
-**Vasbeton vagy Öszvér keresztmetszet esetén:**
+ **Vasbeton vagy Öszvér keresztmetszet esetén:**
 
 
-Ilyen típusú keresztmetszetek esetén csak a _6 DOF rúdelem_ elemtípus használható, ami egy hagyományos, 6 szabadságfokú végeselem típust jelent.
+ Ilyen típusú keresztmetszetek esetén csak a _6 DOF rúdelem_ elemtípus használható, ami egy hagyományos, 6 szabadságfokú végeselem típust jelent.
 
 - _Elemcsoport_: a szerkezeti elemek különböző szempontok szerinti csoportosítására szolgál (kiválasztás, mértékadó eredmény, érzékenységvizsgálat stb.). A három pontos ![](./img/wp-content-uploads-2021-04-3dots-button.png) ikonra kattintva a _**Szerkezeti elemek csoportjai**_ dialógon új elemcsoportok definiálhatók.
 
