@@ -82,6 +82,10 @@ Type of macro to be used.
 | [Double mirrored C](#double-mirrored-c)                                           | DM-C            |
 | [Double mirrored SIGMA](#double-mirrored-sigma)                                   | DM-SIGMA        |
 | [Double mirrored user drawn](#double-mirrored-user-drawn)                         | DM-UD           |
+| Reinforced concrete sections                                                      | RC-...          |
+| [Rectangular beam section](#)                                                     | RC-BeamRect     |
+| [Rectangular column section](#)                                                   | RC-ColRect      |
+| [Circular column section](#)                                                      | RC-ColCirc      |
 
 #### Section name:
 
@@ -957,3 +961,142 @@ LOAD_SECTION_MACRO Sec_ID5 DM-UD "Double mirrored User drawn (Descript)" $Base_S
 ```
 
 The code lists all the sections present in the model, retrieves the ID of the first one, and uses that as a base section to create the double mirrored section.
+
+## Reinforced concrete sections
+
+### Rectangular beam section
+
+Rectangular reinforced concrete beam section with design option.
+
+#### Macro type:
+
+RC-BeamRect
+
+#### Parameters:
+
+![](img\RC_BeamRect_Params_v01.png)
+
+| Notation   | Definition                                 |
+| ---------- | ------------------------------------------ |
+| bc         | Width \[mm]                                |
+| hc         | Height \[mm]                               |
+| ElasticMod | Modulus of elasticity (optional parameter) |
+
+Parameter notations substituted into the command syntax:
+
+LOAD_SECTION_MACRO [Object ID] RC-BeamRect [Section name] [Material name] \[bc] \[hc] \[ElasticMod]
+
+#### Modulus of elasticity:
+
+Modulus of elasticity applied in structural analysis.
+
+Valid inputs:
+
+- Ecm
+- Ecd (default)
+- EcdEff
+
+#### Sample code
+
+**Minimal parameters:**
+
+```
+LOAD_SECTION_MACRO Sec_ID1 RC-BeamRect "RC-BeamRect (Descript)" "C25/30 EN 1992-1-1:2010" 333 555
+```
+
+**All parameters:**
+
+```
+LOAD_SECTION_MACRO Sec_ID1 RC-BeamRect "RC-BeamRect (Descript)" "C25/30 EN 1992-1-1:2010" 333 555 Ecm
+```
+
+### Rectangular column section
+
+Rectangular reinforced concrete column section with design option.
+
+#### Macro type:
+
+RC-ColRect
+
+#### Parameters:
+
+![](img\RC_BeamRect_Params_v01.png)
+
+| Notation   | Definition                                 |
+| ---------- | ------------------------------------------ |
+| bc         | Width \[mm]                                |
+| hc         | Height \[mm]                               |
+| ElasticMod | Modulus of elasticity (optional parameter) |
+
+Parameter notations substituted into the command syntax:
+
+LOAD_SECTION_MACRO [Object ID] RC-BeamRect [Section name] [Material name] \[bc] \[hc] \[ElasticMod]
+
+#### Modulus of elasticity:
+
+Modulus of elasticity applied in structural analysis.
+
+Valid inputs:
+
+- Ecm
+- Ecd (default)
+- EcdEff
+
+#### Sample code
+
+**Minimal parameters:**
+
+```
+LOAD_SECTION_MACRO Sec_ID1 RC-ColRect "RC-ColRect (Descript)" "C25/30 EN 1992-1-1:2010" 255 567
+```
+
+**All parameters:**
+
+```
+LOAD_SECTION_MACRO Sec_ID1 RC-ColRect "RC-ColRect (Descript)" "C25/30 EN 1992-1-1:2010" 255 567 Ecm
+```
+
+### Circular column section
+
+Circular reinforced concrete column section with design option.
+
+#### Macro type:
+
+RC-ColCirc
+
+#### Parameters:
+
+![](img\RC_ColCirc_Params_v01.png)
+
+| Notation   | Definition                                 |
+| ---------- | ------------------------------------------ |
+| d          | Diameter \[mm]                             |
+| ElasticMod | Modulus of elasticity (optional parameter) |
+
+Parameter notations substituted into the command syntax:
+
+LOAD_SECTION_MACRO [Object ID] RC-BeamRect [Section name] [Material name] \[d] \[ElasticMod]
+
+#### Modulus of elasticity:
+
+Modulus of elasticity applied in structural analysis.
+
+Valid inputs:
+
+- Ecm
+- Ecd (default)
+- EcdEff
+
+#### Sample code
+
+**Minimal parameters:**
+
+```
+LOAD_SECTION_MACRO Sec_ID1 RC-ColCirc "RC-ColCirc (Descript)" "C25/30 EN 1992-1-1:2010" 444
+```
+
+**All parameters:**
+
+```
+LOAD_SECTION_MACRO Sec_ID1 RC-ColCirc "RC-ColCirc (Descript)" "C25/30 EN 1992-1-1:2010" 444 Ecm
+```

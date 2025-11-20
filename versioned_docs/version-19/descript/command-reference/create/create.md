@@ -40,42 +40,45 @@ The type of object to be created.
 
 <div style={{paddingBottom: '20px'}}> </div>
 
-| **Object type name**                                | **Object type**     |
-| --------------------------------------------------- | ------------------- |
-| Structural members tab                              | -                   |
-| [Structural member](#structural-member)             | Structural_Member   |
-| [Structural Plate](#structural-plate)               | Structural_Plate    |
-| [Haunch](#haunch)                                   | Haunched_Member     |
-| [Tapered member](#tapered-member)                   | Tapered_Member      |
-| [Steel material](#steel-material)                   | Steel               |
-| [Coated steel material](#coated-steel-material)     | Coated_Steel        |
-| [Concrete material](#concrete-material)             | Concrete            |
-| [Rebar material](#rebar-material)                   | Rebar               |
-| [Point support](#point-support)                     | Support_Point       |
-| [Line support](#line-support)                       | Support_Edge        |
-| [Surface support](#surface-support)                 | Support_Plate       |
-| [Shear field](#shear-field)                         | ShearField          |
-| [Point support type](#point-support-type)           | Support             |
-| [Release type](#release-type)                       | Release             |
-| [Link](#link)                                       | Link                |
-| [Smart link](#smart-link)                           | SmartLink           |
-| Loads tab                                           | -                   |
-| [Load group](#load-group)                           | LoadGroup           |
-| [Load case](#load-case)                             | LoadCase            |
-| [Load combination](#load-combination)               | LoadCombination     |
-| [Point load](#point-load)                           | NodeForce           |
-| [Line load](#line-load)                             | MemberForce         |
-| [Surface load (uniform)](<#surface-load-(uniform)>) | PlateForce_Uniform  |
-| [Surface load (linear)](<#surface-load-(linear)>)   | PlateForce_Linear   |
-| [Load transfer surface](#load-transfer-surface)     | LoadTransferSurface |
-| [Initial sway](#initial-sway)                       | InitialSway         |
-| Mass tab                                            | -                   |
-| [Mass group](#mass-group)                           | MassGroup           |
-| [Mass case](#mass-case)                             | MassCase            |
-| [Mass combination](#mass-combination)               | MassCombination     |
-| [Point mass](#point-mass)                           | NodeMass            |
-| Other                                               | -                   |
-| [Portion](#portion)                                 | Portion             |
+| **Object type name**                                                  | **Object type**                |
+| --------------------------------------------------------------------- | ------------------------------ |
+| Structural members tab                                                | -                              |
+| [Structural member](#structural-member)                               | Structural_Member              |
+| [Structural Plate](#structural-plate)                                 | Structural_Plate               |
+| [Haunch](#haunch)                                                     | Haunched_Member                |
+| [Tapered member](#tapered-member)                                     | Tapered_Member                 |
+| [Rectangular column reinforcement](#rectangular-column-reinforcement) | RectangularColumnReinforcement |
+| [Circular column reinforcement](#circular-column-reinforcement)       | CircularColumnReinforcement    |
+| [Steel material](#steel-material)                                     | Steel                          |
+| [Coated steel material](#coated-steel-material)                       | Coated_Steel                   |
+| [Concrete material](#concrete-material)                               | Concrete                       |
+| [Rebar material](#rebar-material)                                     | Rebar                          |
+| [Point support](#point-support)                                       | Support_Point                  |
+| [Line support](#line-support)                                         | Support_Edge                   |
+| [Surface support](#surface-support)                                   | Support_Plate                  |
+| [Shear field](#shear-field)                                           | ShearField                     |
+| [Point support type](#point-support-type)                             | Support                        |
+| [Release type](#release-type)                                         | Release                        |
+| [Link](#link)                                                         | Link                           |
+| [Smart link](#smart-link)                                             | SmartLink                      |
+| [Design parameters for concrete column](#design-parameters-rcc)       | Design_Parameters_RCC          |
+| Loads tab                                                             | -                              |
+| [Load group](#load-group)                                             | LoadGroup                      |
+| [Load case](#load-case)                                               | LoadCase                       |
+| [Load combination](#load-combination)                                 | LoadCombination                |
+| [Point load](#point-load)                                             | NodeForce                      |
+| [Line load](#line-load)                                               | MemberForce                    |
+| [Surface load (uniform)](<#surface-load-(uniform)>)                   | PlateForce_Uniform             |
+| [Surface load (linear)](<#surface-load-(linear)>)                     | PlateForce_Linear              |
+| [Load transfer surface](#load-transfer-surface)                       | LoadTransferSurface            |
+| [Initial sway](#initial-sway)                                         | InitialSway                    |
+| Mass tab                                                              | -                              |
+| [Mass group](#mass-group)                                             | MassGroup                      |
+| [Mass case](#mass-case)                                               | MassCase                       |
+| [Mass combination](#mass-combination)                                 | MassCombination                |
+| [Point mass](#point-mass)                                             | NodeMass                       |
+| Other                                                                 | -                              |
+| [Portion](#portion)                                                   | Portion                        |
 
 #### Object parameters:
 
@@ -569,6 +572,124 @@ CREATE Mem_ID1 Structural_Member Descript_Section
 CREATE Tapered_ID1 Tapered_Member Mem_ID1 400 200
 Format Centric
 ModEccentricity SecBigger
+```
+
+## Rectangular column reinforcement
+
+This command is analogous with the rectangular column reinforcement creation dialogue in Consteel:
+
+![](img\Create_RectangularColumnReinforcement_Img_v01.png)
+
+### Syntax
+
+**CREATE** \[Object ID] **RectangularColumnReinforcement** \[Section ID] \[Main rebar diameter]  
+Name [Object name]
+
+### Command parameters
+
+| **Command parameter**                           | **Assignment** | **Value format**   | **Input options** |
+| ----------------------------------------------- | -------------- | ------------------ | ----------------- |
+| [Object ID](#Object-ID-rcr)                     | Required       | String             | Local, variable   |
+| [Section ID](#Section-id-rcr)                   | Required       | Section ID or name | Local, variable   |
+| [Main rebar diameter](#Main-rebar-diameter-rcr) | Required       | Numerical          | Local, variable   |
+| [Object name](#Object-name-rcr)                 | Optional       | String             | Local, variable   |
+
+#### Object ID: {#Object-ID-rcr}
+
+A string of characters that is used to identify the object that is being created.
+
+#### Section ID: {#Section-id-rcr}
+
+ID of the concrete section.
+
+#### Main rebar diameter: {#Main-rebar-diameter-rcr}
+
+Diameter of the main rebar of the reinforcement in \[mm].
+
+#### Object name: {#Object-name-rcr}
+
+Name of the reinforcement.
+
+### Sample code
+
+**Command only:** (minimal parameters)
+
+```
+CREATE ReinfColRect_ID1 RectangularColumnReinforcement Sec_ID1 22
+```
+
+**With added prerequisites (section and member definition) and all parameters:**
+
+```
+LOAD_SECTION_MACRO Sec_ID1 RC-ColRect "RC-ColRect (Descript)" "C25/30 EN 1992-1-1:2010" 255 567
+
+CREATE ReinfColRect_ID1 RectangularColumnReinforcement Sec_ID1 22
+Name "Reinforcement col rect 1"
+
+CREATE Mem_ID1 Structural_Member "RC-ColRect (Descript)"
+0 0 0
+0 0 1000
+
+SET Mem_ID1 ReinforcementID ReinfColRect_ID1
+```
+
+## Circular column reinforcement
+
+This command is analogous with the circular column reinforcement creation dialogue in Consteel:
+
+![](img\Create_CircularColumnReinforcement_Img_v01.png)
+
+### Syntax
+
+**CREATE** \[Object ID] **CircularColumnReinforcement** \[Section ID] \[Main rebar diameter]  
+Name [Object name]
+
+### Command parameters
+
+| **Command parameter**                           | **Assignment** | **Value format**   | **Input options** |
+| ----------------------------------------------- | -------------- | ------------------ | ----------------- |
+| [Object ID](#Object-ID-ccr)                     | Required       | String             | Local, variable   |
+| [Section ID](#Section-id-ccr)                   | Required       | Section ID or name | Local, variable   |
+| [Main rebar diameter](#Main-rebar-diameter-ccr) | Required       | Numerical          | Local, variable   |
+| [Object name](#Object-name-ccr)                 | Optional       | String             | Local, variable   |
+
+#### Object ID: {#Object-ID-ccr}
+
+A string of characters that is used to identify the object that is being created.
+
+#### Section ID: {#Section-id-ccr}
+
+ID of the concrete section.
+
+#### Main rebar diameter: {#Main-rebar-diameter-ccr}
+
+Diameter of the main rebar of the reinforcement in \[mm].
+
+#### Object name: {#Object-name-ccr}
+
+Name of the reinforcement.
+
+### Sample code
+
+**Command only:** (minimal parameters)
+
+```
+CREATE ReinfColCirc_ID1 CircularColumnReinforcement Sec_ID1 22
+```
+
+**With added prerequisites (section and member definition) and all parameters:**
+
+```
+LOAD_SECTION_MACRO Sec_ID1 RC-ColCirc "RC-ColCirc (Descript)" "C25/30 EN 1992-1-1:2010" 444
+
+CREATE ReinfColCirc_ID1 CircularColumnReinforcement Sec_ID1 22
+Name "Reinforcement col circ 1"
+
+CREATE Mem_ID1 Structural_Member "RC-ColCirc (Descript)"
+0 0 0
+0 0 1000
+
+SET Mem_ID1 ReinforcementID ReinfColCirc_ID1
 ```
 
 ## Steel material
@@ -1508,6 +1629,55 @@ InterfacePos 0.7
 IsSubBeam Yes
 SubBeamSectionID Sec_ID2
 SubBeamEccType EccType_BM
+```
+
+## Design parameters for concrete column {#design-parameters-rcc}
+
+This command is analogous with the concrete column design parameters object creation dialogue in Consteel:
+
+![](img\Create_Design_Parameters_RCC_Img_v01.png)
+
+### Syntax
+
+**CREATE** \[Object ID] **Design_Parameters_RCC**  
+Name [Object name]
+
+### Command parameters
+
+| **Command parameter**             | **Assignment** | **Value format** | **Input options** |
+| --------------------------------- | -------------- | ---------------- | ----------------- |
+| [Object ID](#Object-ID-dprcc)     | Required       | String           | Local, variable   |
+| [Object name](#Object-name-dprcc) | Optional       | String           | Local, variable   |
+
+#### Object ID: {#Object-ID-dprcc}
+
+A string of characters that is used to identify the object that is being created.
+
+#### Object name: {#Object-name-dprcc}
+
+Name of the design parameters object.
+
+### Sample code
+
+**Command only:** (minimal parameters)
+
+```
+CREATE DesParam_ID1 Design_Parameters_RCC
+```
+
+**With added prerequisites (section and member definition) and all parameters:**
+
+```
+LOAD_SECTION_MACRO Sec_ID1 RC-ColRect "RC-ColRect (Descript)" "C25/30 EN 1992-1-1:2010" 255 567
+
+CREATE Mem_ID1 Structural_Member "RC-ColRect (Descript)"
+0 0 0
+0 0 1000
+
+CREATE DesParam_ID1 Design_Parameters_RCC
+Name "Design param 1"
+
+SET Mem_ID1 DesignParamID DesParam_ID1
 ```
 
 ## Load group

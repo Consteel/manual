@@ -115,6 +115,8 @@ Available object attributes:
 | Avearage shell FE size in web        | AverageEdgeLength_Web                          | Numerical                                                   |
 | Avearage shell FE size in flange     | AverageEdgeLength_Flange                       | Numerical                                                   |
 | Type of the shell constraint element | ShellDOFConstraint                             | [Predefined strings](#Type-of-the-shell-constraint-element) |
+| Reinforcement ID                     | ReinforcementID                                | Reinforcement ID or name                                    |
+| Design parameter ID                  | DesignParamID                                  | Design parameter ID or name                                 |
 
 #### Finite element type:
 
@@ -144,7 +146,7 @@ Only applies if _FE_Type_ is set to Shell.
 
 ### Sample code
 
-**All available attributes + object creation:**
+**All available attributes + object creation with steel section:**
 
 ```
 LOAD_SECTION_LIBRARY Sec_ID1 "HEA 200"
@@ -169,6 +171,25 @@ SET Mem_ID1 Convergence 13
 SET Mem_ID1 AverageEdgeLength_Web 23
 SET Mem_ID1 AverageEdgeLength_Flange 13
 SET Mem_ID1 ShellDOFConstraint TransAndRot
+```
+
+**Extra attributes for concrete section + object creation:**
+
+```
+LOAD_SECTION_MACRO Sec_ID1 RC-ColRect "RC-ColRect (Descript)" "C25/30 EN 1992-1-1:2010" 255 567
+
+CREATE Mem_ID1 Structural_Member "RC-ColRect (Descript)"
+0 0 0
+0 0 1000
+
+CREATE ReinfColRect_ID1 RectangularColumnReinforcement Sec_ID1 22
+Name "Reinforcement col rect 1"
+
+CREATE DesParam_ID1 Design_Parameters_RCC
+Name "Design param 1"
+
+SET Mem_ID1 ReinforcementID ReinfColRect_ID1
+SET Mem_ID1 DesignParamID DesParam_ID1
 ```
 
 ## Structural Plate
