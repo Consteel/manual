@@ -23,7 +23,7 @@ This command controls the on-off switch for the frame corner functionality. The 
 
 | **Command parameter**   | **Assignment** | **Value format**                         | **Input options** |
 | ----------------------- | -------------- | ---------------------------------------- | ----------------- |
-| [On switch](#on-switch) | Required       | [Predefined strings](#on-switch-options) | Local, variable   |
+| [On switch](#on-switch) | Required       | [Predefined strings](#on-switch) | Local, variable   |
 
 #### On switch:
 
