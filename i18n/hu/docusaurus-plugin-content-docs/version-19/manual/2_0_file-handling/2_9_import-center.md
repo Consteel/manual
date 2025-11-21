@@ -10,7 +10,7 @@ A Consteel 18-tól kezdődően az importálási funkciók átkerültek az új **
 A folyamat elindításához nyisd meg a **Fájl** menüt, és válaszd az **Import Központ** opciót, vagy nyomd meg a `Ctrl+Shift+I` gyorsbillentyűt az ablak megnyitásához.
 
 ![alt text](img/image-1.png)
-![alt text](img/image-2.png)
+![alt text](<img/HU Import Center  cs19.png>)
 
 ---
 
@@ -23,7 +23,7 @@ A folyamat elindításához nyisd meg a **Fájl** menüt, és válaszd az **Impo
 A fájlok nem lesznek láthatóak a mappában, miközben keresel. A böngésző csak mappákat keres, és nem jeleníti meg a más fájlformátumokat.
 :::
 
-![alt text](img/image-3.png)
+![alt text](<img/HU import center preview.png>)
 ---
 
 ### 2. Fájlok megjelenítése
@@ -32,6 +32,7 @@ A mappa kiválasztása után az összes konvertálható fájl megjelenik a fő a
 - A fájlokat ábécé sorrendbe (**A-Z**) vagy legutóbbi használat szerint rendezheted. A nézetet **rács** vagy **lista** formátumra is válthatod.
 - A **szem ikon** jelzi, hogy a modell előnézete megtekinthető-e. A modellre kattintva az **Előnézet megjelenítése** gomb aktiválódik. Jelenleg csak `.ifc` és `.smadsteel` fájlok tekinthetők meg előnézetben.
 - Az Import Center felismeri a fájlok forrását, amit ikonok jeleznek rács nézetben, illetve a táblázatban lista nézetben.
+- Az „_elem módosítása a vágóél szerint_” jelölőnégyzet annak működését szabályozza, hogy a Consteel az elemek elméleti hosszát, vagy a vágásokkal és illesztésekkel módosított tényleges hosszát használja az import során. Alapértelmezetten a rúdelemek teljes modellezett (elméleti) hosszukkal kerülnek beolvasásra, és azok az elemek, amelyek az IFC modellben vágással szerepelnek, de ez a vágás nem kerül figyelembevételre az importáláskor, az „Elements with converted lengths” modellrészletbe kerülnek. Ha a jelölőnégyzet be van kapcsolva, akkor ezeknek az elemeknek a hossza az IFC modellben meghatározott vágások alapján kerül módosításra, így a Consteelben már a tényleges, vágással korrigált hosszukkal jelennek meg.
 - Miután kiválasztottad a fájlt, amelyből a modellt importálni szeretnéd, nyomd meg a **Tovább** gombot.
 
 ---

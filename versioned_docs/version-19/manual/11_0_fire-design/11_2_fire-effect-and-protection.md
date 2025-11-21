@@ -16,7 +16,7 @@ The fire effect and protection can be defined by clicking the **Define fire effe
 
 <!-- wp:image {"align":"center","id":8590,"width":267,"height":328,"sizeSlug":"large","linkDestination":"media"} -->
 
-![](img\wp-content-uploads-2021-04-12-2-define-fire-effect.png)
+![alt text](<img/Define fire effect and fire protection window.png>)
 
 <!-- /wp:image -->
 
@@ -40,17 +40,23 @@ By clicking on the three-dot button next to the _Fire protection data_ label, di
 
 <!-- wp:image {"align":"right","id":8596,"width":456,"height":228,"sizeSlug":"large","linkDestination":"media"} -->
 
-![](img\wp-content-uploads-2021-04-12-2-passive-protection.png)
+![alt text](<img/Define fire protection window.png>)
 
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-Fire protection can be _Unprotected_ and _Protected_. If Protected is chosen, the protection can be passive or reactive.
+Fire protection can be _Unprotected_, _Hot-dip galvanized_ according to EN ISO 1461 and _Protected_.  
+
+_Unprotected_ means that there is no distinctive fire protection method applied on the element. The ’Protection’ still needs to be defined and placed in Consteel in order to initiate fire calculation for the element.  
+
+According to DASt Richtlinie 027, surface emissivity, εₘ value – used to calculate the temperature of the given element in the presence of fire – can be modified from its default (EN 1993-1-2 -non-hot-dip galvanized- steel) value of 0,7 to 0,35 when the element is hot-dip galvanized and until steel temperature of 500°C. When the _Hot-dip galvanized_ according to EN ISO 1461 option is selected, the εₘ field becomes editable and the value given is used to calculate steel temperature under 500°C. 
 
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
+
+If Protected is chosen, the protection can be passive or reactive. 
 
 - **Passive protection**: in this case, the type of fire protection material and the thickness of the insulation must be specified. There are several predefined materials in the drop-down list, or you can define new materials with the ![](./img/wp-content-uploads-2021-04-3dots-button.png)button.
 
@@ -59,6 +65,8 @@ Fire protection can be _Unprotected_ and _Protected_. If Protected is chosen, th
 <!-- wp:list -->
 
 - **Reactive protection**: this should be selected if the fire protection of the given structure (part) will be provided by an intumescent paint coating and the critical temperature calculation is required to select the paint.
+
+  - _Determination of the required thickness_ of the fire resistant coating is optional. There are several products listed in the second drop-down menu to choose from. _Environmental exposure category_ and _Type of structural element_ should be given, so the software can present the necessary coating thickness from the implemented product tables. Result will be displayed in the design result table. 
 
 <!-- /wp:list -->
 

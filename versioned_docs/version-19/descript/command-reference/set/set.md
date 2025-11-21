@@ -30,6 +30,7 @@ Object IDs from the following object types are accepted:
 - Structural members tab:
   - [Structural member](#structural-member)
   - [Structural plate](#structural-plate)
+  - [Frame corner wizard](#frame-corner-wizard)
   - [Haunched member](#haunched-member)
   - [Tapered member](#tapered-member)
   - [Steel material](#steel-material)
@@ -39,10 +40,11 @@ Object IDs from the following object types are accepted:
   - [Point support](#point-support)
   - [Line support](#line-support)
   - [Surface support](#surface-support)
-  - [Shear field](#shear-field) <span style={{color:"MediumSeaGreen"}}>(since CS 18 build 4124)</span>
+  - [Shear field](#shear-field)
   - [Support type](#support-type)
   - [Release type](#release-type)
   - [Link ](#link)
+  - [Smart link](#smart-link)
 - Loads tab:
   - [Load group](#load-group)
   - [Load case](#load-case)
@@ -51,7 +53,7 @@ Object IDs from the following object types are accepted:
   - [Line load](#line-load)
   - [Surface load](#surface-load)
   - [Load transfer surface](#load-transfer-surface)
-  - [Initial sway](#initial-sway) <span style={{color:"MediumSeaGreen"}}>(since CS 18 build 4124)</span>
+  - [Initial sway](#initial-sway)
 - Mass tab:
   - [Mass group](#mass-group)
   - [Mass case](#mass-case)
@@ -100,6 +102,7 @@ Available object attributes:
 | ------------------------------------ | ---------------------------------------------- | ----------------------------------------------------------- |
 | Name                                 | Name                                           | String                                                      |
 | Section ID                           | sectionid                                      | Section ID or name                                          |
+| Eccentricity reference               | EccType                                        | [Predefined strings](#EccType-options-mem)                  |
 | Eccentricity - y                     | eccentricity_y                                 | Numerical                                                   |
 | Eccentricity - z                     | eccentricity_z                                 | Numerical                                                   |
 | Rotation                             | Rotation                                       | Numerical                                                   |
@@ -113,6 +116,30 @@ Available object attributes:
 | Avearage shell FE size in web        | AverageEdgeLength_Web                          | Numerical                                                   |
 | Avearage shell FE size in flange     | AverageEdgeLength_Flange                       | Numerical                                                   |
 | Type of the shell constraint element | ShellDOFConstraint                             | [Predefined strings](#Type-of-the-shell-constraint-element) |
+| Reinforcement ID                     | ReinforcementID                                | Reinforcement ID or name                                    |
+| Design parameter ID                  | DesignParamID                                  | Design parameter ID or name                                 |
+
+#### Eccentricity type: {#EccType-mem}
+
+<span id="EccType-options-mem" style={{paddingTop: '80px'}}> Available inputs: </span>
+
+<div style={{paddingBottom: '20px'}}> </div>
+
+| **Eccentricity reference name** | **Eccentricity reference** |
+| ------------------------------- | -------------------------- |
+| Reference line (0)              | EccType_C                  |
+| Bottom Left (1)                 | EccType_BL                 |
+| Bottom Middle (2)               | EccType_BM                 |
+| Bottom Right (3)                | EccType_BR                 |
+| Middle Left (4)                 | EccType_ML                 |
+| Middle Middle (5)               | EccType_MM                 |
+| Middle Right (6)                | EccType_MR                 |
+| Top Left (7)                    | EccType_TL                 |
+| Top Middle (8)                  | EccType_TM                 |
+| Top Right (9)                   | EccType_TR                 |
+| Top of Web (10)                 | EccType_TWeb               |
+| Middle of Web (11)              | EccType_MWeb               |
+| Bottom of Web (12)              | EccType_BWeb               |
 
 #### Finite element type:
 
@@ -142,7 +169,7 @@ Only applies if _FE_Type_ is set to Shell.
 
 ### Sample code
 
-**All available attributes + object creation:**
+**All available attributes + object creation with steel section:**
 
 ```
 LOAD_SECTION_LIBRARY Sec_ID1 "HEA 200"
@@ -154,6 +181,7 @@ CREATE Mem_ID1 Structural_Member "HEA 200"
 
 SET Mem_ID1 Name "New name (Descript)"
 SET Mem_ID1 SectionID Sec_ID2                   // or: SET Mem_ID1 SectionID "NAME: WLD-IH (Descript)"
+SET Mem_ID1 EccType EccType_TM
 SET Mem_ID1 Eccentricity_Y 100
 SET Mem_ID1 Eccentricity_Z 100
 SET Mem_ID1 Rotation 45
@@ -167,6 +195,25 @@ SET Mem_ID1 Convergence 13
 SET Mem_ID1 AverageEdgeLength_Web 23
 SET Mem_ID1 AverageEdgeLength_Flange 13
 SET Mem_ID1 ShellDOFConstraint TransAndRot
+```
+
+**Extra attributes for concrete section + object creation:**
+
+```
+LOAD_SECTION_MACRO Sec_ID1 RC-ColRect "RC-ColRect (Descript)" "C25/30 EN 1992-1-1:2010" 255 567
+
+CREATE Mem_ID1 Structural_Member "RC-ColRect (Descript)"
+0 0 0
+0 0 1000
+
+CREATE ReinfColRect_ID1 RectangularColumnReinforcement Sec_ID1 22
+Name "Reinforcement col rect 1"
+
+CREATE DesParam_ID1 Design_Parameters_RCC
+Name "Design param 1"
+
+SET Mem_ID1 ReinforcementID ReinfColRect_ID1
+SET Mem_ID1 DesignParamID DesParam_ID1
 ```
 
 ## Structural Plate
@@ -196,6 +243,37 @@ SET Plate_ID1 Name "New plate name"
 SET Plate_ID1 MaterialID Concrete_Mat_ID1       // or: SET Plate_ID1 MaterialID "NAME: Custom concrete C25"
 SET Plate_ID1 Thickness 234
 SET Plate_ID1 AverageEdgeLength 456
+```
+
+## Frame corner wizard
+
+The frame corner wizard is a special type of object, since there can be only 1 frame corner wizard in a Consteel model database. Because of this reason, this object is identified by its object type name instead of a user defined or program generated string referring to a specific instance of this object type. Therefore the **Object ID** parameter of the **SET** command in case of a frame corner wizard object type always has to be "**FRAMECORNERWIZARD**".
+
+Available object attributes:
+
+| **Object attribute name** | **Object attribute** (type this into Descript) | **Value format**                              |
+| ------------------------- | ---------------------------------------------- | --------------------------------------------- |
+| On                        | On                                             | [Predefined strings](#frame-corner-wizard-on) |
+
+#### On:
+
+<span id="frame-corner-wizard-on" style={{paddingTop: '80px'}}> Valid inputs: </span>
+
+- On / 1
+- Off / 0
+
+### Sample code
+
+**Attribute value given by string:**
+
+```
+SET FRAMECORNERWIZARD On On
+```
+
+**Attribute value given by number:**
+
+```
+SET FRAMECORNERWIZARD On 1
 ```
 
 ## Haunched Member
@@ -799,6 +877,113 @@ SET Link_ID1 InterfacePos 0.567
 SET Link_ID1 Rotation 13.45
 ```
 
+## Smart link
+
+Available object attributes:
+
+| **Object attribute name**           | **Object attribute** (type this into Descript) | **Value format**                                               |
+| ----------------------------------- | ---------------------------------------------- | -------------------------------------------------------------- |
+| Name                                | Name                                           | String                                                         |
+| Main beam eccentricity type         | MainBeamEccType                                | [Predefined strings](#MainBeamEccType-options-sl)              |
+| Main beam eccentricity y            | MainBeamEccY                                   | Numerical                                                      |
+| Main beam eccentricity z            | MainBeamEccZ                                   | Numerical                                                      |
+| Release ID                          | ReleaseID                                      | Release ID or name                                             |
+| Interface position calculation type | InterfacePos_CalcType                          | [Predefined strings](#InterfacePos_CalcType-smartlink-options) |
+| Position of connection              | InterfacePos                                   | Numerical                                                      |
+| Is Subbeam                          | IsSubBeam                                      | [Predefined strings](#IsSubBeam-smartlink-options)             |
+| Subbeam section ID                  | SubBeamSectionID                               | Section name or ID                                             |
+| Subbeam eccentricity type           | SubBeamEccType                                 | [Predefined strings](#SubBeamEccType-smartlink-options)        |
+
+#### Main beam eccentricity type: {#MainBeamEccType-smartlink}
+
+<span id="MainBeamEccType-options-sl" style={{paddingTop: '80px'}}> Available inputs: </span>
+
+<div style={{paddingBottom: '20px'}}> </div>
+
+| **Eccentricity reference name** | **Eccentricity reference** |
+| ------------------------------- | -------------------------- |
+| Reference line (0)              | EccType_C                  |
+| Bottom Left (1)                 | EccType_BL                 |
+| Bottom Middle (2)               | EccType_BM                 |
+| Bottom Right (3)                | EccType_BR                 |
+| Middle Left (4)                 | EccType_ML                 |
+| Middle Middle (5)               | EccType_MM                 |
+| Middle Right (6)                | EccType_MR                 |
+| Top Left (7)                    | EccType_TL                 |
+| Top Middle (8)                  | EccType_TM                 |
+| Top Right (9)                   | EccType_TR                 |
+| Top of Web (10)                 | EccType_TWeb               |
+| Middle of Web (11)              | EccType_MWeb               |
+| Bottom of Web (12)              | EccType_BWeb               |
+
+#### Interface position calculation type: {#InterfacePos_CalcType-smartlink}
+
+<span id="InterfacePos_CalcType-smartlink-options" style={{paddingTop: '80px'}}>Available inputs: </span>
+
+- Automatic
+- Manual
+
+#### Is Subbeam: {#IsSubBeam-smartlink}
+
+<span id="IsSubBeam-smartlink-options" style={{paddingTop: '80px'}}>Available inputs: </span>
+
+- 1 / Yes
+- 0 / No
+
+#### Subbeam eccentricity type: {#SubBeamEccType-smartlink}
+
+<span id="SubBeamEccType-smartlink-options" style={{paddingTop: '80px'}}> Available inputs: </span>
+
+<div style={{paddingBottom: '20px'}}> </div>
+
+| **Eccentricity reference name** | **Eccentricity reference** |
+| ------------------------------- | -------------------------- |
+| Reference line (0)              | EccType_C                  |
+| Bottom Middle (2)               | EccType_BM                 |
+| Middle Middle (5)               | EccType_MM                 |
+| Top Middle (8)                  | EccType_TM                 |
+
+### Sample code
+
+**All available attributes + object creation:**
+
+```
+LOAD_SECTION_LIBRARY Sec_ID1 "IPE 200"
+
+LOAD_SECTION_MACRO Sec_ID2 WLD-IH "WLD-IH (Descript)" "S 235 EN 10025-2" 100 10 200 6 100 10
+
+CREATE Release_Type_ID1 Release "Custom RelType 1" Fix Free 1.234 Fix Fix Fix Fix
+
+CREATE Release_Type_ID2 Release "Custom RelType 2" Fix Free 2.345 Fix Fix Fix Fix
+
+CREATE Mem_ID1 Structural_member "IPE 200"
+0 0 0
+5000 0 0
+
+CREATE SmartLinkID SmartLink Mem_ID1
+2500 0 0
+MainBeamEccType EccType_BL
+MainBeamEccY 111
+MainBeamEccZ 222
+ReleaseID Release_Type_ID1
+InterfacePos_CalcType Manual
+InterfacePos 0.7
+IsSubBeam Yes
+SubBeamSectionID Sec_ID2
+SubBeamEccType EccType_BWeb
+
+SET SmartLinkID Name "New name"
+SET SmartLinkID MainBeamEccType EccType_BR
+SET SmartLinkID MainBeamEccY 123
+SET SmartLinkID MainBeamEccZ 234
+SET SmartLinkID ReleaseID Release_Type_ID2
+SET SmartLinkID InterfacePos_CalcType Automatic
+SET SmartLinkID InterfacePos 0.8
+SET SmartLinkID IsSubBeam No
+SET SmartLinkID SubBeamSectionID Sec_ID1
+SET SmartLinkID SubBeamEccType EccType_BM
+```
+
 ## Load group
 
 Available object attributes:
@@ -1287,8 +1472,6 @@ SET LTS_ID1 LoadEccZ 123
 
 ## Initial sway
 
-<span style={{color:"MediumSeaGreen"}}>(since CS 18 build 4124)</span>
-
 Available object attributes:
 
 | **Object attribute name** | **Object attribute** (type this into Descript) | **Value format**                                     |
@@ -1480,11 +1663,11 @@ SET PMass_ID1 MulFac 10
 
 Available object attributes:
 
-| **Object attribute name**                                                          | **Object attribute** (type this into Descript) | **Value format**                               |
-| ---------------------------------------------------------------------------------- | ---------------------------------------------- | ---------------------------------------------- |
-| Name                                                                               | Name                                           | String                                         |
-| Items                                                                              | Items                                          | Object IDs in array                            |
-| Corner type <span style={{color:"MediumSeaGreen"}}>(since CS 18 build 4124)</span> | CornerType                                     | [Predefined strings](#Corner-type-options-por) |
+| **Object attribute name** | **Object attribute** (type this into Descript) | **Value format**                               |
+| ------------------------- | ---------------------------------------------- | ---------------------------------------------- |
+| Name                      | Name                                           | String                                         |
+| Items                     | Items                                          | Object IDs in array                            |
+| Corner type               | CornerType                                     | [Predefined strings](#Corner-type-options-por) |
 
 #### Corner type:
 

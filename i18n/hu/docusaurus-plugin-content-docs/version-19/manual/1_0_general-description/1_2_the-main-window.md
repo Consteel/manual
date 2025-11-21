@@ -82,7 +82,7 @@ _Új modell_
 
 <!-- wp:image {"align":"right","id":31108,"sizeSlug":"full","linkDestination":"media"} -->
 
-[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/01/modell_attrib.png)](./img/wp-content-uploads-2022-01-modell_attrib.png)
+
 
 <!-- /wp:image -->
 
@@ -91,6 +91,8 @@ _Új modell_
 Modell attribútum
 
 <!-- /wp:paragraph -->
+
+![alt text](img/szabványokHU.png)
 
 <!-- wp:paragraph {"editorskit":{"indent":60,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
@@ -464,9 +466,9 @@ További infót ld. még: [_Modellvizsgálat_](../8_0_structural-analysis/8_2_mo
 
 #### _Teherszétosztás_
 
-![](./img/wp-content-uploads-2024-01-Options-menu-HU-CS17-load-distribution.png)
+![alt text](<img/HU Options load distribution.png>)
 
-Consteel 17-től ez a funkció a Modell beállítások kategóriához tartozik, együtt a Diagnosztikával.
+A funkció a Modell beállítások kategóriához tartozik, együtt a Diagnosztikával.
 
 Az Automatikus teherszétosztás kikapcsolható a modellezés sebességének növelése érdekében.
 
@@ -475,6 +477,10 @@ Az Automatikus teherszétosztás kikapcsolható a modellezés sebességének nö
 Nagy modellek esetén, amelyek több teher átadó felülettel rendelkeznek, ez lassíthatja a modellezési folyamatot. Az automatikus teherszétosztás kikapcsolása a modellezés idejére felgyorsíthatja a folyamatot.
 
 Fontos megjegyezni, hogy amikor ez a funkció ki van kapcsolva, a vonalmenti megoszló teher már nem érvényesek egy új TÁF vagy a felületi teher változásakor. Ennek eredményeként a modellt ebben az állapotban nem lehet analízisnek alávetni. Egy diagnosztika figyelmeztetés jelenik meg. A terhek frissítéséhez, jelölje be a jelölőnégyzetet, vagy kattintson a Diagnosztika figyelmeztetés alatt megjelenő Frissítés gombra.
+
+A párbeszéd ablak második része a **Közelségi korlátokra** vonatkozik. Korlátozások a Teherátadó Felületek közelében lévő rúdelemek figyelembevételéhez, kijelölt elemekre történő teherszétosztás esetén határozhatók meg.
+
+Két paraméter adható meg: az egyik az rúdelem és a Teherátadó Felület közötti megengedett legnagyobb távolság (mm), a másik az rúdelem és annak a Teherátadó Felületre vetített képe által bezárt szög maximuma (°).
 
 #### _IDEA StatiCa átmenet_
 
@@ -486,7 +492,7 @@ A Consteel és az IDEA Statica programok közötti kapcsolat létrehozására it
 
 #### Szabványok menü
 
-![alt text](img/szabványok.png)
+![alt text](<img/szabványok 2HU.png>)
 
 A menü segítségével egyszerűen és gyorsan áttekinthetjük a program által kezelt szabványok paramétereit, illetve létrehozhatunk saját tervezési paramétereket. A használt tervezési szabvány a _[Fájl menüben](#fájl-menü)_ állítható be, a _Modell attribútumok_ segítségével.
 
@@ -557,7 +563,7 @@ A képernyőn megjelenik az ikon neve, ha az egér mutatója az ikon fölött á
 
 ![alt text](img/geometriaful.png)
 
-A szerkesztéshez szükséges rajzolási, módosítási, méretezési és mérési funkciókat tartalmazza. A funkciók részletes bemutatását ld. a [_Geometria rajzolása_](../../category/drawing-geometry) c. fejezetben!
+A szerkesztéshez szükséges rajzolási, módosítási, méretezési és mérési funkciókat tartalmazza. A funkciók részletes bemutatását ld. a [_Geometria rajzolása_](../4_0_drawing-geometry/4_2_drawing.md) c. fejezetben!
 
 #### Szerkezeti elemek fül
 

@@ -31,6 +31,7 @@ Object IDs from the following object types are accepted:
   - [Section](#section)
   - [Structural member](#structural-member)
   - [Structural plate](#structural-plate)
+  - [Frame corner wizard](#frame-corner-wizard)
   - [Haunched member](#haunched-member)
   - [Tapered member](#tapered-member)
   - [Steel material](#steel-material)
@@ -40,10 +41,11 @@ Object IDs from the following object types are accepted:
   - [Point support](#point-support)
   - [Line support](#line-support)
   - [Surface support](#surface-support)
-  - [Shear field](#shear-field) <span style={{color:"MediumSeaGreen"}}>(since CS 18 build 4124)</span>
+  - [Shear field](#shear-field)
   - [Support type](#support-type)
   - [Release type](#release-type)
   - [Link ](#link)
+  - [Smart link](#smart-link)
 - Loads tab:
   - [Load group](#load-group)
   - [Load case](#load-case)
@@ -52,7 +54,7 @@ Object IDs from the following object types are accepted:
   - [Line load](#line-load)
   - [Surface load](#surface-load)
   - [Load transfer surface](#Load-transfer-surface)
-  - [Initial sway](#initial-sway) <span style={{color:"MediumSeaGreen"}}>(since CS 18 build 4124)</span>
+  - [Initial sway](#initial-sway)
 - Mass tab:
   - [Mass group](#mass-group)
   - [Mass case](#mass-case)
@@ -240,6 +242,7 @@ Available object attributes:
 | Length                            | Length                                         |
 | Release start point               | ReleaseID_A                                    |
 | Release end point                 | ReleaseID_B                                    |
+| Eccentricity reference            | EccType                                        |
 | Eccentricity - y                  | Eccentricity_y                                 |
 | Eccentricity - z                  | Eccentricity_z                                 |
 | Axial rotation                    | Rotation                                       |
@@ -271,6 +274,7 @@ GET Mem_ID1 SectionID SectionID
 GET Mem_ID1 Length Length
 GET Mem_ID1 Release_A Release_A
 GET Mem_ID1 Release_B Release_B
+GET Mem_ID1 EccType EccType
 GET Mem_ID1 Eccentricity_y Eccentricity_y
 GET Mem_ID1 Eccentricity_z Eccentricity_z
 GET Mem_ID1 Rotation Rotation
@@ -313,6 +317,32 @@ GET SPID1 Object_Type Object_Type
 GET SPID1 MaterialID MaterialID
 GET SPID1 Thickness Thickness
 GET SPID1 AverageEdgeLength AverageEdgeLength
+```
+
+## Frame corner wizard
+
+The frame corner wizard is a special type of object, since there can be only 1 frame corner wizard in a Consteel model database. Because of this reason, this object is identified by its object type name instead of a user defined or program generated string referring to a specific instance of this object type. Therefore the **Object ID** parameter of the **GET** command in case of a frame corner wizard object type always has to be "**FRAMECORNERWIZARD**".
+
+Available object attributes:
+
+| **Object attribute name** | **Object attribute** (type this into Descript) |
+| ------------------------- | ---------------------------------------------- |
+| On                        | On                                             |
+
+### Sample code
+
+**Command only:**
+
+```
+GET FRAMECORNERWIZARD On Is_Frame_Corner_On
+```
+
+**Modify by SET command + query by GET command:**
+
+```
+SET FRAMECORNERWIZARD On On
+
+GET FRAMECORNERWIZARD On Is_Frame_Corner_On
 ```
 
 ## Haunched member
@@ -369,15 +399,15 @@ GET Hau_ID1 StartX StartX
 
 Available object attributes:
 
-| **Object attribute name**                                                               | **Object attribute** (type this into Descript) |
-| --------------------------------------------------------------------------------------- | ---------------------------------------------- |
-| Name                                                                                    | Name                                           |
-| Object type                                                                             | Object_Type                                    |
-| Member ID                                                                               | OnMemberID                                     |
-| Start height                                                                            | Hstart                                         |
-| End height                                                                              | Hend                                           |
-| Beam eccentricity                                                                       | Format                                         |
-| Mod eccentricity <span style={{color:"MediumSeaGreen"}}>(since CS 18 build 4124)</span> | ModEccentricity                                |
+| **Object attribute name** | **Object attribute** (type this into Descript) |
+| ------------------------- | ---------------------------------------------- |
+| Name                      | Name                                           |
+| Object type               | Object_Type                                    |
+| Member ID                 | OnMemberID                                     |
+| Start height              | Hstart                                         |
+| End height                | Hend                                           |
+| Beam eccentricity         | Format                                         |
+| Mod eccentricity          | ModEccentricity                                |
 
 ### Sample code
 
@@ -843,6 +873,65 @@ GET Link_ID1 InterfacePos InterfacePos
 GET Link_ID1 Rotation Rotation
 ```
 
+## Smart link
+
+Available object attributes:
+
+| **Object attribute name**           | **Object attribute** (type this into Descript) |
+| ----------------------------------- | ---------------------------------------------- |
+| Name                                | Name                                           |
+| Main beam eccentricity type         | MainBeamEccType                                |
+| Main beam eccentricity y            | MainBeamEccY                                   |
+| Main beam eccentricity z            | MainBeamEccZ                                   |
+| Release ID                          | ReleaseID                                      |
+| Interface position calculation type | InterfacePos_CalcType                          |
+| Position of connection              | InterfacePos                                   |
+| Is Subbeam                          | IsSubBeam                                      |
+| Subbeam section ID                  | SubBeamSectionID                               |
+| Subbeam eccentricity type           | SubBeamEccType                                 |
+
+### Sample code
+
+**All available attributes + object creation:**
+
+```
+LOAD_SECTION_LIBRARY Sec_ID1 "IPE 200"
+
+LOAD_SECTION_MACRO Sec_ID2 WLD-IH "WLD-IH (Descript)" "S 235 EN 10025-2" 100 10 200 6 100 10
+
+CREATE Release_Type_ID1 Release "Custom RelType 1" Fix Free 1.234 Fix Fix Fix Fix
+
+CREATE Mem_ID1 Structural_member "IPE 200"
+0 0 0
+5000 0 0
+
+CREATE SmartLinkID SmartLink Mem_ID1
+2500 0 0
+MainBeamEccType EccType_BL
+MainBeamEccY 111
+MainBeamEccZ 222
+ReleaseID Release_Type_ID1
+InterfacePos_CalcType Manual
+InterfacePos 0.7
+IsSubBeam Yes
+SubBeamSectionID Sec_ID2
+SubBeamEccType EccType_BWeb
+
+SET SmartLinkID Name "New name"
+
+GET SmartLinkID Name Name
+GET SmartLinkID Object_Type Object_Type
+GET SmartLinkID MainBeamEccType MainBeamEccType
+GET SmartLinkID MainBeamEccY MainBeamEccY
+GET SmartLinkID MainBeamEccZ MainBeamEccZ
+GET SmartLinkID ReleaseID ReleaseID
+GET SmartLinkID InterfacePos_CalcType InterfacePos_CalcType
+GET SmartLinkID InterfacePos InterfacePos
+GET SmartLinkID IsSubBeam IsSubBeam
+GET SmartLinkID SubBeamSectionID SubBeamSectionID
+GET SmartLinkID SubBeamEccType SubBeamEccType
+```
+
 ## Load group
 
 Available object attributes:
@@ -1217,8 +1306,6 @@ GET LTS_ID1 LoadEccZ LoadEccZ
 
 ## Initial sway
 
-<span style={{color:"MediumSeaGreen"}}>(since CS 18 build 4124)</span>
-
 Available object attributes:
 
 | **Object attribute name** | **Object attribute** (type this into Descript) |
@@ -1380,13 +1467,13 @@ GET PMass_ID1 MulFac MulFac
 
 Available object attributes:
 
-| **Object attribute name**                                                          | **Object attribute** (type this into Descript) |
-| ---------------------------------------------------------------------------------- | ---------------------------------------------- |
-| Name                                                                               | Name                                           |
-| Object type                                                                        | Object_Type                                    |
-| Portion type (Portion, storey, 2DPortion)                                          | Type                                           |
-| Items                                                                              | Items                                          |
-| Corner type <span style={{color:"MediumSeaGreen"}}>(since CS 18 build 4124)</span> | CornerType                                     |
+| **Object attribute name**                 | **Object attribute** (type this into Descript) |
+| ----------------------------------------- | ---------------------------------------------- |
+| Name                                      | Name                                           |
+| Object type                               | Object_Type                                    |
+| Portion type (Portion, storey, 2DPortion) | Type                                           |
+| Items                                     | Items                                          |
+| Corner type                               | CornerType                                     |
 
 ### Sample code
 

@@ -132,7 +132,7 @@ Local eccentricity can also be defined for the supports:
 
 <!-- wp:image {"align":"center","id":13409,"width":362,"height":276,"sizeSlug":"full","linkDestination":"media"} -->
 
-![](img\wp-content-uploads-2021-04-dial_supp_point_extr_select.png)
+![alt text](<img/EN Point support.png>)
 
 <!-- /wp:image -->
 
@@ -142,9 +142,17 @@ The eccentricity of the support can be defined **relative to the reference line*
 
 <!-- /wp:paragraph -->
 
+**Support eccentricity types**
+
+- **Reference Line (Point 0)**: Represents the line formed by the centroids of the section.
+
+- **Points 1–9**: Standard points of the section geometry, usable for all types of sections. These correspond to the nine points of the contour box around the section.
+
+- **Points 10–12**: Only relevant for welded I-sections, indicating positions along the web: top, middle, and bottom.
+
 <!-- wp:paragraph -->
 
-Support eccentricity **relative to the section geometry** can be specified in two ways. The first way is: select one of the typical points of the section geometry (1-9) from the list, the second way is to select one of the typical points (1-9) of the section's relative position of the support by clicking the position on the graphical imitation of a section (click the ![](./img/wp-content-uploads-2021-04-3dots-button.png) button left to the list):
+Support eccentricity **relative to the section geometry** can be specified in two ways. The first way is: select one of the typical points of the section geometry (1-12) from the list, the second way is to select one of the typical points (1-12) of the section's relative position of the support by clicking the position on the graphical imitation of a section (click the ![](./img/wp-content-uploads-2021-04-3dots-button.png) button left to the list):
 
 <!-- /wp:paragraph -->
 
@@ -164,7 +172,7 @@ Support eccentricity **relative to the section geometry** can be specified in tw
 
 <!-- wp:image {"align":"center","id":13394,"width":255,"height":330,"sizeSlug":"full","linkDestination":"media"} -->
 
-![](img\wp-content-uploads-2021-04-dial_supp_point_extr_select_pic.png)
+![alt text](<img/EN Select section point.png>)
 
 <!-- /wp:image -->
 
@@ -180,7 +188,7 @@ Giving value for the y or z parameters for local eccentricity these values will 
 
 <!-- wp:image {"align":"center","id":8954,"width":631,"height":557,"sizeSlug":"full","linkDestination":"media"} -->
 
-![](img\wp-content-uploads-2021-04-6-9-Point-supportEccentricity-Type-Selection.jpg)
+![alt text](<img/EN Point support top right.png>)
 
 <!-- /wp:image -->
 
@@ -210,7 +218,7 @@ Placing support with this eccentricity type, for example, changing the “y” e
 
 <!-- wp:paragraph -->
 
-By selecting the 1 -9 eccentricity type:
+By selecting the 1 -12 eccentricity type:
 
 <!-- /wp:paragraph -->
 

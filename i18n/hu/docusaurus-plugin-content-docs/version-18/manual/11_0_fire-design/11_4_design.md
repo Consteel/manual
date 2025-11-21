@@ -269,19 +269,23 @@ A kritikus hőmérséklet számítását a tervezés beállításai ablakban leh
 
 <!-- wp:paragraph {"align":"justify"} -->
 
-A számítás eredményeit a tervezési paraméterek legördülő menüben lehet lekérdezni. Az eredmények színezett grafikus ábrán jelennek meg. Egy adott szelvényen jobb egérkattintásra innen is megnyitható a szelvény modul, ahol a kritikus hőmérséklet számításának részletei megtalálhatók. Az összegzés első sorában szerepel, hogy a szelvényt kell-e tűzvédő festéssel védeni vagy sem, a kritikus hőmérséklet mezőben pedig megtalálható a vonatkozó szabványrészlet, az alkalmazott tűzgörbe, a szelvény védelem nélküli tűzállósági ideje és tűzhatásra elért hőmérséklete, valamint a megkívánt tűzállósági idő
+A számítás eredményeit a *Tervezési paraméterek** legördülő menüben lehet lekérdezni. Az eredmények színezett grafikus ábrán jelennek meg.
+
+![alt text](<img/Tervezési eredmények.png>)
+
+Amennyiben a Szükséges tűzgátló festékréteg vastagság meghatározása be volt kapcsolva, a terméknév és a szükséges bevonat vastagság megjelenik az eredménytáblázatban, 
+
+Egy adott szelvényen jobb egérkattintásra innen is megnyitható a szelvény modul, ahol a kritikus hőmérséklet számításának részletei megtalálhatók. Az összegzés első sorában szerepel, hogy a szelvényt kell-e tűzvédő festéssel védeni vagy sem, a kritikus hőmérséklet mezőben pedig megtalálható a vonatkozó szabványrészlet, az alkalmazott tűzgörbe, a szelvény védelem nélküli tűzállósági ideje és tűzhatásra elért hőmérséklete, valamint a megkívánt tűzállósági idő
 
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":9408,"width":822,"height":365,"sizeSlug":"large","linkDestination":"media"} -->
 
-![](img\wp-content-uploads-2021-04-12-4-critical-temperature2-1024x455.png)
-
 <!-- /wp:image -->
 
 <!-- wp:image {"align":"center","id":37698,"width":613,"height":504,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
 
-![](img\wp-content-uploads-2022-06-scr_tuz_szelveny_kritikus_homerseklet.png)
+![alt text](<img/Keresztmetszet modul.png>)
 
 <!-- /wp:image -->
 

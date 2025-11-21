@@ -20,9 +20,9 @@ The dialogue allows the following modelling options for creating line members:
 
 Member parameters can be defined in the middle part of the dialogs:
 
-![](img\wp-content-uploads-2022-12-Beam.jpg)
+![alt text](<img/EN Beam.png>)
 
-![](img\wp-content-uploads-2022-12-Column.jpg)
+![alt text](<img/EN Column.png>)
 
 - _Section:_ the appropriate cross-section can be selected from the drop-down box. If no section has been loaded into the model, the **_Section_** dialogue should be opened by pressing the three dots button (![](./img/wp-content-uploads-2021-04-3dots-button.png)) next to the drop-down box. For more information about **Section administration** and for details on the section models and standard tests used in Consteel, see **_[Section module](../10_0_section-module/10_1_section-modelling.md)_**.
 
@@ -34,11 +34,11 @@ Member parameters can be defined in the middle part of the dialogs:
 
 - _Type of finite element_:
 
-**For steel members:**
+ **For steel members:**
 
-The available element types depend on the chosen section.
+ The available element types depend on the chosen section.
 
-- For welded single or double symmetrical cross-sections (macro section) there are four choices possible:
+ - For welded single or double symmetrical cross-sections (macro section) there are four choices possible:
 
   - **7 DOF beam element**: element with nodes of 7 degrees of freedom, including the warping of the thin-walled cross-section. It is an important effect in the case of structures with standard, open steel profiles.
 
@@ -50,24 +50,24 @@ The available element types depend on the chosen section.
 
   * **Tension bar (X Brace)** used for individual members of bracing systems made of elements working in tension only which are arranged in a way, that from a pair of members always just one is working in tension and the another is assumed to be efficient due to buckling. This option will linearize the behaviour of such members for a linear buckling eigenvalue calculation by considering the member working in both tension and compression, but with half cross-section properties.
 
-* For any other steel cross-sections, three of the above mentioned possible choices are available:
+ * For any other steel cross-sections, three of the above mentioned possible choices are available:
 
-  - 7 DOF beam element
+   - 7 DOF beam element
 
-  - Tension bar
+   - Tension bar
 
-  - Tension bar (X Brace)
+   - Tension bar (X Brace)
 
-**For reinforced concrete or composite members:**
+ **For reinforced concrete or composite members:**
 
-There is only one choice available: the _**6 DOF beam element**_ type. This is the commonly used finite element with nodes of 6 degrees of freedom.
+ There is only one choice available: the _**6 DOF beam element**_ type. This is the commonly used finite element with nodes of 6 degrees of freedom.
 
 - _Element group_: the members can be sorted out into element groups for various purposes (selection, dominant results, sensitivity analysis, etc.).  
-  if new element group is needed the **_Groups of structural members_** dialogue can be called by pressing the ![](./img/wp-content-uploads-2021-04-3dots-button.png) button next to the combo.
+   if new element group is needed the **_Groups of structural members_** dialogue can be called by pressing the ![](./img/wp-content-uploads-2021-04-3dots-button.png) button next to the combo.
 
 - _Number of finite elements_: the required number of finite elements used on the member in the analysis can be set. I The default _automatic_ option gives a sufficient result in the most cases.
 
-- _Local eccentricity_: member eccentricity can be defined in the local coordinate system (“y, z”) of the member, and the section can be rotated about the local coordinate “x”.
+- The _local eccentricity_ of a member can be specified relative to the section geometry or its local “y–z” coordinate system, the section can also be rotated about the local x-axis. More details are provided in the [point-support](../5_0_structural-modeling/5_9_supports.md#point-support) chapter.
 
 - At the bottom of this dialog there is an instruction and command area for guiding the user.
 
@@ -666,57 +666,17 @@ Tapered members are often used in the economic design of steel-framed structures
 
 With the **_Tapered member_** function (![](./img/wp-content-uploads-2021-04-cmd_tapered.png)) the section height of these sections can be set to linearly varying along the member length.
 
-![](img\wp-content-uploads-2021-04-6-2-Tapered-member.png)
+![alt text](<img/EN Tapered member old.png>)
 
-First, the user has to specify the parameters and beam eccentricity options for the member to be tapered on the **_Tapered member_** dialogue.
+First, the user has to specify the parameters for the member to be tapered on the **_Tapered member_** dialogue.
 
 Specification of the start (H1) and end section height (H2) is not totally independent from the original section height of the cross-section. It is adviseable to define the original section with approximately the smaller height of the tapered member. If either H1 or H2 is smaller than 0.5 times the original height, the software will automatically overwrite the height to be the half of the orginal section height.
 
 The start value for section height is applied at the start point of the member, the end value is applied at the other end. To change the H1 and H2 values click the ![](./img/wp-content-uploads-2021-04-tapered_cmd_change.png) icon. The values will be changed, and selecting again the member for tapering, the sizes of the tapering will change adequately.
 
-The rules for the beam eccentricity of the tapered member relate to the axis of the originally positioned member to be tapered.
-
-![](img\wp-content-uploads-2021-04-6-2-Set-beam-eccentricity.png)
-
-1. _Place the centroid of the smaller section to the axis of the beam:_ the centre of smaller H value of the tapered member will be positioned to the axis of the original beam.
-
-2. _Place the centroid of the bigger section to the axis of the beam:_ the centre of bigger H value of the tapered member will be positioned to the axis of the original beam.
-
-3. _Place the centroid of the original section to the axis of the beam:_ the edge of the tapered member is coincident with the original member end and the tapering will start from this position.
+The centroid of the original section will be aligned with the beam axis. The edge of the tapered member is coincident with the original member end and the tapering will start from this position.
 
 The relative position of the tapering can be –z (the left side of the tapered member will be parallel to the axis of the originally placed member), symmetric or +z (the right side of the tapered member will be parallel to the axis of the originally placed member). These definitions regulate the directions of the offset of the given height values along the local “z” axis of the tapered beam.
-
-Below shown the effect of the different relative positioning by the chosen eccentricity:
-
-1. _Place the centroid of the smaller section to the axis of the beam:_ the centre of smaller H value of the tapered member will be positioned to the axis of the original beam.
-
-**-z**
-
-**symmetric**
-
-**+z**
-
-![](img\wp-content-uploads-2021-04-6-2-1-z-1.png)
-
-![](./img/wp-content-uploads-2021-04-6-2-1symmetric.png)
-
-![](img\wp-content-uploads-2021-04-6-2-1z.png)
-
-2\. _Place the centroid of the bigger section to the axis of the beam:_ the center of the bigger H value of the tapered member will be positioned to the axis of the original beam.
-
-**-z**
-
-**symmetric**
-
-**+z**
-
-![](img\wp-content-uploads-2021-04-6-2-2-z.png)
-
-![](img\wp-content-uploads-2021-04-6-2-2symmetric.png)
-
-![](img\wp-content-uploads-2021-04-6-2-2z.png)
-
-3\. _Place the centroid of the original section to the axis of the beam:_ The edge of the tapered member is coincident with the original member end the tapering starts from this position.
 
 **-z**
 
@@ -730,10 +690,73 @@ Below shown the effect of the different relative positioning by the chosen eccen
 
 ![](img\wp-content-uploads-2021-04-6-2-3z.png)
 
-Activating the ![](./img/wp-content-uploads-2021-04-cmd_draw_get.png) icon, by clicking an earlier created tapered member in the model, the values, the eccentricity, and the relative positioning will be read out of that clicked, and appear in the dialog box. By clicking another member for taper, these parameters will be applied.
+Activating the ![](./img/wp-content-uploads-2021-04-cmd_draw_get.png) icon, by clicking an earlier created tapered member in the model, the values and the relative positioning will be read out of that clicked, and appear in the dialog box. By clicking another member for taper, these parameters will be applied.
 
 In the case of selecting a tapered member, not only the member but the tapering will be selected automatically and can be modified in the parameter table as a separate object.
 
 :::info
-**Important to know** that for the tapered members, new sections are created during the automatic finite element generation with appropriate section heights. These new sections are placed eccentrically on the reference line of the member (except the symmetrical tapering). This eccentricity causes additional effects in the analysis results due to the eccentric position of the sectional forces (for instance at the beam-to-column connection point of a frame with tapered beams and/or columns the equilibrium of the in-plane bending moments exists only if the additional moments from the eccentric axial forces are taken into account).
+New sections are created during the automatic finite element generation with appropriate section heights. These new sections are placed eccentrically on the reference line of the member (except the symmetrical tapering). This eccentricity causes additional effects in the analysis results due to the eccentric position of the sectional forces (for instance at the beam-to-column connection point of a frame with tapered beams and/or columns the equilibrium of the in-plane bending moments exists only if the additional moments from the eccentric axial forces are taken into account).
 :::
+
+## Web tapered welded I/H member
+
+![alt text](<img/New tapered.png>)
+
+In welded built-up members commonly used in metal buildings, the flange and web plate thicknesses often vary along the member length to optimize material usage according to internal force demands.
+
+The Web Tapered Welded I/H Member function allows users to define editable lists of flange and web plates with varying thicknesses along the member. Consteel automatically generates the corresponding finite element model based on these lists, allowing efficient and flexible modeling without dividing the element.
+
+For the function to operate correctly, **a welded macro I- or H-section member must be placed in the model**. Only the **material** parameter of the member remains as originally defined, all other parameters are assigned according to the settings of this function.
+
+:::info
+
+The function is available exclusively for welded I or H members and can be used only when the member’s local eccentricity matches the selected tapered shape.
+
+- **Top**: Bottom Left, Bottom Middle, Bottom Right, Bottom of the Web, Reference line
+
+- **Symmetric**: Middle Left, Middle Middle, Middle Right, Middle of the Web, Reference line
+
+- **Bottom**: Top Left, Top Middle, Top Right, Top of the Web, Reference line
+
+:::
+
+
+![alt text](<img/EN Web tapered welded I H member.png>)
+
+The function window is divided into two main sections: the first for member parameters and the second for plate parameters. All parameters must be set before placing the web tapered member.
+
+1. **Member parametes**
+
+ In this section, all parameters related to the member must be set. 
+
+ - **Shape**: Can be Top, Symmetric, or Bottom, depending on the member’s local eccentricity.
+
+ - **Start and end of the web height**: Can be exchanged using the two-arrow button.
+
+ - **Top and bottom flange width**
+
+2. **Plate parameters**: 
+
+ The **reference point** can be selected either at the start or at the end of the member.
+
+ Users can define the **plate segments** using the ![alt text](img/plus.png) button by specifying the thickness and length of each segment separately for the top flange, web, and bottom flange.
+
+ After defining the plate segments, their order can be changed by dragging and dropping them.
+
+ In addition, the remaining part of each segment can be edited at the end of the line by clicking the edit icon ![alt text](img/edit.png).
+
+ ![alt text](<img/EN Plate parameters.png>)
+
+After setting the parameters, the web-tapered welded I or H member can be placed on an existing welded member in the model using the Place button.
+
+![alt text](<img/EN place tapered I H.png>)
+
+If the selected tapered type does not match the welded member’s local eccentricity, the following error message will appear:
+
+![alt text](<img/EN Place web tapered welded I H.png>)
+
+If the placement is successful, users can select the member and modify its plate and member parameters in the Object Properties panel by clicking on the blue-colored dimensions.
+
+![alt text](<img/EN member properties.png>)
+
+![alt text](<img/EN modify bootom flange.png>)

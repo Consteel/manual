@@ -99,7 +99,7 @@ The model description and the EN National Annex, or design standard can be chang
 
 <!-- wp:image {"align":"center","id":6962,"sizeSlug":"full","linkDestination":"none","className":"is-resized"} -->
 
-![](./img/wp-content-uploads-2021-04-2-2-model-attri.png)
+![alt text](img/szabványokEN.png)
 
 <!-- /wp:image -->
 
@@ -490,15 +490,8 @@ See more: **_[Model check](../8_0_structural-analysis/8_2_model-check-diagnostic
 
 **_Load distribution_**
 
-<!-- /wp:paragraph -->
+![alt text](<img/EN Options load distribution.png>)
 
-<!-- wp:image {"id":71096,"width":"452px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
-
-![alt text](img/cs18loaddistribution.png)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
 
 This function belongs to the **Model settings** category, together with the **Diagnostics.**
 
@@ -514,9 +507,10 @@ The **Automatic load distribution** can be switched off to increase the speed of
 
 ![](./img/wp-content-uploads-2021-04-Diagnostic-messages.png)
 
-<!-- /wp:image -->
 
-<!-- wp:paragraph -->
+The second part of the dialog refers to **Proximity Limitations**. Limitations to consider the bar members in proximity to the Load Transfer Surfaces in case of load distribution to selected members can be defined.
+
+Two parameters can be specified: Maximum allowable distance between the bar member and the Load Transfer Surface [mm], and Maximum allowable angle between the bar member and its projection on the Load Transfer Surface [°].
 
 #### _**IDEA StatiCa Interface**_
 
@@ -542,7 +536,7 @@ To establish the link between Consteel and IDEA Statica steel connection design 
 
 <!-- wp:image {"align":"center","id":7050,"width":511,"height":339,"sizeSlug":"full","linkDestination":"media"} -->
 
-![](img\wp-content-uploads-2021-04-2-2-Options-standards.png)
+![alt text](<img/szabványok 2EN.png>)
 
 <!-- /wp:image -->
 
@@ -687,7 +681,7 @@ By approaching any of the icons with the cursor, the short name of the function 
 <!-- wp:paragraph -->
 
 It contains all the important CAD drawing and modification functions as well as dimensioning and measuring tools.  
-See the **_[Drawing Geometry](../../category/drawing-geometry)_** chapter for a detailed description of these functions.
+See the **_[Drawing Geometry](../4_0_drawing-geometry/4_2_drawing.md)_** chapter for a detailed description of these functions.
 
 <!-- /wp:paragraph -->
 

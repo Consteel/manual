@@ -3,148 +3,71 @@ sidebar_position: 1
 ---
 # Installing and running the software
 
-A valid subscription plan—Trial, Educational, or part of a paid subscription—is required to use the software. A Consteel account is also needed to install Consteel, access the installer files, and use the online services included in your subscription plan. You can create your Consteel account on our website. 
+To use the software, a valid subscription is required — this can be a Trial, an Educational, or part of a paid subscription. A Consteel account is also needed to install Consteel, access the installer files, and use the online services included in your subscription. You can register a Consteel account on our website.
 
 :::info
-[Students](https://consteelsoftware.com/student-and-education/), [teachers](https://consteelsoftware.com/student-and-education/), and trial users must request a subscription online. Please read the steps [here](https://consteelsoftware.com/offers-licensing/licensing-faq/). 
+[Students](https://consteelsoftware.com/student-and-education/), [teachers](https://consteelsoftware.com/student-and-education/), and trial users must request a subscription online. Please read the steps [here](https://consteelsoftware.com/student-and-education/#how). 
 :::
-
-<!-- wp:Consteel/content-block -->
-
-<!-- /wp:Consteel/content-block -->
-
-<!-- wp:paragraph -->
-
-Please ensure that the following software and hardware requirements are met in order to run the Consteel program. Otherwise, it may not run at the expected speed or may not run at all.
-
-## **Requirements**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-**Minimum hardware requirements:**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:columns {"align":"wide"} -->
-
-<!-- wp:column {"verticalAlignment":"top","width":"20%"} -->
-
-- Processor
-- Memory
-- HDD
-- Video-card
-- Operating system
-
-<!-- /wp:column -->
-
-<!-- wp:column {"width":"66.66%"} -->
-
-<!-- wp:paragraph -->
-
-Intel Core i5 or equivalent  
-4 GB  
-300 MB  
-512 MB non-integrated  
-64-bit MS Windows 10
-
-<!-- /wp:paragraph -->
-
-<!-- /wp:column -->
-
-<!-- /wp:columns -->
-
-<!-- wp:paragraph -->
-
-**Recommended hardware:**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:columns -->
-
-<!-- wp:column {"width":"20%"} -->
-
-<!-- wp:list -->
-
-
-- Processor
-- Memory
-- Video-card
-- Operating system
-
-<!-- /wp:column -->
-
-<!-- wp:column {"width":"66.66%"} -->
-
-<!-- wp:paragraph -->
-
-Intel Core i7 or equivalent  
-32 GB  
-2 GB non-integrated  
-64-bit Windows 10
-
-<!-- /wp:paragraph -->
-
-<!-- /wp:column -->
-
-<!-- /wp:columns -->
-
-<!-- wp:paragraph -->
-
-Installation needs administrative or power user rights. Without that, the hard lock driver and those .**dll** files, which are indispensable for the system is cannot be installed.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-## **Downloading the install package**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-The ConSteel install package can be downloaded from the [Downloads/Install packages](https://consteelsoftware.com/downloads/) section of the ConSteel website  (https://consteelsoftware.com/downloads/) for registered users only.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
 
 ## **Create an account**
 
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":27672,"sizeSlug":"large","linkDestination":"none","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
 ![](./img/wp-content-uploads-2021-04-Main-menubar-1-1024x38.png)
 
-<!-- /wp:image -->
 
-<!-- wp:columns {"align":"wide"} -->
+To create a new user account, click the **LOG IN** button in the upper right corner of the Consteel website, then click **Register** at the bottom of the pop-up window. Then enter your email address, your name, and a chosen password in the **_Create Account_** window that appears. 
 
-<!-- wp:column {"verticalAlignment":"top","width":"65%"} -->
+It is important to enter a real email address because you will receive an email to confirm it as the next step. At the bottom of the window, it is possible to subscribe to Consteel's professional newsletter and you must accept the terms of use and privacy policy. 
 
-<!-- wp:paragraph -->
+You can then click on the **_Register_** button to proceed, and another window will inform you that the registration confirmation e-mail has been sent to the specified e-mail address and the registration must be completed using the link included in the email. 
 
-To create a new user account, click the **LOG IN** button in the upper right corner of the Consteel website, then click **Register** at the bottom of the pop-up window. Then enter your email address, your name, and a chosen password in the **_Create Account_** window that appears. It is important to enter a real email address because you will receive an email to confirm it as the next step. At the bottom of the window, it is possible to subscribe to Consteel's professional newsletter and you must accept the terms of use and privacy policy. You can then click on the **_Register_** button to proceed, and another window will inform you that the registration confirmation e-mail has been sent to the specified e-mail address and the registration must be completed using the link included in the email. If you don't receive the email in a long time, you may need to check your spam and promotional folders in your email system. If the email is not found there either, you can request to send the confirmation email again if you try to login with your email address and password, then clicking on the **_Send confirmation email again_** text. After confirming the registration, you can log in to your user account.
+If you don't receive the email in a long time, you may need to check your spam and promotional folders in your email system. If the email is not found there either, you can request to send the confirmation email again if you try to login with your email address and password, then clicking on the **_Send confirmation email again_** text. After confirming the registration, you can log in to your user account.
 
-<!-- /wp:paragraph -->
-
-<!-- /wp:column -->
-
-<!-- wp:column {"verticalAlignment":"bottom","width":"30%"} -->
-
-<!-- wp:image {"align":"left","id":6803,"sizeSlug":"full","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
 ![](img\wp-content-uploads-2021-04-Log-in.jpg)
 
-<!-- /wp:image -->
+## **Downloading the install package**
 
-<!-- /wp:column -->
+The ConSteel install package can be downloaded from the [Downloads/Install packages](https://consteelsoftware.com/downloads/) section of the ConSteel website  (https://consteelsoftware.com/downloads/) for registered users only.
 
-<!-- /wp:columns -->
+![alt text](<img/downloads install packages cs18.png>)
 
-<!-- wp:paragraph -->
+## **Requirements**
+
+**Minimum hardware requirements:**
+
+- **Processor**
+Intel Core i5 (gen 10 or newer) or AMD Ryzen 5 (at least 4 cores, 2.5–3.0 GHz)
+
+- **Memory**
+16 GB
+
+- **HDD space**
+512 MB
+
+- **Graphic card**
+2 GB non-integrated
+
+- **Operating system**
+Windows 11 64-bit
+
+**Recommended hardware:**
+
+- **Processor**
+Intel Core i7 / i9 (gen 10 or newer) or AMD Ryzen 7
+
+- **Memory**
+32 GB
+
+- **HDD space**
+512 MB
+
+- **Graphic card**
+4 GB non-integrated
+
+- **Operating system**
+Windows 11 64-bit
+
 
 ## **Installing Consteel**
 
@@ -152,206 +75,107 @@ To create a new user account, click the **LOG IN** button in the upper right cor
 
 <!-- wp:paragraph -->
 
-To install Consteel, start the downloaded installation file and follow the instructions. As a first step, the language of the setup must be set. *Consteel* will use this language for the first time you start it, but you may switch to another language later. The installing program will copy the elements of the software into the directory you have specified (default directory: C:\\Program Files\\Consteel xx - where xx=version number), then it will position the Menu of the program onto the selected place of the „START”-menu. Finally, the install shield will place the desktop shortcut onto the desktop. The last step of the setup is the hard lock driver installation. This has no progress signal, so you have to wait until it finishes.
+To install Consteel, start the downloaded installation file and follow the on-screen instructions. The program can be installed for your user account only (recommended) or for all users (requires administrative privileges). In the next step, you must accept the license agreement. The installer will then copy the software components into the specified directory (default: C:\Users\<Username>\AppData\Programs\Consteel xx, where xx is the version number). By default, all components are selected.
 
-<!-- /wp:paragraph -->
+Clicking "Next" allows you to choose the Start Menu folder where the program’s shortcuts will be placed. Finally, the installer will create a desktop shortcut if selected. The last step is the actual installation.
 
-<!-- wp:paragraph -->
-
-#### **Network operation**
-
-<!-- /wp:paragraph -->
-
-<!-- wp:columns -->
-
-<!-- wp:column {"width":"50%"} -->
-
-<!-- wp:paragraph -->
-
-If you have purchased a network-enabled hardware key, it can be connected to any computer on the internal network with a free USB port on which the hardware key driver has been pre-installed. This driver is also part of the Consteel installation package, which is installed on the computer by default (see the previous section), but it is also possible to install it independently if you want to connect the hardware key to a server computer. The hardlock driver is available from our website Downloads menu. After downloading the exe file, install the driver on the usual way.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":38168,"sizeSlug":"full","linkDestination":"none","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-![alt text](<img/CS17 downloads.png>)
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
+After installation, the Completing the Consteel 18 Setup Wizard window will appear, where you can choose to launch Consteel immediately by selecting the Launch Consteel option.
 
 ## **Starting the program for the first time**
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
 
 Launching the program for the first time you have to select whether you use Consteel with a hardware key dongle or with an online license. You have to select it according to your contract. **If you own a hardware key dongle you have to select USB dongle.** If you have already switched to the new online license and have already sent back your dongle, then you can select the Online license.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
 You can save this setting as a default setting. **Do this only if you are sure about your choice!** (If you have accidentally saved the online license as default but you do not have it the solution is at the moment only reinstalling Consteel.)
 
-<!-- /wp:paragraph -->
+![alt text](<img/start with dongle.png>)
 
-<!-- wp:paragraph -->
+ *USB dongle*
 
-<!-- /wp:paragraph -->
+![alt text](<img/start online.png>)
 
-<!-- wp:columns -->
+ *Online protection*
 
-<!-- wp:column -->
-
-<!-- wp:image {"align":"right","id":28965,"sizeSlug":"medium","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-![alt text](<img/select protection USB.png>)
-
-USB dongle
-
-<!-- /wp:image -->
-
-<!-- /wp:column -->
-
-<!-- wp:column -->
-
-<!-- wp:image {"align":"left","id":28971,"sizeSlug":"medium","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-![alt text](<img/Select protection Onile.png>)
-
-Online protection
-
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-<!-- /wp:paragraph -->
-
-<!-- /wp:column -->
-
-<!-- /wp:columns -->
-
-<!-- wp:paragraph -->
 
 #### **Selecting USB Dongle**
 
-<!-- /wp:paragraph -->
+Before starting the program, the hardware key (USB dongle) must be plugged into an empty USB port of the computer, or in the case of a network key, the key must be accessible on a computer within the local network.
 
-<!-- wp:paragraph -->
+In addition, the USB dongle driver must be installed. Its latest version can be downloaded from our website under the Downloads menu, at Add-ons/Consteel xx/USB dongle driver (where xx refers to the main version number).
 
-Before starting the program, you must plug the hardware key (dongle) into an empty USB port on your computer, or in the case of a network key, the key must be available on a computer on the local network. If, after startup, Consteel cannot find the correct hardware key connected to the computer (or over the network), a login window will appear to launch the program using the online license assigned to the Consteel user account.
+![alt text](<img/downloads plugins cs18.png>)
 
-<!-- /wp:paragraph -->
+After the correct hardware key is recognized, Consteel will start. For further details, see the Project Center chapter.
 
-<!-- wp:paragraph -->
+If, after startup, Consteel does not find the appropriate hardware key connected to the computer (or available over the network), the online license login window will appear. This allows the program to be launched using the online license assigned to the Consteel user account, provided that the user has access to it.
 
 #### **Selecting Online**
 
-<!-- /wp:paragraph -->
+When using online protection, you must log in to your Consteel account for the first time using the login credentials registered on our website. These credentials can be saved and you can stay signed in by selecting the Remember me option, so the program will not request login again during the next startup.
 
-<!-- wp:paragraph -->
+![alt text](<img/sing in cs19.png>)
 
-You will need to log in with your online account to use Consteel with your online protection. If you are on a Personal plan you can choose the available seat then start Consteel. In the Team plan, each software seat comes with two software accesses by default, but more software accesses can be requested for an additional fee if required. Therefore, if you are on a Team plan, you can select from different seats if your license holder has been given access to multiple seats. For more information about how to give access to seats: read [here](#end-user-management-tool-for-teams).
+After logging in, the Select software seat window appears, listing all seats (accesses) available to you. Once you select one and click Select, the software will start.
 
+![alt text](<img/select seat.png>)
+
+If you have only one software seat—or several identical seats belonging to the same license—meaning it does not matter which one you choose, it is recommended to use the option Select the first available software seat automatically.
+
+If Consteel cannot find an available software seat, you can open your user account on the website via the displayed link to check the license status. You may ask the license holder to grant you access to the license, or you may need to assign access yourself.
+
+You can read more about how to manage access and software seats here: [Installing and running the software | Consteel Documentation Center](../1_0_general-description/1_1_installing-and-running-the-software.md)
+For answers to licensing-related questions, see our [Licensing FAQ – Consteel](https://consteelsoftware.com/offers-licensing/licensing-faq/).
+
+Feel free to contact us if you need further assistance!
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 
 ## **How to use Consteel offline**
 
-According to your membership level, you can take the chosen seat as an offline seat for 72 hours maximum. To do this, select the check box behind the selected seat and enter the length of offline use by clicking the clock icon that appears. (You can also do this later, while the program is running, using the License menu item in the main menu.)
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":30934,"sizeSlug":"full","linkDestination":"none","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
+The selected software seat can also be taken for offline use. To do this, place a check mark in the checkbox in the row of the chosen seat, then click the clock icon that appears and specify the length of the offline period. (This can also be done later, while the program is running, using the License menu item in the main menu.)
 
 ![](./img/wp-content-uploads-2022-01-offline-seat.png)
 
-<!-- /wp:image -->
-
-<!-- wp:paragraph -->
-
-After selecting the desired seat the Project Center will appear. If Consteel hasn't found an available seat you can check your account on our website to request to see your license status or ask your license holder to give you access and seat to use Consteel.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-If you have other problems please [contact us](https://Consteelsoftware.com/contact/).
-
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":28182,"width":464,"height":381,"sizeSlug":"full","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-![](img\wp-content-uploads-2021-11-seat_selection.png)
-
-Seat selection
 
 ## **Subscription information**
 
-The general Subscription page covers software access-related information together with the End Use Agreement. Some of our latest articles can also be found on this first panel.
+The online Subscription page covers software access-related information together with the End Use Agreement. Some of our latest articles can also be found on this first panel.
 
 ![alt text](<img/subscription information.png>)
 
 ![alt text](<img/general Subscription page.png>)
 
-## **Subscription admin details**
+<!-- ## **Subscription admin details**
 
 Subscription plan admins can verify the following on the Details page: details of the purchased plans, available memberships, and billing information.
 
-![alt text](<img/User management1.png>)
+![alt text](<img/User management1.png>) -->
 
-<!-- /wp:image -->
 
-<!-- wp:paragraph -->
 
 ## **User management**
 
-<!-- /wp:paragraph -->
+Using the Package and User Management tool available under the Subscription menu of the user account, the license administrator can assign any software access to any software seat within the license.
 
-<!-- wp:paragraph -->
-
-Regarding teams, any access can be flexibly connected to any seat in the End-user management tool by the License holder. The End-user management tool is located at the license holder's online account/subscription submenu under the My account tab.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
--  **Software access** covers license-related information together with the End Use Agreement. Some of our latest articles can also be found on this first panel.
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-- **Plan and Pricing** on this page the following can be verified: 
-the license plan, available membership, Team plan, Billing and Pricing details.
-
-
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-
-- **User Management** here the License holder has to assign users to software accesses. Every access is connected to a Consteel Community Membership level. Cloud services available in Consteel are set by these [membership levels](https://consteelsoftware.com/offers-licensing/#ccm).
-By clicking on the "Add user" card the license holder can type the user's email address registered as a Consteel account then click add to assign that particular access. 
+In the User Management section, users can be assigned to individual software accesses. Each software access is linked to a specific [Consteel Community Membership](https://consteelsoftware.com/offers-licensing/#extra) level, which determines the range of available online services.
 
 ![alt text](<img/sermanagement 0.png>)
 
+To assign one of the free software accesses to a user, select the Add User card. In the field that appears, enter the email address the user previously registered on the Consteel website, then finalize the action by clicking the Add button.
+
 ![alt text](<img/User management2.png>) ![alt text](<img/User management3.png>)
 
-By clicking on the three-dotted icon the license holder can move a user to another available membership or remove the user. 
+For a user who has already been assigned, clicking the three-dot icon allows the license administrator to move the user to another software access or remove them from the current one. A user can only be assigned to one software access at a time.
 
-One user can be assigned to only one software access at a time. After assigning users to software accesses the license holder can give online seat access to these users. By clicking on a seat's panel the panel will open and the license holder can select a user from the list of assigned users to give access to that particular user. After selecting a user the "Give access" button will be active and clickable. Users can be removed from a seat by clicking on the "X" icon. One user can be assigned to multiple seats.
+For the user to be able to run the software, the users assigned to software accesses must also be assigned to one or more software seats. When a user is newly assigned to a software access, this assignment happens automatically, but it can also be done manually:
 
+From the list of available software seats, clicking on any seat opens its panel, showing the software accesses assigned to that seat. New users can be selected from the dropdown menu and added to the seat by clicking the Give access button.
 
-![alt text](<img/User management4.png>)
+Users can be removed from a seat using the X icon at the end of the line. A user may be assigned to multiple seats simultaneously.
 
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"align":"center","id":28339,"width":855,"height":767,"sizeSlug":"large","linkDestination":"media","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-
-
-Subscription plan information and end-user management
+ ![alt text](<img/User management4.png>)
+ *Subscription plan information and end-user management*
 
 <!-- /wp:image -->
 
@@ -386,13 +210,13 @@ In the middle-left side you can navigate to Home, + Create New, Open and Learn t
 
 ![alt text](img/tabspccs18.png)
 
-### **Home tab**
+#### **Home tab**
 
 This is the screen that appears when opening Consteel. It differs depending on whether you are a **commercial** or **trial** user. In the trial version, since you do not yet have any recent models, **example models** are displayed in the top section to help you get familiar with the software.
 
 For commercial users, their **recent models** appear in the same section. The bottom part is the same for all users, where all options for **Creating new** models are provided.
 
-### **Create new tab**
+#### **Create new tab**
 
 ![alt text](img/createnewcs18.png)
 
@@ -403,13 +227,13 @@ New models can be created by entering a name, selecting a design standard, and c
 
 ![alt text](img/opentabcs18.png)
 
-### **Open tab**
+#### **Open tab**
 
 ![alt text](img/thisisopencs18.png)
 
 You can choose between Open from computer, Open from Cloud and Recent files. 
 
-### **Could open**
+#### **Could open**
 
 If you have models in your cloud storage or someone shared a model with you, you can access those models by clicking on the _"Open from Cloud"_ button.
 
@@ -428,7 +252,7 @@ Every model opening and sharing cost data bandwidth from your storage. Your mont
 Cloud storage provided by the Steelspace platform
 When you open a model from the cloud it is always downloaded to the local device into the folder: C:\Users(username)\AppData\Local\Consteel\CloudModels and kept synchronized. The amount of data bandwidth is set by your subscription's membership level, and it will renew every month.
 
-### **Learn tab**
+#### **Learn tab**
 
 ![alt text](img/learnatbcs18.png)
 
@@ -440,7 +264,7 @@ Once you select an example model, a description will appear on the right side, p
 
 If you select learning material, a description of the article will appear on the right side. Below the description is the **Learn More** button, which will guide you to our Knowledge Base platform, where you can read the full article based on your membership type.
 
-### **Getting Started and Help**
+#### **Getting Started and Help**
 
 At the bottom-left corner of the Project Center, you will find the **Getting Started** and **Help** buttons.
 

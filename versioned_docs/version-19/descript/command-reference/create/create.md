@@ -40,41 +40,45 @@ The type of object to be created.
 
 <div style={{paddingBottom: '20px'}}> </div>
 
-| **Object type name**                                                                                 | **Object type**     |
-| ---------------------------------------------------------------------------------------------------- | ------------------- |
-| Structural members tab                                                                               | -                   |
-| [Structural member](#structural-member)                                                              | Structural_Member   |
-| [Structural Plate](#structural-plate)                                                                | Structural_Plate    |
-| [Haunch](#haunch)                                                                                    | Haunched_Member     |
-| [Tapered member](#tapered-member)                                                                    | Tapered_Member      |
-| [Steel material](#steel-material)                                                                    | Steel               |
-| [Coated steel material](#coated-steel-material)                                                      | Coated_Steel        |
-| [Concrete material](#concrete-material)                                                              | Concrete            |
-| [Rebar material](#rebar-material)                                                                    | Rebar               |
-| [Point support](#point-support)                                                                      | Support_Point       |
-| [Line support](#line-support)                                                                        | Support_Edge        |
-| [Surface support](#surface-support)                                                                  | Support_Plate       |
-| [Shear field](#shear-field) <span style={{color:"MediumSeaGreen"}}>(since CS 18 build 4124)</span>   | ShearField          |
-| [Point support type](#point-support-type)                                                            | Support             |
-| [Release type](#release-type)                                                                        | Release             |
-| [Link](#link)                                                                                        | Link                |
-| Loads tab                                                                                            | -                   |
-| [Load group](#load-group)                                                                            | LoadGroup           |
-| [Load case](#load-case)                                                                              | LoadCase            |
-| [Load combination](#load-combination)                                                                | LoadCombination     |
-| [Point load](#point-load)                                                                            | NodeForce           |
-| [Line load](#line-load)                                                                              | MemberForce         |
-| [Surface load (uniform)](<#surface-load-(uniform)>)                                                  | PlateForce_Uniform  |
-| [Surface load (linear)](<#surface-load-(linear)>)                                                    | PlateForce_Linear   |
-| [Load transfer surface](#load-transfer-surface)                                                      | LoadTransferSurface |
-| [Initial sway](#initial-sway) <span style={{color:"MediumSeaGreen"}}>(since CS 18 build 4124)</span> | InitialSway         |
-| Mass tab                                                                                             | -                   |
-| [Mass group](#mass-group)                                                                            | MassGroup           |
-| [Mass case](#mass-case)                                                                              | MassCase            |
-| [Mass combination](#mass-combination)                                                                | MassCombination     |
-| [Point mass](#point-mass)                                                                            | NodeMass            |
-| Other                                                                                                | -                   |
-| [Portion](#portion)                                                                                  | Portion             |
+| **Object type name**                                                  | **Object type**                |
+| --------------------------------------------------------------------- | ------------------------------ |
+| Structural members tab                                                | -                              |
+| [Structural member](#structural-member)                               | Structural_Member              |
+| [Structural Plate](#structural-plate)                                 | Structural_Plate               |
+| [Haunch](#haunch)                                                     | Haunched_Member                |
+| [Tapered member](#tapered-member)                                     | Tapered_Member                 |
+| [Rectangular column reinforcement](#rectangular-column-reinforcement) | RectangularColumnReinforcement |
+| [Circular column reinforcement](#circular-column-reinforcement)       | CircularColumnReinforcement    |
+| [Steel material](#steel-material)                                     | Steel                          |
+| [Coated steel material](#coated-steel-material)                       | Coated_Steel                   |
+| [Concrete material](#concrete-material)                               | Concrete                       |
+| [Rebar material](#rebar-material)                                     | Rebar                          |
+| [Point support](#point-support)                                       | Support_Point                  |
+| [Line support](#line-support)                                         | Support_Edge                   |
+| [Surface support](#surface-support)                                   | Support_Plate                  |
+| [Shear field](#shear-field)                                           | ShearField                     |
+| [Point support type](#point-support-type)                             | Support                        |
+| [Release type](#release-type)                                         | Release                        |
+| [Link](#link)                                                         | Link                           |
+| [Smart link](#smart-link)                                             | SmartLink                      |
+| [Design parameters for concrete column](#design-parameters-rcc)       | Design_Parameters_RCC          |
+| Loads tab                                                             | -                              |
+| [Load group](#load-group)                                             | LoadGroup                      |
+| [Load case](#load-case)                                               | LoadCase                       |
+| [Load combination](#load-combination)                                 | LoadCombination                |
+| [Point load](#point-load)                                             | NodeForce                      |
+| [Line load](#line-load)                                               | MemberForce                    |
+| [Surface load (uniform)](<#surface-load-(uniform)>)                   | PlateForce_Uniform             |
+| [Surface load (linear)](<#surface-load-(linear)>)                     | PlateForce_Linear              |
+| [Load transfer surface](#load-transfer-surface)                       | LoadTransferSurface            |
+| [Initial sway](#initial-sway)                                         | InitialSway                    |
+| Mass tab                                                              | -                              |
+| [Mass group](#mass-group)                                             | MassGroup                      |
+| [Mass case](#mass-case)                                               | MassCase                       |
+| [Mass combination](#mass-combination)                                 | MassCombination                |
+| [Point mass](#point-mass)                                             | NodeMass                       |
+| Other                                                                 | -                              |
+| [Portion](#portion)                                                   | Portion                        |
 
 #### Object parameters:
 
@@ -98,6 +102,7 @@ This command is analogous with the beam creation dialogue in Consteel:
 Name [Object name]  
 ReleaseID_A [Release start]  
 ReleaseID_B [Release end]  
+EccType [Eccentricity reference]  
 Eccentricity_y [Eccentricity y]  
 Eccentricity_z [Eccentricity z]  
 Rotation \[Rotation]  
@@ -111,25 +116,26 @@ AverageEdgeLength_flange [FE size flange]
 
 ### Command parameters
 
-| **Command parameter**                                             | **Assignment** | **Value format**                        | **Input options** |
-| ----------------------------------------------------------------- | -------------- | --------------------------------------- | ----------------- |
-| [Object ID](#Object-ID-mem)                                       | Required       | String                                  | Local, variable   |
-| [Section name](#Section-name-mem)                                 | Required       | String                                  | Local, variable   |
-| [x1, y1, z1](#x1,-y1,-z1-mem)                                     | Required       | Integer                                 | Local, variable   |
-| [x2, y2, z2](#x2,-y2,-z2-mem)                                     | Required       | Integer                                 | Local, variable   |
-| [Object name](#Object-name-mem)                                   | Optional       | String                                  | Local, variable   |
-| [Release start](#Release-start-mem)                               | Optional       | String                                  | Local, variable   |
-| [Release end](#Release-end-mem)                                   | Optional       | String                                  | Local, variable   |
-| [Eccentricity y](#Eccentricity-y-mem)                             | Optional       | Numerical                               | Local, variable   |
-| [Eccentricity z](#ccentricity-z-mem)                              | Optional       | Numerical                               | Local, variable   |
-| [Rotation](#Rotation-mem)                                         | Optional       | Numerical                               | Local, variable   |
-| [Initial bow imperfection L/y](#Initial-bow-imperfection-L/y-mem) | Optional       | Numerical                               | Local, variable   |
-| [Initial bow imperfection L/z](#Initial-bow-imperfection-L/z-mem) | Optional       | Numerical                               | Local, variable   |
-| [FE type](#FE-type-mem)                                           | Optional       | [Predefined strings](#FE-types-mem)     | Local, variable   |
-| [FE generation type](#FE-generation-type-mem)                     | Optional       | [Predefined strings](#FE-gen-types-mem) | Local, variable   |
-| [Number of FEs](#Number-of-FEs-mem)                               | Optional       | Integer                                 | Local, variable   |
-| [FE size web](#FE-size-web-mem)                                   | Optional       | Numerical                               | Local, variable   |
-| [FE size flange](#FE-size-flange-mem)                             | Optional       | Numerical                               | Local, variable   |
+| **Command parameter**                                             | **Assignment** | **Value format**                           | **Input options** |
+| ----------------------------------------------------------------- | -------------- | ------------------------------------------ | ----------------- |
+| [Object ID](#Object-ID-mem)                                       | Required       | String                                     | Local, variable   |
+| [Section name](#Section-name-mem)                                 | Required       | String                                     | Local, variable   |
+| [x1, y1, z1](#x1,-y1,-z1-mem)                                     | Required       | Integer                                    | Local, variable   |
+| [x2, y2, z2](#x2,-y2,-z2-mem)                                     | Required       | Integer                                    | Local, variable   |
+| [Object name](#Object-name-mem)                                   | Optional       | String                                     | Local, variable   |
+| [Release start](#Release-start-mem)                               | Optional       | String                                     | Local, variable   |
+| [Release end](#Release-end-mem)                                   | Optional       | String                                     | Local, variable   |
+| [Eccentricity reference](#Eccentricity-reference-mem)             | Optional       | [Predefined strings](#Ecctype-options-mem) | Local, variable   |
+| [Eccentricity y](#Eccentricity-y-mem)                             | Optional       | Numerical                                  | Local, variable   |
+| [Eccentricity z](#ccentricity-z-mem)                              | Optional       | Numerical                                  | Local, variable   |
+| [Rotation](#Rotation-mem)                                         | Optional       | Numerical                                  | Local, variable   |
+| [Initial bow imperfection L/y](#Initial-bow-imperfection-L/y-mem) | Optional       | Numerical                                  | Local, variable   |
+| [Initial bow imperfection L/z](#Initial-bow-imperfection-L/z-mem) | Optional       | Numerical                                  | Local, variable   |
+| [FE type](#FE-type-mem)                                           | Optional       | [Predefined strings](#FE-types-mem)        | Local, variable   |
+| [FE generation type](#FE-generation-type-mem)                     | Optional       | [Predefined strings](#FE-gen-types-mem)    | Local, variable   |
+| [Number of FEs](#Number-of-FEs-mem)                               | Optional       | Integer                                    | Local, variable   |
+| [FE size web](#FE-size-web-mem)                                   | Optional       | Numerical                                  | Local, variable   |
+| [FE size flange](#FE-size-flange-mem)                             | Optional       | Numerical                                  | Local, variable   |
 
 #### Object ID: {#Object-ID-mem}
 
@@ -168,6 +174,28 @@ Consteel has these release types already created by default:
 #### Release end: {#Release-end-mem}
 
 Release type at the end point of the structural member. Any previously created release type name can be used. The premade and default parameter inputs are the same as in case of the [Release start](#Release-start-mem) parameter.
+
+#### Eccentricity reference: {#Eccentricity-reference-mem}
+
+<span id="Ecctype-options-mem" style={{paddingTop: '80px'}}> Available inputs: </span>
+
+<div style={{paddingBottom: '20px'}}> </div>
+
+| **Eccentricity reference name** | **Eccentricity reference** |
+| ------------------------------- | -------------------------- |
+| Reference line (0)              | EccType_C                  |
+| Bottom Left (1)                 | EccType_BL                 |
+| Bottom Middle (2)               | EccType_BM                 |
+| Bottom Right (3)                | EccType_BR                 |
+| Middle Left (4)                 | EccType_ML                 |
+| Middle Middle (5)               | EccType_MM                 |
+| Middle Right (6)                | EccType_MR                 |
+| Top Left (7)                    | EccType_TL                 |
+| Top Middle (8)                  | EccType_TM                 |
+| Top Right (9)                   | EccType_TR                 |
+| Top of Web (10)                 | EccType_TWeb               |
+| Middle of Web (11)              | EccType_MWeb               |
+| Bottom of Web (12)              | EccType_BWeb               |
 
 #### Eccentricity y: {#Eccentricity-y-mem}
 
@@ -247,6 +275,7 @@ CREATE Mem_ID1 Structural_Member "HEA 200"
 Name "Member 1"
 ReleaseID_A Continuous
 ReleaseID_B Continuous
+EccType EccType_TM
 Eccentricity_y 0
 Eccentricity_z 0
 Rotation 0
@@ -503,14 +532,14 @@ ModEccentricity \[Mod eccentricity]
 
 ### Command parameters
 
-| **Command parameter**                                                                                           | **Assignment** | **Value format**                                   | **Input options** |
-| --------------------------------------------------------------------------------------------------------------- | -------------- | -------------------------------------------------- | ----------------- |
-| [Object ID](#Object-ID-tm)                                                                                      | Required       | String                                             | Local, variable   |
-| [Member ID](#Member-ID-tm)                                                                                      | Required       | String                                             | Local, variable   |
-| [Start height](#Starting-height-tm)                                                                             | Required       | Numerical                                          | Local, variable   |
-| [End height](#End-height-tm)                                                                                    | Required       | Numerical                                          | Local, variable   |
-| [Format](#Format-tm)                                                                                            | Optional       | [Predefined strings](#Format-options-tm)           | Local, variable   |
-| [Mod eccentricity](#Mod-eccentricity-tm) <span style={{color:"MediumSeaGreen"}}>(since CS 18 build 4124)</span> | Optional       | [Predefined strings](#Mod-eccentricity-options-tm) | Local, variable   |
+| **Command parameter**                    | **Assignment** | **Value format**                                   | **Input options** |
+| ---------------------------------------- | -------------- | -------------------------------------------------- | ----------------- |
+| [Object ID](#Object-ID-tm)               | Required       | String                                             | Local, variable   |
+| [Member ID](#Member-ID-tm)               | Required       | String                                             | Local, variable   |
+| [Start height](#Starting-height-tm)      | Required       | Numerical                                          | Local, variable   |
+| [End height](#End-height-tm)             | Required       | Numerical                                          | Local, variable   |
+| [Format](#Format-tm)                     | Optional       | [Predefined strings](#Format-options-tm)           | Local, variable   |
+| [Mod eccentricity](#Mod-eccentricity-tm) | Optional       | [Predefined strings](#Mod-eccentricity-options-tm) | Local, variable   |
 
 #### Object ID: {#Object-ID-tm}
 
@@ -568,6 +597,124 @@ CREATE Mem_ID1 Structural_Member Descript_Section
 CREATE Tapered_ID1 Tapered_Member Mem_ID1 400 200
 Format Centric
 ModEccentricity SecBigger
+```
+
+## Rectangular column reinforcement
+
+This command is analogous with the rectangular column reinforcement creation dialogue in Consteel:
+
+![](img\Create_RectangularColumnReinforcement_Img_v01.png)
+
+### Syntax
+
+**CREATE** \[Object ID] **RectangularColumnReinforcement** \[Section ID] \[Main rebar diameter]  
+Name [Object name]
+
+### Command parameters
+
+| **Command parameter**                           | **Assignment** | **Value format**   | **Input options** |
+| ----------------------------------------------- | -------------- | ------------------ | ----------------- |
+| [Object ID](#Object-ID-rcr)                     | Required       | String             | Local, variable   |
+| [Section ID](#Section-id-rcr)                   | Required       | Section ID or name | Local, variable   |
+| [Main rebar diameter](#Main-rebar-diameter-rcr) | Required       | Numerical          | Local, variable   |
+| [Object name](#Object-name-rcr)                 | Optional       | String             | Local, variable   |
+
+#### Object ID: {#Object-ID-rcr}
+
+A string of characters that is used to identify the object that is being created.
+
+#### Section ID: {#Section-id-rcr}
+
+ID of the concrete section.
+
+#### Main rebar diameter: {#Main-rebar-diameter-rcr}
+
+Diameter of the main rebar of the reinforcement in \[mm].
+
+#### Object name: {#Object-name-rcr}
+
+Name of the reinforcement.
+
+### Sample code
+
+**Command only:** (minimal parameters)
+
+```
+CREATE ReinfColRect_ID1 RectangularColumnReinforcement Sec_ID1 22
+```
+
+**With added prerequisites (section and member definition) and all parameters:**
+
+```
+LOAD_SECTION_MACRO Sec_ID1 RC-ColRect "RC-ColRect (Descript)" "C25/30 EN 1992-1-1:2010" 255 567
+
+CREATE ReinfColRect_ID1 RectangularColumnReinforcement Sec_ID1 22
+Name "Reinforcement col rect 1"
+
+CREATE Mem_ID1 Structural_Member "RC-ColRect (Descript)"
+0 0 0
+0 0 1000
+
+SET Mem_ID1 ReinforcementID ReinfColRect_ID1
+```
+
+## Circular column reinforcement
+
+This command is analogous with the circular column reinforcement creation dialogue in Consteel:
+
+![](img\Create_CircularColumnReinforcement_Img_v01.png)
+
+### Syntax
+
+**CREATE** \[Object ID] **CircularColumnReinforcement** \[Section ID] \[Main rebar diameter]  
+Name [Object name]
+
+### Command parameters
+
+| **Command parameter**                           | **Assignment** | **Value format**   | **Input options** |
+| ----------------------------------------------- | -------------- | ------------------ | ----------------- |
+| [Object ID](#Object-ID-ccr)                     | Required       | String             | Local, variable   |
+| [Section ID](#Section-id-ccr)                   | Required       | Section ID or name | Local, variable   |
+| [Main rebar diameter](#Main-rebar-diameter-ccr) | Required       | Numerical          | Local, variable   |
+| [Object name](#Object-name-ccr)                 | Optional       | String             | Local, variable   |
+
+#### Object ID: {#Object-ID-ccr}
+
+A string of characters that is used to identify the object that is being created.
+
+#### Section ID: {#Section-id-ccr}
+
+ID of the concrete section.
+
+#### Main rebar diameter: {#Main-rebar-diameter-ccr}
+
+Diameter of the main rebar of the reinforcement in \[mm].
+
+#### Object name: {#Object-name-ccr}
+
+Name of the reinforcement.
+
+### Sample code
+
+**Command only:** (minimal parameters)
+
+```
+CREATE ReinfColCirc_ID1 CircularColumnReinforcement Sec_ID1 22
+```
+
+**With added prerequisites (section and member definition) and all parameters:**
+
+```
+LOAD_SECTION_MACRO Sec_ID1 RC-ColCirc "RC-ColCirc (Descript)" "C25/30 EN 1992-1-1:2010" 444
+
+CREATE ReinfColCirc_ID1 CircularColumnReinforcement Sec_ID1 22
+Name "Reinforcement col circ 1"
+
+CREATE Mem_ID1 Structural_Member "RC-ColCirc (Descript)"
+0 0 0
+0 0 1000
+
+SET Mem_ID1 ReinforcementID ReinfColCirc_ID1
 ```
 
 ## Steel material
@@ -1007,7 +1154,6 @@ CoordSys Local
 
 ## Shear field
 
-<span style={{color:"MediumSeaGreen"}}>(since CS 18 build 4124)</span>  
 This command is analogous with the shear field creation dialogue in Consteel:
 
 [![](./img/Create_ShearField_Img_v01.png)](./img/Create_ShearField_Img_v01.png)
@@ -1337,6 +1483,226 @@ InterfacePos 0.5
 ReleaseID yy
 FromObjectID Member_ID1
 ToObjectID Member_ID2
+```
+
+## Smart link
+
+This command is analogous with the smart link creation dialogue in Consteel:
+
+![](img\Create_SmartLink_Img_v01.png)
+
+### Syntax
+
+**CREATE** \[Object ID] **SmartLink** \[Member ID]  
+\[x] \[y] \[z]  
+MainBeamEccType \[Main beam eccentricity type]  
+MainBeamEccY \[Main beam eccentricity y]  
+MainBeamEccZ \[Main beam eccentricity z]  
+ReleaseID \[Release]  
+InterfacePos_CalcType \[Interface position calculation type]  
+InterfacePos \[Interface position]  
+IsSubBeam \[Is Subbeam]  
+SubBeamSectionID \[SubBeam section ID]  
+SubBeamEccType \[SubBeam eccentricity type]
+
+### Command parameters
+
+| **Command parameter**                                                   | **Assignment** | **Value format**                                               | **Input options** |
+| ----------------------------------------------------------------------- | -------------- | -------------------------------------------------------------- | ----------------- |
+| [Object ID](#Object-ID-smartlink)                                       | Required       | String                                                         | Local, variable   |
+| [Member ID](#Member-ID-smartlink)                                       | Required       | String                                                         | Local, variable   |
+| [x, y, z](#x,-y,-z-smartlink)                                           | Required       | Numerical                                                      | Local, variable   |
+| [Main beam eccentricity type](#MainBeamEccType-smartlink)               | Optional       | [Predefined strings](#MainBeamEccType-options-sl)              | Local, variable   |
+| [Main beam eccentricity y](#MainBeamEccY-smartlink)                     | Optional       | Numerical                                                      | Local, variable   |
+| [Main beam eccentricity z](#MainBeamEccZ-smartlink)                     | Optional       | Numerical                                                      | Local, variable   |
+| [Release ID](#Release-id-smartlink)                                     | Optional       | Release name or ID                                             | Local, variable   |
+| [Interface position calculation type](#InterfacePos_CalcType-smartlink) | Optional       | [Predefined strings](#InterfacePos_CalcType-smartlink-options) | Local, variable   |
+| [Interface position](#Interface-position-smartlink)                     | Optional       | Numerical                                                      | Local, variable   |
+| [Is Subbeam](#IsSubBeam-smartlink)                                      | Optional       | [Predefined strings](#IsSubBeam-smartlink-options)             | Local, variable   |
+| [SubBeam section ID](#SubBeamSectionID-smartlink)                       | Optional       | Section name or ID                                             | Local, variable   |
+| [SubBeam eccentricity type](#Object-ID-smartlink)                       | Optional       | [Predefined strings](#SubBeamEccType-smartlink-options)        | Local, variable   |
+
+#### Object ID: {#Object-ID-smartlink}
+
+A string of characters that is used to identify the object that is being created.
+
+#### Member ID: {#Member-ID-smartlink}
+
+A string of characters that is used to identify the structural member that the smart link connects to. This member will have the "Main section (A)".
+
+#### x, y, z: {#x,-y,-z-smartlink}
+
+Coordinates of the insertion point of the smart link.
+
+#### Main beam eccentricity type: {#MainBeamEccType-smartlink}
+
+Eccentricity reference for the main beam.
+
+<span id="MainBeamEccType-options-sl" style={{paddingTop: '80px'}}> Available inputs: </span>
+
+<div style={{paddingBottom: '20px'}}> </div>
+
+| **Eccentricity reference name** | **Eccentricity reference** |
+| ------------------------------- | -------------------------- |
+| Reference line (0)              | EccType_C                  |
+| Bottom Left (1)                 | EccType_BL                 |
+| Bottom Middle (2)               | EccType_BM                 |
+| Bottom Right (3)                | EccType_BR                 |
+| Middle Left (4)                 | EccType_ML                 |
+| Middle Middle (5)               | EccType_MM                 |
+| Middle Right (6)                | EccType_MR                 |
+| Top Left (7)                    | EccType_TL                 |
+| Top Middle (8)                  | EccType_TM                 |
+| Top Right (9)                   | EccType_TR                 |
+| Top of Web (10)                 | EccType_TWeb               |
+| Middle of Web (11)              | EccType_MWeb               |
+| Bottom of Web (12)              | EccType_BWeb               |
+
+#### Main beam eccentricity y: {#MainBeamEccY-smartlink}
+
+Connection eccentricity to the main section in the local y direction.
+
+#### Main beam eccentricity z: {#MainBeamEccZ-smartlink}
+
+Connection eccentricity to the main section in the local z direction.
+
+#### Release ID: {#Release-id-smartlink}
+
+The type of release at the interface position. Any previously created release type name can be used. If release type name is used, then it should be prefixed with "NAME: ".
+
+Consteel has these release types already created by default:
+
+- Continuous (default)
+- w
+- xx,yy,zz,w
+- yy
+- yy,zz
+- yy,zz,w
+- zz
+
+#### Interface position calculation type: {#InterfacePos_CalcType-smartlink}
+
+Calculation type of the interface position.
+
+<span id="InterfacePos_CalcType-smartlink-options" style={{paddingTop: '80px'}}>Available inputs: </span>
+
+- Automatic
+- Manual
+
+#### Interface position: {#Interface-position-smartlink}
+
+The position of the interface, or release along the length of the smart link. Acceptable inputs are decimal fraction numbers from 0 to 1. Default: 0.
+
+#### Is Subbeam: {#IsSubBeam-smartlink}
+
+Setting that switches on or off the eccentricity options for the connecting section.
+
+<span id="IsSubBeam-smartlink-options" style={{paddingTop: '80px'}}>Available inputs: </span>
+
+- 1 / Yes
+- 0 / No
+
+#### Subbeam section ID: {#SubBeamSectionID-smartlink}
+
+ID of the connecting section. The name or ID of any previously loaded section might be used. If section name is used, then it should be prefixed with "NAME: ".
+
+#### Subbeam eccentricity type: {#SubBeamEccType-smartlink}
+
+Eccentricity reference for the connecting section.
+
+<span id="SubBeamEccType-smartlink-options" style={{paddingTop: '80px'}}> Available inputs: </span>
+
+<div style={{paddingBottom: '20px'}}> </div>
+
+| **Eccentricity reference name** | **Eccentricity reference** |
+| ------------------------------- | -------------------------- |
+| Reference line (0)              | EccType_C                  |
+| Bottom Middle (2)               | EccType_BM                 |
+| Middle Middle (5)               | EccType_MM                 |
+| Top Middle (8)                  | EccType_TM                 |
+
+### Sample code
+
+**Command only:** (minimal parameters)
+
+```
+CREATE SmartLinkID SmartLink Mem_ID1
+2500 0 0
+```
+
+**With added prerequisites (section and member definition) and all parameters:**
+
+```
+LOAD_SECTION_LIBRARY Sec_ID1 "IPE 200"
+
+LOAD_SECTION_LIBRARY Sec_ID2 "IPE 100"
+
+CREATE Release_Type_ID1 Release "Custom release type name" Fix Free 1.234 Fix Fix Fix Fix
+
+CREATE Mem_ID1 Structural_member "IPE 200"
+0 0 0
+5000 0 0
+
+CREATE SmartLinkID SmartLink Mem_ID1
+2500 0 0
+MainBeamEccType EccType_TM
+MainBeamEccY 10
+MainBeamEccZ 20
+ReleaseID Release_Type_ID1
+InterfacePos_CalcType Manual
+InterfacePos 0.7
+IsSubBeam Yes
+SubBeamSectionID Sec_ID2
+SubBeamEccType EccType_BM
+```
+
+## Design parameters for concrete column {#design-parameters-rcc}
+
+This command is analogous with the concrete column design parameters object creation dialogue in Consteel:
+
+![](img\Create_Design_Parameters_RCC_Img_v01.png)
+
+### Syntax
+
+**CREATE** \[Object ID] **Design_Parameters_RCC**  
+Name [Object name]
+
+### Command parameters
+
+| **Command parameter**             | **Assignment** | **Value format** | **Input options** |
+| --------------------------------- | -------------- | ---------------- | ----------------- |
+| [Object ID](#Object-ID-dprcc)     | Required       | String           | Local, variable   |
+| [Object name](#Object-name-dprcc) | Optional       | String           | Local, variable   |
+
+#### Object ID: {#Object-ID-dprcc}
+
+A string of characters that is used to identify the object that is being created.
+
+#### Object name: {#Object-name-dprcc}
+
+Name of the design parameters object.
+
+### Sample code
+
+**Command only:** (minimal parameters)
+
+```
+CREATE DesParam_ID1 Design_Parameters_RCC
+```
+
+**With added prerequisites (section and member definition) and all parameters:**
+
+```
+LOAD_SECTION_MACRO Sec_ID1 RC-ColRect "RC-ColRect (Descript)" "C25/30 EN 1992-1-1:2010" 255 567
+
+CREATE Mem_ID1 Structural_Member "RC-ColRect (Descript)"
+0 0 0
+0 0 1000
+
+CREATE DesParam_ID1 Design_Parameters_RCC
+Name "Design param 1"
+
+SET Mem_ID1 DesignParamID DesParam_ID1
 ```
 
 ## Load group
@@ -2120,8 +2486,6 @@ CREATE LTS_ID1 LoadTransferSurface "LTS 1"
 
 ## Initial sway
 
-<span style={{color:"MediumSeaGreen"}}>(since CS 18 build 4124)</span>
-
 This command is analogous with the iitial sway tab of the global imperfections dialogue in Consteel:
 
 ![](img\Create_InitialSway_Img_v01.png)
@@ -2475,12 +2839,12 @@ CornerType \[Corner type]
 
 ### Command parameters
 
-| **Command parameter**                                                                                  | **Assignment** | **Value format**                               | **Input options** |
-| ------------------------------------------------------------------------------------------------------ | -------------- | ---------------------------------------------- | ----------------- |
-| [Object ID](#Object-ID-por)                                                                            | Required       | String                                         | Local, variable   |
-| [Object name](#Object-name-por)                                                                        | Required       | String                                         | Local, variable   |
-| [Content array](#Content-array-por)                                                                    | Required       | Object ID(s)                                   | Array             |
-| [Corner type](#Corner-type-por) <span style={{color:"MediumSeaGreen"}}>(since CS 18 build 4124)</span> | Optional       | [Predefined strings](#Corner-type-options-por) | Local, variable   |
+| **Command parameter**               | **Assignment** | **Value format**                               | **Input options** |
+| ----------------------------------- | -------------- | ---------------------------------------------- | ----------------- |
+| [Object ID](#Object-ID-por)         | Required       | String                                         | Local, variable   |
+| [Object name](#Object-name-por)     | Required       | String                                         | Local, variable   |
+| [Content array](#Content-array-por) | Required       | Object ID(s)                                   | Array             |
+| [Corner type](#Corner-type-por)     | Optional       | [Predefined strings](#Corner-type-options-por) | Local, variable   |
 
 #### Object ID: {#Object-ID-por}
 
@@ -2497,7 +2861,7 @@ The name of the array that contains the IDs of the objects that will be part of 
 #### Corner type: {#Corner-type-por}
 
 Corner type of the portion. This setting can be accessed from the frame corner wizard dialogue in the Consteel UI.
-The definition of this parameter also switches on frame corner functionality, which can also be controlled by the [FRAME_CORNER](/docs/descript/command-reference/frame_corner/) command in Descript.
+The definition of this parameter also switches on frame corner functionality, which can also be controlled by the **FRAME_CORNER** command in Descript.
 
 <span id="Corner-type-options-por" style={{paddingTop: '80px'}}>Available input options: </span>
 

@@ -61,7 +61,7 @@ Rúdelem paramétereinek megadása a dialóg középső részén történik:
 
 <!-- wp:image {"align":"center","id":33627,"width":362,"height":355,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/02/dial_rud_szerk_gerenda.png)](./img/wp-content-uploads-2022-02-dial_rud_szerk_gerenda.png)
+![alt text](<img/HU Beam.png>)
 
 <!-- /wp:image -->
 
@@ -71,7 +71,7 @@ Rúdelem paramétereinek megadása a dialóg középső részén történik:
 
 <!-- wp:image {"align":"center","id":33634,"width":361,"height":383,"sizeSlug":"full","linkDestination":"media","className":"is-style-editorskit-rounded","editorskit":{"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/02/dial_rud_szerk_oszlop.png)](./img/wp-content-uploads-2022-02-dial_rud_szerk_oszlop.png)
+![alt text](<img/HU Column.png>)
 
 <!-- /wp:image -->
 
@@ -100,51 +100,51 @@ Az egyes adatmezők értelmezése fentről lefelé haladva az alábbi:
 - _Végeselem típusa_
 
 
-Az elérhető típusok a kiválasztott szelvénytől függenek.
+ Az elérhető típusok a kiválasztott szelvénytől függenek.
 
-**Acélszelvények esetén:**
-
-
-
-- Egyszeresen vagy kétszeresen szimmetrikus hegesztett (makró) szelvények esetén négy lehetőség közül kell választani:
+ **Acélszelvények esetén:**
 
 
 
-  - **7 DOF rúdelem**: az öblösödés hatását is tartalmazó, 7 szabadságfokú (SZF) csomópontokból álló rúdelem. Az öblösödés figyelembevétele különösen a normál, nyitott szelvényű acélszelvényekből felépített szerkezetekben lehet jelentős.
+ - Egyszeresen vagy kétszeresen szimmetrikus hegesztett (makró) szelvények esetén négy lehetőség közül kell választani:
 
 
-  * **Héjelem**: a rúdelem az analízis során a keresztmetszetének megfelelő héjelemmé alakul át. Az alkalmazott terhek, támaszok, merevítő bordák és nyílások is átalakításra kerülnek. Az elem megtartja 1D jellemzőit is, így ez az átalakítás nem végérvényes. Az ilyen elemek bármikor visszaalakíthatók normál rúdelemekké. Ezekre az elemekre a szabványos méretezés jelenleg nem lehetséges.
+
+   - **7 DOF rúdelem**: az öblösödés hatását is tartalmazó, 7 szabadságfokú (SZF) csomópontokból álló rúdelem. Az öblösödés figyelembevétele különösen a normál, nyitott szelvényű acélszelvényekből felépített szerkezetekben lehet jelentős.
+
+
+   * **Héjelem**: a rúdelem az analízis során a keresztmetszetének megfelelő héjelemmé alakul át. Az alkalmazott terhek, támaszok, merevítő bordák és nyílások is átalakításra kerülnek. Az elem megtartja 1D jellemzőit is, így ez az átalakítás nem végérvényes. Az ilyen elemek bármikor visszaalakíthatók normál rúdelemekké. Ezekre az elemekre a szabványos méretezés jelenleg nem lehetséges.
 
      :::wanrning
      Ez a típus nem választható ezen a párbeszédpanelen. Csak a modellben elhelyezett rudakat lehet az **_[Objektum tulajdonságok ablakban](../1_0_general-description/1_2_the-main-window.md#objektum-tulajdonságok-ablak)_** héjelemmé módosítani. További információ erről a **_[Superbeam fejezetben található.](../5_0_structural-modeling/5_14_superbeam.md)_**
      :::
 
 
-  - **Húzott rúd**: tengelyirányú nyomást nem tud felvenni. Ha az analízis során nyomás lép fel egy ilyen elemben, a program figyelmen kívül hagyja az elemet.
+   - **Húzott rúd**: tengelyirányú nyomást nem tud felvenni. Ha az analízis során nyomás lép fel egy ilyen elemben, a program figyelmen kívül hagyja az elemet.
 
 
-  * **Húzott rúd (pótátlós merevítés)** húzott pótátlós merevítési rendszer egyedi húzott elemeire alkalmazható opció, amely során azt feltételezzük, hogy a merevítő elemek párosan vannak úgy elhelyezve, hogy mindig csak az egyik dolgozik húzásra, a másik pedig nyomás hatására kihajlik. Az így megjelölt elemek a rugalmas sajátérték számításhoz szükséges linearizálás miatt, mint húzott-nyomott elemek lesznek figyelembevéve, 50%-ra csökkentett keresztmetszeti jellemzőkkel.
+   * **Húzott rúd (pótátlós merevítés)** húzott pótátlós merevítési rendszer egyedi húzott elemeire alkalmazható opció, amely során azt feltételezzük, hogy a merevítő elemek párosan vannak úgy elhelyezve, hogy mindig csak az egyik dolgozik húzásra, a másik pedig nyomás hatására kihajlik. Az így megjelölt elemek a rugalmas sajátérték számításhoz szükséges linearizálás miatt, mint húzott-nyomott elemek lesznek figyelembevéve, 50%-ra csökkentett keresztmetszeti jellemzőkkel.
 
 
-* Minden más szelvény típus esetén a fentiekből csak az alábbi három típus választható:
+ * Minden más szelvény típus esetén a fentiekből csak az alábbi három típus választható:
 
-  - **7 DOF rúdelem**
+   - **7 DOF rúdelem**
 
-  - **Húzott rúd**
+   - **Húzott rúd**
  
-  - **Húzott rúd (pótátlós merevítés)** 
+   - **Húzott rúd (pótátlós merevítés)** 
  
 
-**Vasbeton vagy Öszvér keresztmetszet esetén:**
+ **Vasbeton vagy Öszvér keresztmetszet esetén:**
 
 
-Ilyen típusú keresztmetszetek esetén csak a _6 DOF rúdelem_ elemtípus használható, ami egy hagyományos, 6 szabadságfokú végeselem típust jelent.
+ Ilyen típusú keresztmetszetek esetén csak a _6 DOF rúdelem_ elemtípus használható, ami egy hagyományos, 6 szabadságfokú végeselem típust jelent.
 
 - _Elemcsoport_: a szerkezeti elemek különböző szempontok szerinti csoportosítására szolgál (kiválasztás, mértékadó eredmény, érzékenységvizsgálat stb.). A három pontos ![](./img/wp-content-uploads-2021-04-3dots-button.png) ikonra kattintva a _**Szerkezeti elemek csoportjai**_ dialógon új elemcsoportok definiálhatók.
 
 - _Végeselemek száma_: a megadott végeselem számot használja a program az analízis során. Alapesetben az automatikus van beállítva, amely a legtöbb esetben a legoptimálisabb megoldást adja.
 
-- _Lokális külpontosság_: lokális külpontosság definiálható az elem lokális koordinátarendszerében („y, z”), illetve megadható elforgatás is a lokális „x” tengely körül.
+- _Lokális külpontosság_: az elem lokális külpontossága a szelvény geometriájához vagy a lokális „y–z” koordinátarendszerhez viszonyítva adható meg, a szelvény a lokális „x” tengely körül is elforgatható. További részletek a [ponttámaszok](../5_0_structural-modeling/5_9_supports.md#pont-támasz-elhelyezése) fejezetben találhatók.
 
 - Az ablak alsó része a felhasználókat támogató információk és parancsok kijelzésére szolgál.
 
@@ -939,19 +939,21 @@ A keresztmetszetek külpontossága miatt az igénybevételek is külpontossá v�
 ## Változó keresztmetszetű elemek
 
 
-[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/03/dial_valtozo_szelveny.png)](./img/wp-content-uploads-2022-03-dial_valtozo_szelveny.png)
+![alt text](<img/HU Tapered member old.png>)
 
 
 Változó keresztmetszetű elemek használata acélszerkezetek gazdaságos tervezésnél kerülnek előtérbe, emiatt különösen fontos, hogy változó keresztmetszetű elemek modellezése gyors és egyszerű legyen. Változó keresztmetszetű elem létrehozásához először egy hegesztett I, H, doboz vagy hidegen hajlított C szelvényű rudat kell felvenni.
 
 
-**Melegen hengerelt vagy egyéb makró keresztmetszetű rúd nem alakítható át változó keresztmetszetű rúddá.**
+:::info 
+Melegen hengerelt vagy egyéb makró keresztmetszetű rúd nem alakítható át változó keresztmetszetű rúddá. 
+:::
 
 
 A _**Változó keresztmetszet**_ ![](./img/wp-content-uploads-2021-04-cmd_tapered.png) funkció segítségével kezdő- és végponti keresztmetszeti magasság adható meg. A két pont között a magasság lineárisan változik az elem hossza mentén.
 
 
-Változó keresztmetszet létrehozásához a _**Változó keresztmetszetű rúd**_ dialógon először meg kell adni a keresztmetszet magassági paramétereit és a külpontosság igazítását.
+Változó keresztmetszet létrehozásához a _**Változó keresztmetszetű rúd**_ dialógon először meg kell adni a keresztmetszet magassági paramétereit.
 
 
 A kezdő (H1) és végponti (H2) keresztmetszeti magasság nem teljesen független az eredeti keresztmetszet magasságától. Tanácsos az eredeti szelvényt úgy felvenni, hogy a magassága megközelítőleg megegyezzen a változó keresztmetszet legkisebb magasságával. Ha H1 vagy H2 közül valamelyik kisebb, mint az eredeti szelvény magasságának a fele, akkor a szoftver automatikusan felülírja ezt az értéket az eredeti magasság felére.
@@ -960,65 +962,11 @@ A kezdő (H1) és végponti (H2) keresztmetszeti magasság nem teljesen függetl
 A kezdőponti keresztmetszeti magasság az elem kezdőpontján, a végponti érték pedig az elem végpontján kerül alkalmazásra. A H1 és H2 értékek a ![](./img/wp-content-uploads-2021-04-tapered_cmd_change.png) gomb megnyomásával megcserélhetők. Az értékek megcserélése után újra ki kell választani az elemet, hogy a változtatás megtörténjen.
 
 
-A változó keresztmetszetű rúd külpontos elhelyezésének szabálya összefügg az eredeti rúd tengelyének helyzetével.
-
-
-[![](https://www.Consteelsoftware.com/wp-content/uploads/2022/03/dial_valtozo_szelveny_kulpontossag-igazitasa.png)](./img/wp-content-uploads-2022-03-dial_valtozo_szelveny_kulpontossag-igazitasa.png)
-
-1. _A kisebbik szelvény súlypontja legyen a tengelyvonalon:_ a kisebb H értékű rúdvég középpontján átmenő tengelyt helyezi az eredeti rúd tengelyére
-
-2. _A nagyobbik szelvény súlypontja legyen a tengelyvonalon:_ a nagyobb H értékű rúdvég középpontján átmenő tengelyt helyezi az eredeti rúd tengelyére
-
-3. _Az eredeti szelvény súlypontja legyen a tengelyvonalon:_ a változó keresztmetszetű rúd szélét helyezi az eredeti rúd szélére
+A változó keresztmetszetű rúd külpontos elhelyezésének szabálya az eredeti rúd tengelyének helyzetéhez igazodik: az eredeti szelvény súlypontjának a tengelyvonalra kell kerülnie, így a változó keresztmetszetű rúd széle az eredeti rúd széléhez illeszkedik.
 
 
 A változó keresztmetszet helyzete lehet –z (a változó keresztmetszetű rúd bal oldala lesz párhuzamos az eredeti rúd tengelyével), szimmetrikus vagy +z (a változó keresztmetszetű rúd jobb oldala lesz párhuzamos az eredeti rúd tengelyével). A fenti definíciók határozzák meg a megadott magasságok külpontosságát a változó keresztmetszetű rúd helyi „z” koordinátatengelye mentén.
 
-
-Az alábbi ábrák a különböző paraméterek alkalmazásának hatásait mutatják:
-
-1. _A kisebbik szelvény súlypontja legyen a tengelyvonalon_: a kisebb H értékű rúdvég középpontján átmenő tengelyt helyezi az eredeti rúd tengelyére
-
-
-**-z**
-
-
-**szimmetrikus**
-
-
-**+z**
-
-
-[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/6-2-1-z-1.png)](./img/wp-content-uploads-2021-04-6-2-1-z-1.png)
-
-
-
-![](./img/wp-content-uploads-2021-04-6-2-1symmetric.png)
-
-
-[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/6-2-1z.png)](./img/wp-content-uploads-2021-04-6-2-1z.png)
-
-2. _A nagyobbik szelvény súlypontja legyen a tengelyvonalon_: a nagyobb H értékű rúdvég középpontján átmenő tengelyt helyezi az eredeti rúd tengelyére
-
-
-**-z**
-
-
-**szimmetrikus**
-
-
-**+z**
-
-
-[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/6-2-2-z.png)](./img/wp-content-uploads-2021-04-6-2-2-z.png)
-
-
-[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/6-2-2symmetric.png)](./img/wp-content-uploads-2021-04-6-2-2symmetric.png)
-
-
-[![](https://www.Consteelsoftware.com/wp-content/uploads/2021/04/6-2-2z.png)](./img/wp-content-uploads-2021-04-6-2-2z.png)
-
-3. _Az eredeti szelvény súlypontja legyen a tengelyvonalon:_ a változó keresztmetszetű rúd szélét helyezi az eredeti rúd szélére
 
 **-z**
 
@@ -1049,3 +997,68 @@ Egy változó keresztmetszetű rúd kiválasztása esetén nemcsak a rúd, hanem
 
 **Fontos tudni,** hogy változó keresztmetszetű elem esetén az automatikus végeselem generálás során új keresztmetszetek kerülnek előállításra a megfelelő keresztmetszeti magassággal. Az új keresztmetszetek külpontosan kerülnek elhelyezésre az elem középvonalán (kivétel szimmetrikus kiékelés esetén). A keresztmetszetek külpontossága miatt az igénybevételek is külpontossá válnak, amiknek a hatása megjelenik az analízis eredményekben (például változó keresztmetszetű keretsarok esetén, az erős tengelyi hajlító nyomaték egyensúlya csak akkor ál elő, ha figyelembe vesszük a normálerő külpontosságából keletkező extra nyomatékot).
 :::
+
+## Változó gerincmagasságú hegesztett I/H rúdelem
+
+![alt text](<img/New tapered.png>)
+
+Acélszerkezeteknél gyakran alkalmaznak hegesztett, lemezekből kialakított főtartókat, ahol a gerinc- és övlemezek vastagsága a tartó hosszában változhat, hogy az anyagfelhasználás a belső erőkhöz igazodva legyen optimalizálva.
+
+A „Változó gerincmagasságú hegesztett I/H rúdelem” funkció lehetővé teszi a gerinc- és övlemezek szerkeszthető listájának megadását, amelyek mentén a lemezvastagság változhat. A Consteel ezekből a listákból automatikusan létrehozza a megfelelő végeselem-modellt, így az elem felosztása nélkül teszi lehetővé a hatékony és rugalmas modellezést.
+
+A funkció használatához **hegesztett makró I- vagy H-szelvényű elemet kell elhelyezni a modellben**. Csak az elem **anyag** paramétere marad az eredeti értéken, minden más paramétert a funkció beállításai határoznak meg.
+
+:::info
+
+A funkció kizárólag hegesztett I- vagy H-szelvényű elemeken használható, és csak akkor, ha az elem helyi excentricitása megfelel a kiválasztott formának.
+
+- **Felső**: Bal-Lent, Közép-Lent, Jobb-Lent, Gerinc alsó pontja, Referencia vonal
+
+- **Szimmetrikus**: Bal-Közép, Közép-Közép, Jobb-Közép, Gerinc középső pontja, Referencia vonal
+
+- **Alsó**: Bal-Fent, Középső-Fent, Jobb-Fent, Gerinc felső pontja, Referencia vonal
+
+:::
+
+
+![alt text](<img/EN Web tapered welded I H member.png>)
+
+A funkcióablak két fő részre oszlik: az első az elem paraméterek, a második a lemez paraméterek számára. Minden paramétert be kell állítani az elhelyezés előtt.
+
+1. **Elem paraméterek**
+
+ Ebben a részben a rúdelemhez kapcsolódó paramétereket kell megadni:
+
+ - **Forma**: Lehet Felső, Szimmetrikus vagy Alsó, az elem lokális külpontosságától függően.
+
+ - **Gerinclemez magasságának kezdete és vége**: A kétirányú nyíl gombbal felcserélhető.
+
+ - **Felső és alsó övlemez szélessége**
+
+2. **Lemez paraméterek**: 
+
+ A **referencia pont** lehet az elem elején vagy végén.
+
+ A **lemez részeket** a ![alt text](img/plus.png)
+ gomb segítségével lehet megadni, külön-külön meghatározva a vastagságot és hosszúságot a felső övnél, a gerincnél és az alsó övnél.
+
+ A lemez részek definiálása után azok sorrendje húzással módosítható.
+
+ Emellett minden lemez fennmaradó részét a sor végén található szerkesztés ikonra kattintva lehet módosítani ![alt text](img/edit.png).
+
+ ![alt text](<img/EN Plate parameters.png>)
+
+A paraméterek beállítása után a Változó gerincmagasságú hegesztett I/H rúdelem az **Elhelyezés** gomb segítségével helyezhető el a modellben a már meglévő hegesztett elemen.
+
+![alt text](<img/EN place tapered I H.png>)
+
+Ha a kiválasztott forma nem egyezik meg a hegesztett elem lokális külpontosságával, a következő hibaüzenet jelenik meg:
+
+![alt text](<img/EN Place web tapered welded I H.png>)
+
+
+Sikeres elhelyezés esetén az elemet kijelölve az Objektum tulajdonságai panelen módosíthatók a lemez- és elem paraméterek a kék színű likekre kattintva.
+
+![alt text](<img/EN member properties.png>)
+
+![alt text](<img/EN modify bootom flange.png>)

@@ -19,6 +19,8 @@ A Keretsarok varázsló egy hasznos kiegészítő funkció, amelynek segítség�
 
 A mechanikai háttere a funkciónak az, hogy a – az általában merevített – keretsarok tartomány általában teljesen eltérő viselkedéssel rendelkezik, mint a keretsarokba bekötő rúdelemek. Mivel ezek a keretsarok tartományok relatíve rövidek, azért a viselkedését leginkább a nyírás befolyásolja, míg a bekötő oszlop, illetve gerenda elemek viselkedését a hajlítás.
 
+A funkció olyan rúdelem-folytonosságokhoz alkalmazható, amelyek **folytonos** vagy **félmerev** kialakításúak (a felhasználó határozza meg a végponti merevséget), így a keretsarok viselkedése megbízhatóan értékelhető.
+
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
