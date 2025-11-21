@@ -563,7 +563,7 @@ A képernyőn megjelenik az ikon neve, ha az egér mutatója az ikon fölött á
 
 ![alt text](img/geometriaful.png)
 
-A szerkesztéshez szükséges rajzolási, módosítási, méretezési és mérési funkciókat tartalmazza. A funkciók részletes bemutatását ld. a [_Geometria rajzolása_](../../category/drawing-geometry) c. fejezetben!
+A szerkesztéshez szükséges rajzolási, módosítási, méretezési és mérési funkciókat tartalmazza. A funkciók részletes bemutatását ld. a [_Geometria rajzolása_](../4_0_drawing-geometry/4_2_drawing.md) c. fejezetben!
 
 #### Szerkezeti elemek fül
 

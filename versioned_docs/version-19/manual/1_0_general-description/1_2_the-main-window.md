@@ -681,7 +681,7 @@ By approaching any of the icons with the cursor, the short name of the function 
 <!-- wp:paragraph -->
 
 It contains all the important CAD drawing and modification functions as well as dimensioning and measuring tools.  
-See the **_[Drawing Geometry](../../category/drawing-geometry)_** chapter for a detailed description of these functions.
+See the **_[Drawing Geometry](../4_0_drawing-geometry/4_2_drawing.md)_** chapter for a detailed description of these functions.
 
 <!-- /wp:paragraph -->
 
