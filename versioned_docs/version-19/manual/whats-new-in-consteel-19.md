@@ -79,6 +79,7 @@ This new flexibility makes load modeling much more intuitive and adaptable, espe
 **Beam element**s can now be positioned with defined **eccentricities** — similar to how loads, supports, and other components have long been handled. The range of available eccentricity options has been extended to include locations typical for welded built-up members, such as **the top of web**, **bottom of web**, and **mid-web**. This enhancement makes it much easier to model structures accurately with **flexible reference systems**.
 
 ![Eccentric member](img/Eccentric%20member.png)
+ *Eccentric member*
 
 ## TAPERED BUILT-UP MEMBERS MADE OF SEVERAL PLATES
 
@@ -87,6 +88,7 @@ In welded built-up members commonly used in metal buildings, the plate thickness
 The new **tapered welded built-up member** component eliminates this need — it allows defining **lists of plates** for flanges and webs with **different thicknesses** along the member. These lists can be freely edited, and Consteel automatically generates the corresponding finite element model, significantly simplifying and speeding up the modeling process.
 
 ![Tapered Built-up Members Made of Several Plates](img/Tapered%20Built-up%20Members%20Made%20of%20Several%20Plates.png)
+ *Tapered Built-up Members Made of Several Plates*
 
 ## MODEL REPAIR POSSIBILITIES
 
