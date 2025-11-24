@@ -83,6 +83,7 @@ Az elérhető excentricitási lehetőségek köre bővült, és már tartalmazza
 Ez a fejlesztés jelentősen megkönnyíti a rugalmas referenciarendszerekkel történő pontos szerkezeti modellezést.
 
 ![alt text](img/Külpontos%20rúdelem.png)
+
  *Külpontos rúdelem*
 
 ## TÖBB LEMEZBŐL ÁLLÓ HEGESZTETT VÁLTOZÓ KERESZTMETSZETŰ ELEMEK

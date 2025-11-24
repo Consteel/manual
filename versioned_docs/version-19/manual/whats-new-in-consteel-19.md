@@ -79,7 +79,8 @@ This new flexibility makes load modeling much more intuitive and adaptable, espe
 **Beam element**s can now be positioned with defined **eccentricities** — similar to how loads, supports, and other components have long been handled. The range of available eccentricity options has been extended to include locations typical for welded built-up members, such as **the top of web**, **bottom of web**, and **mid-web**. This enhancement makes it much easier to model structures accurately with **flexible reference systems**.
 
 ![Eccentric member](img/Eccentric%20member.png)
- *Eccentric member*
+  
+  *Eccentric member*
 
 ## TAPERED BUILT-UP MEMBERS MADE OF SEVERAL PLATES
 
