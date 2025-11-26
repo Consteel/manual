@@ -255,6 +255,8 @@ Available object attributes:
 | Finite element size of the flange | AverageEdgeLength_Flange                       |
 | Type of the constraint elements   | ShellDOFConstraint                             |
 | Line ID                           | Edge                                           |
+| Start point coordinates           | StartPointCoords                               |
+| End point coordinates             | EndPointCoords                                 |
 
 ### Sample code
 
@@ -287,6 +289,8 @@ GET Mem_ID1 AverageEdgeLength_Web AverageEdgeLength_Web
 GET Mem_ID1 AverageEdgeLength_Flange AverageEdgeLength_Flange
 GET Mem_ID1 ShellDOFConstraint ShellDOFConstraint
 GET Mem_ID1 Edge Edge
+GET Mem_ID1 StartPointCoords StartPointCoords
+GET Mem_ID1 EndPointCoords EndPointCoords
 ```
 
 ## Structural plate
@@ -843,6 +847,8 @@ Available object attributes:
 | Release ID                | ReleaseID                                      |
 | Position of connection    | InterfacePos                                   |
 | Rotation                  | Rotation                                       |
+| Start point coordinates   | StartPointCoords                               |
+| End point coordinates     | EndPointCoords                                 |
 
 ### Sample code
 
@@ -871,6 +877,8 @@ GET Link_ID1 Object_Type Object_Type
 GET Link_ID1 ReleaseID ReleaseID
 GET Link_ID1 InterfacePos InterfacePos
 GET Link_ID1 Rotation Rotation
+GET Link_ID1 StartPointCoords StartPointCoords
+GET Link_ID1 EndPointCoords EndPointCoords
 ```
 
 ## Smart link
@@ -889,6 +897,8 @@ Available object attributes:
 | Is Subbeam                          | IsSubBeam                                      |
 | Subbeam section ID                  | SubBeamSectionID                               |
 | Subbeam eccentricity type           | SubBeamEccType                                 |
+| Start point coordinates             | StartPointCoords                               |
+| End point coordinates               | EndPointCoords                                 |
 
 ### Sample code
 
@@ -930,6 +940,8 @@ GET SmartLinkID InterfacePos InterfacePos
 GET SmartLinkID IsSubBeam IsSubBeam
 GET SmartLinkID SubBeamSectionID SubBeamSectionID
 GET SmartLinkID SubBeamEccType SubBeamEccType
+GET SmartLinkID StartPointCoords StartPointCoords
+GET SmartLinkID EndPointCoords EndPointCoords
 ```
 
 ## Load group
