@@ -411,7 +411,6 @@ Available object attributes:
 | Start height              | Hstart                                         |
 | End height                | Hend                                           |
 | Beam eccentricity         | Format                                         |
-| Mod eccentricity          | ModEccentricity                                |
 
 ### Sample code
 
@@ -433,7 +432,6 @@ GET Tapered_ID1 OnMemberID OnMemberID
 GET Tapered_ID1 Hstart Hstart
 GET Tapered_ID1 Hend Hend
 GET Tapered_ID1 Format Format
-GET Tapered_ID1 ModEccentricity ModEccentricity
 ```
 
 ## Steel material
