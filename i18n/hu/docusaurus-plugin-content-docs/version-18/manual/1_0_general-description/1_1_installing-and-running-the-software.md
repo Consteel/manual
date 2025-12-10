@@ -53,6 +53,19 @@ A Consteel program futtatásához az alábbi szoftver és hardver követelménye
 - **Videó-kártya** 4 GB nem alaplapra integrált 
 - **Operációs rendszer** 64-bit Windows 11
 
+
+**Szükséges az IT-részlegnek valamit tennie ahhoz, hogy a Consteel működjön? (domain engedélyezés)**
+
+A Consteel az alábbi domainekkel van összeköttetésben:
+- https://consteelsoftware.com
+- https://auth.consteelsoftware.com
+- https://licence.consteelsoftware.com
+- https://crash.consteelsoftware.com
+- https://storage.steelspace.io
+- https://api.steelspace.io
+
+
+
 ## **A Consteel telepítése**
 
 A Consteel telepítéséhez indítsd el a letöltött telepítőfájlt, és kövesd a képernyőn megjelenő utasításokat. A program telepíthető kizárólag az akutális felhasználói fiókra (ajánlott), vagy minden felhasználó számára (ehhez rendszergazdai jogosultság szükséges). A következő lépésben el kell fogadni a licencszerződést. A telepítő ezután a program elemeit a megadott könyvtárba másolja (alapértelmezett könyvtár: C:\Users\<Felhasználónév>\AppData\Programs\Consteel xx, ahol az xx a verziószámot jelöli). Alapértelmezetten minden komponens ki van jelölve. 

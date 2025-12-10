@@ -81,13 +81,18 @@ Intel Core i7 vagy ennek megfelelő
 2 GB nem alaplapra integrált  
 64-bit Windows 10
 
-<!-- /wp:paragraph -->
 
-<!-- /wp:column -->
+**Szükséges az IT-részlegnek valamit tennie ahhoz, hogy a Consteel működjön? (domain engedélyezés)**
 
-<!-- /wp:columns -->
+A Consteel az alábbi domainekkel van összeköttetésben:
+- https://consteelsoftware.com
+- https://auth.consteelsoftware.com
+- https://licence.consteelsoftware.com
+- https://crash.consteelsoftware.com
+- https://storage.steelspace.io
+- https://api.steelspace.io
 
-<!-- wp:paragraph -->
+
 
 **Telepítés**
 
