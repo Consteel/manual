@@ -89,6 +89,19 @@ Intel Core i7 vagy ennek megfelelő
 
 <!-- wp:paragraph -->
 
+
+**Szükséges az IT-részlegnek valamit tennie ahhoz, hogy a Consteel működjön? (domain engedélyezés)**
+
+A Consteel az alábbi domainekkel van összeköttetésben:
+- https://consteelsoftware.com
+- https://auth.consteelsoftware.com
+- https://licence.consteelsoftware.com
+- https://crash.consteelsoftware.com
+- https://storage.steelspace.io
+- https://api.steelspace.io
+
+
+
 **Telepítés**
 
 <!-- /wp:paragraph -->
