@@ -87,6 +87,16 @@ Intel Core i7 or equivalent
 
 Installation needs administrative or power user rights. Without that, the hard lock driver and those .**dll** files, which are indispensable for the system is cannot be installed.
 
+**Does the IT team need to do anything to make Consteel work? (domain authorization)**
+
+Consteel connects to the following domains:
+- https://consteelsoftware.com
+- https://auth.consteelsoftware.com
+- https://licence.consteelsoftware.com
+- https://crash.consteelsoftware.com
+- https://storage.steelspace.io
+- https://api.steelspace.io
+
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->

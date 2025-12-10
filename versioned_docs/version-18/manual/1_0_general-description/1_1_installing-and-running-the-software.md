@@ -69,6 +69,17 @@ Intel Core i7 / i9 (gen 10 or newer) or AMD Ryzen 7
 Windows 11 64-bit
 
 
+**Does the IT team need to do anything to make Consteel work? (domain authorization)**
+
+Consteel connects to the following domains:
+- https://consteelsoftware.com
+- https://auth.consteelsoftware.com
+- https://licence.consteelsoftware.com
+- https://crash.consteelsoftware.com
+- https://storage.steelspace.io
+- https://api.steelspace.io
+
+
 ## **Installing Consteel**
 
 <!-- /wp:paragraph -->
