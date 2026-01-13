@@ -11,11 +11,9 @@ tags: [consteel, update]
 
 _**Bug fixes:**_
 
-
+- A representational error in the EPS model in the section module after regeneration was fixed.
 
 _**Improvements:**_
 
-
-
-_**Modifications:**_
+- The section EPS is now available in the section module for imported models.
 

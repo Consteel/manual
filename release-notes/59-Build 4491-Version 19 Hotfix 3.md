@@ -11,11 +11,8 @@ tags: [consteel, update]
 
 _**Bug fixes:**_
 
-
-
-_**Improvements:**_
-
-
+- Issues with loading sections from the library have been resolved.
 
 _**Modifications:**_
 
+- Updated the ‘No software access found’ dialog on the opening screen.

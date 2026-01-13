@@ -19,4 +19,4 @@ _**Bug fixes:**_
 
 _**Improvements:**_
 
-- Double click?
+- Double-click on the seat selection dialog.
