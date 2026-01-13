@@ -11,14 +11,12 @@ tags: [consteel, update]
 
 _**Bug fixes:**_
 
--  Issues during Import Center installation have been fixed.
--  Disappearance of member lines from Auto portions has been resolved.
--  Descript for 3D haunched hall creation has been fixed for unusual geometry.
+- Fire effect calculation problems on unprotected steel beams have been fixed.
+- Issues related to the Undo function have been fixed.
+- Placement issues in the Web tapered welded I/H member function have been corrected.
+- Issues using the Geometric repair tools on imported models have been fixed.
+- In certain cases, opening an existing model was challenging due to character coding in its access path. This bug has been fixed.
 
 _**Improvements:**_
 
-- Necessity of intumescent painting is now shown on Design result table in case of critical temperature calculations.
-
-_**Modifications:**_
-
-- csJoint.exe has been terminated
+- Double click?
