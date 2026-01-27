@@ -11,7 +11,7 @@ tags: [consteel, update]
 
 _**Bug fixes:**_
 
-- Issues with loading sections from the library have been resolved.
+- Duplicate sections created during IFC or API model imports are no longer generated.
 
 _**Modifications:**_
 
