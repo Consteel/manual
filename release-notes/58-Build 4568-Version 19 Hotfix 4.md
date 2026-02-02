@@ -10,7 +10,7 @@ tags: [consteel, update]
 
 _**Bug fixes:**_
 
-- Issues with loading sections from the library have been resolved.
+- Issues with loading sections from the library when IFC files were imported into models have been resolved. As a precaution, it is recommended to reopen models containing IFC files imported since version 19 and rerun the calculations in the new version.
 - Fixed an issue where node loads in older .smadsteel files changed when the file was opened multiple times.
 - Fixed an issue where imported circular hollow sections from IFC showed incorrect utilization due to a bimoment parameter.
 
