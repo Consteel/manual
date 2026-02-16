@@ -18,9 +18,9 @@ _**Bug fixes:**_
 
 - Corrected release start and end point visualization on rotated members.
 
-- Resolved an issue affecting certain models created in Consteel 18 when opened in earlier Consteel 19 versions. The error resulted in failed analyses and missing load combinations and was caused by incorrect handling of shear field eccentricity in Consteel 19.
+- Resolved an issue affecting certain models with eccentric members created in Consteel 18 when opened in earlier Consteel 19 versions. The error, caused by incorrect handling of shear field eccentricity in Consteel 19, could lead to failed analyses.
 
-- Resolved an issue affecting some example models where frame corner geometry became inaccurate after upgrading to Consteel 19. The error was caused by rounding of the haunch start position, leading to incorrect eccentricity calculations near member ends.
+- Resolved an issue affecting some models where frame corner geometry appeared inaccurate after upgrading to Consteel 19. The error was caused by rounding the haunch start position, which led to incorrect eccentricity calculations near member ends.
 
 - Fixed an issue where the frame corner symbol was displayed with an incorrect size in certain models. The correction ensures consistent and accurate graphical scaling.
 
@@ -28,7 +28,3 @@ _**Bug fixes:**_
 
 - Corrected incorrect section height values for T-HEB 200 and T-HEM 500 profiles in the section database. The geometric properties have been updated to the correct heights (T-HEB 200: 100 mm; T-HEM 500: 262 mm).
 
-
-_**Improvements:**_
-
-- Implemented a dedicated license key option for users who opted for customized development related to importing and converting files from external sources.
