@@ -40,45 +40,46 @@ The type of object to be created.
 
 <div style={{paddingBottom: '20px'}}> </div>
 
-| **Object type name**                                                  | **Object type**                |
-| --------------------------------------------------------------------- | ------------------------------ |
-| Structural members tab                                                | -                              |
-| [Structural member](#structural-member)                               | Structural_Member              |
-| [Structural Plate](#structural-plate)                                 | Structural_Plate               |
-| [Haunch](#haunch)                                                     | Haunched_Member                |
-| [Tapered member](#tapered-member)                                     | Tapered_Member                 |
-| [Rectangular column reinforcement](#rectangular-column-reinforcement) | RectangularColumnReinforcement |
-| [Circular column reinforcement](#circular-column-reinforcement)       | CircularColumnReinforcement    |
-| [Steel material](#steel-material)                                     | Steel                          |
-| [Coated steel material](#coated-steel-material)                       | Coated_Steel                   |
-| [Concrete material](#concrete-material)                               | Concrete                       |
-| [Rebar material](#rebar-material)                                     | Rebar                          |
-| [Point support](#point-support)                                       | Support_Point                  |
-| [Line support](#line-support)                                         | Support_Edge                   |
-| [Surface support](#surface-support)                                   | Support_Plate                  |
-| [Shear field](#shear-field)                                           | ShearField                     |
-| [Point support type](#point-support-type)                             | Support                        |
-| [Release type](#release-type)                                         | Release                        |
-| [Link](#link)                                                         | Link                           |
-| [Smart link](#smart-link)                                             | SmartLink                      |
-| [Design parameters for concrete column](#design-parameters-rcc)       | Design_Parameters_RCC          |
-| Loads tab                                                             | -                              |
-| [Load group](#load-group)                                             | LoadGroup                      |
-| [Load case](#load-case)                                               | LoadCase                       |
-| [Load combination](#load-combination)                                 | LoadCombination                |
-| [Point load](#point-load)                                             | NodeForce                      |
-| [Line load](#line-load)                                               | MemberForce                    |
-| [Surface load (uniform)](<#surface-load-(uniform)>)                   | PlateForce_Uniform             |
-| [Surface load (linear)](<#surface-load-(linear)>)                     | PlateForce_Linear              |
-| [Load transfer surface](#load-transfer-surface)                       | LoadTransferSurface            |
-| [Initial sway](#initial-sway)                                         | InitialSway                    |
-| Mass tab                                                              | -                              |
-| [Mass group](#mass-group)                                             | MassGroup                      |
-| [Mass case](#mass-case)                                               | MassCase                       |
-| [Mass combination](#mass-combination)                                 | MassCombination                |
-| [Point mass](#point-mass)                                             | NodeMass                       |
-| Other                                                                 | -                              |
-| [Portion](#portion)                                                   | Portion                        |
+| **Object type name**                                                                                                       | **Object type**                |
+| -------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |
+| Structural members tab                                                                                                     | -                              |
+| [Structural member](#structural-member)                                                                                    | Structural_Member              |
+| [Structural Plate](#structural-plate)                                                                                      | Structural_Plate               |
+| [Haunch](#haunch)                                                                                                          | Haunched_Member                |
+| [Tapered member](#tapered-member)                                                                                          | Tapered_Member                 |
+| [Rectangular column reinforcement](#rectangular-column-reinforcement)                                                      | RectangularColumnReinforcement |
+| [Circular column reinforcement](#circular-column-reinforcement)                                                            | CircularColumnReinforcement    |
+| [Steel material](#steel-material)                                                                                          | Steel                          |
+| [Coated steel material](#coated-steel-material)                                                                            | Coated_Steel                   |
+| [Concrete material](#concrete-material)                                                                                    | Concrete                       |
+| [Rebar material](#rebar-material)                                                                                          | Rebar                          |
+| [Point support](#point-support)                                                                                            | Support_Point                  |
+| [Line support](#line-support)                                                                                              | Support_Edge                   |
+| [Surface support](#surface-support)                                                                                        | Support_Plate                  |
+| [Shear field](#shear-field)                                                                                                | ShearField                     |
+| [Point support type](#point-support-type)                                                                                  | Support                        |
+| [Release type](#release-type)                                                                                              | Release                        |
+| [Link](#link)                                                                                                              | Link                           |
+| [Smart link](#smart-link)                                                                                                  | SmartLink                      |
+| [Design parameters for concrete column](#design-parameters-rcc)                                                            | Design_Parameters_RCC          |
+| Loads tab                                                                                                                  | -                              |
+| [Load group](#load-group)                                                                                                  | LoadGroup                      |
+| [Load case](#load-case)                                                                                                    | LoadCase                       |
+| [Load combination](#load-combination)                                                                                      | LoadCombination                |
+| [Point load](#point-load)                                                                                                  | NodeForce                      |
+| [Line load](#line-load)                                                                                                    | MemberForce                    |
+| [Surface load (uniform)](#surface-load-uniform)                                                                            | PlateForce_Uniform             |
+| [Surface load (linear)](#surface-load-linear)                                                                              | PlateForce_Linear              |
+| [Load transfer surface](#load-transfer-surface)                                                                            | LoadTransferSurface            |
+| [Prescribed displacement](#prescribed-displacement) <span style={{color:"MediumSeaGreen"}}>(since CS 19 build 4646)</span> | PresDisp                       |
+| [Initial sway](#initial-sway)                                                                                              | InitialSway                    |
+| Mass tab                                                                                                                   | -                              |
+| [Mass group](#mass-group)                                                                                                  | MassGroup                      |
+| [Mass case](#mass-case)                                                                                                    | MassCase                       |
+| [Mass combination](#mass-combination)                                                                                      | MassCombination                |
+| [Point mass](#point-mass)                                                                                                  | NodeMass                       |
+| Other                                                                                                                      | -                              |
+| [Portion](#portion)                                                                                                        | Portion                        |
 
 #### Object parameters:
 
@@ -159,7 +160,7 @@ Name of the structural member.
 
 #### Release start: {#Release-start-mem}
 
-Release type at the starting point of the structural member. Any previously created release type name can be used.
+Release type at the starting point of the structural member. Any previously created release type ID can be used. The accepted input is either a release type ID or the name of the release type with this syntax: "NAME: Release type name]".
 
 Consteel has these release types already created by default:
 
@@ -173,7 +174,7 @@ Consteel has these release types already created by default:
 
 #### Release end: {#Release-end-mem}
 
-Release type at the end point of the structural member. Any previously created release type name can be used. The premade and default parameter inputs are the same as in case of the [Release start](#Release-start-mem) parameter.
+Release type at the end point of the structural member. Any previously created release type ID can be used. The accepted input is either a release type ID or the name of the release type with this syntax: "NAME: Release type name]". The premade and default parameter inputs are the same as in case of the [Release start](#Release-start-mem) parameter.
 
 #### Eccentricity reference: {#Eccentricity-reference-mem}
 
@@ -273,8 +274,8 @@ CREATE Mem_ID1 Structural_Member "HEA 200"
 0 0 0
 0 0 1000
 Name "Member 1"
-ReleaseID_A Continuous
-ReleaseID_B Continuous
+ReleaseID_A "NAME: Continuous"
+ReleaseID_B "NAME: Continuous"
 EccType EccType_TM
 Eccentricity_y 0
 Eccentricity_z 0
@@ -613,7 +614,7 @@ A string of characters that is used to identify the object that is being created
 
 #### Section ID: {#Section-id-rcr}
 
-ID of the concrete section.
+ID of the concrete section. The accepted input is either a section ID or the name of the section with this syntax: "NAME: Section name]".
 
 #### Main rebar diameter: {#Main-rebar-diameter-rcr}
 
@@ -672,7 +673,7 @@ A string of characters that is used to identify the object that is being created
 
 #### Section ID: {#Section-id-ccr}
 
-ID of the concrete section.
+ID of the concrete section. The accepted input is either a section ID or the name of the section with this syntax: "NAME: Section name]".
 
 #### Main rebar diameter: {#Main-rebar-diameter-ccr}
 
@@ -907,7 +908,7 @@ A string of characters that is used to identify the object that is being created
 
 #### Member ID: {#Member-ID-psup}
 
-ID of the previously created structural member to which the support will be attached. The accepted input is either a member ID or the name of the member with this syntax: "NAME: [Member name]"
+ID of the previously created structural member to which the support will be attached. The accepted input is either a member ID or the name of the member with this syntax: "NAME: [Member name]".
 
 #### Support type: {#Support-type-psup}
 
@@ -1081,7 +1082,7 @@ This command is analogous with the surface support creation dialogue in Consteel
 ### Syntax
 
 **CREATE** \[Object ID] **Support_Plate** \[Plate ID] \[Support type]  
-Name [Object name]
+Name [Object name]  
 CoordSys [Coordinate system]
 
 ### Command parameters
@@ -1381,7 +1382,7 @@ This command is analogous with the link element creation dialogue in Consteel:
 \[x2] \[y2] \[z2]  
 Rotation \[Rotation]  
 InterfacePos [Interface position]  
-ReleaseID \[Release]  
+ReleaseID \[Release ID]  
 FromObjectID [From object ID]  
 ToObjectID [To object ID]
 
@@ -1394,7 +1395,7 @@ ToObjectID [To object ID]
 | [x2, y2, z2](#x2,-y2,-z2-link)                 | Required       | Numerical        | Local, variable   |
 | [Rotation](#Rotation-link)                     | Optional       | Numerical        | Local, variable   |
 | [Interface position](#Interface-position-link) | Optional       | Numerical        | Local, variable   |
-| [Release](#Release-link)                       | Optional       | String           | Local, variable   |
+| [Release ID](#Release-ID-link)                 | Optional       | String           | Local, variable   |
 | [From object ID](#From-object-ID-link)         | Optional       | Object ID        | Local, variable   |
 | [To object ID](#To-object-ID-link)             | Optional       | Object ID        | Local, variable   |
 
@@ -1418,9 +1419,9 @@ Axial rotation of the local coordinate system of the link in degrees. Default: 0
 
 The position of the interface, or release along the length of the link. Acceptable inputs are decimal fraction numbers from 0 to 1. Default: 0.
 
-#### Release: {#Release-link}
+#### Release ID: {#Release-ID-link}
 
-The type of release at the interface position. Any previously created release type name can be used.
+The type of release at the interface position. Any previously created release type ID can be used. The accepted input is either a release type ID or the name of the release type with this syntax: "NAME: Release type name]".
 
 Consteel has these release types already created by default:
 
@@ -1468,7 +1469,7 @@ CREATE Link_ID1 Link
 1000 0 600
 Rotation 20
 InterfacePos 0.5
-ReleaseID yy
+ReleaseID "NAME: yy"
 FromObjectID Member_ID1
 ToObjectID Member_ID2
 ```
@@ -1486,7 +1487,7 @@ This command is analogous with the smart link creation dialogue in Consteel:
 MainBeamEccType \[Main beam eccentricity type]  
 MainBeamEccY \[Main beam eccentricity y]  
 MainBeamEccZ \[Main beam eccentricity z]  
-ReleaseID \[Release]  
+ReleaseID \[Release ID]  
 InterfacePos_CalcType \[Interface position calculation type]  
 InterfacePos \[Interface position]  
 IsSubBeam \[Is Subbeam]  
@@ -1556,7 +1557,7 @@ Connection eccentricity to the main section in the local z direction.
 
 #### Release ID: {#Release-id-smartlink}
 
-The type of release at the interface position. Any previously created release type name can be used. If release type name is used, then it should be prefixed with "NAME: ".
+The type of release at the interface position. Any previously created release type ID can be used. The accepted input is either a release type ID or the name of the release type with this syntax: "NAME: Release type name]".
 
 Consteel has these release types already created by default:
 
@@ -1966,7 +1967,7 @@ This command is analogous with the point load creation dialogue in Consteel:
 
 ### Syntax
 
-**CREATE** \[Object ID] **NodeForce** \[Load case ID] \[Member ID] \[Coordinate system]
+**CREATE** \[Object ID] **NodeForce** \[Load case ID] \[Member ID] \[Coordinate system]  
 \[x] \[y] \[z]  
 \[Fx] \[Fy] \[Fz]  
 \[Mx] \[My] \[Mz]  
@@ -2218,7 +2219,7 @@ EccType EccType_TM
 
 ![](img\wp-content-uploads-2022-01-image.png)
 
-## Surface load (uniform)
+## Surface load (uniform) {#surface-load-uniform}
 
 This command is analogous with the surface load creation dialogue with the uniform tab chosen in Consteel:
 
@@ -2304,7 +2305,7 @@ CREATE SLoad_ID1 PlateForce_Uniform LCase_ID1 Plate_ID1 local
 
 ![](img\wp-content-uploads-2021-10-image-6.png)
 
-## Surface load (linear)
+## Surface load (linear) {#surface-load-linear}
 
 This command is analogous with the surface load creation dialogue with the linear tab chosen in Consteel:
 
@@ -2470,6 +2471,78 @@ CREATE LTS_ID1 LoadTransferSurface "LTS 1"
 3000 0 0
 3000 3000 0
 0 3000 0
+```
+
+## Prescribed displacement
+
+This command is analogous with the prescribed displacement creation dialogue in Consteel:
+
+![](img\Create_PrescribedDisplacement_Img_v01.png)
+
+### Syntax
+
+**CREATE** \[Object ID] **PresDisp** \[Load case ID] \[Force on ID]  
+\[Dx] \[Dy] \[Dz]  
+\[Rx] \[Ry] \[Rz]
+
+### Command parameters
+
+| **Command parameter**               | **Assignment** | **Value format** | **Input options** |
+| ----------------------------------- | -------------- | ---------------- | ----------------- |
+| [Load case ID](#Load-case-ID-presd) | Required       | String           | Local, variable   |
+| [Force on ID](#Force-on-ID-presd)   | Required       | String           | Local, variable   |
+| [Dx, Dy, Dz](#dx,-dy,-dz-presd)     | Required       | Numerical        | Local, variable   |
+| [Rx, Ry, Rz](#rx,-ry,-rz-presd)     | Required       | Numerical        | Local, variable   |
+
+#### Load case ID: {#Load-case-ID-presd}
+
+ID of the load case that will contain the prescribed displacement. The accepted input is either a load case ID or the name of a load case with this syntax: "NAME: [Load case name]"
+
+#### Force on ID: {#Force-on-ID-presd}
+
+ID of the point support to which the prescribed displacement will be attached. The accepted input is either a point support ID or the name of the point support with this syntax: "NAME: [point support name]"
+
+#### Dx, Dy, Dz: {#dx,-dy,-dz-presd}
+
+Displacement components of the prescribed displacement.
+
+#### Rx, Ry, Rz: {#rx,-ry,-rz-presd}
+
+Rotation components of the prescribed displacement.
+
+### Sample code
+
+**Command only:**
+
+```
+CREATE PresDispID PresDisp $Basic_LCase_ID SupID1
+0 0 -10
+0 0 0
+```
+
+**With added prerequisites (section, member, support point creation and load case id retrieval):**
+
+```
+LOAD_SECTION_MACRO SecID WLD-IH "I 200 Welded" "S 235 EN 10025-2" 100 10 200 6 100 10
+
+CREATE Member_ID1 Structural_member "I 200 Welded"
+0 0 0
+6000 0 0
+
+CREATE SupID1 Support_Point Member_ID1 x,y,z,xx
+0 0 0
+
+CREATE SupID2 Support_Point Member_ID1 y,z,xx
+6000 0 0
+
+FILTER LCase_ID_list
+objecttypes loadcase
+
+ARRAY_GET LCase_ID_list 0 Basic_LCase_ID
+
+CREATE PresDispID PresDisp $Basic_LCase_ID SupID2
+0 0 -10
+0 0 0
 ```
 
 ## Initial sway

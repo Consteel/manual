@@ -54,6 +54,7 @@ Object IDs from the following object types are accepted:
   - [Line load](#line-load)
   - [Surface load](#surface-load)
   - [Load transfer surface](#Load-transfer-surface)
+  - [Prescribed displacement](#prescribed-displacement)
   - [Initial sway](#initial-sway)
 - Mass tab:
   - [Mass group](#mass-group)
@@ -1312,6 +1313,61 @@ GET LTS_ID1 BeamDefType BeamDefType
 GET LTS_ID1 BeamIDs BeamIDs
 GET LTS_ID1 DistribMethod DistribMethod
 GET LTS_ID1 LoadEccZ LoadEccZ
+```
+
+## Prescribed displacement
+
+Available object attributes:
+
+| **Object attribute name** | **Object attribute** (type this into Descript) |
+| ------------------------- | ---------------------------------------------- |
+| Name                      | Name                                           |
+| Load case ID              | LoadCaseID                                     |
+| Force on ID               | ForceOnID                                      |
+| X displacement            | X                                              |
+| Y displacement            | Y                                              |
+| Z displacement            | Z                                              |
+| X rotation                | Mx                                             |
+| Y rotation                | My                                             |
+| Z rotation                | Mz                                             |
+
+### Sample code
+
+**All available attributes + object creation:**
+
+```
+LOAD_SECTION_MACRO SecID WLD-IH "I 200 Welded" "S 235 EN 10025-2" 100 10 200 6 100 10
+
+CREATE Member_ID1 Structural_member "I 200 Welded"
+0 0 0
+6000 0 0
+
+CREATE SupID1 Support_Point Member_ID1 x,y,z,xx
+0 0 0
+
+CREATE SupID2 Support_Point Member_ID1 y,z,xx
+6000 0 0
+
+FILTER LCase_ID_list
+objecttypes loadcase
+
+ARRAY_GET LCase_ID_list 0 Basic_LCase_ID
+
+CREATE PresDispID PresDisp $Basic_LCase_ID SupID2
+0 0 -10
+0 0 0
+
+SET PresDispID Name "New name"
+
+GET PresDispID Name Name
+GET PresDispID ForceOnID ForceOnID
+GET PresDispID LoadCaseID LoadCaseID
+GET PresDispID X X
+GET PresDispID Y Y
+GET PresDispID Z Z
+GET PresDispID Mx Mx
+GET PresDispID My My
+GET PresDispID Mz Mz
 ```
 
 ## Initial sway
