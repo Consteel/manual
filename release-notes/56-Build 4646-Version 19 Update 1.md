@@ -22,7 +22,7 @@ _**Bug fixes:**_
 
 - Fixed the representation of eccentric LTS load distribution in legacy CS17-AISC models when opened in CS19, ensuring that element highlighting and smartlink endpoints display correctly without affecting the underlying calculations.
 
--Resolved the issue preventing cloud upload and download of models, restoring proper functionality for file sharing across ConSteel versions.
+- Resolved the issue preventing cloud upload and download of models, restoring proper functionality for file sharing across ConSteel versions.
 
 - Corrected the thickness tolerance calculation for EN 10143 S550GD profiles in ConSteel, ensuring accurate tc values for S320 and S550 materials according to the standard.
 
