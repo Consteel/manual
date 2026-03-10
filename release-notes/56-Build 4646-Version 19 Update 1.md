@@ -22,7 +22,7 @@ _**Bug fixes:**_
 
 - Fixed the representation of eccentric LTS load distribution in legacy CS17-AISC models when opened in CS19, ensuring that element highlighting and smartlink endpoints display correctly without affecting the underlying calculations.
 
--Resolved the issue preventing cloud upload and download of models, restoring proper functionality for file sharing across ConSteel versions.
+- Resolved the issue preventing cloud upload and download of models, restoring proper functionality for file sharing across ConSteel versions.
 
 - Corrected the thickness tolerance calculation for EN 10143 S550GD profiles in ConSteel, ensuring accurate tc values for S320 and S550 materials according to the standard.
 
@@ -70,7 +70,7 @@ _**Modifications:**_
 
 - Added a confirmation prompt during the copy operation when the action would create duplicated elements. Users can choose to proceed with the duplication or cancel the operation and return to the current selection.
 
-- Modified element deletion behavior so that removing an element no longer deletes its associated line, preserving the line while maintaining proper database relationships.
+- Modified element deletion behavior so that removing an element no longer deletes its associated line, preserving the line while maintaining proper database relationships. Additionally, in Line View, if a selection is made, only the line is selected and the bar member is not. To select the bar member, a different view must be used.
 
 
 _**Steelspace-related bug fixes:**_
