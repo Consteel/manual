@@ -70,7 +70,7 @@ _**Modifications:**_
 
 - Added a confirmation prompt during the copy operation when the action would create duplicated elements. Users can choose to proceed with the duplication or cancel the operation and return to the current selection.
 
-- Modified element deletion behavior so that removing an element no longer deletes its associated line, preserving the line while maintaining proper database relationships.
+- Modified element deletion behavior so that removing an element no longer deletes its associated line, preserving the line while maintaining proper database relationships. Additionally, in Line View, if a selection is made, only the line is selected and the bar member is not. To select the bar member, a different view must be used.
 
 
 _**Steelspace-related bug fixes:**_
