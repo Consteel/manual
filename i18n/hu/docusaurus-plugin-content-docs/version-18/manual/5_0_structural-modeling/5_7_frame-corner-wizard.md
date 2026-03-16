@@ -81,9 +81,25 @@ Vezérlőpult
 
 \#7 - Torzulás ellen merev keretsarok: doboz kialakítása csavarozott vagy hegesztett kapcsolat egy vagy két diagonális merevítőbordával megerősítve. Szomszédos elemek között definiált kényszerelemek elhelyezése, melynek hatására a kapcsolat zónájának határán a csomópontok 7. szabadságfokú elmozdulásai zérus értékűek lesznek.
 
-<!-- /wp:paragraph -->
+Általános topológiájú (#4) keretsarok az alábbi **makrószelvényekből** álló, egy síkban helyezkedő csatlakozó elemekre helyezhető el:
 
-<!-- wp:image {"align":"center","id":34785,"sizeSlug":"large","linkDestination":"media","className":"is-style-editorskit-rounded"} -->
+* WeldedIorH
+* RolledIorH
+* RolledI
+* W_Maltese
+* W_HalfMaltese
+* WeldedC
+* Iplus2HalfI
+* HalfMaltese
+
+A **makrószelvények** a [Szelvénykezelő](../5_0_structural-modeling/5_2_line-members.md) dialógról érhetők el.
+
+A keretsarok elhelyezéséhez oszlopra és gerendára van szükség. Az egyenes tengelyű rudak szétválogatása az alábbi szabály szerint történik:
+
+* oszlopok (90±15 fok az XY síktól)
+* gerendák (±75 fok az XY síktól)
+
+Meghatározott topológiájú keretsarok (#5, #6, #7) definiálásának további feltétele, hogy a kapcsolódó rudak között az átvitelt biztosító kényszer elhelyezhető legyen. A kényszer mindig két olyan elem között jön létre, amelyek egymáshoz viszonyított hajlásszöge 90±30 fok.
 
 ![](img\wp-content-uploads-2022-04-dial_keretsarok_info-1024x507.png)
 
