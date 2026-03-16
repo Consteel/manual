@@ -73,9 +73,26 @@ Functions of the frame corner wizard dialogue:
 
 \#7 - Box-type stiffened bolted or welded joint with additional 1 or 2 diagonal stiffener(s): Placement of a constraint element between neighboring elements, resulting in no displacements of 7. DOF of their nodes located at the boundary of the corner zones.
 
-<!-- /wp:paragraph -->
+The general topology (default corner) #4 frame corner can be placed on connected elements in the same plane, made from the following **macro sections**:
 
-<!-- wp:image {"align":"center","id":8837,"width":990,"height":490,"sizeSlug":"full","linkDestination":"media"} -->
+* WeldedIorH
+* RolledIorH
+* RolledI
+* W_Maltese
+* W_HalfMaltese
+* WeldedC
+* Iplus2HalfI
+* HalfMaltese
+
+The **macro sections** can be accessed from the [Section Manager](../5_0_structural-modeling/5_2_line-members.md) dialog.
+
+Placing the frame corner requires both a column and a beam. Straight-axis members are classified according to the following rule:
+
+* Columns (90±15 degrees from the XY plane)
+* Beams (±75 degrees from the XY plane)
+
+Further conditions for defining frame corners with specific topologies (#5, #6, #7) are that a constraint ensuring load transfer can be placed between the connected members. The constraint is always created between two elements whose relative inclination is 90±30 degrees.
+
 
 ![](img\wp-content-uploads-2021-04-6-7-Frame-corner-zones.png)
 
