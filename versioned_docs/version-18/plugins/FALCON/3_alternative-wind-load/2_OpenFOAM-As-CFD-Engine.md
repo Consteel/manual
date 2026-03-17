@@ -78,3 +78,49 @@ The k-epsilon model is relatively simple and computationally efficient, making i
 Computational Fluid Dynamics (CFD) solvers are pivotal components of numerical simulations that enable the study and analysis of fluid flow and its interactions with solid structures. These solvers encompass a diverse range of mathematical and computational techniques, offering the capability to simulate complex fluid dynamics scenarios that may be challenging or impractical to study through physical experiments alone.
 
 CFD solvers work by discretizing the governing equations of fluid motion (Navier-Stokes equations) into a numerical grid or mesh that spans the computational domain. This mesh is composed of discrete cells or elements where fluid properties are computed and updated at discrete time steps. The choice of solver depends on the type of flow being simulated, the level of accuracy required, and computational resources available.
+
+### Compliance Notice
+
+#### **Open-Source Software Notice – OpenFOAM**
+In order to perform the wind tunnel simulation, the Licensor uses the **OpenFOAM (Open Field Operation and Manipulation) open-source C++ toolbox**.
+
+In particular, a natively compiled OpenFOAM® version from CFD Support called "OpenFOAM® for Windows", version 20.09, is utilized. The source code is based on the OpenFOAM version distributed via openfoam.org and it is included in the installation of the FALCON program. OpenFOAM is licensed under the **GNU General Public License, version 3 (GPLv3)**. The Licensor uses the OpenFOAM software **with modification**, altering its source code as specificed below.
+
+#### **Modified OpenFOAM Components**
+This product distributes a **modified version** of the following OpenFOAM component:
+
+* Library: libatmosphericModels
+
+* Origin: OpenFOAM for Windows, version 20.09, developed by CFD Support
+
+* License: GNU General Public License v3 (GPLv3)
+
+The modifications were for the purpose of extending the atmospheric modelling functionality to adapt the requirements of the industry standards.
+
+#### **Source Code Availability**
+In accordance with the requirements of the GNU General Public License v3, the **complete corresponding source code** for the OpenFOAM components used in this product, including all modifications made by Consteel Solutions Ltd, is available at:
+
+**\AppData\Local\ConSteel\Plugins\FALCON\”version number”\src** 
+
+The source code is provided under the terms of the **GNU General Public License v3**, without any additional restrictions.
+
+#### **License Text**
+A copy of the **GNU General Public License, version 3**, is provided with this product and is also available [here](https://www.gnu.org/licenses/gpl-3.0.html).
+
+
+#### **Separation from Proprietary Software**
+The OpenFOAM components are used as an **independent solver engine**.
+All proprietary components of this product, including but not limited to:
+
+* graphical user interface (GUI),
+
+* preprocessing tools,
+
+* postprocessing tools,
+
+* workflow automation,
+
+are **separate works** and are **not derived from OpenFOAM code**. They are **not licensed under the GPL** and are distributed under the terms specified by Consteel Solutions Ltd.
+
+#### **Trademark Notice**
+This offering is not approved or endorsed by OpenCFD Limited, a producer and distributor of the OpenFOAM software via www.openfoam.com and owner of the OPENFOAM® and OpenCFD® trademarks.
