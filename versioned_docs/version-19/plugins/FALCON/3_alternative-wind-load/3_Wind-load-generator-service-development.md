@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 ---
-# Wind load generator service development
+# FALCON as the Wind Load Generator Service
 
 In the early stages of the implementation of simulation methodologies a clear need has been formulated to develop a service which is capable to provide a solution specifically for structural engineers to effectively and conveniently use the OpenFOAM CFD toolbox.
 
