@@ -19,6 +19,10 @@ Dxf kiterjesztésű fájlok importálásához a _**Fájl**_ menü _**Import**_ o
 
 Ekkor megjelenik a _**DXF beolvasás**_ ablaka, és egyúttal egy „File megnyitás” dialóg is, ahol ki kell választani az importálandó dxf fájlt. A fájl kiválasztása és megnyitása után a rajz megjelenik a modell térben, de még nem kerül véglegesen elhelyezésre. A DXF beolvasás dialógon lehet a szükséges paraméterek megadás után a beolvasást véglegesíteni.
 
+:::info
+Csak az AutoCAD 2010-zel kompatibilis DXF fájlok (DXF R24 formátum) vagy korábbi verziók támogatottak. Amennyiben a rajzi elemek AutoCAD blokkokban vannak tárolva, a blokkok exportálása szükséges a Consteel számára készített DXF fájl létrehozása előtt.
+:::
+
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","id":32434,"width":325,"height":464,"sizeSlug":"full","linkDestination":"media"} -->

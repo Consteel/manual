@@ -22,8 +22,9 @@ A windows file opening dialog will pop-up, where the dxf file has to be selected
 
 <!-- wp:image {"align":"center","id":7580,"width":269,"height":375,"sizeSlug":"full","linkDestination":"media"} -->
 
-![alt text](../../../version-17/manual/2_0_file-handling/img/DXFimport.png)
-
+:::info
+Only DXF files compatible with AutoCAD 2010 (DXF R24 format) or earlier are supported. If drawing elements are stored within an AutoCAD block, please export the blocks before creating the DXF file for Consteel.
+:::
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
