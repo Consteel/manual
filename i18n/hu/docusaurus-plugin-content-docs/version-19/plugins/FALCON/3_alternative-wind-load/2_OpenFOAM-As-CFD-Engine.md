@@ -74,8 +74,49 @@ A k-epsilon modell a k és ε szállítási egyenleteit oldja meg, figyelembe v�
 
 A k-epsilon modell viszonylag egyszerű és számítási szempontból hatékony, ezért népszerű választás a mérnöki szimulációk széles spektrumában. Azonban nem biztos, hogy pontosan megragadja bizonyos turbulens áramlások komplexitásait, különösen azokat, amelyek erős örvénylő vagy anizotróp viselkedést mutatnak. Ilyen esetekben előnyösebb lehet a fejlettebb turbulencia modellek alkalmazása, mint például a Reynolds Stress Model (RSM) vagy a Nagy Örvény Szimuláció (LES). A turbulencia modell kiválasztása az áramlás jellegétől és a kívánt pontosságtól függ.
 
-### Számoldó algoritmusok     
+### Megoldók (solvers)     
     
-A számításos folyadékdinamika (CFD) solvers kulcsfontosságú elemei a numerikus szimulációknak, amelyek lehetővé teszik a folyadék áramlásának és a szilárd struktúrákkal való kölcsönhatások tanulmányozását és elemzését. Ezek a solvers különböző matematikai és számítástechnikai technikákat alkalmaznak, és képesek szimulálni az összetett folyadékdinamikai forgatókönyveket, amelyek fizikális kísérletekkel nehezen vagy egyáltalán nem tanulmányozhatók.
+A számítógépes áramlástan (CFD) megoldók (solver) kulcsfontosságú elemei a numerikus szimulációknak, amelyek lehetővé teszik a folyadék áramlásának és a szilárd struktúrákkal való kölcsönhatások tanulmányozását és elemzését. Ezek a megoldók (solver) különböző matematikai és számítástechnikai technikákat alkalmaznak, és képesek szimulálni az összetett áramlástani forgatókönyveket, amelyek fizikális kísérletekkel nehezen vagy egyáltalán nem tanulmányozhatók.
 
-A CFD solvers úgy működnek, hogy a folyadék mozgásának irányító egyenleteit (Navier-Stokes egyenletek) numerikus rácsba vagy hálóba diszkrétálják, amely átfogja a számított teret. Ez a háló diszkrét cellákból vagy elemekből áll, ahol a folyadék tulajdonságait számolják és frissítik az egyes diszkrét időpontokban. A választott solver függ az áramlás típusától, a szükséges pontosságtól és a rendelkezésre álló számítási erőforrásoktól.
+A CFD megoldók (solver) úgy működnek, hogy a folyadék mozgásának irányító egyenleteit (Navier-Stokes egyenletek) numerikus rácsba vagy hálóba diszkrétálják, amely átfogja a számított teret. Ez a háló diszkrét cellákból vagy elemekből áll, ahol a folyadék tulajdonságait számolják és frissítik az egyes diszkrét időpontokban. A választott megoldó (solver) függ az áramlás típusától, a szükséges pontosságtól és a rendelkezésre álló számítási erőforrásoktól.
+
+### Megfelelőségi nyilatkozat
+
+#### Nyílt forráskódú szoftverre vonatkozó közlemény – OpenFOAM
+A szélcsatorna-szimuláció elvégzéséhez a Licencadó a **OpenFOAM (Open Field Operation and Manipulation) nyílt forráskódú C++ eszköztárat** használja.
+
+A CFD Support által fejlesztett, natívan fordított „OpenFOAM® for Windows” 20.09-es verzióját alkalmazzák. A forráskód az openfoam.org weboldalon keresztül terjesztett OpenFOAM verzión alapul, és a FALCON program telepítési csomagjában megtalálható. Az OpenFOAM a **GNU General Public License, 3. verziója (GPLv3)** hatálya alá tartozik. A Licencadó az OpenFOAM szoftvert **módosított formában** használja, a forráskódot az alábbiak szerint megváltoztatva.
+
+#### Módosított OpenFOAM komponensek
+Ez a termék az OpenFOAM következő komponensének **módosított verzióját** tartalmazza:
+
+* Könyvtár: libatmosphericModels
+* Eredet: OpenFOAM for Windows, 20.09-es verzió, fejlesztő: CFD Support
+* Licenc: GNU General Public License v3 (GPLv3)
+
+A módosítások célja az volt, hogy az ipari szabványoknak megfelelően kiterjesszék a légköri modellezési funkciókat.
+
+#### Forráskód elérhetősége
+A GNU General Public License v3 előírásainak megfelelően az ebben a termékben használt OpenFOAM **komponensek teljes, megfelelő forráskódja**, beleértve a Consteel Solutions Ltd. által végzett valamennyi módosítást, az alábbi helyen érhető el:
+
+**\AppData\Local\ConSteel\Plugins\FALCON\„verziószám”\src**
+
+A forráskódot a **GNU General Public License v3** feltételei szerint tesszük közzé, további korlátozások nélkül.
+
+#### Licenc szöveg
+**A GNU General Public License, 3**. verziójának egy példánya megtalálható e termékben, valamint elérhető [itt](https://www.gnu.org/licenses/gpl-3.0.html).
+
+#### Elkülönítés a tulajdonosi szoftverektől
+Az OpenFOAM komponensek **független megoldómotorként** kerülnek felhasználásra.
+A termék minden tulajdonosi komponense, beleértve, de nem kizárólagosan az alábbiakat:
+
+* grafikus felhasználói felület (GUI),
+* előfeldolgozó eszközök,
+* utófeldolgozó eszközök,
+* munkafolyamat-automatizálás,
+**önálló alkotásnak** minősül, és **nem az OpenFOAM kódjából származik**.
+Ezek **nem GPL licenc alatt állnak**, és a Consteel Solutions Ltd. által meghatározott feltételek szerint kerülnek terjesztésre.
+
+##### Védjegy közlemény
+Ez a termék nem az OpenCFD Limited cég által jóváhagyott vagy támogatott ajánlat.
+Az OpenCFD Limited az OpenFOAM szoftver előállítója és forgalmazója openfoam.com, valamint az OPENFOAM® és OpenCFD® védjegyek tulajdonosa.
