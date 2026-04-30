@@ -10,69 +10,44 @@ tags: [consteel, update]
 
 _**Bug fixes:**_
 
-- Fixed an issue where changes to dynamic factors were not immediately reflected in the model. The values now update correctly without requiring manual switching of the load combination selection.
+- Fixed an issue where after creating a new user-defined design standard based on a predefined one, roof angle parameters were set to zero and became non-editable. Roof angles now retain correct values and can be modified as expected.
 
-- Corrected inaccuracies in section height data for multiple T-profile sections to ensure proper geometric representation.
+- Fixed an issue where the program could not locate snap points at the beginning or end of an arc, a problem that also persisted in Consteel 17.
 
-- Corrected the calculation of shear field eccentricity in the decomposition module, ensuring accurate handling of eccentric shear distributions.
+- Fixed an issue where point‑edge movement of wind surfaces caused an immediate freeze in Consteel 19 (while Consteel 18 only deleted loads, which could be regenerated). The problem was that the bounding box calculation considered only bars and plates, ignoring load‑transfer surfaces; this also caused wind direction symbols to appear incorrectly. Both issues are now resolved.
 
-- Fixed an issue where flange brace elements were not properly updating with connected Smart Link changes, ensuring consistent behavior after modifications.
+- Fixed an issue where some valid models were incorrectly reported as corrupted when opened. The program now opens these models normally without displaying an error message.
 
-- Fixed an issue where haunches were not applied in connections in specific cases, ensuring correct geometry and representation in affected models.
+- Fixed an issue where models created offline would unexpectedly force an online login without explanation. Offline‑created models now work correctly without requiring unnecessary online authentication.
 
-- Fixed the representation of eccentric LTS load distribution in legacy CS17-AISC models when opened in CS19, ensuring that element highlighting and smartlink endpoints display correctly without affecting the underlying calculations.
+- Fixed an issue where the rho factor calculation for certain sections returned a negative value. Rho is now correctly computed as a positive value for all section types as expected.
 
-- Resolved the issue preventing cloud upload and download of models, restoring proper functionality for file sharing across ConSteel versions.
+- Fixed an issue where partial wind loads distributed along a transfer element could overlap when multiple load segments were applied. This caused unrealistically high load concentrations on the first purlin near the eaves. Load distribution is now handled correctly, ensuring non-overlapping segments and accurate load values across all affected members.
 
-- Corrected the thickness tolerance calculation for EN 10143 S550GD profiles in ConSteel, ensuring accurate tc values for S320 and S550 materials according to the standard.
+- Fixed an issue where internal wind pressure was not generated during wind load creation, resulting in load cases with zero internal pressure values. The problem occurred when internal pressure objects were present in the model but not properly assigned to wind surfaces, especially in legacy or imported models. Internal pressure is now correctly detected and applied, and values are properly included when regenerating wind loads.
 
-- Fixed the behavior of the fireproof coating thickness determination checkbox so that it correctly retains its on/off state after using the Apply button, preventing unintended automatic reactivation.
+- Fixed an issue where certain DXF files could not be imported. DXF import has been updated to support newer formats, and the loading process now works reliably.
 
-- Corrected the distribution of generated stepped wind loads on eccentric load transfer elements so that the loads are properly applied to all selected purlins, ensuring consistent behavior across the structure.
+- Fixed an issue in line view where the copy function did not place duplicated elements, leaving them stuck in a preview (green) state. Copy now works correctly in line view.
 
-- Fixed the issue with eccentric load handling, ensuring correct internal forces and deflections for both distributed and concentrated loads across all beam elements.
+- Fixed an issue where the buckling (eigenvalue) analysis checkbox state was displayed incorrectly in the Analysis Settings. The settings are now shown and applied consistently, preventing unintended eigenvalue or load case calculations.
 
-- Fixed the crash in CS19 that occurred in specific cases when moving wind surface points or edges. The update ensures loads are regenerated correctly and database commands are properly managed to avoid conflicts on the same object.
+- Fixed an issue where the warning about insufficient eigenvalues (“The critical parameter did not reach the required limit, increase the number of eigenvalues”) was not displayed. The warning is now correctly shown when applicable.
+ 
+- Fixed an issue where section graphics did not update after modifications in the Section module.
 
-- Fixed the smart link behavior so that flange braces correctly follow main beam height changes. Both regular and tapered elements now update consistently, and reverting the height no longer breaks the connections.
+- Fixed an issue where IDEA export verification was not working correctly with the latest version.
 
-- Fixed the X-brace tension bar issue: planar elements no longer incorrectly receive LTS loads. After the update, loads must be refreshed to regenerate the correct distribution.
+- Fixed an issue where the csJoint module ignored the "Shear plane in threaded part" checkbox and always used the full shank area (Ab) for shear resistance calculations. The shear plane setting is now properly respected, using the tensile stress area (As) when threads are present in the shear plane.
 
-- Fixed the issue with incorrect country flags in Project Center. The flags now display correctly for all languages in the 4632 version. The problem was due to outdated country codes that had been reverted in a previous commit.
-
-- The torsion calculation was corrected so that the material factor is applied properly. The computed results now match the expected values, and the issue has been resolved.
-
+- Fixed an issue where the load transfer surface on an end wall detected only some members, and the detected set varied with polygon drawing order. The surface now consistently identifies all relevant members and allows proper selection.
 
 _**Improvements:**_
 
-- Added support for a new tapered welded I-section element type in the Descript environment. The feature introduces a command for defining welded I-sections with variable web height along the member, following the same parameter logic as the Consteel implementation.
+- Added a new option in Developer Mode to control second-order iterations within Elastic Analysis. A toggle is now available to enable or disable second-order iterations, and when activated, the setting is indicated in the header as an “Analysis overwrite,” making it clear that custom analysis behavior is applied.
 
-- Added support for defining prescribed displacement load type through Descript. The feature allows users to assign imposed displacements to supports via scripting, enabling automated definition of displacement-controlled boundary conditions.
-
-- Added stability verification for solid circular sections. An EPS model representation is now generated for round bars, enabling buckling checks using the appropriate buckling curve (“c”) with km class equal to 1.
-
-- Improved the Smart Link functionality with extended control over element orientation and eccentricity handling, including support for 0°, 90°, 180°, and 270° rotations and improved handling of local and global eccentricity directions.
-
-- Added and validated a Descript script for automated placement of flange bracing elements. The script supports mirrored placement and predefined release settings to streamline the generation of flange bracing configurations.
-
-- Uploaded Hall scripts to the Sanity system and the Script Library to ensure proper availability, centralized access, and documentation of the scripts.
-
-- Uploaded the flange bracing script to the Script Library, ensuring centralized access and availability alongside the Hall scripts for proper version control and documentation.
-
-- Improved the analysis summary reporting by clearly linking errors to the specific load cases or load combinations where they occur, ensuring more accurate and informative feedback for second-order analysis results.
-
-- Added a new release type zz,w to the system, ensuring it is correctly available in new models and integrated into the default model setup without affecting existing releases.
-
-- Improved the element count handling in ConSteel Lite by correctly accounting for generated elements from double C profiles, preventing false over-limit errors during calculation and documentation.
-
+- Fixed an issue where analysis and result handling were unexpectedly slow, causing sluggish tab switching and design result processing. Object lookup has been improved to resolve the performance problem.
 
 _**Modifications:**_
 
-- Added a confirmation prompt during the copy operation when the action would create duplicated elements. Users can choose to proceed with the duplication or cancel the operation and return to the current selection.
-
-- Modified element deletion behavior so that removing an element no longer deletes its associated line, preserving the line while maintaining proper database relationships. Additionally, in Line View, if a selection is made, only the line is selected and the bar member is not. To select the bar member, a different view must be used.
-
-
-_**Steelspace-related bug fixes:**_
-
-- Fixed the issue with opening freshly saved cloud models in Steelspace. The problem was caused by a misaligned enum in the SMADSteel export. Models saved with the corrected version now load correctly in the browser; previously saved models with the incorrect enum remain incompatible.
+- Updated the application icon to the new ConSteel 19 design, including improved transparency and better visibility across different icon sizes.
