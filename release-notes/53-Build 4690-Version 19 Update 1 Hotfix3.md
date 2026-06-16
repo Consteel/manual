@@ -28,6 +28,6 @@ _**Bug fixes:**_
 
 - Fixed an issue where the fire effect was ignored when displaying the effective cross‑section for bent‑from‑plate sections. The correct fire‑specific effective section is now shown in the Section module.
 
-- Fixed an issue where the web remained fully effective despite high slenderness, due to an iteration error that incorrectly accumulated moment deltas from centroid shifts. The effective width of the web is now correctly calculated. This error mostly affected cold-formed U sections,
+- Fixed an issue where the web remained fully effective despite high slenderness, due to an iteration error that incorrectly accumulated moment deltas from centroid shifts. The effective width of the web is now correctly calculated. This error mostly affected cold-formed U sections.
 
 - Fixed an issue where the torsional moment was not correctly drawn in some cases. The finite element calculation remained correct in this case.
