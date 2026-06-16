@@ -10,13 +10,15 @@ tags: [consteel, update]
 
 _**Bug fixes:**_
 
-- Fixed an issue where roof pitches in a user-defined standard were set to 0 degrees instead of the expected interval values. Roof angles now correctly follow the standard intervals.
+- Fixed an issue where roof pitches in a user-defined standard were set to 0 degrees instead of the expected intermediate values when wind load on the roof was calculated. Roof angles now correctly follow the standard intervals.
 
 - Fixed an issue where a progress bar would remain on screen after creating a new column base connection and closing the Joint module. The progress bar now disappears.
 
-- Fixed an issue where the rho factor for shear reduction was calculated incorrectly, resulting in an overestimated reduced plastic moment. The calculation now follows the EC3 formula and uses the maximum stress in the web quarters for improved accuracy.
+- Fixed an issue where the rho factor for shear reduction was presented incorrectly, resulting in an overestimated reduced plastic moment. The Consteel UPR method to determine the reduced plastic moment was improved to match better with the value predicted by the relevant EC3 formula.
 
-- Fixed an issue where Consteel could not save a model after running a long simulation, and simulation results were lost when saving under a new name. Additionally, saving of color palette and documentation template settings has been corrected.
+- Fixed an issue where Consteel could not save a model after running a long Falcon simulation, and simulation results were lost when saving under a new name. Additionally, saving of color palette and documentation template settings has been corrected.
+
+- Fixed an issue where Consteel could not save a model when after a model version upgrade.
 
 - Fixed an issue where Consteel crashed when running a buckling calculation in Member design. The calculation now completes without crashing.
 
@@ -26,6 +28,6 @@ _**Bug fixes:**_
 
 - Fixed an issue where the fire effect was ignored when displaying the effective cross‑section for bent‑from‑plate sections. The correct fire‑specific effective section is now shown in the Section module.
 
-- Fixed an issue where the web remained fully effective despite high slenderness, due to an iteration error that incorrectly accumulated moment deltas from centroid shifts. The effective width of the web is now correctly calculated.
+- Fixed an issue where the web remained fully effective despite high slenderness, due to an iteration error that incorrectly accumulated moment deltas from centroid shifts. The effective width of the web is now correctly calculated. This error mostly affected cold-formed U sections,
 
-- Fixed an issue where the torsional moment post‑process for UPE sections used the centroid distance instead of the shear center distance, resulting in a discontinuous torsion diagram. The torsion distribution is now correctly calculated and continuous.
+- Fixed an issue where the torsional moment was not correctly drawn in some cases. The finite element calculation remained correct in this case.
