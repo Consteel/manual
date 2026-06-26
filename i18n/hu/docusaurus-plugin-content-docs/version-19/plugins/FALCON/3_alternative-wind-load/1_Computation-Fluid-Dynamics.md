@@ -1,0 +1,10 @@
+---
+sidebar_position: 1
+---
+# Számítógépes Folyadékdinamika
+
+A Számítógépes Folyadékdinamika (CFD) a folyadékmechanika azon ága, amely a numerikus módszerek és algoritmusok alkalmazására összpontosít összetett folyadékáramlási problémák elemzéséhez és megoldásához. Magában foglalja a folyadékok viselkedésének szimulálását és megjelenítését, amely magában foglalhat folyadékokat és gázokat, ahogy azok szilárd felületekkel és más folyadékokkal kölcsönhatásba lépnek. A CFD forradalmasította azt, ahogyan a mérnökök és tudósok megértik és előrejelzik a folyadékáramlási jelenségeket, így elengedhetetlen eszközzé vált különféle iparágakban, mint például a légitechnika, az autóipar, az energetika, a környezetvédelmi mérnöki és még sok más területen.
+
+A CFD elsődleges célja a folyadékáramlások viselkedésének modellezése különböző forgatókönyvekben, a levegőáramlástól egy repülőgép szárnya körül kezdve a szennyezőanyagok légköri terjedésén át. Ahelyett, hogy kizárólag analitikai megoldásokra vagy költséges kísérletekre támaszkodnánk, a CFD lehetővé teszi a kutatók számára, hogy olyan virtuális környezeteket hozzanak létre, amelyekben különböző körülmények között szimulálhatják a folyadékok viselkedését.
+
+A CFD szimulációk parciális differenciálegyenletek numerikus megoldásával járnak. Különféle numerikus módszereket, például véges differencia, véges térfogat és végeselemek módszerét alkalmaznak az egyenletek diszkretizálásához és iteratív megoldásához. A folyadékáramlást irányító egyenletek a Navier-Stokes egyenletek, amelyek a tömegmegmaradás, a lendület és az energia megmaradását írják le. A szimuláció bonyolultságától függően további egyenletek kerülhetnek be a turbulencia, a hőátadás és egyéb tényezők figyelembevételéhez. Ez a lehetőség nem csupán időt és erőforrásokat takarít meg, hanem lehetővé teszi a mérnökök számára, hogy sokkal szélesebb körű forgatókönyveket fedezzenek fel, olyan felismeréseket nyújtva, amelyek kísérletek útján nehezen vagy egyáltalán nem lenne elérhető.
