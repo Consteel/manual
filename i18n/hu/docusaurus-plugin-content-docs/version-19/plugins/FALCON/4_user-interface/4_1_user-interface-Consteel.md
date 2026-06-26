@@ -5,34 +5,33 @@ sidebar_position: 1
 
 ![alt text](img/teheratadofelulethu.png)
 
-A szél szimulációs folyamat elkezdése előtt az első és legfontosabb lépés a **Teher átadó felületek** létrehozása, amelyeken a szimuláció végrehajtásra kerül.
+A szélszimulációs folyamat elkezdése előtt az első és legfontosabb lépés a **Teher átadó felületek** létrehozása, amelyeken a szimuláció végrehajtásra kerül.
 
 A teher átadó felületet többféleképpen is létrehozhatod:
 
 - A **Teher átadó felület** lehetőséggel a _Terhek fülön_
 - **Diafragma** létrehozásával a _Szerkezeti elemek fülön_
 
-A teher átadó felületek létrehozása után kezdődhet a szél szimulációs folyamat.
+A teher átadó felületek létrehozása után kezdődhet a szélszimulációs folyamat.
 
 ![alt text](img/falconalkapcsolatosikonokhu.png)
 
-Minden **FALCON-szél szimuláció**-val kapcsolatos funkció a _Terhek fülön_ található.
+Minden **FALCON szélszimuláció**val kapcsolatos funkció a _Terhek fülön_ található.
 
 ### 1. Meteorológiai hatások
 
 ![alt text](img/image-2.png)
 
-Az első lépés a **szél szimuláció** során a **meteorológiai hatások** meghatározása. Ehhez használd a speciálisan tervezett ikont a Terhek fülön.  
+Az első lépés a **szélszimuláció** során a **meteorológiai hatások** meghatározása. Ehhez használd a speciálisan tervezett ikont a Terhek fülön.  
 A szélterhelés szimulációhoz a **Torlónyomás** és a **Geometriai Paraméterek** meghatározása szükséges:
 
 - **Torlónyomás**:
   - Beépítettségi osztály
   - Szélsebesség alapértéke
 - **Szélteher generálás geometriai paraméterei**:
-  - Az épület méretei a fő szél irányához képest
-  - A terhelési terület pontos dimenziója nem releváns a szél szimulációban a béta verzióban.
+  - Az épület méretei a fő szélirányához képest
 
-A meteorológiai hatásokkal kapcsolatos további információkért tekintsd meg a **Terhek fejezetet** a Consteel kézikönyvben.
+A meteorológiai hatásokkal kapcsolatos további információkért tekintsd meg a **Terhek fejezet**et a Consteel kézikönyvben.
 
 ### 2. Meteorológiai felületek
 
@@ -43,10 +42,10 @@ A következő lépés a **Meteorológiai Felület** meghatározása.
 Ebben az ablakban visszatérhetsz az első lépéshez, ha rákattintasz a három pont ikonra a **Meteorológiai Hatások** mellett.
 
 :::info
-A **Standard Felület** szekció nem befolyásolja a szél szimulációt; csupán a szabványos szélgenerálást szolgálja Eurocode szerint.
+A **Szabványos felület** szekció nem befolyásolja a szélszimulációt; csupán a szabványos szélgenerálást szolgálja Eurocode szerint.
 :::
 
-A szél szimulációhoz használd az ablak utolsó szegmensét, a **Szimulációs Felület**et, és válaszd ki a megfelelő felület kategóriát:
+A szélszimulációhoz használd az ablak utolsó szegmensét, a **Szimulációs felület**et, és válaszd ki a megfelelő felület kategóriát:
 
 - **Általános** – a tervezett épület számára
 - **Akadály** – bármely környező épület számára, amely modellezve van, és hatással lehet a szél szimulációra

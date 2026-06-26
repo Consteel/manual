@@ -1,13 +1,13 @@
 ---
 sidebar_position: 3
 ---
-# FALCON-Szélteher generálása a szimulációs eredményekből
+# Szélteher generálása a szimulációs eredményekből
 
 ![alt text](img/image-10.png)
 
-Az utolsó lépésben a FALCON a szimulációs eredmények alapján generálja a terheket, amelyeket a modellben normál teherként használhatunk. Az ablak végigvezet a szélterhek generálásának folyamatán:
+Az utolsó lépésben a FALCON a szimulációs eredmények alapján generálja a terheket, amelyeket a modellben megszokott teherként használhatunk. Az ablak végigvezet a szélterhek generálásának folyamatán:
 
-- **Szél szimuláció végrehajtása**: Ha a szél szimuláció nem lett végrehajtva, használd a három pont ikont, hogy visszatérj az előző lépéshez és futtasd azt.
+- **Szélszimuláció végrehajtása**: Ha a szélszimuláció nem lett végrehajtva, használd a három pont ikont, hogy visszatérj az előző lépéshez és futtasd azt.
 
 - **Terhelés Értékelés**: A háló generálása során a véges térfogatú háló további finomításon megy keresztül, biztosítva, hogy minden véges elem háló felületén legalább négy tárolt eredmény legyen. Ez különböző eredményértékelési módszereket tesz lehetővé a terhelés konvergenciájának ellenőrzésére, és szükség esetén konzervativizmus hozzáadására.
 
