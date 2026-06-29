@@ -5,7 +5,7 @@ A szélszimulációs funkció használatához a felhasználóknak először tele
 
 A bővítmény a Consteel 18-tól kezdve kompatibilis.
 
-![alt text](<img/Dowloads 18.png>)
+![alt text](<img/Falcon_letoltes.png>)
  
 A .exe kiterjesztésű fájl letöltése után győződj meg róla, hogy bepipáltad az „OpenFOAM telepítése” jelölőnégyzetet, ha az előzőleg **nem** lett telepítve. Ezután kattints a „Tovább” gombra.
 
