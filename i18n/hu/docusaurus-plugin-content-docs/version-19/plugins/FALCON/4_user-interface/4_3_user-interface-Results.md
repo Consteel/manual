@@ -3,30 +3,42 @@ sidebar_position: 3
 ---
 # Szélteher generálása a szimulációs eredményekből
 
-![alt text](img/image-10.png)
+![alt text](img/szelteher_generalas_szimulacios_eredmenyekbol.png)
 
-Az utolsó lépésben a FALCON a szimulációs eredmények alapján generálja a terheket, amelyeket a modellben megszokott teherként használhatunk. Az ablak végigvezet a szélterhek generálásának folyamatán:
+Ebben az utolsó lépésben a FALCON a szimulációs eredményekből szélterheléseket generál, amelyek szokványos terhelésként használhatók a modellben. Az ablak végigvezet az szélterhelések generálásának lépésein:
 
-- **Szélszimuláció végrehajtása**: Ha a szélszimuláció nem lett végrehajtva, használd a három pont ikont, hogy visszatérj az előző lépéshez és futtasd azt.
+### **A. Szélszimulációs paraméterek**: 
+- Amennyiben a szélszimuláció nem fejeződött be, a három pont gombbal térj vissza az előző lépéshez és futtasd le azt.
 
-- **Terhelés Értékelés**: A háló generálása során a véges térfogatú háló további finomításon megy keresztül, biztosítva, hogy minden véges elem háló felületén legalább négy tárolt eredmény legyen. Ez különböző eredményértékelési módszereket tesz lehetővé a terhelés konvergenciájának ellenőrzésére, és szükség esetén konzervativizmus hozzáadására.
+### **B. Terhelés kiértékelése**: 
+- A hálógenerálás során a véges térfogat háló további finomítást kap, biztosítva, hogy minden végeselemháló-felület legalább négy tárolt eredménnyel rendelkezzen. Ez lehetővé teszi különféle eredménykiértékelési módszerek alkalmazását a generált terhelések konvergenciájának ellenőrzéséhez és szükség szerinti konzervatív megközelítés hozzáadásához.
 
-- **Külső Nyomáskorlátok beállítása**: Állítsd be a nyomás és szívóerő együtthatóinak felső határértékeit.
+  #### **Zónázási módszer**
+    - Az eredmények utófeldolgozásának módszere az egyenletes felületi terhelések generálásához.
 
-- **Szél és Belső Nyomás Irányok beállítása**: Állítsd be a szél- és belső nyomás irányokat a terhelés generálásához, a szimulációs eredmények alapján.
+    - A "nincs zónázás" opció lehetővé teszi a terhelések közvetlenül a végeselemhálón történő generálását.
 
-- **Generált teher típus kiválasztása - Egyenletes Felületi Terhek**:
+    - A "globális" opció egyenlő intervallumokat hoz létre az eredménytartomány teljes szélességén a "szám" beállítás alapján, ennek megfelelően osztályozza a végeselemeket, és egyesíti azokat a zónázott terhelések generálásához.
 
-  - **Háló Elemein**: Terhelések generálása közvetlenül a véges elem háló elemein.
-  
-  - **Zónákban**: Terhelések generálása a meghatározott szélzóna kategóriák számának alapján, ami zónás terheléseket eredményez.
+    - A "kategorizált" opció automatikusan hozzárendeli a szimulációs felületeket az alábbi négy kategória egyikéhez a helyi normálvektoraik és a szélirány alapján: széliránynak kitett, szél alatt, oldalsó és tetőfelület. A "globális" opcióhoz hasonlóan zónázott terheléseket generál, amelyeket a kategóriától függően validált alapértelmezett beállítások segítségével értékelnek.
 
-  - **Specifikus Zónákban**: Zónás terhelések alkalmazása a modell meghatározott részein.
+   #### **Terhelés kiértékelési paraméterek**
 
-- **Teher Generálás Futtatása**: Nyomd meg az ablak alján található "Futtatás" gombot a terhek generálásának elindításához.
+     - Paraméterek egy készlete, amelyeket a felületi terhelések meghatározásához használnak a végeselemhálóból, amely a szimuláció során kapott nyomási eredményeket tárolja.
+     - A speciális beállítások ablak a három pont gomb segítségével nyitható meg:
+       - **Teher érték definiálása** Ez a paraméter két dologra hat:
 
-Ha a szélteher generálása sikeresen befejeződik, új szélteher esetek jelennek meg a _Teher Esetek és Csoportok_ szekcióban.
+         - A hálógenerálás során a véges térfogat háló mindig extra finomítást kap, aminek eredménye, hogy minden végeselemháló-felület legalább 4 tárolt eredménnyel rendelkezik. Ez lehetővé teszi az eredmények többféle módon történő kiértékelését, a generált terhelések konvergenciájának ellenőrzését, valamint további konzervatív megközelítés hozzáadását.
 
+         - A "globális" vagy "kategorizált" zónázási módszerek használatával történő zónázott terhelés-létrehozás során egy bizonyos intervallum átlagértéke vagy maximális értéke lesz használva a terhelési érték meghatározásához.
+        
+       -  **Külső nyomási tényező határértékek** fül a szélszívás és szélnyomás határértékeit tartalmazzák.
+
+### **C. Teher generálás futtatása** 
+- Nyomd meg a **Futtatás** gombot az ablak alján a terhelések generálásának megkezdéséhez.
+
+Ha a szélterhelés generálása sikeresen befejeződik, új szélterhelési esetek jelennek meg a _Teheresetek és tehercsoportok_ szakaszban.
+ 
 ![alt text](img/image-11.png)
 
-Minden szélteher eset tartalmazza a szimulációból generált megfelelő szélterheket.
+Minden szélterhelési eset a szimulációból generált megfelelő szélterheléseket fogja tartalmazni.
