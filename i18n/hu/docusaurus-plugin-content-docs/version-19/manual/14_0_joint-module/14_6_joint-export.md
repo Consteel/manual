@@ -22,12 +22,20 @@ Az exportált .csv fájlok megnyithatók Excelben, így az adatok a felhasznál�
 ![alt text](<img/local coordinatesystemhu.png>)
  
 ### 2. IDEA StatiCa Connection
-Az IDEA StatiCa Connection (22.1, 23.0, 23.1 és 24.0 verziók) elérhető a Szerkezeti elemek fülön, a Csomópont felismerése menüpont alatt. A modellben kijelölt csomópont segítségével közvetlen kapcsolat hozható létre a két szoftver között. 
+Az IDEA StatiCa Connection elérhető a Szerkezeti elemek fülön, a Csomópont felismerése menüpont alatt (a támogatott verziókról lásd alább).
  
  ![alt text](<img/idea hu.png>)
 
 Az **IDEA StatiCa Connection** típus kiválasztása és a Létrehozás gomb megnyomása után az **IDEA StatiCa Connection** automatikusan elindul, és két új mappa jön létre azon a helyen, ahol a Consteel modell található: **IDEA JOINT** és **IDEA IOM**.
 Az új csomópont elérhető a saját mappájából (IDEA JOINT), vagy közvetlenül a Consteel modellből is, akárcsak bármely más csomópont, a **Szerkezeti elemek** fülön keresztül, a **Csomópont szerkesztő** ![alt text](img/csszerkeszto.png) ablak megnyitásával, elhelyezhető a **Csomópont elhelyezése** ![alt text](img/cselhelyezese.png) funkcióval, vagy közvetlenül a létrehozása után.
+
+:::info Verziókompatibilitás
+
+Az IDEA StatiCa 24.0.1.1233 verzióig a kompatibilitás folyamatosan fennállt. A Consteel 19 Build 4646-tól az IDEA StatiCa 25.1.3.1526 verzióval biztosított a stabil kapcsolat, korábbi IDEA StatiCa verziók ezzel a build-del már nem támogatottak. A Consteel 19 Build 4446–4603 verziókhoz az IDEA StatiCa 22.1.6.0493–24.0.1.1233 verziók tartoznak.
+
+A támogatott verziót az Opciók menü → IDEA StatiCa felület alatt lehet ellenőrizni; javasolt mindig az ajánlott verziót használni, korábbi verzióhoz szükség esetén az IDEA StatiCa support biztosít telepítőt.
+
+:::
 
 ## Teljes modell exportálása csomópontokkal
  
