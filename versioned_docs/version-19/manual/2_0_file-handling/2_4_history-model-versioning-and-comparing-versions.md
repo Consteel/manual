@@ -3,7 +3,14 @@ sidebar_position: 4
 ---
 # History (model versioning) and comparing versions
 
-In Consteel 16, you can create, view, download, edit and restore previous versions of your models as a new cloud-based service supported by Steelspace. An online connection is required to use the History function as it only works with cloud-saved models. All versioning-related actions cost bandwidth therefore using this service is only limited by the monthly storage limit of your Consteel Community Membership. **So don’t forget to save your model regularly as creating a history item and saving to the cloud are not the same!** The purpose of the History function is to preserve different states of a model that can be important for future modifications or model review.
+In Consteel 16, you can create, view, download, edit and restore previous versions of your models as a new cloud-based service supported by Steelspace. An online connection is required to use the History function as it only works with cloud-saved models. All versioning-related actions cost bandwidth therefore using this service is only limited by the monthly storage limit of your Consteel Community Membership.
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+:::warning Warning
+Don’t forget to save your model regularly, as creating a history item and saving to the cloud are not the same!
+:::
+ The purpose of the History function is to preserve different states of a model that can be important for future modifications or model review.
 
 <!-- /wp:paragraph -->
 

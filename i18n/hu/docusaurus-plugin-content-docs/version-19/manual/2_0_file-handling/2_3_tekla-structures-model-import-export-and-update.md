@@ -77,8 +77,16 @@ Az import funkció a következő _Tekla Structures_ verziókkal kompatibilis.
 - 2019, 2019i
 - 2020
 - 2021
-- 2022
-- 2023
+- 2022 – import: OK, export: OK, csomópont export: OK
+- 2023 – import: OK, export: OK, csomópont export: OK (megfelelő Tekla-környezetet használva)
+- 2026 – import: OK, export: OK
+
+:::warning Figyelem
+- Mindig megfelelő Tekla-környezetet kell használni (pl. profilkatalógus)
+- Egyetlen Tekla-példány fusson a gépen
+- Ajánljuk a legfrissebb szervizcsomag használatát
+- A Consteel programfájloknak a Program Files mappában kell lenniük, és a telepítéshez magasabb jogosultság szükséges — tehát a Consteel telepítésekor az "Install for all users" opciót kell választani, nem elegendő azt csak a saját felhasználó számára telepíteni.
+:::
 
 <!-- /wp:list -->
 
