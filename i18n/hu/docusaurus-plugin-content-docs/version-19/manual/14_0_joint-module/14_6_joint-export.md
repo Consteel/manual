@@ -31,9 +31,12 @@ Az új csomópont elérhető a saját mappájából (IDEA JOINT), vagy közvetle
 
 :::info Verziókompatibilitás
 
-Az IDEA StatiCa 24.0.1.1233 verzióig a kompatibilitás folyamatosan fennállt. A Consteel 19 Build 4646-tól az IDEA StatiCa 25.1.3.1526 verzióval biztosított a stabil kapcsolat, korábbi IDEA StatiCa verziók ezzel a build-del már nem támogatottak. A Consteel 19 Build 4446–4603 verziókhoz az IDEA StatiCa 22.1.6.0493–24.0.1.1233 verziók tartoznak.
+Az IDEA StatiCa-ban végrehajtott módosítások miatt a Consteel 19 verzióihoz az alábbi IDEA StatiCa verziók használata támogatott:
+•	Consteel 19 Build 4446–4603 – IDEA StatiCa 22.1.6.0493–24.0.1.1233
+•	Consteel 19 Build 4646-tól – IDEA StatiCa 25.1.3.1526 (a korábbi IDEA-verziók ezzel a builddel nem működnek)
 
-A támogatott verziót az Opciók menü → IDEA StatiCa felület alatt lehet ellenőrizni; javasolt mindig az ajánlott verziót használni, korábbi verzióhoz szükség esetén az IDEA StatiCa support biztosít telepítőt.
+A két verziótartomány egymással nem cserélhető fel. A 4603-as buildű Consteel nem használható az IDEA 25.1.3.1526 verziójával, és a 4646-os build sem működik a 22.1.6.0493–24.0.1.1233 közötti verziókkal.
+Az aktuális Consteel-verzióhoz támogatott IDEA-verziók listája, valamint a tesztelt verziók és a kapcsolódó tudnivalók a Beállítások → Modell beállítások → IDEA StatiCa átmenet alatt tekinthetők meg. A Consteel–IDEA Connection átmenet kizárólag az IDEA StatiCa 25.1.3 vagy újabb verziójával használható. 
 
 :::
 

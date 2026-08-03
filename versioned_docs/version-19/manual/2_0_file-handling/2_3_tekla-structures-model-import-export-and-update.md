@@ -69,8 +69,16 @@ Import function is compatible with the following versions of Tekla Structures:
 - 2019, 2019i
 - 2020
 - 2021
-- 2022
-- 2023
+- 2022 – import: OK, export: OK, joint export: OK
+- 2023 – import: OK, export: OK, joint export: OK (when using a proper Tekla environment)
+- 2026 – import: OK, export: OK
+
+:::warning Attention
+- Always use a proper Tekla environment (e.g. profile catalog)
+- Only one instance of Tekla Structures should be running on the computer
+- We recommend using the latest service pack
+- The Consteel program files must be located in the Program Files folder, and installation requires elevated privileges — therefore, when installing Consteel, the "Install for all users" option must be selected; installing it only for the current user is not sufficient.
+:::
 
 <!-- /wp:list -->
 

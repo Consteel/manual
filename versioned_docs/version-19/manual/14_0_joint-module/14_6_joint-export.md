@@ -21,13 +21,24 @@ In addition to the .csv file, two images are generated during the export:
  ![alt text](<img/Fictive joint export pictures.png>)
 
 ### 2.	IDEA StatiCa Connection
-IDEA StatiCa Connection (versions 22.1, 23.0, 23.1, and 24.0) can be accessed from the Structural Members tab under Joint Actions by selecting the joint in the model, creating a direct link between the two software programs.
+"The IDEA StatiCa Connection is available on the Structural Elements tab, under the Create joint by model menu item (see below for supported versions)."
 ![alt text](<img/Idea Statica Joint-Consteel.png>)
 
 After selecting the **IDEA StatiCa Connection** type and pressing the Create button, **IDEA StatiCa Connection** will automatically open, and two new folders will be created in the same location where the Consteel model is stored: **IDEA JOINT** and **IDEA IOM**.
 
 The new joint can be accessed from its folder (IDEA JOINT) or directly from the Consteel model, just like any other joint, via the **Structural Members** tab by opening the **Edit Joint** window.
 ![alt text](<img/Edit Joint.png>) It can also be placed in the model in the usual manner using the **Place Joint** function ![alt text](<img/Place Joint.png>) or immediately after creation. 
+
+:::info Version compatibility
+
+Due to the changes implemented in IDEA StatiCa, the following IDEA StatiCa versions are supported for Consteel 19 versions:
+•	Consteel 19 Build 4446–4603 – IDEA StatiCa 22.1.6.0493–24.0.1.1233
+•	Consteel 19 Build 4646 and later – IDEA StatiCa 25.1.3.1526 (earlier IDEA versions are not compatible with this build)
+
+The two version ranges are not interchangeable. Consteel build 4603 cannot be used with IDEA 25.1.3.1526, and build 4646 does not work with IDEA versions 22.1.6.0493–24.0.1.1233.
+The list of supported IDEA versions for the current Consteel version, along with the tested versions and related information, is available under Settings → Model Settings → IDEA StatiCa transition. The Consteel–IDEA Connection transition can only be used with IDEA StatiCa 25.1.3 or later. 
+
+:::
 
 ## Whole Model Export with Integrated Joints 
 ![alt text](<img/Idea statica chackbot.png>)
