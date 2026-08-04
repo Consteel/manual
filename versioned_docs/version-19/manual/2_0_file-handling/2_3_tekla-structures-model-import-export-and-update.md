@@ -11,6 +11,28 @@ The smooth and quick transition from the structural model to the detailing model
 
 _Consteel_ uses _Tekla_ Open API (Application Programming Interface), also known as the .NET API. This provides an interface for third-party applications to interact with the model in _Tekla Structures_. Therefore, both applications need to have to be installed and running at the same time in order to export a model from _Consteel_ to _Tekla Structures_.
 
+:::info Version compatibility
+- 19.0, 19.1 64 bit
+- 20.0, 20.1 64 bit
+- 21.0, 21.1 64 bit
+- 2016, 2016i 64 bit
+- 2017, 2017i
+- 2019, 2019i
+- 2020
+- 2021
+- 2022
+- 2023 
+- 2026 
+:::
+
+
+:::warning Attention
+- The Consteel program files must be located in the Program Files folder, because Tekla Structures model exchange requires elevated privileges. To ensure this, select the 'Install for all users' option when installing Consteel.
+- Only one instance of Tekla Structures should be running on the computer.
+- We recommend using the latest Tekla Structures service pack.
+- We recommend using a proper Tekla environment (i.e. one that includes the correct profile catalog).
+:::
+
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer -->
@@ -60,25 +82,6 @@ Import function is compatible with the following versions of Tekla Structures:
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"type":"1","className":"is-style-checked","editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
-
-- 19.0, 19.1 64 bit
-- 20.0, 20.1 64 bit
-- 21.0, 21.1 64 bit
-- 2016, 2016i 64 bit
-- 2017, 2017i
-- 2019, 2019i
-- 2020
-- 2021
-- 2022 – import: OK, export: OK, joint export: OK
-- 2023 – import: OK, export: OK, joint export: OK (when using a proper Tekla environment)
-- 2026 – import: OK, export: OK
-
-:::warning Attention
-- Always use a proper Tekla environment (e.g. profile catalog)
-- Only one instance of Tekla Structures should be running on the computer
-- We recommend using the latest service pack
-- The Consteel program files must be located in the Program Files folder, and installation requires elevated privileges — therefore, when installing Consteel, the "Install for all users" option must be selected; installing it only for the current user is not sufficient.
-:::
 
 <!-- /wp:list -->
 
