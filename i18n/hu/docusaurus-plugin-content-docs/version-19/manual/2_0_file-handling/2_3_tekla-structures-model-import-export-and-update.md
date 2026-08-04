@@ -13,6 +13,28 @@ A statikai és a szerkesztői modell közötti zökkenőmentes és gyors átmene
 
 A _Consteel_ a _Tekla_ .NET API technológiáját használja az import és export folyamatok során. Ez lehetővé teszi a _Tekla_ modellek külső programokból történő közvetlen elérését. Ennek megfelelően a kapcsolathoz mind a _Consteel_, mind a _Tekla_ szoftvereknek ugyan azon a számítógépen kell futnia.
 
+
+:::info Verziókompatibilitás
+- 19.0, 19.1 64 bit
+- 20.0, 20.1 64 bit
+- 21.0, 21.1 64 bit
+- 2016, 2016i 64 bit
+- 2017, 2017i
+- 2019, 2019i
+- 2020
+- 2021
+- 2022
+- 2023 
+- 2026 
+:::
+
+:::warning Figyelem
+- A Consteel programfájloknak a Programfájlok (Program Files) mappában kell lenniük, mivel a Tekla Structures-szel történő modellcsere magasabb jogosultságot igényel. Ehhez a Consteel telepítésekor a „Telepítés az összes felhasználónak (Install for all users)" opciót kell választani.
+- A számítógépen egyszerre csak egy Tekla Structures példány (instance) fusson.
+- Javasolt mindig a legfrissebb Tekla Structures szervizcsomagot (service pack) használni.
+- Javasolt megfelelő Tekla-környezetet (Tekla environment) használni, vagyis olyat, amely a megfelelő profilkatalógust tartalmazza.
+:::
+
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer -->
@@ -69,24 +91,6 @@ Az import funkció a következő _Tekla Structures_ verziókkal kompatibilis.
 
 <!-- wp:list {"type":"1","className":"is-style-checked","editorskit":{"indent":40,"devices":false,"desktop":true,"tablet":true,"mobile":true,"loggedin":true,"loggedout":true,"acf_visibility":"","acf_field":"","acf_condition":"","acf_value":"","migrated":false,"unit_test":false}} -->
 
-- 19.0, 19.1 64 bit
-- 20.0, 20.1 64 bit
-- 21.0, 21.1 64 bit
-- 2016, 2016i 64 bit
-- 2017, 2017i
-- 2019, 2019i
-- 2020
-- 2021
-- 2022 – import: OK, export: OK, csomópont export: OK
-- 2023 – import: OK, export: OK, csomópont export: OK (megfelelő Tekla-környezetet használva)
-- 2026 – import: OK, export: OK
-
-:::warning Figyelem
-- Mindig megfelelő Tekla-környezetet kell használni (pl. profilkatalógus)
-- Egyetlen Tekla-példány fusson a gépen
-- Ajánljuk a legfrissebb szervizcsomag használatát
-- A Consteel programfájloknak a Program Files mappában kell lenniük, és a telepítéshez magasabb jogosultság szükséges — tehát a Consteel telepítésekor az "Install for all users" opciót kell választani, nem elegendő azt csak a saját felhasználó számára telepíteni.
-:::
 
 <!-- /wp:list -->
 
