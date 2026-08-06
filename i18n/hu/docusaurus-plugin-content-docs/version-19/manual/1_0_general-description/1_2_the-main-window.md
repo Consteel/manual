@@ -510,7 +510,7 @@ az egyéni szabvány, egy már meglévő szabvány módosításával jön létre
 
 * ezután az új szabvány paraméterei megadhatók
 
-Az egyéni szabványbeállítást a program az alábbi fájlba menti: C:\\Users\\%USERNAME%_\\AppData\\Local\\ConSteel\\ver\\UserStandard.set_ (ahol a "C" különbözhet a telepítéskor használt meghajtótól függően, illetve a "ver" az aktuális Consteel verziószámát jelöli, pl. 19.0)
+Az egyéni szabványbeállítást a program az alábbi fájlba menti: C:\\Users\\%USERNAME%_\\AppData\\Local\\ConSteel\\ver\\UserStandards.set_ (ahol a "C" különbözhet a telepítéskor használt meghajtótól függően, illetve a "ver" az aktuális Consteel verziószámát jelöli, pl. 19.0)
 
 #### Súgó menü
 
