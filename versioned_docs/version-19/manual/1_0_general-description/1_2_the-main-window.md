@@ -563,7 +563,7 @@ For creating a new, user defined standard:
 - Give a new name to your defined standard and click on the green checkmark.
 - The parameters for the newly defined standard can now be changed.
 
-The user defined standards are saved to the following file: C:\\Users\\%USERNAME%_\\Documents\\Consteel\\ver\\UserStandard.xml_ (Where "C" can be different according to the install drive and "ver" has to be changed to the actual Consteel version number (e.g.:14))
+The user defined standards are saved to the following file: C:\\Users\\%USERNAME%_\\AppData\\Local\\ConSteel\\ver\\UserStandard.set_ (Where "C" can be different according to the install drive and "ver" has to be changed to the actual Consteel version number, e.g.:19.0)
 
 <!-- /wp:paragraph -->
 
