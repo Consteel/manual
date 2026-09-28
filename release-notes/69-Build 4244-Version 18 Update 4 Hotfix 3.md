@@ -5,6 +5,12 @@ title: Build 4244-Version 18 Update 4 Hotfix 3
 tags: [consteel, update]
 ---
 
+<style>{`
+  .margin-vert--md:has(> time) {
+    display: none;
+  }
+`}</style>
+
 **05-08-2025 	build 4244**
 
 

@@ -5,6 +5,12 @@ title: Build 3938-Version 18 Hotfix 4
 tags: [consteel, update]
 ---
 
+<style>{`
+  .margin-vert--md:has(> time) {
+    display: none;
+  }
+`}</style>
+
 **22-01-2025 	build 3938**
 
 

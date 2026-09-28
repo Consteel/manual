@@ -5,6 +5,12 @@ title: Build 3303-Version 17 Update 1
 tags: [consteel, update, hotfix]
 ---
 
+<style>{`
+  .margin-vert--md:has(> time) {
+    display: none;
+  }
+`}</style>
+
 **23-02-2023 	build 3303**
 
 **_Bug fixes:_**

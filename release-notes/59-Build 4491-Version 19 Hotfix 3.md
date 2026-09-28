@@ -5,6 +5,12 @@ title: Build 4491-Version 19 Hotfix 3
 tags: [consteel, update]
 ---
 
+<style>{`
+  .margin-vert--md:has(> time) {
+    display: none;
+  }
+`}</style>
+
 **18-12-2025    build 4491**
 
 

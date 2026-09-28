@@ -5,6 +5,12 @@ title: Build 3879-Version 18 Hotfix 1
 tags: [consteel, update]
 ---
 
+<style>{`
+  .margin-vert--md:has(> time) {
+    display: none;
+  }
+`}</style>
+
 **28-11-2024    build 3879**
 
 

@@ -4,6 +4,13 @@ title: Build 3523-Version 17 Update 2 Hotfix 3
 
 tags: [consteel, update]
 ---
+
+<style>{`
+  .margin-vert--md:has(> time) {
+    display: none;
+  }
+`}</style>
+
 **23-07-2024 	build 3523**
 
 **_Bug fixes:_**

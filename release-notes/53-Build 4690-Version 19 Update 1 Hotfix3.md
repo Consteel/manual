@@ -5,6 +5,12 @@ title: Build 4690-Version 19 Update 1 Hotfix 3
 tags: [consteel, update]
 ---
 
+<style>{`
+  .margin-vert--md:has(> time) {
+    display: none;
+  }
+`}</style>
+
 **12-06-2026    build 4690**
 
 

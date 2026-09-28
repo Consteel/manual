@@ -5,6 +5,12 @@ title: Build 3902-Version 18 Hotfix 2
 tags: [consteel, update]
 ---
 
+<style>{`
+  .margin-vert--md:has(> time) {
+    display: none;
+  }
+`}</style>
+
 **13-12-2024    build 3902**
 
 

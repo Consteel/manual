@@ -5,6 +5,12 @@ title: Build 3571-Version 17 Update 3
 tags: [consteel, update, hotfix]
 ---
 
+<style>{`
+  .margin-vert--md:has(> time) {
+    display: none;
+  }
+`}</style>
+
 **12-08-2024 	build 3571**
 
 **_Bug fixes:_**

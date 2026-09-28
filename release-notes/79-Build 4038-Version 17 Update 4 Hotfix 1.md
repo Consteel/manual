@@ -5,6 +5,12 @@ title: Build 4038-Version 17 Update 4 Hotfix 1
 tags: [consteel, update]
 ---
 
+<style>{`
+  .margin-vert--md:has(> time) {
+    display: none;
+  }
+`}</style>
+
 **07-03-2025 	build 4038**
 
 

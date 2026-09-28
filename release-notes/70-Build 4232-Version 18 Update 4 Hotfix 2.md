@@ -5,6 +5,12 @@ title: Build 4232-Version 18 Update 4 Hotfix 2
 tags: [consteel, update]
 ---
 
+<style>{`
+  .margin-vert--md:has(> time) {
+    display: none;
+  }
+`}</style>
+
 **28-07-2025 	build 4232**
 
 

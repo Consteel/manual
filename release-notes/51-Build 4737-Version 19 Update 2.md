@@ -7,8 +7,7 @@ tags: [consteel, update]
 ---
 
 <style>{`
-  article header time,
-  article header time + span {
+  .margin-vert--md:has(> time) {
     display: none;
   }
 `}</style>

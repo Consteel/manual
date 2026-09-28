@@ -5,6 +5,12 @@ title: Build 4568-Version 19 Hotfix 4
 tags: [consteel, update]
 ---
 
+<style>{`
+  .margin-vert--md:has(> time) {
+    display: none;
+  }
+`}</style>
+
 **23-01-2026    build 4568**
 
 

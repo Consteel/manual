@@ -5,6 +5,12 @@ title: Build 4061-Version 18 Update 1 Hotfix 2
 tags: [consteel, update]
 ---
 
+<style>{`
+  .margin-vert--md:has(> time) {
+    display: none;
+  }
+`}</style>
+
 **28-03-2025 	build 4061**
 
 

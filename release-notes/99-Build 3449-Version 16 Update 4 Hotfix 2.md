@@ -5,6 +5,12 @@ title: Build 3449-Version 16 Update 4 Hotfix 2
 tags: [consteel, update]
 ---
 
+<style>{`
+  .margin-vert--md:has(> time) {
+    display: none;
+  }
+`}</style>
+
 **13-06-2024 	build 3449**
 
 

@@ -5,6 +5,12 @@ title: Build 4356-Version 18 Update 6
 tags: [consteel, update]
 ---
 
+<style>{`
+  .margin-vert--md:has(> time) {
+    display: none;
+  }
+`}</style>
+
 **14-10-2025 	build 4356**
 
 

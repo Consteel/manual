@@ -5,6 +5,12 @@ title: Build 3866-Version 18
 tags: [consteel, update]
 ---
 
+<style>{`
+  .margin-vert--md:has(> time) {
+    display: none;
+  }
+`}</style>
+
 **21-11-2024    build 3866**
 
 

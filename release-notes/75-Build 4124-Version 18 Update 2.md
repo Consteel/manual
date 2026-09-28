@@ -5,6 +5,12 @@ title: Build 4124-Version 18 Update 2
 tags: [consteel, update]
 ---
 
+<style>{`
+  .margin-vert--md:has(> time) {
+    display: none;
+  }
+`}</style>
+
 **19-05-2025 	build 4124**
 
 

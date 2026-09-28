@@ -5,6 +5,12 @@ title: Build 4149-Version 18 Update 3
 tags: [consteel, update]
 ---
 
+<style>{`
+  .margin-vert--md:has(> time) {
+    display: none;
+  }
+`}</style>
+
 **05-06-2025 	build 4149**
 
 

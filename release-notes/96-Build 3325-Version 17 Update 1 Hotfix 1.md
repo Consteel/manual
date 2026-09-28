@@ -5,6 +5,12 @@ title: Build 3325-Version 17 Update 1 Hotfix 1
 tags: [consteel, update]
 ---
 
+<style>{`
+  .margin-vert--md:has(> time) {
+    display: none;
+  }
+`}</style>
+
 **11-03-2023 	build 3325**
 
 **_Bug fixes:_**

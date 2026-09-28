@@ -4,6 +4,13 @@ title: Build 3201-Version 17 Hotfix 1
 
 tags: [consteel, update]
 ---
+
+<style>{`
+  .margin-vert--md:has(> time) {
+    display: none;
+  }
+`}</style>
+
 **20-12-2023 	build 3201**
 
 **_Bug fixes:_**
