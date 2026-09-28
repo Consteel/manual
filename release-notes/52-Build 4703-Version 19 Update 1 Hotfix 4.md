@@ -5,6 +5,12 @@ title: Build 4703-Version 19 Update 1 Hotfix 4
 tags: [consteel, update]
 ---
 
+<style>{`
+  .margin-vert--md:has(> time) {
+    display: none;
+  }
+`}</style>
+
 **24-06-2026    build 4703**
 
 
