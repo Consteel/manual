@@ -5,6 +5,12 @@ title: Build 4646-Version 19 Update 1
 tags: [consteel, update]
 ---
 
+<style>{`
+  .margin-vert--md:has(> time) {
+    display: none;
+  }
+`}</style>
+
 **05-03-2026    build 4646**
 
 

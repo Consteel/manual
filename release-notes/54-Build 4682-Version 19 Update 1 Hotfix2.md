@@ -5,6 +5,12 @@ title: Build 4682-Version 19 Update 1 Hotfix 2
 tags: [consteel, update]
 ---
 
+<style>{`
+  .margin-vert--md:has(> time) {
+    display: none;
+  }
+`}</style>
+
 **21-05-2026    build 4682**
 
 

@@ -4,6 +4,13 @@ title: Build 3450-Version 17 Update 2 Hotfix 1
 
 tags: [consteel, update]
 ---
+
+<style>{`
+  .margin-vert--md:has(> time) {
+    display: none;
+  }
+`}</style>
+
 **14-06-2024 	build 3450**
 
 

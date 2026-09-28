@@ -5,6 +5,12 @@ title: Build 3900-Version 17 Update 4
 tags: [consteel, update]
 ---
 
+<style>{`
+  .margin-vert--md:has(> time) {
+    display: none;
+  }
+`}</style>
+
 **13-12-2024    build 3900**
 
 

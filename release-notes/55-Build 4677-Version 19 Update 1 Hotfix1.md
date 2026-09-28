@@ -5,6 +5,12 @@ title: Build 4677-Version 19 Update 1 Hotfix 1
 tags: [consteel, update]
 ---
 
+<style>{`
+  .margin-vert--md:has(> time) {
+    display: none;
+  }
+`}</style>
+
 **29-04-2026    build 4677**
 
 

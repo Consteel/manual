@@ -5,6 +5,12 @@ title: Build 4209-Version 18 Update 4
 tags: [consteel, update]
 ---
 
+<style>{`
+  .margin-vert--md:has(> time) {
+    display: none;
+  }
+`}</style>
+
 **04-07-2025 	build 4209**
 
 

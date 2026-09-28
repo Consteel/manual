@@ -5,6 +5,12 @@ title: Build 4311-Version 18 Update 5
 tags: [consteel, update]
 ---
 
+<style>{`
+  .margin-vert--md:has(> time) {
+    display: none;
+  }
+`}</style>
+
 **17-09-2025 	build 4311**
 
 

@@ -5,6 +5,12 @@ title: Build 4001-Version 18 Update 1
 tags: [consteel, update]
 ---
 
+<style>{`
+  .margin-vert--md:has(> time) {
+    display: none;
+  }
+`}</style>
+
 **13-02-2025 	build 4001**
 
 

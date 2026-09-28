@@ -5,6 +5,12 @@ title: Build 4076-Version 18 Update 1 Hotfix 3
 tags: [consteel, update]
 ---
 
+<style>{`
+  .margin-vert--md:has(> time) {
+    display: none;
+  }
+`}</style>
+
 **17-04-2025 	build 4076**
 
 

@@ -5,6 +5,12 @@ title: Build 4089 Version 18 Update 1 Hotfix 4
 tags: [consteel, update]
 ---
 
+<style>{`
+  .margin-vert--md:has(> time) {
+    display: none;
+  }
+`}</style>
+
 **05-05-2025 	build 4089**
 
 

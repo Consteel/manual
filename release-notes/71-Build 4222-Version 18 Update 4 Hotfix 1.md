@@ -5,6 +5,12 @@ title: Build 4222-Version 18 Update 4 Hotfix 1
 tags: [consteel, update]
 ---
 
+<style>{`
+  .margin-vert--md:has(> time) {
+    display: none;
+  }
+`}</style>
+
 **23-07-2025 	build 4222**
 
 

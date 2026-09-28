@@ -5,6 +5,12 @@ title: Build 3955-Version 18 Hotfix 5
 tags: [consteel, update]
 ---
 
+<style>{`
+  .margin-vert--md:has(> time) {
+    display: none;
+  }
+`}</style>
+
 **30-01-2025 	build 3955**
 
 

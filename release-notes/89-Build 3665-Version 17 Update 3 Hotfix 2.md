@@ -5,6 +5,12 @@ title: Build 3665-Version 17 Update 3 Hotfix 2
 tags: [consteel, update]
 ---
 
+<style>{`
+  .margin-vert--md:has(> time) {
+    display: none;
+  }
+`}</style>
+
 **23-09-2024 	build 3665**
 
 

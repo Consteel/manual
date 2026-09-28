@@ -5,6 +5,12 @@ title: Build 3907-Version 18 Hotfix 3
 tags: [consteel, update]
 ---
 
+<style>{`
+  .margin-vert--md:has(> time) {
+    display: none;
+  }
+`}</style>
+
 **18-12-2024 	build 3907**
 
 

@@ -5,6 +5,12 @@ title: Build 4446-Version 19
 tags: [consteel, update]
 ---
 
+<style>{`
+  .margin-vert--md:has(> time) {
+    display: none;
+  }
+`}</style>
+
 **21-11-2025    build 4446**
 
 

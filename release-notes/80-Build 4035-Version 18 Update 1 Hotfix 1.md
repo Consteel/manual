@@ -5,6 +5,12 @@ title: Build 4035-Version 18 Update 1 Hotfix 1
 tags: [consteel, update]
 ---
 
+<style>{`
+  .margin-vert--md:has(> time) {
+    display: none;
+  }
+`}</style>
+
 **06-03-2025 	build 4035**
 
 

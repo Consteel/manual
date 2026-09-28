@@ -5,6 +5,12 @@ title: Build 3494-Version 17 Update 2 Hotfix 2
 tags: [consteel, update]
 ---
 
+<style>{`
+  .margin-vert--md:has(> time) {
+    display: none;
+  }
+`}</style>
+
 **10-07-2024 	build 3494**
 
 _**Bug fixes:**_

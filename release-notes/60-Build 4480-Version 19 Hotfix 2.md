@@ -5,6 +5,12 @@ title: Build 4480-Version 19 Hotfix 2
 tags: [consteel, update]
 ---
 
+<style>{`
+  .margin-vert--md:has(> time) {
+    display: none;
+  }
+`}</style>
+
 **12-12-2025    build 4480**
 
 
