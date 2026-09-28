@@ -3,7 +3,15 @@ slug: 51-Build 4737-Version 19 Update 2
 title: Build 4737-Version 19 Update 2
 
 tags: [consteel, update]
+
 ---
+
+<style>{`
+  article header time,
+  article header time + span {
+    display: none;
+  }
+`}</style>
 
 **05-08-2026    build 4737**
 
