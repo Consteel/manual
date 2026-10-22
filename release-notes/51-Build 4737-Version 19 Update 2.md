@@ -20,3 +20,7 @@ _**Bug fixes:**_
 - Compatibility with the latest Tekla Structures 2026 release has been restored, enabling full interoperability and model exchange between the two systems.
 
 - Fixed an issue where the web tapered welded I / H member finite element produced mismatched beam segment shapes at a frame corner. Frame corner geometry is now calculated correctly.
+
+_**Improvements:**_
+
+French language is now available for the user interface.
